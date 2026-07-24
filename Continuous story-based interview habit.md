@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Two-week recruiting test for interview supply]]
 
 Establish a standing weekly interview cadence with people who run discovery, using story-based past-behavior questions ("tell me about the last time you decided what to build"), with an automatic recruiting channel so the interviews happen whether or not anyone remembers to schedule them. Transcripts land in the inbox as evidence.
 
