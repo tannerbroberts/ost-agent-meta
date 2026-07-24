@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-opp-stakeholder-progress-view.md'
 created: '2026-07-24'
 ---
 #Opportunity #unvalidated #needs-customer-interview
+[[Push digest where stakeholders already are]]
 
 **The need (customer's voice):** "I want to know where this thing stands — what it learned, what changed, what it's about to do — without opening a vault, learning a graph view, or reading Markdown files I didn't write."
 
