@@ -6,6 +6,7 @@ created: '2026-07-24'
 ---
 #Opportunity #unvalidated #needs-customer-interview #reframed-from-solution-input
 [[Split the cartographer loop from the builder loop]]
+[[Evidence-debt gate before building]]
 
 **The need (customer's voice):** "Whenever there is code to write, everything else stops. Nobody is asking whether we are building the right thing — the asking loses to the building every single time, and I only notice months later."
 
