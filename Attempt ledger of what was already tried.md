@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Paired ideation run with and without the ledger]]
 
 A durable record of every solution considered, every test proposed or run, what it cost, and what happened — consulted before ideating, so the agent stops re-proposing what has already been ruled out and can say "we tried this in March, here is what we learned."
 
