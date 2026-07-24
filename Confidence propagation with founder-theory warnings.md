@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Paper test of the confidence roll-up rule]]
 
 Roll evidence strength up the tree: a branch is only as believable as its weakest load-bearing input, and the tree surfaces that — "this entire branch rests on founder theory", "this opportunity has no non-founder source" — wherever the branch is read or acted on.
 
