@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Pre-order probe - will anyone pay before the map proves itself]]
 
 Open a self-serve trial that anyone can start, instrument what they actually do (first tree created, evidence ingested, return visits, passes completed), and place a real price in the path — a paid tier or pre-order — so that money and retention become observable rather than asserted.
 
