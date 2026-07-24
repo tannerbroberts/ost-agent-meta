@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Acceptance rate of five self-drafted ruleset changes]]
 
 When the agent hits the same friction repeatedly, it drafts the change to its own ruleset as a reviewable proposal — with the friction evidence attached — that a human accepts or rejects in one action. The agent keeps running the old workflow until then.
 
