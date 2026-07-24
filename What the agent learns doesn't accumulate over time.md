@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-founder-theory-compression.md'
 created: '2026-07-24'
 ---
 #Opportunity #unvalidated #needs-customer-interview
+[[Scheduled re-synthesis of the whole tree]]
 
 **The need (customer's voice):** "It is good at finishing a task today and useless at being smarter about my product six months from now. Every run starts over — I am the only thing carrying continuity, and I forget."
 
