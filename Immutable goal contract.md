@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Unprompted-fear interviews about leaving it running]]
 
 The outcome is a locked contract: no autonomous process can alter it, any proposed change is raised as a visible question for a human, and every pass records which goal it ran against so drift is auditable after the fact.
 
