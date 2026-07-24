@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Timed side-by-side judgement of canary output]]
 
 Run the modified process alongside the current one over the same inputs, put the two outputs side by side, and let a human adopt or discard based on the comparison — no interruption, because the old process never stops.
 
