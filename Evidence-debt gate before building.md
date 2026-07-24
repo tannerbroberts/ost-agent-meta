@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Can riskiest-assumption-tested be judged mechanically]]
 
 Work cannot start on a solution whose riskiest assumption is untested — the request is held and the missing test surfaced instead. Building stays possible, but only downstream of evidence.
 
