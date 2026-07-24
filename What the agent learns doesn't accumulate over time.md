@@ -18,3 +18,6 @@ created: '2026-07-24'
 **Provenance caveat:** This is founder theory, explicitly labelled observational and sitting at the floor of the believability ladder. It is the most speculative node in the tree and should be the first thing external data either grounds or kills.
 
 Evidence: `INBOX:2026-07-24-founder-theory-compression.md`
+
+## Issues
+- 2026-07-24 Rests entirely on founder theory (agent-flagged, 2026-07-24 pass). This opportunity is derived from a note the founder explicitly labelled observational and placed at the floor of the believability ladder — the claim that intelligence is compression and that long-horizon accumulation is the scarce capability. It is the most speculative branch in the tree and currently has no external support whatsoever. Three solutions and three assumption tests now hang beneath it; all of that structure inherits the same floor-level believability. A human should decide whether to ground this theory before investing in the branch, or to treat the branch as deferred until external data speaks to it.
