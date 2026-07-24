@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-opp-self-replacing-workflow.md'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Would operators accept unattended self-modification]]
 
 The agent's own processes are versioned artefacts. Updates are applied at a safe checkpoint between passes, the running system restarts onto the new version without losing its place, and a bad version rolls back to the last known-good one automatically.
 
