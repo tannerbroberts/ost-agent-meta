@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Twenty-question grounding check for answer faithfulness]]
 
 Let a stakeholder simply ask — "what's the strongest evidence we have?", "what changed this week?", "why is this branch still unvalidated?" — and get an answer grounded in the tree, with links to the nodes it came from.
 
