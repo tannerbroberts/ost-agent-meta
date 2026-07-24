@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Critic pass rated for actionability]]
 
 A separate reviewer pass whose only job is to attack the tree: for each node, state the strongest case that it is wrong, name what evidence would settle it, and annotate the node with what is missing. It never writes new opportunities and never removes anything — it lowers unearned confidence.
 
