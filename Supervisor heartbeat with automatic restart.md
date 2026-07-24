@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Replay historical runs against a stall definition]]
 
 A watchdog outside the agent tracks liveness, restarts stalled or crashed passes, and publishes a plain signal of whether the process is alive and when it last made progress — so "is it still running?" is answerable without inspecting anything.
 
