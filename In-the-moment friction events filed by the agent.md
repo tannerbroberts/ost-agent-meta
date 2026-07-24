@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Five-pass count of self-filed friction events]]
 
 Give the agent a way to file a small structured note the moment it is blocked, uncertain about a rule, or forced to guess — one line, at the point of pain, while the context is still live.
 
