@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-opp-idempotent-runtime.md'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Kill-at-random-points restart test]]
 
 Every process step records its intent and its completion in an append-only journal, and every write is atomic. A restart replays the journal, skips what already completed, and resumes — no locks to get stuck, no half-written state, killing the process at any instant is safe.
 
