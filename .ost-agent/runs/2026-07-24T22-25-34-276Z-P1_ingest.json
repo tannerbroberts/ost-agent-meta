@@ -1,0 +1,18 @@
+{
+  "processId": "P1_ingest",
+  "title": "Ingest",
+  "at": "2026-07-24T22:25:34.276Z",
+  "result": {
+    "created": 0,
+    "linked": 0,
+    "annotated": 0,
+    "evidence": 4,
+    "toolCalls": [],
+    "notes": [
+      "inbox: +3 evidence",
+      "transcript: +1 evidence"
+    ]
+  },
+  "done": true,
+  "error": null
+}
