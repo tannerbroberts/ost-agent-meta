@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-opp-two-loop-split.md'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Can a builder work from the map without ideating]]
 
 Two loops with separate mandates. The cartographer reads evidence, maintains the map, and never writes code. The builder reads the map, builds, and files what it learns back into the cartographer's inbox as evidence. Hunger lives in the cartographer; hands live in the builder.
 
