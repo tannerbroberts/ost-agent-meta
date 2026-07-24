@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Cold-offer test - will outside teams hand over real discovery work]]
 
 Recruit a small number of teams already doing product discovery and run the OST-Agent *for* them — manually, over their real evidence, with the founder doing whatever the product can't yet do. Their tree, their outcome, their decisions.
 
