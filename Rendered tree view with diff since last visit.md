@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-opp-stakeholder-progress-view.md'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Five-minute orientation task on a static mock]]
 
 A read-only rendered view of the tree — outcome at the root, opportunities sized and coloured by evidence strength, solutions and tests beneath — that highlights everything added or changed since that person last looked.
 
