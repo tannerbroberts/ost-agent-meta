@@ -9,6 +9,7 @@ created: '2026-07-24'
 [[What the agent struggles with every session disappears]]
 [[Concierge design-partner cohort]]
 [[Instrumented public trial with a willingness-to-pay probe]]
+[[Continuous story-based interview habit]]
 
 **The need (customer's voice):** "Everything I know about whether this product is wanted comes from me or from a model agreeing with me. I have no signal from a person who isn't already invested in it being a good idea."
 
