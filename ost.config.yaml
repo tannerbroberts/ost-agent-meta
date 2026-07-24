@@ -10,6 +10,10 @@ adapters:
   inbox:
     enabled: true
     path: .ost-agent/inbox  # drop notes here; kept out of the vault root so Obsidian's graph shows only OST nodes
+  transcript:
+    enabled: true           # the agent's own finished sessions, harvested as usage evidence (observed behavior, not demand)
+    projectDir: /Users/tanner/dev/OST-Agent
+    quietMinutes: 30        # never harvest a session that is still being written to
   atlassian:
     enabled: false
     projects: []
