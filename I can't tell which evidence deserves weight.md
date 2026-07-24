@@ -7,6 +7,7 @@ created: '2026-07-24'
 #Opportunity #unvalidated #needs-customer-interview
 [[Believability ladder required on every node]]
 [[Confidence propagation with founder-theory warnings]]
+[[Adversarial grounding judge]]
 
 **The need (customer's voice):** "A note I wrote to myself at midnight and a paying customer renewing look the same once they're in the system. I can't see which parts of the map are load-bearing and which are just me."
 
