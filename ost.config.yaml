@@ -1,0 +1,26 @@
+# OST-Agent configuration
+outcome: "Ground the OST-Agent product in real EXTERNAL evidence: relentlessly increase the quantity and believability of validated, non-founder data about demand and usage, compress it into a trustworthy, ever-improving map from where the product is today to the metric we want to move, and keep that map compounding — so that goal + compute alone drive discovery and buildout, and stakeholders can trust the goal will not change and the process will not halt."   # the steering mandate (human-set; tune with `ost-agent set-outcome`)
+outcomeTitle: "OST-Agent (meta)"   # stable label for the root node (rarely changed)
+model: claude-opus-4-8
+
+remote:
+  enabled: false            # default: local-only, no push. Set url + enabled to push.
+
+adapters:
+  inbox:
+    enabled: true
+    path: .ost-agent/inbox  # drop notes here; kept out of the vault root so Obsidian's graph shows only OST nodes
+  atlassian:
+    enabled: false
+    projects: []
+    spaces: []
+  slack:
+    enabled: false
+    channels: []
+
+processes:
+  P1_ingest:      { cron: "*/15 * * * *", triggers: ["inbox:new"] }
+  P2_map:         { cron: "",             triggers: ["after:P1_ingest"] }
+  P3_ideate:      { cron: "0 */6 * * *",  triggers: ["after:P2_map"], minSolutionsPerOpportunity: 3 }
+  P4_assumptions: { cron: "",             triggers: ["after:P3_ideate"] }
+  P5_hygiene:     { cron: "0 3 * * *",    triggers: [] }

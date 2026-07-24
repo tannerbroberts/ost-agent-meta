@@ -1,0 +1,17 @@
+{
+  "processId": "P0_bootstrap",
+  "title": "Bootstrap",
+  "at": "2026-07-24T19:25:04.265Z",
+  "result": {
+    "created": 1,
+    "linked": 0,
+    "annotated": 0,
+    "evidence": 0,
+    "toolCalls": [],
+    "notes": [
+      "created Outcome \"OST-Agent (meta)\""
+    ]
+  },
+  "done": true,
+  "error": null
+}
