@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Backdated half-life comparison for staleness flags]]
 
 Evidence ages. A node whose supporting evidence has not been refreshed loses weight over time and eventually surfaces as "this hasn't been checked in months — is it still true?", so the map reflects the world now rather than the world when it was written.
 
