@@ -1,0 +1,1 @@
+Founder-stated opportunity (founder-origin; unvalidated). "How does the OST-Agent tasked with the OST OF the OST-Agent replace parts of its own workflow as it is running?" Likely mechanism: scheduled update, rollback strategy, and restart of the system — so the running system can improve itself without a human in the loop and without losing continuity.

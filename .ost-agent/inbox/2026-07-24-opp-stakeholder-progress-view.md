@@ -1,0 +1,1 @@
+Founder-stated opportunity (founder-origin; unvalidated). "Human stakeholders need a maximally impactful method of understanding the current progress." The filesystem + Obsidian graph view should become only ONE optional way to view the tree, not the primary interface — the tree's value is the compounding map, not the storage format.

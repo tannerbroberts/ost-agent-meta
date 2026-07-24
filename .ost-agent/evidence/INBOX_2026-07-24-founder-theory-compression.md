@@ -1,0 +1,8 @@
+---
+id: 'INBOX:2026-07-24-founder-theory-compression.md'
+source: 'INBOX:2026-07-24-founder-theory-compression.md'
+title: 2026-07-24-founder-theory-compression
+timestamp: '2026-07-24T19:25:04.425Z'
+---
+Founder theory (observational; believability = floor of the ladder — to be grounded by external data).
+Intelligence is compression. An AI system with a goal can compress "how the world works" into an accurate mapping of actions -> world-state change toward that goal. The OST is meant to be the receptacle for those world-inputs so that mapping can be built — but it is useless if nothing is fed in. Current models already excel at short-horizon goal completion; the scarce, compounding capability is long-term collection and arrangement of information so it compounds. A model's or founder's signoff cannot be trusted ("one man's opinion"); only real-world data grounds the map.
