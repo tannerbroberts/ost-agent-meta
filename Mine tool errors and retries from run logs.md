@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Thirty-day log sample for existing signal]]
 
 Derive friction from machine records instead of prose: failed tool calls, retried operations, validation rejections, abandoned passes, time-to-complete per process, commits reverted. Aggregate across runs and surface the recurring ones.
 
