@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Labelled-vs-unlabelled branch comparison]]
 
 Make every node carry an explicit evidence class on a fixed ladder — money/retention > observed behavior > stated intent > expert opinion > founder or model assertion — and refuse to accept a node without one. The class is visible everywhere the node appears.
 
