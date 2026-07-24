@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Three reserved discovery passes rated for usefulness]]
 
 Reserve a fixed share of compute and schedule for discovery that build work cannot spend, on a recurring cadence. Discovery happens because the budget exists, not because someone chose it over shipping.
 
