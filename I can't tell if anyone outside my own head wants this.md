@@ -6,6 +6,7 @@ created: '2026-07-24'
 ---
 #Opportunity #unvalidated #needs-customer-interview
 [[I can't tell which evidence deserves weight]]
+[[What the agent struggles with every session disappears]]
 
 **The need (customer's voice):** "Everything I know about whether this product is wanted comes from me or from a model agreeing with me. I have no signal from a person who isn't already invested in it being a good idea."
 
