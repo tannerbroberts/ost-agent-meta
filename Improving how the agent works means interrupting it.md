@@ -18,3 +18,6 @@ created: '2026-07-24'
 **Placement note for a human:** This plausibly nests under *"What the agent learns doesn't accumulate over time"* (self-improvement as compounding) as well as here (continuity of unattended operation). Placed here because the felt pain is interruption; flagged rather than double-linked. A human should confirm the parent.
 
 Evidence: `INBOX:2026-07-24-opp-self-replacing-workflow.md`
+
+## Issues
+- 2026-07-24 Ambiguous parent (agent-flagged, 2026-07-24 pass). This opportunity fits two plausible parents: "I can't leave the process running unattended without worrying" (chosen — the felt pain is interruption of an unattended system) and "What the agent learns doesn't accumulate over time" (self-improvement as a form of compounding). Placed under the former and flagged rather than double-linked or duplicated, per the single-best-fit-parent rule. A human should confirm or re-parent.
