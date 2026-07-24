@@ -5,6 +5,7 @@ source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Three-week digest engagement run]]
 
 After each pass, send a short digest to wherever the stakeholder already reads things — what changed, what it means for the outcome, and the one or two decisions or tests the agent needs from a human. No new place to visit.
 
