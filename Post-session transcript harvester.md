@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-opp-transcript-ingestion.md'
 created: '2026-07-24'
 ---
 #Solution #unvalidated
+[[Hand-distil three past sessions]]
 
 After each run, read the agent's own chat transcript, distil the questions, uncertainties, stalls and dead ends it hit, and drop them into the inbox as evidence for the next pass.
 
