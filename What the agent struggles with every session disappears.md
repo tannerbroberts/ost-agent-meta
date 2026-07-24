@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-opp-transcript-ingestion.md'
 created: '2026-07-24'
 ---
 #Opportunity #unvalidated #needs-customer-interview
+[[Post-session transcript harvester]]
 
 **The need (customer's voice):** "The agent gets confused, asks the same question again, stalls on the same step — and all of that is thrown away when the session ends. The clearest usage data this product has ever produced is being deleted every day."
 
