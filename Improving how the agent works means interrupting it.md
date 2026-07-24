@@ -6,6 +6,7 @@ created: '2026-07-24'
 ---
 #Opportunity #unvalidated #needs-customer-interview #placement-ambiguous
 [[Versioned workflow with scheduled hot-swap and rollback]]
+[[Canary the changed process against the old one]]
 
 **The need (customer's voice):** "Every time I want the agent to work a little differently, I have to stop it, change it, and start it over — and I lose the thread of what it was doing. So I put off improvements, and it keeps working the old way."
 
