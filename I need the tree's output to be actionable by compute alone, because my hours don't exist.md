@@ -12,6 +12,7 @@ evidence: assertion
 [[Weekly ten-minute docket - every pending decision arrives prepared as one yes or no]]
 [[Scheduled ambient passes that page the operator only at hard gates]]
 [[Leave a permanent test behind instead of a one-off verdict draft]]
+[[Every run ends blocked on a credential only I hold]]
 
 **The need (operator's voice):** "I'm a working man, husband, and father of three, soon to be four. I prioritize my family, but there's no excuses that build new products. The output from my OST needs to be actionable by me pointing my Claude subscription's token generation power at the problem. I need better bootstrappability from the agent with less involvement from me."
 
@@ -51,3 +52,7 @@ It also sharpens what the lane triage is for. The saving is not the fifteen minu
 **The honest limit, recorded so this is not read as more than it is.** No defect was found, so the run produced no news. A verification lane that only ever confirms is cheap to run and worth very little; the case that matters is one where compute finds something and a human has to decide what it means. That case has not happened yet.
 
 **Second confirmation of the fifth floor item, and it is now a pattern rather than an incident.** `npm publish` was again unavailable (`npm whoami` → `ENEEDAUTH`), and the tag push was again rejected by the environment's git proxy — the same two failures, in the same order, in consecutive runs. v0.5.0 and now v0.6.0 both sit on `main` and neither is on the registry. Two releases of unpublished work is no longer a stall, it is a growing backlog behind one credential, and every pass that ships more code makes the eventual publish larger and less reviewable. The choice named last pass — grow a *pending permissions* lane, or push credential-holding steps out of the loop's path (an automation token in CI, triggered by something compute can reach) — is now overdue rather than open. The agent has not acquired publish rights and will not.
+
+## Evidence (mapped 2026-07-25)
+
+`INBOX:2026-07-24-builder-loop-stopping-blocked-on-one-human-test.md` — after five builder passes: 24 solutions, 0 tested, every candidate gate-BLOCKED, and by the system's own rules no agent may run a test. The entire loop halted on one half-day human action (hand-rating three sessions). The binding constraint was not engineering capacity but a single human-only step — the sharpest observed instance of this need. See child [[Every run ends blocked on a credential only I hold]] for the release-shaped instance.

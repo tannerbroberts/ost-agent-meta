@@ -17,3 +17,7 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+
+## Founder theory recorded against this need (mapped 2026-07-25, assertion rung)
+
+`INBOX:2026-07-24-founder-theory-generic-kernel-cost-curves.md` — the founder's universality claim: one generic kernel lets anybody map from where they are to where they want to be, with goal-ambition setting the compute cost (discovery ~ O(frontier), execution ~ O(distance)). If true, "who is this for" widens far beyond product discovery; the nearest cheap test of universality is a second domain (the tetrix vault). Held at assertion — founder theory, no evidentiary weight until laddered; the cost-curve conjecture is chartable mechanically (frontier width vs spine height across both live vaults over time). Flag for human distillation: whether to open a distinct universality opportunity or keep it fused with this one.

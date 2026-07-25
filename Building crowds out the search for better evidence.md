@@ -25,3 +25,7 @@ Evidence: `INBOX:2026-07-24-opp-two-loop-split.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Evidence (mapped 2026-07-25)
+
+`INBOX:2026-07-24-builder-evidence-debt-gate-verdict.md` — the evidence-debt gate, once built, blocked every solution in this tree (24 proposed-only, 0 tested), including the three the loop itself had already shipped: each was built before any assumption beneath it was tested. The opportunity's claim ("the asking loses to the building every single time") reproduced inside the loop meant to fix it, in one afternoon. Also splits the gate's judgeability: "something was tested" is mechanical; "the riskiest thing was tested" is not — relevant to [[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]].

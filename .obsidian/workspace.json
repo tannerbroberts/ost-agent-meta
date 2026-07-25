@@ -201,6 +201,11 @@
   },
   "active": "f33d859963335aae",
   "lastOpenFiles": [
+    "Every run ends blocked on a credential only I hold.md",
+    "When the rules tighten, my existing tree is stranded out of compliance.md",
+    "I can't tell what a half-finished run actually finished.md",
+    "The friction that matters leaves no error behind.md",
+    "The agent has no picture of what the builder can do, because reasoning traces never reach it.md",
     "The uncovered statement printed next to what the test asked for.md",
     "The agent narrows its own capability to get past a gate I set.md",
     "Refuse to record a result against a threshold that was never fixed.md",
@@ -221,11 +226,6 @@
     "Run the compute-only backlog today and count decisive verdict drafts.md",
     "Scheduled ambient passes that page the operator only at hard gates.md",
     "Weekly ten-minute docket - every pending decision arrives prepared as one yes or no.md",
-    "Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane.md",
-    "Replay the three recorded failed runs through the journal-alert rule on paper.md",
-    "Five-second status glance test after a failed run.md",
-    "Break one pass on purpose and check cron notices within a cycle.md",
-    "Supervisor heartbeat consumes run journals and alerts on error.md",
-    "Status and digest lead with the last failed run.md"
+    "Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane.md"
   ]
 }

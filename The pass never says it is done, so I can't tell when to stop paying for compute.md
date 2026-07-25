@@ -43,3 +43,11 @@ _Provenance: `.ost-agent/state/mapped.json` behaviour in this vault (confirmed i
 2. **The counter cannot read governance.** `INBOX:2026-07-25-friction-ost-next-work-demands-solutions-under-7-opportun.md`: 7 opportunities carry explicit evidence-debt/prioritization gates, but underservedOpportunities re-demands solutions under them every pass, forever. A governed pass and a quota-filling pass see the same number; done:true is unreachable by design either way.
 
 Both are observed-rung, machine-recorded. Between them and the original mapped-ledger dead-end, this opportunity now has three independent mechanisms.
+
+## Evidence: three mechanisms observed (mapped 2026-07-25)
+
+- `INBOX:2026-07-25-friction-ost-next-work-demands-solutions-under-7-opportun.md` — the underserved counter cannot read governance gates, so 7 gated opportunities are re-demanded every pass, forever; done:true is unreachable by design for a governed agent.
+- `INBOX:2026-07-25-friction-passes-8-through-13-produced-zero-structure-whil.md` — six consecutive passes reported identical outstanding work and produced zero structure; a governed agent idles, an ungoverned one would confabulate, and nothing in the loop says stop.
+- `INBOX:2026-07-25-friction-upgrading-the-cli-silently-reopened-18-mapped-ev.md` — done-ness is not stable across versions: 0.1.3 said 9 unmapped, HEAD said 27, because mapped-ness switched to a ledger no pass had ever written.
+
+Together: "done" is undefined against governance, against idleness, and against upgrades — three independent ways the meter never stops.

@@ -26,3 +26,7 @@ _Provenance: INBOX:2026-07-22-safety-requirement.md (design spec, trust model, 2
 
 ## Issues
 - 2026-07-25 Absorbed sibling 'Want proof no hijackable capability even exists' (2026-07-24, human-authorized merge of a self-flagged duplicate pair). Gained its three solutions: Allowlist Tool Runner, Published capability manifest, Prompt-injection red-team harness. Its solution set now spans restraint (append-only/git/no-push) AND capability-absence (allowlist/manifest/red-team) — compare across, not within, those two philosophies.
+
+## Realized instance (mapped 2026-07-25)
+
+`INBOX:2026-07-25-friction-an-empty-annotation-is-recorded-rather-than-refu.md` — the fear materialized in inverted form: not deletion but permanent garbage. ost_annotate accepted an undefined issue string and wrote literal `undefined` into the tetrix-ost root's append-only history twice; the damage is permanent and the intent unrecoverable. The need extends to write-time refusal of degenerate input: an append-only design makes *bad writes* as irreversible as deletions would be.
