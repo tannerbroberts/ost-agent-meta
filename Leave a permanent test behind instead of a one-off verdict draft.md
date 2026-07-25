@@ -28,3 +28,17 @@ Both routes cost the same compute and produce the same finding today. They diffe
 **Cheapest disconfirmer.** Take three compute-only tests from the existing backlog that plausibly have an executable form. Have compute produce both artefacts for each — a verdict draft and a test — and put the six in front of the operator cold. If the drafts are as useful as the tests, this node is decoration and the lane triage alone is enough.
 
 ⚠️ Unvalidated. Proposed by an agent, from a single instance of its own behaviour on another product.
+
+## Second instance — 2026-07-25, second pass (agent-origin; still not validation)
+
+This node was proposed from a single instance of an agent's own behaviour. There are now two, and the second one sharpens both the claim and the risk.
+
+**What happened.** A loop was pointed at the tetrix assumption test *Does the beacon actually fire from a real browser* — the node this idea's first instance had itself split off. It could have driven the browser once, read the numbers, and written a paste-ready verdict line. It instead committed `e2e/visitorFunnel.spec.ts`: a real Chromium against a real Postgres, re-run by `pnpm test:e2e:funnel`. Same compute, same finding today, different tomorrow.
+
+**The claim gets a data point it did not have.** The first instance found no defect, and the honest limit recorded on the parent opportunity was that *a verification lane which only ever confirms is worth very little*. This one produced something: the app wraps its tree in `StrictMode`, so the arrival beacon goes out **twice per page load** in dev. Harmless — the server keeps one row and production fires once — but it means any beacon count read off a dev server is 2×.
+
+The interesting part is where it came from. **The test did not fail; writing the test found it.** The finding arrived while the author was deciding what to assert, and the decision it forced — assert *per load* rather than an exact total — is now permanent. A verdict draft would have recorded a number and lost the reason. This is a mechanism the node had not named: the artefact is durable, and so is the *reasoning* about what counts as correct, because a test has to say so out loud.
+
+**The risk this node named came true again, in exactly the shape predicted.** The body warned that a test encoding a partial threshold is worse than a draft encoding one, because its greenness reads as ongoing confirmation. That is precisely what happened: this test covers the arrival beacon and *not* the play beacon, and the pass again had to split a node (tetrix-ost, "Does a real drag report a first play") to stop a green suite reading as a verified instrument. **Twice out of two runs, the honest move was to split the node.** That is no longer a caveat, it is the pattern — and it suggests whatever this becomes should make "what this test does NOT cover" a required field, not a habit an agent has to remember.
+
+**What this still is not.** Two instances of an agent choosing the same thing about its own work. Nobody outside this building has expressed a preference between a test and a verdict draft, and the cheapest disconfirmer below — six cold artefacts in front of an operator — remains unrun.
