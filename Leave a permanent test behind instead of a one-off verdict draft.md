@@ -42,3 +42,43 @@ The interesting part is where it came from. **The test did not fail; writing the
 **The risk this node named came true again, in exactly the shape predicted.** The body warned that a test encoding a partial threshold is worse than a draft encoding one, because its greenness reads as ongoing confirmation. That is precisely what happened: this test covers the arrival beacon and *not* the play beacon, and the pass again had to split a node (tetrix-ost, "Does a real drag report a first play") to stop a green suite reading as a verified instrument. **Twice out of two runs, the honest move was to split the node.** That is no longer a caveat, it is the pattern — and it suggests whatever this becomes should make "what this test does NOT cover" a required field, not a habit an agent has to remember.
 
 **What this still is not.** Two instances of an agent choosing the same thing about its own work. Nobody outside this building has expressed a preference between a test and a verdict draft, and the cheapest disconfirmer below — six cold artefacts in front of an operator — remains unrun.
+
+## Third instance, 2026-07-25 (autonomous loop, pass 4)
+
+A third compute run on tetrix converted a verification into a committed test
+(`tetrix-game-monorepo` `39f5813`, a real drag at the play beacon). It is the
+strongest instance so far, and for a reason none of the first two showed:
+
+**The test's own construction produced two findings the verdict route would not
+have.**
+
+1. *A real bug, fixed.* Setting the test up needed a saved game cleared between
+   runs. Doing that made `saveEngineState` throw on `one_stats_per_user` — its
+   no-existing-game branch reseeds `statistics` with no `ON CONFLICT`, unlike the
+   `settings` and `modifiers` inserts two lines below. That branch runs whenever
+   there is no saved game, which is *not* the same as the player being new, so any
+   cleared save locks that player out of `REQUEST_STATE` and `REQUEST_RESYNC`
+   entirely. Fixed with three tests that fail without it. A verdict draft would
+   never have gone near that code path.
+2. *A framing kill.* Looking for the signed-out drag surface established there
+   isn't one — so a sibling assumption test in that vault
+   (*does a stranger who lands on a board page play it*) is unanswerable as
+   written, and the funnel's headline ratio measures a later conversion than
+   everyone had been reading it as.
+
+**This sharpens the claim rather than just repeating it.** The first two instances
+argued a test survives where a verdict decays. This one argues something stronger
+and more falsifiable: *writing* the test forces contact with the real code path, and
+that contact is where the findings come from. Neither finding above came from a test
+failing. Both came from making one work.
+
+**The risk this node named is now partly mechanical.** It warned that a test
+encoding the wrong threshold is worse than a verdict doing so, and that whatever
+gets built must make splitting a node cheap "rather than depending on an agent
+noticing". v0.8.0's
+[[A result must state what it did not cover]] is that, in its smallest form.
+
+**Still one source.** Three instances, all of an agent choosing this about its own
+work, all inside this building. The cheapest disconfirmer —
+[[Do six cold artefacts show a test beating a verdict draft]] — remains unrun, and
+three self-observations do not substitute for one outsider.

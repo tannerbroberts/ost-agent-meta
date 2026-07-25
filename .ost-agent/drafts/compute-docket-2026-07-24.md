@@ -77,3 +77,65 @@ external-demand branch lives here, irreducibly).
 Cold-offer sourcing sweep: name network exclusions, or say "go" and prune the list
 after. Your compressed share of that test is now ~45 minutes (sourcing, all 20
 personalization drafts, tracking, filing, and verdict prep are compute).
+
+---
+
+## Addendum, 2026-07-25 (autonomous loop, pass 4) — the commands above will now be REFUSED
+
+**Nothing above is retracted.** But `ost-agent` v0.8.0 made `--uncovered` a required
+argument on `ost-agent result`, so all three commands as drafted will be rejected
+before they write anything. The originals are left verbatim; corrected versions follow.
+
+That the agent's own release broke the human task that had been waiting four
+briefings is worth noticing rather than smoothing over — it is recorded as such in
+`NEXT-BUILD.md` §6.
+
+### 1 (corrected) — SUPPORTED ✅
+
+```bash
+ost-agent result "Replay the three recorded failed runs through the journal-alert rule on paper" \
+  --verdict supported --note "14 journals replayed: 1/1 failures caught, 0/13 healthy misclassified" \
+  --by "Tanner" --evidence observed \
+  --uncovered "a paper replay of journals that already exist; says nothing about whether the rule fires in a live supervisor, and rests on a single real failure — one auth error, one failure mode" \
+  --vault ~/ost-agent-meta
+```
+
+### 2 (corrected) — REFUTED ❌ (kill)
+
+```bash
+ost-agent result "Audit both vault histories for rename-shaped link breaks" \
+  --verdict refuted --note "0 rename incidents beyond the known non-rename across both vaults' full histories; threshold was >=2" \
+  --by "Tanner" --evidence observed \
+  --uncovered "two vaults, both driven almost entirely by one agent; says nothing about vaults edited by several people in Obsidian, which is where renames would actually come from" \
+  --vault ~/ost-agent-meta
+```
+
+That uncovered statement is doing real work: the audit's population is the one
+population least likely to produce the incident it looked for.
+
+### 3 (corrected) — ⚠️ THE COUNT HAS MOVED, READ THIS BEFORE RECORDING
+
+The census found **1** genuinely stranded item against a threshold of ≥3, and
+concluded kill. **This pass found a second one.** The tetrix run produced a fact that
+is mechanically verified, twice, and load-bearing — a signed-out visitor has no
+playable surface, so that product's headline acquisition ratio measures a later
+conversion than it is read as — and it had to be filed at `assertion`, the ladder's
+floor, because every rung describes what a *customer* did or said.
+
+So the honest count today is 2 of a required 3, not 1, and the second item is more
+consequential than the first. The kill may still be right. But recording it from the
+older number would be recording a count that was true when it was taken and is not
+true now — which is precisely the decay
+[[Leave a permanent test behind instead of a one-off verdict draft]] argues about.
+
+If you still want the kill, the note should say 2, not 1:
+
+```bash
+ost-agent result "Count stranded evidence items across both vaults that only a Context node could home" \
+  --verdict refuted --note "2 bucket-c items across both vaults (builder-loop-stopping; tetrix signed-out-play finding, 2026-07-25); threshold was >=3; acknowledge-affordance sibling still suffices" \
+  --by "Tanner" --evidence observed \
+  --uncovered "a census of two vaults at one moment; the count rose from 1 to 2 within a day of being taken, so it says little about the rate at which such items appear" \
+  --vault ~/ost-agent-meta
+```
+
+The agent has not chosen between these. Both the verdict and the count are yours.

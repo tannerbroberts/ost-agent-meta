@@ -1,14 +1,15 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-compression.md'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Believability ladder required on every node]]
 [[Confidence propagation with founder-theory warnings]]
 [[Adversarial grounding judge]]
+[[A result must state what it did not cover]]
 
 **The need (customer's voice):** "A note I wrote to myself at midnight and a paying customer renewing look the same once they're in the system. I can't see which parts of the map are load-bearing and which are just me."
 

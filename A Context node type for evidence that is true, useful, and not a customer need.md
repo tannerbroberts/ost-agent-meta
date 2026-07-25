@@ -1,9 +1,9 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: agent-ideation — from Outcome-body dumping observed in both vaults
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
 [[Count stranded evidence items across both vaults that only a Context node could home]]
@@ -24,3 +24,18 @@ Every one of them is genuinely valuable. That is what makes this a schema proble
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 SECOND VAULT, SAME GAP (2026-07-25, autonomous loop pass 4). The tetrix pass
+produced a fact that is mechanically verified, twice, and load-bearing — a
+signed-out visitor has no playable surface, so the acquisition funnel's headline
+ratio measures a different conversion than it is read as — and had to file it at
+`assertion`, the floor of the ladder, because the ladder's rungs are all about what
+a CUSTOMER did or said. 'Verified fact about our own system' has nowhere to sit, so
+it lands next to founder theory and is weighted like founder theory.
+
+This is a second, independent sighting of the hole this node describes, from the
+other product, arrived at without reference to this node. Worth counting toward
+[[Count stranded evidence items across both vaults that only a Context node could
+home]] — and worth noting that the stranded item in this case was the single most
+consequential thing that pass found.

@@ -64,3 +64,9 @@
 {"ts":"2026-07-25T05:13:40.907Z","tool":"ost_annotate","ok":true,"ms":6,"surface":"cli-tool","argBytes":1389}
 {"ts":"2026-07-25T05:13:40.918Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"cli-tool","argBytes":979}
 {"ts":"2026-07-25T05:13:58.746Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"cli-tool","argBytes":2158}
+{"ts":"2026-07-25T17:02:17.684Z","tool":"ost_read_tree","ok":true,"ms":33,"surface":"cli-tool","argBytes":2}
+{"ts":"2026-07-25T17:03:44.296Z","tool":"ost_create_node","ok":true,"ms":9,"surface":"cli-tool","argBytes":2358}
+{"ts":"2026-07-25T17:03:45.641Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"cli-tool","argBytes":2264}
+{"ts":"2026-07-25T17:03:46.997Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"cli-tool","argBytes":2440}
+{"ts":"2026-07-25T17:03:48.358Z","tool":"ost_annotate","ok":true,"ms":9,"surface":"cli-tool","argBytes":1032}
+{"ts":"2026-07-25T17:03:49.678Z","tool":"ost_annotate","ok":true,"ms":7,"surface":"cli-tool","argBytes":901}
