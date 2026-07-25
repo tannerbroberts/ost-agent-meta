@@ -1,0 +1,15 @@
+{
+  "processId": "P2_map",
+  "title": "Opportunity mapping",
+  "at": "2026-07-25T02:00:38.437Z",
+  "result": {
+    "created": 0,
+    "linked": 0,
+    "annotated": 0,
+    "evidence": 0,
+    "toolCalls": [],
+    "notes": []
+  },
+  "done": false,
+  "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+}
