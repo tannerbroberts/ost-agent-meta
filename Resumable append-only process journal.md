@@ -20,3 +20,7 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Supporting evidence — observed friction (2026-07-24)
+
+`INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md`: a builder pass was backgrounded mid-work; the next pass had no way to tell finished from abandoned. Exactly the failure this solution exists to prevent — first observed instance in the wild. Evidence class: observed behavior (self-reported by the agent at the moment of friction).

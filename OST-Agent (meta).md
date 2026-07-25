@@ -62,3 +62,16 @@ Source: INBOX:2026-07-24-external-review-five-dimension.md
 
 ## Issues
 - 2026-07-25 Append-only violation on record (2026-07-24): merge 57c3745 rewrote 64 files' frontmatter and corrupted 5 source fields to a literal '>-'. Repaired same day under a distinguishable git author (commit a6d86cb) so human-driven repairs remain separable from agent passes. The port path's YAML serialization is filed as a product bug in INBOX:2026-07-24-external-review-five-dimension.md.
+
+## Evidence dispositions — 2026-07-24 hard-fix pass
+
+The 8 outstanding evidence items were dispositioned as follows. Because no acknowledge-with-reason affordance exists yet (see 'Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity'), items that create no node will keep appearing as unmapped in ost_next_work — treat this ledger as the authoritative disposition, not the counter.
+
+- `friction-two-loops-share-one-git-managed-vault` → MAPPED: new opportunity 'Two agents sharing my vault can trample each other' (observed rung).
+- `friction-the-ost-vault-for-this-repo-is-not-discoverable` → MAPPED: new opportunity 'Nothing points from my project to the vault that maps it' (observed rung).
+- `builder-evidence-debt-gate-verdict` → ACKNOWLEDGED: direct evidence for 'I have a tree full of unvalidated nodes...', appended there; no new need revealed.
+- `friction-a-backgrounded-session-leaves-no-marker` → ACKNOWLEDGED: direct evidence for solution 'Resumable append-only process journal', appended there.
+- `friction-a-new-node-level-requirement-is-unfixable` → ACKNOWLEDGED: evidence appended to 'Improving how the agent works means interrupting it'; re-confirmed live during this pass.
+- `builder-transcript-harvester-shipped` → ACKNOWLEDGED: build+first-run note appended to solution 'Post-session transcript harvester'; feasibility evidence, not demand.
+- `builder-loop-stopping-blocked-on-one-human-test` → ACKNOWLEDGED, no node: reports that `ost-agent result` (the human's half of the gate) now exists in the repo — but it is NOT in the shipped 0.1.3 CLI, so the human unblock path is still unreleased. Filed on the product bug list in INBOX:2026-07-24-external-review-five-dimension.md.
+- `TRANSCRIPT:8fc8d6e3` → ACKNOWLEDGED, no node: one session, one tool_error friction event; too thin to ground anything alone; counted as first output of the harvester channel.

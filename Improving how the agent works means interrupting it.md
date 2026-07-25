@@ -25,3 +25,7 @@ Evidence: `INBOX:2026-07-24-opp-self-replacing-workflow.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Supporting evidence — observed friction (2026-07-24)
+
+`INBOX:2026-07-24-friction-a-new-node-level-requirement-is-unfixable-for-ex.md`: adding the evidence-class invariant flagged all 57 then-existing nodes, and the append-only design had no generic edit path — every new required frontmatter field needs its own purpose-built `ost_set_*` tool before an existing tree can comply. Schema evolution is an interruption this opportunity did not yet name: the 2026-07-24 hard-fix pass hit this exact wall (rungs had to be applied by human-authorized direct edit because `ost_set_evidence` is not in the shipped CLI). Evidence class: observed behavior, two independent instances.

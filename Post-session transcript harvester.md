@@ -20,3 +20,7 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Build + first-run evidence (2026-07-24)
+
+`INBOX:2026-07-24-builder-transcript-harvester-shipped.md`: this solution was BUILT by the builder loop (src/adapters/transcript.ts, 19 tests, enabled on this vault) — and its first live harvest of one session yielded exactly 1 friction event (tool_error ×1), i.e., a thin first signal (`TRANSCRIPT:8fc8d6e3-...`). Note the layer tension: a built-and-running solution still carries status: unvalidated here because no human has judged whether its output is worth anything — the build note is evidence of feasibility, not desirability. Its assumption test (Hand-distil three past sessions) remains the arbiter and remains unrun.

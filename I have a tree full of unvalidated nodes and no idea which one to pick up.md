@@ -39,3 +39,7 @@ _Provenance: direct observation of a second OST-Agent instance's vault and git h
 
 ## Issues
 - 2026-07-25 Mirror flag: near-duplicate pain with 'Nothing kills a candidate, so every idea I have ever had is still alive' — see that node's annotation. Merge-candidate pair for human decision (2026-07-24 review).
+
+## Supporting evidence — builder verdict (2026-07-24)
+
+`INBOX:2026-07-24-builder-evidence-debt-gate-verdict.md`: the evidence-debt gate, run against this tree, blocked every solution it had shipped — `Solutions: 24 (untested 0, proposed-only 24, tested 0)`. The gate turned this opportunity from a feeling into a measurement: nothing in the tree was runnable-next because nothing had a recorded result. Evidence class: observed behavior (the gate's own output). This item creates no new opportunity — it is direct evidence for this one.

@@ -9,6 +9,7 @@ created: '2026-07-24'
 [[Push digest where stakeholders already are]]
 [[Rendered tree view with diff since last visit]]
 [[Ask-anything conversational status]]
+[[Nothing points from my project to the vault that maps it]]
 
 **The need (customer's voice):** "I want to know where this thing stands — what it learned, what changed, what it's about to do — without opening a vault, learning a graph view, or reading Markdown files I didn't write."
 
