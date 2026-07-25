@@ -25,6 +25,7 @@ evidence: assertion
 [[No one outside my own network could discover this product exists]]
 [[If the agent tends the tree for me, I may lose the understanding that tending it built]]
 [[I want my usage to automatically feed into and make the OST-Agent better]]
+[[I need the tree's output to be actionable by compute alone, because my hours don't exist]]
 
 Grow external returning operators: the number of non-founder operators who run a discovery pass on a real vault of their own and voluntarily return for another pass within 14 days, measured weekly. Until that number is above zero, the target opportunity is external demand evidence (I can't tell if anyone outside my own head wants this), and no node in this tree may climb the believability ladder on founder or model sources alone.
 

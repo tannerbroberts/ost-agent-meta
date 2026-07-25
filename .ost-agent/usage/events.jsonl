@@ -42,3 +42,12 @@
 {"ts":"2026-07-25T02:05:19.515Z","tool":"git_commit","ok":true,"ms":99,"surface":"cli-tool","argBytes":62,"session":"twenty-passes"}
 {"ts":"2026-07-25T02:05:19.791Z","tool":"git_commit","ok":true,"ms":100,"surface":"cli-tool","argBytes":62,"session":"twenty-passes"}
 {"ts":"2026-07-25T02:05:20.068Z","tool":"git_commit","ok":true,"ms":99,"surface":"cli-tool","argBytes":62,"session":"twenty-passes"}
+{"ts":"2026-07-25T02:11:28.052Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"cli-tool","argBytes":2}
+{"ts":"2026-07-25T02:34:11.788Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":2152,"session":"bootstrappability"}
+{"ts":"2026-07-25T02:34:11.913Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1464,"session":"bootstrappability"}
+{"ts":"2026-07-25T02:34:12.037Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1164,"session":"bootstrappability"}
+{"ts":"2026-07-25T02:34:12.160Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1230,"session":"bootstrappability"}
+{"ts":"2026-07-25T02:34:12.283Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"cli-tool","argBytes":1405,"session":"bootstrappability"}
+{"ts":"2026-07-25T02:34:12.407Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1088,"session":"bootstrappability"}
+{"ts":"2026-07-25T02:34:12.532Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1319,"session":"bootstrappability"}
+{"ts":"2026-07-25T02:34:12.656Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"cli-tool","argBytes":555,"session":"bootstrappability"}
