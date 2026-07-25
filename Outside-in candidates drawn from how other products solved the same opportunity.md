@@ -1,0 +1,16 @@
+---
+type: Solution
+status: unvalidated
+source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
+created: '2026-07-25'
+---
+#Solution #unvalidated
+[[Would an operator adopt an outside-sourced candidate into their consideration set]]
+
+Seed the candidate set from outside the system — how other products, other industries, or plainly non-software processes have addressed the same underlying need — and only then generate natively. The set starts wider than anything the current context could have produced from itself.
+
+**Contrast with siblings:** The only option that introduces genuinely new information rather than rearranging what is already present, which is exactly what the other two cannot do; in exchange it depends on an outside channel, and imported candidates carry a transfer risk that native ones do not.
+
+**Provenance caveat:** Founder-stated in a single spoken rant, not sourced from a story-based customer interview. Believability rests on the floor rung (`assertion`). This is a hypothesis about a need, not an observed need; a human should confirm or discard it against real customer conversations before anything is built off it.
+
+Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
