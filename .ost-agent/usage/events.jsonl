@@ -102,3 +102,4 @@
 {"ts":"2026-07-25T22:40:29.432Z","tool":"ost_read_tree","ok":true,"ms":18,"surface":"mcp","argBytes":2}
 {"ts":"2026-07-25T22:41:34.318Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2070}
 {"ts":"2026-07-25T22:41:41.721Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1730}
+{"ts":"2026-07-25T22:41:52.948Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1582}

@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #evidence/assertion
+[[npm setup wizard that scaffolds the vault first and asks for a key last]]
 
 **The need (prospective user's voice, founder-stated):** "I heard about this from another PM. I don't want to read docs, clone repos, or wire up an agent — I want to run one command and have the thing set itself up. If setup takes more than 'Do you have npm? Just run npm install ost-agent', I'm out."
 

@@ -203,6 +203,7 @@
   },
   "active": "f64ab9f30d4bf1ec",
   "lastOpenFiles": [
+    "Fresh outside findings never reach the tree unless I go get them.md",
     "I can't tell another PM 'just run npm install' and have it work.md",
     "Improvements I ship never reach the agents already running.md",
     "Twenty-question grounding check for answer faithfulness.md",
@@ -227,7 +228,6 @@
     "Do six cold artefacts show a test beating a verdict draft.md",
     "Do named unfixed thresholds actually get fixed.md",
     "A result must state what it did not cover.md",
-    "Trust an unmonitored agent enough to walk away.md",
-    "Two unattended weeks - count pages, grind, and money burned.md"
+    "Trust an unmonitored agent enough to walk away.md"
   ]
 }
