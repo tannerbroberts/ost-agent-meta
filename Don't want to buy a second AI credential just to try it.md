@@ -31,3 +31,7 @@ _Provenance: INBOX:2026-07-22-agent-as-driver.md (design review conversation, 20
 ## Evidence (mapped 2026-07-25)
 
 `INBOX:2026-07-25-friction-run-p2-p5-requires-an-api-credential-even-when-a.md` — direct live instance: `run P2-P5` demanded an ANTHROPIC_API_KEY while an authenticated Claude Code session was RIGHT THERE driving it; the driver had to fall back to the ambient tool-surface path. The product's own runner reproduces the second-credential wall this need describes.
+
+## Founder confirmation (2026-07-25, human:conversation)
+
+The founder restated this need unprompted while describing the setup vision: "If a user doesn't have an API key, because they prefer to use something like a Claude Code subscription plan, then I'd also like to be able to easily drop in to serve them as well." Two implications for this node: (1) the no-key path is now an explicit requirement of the planned npm setup wizard (see 'npm setup wizard that scaffolds the vault first and asks for a key last'), not just an adoption nicety; (2) subscription-plan users are named as a concrete persona for this need. Rung unchanged — still founder-stated (assertion), but the need has been independently re-stated twice from inside the building.

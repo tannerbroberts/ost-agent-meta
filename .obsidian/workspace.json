@@ -203,6 +203,7 @@
   },
   "active": "f64ab9f30d4bf1ec",
   "lastOpenFiles": [
+    "Autonomous web-research loop that files findings into the inbox.md",
     "npm setup wizard that scaffolds the vault first and asks for a key last.md",
     "Fresh outside findings never reach the tree unless I go get them.md",
     "I can't tell another PM 'just run npm install' and have it work.md",
@@ -227,7 +228,6 @@
     "Does the side-by-side change what a reviewer does about a threshold.md",
     "Does a forced uncovered field change what a second reader believes.md",
     "Do six cold artefacts show a test beating a verdict draft.md",
-    "Do named unfixed thresholds actually get fixed.md",
-    "A result must state what it did not cover.md"
+    "Do named unfixed thresholds actually get fixed.md"
   ]
 }
