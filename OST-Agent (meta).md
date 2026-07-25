@@ -13,6 +13,11 @@ created: '2026-07-24'
 [[The goal I care about is too far from anything I can act on this week]]
 [[Nothing kills a candidate, so every idea I have ever had is still alive]]
 [[The candidate maps all look alike, so the route that would have worked is never among them]]
+[[Don't want to buy a second AI credential just to try it]]
+[[I have a tree full of unvalidated nodes and no idea which one to pick up]]
+[[I opened the vault in Obsidian and the agent lost half the tree]]
+[[The pass never says it is done, so I can't tell when to stop paying for compute]]
+[[Trust an unmonitored agent enough to walk away]]
 
 Ground the OST-Agent product in real EXTERNAL evidence: relentlessly increase the quantity and believability of validated, non-founder data about demand and usage, compress it into a trustworthy, ever-improving map from where the product is today to the metric we want to move, and keep that map compounding — so that goal + compute alone drive discovery and buildout, and stakeholders can trust the goal will not change and the process will not halt.
 
