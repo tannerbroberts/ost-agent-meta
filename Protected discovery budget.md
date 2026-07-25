@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
-#Solution #unvalidated
+#Solution #unvalidated #evidence/assertion
 [[Three reserved discovery passes rated for usefulness]]
 
 Reserve a fixed share of compute and schedule for discovery that build work cannot spend, on a recurring cadence. Discovery happens because the budget exists, not because someone chose it over shipping.
@@ -16,3 +17,6 @@ Reserve a fixed share of compute and schedule for discovery that build work cann
 **Riskiest assumptions to test:** that reserved discovery time produces evidence a human rates as useful (desirability); that the reservation survives a deadline (viability).
 
 Status: agent-originated candidate. Unvalidated.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-opp-two-loop-split.md'
 created: '2026-07-24'
 ---
-#Opportunity #unvalidated #needs-customer-interview #reframed-from-solution-input
+#Opportunity #unvalidated #needs-customer-interview #reframed-from-solution-input #evidence/assertion
 [[Split the cartographer loop from the builder loop]]
 [[Evidence-debt gate before building]]
 [[Protected discovery budget]]
@@ -21,3 +22,6 @@ Evidence: `INBOX:2026-07-24-opp-two-loop-split.md`
 
 ## Issues
 - 2026-07-24 Reframed input, needs human confirmation (agent-flagged, 2026-07-24 pass). The source note was solution-shaped — "separate an IDEATION loop from a BUILDER loop" — and was reframed upward into a customer-need shape. The original proposal now sits one layer down as the candidate solution "Split the cartographer loop from the builder loop". Two risks a human should check: (1) whether the reframing is faithful to what the founder meant, and (2) whether the underlying need is real at all, or whether the two-loop split was an architecture preference with no customer pain behind it. If the latter, this branch should be marked for archive rather than developed.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

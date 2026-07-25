@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-opp-transcript-ingestion.md'
 created: '2026-07-24'
 ---
-#Opportunity #unvalidated #needs-customer-interview
+#Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Post-session transcript harvester]]
 [[In-the-moment friction events filed by the agent]]
 [[Mine tool errors and retries from run logs]]
@@ -18,3 +19,6 @@ created: '2026-07-24'
 **Caveat for a human:** Dogfood friction is usage data about *one* user who is not a paying customer, so it grounds usability far better than it grounds demand. It should not be allowed to substitute for the outside-user evidence the parent opportunity is about.
 
 Evidence: `INBOX:2026-07-24-opp-transcript-ingestion.md`
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

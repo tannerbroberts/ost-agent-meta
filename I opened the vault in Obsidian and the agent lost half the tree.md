@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: observed
 source: 'observation:this-vault working tree + ost_next_work output, 2026-07-24'
 created: '2026-07-25'
 ---
-#Opportunity #ported-from-ost-agent-vault
+#Opportunity #ported-from-ost-agent-vault #evidence/observed
 [[Detect renames from link topology and repair the edge]]
 [[Quarantine unknown node types instead of dropping them]]
 [[Reconcile hand-edits and report drift at the start of every pass]]
@@ -36,3 +37,4 @@ _Provenance: direct observation of this vault's working tree and `ost_next_work`
 
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
+- 2026-07-24 evidence: (none) → observed — retro-labeled: recorded-as-it-happened incident in this vault / tetrix-ost with commit-level provenance

@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility, and the highest-harm assumption in this branch):** Answers stay faithful to the tree — every claim traceable to a node, nothing invented, and "we don't know" said plainly when the tree is silent.
 
@@ -15,3 +16,6 @@ created: '2026-07-24'
 **Pre-committed threshold:** ≥19 of 20 answers fully grounded with correct citations AND zero invented claims AND all five unanswerable questions answered with an explicit "the tree doesn't say." Any fabrication fails the test outright — a status surface that invents evidence attacks the outcome it is meant to serve.
 
 Proposed by the agent — a human must do the grounding check; the agent must not verify its own citations. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

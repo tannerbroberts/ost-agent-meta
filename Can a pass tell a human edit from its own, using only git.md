@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: agent-ideation — reproducible against this vault's git history
 created: '2026-07-25'
 ---
-#AssumptionTest #ported-from-ost-agent-vault
+#AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
 **Assumption under test (feasibility).** That human edits are cleanly separable from tool-driven ones using only what git already records — no new state, no file watching, no daemon.
 
@@ -17,3 +18,6 @@ created: '2026-07-25'
 **What a failure here would actually tell us.** If git alone cannot separate the populations reliably, the fallback is worse than it sounds — the pass would need its own record of what it wrote, which is duplicate state that can itself drift, and the append-only trust story gets harder to explain. So a negative result here is not a small setback; it substantially raises the cost of the whole sibling opportunity. Worth knowing before anything is built on top of it.
 
 ⚠️ Proposed only — the agent does not run tests.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-22-design-goals.md'
 created: '2026-07-25'
 ---
-#Opportunity #ported-from-ost-agent-vault
+#Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Can't tell if the generated tree is actually any good]]
 [[Connecting my systems of record could leak or corrupt them]]
 [[Fear the agent could take a destructive, irreversible action]]
@@ -25,3 +26,6 @@ This is an umbrella trust opportunity. Its more specific facets are nested benea
 _Provenance: INBOX:2026-07-22-design-goals.md (README + design spec, 2026-07-22). Distilled by autonomous OST pass; unvalidated — for human review._
 
 _Ported from the ost-agent-vault tree (2026-07-24 consolidation). In that vault this node carried the human-authored title "Any steakholder can start the ost-agent npm package, pour compute and a goal into it, and trust it to efficiently map out the path to accomplishing the goal" and `type: Metric` — a type the schema does not define, which made the node and its 8 links invisible to `ost_read_tree`. Restored here as the umbrella Opportunity its body describes; the operator's goal sentence is preserved verbatim above as the record of what they were reaching for._
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

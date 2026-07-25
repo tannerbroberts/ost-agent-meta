@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-opp-transcript-ingestion.md'
 created: '2026-07-24'
 ---
-#Solution #unvalidated
+#Solution #unvalidated #evidence/assertion
 [[Hand-distil three past sessions]]
 
 After each run, read the agent's own chat transcript, distil the questions, uncertainties, stalls and dead ends it hit, and drop them into the inbox as evidence for the next pass.
@@ -16,3 +17,6 @@ After each run, read the agent's own chat transcript, distil the questions, unce
 **Riskiest assumptions to test:** that transcripts contain friction a human agrees is real product evidence (desirability); that distillation produces a handful of useful items rather than dozens of restatements (feasibility).
 
 Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

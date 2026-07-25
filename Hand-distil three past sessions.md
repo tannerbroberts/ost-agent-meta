@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #desirability
+#AssumptionTest #unvalidated #desirability #evidence/assertion
 
 **Assumption under test (desirability, with feasibility riding along):** Session transcripts actually contain friction a human accepts as real product evidence — and some of it is news.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether transcript harvesting is worth building relative to in-the-moment self-reporting and log mining.
 
 Proposed by the agent — a human does the rating. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

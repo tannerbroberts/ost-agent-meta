@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: agent-ideation — from the 2026-07-24 hand-edit incident in this vault
 created: '2026-07-25'
 ---
-#Solution #ported-from-ost-agent-vault
+#Solution #ported-from-ost-agent-vault #evidence/assertion
 [[Can a pass tell a human edit from its own, using only git]]
 
 **The idea.** Before doing any work, a pass diffs the vault against the last state it wrote, and reports what a human changed in between. Not to undo it — to *see* it, and to treat it as the highest-priority evidence in the vault.
@@ -18,3 +19,6 @@ created: '2026-07-25'
 **The failure mode to design against.** An agent that reports drift every pass, forever, for edits the human made deliberately and does not intend to revert. Drift needs to be acknowledgeable, or it becomes another permanent false alarm — the exact fate of the unmappable evidence item under the sibling opportunity.
 
 ⚠️ Unvalidated. Proposed by an agent, from a single observed incident.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

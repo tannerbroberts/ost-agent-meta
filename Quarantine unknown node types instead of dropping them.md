@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent-ideation — from ost_read_tree omitting the type:Metric node, 2026-07-24'
 created: '2026-07-25'
 ---
-#Solution #ported-from-ost-agent-vault
+#Solution #ported-from-ost-agent-vault #evidence/assertion
 [[Does a quarantined node make the agent notice the hole in its tree]]
 
 **The idea.** A node whose `type:` the reader does not recognize should come back from `ost_read_tree` marked unrecognized — not be omitted. Silence is the bug; the unknown type is just the trigger.
@@ -18,3 +19,6 @@ created: '2026-07-25'
 **Scope discipline.** This is not the Context-node-type solution and should not be conflated with it. That one asks what types should exist; this one only insists that a node the agent cannot classify must still be *seen*. Build this even if the schema never changes — unknown types will also arrive from version skew, from a future release's node kinds, and from typos.
 
 ⚠️ Unvalidated as a customer need, though the defect itself is confirmed by direct observation.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

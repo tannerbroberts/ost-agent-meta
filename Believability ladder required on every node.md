@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
-#Solution #unvalidated
+#Solution #unvalidated #evidence/assertion
 [[Labelled-vs-unlabelled branch comparison]]
 
 Make every node carry an explicit evidence class on a fixed ladder — money/retention > observed behavior > stated intent > expert opinion > founder or model assertion — and refuse to accept a node without one. The class is visible everywhere the node appears.
@@ -16,3 +17,6 @@ Make every node carry an explicit evidence class on a fixed ladder — money/ret
 **Riskiest assumptions to test:** that a single ordering fits the evidence types this product actually sees (feasibility); that readers change their behavior when they see a low rung rather than ignoring the badge (desirability).
 
 Status: agent-originated candidate. Unvalidated.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

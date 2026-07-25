@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-opp-stakeholder-progress-view.md'
 created: '2026-07-24'
 ---
-#Opportunity #unvalidated #needs-customer-interview
+#Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Push digest where stakeholders already are]]
 [[Rendered tree view with diff since last visit]]
 [[Ask-anything conversational status]]
@@ -18,3 +19,6 @@ created: '2026-07-24'
 **Provenance caveat:** Founder-stated. Which stakeholders, checking how often, and what decision they are trying to make are all unknown — that shape should come from interviews before anything is built.
 
 Evidence: `INBOX:2026-07-24-opp-stakeholder-progress-view.md`
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

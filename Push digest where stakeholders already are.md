@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
-#Solution #unvalidated
+#Solution #unvalidated #evidence/assertion
 [[Three-week digest engagement run]]
 
 After each pass, send a short digest to wherever the stakeholder already reads things — what changed, what it means for the outcome, and the one or two decisions or tests the agent needs from a human. No new place to visit.
@@ -16,3 +17,6 @@ After each pass, send a short digest to wherever the stakeholder already reads t
 **Riskiest assumptions to test:** that stakeholders open and act on it after the novelty passes (desirability); that a pass's changes can be compressed into a few lines without losing the point (feasibility).
 
 Status: agent-originated candidate. Unvalidated.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

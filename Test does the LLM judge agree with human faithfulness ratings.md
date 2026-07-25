@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-22-efficacy-critique.md'
 created: '2026-07-25'
 ---
-#AssumptionTest #ported-from-ost-agent-vault
+#AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
 **Risk category: Feasibility.** Riskiest assumption: an independent LLM judge's faithfulness ratings correlate well enough with human judgment to be trusted as a quality signal.
 
@@ -13,3 +14,6 @@ created: '2026-07-25'
 **Pre-committed success threshold:** judge-vs-human agreement ≥0.7 (e.g. Cohen's/weighted kappa) with no systematic bias.
 
 _Proposal only — a human runs this. Unvalidated._
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

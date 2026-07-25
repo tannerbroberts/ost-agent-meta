@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility):** A stated propagation rule ranks branches by trustworthiness in a way informed humans recognise as fair.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether propagation can be automated at all, or whether trustworthiness stays a human judgement the tree merely displays.
 
 Proposed by the agent — to be run by a human with real reviewers. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

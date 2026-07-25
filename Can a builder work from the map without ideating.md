@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility):** A builder can take a work item straight from the map and complete it without doing its own top-level ideation — and can hand something back that the cartographer can use as evidence.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether the two-loop split is buildable now or waits on a richer map.
 
 Proposed by the agent — a human judges the handback. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

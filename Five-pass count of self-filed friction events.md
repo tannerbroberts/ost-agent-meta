@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility):** The agent will actually file friction events under load, rather than pushing through silently and reporting a clean run.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether self-reporting can stand alone or must be paired with retrospective harvesting.
 
 Proposed by the agent — a human performs the transcript comparison; the agent must not score its own reporting rate. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

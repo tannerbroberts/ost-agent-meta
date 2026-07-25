@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
 ---
-#Opportunity #ported-from-ost-agent-vault
+#Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Allowlist Tool Runner registers only OST tools]]
 [[Prompt-injection red-team harness in CI]]
 [[Published capability manifest with signed build]]
@@ -19,3 +20,6 @@ _Provenance: INBOX:2026-07-22-runtime-decision.md (implementation decision, 2026
 
 ## Issues
 - 2026-07-24 Possible duplicate / merge candidate: this opportunity overlaps substantially with sibling "Fear the agent could take a destructive, irreversible action". Both express the operator's safety-trust need; this one emphasizes assurance via *absence of capability* (allowlist Tool Runner) while the sibling emphasizes *revertible worst case even under prompt injection*. Source evidence (runtime-decision) is solution-rationale-shaped and was reframed into a need. A human should decide whether to keep these as distinct facets or merge them into one opportunity.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

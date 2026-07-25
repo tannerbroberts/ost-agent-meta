@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility):** A decay rate exists that flags genuinely stale nodes without crying wolf on needs that are simply stable.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether decay can be automatic, and at what rate.
 
 Proposed by the agent — the human's stale list must be produced before seeing any setting's output. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: observed
 source: 'RUNTIME:tetrix-ost@2328e61 (2026-07-24 14:37–16:46) — observed second instance'
 created: '2026-07-25'
 ---
-#Opportunity #ported-from-ost-agent-vault
+#Opportunity #ported-from-ost-agent-vault #evidence/observed
 [[A standing Next Build node the agent rewrites every pass]]
 [[Prerequisite edges between assumption tests]]
 [[Rank every node by how many blocked tests one build would unblock]]
@@ -32,3 +33,6 @@ The outcome for this product is that a stakeholder can pour compute into a goal 
 **Litmus (is there more than one way to address it?):** Yes, and they are genuinely different: rank by unblocking-leverage; model prerequisite edges between tests so ordering falls out of structure; maintain a standing "next build" node the agent rewrites each pass; score by information-gained-per-unit-cost; force pairwise comparison. These trade off against each other. It is a real opportunity, not a solution in disguise.
 
 _Provenance: direct observation of a second OST-Agent instance's vault and git history, 2026-07-24. Unvalidated — no operator has said this out loud yet; it is inferred from an agent's self-diagnosis and from this vault's own shape._
+
+## History
+- 2026-07-24 evidence: (none) → observed — retro-labeled: recorded-as-it-happened incident in this vault / tetrix-ost with commit-level provenance

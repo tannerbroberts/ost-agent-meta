@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-22-dogfooding-idea.md'
 created: '2026-07-25'
 ---
-#Solution #ported-from-ost-agent-vault
+#Solution #ported-from-ost-agent-vault #evidence/assertion
 [[Test does an independent judge raise trust over self-report]]
 
 **Candidate solution (unvalidated).** Split the roles: the generating agent only proposes; a distinct judge (different model/prompt, no write access to create nodes) checks each node's faithfulness against the cited evidence. The proposer can never sign off on its own output.
@@ -14,3 +15,6 @@ created: '2026-07-25'
 **Contrast with siblings:** unlike the tool-enforced no-validate rule (which blocks the agent from a status) this adds an active second opinion; unlike the real-world-signal gate it checks faithfulness, not usefulness.
 
 _Addresses: "Worry the agent is grading its own homework". Unvalidated — human to review._
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

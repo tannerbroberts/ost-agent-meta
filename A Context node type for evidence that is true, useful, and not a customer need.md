@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: agent-ideation — from Outcome-body dumping observed in both vaults
 created: '2026-07-25'
 ---
-#Solution #ported-from-ost-agent-vault
+#Solution #ported-from-ost-agent-vault #evidence/assertion
 
 **The idea.** Add a node layer for discovery products that are neither opportunity, solution, nor test: existing de-risked capability, hard constraints, unresolved factual conflicts, open human decisions. Things that are true and that should shape ideation without pretending to be needs.
 
@@ -19,3 +20,6 @@ Every one of them is genuinely valuable. That is what makes this a schema proble
 **Note the operator's own vote.** The human editing this vault reached for `type: Metric`, a type that does not exist, and the node silently vanished from `ost_read_tree`. Three independent parties have now wanted a node type the schema lacks.
 
 ⚠️ Unvalidated. Proposed by an agent, from two instances' observed behaviour plus one operator's hand-edit.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

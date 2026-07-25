@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
-#Solution #unvalidated
+#Solution #unvalidated #evidence/assertion
 [[Five-pass count of self-filed friction events]]
 
 Give the agent a way to file a small structured note the moment it is blocked, uncertain about a rule, or forced to guess — one line, at the point of pain, while the context is still live.
@@ -16,3 +17,6 @@ Give the agent a way to file a small structured note the moment it is blocked, u
 **Riskiest assumptions to test:** that the agent reliably files events rather than pushing through silently (feasibility); that a one-line note carries enough context to be actionable later (usability).
 
 Status: agent-originated candidate. Unvalidated.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #desirability
+#AssumptionTest #unvalidated #desirability #evidence/assertion
 
 **Assumption under test (desirability):** Operators will accept a system that changes its own workflow while running, given rollback — rather than demanding to approve every change.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Ethical/harm check to include:** ask explicitly what a self-modifying system could do that they would consider unacceptable, and record the answers verbatim.
 
 Proposed by the agent — to be run by a human with real operators. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

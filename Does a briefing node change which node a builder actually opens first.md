@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'ported:ost-agent-vault@57c3745 — agent-ideation (builder-loop test design)'
 created: '2026-07-25'
 ---
-#AssumptionTest #ported-from-ost-agent-vault
+#AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
 **Assumption under test (desirability, not feasibility).** That the reason builders don't act on this tree is that the prioritization is *hard to find* — not that it is unconvincing, or that builders would rather decide for themselves. Building the node is trivial; this assumption is the entire risk.
 
@@ -22,3 +23,4 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

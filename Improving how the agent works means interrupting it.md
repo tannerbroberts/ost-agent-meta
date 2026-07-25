@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-opp-self-replacing-workflow.md'
 created: '2026-07-24'
 ---
-#Opportunity #unvalidated #needs-customer-interview #placement-ambiguous
+#Opportunity #unvalidated #needs-customer-interview #placement-ambiguous #evidence/assertion
 [[Versioned workflow with scheduled hot-swap and rollback]]
 [[Canary the changed process against the old one]]
 [[Agent proposes its own workflow changes for one-click adoption]]
@@ -21,3 +22,6 @@ Evidence: `INBOX:2026-07-24-opp-self-replacing-workflow.md`
 
 ## Issues
 - 2026-07-24 Ambiguous parent (agent-flagged, 2026-07-24 pass). This opportunity fits two plausible parents: "I can't leave the process running unattended without worrying" (chosen — the felt pain is interruption of an unattended system) and "What the agent learns doesn't accumulate over time" (self-improvement as a form of compounding). Placed under the former and flagged rather than double-linked or duplicated, per the single-best-fit-parent rule. A human should confirm or re-parent.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

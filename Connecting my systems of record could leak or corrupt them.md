@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-22-adapter-reality.md'
 created: '2026-07-25'
 ---
-#Opportunity #ported-from-ost-agent-vault
+#Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Least-privilege read-only tokens, GET-only clients]]
 [[Local read-only mirror of source systems]]
 [[Secrets never stored in the vault]]
@@ -16,3 +17,6 @@ The pain is two-fold fear when integrating external systems: (1) credential expo
 **Litmus (more than one way to address?):** Yes — least-privilege read-only tokens, GET-only clients, never storing secrets in the vault, OAuth scoping, proxies, local mirrors, etc.
 
 _Provenance: INBOX:2026-07-22-adapter-reality.md (implementation note, Atlassian adapter, 2026-07-22). The evidence describes one implementation; reframed to the underlying operator need. Distilled by autonomous OST pass; unvalidated — for human review._
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

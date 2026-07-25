@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent-ideation — from observed pass-shape decay in tetrix-ost 14:37→16:46'
 created: '2026-07-25'
 ---
-#Solution #ported-from-ost-agent-vault
+#Solution #ported-from-ost-agent-vault #evidence/assertion
 
 **The idea.** Stop trying to define "done" and instead detect *diminishing returns* from the shape of the agent's own output, then lengthen the interval between passes. Set-and-forget does not require the agent to finish. It requires the agent to stop spending money once it has stopped learning.
 
@@ -23,3 +24,6 @@ Creates, then appends, then commentary on the root. The transition is legible fr
 **What could go wrong.** A pass that produces only annotations is not necessarily low-value — the tetrix builder briefing was arguably the most useful artifact of the whole run, and it was the very last commentary-only commit. A crude classifier would have throttled immediately after the single most valuable thing the agent did. So the rule cannot be "annotations are worthless"; it has to be something closer to "annotations that repeat the previous pass's annotations are worthless," which is harder and probably needs the pass to compare against its own last output.
 
 ⚠️ Unvalidated. Proposed by an agent, from observed pass-shape decay in one run.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

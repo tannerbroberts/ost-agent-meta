@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-opp-idempotent-runtime.md'
 created: '2026-07-24'
 ---
-#Opportunity #unvalidated #needs-customer-interview
+#Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Improving how the agent works means interrupting it]]
 [[Resumable append-only process journal]]
 [[Supervisor heartbeat with automatic restart]]
@@ -19,3 +20,6 @@ created: '2026-07-24'
 **Provenance caveat:** Founder-stated and unvalidated. It is a trust need, so the real test is whether stakeholders actually walk away — observed behavior, not stated intent.
 
 Evidence: `INBOX:2026-07-24-opp-idempotent-runtime.md`
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #desirability
+#AssumptionTest #unvalidated #desirability #evidence/assertion
 
 **Assumption under test (desirability):** Goal drift is a fear operators actually hold, rather than one the founder has projected onto them.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether the trust worry is about halting, corruption, or drift — three siblings, only one of which the evidence should fund first.
 
 Proposed by the agent — to be run by a human with real operators; the questions must not lead. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

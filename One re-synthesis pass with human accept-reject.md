@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #desirability
+#AssumptionTest #unvalidated #desirability #evidence/assertion
 
 **Assumption under test (desirability, with a harm check):** Restructuring proposals are ones a human accepts — and none of them would have quietly destroyed meaning if applied automatically.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether compression can ever run unattended, or only ever as a suggestion to a human.
 
 Proposed by the agent — a human accepts or rejects; nothing is applied by the agent. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

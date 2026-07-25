@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-compression.md'
 created: '2026-07-24'
 ---
-#Opportunity #unvalidated #needs-customer-interview
+#Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Believability ladder required on every node]]
 [[Confidence propagation with founder-theory warnings]]
 [[Adversarial grounding judge]]
@@ -18,3 +19,6 @@ created: '2026-07-24'
 **Relationship to parent:** This is a proper subset — it concerns the *quality/weighting* of evidence, where the parent concerns its *existence*. Solving the parent without this one produces a map that is full but still untrustworthy.
 
 Evidence: `INBOX:2026-07-24-founder-theory-compression.md`, `INBOX:2026-07-24-opp-hungry-for-external-data.md`
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

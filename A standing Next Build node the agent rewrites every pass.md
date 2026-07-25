@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent-ideation — generalized from tetrix-ost commits bfa741b, 2328e61'
 created: '2026-07-25'
 ---
-#Solution #ported-from-ost-agent-vault
+#Solution #ported-from-ost-agent-vault #evidence/assertion
 [[Does a briefing node change which node a builder actually opens first]]
 
 **The idea.** One node, always at the same address, holding the agent's current reading of what to do next and why — rewritten (append-only, so the history is the record) at the end of every pass. Not buried in root annotations. Not a decision; a briefing.
@@ -20,3 +21,6 @@ Give that content its own address and it becomes findable. Nothing else in the t
 **Where this fails.** A briefing that says the same thing five passes running is noise, and the operator learns to skip it — the same fate the root annotations just suffered. It probably needs to say what *changed* since the last one, not just what is true.
 
 ⚠️ Unvalidated. Proposed by an agent, from an agent's behaviour.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

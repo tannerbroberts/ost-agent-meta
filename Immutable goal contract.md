@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
-#Solution #unvalidated
+#Solution #unvalidated #evidence/assertion
 [[Unprompted-fear interviews about leaving it running]]
 
 The outcome is a locked contract: no autonomous process can alter it, any proposed change is raised as a visible question for a human, and every pass records which goal it ran against so drift is auditable after the fact.
@@ -16,3 +17,6 @@ The outcome is a locked contract: no autonomous process can alter it, any propos
 **Riskiest assumptions to test:** that goal drift is a real fear rather than a hypothetical one (desirability); that agents reliably raise rather than reinterpret an ill-fitting goal (feasibility).
 
 Status: agent-originated candidate. Unvalidated.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

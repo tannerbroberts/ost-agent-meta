@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-opp-hungry-for-external-data.md'
 created: '2026-07-24'
 ---
-#Opportunity #unvalidated #needs-customer-interview
+#Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[I can't tell which evidence deserves weight]]
 [[What the agent struggles with every session disappears]]
 [[Concierge design-partner cohort]]
@@ -21,3 +22,6 @@ created: '2026-07-24'
 **Provenance caveat:** Founder-stated, not sourced from a story-based customer interview. It is a hypothesis about a need, not a validated need. A human should confirm or discard it against real customer conversations.
 
 Evidence: `INBOX:2026-07-24-opp-hungry-for-external-data.md`, `INBOX:2026-07-24-founder-theory-compression.md`
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

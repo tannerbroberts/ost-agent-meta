@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #desirability
+#AssumptionTest #unvalidated #desirability #evidence/assertion
 
 **Assumption under test (desirability):** Stakeholders keep reading the digest and acting on it after the novelty of week one wears off.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether push beats pull for this audience, versus the rendered view and the ask-anything sibling.
 
 Proposed by the agent — to be run by a human with real stakeholders. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

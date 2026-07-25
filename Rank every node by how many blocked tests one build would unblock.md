@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: agent-ideation — generalized from tetrix-ost commit 2328e61
 created: '2026-07-25'
 ---
-#Solution #ported-from-ost-agent-vault
+#Solution #ported-from-ost-agent-vault #evidence/assertion
 
 **The idea.** Compute, for each candidate build, how many *other* assumption tests become readable if it ships — and surface that ratio as the tree's primary ordering. Not importance, not effort, not confidence. Unblocking count.
 
@@ -17,3 +18,6 @@ created: '2026-07-25'
 **What would make this wrong.** If most tests turn out to be independent, leverage is near-uniform and the ranking says nothing. The tetrix tree had a 4:1 ratio sitting in it, but that is one tree. The assumption test under this node checks the ratio before anyone builds the graph machinery.
 
 ⚠️ Unvalidated. Proposed by an agent, from an agent's behaviour — an operator has not asked for this.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

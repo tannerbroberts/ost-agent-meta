@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-compression.md'
 created: '2026-07-24'
 ---
-#Opportunity #unvalidated #needs-customer-interview
+#Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Scheduled re-synthesis of the whole tree]]
 [[Staleness decay that surfaces nodes for refresh]]
 [[Attempt ledger of what was already tried]]
@@ -21,3 +22,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-compression.md`
 
 ## Issues
 - 2026-07-24 Rests entirely on founder theory (agent-flagged, 2026-07-24 pass). This opportunity is derived from a note the founder explicitly labelled observational and placed at the floor of the believability ladder — the claim that intelligence is compression and that long-horizon accumulation is the scarce capability. It is the most speculative branch in the tree and currently has no external support whatsoever. Three solutions and three assumption tests now hang beneath it; all of that structure inherits the same floor-level believability. A human should decide whether to ground this theory before investing in the branch, or to treat the branch as deferred until external data speaks to it.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

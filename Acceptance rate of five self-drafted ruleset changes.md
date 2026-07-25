@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #desirability
+#AssumptionTest #unvalidated #desirability #evidence/assertion
 
 **Assumption under test (desirability, with a usability half):** The changes the agent proposes to its own rules are ones a human would accept — and reviewing one is genuinely cheaper than writing it.
 
@@ -15,3 +16,6 @@ created: '2026-07-24'
 **Pre-committed threshold:** ≥2 of 5 accepted as-is or with minor edits AND median review time under 5 minutes AND clearly below the write-from-scratch estimate. Proposals that take as long to review as to write have no reason to exist.
 
 Proposed by the agent — a human does all reviewing and accepting. The agent must never adopt its own proposal. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

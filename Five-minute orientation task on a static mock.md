@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #usability
+#AssumptionTest #unvalidated #usability #evidence/assertion
 
 **Assumption under test (usability, with desirability implications):** A rendered tree lets someone who has never seen it answer "where are we, and what is weakest?" unaided — and that structure is what they wanted rather than a plain verdict.
 
@@ -15,3 +16,6 @@ created: '2026-07-24'
 **Pre-committed threshold:** ≥3 of 5 answer both tasks correctly within 3 minutes each, with no hints. Track the "what would you have preferred" answers — if most name a written summary, the sibling digest wins regardless of this score.
 
 Proposed by the agent — to be run by a human with real observers. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

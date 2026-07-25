@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #usability
+#AssumptionTest #unvalidated #usability #evidence/assertion
 
 **Assumption under test (usability, with desirability implications):** Seeing an evidence class on a node changes what a reader is willing to act on, rather than becoming a badge they scroll past.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether per-node labelling is worth the friction it adds to every write, versus branch-level propagation.
 
 Proposed by the agent — to be run by a human with real readers. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

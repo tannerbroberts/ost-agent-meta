@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility):** "Has this solution's riskiest assumption been tested?" can be decided by a rule, consistently enough to gate real work without becoming arbitrary.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether the gate can be automatic, advisory, or must stay a human call.
 
 Proposed by the agent — the hand judgement must be human and blind to the rule's output. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
-#Solution #unvalidated
+#Solution #unvalidated #evidence/assertion
 [[Timed side-by-side judgement of canary output]]
 
 Run the modified process alongside the current one over the same inputs, put the two outputs side by side, and let a human adopt or discard based on the comparison — no interruption, because the old process never stops.
@@ -16,3 +17,6 @@ Run the modified process alongside the current one over the same inputs, put the
 **Riskiest assumptions to test:** that two runs over the same input are comparable enough to judge (feasibility); that a human can tell which output is better in a couple of minutes (usability).
 
 Status: agent-originated candidate. Unvalidated.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

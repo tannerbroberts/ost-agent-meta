@@ -1,10 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-22-agent-as-driver.md'
 created: '2026-07-25'
 ---
-#Opportunity #ported-from-ost-agent-vault
+#Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Ambient session agent drives the append-only tools]]
 [[Bundled local model for zero-credential trial]]
 [[Optional bring-your-own-key, off by default]]
@@ -16,3 +17,6 @@ The pain is adoption friction and duplicated cost: the operator often already ha
 **Litmus (more than one way to address?):** Yes — the underlying need (get value without a second credential) could be met by letting the ambient agent drive, bundling access, a free tier, BYO-key optional, etc. Not a single-solution disguise.
 
 _Provenance: INBOX:2026-07-22-agent-as-driver.md (design review conversation, 2026-07-22). The evidence names one solution (ambient agent as driver); reframed here to the underlying need. Distilled by autonomous OST pass; unvalidated — for human review._
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

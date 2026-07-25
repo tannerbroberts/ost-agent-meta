@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #desirability
+#AssumptionTest #unvalidated #desirability #evidence/assertion
 
 **Assumption under test (desirability):** Reserved discovery time produces evidence a human rates as useful, rather than guaranteeing effort that goes into low-signal busywork.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether guaranteeing discovery volume actually raises evidence quality — the assumption on which this whole sibling set turns.
 
 Proposed by the agent — a human does the rating; the agent must not rate its own passes. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility):** A pass can be killed at any instant and restarted with no corruption, no duplicate nodes, no half-written state, and no stuck locks.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether "kill it whenever you like" can be promised to stakeholders, which is the load-bearing claim of the parent opportunity.
 
 Proposed by the agent — to be run by a human against a scratch vault. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

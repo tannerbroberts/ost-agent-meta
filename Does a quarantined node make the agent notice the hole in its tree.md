@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: agent-ideation — reproducible against this vault's current working tree
 created: '2026-07-25'
 ---
-#AssumptionTest #ported-from-ost-agent-vault
+#AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
 **Assumption under test (feasibility).** That surfacing an unrecognized node as *present but unclassified* is enough for an agent reading only the tools to notice a branch is missing — and that it produces a clear diagnosis rather than the nine downstream symptoms it produces today.
 
@@ -17,3 +18,6 @@ created: '2026-07-25'
 **Cost of being wrong is asymmetric and low.** If this assumption fails, the cost is a slightly better error message. If it holds, unattended passes stop silently operating on incomplete trees — which no amount of downstream quality work can compensate for, because every judge, every ranking, and every briefing inherits the hole.
 
 ⚠️ Proposed only — the agent does not run tests.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

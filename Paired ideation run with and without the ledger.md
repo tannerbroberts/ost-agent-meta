@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility):** Consulting a record of what was already tried actually changes what gets proposed — rather than being written, never read, and quietly abandoned.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Watch for the failure mode:** if the ledger run is *narrower* rather than better, the ledger is freezing exploration — record that outcome too, it is the more important finding.
 
 Proposed by the agent — a human compares the two sets. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

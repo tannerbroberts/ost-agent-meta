@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #usability
+#AssumptionTest #unvalidated #usability #evidence/assertion
 
 **Assumption under test (usability, with feasibility riding along):** A human can look at old-process output beside new-process output and tell which is better, quickly and consistently — otherwise the comparison produces cost without a decision.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether canarying can gate real workflow changes, or only changes with crisply comparable output.
 
 Proposed by the agent — to be run by human reviewers; the agent must not judge its own output pairs. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

@@ -1,10 +1,11 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
 ---
-#Solution #unvalidated
+#Solution #unvalidated #evidence/assertion
 [[Thirty-day log sample for existing signal]]
 
 Derive friction from machine records instead of prose: failed tool calls, retried operations, validation rejections, abandoned passes, time-to-complete per process, commits reverted. Aggregate across runs and surface the recurring ones.
@@ -16,3 +17,6 @@ Derive friction from machine records instead of prose: failed tool calls, retrie
 **Riskiest assumptions to test:** that the logs already contain enough signal without new instrumentation (feasibility); that error frequency correlates with anything a human would prioritise fixing (desirability).
 
 Status: agent-originated candidate. Unvalidated.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule

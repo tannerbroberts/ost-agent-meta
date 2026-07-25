@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
-#AssumptionTest #unvalidated #feasibility
+#AssumptionTest #unvalidated #feasibility #evidence/assertion
 
 **Assumption under test (feasibility):** The records that already exist — tool errors, retries, validation rejections, abandoned passes, commit history — contain enough signal to work with, without adding instrumentation first.
 
@@ -17,3 +18,6 @@ created: '2026-07-24'
 **Decides:** whether log mining is the cheap channel it looks like, or a build project in disguise.
 
 Proposed by the agent — a human judges the mapping to product problems. No results recorded here.
+
+## History
+- 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
