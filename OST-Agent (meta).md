@@ -76,3 +76,9 @@ The 8 outstanding evidence items were dispositioned as follows. Because no ackno
 - `builder-transcript-harvester-shipped` → ACKNOWLEDGED: build+first-run note appended to solution 'Post-session transcript harvester'; feasibility evidence, not demand.
 - `builder-loop-stopping-blocked-on-one-human-test` → ACKNOWLEDGED, no node: reports that `ost-agent result` (the human's half of the gate) now exists in the repo — but it is NOT in the shipped 0.1.3 CLI, so the human unblock path is still unreleased. Filed on the product bug list in INBOX:2026-07-24-external-review-five-dimension.md.
 - `TRANSCRIPT:8fc8d6e3` → ACKNOWLEDGED, no node: one session, one tool_error friction event; too thin to ground anything alone; counted as first output of the harvester channel.
+
+## Evidence dispositions — twenty-passes run (2026-07-25)
+
+- `TRANSCRIPT:5e5c119d` (3 events: zsh glob errors ×2, vitest retry) and `TRANSCRIPT:8fc8d6e3` (1 tool_error) → ACKNOWLEDGED, no node: shell-harness micro-friction, not product friction; too thin to ground anything alone. Channel is working; signal this period is noise-level.
+- `INBOX:…-friction-run-p2-p5-requires-an-api-credential…` → MAPPED: appended as first observed instance under 'Don't want to buy a second AI credential just to try it'.
+- `INBOX:…-friction-a-pass-that-dies-on-a-driver-error…` → MAPPED: new opportunity 'A failed pass reports success, so my automation can't tell' (observed rung).

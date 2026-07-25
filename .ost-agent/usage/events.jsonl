@@ -7,3 +7,8 @@
 {"ts":"2026-07-25T01:53:34.399Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1079,"session":"hard-fix-usage-mapping-2026-07-24"}
 {"ts":"2026-07-25T01:53:34.523Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"cli-tool","argBytes":455,"session":"hard-fix-usage-mapping-2026-07-24"}
 {"ts":"2026-07-25T01:53:34.644Z","tool":"git_commit","ok":true,"ms":102,"surface":"cli-tool","argBytes":188,"session":"hard-fix-usage-mapping-2026-07-24"}
+{"ts":"2026-07-25T02:01:39.033Z","tool":"ost_next_work","ok":true,"ms":10,"surface":"cli-tool","argBytes":2}
+{"ts":"2026-07-25T02:01:55.935Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"cli-tool","argBytes":2}
+{"ts":"2026-07-25T02:04:25.747Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1016,"session":"twenty-passes"}
+{"ts":"2026-07-25T02:04:25.871Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"cli-tool","argBytes":628,"session":"twenty-passes"}
+{"ts":"2026-07-25T02:04:25.992Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"cli-tool","argBytes":728,"session":"twenty-passes"}

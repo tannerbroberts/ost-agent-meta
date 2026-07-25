@@ -23,3 +23,7 @@ _Provenance: INBOX:2026-07-22-agent-as-driver.md (design review conversation, 20
 
 ## Issues
 - 2026-07-25 Design decision (ambient-agent driver) reverse-engineered into a need — the node's own body concedes the evidence names one solution. Sequenced-after-demand (2026-07-24 review).
+
+## Supporting evidence — observed live (2026-07-25)
+
+`INBOX:2026-07-25-friction-run-p2-p5-requires-an-api-credential-even-when-a.md`: an authenticated ambient Claude Code session attempted `run P2_map` on this vault and hit the SDK credential wall (no key, no ant CLI, empty keychain) — while itself being a fully authenticated agent. The pass was completed via the ambient tool-surface path instead, which is this opportunity's thesis working as designed. First observed-rung instance under this node; the need itself remains founder-stated.

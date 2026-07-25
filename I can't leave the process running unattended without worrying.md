@@ -1,9 +1,9 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-opp-idempotent-runtime.md'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Improving how the agent works means interrupting it]]
@@ -11,6 +11,7 @@ created: '2026-07-24'
 [[Supervisor heartbeat with automatic restart]]
 [[Immutable goal contract]]
 [[Two agents sharing my vault can trample each other]]
+[[A failed pass reports success, so my automation can't tell]]
 
 **The need (customer's voice):** "If I hand a goal and some compute to an autonomous agent and walk away, I need to come back to a system that is still running and still pointed at the same goal — and if I stop it or it crashes mid-step, I need to be able to start it again without wondering what got half-written."
 
