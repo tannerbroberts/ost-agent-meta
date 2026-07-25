@@ -1,7 +1,6 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-agent-as-driver.md'
 created: '2026-07-25'
 ---
@@ -20,3 +19,6 @@ _Provenance: INBOX:2026-07-22-agent-as-driver.md (design review conversation, 20
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 Design decision (ambient-agent driver) reverse-engineered into a need — the node's own body concedes the evidence names one solution. Sequenced-after-demand (2026-07-24 review).

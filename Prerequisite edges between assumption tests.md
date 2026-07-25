@@ -1,11 +1,11 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'ported:ost-agent-vault@57c3745 — agent-ideation'
 created: '2026-07-25'
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
+[[Paper-map prerequisite pairs among the sixty existing tests]]
 
 **The idea.** Let one assumption test declare that another must be answered first, and let ordering fall out of the resulting graph rather than out of anyone's opinion. A strict OST is a tree; real discovery has cross-branch dependencies, and the tetrix instance demonstrated one spanning an entire top-level opportunity.
 

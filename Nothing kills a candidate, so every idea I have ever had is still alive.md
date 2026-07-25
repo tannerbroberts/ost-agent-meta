@@ -1,7 +1,6 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
 ---
@@ -24,3 +23,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 Near-duplicate pain with 'I have a tree full of unvalidated nodes and no idea which one to pick up' — removal-verb vs ranking-verb on the same Monday-morning pain; Torres siblings should be distinct alternatives. Merge-candidate pair for human decision (2026-07-24 review).

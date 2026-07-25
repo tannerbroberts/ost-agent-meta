@@ -1,7 +1,6 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-design-goals.md'
 created: '2026-07-25'
 ---
@@ -18,3 +17,6 @@ _Addresses: "Trust an unmonitored agent enough to walk away". Unvalidated — hu
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 Cross-branch duplicate (2026-07-24 review): near-identical to 'Push digest where stakeholders already are' under a different opportunity; 'A standing Next Build node the agent rewrites every pass' is a third flavor of the same genre. Consolidation candidate — duplicate solutions in two branches is the classic symptom of overlapping parent opportunities.

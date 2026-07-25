@@ -1,11 +1,13 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
-source: 'agent-ideation — mapped-ledger dead-end observed in this vault and RUNTIME:tetrix-ost@2328e61'
+source: >-
+  agent-ideation — mapped-ledger dead-end observed in this vault and
+  RUNTIME:tetrix-ost@2328e61
 created: '2026-07-25'
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
+[[Blind-review a pass's acknowledge-or-map calls on the seven stranded items]]
 
 **The idea.** A tool call that records "this evidence has been dealt with, and here is what I did with it" — including the case where what the agent did was decline to distil an opportunity from it, and say why. The ledger stops being a proxy for "an Opportunity node cites this source" and starts recording an actual judgement.
 

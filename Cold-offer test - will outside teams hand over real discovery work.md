@@ -1,7 +1,6 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
@@ -21,3 +20,6 @@ Proposed by the agent — to be run by a human with real people. No results reco
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 RUN FIRST (2026-07-24 prioritization): attacks the retuned outcome's bottleneck directly — about a week, zero build, kill threshold already pre-committed, and every reply INCLUDING the noes becomes the first external evidence this vault has ever contained. Success additionally seeds design partners whose usage feeds every other branch. Outreach draft ready at .ost-agent/drafts/cold-offer-outreach.md.

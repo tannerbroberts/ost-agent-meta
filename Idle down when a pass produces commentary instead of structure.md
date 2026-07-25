@@ -1,11 +1,11 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent-ideation — from observed pass-shape decay in tetrix-ost 14:37→16:46'
 created: '2026-07-25'
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
+[[Paper-classify the existing commit history as structure versus commentary]]
 
 **The idea.** Stop trying to define "done" and instead detect *diminishing returns* from the shape of the agent's own output, then lengthen the interval between passes. Set-and-forget does not require the agent to finish. It requires the agent to stop spending money once it has stopped learning.
 

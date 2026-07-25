@@ -1,7 +1,6 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
@@ -21,3 +20,6 @@ Proposed by the agent — to be run by a human with real interviewees. No result
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 RUN SECOND (2026-07-24 prioritization): establishes the standing evidence supply chain the retuned outcome depends on; <= 2h/week, zero build; even failure is decisive (evidence must then come from usage instead of conversation).

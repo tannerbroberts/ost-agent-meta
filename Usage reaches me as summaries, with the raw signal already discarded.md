@@ -1,7 +1,6 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
 ---
@@ -24,3 +23,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 Solution-in-disguise caution (2026-07-24 review): 'raw everything, always' is a mechanism; the underlying need is 'I can't answer questions I didn't know to ask in advance'. Reframe candidate; its three solutions are one mechanism in three outfits.

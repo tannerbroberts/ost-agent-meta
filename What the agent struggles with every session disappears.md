@@ -1,7 +1,6 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-opp-transcript-ingestion.md'
 created: '2026-07-24'
 ---
@@ -22,3 +21,6 @@ Evidence: `INBOX:2026-07-24-opp-transcript-ingestion.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 Mis-parent flag (2026-07-24 review): the node's own caveat concedes dogfood friction must not substitute for the outside-user evidence its parent ('I can't tell if anyone outside my own head wants this') is about — a child that explicitly does not deliver the parent's need. Proposed reparent to an evidence-channel/instrumentation row; human to confirm.

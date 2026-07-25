@@ -1,7 +1,6 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: observed
 source: 'RUNTIME:tetrix-ost@2328e61 (2026-07-24 14:37–16:46) — observed second instance'
 created: '2026-07-25'
 ---
@@ -36,3 +35,6 @@ _Provenance: direct observation of a second OST-Agent instance's vault and git h
 
 ## History
 - 2026-07-24 evidence: (none) → observed — retro-labeled: recorded-as-it-happened incident in this vault / tetrix-ost with commit-level provenance
+
+## Issues
+- 2026-07-25 Mirror flag: near-duplicate pain with 'Nothing kills a candidate, so every idea I have ever had is still alive' — see that node's annotation. Merge-candidate pair for human decision (2026-07-24 review).

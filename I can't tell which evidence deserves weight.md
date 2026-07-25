@@ -1,7 +1,6 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-compression.md'
 created: '2026-07-24'
 ---
@@ -22,3 +21,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-compression.md`, `INBOX:2026-07-24-op
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 Parent-ambiguity flag (2026-07-24 review): evidence-weighting applies to ALL evidence including founder input — at least as much a sibling of the trust/self-grading branch as a subset of external demand. Per tree rules, ambiguous parents go to human review rather than double-linking.

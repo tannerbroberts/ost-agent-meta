@@ -1,11 +1,11 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: agent-ideation — from Outcome-body dumping observed in both vaults
 created: '2026-07-25'
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
+[[Count stranded evidence items across both vaults that only a Context node could home]]
 
 **The idea.** Add a node layer for discovery products that are neither opportunity, solution, nor test: existing de-risked capability, hard constraints, unresolved factual conflicts, open human decisions. Things that are true and that should shape ideation without pretending to be needs.
 

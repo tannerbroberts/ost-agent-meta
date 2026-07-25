@@ -1,7 +1,6 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 ---
@@ -21,3 +20,6 @@ Proposed by the agent — to be run by a human with real traffic. No results rec
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 GATED (2026-07-24 prioritization): highest-believability signal on the ladder (money) but premature — with no audience source, a null result cannot distinguish no-demand from no-traffic, violating the tree's own cheapest-disconfirmer principle. Unlock after the cold-offer test and a distribution channel exist (see new opportunity 'No one outside my own network could discover this product exists').

@@ -18,6 +18,11 @@ created: '2026-07-24'
 [[I opened the vault in Obsidian and the agent lost half the tree]]
 [[The pass never says it is done, so I can't tell when to stop paying for compute]]
 [[Trust an unmonitored agent enough to walk away]]
+[[I don't know who this is for beyond myself]]
+[[I can't say why anyone wouldn't just do this by hand with Claude and Obsidian]]
+[[I don't know what unit of this anyone would pay for]]
+[[No one outside my own network could discover this product exists]]
+[[If the agent tends the tree for me, I may lose the understanding that tending it built]]
 
 Grow external returning operators: the number of non-founder operators who run a discovery pass on a real vault of their own and voluntarily return for another pass within 14 days, measured weekly. Until that number is above zero, the target opportunity is external demand evidence (I can't tell if anyone outside my own head wants this), and no node in this tree may climb the believability ladder on founder or model sources alone.
 
@@ -40,3 +45,19 @@ Recorded from `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`,
   > 
   > ## Issues
   > - 2026-07-24 Provenance gap across the whole tree (agent-flagged, 2026-07-24 pass). All 8 opportunities below this outcome were distilled from founder-authored inbox notes. None came from a story-based customer interview, and no node in this tree rests on non-founder evidence of any kind. By the tree's own rules this is the weakest possible provenance — the opportunity space is a set of hypotheses about needs, not a set of observed needs. The map should not be treated as believable until external evidence enters it; the branch "I can't tell if anyone outside my own head wants this" is the one that fixes this condition, and is the natural first target. A human should confirm the outcome and the opportunity set against real customer conversations before any building is funded off this map.
+
+## Prioritization — row-by-row (2026-07-24, human-authorized hard-fix pass)
+
+Torres: compare top-level rows qualitatively, pick ONE target, go deep. Verdict on the 13 rows against the retuned outcome (external returning operators):
+
+- **TARGET → "I can't tell if anyone outside my own head wants this"** (status: in-discovery). The only row whose assumption tests create non-founder evidence; every other row's believability is blocked on it. Sized: affects the only current operator, every session, and gates all 148 unvalidated nodes.
+- **Sequenced-after-demand:** "Trust an unmonitored agent enough to walk away" (41 nodes, ~28% of tree — adoption-stage hardening for operators who do not yet exist), "I can't leave the process running unattended without worrying", "Don't want to buy a second AI credential just to try it" (need reverse-engineered from a design decision). Hold until external returning operators > 0.
+- **Dogfood lane (real, observed, but produces no external evidence):** "I opened the vault in Obsidian and the agent lost half the tree", "The pass never says it is done, so I can't tell when to stop paying for compute", "I have a tree full of unvalidated nodes and no idea which one to pick up", "Checking on progress means digging through files".
+- **Founder-theory lane (evidence-debt-gated — no new siblings until a non-founder artifact cites the row):** "The goal I care about is too far from anything I can act on this week", "Nothing kills a candidate, so every idea I have ever had is still alive", "The candidate maps all look alike, so the route that would have worked is never among them", "Building crowds out the search for better evidence", "What the agent learns doesn't accumulate over time".
+
+**Sequenced critical path inside the target row:** 1) Cold-offer test (run first — zero build, ~1 week, kill threshold pre-committed, every reply including the noes is this vault's first external evidence). 2) Two-week recruiting test for interview supply. 3) Pre-order probe (gated: without an audience source a null result cannot distinguish no-demand from no-traffic).
+
+Source: INBOX:2026-07-24-external-review-five-dimension.md
+
+## Issues
+- 2026-07-25 Append-only violation on record (2026-07-24): merge 57c3745 rewrote 64 files' frontmatter and corrupted 5 source fields to a literal '>-'. Repaired same day under a distinguishable git author (commit a6d86cb) so human-driven repairs remain separable from agent passes. The port path's YAML serialization is filed as a product bug in INBOX:2026-07-24-external-review-five-dimension.md.

@@ -1,11 +1,11 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent-ideation — from the Obsidian rename incident in this vault, 2026-07-24'
 created: '2026-07-25'
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
+[[Audit both vault histories for rename-shaped link breaks]]
 
 **The idea.** When a node is renamed and the old file is left behind empty, recognize it as a rename rather than as one deletion plus one unrelated creation, and offer to re-point the inbound wikilinks.
 

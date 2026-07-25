@@ -1,7 +1,6 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-efficacy-critique.md'
 created: '2026-07-25'
 ---
@@ -18,3 +17,6 @@ _Addresses: "Can't tell if the generated tree is actually any good". Also suppor
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent judge separate from the proposer' and 'Adversarial grounding judge' — a second pass with no stake reviews nodes against evidence. One build satisfies all three; consolidation candidate.

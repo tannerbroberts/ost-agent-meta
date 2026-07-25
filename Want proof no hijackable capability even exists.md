@@ -1,7 +1,6 @@
 ---
 type: Opportunity
-status: unvalidated
-evidence: assertion
+status: deferred
 source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
 ---
@@ -23,3 +22,5 @@ _Provenance: INBOX:2026-07-22-runtime-decision.md (implementation decision, 2026
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-07-25 status: unvalidated → deferred — Human-authorized merge (2026-07-24): self-flagged near-duplicate of sibling 'Fear the agent could take a destructive, irreversible action' — same fear, two mitigation philosophies; every listed alternative is the same mechanism. Its three solutions are now also linked under the surviving sibling. Deferred, never deleted; reverse by resetting status.
+- 2026-07-25 Merged into 'Fear the agent could take a destructive, irreversible action' (2026-07-24, human-authorized). Solutions relinked under the survivor; this node deferred. The capability-absence-vs-restraint distinction it carried now lives in the survivor's solution set.

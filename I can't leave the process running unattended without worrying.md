@@ -1,7 +1,6 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-opp-idempotent-runtime.md'
 created: '2026-07-24'
 ---
@@ -23,3 +22,6 @@ Evidence: `INBOX:2026-07-24-opp-idempotent-runtime.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-07-25 Near-synonym top-level sibling of 'Trust an unmonitored agent enough to walk away' — the children happen to partition (safety/honesty vs runtime continuity) but the titles do not carry the boundary; a reader cannot predict which child lives where. Merge-or-rename candidate for human decision (2026-07-24 review).
