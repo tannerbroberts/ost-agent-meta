@@ -20,3 +20,5 @@
 {"ts":"2026-07-25T02:04:27.107Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1057,"session":"twenty-passes"}
 {"ts":"2026-07-25T02:04:27.231Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":891,"session":"twenty-passes"}
 {"ts":"2026-07-25T02:04:27.354Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1000,"session":"twenty-passes"}
+{"ts":"2026-07-25T02:04:27.478Z","tool":"git_commit","ok":true,"ms":106,"surface":"cli-tool","argBytes":114,"session":"twenty-passes"}
+{"ts":"2026-07-25T02:04:27.761Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"cli-tool","argBytes":353,"session":"twenty-passes"}
