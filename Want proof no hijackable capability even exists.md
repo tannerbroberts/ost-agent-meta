@@ -1,6 +1,7 @@
 ---
 type: Opportunity
 status: deferred
+evidence: assertion
 source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
 ---

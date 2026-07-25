@@ -1,6 +1,7 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: >-
   agent-ideation — mapped-ledger dead-end observed in this vault and
   RUNTIME:tetrix-ost@2328e61

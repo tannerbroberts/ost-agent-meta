@@ -1,10 +1,11 @@
 ---
 type: AssumptionTest
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
 ---
-#AssumptionTest #unvalidated
+#AssumptionTest #unvalidated #evidence/assertion
 
 **Assumption (desirability):** stranded true-useful-not-a-need evidence recurs often enough to justify a schema change.
 
@@ -15,3 +16,6 @@ created: '2026-07-25'
 **Decides:** build the Context type vs rely on the 'acknowledged, with a reason' affordance alone (sibling solution under the never-done opportunity).
 
 *Proposed by the agent-side hard-fix pass — to be run by a human. No results recorded here.*
+
+## History
+- 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input

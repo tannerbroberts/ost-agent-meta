@@ -1,6 +1,7 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-22-dogfooding-idea.md'
 created: '2026-07-25'
 ---

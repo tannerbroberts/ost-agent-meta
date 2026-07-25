@@ -1,6 +1,7 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: agent-ideation — from Outcome-body dumping observed in both vaults
 created: '2026-07-25'
 ---

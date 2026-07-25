@@ -1,6 +1,7 @@
 ---
 type: Solution
 status: unvalidated
+evidence: assertion
 source: 'agent-ideation — from observed pass-shape decay in tetrix-ost 14:37→16:46'
 created: '2026-07-25'
 ---

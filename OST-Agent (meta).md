@@ -1,6 +1,7 @@
 ---
 type: Outcome
 status: validated
+evidence: assertion
 source: 'config:outcome'
 created: '2026-07-24'
 ---

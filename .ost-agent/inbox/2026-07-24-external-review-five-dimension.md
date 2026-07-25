@@ -72,3 +72,13 @@ tree maintenance destroy the value practitioners get from maintaining one?).
   no buy/adopt/do-nothing lanes in P3 prompts; P4 emits exactly 1 test/solution.
 - No staleness mechanism, no kill-criteria affordance, no human/agent git identity
   separation (agent commits as the founder).
+
+## Addendum — bugs observed live during the 2026-07-24 hard-fix pass itself
+
+- The 0.1.3 serializer DROPS the `evidence:` frontmatter field whenever any tool
+  rewrites a node (annotate/status/append/link); the `#evidence/<rung>` tag survives
+  only because unknown tags are passed through. Until the vault runs a build where
+  node.ts knows the field, every agent pass will silently strip rung frontmatter.
+- `ost_create_node`@0.1.3 accepted and silently discarded the `evidence` input
+  (11 nodes created without the rung they were given) — schema drift between the
+  published CLI and src/security/tools.ts, and no input validation error either way.

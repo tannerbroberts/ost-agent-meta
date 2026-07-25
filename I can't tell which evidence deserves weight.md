@@ -1,6 +1,7 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-compression.md'
 created: '2026-07-24'
 ---

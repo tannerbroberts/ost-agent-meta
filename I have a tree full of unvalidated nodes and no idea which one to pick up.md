@@ -1,6 +1,7 @@
 ---
 type: Opportunity
 status: unvalidated
+evidence: observed
 source: 'RUNTIME:tetrix-ost@2328e61 (2026-07-24 14:37–16:46) — observed second instance'
 created: '2026-07-25'
 ---
