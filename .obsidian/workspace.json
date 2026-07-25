@@ -31,12 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I need the tree's output to be actionable by compute alone, because my hours don't exist.md",
+                "file": "Scheduled ambient passes that page the operator only at hard gates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "I need the tree's output to be actionable by compute alone, because my hours don't exist"
+              "title": "Scheduled ambient passes that page the operator only at hard gates"
             }
           }
         ]
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f5fdc2965604e2d6",
@@ -113,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Scheduled ambient passes that page the operator only at hard gates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Scheduled ambient passes that page the operator only at hard gates"
             }
           },
           {
@@ -131,11 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Scheduled ambient passes that page the operator only at hard gates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Scheduled ambient passes that page the operator only at hard gates"
             }
           },
           {
@@ -173,12 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Scheduled ambient passes that page the operator only at hard gates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Scheduled ambient passes that page the operator only at hard gates"
             }
           }
         ]
@@ -199,12 +201,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "f33d859963335aae",
+  "active": "f64ab9f30d4bf1ec",
   "lastOpenFiles": [
+    "Improvements I ship never reach the agents already running.md",
+    "Twenty-question grounding check for answer faithfulness.md",
+    "The friction that matters leaves no error behind.md",
+    "What the agent struggles with every session disappears.md",
+    "I can't tell if anyone outside my own head wants this.md",
+    "OST-Agent (meta).md",
+    "I need the tree's output to be actionable by compute alone, because my hours don't exist.md",
     "Every run ends blocked on a credential only I hold.md",
     "When the rules tighten, my existing tree is stranded out of compliance.md",
     "I can't tell what a half-finished run actually finished.md",
-    "The friction that matters leaves no error behind.md",
     "The agent has no picture of what the builder can do, because reasoning traces never reach it.md",
     "The uncovered statement printed next to what the test asked for.md",
     "The agent narrows its own capability to get past a gate I set.md",
@@ -218,14 +226,8 @@
     "Do six cold artefacts show a test beating a verdict draft.md",
     "Do named unfixed thresholds actually get fixed.md",
     "A result must state what it did not cover.md",
-    "I need the tree's output to be actionable by compute alone, because my hours don't exist.md",
-    "OST-Agent (meta).md",
     "Trust an unmonitored agent enough to walk away.md",
     "Two unattended weeks - count pages, grind, and money burned.md",
-    "Time one real week of decisions through the docket from a phone.md",
-    "Run the compute-only backlog today and count decisive verdict drafts.md",
-    "Scheduled ambient passes that page the operator only at hard gates.md",
-    "Weekly ten-minute docket - every pending decision arrives prepared as one yes or no.md",
-    "Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane.md"
+    "Time one real week of decisions through the docket from a phone.md"
   ]
 }
