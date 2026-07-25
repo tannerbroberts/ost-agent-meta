@@ -23,3 +23,5 @@
 {"ts":"2026-07-25T02:04:27.478Z","tool":"git_commit","ok":true,"ms":106,"surface":"cli-tool","argBytes":114,"session":"twenty-passes"}
 {"ts":"2026-07-25T02:04:27.761Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"cli-tool","argBytes":353,"session":"twenty-passes"}
 {"ts":"2026-07-25T02:04:27.884Z","tool":"git_commit","ok":true,"ms":104,"surface":"cli-tool","argBytes":129,"session":"twenty-passes"}
+{"ts":"2026-07-25T02:05:15.503Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"cli-tool","argBytes":1050,"session":"twenty-passes"}
+{"ts":"2026-07-25T02:05:15.625Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"cli-tool","argBytes":480,"session":"twenty-passes"}

@@ -36,3 +36,10 @@ _Provenance: `.ost-agent/state/mapped.json` behaviour in this vault (confirmed i
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → observed — retro-labeled: recorded-as-it-happened incident in this vault / tetrix-ost with commit-level provenance
+
+## Two more mechanisms, observed live (2026-07-25, twenty-passes run)
+
+1. **Done-ness is not stable across versions.** `INBOX:2026-07-25-friction-upgrading-the-cli-silently-reopened-18-mapped-ev.md`: same vault, same instant — 0.1.3's source-scan says 9 unmapped, the HEAD build's ledger (a file no pass here ever wrote) says 27. An upgrade re-opened 18 items of settled history without touching the tree.
+2. **The counter cannot read governance.** `INBOX:2026-07-25-friction-ost-next-work-demands-solutions-under-7-opportun.md`: 7 opportunities carry explicit evidence-debt/prioritization gates, but underservedOpportunities re-demands solutions under them every pass, forever. A governed pass and a quota-filling pass see the same number; done:true is unreachable by design either way.
+
+Both are observed-rung, machine-recorded. Between them and the original mapped-ledger dead-end, this opportunity now has three independent mechanisms.

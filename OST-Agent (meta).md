@@ -82,3 +82,9 @@ The 8 outstanding evidence items were dispositioned as follows. Because no ackno
 - `TRANSCRIPT:5e5c119d` (3 events: zsh glob errors ×2, vitest retry) and `TRANSCRIPT:8fc8d6e3` (1 tool_error) → ACKNOWLEDGED, no node: shell-harness micro-friction, not product friction; too thin to ground anything alone. Channel is working; signal this period is noise-level.
 - `INBOX:…-friction-run-p2-p5-requires-an-api-credential…` → MAPPED: appended as first observed instance under 'Don't want to buy a second AI credential just to try it'.
 - `INBOX:…-friction-a-pass-that-dies-on-a-driver-error…` → MAPPED: new opportunity 'A failed pass reports success, so my automation can't tell' (observed rung).
+
+## Evidence dispositions — twenty-passes cycle 2 (2026-07-25)
+
+- version-skew doneness friction → MAPPED: appended to 'The pass never says it is done…' (mechanism 2).
+- quota-vs-gate friction → MAPPED: appended to the same node (mechanism 3); also the standing product-bug list.
+- Note: both items will still show as unmapped in the HEAD counter because appends do not write the ledger — the disposition IS this ledger entry.
