@@ -31,12 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OST-Agent (meta).md",
+                "file": "I need the tree's output to be actionable by compute alone, because my hours don't exist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OST-Agent (meta)"
+              "title": "I need the tree's output to be actionable by compute alone, because my hours don't exist"
             }
           }
         ]
@@ -113,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OST-Agent (meta).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OST-Agent (meta)"
+              "title": "Backlinks"
             }
           },
           {
@@ -132,12 +131,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OST-Agent (meta).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OST-Agent (meta)"
+              "title": "Outgoing links"
             }
           },
           {
@@ -175,13 +173,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OST-Agent (meta).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OST-Agent (meta)"
+              "title": "Outline"
             }
           }
         ]
@@ -202,33 +199,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "f64ab9f30d4bf1ec",
+  "active": "f33d859963335aae",
   "lastOpenFiles": [
+    "The uncovered statement printed next to what the test asked for.md",
+    "The agent narrows its own capability to get past a gate I set.md",
+    "Refuse to record a result against a threshold that was never fixed.md",
+    "My tests carry thresholds nobody ever fixed, so nothing can come out a failure.md",
+    "Make the threshold a field the node carries, not a sentence in its prose.md",
+    "Leave a permanent test behind instead of a one-off verdict draft.md",
+    "Flag a threshold that is still an instruction to choose one.md",
+    "Does the side-by-side change what a reviewer does about a threshold.md",
+    "Does a forced uncovered field change what a second reader believes.md",
+    "Do six cold artefacts show a test beating a verdict draft.md",
+    "Do named unfixed thresholds actually get fixed.md",
+    "A result must state what it did not cover.md",
+    "I need the tree's output to be actionable by compute alone, because my hours don't exist.md",
+    "OST-Agent (meta).md",
+    "Trust an unmonitored agent enough to walk away.md",
     "Two unattended weeks - count pages, grind, and money burned.md",
     "Time one real week of decisions through the docket from a phone.md",
     "Run the compute-only backlog today and count decisive verdict drafts.md",
     "Scheduled ambient passes that page the operator only at hard gates.md",
     "Weekly ten-minute docket - every pending decision arrives prepared as one yes or no.md",
     "Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane.md",
-    "I need the tree's output to be actionable by compute alone, because my hours don't exist.md",
     "Replay the three recorded failed runs through the journal-alert rule on paper.md",
     "Five-second status glance test after a failed run.md",
     "Break one pass on purpose and check cron notices within a cycle.md",
     "Supervisor heartbeat consumes run journals and alerts on error.md",
-    "Status and digest lead with the last failed run.md",
-    "Nonzero exit code and failure summary when a pass errors.md",
-    "A failed pass reports success, so my automation can't tell.md",
-    "Check transcript-derived call parity against the in-band trace for one session.md",
-    "Diff three past sessions' claims against their traces by hand.md",
-    "Replay the hard-fix session's trace against its known defects.md",
-    "Adopt session transcripts as the trace source instead of new instrumentation.md",
-    "Trace-vs-narrative reconciler that files disagreements as friction.md",
-    "I want my usage to automatically feed into and make the OST-Agent better.md",
-    "Mechanical tool-invocation trace with daily evidence rollup.md",
-    "Nothing points from my project to the vault that maps it.md",
-    "Two agents sharing my vault can trample each other.md",
-    "If the agent tends the tree for me, I may lose the understanding that tending it built.md",
-    "No one outside my own network could discover this product exists.md",
-    "I don't know what unit of this anyone would pay for.md"
+    "Status and digest lead with the last failed run.md"
   ]
 }
