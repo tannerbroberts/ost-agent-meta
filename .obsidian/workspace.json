@@ -204,6 +204,13 @@
   },
   "active": "f64ab9f30d4bf1ec",
   "lastOpenFiles": [
+    "Check transcript-derived call parity against the in-band trace for one session.md",
+    "Diff three past sessions' claims against their traces by hand.md",
+    "Replay the hard-fix session's trace against its known defects.md",
+    "Adopt session transcripts as the trace source instead of new instrumentation.md",
+    "Trace-vs-narrative reconciler that files disagreements as friction.md",
+    "I want my usage to automatically feed into and make the OST-Agent better.md",
+    "Mechanical tool-invocation trace with daily evidence rollup.md",
     "Nothing points from my project to the vault that maps it.md",
     "Two agents sharing my vault can trample each other.md",
     "If the agent tends the tree for me, I may lose the understanding that tending it built.md",
