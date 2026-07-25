@@ -41,3 +41,25 @@ unrun.
 node *body* rather than the end of the named *section* — invisible while nodes had
 one growing section, wrong the moment they had two. A status change after a result
 would have filed itself under `## Results`.
+
+## The reading half shipped — 2026-07-25 (v0.9.0)
+
+This node's closing caveat said shipping the field settled nothing about whether
+being made to write the sentence changes anything, because nothing ever *read* the
+sentence. [[The uncovered statement printed next to what the test asked for]] is the
+smallest thing that changes that: `ost-agent debt` now prints each bounded test's
+pre-committed threshold directly above the limit its run stated.
+
+**One consequence worth recording here rather than only there.** Making the pair
+readable required finding the threshold in the node body, and doing that over both
+live vaults produced a number neither tree had: in `tetrix-ost`, 21 of 27 assumption
+tests open their pre-commitment with an imperative — an instruction to decide a
+threshold, standing where the threshold should be — and only 4 of 27 carry a number. The coverage machinery
+this node introduced has been enforcing a limit statement against a bar that, in that
+vault, mostly does not exist. Filed as
+[[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]].
+
+That is the first thing either of these two features has found on its own, and it
+argues for this line of work more than any of its own reasoning did. It does not,
+however, answer [[Does a forced uncovered field change what a second reader believes]],
+which remains unrun.

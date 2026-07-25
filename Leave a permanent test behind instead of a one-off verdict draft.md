@@ -82,3 +82,42 @@ noticing". v0.8.0's
 work, all inside this building. The cheapest disconfirmer —
 [[Do six cold artefacts show a test beating a verdict draft]] — remains unrun, and
 three self-observations do not substitute for one outsider.
+
+## Fourth instance, 2026-07-25 (autonomous loop, pass 5) — and the first one that fired on purpose
+
+The first three instances all argued the same shape: a test survives where a verdict
+decays, and writing it forces contact with the real code path. This one is different
+in kind, and it is the first instance where the *mechanism this node claims* was
+observed doing its work without anybody present.
+
+**What happened.** Pass 4 on tetrix ended by committing an assertion it expected to
+be wrong later: *a signed-out visitor is never offered a board to play, so the beacon
+cannot fire*. It was true, and it was left in `e2e/firstPlayBeacon.spec.ts` as a
+tripwire, with a comment saying that if anonymous play were ever built this test
+should fail and force the funnel's interpretation to be revisited deliberately rather
+than by accident.
+
+Pass 5 built anonymous play. **The tripwire fired.** The test failed, the pass had to
+open it, and the interpretation was revisited on purpose — the assertion was inverted
+into its opposite (a stranger gets a live board, drags a real piece, the row lands)
+rather than deleted, and the file's docstring now records why it changed.
+
+**What this adds to the claim.** The first three instances said a test is a durable
+*record*. This says a test can be a durable *instruction to a future stranger* —
+including a future instance of the agent that wrote it, with none of the original
+context. A verdict draft cannot do that at all: nothing re-reads a draft at the
+moment it stops being true. The mechanism is that the test is positioned where the
+change must pass through.
+
+**And it caught something the tripwire's author did not intend.** Rewriting it
+exposed that the original assertion could have passed for the wrong reason: a
+freshly-migrated database has no non-starter puzzles, so `/daily` serves no board at
+all, and "no board because anonymous play does not exist" and "no board because the
+library is empty" were indistinguishable. The replacement seeds a board first. A
+tripwire that can pass vacuously is worse than none, and only rewriting it revealed
+that — which is an argument for the *inversion* step, not just the leaving-behind
+step.
+
+**Still one source.** Four instances, all of an agent observing its own work inside
+this building. [[Do six cold artefacts show a test beating a verdict draft]] remains
+unrun, and four self-observations still do not substitute for one outsider.

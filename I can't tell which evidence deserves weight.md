@@ -10,6 +10,7 @@ evidence: assertion
 [[Confidence propagation with founder-theory warnings]]
 [[Adversarial grounding judge]]
 [[A result must state what it did not cover]]
+[[The uncovered statement printed next to what the test asked for]]
 
 **The need (customer's voice):** "A note I wrote to myself at midnight and a paying customer renewing look the same once they're in the system. I can't see which parts of the map are load-bearing and which are just me."
 

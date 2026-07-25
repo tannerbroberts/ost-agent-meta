@@ -36,6 +36,5 @@ it lands next to founder theory and is weighted like founder theory.
 
 This is a second, independent sighting of the hole this node describes, from the
 other product, arrived at without reference to this node. Worth counting toward
-[[Count stranded evidence items across both vaults that only a Context node could
-home]] — and worth noting that the stranded item in this case was the single most
+[[Count stranded evidence items across both vaults that only a Context node could home]] — and worth noting that the stranded item in this case was the single most
 consequential thing that pass found.
