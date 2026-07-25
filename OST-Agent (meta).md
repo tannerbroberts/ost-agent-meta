@@ -31,6 +31,7 @@ evidence: assertion
 [[The agent has no picture of what the builder can do, because reasoning traces never reach it]]
 [[When the rules tighten, my existing tree is stranded out of compliance]]
 [[I can't tell another PM 'just run npm install' and have it work]]
+[[Fresh outside findings never reach the tree unless I go get them]]
 
 Grow external returning operators: the number of non-founder operators who run a discovery pass on a real vault of their own and voluntarily return for another pass within 14 days, measured weekly. Until that number is above zero, the target opportunity is external demand evidence (I can't tell if anyone outside my own head wants this), and no node in this tree may climb the believability ladder on founder or model sources alone.
 
