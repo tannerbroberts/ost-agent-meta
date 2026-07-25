@@ -1,7 +1,7 @@
 ---
 type: Opportunity
 status: unvalidated
-source: '>-'
+source: 'observation:this-vault working tree + ost_next_work output, 2026-07-24'
 created: '2026-07-25'
 ---
 #Opportunity #ported-from-ost-agent-vault
@@ -33,3 +33,6 @@ There is also a substantive signal buried in the edit itself, distinct from the 
 **Litmus (more than one way?):** Yes — reconcile and report drift at the start of every pass; treat unknown `type:` values as present-but-quarantined rather than absent; detect renames by content/link topology and repair the edge; warn on write instead of at next read; give the agent a scoped repair affordance for edges it can justify from history.
 
 _Provenance: direct observation of this vault's working tree and `ost_next_work` output, 2026-07-24. Unvalidated — one incident, one operator._
+
+## History
+- 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).

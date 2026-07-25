@@ -1,7 +1,7 @@
 ---
 type: AssumptionTest
 status: unvalidated
-source: '>-'
+source: 'ported:ost-agent-vault@57c3745 — agent-ideation (builder-loop test design)'
 created: '2026-07-25'
 ---
 #AssumptionTest #ported-from-ost-agent-vault
@@ -19,3 +19,6 @@ created: '2026-07-25'
 **Note the deliberate bias check.** The tetrix agent warned that an agent will steer toward work it can do alone. This test is exactly such work — cheap, self-contained, no humans required. That is a reason to run it, and also a reason to weight its result down.
 
 ⚠️ Proposed only — the agent does not run tests.
+
+## History
+- 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).

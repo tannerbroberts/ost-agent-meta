@@ -1,7 +1,7 @@
 ---
 type: Opportunity
 status: unvalidated
-source: '>-'
+source: 'observation:.ost-agent/state/mapped.json behaviour in this vault + RUNTIME:tetrix-ost@2328e61'
 created: '2026-07-25'
 ---
 #Opportunity #ported-from-ost-agent-vault
@@ -31,3 +31,6 @@ That instance hit it for a *principled* reason worth preserving: one evidence it
 **Litmus (more than one way?):** Yes — expose a mark-mapped affordance; let a pass declare evidence "acknowledged, not mapped" with a reason; add a Context/Constraint node type so non-need evidence has a home; detect diminishing returns from the pass's own output and idle down; separate "structurally complete" from "nothing left worth doing."
 
 _Provenance: `.ost-agent/state/mapped.json` behaviour in this vault (confirmed in prior session, see root annotation), plus the tetrix instance's root annotation at commit `2328e61`. Unvalidated._
+
+## History
+- 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).

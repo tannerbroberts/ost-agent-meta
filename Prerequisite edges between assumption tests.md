@@ -1,7 +1,7 @@
 ---
 type: Solution
 status: unvalidated
-source: '>-'
+source: 'ported:ost-agent-vault@57c3745 — agent-ideation'
 created: '2026-07-25'
 ---
 #Solution #ported-from-ost-agent-vault
@@ -17,3 +17,6 @@ created: '2026-07-25'
 **Order of operations.** If leverage ranking is built first, prerequisite edges are the natural way to feed it real data instead of prose inference. If the briefing is built first, this can wait indefinitely. Building this first would be building the most expensive option against the least evidence.
 
 ⚠️ Unvalidated. Proposed by an agent, from an agent's behaviour.
+
+## History
+- 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).

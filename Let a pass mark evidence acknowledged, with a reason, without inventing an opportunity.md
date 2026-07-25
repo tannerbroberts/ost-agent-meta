@@ -1,7 +1,7 @@
 ---
 type: Solution
 status: unvalidated
-source: '>-'
+source: 'agent-ideation — mapped-ledger dead-end observed in this vault and RUNTIME:tetrix-ost@2328e61'
 created: '2026-07-25'
 ---
 #Solution #ported-from-ost-agent-vault
@@ -17,3 +17,6 @@ The tetrix instance faced this precisely and chose correctly. Its evidence item 
 **Interaction with the append-only boundary.** Both instances refused to hand-edit `mapped.json` from the shell, correctly, to preserve the tools-only trust boundary. That refusal is a feature and this solution must not undermine it: the disposition should be written through the tool surface and land in the audit trail like every other change.
 
 ⚠️ Unvalidated. Proposed by an agent, from two instances' observed behaviour.
+
+## History
+- 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
