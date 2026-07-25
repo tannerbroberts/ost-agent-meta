@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Five-second status glance test after a failed run]]
 
 **The idea.** `ost-agent status` (and any digest) surfaces the most recent failed run journal first — error, when, which pass — before node counts. Failure becomes the first thing a human sees, not a JSON file to spelunk.
 

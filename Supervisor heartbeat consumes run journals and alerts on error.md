@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the three recorded failed runs through the journal-alert rule on paper]]
 
 **The idea.** Adopt-existing lane: the tree already carries 'Supervisor heartbeat with automatic restart' under the unattended branch. Extend its contract: heartbeat reads `.ost-agent/runs/*.json`, treats `error` fields as failures, restarts or alerts. No new failure channel — the journal becomes the protocol.
 

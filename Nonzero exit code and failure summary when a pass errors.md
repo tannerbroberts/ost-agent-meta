@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Break one pass on purpose and check cron notices within a cycle]]
 
 **The idea.** The smallest honest contract: a pass whose driver or any tool invocation errors exits nonzero and prints the error as the last line. Cron, launchd, CI — everything already speaks this protocol.
 
