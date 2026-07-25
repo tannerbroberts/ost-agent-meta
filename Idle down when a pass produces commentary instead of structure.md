@@ -28,3 +28,7 @@ Creates, then appends, then commentary on the root. The transition is legible fr
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Observed from inside (2026-07-25, twenty-passes run)
+
+`INBOX:2026-07-25-friction-passes-8-through-13-produced-zero-structure-whil…`: six consecutive governed passes (8–13) produced zero structural changes while ost_next_work reported the identical outstanding list each time. The mechanical trace for the session shows the call pattern flattening to next_work + git_commit('nothing to commit') pairs — exactly the commentary-vs-structure signature this solution proposes to detect. First recorded instance of the full idle signature in the wild; the paper-classification assumption test now has a labeled positive sample.
