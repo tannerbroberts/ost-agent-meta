@@ -6,6 +6,9 @@ created: '2026-07-25'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Nonzero exit code and failure summary when a pass errors]]
+[[Status and digest lead with the last failed run]]
+[[Supervisor heartbeat consumes run journals and alerts on error]]
 
 **The need (operator's voice):** "P2_map died on an auth error and still exited 0, wrote a commit, and printed a tidy summary. If that had been my nightly cron, it would no-op forever while looking perfectly healthy."
 
