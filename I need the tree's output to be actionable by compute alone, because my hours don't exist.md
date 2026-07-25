@@ -11,6 +11,7 @@ evidence: assertion
 [[Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane]]
 [[Weekly ten-minute docket - every pending decision arrives prepared as one yes or no]]
 [[Scheduled ambient passes that page the operator only at hard gates]]
+[[Leave a permanent test behind instead of a one-off verdict draft]]
 
 **The need (operator's voice):** "I'm a working man, husband, and father of three, soon to be four. I prioritize my family, but there's no excuses that build new products. The output from my OST needs to be actionable by me pointing my Claude subscription's token generation power at the problem. I need better bootstrappability from the agent with less involvement from me."
 
@@ -34,3 +35,19 @@ One unattended run took both products from tree to shipped code with **zero oper
 **Why this sharpens the need rather than just confirming it.** The floor said compute cannot absorb identity, money, validation authority, or the goal. This adds a fifth, and it is not one of those four: **the credential that makes work public.** Publishing is not a decision — nobody is weighing anything, and there is nothing for the operator to judge. It is a one-minute mechanical act that only a credential-holder can perform. The spec "minutes at decision-shaped moments" does not cover it; this is a minute at a *permission*-shaped moment, and a pipeline that hands off decisions cleanly will still stall here.
 
 **What that implies for the candidates below.** [[Weekly ten-minute docket - every pending decision arrives prepared as one yes or no]] is built for decisions and would carry this badly — "run `npm publish`" is not a yes/no with evidence behind it. Either the docket grows a distinct *pending permissions* lane (chores, not judgements), or credential-holding steps are pushed out of the loop's path entirely (an automation token in CI, triggered by something compute can reach). A human should pick; the agent should not quietly acquire publish rights, and did not.
+
+## Observed instance — 2026-07-25, second loop of the day: compute ran a lane, on the other product
+
+A second unattended run shipped to both products with **zero operator minutes**, and it is worth recording separately from the first because it produced a different *kind* of evidence.
+
+The first run showed compute can absorb the work shape of *building*. This one showed compute can absorb the work shape of **verifying** — which is the half this node's leading candidate is actually about.
+
+**What happened.** The tetrix tree's standing briefing named its highest-leverage next action as a ~15-minute human task: walk five journeys against a live Postgres, because the funnel instrument's real SQL had never executed. The loop did it without a person: found no Docker daemon, found PostgreSQL 16 server binaries on the box instead, initialised a cluster, applied all 23 migrations, and converted the five-journey hand-walk into `visitorFunnelService.pg.test.ts` — 16 checks against the real database, green, re-run on every `pnpm test`.
+
+**Why that is stronger evidence than "a test was written".** The task was *classified by a previous pass as needing a human*, with a time estimate attached. It did not need one. That is a mislabel in the safe direction — exactly the direction the v0.6.0 lane rules force — and it is the first concrete case of the compute-only lane paying, on a product that is not this one.
+
+It also sharpens what the lane triage is for. The saving is not the fifteen minutes. It is that a hand-walk verifies one afternoon and a test verifies every commit forever; the lane triage's real product is *converting expiring human verification into non-expiring mechanical verification*, and the fifteen minutes is a rounding error next to that.
+
+**The honest limit, recorded so this is not read as more than it is.** No defect was found, so the run produced no news. A verification lane that only ever confirms is cheap to run and worth very little; the case that matters is one where compute finds something and a human has to decide what it means. That case has not happened yet.
+
+**Second confirmation of the fifth floor item, and it is now a pattern rather than an incident.** `npm publish` was again unavailable (`npm whoami` → `ENEEDAUTH`), and the tag push was again rejected by the environment's git proxy — the same two failures, in the same order, in consecutive runs. v0.5.0 and now v0.6.0 both sit on `main` and neither is on the registry. Two releases of unpublished work is no longer a stall, it is a growing backlog behind one credential, and every pass that ships more code makes the eventual publish larger and less reviewable. The choice named last pass — grow a *pending permissions* lane, or push credential-holding steps out of the loop's path (an automation token in CI, triggered by something compute can reach) — is now overdue rather than open. The agent has not acquired publish rights and will not.
