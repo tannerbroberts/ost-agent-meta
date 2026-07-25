@@ -52,3 +52,15 @@
 {"ts":"2026-07-25T02:34:12.532Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"cli-tool","argBytes":1319,"session":"bootstrappability"}
 {"ts":"2026-07-25T02:34:12.656Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"cli-tool","argBytes":555,"session":"bootstrappability"}
 {"ts":"2026-07-25T02:34:12.779Z","tool":"git_commit","ok":true,"ms":105,"surface":"cli-tool","argBytes":156,"session":"bootstrappability"}
+{"ts":"2026-07-25T05:11:37.139Z","tool":"ost_next_work","ok":true,"ms":75,"surface":"cli-tool","argBytes":2}
+{"ts":"2026-07-25T05:11:45.125Z","tool":"ost_next_work","ok":true,"ms":58,"surface":"cli-tool","argBytes":2}
+{"ts":"2026-07-25T05:13:40.890Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"cli-tool","argBytes":1915}
+{"ts":"2026-07-25T05:13:40.893Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"cli-tool","argBytes":1515}
+{"ts":"2026-07-25T05:13:40.896Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"cli-tool","argBytes":1110}
+{"ts":"2026-07-25T05:13:40.899Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"cli-tool","argBytes":1193}
+{"ts":"2026-07-25T05:13:40.901Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"cli-tool","argBytes":1137}
+{"ts":"2026-07-25T05:13:40.903Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"cli-tool","argBytes":951}
+{"ts":"2026-07-25T05:13:40.905Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"cli-tool","argBytes":2502}
+{"ts":"2026-07-25T05:13:40.907Z","tool":"ost_annotate","ok":true,"ms":6,"surface":"cli-tool","argBytes":1389}
+{"ts":"2026-07-25T05:13:40.918Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"cli-tool","argBytes":979}
+{"ts":"2026-07-25T05:13:58.746Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"cli-tool","argBytes":2158}
