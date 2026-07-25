@@ -105,3 +105,4 @@
 {"ts":"2026-07-25T22:41:52.948Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1582}
 {"ts":"2026-07-25T22:41:59.508Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1424}
 {"ts":"2026-07-25T22:42:03.241Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":832}
+{"ts":"2026-07-25T22:42:05.138Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":450}

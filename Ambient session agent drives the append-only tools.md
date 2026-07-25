@@ -18,3 +18,7 @@ _Addresses: "Don't want to buy a second AI credential just to try it". Unvalidat
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Founder preference (2026-07-25, human:conversation)
+
+The founder stated as a standing opinion: "a human's interaction with the OST should be through an AI agent." This directly endorses this solution's thesis — the agent-as-driver is not just a zero-credential workaround but the intended primary interface. Assertion rung; recorded as design intent, not validation.
