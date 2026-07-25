@@ -9,6 +9,7 @@ created: '2026-07-25'
 [[A standing Next Build node the agent rewrites every pass]]
 [[Prerequisite edges between assumption tests]]
 [[Rank every node by how many blocked tests one build would unblock]]
+[[Show me the whole priority order, and why each item sits where it does]]
 
 **Customer need (operator's perspective):** "I poured compute into this and came back to forty nodes that all say `unvalidated`. I believe them. I still don't know what to do on Monday morning."
 
@@ -43,3 +44,7 @@ _Provenance: direct observation of a second OST-Agent instance's vault and git h
 ## Supporting evidence — builder verdict (2026-07-24)
 
 `INBOX:2026-07-24-builder-evidence-debt-gate-verdict.md`: the evidence-debt gate, run against this tree, blocked every solution it had shipped — `Solutions: 24 (untested 0, proposed-only 24, tested 0)`. The gate turned this opportunity from a feeling into a measurement: nothing in the tree was runnable-next because nothing had a recorded result. Evidence class: observed behavior (the gate's own output). This item creates no new opportunity — it is direct evidence for this one.
+
+## Supporting evidence — an operator said it out loud (2026-07-25)
+
+The provenance note above records that "no operator has said this out loud yet; it is inferred from an agent's self-diagnosis." That is no longer true. The founder, in conversation on 2026-07-25: "I want to be able to see a clearly prioritized list from top to bottom. Not just what is the highest leverage — but also, why." Still a founder source (non-external), so the rung is unchanged, but the need is now stated by a human rather than only inferred from vault shape. The statement also sharpened a facet the solutions here did not cover — a complete ordering with legible per-item rationale — captured as the child opportunity [[Show me the whole priority order, and why each item sits where it does]].
