@@ -42,3 +42,49 @@ exit-code and status-surfacing change is why this is visible at all, four passes
 later, instead of silently absent. Not fixed here — supplying a credential is a
 human's call, and the same one as
 [[Bundled local model for zero-credential trial]].
+
+
+## A third shape of the same failure, and this one is not about exit codes — 2026-07-26
+
+This node has always been about a run that **errors and reports success**. The sibling
+product just supplied a variant that no exit code could have caught, and it is worth
+recording here rather than as its own opportunity, because the operator's complaint is
+identical: *the signal was there, and it carried no information.*
+
+**What happened.** `tetrix-game-monorepo`'s frontend suite had reported **8 failures across
+5 files** on `master` for at least seven passes. Every pass that touched the repo dealt with
+it the same way — run the suite before the change, run it after, confirm the failures are
+*identical*, and proceed. That ritual is in three separate pass notes in the sibling vault.
+It is a human performing, by hand and by eye, the comparison a gate exists to perform.
+
+**The cost was not hypothetical, and this pass measured it.** The eight were two entirely
+unrelated defects that had been sitting behind one undifferentiated "still 8, same as
+before" for weeks:
+
+- **Three were path rot.** Three suites hard-coded deep stylesheet paths; a refactor moved
+  the play area to another folder. Every invariant they guard was *still true* of the files
+  at their new addresses. The guards had simply been reading a missing file.
+- **Five asserted a design a human deliberately replaced.** A saturated reskin swapped two
+  surfaces from one token system to another and left the tests behind.
+
+Neither was a product regression. Both were the test losing track of the code — and
+crucially, **a real regression arriving during those weeks would have been invisible**,
+because it would have presented as "8 failures, same as before" only if it happened to land
+in the same files, and as "9 failures" otherwise, in a suite nobody could read at a glance.
+All 8 are fixed (`tetrix-game-monorepo` `3aa4ef2`); the suite is green, 461 passing.
+
+**Why this belongs under this opportunity and not a new one.** The three solutions here are
+all about making a *failure* legible to a machine. This is the mirror image: a failure so
+legible and so constant that it became the baseline, and the comparison moved into a human's
+head. An exit code cannot help — the suite exits non-zero, correctly, every time. What was
+missing is any notion of an *expected* failure set, so that "the same 8" and "a different 8"
+are different events.
+
+**Deliberately not proposed as a solution here.** Baselining a red suite is a well-known
+idea with a well-known failure mode: the baseline becomes permanent and the quarantine
+becomes the product. The alternative this pass took — fix them — worked, and took one pass.
+Which is right in general is a judgement, and the party that just spent a pass on it is not
+a neutral one.
+
+**Rung unchanged: `observed`.** Two mechanically observed instances, both inside this
+building, on systems this loop operates. Still nothing from an outside operator.

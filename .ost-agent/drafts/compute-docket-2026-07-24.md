@@ -139,3 +139,36 @@ ost-agent result "Count stranded evidence items across both vaults that only a C
 ```
 
 The agent has not chosen between these. Both the verdict and the count are yours.
+
+
+---
+
+## Added 2026-07-26 (eighth pass) — a fourth verdict, and this one has been run
+
+Unlike the three above, this test's **run has already happened**: it is a `compute-only`
+lane test — a regex replayed over two local git histories, no credential, no outside
+person, and its threshold was fixed in the node before the script existed. What is left is
+the judgement, which is yours.
+
+**Test:** *Does refusing a newline inside a wiki-link catch breaks nothing else catches*
+**Ran:** 2026-07-26, over all 100 commits of both live vaults.
+**Against its three pre-committed bars:** soundness 0 false positives (bar: 0); catch 3 of
+the 3 occurrences that reached a commit (bar: >=3); novelty 3 of 3 unreported by `check` at
+that commit (bar: >=1). All three cleared.
+
+**The one thing to weigh before agreeing.** The node's table lists six occurrences; only
+three ever reached a commit, because the rest were repaired by hand first. The catch bar is
+cleared against three, not six. If you read "at least 3 of the 4 known occurrences" as
+requiring a denominator of four *observed in history*, this is a narrower pass than the bar
+intended and `partial` is the more honest verdict.
+
+```bash
+ost-agent result "Does refusing a newline inside a wiki-link catch breaks nothing else catches" \
+  --verdict validated --note "candidate regex replayed over all 100 commits of both live vaults: 0 hits on a link that resolves (0 inside code fences), 3 of 3 committed occurrences caught, 3 of 3 unreported by the dangling-link check at that commit; 2 of the 3 resolve once flattened, i.e. real edges the graph never got" \
+  --by "Tanner" --evidence assertion \
+  --uncovered "only occurrences that reached a commit are visible, so the catch rate is measured against 3 rather than the 6 on file; no external operator's vault was sampled, and the writing habits producing the defect are this loop's own" \
+  --vault ~/ost-agent-meta
+```
+
+`--evidence assertion`, not `observed`: the subject is the agent's own output, found and
+run by the agent, with no external party at any point. Raise it only if you disagree.

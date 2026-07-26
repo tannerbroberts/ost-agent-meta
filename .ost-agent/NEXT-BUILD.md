@@ -4,6 +4,181 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-07-26 (autonomous bootstrap loop, eighth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+Carried forward from the seventh/eighth-pass collision, because the hazard has not been
+fixed and cannot be fixed by reading:
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+A stale clone is indistinguishable from a current one, and this file lives inside the stale
+clone. Two passes once built the same feature hours apart and only `git push` noticed. This
+pass re-fetched all four repos before starting and again before each push; both pushes were
+fast-forwards.
+
+## What changed since the last briefing
+
+**Shipped: v0.13.0 — the wrapped-wikilink rule** (`1790775` on `main`), which is exactly
+what the last briefing's §2 named as the honest candidate if anything was to be built.
+`check` now fails on a `[[…]]` that a hard-wrapped paragraph split across two lines; both
+hygiene detectors report it; a ruleset rule states the writing habit and renders into
+`SKILL.md`. 360 tests across 53 files (up from 351), `tsc` clean, `npm pack` clean.
+
+**The feature is the small half. The method is the part worth carrying forward.**
+
+For the first time in this vault's history, an assumption test was **run against its
+pre-committed threshold before the thing it tests was built.**
+[[Does refusing a newline inside a wiki-link catch breaks nothing else catches]] declares
+itself `compute-only` — a regex replayed over two local git histories, no credential, no
+outside person, threshold fixed in the node before the script existed. So the pass ran it,
+then built the rule, in that order. It cleared all three bars: **0** hits on a link that
+resolves (bar: 0), **3 of 3** committed occurrences caught (bar: >=3), **3 of 3** unreported
+by the existing dangling-link check (bar: >=1). Two of the three resolve once flattened —
+real edges an author wrote that the graph never got.
+
+**And the honest caveat, which is the reason to trust the rest.** The node's table lists six
+occurrences; history can only show three, because the other three were repaired by hand
+before committing. The catch bar cleared against a denominator of 3, not 6. That is a
+narrower pass than the bar's wording implies, and the paste-ready verdict line in the docket
+says so and offers `partial` as the alternative reading.
+
+**No result was recorded.** `ost-agent result` is human-only and the agent recorded nothing,
+for an eighth pass. The docket now holds **four** unrecorded verdicts.
+
+## 1. The two things only you can do, in the order they unblock things
+
+**1a. `npm publish` 0.10.0, 0.11.0, 0.12.0 and 0.13.0** (~2 min). Unchanged, and now
+**four** releases deep. `npm whoami` → `ENEEDAUTH`; this environment holds no credential and
+must not. `npm pack --dry-run` packs 138 files cleanly. The plugin's MCP server runs
+`npx -y ost-agent@latest mcp`, which today resolves to **0.9.0 — the version that refuses to
+start outside a vault.** A stranger who installs this plugin right now gets the exact
+failure v0.11.0 removed and never reaches the front door v0.12.0 added. Three consecutive
+passes have shipped for a person who cannot install any of it.
+
+*New this pass, and it changes the mechanics of the ask.* `git push --tags` is refused by
+this environment's git proxy with **HTTP 403**. The remote carries only `v0.1.1`, `v0.1.3`
+and `v0.4.0` — every tag from v0.5.0 on exists only in a container that gets reclaimed. Since
+`RELEASING.md`'s primary path is *publish a GitHub Release for the tag*, that path is not
+available from here at all, credential or no credential. Tag locally against the release
+commits, or publish manually with `npm publish`.
+
+**1b. Classify even five assumption tests into lanes — and this is the new one.**
+
+`ost-agent lanes` on this vault: **82 assumption tests, 0 classified, 82 unclassified.** The
+lane vocabulary shipped in v0.6.0 and v0.7.0 specifically so an unattended pass could run the
+lane that costs nobody anything, and **it has never been applied to a single node in the
+vault it was built for.** The test this pass ran declares `**Lane: compute-only.**` in its
+prose — where a human reads it — and carries no `lane:` in its frontmatter, where the tool
+reads it. So the tool sees 82 unclassified tests and correctly refuses to run any of them,
+and this pass only ran one because it read the prose itself.
+
+The agent must not fix this: `ost_flag_humans_required` is restrictive by construction, so an
+agent may push a test *away* from compute and never toward it. That asymmetry is right and
+should not be relaxed. But it means five minutes of `ost-agent lane <test> --set compute-only
+--by "Tanner" --why "..."` converts a standing capability into a working one, and this pass
+just demonstrated what a single such test is worth.
+
+Candidates that look compute-only from their own text, listed as a starting point and not as
+a classification: *Audit both vault histories for rename-shaped link breaks*, *Backdated
+half-life comparison for staleness flags*, *Can a pass tell a human edit from its own, using
+only git*, *Count stranded evidence items across both vaults that only a Context node could
+home*, *Do named unfixed thresholds actually get fixed*.
+
+**Note the heuristic's noise before you trust it.** `lanes` flags *likely humans-required*
+on tests whose prose merely contains words like "stranger", "interview", "usability" — it
+flagged the very test this pass ran, which touches no human at all. The flag fails closed,
+which is the correct direction, but it is not a signal to sort by.
+
+**1c. Record any one of the four docket verdicts** (~3 min each), paste-ready in
+`.ost-agent/drafts/compute-docket-2026-07-24.md`. Unchanged for eight briefings, except that
+the newest of the four is a test that **has actually been run**, so recording it is a
+judgement about a real result rather than about a plan.
+
+## 2. The next build
+
+**Nothing, for a fourth consecutive pass — and this time the tree has run out of named
+candidates rather than merely arguing against the ones it had.**
+
+The last three briefings each named one honest small candidate and each of them shipped:
+the uncovered field, the front door, and now the wrapped-wikilink rule. There is no fourth
+sitting there. The one solution that could be built cheaply,
+[[Ship a starter vault whose outcome is a placeholder the human must replace]], is under a
+standing **do not build before running its assumption test** — it is the only candidate that
+makes the launch sentence literally true, and it buys that by letting a machine write the
+mandate, the one rule the rest of this system rests on. That instruction is not softened by
+this pass.
+
+**If something must be done that is not a build**, do §1b's work from the other side: the
+agent may run the *restrictive* half. A pass that walked all 82 tests and flagged the ones
+that are unmistakably `humans-required` would shrink the pile a human has to sort without
+ever asserting that anything is safe to automate. It is the one lane action the safety design
+permits an agent, and it has never been run either.
+
+## 3. The highest-information action
+
+**Publish, then hand the one-liner to the warm n=1 participant. Say nothing for thirty
+minutes.** Unchanged for three briefings, and still gated on 1a.
+
+The test is written — [[Does a first-run branch actually get a stranger to a working vault]],
+with a deliberately hard bar: a committed root Outcome in the participant's own words within
+30 minutes, **zero questions asked**, where any clarifying question counts as a refutation.
+Its threshold was not touched this pass. **n=1 cannot clear**
+[[Cold-offer test - will outside teams hand over real discovery work]]**'s 5-of-20 bar and
+must not be recorded against it.** What it can produce is the first external-operator
+evidence of any kind in 214 nodes.
+
+## 4. The bias in this briefing, declared
+
+Eight passes, eight builds the agent could finish alone. The ledger is unchanged: 214 nodes,
+7 at `observed`, 207 at `assertion`, **0** at `stated`, `expert` or `money`. Every rung above
+the floor rests on this loop observing its own machinery.
+
+What is different about this pass is narrow and worth stating without inflating it: it is the
+first one that **ran a test before building the thing the test was about**, rather than
+building and then reasoning about whether it was right. That is the loop this product exists
+to sell, executed once, on itself, on the cheapest possible subject. It is also the eighth
+consecutive pass in which nobody outside this building was involved at any point.
+
+Read that against the sibling vault's briefing, which spent this pass repairing a test suite
+that had been red so long the redness had stopped meaning anything. **Both products spent this
+pass on their own instruments.** Both are in better shape. Neither has met a customer, and one
+`npm publish` and two messages would still settle whether that is patience or avoidance.
+
+## History
+
+### 2026-07-26 (eighth pass) — this one
+
+Shipped v0.13.0: `check` fails on a wikilink split across a line break (`wrapped-wikilink`),
+both hygiene detectors report it, `wrappedLinkTargets` lives beside the grammar it inverts so
+the checker and the reporter cannot disagree, and a ruleset rule states the writing habit.
+**Ran [[Does refusing a newline inside a wiki-link catch breaks nothing else catches]] against
+its pre-committed threshold before building the rule** — the first assumption test this vault
+has ever run, cleared on all three bars, with the denominator caveat recorded rather than
+smoothed over. Recorded no result, for an eighth pass; added the fourth paste-ready verdict to
+the docket. Found that **0 of 82 assumption tests carry a lane** despite the lane vocabulary
+existing since v0.6.0, and that the one test declaring `compute-only` does so in prose the
+tool cannot read — filed as §1b, a new human ask that costs five minutes and converts a
+standing capability into a working one. Found that `git push --tags` is 403-refused here, so
+`RELEASING.md`'s GitHub-Release path is unavailable from this environment regardless of
+credentials. Mapped the sibling product's permanently-red test suite onto
+[[A failed pass reports success, so my automation can't tell]] as a third shape of the same
+failure — one an exit code cannot catch, because the suite fails correctly every time.
+214 nodes, `check` PASS with 0 violations, including 0 from the rule this pass shipped.
+
+**Outcome of the seventh pass's briefing: §2's named candidate shipped** — the
+wrapped-wikilink rule. §1.1 (publish) not acted on, for an eighth pass, and now four releases
+deep. §1.2 (record a verdict) not acted on; the docket grew instead. §3 not acted on: the warm
+participant is still uncontacted and still gated on §1.1.
+
+### Superseded — 2026-07-26 (seventh pass, with the eighth pass's prepended collision notice)
+
 _Last rewritten: 2026-07-26 (autonomous bootstrap loop, seventh pass)._
 
 _Prepended 2026-07-26 by an interleaved eighth pass — see section 0._
@@ -192,7 +367,6 @@ was caught by, its own line-wrap defect while doing it. That is a real argument 
 product works on the one operator it has, and no argument at all that anyone else has this
 problem.
 
-## History
 
 ### 2026-07-26 (seventh pass) — this one
 

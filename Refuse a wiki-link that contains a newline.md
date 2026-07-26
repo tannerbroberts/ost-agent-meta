@@ -61,3 +61,33 @@ that reported the fourth occurrence.
 
 ⚠️ Unvalidated. Proposed by the agent that caused two of the four occurrences, which is a
 reason to trust the observation and discount the conviction.
+
+
+## Shipped — v0.13.0, and the assumption test ran first — 2026-07-26
+
+`ost-agent` `1790775` on `main`, tagged `v0.13.0` locally. `check` now fails with rule
+`wrapped-wikilink`; `ost_next_work` and the `P5_hygiene` pass report it beside dangling
+links and orphans; a ruleset rule tells the agent the writing habit so the party that
+causes this defect is instructed and not only caught. 360 tests across 53 files (up from
+351), `tsc` clean, `npm pack` clean.
+
+**Two things came out different from what this node predicted.**
+
+*The cost estimate was right and the placement was wrong.* This node said "a regex in the
+existing invariant pass and one test." The regex is four lines. But the same link scan
+already existed in three places — `checkInvariants`, `computeNextWork`'s hygiene detector,
+and `P5_hygiene`'s — so shipping it in one of them would have meant the check and the
+hygiene pass disagreeing about what a defect is. `wrappedLinkTargets` went into
+`src/ost/node.ts`, beside the grammar it is the inverse of, and all three call it. Worth
+recording because the pattern is likely to repeat: this product's structural rules are
+duplicated across a checker and a reporter, and any new one has to be added to both.
+
+*The detective half was the easy half.* The rule catches the defect at commit time; it does
+nothing about the writing habit that produces it, and the habit belongs to an agent that
+reads the ruleset. So the ruleset gained the rule too, and it renders into `SKILL.md`.
+Whether telling the agent works is untested and probably untestable in one pass — the next
+few passes' own writing is the sample.
+
+**What it does not do, restated so it is not over-claimed.** It catches the wrapped case
+only. A link mistyped on one line, or pointing at a node nobody created, still sails past
+it — the dangling-link rule catches the second and nothing catches the first.
