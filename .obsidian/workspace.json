@@ -203,6 +203,18 @@
   },
   "active": "f64ab9f30d4bf1ec",
   "lastOpenFiles": [
+    "Do the three reflection questions catch a builder misunderstanding the pass output missed.md",
+    "Full builder thinking-trace visibility with a self-reflection communication gauge.md",
+    "Give me the most efficient mapping of actions from where we are to where we want to get.md",
+    "Ship a starter vault whose outcome is a placeholder the human must replace.md",
+    "Refuse a wiki-link that contains a newline.md",
+    "Does refusing a newline inside a wiki-link catch breaks nothing else catches.md",
+    "Does a placeholder outcome get replaced, or does it become the tree's real root.md",
+    "Does a first-run branch actually get a stranger to a working vault.md",
+    "A first-run branch that walks a stranger to a vault in one question.md",
+    "The agent has to guess what resources it's actually working with.md",
+    "Experiment data sits at its source until a human carries it into the inbox.md",
+    "Show me the whole priority order, and why each item sits where it does.md",
     "Autonomous web-research loop that files findings into the inbox.md",
     "npm setup wizard that scaffolds the vault first and asks for a key last.md",
     "Fresh outside findings never reach the tree unless I go get them.md",
@@ -216,18 +228,6 @@
     "I need the tree's output to be actionable by compute alone, because my hours don't exist.md",
     "Every run ends blocked on a credential only I hold.md",
     "When the rules tighten, my existing tree is stranded out of compliance.md",
-    "I can't tell what a half-finished run actually finished.md",
-    "The agent has no picture of what the builder can do, because reasoning traces never reach it.md",
-    "The uncovered statement printed next to what the test asked for.md",
-    "The agent narrows its own capability to get past a gate I set.md",
-    "Refuse to record a result against a threshold that was never fixed.md",
-    "My tests carry thresholds nobody ever fixed, so nothing can come out a failure.md",
-    "Make the threshold a field the node carries, not a sentence in its prose.md",
-    "Leave a permanent test behind instead of a one-off verdict draft.md",
-    "Flag a threshold that is still an instruction to choose one.md",
-    "Does the side-by-side change what a reviewer does about a threshold.md",
-    "Does a forced uncovered field change what a second reader believes.md",
-    "Do six cold artefacts show a test beating a verdict draft.md",
-    "Do named unfixed thresholds actually get fixed.md"
+    "I can't tell what a half-finished run actually finished.md"
   ]
 }
