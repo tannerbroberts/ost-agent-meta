@@ -82,3 +82,6 @@ close enough to hand to the warm n=1 prospect is the founder's call, and it is a
 smaller call than it was this morning. **No outside PM has been handed either
 sentence.** This node's rung is unchanged at `assertion`, and the hand-off it predicts
 remains its natural first test.
+
+## Issues
+- 2026-07-26 undefined

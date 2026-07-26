@@ -42,6 +42,7 @@ exit-code and status-surfacing change is why this is visible at all, four passes
 later, instead of silently absent. Not fixed here — supplying a credential is a
 human's call, and the same one as
 [[Bundled local model for zero-credential trial]].
+- 2026-07-26 undefined
 
 
 ## A third shape of the same failure, and this one is not about exit codes — 2026-07-26

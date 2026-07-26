@@ -1,9 +1,9 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: observed
 source: 'INBOX:2026-07-24-friction-two-loops-share-one-git-managed-vault-with-no-wr.md'
 created: '2026-07-25'
+evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 
@@ -59,3 +59,6 @@ pre-experiment rows as `unassigned` rather than omitting them.
 **Cost, measured rather than estimated:** one full build pass. The evidence rung stays
 `observed` — this is a fact about this building's own operation, not a customer's words,
 and it is another instance of the hole [[A Context node type for evidence that is true, useful, and not a customer need]] describes.
+
+## Issues
+- 2026-07-26 undefined

@@ -51,3 +51,6 @@ That is `suggestCaution` promoted from advice to a capability, which is what the
 **What is still not built, and it is still the interesting part.** *Compute running the compute-only lane unprompted.* Nothing in this release moves a single test into `compute-only`, and nothing can: that call is still a human's, and the runnable set is still empty by construction. This release makes the permissive set **small and explicit** instead of large and unexamined — it does not make it non-empty.
 
 ⚠️ Still unvalidated. Built twice now, wanted by nobody outside this building yet.
+
+## Issues
+- 2026-07-26 undefined
