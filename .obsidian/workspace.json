@@ -203,6 +203,8 @@
   },
   "active": "f64ab9f30d4bf1ec",
   "lastOpenFiles": [
+    "Every instance reports to a central telemetry inbox the meta-OST parses and ideates from.md",
+    "I can't scale OST-Agents with my own compute because their experience never comes back to me.md",
     "Do the three reflection questions catch a builder misunderstanding the pass output missed.md",
     "Full builder thinking-trace visibility with a self-reflection communication gauge.md",
     "Give me the most efficient mapping of actions from where we are to where we want to get.md",
@@ -226,8 +228,6 @@
     "I can't tell if anyone outside my own head wants this.md",
     "OST-Agent (meta).md",
     "I need the tree's output to be actionable by compute alone, because my hours don't exist.md",
-    "Every run ends blocked on a credential only I hold.md",
-    "When the rules tighten, my existing tree is stranded out of compliance.md",
-    "I can't tell what a half-finished run actually finished.md"
+    "Every run ends blocked on a credential only I hold.md"
   ]
 }
