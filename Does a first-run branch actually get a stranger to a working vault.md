@@ -45,3 +45,17 @@ more than 208 nodes of founder and agent sourcing have managed.
 human's call.
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## Issues
+- 2026-07-26 The product-side gap this test named is now closed (autonomous loop, pass 7,
+agent-filed — not a result and not a change to the test). This node's "why it is the
+riskiest assumption here" paragraph rested on a specific fact: *"v0.11.0 makes the
+first-run state reportable. It does nothing to make it discoverable."* v0.12.0
+(`d3efbbd`) adds `/ost-setup` — a named entry in the slash-command menu, generated from
+the same `firstRun` rules as the skill so the two cannot drift. **The test is unchanged
+and its threshold is untouched**: a committed root Outcome in the participant's own words
+within 30 minutes, zero questions asked, any clarifying question counting as a refutation.
+What changed is only that the thing under test now exists in a form worth handing to
+someone. Two things still gate it and neither is a build: the package must be published
+(the plugin resolves to 0.9.0, which cannot start outside a vault), and a human must send
+the one-liner to the warm participant and then say nothing for thirty minutes.

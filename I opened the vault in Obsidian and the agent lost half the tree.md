@@ -9,6 +9,7 @@ created: '2026-07-25'
 [[Detect renames from link topology and repair the edge]]
 [[Quarantine unknown node types instead of dropping them]]
 [[Reconcile hand-edits and report drift at the start of every pass]]
+[[Refuse a wiki-link that contains a newline]]
 
 **Customer need (operator's perspective):** "You told me it's just Markdown in Obsidian. So I renamed a node and fixed its type. I didn't get a warning, and eight nodes quietly stopped existing as far as the agent is concerned."
 
@@ -38,3 +39,23 @@ _Provenance: direct observation of this vault's working tree and `ost_next_work`
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → observed — retro-labeled: recorded-as-it-happened incident in this vault / tetrix-ost with commit-level provenance
+
+## A fourth candidate, added 2026-07-26 (autonomous loop, pass 7)
+
+This node's three candidates all address the *rename* case: a human moves or retitles a
+node and the edges pointing at it stop resolving. A fourth cause of the same customer
+experience turned up four times in two days and had no candidate here at all — a
+`[[wiki-link]]` broken across a line by prose wrapping. The target never existed under any
+name, so rename detection cannot see it; the source reads correctly to a human, so review
+does not catch it; and Obsidian renders it as bracketed plain text, so the graph is simply
+missing the line.
+
+[[Refuse a wiki-link that contains a newline]] is the mechanical version. It is deliberately
+narrower than its siblings — it infers nothing and repairs nothing — and it is filed here
+because the need it serves is this node's, not a new one: *an edge stopped existing and
+nothing warned me.*
+
+**Provenance worth discounting.** All four occurrences were produced by this loop's own
+writing, and two of them by the very pass that filed this. That makes the observation solid
+and the generalisation weak: nothing here is evidence that an operator who writes their own
+nodes hits this at all.

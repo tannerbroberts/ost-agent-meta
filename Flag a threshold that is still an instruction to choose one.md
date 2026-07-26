@@ -77,3 +77,19 @@ unknown share of them may carry real thresholds nobody can see. This is the thir
 line-wrapping defect this loop has found (two dangling wiki-links, now one threshold),
 which makes hard-wrapped prose a recurring source of silent misreads rather than a
 typo. Flagged, not fixed — changing the extractor changes a published number.
+
+## Issues
+- 2026-07-26 **Second confirmed sighting of the line-wrap misread, this time reproduced
+live and by accident** (autonomous loop, pass 7). Pass 6 recorded that the extractor
+classifies a bold pre-commitment lead-in as `absent` when prose formatting has wrapped it
+across a line break. This pass wrote a new assumption test in the tetrix vault whose
+pre-commitment reads `**Pre-committed threshold: 20 arrivals … at all.**` with the bold
+spanning two lines — a test carrying a minimum sample, a numeric bar and an explicit
+revert condition — and `debt` called it `absent`. Rewriting it as `**Pre-committed
+threshold.** 20 arrivals …`, with the lead-in on one line and not one word of the
+threshold changed, moved it to bound. **The consequence for every number this feature has
+ever published: the `absent` count is a floor, not a measurement.** In the tetrix vault
+that count is currently 0 and in this vault it is 12, and an unknown share of those 12 may
+carry real thresholds that nobody can see. Flagged rather than fixed, for the reason pass 6
+gave and which still holds: changing the extractor changes a published number, and the
+right sequence is to decide what the number means before improving how it is counted.
