@@ -32,6 +32,7 @@ evidence: assertion
 [[When the rules tighten, my existing tree is stranded out of compliance]]
 [[I can't tell another PM 'just run npm install' and have it work]]
 [[Fresh outside findings never reach the tree unless I go get them]]
+[[Experiment data sits at its source until a human carries it into the inbox]]
 
 Grow external returning operators: the number of non-founder operators who run a discovery pass on a real vault of their own and voluntarily return for another pass within 14 days, measured weekly. Until that number is above zero, the target opportunity is external demand evidence (I can't tell if anyone outside my own head wants this), and no node in this tree may climb the believability ladder on founder or model sources alone.
 
@@ -135,3 +136,17 @@ All 15 outstanding items dispositioned. Four became new Opportunity nodes (cited
 - `INBOX:2026-07-25-friction-run-p2-p5-requires-an-api-credential-even-when-a.md` → appended to [[Don't want to buy a second AI credential just to try it]]
 - `TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18` → no distinct need revealed (shell trivia); recorded as corroboration on [[The friction that matters leaves no error behind]]
 - `TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1` → no distinct need revealed (shell trivia); recorded as corroboration on [[The friction that matters leaves no error behind]]
+
+## Founder decision — 2026-07-25 (`human:conversation`; free distribution, notoriety as the return, memory as the positioning)
+
+Recorded verbatim intent, stated in session on 2026-07-25. Like the 2026-07-24 founder framing above, this is a human decision, not a finding — it carries no evidentiary weight about demand, but it re-routes the strategy the tree executes under.
+
+**The decision.** The product will be given away. "The compute and setup time is the real cost, everybody's giving away their AI-powered software offerings, and I'm not going to pretend this one has a moat — no chance in hell I get to charge for this one." The hoped-for return is notoriety through usefulness: people following the founder for updates. Money is off the table by decision, not by test result.
+
+**The positioning.** "Ultimately, this SHOULD serve as long-term scoped project memory and retrieval." That is the stated durable value of the artifact: not a discovery ritual but a compounding, queryable memory of what a project learned and why.
+
+**What this changes on the map.**
+- The outcome metric — external returning operators — survives unchanged; a free product makes voluntary return the natural (and now only) scarce external signal.
+- The cold-offer concierge outreach was declined as drafted ("that isn't going to fly") — annotated on [[Cold-offer test - will outside teams hand over real discovery work]]. The desirability question it targeted stays open; it is now expected to be answered by inbound adoption of a free product rather than cold outreach.
+- The money rungs are mooted by decision: annotated on [[Pre-order probe - will anyone pay before the map proves itself]] and [[I don't know what unit of this anyone would pay for]]. Attention (follows, returning operators) replaces payment as the highest reachable external rung.
+- Distribution becomes the critical path: [[No one outside my own network could discover this product exists]] and the blocked npm publish (five consecutive passes, recorded above) are now the gate in front of every external-evidence hope this tree holds.

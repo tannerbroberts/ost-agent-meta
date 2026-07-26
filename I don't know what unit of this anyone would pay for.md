@@ -15,5 +15,8 @@ created: '2026-07-25'
 
 **Evidence-debt gate (deliberate):** no solutions ideated under this node yet — applying the tree's own gate to itself. Expand only when a non-founder artifact cites this need. Until then it stands as an open strategic question on the map, not a branch to build under.
 
+## Issues
+- 2026-07-25 ANSWERED BY FOUNDER DECISION, not by discovery (human:conversation): the unit is zero — the product will be free, with notoriety-through-usefulness and a following as the hoped-for return (decision recorded on the root Outcome). The open pricing question this node held is closed by fiat, so no solutions should ever be ideated under it while that decision stands. Retained as the record that the question existed and how it was resolved. The successor strategic question it leaves behind — what makes a free tool worth following its founder for updates — belongs to the distribution branch, not here.
+
 ## History
 - 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
