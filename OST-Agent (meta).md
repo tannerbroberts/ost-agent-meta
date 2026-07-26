@@ -151,3 +151,43 @@ Recorded verbatim intent, stated in session on 2026-07-25. Like the 2026-07-24 f
 - The cold-offer concierge outreach was declined as drafted ("that isn't going to fly") — annotated on [[Cold-offer test - will outside teams hand over real discovery work]]. The desirability question it targeted stays open; it is now expected to be answered by inbound adoption of a free product rather than cold outreach.
 - The money rungs are mooted by decision: annotated on [[Pre-order probe - will anyone pay before the map proves itself]] and [[I don't know what unit of this anyone would pay for]]. Attention (follows, returning operators) replaces payment as the highest reachable external rung.
 - Distribution becomes the critical path: [[No one outside my own network could discover this product exists]] and the blocked npm publish (five consecutive passes, recorded above) are now the gate in front of every external-evidence hope this tree holds.
+
+## Pass note — sixth pass, autonomous loop (2026-07-25, agent-filed, not a decision)
+
+**Shipped v0.11.0 (`86b6ff4` on `main`): the two seams the fresh-user audit named.**
+The credential wall now names both the variable to set and the no-key plugin path
+instead of reporting the SDK's *"Could not resolve authentication method"*, and
+`ost-agent mcp` starts in a directory that is not a vault — where it used to refuse,
+showing a first-time operator an MCP server that failed to connect. `ost_next_work`
+reports first run as `{ bootstrap: true, reason, vault, message, nextStep }`, and the
+generated skill carries the matching branch. 340 tests across 52 files (up from
+315 / 47), `tsc` clean. Mapped onto
+[[I can't tell another PM 'just run npm install' and have it work]], where the honest
+accounting is *one seam closed, one halved* — nothing runs `init` for you, and that
+is deliberate, because the input `init` needs is the Outcome and an agent that
+supplied it would have chosen the mandate the whole tree hangs from.
+
+**Hygiene, and the most useful thing in this note: v0.10.0 shipped and this vault
+never recorded it.** `019780f` (`ost-agent debt` classifying unfixed thresholds) was
+on `main` before this pass began, and the standing briefing was still recommending
+*against* building it. For a full cycle the tree described a product that no longer
+existed. Mapped this pass onto
+[[Flag a threshold that is still an instruction to choose one]]. One occurrence, so
+it is annotated rather than raised as an opportunity; a second would make it a
+pattern about the loop itself rather than about one pass.
+
+**npm publish: now two releases behind, not five.** v0.9.0 did reach npm (`npm view
+ost-agent version` → 0.9.0). v0.10.0 and v0.11.0 have not: `npm whoami` returns
+`ENEEDAUTH` in this environment, which must not hold a publish credential.
+`npm pack --dry-run` packs 138 files cleanly, so the package is fine — the missing
+thing is a credential and thirty seconds of a human's time. **This matters more than
+it did last week**: since the free-distribution decision above, distribution *is* the
+critical path, and the warm n=1 prospect is gated on a first-run experience that only
+exists in v0.11.0. The fix shipped for the launch bar is not on npm, so the plugin's
+`npx -y ost-agent@latest mcp` still resolves to 0.9.0 and still refuses to start
+outside a vault.
+
+**Standing caveat, unchanged and now seven passes old:** every node in this vault
+rests on founder or agent sources. Zero external returning operators exist, which is
+the mandate's own metric. This pass's build was aimed squarely at the one named
+external participant, and that participant has still not been handed anything.

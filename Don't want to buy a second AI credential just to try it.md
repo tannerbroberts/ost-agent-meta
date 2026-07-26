@@ -35,3 +35,23 @@ _Provenance: INBOX:2026-07-22-agent-as-driver.md (design review conversation, 20
 ## Founder confirmation (2026-07-25, human:conversation)
 
 The founder restated this need unprompted while describing the setup vision: "If a user doesn't have an API key, because they prefer to use something like a Claude Code subscription plan, then I'd also like to be able to easily drop in to serve them as well." Two implications for this node: (1) the no-key path is now an explicit requirement of the planned npm setup wizard (see 'npm setup wizard that scaffolds the vault first and asks for a key last'), not just an adoption nicety; (2) subscription-plan users are named as a concrete persona for this need. Rung unchanged — still founder-stated (assertion), but the need has been independently re-stated twice from inside the building.
+
+## The wall now names this path instead of hiding it — 2026-07-25 (pass 6)
+
+v0.11.0 (`86b6ff4`): the credential failure this node's evidence recorded no longer
+reports the SDK's *"Could not resolve authentication method"*. It reports the variable
+to set **and** this node's own answer — that the MCP server holds no model and needs
+no key, reachable in two lines via the Claude Code plugin — plus the commands that
+already work without a credential.
+
+**Why this matters more than a better error message.** The old wall did not merely
+fail to help. It stated, in effect, that a credential was required, which is false
+for this product and had been false since the MCP surface existed. A
+subscription-plan user who hit it learned the opposite of the truth and had no reason
+to look further. The observed instance under this node — an authenticated Claude Code
+session hitting the wall *while itself being the credential* — is exactly the person
+the old message misinformed.
+
+Rung unchanged: still `assertion`. Nobody outside this building has hit either
+message. What changed is that the product now argues for its own no-key path at the
+moment someone is deciding whether to give up.

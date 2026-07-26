@@ -4,163 +4,175 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
-_Last rewritten: 2026-07-25 (autonomous bootstrap loop, fifth pass of the day)._
+_Last rewritten: 2026-07-25 (autonomous bootstrap loop, sixth pass)._
 
 ---
 
 ## What changed since the last briefing
 
-- **Shipped: v0.9.0 — the uncovered statement now has somewhere to be *checked*.**
-  `ost-agent debt` prints every bounded test side by side: the threshold the node
-  pre-committed to before the run, directly above the limit the run stated after it.
-  Two pieces of text the tool already held, printed together. It never compares them,
-  and the closing caveat now says so. A bounded test that never wrote a threshold
-  down is named rather than skipped — a limit stated against no stated question has
-  nothing to be read against, and that is exactly the case the pair *count* reported
-  as healthy. 299 tests across 46 files (up from 285 / 45), `tsc` clean, on `main` as
-  `d9ace23`.
-- **It found something on first contact, and that is the headline.** Run over both
-  live vaults before it was committed:
+**The strategy changed underneath this file, and the last briefing predates it.**
+Between passes, in conversation, the founder (a) decided to **give the product away** —
+no moat claimed, notoriety and a following as the return, positioning as long-term
+scoped project memory; (b) **declined the cold-offer outreach as drafted** ("that
+isn't going to fly") while (c) naming **one warm participant already lined up**, gated
+on an explicit launch bar: *"I won't give it a shot unless I can say, 'Just install
+ost-agent, setup runs itself.'"* All of that is recorded on the root Outcome and
+annotated across the affected nodes. **§4 of the last briefing — seven passes of
+"run the cold offer" — is superseded by a founder decision, not by a result.**
 
-  | | assumption tests | threshold extractable | contains a number or bound |
-  |---|---|---|---|
-  | ost-agent-meta | 77 | 65 | 57 |
-  | tetrix-ost | 27 | 27 | **4** |
+**A fresh-user audit then found exactly two seams between the product and that launch
+bar**, and this pass shipped against both.
 
-  In the sibling vault, 21 of 27 pre-commitments open with an imperative — *Fix…*,
-  *Decide…*, *Choose…* — an instruction to pre-commit standing where the
-  pre-commitment should be. **A test whose threshold was never fixed cannot come out
-  a failure.** The believability ladder, the evidence-debt gate and v0.8.0's coverage
-  field are all machinery for making claims refutable, sitting on a bar that in that
-  tree mostly does not exist. Filed as
-  [[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]] —
-  the only new top-level row this pass added, and deliberately the only one.
-- **This is the first thing either coverage feature has found on its own**, and it is
-  a better argument for the v0.8.0 → v0.9.0 line than either node's own reasoning
-  was. Worth holding against the honest case for restraint the last briefing made:
-  nobody had yet shown the field helps at all.
-- **Not shipped, for the fifth consecutive release: the release.** v0.5.0 through
-  v0.9.0 are on `main`. None is on npm.
+**Shipped: v0.11.0** (`86b6ff4` on `main`).
+- `ost-agent mcp` **starts in a directory that is not a vault**. It used to refuse —
+  and the plugin points its server at `${CLAUDE_PROJECT_DIR}`, so the first session
+  after `/plugin install` showed a first-time operator an MCP server that failed to
+  connect. No cause, no fix, the least actionable signal available.
+  `ost_next_work` now returns `{ bootstrap: true, reason, vault, message, nextStep }`
+  — state, not an error, reported at the place every pass already begins.
+- **The credential wall became an instruction.** It named the SDK's *"Could not
+  resolve authentication method"*, which conceals the thing that matters most: a
+  credential is not the only way in. It now names the variable **and** the two-line
+  plugin install that needs none. Only model-driven processes are gated, derived
+  (`allowedTools.length > 0`) rather than declared, and proved by running every
+  model-free process against a driver that throws if anyone calls it.
+- The skill learned the matching first-run branch, generated from
+  `OST_RULESET.firstRun`, so the two brains cannot drift. It says three times not to
+  invent the outcome.
+- 340 tests across 52 files (up from 315 / 47), `tsc` clean.
 
-## 1. Two things only you can do — about 5 minutes total
+**Hygiene, and the single most useful line in this file: v0.10.0 shipped and this
+vault never recorded it.** `019780f` was on `main` before this pass started, and the
+briefing you are replacing was still arguing *against* building it. For a full cycle
+the tree described a product that no longer existed. Now mapped onto
+[[Flag a threshold that is still an instruction to choose one]]. A pass that ships
+without mapping leaves the map wrong, and nothing catches that automatically.
 
-1. **`npm publish` v0.5.0 through v0.9.0** (~2 min). `npm whoami` → `ENEEDAUTH` on
-   five consecutive passes; the tag push is still rejected by this environment's git
-   proxy, so the GitHub-Release path is closed too. `npm publish --dry-run` succeeds
-   and packs 132 files, so the package is fine — the only missing thing is a
-   credential this environment must not hold.
+**A defect found by using v0.10.0**: the threshold extractor misses a bold
+pre-commitment lead-in that prose formatting has **wrapped across a line break**, and
+classifies it `absent`. Observed live this pass. So the `absent` count is partly a
+formatting artifact — in this vault 12 tests read `absent`, and an unknown share of
+them may carry real thresholds nobody can see. Third line-wrapping misread this loop
+has found (two dangling wiki-links, now one threshold). Flagged, not fixed: changing
+the extractor changes a published number.
 
-   **New evidence that this has stopped being merely a stall.** `package-lock.json`
-   still said `0.7.0` after v0.8.0 shipped, which `npm ci` in the publish workflow
-   would have rejected outright. Fixed this pass — but nobody would have known,
-   because the only thing that exercises that path is a publish, and there has not
-   been one. **Five releases of unexercised release machinery is a second failure
-   queued behind the first.**
-2. **Record the three compute-lane verdicts** (~3 min).
-   `.ost-agent/drafts/compute-docket-2026-07-24.md` holds three paste-ready commands,
-   corrected last pass for v0.8.0's required `--uncovered`. Unchanged for five
-   briefings.
+## 1. The one thing only you can do, and it is now on the critical path
 
-   **There is now a concrete reason to want one of them.** Recording any of the three
-   is what makes v0.9.0's side-by-side visible at all: with zero bounded tests in this
-   vault, `debt` prints nothing new. Verified by simulation this pass against a scratch
-   copy — recording the rename-audit verdict makes `debt` print its
-   *">= 2 incidents beyond the known one, else defer"* threshold directly above the
-   limit the run stated. That is the feature working, on your data, and it is three
-   minutes away.
+**`npm publish` v0.10.0 and v0.11.0** (~2 min). Two releases behind, not five —
+v0.9.0 did reach npm. `npm whoami` → `ENEEDAUTH`; this environment must not hold a
+publish credential. `npm pack --dry-run` packs 138 files cleanly, so the package is
+fine.
+
+**Why this stopped being a chore.** Since the free-distribution decision,
+**distribution is the critical path** for every external-evidence hope in this tree.
+And concretely: the plugin's MCP server runs `npx -y ost-agent@latest mcp`, which
+today resolves to **0.9.0 — the version that refuses to start outside a vault.** The
+fix built for the launch bar is not reachable by the person the launch bar exists for.
+Handing the warm prospect the one-liner before publishing hands them the bug this pass
+removed.
+
+Second, still unchanged for six briefings: **record the three compute-lane verdicts**
+(~3 min), paste-ready in `.ost-agent/drafts/compute-docket-2026-07-24.md`. Recording
+any one of them is what makes v0.9.0's side-by-side visible on real data.
 
 ## 2. The next build
 
-**Nothing yet — and specifically, not the obvious follow-on.**
+**Nothing, until §1 and §3 happen — and unlike the last two briefings, this is not
+the agent finding a reason not to build.**
 
-The obvious follow-on is
-[[Flag a threshold that is still an instruction to choose one]]: the census that
-produced this pass's finding, turned into a standing report. It is an afternoon, it
-reuses the extractor, and it is genuinely useful. **Do not build it next**, for a
-reason the tree can now state precisely: this vault would then hold *three* reporting
-features (`debt`'s pair count, v0.9.0's side-by-side, and this) and **zero** evidence
-that any of the three is read. [[Does the side-by-side change what a reviewer does about a threshold]]
-and [[Does a forced uncovered field change what a second reader believes]] are both
-unrun. Building a third report before either runs is the clearest instance yet of the
-pattern §5 keeps naming.
+The product is one publish and one message away from its first external operator. Any
+feature built before that is built on 208 nodes of founder-and-agent sourcing, for a
+user who has still never been contacted, in a week when the strategy that governs
+what is worth building changed twice without warning.
 
-**What to do instead, in order:** §1.2 (three minutes, makes v0.9.0 legible on real
-data), then §4 (the cold offer). If neither is possible and something must be built,
-[[Flag a threshold that is still an instruction to choose one]] is the honest choice —
-report only, never [[Refuse to record a result against a threshold that was never fixed]],
-which would be the *second* required-field addition to the one command its operator is
-already not running.
+**If something must be built**, the honest candidate is the *discoverability* half of
+[[A first-run branch that walks a stranger to a vault in one question]] — a `/ost-setup`
+front door. v0.11.0 made the first-run state reportable; it did nothing to make it
+discoverable, and a stranger who installs a plugin and opens a session still sees no
+prompt and no reason to believe anything is waiting. That gap is named precisely in
+[[Does a first-run branch actually get a stranger to a working vault]] and is the
+single most likely way the warm trial fails quietly.
 
-## 3. What the sibling product taught this one
+**Do not build** [[Ship a starter vault whose outcome is a placeholder the human must
+replace]] before running its assumption test. It is the cheapest thing here to build
+and the most expensive to be wrong about: it is the only candidate that makes the
+launch sentence literally true, and it buys that by letting a machine write the
+mandate — which is the one rule the rest of this system is built on.
 
-**A fourth instance of leaving a permanent test behind — and the first where the
-mechanism worked with nobody present.**
+## 3. The highest-information action, and it changed shape this pass
 
-Pass 4 on tetrix committed an assertion it expected to be wrong later: *a signed-out
-visitor is never offered a board, so the beacon cannot fire*. True at the time, left
-as a tripwire, with a comment saying that building anonymous play should fail it and
-force a deliberate revisit. Pass 5 built anonymous play. **It fired.** The assertion
-was inverted rather than deleted, and the file now records why it changed.
+**Hand the one-liner to the warm n=1 participant. Say nothing else for thirty
+minutes.**
 
-The first three instances argued a test is a durable *record*. This argues a test can
-be a durable *instruction to a future stranger* — including a future instance of the
-agent that wrote it, carrying none of the original context. A verdict draft cannot do
-that: nothing re-reads a draft at the moment it stops being true.
+This replaces "run the cold offer", which the founder declined. It is smaller,
+warmer, and available now. The test is written:
+[[Does a first-run branch actually get a stranger to a working vault]], with a bar
+that is deliberately hard — a committed root Outcome in their own words within 30
+minutes, **zero questions asked**, where any clarifying question counts as a
+refutation rather than a narrow pass.
 
-**And rewriting it caught something its author did not intend.** The original could
-have passed for the wrong reason — a freshly-migrated database has no non-starter
-puzzles, so `/daily` serves no board at all, making "no board because anonymous play
-does not exist" indistinguishable from "no board because the library is empty". That
-is an argument for the *inversion* step, not just the leaving-behind step. Recorded on
-[[Leave a permanent test behind instead of a one-off verdict draft]].
-[[Do six cold artefacts show a test beating a verdict draft]] is still unrun; four
-self-observations still do not substitute for one outsider.
+**n=1, and this vault must not launder it.** One warm participant cannot clear
+[[Cold-offer test - will outside teams hand over real discovery work]]'s 5-of-20
+threshold and must not be recorded against it. What it can produce is the **first
+external-operator evidence of any kind** in 212 nodes, at the `observed` rung.
 
-## 4. Do not mistake §2 for the highest-information action
+**Does v0.11.0 clear the launch bar?** Not literally. *"Setup runs itself"* cannot be
+made literally true without the agent inventing an outcome. What is true today is
+*"install the plugin, and the session walks you through — it needs one sentence from
+you."* Whether that is close enough to send is the founder's call, and it is a
+smaller call than it was this morning. It is also **untestable from inside this
+building**, which is the point.
 
-It is not. **The cold-offer test is** — 20 qualified strangers, a free done-for-you
-discovery pass, pre-committed threshold (≥5 kickoffs, ≥3 sending real artefacts). The
-roster (19 named leads plus pools, every row carrying its evidence URL), the outreach
-kit and the tracking sheet are drafted and waiting in `.ost-agent/drafts/`. The
-compute share is done; what remains is your identity and your consent, which compute
-must not absorb.
+## 4. The bias in this briefing, declared
 
-Every node in this vault rests on founder or agent sources. Zero external returning
-operators exist, which is the mandate's own metric. **This has now gone seven passes
-without being acted on.** Until it runs, everything in §2 is tooling for a product
-nobody outside this building has asked for.
+Six passes, six builds the agent could finish alone. This one is the first aimed at a
+named external person — and it still could not reach them, because the last step is a
+publish credential and a message, neither of which compute may hold.
 
-Note the shape of this pass's own finding against that: it is a mechanically verified
-fact about **our own two vaults**, and it is the most useful thing produced in five
-passes. That is a real argument that dogfooding has value — and no argument at all
-that anyone else has this problem.
+Read that sentence twice. It is the same sentence the sibling vault's briefing arrived
+at from the other direction: the tetrix pass built the arm split its best test needed,
+then discovered the test needs ≥100 real strangers nobody has. **Both products spent
+this cycle building the apparatus for a conversation neither has had.** That is either
+two well-prepared launches or a loop that has found a very sophisticated way to stay
+indoors, and one publish would settle which.
 
-## 5. The bias in this briefing, declared
+Also worth noticing, against the case for restraint the last briefing made: the
+v0.10.0 threshold classifier — built here, argued against here — is what made the
+*sibling* vault's briefing demand real bars from its own new nodes this pass. Tooling
+built for dogfooding changed a decision in another tree twice now. That is a real
+argument that this vault is worth maintaining, and no argument at all that anyone else
+has this problem.
 
-Five passes running, the agent has chosen work it could finish alone. Two things
-about this pass cut differently, and both are worth weighing:
-
-- **The build produced an external-facing finding rather than only a feature.** The
-  census is about the trees, not the tool, and it changed what the sibling vault's
-  briefing recommends. That is the first time tooling built here has redirected work
-  over there.
-- **The agent then declined to name a next build in either vault.** In tetrix it
-  recommended fixing thresholds instead; here it argued against its own obvious
-  follow-on. That is either the pattern breaking or a more sophisticated version of
-  it — "stop and improve the measurements" is also a way to avoid meeting a customer,
-  and §4 has now gone from six passes to **seven**.
-
-Read the second bullet with suspicion. An agent that finds a reason not to build is
-not thereby an agent that has done the thing it keeps deferring.
-
-The standing 2026-07-24 prioritisation still holds and is not superseded by this file:
-the target row is external demand evidence, and the critical path inside it is
-cold-offer → recruiting → pre-order. This file says what to *pick up*; that section
-says what the tree is *for*.
+The standing 2026-07-24 prioritisation is now partly superseded: the target row —
+external demand evidence — survives, but the critical path inside it is no longer
+cold-offer → recruiting → pre-order. It is **publish → warm n=1 → whatever they say.**
 
 ## History
 
-### 2026-07-25 (fifth pass) — this one
+### 2026-07-25 (sixth pass) — this one
+
+Shipped v0.11.0: the MCP server starts outside a vault and reports first run as
+`bootstrap: true` state rather than an error; the credential wall names the variable
+and the no-key plugin path instead of the SDK's own words; the skill gained a
+generated first-run branch that refuses to invent the outcome. Mapped it onto
+[[I can't tell another PM 'just run npm install' and have it work]] as *one seam
+closed, one halved*. **Mapped v0.10.0, which the previous pass shipped and never
+recorded** — the tree spent a cycle recommending against a feature already on `main`.
+Found that the threshold extractor misreads a line-wrapped pre-commitment as `absent`.
+Added two competing solutions and two assumption tests under the launch-bar
+opportunity, including one written against the agent's own design instincts. Rewrote
+this file around the founder's mid-week strategy change: free distribution, cold offer
+declined, one warm participant gated on the launch bar. npm publish now two releases
+behind — and now blocking, because the plugin resolves to the version this pass fixed.
+
+**Outcome of the fifth pass's briefing: §2 ("build nothing") overtaken by events** —
+a founder decision and a fresh-user audit named a different build, and it shipped.
+§1.1 (publish) not acted on, for a sixth pass. §1.2 (three verdicts) not acted on.
+§4 (cold offer) **declined by the founder**, not deferred.
+
+### Superseded — 2026-07-25 (fifth pass)
+
+#### What the fifth pass recorded about itself
 
 Shipped v0.9.0 (`debt` prints each bounded test's pre-committed threshold beside what
 its run left uncovered; a bounded test with no written threshold is named). Ran the
