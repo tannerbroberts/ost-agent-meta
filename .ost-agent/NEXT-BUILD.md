@@ -4,6 +4,162 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-07-26 (autonomous bootstrap loop, tenth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**The sibling vault's §0 earned a second reason this pass, and it applies here too.** The
+first reason was collision — two passes building the same thing. The second is that **a
+briefing can be stale without anyone colliding with you**: the tetrix briefing was still
+saying *there is no known product defect on file* after an interview had put two on file and
+never rewritten it. Re-reading is not only "did someone build this"; it is "is this file
+still true".
+
+The tag trap is unchanged and fired again: `git push --tags` gets **HTTP 403** here. Delete
+the stray local tag or the next branch push reports a confusing "behind its remote" error:
+
+```bash
+git tag -d vX.Y.Z && git push origin HEAD:refs/heads/main
+```
+
+## What changed since the last briefing
+
+**Two releases. `npm view ost-agent version` → 0.17.0.** Both published through
+`workflow_dispatch`, the trigger the workflow has always carried.
+
+**v0.16.0 — the conflict half, and the two defects that had to be fixed first.** §2 named
+the conflict half as "small, safe". It was none of those until the reader was checked, and
+the check is the pass. `proseDeclaredLane` took the first `lane: <id>` match anywhere in a
+body and reported a **fragment as a declaration**:
+
+1. **A qualified declaration was reported as clean.** [[Do named unfixed thresholds actually
+   get fixed]] reads `**Lane: compute-only for the census, humans-required for the
+   fixing.**` The tool printed a paste-ready `--set compute-only` with *the test's own
+   sentence* as the reason — inviting a human to move the human half of a split test into
+   compute's reach, persuasively, **because it was a quote**. The permissive call stayed
+   formally with the human throughout; what degraded was the quality of what the human was
+   deciding on. Filed as
+   [[A quoted justification makes me check the agent's advice less]].
+2. **The audit trail would have read as prose.** `Vault.setLane` appends
+   `lane: <prev> → <next>` under `## History`, so surfacing conflicts would have flagged
+   every *reclassified* test against its own paper trail. Proved rather than asserted, on a
+   real reclassification in a scratch copy of the tetrix vault.
+
+The reader now scans a node's own prose only; `check` gains `lane-conflict`. **0
+`lane-conflict` findings on either vault** — the rule ships green and has caught nothing.
+Its value so far is entirely the two defects found while building it.
+
+**v0.17.0 — the allowlist said which tool may run, and nothing said with what.** Found by
+using the product, in this pass, on this vault. `ost_annotate` was called with `note`
+instead of the declared `issue`. The schema says `required: ["title","issue"]`,
+`additionalProperties: false`. The call **printed success** and wrote the literal string
+`undefined` in place of the content. Append-only vault: the note is gone.
+
+**21 destroyed lines across 16 nodes**, both vaults, several passes, three days. Every one is
+an annotation somebody wrote and nobody can read. All flagged in place, none repaired —
+rewriting them would be the action this product refuses, including when this product caused
+it. Filed at rung `observed` as
+[[A tool call I got slightly wrong destroyed the note I was filing]].
+
+**This is the package's own claim under strain, and it should be read that way.**
+*Incapable of destructive action by construction* was true of the tool **surface** — no
+delete tool exists, none was involved. The destruction came through a **constructive** tool
+holding an argument nobody checked. The call site's comment said "safety is already enforced
+by the allowlist above". The allowlist enforces *which verb*, never *what it is handed*.
+
+**And the mistake inside the mistake, recorded because it is the same error one level up.**
+The v0.17.0 changelog says *fourteen* destroyed lines. It is **21 across 16 nodes**. The
+first figure came from `grep -rlc` over files *containing the word*, which is a near-miss of
+the question asked, reported without stating what the query matched — in the pass whose whole
+subject was a tool reporting something it had not checked. Caught only because a later step
+happened to recount. The published changelog carries the wrong number; the correction is an
+annotation on the node.
+
+**232 nodes** (from 219), `check` PASS with 0 violations. 461 tests / 63 files (from 432).
+
+## 1. The things only you can do
+
+**1a. Hand the install line to the warm n=1 participant.** Top ask, second briefing running,
+and the only one that produces evidence from outside this building:
+
+```
+npm install -g ost-agent   # or: npx -y ost-agent init
+```
+
+[[Does a first-run branch actually get a stranger to a working vault]] is written with a hard
+bar — committed root Outcome in their own words within 30 minutes, **zero questions asked**,
+any clarifying question counts as a refutation. Threshold untouched this pass. **n=1 cannot
+clear** [[Cold-offer test - will outside teams hand over real discovery work]]**'s 5-of-20
+bar and must not be recorded against it.**
+
+**1b. Classify the 3 assumption tests the tool now hands you** — down from 4, because one was
+never a clean declaration and the tool stopped pretending otherwise. `ost-agent lanes --vault .`
+prints them paste-ready. The agent must not do this: `ost_flag_humans_required` may push a
+test *away* from compute and never toward it.
+
+**1c. Record any one of the four docket verdicts** (~3 min each), in
+`.ost-agent/drafts/compute-docket-2026-07-24.md`. Unchanged for ten briefings.
+
+## 2. The next build
+
+**Run a test before building anything.** The tree's own answer is
+[[Sweep both vault histories for writes that landed as undefined or empty]] — `compute-only`,
+threshold pre-committed, and it settles whether v0.17.0 finished the job or closed one path
+of several. It would be the **second** assumption test this vault has ever run, on the pass
+immediately after the one that learned what an unexamined carried-forward claim costs.
+
+**If something must be built after that**, the honest candidate is
+[[Refuse a write whose content is empty or literally undefined]] — the vault-level guard that
+catches malformed *values* arriving through well-formed calls, which the v0.17.0 schema check
+provably cannot see. But its own assumption test above should decide the shape first.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] — the only
+candidate that makes the launch sentence literally true, and it buys that by letting a machine
+write the mandate. **Not softened by anything in this pass.**
+
+## 3. The highest-information action
+
+**Unchanged, unblocked, and untouched for two passes: talk to the warm n=1 participant.**
+
+The sibling vault produced the argument for this, with a control. Tetrix passes seven through
+nine built instruments and produced no new opportunities; **one interview** produced two
+top-level opportunities, five children, eight solutions, and the only two product defects that
+tree has ever held. Both products now have direct evidence that one conversation outperforms
+three passes of building. Only one of them has had the conversation.
+
+## 4. The bias in this briefing, declared
+
+Ten passes, ten builds the agent could finish alone. 232 nodes: 9 at `observed`, 223 at
+`assertion`, **0** at `stated`, `expert` or `money`. Every rung above the floor still rests on
+this loop observing its own machinery — and two of this pass's nine `observed` nodes are it
+observing its own bug.
+
+**The specific bias this pass exhibited is not the usual one, and it is worth naming.** The
+pass did good work by checking a thing it had been told was fine — and then, twice in the same
+hour, published a number it had not checked the same way. It found a tool that reports what it
+has not verified, and it reported what it had not verified. Being the party that just wrote a
+validator is not the same as being validated.
+
+Against that: this is the tenth consecutive pass in which nobody outside this building was
+involved at any point, and §1a is still one message.
+
+## History
+
+### Superseded — 2026-07-26 (ninth pass)
+
+# NEXT BUILD — OST-Agent
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-07-26 (autonomous bootstrap loop, ninth pass)._
 
 ---

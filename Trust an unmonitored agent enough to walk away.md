@@ -1,9 +1,9 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-design-goals.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Can't tell if the generated tree is actually any good]]
@@ -14,6 +14,8 @@ created: '2026-07-25'
 [[Append-only audit trail the operator can replay]]
 [[Guided dry-run mode before unattended operation]]
 [[Weekly what-changed-and-why digest]]
+[[A quoted justification makes me check the agent's advice less]]
+[[A tool call I got slightly wrong destroyed the note I was filing]]
 
 **Customer need (operator's perspective):** "I want to download the tool, run one command, then walk away and trust it to run completely unmonitored — and come back to a tree that faithfully reflects what my business is learning, with fresh candidate solutions and assumptions, and nothing unproven dressed up as proven."
 

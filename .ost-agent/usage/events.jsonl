@@ -113,3 +113,89 @@
 {"ts":"2026-07-26T20:00:20.083Z","tool":"ost_annotate","ok":true,"ms":5,"surface":"cli-tool","argBytes":2346}
 {"ts":"2026-07-26T20:00:20.369Z","tool":"ost_annotate","ok":true,"ms":7,"surface":"cli-tool","argBytes":1899}
 {"ts":"2026-07-26T20:01:09.513Z","tool":"ost_annotate","ok":true,"ms":6,"surface":"cli-tool","argBytes":2515}
+{"ts":"2026-07-26T21:13:03.665Z","tool":"ost_next_work","ok":true,"ms":80,"surface":"cli-tool","argBytes":2}
+{"ts":"2026-07-26T21:13:22.907Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":24,"err":"no such node: x"}
+{"ts":"2026-07-26T21:13:40.801Z","tool":"ost_annotate","ok":true,"ms":7,"surface":"cli-tool","argBytes":2345}
+{"ts":"2026-07-26T21:14:04.266Z","tool":"ost_annotate","ok":true,"ms":8,"surface":"cli-tool","argBytes":3975}
+{"ts":"2026-07-26T21:14:23.701Z","tool":"ost_create_node","ok":false,"ms":1,"surface":"cli-tool","argBytes":2,"err":"\"undefined\" needs an evidence class — one of: money, observed, stated, expert, assertion. Use the weakest rung that honestly covers its sources ('assertion' when it rests on founder theory or your own inference)."}
+{"ts":"2026-07-26T21:14:42.872Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"cli-tool","argBytes":3040}
+{"ts":"2026-07-26T21:15:12.836Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"cli-tool","argBytes":1309}
+{"ts":"2026-07-26T21:15:13.170Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"cli-tool","argBytes":1578}
+{"ts":"2026-07-26T21:15:13.489Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"cli-tool","argBytes":1577}
+{"ts":"2026-07-26T21:15:47.660Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"cli-tool","argBytes":1932}
+{"ts":"2026-07-26T21:15:47.962Z","tool":"ost_create_node","ok":true,"ms":10,"surface":"cli-tool","argBytes":1759}
+{"ts":"2026-07-26T21:15:48.266Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"cli-tool","argBytes":1882}
+{"ts":"2026-07-26T21:15:55.021Z","tool":"ost_next_work","ok":true,"ms":86,"surface":"cli-tool","argBytes":2}
+{"ts":"2026-07-26T21:19:19.134Z","tool":"ost_annotate","ok":true,"ms":7,"surface":"cli-tool","argBytes":1767}
+{"ts":"2026-07-26T21:19:19.444Z","tool":"ost_annotate","ok":true,"ms":6,"surface":"cli-tool","argBytes":2728}
+{"ts":"2026-07-26T21:19:41.432Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"cli-tool","argBytes":3113}
+{"ts":"2026-07-26T21:20:11.173Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"cli-tool","argBytes":1886}
+{"ts":"2026-07-26T21:20:11.523Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"cli-tool","argBytes":1593}
+{"ts":"2026-07-26T21:20:11.839Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"cli-tool","argBytes":1606}
+{"ts":"2026-07-26T21:20:38.230Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"cli-tool","argBytes":2295}
+{"ts":"2026-07-26T21:20:38.515Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"cli-tool","argBytes":2167}
+{"ts":"2026-07-26T21:20:48.963Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":930,"err":"no such node: A"}
+{"ts":"2026-07-26T21:20:49.280Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":935,"err":"no such node: failed"}
+{"ts":"2026-07-26T21:20:49.606Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":933,"err":"no such node: pass"}
+{"ts":"2026-07-26T21:20:49.938Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":936,"err":"no such node: reports"}
+{"ts":"2026-07-26T21:20:50.282Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":937,"err":"no such node: success,"}
+{"ts":"2026-07-26T21:20:50.659Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":931,"err":"no such node: so"}
+{"ts":"2026-07-26T21:20:51.015Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":931,"err":"no such node: my"}
+{"ts":"2026-07-26T21:20:51.391Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":939,"err":"no such node: automation"}
+{"ts":"2026-07-26T21:20:51.757Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":934,"err":"no such node: can't"}
+{"ts":"2026-07-26T21:20:52.088Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":933,"err":"no such node: tell"}
+{"ts":"2026-07-26T21:20:52.422Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":934,"err":"no such node: Every"}
+{"ts":"2026-07-26T21:20:52.766Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":932,"err":"no such node: run"}
+{"ts":"2026-07-26T21:20:53.104Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":933,"err":"no such node: ends"}
+{"ts":"2026-07-26T21:20:53.490Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":936,"err":"no such node: blocked"}
+{"ts":"2026-07-26T21:20:53.863Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":931,"err":"no such node: on"}
+{"ts":"2026-07-26T21:20:54.256Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":930,"err":"no such node: a"}
+{"ts":"2026-07-26T21:20:54.655Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":939,"err":"no such node: credential"}
+{"ts":"2026-07-26T21:20:55.013Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":933,"err":"no such node: only"}
+{"ts":"2026-07-26T21:20:55.380Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":930,"err":"no such node: I"}
+{"ts":"2026-07-26T21:20:55.739Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":933,"err":"no such node: hold"}
+{"ts":"2026-07-26T21:20:56.100Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":930,"err":"no such node: I"}
+{"ts":"2026-07-26T21:20:56.422Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":934,"err":"no such node: can't"}
+{"ts":"2026-07-26T21:20:56.755Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":933,"err":"no such node: tell"}
+{"ts":"2026-07-26T21:20:57.092Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":936,"err":"no such node: another"}
+{"ts":"2026-07-26T21:20:57.430Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":931,"err":"no such node: PM"}
+{"ts":"2026-07-26T21:20:57.761Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":934,"err":"no such node: 'just"}
+{"ts":"2026-07-26T21:20:58.133Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":932,"err":"no such node: run"}
+{"ts":"2026-07-26T21:20:58.449Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":932,"err":"no such node: npm"}
+{"ts":"2026-07-26T21:20:58.773Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":937,"err":"no such node: install'"}
+{"ts":"2026-07-26T21:20:59.109Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":932,"err":"no such node: and"}
+{"ts":"2026-07-26T21:20:59.411Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":933,"err":"no such node: have"}
+{"ts":"2026-07-26T21:20:59.748Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":931,"err":"no such node: it"}
+{"ts":"2026-07-26T21:21:00.102Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":933,"err":"no such node: work"}
+{"ts":"2026-07-26T21:21:00.439Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":935,"err":"no such node: Triage"}
+{"ts":"2026-07-26T21:21:00.796Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":934,"err":"no such node: every"}
+{"ts":"2026-07-26T21:21:01.172Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":939,"err":"no such node: assumption"}
+{"ts":"2026-07-26T21:21:01.518Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":933,"err":"no such node: test"}
+{"ts":"2026-07-26T21:21:01.837Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":931,"err":"no such node: by"}
+{"ts":"2026-07-26T21:21:02.155Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":932,"err":"no such node: the"}
+{"ts":"2026-07-26T21:21:02.486Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":942,"err":"no such node: human-minutes"}
+{"ts":"2026-07-26T21:21:02.814Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":931,"err":"no such node: it"}
+{"ts":"2026-07-26T21:21:03.196Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":937,"err":"no such node: actually"}
+{"ts":"2026-07-26T21:21:03.539Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":935,"err":"no such node: needs,"}
+{"ts":"2026-07-26T21:21:03.919Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":932,"err":"no such node: and"}
+{"ts":"2026-07-26T21:21:04.276Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":932,"err":"no such node: let"}
+{"ts":"2026-07-26T21:21:04.670Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":936,"err":"no such node: compute"}
+{"ts":"2026-07-26T21:21:05.006Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":932,"err":"no such node: run"}
+{"ts":"2026-07-26T21:21:05.341Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":932,"err":"no such node: the"}
+{"ts":"2026-07-26T21:21:05.654Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":940,"err":"no such node: zero-minute"}
+{"ts":"2026-07-26T21:21:05.958Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":933,"err":"no such node: lane"}
+{"ts":"2026-07-26T21:21:06.271Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":932,"err":"no such node: Two"}
+{"ts":"2026-07-26T21:21:06.602Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":935,"err":"no such node: agents"}
+{"ts":"2026-07-26T21:21:06.924Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":936,"err":"no such node: sharing"}
+{"ts":"2026-07-26T21:21:07.244Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":931,"err":"no such node: my"}
+{"ts":"2026-07-26T21:21:07.604Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":934,"err":"no such node: vault"}
+{"ts":"2026-07-26T21:21:07.964Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":932,"err":"no such node: can"}
+{"ts":"2026-07-26T21:21:08.279Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":936,"err":"no such node: trample"}
+{"ts":"2026-07-26T21:21:08.664Z","tool":"ost_annotate","ok":false,"ms":0,"surface":"cli-tool","argBytes":933,"err":"no such node: each"}
+{"ts":"2026-07-26T21:21:09.017Z","tool":"ost_annotate","ok":false,"ms":1,"surface":"cli-tool","argBytes":934,"err":"no such node: other"}
+{"ts":"2026-07-26T21:21:20.603Z","tool":"ost_annotate","ok":true,"ms":6,"surface":"cli-tool","argBytes":1000}
+{"ts":"2026-07-26T21:21:20.921Z","tool":"ost_annotate","ok":true,"ms":7,"surface":"cli-tool","argBytes":992}
+{"ts":"2026-07-26T21:21:21.235Z","tool":"ost_annotate","ok":true,"ms":6,"surface":"cli-tool","argBytes":1005}
+{"ts":"2026-07-26T21:21:21.544Z","tool":"ost_annotate","ok":true,"ms":7,"surface":"cli-tool","argBytes":1051}
+{"ts":"2026-07-26T21:21:21.852Z","tool":"ost_annotate","ok":true,"ms":6,"surface":"cli-tool","argBytes":992}
+{"ts":"2026-07-26T21:27:19.999Z","tool":"ost_annotate","ok":true,"ms":10,"surface":"cli-tool","argBytes":1227}
