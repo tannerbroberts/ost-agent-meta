@@ -24,3 +24,33 @@ Give that content its own address and it becomes findable. Nothing else in the t
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## The predicted failure was noise. The observed one is collision — 2026-07-26
+
+The **Where this fails** section above named one risk: a briefing that repeats itself
+becomes noise and the operator learns to skip it. Seven passes in, that risk has not
+materialised — every rewrite has said what changed, and the briefings have been read and
+acted on.
+
+The failure that did materialise is not in that paragraph at all. **Two passes read the
+same briefing hours apart and both built the thing it named**, because a briefing that
+names work has no way to say the work has been taken. Full account, with times, on
+[[Two agents sharing my vault can trample each other]]. Cost: one build pass, discarded.
+
+**Why this design invites it specifically.** The briefing is rewritten each pass and
+carries no state between readers. Its "if something must be built" clause is written to
+be actionable by whoever picks it up next — which is exactly right for one reader and
+exactly wrong for two. The tetrix briefing's clause had stood for two passes; the first
+pass to act on it shipped at 02:56Z, rewrote the briefing, and by then the second pass
+had been holding a stale clone since 00:47Z and never re-read it.
+
+**What this does NOT imply.** Not that the briefing was a mistake — it is the most
+consistently acted-on artifact either vault has produced. The gap is that it is a
+*statement of intent* with no *record of uptake*: nothing says who is on it, since when,
+or against which commit. Both things it lacks are things a second reader needs and a
+single reader never notices missing.
+
+Left as an annotation rather than a proposed change. What to do about it — a claim, a
+lease, one-writer-per-repo, or simply accepting that a stale reader wastes a pass
+occasionally — is a decision with real trade-offs, and the party that just lost a pass to
+it is not a neutral one.

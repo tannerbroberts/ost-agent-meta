@@ -17,3 +17,45 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → observed — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+
+## Second sighting, and it is a different failure than the first — 2026-07-26
+
+**A whole pass of build work was written, tested green, committed, and thrown away,
+because another pass had already built the same feature six hours earlier.** Observed
+first-hand by the pass that wasted it.
+
+**What happened, with times.** A loop iteration cloned `tetrix-game-monorepo` at
+`7c9bcc5` and fetched `origin/master` at 00:47Z — 0 ahead, 0 behind, clean. It read the
+standing briefing, which named the invited-visitor arm split as the build to do "if
+something must be built", and built it: migration 024 adding `visitor_events.arm`, an
+FNV-1a arm derived from the visitor id, a per-arm admin read, 18 new frontend tests, 10
+new backend tests, four funnel e2e tests green against real Chromium and real Postgres.
+At 08:46Z it committed. At 08:47Z `git push` was **rejected**. `22a112e`, pushed at
+02:56Z by a different session, was the same feature: same migration number, same column
+name, same nullable-arrival-only design, the same FNV-1a hash, the same default-off
+knob. Two independent readings of one briefing paragraph, converging on nearly the same
+code.
+
+**Why no vault lease would have helped, which is what makes this a distinct need.** The
+2026-07-24 sighting above is about two writers racing on the vault. This was not that.
+Neither pass wrote to the vault while building — the vault was only ever touched at the
+end, and git would have serialised them cleanly if it had come to that. The collision was
+in the **product repo**, and the thing that collided was not a write, it was the
+*decision about what to work on*. Both passes read a briefing that names work and has no
+way to say the work has been taken. Nothing was corrupted. Roughly eight hours of compute
+produced a commit that had to be deleted.
+
+**What actually caught it.** `git push --ff-only`, at the very end, by accident. That is
+the only detector in the system, it fires after all the cost has been paid, and it only
+fires at all because the two passes happened to touch overlapping files. Two passes
+building *non*-overlapping duplicates of the same intent would both have pushed cleanly
+and neither would ever have known.
+
+**What was salvageable, honestly:** one 4-assertion test file the other implementation
+did not have (`4906fd4`). Everything else was discarded in favour of the version already
+on `master`, which was the better of the two in at least one respect — it reports
+pre-experiment rows as `unassigned` rather than omitting them.
+
+**Cost, measured rather than estimated:** one full build pass. The evidence rung stays
+`observed` — this is a fact about this building's own operation, not a customer's words,
+and it is another instance of the hole [[A Context node type for evidence that is true, useful, and not a customer need]] describes.

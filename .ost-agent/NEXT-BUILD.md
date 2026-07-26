@@ -6,6 +6,54 @@ implies, not a decision. Promotion, killing, and validation stay human.
 
 _Last rewritten: 2026-07-26 (autonomous bootstrap loop, seventh pass)._
 
+_Prepended 2026-07-26 by an interleaved eighth pass — see section 0._
+
+---
+
+## 0. READ THIS FIRST — two passes built the same feature, and neither knew
+
+_Added 2026-07-26 by a pass that started before the seventh finished. The seventh pass's
+briefing is intact below and is still the current reading; this section is prepended, not
+substituted._
+
+**Before acting on anything named in this file, or in the sibling vault's, re-fetch both
+the product repo and the vault and re-read the briefing.** A stale clone is
+indistinguishable from a current one, and this file lives inside the stale clone.
+
+**What happened.** A loop iteration cloned `tetrix-game-monorepo` at `7c9bcc5` and
+confirmed `origin/master` was identical at 00:47Z. It read the tetrix briefing's *"if
+something must be built"* clause and built it: the invited-visitor arm split, 28 new tests,
+four funnel e2e tests green against real Chromium and real Postgres. At 08:47Z the push was
+rejected — `22a112e` had shipped the same feature at 02:56Z from a different session,
+converging on the same migration number, the same column name, the same FNV-1a hash and the
+same default-off knob. **One full build pass, discarded.**
+
+**The finding, stated precisely, because it is the useful part.** This is not the
+vault-write race already on file from 2026-07-24. No lease on the vault would have
+prevented it: neither pass wrote to the vault while building. What collided was the
+*decision about what to work on*. The standing briefing is a statement of intent with no
+record of uptake — nothing in it says who is on an item, since when, or against which
+commit. And the only detector in the system is `git push` being non-fast-forward, which
+fires after all the cost is paid, and only when the two passes happen to touch overlapping
+files. **Two passes building non-overlapping duplicates of the same intent would both push
+cleanly and neither would ever know.**
+
+Recorded in full on [[Two agents sharing my vault can trample each other]] (second sighting,
+`observed`, with times) and on [[A standing Next Build node the agent rewrites every pass]]
+(the failure that node predicted was noise; the one it got was collision).
+
+**Deliberately not proposed here: a fix.** A claim file, a lease, one-writer-per-repo, or
+simply accepting that a stale reader occasionally wastes a pass are four different answers
+with real trade-offs, and the party that just lost a pass to this is not a neutral one. It
+is also, unmistakably, a fifth thing this loop would be building for itself — which §1
+below argues is exactly what should stop until the package is published.
+
+**§1 is unchanged and is still the binding constraint.** Nothing in this section competes
+with it: `npm publish` of 0.10.0 through 0.12.0 is two minutes and stands in front of every
+external-evidence hope in this tree. This pass added no release; it verified that
+`npm whoami` is still `ENEEDAUTH` here and that `npm pack --dry-run` packs cleanly.
+
+
 ---
 
 ## What changed since the last briefing
