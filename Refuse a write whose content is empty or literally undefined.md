@@ -16,3 +16,14 @@ evidence: assertion
 **Where it fails.** A legitimate annotation could contain the word `undefined` — this very node's history will. The rule has to be *the content is exactly that*, not *contains it*, which narrows it to almost the single observed case and makes it a tripwire rather than a policy.
 
 ⚠️ Unvalidated. Agent-ideated, from an observed failure.
+
+## Issues
+- 2026-07-27 SHIPPED, v0.18.0, 2026-07-27 (eleventh pass) — and shipped in the shape its own assumption test prescribed rather than the shape this node proposed.
+
+[[Sweep both vault histories for writes that landed as undefined or empty]] was run FIRST, with its threshold fixed in advance. It found 21 undefined / 0 empty / 0 truncated across 306 annotation entries in both vaults, so the assumption held and this guard ships as a TRIPWIRE for one known shape — not as the primary fix it would have become had the sweep refuted.
+
+Implementation: the guard sits in Vault, at the single point every node write funnels through, so it holds for entry points that do not exist yet. Covered: createNode, appendToNode, appendUnderSection, annotate, and the optional notes on setStatus, setEvidence, setLane.
+
+The distinction this node predicted turned out to be the whole design, and it is worth recording that the prediction was right: the rule is that content IS exactly undefined/null/empty, never that it CONTAINS those words. This very node's history now contains the word repeatedly and must stay writable. A test pins that. A second test pins the subtler half — an ABSENT optional note (the JS value undefined) is a caller legitimately declining to explain itself and passes; the four-character STRING is a caller that stringified a variable it never set, and is refused. One String() apart, opposite verdicts.
+
+21 tests, verified failing first (18 failed / 3 passed before the guard, where the 3 passing were the must-still-be-allowed cases). Full suite 482 tests / 64 files green, tsc clean. Published to npm as 0.18.0 via workflow_dispatch; registry confirms latest = 0.18.0.

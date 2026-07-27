@@ -3,6 +3,7 @@ type: Outcome
 status: validated
 source: 'config:outcome'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Outcome #evidence/assertion
 [[I can't tell if anyone outside my own head wants this]]
@@ -35,6 +36,7 @@ created: '2026-07-24'
 [[The agent has to guess what resources it's actually working with]]
 [[Give me the most efficient mapping of actions from where we are to where we want to get]]
 [[I can't scale OST-Agents with my own compute because their experience never comes back to me]]
+[[A sweep that cannot read its subject reports a clean result]]
 
 Grow external returning operators: the number of non-founder operators who run a discovery pass on a real vault of their own and voluntarily return for another pass within 14 days, measured weekly. Until that number is above zero, the target opportunity is external demand evidence (I can't tell if anyone outside my own head wants this), and no node in this tree may climb the believability ladder on founder or model sources alone.
 

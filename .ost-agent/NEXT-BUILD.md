@@ -4,10 +4,141 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
-_Last rewritten: 2026-07-26 (autonomous bootstrap loop, tenth pass)._
+_Last rewritten: 2026-07-27 (autonomous bootstrap loop, eleventh pass)._
 
 ---
 
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+Two reasons, both earned by real failures: **collision** (two passes building the same
+thing) and **staleness** (a briefing that is simply no longer true, with nobody having
+collided with you). Re-reading answers both.
+
+**The tag trap is unchanged and fired again.** `git push --tags` gets **HTTP 403** here.
+Delete the stray local tag or the next branch push reports a confusing "behind its remote":
+
+```bash
+git tag -d vX.Y.Z && git push origin HEAD:refs/heads/main
+```
+
+**`gh` is not installed in this container.** The documented `gh workflow run` path in
+RELEASING.md cannot be taken. What worked this pass: trigger `npm-publish.yml` via
+`workflow_dispatch` through the **GitHub MCP server** (`actions_run_trigger`), then confirm
+with `npm view ost-agent version` — the registry, not a green workflow, is the evidence.
+
+## What changed since the last briefing
+
+**v0.18.0 is published and registry-confirmed.** `npm view ost-agent version` → **0.18.0**.
+
+**The pass ran a test before building, and the test changed the build.** §2 named
+[[Sweep both vault histories for writes that landed as undefined or empty]] and gated the
+build on it. The sweep replayed all 106 commits in both vaults and classified 306 annotation
+entries: **21 `undefined`, 0 empty, 0 truncated**, reconciling exactly with disk (6 meta /
+15 tetrix, 16 nodes). Threshold was *≤2 of any other shape survives, ≥3 refutes*. **The
+assumption survived**, so [[Refuse a write whose content is empty or literally undefined]]
+shipped as a **tripwire for one known shape** rather than as the primary fix. That
+distinction was the test's entire purpose and it was decided by the number.
+
+**The guard.** It sits in `Vault`, at the single point every node write funnels through, so
+it holds for callers that do not exist yet. It refuses content that **is** exactly
+`undefined`/`null`/empty, never content that **contains** those words. The load-bearing
+subtlety: an **absent** optional note passes; the four-character **string** is refused. One
+`String()` apart. 21 tests, verified failing first (18 failed / 3 passed, the 3 being the
+must-still-be-allowed cases). Suite **482 / 64 files**, `tsc` clean, `check` PASS.
+
+**The best finding was not the feature — it was a bug in the instrument.** The sweep whose
+job was detecting silent bad writes **failed silently itself**. Git quotes non-ASCII paths in
+`--name-only`, `git show` failed on the vault's em-dashed filenames, and the error branch was
+`continue`: it read 302 of 306 entries, classified all 302 correctly, and printed a confident
+wrong total (5/12 against a truth of 6/15). No error, no warning, exit 0. Filed as
+[[A sweep that cannot read its subject reports a clean result]] at `observed`.
+
+**This is a different need from [[A failed pass reports success, so my automation can't
+tell]]** and the distinction matters for what gets built: that one is a run that *errored*
+and hid it. Here **nothing failed** — the defect is entirely in what was never reached, and
+no supervisor watching exit codes can see it, because there is no error to see.
+
+**Also corrected:** the v0.17.0 changelog said fourteen destroyed lines split 8 meta / 6
+tetrix. The truth is **21, split 6 / 15**. Wrong in the total and the split. Corrected in
+the v0.18.0 entry, not edited in the old one.
+
+## 1. The human actions
+
+**1a. Talk to the warm n=1 participant.** Twelfth briefing carrying it. Still one message.
+See §3.
+
+**1b. Review the agent-ideated backlog.** 211+ unvalidated nodes. `ost-agent review` exists
+for exactly this and has never been run by a human.
+
+## 2. The next build
+
+**Run a test before building anything — again, and for the same reason it worked twice.**
+The tree's answer is [[Do the shipped sweeps actually find a planted instance]] —
+`compute-only`, threshold pre-committed, and the direct descendant of this pass's best
+finding. It plants a synthetic violation in a scratch copy of a vault for each shipped check
+(`ost-agent check`'s invariants, the lane-conflict rule, the debt/threshold scan) and
+confirms the check reports it. **2 or more checks failing to find their plant means blindness
+is this codebase's default rather than an accident.**
+
+The case for it is that this tree has now met the same shape **three times**: eleven audio
+tests that could not fail, a lane reader that read a fragment as a declaration, and a sweep
+that measured only the files it could open. Every rule this project shipped that was
+verified-failing-first has held up; the one that was not shipped with two defects. Three is
+a habit, and this test is the cheapest way to find out how deep it goes.
+
+**Do NOT build [[Every count states the denominator it was taken over]] before that test
+runs.** It is the obvious response to this pass's bug, and this pass deliberately declined to
+build it: a denominator computed by the same broken traversal reads 100%. The idea is only
+worth its cost if the denominator comes from a *different source* than the counter, and the
+planted-instance test is what establishes whether that is needed. Building it first would be
+shipping the comfortable half of the lesson.
+
+**One-field fix available any time, no test needed:**
+[[Every recorded step carries the directory and argv it actually ran with]]. `loop step`
+records phase, command, exit code and duration but **not `cwd`** — so a recorded failure
+cannot be reproduced from its own record. Observed twice in this pass's own health file.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] — the only
+candidate that makes the launch sentence literally true, and it buys that by letting a
+machine write the mandate. **Not softened by anything in this pass.**
+
+## 3. The highest-information action
+
+**Unchanged, unblocked, and untouched for three passes: talk to the warm n=1 participant.**
+
+The comparison has stopped being an argument and become a record. This vault: 238 nodes, 10
+at `observed`, **0** at `stated`, `expert` or `money` — every rung above the floor still this
+loop observing its own machinery. The sibling vault, in the same period: **two conversations,
+four top-level opportunities, the only product defects either tree has ever held**, and
+`stated` evidence in a customer's own words. Two of those defects were fixed by passes that
+would otherwise have had nothing honest to build.
+
+Both products have direct evidence that one conversation outperforms three passes of
+building. Only one of them keeps having the conversation.
+
+## 4. The bias in this briefing, declared
+
+Eleven passes, eleven builds the agent could finish alone.
+
+**The specific bias to name is not the usual one, and it is close to a virtue, which is what
+makes it worth flagging.** This pass did good work by distrusting its own numbers — it
+reconciled the sweep against disk, found two defects, and reported a corrected count. But
+notice what it did with the spare capacity: it built a *guard*, filed a *node about guards*,
+and proposed a *test about guards*. Three passes in a row have now ended with the machine
+inspecting its own machinery more carefully than the pass before. The quality of the
+introspection is rising and the amount of contact with anyone outside this building is
+exactly zero, and has been for eleven passes.
+
+A tree that gets better at auditing itself while never being read by a stranger is
+converging on something, and it is not necessarily a product.
+
+## History
 ## 0. Before acting on anything here, re-fetch both repos and re-read this file
 
 ```bash
@@ -150,8 +281,6 @@ validator is not the same as being validated.
 
 Against that: this is the tenth consecutive pass in which nobody outside this building was
 involved at any point, and §1a is still one message.
-
-## History
 
 ### Superseded — 2026-07-26 (ninth pass)
 
