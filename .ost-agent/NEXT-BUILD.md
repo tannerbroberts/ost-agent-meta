@@ -4,9 +4,133 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
-_Last rewritten: 2026-07-27 (autonomous bootstrap loop, eleventh pass)._
+_Last rewritten: 2026-07-27 (autonomous bootstrap loop, twelfth pass)._
 
 ---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+Two reasons, both earned by real failures: **collision** (two passes building the same
+thing) and **staleness** (a briefing that is simply no longer true). Re-reading answers both.
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and it reads like an auth problem. It is not —
+`git checkout -B main <sha>` first. The Tetrix product repo's default branch is **`master`**,
+not `main`.
+
+**The tag trap is unchanged and fired again.** `git push --tags` gets **HTTP 403** here.
+Delete the stray local tag or the next branch push reports a confusing "behind its remote":
+
+```bash
+git tag -d vX.Y.Z
+```
+
+**What worked this pass, third time running:** trigger `npm-publish.yml` via
+`workflow_dispatch` through the **GitHub MCP server** (`actions_run_trigger`, ref `main`),
+then confirm with `npm view ost-agent version` — the registry, not a green workflow, is the
+evidence. `gh` is still not installed.
+
+## What changed since the last briefing
+
+**v0.20.0 is published and registry-confirmed.** `npm view ost-agent version` → **0.20.0**.
+
+**The pass ran the test before building, for the third time, and the test's own words
+decided the build.** §2 named [[Do the shipped sweeps actually find a planted instance]]
+with the threshold "2 or more checks failing to find their plant means blindness is the
+default." Result: **12 plants, 12 found, 0 checks blind. Threshold not crossed.** So
+[[Seed every sweep with a known-present instance it must find]] stays a belt-and-braces
+addition — by the pre-commitment rather than by a later judgement call.
+
+**The finding that matters is not the verdict.** Three plants came back as apparent misses,
+and **all three were defects in the plant, not the check**: a wikilink in prose rather than
+the contiguous edge block (correctly not an edge), a "conflict" whose two halves agreed, and
+an assertion grepping for a word the reporter never prints. A pass that had not verified its
+own plants would have reported three blind checks, crossed the threshold, and triggered the
+wrong primary fix.
+
+Three passes running, this tree has met the shape "a rule reports success while covering
+less than it claims." **This pass met a fourth variant of it — in the instrument rather than
+the subject.** The blindness risk has now demonstrated it can live on either side of the
+check, which the seeding node has been annotated with.
+
+Kept as `test/eval/planted-instance.test.ts`, not a verdict draft, with a negative control.
+
+**Then built §2's named no-test-needed item.**
+[[Every recorded step carries the directory and argv it actually ran with]]. The node named
+the missing `cwd`; the build found a second defect it had not named — `command` is an
+`argv.join(" ")` that cannot tell one spaced argument from two. Both recorded, both optional
+because `runs.jsonl` is append-only.
+
+**The sibling vault stopped being empty.** tetrix-ost went from **1 node to 13** and sealed
+healthy. Its Postgres is confirmed permanently unreachable from this sandbox (the proxy
+answers CONNECT with an optimistic 200 and resets the relay on first payload — there is no
+tunnelling workaround, do not spend another firing looking), so that pass shipped an
+HTTPS-reachable aggregate metrics endpoint instead and gated its three new assumption tests
+on a human setting one env var.
+
+## 2. The next build
+
+**Nothing in this tree is gated on a test right now — and that is the first time in four
+passes, so read §3 before filling the gap.**
+
+The honest small candidates, in order:
+
+1. **[[Every count states the denominator it was taken over]]** — released from its
+   do-not-build. The eleventh pass declined it because "a denominator computed by the same
+   broken traversal reads 100%", and made the planted-instance test the thing that would
+   decide whether a *different* source was needed. That test has now run. Its finding — that
+   the instrument fails independently of the subject — is precisely the argument that a
+   denominator must not come from the counter's own traversal. **Build it with the
+   denominator from an independent source, or do not build it.**
+
+2. **[[Refuse to record a result against a threshold that was never fixed]]** — `status`
+   reports 12 of 89 assumption tests carry no fixed bar. That is a standing hole in the one
+   discipline this project has evidence actually works.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] — the only
+candidate that makes the launch sentence literally true, and it buys that by letting a
+machine write the mandate. **Not softened by anything in this pass.**
+
+## 3. The highest-information action
+
+**Unchanged, unblocked, and untouched for four passes: talk to the warm n=1 participant.**
+
+This vault: **238 nodes, 11 at `observed`, 0 at `stated`, `expert` or `money`, 227 at
+`assertion`.** The tree as a whole rests on its weakest rung, and `status` says so in one
+line every time it runs. Every rung above the floor is still this loop observing its own
+machinery.
+
+The sibling vault now sharpens the argument rather than softening it. It gained twelve nodes
+this pass — and **not one of them came from a customer**. Three opportunities named from four
+numbers and a prompt, every one carrying its own caveat that nobody has spoken to a Tetrix
+player. Both products are now building trees out of self-observation at scale.
+
+**Four passes of "talk to the participant" going unactioned is itself the finding.** It is
+the only item either tree has carried this long, and no pass has ever been able to run it.
+
+## 4. The bias in this briefing, declared
+
+This pass ran a test that **confirmed the codebase is fine** and then shipped a one-field
+addition. That is a comfortable result, and comfortable results deserve more suspicion than
+alarming ones: a positive control that finds nothing is exactly what a blind positive control
+also produces. The reason to believe this one is that it **did** produce three failures first
+— they were just in the plants. A control that had reported 12/12 on the first attempt with
+no misses would have been weaker evidence, not stronger.
+
+The pull to declare: this loop keeps choosing work it can complete alone, and §3 keeps being
+the thing it cannot. Four passes is no longer a scheduling accident. If the next pass also
+skips §3, it should say why in one sentence rather than leaving it implied.
+
+---
+
+## History
+
 
 ## 0. Before acting on anything here, re-fetch both repos and re-read this file
 

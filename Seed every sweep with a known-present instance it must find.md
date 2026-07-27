@@ -15,3 +15,23 @@ evidence: assertion
 **Where it fails.** A control chosen from the same source the sweep reads can be blind in the same way — the control has to be established independently, and keeping such fixtures current is real maintenance nobody has budgeted.
 
 ⚠️ Unvalidated. Agent-ideated from an observed failure.
+
+## The threshold that gated it has now been run — 2026-07-27
+
+[[Do the shipped sweeps actually find a planted instance]] ran on the twelfth firing:
+**12 plants, 12 found, 0 checks blind.** Its pre-commitment named this outcome explicitly —
+0 or 1 means the existing verify-failing-first discipline is mostly working and this node is
+"a belt-and-braces addition that can wait."
+
+So this stays **not the primary fix**, by the test's own prior words rather than by a later
+judgement call.
+
+**But one finding argues for a narrower version of it.** All three apparent misses in that
+run were defects in the *plants*, not the checks. The blindness risk that actually
+materialised was in the **instrument**, not the subject — a positive control whose plant is
+not the shape the check looks for reports a false alarm just as confidently as a real one.
+A seeded known-present instance protects against a check going blind; it does nothing about a
+seed that was never the right shape. Whatever eventually gets built here should carry an
+assertion that the baseline is clean *and* that the plant is the shape the rule matches.
+
+Annotation only — no change proposed, and the standing do-not-build is untouched.

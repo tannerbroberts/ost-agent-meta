@@ -18,3 +18,50 @@ evidence: assertion
 **What this cannot tell anyone.** Nothing about a check that finds its planted instance and still misses real ones for an unrelated reason — a plant is by construction the shape its author already imagined.
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## Run 2026-07-27 — compute-only lane, by the autonomous loop (twelfth firing)
+
+**Not a human-recorded result.** `ost-agent result` remains humans-only; this is an agent's
+observation of a compute-only run, recorded here so the verdict is inspectable.
+
+**Against the pre-committed threshold (>=2 checks failing to find their plant):
+12 plants, 12 found, 0 checks blind. THRESHOLD NOT CROSSED.** Per the pre-commitment,
+[[Seed every sweep with a known-present instance it must find]] stays a belt-and-braces
+addition rather than becoming the primary fix.
+
+Plants, each run against a baseline first asserted clean so a hit is demonstrably the plant
+and not fixture noise: all eight `checkInvariants` rules (single-outcome, dangling-link,
+wrapped-wikilink, opportunity-connected, solution-mapped, assumption-mapped, evidence-class,
+no-self-validation); the lane-conflict rule via both `check` and `lanes`; the debt scan via
+an untested solution and via an unfixed threshold.
+
+### The run is worth more than its verdict
+
+Three plants came back as apparent MISSES on the first pass. All three were defects in the
+**plant**, not in the check:
+
+1. A wikilink appended to the prose body rather than the contiguous edge block — the parser
+   is right that a link in prose is not an edge.
+2. A "lane conflict" whose two halves agreed (frontmatter `compute-only`, prose
+   `Lane: compute-only`) — there was nothing to conflict.
+3. An assertion grepping for the word "conflict", where `lanes` prints "contradicts their
+   own prose" and never uses the word at all.
+
+**An unattended pass that had not verified its own plants would have reported three blind
+checks, crossed the threshold, and triggered the wrong primary fix.** That is the same
+failure this test exists to catch, arriving from the direction nobody was watching — the
+instrument rather than the subject. Worth carrying into any future positive control: a plant
+that is not the shape the check looks for proves nothing about the check.
+
+### Incidental observation
+
+The lane reader flagged two of the new Tetrix tests as *likely humans-required* for
+containing the word "stranger", where the strangers are the subject of the data rather than
+people to interview. A false positive, in the fail-closed direction, pointing at a person for
+the decision. Left alone rather than reworded — rewording a node to dodge a check that is
+working is how a check stops working.
+
+### Left behind as a permanent test
+
+`test/eval/planted-instance.test.ts`, shipped in v0.20.0, with a negative control (a prose
+lane that AGREES with its label must not be reported).
