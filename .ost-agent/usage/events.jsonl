@@ -211,3 +211,7 @@
 {"ts":"2026-07-27T06:15:49.117Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"cli-tool","argBytes":2741}
 {"ts":"2026-07-27T06:16:00.411Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"cli-tool","argBytes":1338}
 {"ts":"2026-07-27T06:16:14.771Z","tool":"ost_append_to_node","ok":true,"ms":5,"surface":"cli-tool","argBytes":1312}
+{"ts":"2026-07-27T11:14:28.335Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"cli-tool","argBytes":3028}
+{"ts":"2026-07-27T11:14:47.116Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"cli-tool","argBytes":2431}
+{"ts":"2026-07-27T11:15:13.876Z","tool":"ost_annotate","ok":true,"ms":6,"surface":"cli-tool","argBytes":1207}
+{"ts":"2026-07-27T11:15:14.133Z","tool":"ost_annotate","ok":true,"ms":5,"surface":"cli-tool","argBytes":713}

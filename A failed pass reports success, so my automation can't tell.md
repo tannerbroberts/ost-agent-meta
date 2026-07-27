@@ -9,6 +9,7 @@ evidence: observed
 [[Nonzero exit code and failure summary when a pass errors]]
 [[Status and digest lead with the last failed run]]
 [[Supervisor heartbeat consumes run journals and alerts on error]]
+[[Refuse a proving command whose exit code cannot report failure]]
 
 **The need (operator's voice):** "P2_map died on an auth error and still exited 0, wrote a commit, and printed a tidy summary. If that had been my nightly cron, it would no-op forever while looking perfectly healthy."
 
@@ -44,6 +45,7 @@ human's call, and the same one as
 [[Bundled local model for zero-credential trial]].
 - 2026-07-26 undefined
 - 2026-07-26 **Hygiene — a destroyed annotation, flagged not repaired (2026-07-26).** One or more lines in this node read `- <date> undefined`. That is not a note anybody wrote: `ost_annotate` was called with `note` instead of its declared `issue` field, nothing validated the call, and the literal string "undefined" was appended in place of the content. The original text was never written anywhere and is unrecoverable. Fourteen such lines exist across the two live vaults, written by several passes over three days. The cause is closed in ost-agent v0.17.0, which refuses a tool call that does not match the schema the tool itself declares. **Left in place deliberately:** this vault is append-only, and rewriting history to hide a bad write is exactly the action this product refuses — including when the product is the one that made it. Full account: [[A tool call I got slightly wrong destroyed the note I was filing]].
+- 2026-07-27 Fifth instance of this shape, 2026-07-27 (thirteenth pass), and the second to land in the INSTRUMENT rather than the subject. `loop step` recorded exit 0 for `bash -c "npx vitest run 2>&1 | tail -25"` while the shell was printing `vitest: not found` -- a pipeline reports its last command's status, and `tail` succeeded at reading nothing. Shipped against it: [[Refuse a proving command whose exit code cannot report failure]] (v0.21.0). Worth noting for whoever prunes this tree: the prior four instances were the lane reader that read a fragment as a declaration, eleven audio tests that could not fail, a history sweep that measured only the files it could open, and three defective plants in v0.20.0's own positive-control test. Five occurrences is no longer a run of bad luck; it is the failure mode this codebase actually has. A deliberate decision is owed on whether that deserves its own top-level opportunity -- this pass declined to create one, because the root outcome is about external returning operators and an internal-quality branch would not serve it, but the judgement should be made rather than inherited.
 
 
 ## A third shape of the same failure, and this one is not about exit codes — 2026-07-26

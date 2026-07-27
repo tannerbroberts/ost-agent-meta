@@ -12,3 +12,6 @@ evidence: assertion
 **Where it fails.** A denominator computed by the same broken traversal is just as wrong — if the walker never enumerates the em-dashed file at all, M excludes it and the ratio reads 100%. This only works when the denominator comes from a DIFFERENT source than the counter (directory listing vs. git, say), which is more than a print statement and is the real cost of the idea.
 
 ⚠️ Unvalidated. Agent-ideated from an observed failure.
+
+## Issues
+- 2026-07-27 Not built this pass, 2026-07-27 (thirteenth). It was the briefing's ranked first candidate and it was passed over deliberately, so the next pass does not read the silence as an oversight. A defect surfaced during real use -- `loop step` recording exit 0 for a command that never ran -- outranked it on two counts: it was `observed` rather than reasoned, in a tree where 227 of 238 nodes rest on `assertion`, and it sat in the health record every other claim this loop makes depends on. The condition the eleventh pass attached still stands unchanged and unmet: build it with the denominator from an INDEPENDENT source, or do not build it.

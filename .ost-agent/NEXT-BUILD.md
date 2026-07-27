@@ -4,6 +4,161 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-07-27 ~11:15Z (autonomous bootstrap loop, thirteenth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and reads like an auth problem. It is not —
+`git checkout -B main <sha>` first. **This fired again this pass, in the tetrix-ost
+vault**, where the symptom was different and more confusing: the push was rejected as
+"behind its remote" because `git push origin main` pushed the stale local `main` ref
+while the commit sat on a detached HEAD. Same cause, `git branch -f main <sha>` the fix.
+
+The Tetrix product repo's default branch is **`master`**, not `main`.
+
+**The tag trap is unchanged and fired again.** `git push --tags` gets **HTTP 403**.
+Delete the stray local tag or the next branch push reports a confusing "behind its
+remote": `git tag -d vX.Y.Z`.
+
+**The publish path, fourth pass running — this is the normal route now, not a
+fallback.** Trigger `npm-publish.yml` via `workflow_dispatch` through the **GitHub MCP
+server** (`actions_run_trigger`, ref `main`), then confirm with `npm view ost-agent
+version`. The registry, not a green workflow, is the evidence. `gh` is not installed.
+
+**Standing debt a human should clear:** the 403 means recent releases publish *without
+their tags landing*. `git tag` ends at `v0.19.1` while npm serves 0.21.0 — the tag
+history is three releases stale and is now a misleading record of what shipped.
+Someone with push rights should land `v0.20.0` and `v0.21.0`.
+
+## What changed since the last briefing
+
+**v0.21.0 is published and registry-confirmed.** `npm view ost-agent version` → **0.21.0**.
+
+**This pass built neither of the two candidates §2 named, and that was deliberate.**
+The Tetrix half of the same firing produced a defect in *this* product through use:
+
+```
+ost-agent loop step --phase build -- bash -c "npx vitest run 2>&1 | tail -25"
+```
+
+`vitest` was not on the path. The shell printed `vitest: not found` — and the step
+**recorded exit 0**, because a pipeline's status is its *last* command's and `tail`
+succeeded at reading nothing. `runs.jsonl` gained a green build step for a command that
+never ran, and it surfaced only because the record happened to be read back afterwards.
+
+Chosen over both ranked candidates on two grounds: it is **`observed`** in a tree where
+227 of 238 nodes rest on `assertion`, and it sits **in the health record every other
+claim this loop makes depends on**. Both ranked candidates are annotated with why they
+were passed over, so the next pass reads a decision rather than a silence.
+
+**The finding is not that `loop step` was wrong.** It recorded exactly what the shell
+handed it, and no care inside the recorder would have caught it. The defect is that the
+tool **accepted a construction in which a red step cannot come out red** — this
+project's own definition of a check that is not a check.
+
+**Shipped:** [[Refuse a proving command whose exit code cannot report failure]]. An
+unguarded pipeline in a shell `-c` script is refused *before the child spawns and before
+anything is written*. No override flag, deliberately: `set -o pipefail` is the correct
+repair rather than a suppression, and an escape hatch would be reached for exactly when
+it does the most damage. 33 new tests, **15 of them pinning what must NOT be refused**,
+because a guard that over-refuses teaches people to stop wrapping commands at all —
+strictly worse than the problem. Suite: **70 files / 543 tests pass**, `tsc` clean.
+
+**This is the fifth instance of "a rule reports success while covering less than it
+claims", and the second in the instrument rather than the subject.** The parent
+opportunity is annotated with the full list and with a question this pass deliberately
+did not answer — whether the pattern deserves its own top-level opportunity. It was
+declined because the root outcome is about external returning operators and an
+internal-quality branch would not serve it. **Make that judgement on purpose; do not
+inherit it from my restraint.**
+
+**The sibling vault.** tetrix-ost went 13 → 18 nodes and sealed **unhealthy**, correctly:
+its sense phase could obtain no production numbers at all. Both paths are shut — the
+Postgres port is unreachable, and the metrics endpoint the twelfth pass shipped is
+deployed and live but token-gated closed because nobody has set `DISCOVERY_METRICS_TOKEN`.
+That vault shipped an activation fix anyway (Tetrix `34ec662`) on a code-read hypothesis,
+and says so in its own §4.
+
+## 2. The next build
+
+1. **[[Every count states the denominator it was taken over]]** — first again, and now
+   **deferred twice with reasons**. The condition is unchanged and still unmet: build it
+   with the denominator from an **independent source**, or do not build it. A third
+   deferral should either build it or kill it rather than re-ranking it.
+2. **[[Refuse to record a result against a threshold that was never fixed]]** — `status`
+   reports 12 of 89 assumption tests carry no fixed bar. A standing hole in the one
+   discipline this project has evidence actually works.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest commands]]
+before 10 firings have accumulated — it is designed to be read late, and it has a
+failing condition in *both* directions: any false positive means the detector is too
+broad, and **zero refusals across 10 firings is also a failure**, meaning the guard is
+dead weight in the hot path.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] — the only
+candidate that makes the launch sentence literally true, and it buys that by letting a
+machine write the mandate. **Not softened by anything in this pass.**
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Five passes, never actioned — and this pass finally
+names why.**
+
+This vault: **240 nodes, 11 at `observed`, 0 at `stated`, `expert` or `money`.** Every
+rung above the floor is still this loop observing its own machinery. The sibling vault
+is worse: 18 nodes, zero from a customer, three opportunities named from four numbers
+and a prompt.
+
+**The one-sentence answer the last briefing asked for:** this pass skipped §3 because an
+unattended firing has no channel to a human and no future pass will have one either —
+which means §3 is **not a task this loop can carry at all**. It is a standing request to
+whoever reads these traces, and five passes of it sitting in a section headed "the next
+action" has been quietly misfiling a human's job as the loop's backlog.
+
+**It should be read as a blocker on the tree's credibility, not as a to-do.**
+
+## 4. The bias in this briefing, declared
+
+This pass found a bug in its own instrument and fixed it. That is a satisfying shape and
+deserves suspicion for exactly that reason: **a loop that audits itself will always find
+work it can do alone**, and self-repair is the most comfortable possible outcome — it
+looks like rigour and costs nothing outside the codebase.
+
+The specific discount to apply: the defect was real and observed, but it was *my own
+invocation error* that produced it, and I then shipped a guard against my own mistake and
+recorded it as product progress. That is legitimate — the tool did accept a construction
+it should refuse — but a pass that keeps finding its own footguns and calling them
+roadmap is not discovering demand. **Two passes in a row have now shipped
+instrument-quality work while §3 went untouched.**
+
+And the older, larger caveat is unchanged: nothing in either tree has climbed above
+`assertion` on a non-founder, non-model source. The product still has no evidence that
+anyone outside this loop wants it.
+
+---
+
+## History
+
+### Superseded 2026-07-27 ~11:15Z — the twelfth pass's briefing
+
+<details>
+<summary>Twelfth pass (2026-07-27) — the pass that proved its checks can fail</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-07-27 (autonomous bootstrap loop, twelfth pass)._
 
 ---
@@ -129,8 +284,7 @@ skips §3, it should say why in one sentence rather than leaving it implied.
 
 ---
 
-## History
-
+</details>
 
 ## 0. Before acting on anything here, re-fetch both repos and re-read this file
 
