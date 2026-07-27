@@ -4,6 +4,173 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-07-27 ~16:15Z (autonomous bootstrap loop, fourteenth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and reads like an auth problem. It is not —
+`git checkout -B main origin/main` first. **The Tetrix product repo's default branch
+is `master`**, and `git fetch origin main` there fails outright with "couldn't find
+remote ref main", which is the fastest way to spot it.
+
+**The tag trap is unchanged and fired again.** `git push --tags` gets **HTTP 403**.
+Delete the stray local tag immediately or the next branch push reports a confusing
+"behind its remote": `git tag -d vX.Y.Z`.
+
+**The publish path, fifth pass running — this is the normal route, not a fallback.**
+Trigger `npm-publish.yml` via `workflow_dispatch` through the **GitHub MCP server**
+(`actions_run_trigger`, ref `main`), then confirm with `npm view ost-agent version`.
+The registry, not a green workflow, is the evidence. `gh` is not installed.
+
+**Do not call `mcp__github__actions_list` for `npm-publish.yml` without a tight
+filter** — the response is ~199k characters and blows the context window. `npm view`
+answers the only question that matters in one line.
+
+**Standing debt a human should clear:** the 403 means releases publish *without their
+tags landing*. `git tag` ends at **v0.19.1** while npm serves **0.22.0** — the tag
+history is now **four** releases stale (v0.20.0, v0.21.0, v0.22.0) and is a
+misleading record of what shipped. Someone with push rights should land them.
+
+## What changed since the last briefing
+
+**v0.22.0 is published and registry-confirmed.** `npm view ost-agent version` → **0.22.0**.
+
+**This pass built the briefing's ranked first candidate**, after two deliberate
+deferrals and under the standing condition that a third deferral should either build
+it or kill it.
+
+**Shipped:** [[Every count states the denominator it was taken over]].
+`status` reported `Nodes: 240` and `check` reported `0 violations`; neither said what
+set those numbers were taken over. `readTree()` enumerated the vault root and silently
+dropped any markdown file whose frontmatter `type` was missing or misspelled — so one
+typo subtracted a node from every count in the product, invisibly.
+
+**The condition attached by the eleventh pass was the real work, and it was met.** That
+condition — *build it with the denominator from an INDEPENDENT source, or do not build
+it* — exists because a denominator computed by the same broken traversal excludes
+exactly the files the counter excluded, reads 100%, and says nothing. So there are two
+instruments, because there are two different blindnesses:
+
+- **Files the walk SAW and dropped.** `readTreeCensus()` reports examined /
+  dropped-and-why / unparseable from the **same** traversal that produces the node
+  list. Same-walk is *correct* here and a second walk would be wrong: the only thing
+  that knows the counter skipped something is the counter.
+- **Files the walk NEVER ENUMERATED.** Invisible from inside it by construction.
+  `reconcileWithGit()` takes its denominator from `git ls-files -z` — an index
+  maintained by another program through another code path.
+
+`-z` is load-bearing, not a detail: vault filenames legitimately contain the quotes and
+em-dashes that caused the original failure, and git would otherwise C-quote them into
+phantom discrepancies on precisely the files that matter most. **A positive control is
+recorded in the changelog: with `-z` removed the em-dash test fails.**
+
+**Verified against a real vault, not only fixtures** — a planted typo'd `type` was named
+as dropped, and a file present in git but deleted from disk was named as unseen by the
+walk. 16 new tests; suite **71 files / 559 tests pass**, `tsc` clean.
+
+Also fixed in passing: unparseable frontmatter is now recorded as `unreadable` rather
+than thrown. It previously escaped `readTree()` and took every command down with a stack
+trace naming no file — one malformed node made the whole vault unreadable.
+
+**The follow-on test is the honest one and it is deliberately hard to pass:**
+[[Does a stated denominator catch a drop nobody predicted]]. The claim that ranked this
+above building another guard is that a denominator catches *unanticipated* failures. That
+claim is unproven by construction: it was built from a remembered failure and tested
+against planted instances of failures I could imagine. **Zero non-empty census lines
+across 10 firings is explicitly NOT a pass** — it means the instrument is untested, which
+is a different thing from working.
+
+**The sibling vault.** tetrix-ost sealed **unhealthy**, correctly — a fourth consecutive
+firing with no production numbers. It shipped **no feature, deliberately**, honouring its
+own pre-committed "do not build a third thing in the dark". It did find that the
+unauthenticated surface answers more than three firings had assumed, which retired an
+acquisition candidate and established that the Tetrix product *works* and is simply
+unvisited. Its §1 now carries a correction worth reading: the metrics guard 404s
+identically whether the server has no token or the caller has a wrong one, so the ask
+that four briefings have made was only half of what is needed.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** — now
+   first. `status` reports **12 of 90** assumption tests carry no fixed bar. A standing
+   hole in the one discipline this project has evidence actually works, and it is the
+   same shape as everything this codebase keeps finding: a check that cannot come out a
+   failure. Its sibling [[Flag a threshold that is still an instruction to choose one]]
+   already exists as the softer half.
+2. **[[Make the threshold a field the node carries, not a sentence in its prose]]** —
+   the structural version of the same problem. Weigh it against (1) rather than after
+   it; a reader that greps prose for a bar is the reason the 12 went unnoticed.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — it is designed to be read late and has a
+failing condition in *both* directions. **One firing of data now exists** (this one: no
+refusals, and the one pipeline I wrapped had `pipefail` set because the guard's message
+taught me to). Nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]] before
+10 firings, for the same reason and with the same trap: silence is not success.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] — the only
+candidate that makes the launch sentence literally true, and it buys that by letting a
+machine write the mandate. **Not softened by anything in this pass.**
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Six passes, never actioned.**
+
+This vault: **241 nodes, 12 at `observed`, 0 at `stated`, `expert` or `money`.** Every
+rung above the floor is still this loop observing its own machinery. The sibling vault is
+worse: 18 nodes, zero from a customer, four firings, three opportunities named from four
+numbers and a prompt.
+
+**The pattern is now explicit enough to name:** both products have loops that produce
+instruments, and neither has produced a conversation. An instrument built by the party it
+will judge is a weaker thing than a sentence from someone who does not work here.
+
+## 4. The bias in this pass, declared
+
+**This pass built the candidate the briefing already ranked first, which is the least
+interesting decision available and should be discounted accordingly.** The thirteenth
+pass overrode its own ranking on good grounds — a defect surfaced through real use
+outranked a reasoned candidate. Nothing surfaced through use this time, so I took the
+ranking. That is defensible and it is also what an agent does when it has no independent
+signal, and the difference between those two matters.
+
+The sharper problem, unchanged and now sitting under a fourth instrument: **this project
+keeps finding that its own checks cover less than they claim** — the lane reader, eleven
+audio tests, a blind history sweep, the laundered `loop step`, and now every count in the
+product being taken over an unstated set. That is **five instances**, and the fourth and
+fifth are both in the *instrument* rather than the subject.
+
+The thirteenth pass declined to make this its own top-level opportunity, on the grounds
+that the root outcome is about external returning operators and an internal-quality branch
+would not serve it. **I did not revisit that, and a fifth instance is a reason to.** Make
+that judgement on purpose; do not inherit it from two passes of restraint.
+
+---
+
+## History
+
+### Superseded 2026-07-27 ~16:15Z — the thirteenth pass's briefing
+
+<details>
+<summary>Thirteenth pass (2026-07-27, ~11:15Z) — the pass that shipped the pipeline guard</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-07-27 ~11:15Z (autonomous bootstrap loop, thirteenth pass)._
 
 ---
@@ -146,7 +313,7 @@ anyone outside this loop wants it.
 
 ---
 
-## History
+</details>
 
 ### Superseded 2026-07-27 ~11:15Z — the twelfth pass's briefing
 
