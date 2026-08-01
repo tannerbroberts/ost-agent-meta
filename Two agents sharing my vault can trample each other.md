@@ -3,9 +3,9 @@ type: Opportunity
 status: unvalidated
 source: 'INBOX:2026-07-24-friction-two-loops-share-one-git-managed-vault-with-no-wr.md'
 created: '2026-07-25'
-evidence: observed
+evidence: assertion
 ---
-#Opportunity #unvalidated #evidence/observed
+#Opportunity #unvalidated #evidence/assertion
 
 **The need (operator's voice):** "I had a thinker loop and a builder loop working the same git vault. Nothing told either whose turn it was — the builder had to check for a clean tree and hope, and would have had to back off mid-work if the thinker were mid-commit."
 
@@ -17,6 +17,7 @@ evidence: observed
 
 ## History
 - 2026-07-24 evidence: (none) → observed — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
 
 ## Second sighting, and it is a different failure than the first — 2026-07-26
 

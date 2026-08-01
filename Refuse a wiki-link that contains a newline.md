@@ -3,9 +3,9 @@ type: Solution
 status: unvalidated
 source: 'agent-run:autonomous-loop-2026-07-26-pass7'
 created: '2026-07-26'
-evidence: observed
+evidence: assertion
 ---
-#Solution #unvalidated #evidence/observed
+#Solution #unvalidated #evidence/assertion
 [[Does refusing a newline inside a wiki-link catch breaks nothing else catches]]
 
 **The idea.** `ost-agent check` fails on any `[[…]]` whose contents contain a newline.
@@ -91,3 +91,6 @@ few passes' own writing is the sample.
 **What it does not do, restated so it is not over-claimed.** It catches the wrapped case
 only. A link mistyped on one line, or pointing at a node nobody created, still sails past
 it — the dangling-link rule catches the second and nothing catches the first.
+
+## History
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.

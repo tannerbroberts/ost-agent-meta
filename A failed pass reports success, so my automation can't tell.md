@@ -3,9 +3,9 @@ type: Opportunity
 status: unvalidated
 source: 'INBOX:2026-07-25-friction-a-pass-that-dies-on-a-driver-error-still-exits-0.md'
 created: '2026-07-25'
-evidence: observed
+evidence: assertion
 ---
-#Opportunity #unvalidated #evidence/observed
+#Opportunity #unvalidated #evidence/assertion
 [[Nonzero exit code and failure summary when a pass errors]]
 [[Status and digest lead with the last failed run]]
 [[Supervisor heartbeat consumes run journals and alerts on error]]
@@ -92,3 +92,6 @@ a neutral one.
 
 **Rung unchanged: `observed`.** Two mechanically observed instances, both inside this
 building, on systems this loop operates. Still nothing from an outside operator.
+
+## History
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.

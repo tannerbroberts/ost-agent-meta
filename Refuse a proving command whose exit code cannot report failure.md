@@ -1,9 +1,9 @@
 ---
 type: Solution
 created: '2026-07-27'
-evidence: observed
+evidence: assertion
 ---
-#Solution #evidence/observed
+#Solution #evidence/assertion
 [[Does the guard catch real laundering without refusing honest commands]]
 
 **Shipped v0.21.0, commit `87164d6` on `main`.**
@@ -23,3 +23,6 @@ evidence: observed
 **Verification observed:** 70 test files / 543 tests pass; `tsc` clean.
 
 **This is the fifth variant this tree has met of 'a rule reports success while covering less than it claims', and the second to land in the instrument rather than the subject** (the first being the three defective plants found by the positive-control test in v0.20.0). The pattern is no longer a coincidence and should probably become an opportunity in its own right rather than a recurring note.
+
+## History
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.

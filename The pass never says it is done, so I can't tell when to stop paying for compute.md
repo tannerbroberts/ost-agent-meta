@@ -1,11 +1,13 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: observed
-source: 'observation:.ost-agent/state/mapped.json behaviour in this vault + RUNTIME:tetrix-ost@2328e61'
+source: >-
+  observation:.ost-agent/state/mapped.json behaviour in this vault +
+  RUNTIME:tetrix-ost@2328e61
 created: '2026-07-25'
+evidence: assertion
 ---
-#Opportunity #ported-from-ost-agent-vault #evidence/observed
+#Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[A Context node type for evidence that is true, useful, and not a customer need]]
 [[Idle down when a pass produces commentary instead of structure]]
 [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]]
@@ -36,6 +38,7 @@ _Provenance: `.ost-agent/state/mapped.json` behaviour in this vault (confirmed i
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → observed — retro-labeled: recorded-as-it-happened incident in this vault / tetrix-ost with commit-level provenance
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
 
 ## Two more mechanisms, observed live (2026-07-25, twenty-passes run)
 

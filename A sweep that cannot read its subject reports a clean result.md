@@ -1,9 +1,9 @@
 ---
 type: Opportunity
 created: '2026-07-27'
-evidence: observed
+evidence: assertion
 ---
-#Opportunity #evidence/observed
+#Opportunity #evidence/assertion
 [[Every count states the denominator it was taken over]]
 [[A check with an empty subject is a failure, not a pass]]
 [[Seed every sweep with a known-present instance it must find]]
@@ -19,3 +19,6 @@ evidence: observed
 **Litmus (more than one way?):** yes — reporting unreadables alongside findings, failing on a zero subject count, printing a coverage denominator, and asserting the sweep can see a known-present instance are genuinely different answers.
 
 ⚠️ Agent-filed from an observed failure in this pass's own instrument.
+
+## History
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.

@@ -1,9 +1,9 @@
 ---
 type: Solution
 created: '2026-07-27'
-evidence: observed
+evidence: assertion
 ---
-#Solution #evidence/observed
+#Solution #evidence/assertion
 
 **The idea.** `loop step` records `cwd` and the resolved argv next to the exit code it already stores, so a recorded failure can be re-run verbatim from the record.
 
@@ -34,3 +34,6 @@ repo worked. Without `cwd`, nothing in the record could have told those two line
 Both fields are **optional**, because `runs.jsonl` is append-only: every line written before
 this release lacks them, and a reader that threw on older lines would go blind at exactly the
 moment the history matters.
+
+## History
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.

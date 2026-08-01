@@ -5,9 +5,9 @@ source: >-
   with `note` instead of `issue`, fourteen destroyed annotations across both
   live vaults
 created: '2026-07-26'
-evidence: observed
+evidence: assertion
 ---
-#Opportunity #evidence/observed
+#Opportunity #evidence/assertion
 [[Validate every tool call against the schema the tool already declares]]
 [[Refuse a write whose content is empty or literally undefined]]
 [[Echo the written line back so a bad write is visible immediately]]
@@ -28,3 +28,6 @@ evidence: observed
 
 ## Issues
 - 2026-07-26 **Correction to the count above, same pass (2026-07-26).** The body says fourteen destroyed lines. The accurate figure is **21 lines across 16 nodes** — 6 lines in 5 nodes here, and **15 lines in 11 nodes** in the tetrix vault. The first number came from `grep -rlc` over files *containing the word* `undefined` anywhere, which both under-counted nodes with several destroyed lines and mixed in nodes where the word appears in ordinary prose. The correct query counts lines matching the annotation shape. — The v0.17.0 changelog carries the wrong figure and is already published; this annotation is the correction of record, and the fix it describes is unaffected. — **Worth noticing rather than burying:** this happened inside the pass whose entire subject was a tool reporting something it had not actually checked, and it is the same error one level up — a number produced by a query that answered a near-miss of the question asked, reported without stating what the query matched. It was caught only because a later step happened to recount. Neither the changelog nor the node body would have shown a reader anything suspicious.
+
+## History
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.

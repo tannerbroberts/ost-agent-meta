@@ -4,6 +4,136 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-08-01 (autonomous bootstrap loop, fifteenth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**This pass did not re-verify the publish/tag claims below — treat the numbers in
+this section as last-known, not re-checked 2026-08-01.** `npm view`/`npm whoami`/
+`git tag` were not run this pass; nothing here contradicts them, but nothing
+confirms them either.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and reads like an auth problem. It is not —
+`git checkout -B main origin/main` first. **The Tetrix product repo's default branch
+is `master`**, and `git fetch origin main` there fails outright with "couldn't find
+remote ref main", which is the fastest way to spot it.
+
+**The tag trap is unchanged and fired again.** `git push --tags` gets **HTTP 403**.
+Delete the stray local tag immediately or the next branch push reports a confusing
+"behind its remote": `git tag -d vX.Y.Z`.
+
+**The publish path, fifth pass running — this is the normal route, not a fallback.**
+Trigger `npm-publish.yml` via `workflow_dispatch` through the **GitHub MCP server**
+(`actions_run_trigger`, ref `main`), then confirm with `npm view ost-agent version`.
+The registry, not a green workflow, is the evidence. `gh` is not installed.
+
+**Do not call `mcp__github__actions_list` for `npm-publish.yml` without a tight
+filter** — the response is ~199k characters and blows the context window. `npm view`
+answers the only question that matters in one line.
+
+**Standing debt a human should clear:** the 403 means releases publish *without their
+tags landing*. `git tag` ends at **v0.19.1** while npm serves **0.22.0** — the tag
+history is now **four** releases stale (v0.20.0, v0.21.0, v0.22.0) and is a
+misleading record of what shipped. Someone with push rights should land them.
+
+## What changed since the last briefing
+
+**This was a hygiene sweep, not a build.** `ost-agent check` failed for the first
+time this vault has on record: **12 violations, all `rung-unearned`** (`src/eval/rungs.ts`,
+shipped in the `0.23.0`/`Unreleased` line since the fourteenth pass's briefing was
+written). The rule is retroactive by design — its own comment says "nodes predating
+B3's guard land here too, which is the point of keeping it a detector" — so this is
+the guard doing its job on a backlog, not a regression this pass introduced.
+
+All 12 declared `evidence: observed` with a `source` that is not a `TRANSCRIPT:`
+recording (an INBOX friction note, an agent-observation string, a bare
+`observation:` note) — none was ever a first-party measurement. `check`'s own
+message names the fix: demote to what the source actually supports. Ran
+`Vault.setEvidence` — the same call `ost_set_evidence` makes, demotion-only, no
+gate — against all 12, each with a `## History` line naming this pass and the rule.
+`check` now reports **0 violations over 241 nodes**. `npx tsc --noEmit` is clean in
+`OST-Agent` (no source changed, so no bundle/skill regen needed).
+
+**Deliberately did not build item (1) below, the briefing's ranked-first candidate
+for the fourth pass running.** [[Refuse to record a result against a threshold that
+was never fixed]] carries its own trade-off section, and it is not a formality: it
+names the exact risk — a second required-field addition to `ost-agent result`,
+aimed at an operator who has still never run it — and says outright *"do not build
+this until somebody has actually recorded a result under the current rules."*
+Checked before writing this: `grep -rl "^## Results"` across the vault returns
+**zero files**. The deferral condition the solution names has not changed since it
+was written. Building it this pass would have been the tree overriding its own
+named caution with nothing new to justify it — the shape [[The agent narrows its
+own capability to get past a gate I set]] already exists to warn against.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** — still
+   ranked first by the debt count (`status` reports 12/91 unfixed bars, unchanged),
+   and still gated by its own trade-off. **Do not build on ranking alone a fifth
+   time.** Either something changes the deferral condition (a human runs
+   `ost-agent result` once, or explicitly overrides the caution), or the next pass
+   should pick (2) instead and say why.
+2. **[[Make the threshold a field the node carries, not a sentence in its prose]]** —
+   unchanged from the last briefing, and now the more defensible pick of the two:
+   it does not touch the command the operator is already avoiding.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Seven passes now, never actioned.**
+
+This vault: **241 nodes, 0 at `observed`** (the 12 that were are now `assertion`,
+correctly — none was a first-party measurement), **0 at `stated`, `expert` or
+`money`.** The floor just got more honest; the ceiling did not move. The sibling
+vault is unchanged: 18 nodes, zero from a customer.
+
+## 4. The bias in this pass, declared
+
+**This pass chose the mechanical, self-clearing fix over the judgement call, and
+that choice deserves to be named rather than assumed neutral.** `rung-unearned`
+demotion is designed to need no human — "the agent never needs a human to get out
+of this one," the rule's own comment says — so it was the safe thing to pick up.
+Declining to build item (1) is defensible on the merits stated above, but an agent
+that keeps finding reasons the safe option is also the right one should have that
+pattern watched rather than trusted. Two passes in a row now (the fourteenth built
+the ranked-first item; this one refused to) have each had a specific, stated reason
+— which is better than a coin flip, but a run of specific reasons is still a run
+worth a human's eye.
+
+---
+
+## History
+
+### Superseded 2026-08-01 — the fourteenth pass's briefing
+
+<details>
+<summary>Fourteenth pass (2026-07-27, ~16:15Z) — the pass that shipped the stated-denominator guard</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-07-27 ~16:15Z (autonomous bootstrap loop, fourteenth pass)._
 
 ---
@@ -156,9 +286,7 @@ that the root outcome is about external returning operators and an internal-qual
 would not serve it. **I did not revisit that, and a fifth instance is a reason to.** Make
 that judgement on purpose; do not inherit it from two passes of restraint.
 
----
-
-## History
+</details>
 
 ### Superseded 2026-07-27 ~16:15Z — the thirteenth pass's briefing
 

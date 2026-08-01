@@ -1,11 +1,11 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: observed
 source: 'INBOX:2026-07-24-friction-the-ost-vault-for-this-repo-is-not-discoverable-.md'
 created: '2026-07-25'
+evidence: assertion
 ---
-#Opportunity #unvalidated #evidence/observed
+#Opportunity #unvalidated #evidence/assertion
 
 **The need (operator's voice):** "Finding this repo's vault took six exploratory commands and a guess between four candidate directories in $HOME. Nothing in the repo, its config, or its docs says where its own discovery tree lives."
 
@@ -17,3 +17,4 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → observed — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+- 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
