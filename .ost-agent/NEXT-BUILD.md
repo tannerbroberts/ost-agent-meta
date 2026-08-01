@@ -4,31 +4,28 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
-_Last rewritten: 2026-08-01 (autonomous bootstrap loop, twenty-first pass)._
+_Last rewritten: 2026-08-01 (autonomous bootstrap loop, twenty-second pass)._
 
 ---
 
 ## 0. Before acting on anything here, re-fetch both repos and re-read this file
 
-**Seventh straight pass (15th–21st) with no `ost_*` MCP tools.** `ListConnectors`
-and `ToolSearch` (`ost_create_node`/`ost_map`/`ost_ideate`/`ost_next_work`) found
-none again. Per the nineteenth pass's closing terms this is confirmation of the
-closed diagnosis, not a reason to reopen it: the fix is a human action at the
-Claude Code web UI environment level, outside repo scope, and nothing indicates it
-has happened.
+**Eighth straight pass (15th–22nd) with no `ost_*` MCP tools.** `ToolSearch` for
+`ost_create_node`/`ost_map`/`ost_ideate`/`ost_next_work` found none again;
+`CLAUDE_CODE_REMOTE_SKIP_SETTINGS_SYNC=1` is still set in this session's
+environment. Per the nineteenth pass's closing terms this stays a confirmation,
+not a reopened diagnosis: the fix is a human action at the Claude Code web UI
+environment level (enable the `ost-agent` plugin/MCP server for this environment),
+outside repo scope, and nothing indicates it has happened yet.
 
 ```bash
 git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
 git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
 ```
 
-**Both branches (`claude/zen-cray-p3ny9r`, `claude/zealous-babbage-p3ny9r`) arrived
-already checked out and level with `origin/main`**, not detached — the DETACHED
-HEAD gotcha named by prior passes did not apply this pass.
-
-**`npm install` was needed in `OST-Agent` again this pass** — `node_modules` was
-empty in this session's fresh checkout, same as every pass since the fifteenth.
-Expected; not a regression.
+**Both branches (`claude/zen-cray-v5cj50`, `claude/zealous-babbage-v5cj50`) arrived
+already checked out and level with `origin/main`**, not detached; both working
+trees clean, no open PRs on either repo.
 
 **Tags unchanged, still topping out at v0.19.1** (re-checked via
 `mcp__github__list_tags` — seven tags, unchanged since the fourteenth pass).
@@ -42,37 +39,36 @@ Expected; not a regression.
 fifteenth: no `ost_*` MCP tools this session, so no mapping, ideation, or
 re-ranking, only the CLI.** What this pass did:
 
-- **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit` (0
-  errors), `npx vitest run` — **141 files, 1586 tests: 1585 passed, 1 failed on the
-  first run.**
-- **The failure was `test/mcp/wall-clock-budget.test.ts` again — the second
-  confirmed occurrence of the exact flake the twentieth pass filed.** This run:
-  `ost_next_work` took 2280ms against its 2000ms budget (the twentieth pass saw
-  2004ms). Re-run in isolation: clean, ~20s total, comfortably under budget — same
-  shape as before, contention from 140 concurrent files, not a regression. **The
-  twentieth pass's own declared bias named exactly this condition — "worth a
-  human's eye if the same test flakes again" — so this pass filed a fresh friction
-  note (`2026-08-01-friction-wall-clock-budget-test-flaked-a-second-time-2280.md`)
-  rather than treating it as a routine repeat.** Two data points is a different
-  kind of evidence than one: a threshold with truly zero slack under shared-sandbox
-  contention will keep tripping on every full-suite run, and that pattern —
-  frequency, not just possibility — is what a human should look at before a third
-  occurrence makes it noise nobody reads.
+- **Ran the gates in `OST-Agent`.** `npm install`, `npx tsc --noEmit` (0 errors),
+  `npx vitest run` — **141 files, 1586 tests, all green this run**, including
+  `test/mcp/wall-clock-budget.test.ts` (the test that flaked on the twentieth and
+  twenty-first passes) — clean this time, no third occurrence. One data point
+  either way is not enough to confirm or retire the flake as a pattern; carrying
+  it forward as open rather than closed.
 - **Re-ran `status`/`check`/`debt`/`channels` against the vault** — 241 nodes, 0
   violations, 12/91 unfixed thresholds, 0 items on any channel — identical to the
-  fifteenth through twentieth passes. No new inbox note, no new mapped evidence.
+  fifteenth through twenty-first passes. No new inbox note, no new mapped
+  evidence.
 - **Re-confirmed tags (v0.19.1) and publish state (404, unpublished)** — both
   unchanged, see section 0.
+- **Did not file a ninth restatement of the missing-MCP-tools friction.** The
+  diagnosis has been closed since the nineteenth pass and re-confirmed by the
+  twentieth and twenty-first; a ninth near-identical note would be exactly the
+  no-op-read-as-routine pattern [[Idle down when a pass produces commentary
+  instead of structure]] and the `f4-noop-escalation` build exist to catch.
+  Escalated out-of-band instead (a direct notification to the operator), since
+  eight consecutive blocked passes on a fix that requires one human action is the
+  kind of thing this loop's own noop-escalation design says should stop being
+  filed quietly.
 
 **`ost-agent check` and `status` before and after this pass: 0 violations, 241
-nodes, unchanged** — this pass filed one friction note and rewrote this file; no
-tree node was touched.
+nodes, unchanged** — this pass touched no tree node, only this file.
 
 ## 2. The next build
 
 1. **[[Refuse to record a result against a threshold that was never fixed]]** —
    still ranked first by the debt count, still gated by its own trade-off, and now
-   on its **eleventh** pass unbuilt. The deferral condition is unchanged: no human
+   on its **twelfth** pass unbuilt. The deferral condition is unchanged: no human
    has run `ost-agent result` under the current rules.
 2. **No second candidate is ranked here, for the same structural reason as every
    pass since the fifteenth: no `ost_*` MCP tools, no ideation session.** This will
@@ -92,29 +88,88 @@ unchanged.
 
 ## 3. The highest-information action
 
-**Talk to the warm n=1 participant. Thirteen passes now, never actioned.**
+**Talk to the warm n=1 participant. Fourteen passes now, never actioned.**
 
 This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
-unchanged from the twentieth pass; this pass added no new node and demoted
+unchanged from the twenty-first pass; this pass added no new node and demoted
 nothing. The sibling vault's count (18 nodes, zero from a customer) is carried
 forward unverified — this session had no `tetrix-ost` checkout to re-check it
 against.
 
 ## 4. The bias in this pass, declared
 
-**This pass again verified rather than judged — the seventh pass in a row to do
-so.** The one live decision this pass made was escalating the flaky test on its
-second occurrence instead of filing a third routine friction note silently: that
-call rests on this pass's own read of what the twentieth pass meant by "worth a
-human's eye," which is an interpretation, not a rule. **Seven straight passes with
-no `ost_*` tools is now longer than any prior gap this vault has recorded, and the
-gap itself — not the unchanged node count — is the finding this pass is most
+**This pass again verified rather than judged — the eighth pass in a row to do
+so — and made one live call: escalating the standing blocker directly to the
+operator instead of writing a ninth friction note nobody was reading.** That call
+rests on this pass's own read of what "noop escalation" should mean in practice,
+which is an interpretation, not a rule, and it could be wrong in the other
+direction — a notification the operator did not want. **Eight straight passes with
+no `ost_*` tools is now the longest gap this vault has recorded, and the gap
+itself, not the unchanged node count, remains the finding this pass is most
 confident in:** the tree cannot be judged, only inspected, until a human acts on
 the environment-level fix named by the eighteenth and nineteenth passes.
 
 ---
 
 ## History
+
+### Superseded 2026-08-01 — the twenty-first pass's briefing
+
+<details>
+<summary>Twenty-first pass (2026-08-01) — confirmed the closed MCP-tools diagnosis again, escalated a second flake</summary>
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Seventh straight pass (15th–21st) with no `ost_*` MCP tools.** `ListConnectors`
+and `ToolSearch` (`ost_create_node`/`ost_map`/`ost_ideate`/`ost_next_work`) found
+none again. Per the nineteenth pass's closing terms this is confirmation of the
+closed diagnosis, not a reason to reopen it: the fix is a human action at the
+Claude Code web UI environment level, outside repo scope, and nothing indicates it
+has happened.
+
+**Both branches (`claude/zen-cray-p3ny9r`, `claude/zealous-babbage-p3ny9r`) arrived
+already checked out and level with `origin/main`**, not detached — the DETACHED
+HEAD gotcha named by prior passes did not apply this pass.
+
+**`npm install` was needed in `OST-Agent` again this pass** — `node_modules` was
+empty in this session's fresh checkout, same as every pass since the fifteenth.
+Expected; not a regression.
+
+**Tags unchanged, still topping out at v0.19.1. Publish path unchanged** — `npm
+view ost-agent version` still 404s ("Unpublished 2026-07-28T16:29:34.971Z").
+
+## What changed since the last briefing
+
+- **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit` (0
+  errors), `npx vitest run` — 141 files, 1586 tests: 1585 passed, 1 failed on the
+  first run.
+- **The failure was `test/mcp/wall-clock-budget.test.ts` again — the second
+  confirmed occurrence of the exact flake the twentieth pass filed.** 2280ms
+  against its 2000ms budget (the twentieth pass saw 2004ms); clean in isolation.
+  Filed a fresh friction note rather than treating it as a routine repeat.
+- **Re-ran `status`/`check`/`debt`/`channels`** — 241 nodes, 0 violations, 12/91
+  unfixed thresholds, 0 items on any channel — identical to the fifteenth through
+  twentieth passes.
+
+## 2. The next build
+
+1. [[Refuse to record a result against a threshold that was never fixed]] —
+   eleventh pass unbuilt, still gated on a human running `ost-agent result`.
+2. No second candidate ranked — no `ost_*` MCP tools, no ideation session.
+
+## 3. The highest-information action
+
+Talk to the warm n=1 participant. Thirteen passes now, never actioned. 241 nodes,
+0 at `observed`/`stated`/`expert`/`money`.
+
+## 4. The bias in this pass, declared
+
+This pass again verified rather than judged — the seventh pass in a row to do so.
+Escalated the flaky test on its second occurrence rather than filing a third
+routine friction note silently. Seven straight passes with no `ost_*` tools is
+now longer than any prior gap this vault has recorded.
+
+</details>
 
 ### Superseded 2026-08-01 — the twentieth pass's briefing
 
