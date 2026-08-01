@@ -4,72 +4,63 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
-_Last rewritten: 2026-08-01 (autonomous bootstrap loop, twentieth pass)._
+_Last rewritten: 2026-08-01 (autonomous bootstrap loop, twenty-first pass)._
 
 ---
 
 ## 0. Before acting on anything here, re-fetch both repos and re-read this file
 
-**Sixth straight pass (15th–20th) with no `ost_*` MCP tools — and, per the
-nineteenth pass's own closing terms, that is confirmation of the closed diagnosis,
-not a reason to reopen it.** `ToolSearch` for `ost_create_node`/`ost_map`/
-`ost_ideate`/`ost_next_work` returned no matches this pass either. No new PR or
-commit changed the environment-level MCP/plugin wiring since the nineteenth pass —
-the fix identified there (enabling `ost-agent` at the Claude Code web UI
-environment level) is a human action outside repo scope, and nothing indicates it
-has happened yet. This is the expected state, named as expected rather than
-re-diagnosed.
+**Seventh straight pass (15th–21st) with no `ost_*` MCP tools.** `ListConnectors`
+and `ToolSearch` (`ost_create_node`/`ost_map`/`ost_ideate`/`ost_next_work`) found
+none again. Per the nineteenth pass's closing terms this is confirmation of the
+closed diagnosis, not a reason to reopen it: the fix is a human action at the
+Claude Code web UI environment level, outside repo scope, and nothing indicates it
+has happened.
 
 ```bash
 git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
 git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
 ```
 
-**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
-"src refspec main does not match any" and reads like an auth problem. It is not —
-`git checkout -B main origin/main` first. **The Tetrix product repo's default branch
-is `master`**, and `git fetch origin main` there fails outright with "couldn't find
-remote ref main", which is the fastest way to spot it. Not applicable this pass —
-both branches (`claude/zen-cray-oec540`, `claude/zealous-babbage-oec540`) arrived
-already checked out and level with `origin/main`, not detached.
+**Both branches (`claude/zen-cray-p3ny9r`, `claude/zealous-babbage-p3ny9r`) arrived
+already checked out and level with `origin/main`**, not detached — the DETACHED
+HEAD gotcha named by prior passes did not apply this pass.
 
-**`npm install` was needed in `OST-Agent` again this pass** — same as the
-nineteenth pass, `node_modules` was empty in this session's fresh checkout. Expected
-per that pass's note; not a regression.
+**`npm install` was needed in `OST-Agent` again this pass** — `node_modules` was
+empty in this session's fresh checkout, same as every pass since the fifteenth.
+Expected; not a regression.
 
-**Local `git tag` is unchanged and still tops out at v0.19.1** (re-checked via
-`mcp__github__list_tags`, not local git — seven tags, newest `v0.19.1`, unchanged
-since the fourteenth pass).
+**Tags unchanged, still topping out at v0.19.1** (re-checked via
+`mcp__github__list_tags` — seven tags, unchanged since the fourteenth pass).
 
-**The publish path — re-checked this pass.** `npm view ost-agent version` still
-returns 404 ("Unpublished 2026-07-28T16:29:34.971Z"). Unchanged since the
-seventeenth pass. Still unconfirmed whether a human intended to leave the registry
-empty.
+**Publish path unchanged.** `npm view ost-agent version` still 404s ("Unpublished
+2026-07-28T16:29:34.971Z"). Unchanged since the seventeenth pass.
 
 ## What changed since the last briefing
 
-**Nothing built in the tree — same structural reason as the fifteenth through
-nineteenth passes: no `ost_*` MCP tools this session, so no mapping, ideation, or
+**Nothing built in the tree — same structural reason as every pass since the
+fifteenth: no `ost_*` MCP tools this session, so no mapping, ideation, or
 re-ranking, only the CLI.** What this pass did:
 
 - **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit` (0
   errors), `npx vitest run` — **141 files, 1586 tests: 1585 passed, 1 failed on the
   first run.**
-- **The one failure was a false negative, verified rather than patched.**
-  `test/mcp/wall-clock-budget.test.ts` asserts `ost_next_work` answers a 10,000-node
-  vault in under 2000ms; the full-suite run measured 2004ms and failed. Re-run in
-  isolation seconds later: 18077ms total, comfortably under its own budget, green.
-  The test has a hard millisecond threshold with no tolerance for CPU contention
-  from 140 other files running concurrently in a shared sandbox — a shape this
-  vault has already named several times ([[A failed pass reports success, so my
-  automation can't tell]] and its siblings), here inverted: an instrument that can
-  report *failure* when nothing regressed. Filed as friction rather than loosened
-  the threshold or added a retry — changing the budget without evidence of what it
-  should be would trade a rare false negative for a permanent blind spot. See
-  `.ost-agent/friction/2026-08-01-friction-wall-clock-budget-test-flaked-once-ost-next-work.md`.
+- **The failure was `test/mcp/wall-clock-budget.test.ts` again — the second
+  confirmed occurrence of the exact flake the twentieth pass filed.** This run:
+  `ost_next_work` took 2280ms against its 2000ms budget (the twentieth pass saw
+  2004ms). Re-run in isolation: clean, ~20s total, comfortably under budget — same
+  shape as before, contention from 140 concurrent files, not a regression. **The
+  twentieth pass's own declared bias named exactly this condition — "worth a
+  human's eye if the same test flakes again" — so this pass filed a fresh friction
+  note (`2026-08-01-friction-wall-clock-budget-test-flaked-a-second-time-2280.md`)
+  rather than treating it as a routine repeat.** Two data points is a different
+  kind of evidence than one: a threshold with truly zero slack under shared-sandbox
+  contention will keep tripping on every full-suite run, and that pattern —
+  frequency, not just possibility — is what a human should look at before a third
+  occurrence makes it noise nobody reads.
 - **Re-ran `status`/`check`/`debt`/`channels` against the vault** — 241 nodes, 0
   violations, 12/91 unfixed thresholds, 0 items on any channel — identical to the
-  fifteenth through nineteenth passes. No new inbox note, no new mapped evidence.
+  fifteenth through twentieth passes. No new inbox note, no new mapped evidence.
 - **Re-confirmed tags (v0.19.1) and publish state (404, unpublished)** — both
   unchanged, see section 0.
 
@@ -81,12 +72,12 @@ tree node was touched.
 
 1. **[[Refuse to record a result against a threshold that was never fixed]]** —
    still ranked first by the debt count, still gated by its own trade-off, and now
-   on its **tenth** pass unbuilt. The deferral condition is unchanged: no human
+   on its **eleventh** pass unbuilt. The deferral condition is unchanged: no human
    has run `ost-agent result` under the current rules.
-2. **No second candidate is ranked here, for the same structural reason as the
-   fifteenth through nineteenth passes: no `ost_*` MCP tools, no ideation
-   session.** Unchanged from the nineteenth pass — this will stay true of every
-   scheduled pass until a human changes the environment configuration.
+2. **No second candidate is ranked here, for the same structural reason as every
+   pass since the fifteenth: no `ost_*` MCP tools, no ideation session.** This will
+   stay true of every scheduled pass until a human changes the environment
+   configuration.
 
 **Do not read** [[Does the guard catch real laundering without refusing honest
 commands]] before 10 firings have accumulated — unchanged, one firing of data still
@@ -101,31 +92,96 @@ unchanged.
 
 ## 3. The highest-information action
 
-**Talk to the warm n=1 participant. Twelve passes now, never actioned.**
+**Talk to the warm n=1 participant. Thirteen passes now, never actioned.**
 
 This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
-unchanged from the nineteenth pass; this pass added no new node and demoted
+unchanged from the twentieth pass; this pass added no new node and demoted
 nothing. The sibling vault's count (18 nodes, zero from a customer) is carried
 forward unverified — this session had no `tetrix-ost` checkout to re-check it
 against.
 
 ## 4. The bias in this pass, declared
 
-**This pass again verified rather than judged — the sixth pass in a row to do so.**
-The one live decision this pass made was resisting the easy fix on the flaky test:
-loosening a budget or adding a retry would have read as diligence while actually
-erasing the one piece of new information the run produced (that the threshold has
-zero slack under contention). Filing it as friction and leaving the assertion
-untouched is the more defensible call, but it is still a call made without a
-second opinion, and worth a human's eye if the same test flakes again. **The risk
-in another pass of pure verification: six passes running with no `ost_*` tools
-means six passes with no tree judgement at all, which is a longer stretch than any
-prior gap this vault has recorded — if the next pass is also without tools, that
-gap itself is worth naming as the finding, not the unchanged numbers.**
+**This pass again verified rather than judged — the seventh pass in a row to do
+so.** The one live decision this pass made was escalating the flaky test on its
+second occurrence instead of filing a third routine friction note silently: that
+call rests on this pass's own read of what the twentieth pass meant by "worth a
+human's eye," which is an interpretation, not a rule. **Seven straight passes with
+no `ost_*` tools is now longer than any prior gap this vault has recorded, and the
+gap itself — not the unchanged node count — is the finding this pass is most
+confident in:** the tree cannot be judged, only inspected, until a human acts on
+the environment-level fix named by the eighteenth and nineteenth passes.
 
 ---
 
 ## History
+
+### Superseded 2026-08-01 — the twentieth pass's briefing
+
+<details>
+<summary>Twentieth pass (2026-08-01) — confirmed the closed MCP-tools diagnosis, caught a flaky gate</summary>
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Sixth straight pass (15th–20th) with no `ost_*` MCP tools — and, per the
+nineteenth pass's own closing terms, that is confirmation of the closed diagnosis,
+not a reason to reopen it.** `ToolSearch` for `ost_create_node`/`ost_map`/
+`ost_ideate`/`ost_next_work` returned no matches this pass either. No new PR or
+commit changed the environment-level MCP/plugin wiring since the nineteenth pass —
+the fix identified there (enabling `ost-agent` at the Claude Code web UI
+environment level) is a human action outside repo scope, and nothing indicates it
+has happened yet. This is the expected state, named as expected rather than
+re-diagnosed.
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and reads like an auth problem. It is not —
+`git checkout -B main origin/main` first. **The Tetrix product repo's default branch
+is `master`**, and `git fetch origin main` there fails outright with "couldn't find
+remote ref main", which is the fastest way to spot it. Not applicable this pass —
+both branches (`claude/zen-cray-oec540`, `claude/zealous-babbage-oec540`) arrived
+already checked out and level with `origin/main`, not detached.
+
+**`npm install` was needed in `OST-Agent` again this pass** — same as the
+nineteenth pass, `node_modules` was empty in this session's fresh checkout. Expected
+per that pass's note; not a regression.
+
+**Local `git tag` is unchanged and still tops out at v0.19.1.** **The publish
+path** — `npm view ost-agent version` still returns 404 ("Unpublished
+2026-07-28T16:29:34.971Z"). Unchanged since the seventeenth pass.
+
+## What changed since the last briefing
+
+- **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit` (0
+  errors), `npx vitest run` — 141 files, 1586 tests: 1585 passed, 1 failed on the
+  first run.
+- **The one failure was a false negative, verified rather than patched.**
+  `test/mcp/wall-clock-budget.test.ts` measured 2004ms against a 2000ms budget under
+  full-suite contention; re-run in isolation, 18077ms total, comfortably under its
+  own budget, green. Filed as friction rather than loosened the threshold.
+- **Re-ran `status`/`check`/`debt`/`channels`** — 241 nodes, 0 violations, 12/91
+  unfixed thresholds, 0 items on any channel — identical to the fifteenth through
+  nineteenth passes.
+
+## 2. The next build
+
+1. [[Refuse to record a result against a threshold that was never fixed]] — tenth
+   pass unbuilt, still gated on a human running `ost-agent result`.
+2. No second candidate ranked — no `ost_*` MCP tools, no ideation session.
+
+## 3. The highest-information action
+
+Talk to the warm n=1 participant. Twelve passes now, never actioned. 241 nodes,
+0 at `observed`/`stated`/`expert`/`money`.
+
+## 4. The bias in this pass, declared
+
+This pass again verified rather than judged — the sixth pass in a row to do so.
+Resisted loosening the flaky test's budget, filing it as friction instead. Flagged
+that a repeat of the same flake would be worth a human's eye, and that six
+consecutive passes with no tree judgement is a longer gap than any this vault has
+recorded before.
+
+</details>
 
 ### Superseded 2026-08-01 — the nineteenth pass's briefing
 
