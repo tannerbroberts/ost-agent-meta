@@ -40,3 +40,23 @@ migration story for 104 existing tests, and a docs change.
 ⚠️ Unvalidated. Proposed by an agent, and proposed as the *least* likely of the three
 to be right — recorded so the option is on the table rather than because it is
 recommended.
+
+## Issues
+- 2026-08-01 SHIPPED 2026-08-01 (sixteenth pass), scoped to the additive half only.
+  [tannerbroberts/OST-Agent#29](https://github.com/tannerbroberts/OST-Agent/pull/29),
+  merged to `main` as `4edcc6c`; on the `Unreleased` line in `CHANGELOG.md`, not yet
+  published to npm. `ost_create_node` accepts `threshold` for a new AssumptionTest
+  (refused for any other layer); `askedOf` reads it first and falls back to the
+  existing prose scan when it is absent — none of the 91 tests already in this vault
+  changed classification. The migration this node's own Size line named ("days, not
+  an afternoon... a migration story for 104 existing tests") was **not built and is
+  not needed**: the Approach section's own fallback design makes it optional, not a
+  precondition, and building it anyway would have been the destructive, expensive
+  half this node itself flagged as "the most likely to be wrong." **The "why it might
+  be wrong" risk stands, unaddressed by choice:** a field cannot carry inline
+  reasoning the way *">= 2 incidents beyond the known one, else defer"* does, and
+  nothing in this build stops a future test from truncating a real argument into a
+  bare bound. The field is optional precisely so a test whose threshold needs
+  argument, not just a number, can keep using prose. Follow-on, not yet run: does a
+  test written with the field actually avoid the line-wrap misread in practice, or
+  does whoever fills it in just re-paste the same hard-wrapped prose into the field.
