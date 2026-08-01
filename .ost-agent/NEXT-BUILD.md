@@ -4,9 +4,124 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
-_Last rewritten: 2026-08-01 (autonomous bootstrap loop, twenty-second pass)._
+_Last rewritten: 2026-08-01 (autonomous bootstrap loop, twenty-third pass)._
 
 ---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Ninth straight pass (15th–23rd) with no `ost_*` MCP tools.** `ToolSearch` for
+`ost_create_node`/`ost_map`/`ost_ideate`/`ost_next_work` found none again. Per the
+nineteenth pass's closing terms this stays a confirmation, not a reopened
+diagnosis: the fix is a human action at the Claude Code web UI environment level
+(enable the `ost-agent` plugin/MCP server for this environment), outside repo
+scope, and nothing indicates it has happened yet.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both branches (`claude/zen-cray-38xf6v`, `claude/zealous-babbage-38xf6v`) arrived
+already checked out and level with `origin/main`**, not detached; both working
+trees clean, no open PRs on either repo.
+
+**`npm install` was needed in `OST-Agent` again this pass** — `node_modules` was
+empty in this session's fresh checkout, same as every pass since the fifteenth.
+Expected; not a regression.
+
+**Tags unchanged, still topping out at v0.19.1** (re-checked via
+`mcp__github__list_tags` — seven tags, unchanged since the fourteenth pass).
+
+**Publish path unchanged.** `npm view ost-agent version` still 404s ("Unpublished
+2026-07-28T16:29:34.971Z"). Unchanged since the seventeenth pass.
+
+**`OST-Agent` carries one open issue (#1, adopting a foreign-format vault)** —
+pre-existing, unrelated to this pass's blocker, unchanged.
+
+## What changed since the last briefing
+
+**Nothing built in the tree — same structural reason as every pass since the
+fifteenth: no `ost_*` MCP tools this session, so no mapping, ideation, or
+re-ranking, only the CLI.** What this pass did:
+
+- **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit` (0
+  errors), `npx vitest run` — **141 files, 1586 tests, all green**, including
+  `test/mcp/wall-clock-budget.test.ts` (the test that flaked on the twentieth and
+  twenty-first passes) — clean for the second straight pass. Two clean runs after
+  two flaky ones is still not enough to call it retired; carrying it forward as
+  open.
+- **Re-ran `status`/`check`/`debt`/`channels` against the vault** — 241 nodes, 0
+  violations, 12/91 unfixed thresholds, 0 items on any channel — identical to the
+  fifteenth through twenty-second passes. No new inbox note, no new mapped
+  evidence.
+- **Re-confirmed tags (v0.19.1), publish state (404, unpublished), and zero open
+  PRs on both repos** — all unchanged, see section 0.
+- **Did not file a tenth restatement of the missing-MCP-tools friction, and did
+  not send a second out-of-band notification.** The diagnosis has been closed
+  since the nineteenth pass; the twenty-second pass already escalated it directly
+  to the operator. Nothing about the blocker has changed since that escalation —
+  same environment, same absent tools — so a second notification one pass later
+  would be exactly the noise [[Idle down when a pass produces commentary instead
+  of structure]] warns against. This is itself a judgment call, not a rule: it
+  assumes the twenty-second pass's notification actually reached the operator.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 241
+nodes, unchanged** — this pass touched no tree node, only this file.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** —
+   still ranked first by the debt count, still gated by its own trade-off, and now
+   on its **thirteenth** pass unbuilt. The deferral condition is unchanged: no
+   human has run `ost-agent result` under the current rules.
+2. **No second candidate is ranked here, for the same structural reason as every
+   pass since the fifteenth: no `ost_*` MCP tools, no ideation session.** This will
+   stay true of every scheduled pass until a human changes the environment
+   configuration.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Fifteen passes now, never actioned.**
+
+This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+unchanged from the twenty-second pass; this pass added no new node and demoted
+nothing. The sibling vault's count (18 nodes, zero from a customer) is carried
+forward unverified — this session had no `tetrix-ost` checkout to re-check it
+against.
+
+## 4. The bias in this pass, declared
+
+**This pass again verified rather than judged — the ninth pass in a row to do
+so — and made one live call: staying silent toward the operator rather than
+repeating a notification sent one pass ago about an unchanged condition.** That
+call could be wrong in the other direction — if the twenty-second pass's
+notification never reached the operator, this pass's silence compounds it rather
+than correcting it. **Nine straight passes with no `ost_*` tools is now the
+longest gap this vault has recorded, and the gap itself, not the unchanged node
+count, remains the finding this pass is most confident in:** the tree cannot be
+judged, only inspected, until a human acts on the environment-level fix named by
+the eighteenth and nineteenth passes.
+
+---
+
+## History
+
+### Superseded 2026-08-01 — the twenty-second pass's briefing
+
+<details>
+<summary>Twenty-second pass (2026-08-01) — eighth straight pass with no ost_* MCP tools, escalated directly instead of re-filing</summary>
 
 ## 0. Before acting on anything here, re-fetch both repos and re-read this file
 
@@ -17,11 +132,6 @@ environment. Per the nineteenth pass's closing terms this stays a confirmation,
 not a reopened diagnosis: the fix is a human action at the Claude Code web UI
 environment level (enable the `ost-agent` plugin/MCP server for this environment),
 outside repo scope, and nothing indicates it has happened yet.
-
-```bash
-git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
-git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
-```
 
 **Both branches (`claude/zen-cray-v5cj50`, `claude/zealous-babbage-v5cj50`) arrived
 already checked out and level with `origin/main`**, not detached; both working
@@ -109,9 +219,7 @@ itself, not the unchanged node count, remains the finding this pass is most
 confident in:** the tree cannot be judged, only inspected, until a human acts on
 the environment-level fix named by the eighteenth and nineteenth passes.
 
----
-
-## History
+</details>
 
 ### Superseded 2026-08-01 — the twenty-first pass's briefing
 
