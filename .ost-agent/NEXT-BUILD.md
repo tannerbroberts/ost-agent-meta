@@ -4,9 +4,142 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
-_Last rewritten: 2026-08-01 (autonomous bootstrap loop, eighteenth pass)._
+_Last rewritten: 2026-08-01 (autonomous bootstrap loop, nineteenth pass)._
 
 ---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Fifth straight pass (15th–19th) with no `ost_* ` MCP tools — and the eighteenth
+pass's fix landed and did not work.** `ost-agent-meta` commit `82260d6` already
+carries `.claude/settings.json` with `"enabledPlugins": {"ost-agent@ost-agent":
+true}`, exactly as the eighteenth pass proposed. This pass still opened with no
+`ost_*` tools. **The eighteenth pass named its own falsification condition — "a
+fifth pass that still has no `ost_*` tools after this fix lands would mean the
+diagnosis was wrong, not just incomplete" — and that is what happened, so this
+pass named it rather than re-diagnosing from scratch or re-filing the same note a
+fifth time.**
+
+**The corrected diagnosis:** this session is a Claude Code Remote scheduled
+routine, not a local Claude Code CLI session. Checked directly this pass —
+`ListPlugins` (claude.ai org-level plugins) and `ListConnectors` (MCP connectors
+attached to this session) both return empty, regardless of either repo's
+`.claude/settings.json`. That file's `enabledPlugins`/`extraKnownMarketplaces` keys
+are consumed by the **local CLI's own marketplace resolver**, which clones the
+marketplace and spawns the MCP server as a subprocess of the CLI process itself. A
+Remote session has no such resolver in the loop — its MCP tool surface is fixed by
+whatever the platform attaches to the session at launch (here: only
+`Claude_Code_Remote` and `github`), not by anything either repo commits. **No commit
+to either repo can add `ost_*` tools to a Remote session.** Filed as friction with
+this corrected diagnosis (`2026-08-01-friction-fifth-straight-pass-eighteenth-s-fix-didnt-work.md`,
+kind `missing-affordance`), superseding the eighteenth pass's repo-level fix
+proposal. **What a human needs to do instead:** attach the ost-agent MCP server to
+this environment/session at the platform level (an org plugin or connector), or run
+this maintenance loop through a local Claude Code CLI session rather than a Remote
+scheduled routine — a repo commit alone cannot close this gap.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both checkouts arrived on named branches this pass** (`claude/zen-cray-wkfaqe`,
+`claude/zealous-babbage-wkfaqe`), not detached HEAD — unlike prior passes' warning.
+Not re-verified as a general property of this environment; may be specific to how
+this session was launched.
+
+**Local `git tag` / `git ls-remote --tags origin` are not trustworthy in this
+environment.** Use `mcp__github__list_tags` (the GitHub API), not local git, for tag
+state — unchanged since the seventeenth pass, not re-checked this pass.
+
+**The publish path — unchanged and not re-checked this pass.** As of the
+seventeenth pass, `npm view ost-agent version` returned 404 ("Unpublished
+2026-07-28T16:29:34.971Z" — the whole package). `package.json` sits at `0.23.0`,
+unpublished. A human should confirm whether leaving the registry empty was
+intended.
+
+## What changed since the last briefing
+
+**Nothing built in the tree — same structural reason as the fifteenth through
+eighteenth passes: no `ost_*` MCP tools this session, so no mapping, ideation, or
+re-ranking, only the CLI.** What this pass did differently:
+
+- **Installed dependencies and ran the gates from clean.** `node_modules` was
+  absent this session (`npm ci`, 158 packages); `npx tsc --noEmit` (0 errors),
+  `npx vitest run` (**141 files, 1586 tests, all green**) in `OST-Agent`.
+- **Re-ran `status`/`check`/`debt`/`channels` against the vault via the built CLI**
+  (`node dist/ost-agent.mjs <cmd> --vault ost-agent-meta`) — 241 nodes, 0
+  violations, 12/91 unfixed thresholds — identical to the seventeenth and
+  eighteenth passes. No new inbox note (last dated 2026-07-27), no new mapped
+  evidence.
+- **Falsified the eighteenth pass's fix instead of re-diagnosing blind.** Confirmed
+  the fix commit (`82260d6`) is on `main`, confirmed `ost_*` tools are still absent
+  in this session, and traced *why* the repo-level fix cannot work for this
+  session's execution surface. See section 0.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 241
+nodes, unchanged** — this pass wrote one friction note and this file; no tree node
+was touched.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** —
+   still ranked first by the debt count, still gated by its own trade-off, and now
+   on its **ninth** pass unbuilt. The deferral condition is unchanged: no human
+   has run `ost-agent result` under the current rules.
+2. **No second candidate is ranked here, for the same reason as the fifteenth
+   through eighteenth passes: no `ost_*` MCP tools, no ideation session.** The next
+   pass with ideation access should either surface a new (2) or say explicitly that
+   item (1) is the only live candidate.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Eleven passes now, never actioned.**
+
+This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+unchanged from the seventeenth and eighteenth passes; this pass added no new node
+and demoted nothing. The sibling vault's count (18 nodes, zero from a customer) is
+carried forward unverified — this session had no `tetrix-ost` checkout to re-check
+it against.
+
+**A second, newly load-bearing highest-information action: get a human to try the
+platform-level fix named in section 0.** Five passes have now spent capacity on a
+gap only a human can close from outside this session. Repeating the diagnosis a
+sixth time would teach nothing new; the open question is now squarely "did the
+platform-level attach work," not "what is broken."
+
+## 4. The bias in this pass, declared
+
+**This pass's contribution was falsifying a prior pass's fix, not building or
+ideating — a fifth pass in a row that could not touch the tree.** The honest risk
+in the diagnosis offered here: it is inferred from this session's own tool
+inventory (`ListPlugins`, `ListConnectors` empty) and the plugin manifest's
+declared launch mechanism, not from having watched a Remote session succeed under
+some other configuration — so "attach at the platform level" is this pass's best
+read, not a verified fix. **If a twentieth pass still has no `ost_*` tools after a
+human reports having attached the MCP server at the platform level, that would mean
+this diagnosis was also wrong**, and should be named as such in turn rather than
+re-diagnosed from scratch a third time.
+
+---
+
+## History
+
+### Superseded 2026-08-01 — the eighteenth pass's briefing
+
+<details>
+<summary>Eighteenth pass (2026-08-01) — root-cause the missing ost_* MCP tools (fix later found not to work)</summary>
 
 ## 0. Before acting on anything here, re-fetch both repos and re-read this file
 
@@ -113,9 +246,7 @@ still has no `ost_*` tools after this fix lands would mean the diagnosis was wro
 not just incomplete, and should be named as such rather than re-diagnosed from
 scratch.**
 
----
-
-## History
+</details>
 
 ### Superseded 2026-08-01 — the seventeenth pass's briefing
 
