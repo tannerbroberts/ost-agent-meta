@@ -4,6 +4,150 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-08-01 (scheduled routine, nineteenth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Fifth straight pass (15th–19th) with no `ost_*` MCP tools — and this pass tested
+the eighteenth pass's fix rather than trusting it, and it does not work.** The
+eighteenth pass diagnosed that `ost-agent-meta` carried no `.claude/settings.json`
+enabling `ost-agent@ost-agent`, and a human merged exactly that fix
+(`82260d6`, PR #4) before this pass ran. **The tools are still absent.** This
+session's `ToolSearch` for `"ost"` returns zero matches; the only MCP servers ever
+listed as connecting are `Claude_Code_Remote` and `github` — `ost-agent` never
+appears. The reason: **this session's project root is `/home/user`, the parent
+directory of both the `OST-Agent` and `ost-agent-meta` checkouts — not
+`ost-agent-meta` itself.** `ost-agent-meta/.claude/settings.json` only takes effect
+for a session whose project root *is* that repo; a scheduled, multi-repo session
+rooted one level above it is out of that file's scope regardless of its content.
+Confirmed further: `$CLAUDE_PROJECT_DIR` and `$CLAUDE_PLUGIN_ROOT` — the two
+variables `.claude-plugin/plugin.json` substitutes into the server launch command —
+are both empty in this session's shell, and no `~/.claude/settings.json` exists in
+this environment referencing the `ost-agent` marketplace at all. **The eighteenth
+pass's diagnosis was real, not wrong — the missing settings file was a genuine gap
+and closing it was correct — but it was incomplete: a vault-repo commit can only
+ever reach a session rooted at that vault, and this harness's scheduled task is not
+rooted there.** Named per the eighteenth pass's own instruction, rather than
+re-diagnosing from scratch. Filed as friction (`missing-affordance`,
+`01635c30`), superseding the fourth-straight-pass friction the eighteenth filed
+(`567a6f87`). **Not proposed here as a fix**, because it isn't one this vault's own
+commits can make: either the scheduled task needs to be rooted at `ost-agent-meta`
+specifically, or plugin enablement needs to happen at the session/environment
+level rather than via a repo-committed settings file. Both are outside what a
+vault or product commit can reach — a human's call on the scheduling/environment
+side, not a build.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and reads like an auth problem. It is not —
+`git checkout -B main origin/main` first. **The Tetrix product repo's default branch
+is `master`**, and `git fetch origin main` there fails outright with "couldn't find
+remote ref main", which is the fastest way to spot it. (Not re-checked this pass —
+no `tetrix-ost` checkout in this session, same as the fifteenth through eighteenth.)
+
+**Local `git tag` / `git ls-remote --tags origin` are not trustworthy in this
+environment.** Use `mcp__github__list_tags` (the GitHub API), not local git, for tag
+state — unchanged since the seventeenth pass, not re-checked this pass.
+
+**The publish path — unchanged and not re-checked this pass.** As of the
+seventeenth pass, `npm view ost-agent version` returned 404 ("Unpublished
+2026-07-28T16:29:34.971Z" — the whole package). `package.json` sits at `0.23.0`,
+unpublished. A human should confirm whether leaving the registry empty was
+intended.
+
+## What changed since the last briefing
+
+**Nothing built in the tree — same structural reason as the fifteenth through
+eighteenth passes: no `ost_*` MCP tools this session, so no mapping, ideation, or
+re-ranking, only the CLI and the GitHub API.** What this pass did:
+
+- **Ran the gates.** `npx tsc --noEmit` (0 errors), `npx vitest run` (**141 files,
+  1586 tests, all green**) in `OST-Agent`, re-confirmed clean.
+- **Re-ran `status`/`check`/`debt`/`channels` against the vault** — 241 nodes, 0
+  violations, 12/91 unfixed thresholds, 0 items on any channel — identical to the
+  eighteenth pass. No new inbox note, no new mapped evidence.
+- **Checked GitHub state directly.** Zero open pull requests on either repo. One
+  open issue, `OST-Agent#1` (the Tetrix-vault adoption/format-incompatibility
+  report from 2026-07-23) — unchanged, still awaiting a human scope decision
+  between its three named resolution options, not this pass's call.
+- **Tested rather than trusted the eighteenth pass's fix.** See section 0 — the
+  settings-file fix merged clean but did not restore `ost_*` tools in this
+  session, and the reason is now specific enough to hand to a human: repo-level
+  settings can't reach a session rooted above the repo.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 241
+nodes, unchanged** — this pass wrote one friction note and this file; no tree node
+was touched.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** —
+   still ranked first by the debt count, still gated by its own trade-off, and now
+   on its **ninth** pass unbuilt. The deferral condition is unchanged: no human
+   has run `ost-agent result` under the current rules.
+2. **No second candidate is ranked here, for the same reason as the fifteenth
+   through eighteenth passes: no `ost_*` MCP tools, no ideation session.** The next
+   pass with ideation access should either surface a new (2) or say explicitly that
+   item (1) is the only live candidate.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Eleven passes now, never actioned.**
+
+This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+unchanged from the eighteenth pass; this pass added no new node and demoted
+nothing. The sibling vault's count (18 nodes, zero from a customer) is carried
+forward unverified — this session had no `tetrix-ost` checkout to re-check it
+against.
+
+## 4. The bias in this pass, declared
+
+**This pass again verified rather than judged — the fifth pass in a row to do so —
+but it is the first of the five to falsify a prior pass's fix instead of only
+extending its reasoning.** That is a real difference in kind from the eighteenth
+pass's own caveat: it named its diagnosis as untested and asked the next pass with
+`ost_*` access to check its work; this pass had no more `ost_*` access than that
+one did, but checked what it *could* check — the session environment itself — and
+found the fix insufficient. **The risk in declaring that a virtue:** this pass
+still could not open ideation or mapping, so five passes in a row have now
+verified the same 241-node, 0-violation state without adding a single new node.
+If a sixth pass repeats this same limitation, the finding stops being "the fix was
+incomplete" and starts being "no session this loop fires has ever had `ost_*`
+tools," which would be a materially larger claim than any pass has made yet — the
+next pass should say explicitly whether that line has been crossed.
+
+---
+
+## History
+
+### Superseded 2026-08-01 — the eighteenth pass's briefing
+
+<details>
+<summary>Eighteenth pass (2026-08-01) — root-caused the missing ost_* MCP tools instead of re-filing it</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-08-01 (autonomous bootstrap loop, eighteenth pass)._
 
 ---
@@ -115,7 +259,7 @@ scratch.**
 
 ---
 
-## History
+</details>
 
 ### Superseded 2026-08-01 — the seventeenth pass's briefing
 
