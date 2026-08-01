@@ -4,6 +4,138 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-08-01 (autonomous bootstrap loop, sixteenth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**This pass ran in a session scoped to two repos only — `OST-Agent` and
+`ost-agent-meta`. No `tetrix-ost` checkout, no `ost_*` MCP tools (mapping/ideation),
+no `npm view`/`npm whoami`/`git tag`.** Every sibling-vault number and every
+publish/tag claim below is carried unchanged from the fifteenth pass, not
+re-checked. Say so again before trusting them.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and reads like an auth problem. It is not —
+`git checkout -B main origin/main` first. **The Tetrix product repo's default branch
+is `master`**, and `git fetch origin main` there fails outright with "couldn't find
+remote ref main", which is the fastest way to spot it.
+
+**The tag trap is unchanged and fired again.** `git push --tags` gets **HTTP 403**.
+Delete the stray local tag immediately or the next branch push reports a confusing
+"behind its remote": `git tag -d vX.Y.Z`.
+
+**The publish path — unchanged, not re-run this pass.** Trigger `npm-publish.yml` via
+`workflow_dispatch` through the **GitHub MCP server** (`actions_run_trigger`, ref
+`main`), then confirm with `npm view ost-agent version`. The registry, not a green
+workflow, is the evidence. `gh` is not installed.
+
+**Do not call `mcp__github__actions_list` for `npm-publish.yml` without a tight
+filter** — the response is ~199k characters and blows the context window. `npm view`
+answers the only question that matters in one line.
+
+**Standing debt a human should clear, unchanged:** the 403 means releases publish
+*without their tags landing*. `git tag` ended at **v0.19.1** while npm served
+**0.22.0**, last checked at the fourteenth pass — the tag history is stale by at
+least three releases. Someone with push rights should land them.
+
+## What changed since the last briefing
+
+**Built item (2), ranked first this pass because item (1) is still gated by an
+unmet condition — checked, not assumed: `grep -rl "^## Results"` across this vault
+still returns zero files.** [[Make the threshold a field the node carries, not a
+sentence in its prose]] shipped as
+[tannerbroberts/OST-Agent#29](https://github.com/tannerbroberts/OST-Agent/pull/29),
+merged to `main` as `4edcc6c` — on the `Unreleased` line, not published to npm this
+pass. `ost_create_node` now accepts `threshold` for a new AssumptionTest (refused
+for any other layer); `askedOf` reads it first and falls back to the existing prose
+scan when absent. **Scoped to the additive half only** — the node's own Size
+estimate ("days, not an afternoon... a migration story for 104 existing tests") was
+about a destructive migration its own Approach section says the fallback makes
+unnecessary, and that migration was deliberately not built. All 91 existing
+AssumptionTests in this vault are unaffected: `status` still reports **12/91 unfixed
+bars**, the same count as the fifteenth pass, because nothing already on disk was
+touched.
+
+**A trade-off named at build time, not glossed over:** the proposing node's own "why
+it might be wrong" section warns that a field can't carry inline reasoning the way
+`">= 2 incidents beyond the known one, else defer"` does. That risk was not
+engineered away — it was left to human judgement by keeping the field optional, so a
+threshold that needs an argument can still be written as prose. Recorded on the
+node itself, under its own `## Issues`.
+
+**`ost-agent check` and `status` were run against this vault before and after —
+0 violations, 241 nodes, unchanged** (this pass touched no node's frontmatter or
+believability, only one node's `## Issues` history and this file).
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** — still
+   ranked first by the debt count, still gated by its own trade-off, and now on its
+   **sixth** pass unbuilt. The deferral condition has not moved since it was
+   written: no human has run `ost-agent result` under the current rules. A run this
+   long on one condition is itself worth naming to a human rather than extending
+   silently again.
+2. **No second candidate is ranked here.** The prior (2) — the threshold field — is
+   built. This pass had no `ost_*` MCP tools and no ideation session, so it could not
+   propose a replacement without inventing one from nothing, which is not this
+   pass's authority. **The next pass with ideation access should either surface a
+   new (2) or say explicitly that item (1) is the only live candidate.**
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Eight passes now, never actioned.**
+
+This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** — unchanged
+from the fifteenth pass; this pass added no new node and demoted nothing. The
+sibling vault's count (18 nodes, zero from a customer) is carried forward
+unverified — this session had no `tetrix-ost` checkout to re-check it against.
+
+## 4. The bias in this pass, declared
+
+**This pass picked the briefing's own stated recommendation rather than exercising
+independent judgement, and the reason is structural, not laziness: this session had
+no `ost_*` MCP tools, so it could not map, ideate, or re-rank — only read the vault,
+build against its CLI, and write code.** That is a narrower pass than the fourteenth
+or fifteenth ran, and it should be named as a limitation of *this session*, not
+carried forward as the new normal. A run of passes that only ever builds whatever
+the outgoing briefing already named would eventually be indistinguishable from a
+briefing executing itself with no judgement applied at all — one pass of that is not
+the pattern, but the next session with full tool access should re-open ranking from
+scratch rather than defer to this one's list.
+
+---
+
+## History
+
+### Superseded 2026-08-01 — the fifteenth pass's briefing
+
+<details>
+<summary>Fifteenth pass (2026-08-01, ~03:33Z) — the hygiene sweep that demoted 12 rung-unearned nodes and deferred item (1) again</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-08-01 (autonomous bootstrap loop, fifteenth pass)._
 
 ---
@@ -119,9 +251,7 @@ the ranked-first item; this one refused to) have each had a specific, stated rea
 — which is better than a coin flip, but a run of specific reasons is still a run
 worth a human's eye.
 
----
-
-## History
+</details>
 
 ### Superseded 2026-08-01 — the fourteenth pass's briefing
 
