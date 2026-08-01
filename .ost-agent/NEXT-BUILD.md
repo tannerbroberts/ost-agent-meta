@@ -4,9 +4,123 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
-_Last rewritten: 2026-08-01 (autonomous bootstrap loop, seventeenth pass)._
+_Last rewritten: 2026-08-01 (autonomous bootstrap loop, eighteenth pass)._
 
 ---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Fourth straight pass (15th–18th) with no `ost_* ` MCP tools — but this pass found
+the specific, fixable reason instead of re-filing the same generic block.**
+`OST-Agent/.claude-plugin/plugin.json` declares `mcpServers.ost-agent` as `node
+${CLAUDE_PLUGIN_ROOT}/dist/ost-agent.mjs mcp` with `OST_VAULT=${CLAUDE_PROJECT_DIR}`
+— that server has to be launched by a project that enables the plugin.
+`OST-Agent/examples/vault/.claude/settings.json` does exactly that
+(`"enabledPlugins": {"ost-agent@ost-agent": true}`). **`ost-agent-meta` — the vault
+this loop is actually maintaining — carries no `.claude/` directory at all.** There
+is nothing in this vault's own repo that would enable the plugin even for a session
+rooted at it. Filed as friction with this diagnosis (`567a6f87`, kind
+`missing-affordance`), superseding the vaguer `blocked` friction the seventeenth
+pass filed (`4ff23462`). **The candidate fix for a human to weigh:** commit a
+`.claude/settings.json` to `ost-agent-meta` enabling `ost-agent@ost-agent`, the way
+the example vault does — untested by this pass, since testing it means firing a new
+session rooted there and observing whether `mcp__ost-agent__*` tools appear.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and reads like an auth problem. It is not —
+`git checkout -B main origin/main` first. **The Tetrix product repo's default branch
+is `master`**, and `git fetch origin main` there fails outright with "couldn't find
+remote ref main", which is the fastest way to spot it.
+
+**Local `git tag` / `git ls-remote --tags origin` are not trustworthy in this
+environment.** Use `mcp__github__list_tags` (the GitHub API), not local git, for tag
+state — unchanged since the seventeenth pass, not re-checked this pass.
+
+**The publish path — unchanged and not re-checked this pass.** As of the
+seventeenth pass, `npm view ost-agent version` returned 404 ("Unpublished
+2026-07-28T16:29:34.971Z" — the whole package). `package.json` sits at `0.23.0`,
+unpublished. A human should confirm whether leaving the registry empty was
+intended.
+
+## What changed since the last briefing
+
+**Nothing built in the tree — same structural reason as the fifteenth through
+seventeenth passes: no `ost_*` MCP tools this session, so no mapping, ideation, or
+re-ranking, only the CLI.** What this pass did differently:
+
+- **Ran the gates.** `npx tsc --noEmit` (0 errors), `npx vitest run` (**141 files,
+  1586 tests, all green**) in `OST-Agent`, re-confirmed clean.
+- **Re-ran `status`/`check`/`debt`/`channels` against the vault** — 241 nodes, 0
+  violations, 12/91 unfixed thresholds, 0 items on any channel — identical to the
+  seventeenth pass. No new inbox note, no new mapped evidence.
+- **Diagnosed rather than re-filed the missing-MCP-tools gap.** Read
+  `OST-Agent/.claude-plugin/plugin.json` and `OST-Agent/examples/vault/.claude/
+  settings.json` side by side against `ost-agent-meta`'s own (absent) `.claude/`
+  directory, and named the specific missing wiring instead of the generic
+  observation three prior passes recorded. See section 0.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 241
+nodes, unchanged** — this pass wrote one friction note and this file; no tree node
+was touched.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** —
+   still ranked first by the debt count, still gated by its own trade-off, and now
+   on its **eighth** pass unbuilt. The deferral condition is unchanged: no human
+   has run `ost-agent result` under the current rules.
+2. **No second candidate is ranked here, for the same reason as the fifteenth
+   through seventeenth passes: no `ost_*` MCP tools, no ideation session.** The next
+   pass with ideation access should either surface a new (2) or say explicitly that
+   item (1) is the only live candidate.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Ten passes now, never actioned.**
+
+This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+unchanged from the seventeenth pass; this pass added no new node and demoted
+nothing. The sibling vault's count (18 nodes, zero from a customer) is carried
+forward unverified — this session had no `tetrix-ost` checkout to re-check it
+against.
+
+## 4. The bias in this pass, declared
+
+**This pass again verified rather than judged — the fourth pass in a row to do so
+— but chose to spend its capacity narrowing the cause rather than re-observing the
+symptom.** That is a real difference in kind: three re-filings of "no MCP tools"
+taught nothing new, one root-cause diagnosis gives a human a specific, cheap thing
+to try. The risk in declaring that a virtue: diagnosing the gap is still not fixing
+it, and this pass did not verify its own fix (it could not — testing it requires a
+session that starts with the settings file already in place). **A fifth pass that
+still has no `ost_*` tools after this fix lands would mean the diagnosis was wrong,
+not just incomplete, and should be named as such rather than re-diagnosed from
+scratch.**
+
+---
+
+## History
+
+### Superseded 2026-08-01 — the seventeenth pass's briefing
+
+<details>
+<summary>Seventeenth pass (2026-08-01) — verified the gates instead of citing them, filed the missing-MCP-tools gap as friction</summary>
 
 ## 0. Before acting on anything here, re-fetch both repos and re-read this file
 
@@ -14,11 +128,6 @@ _Last rewritten: 2026-08-01 (autonomous bootstrap loop, seventeenth pass)._
 `OST-Agent` and `ost-agent-meta`, no `tetrix-ost` checkout, no `ost_*` MCP tools.**
 Third pass running that way in a row; this one filed it as friction instead of only
 naming it in prose (`4ff23462`, kind `blocked`).
-
-```bash
-git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
-git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
-```
 
 **Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
 "src refspec main does not match any" and reads like an auth problem. It is not —
@@ -109,9 +218,7 @@ should re-open ranking from scratch rather than defer to this one's list — a f
 pass that only re-verifies and defers would stop being a limitation of one session
 and start being the pattern.
 
----
-
-## History
+</details>
 
 ### Superseded 2026-08-01 — the sixteenth pass's briefing
 
