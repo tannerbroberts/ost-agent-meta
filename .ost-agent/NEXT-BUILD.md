@@ -4,6 +4,126 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-08-01 (autonomous bootstrap loop, seventeenth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**This pass ran in the same two-repo-only scope as the fifteenth and sixteenth —
+`OST-Agent` and `ost-agent-meta`, no `tetrix-ost` checkout, no `ost_*` MCP tools.**
+Third pass running that way in a row; this one filed it as friction instead of only
+naming it in prose (`4ff23462`, kind `blocked`).
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both checkouts arrive in DETACHED HEAD.** `git push -u origin main` fails with
+"src refspec main does not match any" and reads like an auth problem. It is not —
+`git checkout -B main origin/main` first. **The Tetrix product repo's default branch
+is `master`**, and `git fetch origin main` there fails outright with "couldn't find
+remote ref main", which is the fastest way to spot it.
+
+**Local `git tag` / `git ls-remote --tags origin` are not trustworthy in this
+environment — checked this pass, not carried forward.** Both returned empty here,
+which reads like the tags vanished. They did not: `mcp__github__list_tags` (the
+GitHub API, not local git) still lists all seven, topping out at **v0.19.1**,
+unchanged from the fourteenth pass. This session's git proxy just doesn't mirror
+tags — use the GitHub MCP tool for tag state, not local git, in this environment.
+
+**The publish path — checked this pass, and the picture changed.** `npm view
+ost-agent version` now returns **404, "Unpublished on 2026-07-28T16:29:34.971Z" —
+the whole package, not one version.** GitHub shows a release titled "npm archive:
+0.20.0–0.22.0" published 2026-07-27T17:33Z, a day earlier — reads as a deliberate
+archive, not decay, but no prior briefing named the end state plainly: **npm
+currently serves no version of `ost-agent` at all**, and `package.json` sits at
+`0.23.0`, unpublished. Naming it here in case leaving the registry fully empty
+wasn't the intent — a human should confirm and re-publish if not.
+
+## What changed since the last briefing
+
+**Nothing built.** Same structural reason as the fifteenth and sixteenth: no
+`ost_*` MCP tools this session, so no mapping, ideation, or re-ranking — only the
+CLI. What this pass did that the last two didn't:
+
+- **Ran the gates instead of citing them.** `npm install`, `npx tsc --noEmit` (0
+  errors), `npx vitest run` (**141 files, 1586 tests, all green**) — the sixteenth
+  pass's PR #29 was cited as merged and green but the suite wasn't re-run in this
+  session until now.
+- **Re-ran `status`/`check`/`debt`/`channels` against the vault** — 241 nodes, 0
+  violations, 12/91 unfixed thresholds, 0 items on any channel — identical to the
+  sixteenth pass. No new inbox note, no new mapped evidence.
+- **Filed the recurring missing-MCP-tools gap as friction** (`4ff23462`) rather than
+  only narrating it — a session limitation named three times in prose now has a
+  node a hygiene pass can act on.
+- **Corrected the tag/publish picture** — see section 0. The "tags stale since
+  v0.19.1" debt below is unchanged and still real; what's new is confirming the
+  registry itself, not just its tags, is now empty.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 241
+nodes, unchanged** — this pass wrote one friction note and this file; no tree node
+was touched.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** —
+   still ranked first by the debt count, still gated by its own trade-off, and now
+   on its **seventh** pass unbuilt. The deferral condition is unchanged: no human
+   has run `ost-agent result` under the current rules.
+2. **No second candidate is ranked here, for the same reason as the fifteenth and
+   sixteenth passes: no `ost_*` MCP tools, no ideation session.** The next pass with
+   ideation access should either surface a new (2) or say explicitly that item (1)
+   is the only live candidate.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Nine passes now, never actioned.**
+
+This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+unchanged from the sixteenth pass; this pass added no new node and demoted
+nothing. The sibling vault's count (18 nodes, zero from a customer) is carried
+forward unverified — this session had no `tetrix-ost` checkout to re-check it
+against.
+
+## 4. The bias in this pass, declared
+
+**This pass verified rather than judged, and the reason is the same structural one
+named twice already: no `ost_*` MCP tools, so no mapping, ideation, or re-ranking —
+only the CLI, the GitHub API, and one friction filing.** Three passes running on
+that limitation is itself the finding this pass chose to act on, by filing it
+rather than repeating it in prose again. The next session with full tool access
+should re-open ranking from scratch rather than defer to this one's list — a fourth
+pass that only re-verifies and defers would stop being a limitation of one session
+and start being the pattern.
+
+---
+
+## History
+
+### Superseded 2026-08-01 — the sixteenth pass's briefing
+
+<details>
+<summary>Sixteenth pass (2026-08-01) — shipped the threshold-field build, named its own scope limit</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-08-01 (autonomous bootstrap loop, sixteenth pass)._
 
 ---
@@ -121,9 +241,7 @@ briefing executing itself with no judgement applied at all — one pass of that 
 the pattern, but the next session with full tool access should re-open ranking from
 scratch rather than defer to this one's list.
 
----
-
-## History
+</details>
 
 ### Superseded 2026-08-01 — the fifteenth pass's briefing
 
