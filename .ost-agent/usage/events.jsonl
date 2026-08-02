@@ -235,3 +235,4 @@
 {"ts":"2026-08-02T13:29:57.363Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2808,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Replay all existing tests to count how many a refusal would have blocked.md"]}
 {"ts":"2026-08-02T13:30:17.511Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2951,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Sort a day of real failed calls into shape errors and meaning errors.md"]}
 {"ts":"2026-08-02T13:30:34.682Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3002,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Install the package on ten stock setups and see whether postinstall ever gets to speak.md"]}
+{"ts":"2026-08-02T13:30:38.336Z","tool":"ost_ingest_inbox","ok":true,"ms":108,"surface":"mcp","argBytes":2,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925"}
