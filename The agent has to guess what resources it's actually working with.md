@@ -31,3 +31,11 @@ Evidence: founder statement in conversation, 2026-07-25.
 
 ## History
 - 2026-07-25 evidence: (none) → assertion — founder-stated need, verbatim examples preserved; no external party involved; floor rung per the ladder's rule.
+
+## Corroboration — session 0d27cebf (2026-08-02)
+
+A mechanically-captured session produced 10 friction events, three of which are this opportunity happening in real time: `ls: /Users/tanner/dev/ost-benchmarks/bin/: No such file or directory`, `ls: /Users/tanner/dev/ost-agent-meta: No such file or directory`, and `cat: .gitignore: No such file or directory`. In each case the agent addressed a path it believed existed and learned otherwise from the shell's complaint.
+
+The same session shows the cost compounding: a `tail` against a log file that had never been created, and a command that timed out after two minutes. None of these are reasoning failures — they are the absence of a reliable statement of what is actually on disk and where.
+
+Source: `TRANSCRIPT:0d27cebf-9b5d-4cff-906c-0134512573bc` — observed behavior, captured from the agent's own transcript. Grounds usability, not demand.

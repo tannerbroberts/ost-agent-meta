@@ -345,3 +345,10 @@
 {"ts":"2026-08-02T17:56:08.216Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2237,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["The whole loop waits on one human command, and nobody is told it is waiting.md"]}
 {"ts":"2026-08-02T17:56:19.456Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2009,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["Funded tools already generate these trees, so I can't say why anyone would pick this one.md"]}
 {"ts":"2026-08-02T17:56:31.846Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2583,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["I aim at a goal I can afford to chart, not the one I actually want.md"]}
+{"ts":"2026-08-02T17:56:38.338Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:56:39.344Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:56:40.267Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:56:41.296Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:56:42.102Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:56:42.956Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:57:19.297Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":997,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
