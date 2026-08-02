@@ -1,14 +1,15 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #founder-theory #evidence/assertion
 [[Nested sub-outcomes between the distant goal and the opportunity space]]
 [[Contribution estimates that ladder a local metric to the distant goal]]
 [[Route view showing the shortest credible path from here to goal-achieved]]
+[[I aim at a goal I can afford to chart, not the one I actually want]]
 
 **The need (customer's voice):** "My real goal is something like '10,000 daily active users.' Nothing I could do tomorrow moves that number visibly, so I finish a week with no idea whether I got closer or went nowhere. The thing I *can* move — 'landing page dropoff to 5%' — I can't show ladders up to the goal I actually have."
 
