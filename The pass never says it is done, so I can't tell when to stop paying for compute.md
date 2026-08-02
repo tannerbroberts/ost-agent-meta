@@ -13,6 +13,7 @@ evidence: assertion
 [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]]
 [[Work my own governance has already gated still shows as outstanding every pass]]
 [[Nothing tells an honest loop to stop, so it either idles or invents work]]
+[[My loop spends its time waiting for a check it cannot subscribe to]]
 
 **Customer need (operator's perspective):** "Set-it-and-forget-it means I need to know when forgetting it is still buying me something. Right now it never finishes, and I can't tell the difference between working and idling."
 

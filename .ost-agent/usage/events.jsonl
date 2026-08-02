@@ -361,3 +361,22 @@
 {"ts":"2026-08-02T17:58:29.098Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1987,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["The same refusal is rediscovered every session, because nothing carries the lesson forward.md"]}
 {"ts":"2026-08-02T17:58:39.573Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1947,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["The work I most want to run unattended is the work that keeps needing a decision.md"]}
 {"ts":"2026-08-02T17:58:52.311Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2411,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["The friction channel fills with my own typos, so the signal I wanted is buried.md"]}
+{"ts":"2026-08-02T17:59:16.712Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":2,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:59:49.292Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":31,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:59:49.759Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":31,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:59:50.705Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:59:51.672Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:59:52.901Z","tool":"ost_next_work","ok":true,"ms":1,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:59:53.854Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:13.161Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:14.090Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:15.042Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:15.985Z","tool":"ost_next_work","ok":true,"ms":1,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:17.470Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:18.336Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:19.277Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:20.217Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:21.159Z","tool":"ost_next_work","ok":true,"ms":1,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:21.463Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:00:48.757Z","tool":"ost_create_node","ok":false,"ms":1,"surface":"mcp","argBytes":1958,"err":"\"Two thirds of my calls failed, and each one only told me after I made it\" cannot declare 'observed': what it points at supports 'assertion'. The two measurement rungs assert that something was measured, and no byline confers them. declare 'assertion' or lower (demotion is never gated), have a human","session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:01:00.488Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1847,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["My loop spends its time waiting for a check it cannot subscribe to.md"]}
