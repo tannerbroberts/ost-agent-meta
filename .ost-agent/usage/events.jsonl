@@ -288,3 +288,4 @@
 {"ts":"2026-08-02T15:42:14.139Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1900,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52","wrote":["Replay five known blockers and check whether mining would have named each before it cost a pass.md"]}
 {"ts":"2026-08-02T15:42:24.999Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1875,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52","wrote":["Time the resource questions once and count answers the vault could not already recover.md"]}
 {"ts":"2026-08-02T15:42:43.148Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1910,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52"}
+{"ts":"2026-08-02T15:42:50.896Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52"}
