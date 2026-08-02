@@ -3,9 +3,9 @@ type: Opportunity
 status: unvalidated
 source: 'INBOX:2026-07-25-friction-ost-next-work-demands-solutions-under-7-opportun.md'
 created: '2026-08-02'
-evidence: stated
+evidence: assertion
 ---
-#Opportunity #unvalidated #evidence/stated
+#Opportunity #unvalidated #evidence/assertion
 
 Some opportunities in a tree are deliberately held: they carry an evidence-debt or prioritization gate written into their own bodies, saying in effect "do not ideate here until X". The outstanding-work counter cannot read that governance, so it reports the same seven items as needing solutions on every run, forever.
 
@@ -18,3 +18,6 @@ There is more than one way to address this: make the counter gate-aware and excl
 ## Provenance
 
 Distilled from `INBOX:2026-07-25-friction-ost-next-work-demands-solutions-under-7-opportun.md` — filed by the twenty-passes ambient driver against 5 strategic opportunities and 2 dogfood needs carrying explicit gates.
+
+## History
+- 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'.
