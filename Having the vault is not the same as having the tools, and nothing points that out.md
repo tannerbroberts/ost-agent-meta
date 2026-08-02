@@ -9,6 +9,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Creating a vault writes the tool-enabling config into the project beside it]]
 [[A setup check that names the missing file and the exact line to add]]
+[[Ship the vault and its tools as one unit, so there is no second step to miss]]
 
 Four scheduled passes in a row ran with none of the vault's own tools available. The root cause was configuration that lives somewhere other than the vault: the plugin declares its server correctly, but the project directory carried nothing enabling that plugin, so the server was never launched. A sibling example vault has the enabling file; this one did not, and the difference is invisible from inside either.
 
