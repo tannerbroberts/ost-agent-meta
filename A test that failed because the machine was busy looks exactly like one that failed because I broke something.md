@@ -18,3 +18,9 @@ evidence: assertion
 **Litmus test:** More than one way to address it — express the budget as margin relative to a same-run baseline rather than absolute wall-clock; assert on work units (calls, file reads) instead of time; retry-and-confirm before reporting red; record machine load alongside the verdict so a reader can attribute it; isolate timing-sensitive tests from the contended suite; quarantine the assertion into a separate advisory lane. Real trade-offs between them. Passes.
 
 **Evidence rung:** `assertion` — the source is the agent's own friction filing. No external party involved; floor rung per the ladder's rule.
+
+## Evidence — the first occurrence (mapped 2026-08-02)
+
+`INBOX:friction/2026-08-01-friction-wall-clock-budget-test-flaked-once-ost-next-work.md` — kind `slow`, filed 19:30Z, one hour before the filing this node is sourced to. `ost_next_work` took 2004ms against the 2000ms budget inside the full 141-file suite, then passed at 18077ms of margin re-run in isolation seconds later. Filed with the cause already correctly identified: "a hard-coded ms threshold with no tolerance for suite-level CPU contention, so it can fail on a shared sandbox without any code regression."
+
+The pair matters more than either filing alone. A single flake is noise a reasonable person ignores; two in consecutive passes, with the same test, the same shape and the same isolation-passes result, is a property of the gate rather than of the machine. The twentieth pass's filing pre-committed the escalation — a second occurrence was to be treated as worth a human's eye rather than routine re-filing — and the twenty-first delivered it. That pre-commitment is why this reached the tree instead of becoming a third identical friction note.
