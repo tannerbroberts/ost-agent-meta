@@ -268,3 +268,4 @@
 {"ts":"2026-08-02T14:35:07.363Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"mcp","argBytes":1396,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265"}
 {"ts":"2026-08-02T14:35:29.761Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2506,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265","wrote":["End-of-session retrospective the agent must write before the session closes.md"]}
 {"ts":"2026-08-02T14:35:46.993Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2656,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265","wrote":["A model reads the raw transcript and files what the pattern scan cannot see.md"]}
+{"ts":"2026-08-02T14:36:04.115Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2843,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265","wrote":["Detect the dead ends from the artifact trail rather than from the session.md"]}
