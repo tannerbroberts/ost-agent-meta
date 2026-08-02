@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check whether the threshold field gets a bound or just the same wrapped prose]]
 
 **The idea.** An assumption test carries its threshold as frontmatter — a named field
 set when the node is created — instead of a bold lead-in somewhere in the body. The
