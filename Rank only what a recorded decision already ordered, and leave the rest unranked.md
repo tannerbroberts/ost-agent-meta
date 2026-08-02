@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how much of the tree a recorded decision could actually order]]
 
 **The mechanism:** the agent never authors a priority. It reads the ordering already recorded in the vault — the root's Prioritization section, the evidence-debt gates written into node bodies, lane labels, WIP holds, founder decisions — and renders each row's "why" as a citation of the human decision that put it there. Rows no recorded decision reaches are published as **unranked, and named**, rather than being assigned a position the agent invented.
 
