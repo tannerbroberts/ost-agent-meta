@@ -14,6 +14,7 @@ evidence: assertion
 [[Leave a permanent test behind instead of a one-off verdict draft]]
 [[Every run ends blocked on a credential only I hold]]
 [[The whole loop waits on one human command, and nobody is told it is waiting]]
+[[The work I most want to run unattended is the work that keeps needing a decision]]
 
 **The need (operator's voice):** "I'm a working man, husband, and father of three, soon to be four. I prioritize my family, but there's no excuses that build new products. The output from my OST needs to be actionable by me pointing my Claude subscription's token generation power at the problem. I need better bootstrappability from the agent with less involvement from me."
 
