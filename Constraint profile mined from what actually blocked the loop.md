@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay five known blockers and check whether mining would have named each before it cost a pass]]
 
 Nobody is asked anything. Every stall the loop already records — a deferred node, a blocked friction event, a refused command, an ask that went unanswered — names the resource it stalled on, and a rollup assembles those into an observed constraint profile the planner consults. The resource picture is derived from the record of what this project could not do, not from anyone's account of what it can.
 
