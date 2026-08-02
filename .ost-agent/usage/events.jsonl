@@ -255,3 +255,4 @@
 {"ts":"2026-08-02T13:34:59.393Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2430,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Replay every past release against a registry-derived number.md"]}
 {"ts":"2026-08-02T13:35:16.281Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2663,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Count how many past releases a push-first rule would have blocked.md"]}
 {"ts":"2026-08-02T13:35:31.345Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2667,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Measure how long the last human-gated release actually waited.md"]}
+{"ts":"2026-08-02T13:35:43.584Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1766,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925"}
