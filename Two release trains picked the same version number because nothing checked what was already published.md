@@ -7,6 +7,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Derive the next version from the registry, never from the local file]]
 [[Refuse to release from history that has not been pushed]]
+[[The loop proposes a release and a human tags it]]
 
 **The need (operator's voice):** "I had work sitting unpushed while the autonomous loop cut its own release. Both of us reached for the same next version number. I caught it on a rebase — but nothing in the process was going to catch it for me, and the next one lands on people who have already installed."
 
