@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Resolve the newest published version at pass start and refuse to run silently on a stale one]]
 [[The vault carries the agent it runs, upgraded by an ordinary git pull]]
+[[A push channel the operator subscribes to, applied at the next safe checkpoint]]
 
 **The need (customer's voice):** "I keep improving the OST-Agent — new MCP tools, better configuration — but the instances already running never see any of it. Each one keeps working with whatever tools and config it launched with, so fixes I shipped days ago still aren't helping the passes that run every day."
 

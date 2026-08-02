@@ -296,3 +296,4 @@
 {"ts":"2026-08-02T16:43:50.166Z","tool":"ost_read_tree","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167"}
 {"ts":"2026-08-02T16:48:09.413Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2758,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167","wrote":["Resolve the newest published version at pass start and refuse to run silently on a stale one.md"]}
 {"ts":"2026-08-02T16:48:23.833Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2684,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167","wrote":["The vault carries the agent it runs, upgraded by an ordinary git pull.md"]}
+{"ts":"2026-08-02T16:48:39.923Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2933,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167","wrote":["A push channel the operator subscribes to, applied at the next safe checkpoint.md"]}
