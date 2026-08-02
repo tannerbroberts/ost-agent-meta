@@ -4,6 +4,155 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-08-02 (autonomous bootstrap loop, thirty-eighth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Twenty-fourth straight pass (15th–38th) with no `ost_*` MCP tools** on this
+remote-routine session — `ToolSearch` (including direct queries for
+`mcp__ost-agent` and `ost_next_work`/`ost_status`/`ost_create_node`) found
+none, again. Per the thirty-seventh pass's closing terms this stays a
+confirmation, not a reopened diagnosis: the gap is structural
+(`CLAUDE_CODE_REMOTE_SKIP_SETTINGS_SYNC=1` on this surface), not a switch
+anyone forgot to flip, and this pass does not re-file it or count it toward
+a re-escalation threshold.
+
+**The thirty-seventh pass's read of the operator's fix is no longer
+inferred from a commit message — it is now directly observed.** Between
+this pass's briefing and the thirty-seventh pass's merge
+(2026-08-02T13:33:15Z), `ost-agent-meta`'s `origin/main` gained 8 further
+commits, all attributed to the operator's local machine and all real
+`ost_*`-tool-driven writes: 7 `ost_create_node` commits (new
+`AssumptionTest` nodes, 13:34–13:36Z), one `ost_annotate` (13:35Z), and one
+`ost_ingest_inbox` (13:41Z, 0 new items across 4 live channels). The vault
+grew from 241 nodes (as the thirty-seventh pass left it) to **270** as a
+direct, measured result. The local hourly loop is not just configured —
+it is running and producing exactly the mapping/ideation work this remote
+surface cannot do.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Neither designated branch (`claude/zen-cray-poetya`,
+`claude/zealous-babbage-poetya`) had been pushed to `origin` yet** (`git
+ls-remote origin refs/heads/...` returned empty for both) — this pass's push
+creates them, both level with `origin/main` at checkout, no reset needed.
+Both working trees were clean, no open PRs on either repo (re-checked via
+`mcp__github__list_pull_requests`).
+
+**`npm install` was needed in `OST-Agent` again this pass** — `node_modules`
+was empty in this session's fresh checkout, same as every pass since the
+fifteenth. Expected; not a regression.
+
+**Tags unchanged, still topping out at v0.19.1** (re-checked via local `git
+fetch --tags`). `package.json` remains at `0.23.0`; `npm view ost-agent
+version` still 404s — unpublished, unchanged, see the thirty-seventh and
+earlier passes for the full staleness history.
+
+**`OST-Agent` carries one open issue (#1, adopting a foreign-format vault)** —
+pre-existing, unrelated to this pass's blocker, unchanged. `ost-agent-meta`
+carries zero open issues.
+
+## What changed since the last briefing
+
+**Nothing built in the tree by this pass — same structural reason as every
+pass since the fifteenth: no `ost_*` MCP tools on this surface, so no
+mapping, ideation, or re-ranking, only the CLI.** What this pass did:
+
+- **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit`
+  (0 errors), `npx vitest run` — **141 files, 1586 tests, all green** — clean
+  again, the seventeenth straight pass since the twentieth/twenty-first flakes.
+  Also ran `npm run bundle` and `npm run gen:skill`: neither produced a diff,
+  so no bundle or skill drift to commit.
+- **Re-ran `status`/`check`/`debt`/`channels` against the vault** — 270 nodes
+  (up from 241; see section 0), 0 violations, 12/108 unfixed thresholds
+  (was 12/91 — the denominator grew with the new `AssumptionTest` nodes, the
+  unfixed count did not), all 6 channels healthy and none past cadence. No
+  new inbox note beyond the local loop's own `ost_ingest_inbox` delivering 0
+  new items; no new friction note since 2026-08-01.
+- **Confirmed the local loop is live by direct evidence** (the 8 new commits
+  in section 0), not by re-reading the same `75efe6b` commit message the
+  thirty-seventh pass found — this closes the loop on the thirty-seventh
+  pass's inference rather than repeating it.
+- **Held silence.** The thirty-seventh pass already sent the one thing worth
+  an operator's attention (the duplicated-trigger question, out-of-band, this
+  session). Nothing since then is new or actionable — a growing node count
+  confirms the operator's fix is working, it does not raise a fresh question
+  — so this pass does not send a second notification for the same finding.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 270
+nodes, unchanged by this pass** — this pass touched no tree node, only this
+file.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** —
+   still ranked first by the debt count, still gated by its own trade-off, and now
+   on its **twenty-eighth** pass unbuilt. The deferral condition is unchanged: no
+   human has run `ost-agent result` under the current rules.
+2. **No second candidate is ranked here, for the same structural reason as every
+   pass since the fifteenth: no `ost_*` MCP tools, no ideation session.** The
+   operator's fix runs elsewhere (section 0); this remote surface should not
+   expect ideation capability going forward.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Thirty passes now, never actioned by this
+surface** — the local loop cannot action it either; it is a human conversation,
+not a tool call.
+
+This vault: **270 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+the believability floor is unchanged even as the node count grew, because the
+new nodes are agent-ideated `AssumptionTest`s, not customer evidence. The
+sibling vault's count (18 nodes, zero from a customer) is carried forward
+unverified — this session had no `tetrix-ost` checkout to re-check it against.
+
+## 4. The bias in this pass, declared
+
+**This pass verified rather than judged on the tree itself — the twenty-fourth
+pass in a row to do so — and, unlike the thirty-seventh pass, found nothing
+that changes the standing picture.** The one operational finding worth
+flagging (the duplicated-trigger question) was already sent out-of-band by
+the prior pass; re-sending it this pass on no new information would be the
+same failure this file exists to avoid — mistaking a confirmation for news.
+This pass's contribution is narrower and still real: it turns the thirty-
+seventh pass's inference ("the operator's local loop should now be doing
+this work") into a measurement (270 nodes, 8 attributed commits, in the
+window right after that pass merged). If a future pass finds the local loop
+has gone quiet — no new commits, node count static across several passes
+after it should be firing hourly — that would be new information and grounds
+to say so.
+
+---
+
+## History
+
+### Superseded 2026-08-02 — the thirty-seventh pass's briefing
+
+<details>
+<summary>Thirty-seventh pass (2026-08-02) — the missing-ost_* diagnosis closed, not reconfirmed; flagged the duplicated-trigger question out-of-band</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-08-02 (autonomous bootstrap loop, thirty-seventh pass)._
 
 ---
@@ -145,9 +294,7 @@ operator decision about automation configuration, sent out-of-band this pass
 rather than decided here or buried in a vault note nobody watching only the
 tree would see.
 
----
-
-## History
+</details>
 
 ### Superseded 2026-08-02 — the thirty-sixth pass's briefing
 
