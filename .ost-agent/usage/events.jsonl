@@ -273,3 +273,4 @@
 {"ts":"2026-08-02T14:36:07.620Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":2,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265"}
 {"ts":"2026-08-02T14:36:46.329Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2527,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265","wrote":["Blind-rate a model's reading of five already-harvested sessions.md"]}
 {"ts":"2026-08-02T14:37:02.916Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2709,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265","wrote":["Replay two hundred commits and count what a dead-end scan flags.md"]}
+{"ts":"2026-08-02T14:37:18.419Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2652,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265","wrote":["Check three past pass notes for the wrong turn they left out.md"]}

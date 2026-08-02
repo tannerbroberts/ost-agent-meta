@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check three past pass notes for the wrong turn they left out]]
 
 **The idea.** Before a session ends, the agent writes one short structured retrospective: the wrong turn it took, roughly what that turn cost, and what it would have needed to know at the start to avoid it. Not a summary of what it did — a confession of where it was confused. It lands in the inbox like any other evidence item, with the session id as provenance.
 
