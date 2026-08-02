@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[A run declares the tools it needs and halts loudly when they are absent]]
 
 **The need (operator's voice):** "I scheduled the same maintenance task I run by hand. Locally it has the full tool surface; on the scheduled surface it silently has none — and I only found out by reading a friction note five passes later. I want a run to tell me what it can actually do before it spends an hour proving it can't."
 
