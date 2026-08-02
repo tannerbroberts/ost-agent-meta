@@ -405,3 +405,5 @@
 {"ts":"2026-08-02T18:05:05.161Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1428,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["Replay the same 29 records through the recurrence rule and count what files.md"]}
 {"ts":"2026-08-02T18:05:11.522Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1406,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["Blind-rate ten records as typo or friction and compare against the recovery rule.md"]}
 {"ts":"2026-08-02T18:05:14.237Z","tool":"ost_ingest_inbox","ok":true,"ms":2,"surface":"mcp","argBytes":2,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:05:17.756Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":2,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T18:06:18.405Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1291,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
