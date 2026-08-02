@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #evidence/assertion
+[[Blind-rate ten dry-run web findings for whether they bear on an open assumption]]
 
 **Founder's vision:** OST-Agent runs a research loop autonomously, dropping information into its own inbox from the most recent findings it can access on the web. The inbox is already the tree's evidence intake, so research lands in the same channel every other source uses and gets mapped by the normal pass — no new pipeline.
 
