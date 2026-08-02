@@ -1,14 +1,15 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-agent-as-driver.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Ambient session agent drives the append-only tools]]
 [[Bundled local model for zero-credential trial]]
 [[Optional bring-your-own-key, off by default]]
+[[The credential I am already authenticated with can't be used by the tool asking for one]]
 
 **Customer need (operator's perspective):** "I don't want to provision, pay for, and manage a second API credential just to try or run this tool. The friction and cost of a separate AI key puts me off before I've even started."
 

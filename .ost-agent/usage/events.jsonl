@@ -327,3 +327,4 @@
 {"ts":"2026-08-02T17:53:20.771Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":101,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
 {"ts":"2026-08-02T17:53:21.007Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":101,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
 {"ts":"2026-08-02T17:53:52.103Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":1719,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["Nothing tells an honest loop to stop, so it either idles or invents work.md"]}
+{"ts":"2026-08-02T17:54:00.097Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":1653,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["The credential I am already authenticated with can't be used by the tool asking for one.md"]}
