@@ -4,6 +4,162 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-08-02 (autonomous bootstrap loop, thirty-seventh pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Twenty-third straight pass (15th–37th) with no `ost_*` MCP tools** on this
+remote-routine session — `ToolSearch`, `ListPlugins` (zero), and
+`ListConnectors` (one unrelated entry, Railway) all confirmed it again.
+**But the diagnosis itself moved since the thirty-sixth pass wrote its
+briefing.** `ost-agent-meta`'s `origin/main` carries a new commit not
+authored by any pass, `75efe6b` ("chore: let this vault fire on its own,
+hourly, from this machine"), landed 2026-08-02T08:19:39-05:00 — after the
+thirty-sixth pass's PR (#23) merged. **The operator read the standing
+blocker and did not enable the plugin; they root-caused *why* it could
+never work here and moved the loop instead.** The commit message states it
+plainly: this remote routine surface sets
+`CLAUDE_CODE_REMOTE_SKIP_SETTINGS_SYNC=1`, so a plugin manifest committed to
+either repo can never apply on this surface — the fix every prior pass
+since the fifteenth assumed was possible (an environment-level toggle) was
+never going to close this gap, because the gap is structural to where this
+session runs, not a switch left off. The real loop now runs hourly from the
+operator's own machine, via `ost-agent loop start` reading the `loop:`
+block this same commit added to `ost.config.yaml`, with the MCP server as a
+local process and its tools present by construction.
+
+**This changes what "the blocker" means for this session going forward: it
+is not "unfixed," it is "permanently out of scope for a Claude Code Remote
+session on this vault."** No future pass on this surface should re-file
+this as an open question or keep counting toward a re-escalation threshold
+— the operator already made the call, just not the one prior passes were
+waiting on. See section 4 for what is still worth flagging.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Neither designated branch (`claude/zen-cray-aj8vs5`,
+`claude/zealous-babbage-aj8vs5`) had been pushed to `origin` yet** (`git
+ls-remote origin refs/heads/...` returned empty for both) — this pass's push
+creates them, both level with `origin/main` at checkout, no reset needed.
+Both working trees were clean, no open PRs on either repo (re-checked via
+`mcp__github__list_pull_requests`).
+
+**`npm install` was needed in `OST-Agent` again this pass** — `node_modules`
+was empty in this session's fresh checkout, same as every pass since the
+fifteenth. Expected; not a regression. `npm audit` now reports 7
+vulnerabilities (5 moderate, 1 high, 1 critical), all transitive dev/build
+tooling (`esbuild`/`vite`/`vitest`'s pinned chain, and `@modelcontextprotocol/sdk`'s
+`@hono/node-server` dependency) — not previously logged by name in this
+file; noting it here rather than actioning it, since none are runtime
+production paths and a forced major-version bump of `vitest` is out of this
+pass's scope without a human decision.
+
+**Tags unchanged, still topping out at v0.19.1** (re-checked via local `git
+fetch --tags`). `package.json` remains at `0.23.0`, unpublished — unchanged,
+see the thirty-sixth and earlier passes for the full staleness history.
+
+**`OST-Agent` carries one open issue (#1, adopting a foreign-format vault)** —
+pre-existing, unrelated to this pass's blocker, unchanged. `ost-agent-meta`
+carries zero open issues.
+
+## What changed since the last briefing
+
+**Nothing built in the tree — same structural reason as every pass since the
+fifteenth: no `ost_*` MCP tools on this surface, so no mapping, ideation, or
+re-ranking, only the CLI.** What this pass did:
+
+- **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit`
+  (0 errors), `npx vitest run` — **141 files, 1586 tests, all green** — clean
+  again, the sixteenth straight pass since the twentieth/twenty-first flakes.
+  Also ran `npm run bundle` and `npm run gen:skill`: neither produced a diff,
+  so no bundle or skill drift to commit.
+- **Re-ran `status`/`check`/`debt`/`channels` against the vault** — 241 nodes,
+  0 violations, 12/91 unfixed thresholds, 0 items delivered on any of the 6
+  channels — identical to the fifteenth through thirty-sixth passes. No new
+  inbox note (last dated 2026-07-27), no new friction note (last dated
+  2026-08-01), no new mapped evidence.
+- **Read the new `75efe6b` commit in full** and re-framed section 0 around it
+  — this is the first genuinely new fact since the nineteenth pass's original
+  diagnosis, not a re-confirmation of an unchanged condition.
+- **Found this session is itself one half of a now-duplicated loop, and
+  flagged it out-of-band rather than in-vault** (see section 4) — this is a
+  live operational fact about automation configuration, not a tree finding,
+  so it does not belong as a node or an in-vault note.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 241
+nodes, unchanged** — this pass touched no tree node, only this file.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** —
+   still ranked first by the debt count, still gated by its own trade-off, and now
+   on its **twenty-seventh** pass unbuilt. The deferral condition is unchanged: no
+   human has run `ost-agent result` under the current rules.
+2. **No second candidate is ranked here, for the same structural reason as every
+   pass since the fifteenth: no `ost_*` MCP tools, no ideation session.** Per
+   section 0, this is no longer "until a human changes the environment
+   configuration" — the operator's fix runs elsewhere, and this remote surface
+   should not expect ideation capability going forward.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Twenty-nine passes now, never actioned.**
+
+This vault: **241 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+unchanged from the thirty-sixth pass; this pass added no new node and demoted
+nothing. The sibling vault's count (18 nodes, zero from a customer) is carried
+forward unverified — this session had no `tetrix-ost` checkout to re-check it
+against.
+
+## 4. The bias in this pass, declared
+
+**This pass again verified rather than judged on the tree itself — the
+twenty-third pass in a row to do so — but the finding this pass is most
+confident in is operational, not textual: the operator already resolved the
+underlying question, and resolved it in a way that leaves this remote
+surface permanently without `ost_*` tools by design, not by omission.**
+That reframes every "hold silence vs. re-escalate" calculus the thirty-second
+through thirty-sixth passes ran — those weighed whether to nudge a human
+who might still flip a switch. There is no switch to flip here; the loop
+moved. What is still open, and outside this pass's authority to act on
+unilaterally, is whether the Claude Code Remote "OST repository maintenance"
+trigger that fires this very session hourly should keep running now that a
+local hourly loop covers the same ground with real tool access — that is an
+operator decision about automation configuration, sent out-of-band this pass
+rather than decided here or buried in a vault note nobody watching only the
+tree would see.
+
+---
+
+## History
+
+### Superseded 2026-08-02 — the thirty-sixth pass's briefing
+
+<details>
+<summary>Thirty-sixth pass (2026-08-02) — twenty-second straight pass with no ost_* MCP tools, held silence a fourth pass since re-escalation</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-08-02 (autonomous bootstrap loop, thirty-sixth pass)._
 
 ---
@@ -123,9 +279,7 @@ still unfixed should keep counting passes since the thirty-second pass's
 notification (this makes five) and weigh that count, plus any operator
 signal, freshly rather than assuming this pass's hold extends indefinitely.
 
----
-
-## History
+</details>
 
 ### Superseded 2026-08-02 — the thirty-fifth pass's briefing
 
