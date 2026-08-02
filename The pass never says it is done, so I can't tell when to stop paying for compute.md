@@ -54,3 +54,15 @@ Both are observed-rung, machine-recorded. Between them and the original mapped-l
 - `INBOX:2026-07-25-friction-upgrading-the-cli-silently-reopened-18-mapped-ev.md` — done-ness is not stable across versions: 0.1.3 said 9 unmapped, HEAD said 27, because mapped-ness switched to a ledger no pass had ever written.
 
 Together: "done" is undefined against governance, against idleness, and against upgrades — three independent ways the meter never stops.
+
+## A fourth mechanism, measured this pass (2026-08-02)
+
+The three mechanisms above predicted this would keep happening. It did, and the specific shape has changed again, which is itself the finding.
+
+**Measured, same instant, same vault.** `.ost-agent/state/mapped.json` holds 33 dispositioned ids. `ost_next_work` reported 32 unmapped. The two sets overlap heavily — `INBOX:2026-07-24-builder-evidence-debt-gate-verdict.md`, `INBOX:2026-07-24-market-scan-ai-ost-competitors.md`, `INBOX:2026-07-25-friction-upgrading-the-cli-silently-reopened-18-mapped-ev.md` and roughly a dozen more sit in the ledger *and* in the unmapped list simultaneously.
+
+**What that means.** The 2026-07-25 filing recorded done-ness moving *from* a source-scan *to* a ledger. It has now moved back, or diverged: the ledger written by the batch `P2_map` runner is no longer what `ost_next_work` consults. The current rule is observably `source`-field-scan — an item counts as mapped only when some node carries it in frontmatter `source:`, one id per node. So this is not the same defect recurring; it is the *third distinct accounting rule* this vault has been measured against, and the ledger those earlier passes were told to write is now inert.
+
+**Why appending does not help.** Several of these items are mapped in substance and have been for weeks — this node's own "three mechanisms" section cites three of them by id, in prose, with analysis. That work is real and is not counted, because prose in a body is not a `source:` field. An evidence item that corroborates an *existing* opportunity therefore has no way to be recorded as handled: `ost_create_node` sets `source` only at creation, and there is no affordance to add a second source to a node that already exists. The only counter-clearing move available is to create a new node per evidence item, which is precisely the duplication the tree's rules forbid.
+
+**Consequence, stated plainly for whoever reads this next.** The unmapped counter cannot reach zero by honest work on this vault's current contents. A pass that respects the no-duplicates rule will report the same backlog forever; a pass that clears the counter will have manufactured near-duplicate opportunities to do it. Both prior candidates under this node — [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]] and [[A Context node type for evidence that is true, useful, and not a customer need]] — address the semantic half. Neither addresses this mechanical half: **many-to-one evidence, where one opportunity is corroborated by many items.** That gap is now the binding one and a human should decide it; this pass has not invented a node to close it.
