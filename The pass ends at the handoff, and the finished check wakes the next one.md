@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Resume three handed-off passes from their recorded state and check they continue correctly]]
 
 Stop treating the wait as part of the pass. When the loop reaches a point where it can only wait, it records where it got to and exits; the check's completion is what starts the next pass, which picks up from the recorded state.
 
