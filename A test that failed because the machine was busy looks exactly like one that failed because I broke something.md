@@ -9,6 +9,7 @@ evidence: assertion
 [[Budget against a same-run baseline instead of against the clock]]
 [[Assert on work units instead of milliseconds]]
 [[Re-run once and report the disagreement rather than the first result]]
+[[My performance gate is an absolute number, so a busy machine alone can fail it]]
 
 **The need (operator's voice):** "My gate went red. I cannot tell from the record whether I broke the product or whether the box was busy, so I have to re-run it by hand to find out — and if I stop bothering to check, the day it means something I will wave it through."
 
