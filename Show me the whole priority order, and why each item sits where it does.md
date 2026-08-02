@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[A whole-tree ranked ledger that refuses to publish a row without its reason]]
 [[Every row shows the named factors behind its rank, with no composite score]]
+[[Rank only what a recorded decision already ordered, and leave the rest unranked]]
 
 **The need (customer's voice):** "I want to be able to see a clearly prioritized list from top to bottom. Not just what is the highest leverage — but also, why." (Founder, verbatim, 2026-07-25.)
 
