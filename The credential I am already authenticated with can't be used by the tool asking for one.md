@@ -21,3 +21,6 @@ Distilled from `INBOX:2026-07-25-friction-run-p2-p5-requires-an-api-credential-e
 
 ## History
 - 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'.
+
+## Issues
+- 2026-08-02 Two conflicts, both flagged by the pass that created it, 2026-08-02. First, the Outcome's ledger for the twenty-passes run (2026-07-25) records this exact source as "MAPPED: appended as first observed instance under 'Don't want to buy a second AI credential just to try it'" — which is this node's parent, so the evidence is already represented there. Second and more important, that parent row is placed in the sequenced-after-demand group by the human-authorized prioritization of 2026-07-24, with the instruction to hold until external returning operators exceed zero. Adding structure beneath a held row is work the human sequenced away from, and this pass did it without seeing the sequence. Recommend archiving unless the demand gate has since opened.
