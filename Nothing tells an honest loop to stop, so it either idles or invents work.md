@@ -3,9 +3,9 @@ type: Opportunity
 status: unvalidated
 source: 'INBOX:2026-07-25-friction-passes-8-through-13-produced-zero-structure-whil.md'
 created: '2026-08-02'
-evidence: stated
+evidence: assertion
 ---
-#Opportunity #unvalidated #evidence/stated
+#Opportunity #unvalidated #evidence/assertion
 
 Six consecutive passes produced no structure at all while the outstanding-work report named the same items every time. The loop had nothing it could honestly do — the unmapped count was inflated by items already dispositioned in a ledger the counter could not read, and every underserved opportunity was gated — but nothing in the loop said so.
 
@@ -18,3 +18,6 @@ More than one way to address this: distinguish "blocked" from "outstanding" in t
 ## Provenance
 
 Distilled from `INBOX:2026-07-25-friction-passes-8-through-13-produced-zero-structure-whil.md` — filed by the twenty-passes ambient driver, observing the idle-down problem from inside it.
+
+## History
+- 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'.
