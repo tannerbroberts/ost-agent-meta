@@ -242,3 +242,4 @@
 {"ts":"2026-08-02T13:31:49.996Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2906,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["A degraded pass has its own name and is not allowed to report a clean run.md"]}
 {"ts":"2026-08-02T13:32:04.676Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2200,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Budget against a same-run baseline instead of against the clock.md"]}
 {"ts":"2026-08-02T13:32:18.918Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2367,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Assert on work units instead of milliseconds.md"]}
+{"ts":"2026-08-02T13:32:34.679Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2498,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Re-run once and report the disagreement rather than the first result.md"]}
