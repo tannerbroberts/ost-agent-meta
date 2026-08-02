@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Hand a reader five run records and ask which passes did their job]]
 
 **The idea.** Every pass writes into its run record the tool surface it observed at start: which tools were present, which were expected and absent, and the environment facts that explain the difference. Nothing is blocked and nothing halts. The record simply stops being silent about the variable that decides what a pass could do.
 
