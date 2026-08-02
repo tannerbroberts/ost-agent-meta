@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Run five passes with the blocking wait and count refusals against the polling record]]
 
 Keep the pass running, but make waiting a single call that blocks until the condition holds, instead of a sequence of asks separated by sleeps. The environment already refuses the sleep-then-check shape and already names the affordance that does this; the loop simply is not reaching for it.
 
