@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay every past release against a registry-derived number]]
 
 **The idea.** The release path never reads the next version out of the local `package.json`. It asks the registry what is currently published, asks `origin/main` what is currently tagged, takes the maximum, and increments from there. The local file becomes an output of the release rather than an input to it.
 
