@@ -8,6 +8,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[The pass ends at the handoff, and the finished check wakes the next one]]
 [[One cheap blocking wait replaces the poll-and-retry loop]]
+[[Take up independent work while a check is outstanding]]
 
 One captured session's entire friction record is a command that timed out after two minutes, having reported `still pending` five times in a row. Across the week the same shape recurs in at least eleven sessions: check the pull request, find it pending, wait, check again. Some of those attempts exit 143 on a timeout; the rest are refused outright for pairing a sleep with the check.
 
