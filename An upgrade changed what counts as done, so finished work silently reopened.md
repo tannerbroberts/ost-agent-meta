@@ -21,3 +21,6 @@ Distilled from `INBOX:2026-07-25-friction-upgrading-the-cli-silently-reopened-18
 
 ## History
 - 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'.
+
+## Issues
+- 2026-08-02 Live instance of this opportunity observed during the 2026-08-02 pass, worth a human's eye because it is the same mechanism this node describes, still active. `.ost-agent/state/mapped.json` lists TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18 and TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1 among its mapped ids, yet `ost_next_work` reported both as unmapped evidence in the same minute. Two records therefore sit in the ledger as done and in the counter as outstanding at once. Neither was mapped by this pass. Separately and consistently with the same root cause: appending a corroborating section to an existing node does NOT add that evidence id to the ledger — only `ost_create_node` with a `source` does — so reusing an existing opportunity, which the ruleset explicitly prefers over duplicating, leaves the evidence permanently counted as unmapped. That is a structural pressure toward creating a duplicate node rather than reusing the right one, pushing against the rule it is meant to serve.
