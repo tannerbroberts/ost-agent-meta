@@ -3,9 +3,9 @@ type: Opportunity
 status: unvalidated
 source: 'INBOX:2026-07-25-friction-an-empty-annotation-is-recorded-rather-than-refu.md'
 created: '2026-08-02'
-evidence: stated
+evidence: assertion
 ---
-#Opportunity #unvalidated #evidence/stated
+#Opportunity #unvalidated #evidence/assertion
 
 Append-only is what makes the vault trustworthy, and it is also what makes a malformed write unrecoverable. A call that passed an empty or undefined argument was accepted and written, so two entries whose entire body is the literal text `undefined` now sit permanently on a root node — the damage cannot be edited out and the original intent cannot be reconstructed.
 
@@ -18,3 +18,6 @@ More than one way to address it: refuse empty/undefined arguments at the tool bo
 ## Provenance
 
 Distilled from `INBOX:2026-07-25-friction-an-empty-annotation-is-recorded-rather-than-refu.md` — filed by the bootstrap loop after `ost_annotate` accepted an undefined issue string against the tetrix-ost root Outcome.
+
+## History
+- 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: this rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'. Sibling nodes distilled from identical notes were capped there by the ranker; the difference was that this item's actor was unrecorded, not that its evidence is stronger.
