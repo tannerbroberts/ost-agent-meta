@@ -4,6 +4,7 @@ created: '2026-07-27'
 evidence: assertion
 ---
 #Solution #evidence/assertion
+[[Replay past sweeps to see how many were blind all the way rather than partly]]
 
 **The idea.** Any sweep whose subject count is zero exits non-zero and says so, rather than reporting zero findings. "I looked at nothing and found nothing wrong" stops being expressible.
 
