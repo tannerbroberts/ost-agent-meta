@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check whether isolation correctly acquits a flake and convicts a real regression]]
 
 **The idea.** When a timing assertion fails, re-run that test alone and compare. Agreement means red — report it as a real failure. Disagreement means the record says so explicitly: *"failed at 2280ms in suite, passed at 18077ms of margin in isolation — contention, not regression."* The verdict carries its own attribution instead of leaving the reader to re-derive it.
 
