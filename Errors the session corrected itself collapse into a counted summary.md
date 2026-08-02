@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Blind-rate ten records as typo or friction and compare against the recovery rule]]
 
 Judge an error by what happened next. If the session recovered within a turn or two and carried on, it is a typo and belongs in a summary line; if it changed what the session went on to do, cost it several attempts, or ended the work, it is friction and gets a record.
 
