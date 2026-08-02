@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Measure how long the last human-gated release actually waited]]
 
 **The idea.** There is exactly one release train. The autonomous loop never publishes; it prepares a release — changelog, version bump, green suite — and stops, leaving a single paste-ready command. A human runs it. Two trains become one train with two contributors.
 
