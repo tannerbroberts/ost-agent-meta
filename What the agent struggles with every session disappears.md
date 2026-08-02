@@ -59,3 +59,13 @@ Across both batches that is **twenty-three sessions and 78 mechanically-captured
 **Fifteen of the thirty-eight events are not tool failures at all.** `16e9596b` (×8) and `7e982096` (×7) consist entirely of `AskUserQuestion`: the pass halting to ask a human. The harvester records those as friction because they interrupt a session, but what they observe is a different need, and the corroboration is filed on [[I need the tree's output to be actionable by compute alone, because my hours don't exist]] rather than counted here.
 
 **Rung.** `observed` on this vault's own behaviour, per each record's `TRANSCRIPT:` provenance and its own header. Explicitly not demand evidence, and it must not be counted toward [[I can't tell if anyone outside my own head wants this]].
+
+## Census addendum — `TRANSCRIPT:0d27cebf`, captured mid-pass 2026-08-02
+
+One new session record arrived during the fourth unattended pass of the day: 10 events (tool_error ×9, clarifying_question ×1). It changes no claim on this node and is recorded because the count it extends is the claim.
+
+**The cross-session repeat continues.** `sleep N` followed by another command was blocked twice in this single session — `sleep 25 && tail …` and `sleep 60 && gh pr checks …` — with the harness returning the same correction both times, pointing at `Monitor` with an until-loop. This morning's census put that pattern at **nine sessions, corrected identically nine times, learned zero times**. This is the tenth session and the eleventh and twelfth corrections. Nothing carried the lesson from the first nine into this one, which is precisely what this node says happens.
+
+**The rest is harness noise, not product friction, and is recorded as such:** four path errors against directories that do not exist on this machine (`/Users/tanner/dev/ost-benchmarks/bin/`, `/Users/tanner/dev/ost-agent-meta`, two missing log files), one `Edit` string-not-found, one two-minute timeout, one non-zero exit from a status roll-up. **No `ost_*` tool appears among the failures**, which extends the finding already recorded on [[The friction that matters leaves no error behind]] to a twenty-fifth session: the channel built to watch this product work keeps capturing the coding harness the agent runs inside.
+
+**Disposition: acknowledged, no new node.** No customer need is revealed that this tree does not already hold, so distilling an opportunity from it would be inventing one. Like the other 41, it will keep reporting unmapped until [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]] exists.
