@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Would operators enable an update channel that can change an unattended agent]]
 
 **Candidate (unvalidated, agent-ideated — one of three deliberately different mechanisms under this opportunity).**
 
