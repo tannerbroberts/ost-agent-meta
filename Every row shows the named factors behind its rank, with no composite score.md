@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Hand-label the gated rows and check whether a detector agrees]]
 
 **The mechanism:** the "why" is not prose, it is the inputs. Each row renders the named factors that bear on its position — how many blocked tests one build would unblock, the rung the node rests on, whether a gate or lane holds it, whether a recorded decision touches it — as separate visible values. The operator reads the factor values and forms their own view of the order.
 
