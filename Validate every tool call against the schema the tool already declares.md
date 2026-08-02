@@ -5,6 +5,7 @@ created: '2026-07-26'
 evidence: assertion
 ---
 #Solution #evidence/assertion
+[[Sort a day of real failed calls into shape errors and meaning errors]]
 
 **The idea.** Before a tool touches the vault, check the input against the JSON Schema the tool itself publishes — required properties present, no unexpected ones, types as declared — and refuse the call with a message naming the offending property. **Shipped in v0.17.0.**
 
