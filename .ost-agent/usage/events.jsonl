@@ -220,3 +220,4 @@
 {"ts":"2026-08-02T13:22:22.909Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":2,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925"}
 {"ts":"2026-08-02T13:22:25.697Z","tool":"ost_read_tree","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925"}
 {"ts":"2026-08-02T13:25:39.248Z","tool":"ost_create_node","ok":true,"ms":9,"surface":"mcp","argBytes":3025,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["The same agent has a different tool surface on every surface I run it on.md"]}
+{"ts":"2026-08-02T13:25:55.318Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2726,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["A test that failed because the machine was busy looks exactly like one that failed because I broke something.md"]}
