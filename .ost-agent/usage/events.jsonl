@@ -449,3 +449,4 @@
 {"ts":"2026-08-02T18:57:39.936Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2075,"session":"mcp-c596d905-6f42-4ef2-af64-fc8ed62d4bdc","wrote":["Do written reasons get challenged, or only read.md"]}
 {"ts":"2026-08-02T18:57:54.593Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2349,"session":"mcp-c596d905-6f42-4ef2-af64-fc8ed62d4bdc","wrote":["Hand-label the gated rows and check whether a detector agrees.md"]}
 {"ts":"2026-08-02T18:58:14.394Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2494,"session":"mcp-c596d905-6f42-4ef2-af64-fc8ed62d4bdc","wrote":["Count how much of the tree a recorded decision could actually order.md"]}
+{"ts":"2026-08-02T18:59:12.975Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2070,"session":"mcp-c596d905-6f42-4ef2-af64-fc8ed62d4bdc"}
