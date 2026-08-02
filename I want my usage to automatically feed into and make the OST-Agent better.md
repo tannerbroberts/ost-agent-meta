@@ -11,6 +11,7 @@ evidence: assertion
 [[Mechanical tool-invocation trace with daily evidence rollup]]
 [[Trace-vs-narrative reconciler that files disagreements as friction]]
 [[Adopt session transcripts as the trace source instead of new instrumentation]]
+[[The friction channel fills with my own typos, so the signal I wanted is buried]]
 
 **The need (operator's voice):** "There's a distinction between the agent's usage of the OST and its assertions about that usage. Traces and statistics can be tracked mechanically and give credence in a way assertions can't touch. I want my usage to feed the product automatically — reflection on self-generated statistics, not an echo chamber."
 
