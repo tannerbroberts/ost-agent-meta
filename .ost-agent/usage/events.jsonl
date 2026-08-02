@@ -352,3 +352,10 @@
 {"ts":"2026-08-02T17:56:42.102Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
 {"ts":"2026-08-02T17:56:42.956Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
 {"ts":"2026-08-02T17:57:19.297Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":997,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:57:40.304Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:57:41.305Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:57:42.249Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:57:42.717Z","tool":"ost_next_work","ok":true,"ms":1,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:57:43.661Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:57:44.053Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:58:29.098Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1987,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["The same refusal is rediscovered every session, because nothing carries the lesson forward.md"]}
