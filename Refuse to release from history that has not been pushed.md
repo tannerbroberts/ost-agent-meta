@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many past releases a push-first rule would have blocked]]
 
 **The idea.** The release path refuses to run when the working tree is ahead of, behind, or diverged from `origin/main`. Push first, or do not release. The rule is a precondition, checked before anything is built or numbered.
 
