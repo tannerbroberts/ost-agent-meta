@@ -322,3 +322,4 @@
 {"ts":"2026-08-02T17:52:33.297Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":92,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
 {"ts":"2026-08-02T17:52:33.549Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":92,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
 {"ts":"2026-08-02T17:53:10.032Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":1656,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["A call the tool should have refused is permanent, because append-only cannot take it back.md"]}
+{"ts":"2026-08-02T17:53:18.881Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":1707,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["Work my own governance has already gated still shows as outstanding every pass.md"]}

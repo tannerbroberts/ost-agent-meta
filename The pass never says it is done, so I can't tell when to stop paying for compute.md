@@ -11,6 +11,7 @@ evidence: assertion
 [[A Context node type for evidence that is true, useful, and not a customer need]]
 [[Idle down when a pass produces commentary instead of structure]]
 [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]]
+[[Work my own governance has already gated still shows as outstanding every pass]]
 
 **Customer need (operator's perspective):** "Set-it-and-forget-it means I need to know when forgetting it is still buying me something. Right now it never finishes, and I can't tell the difference between working and idling."
 
