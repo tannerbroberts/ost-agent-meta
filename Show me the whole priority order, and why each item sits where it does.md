@@ -1,11 +1,12 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'human:conversation'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[A whole-tree ranked ledger that refuses to publish a row without its reason]]
 
 **The need (customer's voice):** "I want to be able to see a clearly prioritized list from top to bottom. Not just what is the highest leverage — but also, why." (Founder, verbatim, 2026-07-25.)
 
