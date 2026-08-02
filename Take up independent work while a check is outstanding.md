@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how much post-handoff work in past sessions would have survived a failing check]]
 
 Treat an outstanding check as a background fact rather than a barrier. The pass identifies what does not depend on the pending result — reading, mapping, annotating, drafting the next change — and does that while the check runs, collecting the verdict when it arrives.
 
