@@ -243,3 +243,4 @@
 {"ts":"2026-08-02T13:32:04.676Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2200,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Budget against a same-run baseline instead of against the clock.md"]}
 {"ts":"2026-08-02T13:32:18.918Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2367,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Assert on work units instead of milliseconds.md"]}
 {"ts":"2026-08-02T13:32:34.679Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2498,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Re-run once and report the disagreement rather than the first result.md"]}
+{"ts":"2026-08-02T13:32:48.414Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2304,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Derive the next version from the registry, never from the local file.md"]}
