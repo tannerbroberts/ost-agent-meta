@@ -21,3 +21,6 @@ Distilled from `INBOX:2026-07-25-friction-an-empty-annotation-is-recorded-rather
 
 ## History
 - 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: this rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'. Sibling nodes distilled from identical notes were capped there by the ranker; the difference was that this item's actor was unrecorded, not that its evidence is stronger.
+
+## Issues
+- 2026-08-02 Likely merge candidate — flagged by the pass that created it. Its parent "A tool call I got slightly wrong destroyed the note I was filing" already carries "Refuse a write whose content is empty or literally undefined", which is precisely the fix this node's evidence calls for, alongside "Validate every tool call against the schema the tool already declares" and "Echo the written line back so a bad write is visible immediately". The child's one genuinely distinct claim is about append-only as an amplifier — that a malformed write here costs a permanent scar rather than a correction, so input validation is load-bearing in a way it would not be in an editable system. If a human does not think that distinction earns its own branch, this should be folded into the parent. No solutions were ideated here on purpose, to avoid duplicating the parent's three.
