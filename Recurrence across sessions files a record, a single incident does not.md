@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the same 29 records through the recurrence rule and count what files]]
 
 Make repetition the filing criterion. A one-off error is counted and held; the same error shape appearing across several distinct sessions is what creates an evidence record, and the record carries the count and the span rather than a single instance.
 
