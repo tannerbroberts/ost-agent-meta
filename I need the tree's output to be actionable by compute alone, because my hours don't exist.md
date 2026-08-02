@@ -56,3 +56,13 @@ It also sharpens what the lane triage is for. The saving is not the fifteen minu
 ## Evidence (mapped 2026-07-25)
 
 `INBOX:2026-07-24-builder-loop-stopping-blocked-on-one-human-test.md` — after five builder passes: 24 solutions, 0 tested, every candidate gate-BLOCKED, and by the system's own rules no agent may run a test. The entire loop halted on one half-day human action (hand-rating three sessions). The binding constraint was not engineering capacity but a single human-only step — the sharpest observed instance of this need. See child [[Every run ends blocked on a credential only I hold]] for the release-shaped instance.
+
+## Fifteen recorded stops, in two sessions, from the transcript channel (mapped 2026-08-02)
+
+`TRANSCRIPT:16e9596b-7c8f-445b-a8ff-f822ed211ea5` (8 events) and `TRANSCRIPT:7e982096-36c5-4ac2-a23f-75865bc4bf8e` (7 events) contain no tool failures at all. Every event is an `AskUserQuestion` — the pass halting the work to ask a human. The questions, in the order they were asked: whether "only serve Claude subscription users" also cuts the API-key-billed autonomous runner; how the plugin should start the MCP server once npm is gone; what happens to the already-published package on npm; which workspace to implement in; what to do about a refusal message that now exists as two identical string templates; what to do about a command that the next task deletes anyway; and how to close evidence ingestion, severed when the runner was deleted.
+
+**What this adds to this node.** Its honest floor already names what compute cannot absorb — a decision reserved for a human, a credential, a permission. These fifteen stops are a different shape and worth separating out: **not one of them is a permission or a secret.** Each is a design choice with more than one defensible answer, and the pass could not tell which of them were the operator's to make and which were its own. The cost is not that a human was needed. It is that the pass could not distinguish the two, so it escalated all of them — and a pass that escalates every fork in the road needs a human continuously, which is the condition this node exists to remove.
+
+**Deliberately not proposed as a new opportunity.** Two sessions, one corpus, and both are sessions *building the product* rather than running a discovery pass on a vault — the wrong population for a claim about operators. A second sighting inside a session that is actually running a pass would make it a pattern rather than an observation. Flagged here for a human to weigh; a human may reasonably decide it is already a distinct need.
+
+Rung `observed` on this vault's own sessions, per each record's `TRANSCRIPT:` provenance; explicitly not demand evidence.
