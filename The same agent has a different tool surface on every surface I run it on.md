@@ -18,3 +18,15 @@ evidence: assertion
 **Litmus test:** More than one way to address it — a run declares its required tools at start and halts loudly when they are absent; a preflight capability probe written into the run record so a later reader can see what the pass could do; a documented per-surface enablement path; a degraded-mode contract naming what a toolless pass may still legitimately claim; environment-level provisioning that removes the variance. Distinct mechanisms with real trade-offs. Passes.
 
 **Evidence rung:** `assertion` — the source is the agent's own friction filing about its own tooling. No external party involved; floor rung per the ladder's rule, consistent with this tree's retro-labeling convention.
+
+## Evidence — the same wall, four consecutive filings (mapped 2026-08-02)
+
+The node's `source` can carry only one id, so the rest of the series is recorded here. All four are the same agent hitting the same absence and refining the cause each time:
+
+- `INBOX:friction/2026-08-01-friction-third-straight-scheduled-pass-15th-16th-17th-wit.md` — kind `blocked`, filed 12:31Z. Third straight pass (15th, 16th, 17th) with no `ost_*` tools; mapping, ideation and ranking could not run at all, only the CLI. Cause not yet identified — recorded as "session scoped to OST-Agent + ost-agent-meta repos only, no ost-agent MCP server connected."
+- `INBOX:friction/2026-08-01-friction-fourth-straight-scheduled-pass-15th-18th-with-no.md` — kind `missing-affordance`, filed 14:35Z. First real cause: `ost-agent-meta` carried no `.claude/settings.json` enabling the plugin, unlike `OST-Agent/examples/vault/.claude/settings.json` which sets `enabledPlugins: ost-agent@ost-agent`. Fix committed.
+- `INBOX:friction/2026-08-01-friction-fifth-straight-scheduled-pass-with-no-ost-mcp-to.md` — the node's `source`, filed 17:28Z. The committed fix did not work: this surface sets `CLAUDE_CODE_REMOTE_SKIP_SETTINGS_SYNC=1`, so a repo-committed settings file is never applied here. Names the correct escalation — environment-level enablement, not another repo commit.
+
+**What the series is worth as evidence.** Four filings, one cause, three wrong diagnoses before the right one. The refinement itself is the finding: the surface gave the agent no way to ask "which of my tools exist here", so it could only infer the answer from the shape of its own failures, one pass at a time. That is the need this node states, observed rather than argued.
+
+**Resolved as of this pass (2026-08-02).** The `ost_*` MCP tools are present and this maintenance pass ran the full surface — the first pass in twenty-two to do so. That closes the incident but not the opportunity: nothing was added that would let a future pass detect the same absence, so the next surface with a different environment reproduces it silently. A human should confirm what actually changed (environment-level enablement vs. an incidental difference in this session) before this branch is considered addressed.
