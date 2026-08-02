@@ -248,3 +248,4 @@
 {"ts":"2026-08-02T13:33:16.588Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2505,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["The loop proposes a release and a human tags it.md"]}
 {"ts":"2026-08-02T13:33:38.884Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2128,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Check whether a toolless session can even run the tool check.md"]}
 {"ts":"2026-08-02T13:33:50.862Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2066,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Hand a reader five run records and ask which passes did their job.md"]}
+{"ts":"2026-08-02T13:34:05.198Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2538,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Degrade five passes on purpose and count how many admit it.md"]}

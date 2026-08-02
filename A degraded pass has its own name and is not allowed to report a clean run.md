@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Degrade five passes on purpose and count how many admit it]]
 
 **The idea.** Stop treating "full pass" and "whatever this surface could manage" as the same event. A pass that lacks its tools runs anyway as an explicitly *degraded* pass, and the contract for a degraded pass is different: it may report only what it actually verified, it must name what it could not attempt, and it is barred from emitting the words that mean the tree is fine. Success and partial-success become different outcomes with different vocabularies rather than the same green tick.
 
