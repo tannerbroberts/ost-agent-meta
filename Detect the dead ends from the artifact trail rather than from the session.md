@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay two hundred commits and count what a dead-end scan flags]]
 
 **The idea.** Never read a transcript at all. Read what the work left behind: commits that were reverted, branches built and discarded, files created and deleted inside one pass, tests written then removed, a plan file rewritten mid-pass, work pushed that duplicates work already on the trunk. A wrong framing that cost real time almost always leaves a scar in the artifact record even when it leaves no error code — because someone had to undo it.
 
