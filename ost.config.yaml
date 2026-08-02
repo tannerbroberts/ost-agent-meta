@@ -22,6 +22,22 @@ adapters:
     enabled: false
     channels: []
 
+# The unattended firing loop. Driven locally by cron via
+# OST-Agent/examples/automation/autonomous-pass.sh, which runs `claude -p /ost-pass`
+# with only the ost-agent MCP tools granted and every file/shell/network built-in denied.
+loop:
+  cadence: "1h"             # one firing an hour; cron ticks more often, this gate decides
+  lockTtlMinutes: 60        # a firing still holding the lock after this is assumed dead
+  spend:
+    # Weighted tokens, not currency. Chosen, not derived: ~500k per firing across 24
+    # hourly firings. Lower it to slow the burn; the window is rolling, so exhaustion
+    # clears itself without anyone intervening.
+    ceilingWeightedTokens: 12000000
+    windowHours: 24
+    # Where Claude Code writes THIS vault's transcripts — the pass runs with cwd set
+    # to the vault, so the slug is the vault path. Declared, never derived.
+    sessionsDir: "~/.claude/projects/-Users-tanner-ost-agent-meta"
+
 processes:
   P1_ingest:      { cron: "*/15 * * * *", triggers: ["inbox:new"] }
   P2_map:         { cron: "",             triggers: ["after:P1_ingest"] }

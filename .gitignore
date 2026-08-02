@@ -1,0 +1,6 @@
+# Obsidian UI session state — pane layout and graph zoom, rewritten every time the
+# vault is opened. Tracked, these re-dirty the working tree constantly, and a dirty
+# tree is a stopping state for the unattended loop (`ost-agent loop start`, D5): the
+# hourly firing would refuse forever over a changed graph zoom level.
+.obsidian/workspace.json
+.obsidian/graph.json
