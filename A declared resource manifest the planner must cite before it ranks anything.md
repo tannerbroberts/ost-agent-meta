@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Hand-fill the manifest and count how many of the top five priorities move]]
 
 The operator declares the project's resources once, as structured fields the tooling reads — capital and its deployment deadline, human hours and appetite, social reach (whether this operator will contact strangers at all), compute economics and the token-reset schedule, and which credentials will and will not be handed to an unattended run. The planner may not emit a priority order without naming which declared resources conditioned it, so an unstated assumption about the operator becomes a visible blank rather than a silent default.
 
