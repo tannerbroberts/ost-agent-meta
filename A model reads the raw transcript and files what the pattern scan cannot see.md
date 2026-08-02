@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Blind-rate a model's reading of five already-harvested sessions]]
 
 **The idea.** Instead of scanning a transcript for error strings, have a model read the whole session and answer a small fixed set of questions about it: where did the agent change its mind, and what changed it? What did it try, abandon, and not come back to? Where did it repeat itself without noticing? What did it believe at the start that it did not believe at the end? The answers, with quotes, become the evidence item. The mechanical scan stays where it is; this reads the same file for a different thing.
 
