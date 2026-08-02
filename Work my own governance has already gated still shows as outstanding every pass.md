@@ -21,3 +21,6 @@ Distilled from `INBOX:2026-07-25-friction-ost-next-work-demands-solutions-under-
 
 ## History
 - 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'.
+
+## Issues
+- 2026-08-02 Duplicate of a prior disposition — flagged by the pass that created it, 2026-08-02. The Outcome's ledger for the twenty-passes cycle 2 (2026-07-25) records "quota-vs-gate friction → MAPPED: appended to the same node (mechanism 3)", meaning this evidence is already carried on "The pass never says it is done, so I can't tell when to stop paying for compute" — which is this node's parent. So parent and child now represent the same evidence at two levels. This pass created the node because the append had left the item showing as unmapped. Worth a human's attention beyond the merge question: this node's subject is the governance gating that the same prioritization pass established, and a pass that cannot see those gates keeps being asked to fill quotas the gates forbid — which is what happened here.
