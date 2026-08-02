@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay all 29 records through the surface rule and see what it keeps]]
 
 Scope the filter by what the failing call was against. An error from the product's own tools becomes an evidence record; an error from a shell, an editor, or a script runner becomes a number in a periodic tally. Nothing is discarded — the tally is still there to be read — but only the first kind arrives claiming a pass's attention.
 
