@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay both flakes and one planted regression against the ratio]]
 
 **The idea.** The test measures a trivial reference operation in the same process, at the same moment, under the same contention, and asserts a *ratio* — `ost_next_work` must complete within N times the baseline — instead of an absolute 2000ms. When the box is loaded, both numbers rise together and the ratio holds. When the code regresses, the ratio moves and the test goes red.
 
