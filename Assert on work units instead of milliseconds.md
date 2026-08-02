@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Measure whether work count actually tracks elapsed time across vault sizes]]
 
 **The idea.** Stop asserting on elapsed time. Assert on the countable work the operation performs — files read, nodes parsed, passes over the tree — with a fixed ceiling. A regression that makes `ost_next_work` slow almost always makes it slow by doing more work, and the work count is deterministic on a given vault regardless of how busy the machine is.
 
