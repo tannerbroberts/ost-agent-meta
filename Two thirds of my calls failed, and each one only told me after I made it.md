@@ -25,3 +25,11 @@ Distilled from `USAGE:2026-07-26` — a mechanical rollup of the tool-invocation
 
 ## Issues
 - 2026-08-02 Ladder question raised while creating this node, for a human to rule on. `ost_set_evidence`/`ost_create_node` refused `observed` here because the ceiling for that rung requires provenance shaped like `TRANSCRIPT:…`, and this node cites `USAGE:2026-07-26`. But the usage channel is a counted, append-only trace of tool invocations with no narrator at any point, whereas a transcript record is a reading of a session. On the stated principle — that the measurement rungs assert something was actually measured — the usage channel appears to have at least as strong a claim to `observed` as the transcript channel, and possibly stronger. If that is right, the fix is in the ceiling rule rather than in this node, and every future node resting on a usage trace will be understated the same way. Recorded at `assertion` in the meantime, which understates it.
+
+## Second clean day, dispositioned — unattended sweep, 2026-08-02 (sixth pass)
+
+`USAGE:2026-07-27` (16 calls, 16 ok, 0 failed, all on the `cli-tool` surface) is the one evidence item outstanding this pass that carried no disposition anywhere in this vault. It is dispositioned here, by the same ruling this node's Provenance section already made for `USAGE:2026-07-25`: **a clean day reveals no need of its own**, and it stays unmapped on purpose rather than by oversight.
+
+It does sharpen the contrast this node rests on, so it is worth one line. Three usage traces are now on record — `2026-07-25` (108 calls, 0 failed), `2026-07-27` (16 calls, 0 failed) and `2026-07-26` (the two-thirds-failed day this node is distilled from). The failure is not spread thin across the week; it is concentrated in a single day, with clean days either side. Whatever produced it was a condition of that day, not a background rate, which is a materially different thing to build against and is the sort of shape a summary would have flattened.
+
+_Provenance: `USAGE:2026-07-27`, read in full this pass. Acknowledged with a reason, no node created — the affordance that would let this clear the counter is [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]], still unbuilt._
