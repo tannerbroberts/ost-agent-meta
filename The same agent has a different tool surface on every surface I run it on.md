@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[A run declares the tools it needs and halts loudly when they are absent]]
 [[Every run records the tool surface it actually had]]
+[[A degraded pass has its own name and is not allowed to report a clean run]]
 
 **The need (operator's voice):** "I scheduled the same maintenance task I run by hand. Locally it has the full tool surface; on the scheduled surface it silently has none — and I only found out by reading a friction note five passes later. I want a run to tell me what it can actually do before it spends an hour proving it can't."
 
