@@ -240,3 +240,4 @@
 {"ts":"2026-08-02T13:31:17.678Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2055,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["A run declares the tools it needs and halts loudly when they are absent.md"]}
 {"ts":"2026-08-02T13:31:32.221Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2434,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Every run records the tool surface it actually had.md"]}
 {"ts":"2026-08-02T13:31:49.996Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2906,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["A degraded pass has its own name and is not allowed to report a clean run.md"]}
+{"ts":"2026-08-02T13:32:04.676Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2200,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["Budget against a same-run baseline instead of against the clock.md"]}
