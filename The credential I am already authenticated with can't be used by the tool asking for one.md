@@ -3,9 +3,9 @@ type: Opportunity
 status: unvalidated
 source: 'INBOX:2026-07-25-friction-run-p2-p5-requires-an-api-credential-even-when-a.md'
 created: '2026-08-02'
-evidence: stated
+evidence: assertion
 ---
-#Opportunity #unvalidated #evidence/stated
+#Opportunity #unvalidated #evidence/assertion
 
 The blocking case is narrower than not wanting to buy a key: an authenticated agent session was driving the run, with a live model connection right there, and the path still refused to start because it looked for a separate API credential and found none — no environment variable, no CLI, an empty keychain entry.
 
@@ -18,3 +18,6 @@ More than one way to address this: inherit the host session's authentication, de
 ## Provenance
 
 Distilled from `INBOX:2026-07-25-friction-run-p2-p5-requires-an-api-credential-even-when-a.md` — filed by the twenty-passes ambient driver after the SDK could not resolve an authentication method while an authenticated session was active.
+
+## History
+- 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'.
