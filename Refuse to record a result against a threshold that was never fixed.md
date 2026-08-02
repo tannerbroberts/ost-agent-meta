@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay all existing tests to count how many a refusal would have blocked]]
 
 **The idea.** `ost-agent result` refuses a filing when the test's pre-commitment is
 not a commitment — the same shape as its existing refusals for a blank `--by` and a
