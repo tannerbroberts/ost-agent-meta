@@ -217,3 +217,6 @@
 {"ts":"2026-07-27T11:15:14.133Z","tool":"ost_annotate","ok":true,"ms":5,"surface":"cli-tool","argBytes":713}
 {"ts":"2026-08-02T13:21:21.199Z","tool":"ost_status","ok":true,"ms":46,"surface":"mcp","argBytes":2,"session":"mcp-fa6be63d-8ac6-4aae-bce8-f7e986fb53d4"}
 {"ts":"2026-08-02T13:22:20.500Z","tool":"ost_ingest_inbox","ok":true,"ms":71,"surface":"mcp","argBytes":2,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925"}
+{"ts":"2026-08-02T13:22:22.909Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":2,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925"}
+{"ts":"2026-08-02T13:22:25.697Z","tool":"ost_read_tree","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925"}
+{"ts":"2026-08-02T13:25:39.248Z","tool":"ost_create_node","ok":true,"ms":9,"surface":"mcp","argBytes":3025,"session":"mcp-908dc575-6dfa-4c53-a503-d42054429925","wrote":["The same agent has a different tool surface on every surface I run it on.md"]}

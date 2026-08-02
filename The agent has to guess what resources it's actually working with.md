@@ -1,11 +1,12 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'human:conversation'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[The same agent has a different tool surface on every surface I run it on]]
 
 **The need (customer's voice):** "The OST-Agent shouldn't have to guess what its resources are." (Founder, verbatim, 2026-07-25.) The founder's own examples, kept in their words because each names a different resource class:
 - "If a project is in the middle of a seed round, and has a million dollars it needs to spend intelligently, THAT'S WORTH KNOWING!!!" — capital, and its deployment deadline.
