@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Do written reasons get challenged, or only read]]
 
 **The mechanism:** the agent emits one ordered ledger covering every rankable node in the tree, not a single next-build pick, and the write is refused unless every row carries a written reason that cites at least one node title or evidence id. A row whose reason is missing, empty, or citation-free does not get a rank — it lands in an explicitly-named unranked tail, so a gap in the reasoning shows up as a gap in the list rather than as a confident position.
 
