@@ -283,3 +283,4 @@
 {"ts":"2026-08-02T15:38:49.844Z","tool":"ost_read_tree","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52"}
 {"ts":"2026-08-02T15:41:21.725Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":1903,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52","wrote":["A declared resource manifest the planner must cite before it ranks anything.md"]}
 {"ts":"2026-08-02T15:41:32.922Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1864,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52","wrote":["Constraint profile mined from what actually blocked the loop.md"]}
+{"ts":"2026-08-02T15:41:44.490Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1979,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52","wrote":["Expiring resource questions asked at a fixed cadence.md"]}
