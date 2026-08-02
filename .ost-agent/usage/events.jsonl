@@ -266,3 +266,4 @@
 {"ts":"2026-08-02T14:34:48.187Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2667,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265"}
 {"ts":"2026-08-02T14:34:59.315Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2212,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265"}
 {"ts":"2026-08-02T14:35:07.363Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"mcp","argBytes":1396,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265"}
+{"ts":"2026-08-02T14:35:29.761Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2506,"session":"mcp-83457db2-2667-4e34-9b1b-b57347f0d265","wrote":["End-of-session retrospective the agent must write before the session closes.md"]}

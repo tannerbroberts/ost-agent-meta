@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[End-of-session retrospective the agent must write before the session closes]]
 
 The struggles worth learning from are conceptual — a wrong framing, a rule misread, a dead-end approach — and they finish without leaving an error code, a retry, or any mechanical trace. A mechanical harvest of my sessions hands me shell-quoting trivia while the signal evaporates.
 
