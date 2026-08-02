@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Try to load the tools from inside the vault directory at all]]
 
 Change the packaging rather than the configuration: make the vault itself carry what is needed to operate on it, so that opening the vault anywhere yields the tools, with no separate enabling artifact in a directory that may or may not be the one the session opened.
 
