@@ -292,3 +292,6 @@
 {"ts":"2026-08-02T15:42:52.643Z","tool":"ost_next_work","ok":true,"ms":27,"surface":"mcp","argBytes":2,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52"}
 {"ts":"2026-08-02T15:43:15.680Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"mcp","argBytes":3249,"session":"mcp-56ee85d4-234a-42e0-9a95-37779edd8e52"}
 {"ts":"2026-08-02T16:43:46.171Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167"}
+{"ts":"2026-08-02T16:43:47.491Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":2,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167"}
+{"ts":"2026-08-02T16:43:50.166Z","tool":"ost_read_tree","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167"}
+{"ts":"2026-08-02T16:48:09.413Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2758,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167","wrote":["Resolve the newest published version at pass start and refuse to run silently on a stale one.md"]}
