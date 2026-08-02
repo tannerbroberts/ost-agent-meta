@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Would an operator accept the agent living inside the vault it maintains]]
 
 **Candidate (unvalidated, agent-ideated — one of three deliberately different mechanisms under this opportunity).**
 
