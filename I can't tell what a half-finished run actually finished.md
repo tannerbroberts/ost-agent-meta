@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Every recorded step carries the directory and argv it actually ran with]]
+[[A recorded failure can't be reproduced, because the record omits where it ran]]
 
 When a run is stopped, backgrounded, or dies mid-work, nothing marks where it got to. The next run — or the operator — cannot tell finished work from abandoned work, so it either redoes, skips, or guesses.
 
