@@ -307,3 +307,10 @@
 {"ts":"2026-08-02T16:50:47.329Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1916,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167"}
 {"ts":"2026-08-02T16:50:48.863Z","tool":"ost_next_work","ok":true,"ms":27,"surface":"mcp","argBytes":2,"session":"mcp-fc424bb6-f9de-487b-9ebd-af5540ca5167"}
 {"ts":"2026-08-02T17:51:20.140Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:51:21.398Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":2,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:51:24.458Z","tool":"ost_read_tree","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:51:34.861Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":69,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:51:35.317Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":82,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:51:36.289Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":76,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:51:36.418Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":65,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:52:22.055Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":1782,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["The gate can tell me something was tested, not whether the risky thing was.md"]}

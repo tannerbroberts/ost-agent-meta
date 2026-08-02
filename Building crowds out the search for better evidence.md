@@ -1,14 +1,15 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-opp-two-loop-split.md'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #reframed-from-solution-input #evidence/assertion
 [[Split the cartographer loop from the builder loop]]
 [[Evidence-debt gate before building]]
 [[Protected discovery budget]]
+[[The gate can tell me something was tested, not whether the risky thing was]]
 
 **The need (customer's voice):** "Whenever there is code to write, everything else stops. Nobody is asking whether we are building the right thing — the asking loses to the building every single time, and I only notice months later."
 
