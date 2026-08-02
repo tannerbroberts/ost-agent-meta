@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Time the resource questions once and count answers the vault could not already recover]]
 
 A short, bounded set of resource questions is put to the operator on a schedule rather than once, and every answer carries an expiry date after which the planner stops consulting it and reports the field as unknown. Resources are treated as perishable facts, because they are: a round closes, a token plan changes, a person's appetite for talking to strangers moves.
 
