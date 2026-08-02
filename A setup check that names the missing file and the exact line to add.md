@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the four toolless passes and see whether the check names the right file]]
 
 A command that inspects the current session against the vault and reports the specific gap: which file is absent, what one line it needs, and where it belongs. The root cause in the observed case took four passes and a comparison against a sibling example vault to locate, and it is mechanically checkable in under a second.
 
