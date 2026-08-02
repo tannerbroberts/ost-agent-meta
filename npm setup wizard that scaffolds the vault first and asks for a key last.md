@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #evidence/assertion
+[[Install the package on ten stock setups and see whether postinstall ever gets to speak]]
 
 **Founder's vision (verbatim intent):** the npm package scaffolds the OST vault itself — no AI needed for that — then, during the setup phase and only then, asks for an API key. The new-user experience: get the package name, `npm install`, experience the setup wizard. The promise one PM gives another: "Do you have npm? Just run npm install ost-agent, it'll set everything up for you, ask you for an API key, etc."
 
