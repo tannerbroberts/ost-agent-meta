@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Merge the enabling config into five real project settings files and check nothing was lost]]
 
 Setup writes the enabling configuration at the moment the vault is created, into the project directory the vault lives in, so that having a vault and having the tools that operate on it become the same event. The step that is currently invisible and manual stops existing rather than becoming better documented.
 

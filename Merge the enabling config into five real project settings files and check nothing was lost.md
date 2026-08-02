@@ -1,0 +1,18 @@
+---
+type: AssumptionTest
+status: unvalidated
+created: '2026-08-02'
+evidence: assertion
+threshold: >-
+  All five files keep every setting they started with, and at least four of the
+  five remain valid without hand-fixing.
+---
+#AssumptionTest #feasibility #unvalidated #evidence/assertion
+
+**The assumption under test (feasibility):** that setup can write its enabling configuration into a project the operator already owns without damaging what is there. If merging is unsafe, this candidate is not a setup-time fix at all — it is a way to break people's existing configuration at the exact moment they are trying the product for the first time.
+
+**How it would run:** take five real settings files from projects that already have one, including at least one that already enables other plugins and one with comments or unusual formatting. Apply the merge to a copy of each. Compare before and after.
+
+**Why it is the riskiest thing here:** the candidate's value is that it removes the failure rather than detecting it, and that value survives only if the write is safe. Everything else about this solution is straightforward.
+
+Half a day, retrospective, no build beyond the merge itself. Proposed by the agent; a human runs it and records the outcome.
