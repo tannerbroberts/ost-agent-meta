@@ -4,6 +4,7 @@ created: '2026-07-27'
 evidence: assertion
 ---
 #Solution #evidence/assertion
+[[Try to reproduce ten recorded failures from the record alone]]
 
 **The idea.** `loop step` records `cwd` and the resolved argv next to the exit code it already stores, so a recorded failure can be re-run verbatim from the record.
 
