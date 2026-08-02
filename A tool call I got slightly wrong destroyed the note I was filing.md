@@ -11,6 +11,7 @@ evidence: assertion
 [[Validate every tool call against the schema the tool already declares]]
 [[Refuse a write whose content is empty or literally undefined]]
 [[Echo the written line back so a bad write is visible immediately]]
+[[A call the tool should have refused is permanent, because append-only cannot take it back]]
 
 **The need, stated as an operator would.** *If I call a tool wrong, I need it to refuse me. In an append-only vault a bad write is forever, so 'it went through' is not the reassurance it sounds like.*
 

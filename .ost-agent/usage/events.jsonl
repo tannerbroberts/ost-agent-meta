@@ -314,3 +314,11 @@
 {"ts":"2026-08-02T17:51:36.289Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":76,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
 {"ts":"2026-08-02T17:51:36.418Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":65,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
 {"ts":"2026-08-02T17:52:22.055Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":1782,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["The gate can tell me something was tested, not whether the risky thing was.md"]}
+{"ts":"2026-08-02T17:52:23.601Z","tool":"ost_next_work","ok":true,"ms":28,"surface":"mcp","argBytes":2,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:52:29.981Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":92,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:52:30.929Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":92,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:52:31.414Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":92,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:52:32.352Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":92,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:52:33.297Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":92,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:52:33.549Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":92,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00"}
+{"ts":"2026-08-02T17:53:10.032Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":1656,"session":"mcp-0528c1fa-3420-4de1-9ad2-8fae29c8cd00","wrote":["A call the tool should have refused is permanent, because append-only cannot take it back.md"]}

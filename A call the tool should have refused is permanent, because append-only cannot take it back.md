@@ -1,0 +1,20 @@
+---
+type: Opportunity
+status: unvalidated
+source: 'INBOX:2026-07-25-friction-an-empty-annotation-is-recorded-rather-than-refu.md'
+created: '2026-08-02'
+evidence: stated
+---
+#Opportunity #unvalidated #evidence/stated
+
+Append-only is what makes the vault trustworthy, and it is also what makes a malformed write unrecoverable. A call that passed an empty or undefined argument was accepted and written, so two entries whose entire body is the literal text `undefined` now sit permanently on a root node — the damage cannot be edited out and the original intent cannot be reconstructed.
+
+The asymmetry is the point: in a system that can edit, a bad write costs a correction; here it costs a permanent scar on the node's history. Validation that would be a nicety elsewhere is load-bearing here, and its absence is only discovered after the record is already immutable.
+
+**The need:** I want the tool to refuse a write that carries no meaning, because I cannot take it back once it lands.
+
+More than one way to address it: refuse empty/undefined arguments at the tool boundary, require a minimum-substance check before any append, offer a supersede-with-reason entry that visibly retracts without deleting, or surface malformed entries as hygiene issues so a human can annotate over them.
+
+## Provenance
+
+Distilled from `INBOX:2026-07-25-friction-an-empty-annotation-is-recorded-rather-than-refu.md` — filed by the bootstrap loop after `ost_annotate` accepted an undefined issue string against the tetrix-ost root Outcome.
