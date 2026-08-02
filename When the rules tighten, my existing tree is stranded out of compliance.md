@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[An upgrade changed what counts as done, so finished work silently reopened]]
 
 Each new node-level requirement (a required field, a new invariant) instantly flags every node created before it, and the append-only design offers no compliant path to fix them: each frontmatter field needs its own purpose-built setter tool before an existing tree can comply. Every future required field hits the same wall.
 
