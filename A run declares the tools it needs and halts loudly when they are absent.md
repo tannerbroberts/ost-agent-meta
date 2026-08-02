@@ -5,6 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check whether a toolless session can even run the tool check]]
 
 **The idea.** A scheduled task names its required tool surface up front — for this vault, the `ost_*` MCP tools. Before doing any work, the run checks that they are present. If they are not, it exits non-zero with a message naming exactly which tools are missing and what enables them. The pass never starts.
 
