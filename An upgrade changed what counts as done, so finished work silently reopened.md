@@ -3,9 +3,9 @@ type: Opportunity
 status: unvalidated
 source: 'INBOX:2026-07-25-friction-upgrading-the-cli-silently-reopened-18-mapped-ev.md'
 created: '2026-08-02'
-evidence: stated
+evidence: assertion
 ---
-#Opportunity #unvalidated #evidence/stated
+#Opportunity #unvalidated #evidence/assertion
 
 Same vault, same instant, two versions of the tool: one reported 9 items outstanding, the other 27. Nothing about the vault had changed. The newer build decided done-ness by reading a state ledger the older one never wrote, so every item mapped under the old accounting silently re-opened as unfinished work.
 
@@ -18,3 +18,6 @@ More than one way to address this: migrate the old accounting into the new ledge
 ## Provenance
 
 Distilled from `INBOX:2026-07-25-friction-upgrading-the-cli-silently-reopened-18-mapped-ev.md` — filed by the twenty-passes ambient driver comparing ost-agent@0.1.3 against a HEAD build on the same vault.
+
+## History
+- 2026-08-02 evidence: stated → assertion — Demoted from 'stated' for consistency: rests on an inbox friction note, and the inbox channel's earned ceiling is 'assertion'.
