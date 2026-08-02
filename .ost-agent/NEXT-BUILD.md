@@ -4,6 +4,157 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-08-02 (autonomous bootstrap loop, fortieth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Twenty-sixth straight pass (15th–40th) with no `ost_*` MCP tools** on this
+remote-routine session — `ToolSearch` (direct queries for the `ost_*` names),
+`ListConnectors` (one unrelated entry, Railway, `enabledInChat: false`), and
+this session's tool listing all confirmed it again. Per the thirty-seventh
+pass's closing terms this stays a confirmation, not a reopened diagnosis: the
+gap is structural (`CLAUDE_CODE_REMOTE_SKIP_SETTINGS_SYNC=1` on this
+surface), not a switch anyone forgot to flip.
+
+**First pause in the local loop since it started being tracked (thirty-second
+pass onward).** `ost-agent-meta`'s `origin/main` is at the exact same commit
+(`03ece3d`) this pass's checkout started at — `git rev-list --left-right
+--count HEAD...origin/main` returned `0  0`. Every pass from the thirty-second
+through the thirty-ninth found new commits from the operator's local hourly
+loop; this is the first to find none. **This is one quiet pass, not several —
+the thirty-eighth pass's own bar for "worth saying" was several passes of a
+static node count after the loop should be firing hourly, and this is the
+first, not the third or fourth.** Treated as new information to watch, not
+yet as evidence the loop stopped: holding silence this pass, but the next
+pass should treat a second consecutive zero-commit finding as materially
+different from this one.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Neither designated branch (`claude/zen-cray-ibxpwr`,
+`claude/zealous-babbage-ibxpwr`) had been pushed to `origin` yet** (`git
+ls-remote origin refs/heads/...` returned empty for both) — this pass's push
+creates them, both level with `origin/main` at checkout, no reset needed.
+Both working trees were clean, no open PRs on either repo (re-checked via
+`mcp__github__list_pull_requests`).
+
+**`npm install` was needed in `OST-Agent` again this pass** — `node_modules`
+was empty in this session's fresh checkout, same as every pass since the
+fifteenth. Expected; not a regression.
+
+**Tags unchanged, still topping out at v0.19.1** (re-checked via
+`mcp__github__list_tags`). `package.json` remains at `0.23.0` — unpublished,
+unchanged, see the thirty-seventh and earlier passes for the full staleness
+history.
+
+**`OST-Agent` carries one open issue (#1, adopting a foreign-format vault)** —
+pre-existing, unrelated to this pass's blocker, unchanged. `ost-agent-meta`
+carries zero open issues.
+
+## What changed since the last briefing
+
+**Nothing built in the tree by this pass — same structural reason as every
+pass since the fifteenth: no `ost_*` MCP tools on this surface, so no
+mapping, ideation, or re-ranking, only the CLI.** What this pass did:
+
+- **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit`
+  (0 errors), `npx vitest run` — **142 files, 1598 tests, all green**,
+  unchanged from the thirty-ninth pass's count (the first pass since the
+  thirty-eighth where the suite did not grow — consistent with section 0's
+  finding that `origin/main` did not move either). Also ran `npm run bundle`
+  and `npm run gen:skill`: neither produced a diff, so no bundle or skill
+  drift to commit.
+- **Re-ran `status`/`check`/`debt`/`channels` against the vault** — **276
+  nodes, unchanged from the thirty-ninth pass** (the first pass since the
+  thirty-second where the count did not grow), 0 violations, 12/111 unfixed
+  thresholds (unchanged), all 6 channels live and none past cadence — inbox,
+  friction, transcript and usage each show a last-delivered timestamp 2–3h
+  before this pass's `status` call, all older than this pass's own session
+  start. No new inbox note, no new friction note since 2026-08-01.
+- **Held silence.** The thirty-seventh pass already sent the one thing worth
+  an operator's attention (the duplicated-trigger question, out-of-band).
+  The local loop's pause (section 0) is new information but is one pass old,
+  short of the bar this file has used for "worth flagging" every time the
+  question has come up (several consecutive passes, not one) — so this pass
+  does not notify on it yet.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 276
+nodes, unchanged by this pass** — this pass touched no tree node, only this
+file.
+
+## 2. The next build
+
+1. **[[Refuse to record a result against a threshold that was never fixed]]** —
+   still ranked first by the debt count, still gated by its own trade-off, and now
+   on its **thirtieth** pass unbuilt. The deferral condition is unchanged: no
+   human has run `ost-agent result` under the current rules.
+2. **No second candidate is ranked here, for the same structural reason as every
+   pass since the fifteenth: no `ost_*` MCP tools, no ideation session.** The
+   operator's fix runs elsewhere (section 0, when it is running); this remote
+   surface should not expect ideation capability going forward.
+
+**Do not read** [[Does the guard catch real laundering without refusing honest
+commands]] before 10 firings have accumulated — unchanged, one firing of data still
+recorded, nine to go.
+
+**Also do not read** [[Does a stated denominator catch a drop nobody predicted]]
+before 10 firings — unchanged, same trap.
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Thirty-two passes now, never actioned by
+this surface** — the local loop cannot action it either; it is a human
+conversation, not a tool call.
+
+This vault: **276 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+unchanged from the thirty-ninth pass. The sibling vault's count (18 nodes,
+zero from a customer) is carried forward unverified — this session had no
+`tetrix-ost` checkout to re-check it against.
+
+## 4. The bias in this pass, declared
+
+**This pass verified rather than judged on the tree itself — the twenty-sixth
+pass in a row to do so — and its one live judgment call was whether a single
+quiet pass from the local loop is worth an operator notification.** It
+weighed that call against this file's own repeated standard from the
+thirty-second through thirty-ninth passes' escalation-vs-silence
+reasoning: a finding earns a notification when it is new *and* has had
+enough passes to distinguish signal from one quiet hour. One pass with zero
+new commits, after eight straight passes of measured growth, does not yet
+meet that bar — it could as easily be the operator's loop between fires as
+the loop having stopped. This pass's contribution is narrower than the
+thirty-eighth's or thirty-ninth's measurement passes: it is the first pass
+in this stretch with nothing to measure growing, and it says so plainly
+rather than re-stating the growth numbers from a pass ago as if they were
+still moving. **The next pass should not treat this pass's hold as
+precedent for holding indefinitely** — a second straight zero-commit pass
+changes the picture from "quiet hour" to "quiet stretch," and should be
+weighed as such on its own facts, not assumed away by this pass's caution.
+
+---
+
+## History
+
+### Superseded 2026-08-02 — the thirty-ninth pass's briefing
+
+<details>
+<summary>Thirty-ninth pass (2026-08-02) — confirms the local loop by measurement again, holds silence</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-08-02 (autonomous bootstrap loop, thirty-ninth pass)._
 
 ---
@@ -135,9 +286,7 @@ the local loop is still doing the work this surface cannot (270 → 276 nodes,
 new commits, node count static across several passes after it should be
 firing hourly — that would be new information and grounds to say so.
 
----
-
-## History
+</details>
 
 ### Superseded 2026-08-02 — the thirty-eighth pass's briefing
 
