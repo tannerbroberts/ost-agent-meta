@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[The solution names its own riskiest assumption, and the gate checks that one was tested]]
 
 When a mechanical gate reports a solution as cleared, all it actually knows is that *some* assumption beneath it recorded a result. Whether the assumption that got tested was the one that would kill the idea if it were wrong is a judgement about the world, not about the tree's shape — and nothing in the loop makes that gap visible.
 
