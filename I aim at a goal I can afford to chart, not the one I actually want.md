@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Keep the goal I actually want as the outcome, and hang the affordable one beneath it as a milestone]]
+[[Cost the chart before choosing the goal, so the substitution is a decision and not a drift]]
 
 Ambition and cost feel proportional, so the goal that gets charted is the modest one. If mapping a route to somewhere far away is assumed to cost in proportion to the distance, nobody starts the far map — they pick a target sized to what they can already justify spending, and never learn what the ambitious one would have cost.
 
