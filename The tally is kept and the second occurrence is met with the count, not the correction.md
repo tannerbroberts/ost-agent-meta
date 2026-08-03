@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Apply the escalating message to the five-failure session and check where it would have fired]]
 
 Errors are grouped into classes as they happen and counted. The first is answered as it is now. The second leads with the fact that it is the second, quotes what was said the first time, and states that the previous correction was not applied. By the fourth, the message is mostly about the pattern and barely about the command.
 
