@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Derive the whole consequence set from the premise and ask about all of it at once]]
 
 I asked for one change and was stopped seven separate times to answer for it. Every stop was reasonable on its own. Taken together they were one decision, asked in seven pieces, because answering the first piece did not tell the run anything about the six that followed from it.
 
