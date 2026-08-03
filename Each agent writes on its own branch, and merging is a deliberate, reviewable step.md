@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have an unattended pass resolve ten seeded merge conflicts and grade every resolution]]
 
 Two agents never write to the same working tree. Each takes a branch, does its whole pass there, and the results are brought together afterwards as an explicit merge that someone or something reviews. Concurrent work is fully supported; concurrent writing to one set of files is not.
 
