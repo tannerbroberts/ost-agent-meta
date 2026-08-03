@@ -11,6 +11,7 @@ evidence: assertion
 [[Constraint profile mined from what actually blocked the loop]]
 [[Expiring resource questions asked at a fixed cadence]]
 [[Two thirds of my calls failed, and each one only told me after I made it]]
+[[I probe for files that were never there, because nothing hands me the layout of the workspace I am in]]
 
 **The need (customer's voice):** "The OST-Agent shouldn't have to guess what its resources are." (Founder, verbatim, 2026-07-25.) The founder's own examples, kept in their words because each names a different resource class:
 - "If a project is in the middle of a seed round, and has a million dollars it needs to spend intelligently, THAT'S WORTH KNOWING!!!" — capital, and its deployment deadline.
