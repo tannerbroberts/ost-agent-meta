@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Reconstruct the old accounting on a copy and see if it agrees]]
 
 When a newer build first opens a vault written by an older one, it reconstructs the new ledger from whatever the old accounting used — node sources, history entries, whatever carried done-ness before — writes the result once, and appends a visible migration entry saying what it inferred and from what.
 
