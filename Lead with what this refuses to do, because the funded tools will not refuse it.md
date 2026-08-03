@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Pitch the refusals to ten prospects and count who treats them as a feature]]
 
 Stop competing on generating trees, which is table stakes and which the funded tools do with more people. Position on the refusals: a tool that cannot mark its own output validated, cannot invent the outcome, cannot record a test result it did not watch a human run, and caps every claim at the rung its source actually earned. What is being sold is a discovery record a sceptic will believe, and the mechanism is what the tool is structurally unable to do.
 
