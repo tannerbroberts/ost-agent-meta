@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many vault conflicts are mechanical, to see what a human-only rule would actually cost]]
 
 Conflict resolution becomes a class of decision compute may not take alone. An agent meeting a conflict between its own work and someone else's stops, records both sides, and hands the merge to a human. It may describe the conflict and propose a resolution; it may not commit one.
 
