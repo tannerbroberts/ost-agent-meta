@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Try to bound five past runs within the commit history without being told where they started]]
 
 Every mutation already auto-commits with a message naming the tool and its subject. Read the history instead of asking the run: the commits between the run's first and last are exactly what it accomplished, in order, and they exist whether or not the run survived to say anything about itself.
 
