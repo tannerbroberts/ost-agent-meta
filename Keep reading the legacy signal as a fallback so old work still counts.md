@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Judge the eighteen reopened items — were they genuinely finished]]
 
 The new build keeps the old build's reading as a second source: an item counts as done if the new ledger says so **or** if the legacy signal did. Nothing is rewritten, nothing is inferred into permanence, and a vault last touched by an older version simply keeps working.
 
