@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Publish a stop condition the loop can evaluate, and make idling the honest default]]
 [[The loop sleeps on a signal and is woken by the event, instead of deciding when to look]]
+[[A spend ceiling per period that stops the loop dead, whatever it thinks it is doing]]
 
 Six consecutive passes produced no structure at all while the outstanding-work report named the same items every time. The loop had nothing it could honestly do — the unmapped count was inflated by items already dispositioned in a ledger the counter could not read, and every underserved opportunity was gated — but nothing in the loop said so.
 
