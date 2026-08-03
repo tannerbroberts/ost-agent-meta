@@ -484,3 +484,4 @@
 {"ts":"2026-08-03T14:49:59.230Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2005,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Measure how much signal a refuse-on-unknown-context rule would delete.md"]}
 {"ts":"2026-08-03T14:50:09.522Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2203,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Try to confirm a tool surface without invoking any of it.md"]}
 {"ts":"2026-08-03T14:50:22.835Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2172,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Compare the scheduler's view of the environment against the run's.md"]}
+{"ts":"2026-08-03T14:50:34.171Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2143,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Show readers a degraded run report and see whether they notice.md"]}
