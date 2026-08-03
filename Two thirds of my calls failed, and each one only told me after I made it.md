@@ -49,3 +49,14 @@ Three named nodes — *"A recorded failure can't be reproduced, because the reco
 **A note for whoever rules on the Issue above.** That Issue argues the `USAGE:` channel is understated at `assertion`. This trace is a further instance of the same asymmetry: it is a counted, unnarrated record of 240 invocations — including the verbatim text of the refusals — and it still cannot rise above the floor. Recorded, not decided.
 
 _Provenance: `USAGE:2026-08-02`, read in full this pass. Dispositioned here rather than mapped to a node of its own, by the same ruling this node already applied to `USAGE:2026-07-25` and `USAGE:2026-07-27`; the affordance that would let a pass clear the counter honestly is still [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]], still unbuilt._
+
+## Corroboration — two more refusals learned the same way (unattended sweep, 2026-08-03)
+
+Both `tool_error` events in `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9` have this node's shape — a rule that existed the whole time, discovered by tripping over it:
+
+- `Blocked: sleep 45 followed by: gh run list … gh pr view 33 …` — a compound command refused by policy. Nothing told the session the composition was disallowed until it had composed it.
+- `/Users/tanner/.local/bin/ost-reports: line 21: mapfile: command not found` — a script that assumes a shell builtin the running shell does not have. Reported at line 21, after the first twenty lines had already run.
+
+Neither is a hard case. Both are knowable in advance and neither was knowable in advance *to the agent*, which is the whole claim: the cost is not that the calls failed, it is that the failure was the only channel through which the constraint was ever communicated.
+
+_Source: `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9`, read in full this pass — observed behavior from the agent's own transcript. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
