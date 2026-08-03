@@ -481,3 +481,4 @@
 {"ts":"2026-08-03T14:48:59.063Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2267,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Make the refusal show the text that is actually there now.md"]}
 {"ts":"2026-08-03T14:49:40.403Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1987,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Check past failures against the snapshot fields before building the snapshot.md"]}
 {"ts":"2026-08-03T14:49:49.374Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1962,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Count how many recorded steps are safely replayable at all.md"]}
+{"ts":"2026-08-03T14:49:59.230Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2005,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Measure how much signal a refuse-on-unknown-context rule would delete.md"]}

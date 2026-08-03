@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Measure how much signal a refuse-on-unknown-context rule would delete]]
 
 Invert the goal. The stated cost here is not that context is missing — it is that **the record looks complete**, so a failure that cannot be reproduced also cannot be dismissed. Fix the looking-complete part: if the recorder cannot establish where a step ran, it declines to write a normal failure record and writes an explicitly incomplete one instead, or nothing at all.
 
