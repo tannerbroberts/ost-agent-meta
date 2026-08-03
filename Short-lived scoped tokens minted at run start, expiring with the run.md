@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay ten past runs and count how many needed a scope nobody would have predicted]]
 
 Before dispatching a run, the operator mints a token narrowed to what that run is expected to need and set to expire when the run should have finished. The run carries it and never asks for anything else. What the operator approves is a bounded grant, not an open-ended one, and the bound is enforced by the issuer rather than by the run's restraint.
 
