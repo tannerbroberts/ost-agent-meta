@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Opportunity #evidence/assertion
 [[Autonomous web-research loop that files findings into the inbox]]
+[[Outside lookups are demanded by an open assumption, never scheduled on their own]]
 
 **The need (operator's voice):** "There's something I want my OST-Agent to do for me: research. The tree only ever contains evidence I personally brought it or evidence the agent generated about itself. The most recent findings on the web — competitor moves, research, user complaints in public — never reach the inbox unless I spend my own hours going to get them."
 
