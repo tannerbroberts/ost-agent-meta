@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Hand the run a layout of the workspace before it takes its first action]]
 [[A failed path lookup answers with the nearest thing that does exist]]
+[[Resolve every path against a declared root, so a wrong prefix cannot be constructed]]
 
 I start work in a directory and immediately begin guessing at it — reaching for a path that sounds right, being told it does not exist, reaching for the next one. The guesses are not wild; they are the paths this project has had at some point, or has on another machine, or that a sibling project has. Nothing at the start of the run told me which of those is true here.
 
