@@ -33,3 +33,19 @@ Distilled from `USAGE:2026-07-26` — a mechanical rollup of the tool-invocation
 It does sharpen the contrast this node rests on, so it is worth one line. Three usage traces are now on record — `2026-07-25` (108 calls, 0 failed), `2026-07-27` (16 calls, 0 failed) and `2026-07-26` (the two-thirds-failed day this node is distilled from). The failure is not spread thin across the week; it is concentrated in a single day, with clean days either side. Whatever produced it was a condition of that day, not a background rate, which is a materially different thing to build against and is the sort of shape a summary would have flattened.
 
 _Provenance: `USAGE:2026-07-27`, read in full this pass. Acknowledged with a reason, no node created — the affordance that would let this clear the counter is [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]], still unbuilt._
+
+## The fourth trace, and it sharpens rather than repeats — unattended sweep, 2026-08-03
+
+`USAGE:2026-08-02` is now on record: **240 tool invocations, 235 ok, 5 failed** across 8 sessions, p50 2ms. All 240 on the `mcp` surface. That is a **2% failure rate**, against this node's 67%.
+
+The four traces now read: `2026-07-25` 108 calls / 0 failed, `2026-07-26` 93 / 62, `2026-07-27` 16 / 0, `2026-08-02` 240 / 5. The Provenance section above argued the 67% day was *a condition of that day, not a background rate*. A 240-call day at 2% is the strongest confirmation of that reading available — an order of magnitude more work, essentially none of it spent on reconnaissance.
+
+**But the five failures are the interesting part, because they are all the same failure.** All three shown are `ost_create_node` refused with the same rule:
+
+> `"…" cannot declare 'stated': it cites channel:inbox, which has earned 'assertion' — and 'stated' is the ceiling for a channel. A report is ranked by the channel it arrived on, never by what the report says about itself`
+
+Three named nodes — *"A recorded failure can't be reproduced, because the record omits where it ran"*, *"Having the vault is not the same as having the tools, and nothing points that out"*, *"A scheduled run finds out its tools are missing only after it has started"* — each refused for the identical reason, in one day, on one surface. So the residual 2% is not scattered noise. It is **one unlearned rule, paid for five times**, which is this node's need exactly: the ceiling a source can support is a fact the agent could have been told before composing, and instead learned from what the call refused. It is also [[The same refusal is rediscovered every session, because nothing carries the lesson forward]], now demonstrated inside this product rather than in the shell around it.
+
+**A note for whoever rules on the Issue above.** That Issue argues the `USAGE:` channel is understated at `assertion`. This trace is a further instance of the same asymmetry: it is a counted, unnarrated record of 240 invocations — including the verbatim text of the refusals — and it still cannot rise above the floor. Recorded, not decided.
+
+_Provenance: `USAGE:2026-08-02`, read in full this pass. Dispositioned here rather than mapped to a node of its own, by the same ruling this node already applied to `USAGE:2026-07-25` and `USAGE:2026-07-27`; the affordance that would let a pass clear the counter honestly is still [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]], still unbuilt._
