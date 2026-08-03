@@ -1,11 +1,12 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
+[[The buyer is the solo builder with no research function and no one to argue with]]
 
 **The need (operator's voice):** "'Operator', 'teams doing discovery', 'stakeholders' and me-the-founder are used interchangeably across this tree. I cannot name a single person, role, or team who is the customer — so I can't tell which needs on this map are real for anyone but me."
 
