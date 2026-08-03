@@ -3,9 +3,11 @@ type: Opportunity
 status: unvalidated
 source: 'human:conversation:2026-07-26'
 created: '2026-07-26'
+evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Every instance reports to a central telemetry inbox the meta-OST parses and ideates from]]
+[[Each instance publishes only its refusals and dead ends, and nothing about its subject]]
 
 **The need (founder's voice):** "Without automated feedback, I as a founder can't scale OST-Agents with my own compute, which I would like to do, which compute I already have ready to go. It's blocking progress if it's not built."
 
