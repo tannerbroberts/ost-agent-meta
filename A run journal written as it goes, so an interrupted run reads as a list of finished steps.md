@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Kill ten runs at random points and check what the journal's last line claims]]
 
 The run appends one line per completed step at the moment it completes — what was attempted, what it produced, and that it finished. A run that is killed, times out, or dies leaves a journal whose last line is the last thing that actually worked. Reading the state of a half-finished run becomes reading the end of a file, rather than inferring from side effects.
 
