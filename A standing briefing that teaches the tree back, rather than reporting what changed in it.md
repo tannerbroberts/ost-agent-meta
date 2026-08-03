@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have the operator answer questions about their own tree from the briefing alone]]
 
 The agent keeps a short standing document whose job is comprehension rather than record: where the tree currently stands, which branch is live and why, what the last week's evidence changed about the picture, and which belief the whole thing is currently resting on. It is rewritten in full each pass, and it is written to be read cold by someone who has not been following.
 
