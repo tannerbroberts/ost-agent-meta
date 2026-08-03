@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[My unattended run stops at a prompt that assumes a person is sitting there]]
 
 At the end of five building passes the tree held 24 solutions, none of them tested, every one of them blocked by the evidence gate. The binding constraint had stopped being engineering capacity: no agent may run an assumption test, so nothing in the loop could clear a single gate, and the loop's honest option was to stop building. One command from one person would have unblocked it — and nothing anywhere told that person it was waiting.
 
