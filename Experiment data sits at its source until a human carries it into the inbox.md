@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[A pull adapter per source the pass reads directly, on its own schedule]]
 [[The source pushes to a receiving endpoint that writes straight into the inbox]]
+[[The source writes a standing export to a watched folder, so carrying becomes a scheduled job]]
 
 **The need (customer's voice):** "I want the OST-Agent to be able to pull data from experiments directly instead of waiting for it to land in an inbox." (Founder, verbatim, 2026-07-25.)
 
