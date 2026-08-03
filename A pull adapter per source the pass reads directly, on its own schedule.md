@@ -1,0 +1,15 @@
+---
+type: Solution
+status: unvalidated
+created: '2026-08-03'
+evidence: assertion
+---
+#Solution #unvalidated #evidence/assertion
+
+For each system holding experiment data, a small read-only adapter that knows how to query it and how to render what it finds as an evidence record. The pass runs the adapters itself at the start of every sweep, the same way it already reads its drop folders. The human's job shrinks to enabling an adapter once and saying where to point it.
+
+The vault already has the shape of this — the ingest surface reports per-channel results and can say a channel is disabled or unreadable and why. Experiment sources would be more of the same rather than a new concept.
+
+**Compared to the alternatives.** Adapters put the schedule under the reader's control, which matters when the source has no notion of pushing and no watched folder to write to. That independence is also the cost: every source needs its own adapter written and maintained, and a source that changes its API breaks a channel silently unless the per-channel error reporting is honest about it.
+
+**What would make this the wrong pick.** If the sources in question already emit webhooks or already write scheduled exports, an adapter is a worse version of a thing that exists. Adapters earn their keep exactly where the source is passive.
