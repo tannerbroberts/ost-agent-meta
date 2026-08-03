@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Add the pointer file and count how many tools actually look for it unprompted]]
 
 A small committed file at the project root recording where the vault lives and what outcome it serves. Anything that opens the repository — an agent starting cold, a new contributor, a tool looking for context — finds it in the first place it would look. The link travels with the code, survives clones, and is versioned alongside the thing it describes.
 
