@@ -9,6 +9,7 @@ evidence: assertion
 [[My unattended run stops at a prompt that assumes a person is sitting there]]
 [[Announce the wait on a channel the operator already watches, the moment it starts]]
 [[Bank the blocked item, carry on with everything independent of it, and present the block at the end]]
+[[A standing queue of pending asks the operator clears at whatever cadence suits them]]
 
 At the end of five building passes the tree held 24 solutions, none of them tested, every one of them blocked by the evidence gate. The binding constraint had stopped being engineering capacity: no agent may run an assumption test, so nothing in the loop could clear a single gate, and the loop's honest option was to stop building. One command from one person would have unblocked it — and nothing anywhere told that person it was waiting.
 
