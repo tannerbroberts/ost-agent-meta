@@ -1,0 +1,15 @@
+---
+type: Solution
+status: unvalidated
+created: '2026-08-03'
+evidence: assertion
+---
+#Solution #unvalidated #evidence/assertion
+
+When a question arises, the run records it along with the answer it would give and why, takes that answer, and keeps going. At the end the operator sees all seven decisions together, each with what was assumed and what it would cost to reverse. Anything they disagree with is revisited then.
+
+The trade is explicit: some work will be done on assumptions that turn out wrong and will have to be redone. Against that, the run finishes. For a session where all seven questions had a defensible default, that trade is heavily favourable.
+
+**Compared to the alternatives.** Handles questions that only become visible mid-work, which is where deriving consequences up front fails completely. It also produces a much better record — what was assumed, and what reversing costs — than any answer given in the moment. It is the option that requires the most trust, since the operator is reviewing decisions already acted on rather than making them.
+
+**What would make this the wrong pick.** Not every fork is cheap to reverse. Deleting a command, deprecating a published package, choosing where work happens — several of the seven in the evidence were structural, and a run that took a default on those and was wrong has destroyed more than it saved. Which classes may be defaulted is a human's standing decision, not the run's.
