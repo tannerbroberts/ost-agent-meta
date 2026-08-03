@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Try to derive the seven questions from the premise alone, before reading the session]]
 
 Before starting, work out what the stated premise implies and present the whole set together: here are the seven decisions that follow from this, here is what each depends on, here is the default proposed for each. The operator answers once, in one sitting, seeing the shape of the whole thing. The run then proceeds without stopping again unless it meets something genuinely outside what was covered.
 
