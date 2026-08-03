@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Time the build check against how often a run would actually have found a broken tree]]
 
 Before doing anything else, a run establishes whether the repository it has been handed is in a working state. If it is not, that becomes the report — this is broken, here is what is broken, here is the commit that broke it — and the run does not proceed to plan work on top of a foundation it knows is unsound.
 
