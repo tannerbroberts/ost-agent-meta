@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Take the last ten regretted writes and check whether each could have been refused mechanically]]
 
 When a human finds a write that should never have been accepted, the response is not to fix that node but to write the check that would have refused it, and add it to the set every mutating call runs before touching disk. The backlog of regretted writes becomes the specification for the refusal set.
 
