@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Full builder thinking-trace visibility with a self-reflection communication gauge]]
 [[Order the frontier by what each step unblocks, not by what it costs]]
+[[Offer three routes at different risk levels and say what each one forecloses]]
 
 **The need (stakeholder's voice):** "As a stakeholder/product manager of an OST-Agent, I want the agent to consistently generate the most efficient mapping of actions from where we are now to where we want to get."
 
