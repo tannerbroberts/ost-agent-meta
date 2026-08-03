@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check how many past failed paths fall inside a small set of nameable roots]]
 
 The run is given named roots at the start — the project, the vault, the logs — and refers to things relative to those names rather than by assembling absolute paths itself. A caller asks for the vault's inbox, not for a string beginning `/Users/tanner/`. The prefix is supplied once, correctly, by whatever knows it.
 
