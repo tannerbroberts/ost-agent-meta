@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Classify every filesystem event in three real sessions as meaningful or churn]]
 
 Something watches the working tree. When a file the agent has read is modified by anyone else, the agent is told — immediately, in band — that its copy is stale, before it composes anything against it.
 
