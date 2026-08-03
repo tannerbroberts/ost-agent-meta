@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Interrupt a pass mid-plan with an outside write and see what state its accepted writes leave]]
 
 No coordination up front. Every write carries a fingerprint of the state it was composed against, and the write is refused if that state has changed. The refusal names what moved and who moved it. Agents proceed optimistically and are stopped only where they would actually collide.
 
