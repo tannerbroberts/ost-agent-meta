@@ -8,6 +8,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Gate on a ratio against a calibration run taken on the same machine at the same time]]
+[[Compare against the recent history of this same gate on this same machine]]
 
 A wall-clock budget test failed at 2004ms against a hard 2000ms bar while running inside the full suite, then passed by an enormous margin seconds later when run on its own. No code changed between the two runs. The threshold is an absolute millisecond count with no tolerance for the CPU contention that a shared sandbox guarantees, so the suite can convict a build that is not guilty.
 
