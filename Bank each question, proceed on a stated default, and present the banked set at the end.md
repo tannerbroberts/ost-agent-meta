@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Sort the seven questions by reversal cost and count how many were safe to default]]
 
 When a question arises, the run records it along with the answer it would give and why, takes that answer, and keeps going. At the end the operator sees all seven decisions together, each with what was assumed and what it would cost to reverse. Anything they disagree with is revisited then.
 
