@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Follow a candidate source list for a month and count items that bear on anything open]]
 
 Rather than searching, watch. The operator names a small set of sources that actually bear on this domain — a few feeds, a changelog, a competitor's release notes, one or two researchers — and the vault polls them cheaply for new items. New material arrives as evidence with the source's earned rung already attached, and the tree is woken by the arrival.
 
