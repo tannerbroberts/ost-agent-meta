@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[A pointer file in the project root that names its vault, read by anything that opens the repo]]
+[[The vault lives inside the repository it maps, so there is nothing to point at]]
 
 **The need (operator's voice):** "Finding this repo's vault took six exploratory commands and a guess between four candidate directories in $HOME. Nothing in the repo, its config, or its docs says where its own discovery tree lives."
 
