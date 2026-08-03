@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Sell one engagement and record how many hours it actually took against what was charged]]
 
 The tool is free and open. What is sold is the work around it: setting up a vault for a team, running the first round of interviews with them, sitting in the reviews where opportunities get chosen, and handing back a tree they can maintain. Priced as an engagement, per team, per quarter.
 
