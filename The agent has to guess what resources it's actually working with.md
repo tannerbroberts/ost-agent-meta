@@ -40,3 +40,17 @@ A mechanically-captured session produced 10 friction events, three of which are 
 The same session shows the cost compounding: a `tail` against a log file that had never been created, and a command that timed out after two minutes. None of these are reasoning failures — they are the absence of a reliable statement of what is actually on disk and where.
 
 Source: `TRANSCRIPT:0d27cebf-9b5d-4cff-906c-0134512573bc` — observed behavior, captured from the agent's own transcript. Grounds usability, not demand.
+
+## Corroboration — six further sessions, and the guessing is not only about paths (unattended sweep, 2026-08-03)
+
+The Corroboration above rests on session `0d27cebf`. Five more sessions from the same eight-day window show the same behavior, and together they widen what "resources" means here.
+
+**Paths guessed and refused** — `748498c4`: `sed: src/cli/index.ts: No such file or directory`, and a `git` command that came back `fatal:` against a directory it had just listed. `a0eb3fd4`: `cd:1: no such file or directory: docs/reference`. `5e5c119d` and `8fc8d6e3`, six days apart: `no matches found: /Users/tanner/dev/ost*` — the agent did not know where its own project lived.
+
+**Symbols guessed and refused** — `e335a680` is the sharpest, because the compiler answered in the form this opportunity asks for: `error TS2552: Cannot find name 'reconcileWithUsage'. Did you mean 'reconcileWithGit'?`, and `error TS2339: Property 'configProblem' does not exist on type 'ToolContext'`. `b7aae32d` adds `The type 'readonly OstNode[]' is 'readonly' and cannot be assigned to the mutable type 'OstNode[]'`. The agent was composing against a remembered shape of its own codebase, not a declared one.
+
+**The reconnaissance is visible too** — `a83f0269`'s single friction event is a directory listing of the whole `test/` tree, spilling `adapters cli config eval git knowledge loop mcp ost product release runner security skill smoke.test.ts telemetry web`. That is the manifest this node argues for, being reconstructed by hand, one failed call at a time.
+
+The founder's framing was about capital, social reach, human appetite and token budget — resources an operator would *declare if asked*. These sessions show the same absence one layer down, in the resources the machine itself sits on: where the files are, what the symbols are, what the types permit. Same mechanism, same cost, and both are discovered the expensive way. Whether the manifest should cover both is a question for a human — recorded here rather than decided.
+
+_Source: `TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f`, `TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff`, `TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18`, `TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1`, `TRANSCRIPT:e335a680-ee48-4171-b8ad-4cfb526e4129`, `TRANSCRIPT:b7aae32d-150a-462f-9027-cdf7af12badd`, `TRANSCRIPT:a83f0269-c09e-45a3-a1f3-68f601b476c9` — observed behavior from the agent's own transcripts. Grounds usability, not demand._
