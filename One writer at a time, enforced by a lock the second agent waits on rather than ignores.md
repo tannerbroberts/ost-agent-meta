@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Crash a run holding the lock and time how long the vault stays unusable]]
 
 A vault-scoped lock taken before any mutation and released after it commits. A second agent arriving finds the lock, learns who holds it and since when, and waits rather than proceeding. Concurrent writes stop being possible instead of being handled.
 
