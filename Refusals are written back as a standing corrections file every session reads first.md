@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Draft the corrections file from past refusals and check whether it would have fitted in context]]
 
 When a tool refuses a call and explains why, the correction is appended to a small durable corrections file scoped to this project. Every session reads it as part of its opening context. The lesson stops being something a session earns and becomes something a session inherits.
 
