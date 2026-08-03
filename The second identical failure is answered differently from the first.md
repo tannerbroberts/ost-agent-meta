@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Group the harvested tool errors by hand and see whether one rule reproduces the grouping]]
 
 The tool surface keeps a small in-session tally of refusals by class. The first occurrence is answered as it is now. The second escalates: it leads with the fact that this is a repeat, quotes what was said the first time, and states plainly that the previous correction was not applied. A third stops being advice and becomes a refusal to proceed on that route until something changes.
 
