@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Load the machine deliberately and check that the calibration ratio holds while the raw number does not]]
 
 The gate stops measuring milliseconds and starts measuring a ratio. Immediately before the real measurement, the same run executes a small fixed workload of known cost — the calibration — on the same machine under the same load. The gate compares the measurement to the calibration. A machine that is twice as busy makes both numbers twice as large and the ratio unchanged.
 
