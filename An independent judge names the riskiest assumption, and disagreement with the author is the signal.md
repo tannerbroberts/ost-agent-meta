@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have three independent judges nominate for ten solutions and see whether they agree with each other]]
 
 A second party — a different model, a colleague, a reviewer who did not write the solution — reads it cold and names what it thinks would sink it. That nomination is recorded alongside the author's. Where the two agree, the gate has a well-supported target. Where they disagree, the gate says so and refuses to be satisfied by a test against only one of them.
 
