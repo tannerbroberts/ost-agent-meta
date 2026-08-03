@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many of the harvested shell failures a curated set of safe forms would have covered]]
 
 Rather than teaching the caller to write shell correctly, give them something that does not require it. A comparison, a wait, a glob, a multi-line string — each gets a first-class way to be expressed that cannot be got wrong by quoting, and that way is what the surface presents. The failing form remains available and stops being the obvious thing to type.
 
