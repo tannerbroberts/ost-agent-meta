@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Deliver three free trees and count how many the recipient shows to someone else]]
 
 Approach teams outside the network directly with a concrete offer: hand over your existing customer evidence and get back a maintained tree, free, with no obligation. The reach comes from what they do with it afterwards — a PM who takes a useful tree into a roadmap review is showing it to people the author will never meet.
 
