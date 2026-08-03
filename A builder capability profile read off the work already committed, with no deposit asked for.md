@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how much of the committed record could name a capability at all]]
 
 **The mechanism:** nobody is asked to deposit anything. The agent builds its picture of each collaborator from the record that already exists and that it can already reach — authored commits and their diffs, PR descriptions and review exchanges, which node bodies a builder wrote, which tests they ran and which they abandoned, what they attempted and reverted. The profile is an inference over artifacts, not a submission.
 
