@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Queue forty drafts for approval and record how long the operator spends on each]]
 
 The agent does the reading, the noticing, and the drafting, and then stops. Nothing reaches the tree until the operator accepts it, and accepting means reading the draft and choosing where it goes. The labour that does not build understanding — finding the evidence, spotting the duplicate, keeping the links intact — is absorbed. The labour that does build understanding is left deliberately undone.
 
