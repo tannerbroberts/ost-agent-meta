@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Settle the known prompts as config and count how many new ones appear in a month]]
 
 Most of these prompts have one right answer that never changes for this project — how to reconcile divergent branches, whether to overwrite on copy, which editor is not going to be opened. Decide each once, commit it as configuration, and no run ever meets the question. The operator answers in advance, deliberately, instead of being asked at the worst moment.
 
