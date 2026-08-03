@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Rank each session's questions by consequence and check whether the first ones asked were the important ones]]
 
 The operator sets how many times a run may interrupt them. The run spends that budget on the questions it judges most consequential, and takes a stated default on everything else. When the budget is gone it stops asking and starts banking. The operator always knows the upper bound on interruptions before the run begins.
 
