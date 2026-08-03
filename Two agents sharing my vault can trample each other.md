@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[A merge conflict got committed into a source file, so the next run inherits a repo that cannot build]]
 [[One writer at a time, enforced by a lock the second agent waits on rather than ignores]]
+[[Each agent writes on its own branch, and merging is a deliberate, reviewable step]]
 
 **The need (operator's voice):** "I had a thinker loop and a builder loop working the same git vault. Nothing told either whose turn it was — the builder had to check for a clean tree and hope, and would have had to back off mid-work if the thinker were mid-commit."
 
