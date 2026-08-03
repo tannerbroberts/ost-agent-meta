@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Show the whole write, exactly as it will land, and require a confirm before it does]]
 
 Append-only is what makes the vault trustworthy, and it is also what makes a malformed write unrecoverable. A call that passed an empty or undefined argument was accepted and written, so two entries whose entire body is the literal text `undefined` now sit permanently on a root node — the damage cannot be edited out and the original intent cannot be reconstructed.
 

@@ -570,3 +570,4 @@
 {"ts":"2026-08-03T18:15:46.172Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4091,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
 {"ts":"2026-08-03T18:15:54.445Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1140,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
 {"ts":"2026-08-03T18:16:00.147Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1192,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
+{"ts":"2026-08-03T18:16:48.845Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1569,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683","wrote":["Show the whole write, exactly as it will land, and require a confirm before it does.md"]}
