@@ -762,3 +762,4 @@
 {"ts":"2026-08-03T18:42:38.220Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
 {"ts":"2026-08-03T18:42:40.156Z","tool":"ost_next_work","ok":true,"ms":47,"surface":"mcp","argBytes":2,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
 {"ts":"2026-08-03T18:42:54.206Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1362,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683","wrote":["Publish six pieces over six weeks and count strangers who arrive and try it.md"]}
+{"ts":"2026-08-03T18:43:01.579Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1326,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683","wrote":["List in two directories and measure installs against how far the listing was scrolled.md"]}

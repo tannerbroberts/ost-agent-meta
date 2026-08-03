@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[List in two directories and measure installs against how far the listing was scrolled]]
 
 Distribute where agents are already installed from — plugin registries, MCP server directories, skill marketplaces. The person who finds it is not searching for a discovery tool; they are browsing what their agent can be given, and this is one of the things. Discovery happens at the moment they are already deciding to add a capability.
 
