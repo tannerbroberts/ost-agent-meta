@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Draft the workspace map and check how many past failed lookups it would have answered]]
 
 At the start of every run, produce a compact map of what is actually here — the top levels of the tree, where the source is, where the tests are, where the vault is, which sibling directories exist — and give it to the run before it does anything. The information is cheap to gather, small to hold, and stable for the run's whole life.
 
