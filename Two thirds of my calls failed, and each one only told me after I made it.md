@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Publish the preconditions of every call so they can be checked before it is made]]
 [[The refusal states the value that would have worked, not just the one that did not]]
+[[A cheap validating call the caller may make before committing to the real one]]
 
 A machine-recorded day of tool use: 93 invocations, 31 succeeded, 62 failed. No narrator selected or summarized those numbers — they are counted from the append-only invocation trace. The failures are not exotic. They are `no such node: probe`, `no such node: x`, and a create call rejected for carrying the literal string `undefined` where an evidence class belonged.
 
