@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Withhold the agent's answer on ten forks and measure how often the operator diverges]]
 
 Invert the usual arrangement. The agent does the work, and then, at a small number of chosen moments, deliberately does not — it presents the two candidate opportunities it was about to choose between and asks the operator which, or shows the solution it was about to rule out and asks whether that is right. It knows its own answer and withholds it until the operator has given theirs.
 
