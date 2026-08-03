@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Take a week of this vault's refusals and check whether any leaks content when quoted]]
 
 An instance reports back a deliberately narrow slice: which refusals it hit, which routes it abandoned and why, where it got stuck, how long it idled. Nothing about the customer, the product, the evidence, or the tree's content ever leaves. What comes home is the shape of the tool failing, which is the part that generalises across every instance and the part no single operator has enough of to learn from.
 
