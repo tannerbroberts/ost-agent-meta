@@ -8,6 +8,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Declare the tool surface a pass requires and abort in the first second if it is absent]]
+[[Have the scheduler verify the environment before it dispatches a run at all]]
 
 Three scheduled passes ran in a session where the vault's tools were simply absent, so mapping, ideation and ranking could not run at all — only the command line remained. The run started, discovered its surface was empty, and each pass had to work that out for itself after the compute had already been committed.
 
