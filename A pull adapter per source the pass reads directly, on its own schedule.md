@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Write one adapter against the messiest source and time how long it stays working]]
 
 For each system holding experiment data, a small read-only adapter that knows how to query it and how to render what it finds as an evidence record. The pass runs the adapters itself at the start of every sweep, the same way it already reads its drop folders. The human's job shrinks to enabling an adapter once and saying where to point it.
 
