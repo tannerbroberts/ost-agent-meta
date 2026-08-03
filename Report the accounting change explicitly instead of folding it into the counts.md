@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check whether the writing version is recoverable from vault state at all]]
 
 Do not try to preserve done-ness. Make the reinterpretation impossible to miss: when a build reads a vault last written under a different accounting, it says so — "27 outstanding, of which 18 were counted done under the previous version" — and names them, so the reopened class is distinguishable from the genuinely outstanding one.
 

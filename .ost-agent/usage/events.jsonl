@@ -487,3 +487,4 @@
 {"ts":"2026-08-03T14:50:34.171Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2143,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Show readers a degraded run report and see whether they notice.md"]}
 {"ts":"2026-08-03T14:50:46.978Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2396,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Reconstruct the old accounting on a copy and see if it agrees.md"]}
 {"ts":"2026-08-03T14:50:57.523Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2285,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Judge the eighteen reopened items — were they genuinely finished.md"]}
+{"ts":"2026-08-03T14:51:10.979Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2083,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Check whether the writing version is recoverable from vault state at all.md"]}
