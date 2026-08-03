@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Set up one scheduled export and check every week whether it is still arriving]]
 
 The human's work moves from carrying each result to setting up, once, a recurring export from the source into a folder the vault already watches. Most tools that hold experiment data can email, sync, or scheduled-export a sheet. The vault needs no new code at all: the drop folder it already reads is the destination.
 
