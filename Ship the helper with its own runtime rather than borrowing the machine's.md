@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Rewrite the shortest helper against the bundled runtime and compare length and readability]]
 
 Stop writing helpers in whatever the machine happens to provide. Write them against a runtime the project already depends on and ships — the same one the rest of the tool runs on — so the version is a property of the project rather than of the operating system. The machine's shell becomes irrelevant.
 
