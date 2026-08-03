@@ -3,9 +3,11 @@ type: Opportunity
 status: unvalidated
 source: 'human:conversation:2026-07-26'
 created: '2026-07-26'
+evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Full builder thinking-trace visibility with a self-reflection communication gauge]]
+[[Order the frontier by what each step unblocks, not by what it costs]]
 
 **The need (stakeholder's voice):** "As a stakeholder/product manager of an OST-Agent, I want the agent to consistently generate the most efficient mapping of actions from where we are now to where we want to get."
 
