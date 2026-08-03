@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay past sweeps to see what an ageing rule would have moved to the backlog]]
 
 An item reported outstanding for N consecutive passes with nothing done about it moves into a backlog. It is still counted, still queryable, still there — but the sweep stops leading with it, and `done` is computed over the active list. Ageing does the sorting, so nobody has to decide anything.
 
