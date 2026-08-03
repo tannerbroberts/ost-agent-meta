@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have authors nominate a riskiest assumption and check it against what they were already testing]]
 
 Every solution carries a nominated riskiest assumption — the single belief whose falsity would sink it — recorded as a field, not as prose. The gate stops counting tests and starts checking whether a test exists against that nomination and has a result. Passing means the thing most likely to be wrong is the thing that was examined.
 
