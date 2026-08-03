@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Time a candidate version computation against producing the full sweep]]
 
 Each sweep carries a version derived from the tree's state. A caller holding a sweep may ask whether it is still current by presenting that version; if nothing has changed, the answer is a few bytes rather than the whole outstanding list. The caller keeps re-asking exactly as often as it likes, and the cost of doing so collapses.
 
