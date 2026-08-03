@@ -64,3 +64,15 @@ and it is another instance of the hole [[A Context node type for evidence that i
 ## Issues
 - 2026-07-26 undefined
 - 2026-07-26 **Hygiene — a destroyed annotation, flagged not repaired (2026-07-26).** One or more lines in this node read `- <date> undefined`. That is not a note anybody wrote: `ost_annotate` was called with `note` instead of its declared `issue` field, nothing validated the call, and the literal string "undefined" was appended in place of the content. The original text was never written anywhere and is unrecoverable. Fourteen such lines exist across the two live vaults, written by several passes over three days. The cause is closed in ost-agent v0.17.0, which refuses a tool call that does not match the schema the tool itself declares. **Left in place deliberately:** this vault is append-only, and rewriting history to hide a bad write is exactly the action this product refuses — including when the product is the one that made it. Full account: [[A tool call I got slightly wrong destroyed the note I was filing]].
+
+## Corroboration — caught in the act, twice (unattended sweep, 2026-08-03)
+
+Two of twenty-two sessions read this pass recorded a concurrent writer directly, rather than as a worry.
+
+**Session `424486ec` (2026-07-30) names it in the agent's own words.** After two failed edits, the agent stopped and asked: *"Another process is writing to this repo right now (HEAD moved to the PR #22 merge, and ~14 source files have uncommitted changes touched seconds ago, including a brand-new `pushTargetFor` that …"*. Every element this node predicts is present — a second writer, a moved HEAD, fourteen files changed within seconds, and an agent that could only detect it forensically, by noticing that its own assumptions had stopped holding.
+
+**Session `06eba571` (2026-07-26) shows the state that leaves behind.** Its single friction event is a `git` fetch returning exit 128: *"You have divergent branches and need to specify how to reconcile them."* Two lines of history from two writers, and no rule on hand for whose wins.
+
+The distinction worth preserving: this node is about the *damage to shared state*, and [[The file changed after I read it, and the failed edit is how I find out]] is about the *damage to a single call issued against an expired read*. `424486ec` is the session where both happened at once — the failed edits were the symptom, the second writer was the cause — which is why it appears in both places.
+
+_Source: `TRANSCRIPT:424486ec-3489-4b53-8e2b-012232d221ab` and `TRANSCRIPT:06eba571-9780-458a-b384-da5abe101e6f` — observed behavior from the agent's own transcripts. Grounds usability, not demand. Note that both concern the source repository rather than a vault; whether that generalises to two agents on one vault is an inference a human should rule on, not a fact these records establish._
