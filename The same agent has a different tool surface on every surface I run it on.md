@@ -53,3 +53,13 @@ Two facts from this pass, both first-hand and both refining the claim rather tha
 The sharp part is the direction of the split, which is the opposite of what a safety-minded reader would predict: **the two tools that cannot write anything are the two that cannot be called, and every tool that mutates the append-only vault is available.** So an unattended pass can write six nodes and cannot ask whether it broke an invariant. That is not a variation in capability so much as an inversion of it, and nothing in the pass's own view distinguishes it from a fully-equipped run until the call comes back refused — which is this node's claim, now with a second mechanism behind it: the surface varies not only between environments and not only per-tool, but in a pattern uncorrelated with what the tool can damage.
 
 Filed as observation, not as a request. Whether to grant the read-only tools is the operator's call; the finding here is that the tree cannot see its own tool surface in advance, and three passes have now had to discover it by failing.
+
+## Corroboration — a skill that was not there (unattended sweep, 2026-08-03)
+
+Session `e42cd03d` (2026-07-29) produced this node's failure mode as a single line: `<tool_use_error>Unknown skill: superpowers:subagent-driven-development</tool_use_error>`.
+
+The agent invoked a named capability by its exact identifier, plugin prefix and all — which is what invoking something you believe is installed looks like — and the surface it happened to be running on did not have it. There was no way to find that out other than by calling it. The refusal arrived after the intent had been formed and the call spent.
+
+This is the cheapest possible instance of the problem (one failed call, no side effects) and therefore a good one to reason from: the same gap, hit by a scheduled unattended run rather than an interactive session, is [[A scheduled run finds out its tools are missing only after it has started]].
+
+_Source: `TRANSCRIPT:e42cd03d-b2a4-44ba-989a-9e01cc368f77` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not demand._
