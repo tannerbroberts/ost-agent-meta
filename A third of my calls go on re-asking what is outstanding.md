@@ -7,6 +7,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[The sweep returns a version, and re-asking an unchanged tree costs nothing]]
 [[Each write returns the delta it caused, so the sweep updates in the caller's hands]]
+[[One sweep per pass by contract, and a pass that re-reads must say what changed]]
 
 I pay for every call the agent makes, and a third of them are it asking the tree what still needs doing — a question it already asked, and got a full answer to, a few calls earlier. Nothing it learned from that answer survived long enough to spend it.
 
