@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Set the non-interactive flags and check whether the tools that stalled actually honour them]]
 
 The run declares itself unattended to everything it invokes — the environment variables, the flags, the config that tell a tool no terminal is watching — and anything that would still prompt is made to exit with an error instead. The run then fails in a way its supervisor can see, rather than hanging in a way nobody can.
 
