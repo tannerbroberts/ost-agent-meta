@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Enumerate the hosts this tool runs under and check which expose a delegable capability]]
 
 Where the tool runs inside a host that is already authenticated — a signed-in agent session, a logged-in CLI, an editor with an account — it asks that host to perform the action rather than asking for a key of its own. The operator's existing authentication becomes the tool's authentication, and there is no second credential to obtain, store, or rotate.
 
