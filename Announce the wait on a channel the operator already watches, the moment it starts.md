@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Send one notification per block for two weeks and count how many the operator acts on]]
 
 When a run reaches something only the operator can do, it says so immediately — a push notification, a message, whatever they actually read — naming the exact command that would unblock it and what is queued behind it. The wait becomes an event that arrives, rather than a state discovered whenever someone next looks.
 
