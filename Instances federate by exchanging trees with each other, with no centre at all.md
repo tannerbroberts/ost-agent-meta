@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Merge two real vaults as a dry run and count the conflicts a person has to settle]]
 
 There is no central inbox. An operator who wants to benefit from another instance's experience arranges an exchange with that instance directly — a pull from a git remote they were given access to, on terms the two of them set. Learning spreads peer to peer, and nobody has to trust an operator they have not chosen to trust.
 
