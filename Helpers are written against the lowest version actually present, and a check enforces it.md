@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Run a bash 3.2 linter over every helper and count what it flags and what it misses]]
 
 Pick the floor deliberately — bash 3.2, because that is what macOS ships — and enforce it where the script is written rather than where it is run. A linter configured to that floor rejects `mapfile` and everything like it at authoring time, in the same place every other coding standard is enforced.
 

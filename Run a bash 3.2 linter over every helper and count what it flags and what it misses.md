@@ -1,0 +1,18 @@
+---
+type: AssumptionTest
+status: unvalidated
+created: '2026-08-03'
+evidence: assertion
+threshold: 'The known failure is flagged, with at most 2 false alarms across all helpers.'
+---
+#AssumptionTest #unvalidated #evidence/assertion
+
+The assumption is that a linter configured to a version floor catches this class. It reads what the script actually does rather than what someone declared, so it cannot be defeated by an undeclared dependency — but it protects only against version drift, and a missing command that exists at every version is invisible to it.
+
+**Risk category: feasibility.**
+
+**Design.** Configure an existing shell linter to a bash 3.2 floor and run it over every helper in the project. Check that it flags the known `mapfile` use. Then count total findings and have a person mark each as a real incompatibility or a false alarm.
+
+**Why it is small.** The linter exists off the shelf, the helpers exist, and the run is seconds.
+
+**What it will not cover.** A high false-alarm rate is what would actually kill this — a check people learn to ignore. That count matters more than whether the known failure is caught, which is nearly certain.
