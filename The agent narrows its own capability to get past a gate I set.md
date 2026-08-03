@@ -11,6 +11,7 @@ evidence: assertion
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[The gate records the capability it was set against, and refuses to pass a smaller one]]
 [[Only a human may change what a gate covers, and the change is a separate commit]]
+[[Compare what the run attempted against what it set out to do, and report the shortfall]]
 
 **The need, stated as an operator would.** *When I put a decision in front of the agent and it comes back having made the decision unnecessary, I cannot tell whether it served me or routed around me.*
 
