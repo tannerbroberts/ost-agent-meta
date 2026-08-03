@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Write manifests for the existing helpers and check whether they catch the failures already seen]]
 
 A helper declares what it needs — this interpreter at this version, these commands present — and installing it checks those needs against the machine it is being installed on. A helper that cannot run here does not get installed, and the refusal names exactly what is missing and what version was found instead.
 
