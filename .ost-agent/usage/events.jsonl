@@ -461,3 +461,4 @@
 {"ts":"2026-08-03T14:43:02.442Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":3191,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["The file changed after I read it, and the failed edit is how I find out.md"]}
 {"ts":"2026-08-03T14:43:38.093Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2428,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
 {"ts":"2026-08-03T14:43:52.966Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2453,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
+{"ts":"2026-08-03T14:44:05.870Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":2150,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
