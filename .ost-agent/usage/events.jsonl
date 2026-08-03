@@ -502,3 +502,4 @@
 {"ts":"2026-08-03T15:23:40.809Z","tool":"ost_read_tree","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190"}
 {"ts":"2026-08-03T15:29:45.591Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2599,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190","wrote":["A builder capability profile read off the work already committed, with no deposit asked for.md"]}
 {"ts":"2026-08-03T15:29:59.536Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2463,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190","wrote":["An end-of-session deposit prompt in the surface the collaborator is already in.md"]}
+{"ts":"2026-08-03T15:30:13.563Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2438,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190","wrote":["Capability estimated from what each collaborator was asked to do and what came back.md"]}
