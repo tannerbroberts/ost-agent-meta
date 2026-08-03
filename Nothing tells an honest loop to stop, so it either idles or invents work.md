@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Publish a stop condition the loop can evaluate, and make idling the honest default]]
 
 Six consecutive passes produced no structure at all while the outstanding-work report named the same items every time. The loop had nothing it could honestly do — the unmapped count was inflated by items already dispositioned in a ledger the counter could not read, and every underserved opportunity was gated — but nothing in the loop said so.
 
