@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Produce three routes for one live branch and have a reader rank them without seeing the labels]]
 
 Instead of one recommended path, produce three that differ in kind — the safe route that learns slowly, the direct route that commits early, and the cheap route that tests the riskiest belief first — and for each, state plainly what taking it makes harder to do afterwards. The operator picks, and picks knowing the price of being wrong.
 
