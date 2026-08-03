@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Funded tools already generate these trees, so I can't say why anyone would pick this one]]
 [[Run both for two weeks on the same evidence and publish what diverged]]
+[[Name the specific mechanisms a hand process structurally cannot have]]
 
 **The need (operator's voice):** "When I imagine pitching this, I have no answer to 'I already do discovery in a doc with an AI chat open.' I don't know what the status quo actually costs them or what switching buys."
 
