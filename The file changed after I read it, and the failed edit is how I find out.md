@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Carry a content hash from read to write and refuse on drift, naming what drifted]]
 
 **The need:** I want to know the file I am about to change is still the file I read, instead of discovering it moved from the edit that fails.
 
