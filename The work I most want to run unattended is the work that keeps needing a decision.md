@@ -33,3 +33,11 @@ Session `7e982096` is the extreme case and worth naming on its own: **its only f
 `424486ec` and `748498c4` round out the eight.
 
 _Source: the eight `TRANSCRIPT:` records named above, read in full this pass — observed behavior from the agent's own transcripts. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
+
+## Corroboration — a ninth session, and this time the fork was about this tree's own gate (unattended sweep, 2026-08-03)
+
+`TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9` is the only new evidence item this pass captured, and one of its three friction events is an `AskUserQuestion`: *"What should the build loop do when the tree's own gate refuses a candidate?"* — offered with a recommended option and a `Gate policy` header, which is what a session does when it has already worked out the answer it prefers and still has no standing to take it.
+
+That makes nine sessions and seventeen recorded stops. It is also the sharpest instance yet, because the question is not about the world outside — it is about **the governance of this vault**: when the evidence-debt gate refuses a candidate, does the loop build something else, build the blocker, or stop? An agent that answers that on its own authority is not automating the build loop, it is amending the rules the build loop exists to obey. Every mechanism named in the body has to survive that case, and the two that let compute proceed (pre-authorized classes, proceed-under-stated-assumption) are the two it strains hardest.
+
+_Source: `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9`, read in full this pass — observed behavior from the agent's own transcript. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
