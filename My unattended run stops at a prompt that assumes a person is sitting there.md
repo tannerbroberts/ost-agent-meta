@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Non-interactive is the default, and any tool that would prompt is made to fail loudly instead]]
 [[Settle the standing answers once, in committed configuration the run inherits]]
+[[Detect that no terminal is attached and answer the prompt from a stated policy]]
 
 When I hand work to a run that is meant to finish on its own, it does not fail — it stops, mid-command, at a question a tool asked expecting a human at a keyboard. Nothing about the stop announces itself as a stop. The run is simply still there, holding, until I happen to look.
 
