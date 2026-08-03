@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Maintain a sweep from returned deltas alone across a full pass and compare against a fresh read]]
 
 A mutating call already knows what it changed about the outstanding picture. Creating a solution under an under-served opportunity moves that opportunity's count and adds a solution with no assumption test. Return that as part of the write's own result, and a caller can maintain an accurate sweep locally without asking for one.
 
