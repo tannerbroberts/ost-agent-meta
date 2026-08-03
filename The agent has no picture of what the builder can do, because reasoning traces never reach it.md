@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #evidence/assertion
+[[A builder capability profile read off the work already committed, with no deposit asked for]]
 
 **The need (operator's voice):** "Builders, stakeholders, and humans should know they can and should dump their reasoning traces into the OST-Agent's inbox — the agent should have a real picture of what the builder can do, and right now the reasoning behind the work never reaches it."
 
