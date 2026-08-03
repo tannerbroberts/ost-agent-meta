@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many of the operator's real experiment sources can push anywhere at all]]
 
 A small authenticated endpoint accepts posted results and files them as evidence records. Systems that already emit webhooks on completion point at it. Data arrives when the experiment finishes rather than when someone next runs a sweep, and nobody carries anything.
 
