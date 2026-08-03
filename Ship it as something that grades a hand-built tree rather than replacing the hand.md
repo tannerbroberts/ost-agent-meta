@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Run the checks over three hand-built vaults and count findings the owner did not already know]]
 
 Concede the generation. Someone who enjoys doing discovery by hand should keep doing it by hand — that is the part they are good at and the part they want. Point the tool at the vault they already have and let it run the checks: what ladders up to nothing, which solutions rest on no tested assumption, which claims sit above the rung their sources earned, which wikilinks are broken.
 
