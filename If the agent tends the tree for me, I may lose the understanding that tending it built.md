@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[The agent proposes and never files, so every node enters the tree through the operator's hand]]
 [[A standing briefing that teaches the tree back, rather than reporting what changed in it]]
+[[The agent asks the operator to make the calls it could have made itself]]
 
 **The need (operator's voice):** "Torres's method works partly BECAUSE the team wrestles the map themselves. If an agent does the wrestling, I might get a beautiful tree and none of the judgement it was supposed to build in me."
 
