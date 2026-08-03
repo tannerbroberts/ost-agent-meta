@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Build the queue from asks already outstanding and see whether the operator empties it once]]
 
 Every ask a run cannot answer itself goes into one durable queue, aged, with the command that would clear it. The operator visits when they choose, works down the list, and each thing they clear releases whatever was behind it. Nothing chases them and nothing is lost.
 
