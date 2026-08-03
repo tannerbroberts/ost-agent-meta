@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Sort the observed prompts into safe-to-default and must-stop, and see whether a rule separates them]]
 
 The run notices it has no attached terminal and, for prompts it recognises, answers them itself from a policy the operator wrote and can read. Every such answer is recorded in the run's journal — the question, the answer given, and the policy line that supplied it — so the operator can see afterwards exactly what was decided on their behalf.
 
