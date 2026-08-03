@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Draft the decision classes from the older half of the stops and test them on the newer half]]
 
 **Where authority sits: delegated in advance, by class.** The human writes down once — not per question — which kinds of decision a run may settle on its own: reversible and confined to the repo, yes; anything outward-facing, anything that spends money, anything that amends a rule the vault is governed by, no. A run consults the contract at the fork and either proceeds under it or stops and cites the clause that stopped it.
 
