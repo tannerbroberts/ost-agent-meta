@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have a human review a pass's acknowledgements and count how many were avoidance]]
 
 Give a pass a way to say "I looked at this, and the right action is none" — recorded, with a reason, append-only, and honoured by the sweep. The item leaves the outstanding list without being deleted, without being mapped, and without anyone pretending it was work.
 
