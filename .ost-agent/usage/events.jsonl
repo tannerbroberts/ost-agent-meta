@@ -475,3 +475,4 @@
 {"ts":"2026-08-03T14:46:59.657Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2165,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Migrate the old accounting into the new ledger on first run, and record that it happened.md"]}
 {"ts":"2026-08-03T14:47:09.576Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1945,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Keep reading the legacy signal as a fallback so old work still counts.md"]}
 {"ts":"2026-08-03T14:47:19.979Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2083,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Report the accounting change explicitly instead of folding it into the counts.md"]}
+{"ts":"2026-08-03T14:47:30.774Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1628,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
