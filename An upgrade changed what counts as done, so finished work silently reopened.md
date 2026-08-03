@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Migrate the old accounting into the new ledger on first run, and record that it happened]]
+[[Keep reading the legacy signal as a fallback so old work still counts]]
 
 Same vault, same instant, two versions of the tool: one reported 9 items outstanding, the other 27. Nothing about the vault had changed. The newer build decided done-ness by reading a state ledger the older one never wrote, so every item mapped under the old accounting silently re-opened as unfinished work.
 
