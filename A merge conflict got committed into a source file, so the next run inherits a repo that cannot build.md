@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[A conflict marker cannot reach a commit, because the hook that would allow it refuses]]
 [[A run checks that the tree it inherited actually builds before it plans any work on it]]
+[[No agent resolves a conflict it did not create; the merge is handed back to a human]]
 
 Something resolved a merge badly and committed the result, conflict markers and all, into a source file. Whatever ran next did not inherit a disagreement to settle — it inherited a repository that does not compile, and had to stop and ask a human how the wreck should be cleaned up before it could begin the work it was actually started for.
 
