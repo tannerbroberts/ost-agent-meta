@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Installation runs the helper's own preflight and refuses to install what cannot run here]]
 [[Helpers are written against the lowest version actually present, and a check enforces it]]
+[[Ship the helper with its own runtime rather than borrowing the machine's]]
 
 I installed a helper into my own path, and it does not work on my own machine. Not because the machine is unusual — because the script was written against a shell one major version newer than the one that actually ships here, and nothing between writing it and running it compared the two.
 
