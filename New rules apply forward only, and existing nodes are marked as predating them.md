@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the last three tightenings and see whether the grandfathered backlog ever cleared]]
 
 A rule records when it came into force. Nodes created before that moment are not violations; they are marked as predating the rule, and the check reports them in a separate class from things that broke it. A tightening produces a clean gate and a visible backlog, rather than a red gate the operator learns to ignore.
 
