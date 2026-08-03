@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Put two vaults on one machine and see whether the upward search picks the right one]]
 
 No file records the link. Instead every tool that wants the vault looks for it the same way version control finds its own root: search the current directory and then upward for a directory with the vault's recognisable shape, and use the first one found. The connection is derived at the moment it is needed rather than stored.
 
