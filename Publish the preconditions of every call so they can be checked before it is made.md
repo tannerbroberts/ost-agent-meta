@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Try to express every refusal this tool can issue as a precondition, and count the ones that resist]]
 
 Every refusal a tool can issue is expressible as a condition over things knowable in advance — this parent exists, this layer may sit under that one, this source has earned at most this rung, this heading is reserved. Publish those conditions as data the caller can read and evaluate before composing a call, rather than discovering them one refusal at a time.
 
