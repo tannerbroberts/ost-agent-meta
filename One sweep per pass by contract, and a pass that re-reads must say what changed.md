@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Read past re-reads and judge how many caught something the caller did not already know]]
 
 Make the expectation explicit in the ruleset the pass follows: read the sweep once at the start, work from it, and re-read only at the end to confirm. A pass that wants an extra read states what it did that could have changed the answer. The discipline is written down rather than left to judgement, and departures from it become visible in the record.
 
