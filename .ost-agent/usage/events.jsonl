@@ -560,3 +560,4 @@
 {"ts":"2026-08-03T18:11:24.129Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1842,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
 {"ts":"2026-08-03T18:11:26.383Z","tool":"ost_next_work","ok":true,"ms":30,"surface":"mcp","argBytes":2,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
 {"ts":"2026-08-03T18:13:17.286Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2227,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683","wrote":["My unattended run stops at a prompt that assumes a person is sitting there.md"]}
+{"ts":"2026-08-03T18:13:38.377Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2378,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683","wrote":["I repeat one shell mistake five times in a session, because the first failure never said it was a class.md"]}
