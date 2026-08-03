@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Generate near-miss suggestions for past failures and count how many point at the right thing]]
 
 When a path does not exist, do not stop at saying so. Report how far down the path was valid, what is actually present at that point, and the closest match if there is an obvious one. `/Users/tanner/dev/ost-agent-meta: no such directory — /Users/tanner/dev exists and contains OST-Agent, ost-benchmarks; did you mean /Users/tanner/ost-agent-meta?`
 
