@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Ask ten buyers what happened the last time a tool they relied on shut down]]
 
 The differentiator is the artefact, not the reasoning. What this produces is a folder of Markdown with wikilinks and a git history — readable in Obsidian, greppable, diffable, reviewable in a pull request, and entirely intact if the tool disappears tomorrow. A funded competitor's tree lives in their database and leaves as an export, if it leaves at all.
 
