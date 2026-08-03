@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Offer a maintained tree at a stated monthly price to ten teams and count who asks for terms]]
 
 The unit is a living discovery record for one product, kept current: evidence mapped as it arrives, opportunities kept laddered, solutions kept compared, assumptions kept surfaced, and everything stale flagged. Priced per tree per month. What the customer buys is the state of the artefact, and what they stop paying for is the artefact going stale.
 
