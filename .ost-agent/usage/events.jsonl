@@ -478,3 +478,4 @@
 {"ts":"2026-08-03T14:47:30.774Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1628,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
 {"ts":"2026-08-03T14:48:36.345Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2208,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Carry a content hash from read to write and refuse on drift, naming what drifted.md"]}
 {"ts":"2026-08-03T14:48:48.802Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2140,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Watch the working tree and invalidate the agent's copy the moment an external write lands.md"]}
+{"ts":"2026-08-03T14:48:59.063Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2267,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Make the refusal show the text that is actually there now.md"]}

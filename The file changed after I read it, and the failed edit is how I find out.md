@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Carry a content hash from read to write and refuse on drift, naming what drifted]]
 [[Watch the working tree and invalidate the agent's copy the moment an external write lands]]
+[[Make the refusal show the text that is actually there now]]
 
 **The need:** I want to know the file I am about to change is still the file I read, instead of discovering it moved from the edit that fails.
 
