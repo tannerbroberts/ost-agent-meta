@@ -4,6 +4,143 @@
 below under History, so this file only ever grows.** A reading of what the tree
 implies, not a decision. Promotion, killing, and validation stay human.
 
+_Last rewritten: 2026-08-03 (autonomous bootstrap loop, fiftieth pass)._
+
+---
+
+## 0. Before acting on anything here, re-fetch both repos and re-read this file
+
+**Thirty-sixth straight pass (15th–50th) with no `ost_*` MCP tools** on this
+remote-routine session — `ToolSearch` for `ost_*` tool names, and `ListPlugins`
+(empty results, no ost-agent plugin listed at all) both confirmed it again.
+Structural, not a regression; nothing new to add beyond the count.
+
+**This pass runs roughly 54 minutes after the forty-ninth's own commit —
+almost exactly the forty-eighth pass's own 53-minute record, not the
+forty-ninth's 58.** `origin/main` is `23bd467` for `OST-Agent` (unchanged) and
+`6a8658c` for `ost-agent-meta` (the merge of the forty-ninth pass's own
+commit, PR #36) — `git fetch` on both repos this pass returned no commits
+beyond that. No new GitHub issues or PRs on either repo (`#1` on `OST-Agent`
+re-confirmed open, unrelated, unchanged since 2026-07-23; zero open PRs on
+either repo; `ost-agent-meta` still zero open issues and zero open PRs;
+`OST-Agent`'s last 5 CI runs on `main` all green, most recent
+2026-08-03T03:37Z, unchanged). Channel timestamps are unmoved
+(inbox/friction/transcript/usage all still last delivered
+2026-08-02T13:22–13:30Z); against this pass's ~13:28Z `channels` call that
+is **~24h stale**, up from ~23h at the forty-ninth pass — an eleventh
+consecutive zero-commit reading, continuing the same linear climb.
+
+**This pass holds silence again — nothing new since the forty-ninth's own
+call.** The forty-sixth pass's re-escalation is now roughly **four hours**
+old (the forty-ninth pass's own "roughly three hours" plus the ~54 minutes
+since), but there is still no commit, issue, PR, or channel activity beyond
+the elapsed-time count itself. Re-notifying now would be noise on noise, for
+the same reason the forty-seventh through forty-ninth passes already gave. A
+later pass finding several more hours of continued silence should weigh
+re-escalating again then; this pass has no new fact to justify it now.
+
+```bash
+git -C OST-Agent      fetch origin main && git -C OST-Agent      log --oneline -3 origin/main
+git -C ost-agent-meta fetch origin main && cat ost-agent-meta/.ost-agent/NEXT-BUILD.md
+```
+
+**Both designated branches (`claude/zen-cray-xfeqwc`, `claude/zealous-babbage-xfeqwc`)
+were already at parity with `origin/main` at checkout** — same effect as the
+standing merge-then-delete flow's restart, so no separate `checkout -B` was
+needed this pass.
+
+**`npm install` was needed in `OST-Agent` again this pass** — `node_modules`
+was empty in this session's fresh checkout, same as every pass since the
+fifteenth. Expected; not a regression.
+
+**Tags unchanged, still topping out at v0.19.1; `package.json` remains at
+`0.23.0`** — unchanged since the thirty-seventh pass.
+
+**`OST-Agent` carries one open issue (#1, adopting a foreign-format vault)** —
+pre-existing, unrelated to this pass's blocker, unchanged, re-confirmed via
+`mcp__github__list_issues` this pass. Zero open PRs on `OST-Agent`.
+`ost-agent-meta` carries zero open issues and zero open PRs, and has no CI
+configured (zero workflow runs on `main`).
+
+## What changed since the last briefing
+
+**Nothing built in the tree by this pass — same structural reason as every
+pass since the fifteenth: no `ost_*` MCP tools on this surface, so no
+mapping, ideation, or re-ranking, only the CLI.** What this pass did:
+
+- **Ran the gates in `OST-Agent`.** `npm install` (needed), `npx tsc --noEmit`
+  (0 errors), `npx vitest run` — **144 files, 1611 tests, all green**,
+  matching the forty-ninth pass's count exactly (no drift). Did not re-run
+  `npm run bundle` / `npm run gen:skill` — this pass touched no `src/` file,
+  so there is nothing for either to regenerate.
+- **Re-ran `status`/`debt`/`check`/`channels` against the vault** — **276
+  nodes, unchanged from the forty-ninth pass**, 0 violations, all 6
+  channels live and none past their own declared cadence (none declare one)
+  — staleness now ~24h, see section 0.
+- **Checked GitHub state on both repos and found no new facts** — no new
+  issues, PRs, or commits beyond what the forty-ninth pass already
+  recorded; `OST-Agent`'s CI on `main` is green across its last 5 runs.
+- **Held silence rather than re-escalate.** See section 0: the forty-sixth
+  pass's notification is roughly four hours old, but nothing has happened
+  in the 54 minutes since the forty-ninth pass already made the same call.
+  Re-notifying this soon would repeat, not add to, what was already sent.
+
+**`ost-agent check` and `status` before and after this pass: 0 violations, 276
+nodes, unchanged by this pass** — this pass touched no tree node, only this
+file.
+
+## 2. The next build
+
+**Unchanged from the forty-ninth pass: the highest-leverage build is still
+the one this surface cannot make** — a human enabling the `ost-agent` MCP
+server/plugin for scheduled remote-routine sessions, at the environment
+level, not via another repo commit. Four prior passes (the fourth through
+eighth of this run) already tried the repo-commit path and it does not reach
+this surface (`CLAUDE_CODE_REMOTE_SKIP_SETTINGS_SYNC=1` skips it by design).
+
+**Still under a standing do-not-build:**
+[[Ship a starter vault whose outcome is a placeholder the human must replace]] —
+unchanged.
+
+## 3. The highest-information action
+
+**Talk to the warm n=1 participant. Forty passes now, never actioned by
+this surface** — the local loop cannot action it either; it is a human
+conversation, not a tool call.
+
+This vault: **276 nodes, 0 at `observed`, `stated`, `expert` or `money`** —
+unchanged from the forty-ninth pass. The sibling vault's count (18 nodes,
+zero from a customer) is carried forward unverified — this session had no
+`tetrix-ost` checkout to re-check it against.
+
+## 4. The bias in this pass, declared
+
+**This pass's one live judgment call was the same shape as the forty-ninth's:
+whether 54 minutes since the last silence-holding pass is long enough to
+justify a fresh look at re-escalating.** It is not — 54 minutes is shorter
+than any window a prior pass has treated as informative on its own. The risk
+in holding here is negligible: nothing suggests the operator would read a
+roughly hour-long gap between passes as an unexplained silence needing
+another ping. The larger judgment — when the *next* re-escalation is
+warranted, if the loop is still down — is left where the forty-ninth pass
+left it, for whichever future pass finds real elapsed time and continued
+silence together.
+
+---
+
+## History
+
+### Superseded 2026-08-03 — the fiftieth pass is now current
+
+<details>
+<summary>Forty-ninth pass (2026-08-03) — tenth consecutive zero-commit pass, holds silence 58 minutes after the forty-eighth's own call</summary>
+
+# NEXT BUILD — OST-Agent
+
+**Stable address. Rewritten at the end of every pass; superseded briefings are kept
+below under History, so this file only ever grows.** A reading of what the tree
+implies, not a decision. Promotion, killing, and validation stay human.
+
 _Last rewritten: 2026-08-03 (autonomous bootstrap loop, forty-ninth pass)._
 
 ---
@@ -125,11 +262,7 @@ warranted, if the loop is still down — is left where the forty-eighth pass
 left it, for whichever future pass finds real elapsed time and continued
 silence together.
 
----
-
-## History
-
-### Superseded 2026-08-03 — the forty-ninth pass is now current
+</details>
 
 <details>
 <summary>Forty-eighth pass (2026-08-03) — ninth consecutive zero-commit pass, holds silence 53 minutes after the forty-seventh's own call</summary>
