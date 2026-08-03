@@ -1,14 +1,15 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-compression.md'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Scheduled re-synthesis of the whole tree]]
 [[Staleness decay that surfaces nodes for refresh]]
 [[Attempt ledger of what was already tried]]
+[[A third of my calls go on re-asking what is outstanding]]
 
 **The need (customer's voice):** "It is good at finishing a task today and useless at being smarter about my product six months from now. Every run starts over — I am the only thing carrying continuity, and I forget."
 
