@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Ask ten buyers to split a test's price between designing it and running it]]
 
 The unit is one tested assumption: the risky belief named, the test designed small and fast, the threshold committed before it runs, the result recorded with what it failed to cover. Priced per test. A customer who buys nothing gets nothing, and a customer who buys ten has ten things they know that they did not know before.
 
