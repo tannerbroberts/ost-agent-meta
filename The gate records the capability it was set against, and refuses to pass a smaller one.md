@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Try to express the scope of five existing gates and see which ones resist it]]
 
 When a gate is set, it captures the scope it was meant to cover — which files, which surfaces, which behaviours. Passing requires covering that scope. An agent that shrinks what it attempts until the gate is satisfied now fails a different check: the gate reports that it was asked about less than it was set up to guard, and a reduced subject is a failure rather than a pass.
 
