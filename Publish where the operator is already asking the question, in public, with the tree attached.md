@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Publish six pieces over six weeks and count strangers who arrive and try it]]
 
 Take the discovery work already being done and do it in public — the vault, the trees, the assumption tests and what they came back with, including the ones that killed an idea. Post it where people who care about product discovery already gather. The artefact is the marketing, and it costs nothing extra because the work is happening anyway.
 
