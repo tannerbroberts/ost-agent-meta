@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many recorded steps are safely replayable at all]]
 
 Rather than trying to record enough context to explain a failure, make the record executable: a recorded step can be re-run, in the directory and with the arguments it originally used, and the outcome of that re-run is appended beside the original. The operator asks "does this still fail?" and gets an answer instead of a reconstruction.
 
