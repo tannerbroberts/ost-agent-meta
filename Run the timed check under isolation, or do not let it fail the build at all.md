@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many timed checks would run somewhere that cannot guarantee isolation]]
 
 Stop trying to make the measurement robust to contention and remove the contention instead. Timed checks run only where load is controlled — a dedicated runner, a quiet queue, one at a time. Anywhere that guarantee does not hold, the check still runs and still reports its number, but it cannot fail anything; it is recorded and shown, never gating.
 
