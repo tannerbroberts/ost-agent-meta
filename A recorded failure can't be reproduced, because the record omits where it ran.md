@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Snapshot the resolved environment, but only for the step that failed]]
 [[Replay a recorded failure in its recorded context on demand]]
+[[Refuse to record a step whose context could not be determined]]
 
 A health record showed a build step exiting 1 against a command that passes cleanly in its intended directory. The command was run from the home directory instead of the repo, so the test runner collected four repositories at once and failed. The record captured the command and the exit code faithfully and said nothing about the one variable that explained the result.
 
