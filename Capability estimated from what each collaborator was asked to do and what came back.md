@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the routing record and count how many work classes ever reached more than one collaborator]]
 
 **The mechanism:** capability is treated as an estimate the tree updates rather than a fact it collects. Every time work is routed to a collaborator the agent records the assignment, the class of work, and what came back — done, done-with-help, refused, abandoned, silently dropped. The profile is the running ledger of those outcomes, and it is always a claim about observed reliability at a class of work rather than a claim about a person.
 
