@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many existing rules would need a conditional to support two live versions]]
 
 A vault records the ruleset version it is on. Checks evaluate against that version, so a tightening published today does not retroactively fail a tree that has not adopted it. Adopting is an explicit act: the operator moves the version, sees exactly what newly fails, and does that work when they choose to.
 
