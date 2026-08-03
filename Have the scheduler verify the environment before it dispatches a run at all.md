@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Compare the scheduler's view of the environment against the run's]]
 
 Make readiness the scheduler's problem, not the pass's. Before firing a scheduled run, the thing that fires it confirms the vault is reachable and the required tools resolve; if not, it does not dispatch, and it reports the skip against the schedule rather than against the run.
 
