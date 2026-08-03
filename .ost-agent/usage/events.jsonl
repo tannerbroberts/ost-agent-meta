@@ -491,3 +491,4 @@
 {"ts":"2026-08-03T14:51:21.895Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2175,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Replay captured sessions to count how often a hash guard would refuse a good write.md"]}
 {"ts":"2026-08-03T14:51:32.678Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2338,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Classify every filesystem event in three real sessions as meaningful or churn.md"]}
 {"ts":"2026-08-03T14:51:44.382Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2183,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Check whether the near-miss text would have supplied the correction.md"]}
+{"ts":"2026-08-03T14:51:56.367Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1541,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
