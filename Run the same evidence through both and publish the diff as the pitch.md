@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Run one small corpus through both and have a blind reader say which tree they would act on]]
 
 Take one real corpus of customer evidence, put it through this tool and through each funded competitor, and publish all the trees side by side with the corpus. Let a reader see what each one made of the same material — where they agree, what one found that the others missed, and how many claims in each are backed by something a sceptic would accept.
 
