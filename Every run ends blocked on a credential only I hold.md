@@ -6,6 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[A broker holds the credential and answers scoped, audited requests from the run]]
 
 The unattended loop can do every part of a release except the one step that makes it real: publishing requires an auth secret that exists only on my machine. A run that ends 99% complete still lands on my desk.
 
