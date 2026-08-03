@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Classify the steps of ten past runs as credentialed or not, and see how much work sits upstream]]
 
 The run classifies its intended work by whether it needs the operator's secret. It does all the unsecured work first, to completion. Every action that needs the credential is described, queued, and presented at the end as a single list the operator approves or declines in one sitting.
 
