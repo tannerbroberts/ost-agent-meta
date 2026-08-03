@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Ask ten practitioners whether their own discipline has ever failed them, before naming any mechanism]]
 
 Answer the question by pointing at things a person with a chat model and a notes app cannot have, however disciplined they are. A gate that refuses to clear on a test nobody ran. An evidence ceiling enforced at the call, so a node cannot describe itself into a rung its source has not earned. A status value that does not exist, so nothing can mark its own work validated. A check that fails on a wikilink hard-wrapped across two lines.
 
