@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Show the operator ten forks already taken and count the reversals and the minutes]]
 
 **Where authority sits: taken by the run, returned at review.** The run does not stop and does not ask. It picks the fork, and in the same breath records three things: the assumption it proceeded under, what it would have done had the answer been otherwise, and what undoing this would cost now versus later. The human's job moves from answering questions to reviewing decisions already taken — and the reversal price is the number that tells them which ones to review first.
 
