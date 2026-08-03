@@ -11,6 +11,7 @@ evidence: assertion
 [[A degraded pass has its own name and is not allowed to report a clean run]]
 [[Having the vault is not the same as having the tools, and nothing points that out]]
 [[A scheduled run finds out its tools are missing only after it has started]]
+[[A helper I installed fails on my own machine's shell, and only running it says so]]
 
 **The need (operator's voice):** "I scheduled the same maintenance task I run by hand. Locally it has the full tool surface; on the scheduled surface it silently has none — and I only found out by reading a friction note five passes later. I want a run to tell me what it can actually do before it spends an hour proving it can't."
 
