@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Take ten past blocked runs and measure how much work sat independent of the block]]
 
 Reaching something only the operator can do is not a reason to stop. The run records what it needs, sets that item aside, and continues with everything that does not depend on it. The operator hears about the block when the run has exhausted its independent work, alongside everything that got done in the meantime.
 
