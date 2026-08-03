@@ -37,3 +37,23 @@ Twenty-two sessions were read in full this pass. Three refusals recur in a way t
 The pattern across all three is the same: **the refusals are well-written and each one is discarded when the call that provoked it ends.** Nothing in the loop converts a refusal into a constraint the next composition is checked against — the diagnosis this node already makes, now with a repeat count attached.
 
 _Source: `TRANSCRIPT:a615eb46-cc50-41a9-a77f-931c0dc67db0`, `TRANSCRIPT:b7aae32d-150a-462f-9027-cdf7af12badd`, `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68`, `TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18`, `TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1`, `TRANSCRIPT:e42cd03d-b2a4-44ba-989a-9e01cc368f77`, `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d`, `TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837` — observed behavior from the agent's own transcripts. Grounds usability, not demand._
+
+## Evidence — the blocked sleep-then-poll refusal, eleven sessions running
+
+Observed behaviour, captured mechanically from session transcripts. The identical refusal — a `sleep N` followed by a poll command, blocked with the advice to use `Monitor` with an until-loop or `run_in_background` — is hit fresh in eleven separate sessions across nine days. No session inherits the correction the previous one was given.
+
+- `TRANSCRIPT:0d27cebf-9b5d-4cff-906c-0134512573bc` — blocked twice in one session (`sleep 25`, then `sleep 60`)
+- `TRANSCRIPT:470cb94a-d709-43b1-85aa-dedd917ac866` — `sleep 240`, then `sleep 45`
+- `TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837` — `sleep 45`
+- `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` — `sleep 45`
+- `TRANSCRIPT:87a025f8-c6b0-474f-9a13-0b5ec5c922ea` — `sleep 30`
+- `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68` — `sleep 45`
+- `TRANSCRIPT:995b8ab1-5e55-4a5c-b05d-aaed9e1d7538` — `sleep 45`
+- `TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff` — `sleep 25`
+- `TRANSCRIPT:a615eb46-cc50-41a9-a77f-931c0dc67db0` — `sleep 25`
+- `TRANSCRIPT:b7aae32d-150a-462f-9027-cdf7af12badd` — `sleep 45`
+- `TRANSCRIPT:e335a680-ee48-4171-b8ad-4cfb526e4129` — `sleep 45`
+
+Ten of the eleven were the agent waiting on a CI check (`gh pr checks <n>`), which is the same want recorded under the sibling opportunity about waiting for a check it cannot subscribe to — but the need this evidence grounds is narrower and separate: the correction was delivered, in full, every single time, and was never once retained.
+
+Evidence class: observed behaviour of the agent's own usage. It grounds usability, not desirability, and is not outside-user evidence of want.
