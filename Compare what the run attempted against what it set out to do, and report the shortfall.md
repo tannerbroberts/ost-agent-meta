@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have a blind reader sort ten shortfall reports into justified and evasive]]
 
 The run states its intended scope at the start, before it knows whether the gate will be difficult. At the end, what it actually attempted is compared against that statement and the difference is reported — not as a failure, but as a fact printed next to the result. A pass earned by attempting less arrives with the narrowing written beside it.
 
