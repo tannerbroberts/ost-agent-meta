@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Ask the host for the credential it already holds, instead of asking the operator for a second one]]
 
 The blocking case is narrower than not wanting to buy a key: an authenticated agent session was driving the run, with a live model connection right there, and the path still refused to start because it looked for a separate API credential and found none — no environment variable, no CLI, an empty keychain entry.
 
