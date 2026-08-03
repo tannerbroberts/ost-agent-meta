@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[The tool surface offers the correct form so prominently that the failing form is not reached for]]
 
 I make a mistake, the tool tells me the mistake, and then I make the identical mistake four more times inside the same session. The correction arrives every time and lands nowhere, because what comes back reads as a fact about one command rather than a fact about a habit I am in the middle of repeating.
 
