@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[The buyer is the solo builder with no research function and no one to argue with]]
+[[The buyer is the PM who has to defend a roadmap to people who did not attend the interviews]]
 
 **The need (operator's voice):** "'Operator', 'teams doing discovery', 'stakeholders' and me-the-founder are used interchangeably across this tree. I cannot name a single person, role, or team who is the customer — so I can't tell which needs on this map are real for anyone but me."
 
