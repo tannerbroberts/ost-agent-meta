@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Census every source of new work in this vault and check which can be watched as an event]]
 
 The loop does not choose an interval at all. It finishes its work, registers interest in the things that could give it more — a file landing in a watched folder, a check completing, a human recording a result — and blocks. Something arriving wakes it. Nothing arriving costs nothing.
 
