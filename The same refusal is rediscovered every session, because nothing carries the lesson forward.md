@@ -7,6 +7,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[I repeat one shell mistake five times in a session, because the first failure never said it was a class]]
+[[Refusals are written back as a standing corrections file every session reads first]]
 
 Across at least six separate captured sessions the agent reached for the same shape — wait a while, then check on something — by writing `sleep 45` followed by a status command. Every time, the call was refused with the same message pointing at the right affordance. Every time, the agent adapted within the session. Every time, the next session started over and made the identical call.
 
