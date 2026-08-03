@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count past gate narrowings and judge how many were reasonable]]
 
 The scope of a gate is not something a run can touch. Narrowing it — excluding a file, skipping a case, relaxing a threshold — requires a human, and lands as its own commit with its own reason, separate from the work it would let through. The agent may propose a narrowing and may argue for it, and cannot perform one.
 
