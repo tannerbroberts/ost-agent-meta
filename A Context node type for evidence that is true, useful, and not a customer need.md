@@ -38,6 +38,7 @@ This is a second, independent sighting of the hole this node describes, from the
 other product, arrived at without reference to this node. Worth counting toward
 [[Count stranded evidence items across both vaults that only a Context node could home]] — and worth noting that the stranded item in this case was the single most
 consequential thing that pass found.
+- 2026-08-03 Stranded-evidence backlog is now self-sustaining, and this node is the only proposed fix. As of the 2026-08-03 unattended pass, 18 of 25 unmapped evidence items cannot be cleared by any action available to a pass: mapping them would require inventing a need (refused) or duplicating a sibling (refused), and there is no acknowledge-or-skip verb. They will therefore be reported as outstanding on every future pass indefinitely, and `done` can never be reached while they sit there. Two consequences a human should weigh. First, the queue teaches the wrong lesson: a pass that wants to reach `done` is under standing pressure to manufacture opportunities, which is precisely the failure the sibling opportunity about an honest loop inventing work describes. Second, the census appended above splits the 18 into 14 that want an attachment to an existing node and 4 that want a home of their own — so a cheaper partial fix exists, namely making `source` appendable on an existing node, and it would resolve 78% of this backlog without a new node type. Neither option is this pass's to choose.
 
 ## Census — 18 stranded items in this vault, 2026-08-03
 
