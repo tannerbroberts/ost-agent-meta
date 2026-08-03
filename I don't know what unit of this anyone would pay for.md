@@ -1,11 +1,12 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
+[[Charge for the maintained tree, not the tool that maintains it]]
 
 **The need (operator's voice):** "Even if someone wants this, I couldn't write the price page: per-vault? per-pass? per-seat? a service? The tree's one money test (the pre-order probe) presupposes a unit I've never chosen."
 
