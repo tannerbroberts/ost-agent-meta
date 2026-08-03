@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Try to confirm a tool surface without invoking any of it]]
 
 A pass states, up front and in one place, the tools it cannot work without. Before any reasoning, it checks that surface and — if the tools are absent — exits immediately with a named, distinctive failure rather than proceeding into work it cannot do.
 
