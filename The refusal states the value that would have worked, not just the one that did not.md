@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check whether naming the acceptable rung leads callers to take it without new grounds]]
 
 Since the tool knows enough to refuse, it usually knows enough to say what would have been accepted. A rung refusal names the highest rung this source can carry. A hierarchy refusal names the layers this parent will take. A reserved-heading refusal names the headings that are free. One round trip, and the caller has the answer rather than a diagnosis.
 
