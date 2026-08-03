@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Estimate charting cost for three past goals and check the estimates against what happened]]
 
 Before a goal is adopted, estimate what mapping it would take: how much evidence would have to exist, how many interviews, how long before the first branch could be acted on. Put that estimate next to the same estimate for the goal actually wanted. The operator then chooses with the gap in front of them, rather than discovering months later that they chose the cheap one without noticing there was a choice.
 
