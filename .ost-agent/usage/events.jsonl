@@ -507,3 +507,5 @@
 {"ts":"2026-08-03T15:30:45.697Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2556,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190","wrote":["Offer the deposit prompt and count who comes back a second time unasked.md"]}
 {"ts":"2026-08-03T15:30:56.057Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2332,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190","wrote":["Replay the routing record and count how many work classes ever reached more than one collaborator.md"]}
 {"ts":"2026-08-03T15:31:03.234Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190"}
+{"ts":"2026-08-03T15:31:05.364Z","tool":"ost_next_work","ok":true,"ms":29,"surface":"mcp","argBytes":2,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190"}
+{"ts":"2026-08-03T15:31:44.891Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":6417,"session":"mcp-3a2248a9-3709-484e-b4de-766a158ff190"}
