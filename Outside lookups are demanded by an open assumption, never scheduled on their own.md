@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many open assumptions in this tree could be moved by anything public at all]]
 
 Nothing searches on a timer. Instead, every open assumption that could be moved by public information carries the question it would need answered, and lookups are spent only against that list, cheapest question first. A finding enters the tree already attached to the thing it bears on.
 
