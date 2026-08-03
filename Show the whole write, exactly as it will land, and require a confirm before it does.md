@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have five authors preview a write they were about to make and count how many change it]]
 
 Every mutating call gains a preview form: it runs all the same checks, composes the exact bytes it would write, renders them, and stops. The write happens only on a second call carrying a token from the first. Nothing is written on the strength of an argument list alone.
 
