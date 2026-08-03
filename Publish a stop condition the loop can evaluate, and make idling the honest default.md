@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have two people independently label a full sweep's items as actionable or not, and compare]]
 
 The tree gains an explicit, computable answer to "is there anything worth doing right now?" — not a count of open items, but a predicate over them: work that is both outstanding and actionable by whoever is asking. A loop that evaluates it and gets false stops, reports that it stopped because there was nothing it could do, and costs nothing until something changes.
 
