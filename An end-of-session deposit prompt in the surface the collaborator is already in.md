@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Offer the deposit prompt and count who comes back a second time unasked]]
 
 **The mechanism:** the deposit channel announces itself at the moment the reasoning is still in the collaborator's head. When a session, a PR or a review closes, the collaborator is asked one question in the surface they are already using — no new tool, no separate site, no account — for the reasoning behind what they just did: what they considered and rejected, what they could not do and why, what they would have done with more room. The agent stores the answer verbatim and infers nothing.
 
