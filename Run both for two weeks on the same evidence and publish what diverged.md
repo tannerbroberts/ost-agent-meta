@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Have a second person run the hand arm, so the comparison is not built by its own author]]
 
 Take the same body of evidence and maintain two trees from it for two weeks: one by hand in Obsidian with a chat model, one through the tool. Then publish the differences — what each caught, what each missed, how many claims in each survive a sceptic, and how long each took. The answer to the question becomes a document rather than an argument.
 
