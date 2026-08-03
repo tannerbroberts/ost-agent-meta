@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check past failures against the snapshot fields before building the snapshot]]
 
 When a step exits non-zero, capture the context that decides whether it can be reproduced — working directory, resolved argv, the tool versions actually on `PATH`, the git SHA and dirty-file count, and the environment variables the step read — and attach it to that record. Successful steps record nothing extra.
 
