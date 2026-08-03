@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Every instance reports to a central telemetry inbox the meta-OST parses and ideates from]]
 [[Each instance publishes only its refusals and dead ends, and nothing about its subject]]
+[[Instances federate by exchanging trees with each other, with no centre at all]]
 
 **The need (founder's voice):** "Without automated feedback, I as a founder can't scale OST-Agents with my own compute, which I would like to do, which compute I already have ready to go. It's blocking progress if it's not built."
 
