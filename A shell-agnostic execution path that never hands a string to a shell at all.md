@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Take the harvested commands and count how many genuinely need a shell to do their work]]
 
 Commands are given as a program and a list of arguments, executed directly, with no shell between the caller and the process. There is no quoting layer to get wrong, no glob to be expanded by rules the caller did not expect, and no difference between what one shell does and what another does — because no shell is involved.
 
