@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Add the hook and check whether the commit paths a run actually uses all pass through it]]
 
 A pre-commit check scans staged content for conflict markers and refuses the commit outright. It is a handful of lines, it has no false positives worth speaking of, and it makes the specific state described here impossible to create.
 
