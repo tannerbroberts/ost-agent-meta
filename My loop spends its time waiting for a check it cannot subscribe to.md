@@ -35,3 +35,19 @@ Two further instances are the same instinct pointed elsewhere: `0d27cebf` also b
 The costed version, from the same records: `0d27cebf` carries a `Exit code 143 Command timed out after 2m 0s`, and `516fdfb8` and `5960b7ec` each carry `TaskOutput` retries with `block: true, timeout: 600000` — a ten-minute blocking wait, which is the same wait relocated to a tool that is permitted to hold it.
 
 _Provenance: sessions `0d27cebf`, `470cb94a`, `4ff7b605`, `516fdfb8`, `5960b7ec`, `87a025f8`, `97546e2f`, `995b8ab1`, `a0eb3fd4`, `a615eb46`, `b7aae32d`, `e335a680`. Appended as corroboration; the mapped ledger is unchanged, per the standing disposition rule recorded on the root._
+
+## Corroboration — twelve sessions, eleven distinct PRs (unattended sweep, 2026-08-03)
+
+This node was created from a single session. Twenty-two mechanically-captured sessions were read in full this pass, and **twelve of them contain this exact event**: the agent composed `sleep N && gh pr checks <PR>`, and the harness refused it with *"To wait for a condition, use Monitor with an until-loop … To wait for a command you started, use run_in_background"*.
+
+The sessions are `0d27cebf`, `470cb94a`, `4ff7b605`, `516fdfb8`, `5960b7ec`, `87a025f8`, `97546e2f`, `995b8ab1`, `a0eb3fd4`, `a615eb46`, `b7aae32d`, and `e335a680`. The PR numbers named across them are 9, 10, 12, 13, 14, 17, 18, 19, 22, 25 and 30 — **eleven distinct pull requests**. Two sessions did it twice; `0d27cebf` slept against a log tail and then against `gh pr checks 30`, and `470cb94a` slept 240 seconds against `git status` before sleeping 45 against `gh pr checks 13`.
+
+Three things make this stronger than a repeat count:
+
+1. **It is not confined to CI.** The blocked waits also targeted `tail` on a log file, `ls` on a workflow journal directory, and `git status --porcelain` — the same shape wherever the loop needs to know when something outside it finished.
+2. **The sanctioned path is also unsatisfying.** Session `516fdfb8` shows what happens when the agent does poll: `gh pr checks 17` exited 8 with `bundle-drift pass 14s` and `test pending 0` — a non-zero exit that means *not finished yet*, indistinguishable at the call site from a failure. The same session recorded three `TaskOutput` retries, each with `"block":true,"timeout":600000` — ten-minute blocking waits, re-issued.
+3. **The agent keeps reaching for `sleep` anyway.** Across eight days and eleven PRs it never internalised the refusal, which is the same shape as [[The same refusal is rediscovered every session, because nothing carries the lesson forward]].
+
+Sessions `fd2c6d71` (a bare `CronList` retry, its only friction event) and `92cc492d` point the same way.
+
+_Source: the twelve `TRANSCRIPT:` records named above, each read in full this pass — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not demand. Recorded as corroboration only; the node's rung is unchanged and promotion remains a human's call._
