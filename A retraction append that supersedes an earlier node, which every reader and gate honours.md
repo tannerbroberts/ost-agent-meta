@@ -1,0 +1,15 @@
+---
+type: Solution
+status: unvalidated
+created: '2026-08-03'
+evidence: assertion
+---
+#Solution #unvalidated #evidence/assertion
+
+Nothing is deleted; a later append declares an earlier node retracted, names the reason, and every consumer of the tree — the sweep, the gates, the duplicate scan, the counts — reads that declaration and excludes the node. The history stays complete and legible, and the live tree stops carrying the mistake.
+
+The vault already does a version of this: a `deferred` node is withheld from the duplicate scan while still counting toward every gate. Retraction is that mechanism made explicit and made total, so a node can be taken fully out of circulation without anything being lost.
+
+**Compared to the alternatives.** This is the only option that helps after the fact, which makes it the only real answer to the need as stated — preview and a wider refusal set both act before the write and do nothing for what is already on disk. The price is that every reader must be taught to honour retraction, and a reader that forgets is worse than no retraction at all, because the node now looks handled while still being counted.
+
+**What would make this the wrong pick.** If retraction is cheap to invoke, it becomes an undo button, and append-only stops meaning anything in practice. Who may retract, and on what grounds, is the design question — and it probably belongs to a human, not to the pass that made the write.
