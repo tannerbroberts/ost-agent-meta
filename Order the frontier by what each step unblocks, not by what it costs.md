@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Compute the unblocking order and compare it against what the builder actually picked up]]
 
 The tree computes, for every actionable item, how much else is waiting behind it, and presents the frontier in that order. The top of the list is whatever the most work is currently blocked on — not the cheapest thing, not the highest-scoring thing, but the one whose absence is costing the most elsewhere.
 
