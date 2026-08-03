@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the stored measurements and check whether they came from comparable conditions]]
 
 Keep the last N measurements of this gate and fail only on a departure from that distribution — a run slower than the recent spread rather than slower than a number chosen once. The bar moves with the machine, and a busy afternoon shifts the whole distribution rather than tripping the gate.
 
