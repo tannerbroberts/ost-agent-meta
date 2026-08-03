@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Charge for the maintained tree, not the tool that maintains it]]
 [[Charge per assumption test designed and run to a pre-committed threshold]]
+[[Charge nothing for the tool and sell the discovery engagement it produces]]
 
 **The need (operator's voice):** "Even if someone wants this, I couldn't write the price page: per-vault? per-pass? per-seat? a service? The tree's one money test (the pre-order probe) presupposes a unit I've never chosen."
 
