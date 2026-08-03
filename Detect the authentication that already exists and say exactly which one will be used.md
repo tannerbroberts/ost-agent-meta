@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[List what a detection probe would touch and have someone say whether they consent to each]]
 
 At startup, look for the credentials the operator already has — the CLI that is logged in, the environment variable that is set, the config file that exists — and report what was found and which one will be used, before anything needs it. If none will serve, say so then, naming the ones that were found and why each was rejected.
 
