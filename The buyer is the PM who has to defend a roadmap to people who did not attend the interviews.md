@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Ask ten PMs to recount the last time they were asked how they knew, and what they showed]]
 
 Aim at the product manager inside an organisation, whose problem is not knowing what to build but being able to show why. They are asked in a review why this opportunity and not that one, and the honest answer — a hundred hours of interviews and a judgement — does not survive contact with an executive who wants the reasoning. What they need is a traceable record where every claim points at the evidence under it and says how good that evidence is.
 
