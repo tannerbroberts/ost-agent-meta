@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay captured sessions to count how often a hash guard would refuse a good write]]
 
 Every read hands back a fingerprint of the file as it was. Every write presents that fingerprint. If the file has changed since, the write is refused with a message that says *the file changed since you read it* — not *your string was not found* — and names what moved.
 
