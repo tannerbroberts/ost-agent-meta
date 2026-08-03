@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Read back four weeks of spend and judge how much bought something worth having]]
 
 The operator sets a budget per day or per week. The loop tracks spend against it and stops when it is exhausted, regardless of how much work it believes remains. The limit is external to the loop's own judgement and cannot be argued with.
 
