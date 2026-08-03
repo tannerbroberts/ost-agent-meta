@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Interview ten solo builders about the last decision they made with nobody to check it]]
 
 Aim at the person building alone: a solo founder, an indie developer, a one-person product team inside a larger company. They have no researcher, no second opinion, and nothing between an idea and building it. What they lack is not intelligence about their market but friction — something that will not agree with them, will not let them mark their own guess validated, and will keep asking what the evidence actually was.
 
