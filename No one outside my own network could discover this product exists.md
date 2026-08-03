@@ -1,11 +1,12 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
+[[Publish where the operator is already asking the question, in public, with the tree attached]]
 
 **The need (operator's voice):** "If I stopped telling people about this personally, its discovery rate would be zero. 'Drive ~100 qualified visitors' appears in a test as if traffic were a given — I have no channel that produces even one."
 
