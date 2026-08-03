@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Lead with what this refuses to do, because the funded tools will not refuse it]]
 [[Compete on the vault being plain files the customer keeps, not a tree inside someone's product]]
+[[Run the same evidence through both and publish the diff as the pitch]]
 
 The by-hand comparison is no longer the sharp version of this question. A compute sweep of the public web found the category already productized: a vendor publishing 2026 guides on feeding an opportunity solution tree from always-on AI-moderated interviews, a free web tree builder, a newsletter piece on building one in a single click, and a wall of vendor SEO content on the niche's own terms. The question a prospect actually asks is why they would not use one of those.
 
