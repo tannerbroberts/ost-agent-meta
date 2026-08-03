@@ -527,3 +527,5 @@
 {"ts":"2026-08-03T17:07:26.810Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3292,"session":"mcp-52eda8c6-f76f-4f35-b3bc-3b99fc64c2d4","wrote":["Show the operator ten forks already taken and count the reversals and the minutes.md"]}
 {"ts":"2026-08-03T17:07:40.982Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":857,"session":"mcp-52eda8c6-f76f-4f35-b3bc-3b99fc64c2d4"}
 {"ts":"2026-08-03T17:07:52.518Z","tool":"ost_ingest_inbox","ok":true,"ms":2,"surface":"mcp","argBytes":2,"session":"mcp-52eda8c6-f76f-4f35-b3bc-3b99fc64c2d4"}
+{"ts":"2026-08-03T17:07:54.461Z","tool":"ost_next_work","ok":true,"ms":28,"surface":"mcp","argBytes":2,"session":"mcp-52eda8c6-f76f-4f35-b3bc-3b99fc64c2d4"}
+{"ts":"2026-08-03T17:08:35.524Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":7336,"session":"mcp-52eda8c6-f76f-4f35-b3bc-3b99fc64c2d4"}
