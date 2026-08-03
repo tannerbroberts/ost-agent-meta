@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check what would actually have to be redacted before a vault could live in a shared repo]]
 
 Put the tree in a directory of the project itself. It is committed with the code, branches with the code, reviews with the code in the same pull request, and cannot be lost, moved, or forgotten independently of it. The question of where the vault is stops having an answer because it stops being a question.
 
