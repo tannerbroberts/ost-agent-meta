@@ -492,3 +492,4 @@
 {"ts":"2026-08-03T14:51:32.678Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2338,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Classify every filesystem event in three real sessions as meaningful or churn.md"]}
 {"ts":"2026-08-03T14:51:44.382Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2183,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8","wrote":["Check whether the near-miss text would have supplied the correction.md"]}
 {"ts":"2026-08-03T14:51:56.367Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1541,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
+{"ts":"2026-08-03T14:52:39.274Z","tool":"ost_append_to_node","ok":true,"ms":3,"surface":"mcp","argBytes":5714,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
