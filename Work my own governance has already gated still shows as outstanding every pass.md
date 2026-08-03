@@ -6,6 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Split the outstanding list by who may act on it, and report only this actor's share]]
 
 Some opportunities in a tree are deliberately held: they carry an evidence-debt or prioritization gate written into their own bodies, saying in effect "do not ideate here until X". The outstanding-work counter cannot read that governance, so it reports the same seven items as needing solutions on every run, forever.
 
