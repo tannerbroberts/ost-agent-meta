@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check the deferred nodes for whether what killed them repeats by category]]
 
 Use the tree's own history instead of anyone's judgement. When a solution comes up for testing, find the solutions most like it that were deferred or abandoned, read what actually killed them, and require a test against that same class of assumption first. Risk is inferred from what has already gone wrong here rather than nominated by whoever is closest to the idea.
 
