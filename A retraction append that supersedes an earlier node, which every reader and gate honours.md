@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Audit every consumer of the tree for whether it would honour a retraction flag]]
 
 Nothing is deleted; a later append declares an earlier node retracted, names the reason, and every consumer of the tree — the sweep, the gates, the duplicate scan, the counts — reads that declaration and excludes the node. The history stays complete and legible, and the live tree stops carrying the mistake.
 
