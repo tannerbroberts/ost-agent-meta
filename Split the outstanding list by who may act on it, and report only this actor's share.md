@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Partition today's sweep by actor and see whether the unattended share is reachable]]
 
 The sweep partitions everything it finds by who is permitted to act. An unattended pass sees what an unattended pass may do. A human sees what needs a human. Nothing is hidden — both partitions are always available — but the default answer to "what is outstanding" is scoped to the asker's authority, and `done` is computed over that share alone.
 
