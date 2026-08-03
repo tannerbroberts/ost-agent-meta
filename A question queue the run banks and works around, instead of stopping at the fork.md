@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Blind-judge what could have continued, before reading the answer that was given]]
 
 **Where authority sits: unchanged.** The human still decides everything they decide today. What changes is that deciding stops being on the critical path of the run.
 
