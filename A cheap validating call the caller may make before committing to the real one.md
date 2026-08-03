@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check how often the caller knew to be uncertain before the call that failed]]
 
 Every mutating call gains a validate-only twin: identical arguments, every check run, nothing written, and a verdict returned. A caller unsure whether a composition will be accepted asks first. The round trip is still spent, but it is spent on a call that was never going to change anything, so a rejection costs nothing but latency.
 
