@@ -496,3 +496,4 @@
 {"ts":"2026-08-03T14:52:42.186Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
 {"ts":"2026-08-03T14:52:49.754Z","tool":"ost_next_work","ok":true,"ms":39,"surface":"mcp","argBytes":2,"session":"mcp-a9019fb2-c397-4ecb-a69f-1d21ba1384a8"}
 {"ts":"2026-08-03T15:07:26.728Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":6197,"session":"mcp-18d135ec-99e7-49fb-8d14-b0cfd18ffca0","wrote":["The log is the agent an event-sourced graph the whole tree is projected from.md"]}
+{"ts":"2026-08-03T15:07:51.201Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2737,"session":"mcp-18d135ec-99e7-49fb-8d14-b0cfd18ffca0","wrote":["Replay this vault's whole git history as events and see if the projection matches.md"]}

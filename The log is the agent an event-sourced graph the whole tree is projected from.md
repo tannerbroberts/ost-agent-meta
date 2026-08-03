@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #human-entered #architecture #activegraph #unvalidated #evidence/assertion
+[[Replay this vault's whole git history as events and see if the projection matches]]
 
 **Candidate solution (unvalidated). Entered by hand at the operator's direction, 2026-08-03 — not ideated by a pass.**
 
