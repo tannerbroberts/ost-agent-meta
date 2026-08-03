@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Write the migration for one past tightening and have a reader check it changed nothing's meaning]]
 
 A rule change is not allowed to land alone. It arrives with a migration that brings existing nodes into compliance where that can be done mechanically, and with a list — node by node — of the ones that cannot, each saying what a human would have to decide. The tree is never left in a state nobody has a plan for.
 
