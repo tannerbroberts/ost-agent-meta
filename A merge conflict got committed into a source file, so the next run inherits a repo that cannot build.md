@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[A conflict marker cannot reach a commit, because the hook that would allow it refuses]]
 
 Something resolved a merge badly and committed the result, conflict markers and all, into a source file. Whatever ran next did not inherit a disagreement to settle — it inherited a repository that does not compile, and had to stop and ask a human how the wreck should be cleaned up before it could begin the work it was actually started for.
 
