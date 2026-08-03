@@ -51,3 +51,11 @@ Three things make this stronger than a repeat count:
 Sessions `fd2c6d71` (a bare `CronList` retry, its only friction event) and `92cc492d` point the same way.
 
 _Source: the twelve `TRANSCRIPT:` records named above, each read in full this pass — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not demand. Recorded as corroboration only; the node's rung is unchanged and promotion remains a human's call._
+
+## Corroboration — a hand-rolled poll, refused as one command (unattended sweep, 2026-08-03)
+
+`TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9` records the wait in its most literal form: a Bash call of `sleep 45` followed by `gh run list --branch build-loop-and-reports --limit 5` and `gh pr view 33 --json mergeable,mergeStateStatus,statusCheckRollup`. A timer, a list, and a status read, stitched into one command because there is nothing to subscribe to — the session had to build its own polling loop out of `sleep`.
+
+It did not even get to wait: the call was blocked before it ran. So the session paid twice — once for having no subscription, and once for the workaround that absence forced it into.
+
+_Source: `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9`, read in full this pass — observed behavior from the agent's own transcript. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
