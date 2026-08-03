@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Ask five operators whether they would put their secret in a broker that acts for a run]]
 
 The operator hands the secret once, to a small local broker, and never to a run. A run asks the broker for a specific action against a specific target — push this branch, read this issue — and the broker performs it and returns the result. The run never sees the secret, and every request is logged with who asked, for what, and what came back.
 
