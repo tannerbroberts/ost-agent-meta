@@ -9,6 +9,7 @@ evidence: assertion
 [[An upgrade changed what counts as done, so finished work silently reopened]]
 [[New rules apply forward only, and existing nodes are marked as predating them]]
 [[A tightening ships with the migration that brings the existing tree with it]]
+[[The tree declares which ruleset version it was built under, and checks run against that]]
 
 Each new node-level requirement (a required field, a new invariant) instantly flags every node created before it, and the append-only design offers no compliant path to fix them: each frontmatter field needs its own purpose-built setter tool before an existing tree can comply. Every future required field hits the same wall.
 
