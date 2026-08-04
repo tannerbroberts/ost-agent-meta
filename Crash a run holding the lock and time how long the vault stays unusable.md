@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Recovery within 15 minutes in every scenario, and 0 cases of releasing a live
   lock.
+instrument: npx vitest run test/git/stale-lock-recovery.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that stale locks can be recovered safely. Every recovery polic
 **Why it is small.** A lock is a file. The scenarios are a handful of kills, and the measurement is elapsed time plus one correctness check.
 
 **What it will not cover.** A hung holder and a crashed one are indistinguishable from outside, and no policy resolves that. What this can establish is the cost of choosing wrongly in each direction, which is what a human needs to pick a timeout.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/git/stale-lock-recovery.test.ts — Drives a lock holder through the four kill shapes the node names — clean exit, hard kill, hung-but-holding, machine sleep — and asserts the node's own two bars: the vault is usable again inside fifteen minutes in every scenario, and recovery never releases a lock that is still genuinely held. It fails today because there is no vault lock and no recovery policy to exercise.
