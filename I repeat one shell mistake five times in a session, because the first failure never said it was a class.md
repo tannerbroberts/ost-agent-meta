@@ -47,3 +47,23 @@ The failures are three stable classes — zsh word-splitting on `==`, unquoted g
 A second surface shows the same shape and is worth noting here rather than as its own need: `TRANSCRIPT:516fdfb8-…` and `TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837` both submitted a Workflow script with TypeScript syntax in it and were told, twice, that the surface is plain JavaScript. Same structure — a surface whose constraint is learned only by tripping it, repeatedly.
 
 Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
+
+## Seven sessions of shell-dialect failures, and what class each belongs to
+
+Sorted from the transcript channel, the ad-hoc-shell failures across this vault's captured sessions fall into a small number of classes — which is the node's own claim, now enumerable:
+
+| Class | Instances |
+| --- | --- |
+| Unquoted glob with no match, refused by zsh rather than passed through | `TRANSCRIPT:8fc8d6e3-…` (`/Users/tanner/dev/ost*`), `TRANSCRIPT:5e5c119d-…` (same string), `TRANSCRIPT:516fdfb8-…` (`test/tmp*`) |
+| Comparison/test syntax that is not zsh's | `TRANSCRIPT:5e5c119d-…` (`==== not found`), `TRANSCRIPT:97546e2f-…` (`== not found`) |
+| Quoting or escaping that breaks the parse | `TRANSCRIPT:470cb94a-…` (`parse error near '\n'`, and `": invalid command code 2`), `TRANSCRIPT:92cc492d-…` (a bare double-quoted sentence taken as a command) |
+| Reaching for an interpreter's library that is not loaded | `TRANSCRIPT:748498c4-…` (`Undefined subroutine &main::pct called at -e line 1`) |
+| Output the shell cannot render back | `TRANSCRIPT:dcdaebdb-…` (`error: [Circular *1]`) |
+
+**Three of the five classes are one class.** Glob-with-no-match, `==` in `[ ]`, and the `\n` parse error are all the same underlying fact — the command was composed for bash and run under zsh — and each was discovered separately, by failing. A message that said *this is a zsh/bash dialect difference* rather than reporting the symptom would have covered nine of the eleven instances above.
+
+**What this adds beyond the node's existing framing.** The title says "five times in a session"; the captured data says the repetition is at least as much *across* sessions as within one, and the glob case recurs identically twenty-six hours apart in two sessions — recorded in full on [[The same refusal is rediscovered every session, because nothing carries the lesson forward]]. Both readings are true and they argue for different fixes: a classifying error message helps the reader who is present, and only a carried store helps the one who is not.
+
+**One caution on this table.** It is a hand-sort by the sweep that read the records, not a mechanical classification, so the class boundaries are a judgement and the count of nine-of-eleven rests on it. [[Group the harvested tool errors by hand and see whether one rule reproduces the grouping]] is the test that would settle whether the grouping survives contact with a rule.
+
+_Provenance: eight friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
