@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   All three resumed passes take the same next action the original took, with no
   work repeated and no state silently invented.
+instrument: npx vitest run test/loop/pass-resume-fidelity.test.ts
 ---
 #AssumptionTest #feasibility #unvalidated #evidence/assertion
 
@@ -16,3 +17,6 @@ threshold: >-
 **What counts as failure:** not just an error, but a resumed pass that quietly starts from a different understanding than the one that stopped. That is the expensive outcome and it will not announce itself, so the comparison has to be against what the original actually did next, not against whether the resumed pass looked healthy.
 
 Proposed by the agent; a human runs it and records the outcome.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/loop/pass-resume-fidelity.test.ts — The threshold — all three resumed passes take the same next action the original took, with no work repeated and no state silently invented — is settled against recorded state rather than against anyone's afternoon: the spec drives three passes to a wait, serializes the handoff record, starts fresh passes from that record alone, and asserts each one's next action matches the original's while re-doing nothing. It fails today because a pass has no handoff record to resume from.
