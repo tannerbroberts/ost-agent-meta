@@ -18,3 +18,13 @@ evidence: assertion
 
 ## Build
 Shipped 2026-07-24 at the operator's direction (repo commit 711898a: src/telemetry/usage.ts, src/adapters/usage.ts, 10 new tests, 186/186 passing, enabled by default). Built human-directed, outside this tree's ideate-then-test cadence — the evidence-debt gate would have blocked it; the human disposed otherwise. Status stays unvalidated until its assumption test shows the rollup carries decision-changing signal.
+
+## Definition of done
+
+[[Replay the hard-fix session's trace against its known defects]]
+
+```
+npx vitest run test/telemetry/trace-defect-replay.test.ts
+```
+
+Green means the trace retains enough that the hard-fix session's known defects are visible in it — the standard a trace has to meet to be worth its storage. It does not settle the defects nobody has named: a replay scored against known defects cannot report what the trace would have missed.
