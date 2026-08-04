@@ -7,6 +7,7 @@ threshold: >-
   On every surface the pass runs on, the full required tool list is confirmable
   without invoking any listed tool. A single surface where it is not fails the
   test.
+instrument: npx vitest run test/runner/tool-surface-preflight.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,6 @@ threshold: >-
 **Adjacent finding this test would produce for free:** an actual inventory of how the surfaces differ, which is direct evidence for [[The same agent has a different tool surface on every surface I run it on]].
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/runner/tool-surface-preflight.test.ts — The threshold is pass/fail per surface with no partial credit — the full required tool list must be confirmable without invoking any listed tool, on every surface the pass runs on — which a spec settles directly by asking the preflight to enumerate each supported surface and asserting the required list is confirmed with zero invocations recorded. It fails today because no preflight exists, so a missing tool is discoverable only by calling it.
