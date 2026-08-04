@@ -20,3 +20,13 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Audit both vault histories for rename-shaped link breaks]]
+
+```
+npx vitest run test/ost/rename-link-repair.test.ts
+```
+
+Green means every rename-shaped break in both vault histories is detected from topology alone and the edge repaired. It does not settle the false-positive side, which is where the risk sits: a node genuinely deleted and a node renamed leave similar traces, and repairing an edge to something that was meant to go away is a quieter failure than leaving it broken.
