@@ -14,3 +14,11 @@ This puts the cost on the author of the rule, who understands the change and kno
 **Compared to the alternatives.** The only option that actually resolves the backlog instead of labelling or deferring it, and it keeps a single standard across the whole tree. It is much the most work per rule change, and it will slow tightening down — which may be a feature, since it prices the disruption at the moment the decision is made.
 
 **What would make this the wrong pick.** Automatic migration is a bulk rewrite of a record that is supposed to be append-only. Even done carefully it changes what nodes say without a human reading them, and for a vault whose whole claim is a trustworthy history, that may be too much to hand to a script.
+
+## Test
+
+[[Write the migration for one past tightening and have a reader check it changed nothing's meaning]]
+
+`npx vitest run test/ost/tightening-migration-meaning.test.ts`
+
+Green when the migration takes a before-tightening tree fixture from red to green under `check` while leaving every node's prose byte-identical. That proves it moved structure, not wording — it does not prove meaning survived, because re-parenting a node changes what its unchanged words claim. The human reader still checks the nodes whose position moved.
