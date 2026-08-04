@@ -938,3 +938,4 @@
 {"ts":"2026-08-04T19:36:31.092Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":517,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
 {"ts":"2026-08-04T19:36:32.979Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":552,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
 {"ts":"2026-08-04T19:38:23.185Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":499,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
+{"ts":"2026-08-04T19:38:25.870Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":474,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
