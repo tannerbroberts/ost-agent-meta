@@ -18,3 +18,13 @@ evidence: assertion
 **Cost.** Small. A declared list and a startup check.
 
 ⚠️ Unvalidated. Agent-ideated from four consecutive observed failures, 2026-08-02.
+
+## Definition of done
+
+[[Check whether a toolless session can even run the tool check]]
+
+```
+npx vitest run test/config/toolless-preflight.test.ts
+```
+
+Green means the preflight survives the case that motivates it: a session with none of its tools present still gets told which ones are missing, rather than the check itself being one of the casualties. That is the whole feasibility question here, and it is the one a spec file can answer outright. Whether "loudly" is loud enough to reach an absent operator is a separate question this does not touch.
