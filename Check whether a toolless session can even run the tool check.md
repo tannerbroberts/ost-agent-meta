@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/config/toolless-preflight.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -17,3 +18,6 @@ evidence: assertion
 **What a result must also state.** Which placement worked, because that is the buildable artefact. Also whether placement (b) — instructing the session to check itself — held, since that is the cheapest and is also the one exposed to [[The agent narrows its own capability to get past a gate I set]].
 
 **Who runs it.** A human, or an attended session with scheduling rights. This pass proposes the design only.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/config/toolless-preflight.test.ts — Runs the declared-tools preflight in a session with none of the tools present and asserts it still reports which are missing rather than failing to run; fails today because no preflight exists.
