@@ -18,3 +18,17 @@ evidence: assertion
 **Compare against:** [[The vault carries the agent it runs, upgraded by an ordinary git pull]] removes the registry from the path entirely, and [[A push channel the operator subscribes to, applied at the next safe checkpoint]] moves the decision to the publisher's side. This one keeps the registry and keeps the operator passive.
 
 **Assumption it rests on:** that the registry is a path improvements actually travel down in practice, not just in principle. Tested by [[Replay the last ten releases and count how many a pull-at-start instance would have received]].
+
+## Definition of done
+
+[[Replay the last ten releases and count how many a pull-at-start instance would have received]]
+
+```
+npx vitest run test/release/registry-propagation-lag.test.ts
+```
+
+Green means at least 8 of the last 10 versions cut on `main` were resolvable from the registry within 24 hours of their commit. It is red today because nothing computes propagation lag and no registry snapshot is committed to score against.
+
+**This command can kill the solution rather than shape it, which is why it is the cheapest thing in this branch.** The assumption is not that an instance can resolve `@latest` — obviously it can — but that the registry is a path improvements actually travel down. This vault has already recorded the counter-evidence in passing, five passes running: `npm whoami` returning `ENEEDAUTH`, four releases cut and unpublished, `npx -y ost-agent@latest mcp` resolving to 0.9.0 while v0.10.0 through v0.13.0 sat on `main`. At 7 or fewer the candidate is killed rather than repaired, because the fix would be a publish credential and a release discipline — a different opportunity from this one.
+
+**What green does NOT settle.** It measures this project's own release discipline over one publisher and a ten-release window, not the registry's reliability in general. It also says nothing about the second half of this solution — whether *refusing to run* is the right response to detected skew is a judgement about unattended operation that no propagation number reaches.
