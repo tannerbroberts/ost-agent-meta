@@ -21,3 +21,6 @@ instrument: npx vitest run test/config/toolless-preflight.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/config/toolless-preflight.test.ts — Runs the declared-tools preflight in a session with none of the tools present and asserts it still reports which are missing rather than failing to run; fails today because no preflight exists.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/config/toolless-preflight.test.ts` — No test files found, exiting with code 1

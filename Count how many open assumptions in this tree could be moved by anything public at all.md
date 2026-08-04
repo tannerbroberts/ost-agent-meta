@@ -20,3 +20,6 @@ The assumption is that a useful number of open assumptions carry questions publi
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/web/public-movable-assumptions.test.ts — Classifies each open assumption by whether public material could move it, which is the count that decides whether demand-driven lookups have anything to serve; fails today because nothing labels assumptions by what could answer them.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/web/public-movable-assumptions.test.ts` — No test files found, exiting with code 1

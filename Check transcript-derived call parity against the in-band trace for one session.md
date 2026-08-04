@@ -22,3 +22,6 @@ instrument: npx vitest run test/telemetry/transcript-trace-parity.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/telemetry/transcript-trace-parity.test.ts — Asserts the calls recovered from a session transcript match the in-band trace for the same session, which is the parity this test asks for; fails today because nothing derives calls from a transcript to compare.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/telemetry/transcript-trace-parity.test.ts` — No test files found, exiting with code 1

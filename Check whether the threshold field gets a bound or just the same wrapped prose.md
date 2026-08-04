@@ -27,3 +27,6 @@ instrument: npx vitest run test/ost/threshold-field-bound.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/threshold-field-bound.test.ts — Asserts every threshold field parses to a bound with a comparator and a number rather than free prose; fails today because the field accepts any string, which is how tests carry thresholds nothing can fail against.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/ost/threshold-field-bound.test.ts` — No test files found, exiting with code 1

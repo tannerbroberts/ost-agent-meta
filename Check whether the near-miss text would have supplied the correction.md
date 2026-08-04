@@ -24,3 +24,6 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/mcp/refusal-shows-current-text.test.ts — Feeds the recorded failed edits in and asserts the refusal carries the text actually present now, and that it contains the correction; fails today because the refusal reports only that the match failed.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/mcp/refusal-shows-current-text.test.ts` — No test files found, exiting with code 1

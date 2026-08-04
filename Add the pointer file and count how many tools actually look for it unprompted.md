@@ -22,3 +22,6 @@ The assumption is that something will read it. A pointer nobody is required to l
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/config/vault-pointer-resolution.test.ts — Places the pointer file in a project root and asserts each vault-resolving entry point finds the vault from it with no path argument; fails today because no entry point reads such a file.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/config/vault-pointer-resolution.test.ts` — No test files found, exiting with code 1
