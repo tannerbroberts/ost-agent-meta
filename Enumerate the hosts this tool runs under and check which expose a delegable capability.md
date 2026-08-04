@@ -22,3 +22,11 @@ The assumption is that the hosts this tool actually runs under expose a way to a
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/security/host-credential-delegation.test.ts — The enumeration is bounded by this repository — the hosts it ships adapters and entry points for are committed, so the spec asserts that for each one the code either resolves a host-held credential or records that the host exposes none; it fails today because no host-credential path exists and every route still asks the operator directly.
+
+## What a green run does not settle
+
+The enumeration is bounded by what this repository ships, and that is both why it can be a spec and the limit of what it proves. A host nobody has written an entry point for is invisible to the count, so green means "of the hosts we support, here is the delegation story", never "here is what hosts in general expose".
+
+It is also a snapshot. Host capabilities change on someone else's release schedule, and a spec that passes today records what was true when it was written. Nothing in the assertion notices when a host adds or withdraws a delegable capability, which is exactly the event that would make this solution newly viable or newly broken.
+
+Most importantly it does not touch the question underneath the solution: whether an operator *wants* the run acting under a host-held credential rather than one they issued deliberately. A capability being technically delegable and being something anyone should delegate are different claims, and only the first is in scope here.
