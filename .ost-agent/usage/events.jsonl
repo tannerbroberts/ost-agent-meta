@@ -936,3 +936,4 @@
 {"ts":"2026-08-04T19:36:21.073Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2325,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692","wrote":["Count how many of the captured failures were a dropped intention rather than a wrong name.md"]}
 {"ts":"2026-08-04T19:36:28.848Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":537,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
 {"ts":"2026-08-04T19:36:31.092Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":517,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
+{"ts":"2026-08-04T19:36:32.979Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":552,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
