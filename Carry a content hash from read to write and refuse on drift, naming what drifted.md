@@ -16,3 +16,15 @@ Every read hands back a fingerprint of the file as it was. Every write presents 
 **Why the accuracy matters more than it looks.** Session `5960b7ec` recorded the tool exhausting its own guesses — *"Edit also tried swapping \uXXXX escapes and their characters; neither form matched, so the mismatch is likely elsewhere in old_string"* — and concluding the agent's string was wrong. If the file had drifted, that diagnosis sent the agent hunting in the wrong place.
 
 Distinguishing assumption: that reads and writes are close enough together in the loop for a fingerprint to survive between them. If the agent reads a file, does twenty minutes of other work, and then writes, the hash will be stale far more often than the content is genuinely contested, and constant false refusals would make it worse than nothing.
+
+## Definition of done
+
+[[Replay captured sessions to count how often a hash guard would refuse a good write]]
+
+```
+npx vitest run test/git/read-write-hash-drift.test.ts
+```
+
+Green means the guard refuses exactly the writes whose file moved under the read — the recorded `String to replace not found in file` failures, and the session where a concurrent writer had moved HEAD and touched fourteen files — and names what drifted rather than reporting a generic miss. The count in the test's own title is the thing to watch: a guard that also refuses good writes trades one interruption for another, and this command is what makes that rate visible instead of assumed.
+
+It does not settle what the caller should *do* on refusal, which is where the cost of being right actually lands.
