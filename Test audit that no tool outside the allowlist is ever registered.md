@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/security/allowlist-registration-audit.test.ts
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -17,3 +18,4 @@ _Proposal only — a human runs/reviews this. Unvalidated._
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-04 instrument: (none) → npx vitest run test/security/allowlist-registration-audit.test.ts — Enumerates every tool the runner registers and asserts each appears on the declared allowlist; fails today because no allowlist is declared as data to audit against.
