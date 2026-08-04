@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 7 of the 10 most recent recorded failures are fully explained by
   working directory, resolved argv, tool versions and git SHA alone.
+instrument: npx vitest run test/telemetry/failure-context-coverage.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ threshold: >-
 **What a result here does not settle.** It says nothing about whether operators would *trust* an enriched record enough to stop re-running by hand — that is the desirability question, and it belongs to a different test.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/telemetry/failure-context-coverage.test.ts — The threshold — at least 7 of the 10 most recent recorded failures fully explained by working directory, resolved argv, tool versions and git SHA alone — is scored against committed material: the spec carries the ten failures with what actually explained each, asks whether the four snapshot fields would have carried that explanation, and asserts at least seven come back fully explained. It fails today because nothing captures the four fields at failure time and no labelled failure set is committed to score against.
