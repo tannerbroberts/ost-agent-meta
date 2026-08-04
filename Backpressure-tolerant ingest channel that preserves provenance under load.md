@@ -18,3 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Test
+
+[[Load the ingest channel at ten times observed peak and check provenance survives]]
+
+`npx vitest run test/adapters/ingest-backpressure-provenance.test.ts`
+
+Green when ten times the recorded peak flows through with every source id and timestamp intact and nothing dropped or double-captured. A multiple of *this* vault's load, in one burst, with well-formed records — it does not cover many sources arriving at once, and it never presents the malformed item on which provenance is most likely to be lost.
