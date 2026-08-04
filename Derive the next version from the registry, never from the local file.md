@@ -18,3 +18,13 @@ evidence: assertion
 **Cost.** Small. One registry query and one `git ls-remote --tags` in the release script.
 
 ⚠️ Unvalidated. Agent-ideated from one observed near-miss, 2026-08-02.
+
+## Definition of done
+
+[[Replay every past release against a registry-derived number]]
+
+```
+npx vitest run test/release/registry-derived-version.test.ts
+```
+
+Green means no past release, replayed, would have chosen a number already published — including the collision that put two trains on the same version. It settles the derivation and nothing about availability: a registry that is unreachable at release time is a failure mode this command cannot produce, and it is the one that matters when the derivation is load-bearing.
