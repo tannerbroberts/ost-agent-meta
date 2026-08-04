@@ -831,3 +831,5 @@
 {"ts":"2026-08-04T18:21:53.330Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":673,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
 {"ts":"2026-08-04T18:21:56.242Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":661,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
 {"ts":"2026-08-04T18:21:59.966Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":800,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
+{"ts":"2026-08-04T18:22:20.476Z","tool":"ost_next_work","ok":true,"ms":41,"surface":"mcp","argBytes":2,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
+{"ts":"2026-08-04T18:22:48.183Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1691,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709","wrote":["Every forced choice carries an open field, and a written answer is first-class.md"]}

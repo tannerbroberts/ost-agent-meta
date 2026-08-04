@@ -5,6 +5,7 @@ created: '2026-08-04'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Every forced choice carries an open field, and a written answer is first-class]]
 
 When the run stops to ask me something, the choice it offers me is not the choice I am actually facing. I cannot pick an option, so I reject the question and explain what it should have asked. It asks again, sharper but still wrong, and I reject it again. The decision itself took me a second; getting the run to accept it took three exchanges.
 
