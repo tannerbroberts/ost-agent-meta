@@ -7,6 +7,7 @@ threshold: >-
   At least 70 of the last 100 commits and 20 of the last 30 PRs must carry both
   an identifiable author and a body specific enough for a reader to name one
   capability that author exercised. Below 50 of 100 kills the candidate.
+instrument: npx vitest run test/product/committed-capability-profile.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,6 @@ threshold: >-
 **Why this one first:** it is the cheapest disconfirmer of the three candidates under this opportunity. It is purely retrospective, runs against state already in the repo, and a refuted result tells the tree to stop ideating artifact-archaeology variants before any of them is built.
 
 **What it deliberately does not cover:** whether a profile built from the legible subset would change any routing decision. That is the value question and this test is silent on it. It is also silent on the candidate's stated chief risk — that exercised capability understates real capability — because no reading of the record can detect what the record does not contain.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/product/committed-capability-profile.test.ts — Reads the committed history and asserts what share of it yields a named builder capability; fails today because nothing derives a capability profile from commits.

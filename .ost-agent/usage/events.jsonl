@@ -814,3 +814,4 @@
 {"ts":"2026-08-04T18:17:16.367Z","tool":"ost_read_tree","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
 {"ts":"2026-08-04T18:20:50.693Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2463,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709","wrote":["Answering one question costs me three turns, because I have to fix its options before I can reply.md"]}
 {"ts":"2026-08-04T18:21:08.100Z","tool":"ost_set_instrument","ok":true,"ms":3,"surface":"mcp","argBytes":385,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
+{"ts":"2026-08-04T18:21:09.940Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":331,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
