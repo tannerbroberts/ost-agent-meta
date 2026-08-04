@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass-2'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/git/dead-end-scan.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,6 @@ evidence: assertion
 **The number that decides between siblings, not just about this one.** Count how many of the confirmed dead ends were *also* visible in that session's transcript. Any found here and not there is the candidate's real claim; if every one of them was in the transcript too, this mechanism is a cheaper route to the same findings rather than a route to different ones, and it should be judged on cost alone against [[A model reads the raw transcript and files what the pattern scan cannot see]].
 
 **Who runs it.** A human classifies. Nothing is built and nothing is written to the tree.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/git/dead-end-scan.test.ts — Runs the dead-end scan over the recorded commit range and asserts it flags the abandoned trails and not the live ones; fails today because no scan reads dead ends off the artifact trail.
