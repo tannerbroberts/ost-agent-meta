@@ -39,3 +39,29 @@ Six sessions stopped to ask a human a question. What the set shows is *what kind
 Three of the six already carried a "(Recommended)" option, which means the run had a defensible default in hand and stopped anyway. That is the sharper version of this need: the blocker is not that the run lacks an answer, it is that it has no way to act on its own default and leave the question on the record.
 
 Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
+
+## Eleven stops across nine sessions — and most of them had an answer ready
+
+Every `clarifying_question` event captured in this vault's transcript channel, with what was being asked:
+
+| Evidence | The question that stopped the run |
+| --- | --- |
+| `TRANSCRIPT:748498c4-…` | "Which environment should Vault 11 be?" — with a **(Recommended)** option |
+| `TRANSCRIPT:470cb94a-…` | "Should this turn ship the spec only, or also build the cheap ones?" |
+| `TRANSCRIPT:424486ec-…` | "Another process is writing to this repo right now… " |
+| `TRANSCRIPT:87a025f8-…` | whether an obsolete PR #3 should be closed |
+| `TRANSCRIPT:785ea509-…` | "How should the lineage prefix handle long node titles?" |
+| `TRANSCRIPT:785ea509-…` | "When a pass judges two nodes to be duplicates, what should happen to the loser?" |
+| `TRANSCRIPT:2c1b611a-…` | "How should metacognition sit relative to the external-returning-operators metric?" — with a **(Recommended)** option |
+| `TRANSCRIPT:dcdaebdb-…` | "Which rendering should I put in the script?" |
+| `TRANSCRIPT:9a406570-…` | "What does 'Print type' switch between?" |
+| `TRANSCRIPT:9a406570-…` | "Should the GitHub repo be public or private?" |
+| `TRANSCRIPT:35566d8b-…` | "What does 'Print type' switch between?" (same question, later session) |
+
+**The observation that bears hardest on this node.** At least two of these stops shipped with the agent's own preferred option already marked *(Recommended)*. The run had a defensible answer, wrote it down, and stopped anyway. Whatever the right policy is, these are not cases where the run lacked a view — they are cases where having a view was not sufficient to continue, which is precisely the design question [[Bank each question, proceed on a stated default, and present the banked set at the end]] and [[A question queue the run banks and works around, instead of stopping at the fork]] are competing to answer.
+
+**Not all of them are alike, and the node should not pretend otherwise.** "Should the GitHub repo be public or private?" is irreversible and outward-facing; "Which rendering should I put in the script?" is a formatting choice reversible in one edit. Any rule that defaults the second must not default the first — which is the sorting [[Sort the observed prompts into safe-to-default and must-stop, and see whether a rule separates them]] proposes, and this table is now the corpus it would run against.
+
+**One event is worth more than the other ten.** In `TRANSCRIPT:785ea509-…` a `clarifying_question` is followed immediately by a `permission_denied` on the same tool: *"The user doesn't want to proceed with this tool use… the user said: The user wants to clarify…"*. The human rejected the question rather than answering it. That is not this node's complaint — a stop that a person is present for — it is [[Answering one question costs me three turns, because I have to fix its options before I can reply]], and it is the first machine-captured instance of it, recorded there.
+
+_Provenance: eleven clarifying-question events across nine friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
