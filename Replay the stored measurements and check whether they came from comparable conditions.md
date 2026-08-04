@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Provenance is recoverable for at least 80% of measurements, and within-machine
   spread is under half the across-machine spread.
+instrument: npx vitest run test/telemetry/gate-condition-comparability.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that the history is comparable — same machine, similar condi
 **Why it is small.** Reading existing data, no new runs.
 
 **What it will not cover.** If the records do not say what machine they came from, the answer is that the history is unusable — which is a real and useful finding, and would redirect this toward the isolation option rather than refining the statistics.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/telemetry/gate-condition-comparability.test.ts — Replays the stored gate measurements and asserts each carries enough recorded context to judge comparability before it is used as a baseline; fails today because measurements are stored without the conditions they were taken under.
