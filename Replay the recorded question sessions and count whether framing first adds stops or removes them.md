@@ -1,0 +1,19 @@
+---
+type: AssumptionTest
+source: 'agent-ideated:2026-08-04-unattended-sweep-question-shape'
+created: '2026-08-04'
+evidence: assertion
+threshold: >-
+  Across every recorded session carrying a clarifying_question, the two-stage
+  form produces no more total operator turns than the one-stage form did.
+instrument: npx vitest run test/loop/two-stage-question-stop-count.test.ts
+---
+#AssumptionTest #unvalidated #evidence/assertion
+
+**Feasibility, and the arithmetic the solution depends on.** Framing first is only worth it if questions are rejected often enough that the saved three-turn failures outweigh the added second turn on every accepted question. That base rate is unmeasured, and the harvested transcripts already hold it: every `clarifying_question` event with its outcome — accepted, or `permission_denied` and re-asked.
+
+Count the total operator turns the recorded sessions actually cost, then count what the two-stage form would have cost on the same material, and compare. No new sessions, no recruiting.
+
+**Lane: compute-only.**
+
+**What this does not settle.** This is a replay against history, so it answers whether the trade would have paid off on questions this run has already asked. It cannot tell you whether framing first makes the operator's answers *better* — a shorter exchange that reaches the wrong decision is worse than a long one — and it cannot speak for question shapes that have not occurred yet.

@@ -5,6 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the recorded question sessions and count whether framing first adds stops or removes them]]
 
 Split the ask in two. The run first states what it is uncertain about in open form — "I don't know what the appended tests should be allowed to do to the build gate" — and lets the operator set the frame. Only then, with the frame in the operator's words, does it offer concrete options, which are now guesses inside a shape it did not invent.
 
