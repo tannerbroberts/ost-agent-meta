@@ -16,3 +16,13 @@ evidence: assertion
 **Where it is blind, and this is the sharp trade.** It can only see friction that touched a file. A pass that spent four hours reasoning down a wrong path and then wrote the right code leaves nothing to find; so does a wrong framing inside the OST itself, which is append-only and by design never reverts anything. It is also the only candidate here that produces no evidence for a discovery pass over a vault with no code repository at all — and per [[The agent has to guess what resources it's actually working with]], the product cannot assume there is one. Against that: it needs no model, no extra tokens, no credential, and no cooperation from the agent being observed, which makes it the only candidate that keeps working when the operator's compute budget is the binding constraint.
 
 ⚠️ Unvalidated. Agent-ideated during the 2026-08-02 maintenance pass. The three candidates under this opportunity are deliberately different mechanisms with different blind spots; they should be compared, not ranked on plausibility.
+
+## Definition of done
+
+[[Replay two hundred commits and count what a dead-end scan flags]]
+
+```
+npx vitest run test/git/dead-end-scan.test.ts
+```
+
+Green means the scan finds abandoned trails in the committed record without needing the session that produced them — the premise of reading dead ends off artifacts. It does not settle whether the dead ends worth knowing about *reach* the artifact trail at all: an approach abandoned before anything was committed leaves nothing here to find, and that is precisely the cheapest kind to abandon.
