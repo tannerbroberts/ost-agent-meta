@@ -765,3 +765,6 @@
 {"ts":"2026-08-03T18:43:01.579Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1326,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683","wrote":["List in two directories and measure installs against how far the listing was scrolled.md"]}
 {"ts":"2026-08-03T18:43:06.416Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1337,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683","wrote":["Deliver three free trees and count how many the recipient shows to someone else.md"]}
 {"ts":"2026-08-03T18:43:11.830Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
+{"ts":"2026-08-03T18:43:13.814Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":2,"session":"mcp-c5cb53cb-059d-4015-8b18-67e1f7d55683"}
+{"ts":"2026-08-03T20:22:22.156Z","tool":"ost_next_work","ok":true,"ms":40,"surface":"mcp","argBytes":2,"session":"mcp-f007e6e5-6408-4a30-9f8e-7d8d42d9df56"}
+{"ts":"2026-08-04T15:36:44.220Z","tool":"ost_ingest_inbox","ok":true,"ms":25,"surface":"mcp","argBytes":2,"session":"mcp-9a923e86-e2c2-4432-9065-20f5d0e99bcc"}
