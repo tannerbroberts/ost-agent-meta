@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   In at least 4 of the 6 captured Edit failures, the text at the intended site
   contains everything needed to compose a correct retry.
+instrument: npx vitest run test/mcp/refusal-shows-current-text.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ threshold: >-
 **What makes the result worth acting on immediately.** This is the cheapest candidate in its row — a change to a message, no new state — and [[Two thirds of my calls failed, and each one only told me after I made it]] reached the same recommendation from an unrelated channel. A pass here is close to a decision.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/mcp/refusal-shows-current-text.test.ts — Feeds the recorded failed edits in and asserts the refusal carries the text actually present now, and that it contains the correction; fails today because the refusal reports only that the match failed.
