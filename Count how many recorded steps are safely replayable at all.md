@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 60% of recorded steps from the last 30 days classify as
   side-effect-free by a fixed rule, with no case-by-case judgement.
+instrument: npx vitest run test/loop/replayable-step-share.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ threshold: >-
 **What it does not settle.** Whether an operator would close a failure on a replay result rather than re-running by hand anyway. That habit is the value this solution claims to recover and it needs a person to answer, which is why it is not folded in here.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/loop/replayable-step-share.test.ts — Applies the fixed read-only-verb allowlist the node insists be written before looking at the distribution to every recorded step from the last thirty days, counting steps needing a human decision as failures of the rule, and asserts the node's 60% bar. It fails today because no allowlist is committed and nothing classifies recorded steps for replayability.
