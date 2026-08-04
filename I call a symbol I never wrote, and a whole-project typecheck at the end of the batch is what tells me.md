@@ -6,6 +6,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Hand the run the project's symbol surface before it writes, not after it compiles]]
+[[Typecheck the files just touched, at the moment they are touched]]
 
 A run edits several files, then runs `npx tsc --noEmit` and learns that one of the edits referenced something that does not exist. The signal is correct and it is far too late: it arrives detached from the edit that caused it, after the rest of the batch has been written on top of the mistake.
 
