@@ -44,3 +44,14 @@ Evidence class: observed behaviour — machine-recorded trace of tool invocation
 
 ## Issues
 - 2026-08-03 Evidence-ladder mismatch, for a human to rule on. This node cites `USAGE:2026-08-02` and rests on `assertion`, because `ost_set_evidence` refused `observed` — the ladder recognises only `TRANSCRIPT:` provenance as a recording. But every `USAGE:` record states in its own body that it is a "mechanical rollup of the append-only tool-invocation trace. Computed, not composed: no agent narrated, selected, or summarized these numbers," and closes by declaring its own evidence class as "observed behavior — machine-recorded trace of tool invocations; no narrator." So the channel asserts it is a recording and the ladder ranks it as a claim from inside the building. One of the two is wrong. This pass took the refusal at face value and declared the weaker rung rather than routing around it, which is the correct behaviour under the rules but leaves a real measurement carrying the floor rung. A human should decide whether `USAGE:` earns recording status alongside `TRANSCRIPT:`; if it does, every node sourced from a usage trace is currently understated.
+
+## Corroborating usage traces (machine-recorded, no narrator)
+
+- `USAGE:2026-08-03` — 312 calls across 6 sessions: `ost_create_node` 237, `ost_next_work` 39, `ost_append_to_node` 15, `ost_ingest_inbox` 11, `ost_annotate` 6, `ost_read_tree` 4. p50 duration 1ms.
+- `USAGE:2026-07-25` — 108 calls across 3 sessions: `ost_create_node` 32, `ost_append_to_node` 25, `git_commit` 19, `ost_next_work` 17, `ost_annotate` 7, `ost_read_tree` 7.
+
+These two traces qualify the claim in this node's title rather than simply confirming it, and the correction is worth keeping. On 2026-08-03 the re-asking calls (`ost_next_work` + `ost_read_tree` = 43) are **14%** of the day, not a third, because that day was dominated by a large ideation burst. On 2026-07-25 the same two are **24 of 108, 22%**, against a much smaller write volume. So the fraction is not a constant — it rises as the ratio of writing to orienting falls, which means the cost lands hardest on exactly the passes that have little to write, i.e. the maintenance passes this loop runs most often.
+
+One further datum from `USAGE:2026-08-03`: the single failed call of 312 was an `ost_create_node` refused for declaring `observed` on a node whose sources support only `assertion` — the ladder's ceiling doing its job, and evidence that the refusal path is exercised in practice rather than theoretically.
+
+Evidence class is observed behaviour — a machine-recorded trace of tool invocations. It grounds the agent-tool loop, not external demand.
