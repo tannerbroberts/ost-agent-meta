@@ -6,7 +6,7 @@ evidence: assertion
 threshold: >-
   Every commit route a run uses is refused; at most 1 human-only route gets
   through.
-instrument: npx vitest run test/git/conflict-marker-hook-coverage.test.ts
+instrument: npx vitest run test/git/conflict-marker-guard.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,6 +23,7 @@ The assumption is that a local hook actually runs. Hooks live on one machine, ar
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/git/conflict-marker-guard.test.ts — The threshold is "every commit route a run uses is refused" — a spec that drives each commit route the tool itself takes (the auto-commit, a run's own git call, a merge, an amend) with conflict-marker content staged and asserts each is refused settles exactly that. It fails today because neither the guard nor the spec file exists.
 - 2026-08-04 instrument: npx vitest run test/git/conflict-marker-guard.test.ts → npx vitest run test/git/conflict-marker-hook-coverage.test.ts — Coverage of the commit paths is a property of committed code — enumerate every path in this repository that reaches a commit and assert each one is refused when the staged content carries a conflict marker; it fails today because the hook does not exist, so every path passes a marker straight through.
+- 2026-08-04 instrument: npx vitest run test/git/conflict-marker-hook-coverage.test.ts → npx vitest run test/git/conflict-marker-guard.test.ts — Restoring the instrument this test already carried. The previous line in this History replaced it in error — the test was taken from the `needsHumans` lane list, which every test in the tree sits in by default, and read as if it named an instrument gap. Nothing was wrong with `conflict-marker-guard.test.ts`, and the swap un-cleared whatever observation it held for no reason.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/git/conflict-marker-guard.test.ts` — No test files found, exiting with code 1
