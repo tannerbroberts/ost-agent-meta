@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Every consumer found is one that could honour the flag, and the total is at
   most 12.
+instrument: npx vitest run test/ost/retraction-consumers.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that retraction can actually be made total — that every plac
 **Why it is small.** It is a read of the codebase, needs no new code, and answers the question that decides whether the solution is buildable at all.
 
 **What it will not cover.** It says nothing about consumers added later, which is the real long-term risk — a reader written next year will not know retraction exists unless something enforces it.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/retraction-consumers.test.ts — The threshold — every consumer found is one that could honour the flag — is settled by a spec that plants one retracted node and asserts each node-reading path (check, debt, status rollup, duplicate scan, the sweep, each gate) excludes it, which turns "could honour" into "does honour". It fails today because retraction does not exist.
