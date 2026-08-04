@@ -6,6 +6,7 @@ source: >-
   session
 created: '2026-07-25'
 evidence: assertion
+instrument: npx vitest run test/telemetry/transcript-trace-parity.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ evidence: assertion
 **Decides:** whether the adopt-existing lane can replace instrumentation or only enrich it.
 
 *Proposed by the agent — to be run by a human. No results recorded here.*
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/telemetry/transcript-trace-parity.test.ts — Asserts the calls recovered from a session transcript match the in-band trace for the same session, which is the parity this test asks for; fails today because nothing derives calls from a transcript to compare.
