@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/loop/degraded-pass-reporting.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,6 @@ evidence: assertion
 **Standing caution recorded on this node.** The candidate was written by a pass that was itself the first non-degraded run in twenty-two. An agent proposing a self-honesty mechanism immediately after a long run of unflagged degraded passes is exactly the case this test exists to be skeptical about.
 
 **Who runs it.** A human. This pass proposes the design only.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/loop/degraded-pass-reporting.test.ts — Injects each degradation mode and asserts the pass reports itself degraded rather than clean; fails today because a degraded pass has no distinct name to report.
