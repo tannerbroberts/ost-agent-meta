@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/telemetry/work-units-vs-elapsed.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,6 @@ evidence: assertion
 **Likely outcome, recorded in advance so the result can contradict it.** The hybrid named in the solution — work count as the gate, elapsed time recorded as advisory — is expected to survive this test even if the pure form does not. A result showing poor correlation should be read as evidence for the hybrid rather than against the branch.
 
 **Who runs it.** A human, or an attended session with a build environment.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/telemetry/work-units-vs-elapsed.test.ts — Both quantities are produced by the suite itself — run a pass over vault fixtures of increasing size, record work units and elapsed milliseconds for each, and assert the two correlate above a committed bound while work units stay stable across repeated runs of the same fixture; it fails today because no work-unit counter exists to compare against the clock.
