@@ -8,6 +8,7 @@ threshold: >-
   registry within 24 hours of their commit. At 7 or fewer, the registry is not a
   path improvements travel down and the candidate is killed rather than
   repaired.
+instrument: npx vitest run test/release/registry-propagation-lag.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,3 +23,6 @@ threshold: >-
 **What a supported result would and would not license.** Supported means the registry carries releases promptly, so pull-at-start is worth building; it would say nothing about whether halting a stale instance is the right response to skew, which is a separate judgement about unattended operation. Refuted means the propagation problem is upstream of any mechanism on the instance side, and the tree should stop ideating instance-side pulls until publishing is solved.
 
 **What it deliberately does not cover:** the ten-release window is this product's own release history and one publisher. It measures this project's discipline, not the registry's reliability in general, and a future operator publishing their own fork would need their own reading.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/release/registry-propagation-lag.test.ts — The node states the answer is "entirely in git history and the registry's own version list", so the spec walks the last ten version bumps on `main`, resolves each against the committed registry version snapshot, computes the lag between commit and publish, and asserts at least 8 of 10 were resolvable within 24 hours. It fails today because nothing in the repository computes propagation lag and no registry snapshot is committed to score against.
