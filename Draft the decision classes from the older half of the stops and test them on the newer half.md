@@ -8,6 +8,7 @@ threshold: >-
   no new class invented, AND at least 4 of the 9 must land in a class that says
   compute may proceed. Below 4 covered, or fewer than 2 proceed-classed, kills
   the candidate.
+instrument: npx vitest run test/loop/authority-class-holdout.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,6 @@ threshold: >-
 **Cost.** Retrospective, over transcripts already committed to this vault. No build, no operator, no external party — a session with no human present can run it end to end, provided the drafting half is genuinely sealed before the held-out half is opened.
 
 **What it deliberately does not cover.** Whether the operator would sign the contract that comes out. A taxonomy can generalize beautifully and still describe a delegation nobody is willing to make, and no reading of past transcripts can answer that; it needs the person whose authority is being delegated.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/loop/authority-class-holdout.test.ts — Derives decision classes from the older recorded stops and asserts they classify the held-out newer stops, which is the holdout this test describes; fails today because no decision classes are committed to classify against.
