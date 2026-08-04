@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/telemetry/same-run-baseline-ratio.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,6 @@ evidence: assertion
 **And name the factor.** A result must state the smallest planted slowdown the ratio still catches. If the answer is "only a 3× regression," the ratio is not measuring anything worth gating on, and that finding should push toward [[Assert on work units instead of milliseconds]] regardless of whether the three scenarios technically passed.
 
 **Who runs it.** A human, or an attended session with a build environment. This pass proposes the design only.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/telemetry/same-run-baseline-ratio.test.ts — Replays the two recorded flakes and a planted regression against a same-run baseline ratio and asserts only the regression fails; fails today because the gate compares against the clock, so all three look alike.
