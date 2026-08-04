@@ -16,3 +16,13 @@ This is a generalization of a mechanism this vault already runs and already trus
 **Its chief risk: the classes may not carve the real questions.** The seventeen stops this tree has recorded are strikingly non-repeating — what happens to a published npm package, how to resolve a committed merge conflict, whether to close an obsolete PR, what the build loop does when the gate refuses a candidate. If real forks are mostly novel, a contract either stays so abstract that applying it is itself the judgement call, or stays so specific that it covers almost nothing and the run stops anyway. The second failure is safe and disappointing; the first is the dangerous one, because an abstract clause read generously by an eager run is indistinguishable from no contract at all.
 
 **A boundary it must not blur.** The one class that can never be delegated is the class the newest evidence lands in: a decision about the governance of the tree itself. A contract that lets compute rule on what the loop does when the gate refuses a candidate has delegated the gate.
+
+## Definition of done
+
+[[Draft the decision classes from the older half of the stops and test them on the newer half]]
+
+```
+npx vitest run test/loop/authority-class-holdout.test.ts
+```
+
+Green means classes drawn from the older recorded stops actually classify the newer ones — the holdout that distinguishes a contract from a post-hoc description of what already happened. It settles generalisation, not authority: whether the operator would *grant* the classes this exercise discovers is a consent question, and it is the one [[Ask five operators whether they would let a stated default stand while they are away]] goes after.
