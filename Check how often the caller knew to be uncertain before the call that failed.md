@@ -24,3 +24,11 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/telemetry/preflight-uncertainty-census.test.ts — The corpus this test asks about — every failed call, with what the caller did immediately before it — is already on disk in the captured usage and transcript records, so the count is a classifier over committed fixtures rather than anyone's afternoon; it fails today because neither the spec nor the classifier exists.
+
+## What a green run does not settle
+
+The command counts, over committed fixtures, how often a failing call was preceded by the caller showing it was unsure — a hedge in its own message, or a read issued before the write. That is the whole of what it answers.
+
+It does not answer whether a validating call would have been *made*. A caller that was demonstrably uncertain and still committed to the real call is evidence against this solution, not for it, and the census cannot distinguish the two without the dry-run path existing to be declined. It also says nothing about desirability or viability: nobody outside this project has asked for a validate-before-commit call, and the census will not produce that evidence however it comes out.
+
+One honest weakness in the bar. "Knew to be uncertain" is inferred from behaviour rather than observed directly, so the classifier's rule is a proxy chosen by whoever writes the spec. The rule must be committed in the spec file rather than tuned after seeing the count, or the number means nothing.
