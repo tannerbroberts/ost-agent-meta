@@ -14,3 +14,13 @@ Every failure in the evidence lives entirely in that layer. A comparison mispars
 **Compared to the alternatives.** Eliminates the class completely and permanently, which neither a counter nor a better affordance can claim, and it removes the whole surface rather than the cases anyone anticipated. It is also the most disruptive: pipelines, redirection, and expansion are genuinely useful and would each need an explicit replacement, and callers used to writing shell would have to stop.
 
 **What would make this the wrong pick.** A lot of real work is a pipeline. Rebuilding composition, redirection, and substitution above a shell-less exec means reimplementing a shell badly, and the second system will have its own quoting rules that people get wrong in new ways.
+
+## Definition of done
+
+[[Take the harvested commands and count how many genuinely need a shell to do their work]]
+
+```
+npx vitest run test/runner/shell-necessity-census.test.ts
+```
+
+Green means the harvested commands are partitioned into those that need a shell and those expressible as argv, and the argv path runs the latter with no shell involved. The recorded failures this is aimed at — `(eval):1: == not found` four times over, two `no matches found` globs, a `parse error near '\n'` — are all in the second class, so the census is the measurement that decides whether the whole path is worth building. It does not settle what happens to the commands that genuinely need a shell.
