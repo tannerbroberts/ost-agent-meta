@@ -63,3 +63,19 @@ Both `tool_error` events in `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9` ha
 Neither is a hard case. Both are knowable in advance and neither was knowable in advance *to the agent*, which is the whole claim: the cost is not that the calls failed, it is that the failure was the only channel through which the constraint was ever communicated.
 
 _Source: `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9`, read in full this pass — observed behavior from the agent's own transcript. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
+
+## Four more instances, and this time the refusal came from the harness rather than from this tool
+
+Read this pass from the transcript channel. All four have the node's shape — a constraint that was knowable in advance and was not knowable in advance *to the caller*:
+
+- `TRANSCRIPT:785ea509-…` — `Monitor` refused with `InputValidationError: … An unexpected parameter 'timeout' was provided`. The parameter was invented by the caller because the tool's schema was not in hand at the moment of composing the call.
+- `TRANSCRIPT:4ff7b605-…` and `TRANSCRIPT:516fdfb8-…` — `Workflow` refused twice, in two separate sessions, with `Script parse error: Unexpected token`, and both times the error volunteered the cause: *"Workflow scripts must be plain JavaScript — common causes are TypeScript syntax (type annotations, interfaces, generics)"*. The script had to be written in full and submitted before anything said which dialect it had to be in.
+- `TRANSCRIPT:fd2c6d71-…` and `TRANSCRIPT:516fdfb8-…` — `CronList` and `TaskOutput` re-issued with byte-identical arguments (`TaskOutput` three times on `task_id: w1ruwr8ip`). Not refusals, but the same underlying gap read from the other side: nothing distinguished "this returned nothing because there is nothing" from "this returned nothing yet".
+
+**Why the `Workflow` pair is the sharpest of the four.** The cost is proportional to the work discarded, and a workflow script is the largest single artifact in this list — one of the two failures reports the token at line 172. A refusal that arrives at submission time charges the full price of composing the thing before saying which language it should have been in. The `Monitor` case charges one call; this charges a script.
+
+**The generalisation, which is new to this node.** Every instance recorded here before now was a refusal issued by `ost-agent` itself — its own ladder ceilings, its own `no such node`. These four come from the surrounding harness, and they behave identically. That matters for scoping any fix: [[Publish the preconditions of every call so they can be checked before it is made]] can only ever cover this product's own surface, so it would have caught none of these four. Whatever fraction of the cost lives outside this tool's calls is outside what this tool can publish preconditions for — and on this pass's sample that fraction is all of it.
+
+**What it does not establish.** Four events across five sessions, with no denominator: the transcript channel captures friction, not totals, so nothing here supports a rate. The claim is about the shape, not the frequency.
+
+_Provenance: five friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Corroboration only; the node's rung is unchanged. Unvalidated — for human review._
