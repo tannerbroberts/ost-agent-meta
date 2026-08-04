@@ -5,6 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Ask five operators whether they would let a stated default stand while they are away]]
 
 Stop asking. At a fork, the run names the decision it is about to take and the reasoning behind it, then takes it unless corrected. The operator's cheapest action becomes doing nothing, and correction is free-text with no menu to argue with — there is no option set to be wrong, because there is no option set.
 
