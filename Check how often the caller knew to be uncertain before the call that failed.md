@@ -35,3 +35,4 @@ One honest weakness in the bar. "Knew to be uncertain" is inferred from behaviou
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/telemetry/preflight-uncertainty-census.test.ts` — No test files found, exiting with code 1
+- 2026-08-04 **green** (exit 0) `npx vitest run test/telemetry/preflight-uncertainty-census.test.ts` — Duration  249ms (transform 31ms, setup 0ms, collect 39ms, tests 4ms, environment 0ms, prepare 24ms)
