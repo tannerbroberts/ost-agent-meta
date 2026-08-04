@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/adapters/ingest-backpressure-provenance.test.ts
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -19,3 +20,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-04 instrument: (none) → npx vitest run test/adapters/ingest-backpressure-provenance.test.ts — Observed peak is already recorded in the usage traces, so the spec can synthesise ten times that volume, drive it through the ingest channel, and assert every captured record still carries the source id and timestamp it arrived with and that no item is dropped or double-captured; it fails today because the channel has no backpressure path and the assertion has nothing to exercise.
