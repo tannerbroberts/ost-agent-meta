@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/ost/threshold-field-bound.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,6 @@ evidence: assertion
 **What a result must also state.** Whether any of the 15 were authored by a human. If all 15 are agent-authored, the finding is about agent behaviour under a schema hint and says nothing about the human author this field was partly for.
 
 **Cost note.** This test costs nothing to set up and only requires waiting — 15 nodes is roughly a few passes at this vault's observed rate. It should not block anything.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/threshold-field-bound.test.ts — Asserts every threshold field parses to a bound with a comparator and a number rather than free prose; fails today because the field accepts any string, which is how tests carry thresholds nothing can fail against.
