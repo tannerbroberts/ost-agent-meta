@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   The manifests catch the known failure, and each omits at most 1 real
   dependency.
+instrument: npx vitest run test/runner/helper-manifest-coverage.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that requirements can be declared accurately enough to catch r
 **Why it is small.** A handful of helpers, one manifest each.
 
 **What it will not cover.** Manifests written now, knowing this class of problem exists, are more careful than ones written routinely. The diff against actual usage is the honest measure and should be weighted above the catch.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/runner/helper-manifest-coverage.test.ts — The threshold — the manifests catch the known failure, and each omits at most 1 real dependency — is a diff between two things the repository holds: the spec loads each helper's declared manifest, extracts the commands and builtins the script actually invokes, asserts `mapfile` is declared, and asserts no manifest omits more than one command its script genuinely uses. It fails today because no helper carries a manifest.
