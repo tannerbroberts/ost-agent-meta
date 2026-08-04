@@ -25,3 +25,4 @@ The assumption is that retraction can actually be made total — that every plac
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/ost/retraction-consumers.test.ts` — No test files found, exiting with code 1
+- 2026-08-04 **green** (exit 0) `npx vitest run test/ost/retraction-consumers.test.ts` — Duration  520ms (transform 148ms, setup 0ms, collect 252ms, tests 70ms, environment 0ms, prepare 33ms)
