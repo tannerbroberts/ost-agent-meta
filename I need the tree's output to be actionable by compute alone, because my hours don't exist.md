@@ -115,3 +115,24 @@ Evidence class: this is a census of the tree's own contents by a pass that read 
 **What would actually move this row.** Not more instruments. Either a way for the sweep to distinguish "un-instrumentable by design" from "un-instrumented", or an accepted convention that a human-lane test is a *finished* test rather than a gap — at which point the 195 becomes something like 60 and the number starts meaning what a reader assumes it means.
 
 Evidence class: a census of this vault's own files, taken by the pass that worked the bucket. Assertion about the artifact, not a measurement of anyone's behaviour.
+
+## The mechanical-verb seam was not exhausted — it was being searched by the wrong key (unattended sweep, 2026-08-04)
+
+The section above concluded that earlier passes had worked the mechanical seam "close to exhausted", on the evidence that the already-instrumented tests were almost all the ones whose *titles* begin with *Count*, *Replay*, *Check*, *Time*, *Audit*. That inference was sound about what had been done and wrong about what was left, and the correction is cheap enough to be worth recording because it tells the next pass where to look.
+
+**Searching by title was the mistake. Searching by `threshold:` finds a different set.** This pass selected candidates by a mechanical property of the file rather than by the shape of the sentence: tests carrying a `threshold:` field and no `instrument:`. That set is large, and a substantial fraction of it is instrumentable. Thirteen instruments were written from it, taking `solutionsMissingInstruments` from 184 to 167. None of the thirteen has a title beginning with a mechanical verb, which is exactly why the title heuristic missed them:
+
+- *Try to load the tools from inside the vault directory at all* — threshold: a vault opened from an unrelated working directory yields its tools.
+- *Merge the enabling config into five real project settings files and check nothing was lost* — threshold: all five keep every setting, four still parse.
+- *Resume three handed-off passes from their recorded state and check they continue correctly* — threshold: same next action, no work repeated.
+- *Try to confirm a tool surface without invoking any of it* — threshold: pass/fail per surface, no partial credit.
+
+Each of those reads like a field exercise and is in fact a spec: a fixture, a call, an assertion. **The tell was never the verb. It was whether the threshold names a state of the world a process can put itself into.** *Ask ten buyers* cannot; *merge into five settings files* can, and the fact that a person would have done it by hand is a statement about who was available, not about what the question is.
+
+**What this does not overturn.** The larger claim on this node stands and this pass re-confirmed it from a fresh sample: the majority of what remains genuinely names a person as the measurement, and the four sections above are right that the counter will read as debt indefinitely. The revision is only to the estimated size of the instrumentable remainder, which is larger than the title heuristic implied. A human should not read this as "the backlog is mechanical after all".
+
+**One thing this pass hit that bounds every sweep like it.** Four tests were left un-instrumented on purpose because their threshold names two lanes in one sentence — a mechanical replay clause AND a clause about what a person does when shown the result. *Apply the escalating message to the five-failure session and check where it would have fired* is annotated with the reasoning. Instrumenting those would answer the cheap half and let a reader take the green for the whole, which is worse than an empty field. They need splitting, and splitting them is not this surface's call.
+
+**And the same limit as the pass before it.** `ost_flag_humans_required` is not granted on the unattended surface, so the human-lane half of this bucket could not be labelled at all this pass — only the instrumentable half could be moved. A sweep that can add commands but cannot mark what will never take one can only ever make this row shorter, never finish it.
+
+Evidence class: a census of this vault's own files, taken by the pass that worked the bucket. Assertion about the artifact, not a measurement of anyone's behaviour.
