@@ -77,3 +77,28 @@ Nine separately-captured sessions show the same move: the run reaches for `sleep
 Two things the count says that the single-session record did not. First, the refusal message names the correct alternative and the run still reached for `sleep` in the next session — so this is not an instruction-reading failure that better docs would fix; the wait is a shape the run keeps wanting and cannot express. Second, the wait is not only CI: a workflow journal file and a background task id are waited on the same way, so a fix scoped to `gh pr checks` would leave most of the instances standing.
 
 Evidence class is observed behaviour of this agent using its own harness — it grounds usability, not that anyone outside wants a fix.
+
+## Corroboration — eight sessions, machine-recorded
+
+Eight separate sessions in the transcript channel each contain the same refused call: a `sleep N` composed with `gh pr checks <n>`, blocked by the harness with the message that a condition should be waited on with an until-loop instead. The agent reached for the same unavailable primitive every time and learned it from the refusal every time.
+
+| Evidence | Date | The blocked wait |
+| --- | --- | --- |
+| `TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1` — see below, glob case | 2026-07-24 | — |
+| `TRANSCRIPT:995b8ab1-5e55-4a5c-b05d-aaed9e1d7538` | 2026-07-29 | `sleep 45` → `gh pr checks 9` |
+| `TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff` | 2026-07-29 | `sleep 25` → `gh pr checks 10` |
+| `TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837` | 2026-07-29 | `sleep 45` → `ls .../workflows/wf_a51c57d4-bc9/` |
+| `TRANSCRIPT:470cb94a-d709-43b1-85aa-dedd917ac866` | 2026-07-30 | `sleep 240` → `git status`, then `sleep 45` → `gh pr checks 13` |
+| `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` | 2026-07-30 | `sleep 45` → `gh pr checks 17` |
+| `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68` | 2026-07-30 | `sleep 45` → `gh pr checks 18` |
+| `TRANSCRIPT:87a025f8-c6b0-474f-9a13-0b5ec5c922ea` | 2026-07-31 | `sleep 30` → `gh pr checks 25` |
+| `TRANSCRIPT:785ea509-96b9-4225-b45a-babd5321aafc` | 2026-08-04 | `sleep 25` → `gh pr checks 39` |
+
+Two things this adds that the node did not already say:
+
+1. **The wait is nearly always for CI on a pull request.** Seven of the nine blocked waits name `gh pr checks`. The unsubscribable check is not a general class — it is one check, on one service, and the loop has no way to be told when it finishes.
+2. **The polling substitute costs its own turns.** In `516fdfb8` the same `npx tsc --noEmit && npx vitest run …` line is re-issued three times in one session, and `TaskOutput` is re-polled three times with byte-identical arguments; `785ea509` re-issues its suite command four times. Waiting is not free even after the refusal is understood — it converts into repeated polling.
+
+One further datum on cost: in `785ea509` the agent then tried `Monitor` — the primitive the refusal recommends — and got `InputValidationError: An unexpected parameter 'timeout' was provided`. The suggested remedy was itself learned by failing at it.
+
+_Provenance: nine friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
