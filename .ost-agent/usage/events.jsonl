@@ -1033,3 +1033,4 @@
 {"ts":"2026-08-04T20:56:33.912Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":485,"session":"mcp-d02dfa53-683a-4b02-8683-1fb82b50eab9"}
 {"ts":"2026-08-04T20:56:36.233Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":569,"session":"mcp-d02dfa53-683a-4b02-8683-1fb82b50eab9"}
 {"ts":"2026-08-04T20:56:38.180Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":554,"session":"mcp-d02dfa53-683a-4b02-8683-1fb82b50eab9"}
+{"ts":"2026-08-04T20:56:50.670Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1980,"session":"mcp-d02dfa53-683a-4b02-8683-1fb82b50eab9"}
