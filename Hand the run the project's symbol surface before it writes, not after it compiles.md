@@ -5,6 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Rebuild the symbol index at the commit that failed, and check it would have named the right symbol]]
 
 Build an index of what the project exports and what its types carry, and put it in front of the run as context rather than making it discoverable only by compiling. The `TS2552` capture is the argument: the compiler already knew `reconcileWithGit` existed and `reconcileWithUsage` did not, and it volunteered the correction. That knowledge is derivable from the same source files at any time, including before the edit.
 
