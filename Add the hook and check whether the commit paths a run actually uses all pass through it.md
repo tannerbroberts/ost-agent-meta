@@ -6,7 +6,7 @@ evidence: assertion
 threshold: >-
   Every commit route a run uses is refused; at most 1 human-only route gets
   through.
-instrument: npx vitest run test/git/conflict-marker-guard.test.ts
+instrument: npx vitest run test/git/conflict-marker-hook-coverage.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,6 +22,7 @@ The assumption is that a local hook actually runs. Hooks live on one machine, ar
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/git/conflict-marker-guard.test.ts — The threshold is "every commit route a run uses is refused" — a spec that drives each commit route the tool itself takes (the auto-commit, a run's own git call, a merge, an amend) with conflict-marker content staged and asserts each is refused settles exactly that. It fails today because neither the guard nor the spec file exists.
+- 2026-08-04 instrument: npx vitest run test/git/conflict-marker-guard.test.ts → npx vitest run test/git/conflict-marker-hook-coverage.test.ts — Coverage of the commit paths is a property of committed code — enumerate every path in this repository that reaches a commit and assert each one is refused when the staged content carries a conflict marker; it fails today because the hook does not exist, so every path passes a marker straight through.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/git/conflict-marker-guard.test.ts` — No test files found, exiting with code 1
