@@ -880,3 +880,4 @@
 {"ts":"2026-08-04T18:28:02.716Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":403,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
 {"ts":"2026-08-04T18:28:03.997Z","tool":"ost_set_instrument","ok":true,"ms":0,"surface":"mcp","argBytes":381,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
 {"ts":"2026-08-04T18:28:07.617Z","tool":"ost_set_instrument","ok":true,"ms":0,"surface":"mcp","argBytes":360,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
+{"ts":"2026-08-04T18:28:09.506Z","tool":"ost_set_instrument","ok":true,"ms":0,"surface":"mcp","argBytes":412,"session":"mcp-59a66b22-274c-49c9-b3dd-0c3386c10709"}
