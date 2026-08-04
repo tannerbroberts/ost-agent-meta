@@ -24,3 +24,6 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/replayable-step-share.test.ts — Applies the fixed read-only-verb allowlist the node insists be written before looking at the distribution to every recorded step from the last thirty days, counting steps needing a human decision as failures of the rule, and asserts the node's 60% bar. It fails today because no allowlist is committed and nothing classifies recorded steps for replayability.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/loop/replayable-step-share.test.ts` — No test files found, exiting with code 1

@@ -22,3 +22,6 @@ The assumption is that versioned rules stay maintainable. Every rule must keep w
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/knowledge/versioned-rule-cost.test.ts — Implements version awareness across the current rule set and the one before it, counts the conditionals required, and asserts the node's two bars — at most 5 for two live versions, and an extrapolation to a year staying under 20. It fails today because rules carry no version awareness at all, so there is nothing to count.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/knowledge/versioned-rule-cost.test.ts` — No test files found, exiting with code 1

@@ -24,3 +24,6 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/preflight-parity.test.ts — Captures the scheduler's environment reading at dispatch and the run's own reading in its first second — working directory, resolved PATH, user, vault reachability — and asserts all ten consecutive pairs agree exactly, the node's strict bar. It fails today because neither reading is taken anywhere, so there is nothing to compare.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/loop/preflight-parity.test.ts` — No test files found, exiting with code 1

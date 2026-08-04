@@ -22,3 +22,6 @@ The assumption is that stale locks can be recovered safely. Every recovery polic
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/git/stale-lock-recovery.test.ts — Drives a lock holder through the four kill shapes the node names — clean exit, hard kill, hung-but-holding, machine sleep — and asserts the node's own two bars: the vault is usable again inside fifteen minutes in every scenario, and recovery never releases a lock that is still genuinely held. It fails today because there is no vault lock and no recovery policy to exercise.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/git/stale-lock-recovery.test.ts` — No test files found, exiting with code 1

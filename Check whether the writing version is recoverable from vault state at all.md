@@ -24,3 +24,6 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/writing-version-recoverable.test.ts — Walks the last hundred vault states in git history, resolves the writing version of each from on-disk signals, and asserts at least 95 are unambiguous — the node's own pre-committed threshold, in the form that can actually return a verdict. It fails today because no version resolver exists and nothing stamps the writing version, which is precisely the negative result the node says would re-scope its whole row.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/ost/writing-version-recoverable.test.ts` — No test files found, exiting with code 1

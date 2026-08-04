@@ -25,3 +25,6 @@ instrument: npx vitest run test/runner/flake-attribution.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/runner/flake-attribution.test.ts — Plants the node's three scenarios with known answers — a load-induced flake, a load-independent regression, and the deciding case of a concurrency-only regression — and asserts re-run-and-attribute labels all three correctly on 3 of 3 repetitions each. It fails today because no re-run-and-attribute mechanism exists, so nothing can return a label to check.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/runner/flake-attribution.test.ts` — No test files found, exiting with code 1

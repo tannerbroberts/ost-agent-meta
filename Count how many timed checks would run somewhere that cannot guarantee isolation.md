@@ -20,3 +20,6 @@ The assumption is that enough of the timed checks would still gate somewhere. If
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/release/timed-check-isolation-share.test.ts — Censuses every place a timed check runs — local machine, CI, scheduled pass, contributor machine — determines for each whether load can be controlled, weights by how often checks actually run there from the run records, and asserts at least half of runs would remain gating. It fails today because nothing enumerates the run locations or joins them to the run-frequency records.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/release/timed-check-isolation-share.test.ts` — No test files found, exiting with code 1
