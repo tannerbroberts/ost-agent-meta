@@ -61,3 +61,13 @@ recommended.
   argument, not just a number, can keep using prose. Follow-on, not yet run: does a
   test written with the field actually avoid the line-wrap misread in practice, or
   does whoever fills it in just re-paste the same hard-wrapped prose into the field.
+
+## Definition of done
+
+[[Check whether the threshold field gets a bound or just the same wrapped prose]]
+
+```
+npx vitest run test/ost/threshold-field-bound.test.ts
+```
+
+Green means a threshold field parses to an actual bound — a comparator and a number — so a test carrying one can come out a failure. This is the mechanism behind the tree's own standing complaint that nothing can fail. It does not settle whether the bound anyone writes is the *right* bound, and moving prose into a field does not make a badly chosen number good.
