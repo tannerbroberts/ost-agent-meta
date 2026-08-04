@@ -21,3 +21,6 @@ An hour or two, retrospective, no build. Proposed by the agent; a human runs it 
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/config/setup-check-diagnosis.test.ts — The threshold — names the missing file and its location in at least 3 of the 4 reconstructed cases, with no false accusation on a correctly configured session — is four fixtures plus one control, and a spec asserting the check's message settles it exactly. It fails today because the setup check does not exist.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/config/setup-check-diagnosis.test.ts` — No test files found, exiting with code 1

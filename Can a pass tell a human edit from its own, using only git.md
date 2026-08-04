@@ -23,3 +23,6 @@ instrument: npx vitest run test/git/hand-edit-detector.test.ts
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-04 instrument: (none) → npx vitest run test/git/hand-edit-detector.test.ts — The threshold — zero false positives on clean history, failing toward silence, and reporting what changed in nodes and links rather than files — is settled by git fixtures the spec builds itself: the adversarial cases the node lists (a hand edit committed with an `mcp:`-style subject, a frontmatter-only edit, a rename that rewrites inbound links, a stash, a branch switch, an amended commit) plus a clean-history control. It fails today because no detector exists.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/git/hand-edit-detector.test.ts` — No test files found, exiting with code 1

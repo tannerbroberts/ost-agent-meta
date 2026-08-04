@@ -22,3 +22,6 @@ The assumption is that retraction can actually be made total — that every plac
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/retraction-consumers.test.ts — The threshold — every consumer found is one that could honour the flag — is settled by a spec that plants one retracted node and asserts each node-reading path (check, debt, status rollup, duplicate scan, the sweep, each gate) excludes it, which turns "could honour" into "does honour". It fails today because retraction does not exist.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/ost/retraction-consumers.test.ts` — No test files found, exiting with code 1

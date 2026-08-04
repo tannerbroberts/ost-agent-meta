@@ -20,3 +20,6 @@ The assumption is that a forward-written journal is accurate at the moment of in
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/run-journal-interruption.test.ts — The threshold — 0 of 10 journals overstate, at most 2 understate by one step — is a mechanical comparison of the journal's last line against what landed on disk, which a spec can drive by interrupting a run at ten seeded points. It fails today because no run journal is written, so there is nothing for the spec to read.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/loop/run-journal-interruption.test.ts` — No test files found, exiting with code 1

@@ -22,3 +22,6 @@ The assumption is that a local hook actually runs. Hooks live on one machine, ar
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/git/conflict-marker-guard.test.ts — The threshold is "every commit route a run uses is refused" — a spec that drives each commit route the tool itself takes (the auto-commit, a run's own git call, a merge, an amend) with conflict-marker content staged and asserts each is refused settles exactly that. It fails today because neither the guard nor the spec file exists.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/git/conflict-marker-guard.test.ts` — No test files found, exiting with code 1
