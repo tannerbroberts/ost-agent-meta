@@ -14,3 +14,13 @@ Because nothing is written down, nothing can be wrong. A vault that moves is fou
 **Compared to the alternatives.** Uniquely immune to going stale, which is the failure a pointer file has and cannot avoid. It also requires every consumer to implement the same search and agree on what a vault looks like, and it silently binds a project to whatever vault happens to sit above it — which on a machine with several vaults is a mistake that produces no error at all, only the wrong tree.
 
 **What would make this the wrong pick.** Discovery by convention works well when there is exactly one plausible answer and badly when there are two. It also cannot express intent: a project that deliberately has no vault is indistinguishable from one whose vault has not been found yet.
+
+## Definition of done
+
+[[Put two vaults on one machine and see whether the upward search picks the right one]]
+
+```
+npx vitest run test/config/upward-vault-search.test.ts
+```
+
+Green means the upward search resolves the correct vault when two are present on one machine, nested and as siblings — the ambiguity that decides whether a convention can replace a recorded pointer. It does not settle what happens on a machine laid out in a way this fixture did not anticipate, which is the standing weakness of conventions over declarations.
