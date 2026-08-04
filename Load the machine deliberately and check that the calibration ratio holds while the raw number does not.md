@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Raw measurement varies by more than 50% across load levels while the ratio
   varies by under 10%.
+instrument: npx vitest run test/eval/calibration-ratio-stability.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that the calibration workload degrades the same way the real o
 **Why it is small.** One afternoon, one machine, no code changes to the thing being measured.
 
 **What it will not cover.** One machine and one kind of induced load. Contention from disk behaves differently from contention from CPU, and a laptop under thermal throttling differently again.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/eval/calibration-ratio-stability.test.ts — The threshold is two numeric clauses over measurements the spec takes itself — raw measurement varies by more than 50% across load levels while the ratio varies by under 10% — so the spec runs the gate and its calibration together at four induced load levels with the code unchanged, records both at each level, and asserts the raw spread exceeds 50% while the ratio spread stays under 10%. It fails today because no calibration run exists and the gate has no ratio to compute.
