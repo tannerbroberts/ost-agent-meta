@@ -5,6 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Time a single-file check against the whole-project run it would replace]]
 
 Keep the check but move it. Instead of one whole-project `tsc --noEmit` at the end of a batch, run a narrow check over the file that just changed and its immediate dependents, and return the diagnostic attached to the edit that caused it.
 
