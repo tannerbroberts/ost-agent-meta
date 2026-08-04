@@ -6,6 +6,7 @@ source: >-
   session
 created: '2026-07-25'
 evidence: assertion
+instrument: npx vitest run test/telemetry/trace-defect-replay.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ evidence: assertion
 **Decides:** whether the shipped rollup stays as-is, grows diff-awareness, or yields to the reconciler.
 
 *Proposed by the agent — to be run by a human. No results recorded here.*
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/telemetry/trace-defect-replay.test.ts — Replays the hard-fix session's trace and asserts each known defect is visible in it, which is what a trace has to do to be worth keeping; fails today because the rollup discards the detail the defects show up in.
