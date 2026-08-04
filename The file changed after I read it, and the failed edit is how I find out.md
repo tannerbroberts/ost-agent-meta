@@ -24,3 +24,13 @@ evidence: observed
 ## Provenance
 
 Distilled from `TRANSCRIPT:5960b7ec-960c-4700-9e0b-2b68c3519e92` — observed behavior, captured mechanically from the agent's own session transcript. Corroborated by five further sessions named above, each read in full this pass. This channel grounds usability, not desirability: it is the agent's own use of its tools, and must not be counted as outside evidence of want.
+
+## Corroborating sessions (2026-07-29 → 2026-07-30)
+
+- `TRANSCRIPT:424486ec-3489-4b53-8e2b-012232d221ab` — two consecutive `String to replace not found in file` errors, then the run stopped to ask the human: *"Another process is writing to this repo right now (HEAD moved to the PR #22 merge, and ~14 source files have uncommitted changes touched seconds ago, including a brand-new `pushTargetFor`…)"*. This is the clearest instance captured: the failed edit was the detector, and the run had to reason backwards from it to work out that a concurrent writer existed.
+- `TRANSCRIPT:995b8ab1-5e55-4a5c-b05d-aaed9e1d7538` — `String to replace not found in file`, with the tool volunteering that it also tried swapping `\uXXXX` escapes and neither form matched.
+- `TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837` — same failure against `(!blocksDone || allOpenUnknowns.length === 0);`.
+
+What the three together add: the failure mode is indistinguishable at the point of failure from an ordinary stale-string mistake. In two of the three the run treated it as its own error and re-read the file; only in the third did it work out that something else was writing. The cost is not the failed edit, it is the misattribution — and one of the three cost a human interruption to resolve.
+
+Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
