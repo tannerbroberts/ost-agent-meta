@@ -7,6 +7,7 @@ threshold: >-
   The check names the missing file and its location in at least three of the
   four reconstructed cases, with no false accusation in a session that is
   correctly configured.
+instrument: npx vitest run test/config/setup-check-diagnosis.test.ts
 ---
 #AssumptionTest #feasibility #unvalidated #evidence/assertion
 
@@ -17,3 +18,6 @@ threshold: >-
 **The trap this is really probing:** a session with no tools may also lack whatever the check needs in order to run — the tree already carries a separate test, "Check whether a toolless session can even run the tool check", asking exactly that. If that one comes back negative, this candidate cannot fire in the case it was designed for, and the result here is moot regardless of accuracy.
 
 An hour or two, retrospective, no build. Proposed by the agent; a human runs it and records the outcome.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/config/setup-check-diagnosis.test.ts — The threshold — names the missing file and its location in at least 3 of the 4 reconstructed cases, with no false accusation on a correctly configured session — is four fixtures plus one control, and a spec asserting the check's message settles it exactly. It fails today because the setup check does not exist.
