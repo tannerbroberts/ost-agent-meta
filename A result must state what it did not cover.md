@@ -63,3 +63,12 @@ That is the first thing either of these two features has found on its own, and i
 argues for this line of work more than any of its own reasoning did. It does not,
 however, answer [[Does a forced uncovered field change what a second reader believes]],
 which remains unrun.
+
+## Issues
+- 2026-08-04 `status: shipped` with no instrumented test — worth a human's attention because the combination is the one the tree has no other way to catch.
+
+This node's only test is "Does a forced uncovered field change what a second reader believes", which names a reader as the measurement and is legitimately a human study. So the solution shipped without any command that would go red if the behaviour regressed. The mechanical half is trivially specifiable and simply was never written: a result submitted with no `## Uncovered` section should be refused, and a spec asserting that refusal would fail the day the guard is removed.
+
+I did not add that instrument, for the reason the ruleset gives: an instrument must be red when it is written, and this behaviour already ships, so the command would pass on arrival and measure nothing. Attaching it needs to happen the other way round — as a regression spec written against the shipped guard, which is a builder's act, not this sweep's.
+
+Same shape as the general finding recorded on "I need the tree's output to be actionable by compute alone, because my hours don't exist": a mechanism-shaped solution carrying a belief-shaped test.
