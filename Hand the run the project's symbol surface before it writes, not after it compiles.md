@@ -14,3 +14,11 @@ Build an index of what the project exports and what its types carry, and put it 
 **Against the alternatives beneath this opportunity.** This is the cheapest to build and the weakest guarantee: it makes the right name *available*, and a run can still ignore it. Edit-time checking is the opposite trade — costs a check on every write and actually refuses the mistake. Declared-intent is narrower than both: it only helps when the run knows it is calling something it has not written yet, which is exactly the `configProblem` case and not the `reconcileWithUsage` one.
 
 **Where it plausibly fails.** A manifest for a repository this size may be too large to keep in context, in which case it has to become a lookup rather than a briefing — and a lookup the run must remember to call is a lookup the run will skip, which is the same failure this need already describes one level down.
+
+## Test
+
+[[Rebuild the symbol index at the commit that failed, and check it would have named the right symbol]]
+
+`npx vitest run test/runner/symbol-index.test.ts`
+
+Green when the index, built against the failing commit, reports `reconcileWithUsage` absent, `reconcileWithGit` present, and `configProblem` absent from `ToolContext`. Feasibility only — it does not show a run would consult the index, or that anyone wants it.
