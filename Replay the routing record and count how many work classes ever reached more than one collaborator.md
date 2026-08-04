@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 40% of distinct work classes in the recorded history must have been
   routed to more than one collaborator. Below 25% kills the candidate.
+instrument: npx vitest run test/product/routing-record-capability.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -16,3 +17,6 @@ threshold: >-
 **Pre-committed before running, so this can come out a failure:** at least 40% of classes must show more than one collaborator. Between 25% and 39% means the estimate ships only over the classes that qualify, with the single-owner classes shown as unestimated rather than as confident. Below 25% kills the candidate — at that concentration the profile cannot correct itself, which is the self-confirming failure the solution names as its chief risk, confirmed before anything is built.
 
 **What it deliberately does not cover, and a human should weigh this separately:** the candidate's second risk is not measurable this way at all. An outcome ledger over named people is a performance record, and whether one may exist here — who may read it, whether a collaborator may see their own, whether it may inform anything but routing — is a governance question this vault has never ruled on. A green result on this test says the mechanism *could* work; it says nothing about whether it *should*, and the two must not be conflated when this candidate is compared against its siblings.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/product/routing-record-capability.test.ts — Replays the routing record and counts work classes with more than one collaborator, which is the comparison any capability estimate needs; fails today because nothing derives capability from what was asked and what came back.
