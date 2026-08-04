@@ -23,3 +23,6 @@ instrument: npx vitest run test/product/committed-capability-profile.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/product/committed-capability-profile.test.ts — Reads the committed history and asserts what share of it yields a named builder capability; fails today because nothing derives a capability profile from commits.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/product/committed-capability-profile.test.ts` — No test files found, exiting with code 1

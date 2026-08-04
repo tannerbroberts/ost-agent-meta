@@ -28,3 +28,6 @@ instrument: npx vitest run test/loop/authority-class-holdout.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/authority-class-holdout.test.ts — Derives decision classes from the older recorded stops and asserts they classify the held-out newer stops, which is the holdout this test describes; fails today because no decision classes are committed to classify against.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/loop/authority-class-holdout.test.ts` — No test files found, exiting with code 1

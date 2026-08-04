@@ -25,3 +25,6 @@ instrument: npx vitest run test/telemetry/symbol-failure-census.test.ts
 `npx vitest run test/telemetry/symbol-failure-census.test.ts`
 
 Red today: no census exists and the classifier it needs is unwritten.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/telemetry/symbol-failure-census.test.ts` — filter:  test/telemetry/symbol-failure-census.test.ts

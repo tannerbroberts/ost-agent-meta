@@ -21,3 +21,6 @@ instrument: npx vitest run test/ost/stranded-evidence-census.test.ts
 ## History
 - 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/stranded-evidence-census.test.ts — Partitions unmapped evidence into items an existing node could cite versus items only a new node type could home — the exact count this test asks for; fails today because no census function exists to import.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/ost/stranded-evidence-census.test.ts` — No test files found, exiting with code 1

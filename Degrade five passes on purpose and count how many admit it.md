@@ -23,3 +23,6 @@ instrument: npx vitest run test/loop/degraded-pass-reporting.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/degraded-pass-reporting.test.ts — Injects each degradation mode and asserts the pass reports itself degraded rather than clean; fails today because a degraded pass has no distinct name to report.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/loop/degraded-pass-reporting.test.ts` — No test files found, exiting with code 1

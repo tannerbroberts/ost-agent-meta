@@ -22,3 +22,6 @@ instrument: npx vitest run test/ost/recorded-decision-ordering.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/recorded-decision-ordering.test.ts — Asserts how much of the tree a recorded decision can order and that the remainder is left explicitly unranked; fails today because ranking covers everything regardless of whether a decision backs it.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/ost/recorded-decision-ordering.test.ts` — No test files found, exiting with code 1

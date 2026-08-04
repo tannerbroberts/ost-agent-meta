@@ -24,3 +24,6 @@ Setting this boundary is a human's decision. A human runs this and records the r
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/git/conflict-mechanicality-census.test.ts — Classifies every conflict in the vault history as mechanically resolvable or not, which is the cost the human-only rule would incur; fails today because no classifier exists to count them.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/git/conflict-mechanicality-census.test.ts` — No test files found, exiting with code 1
