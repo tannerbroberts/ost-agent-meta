@@ -4,6 +4,7 @@ status: unvalidated
 created: '2026-08-03'
 evidence: assertion
 threshold: At least 70% of commands need no shell feature at all.
+instrument: npx vitest run test/runner/shell-necessity-census.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -16,3 +17,6 @@ The assumption is that most commands do not need a shell. If a lot of real work 
 **Why it is small.** Mechanical classification over a corpus that already exists.
 
 **What it will not cover.** It counts commands as written, and a caller who knew a shell-less path was the default would write differently. The pipelines in the corpus are also mostly ad-hoc inspection rather than load-bearing work, which this does not separate.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/runner/shell-necessity-census.test.ts — Classifies each harvested command as needing a shell or expressible as argv, and asserts the argv path executes the latter without a shell; fails today because every command is handed to a shell as a string.
