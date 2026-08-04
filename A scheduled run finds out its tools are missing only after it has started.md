@@ -22,3 +22,12 @@ More than one way to address this: assert the required surface as a precondition
 ## Provenance
 
 Distilled from `INBOX:friction/2026-08-01-friction-third-straight-scheduled-pass-15th-16th-17th-wit.md` — filed by the session on the third consecutive toolless scheduled pass. Its root cause was located a day later and is mapped under a sibling opportunity. Recorded at `assertion`: the inbox channel's earned ceiling.
+
+## Corroborating session (2026-08-04)
+
+- `TRANSCRIPT:ac007b7b-ac18-4a19-94f1-cb5f3c93ca42` — `exit 127 … tmux not found`. The run had already begun and had already spent calls before the binary it depended on turned out not to be installed.
+- `TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f` — `exit 255 Undefined subroutine &main::pct`: a helper written for an interpreter that did not have the routine it assumed.
+
+Both are the same shape as this need and both were discovered by execution rather than by a precondition check. `exit 127` is the cheapest possible signal to act on — it is unambiguous, it arrives from the shell rather than from a tool's own error handling, and it names the missing binary — which suggests a precondition sweep would not need to be clever to catch this class.
+
+Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
