@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Every commit route a run uses is refused; at most 1 human-only route gets
   through.
+instrument: npx vitest run test/git/conflict-marker-guard.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that a local hook actually runs. Hooks live on one machine, ar
 **Why it is small.** The hook is a few lines and there are perhaps six routes to test.
 
 **What it will not cover.** It says nothing about resolutions that are wrong but marker-free, which the solution already concedes. The finding is the list of unprotected routes, which directly says whether a server-side check is needed.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/git/conflict-marker-guard.test.ts — The threshold is "every commit route a run uses is refused" — a spec that drives each commit route the tool itself takes (the auto-commit, a run's own git call, a merge, an amend) with conflict-marker content staged and asserts each is refused settles exactly that. It fails today because neither the guard nor the spec file exists.
