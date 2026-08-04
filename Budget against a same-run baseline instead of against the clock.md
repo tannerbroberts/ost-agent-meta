@@ -18,3 +18,13 @@ evidence: assertion
 **Cost.** Small: one helper and a changed assertion.
 
 ⚠️ Unvalidated. Agent-ideated from two observed flakes, 2026-08-02.
+
+## Definition of done
+
+[[Replay both flakes and one planted regression against the ratio]]
+
+```
+npx vitest run test/telemetry/same-run-baseline-ratio.test.ts
+```
+
+Green means the two recorded flakes pass and the planted regression fails — the discrimination an absolute clock threshold cannot make, and the whole reason this candidate exists. It does not settle the ratio's behaviour on a machine whose *baseline* is itself degraded, which is the case a same-run comparison is least able to see.
