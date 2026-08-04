@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least half of the failed calls came from a caller showing prior signs of
   doubt.
+instrument: npx vitest run test/telemetry/preflight-uncertainty-census.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that callers know when they are uncertain. A validate-only twi
 **What it will not cover.** Judging doubt from a transcript is imprecise, and a caller who would validate reflexively before every risky call is not the same as one who felt uncertain. Both readings are worth recording separately.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/telemetry/preflight-uncertainty-census.test.ts — The corpus this test asks about — every failed call, with what the caller did immediately before it — is already on disk in the captured usage and transcript records, so the count is a classifier over committed fixtures rather than anyone's afternoon; it fails today because neither the spec nor the classifier exists.
