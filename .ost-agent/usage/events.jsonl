@@ -1095,3 +1095,4 @@
 {"ts":"2026-08-04T21:54:46.150Z","tool":"ost_set_instrument","ok":true,"ms":0,"surface":"mcp","argBytes":638,"session":"mcp-c35f0f78-aa71-4bdd-9865-b74000278e7a"}
 {"ts":"2026-08-04T21:54:48.486Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":626,"session":"mcp-c35f0f78-aa71-4bdd-9865-b74000278e7a"}
 {"ts":"2026-08-04T21:54:50.761Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":599,"session":"mcp-c35f0f78-aa71-4bdd-9865-b74000278e7a"}
+{"ts":"2026-08-04T21:55:03.727Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1329,"session":"mcp-c35f0f78-aa71-4bdd-9865-b74000278e7a"}
