@@ -7,6 +7,7 @@ threshold: >-
   Fewer than 1 false refusal per 50 writes across the 22 captured sessions; and
   every one of the 6 recorded Edit failures is correctly re-labelled as drift or
   not-drift.
+instrument: npx vitest run test/git/read-write-hash-drift.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,6 @@ threshold: >-
 **Cheapness is the point.** No build, no participants, no live run — twenty-two transcripts and the repo's own history are the whole apparatus.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/git/read-write-hash-drift.test.ts — Replays captured sessions through a read-to-write hash guard and asserts it refuses only the writes whose file actually drifted, naming what drifted; fails today because no hash is carried from read to write.
