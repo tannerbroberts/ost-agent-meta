@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   A rule fixed in advance correctly classifies at least 90% of external write
   events, and produces no more than 3 unnecessary invalidations per session.
+instrument: npx vitest run test/runner/fs-event-classification.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ threshold: >-
 **A by-product worth keeping:** the same event capture would show how often two writers genuinely overlap, which is direct evidence for [[Two agents sharing my vault can trample each other]], a node currently resting on two anecdotes.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/runner/fs-event-classification.test.ts — Both clauses of the threshold are scored against a fixture: the spec replays the captured filesystem events of three sessions through the classification rule and asserts at least 90% agreement with the committed hand-labelled ground truth and no more than 3 unnecessary invalidations per session. It fails today because no classification rule exists and no event capture is committed to score against.
