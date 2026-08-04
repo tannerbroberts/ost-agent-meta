@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/release/registry-derived-version.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,6 @@ evidence: assertion
 **What a result must also state.** What the rule does when the registry is unreachable, and whether that path is distinguishable from "nothing published yet." The solution names this as its failure mode; a result that does not exercise it has not covered the candidate.
 
 **Who runs it.** A human, or an attended session with registry read access. No publish rights needed — this test never writes.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/release/registry-derived-version.test.ts — Replays every past release and asserts a registry-derived next version never collides with one already published; fails today because the number comes from the local file, which is how two trains picked the same one.
