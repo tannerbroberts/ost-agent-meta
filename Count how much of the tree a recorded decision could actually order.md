@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 13 of the 32 under-served rows must trace to a recorded decision that
   positions them. Below 7 of 32 kills the candidate.
+instrument: npx vitest run test/ost/recorded-decision-ordering.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ threshold: >-
 **A known bias in this test, recorded so the result is read correctly:** this vault is unusually heavily governed — four consecutive passes wrote lane and hold reasoning into the root. A pass here therefore measures the *best* case, not the typical one. A comfortable pass on this vault would still leave open whether the mechanism works on a fresh tree, which is where the parent opportunity's operator actually starts.
 
 **What it deliberately does not cover:** whether citations render legibly, and what the mechanism should do with a row whose citations contradict each other — the distribution row is a live instance of exactly that and this test only counts it, it does not resolve it.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/recorded-decision-ordering.test.ts — Asserts how much of the tree a recorded decision can order and that the remainder is left explicitly unranked; fails today because ranking covers everything regardless of whether a decision backs it.
