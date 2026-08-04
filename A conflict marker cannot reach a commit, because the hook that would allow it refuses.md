@@ -14,3 +14,15 @@ Small scope, exact fit. It does nothing about a bad merge that produced valid-lo
 **Compared to the alternatives.** Cheapest by a wide margin and the only one that acts at the moment of the mistake. It also catches nothing else: a resolution that dropped half a function commits cleanly and breaks just as much. Requiring the build to pass before commit would catch both; refusing to start work on a broken tree catches neither but protects the next run.
 
 **What would make this the wrong pick.** A local hook is advisory — it lives on one machine, is skipped with a flag, and does not exist on a fresh clone. To be a guarantee rather than a habit it has to run somewhere nobody can bypass, which is a different and larger piece of work.
+
+## Definition of done
+
+[[Add the hook and check whether the commit paths a run actually uses all pass through it]]
+
+```
+npx vitest run test/git/conflict-marker-guard.test.ts
+```
+
+Red today: neither the guard nor the spec exists. Green when every commit route this project's runs actually take refuses staged conflict-marker content.
+
+**What a green spec does not settle.** It proves the marker cannot reach a commit. It says nothing about a resolution that dropped half a function and committed cleanly — the case this solution openly concedes — and nothing about whether a local hook survives a fresh clone or a `--no-verify`. Feasibility answered mechanically leaves the "advisory, not a guarantee" objection exactly where it was.
