@@ -16,3 +16,13 @@ evidence: assertion
 **Contrast with neighbors:** [[Adopt session transcripts as the trace source instead of new instrumentation]] acquires traces to serve the usage-feed opportunity — mechanical events, narrator distrusted. This candidate reads the *authored* record for a different question: not what happened, but what the author demonstrably knows how to do. [[A declared resource manifest the planner must cite before it ranks anything]] is declaration over project resources; this is inference over collaborator skill, opposite mechanism and different scope.
 
 **Cost shape:** cheap to build against a git-backed project, worthless against a collaborator who leaves no artifact, and it improves with the age of the record rather than with the operator's effort.
+
+## Definition of done
+
+[[Count how much of the committed record could name a capability at all]]
+
+```
+npx vitest run test/product/committed-capability-profile.test.ts
+```
+
+Green means a capability profile can in fact be derived from commits alone, with nothing asked of the operator. It settles feasibility only. Whether the profile it produces is *accurate* about what a builder can do, and whether anyone would act on it, are untouched by this command.
