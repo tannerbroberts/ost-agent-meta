@@ -16,3 +16,11 @@ Keep the check but move it. Instead of one whole-project `tsc --noEmit` at the e
 **Against the alternatives.** Strictly more expensive than the symbol manifest and strictly more reliable. Compared with declared-intent, it needs no cooperation from the run at all, which matters because the two captured failures were both cases where the run did not know it was making a mistake.
 
 **Deliberately out of scope.** This does not attempt to catch anything a typechecker cannot see. `b7aae32d`'s readonly-assignment error is in scope; a logic error that compiles is not, and nothing here should be read as claiming otherwise.
+
+## Test
+
+[[Time a single-file check against the whole-project run it would replace]]
+
+`npx vitest run test/runner/incremental-typecheck.test.ts`
+
+Green when the single-file check finds the known TS2339 in under 2s and beats the whole-project run by a wide margin on the same machine. It settles cost and detection; it does not settle the mid-refactor false-positive rate, which is what would actually make this unbearable.
