@@ -20,3 +20,11 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Test
+
+[[Paired ideation run with and without the ledger]]
+
+`npx vitest run test/loop/attempt-ledger-repeat-rate.test.ts`
+
+Green when the ledger-informed run proposes materially fewer solutions duplicating what the ledger records. Read it beside the absolute count of novel solutions — a ledger that suppresses repeats by making ideation timid scores well here and is a worse product. The similarity rule must be committed before the run, not tuned to produce the gap.
