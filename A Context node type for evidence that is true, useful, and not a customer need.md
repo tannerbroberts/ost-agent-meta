@@ -101,3 +101,13 @@ npx vitest run test/ost/stranded-evidence-census.test.ts
 ```
 
 Green means the census this node's own body sketches by hand is computed rather than narrated — the split between items an existing node could cite and items only a new type could home. It does not settle whether a Context node is the right fix: the census above already argues a cheaper one (an appendable `source`) would serve 14 of the 19, and no count decides between them.
+
+## Correction to the forecast — the strand rate is not 100%, 2026-08-04
+
+The 2026-08-04 pass ingested one new item, `TRANSCRIPT:42dcb7b4-f01b-40bc-a211-ed4a44a74fd3`, and **it mapped**. It carried a need the tree did not hold — two `AskUserQuestion` calls answered `permission_denied` because the operator was rewriting the question rather than refusing to answer it — and became [[Answering one question costs me three turns, because I have to fix its options before I can reply]].
+
+This matters to the argument above, which is why it is recorded here rather than restated as another census. The entry immediately preceding says the backlog "grew by one and cleared by none" and calls the strand self-sustaining. One pass later a new item cleared, so the honest reading is narrower than that: the *existing* 19 are stranded and stay stranded, but new evidence still yields new needs at a non-zero rate. A Context node justified on "every incoming item is already covered" would be justified on something that is not true.
+
+No new census was taken this pass. The 19 were re-read once and matched against the table above, which already accounts for all of them; counting them a third time would add a number nobody needs and no information.
+
+Recorded by an unattended pass. Nothing here was tested and no threshold was met.
