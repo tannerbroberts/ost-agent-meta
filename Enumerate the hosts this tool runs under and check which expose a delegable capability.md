@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 2 surfaces expose a delegable capability, covering the majority of
   actual runs.
+instrument: npx vitest run test/security/host-credential-delegation.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that the hosts this tool actually runs under expose a way to a
 **Why it is small.** Documentation reading against a list of four or five surfaces.
 
 **What it will not cover.** Capability is not scope. A host that will act on the operator's behalf may only do so as their whole signed-in self, which is a much larger grant than a narrow token — that question is separate and matters as much.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/security/host-credential-delegation.test.ts — The enumeration is bounded by this repository — the hosts it ships adapters and entry points for are committed, so the spec asserts that for each one the code either resolves a host-held credential or records that the host exposes none; it fails today because no host-credential path exists and every route still asks the operator directly.
