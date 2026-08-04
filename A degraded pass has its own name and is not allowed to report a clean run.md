@@ -18,3 +18,13 @@ evidence: assertion
 **Cost.** Small in code, larger in specification: someone has to define what a degraded pass may and may not claim, and that definition is the actual deliverable.
 
 ⚠️ Unvalidated. Agent-ideated, 2026-08-02. Written by a pass that was itself the first non-degraded one in twenty-two, which is worth a reader's skepticism.
+
+## Definition of done
+
+[[Degrade five passes on purpose and count how many admit it]]
+
+```
+npx vitest run test/loop/degraded-pass-reporting.test.ts
+```
+
+Green means every degradation mode this codebase can produce is named in the pass's own report instead of being rounded to success. It proves the mechanism, not the trust: whether an operator who sees "degraded" actually goes and looks is a question about people, not exit codes.
