@@ -24,3 +24,18 @@ The distinguishing thing is that this is not a decision I would want to be asked
 The parent opportunity is about a loop that is genuinely blocked on a human decision and has no way to say so. This one is narrower and different in kind: there is no decision here at all. The correct answer was determined in advance in every case, and the stop is purely an artefact of a tool that could not detect it was running unattended.
 
 Evidence class: observed behaviour of the agent's own usage, captured mechanically from session transcripts. It grounds usability, not desirability, and is not outside-user evidence of want.
+
+## Corroborating sessions (2026-07-29 → 2026-08-04)
+
+Six sessions stopped to ask a human a question. What the set shows is *what kind* of question: every one is a design judgement the run could have proposed a default for and carried on under.
+
+- `TRANSCRIPT:470cb94a-d709-43b1-85aa-dedd917ac866` — *"Should this turn ship the spec only, or also build the cheap ones?"* (scope).
+- `TRANSCRIPT:785ea509-96b9-4225-b45a-babd5321aafc` — two: how a lineage prefix should clip long titles (format), and what should happen to the losing node when a pass judges two duplicates (semantics).
+- `TRANSCRIPT:dcdaebdb-ffd9-4944-973b-cf0b8e1113c4` — which of two renderings to put in a script (format).
+- `TRANSCRIPT:2c1b611a-ae7e-4191-aefe-b489c631a115` — how metacognition should sit relative to the external-returning-operators metric (framing).
+- `TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f` — which environment Vault 11 should be (configuration, with a Recommended option already identified).
+- `TRANSCRIPT:87a025f8-c6b0-474f-9a13-0b5ec5c922ea` — one further clarifying question alongside a tool error.
+
+Three of the six already carried a "(Recommended)" option, which means the run had a defensible default in hand and stopped anyway. That is the sharper version of this need: the blocker is not that the run lacks an answer, it is that it has no way to act on its own default and leave the question on the record.
+
+Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
