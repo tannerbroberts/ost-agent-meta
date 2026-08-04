@@ -83,3 +83,19 @@ It also sharpens what the lane triage is for. The saving is not the fifteen minu
 **Deliberately not proposed as a new opportunity.** Two sessions, one corpus, and both are sessions *building the product* rather than running a discovery pass on a vault — the wrong population for a claim about operators. A second sighting inside a session that is actually running a pass would make it a pattern rather than an observation. Flagged here for a human to weigh; a human may reasonably decide it is already a distinct need.
 
 Rung `observed` on this vault's own sessions, per each record's `TRANSCRIPT:` provenance; explicitly not demand evidence.
+
+## What the instrument backlog turns out to be made of (observed 2026-08-04)
+
+An unattended pass worked through the `solutionsMissingInstruments` list — 206 solutions whose tests are prose only — expecting the gap to be *omission*: tests that could have named a command and nobody had written one. That is not mostly what it is.
+
+Of the first 25 solutions on the list, only about eight carried a test a spec could honestly settle. The other seventeen name a person as the measurement, and they do so correctly: "Ask five operators whether they would put their secret in a broker", "count who comes back a second time unasked", "have three independent judges nominate for ten solutions", "do written reasons get challenged, or only read". Those are not lazy tests. They are the right test for the risk, and no command can stand in for them.
+
+**So the backlog is not one problem, it is two, and they need separating before anyone works it.**
+
+The first is genuine omission — a mechanical question with no command attached — and it is the smaller half. The second is a mismatch: a **mechanism-shaped solution carrying a belief-shaped test**. "A spend ceiling per period that stops the loop dead" is a guard; its only test is "read back four weeks of spend and judge how much bought something worth having". "A whole-tree ranked ledger that refuses to publish a row without its reason" is a refusal; its only test is "do written reasons get challenged, or only read". In both, the human study is a good question about whether the thing is *worth having*, and neither touches whether the mechanism *works*. A builder handed either node still has no definition of done, and adding an instrument to the existing test would not fix it — the instrument would be measuring something the test never asked.
+
+This matters for this need specifically. Compute-alone actionability was being read as "every test gets a command". It cannot be, and pursuing it that way would produce commands that pass while proving nothing — which is worse for this need than an empty field, because an empty field is visibly empty.
+
+The version that survives contact: **every solution needs one test whose verdict a machine can reach, and may need a second that only a person can answer.** Those two live at different layers of risk — does it work, versus is it worth having — and the tree currently forces them to share a node. Whether that means a second test per solution, or a typed distinction between the two kinds, is a design question this pass is not entitled to settle.
+
+Evidence class: this is a census of the tree's own contents by a pass that read them, not a measurement of anything outside. It is an assertion about the artifact, and it should be checked by rereading the list rather than believed on the strength of having been written down.
