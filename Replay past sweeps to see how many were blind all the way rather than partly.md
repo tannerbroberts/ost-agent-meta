@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/ost/blind-sweep-replay.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -17,3 +18,6 @@ evidence: assertion
 **What a result must also state.** How many runs could not be classified because the record does not preserve a subject count. If that number is large, the finding is not about blindness at all but about the records, and it belongs to [[I can't tell what a half-finished run actually finished]].
 
 **Who runs it.** A human, from git history. This pass proposes the design only.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/blind-sweep-replay.test.ts — Replays recorded sweeps and classifies each as fully blind versus partly blind; fails today because a check with an empty subject still reports a pass, so nothing distinguishes the two.
