@@ -25,3 +25,4 @@ The assumption is that something will read it. A pointer nobody is required to l
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/config/vault-pointer-resolution.test.ts` — No test files found, exiting with code 1
+- 2026-08-04 **green** (exit 0) `npx vitest run test/config/vault-pointer-resolution.test.ts` — ✓ the pointer file itself > a file that exists and cannot be used is an error naming the file 428ms
