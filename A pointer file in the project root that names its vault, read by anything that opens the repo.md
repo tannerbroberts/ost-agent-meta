@@ -14,3 +14,13 @@ The direction is the point. A vault that knows about its project is the arrangem
 **Compared to the alternatives.** Trivial to implement and to understand, works for humans and agents equally, and it is inert — nothing has to be running for it to do its job. Its weakness is that it is only a string: it goes stale the moment the vault moves, and nothing will say so. An agent-side convention that searches for a vault would survive relocation; embedding the tree in the repository would remove the question entirely.
 
 **What would make this the wrong pick.** A pointer nobody is required to read is a pointer that gets ignored. If the tools that matter do not look for this file by convention, adding it changes nothing except that the information is now technically present.
+
+## Definition of done
+
+[[Add the pointer file and count how many tools actually look for it unprompted]]
+
+```
+npx vitest run test/config/vault-pointer-resolution.test.ts
+```
+
+Green means every entry point that resolves a vault finds it from the pointer file with no path argument supplied. It settles that the pointer works for this product's own tools. It says nothing about the tools this node actually cares about — the editors, agents and scripts someone else wrote — which no spec in this repository can speak for.
