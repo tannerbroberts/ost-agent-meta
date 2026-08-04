@@ -22,3 +22,15 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Can a pass tell a human edit from its own, using only git]]
+
+```
+npx vitest run test/git/hand-edit-detector.test.ts
+```
+
+Red today: no detector exists. Green when the spec's git fixtures — a hand edit committed with an `mcp:`-style subject, a frontmatter-only edit, a rename that rewrites inbound links, a stash, a branch switch, an amended commit — are each classified correctly, a clean-history vault draws silence, and the report names the nodes and links that moved rather than the files.
+
+**What a green spec does not settle.** It proves the detector separates the two populations on the cases someone thought to write down. It cannot prove there is no seventh shape nobody imagined, and it says nothing about whether an operator reads the drift report or trusts it — the node's own worry, that a report which cries wolf gets skipped, is a usability question a passing spec leaves untouched.
