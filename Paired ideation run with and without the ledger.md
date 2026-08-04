@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
+evidence: assertion
+instrument: npx vitest run test/loop/attempt-ledger-repeat-rate.test.ts
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -21,3 +22,4 @@ Proposed by the agent — a human compares the two sets. No results recorded her
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-04 instrument: (none) → npx vitest run test/loop/attempt-ledger-repeat-rate.test.ts — The half of the pairing that decides whether the ledger works is countable rather than judged — run ideation twice over the same fixture opportunity, once with the ledger of prior attempts and once without, and assert the ledger run proposes materially fewer solutions that duplicate what the ledger already records; it fails today because no attempt ledger exists.
