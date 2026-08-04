@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
+evidence: assertion
+instrument: npx vitest run test/eval/riskiest-assumption-judge.test.ts
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -21,3 +22,4 @@ Proposed by the agent — the hand judgement must be human and blind to the rule
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-04 instrument: (none) → npx vitest run test/eval/riskiest-assumption-judge.test.ts — Runs the judge over solutions whose riskiest assumption is labelled and asserts its pick agrees; fails today because no judge exists and no labelled set is committed to score against.
