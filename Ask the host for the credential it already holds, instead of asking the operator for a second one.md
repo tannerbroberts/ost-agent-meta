@@ -14,3 +14,11 @@ The complaint underneath this opportunity is not really about access. It is that
 **Compared to the alternatives.** Removes the credential question entirely rather than making it easier, and it inherits whatever protections the host already applies. It works only inside hosts that expose the capability, so a cron job or a bare shell gets nothing, and it makes the tool's reach a function of where it is running — which is the same variability the tree already complains about elsewhere.
 
 **What would make this the wrong pick.** Borrowing the host's authority means inheriting its scope, which is usually far wider than the tool needs. An operator who would happily issue a narrow token may be much less happy to let a background pass act as their whole signed-in self.
+
+## Test
+
+[[Enumerate the hosts this tool runs under and check which expose a delegable capability]]
+
+`npx vitest run test/security/host-credential-delegation.test.ts`
+
+Green when, for every host this repository ships an entry point for, the code either resolves a host-held credential or records that the host exposes none. Bounded by what we support and true only as of the run — host capabilities change on someone else's schedule. It says nothing about whether an operator would want a run acting under a credential they did not issue for it.
