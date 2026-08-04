@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At most 5 mechanical conflicts per genuinely contested one, and under 3
   escalations per week.
+instrument: npx vitest run test/git/conflict-mechanicality-census.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that conflicts needing human judgement are common enough to ju
 **What it will not cover.** The mechanical/contested line is drawn by a person who may be more confident than a rule could be. Where they hesitate is worth recording separately, since those are the cases that decide the boundary.
 
 Setting this boundary is a human's decision. A human runs this and records the result.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/git/conflict-mechanicality-census.test.ts — Classifies every conflict in the vault history as mechanically resolvable or not, which is the cost the human-only rule would incur; fails today because no classifier exists to count them.
