@@ -23,3 +23,11 @@ Proposed by the agent — a human compares the two sets. No results recorded her
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/attempt-ledger-repeat-rate.test.ts — The half of the pairing that decides whether the ledger works is countable rather than judged — run ideation twice over the same fixture opportunity, once with the ledger of prior attempts and once without, and assert the ledger run proposes materially fewer solutions that duplicate what the ledger already records; it fails today because no attempt ledger exists.
+
+## What a green run does not settle
+
+Fewer repeats is the effect the ledger is meant to have, and it is also the effect a ledger could achieve by simply making ideation more timid. The count cannot tell those apart. A run that proposes three duplicates and four genuinely new solutions scores worse than one that proposes two duplicates and nothing else, which is the wrong ranking — so this bar needs reading alongside the absolute count of novel solutions, not on its own.
+
+"Duplicate" is also a judgement rendered as a rule. Whatever similarity test the spec commits to will call some near-misses duplicates and let some restatements through, and the number moves with that choice. The rule must be committed before the run rather than tuned to produce a satisfying gap.
+
+Nothing here shows the ledger is worth its cost — every pass pays to write and read it, and a solution that removes a handful of duplicates per opportunity may not repay that.
