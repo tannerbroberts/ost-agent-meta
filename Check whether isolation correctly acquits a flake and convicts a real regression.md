@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/runner/flake-attribution.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,6 @@ evidence: assertion
 **A cheaper partial answer if scenario 3 fails.** Report the disagreement without resolving it — *"failed in suite, passed in isolation; cause not determined"* — rather than asserting *contention*. That keeps the attribution information and drops the unearned verdict, and it is what the candidate should be rewritten to if this test comes out mixed. Recorded here so a failed test still leaves something buildable rather than only a closed branch.
 
 **Who runs it.** A human, or an attended session with a build environment.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/runner/flake-attribution.test.ts — Plants the node's three scenarios with known answers — a load-induced flake, a load-independent regression, and the deciding case of a concurrency-only regression — and asserts re-run-and-attribute labels all three correctly on 3 of 3 repetitions each. It fails today because no re-run-and-attribute mechanism exists, so nothing can return a label to check.
