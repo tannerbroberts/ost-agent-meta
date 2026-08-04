@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   0 nodes have their meaning changed, and every touched node is listed in the
   migration's own report.
+instrument: npx vitest run test/ost/tightening-migration-meaning.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that mechanical migration is safe. It is a bulk rewrite of a r
 **What it will not cover.** An easy tightening will migrate cleanly and say little about a hard one. Choosing the most awkward past tightening rather than the most convenient is what makes this worth running.
 
 A human reads the diff and records the result.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/tightening-migration-meaning.test.ts — Meaning-preservation has a mechanical form for this vault — run the migration over a tree fixture captured before a past tightening and assert every node's prose is byte-identical afterwards while `check` goes from red to green, so the migration is proven to have moved structure and not wording; it fails today because no migration and no before-tightening fixture exist.
