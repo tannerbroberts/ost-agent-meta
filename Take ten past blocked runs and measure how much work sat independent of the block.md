@@ -22,3 +22,11 @@ The assumption is that a blocked run has other work available. If most of what t
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/blocked-run-independent-work.test.ts — The ten runs are captured transcripts already on disk, so the measurement is a dependency walk over each one — reconstruct what was outstanding at the moment of the block and count how much of it needed nothing the block was waiting on; it fails today because no dependency model of a pass's outstanding work exists to walk.
+
+## What a green run does not settle
+
+The measurement is retrospective and the dependency model is reconstructed, which means it answers "how much work *appears* independent of the block, viewed afterwards, by a model we wrote". A run in the moment does not have that view. Some of what the walk counts as independent would have looked entangled from inside the pass, and banking it would have required a confidence the run did not have.
+
+It also counts work, not value. Ten blocked runs might each leave a large volume of trivial work available and nothing that mattered, and the count cannot tell — a high number is compatible with banking the block being pointless.
+
+And it says nothing about the failure that makes this solution risky rather than merely unhelpful: work carried out under an assumption the block would have corrected. Every unit the walk counts as safely independent is safe only if the answer to the blocking question could not have changed it, and a dependency model built from transcripts cannot see a dependency the transcript never made explicit.
