@@ -20,3 +20,11 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Test
+
+[[Twenty-question grounding check for answer faithfulness]]
+
+`npx vitest run test/mcp/status-answer-faithfulness.test.ts`
+
+Green when all twenty committed questions are answered correctly against a fixture vault and every answer cites a node that exists. Faithfulness on a known set only — the questions a real operator brings are the ones with no ground truth. The citation assertion is the half that generalises, because a confident answer about a node the tree lacks is the failure that would end trust fastest.
