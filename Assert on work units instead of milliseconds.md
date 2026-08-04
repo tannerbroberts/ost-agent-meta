@@ -20,3 +20,11 @@ evidence: assertion
 **Cost.** Medium: instrumentation, then the assertion.
 
 ⚠️ Unvalidated. Agent-ideated, 2026-08-02.
+
+## Test
+
+[[Measure whether work count actually tracks elapsed time across vault sizes]]
+
+`npx vitest run test/telemetry/work-units-vs-elapsed.test.ts`
+
+Green when work units correlate with elapsed time across vault-size fixtures above a committed bound, and stay identical across repeated runs of the same fixture. The stability half is the one that makes a gate reproducible and holds independently of the correlation. Blind by design to a change that makes each unit slower.
