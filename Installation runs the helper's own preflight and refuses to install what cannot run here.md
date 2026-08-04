@@ -14,3 +14,17 @@ The failure being prevented is a silent bet: the script was written against bash
 **Compared to the alternatives.** Catches the problem at the earliest point where it is knowable, and produces a refusal a person can act on rather than a runtime error mentioning a builtin they have never heard of. It only covers requirements someone remembered to declare, and an undeclared dependency passes install and fails exactly as before.
 
 **What would make this the wrong pick.** Requirement declarations rot. A script that grows a `mapfile` six months after its manifest was written will install cleanly and fail at line 21, which is the original problem with an extra file to maintain.
+
+## Definition of done
+
+[[Write manifests for the existing helpers and check whether they catch the failures already seen]]
+
+```
+npx vitest run test/runner/helper-manifest-coverage.test.ts
+```
+
+Green means every helper carries a manifest that declares `mapfile`, and no manifest omits more than one command its script actually invokes. It is red today because no helper carries a manifest at all.
+
+**The omission diff is the honest measure and should be weighted above the catch.** A manifest covers only what someone remembered to declare, and a script that grows a dependency after its manifest was written installs cleanly and fails at run time exactly as before. Asserting the declared set against what the script genuinely uses is the only clause here that a careless author can fail; the `mapfile` catch is nearly free once manifests exist at all.
+
+**What green does NOT settle, and it is a bias in the sample rather than a gap in the check.** Manifests written now, by someone who knows this class of problem exists, are more careful than manifests written routinely six months from now. Green measures the manifests this project happens to have; it says nothing about the discipline holding, and the discipline is the actual mechanism.
