@@ -14,3 +14,13 @@ Keep the options — they are genuinely useful when the run has guessed right �
 **What would make this the wrong pick.** If the run cannot act on prose without a further round-trip, the open field is theatre: the operator writes their answer, the run fails to parse a decision out of it, and asks again — which is the observed failure with an extra step. The whole idea rests on the run being able to take a sentence as an instruction, which is exactly what the recorded rejections were.
 
 ⚠️ Unvalidated. Proposed by an unattended pass from one observed session.
+
+## Definition of done
+
+[[Replay the two recorded rejections and check the run could act on the operator's own words]]
+
+```
+npx vitest run test/loop/free-text-answer-parsing.test.ts
+```
+
+Green means a written answer is genuinely first-class — the two rejection texts the operator actually typed each yield a decision the run proceeds on, with no follow-up question. It does not settle whether anyone reaches for the open field when a menu sits beside it.
