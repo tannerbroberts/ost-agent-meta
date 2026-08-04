@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   After redaction, 0 of the week's refusals reveal a node title, customer, or
   product decision.
+instrument: npx vitest run test/security/refusal-redaction.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that the narrow slice is genuinely narrow. Refusal text can ca
 **What it will not cover.** One week of one vault, whose refusals are about this product. A vault about something commercially sensitive would have more to lose from the same text.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/security/refusal-redaction.test.ts — The bar as written — "after redaction, 0 of the week's refusals reveal a node title, customer, or product decision" — is machine-checkable once a redactor exists: the spec runs every recorded refusal in the vault's trace through the redaction rule and asserts no surviving string matches any node title, vault path, or opportunity body in the tree. It fails today because no redactor exists, so every refusal quotes node titles verbatim.
