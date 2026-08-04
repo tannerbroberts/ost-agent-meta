@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   A map under 2,000 characters answers at least 70% of the observed failed
   lookups.
+instrument: npx vitest run test/runner/workspace-map-coverage.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that a map small enough to carry is large enough to help. One 
 **Why it is small.** The failed lookups are already captured, and drafting three maps is minutes.
 
 **What it will not cover.** It tests the map against paths that were actually reached for, which were shaped by not having one. It also says nothing about staleness during long runs.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/runner/workspace-map-coverage.test.ts — The threshold — "a map under 2,000 characters answers at least 70% of the observed failed lookups" — is settled entirely against committed state: the spec renders the workspace map, asserts its serialized length is under the stated budget, replays every failed path lookup in the harvested transcript corpus against it, and asserts the answered share clears 70%. It fails today because nothing in the repository renders a workspace map at all.
