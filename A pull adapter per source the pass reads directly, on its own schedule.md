@@ -14,3 +14,11 @@ The vault already has the shape of this — the ingest surface reports per-chann
 **Compared to the alternatives.** Adapters put the schedule under the reader's control, which matters when the source has no notion of pushing and no watched folder to write to. That independence is also the cost: every source needs its own adapter written and maintained, and a source that changes its API breaks a channel silently unless the per-channel error reporting is honest about it.
 
 **What would make this the wrong pick.** If the sources in question already emit webhooks or already write scheduled exports, an adapter is a worse version of a thing that exists. Adapters earn their keep exactly where the source is passive.
+
+## Test
+
+[[Write one adapter against the messiest source and time how long it stays working]]
+
+`npx vitest run test/adapters/messiest-source-replay.test.ts`
+
+Green when the adapter parses every historical snapshot of that source in order. Durability by proxy — it means "would not have broken over the period on record", never "will not break next". It is blind to auth, rate-limit and endpoint changes, which are the failures that actually kill pull adapters.
