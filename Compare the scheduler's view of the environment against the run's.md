@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   10 consecutive dispatches agree exactly between the scheduler's preflight and
   the run's own reading. One disagreement fails it.
+instrument: npx vitest run test/loop/preflight-parity.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ threshold: >-
 **What a failure would tell you.** Not that the scheduler is useless — that the check must run *inside* the dispatched context rather than in the scheduler's, which is a different and still-valuable design.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/loop/preflight-parity.test.ts — Captures the scheduler's environment reading at dispatch and the run's own reading in its first second — working directory, resolved PATH, user, vault reachability — and asserts all ten consecutive pairs agree exactly, the node's strict bar. It fails today because neither reading is taken anywhere, so there is nothing to compare.
