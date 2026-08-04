@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Supporting two versions costs at most 5 conditionals, and the extrapolation to
   a year stays under 20.
+instrument: npx vitest run test/knowledge/versioned-rule-cost.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that versioned rules stay maintainable. Every rule must keep w
 **Why it is small.** Two versions is the smallest case that shows the shape, and both already exist in the history.
 
 **What it will not cover.** The count grows with how divergent the versions are, and two consecutive versions are the most similar pair available. This is the optimistic end of the estimate.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/knowledge/versioned-rule-cost.test.ts — Implements version awareness across the current rule set and the one before it, counts the conditionals required, and asserts the node's two bars — at most 5 for two live versions, and an extrapolation to a year staying under 20. It fails today because rules carry no version awareness at all, so there is nothing to count.
