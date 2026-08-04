@@ -4,6 +4,7 @@ status: unvalidated
 created: '2026-08-03'
 evidence: assertion
 threshold: '0 of 10 journals overstate, and at most 2 understate by one step.'
+instrument: npx vitest run test/loop/run-journal-interruption.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -16,3 +17,6 @@ The assumption is that a forward-written journal is accurate at the moment of in
 **Why it is small.** Ten interrupted runs is an afternoon once the journal is written, and the comparison is mechanical.
 
 **What it will not cover.** A kill is a clean interruption. A crash mid-write, a full disk, or a process killed while the filesystem is buffering are messier and may behave differently.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/loop/run-journal-interruption.test.ts — The threshold — 0 of 10 journals overstate, at most 2 understate by one step — is a mechanical comparison of the journal's last line against what landed on disk, which a spec can drive by interrupting a run at ten seeded points. It fails today because no run journal is written, so there is nothing for the spec to read.
