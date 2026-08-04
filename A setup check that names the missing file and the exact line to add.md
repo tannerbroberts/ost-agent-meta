@@ -12,3 +12,15 @@ A command that inspects the current session against the vault and reports the sp
 **Compared with the alternatives:** this fixes the existing vaults that setup-time configuration cannot reach, and it is honest about ownership — it tells the operator what to do rather than editing their configuration for them. Its weakness is that it only helps someone who thinks to run it, which is not the person currently losing four scheduled passes in silence. It is the cheapest of the three to build and the one most dependent on being invoked at the right moment.
 
 Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
+
+## Definition of done
+
+[[Replay the four toolless passes and see whether the check names the right file]]
+
+```
+npx vitest run test/config/setup-check-diagnosis.test.ts
+```
+
+Red today: the setup check does not exist. Green when four fixtures reconstructing the toolless passes each get the missing file and its location named, and a correctly configured fixture draws no accusation.
+
+**What a green spec does not settle.** It proves the diagnosis is correct when the check runs. It cannot show the check runs at all inside a session that is missing its tools — that is the sibling question [[Check whether a toolless session can even run the tool check]], and if that one comes back negative this instrument is green on a check that never fires.
