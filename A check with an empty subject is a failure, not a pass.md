@@ -13,3 +13,13 @@ evidence: assertion
 **Where it fails, and it is the exact case that occurred.** The em-dash sweep's subject was NOT empty — it read 302 of 306 entries. An all-or-nothing guard fires on total blindness and is silent on partial blindness, which is the more common and more dangerous shape. This is a floor, not a fix, and it is worth being honest that it would not have caught the failure that produced this branch.
 
 ⚠️ Unvalidated. Agent-ideated from an observed failure.
+
+## Definition of done
+
+[[Replay past sweeps to see how many were blind all the way rather than partly]]
+
+```
+npx vitest run test/ost/blind-sweep-replay.test.ts
+```
+
+Green means a sweep that read nothing is reported as a failure rather than a clean run, and the recorded sweeps can be replayed to say how many were blind. It does not say whether the blindness rate is high enough to be worth anyone's concern — that reading is the operator's.
