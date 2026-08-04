@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   All five files keep every setting they started with, and at least four of the
   five remain valid without hand-fixing.
+instrument: npx vitest run test/config/settings-merge-safety.test.ts
 ---
 #AssumptionTest #feasibility #unvalidated #evidence/assertion
 
@@ -16,3 +17,6 @@ threshold: >-
 **Why it is the riskiest thing here:** the candidate's value is that it removes the failure rather than detecting it, and that value survives only if the write is safe. Everything else about this solution is straightforward.
 
 Half a day, retrospective, no build beyond the merge itself. Proposed by the agent; a human runs it and records the outcome.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/config/settings-merge-safety.test.ts — The threshold — all five files keep every setting they started with, and at least four remain valid without hand-fixing — is a property of committed code: the spec carries five settings fixtures (one already enabling other plugins, one with comments and unusual formatting), applies the merge to each, and asserts every original key survives with its value and that at least four still parse. It fails today because no merge routine exists.
