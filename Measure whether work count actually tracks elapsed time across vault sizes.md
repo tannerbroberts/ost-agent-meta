@@ -23,3 +23,11 @@ instrument: npx vitest run test/telemetry/work-units-vs-elapsed.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/telemetry/work-units-vs-elapsed.test.ts — Both quantities are produced by the suite itself — run a pass over vault fixtures of increasing size, record work units and elapsed milliseconds for each, and assert the two correlate above a committed bound while work units stay stable across repeated runs of the same fixture; it fails today because no work-unit counter exists to compare against the clock.
+
+## What a green run does not settle
+
+Correlation across fixture vaults establishes that work units are a defensible stand-in for elapsed time on *this* machine, running *these* fixtures. It does not establish that the substitution is safe where it matters — on a loaded CI runner, which is the case the whole solution exists to survive.
+
+The stability half is the more valuable of the two assertions and deserves to be read separately: work units being identical across repeated runs of the same fixture is what makes a gate reproducible, and it holds or fails independently of whether the correlation with milliseconds is tight. A green run that achieved stability with a weak correlation would still be a good outcome for the solution; the bar should not be read as requiring both to be strong.
+
+Nothing here says a work-unit gate would catch a real regression. A change that makes each unit slower leaves the count untouched, and that blindness is the price of the design rather than a defect to be tested away.
