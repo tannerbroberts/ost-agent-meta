@@ -81,3 +81,13 @@ The last two are the sharpest case for this solution. A day on which nothing wen
 The linked test asks how many stranded items only a Context node could home. This census splits that into two populations that a Context node would serve differently: 14 items that want an *attachment* to an existing node (and would be equally well served by making `source` appendable), and 4 that want a *home of their own* (which nothing but a new node type provides). A test that counts them together will overstate the case for the node type by roughly 3:1.
 
 Recorded by an unattended pass. Nothing here was tested, and no threshold was met.
+
+## Census update — 19 stranded items, 2026-08-04
+
+The 2026-08-03 census above counted 18. A day later it is 19: `USAGE:2026-08-03` was ingested this pass and joins the first table — 312 calls, 1 failed, with `ost_next_work` taking 39 of them. It grounds two needs the tree already holds and neither of them newly: [[A third of my calls go on re-asking what is outstanding]] gets its third measurement of the re-ask share (39 of 312 here, 17 of 108 on 2026-07-25), and [[Two thirds of my calls failed, and each one only told me after I made it]] gets the single failure, which is an `ost_create_node` refused for declaring `observed` where the source supported only `assertion` — a caller confident and wrong, exactly the case that node describes.
+
+So the backlog grew by one and cleared by none, which is what the prediction above said would happen. The 2026-08-03 entry called this self-sustaining; one pass later that is no longer a forecast. Nothing about this pass's handling was novel: every one of the 19 was re-read, every one was already covered by an existing opportunity or carried no need at all, and mapping any of them would still have meant inventing a need or duplicating a sibling.
+
+Worth adding to the case for the cheaper fix already named above — making `source` appendable on an existing node. Fourteen of the 19 want an attachment, and the attachments have in fact already been written: prior passes cited these same transcript ids in the bodies of the opportunities they ground. The evidence is mapped in every sense a reader would recognise. It is unmapped only in the sense the ledger counts, which is the frontmatter field, settable once at creation.
+
+Recorded by an unattended pass. Nothing here was tested and no threshold was met.
