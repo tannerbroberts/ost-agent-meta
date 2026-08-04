@@ -24,3 +24,4 @@ instrument: npx vitest run test/ost/stranded-evidence-census.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/ost/stranded-evidence-census.test.ts` — No test files found, exiting with code 1
+- 2026-08-04 **green** (exit 0) `npx vitest run test/ost/stranded-evidence-census.test.ts` — Duration  644ms (transform 152ms, setup 0ms, collect 231ms, tests 41ms, environment 0ms, prepare 57ms)
