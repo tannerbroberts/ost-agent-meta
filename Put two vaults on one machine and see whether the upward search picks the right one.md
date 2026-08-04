@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   0 of 10 starts silently select the wrong vault; ambiguous cases return nothing
   rather than guessing.
+instrument: npx vitest run test/config/upward-vault-search.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that upward search is unambiguous. It silently binds a project
 **Why it is small.** The search is a few lines and the layouts already partly exist. Ten runs.
 
 **What it will not cover.** The intended vault is decided by the person constructing the test, and in ambiguous layouts there may be no objectively correct answer — which is itself worth recording as a finding rather than resolved by fiat.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/config/upward-vault-search.test.ts — Lays out two vaults with nested and sibling roots and asserts the upward search resolves the one containing the working directory; fails today because no upward search exists.
