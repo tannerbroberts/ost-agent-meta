@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   The safe forms fully express at least 60% of all commands, and at least 80% of
   the failing ones.
+instrument: npx vitest run test/knowledge/safe-form-coverage.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that a curated set of affordances covers enough real cases. Ca
 **Why it is small.** The corpus exists and the classification is mechanical once the candidate forms are named.
 
 **What it will not cover.** Past commands were written by someone who had only shell available and shaped their intent around it. What they would have written with better forms available is not visible here.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/knowledge/safe-form-coverage.test.ts — Classifies every shell command in the harvested transcript corpus against a named candidate set of first-class forms and asserts the node's two weighted bars — at least 60% of all commands and 80% of the failing ones fully expressible. It fails today because no candidate form set is defined in the repository and no classifier exists to score the corpus against one.
