@@ -29,10 +29,17 @@ loop:
   cadence: "1h"             # one firing an hour; cron ticks more often, this gate decides
   lockTtlMinutes: 60        # a firing still holding the lock after this is assumed dead
   spend:
-    # Weighted tokens, not currency. Chosen, not derived: ~500k per firing across 24
+    # Weighted tokens, not currency. Chosen, not derived: ~4M per firing across 24
     # hourly firings. Lower it to slow the burn; the window is rolling, so exhaustion
     # clears itself without anyone intervening.
-    ceilingWeightedTokens: 12000000
+    #
+    # Raised 8x on 2026-08-04, from 12,000,000, because the old ceiling was not
+    # slowing the burn — it was stopping the loop. Discovery went 21 hours without
+    # firing, and the firing that ended that gap put it back over the line within
+    # 20 minutes. A ceiling a single pass can exhaust is a pause button, not a
+    # budget, and the work it was blocking (instrumenting 243 prose-only tests) is
+    # the work that feeds the build loop.
+    ceilingWeightedTokens: 96000000
     windowHours: 24
     # Where Claude Code writes THIS vault's transcripts — the pass runs with cwd set
     # to the vault, so the slug is the vault path. Declared, never derived.
