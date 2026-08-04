@@ -5,6 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many of the captured failures were a dropped intention rather than a wrong name]]
 
 Accept that a run building a feature will reference things it has not written yet, and give that intention somewhere to live. Before calling a not-yet-existing symbol, the run declares it — name, module, shape — and the declaration is held open until the definition lands. A batch that ends with declarations still open reports them, by name, as the work it did not finish.
 
