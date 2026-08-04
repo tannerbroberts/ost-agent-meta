@@ -5,6 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the two recorded rejections and check the run could act on the operator's own words]]
 
 Keep the options — they are genuinely useful when the run has guessed right — but never make them the only way to reply. Every question the run asks carries an open field alongside the enumerated choices, and an answer written into that field is handled as an answer, not as a refusal. The operator who wants to say "neither, here is the actual distinction" says it once, in the same turn, and the run proceeds on it.
 
