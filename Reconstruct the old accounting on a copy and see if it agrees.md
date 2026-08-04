@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Reconstruction agrees with ost-agent@0.1.3's own answer on at least 26 of the
   27 items, with zero items marked done that the old build called outstanding.
+instrument: npx vitest run test/ost/accounting-reconstruction.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ threshold: >-
 **A live case to include:** the Issues section on this opportunity records `.ost-agent/state/mapped.json` listing two TRANSCRIPT ids as mapped while `ost_next_work` called both outstanding in the same minute. Whatever reconstruction is built should be checked against that pair too, since it is the same disagreement happening now rather than historically.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/accounting-reconstruction.test.ts — The node names a reproducible oracle — `ost-agent@0.1.3`'s own answer on the vault state that produced the 9-versus-27 split — so the spec runs the reconstruction against that committed state, compares item by item against the old build's recorded output, and asserts agreement on at least 26 of 27 with zero items marked done that the old build called outstanding. It fails today because no reconstruction exists.
