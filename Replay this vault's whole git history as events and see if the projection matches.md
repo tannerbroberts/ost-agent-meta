@@ -7,6 +7,7 @@ threshold: >-
   At least 95% of tree-changing commits express as events with no residue, AND
   the projection of the full log is byte-identical to the current vault. Below
   90%, or any node the projection cannot reproduce, refutes it.
+instrument: npx vitest run test/ost/event-log-projection.test.ts
 ---
 #AssumptionTest #human-entered #feasibility #unvalidated #evidence/assertion
 
@@ -25,3 +26,6 @@ threshold: >-
 **What a refuted result buys.** It kills an expensive rewrite before a line is written, and it names the specific changes that resist event-sourcing — which is itself the most useful thing this test can produce, more useful than a pass. Expect the hand-edit case (step 3 of the parent) to be where residue concentrates.
 
 _Unvalidated — a human runs this and records the outcome with `ost-agent result`._
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/event-log-projection.test.ts — The threshold is already written as two mechanical clauses — at least 95% of tree-changing commits express as events with no residue, AND the projection of the full log is byte-identical to the current vault — and the node's own method says it "runs entirely against committed state, no build, no operator, no external party". The spec walks every tree-changing commit, attempts to express each diff in the event vocabulary, counts residue, then replays the log through the projector and diffs node by node. It fails today because neither the event vocabulary nor the projector exists.
