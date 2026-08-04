@@ -4,6 +4,7 @@ status: unvalidated
 created: '2026-08-03'
 evidence: assertion
 threshold: At most 5 conflicts require human judgement.
+instrument: npx vitest run test/ost/vault-merge-conflict-census.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that peer exchange is cheap in practice — that two vaults ca
 **What it will not cover.** These two vaults share an author, a schema version, and a naming style. Two vaults from unrelated teams would collide far more, and this is the easiest possible case.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/vault-merge-conflict-census.test.ts — The threshold — at most 5 conflicts require human judgement — becomes machine-checkable once conflicts are classified: the spec merges the two vault fixtures into a scratch tree, partitions every conflict into ones a stated rule settles and ones it cannot, and asserts the judgement-requiring count is at most 5. It fails today because nothing merges two vaults or classifies what a rule could settle.
