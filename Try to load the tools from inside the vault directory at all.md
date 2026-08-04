@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   A vault opened from an unrelated working directory yields its tools,
   demonstrated once, within one afternoon.
+instrument: npx vitest run test/mcp/vault-declared-tool-load.test.ts
 ---
 #AssumptionTest #feasibility #unvalidated #evidence/assertion
 
@@ -16,3 +17,6 @@ threshold: >-
 **Why it is worth running before the others:** this is the only candidate of the three that survives the vault being moved or opened from an unexpected directory, which is the class the observed failure belongs to. It is also the most invasive to build. A negative answer here is cheap and removes the most expensive option from the consideration set, which is the best outcome a test of this kind can have.
 
 An afternoon at most. If it takes longer than that to answer, the answer is effectively no. Proposed by the agent; a human runs it and records the outcome.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/mcp/vault-declared-tool-load.test.ts — The threshold — "a vault opened from an unrelated working directory yields its tools" — is a property of committed code, not of anyone's afternoon: the spec builds a vault fixture carrying its own tool-server declaration, resolves the server with the process working directory set somewhere unrelated, and asserts the ost_* surface comes back. It fails today because nothing in the repository reads a tool declaration out of a vault.
