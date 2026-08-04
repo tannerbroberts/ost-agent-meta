@@ -16,3 +16,13 @@ evidence: assertion
 **Contrast with neighbors:** [[Attempt ledger of what was already tried]] records what the *tree* tried, so a later pass does not repeat it; this records what a *collaborator* was asked and what returned. [[A builder capability profile read off the work already committed, with no deposit asked for]] reads the artifact trail passively and is blind to work never assigned; this one is blind in the same place for a different reason — it never assigned it.
 
 **Cost shape:** free to run, slow to converge, and it cannot say anything at all on day one.
+
+## Definition of done
+
+[[Replay the routing record and count how many work classes ever reached more than one collaborator]]
+
+```
+npx vitest run test/product/routing-record-capability.test.ts
+```
+
+Green means the routing record can in fact support a capability estimate — and the count it returns is the honest limit on that estimate, because a work class only ever routed to one collaborator yields a comparison of one. It does not settle whether the estimate predicts anything about work not yet routed.
