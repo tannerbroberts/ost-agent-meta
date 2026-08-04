@@ -16,3 +16,13 @@ The reasoning is that a merge conflict is two intentions disagreeing, and an age
 **What would make this the wrong pick.** Most conflicts in an append-only Markdown vault are mechanical and safely resolved. A rule that treats all of them as human-only will send a great deal of trivia to the operator, and an operator who is sent enough trivia stops reading it.
 
 Setting this boundary is a human's decision. No pass may grant itself the permission it withholds here, or take it away.
+
+## Definition of done
+
+[[Count how many vault conflicts are mechanical, to see what a human-only rule would actually cost]]
+
+```
+npx vitest run test/git/conflict-mechanicality-census.test.ts
+```
+
+Green means every conflict in the vault history is classified as mechanically resolvable or not, so the price of the human-only rule is a number rather than a worry. It settles the cost side only. Whether that price is worth paying is the operator's call, and the safety argument for the rule does not depend on the count coming out low.
