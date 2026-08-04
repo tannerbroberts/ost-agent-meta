@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   The check costs under 30 seconds, and at least 1 broken start appears per 50
   runs in the history.
+instrument: npx vitest run test/loop/inherited-tree-build-check.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that the tax is worth the catch. A build on every run is a rea
 **Why it is small.** One timing and one history walk, both over material that exists.
 
 **What it will not cover.** The cost of a broken start is estimated rather than measured, and the one instance on record cost an entire session's planning plus a human's attention — a sample of one, and an expensive one.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/loop/inherited-tree-build-check.test.ts — Asserts a run refuses to plan work on a tree that fails its own check, and bounds what that check costs; fails today because a run plans against whatever tree it inherits without checking it.
