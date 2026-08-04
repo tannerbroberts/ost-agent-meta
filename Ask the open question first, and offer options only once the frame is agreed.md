@@ -14,3 +14,13 @@ Split the ask in two. The run first states what it is uncertain about in open fo
 **What would make this the wrong pick.** If the run's options are usually correct, this trades a rare three-turn failure for a routine two-turn tax, and the arithmetic goes the wrong way. The recorded session shows two questions rejected; it does not show how many were accepted, so the base rate this depends on is precisely what nobody has measured.
 
 ⚠️ Unvalidated. Proposed by an unattended pass from one observed session.
+
+## Definition of done
+
+[[Replay the recorded question sessions and count whether framing first adds stops or removes them]]
+
+```
+npx vitest run test/loop/two-stage-question-stop-count.test.ts
+```
+
+Green means the two-stage form costs no more operator turns on the recorded history than the one-stage form did — the arithmetic this candidate depends on, computed rather than assumed. It does not settle whether framing first produces better decisions, only cheaper ones.
