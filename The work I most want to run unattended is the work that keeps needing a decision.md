@@ -10,6 +10,7 @@ evidence: observed
 [[A standing authority contract naming which classes of decision compute may take alone]]
 [[Take the fork, state the assumption, and price the reversal]]
 [[One migration stopped me seven times, because settling the policy once never settled the rest]]
+[[Answering one question costs me three turns, because I have to fix its options before I can reply]]
 
 One captured session stopped to ask a human eight separate times, and its questions were not trivia — what happens to the published package, how the server should launch once a dependency is gone, whether a severed ingestion path should be closed one way or another, whether to fix a violation the plan itself forbade. Another session asked seven times. These are the decisions that determine what the product becomes, and none of them could be settled by the agent alone.
 
