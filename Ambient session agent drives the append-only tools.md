@@ -22,3 +22,11 @@ _Addresses: "Don't want to buy a second AI credential just to try it". Unvalidat
 ## Founder preference (2026-07-25, human:conversation)
 
 The founder stated as a standing opinion: "a human's interaction with the OST should be through an AI agent." This directly endorses this solution's thesis — the agent-as-driver is not just a zero-credential workaround but the intended primary interface. Assertion rung; recorded as design intent, not validation.
+
+## Test
+
+[[Test can an ambient agent drive a pass at API-driver quality]]
+
+`npx vitest run test/loop/ambient-driver-parity.test.ts`
+
+Green when one pass driven through the ambient path and one through the API-driver path produce matching node sets and edges over a fixture vault. Structural parity only — it cannot compare prose quality, which is most of a node's worth, and a fixture short enough to be a spec will never reach the failure this actually risks: a long pass that stops mid-sweep and reports a clean run.
