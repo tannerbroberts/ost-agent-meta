@@ -18,3 +18,13 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Replay one week of raw events against five questions the rollup cannot answer]]
+
+```
+npx vitest run test/telemetry/raw-event-question-coverage.test.ts
+```
+
+Green means a week of raw events answers the five named questions and the derived rollup alone does not — the demonstration that summarising first loses something specific, rather than the general worry that it might. It does not settle the cost side: what raw retention takes in storage and in the operator's consent is untouched by this command.
