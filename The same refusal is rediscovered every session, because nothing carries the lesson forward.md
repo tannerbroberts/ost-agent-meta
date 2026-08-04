@@ -61,3 +61,18 @@ Observed behaviour, captured mechanically from session transcripts. The identica
 Ten of the eleven were the agent waiting on a CI check (`gh pr checks <n>`), which is the same want recorded under the sibling opportunity about waiting for a check it cannot subscribe to — but the need this evidence grounds is narrower and separate: the correction was delivered, in full, every single time, and was never once retained.
 
 Evidence class: observed behaviour of the agent's own usage. It grounds usability, not desirability, and is not outside-user evidence of want.
+
+## The cleanest instance yet: the same glob, two sessions, twenty-six hours apart
+
+Two transcript captures contain a byte-identical failing command:
+
+- `TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1` (2026-07-24T21:55Z) — its *only* friction event: `Exit code 1 … (eval):1: no matches found: /Users/tanner/dev/ost*`
+- `TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18` (2026-07-25T00:02Z) — `Exit code 1 … (eval):1: no matches found: /Users/tanner/dev/ost*`
+
+Same path, same unquoted glob, same zsh refusal, twenty-six hours apart, in two sessions with no memory of each other. This is the node's claim reduced to its smallest possible form: one lesson, learned twice, at full price both times.
+
+It is a better instance than a within-session repeat because it removes the competing explanation. A mistake repeated inside one session can be attributed to inattention — the agent had the first failure in context and did not read it. Here the second session *could not* have read it. Nothing was forgotten; there was never anywhere for it to be remembered. That distinction matters for what would fix it: within-session repetition argues for a better error message, and cross-session repetition argues for a store, because no message can reach a reader who was not there.
+
+**Where the same shape shows up again.** The blocked-`sleep` refusal is the higher-volume case of the identical pattern — nine sessions between 2026-07-24 and 2026-08-04 each independently issued a `sleep`-then-poll composition and each independently learned it was refused. That census is recorded on [[My loop spends its time waiting for a check it cannot subscribe to]] because the *want* there is a subscription; what makes it also this node's evidence is that the refusal text names the remedy every time, and nine sessions still arrived without it.
+
+_Provenance: two friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
