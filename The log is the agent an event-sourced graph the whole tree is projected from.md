@@ -39,3 +39,19 @@ Whoever picks this up should treat the following as the shape of the work, not a
 **What would make this worth building.** Nothing here is validated. It rests on `assertion`: a published architecture that someone else's agents use, plus the judgement that this tree's auditability is currently a convention rather than a guarantee. Before anyone writes code, the assumption test below should have a result — and note that this node is expensive enough that a refuted test saves considerably more than it costs.
 
 _Addresses: "Trust an unmonitored agent enough to walk away". Unvalidated — human to review._
+
+## Definition of done
+
+[[Replay this vault's whole git history as events and see if the projection matches]]
+
+```
+npx vitest run test/ost/event-log-projection.test.ts
+```
+
+Green means every tree-changing commit in this vault's real history expresses as events with no residue in at least 95% of cases, **and** replaying the full log through the projector reproduces the current vault byte-identically. It is red today because neither the event vocabulary nor the projector exists.
+
+**The second clause is the strict one and it is not a refinement of the first.** A 99%-expressible history that still projects to a tree differing from the real one is a refutation, not a near-pass: near-determinism is not a contract anything can rest on, and a projection that is authoritative-except-sometimes is strictly worse than no projection, because every reader has to keep the real tree open beside it.
+
+**Why this vault is the right subject and why that cuts both ways.** Every write here was made through the append-only MCP surface, which is the most favourable possible input — so a failure here fails everywhere, and a pass here says nothing about a vault that has been hand-edited. Expect residue to concentrate in exactly the hand-edit case.
+
+**What green does NOT settle.** Feasibility only. It says the architecture is expressible, not that it is worth the rewrite — and the node's own argument concedes that if this fails, what remains is [[Append-only audit trail the operator can replay]] at a fraction of the cost.
