@@ -14,3 +14,13 @@ The argument is that repetition is itself information. An item that has survived
 **Compared to the alternatives.** Requires no permission model, no new verb, and no judgement from any pass — it is a rule over the tree's own history, and it cannot be gamed by an agent because no agent invokes it. It is also the crudest: it cannot distinguish an item nobody may act on from one everybody has been avoiding, and those want opposite responses.
 
 **What would make this the wrong pick.** Ageing rewards neglect. The surest way to get something out of the outstanding list becomes ignoring it for long enough, and the items most likely to be ignored are the difficult ones. A backlog assembled that way is a list of exactly the work that most needed attention.
+
+## Definition of done
+
+[[Replay past sweeps to see what an ageing rule would have moved to the backlog]]
+
+```
+npx vitest run test/ost/backlog-ageing-rule.test.ts
+```
+
+Green means the ageing rule moves items out of the default view while keeping them counted and recoverable — the distinction between a backlog and a quiet deletion. Worth naming what this is aimed at: the nineteen stranded evidence items that every pass re-reads and no pass can clear. It does not settle the risk that ageing hides something that mattered, which no replay can see, because the replay only knows what was already ignored.
