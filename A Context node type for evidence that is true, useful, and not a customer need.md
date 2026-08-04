@@ -91,3 +91,13 @@ So the backlog grew by one and cleared by none, which is what the prediction abo
 Worth adding to the case for the cheaper fix already named above — making `source` appendable on an existing node. Fourteen of the 19 want an attachment, and the attachments have in fact already been written: prior passes cited these same transcript ids in the bodies of the opportunities they ground. The evidence is mapped in every sense a reader would recognise. It is unmapped only in the sense the ledger counts, which is the frontmatter field, settable once at creation.
 
 Recorded by an unattended pass. Nothing here was tested and no threshold was met.
+
+## Definition of done
+
+[[Count stranded evidence items across both vaults that only a Context node could home]]
+
+```
+npx vitest run test/ost/stranded-evidence-census.test.ts
+```
+
+Green means the census this node's own body sketches by hand is computed rather than narrated — the split between items an existing node could cite and items only a new type could home. It does not settle whether a Context node is the right fix: the census above already argues a cheaper one (an appendable `source`) would serve 14 of the 19, and no count decides between them.
