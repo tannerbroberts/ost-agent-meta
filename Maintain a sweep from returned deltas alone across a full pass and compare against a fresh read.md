@@ -4,6 +4,7 @@ status: unvalidated
 created: '2026-08-03'
 evidence: assertion
 threshold: The accumulated sweep matches a fresh read exactly after at least 100 writes.
+instrument: npx vitest run test/mcp/sweep-delta-consistency.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -16,3 +17,6 @@ The assumption is that every write can compute its consequences correctly. A wri
 **Why it is small.** One pass, and this pass alone made over two hundred writes — a large sample from a single run.
 
 **What it will not cover.** It assumes a single writer, which is exactly the condition under which the approach is correct. The interesting failure — drift when a second agent is writing — is invisible to this and needs a concurrent arm.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/mcp/sweep-delta-consistency.test.ts — The threshold — the accumulated sweep matches a fresh read exactly after at least 100 writes — is settled entirely inside the process: the spec drives more than a hundred writes against a fixture vault, accumulates only the deltas each write returns without ever consulting the tree, then produces a fresh sweep and asserts the two agree field by field. It fails today because writes return no delta at all.
