@@ -18,3 +18,13 @@ Do not try to detect drift. Make one failure enough. When an edit does not match
 **Adjacent variant:** address edits by anchor or structure rather than literal string match, so formatting churn stops breaking the address at all. Distinct enough to be its own candidate if a human wants a fourth.
 
 Distinguishing assumption: that the intended site is identifiable when the exact string is not. If the old text is gone entirely, there is no near-miss to show and this returns nothing useful.
+
+## Definition of done
+
+[[Check whether the near-miss text would have supplied the correction]]
+
+```
+npx vitest run test/mcp/refusal-shows-current-text.test.ts
+```
+
+Green means the recorded failed edits each come back with the text actually present, and that text contains what the caller needed to correct itself — the difference between a refusal and a diagnosis. It does not settle whether a caller handed the correction actually uses it rather than re-reading the whole file anyway, which only the next sessions' traces show.
