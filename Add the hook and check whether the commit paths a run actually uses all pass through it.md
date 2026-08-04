@@ -25,3 +25,4 @@ The assumption is that a local hook actually runs. Hooks live on one machine, ar
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/git/conflict-marker-guard.test.ts` — No test files found, exiting with code 1
+- 2026-08-04 **green** (exit 0) `npx vitest run test/git/conflict-marker-guard.test.ts` — Duration  9.36s (transform 109ms, setup 0ms, collect 161ms, tests 9.00s, environment 0ms, prepare 29ms)
