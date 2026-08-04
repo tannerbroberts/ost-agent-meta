@@ -15,3 +15,13 @@ evidence: assertion
 **Contrast with siblings:** cheapest to build and richest per event (full args, full results), but blind to MCP-driven and headless pass usage, dependent on transcript format stability, and gated on quietMinutes latency. The in-band trace (sibling) covers all surfaces with size-only privacy; this covers one surface with full fidelity.
 
 **Trade-off:** full-content traces raise the privacy bar exactly where the size-only design deliberately ducked it.
+
+## Definition of done
+
+[[Check transcript-derived call parity against the in-band trace for one session]]
+
+```
+npx vitest run test/telemetry/transcript-trace-parity.test.ts
+```
+
+Green means the transcript carries the same calls the in-band trace does, which is the whole premise of dropping the second instrument. It does not settle the cases where the two would legitimately diverge — a call the harness made that never reached a transcript, or a session that ended without one — so parity on one session is a floor, not a licence to remove anything.
