@@ -22,3 +22,6 @@ The assumption is that a map small enough to carry is large enough to help. One 
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/runner/workspace-map-coverage.test.ts — The threshold — "a map under 2,000 characters answers at least 70% of the observed failed lookups" — is settled entirely against committed state: the spec renders the workspace map, asserts its serialized length is under the stated budget, replays every failed path lookup in the harvested transcript corpus against it, and asserts the answered share clears 70%. It fails today because nothing in the repository renders a workspace map at all.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/runner/workspace-map-coverage.test.ts` — No test files found, exiting with code 1

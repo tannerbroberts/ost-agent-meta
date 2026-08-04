@@ -29,3 +29,6 @@ The command shows only that a declared manifest *changes the ranking* — that t
 It does not show the new ranking is better. A manifest that reshuffles the top five proves the input matters, not that the output improved, and a spec has no way to judge which of two orderings a human would rather act on. That comparison needs a person who knows the work.
 
 It also does not settle the cost that would actually sink this: somebody has to keep the manifest true. The fixture is hand-filled once, by definition, so nothing in this test speaks to whether an operator would maintain one — and a stale manifest the planner is *required* to cite is worse than no manifest, because it launders a guess into a citation.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/product/manifest-ranking-shift.test.ts` — No test files found, exiting with code 1

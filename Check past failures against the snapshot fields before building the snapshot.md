@@ -24,3 +24,6 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/telemetry/failure-context-coverage.test.ts — The threshold — at least 7 of the 10 most recent recorded failures fully explained by working directory, resolved argv, tool versions and git SHA alone — is scored against committed material: the spec carries the ten failures with what actually explained each, asks whether the four snapshot fields would have carried that explanation, and asserts at least seven come back fully explained. It fails today because nothing captures the four fields at failure time and no labelled failure set is committed to score against.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/telemetry/failure-context-coverage.test.ts` — filter:  test/telemetry/failure-context-coverage.test.ts

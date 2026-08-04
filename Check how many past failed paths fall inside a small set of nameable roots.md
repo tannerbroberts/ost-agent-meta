@@ -20,3 +20,6 @@ The assumption is that a handful of named roots covers most of what a run reache
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/runner/path-root-coverage.test.ts — The threshold — "at least 80% of failed paths fall under 4 or fewer named roots" — is a mechanical classification over paths already captured in this vault's harvested transcripts, so the spec extracts every path from the friction corpus, classifies each against the candidate root set (project, vault, logs, home) and asserts the failed-path coverage share clears 80% with no more than four roots. It fails today because no root vocabulary is declared anywhere in the repository and nothing extracts paths from the harvested records.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/runner/path-root-coverage.test.ts` — No test files found, exiting with code 1

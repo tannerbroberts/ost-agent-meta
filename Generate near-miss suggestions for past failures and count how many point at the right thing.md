@@ -22,3 +22,6 @@ A human marks these and records the result.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/cli/path-near-miss.test.ts — Feeds the recorded failed path lookups in and asserts the suggested nearest existing path is the one that was meant; fails today because a failed lookup returns only the error.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/cli/path-near-miss.test.ts` — No test files found, exiting with code 1

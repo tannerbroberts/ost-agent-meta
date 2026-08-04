@@ -22,3 +22,6 @@ The assumption is that every meaningful trigger is observable. A woken loop that
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/work-source-census.test.ts — The threshold — "every source found is watchable directly, or has a proxy costing under an hour to build" — is a property of committed code: the spec enumerates every channel that can put new work in front of a pass (the six ingest adapters, plus the human-initiated mutations `result`, `promote`, `lane` and `retract`) and asserts each one exposes a watchable event source rather than only a poll. It fails today because nothing in the repository enumerates work sources and no channel exposes an event at all.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/loop/work-source-census.test.ts` — No test files found, exiting with code 1

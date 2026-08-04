@@ -30,3 +30,6 @@ The enumeration is bounded by what this repository ships, and that is both why i
 It is also a snapshot. Host capabilities change on someone else's release schedule, and a spec that passes today records what was true when it was written. Nothing in the assertion notices when a host adds or withdraws a delegable capability, which is exactly the event that would make this solution newly viable or newly broken.
 
 Most importantly it does not touch the question underneath the solution: whether an operator *wants* the run acting under a host-held credential rather than one they issued deliberately. A capability being technically delegable and being something anyone should delegate are different claims, and only the first is in scope here.
+
+## Instrument Log
+- 2026-08-04 **red** (exit 1) `npx vitest run test/security/host-credential-delegation.test.ts` — No test files found, exiting with code 1
