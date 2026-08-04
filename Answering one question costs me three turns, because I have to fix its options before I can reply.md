@@ -18,3 +18,11 @@ When the run stops to ask me something, the choice it offers me is not the choic
 **The distinguishing test.** More than one thing could address this — offering a free-text escape beside the options, asking the open question first and only offering options once the frame is agreed, or having the run state the decision it is about to take and invite correction rather than enumerate choices it guessed at. So it is a need, not a solution wearing one.
 
 ⚠️ Unvalidated. Distilled by an unattended pass from one recorded session — the operator's own behaviour, not their stated account of it. Two rejections in one session is a sighting, not a rate.
+
+## Corroborating session (2026-08-04)
+
+- `TRANSCRIPT:785ea509-96b9-4225-b45a-babd5321aafc` — a `permission_denied` recorded **against an `AskUserQuestion` call**: *"The user doesn't want to proceed with this tool use… the user said: The user wants to clarify…"*. The human rejected the question itself rather than answering it, and the run then asked a second, reframed question in the same session.
+
+This is the cleanest capture of this need so far, because it is the mechanism showing rather than the complaint. The rejection is machine-recorded on the question tool, so the cost is countable: one question asked, one rejection, one re-ask — three turns to obtain one answer, exactly as the title claims. It also shows the failure is not about option *wording* alone; the human's stated reason was that the framing needed clarifying before any of the offered options could be picked.
+
+Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
