@@ -926,3 +926,5 @@
 {"ts":"2026-08-04T19:33:52.007Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1010,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
 {"ts":"2026-08-04T19:34:00.510Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1591,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
 {"ts":"2026-08-04T19:34:05.723Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1124,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
+{"ts":"2026-08-04T19:34:08.984Z","tool":"ost_next_work","ok":true,"ms":59,"surface":"mcp","argBytes":2,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
+{"ts":"2026-08-04T19:35:09.388Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":3044,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692","wrote":["I call a symbol I never wrote, and a whole-project typecheck at the end of the batch is what tells me.md"]}
