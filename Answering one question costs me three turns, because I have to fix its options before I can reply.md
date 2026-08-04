@@ -26,3 +26,19 @@ When the run stops to ask me something, the choice it offers me is not the choic
 This is the cleanest capture of this need so far, because it is the mechanism showing rather than the complaint. The rejection is machine-recorded on the question tool, so the cost is countable: one question asked, one rejection, one re-ask — three turns to obtain one answer, exactly as the title claims. It also shows the failure is not about option *wording* alone; the human's stated reason was that the framing needed clarifying before any of the offered options could be picked.
 
 Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
+
+## First machine-captured instance — the human rejected the question rather than answering it
+
+`TRANSCRIPT:785ea509-96b9-4225-b45a-babd5321aafc` (2026-08-04) records the sequence this node describes, in order, with no narration between the events:
+
+1. `clarifying_question` (AskUserQuestion) — *"How should the lineage prefix handle long node titles?"*, offering options beginning *"Abbreviate ancestors, target in full — each ancestor clipped to …"*
+2. `permission_denied` (AskUserQuestion) — *"The user doesn't want to proceed with this tool use. The tool use was rejected… To tell you how to proceed, the user said: The user wants to clarify…"*
+3. `clarifying_question` (AskUserQuestion) — a different question entirely, about what should happen to the loser of a duplicate merge
+
+Until now this node rested on the founder's account of the experience. This is the same event captured mechanically, by a channel with no view about it: **the question was not answered, it was refused**, and the reply the human did give was a correction to the framing rather than a choice among the options offered. The run then spent a further turn asking again.
+
+**What it costs, precisely.** Three turns of the human's attention were spent, and exactly zero of them were the one-turn act of picking an option. The node's title says "three turns" and this instance is a literal three.
+
+**What it does not establish.** One instance. It says the failure mode is real and is now observable in a channel that captures it without anyone deciding to file it; it says nothing about how often it happens, and a single `permission_denied` on an `AskUserQuestion` is a thin signal — a person can reject a prompt for reasons that have nothing to do with its options being wrong. What would make it countable is that the pattern is mechanically detectable: a `clarifying_question` followed by a `permission_denied` on the same tool is a shape a rule could scan for across the whole transcript corpus. Across the twenty-three records read on 2026-08-04 this shape occurs once, which is the honest denominator.
+
+_Provenance: `TRANSCRIPT:785ea509-96b9-4225-b45a-babd5321aafc`, machine-captured from a session transcript, no narrator. Observed behavior of this product's own agent and its operator; grounds usability, not desirability. Unvalidated — for human review._
