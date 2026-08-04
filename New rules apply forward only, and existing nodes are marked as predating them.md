@@ -14,3 +14,13 @@ The distinction being preserved is between a tree that is wrong and a tree that 
 **Compared to the alternatives.** Costs nothing to the existing tree and keeps the gate meaningful the day a rule lands, which is the day it is most likely to be abandoned as unusable. It also lets the backlog sit forever with no pressure to clear it, and it makes every rule carry a date, so the check's output becomes a history lesson as much as a status.
 
 **What would make this the wrong pick.** Grandfathering is how a codebase ends up with three generations of conventions, all live. If the point of tightening a rule was that the old nodes were genuinely a problem, exempting them by date answers the wrong complaint.
+
+## Definition of done
+
+[[Replay the last three tightenings and see whether the grandfathered backlog ever cleared]]
+
+```
+npx vitest run test/ost/grandfathered-backlog-replay.test.ts
+```
+
+Green means grandfathered nodes were actually brought into compliance after each of the last three tightenings rather than quietly accumulating — which is the question that decides whether forward-only is mercy or debt. A red run here is genuinely informative: it would say this candidate's core promise has already failed three times in this vault's own history.
