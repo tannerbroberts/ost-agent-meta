@@ -24,3 +24,11 @@ A human reads the diff and records the result.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/tightening-migration-meaning.test.ts — Meaning-preservation has a mechanical form for this vault — run the migration over a tree fixture captured before a past tightening and assert every node's prose is byte-identical afterwards while `check` goes from red to green, so the migration is proven to have moved structure and not wording; it fails today because no migration and no before-tightening fixture exist.
+
+## What a green run does not settle
+
+Byte-identical prose plus a red-to-green `check` is a strong mechanical stand-in for "changed nothing's meaning", and it is not the same claim. It proves the migration touched structure and frontmatter only. A migration can leave every word intact and still change what a node *means* by re-parenting it under a different opportunity — the prose is untouched, the claim it makes in context is not.
+
+So the reader in this test's title has not been made redundant, only made cheaper: they no longer have to diff the wording, and can spend their attention on the handful of nodes whose position moved. If that set is large, this instrument passing should not be read as the test passing.
+
+It also covers exactly one past tightening. Generalising from that to "migrations ship with tightenings and it works" is the inference this evidence cannot support.
