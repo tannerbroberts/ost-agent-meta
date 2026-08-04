@@ -919,3 +919,4 @@
 {"ts":"2026-08-04T19:30:39.398Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":31,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
 {"ts":"2026-08-04T19:30:39.435Z","tool":"ost_read_tree","ok":true,"ms":37,"surface":"mcp","argBytes":2,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
 {"ts":"2026-08-04T19:33:01.891Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2092,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}
+{"ts":"2026-08-04T19:33:14.087Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2037,"session":"mcp-a5d5b860-c5ff-42c5-8fa0-fc762f5ab692"}

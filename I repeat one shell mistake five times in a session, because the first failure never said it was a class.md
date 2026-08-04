@@ -29,3 +29,21 @@ Every one of these is the same underlying class: a command written for one shell
 The parent is about a lesson that fails to survive from one session to the next. This one does not need to survive anything — the correction and the repetition are minutes apart in a single unbroken context. That makes it a different and cheaper problem: the parent needs somewhere to store a lesson, and this needs only to notice a repeat.
 
 Evidence class: observed behaviour of the agent's own usage, captured mechanically from session transcripts. It grounds usability, not desirability, and is not outside-user evidence of want.
+
+## Corroborating sessions (2026-07-24 → 2026-07-30)
+
+Seven sessions, and the repetition is visible *within* a single one rather than only across them.
+
+- `TRANSCRIPT:b7aae32d-150a-462f-9027-cdf7af12badd` — `(eval):1: == not found` three times in one session, unchanged between attempts.
+- `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68` — the same `(eval):1: == not found`, a session later.
+- `TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18` — `(eval):1: ==== not found`, plus `no matches found: /Users/tanner/dev/ost*`.
+- `TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1` — the identical unquoted-glob failure, `no matches found: /Users/tanner/dev/ost*`, six days earlier.
+- `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` — `no matches found: test/tmp*`, same class, different glob.
+- `TRANSCRIPT:470cb94a-d709-43b1-85aa-dedd917ac866` — `parse error near '\n'` and `": invalid command code 2`.
+- `TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f` — `Undefined subroutine &main::pct` (a one-liner in the wrong language for the interpreter it was handed to).
+
+The failures are three stable classes — zsh word-splitting on `==`, unquoted globs that zsh refuses rather than passes through, and multi-line/quoting mangling — and each recurs across sessions weeks apart. A per-invocation error message cannot say "you have done this before"; nothing in the loop is holding the class.
+
+A second surface shows the same shape and is worth noting here rather than as its own need: `TRANSCRIPT:516fdfb8-…` and `TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837` both submitted a Workflow script with TypeScript syntax in it and were told, twice, that the surface is plain JavaScript. Same structure — a surface whose constraint is learned only by tripping it, repeatedly.
+
+Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
