@@ -17,3 +17,13 @@ Nobody is asked anything. Every stall the loop already records — a deferred no
 **Blind spots:** it is structurally a post-mortem — it can only name a limit after that limit has already cost a pass, so it would never have prevented the cold-offer draft. And it is blind to abundance: a project holding a million dollars it must deploy this quarter never generates a stall, so the single most planning-relevant fact in the founder's own examples is invisible to this mechanism entirely.
 
 **Compare against** [[A declared resource manifest the planner must cite before it ranks anything]] (which sees abundance but only what someone remembers to type) **and** [[Expiring resource questions asked at a fixed cadence]].
+
+## Definition of done
+
+[[Replay five known blockers and check whether mining would have named each before it cost a pass]]
+
+```
+npx vitest run test/loop/blocker-mining-replay.test.ts
+```
+
+Green means the profile, mined only from history available *before* each blocker, names that blocker in advance — the holdout discipline that separates mining from hindsight. It does not settle whether a named constraint changes what the loop does about it; a profile nothing reads is a well-tested no-op.
