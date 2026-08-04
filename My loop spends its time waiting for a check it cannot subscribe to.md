@@ -59,3 +59,21 @@ _Source: the twelve `TRANSCRIPT:` records named above, each read in full this pa
 It did not even get to wait: the call was blocked before it ran. So the session paid twice — once for having no subscription, and once for the workaround that absence forced it into.
 
 _Source: `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9`, read in full this pass — observed behavior from the agent's own transcript. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
+
+## Corroborating sessions (2026-07-29 → 2026-08-04)
+
+Nine separately-captured sessions show the same move: the run reaches for `sleep N && <poll>` to wait on a CI check or a background task, and the harness refuses it every time with the same message ("To wait for a condition, use Monitor with an until-loop").
+
+- `TRANSCRIPT:785ea509-96b9-4225-b45a-babd5321aafc` — blocked on `sleep 25; gh pr checks 39`, then four near-identical full-suite re-runs while waiting.
+- `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` — blocked on `sleep 45; gh pr checks 17`; three `TaskOutput` block-polls of the same task id.
+- `TRANSCRIPT:470cb94a-d709-43b1-85aa-dedd917ac866` — blocked on `sleep 240; …` waiting for a workflow journal to appear.
+- `TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837` — blocked on `sleep 45; ls …/workflows/wf_a51c57d4-bc9/`.
+- `TRANSCRIPT:b7aae32d-150a-462f-9027-cdf7af12badd` — blocked on `sleep 45; gh pr checks 12`.
+- `TRANSCRIPT:995b8ab1-5e55-4a5c-b05d-aaed9e1d7538` — blocked on `sleep 45; gh pr checks 9`.
+- `TRANSCRIPT:e335a680-ee48-4171-b8ad-4cfb526e4129` — blocked on `sleep 45; gh pr checks 19`.
+- `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68` — blocked on `sleep 45; gh pr checks 18`.
+- `TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff` — blocked on `sleep 25; gh pr checks 10`.
+
+Two things the count says that the single-session record did not. First, the refusal message names the correct alternative and the run still reached for `sleep` in the next session — so this is not an instruction-reading failure that better docs would fix; the wait is a shape the run keeps wanting and cannot express. Second, the wait is not only CI: a workflow journal file and a background task id are waited on the same way, so a fix scoped to `gh pr checks` would leave most of the instances standing.
+
+Evidence class is observed behaviour of this agent using its own harness — it grounds usability, not that anyone outside wants a fix.
