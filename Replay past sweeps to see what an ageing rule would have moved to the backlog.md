@@ -4,6 +4,7 @@ status: unvalidated
 created: '2026-08-03'
 evidence: assertion
 threshold: At most 2 in 10 aged-out items are judged to have mattered.
+instrument: npx vitest run test/ost/backlog-ageing-rule.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that ageing sorts by actionability rather than by difficulty. 
 **What it will not cover.** Marking an item as having been avoided is a judgement made by the person who avoided it. A second reader would strengthen this considerably and is worth the extra hour.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/ost/backlog-ageing-rule.test.ts — Applies the ageing rule to the recorded sweeps and asserts the items it would have moved are counted and still recoverable rather than dropped; fails today because there is no backlog for anything to age into.
