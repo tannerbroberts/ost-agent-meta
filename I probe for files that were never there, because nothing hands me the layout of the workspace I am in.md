@@ -39,3 +39,23 @@ Six sessions where a command failed because the run guessed at a path or a repo 
 The pattern across them is that the run has no ground truth for three separate things — where the repository root is, what the directory tree contains, and where it currently stands — and discovers each one by issuing a command that fails. `a83f0269` is the interesting one: there the run gave up guessing and paid several calls to enumerate the layout, which is the same cost taken deliberately instead of accidentally.
 
 Evidence class is observed behaviour of this agent using its own harness — usability, not demand.
+
+## Six sessions, and the failures cluster into two kinds of wrongness
+
+| Evidence | What was assumed | How it was discovered |
+| --- | --- | --- |
+| `TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f` | `src/cli/index.ts` exists | `sed: src/cli/index.ts: No such file or directory` |
+| `TRANSCRIPT:748498c4-…` (same session) | the cwd is inside a git repo | `Exit code 128 … fatal:` after listing `bin/ vaults/` |
+| `TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff` | `docs/reference` exists | `(eval):cd:1: no such file or directory: docs/reference` |
+| `TRANSCRIPT:a83f0269-c09e-45a3-a1f3-68f601b476c9` | a test path | `Exit code 1`, then a listing of the sixteen real `test/` subdirectories |
+| `TRANSCRIPT:ac007b7b-ac18-4a19-94f1-cb5f3c93ca42` | the cwd is inside a git repo | `Exit code 128` after listing a directory holding only `index.mjs`, `package.json` |
+| `TRANSCRIPT:9a406570-323c-453a-b4ca-a29b4aa01f18` | the cwd is inside a git repo | `Exit code 128`, same directory shape |
+| `TRANSCRIPT:35566d8b-a635-49b1-acc8-6bfbeeb134e7` | the cwd is inside a git repo | `Exit code 128`, same directory shape |
+
+**Two distinct kinds, and the node currently only names one.** The title is about *files that were never there* — the first four rows, where a path was guessed and did not exist. The last three rows are a different and more systematic error: `git` invoked with exit 128 in a directory that is not a repository at all, four times, three of them in the same working directory on the same day. That is not a wrong guess about a file; it is a wrong belief about *what kind of place the session is standing in*, and every action taken on that belief fails until something says so.
+
+The distinction matters because the remedies differ. A workspace map — the thing [[Draft the workspace map and check how many past failed lookups it would have answered]] proposes — answers "does this path exist". It does not answer "is this a repository, is it the repository you think, and where is its root", which is what three of these seven cost a turn to learn.
+
+**The recovery is cheap and identical every time,** which is what makes the repetition wasteful rather than dangerous: every one of these failures is followed immediately by an `ls`, and the `ls` output is right there in the same record. The information was one call away and no call announced it.
+
+_Provenance: six friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
