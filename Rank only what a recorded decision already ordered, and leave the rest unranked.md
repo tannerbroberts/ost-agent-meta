@@ -14,3 +14,13 @@ evidence: assertion
 **Chief risk, stated plainly:** coverage. On a fresh tree almost nothing has a recorded decision, so this mechanism ranks nearly nothing and the operator gets a long unranked tail — which is honest but not yet useful, and is the exact opposite failure to the ledger candidate's fluent-reason-for-everything. It also inherits every contradiction in the record rather than resolving it: the distribution row, where a founder decision names it the critical path while the node's own gate says do not expand it, would render as a row citing two decisions that point opposite ways. That is arguably the correct output, but it is a report of a deadlock rather than a priority.
 
 **Cost shape:** cheap to build and cheap per pass, but its usefulness is entirely a function of how much governance a vault has already written down — it gets better with age instead of working on day one.
+
+## Definition of done
+
+[[Count how much of the tree a recorded decision could actually order]]
+
+```
+npx vitest run test/ost/recorded-decision-ordering.test.ts
+```
+
+Green means the ranking covers exactly what a recorded decision supports and the remainder is explicitly unranked rather than silently ordered. The count is the point: if recorded decisions can order only a small fraction of the tree, this candidate is honest but nearly empty, and that is worth knowing before building it. It does not settle whether an unranked remainder is usable by anyone.
