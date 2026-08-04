@@ -4,7 +4,7 @@ status: unvalidated
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
 evidence: assertion
-instrument: npx vitest run test/eval/riskiest-assumption-judge.test.ts
+instrument: npx vitest run test/ost/riskiest-assumption-judgement.test.ts
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -23,6 +23,7 @@ Proposed by the agent — the hand judgement must be human and blind to the rule
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-04 instrument: (none) → npx vitest run test/eval/riskiest-assumption-judge.test.ts — Runs the judge over solutions whose riskiest assumption is labelled and asserts its pick agrees; fails today because no judge exists and no labelled set is committed to score against.
+- 2026-08-04 instrument: npx vitest run test/eval/riskiest-assumption-judge.test.ts → npx vitest run test/ost/riskiest-assumption-judgement.test.ts — This test asks whether a mechanical judgement is possible at all, so a spec is the direct form of the question rather than a proxy for it — score the candidate rule against a fixture set of solutions whose riskiest assumption has been labelled in advance, and assert agreement above a committed bound; it fails today because no rule and no labelled fixture exist.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/eval/riskiest-assumption-judge.test.ts` — No test files found, exiting with code 1
