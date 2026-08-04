@@ -4,6 +4,7 @@ status: unvalidated
 created: '2026-08-03'
 evidence: assertion
 threshold: Fully expressible conditions cover at least 70% of refusals actually fired.
+instrument: npx vitest run test/mcp/refusal-precondition-coverage.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -16,3 +17,6 @@ The assumption is that the conditions are expressible outside the tool. Any that
 **Why it is small.** A read of the refusal paths in the code against the frequency data already captured.
 
 **What it will not cover.** The drift risk — a published copy going stale against the real rules — is untouched by this and is the objection that most threatens the solution. It needs a separate check that the two stay in step.
+
+## History
+- 2026-08-04 instrument: (none) → npx vitest run test/mcp/refusal-precondition-coverage.test.ts — Enumerates every refusal each mutating call can issue, sorts each into fully expressible, expressible-with-caveat, or not expressible as a caller-evaluable precondition, weights by how often each has actually fired in the captured usage traces, and asserts the node's 70% bar. It fails today because no refusal is published as a precondition and nothing enumerates the refusal paths against the frequency data.
