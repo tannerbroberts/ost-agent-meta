@@ -16,3 +16,13 @@ evidence: assertion
 **Prior art in this tree.** The `#unvalidated` tag and the believability ladder are the same move at node granularity, and their track record inside this vault is genuinely mixed — 212 of 219 nodes sit at `assertion`, which is either honest floor-labelling or a marker nobody prices any more.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+[[Do provenance markers still get read once they are on everything]]
+
+```
+npx vitest run test/ost/authorship-marker.test.ts
+```
+
+Green means: the marker distinguishes something. Today `unvalidated` is stamped on every agent-created node and says nothing about who wrote the prose, so a human's node and the agent's look identical. Green requires authorship recorded per node, surviving an edit and a merge rather than resetting to whoever touched it last, and reportable as a human-written share in the rollup. Green does **not** answer the test's actual question — whether readers still read the marker once it is on everything needs people.
