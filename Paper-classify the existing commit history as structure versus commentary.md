@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/loop/pass-shape-classifier.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,4 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+- 2026-08-05 instrument: (none) → npx vitest run test/loop/pass-shape-classifier.test.ts — Applies the structure-versus-commentary rule to a committed fixture of hand-labelled vault commits and asserts at least 90% agreement, which is this test's own pre-committed bar. Red today because no pass-shape classifier exists in the loop module at all — the rule ("new nodes/links/status" = structure, "annotations/appends only" = commentary) lives only as prose in the solution node, so there is nothing for the spec to import.
