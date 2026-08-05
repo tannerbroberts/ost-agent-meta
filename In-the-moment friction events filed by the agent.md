@@ -20,3 +20,13 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Five-pass count of self-filed friction events]]
+
+```
+npx vitest run test/telemetry/self-filed-friction-events.test.ts
+```
+
+Green means: two of the test's three clauses hold — at least one self-filed event per pass across five recorded passes, and every event carries the tool, the failing input, and what was expected, so bare prose fails. Green does **not** cover the third clause. The unfiled-to-filed ratio below 2:1 requires counting friction that left no record, which only a human reading the same five transcripts can do — and that is precisely the clause that decides whether self-reporting can stand alone.
