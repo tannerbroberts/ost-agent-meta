@@ -65,3 +65,26 @@ Every `clarifying_question` event captured in this vault's transcript channel, w
 **One event is worth more than the other ten.** In `TRANSCRIPT:785ea509-…` a `clarifying_question` is followed immediately by a `permission_denied` on the same tool: *"The user doesn't want to proceed with this tool use… the user said: The user wants to clarify…"*. The human rejected the question rather than answering it. That is not this node's complaint — a stop that a person is present for — it is [[Answering one question costs me three turns, because I have to fix its options before I can reply]], and it is the first machine-captured instance of it, recorded there.
 
 _Provenance: eleven clarifying-question events across nine friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
+
+## Corroboration — eight further sessions, and what they were stopping to ask (2026-08-04 sweep)
+
+Eight captured sessions each halted on `AskUserQuestion`. What is worth recording is not the count but the **kind** of question, because it bears on which candidate under this node could actually help.
+
+Genuinely irreducible — a preference nobody but the operator holds:
+- 9a406570 / 35566d8b (2026-08-04) — "Should the GitHub repo be public or private?"
+- 748498c4 (2026-07-29) — "Which environment should Vault 11 be?"
+- dcdaebdb (2026-08-04) — "Which rendering should I put in the script?"
+- 9a406570 (2026-08-04) — "What does 'Print type' switch between?"
+
+Answerable from state the run already had, or from a stated default:
+- 470cb94a (2026-07-30) — "Should this turn ship the spec only, or also build the cheap ones?" — a scope question a standing policy could settle once.
+- 785ea509 (2026-08-04) — "How should the lineage prefix handle long node titles?" — a formatting question.
+- 785ea509 (2026-08-04) — "When a pass judges two nodes to be duplicates, what should happen to the loser?" — a policy question, since settled and built as `ost_merge_nodes`.
+- 87a025f8 (2026-07-31) — "PR #3 is obsolete…" — a question that recites the full evidence for its own answer before asking it.
+- 2c1b611a (2026-08-04) — "How should metacognition sit relative to the external-returning-operators metric?"
+
+Roughly half are taste and half are policy. **A default-and-proceed mechanism only reaches the second half**, and the first half will stop an unattended run no matter how good the defaults are. Any candidate here that promises to eliminate blocking should be read against that split rather than against the raw count.
+
+One further data point on the shape of the stop: in 785ea509 a question was itself refused (`permission_denied` on AskUserQuestion) with the operator saying they wanted to clarify — i.e. the options offered did not contain the answer. That is [[Answering one question costs me three turns, because I have to fix its options before I can reply]] happening inside a session already captured here.
+
+_Recorded as corroboration during the 2026-08-04 unattended pass; these items remain unmapped in the sweep. Observed behavior, mechanically captured; grounds usability, not demand._
