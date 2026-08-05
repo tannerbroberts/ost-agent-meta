@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count how many captured failures happened in a directory this tool actually scaffolded]]
 
 Whatever creates a workspace leaves a small machine-readable record of what it set up and, more importantly, what it deliberately did not: `git: false`, `deps-installed: false`, `remote: none`. Any later reader gets the state by reading one file instead of probing for it.
 
