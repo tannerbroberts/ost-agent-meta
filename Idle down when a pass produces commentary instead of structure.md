@@ -32,3 +32,11 @@ Creates, then appends, then commentary on the root. The transition is legible fr
 ## Observed from inside (2026-07-25, twenty-passes run)
 
 `INBOX:2026-07-25-friction-passes-8-through-13-produced-zero-structure-whil…`: six consecutive governed passes (8–13) produced zero structural changes while ost_next_work reported the identical outstanding list each time. The mechanical trace for the session shows the call pattern flattening to next_work + git_commit('nothing to commit') pairs — exactly the commentary-vs-structure signature this solution proposes to detect. First recorded instance of the full idle signature in the wild; the paper-classification assumption test now has a labeled positive sample.
+
+## Definition of done
+
+[[Paper-classify the existing commit history as structure versus commentary]]
+
+```
+npx vitest run test/loop/pass-shape-classifier.test.ts
+```
