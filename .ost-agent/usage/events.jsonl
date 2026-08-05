@@ -1529,3 +1529,4 @@
 {"ts":"2026-08-05T15:36:50.671Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":1000,"session":"mcp-2738c7e0-416f-46b0-93cc-04a11979f77c"}
 {"ts":"2026-08-05T15:36:55.344Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":615,"session":"mcp-2738c7e0-416f-46b0-93cc-04a11979f77c"}
 {"ts":"2026-08-05T15:37:00.177Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":1003,"session":"mcp-2738c7e0-416f-46b0-93cc-04a11979f77c"}
+{"ts":"2026-08-05T15:37:04.987Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":566,"session":"mcp-2738c7e0-416f-46b0-93cc-04a11979f77c"}
