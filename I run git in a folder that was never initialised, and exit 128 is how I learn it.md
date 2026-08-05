@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[One workspace-state probe the run makes before it plans, not one failing command at a time]]
 
 **Customer need (operator's perspective):** "When I start work in a folder, I need to know what that folder already *is* — initialised or not, a repo or a bare directory, tooled or bare — before I run the command that assumes it. Finding out from a `fatal:` is finding out too late."
 
