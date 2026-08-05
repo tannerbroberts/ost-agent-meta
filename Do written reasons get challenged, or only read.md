@@ -23,3 +23,6 @@ instrument: npx vitest run test/ost/ranked-ledger-reasons.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/ranked-ledger-reasons.test.ts — Asserts the refusal that is this node's entire mechanism: a ledger row whose reason is missing, empty, or cites no node title or evidence id is refused a rank and lands in the named unranked tail rather than a confident position. Red today because no ranked ledger and no write-boundary refusal exist.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/ranked-ledger-reasons.test.ts` — No test files found, exiting with code 1

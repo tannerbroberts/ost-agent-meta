@@ -23,3 +23,6 @@ instrument: npx vitest run test/mcp/echo-written-line.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/mcp/echo-written-line.test.ts — Asserts every mutating tool returns the line it actually wrote rather than a confirmation that it wrote something. Red against today's code, observed directly this pass: ost_set_instrument already echoes its full History line, but ost_annotate returns `annotated "<title>"`, ost_append_to_node returns `appended to "<title>"`, and ost_create_node and ost_link_nodes report only that the call completed — so the defect this node was ideated from is still expressible on four surfaces.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/mcp/echo-written-line.test.ts` — No test files found, exiting with code 1

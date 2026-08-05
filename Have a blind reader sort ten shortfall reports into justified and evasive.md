@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/scope-shortfall.test.ts — Asserts the timing that the node says is the mechanism: intended scope is recorded at run start, is immutable once the gate is known, and the end-of-run shortfall is diffed against that recorded declaration rather than a restated one. Red today because nothing declares scope at the start of a run, so there is no pre-obstacle statement to compare against.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/scope-shortfall.test.ts` — No test files found, exiting with code 1

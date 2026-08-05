@@ -35,3 +35,6 @@ instrument: npx vitest run test/ost/census-drop-history.test.ts
 It settles none of the three things the threshold actually turns on. Whether anyone had **predicted** a given drop beforehand is a human's recollection, not a field. Whether a named file **led to a repair or was noted and ignored** is the operator-facing half this node says would falsify it, and that is behaviour over firings, not an exit code. And the node's own most-expected failure mode — that it fires only on vaults its author broke deliberately, never on a real one — is a fact about the world that no spec against fixtures can reach.
 
 So the instrument moves this from unrunnable to runnable-in-ten-firings, and the verdict at the end of those ten firings is still a human's.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/census-drop-history.test.ts` — No test files found, exiting with code 1

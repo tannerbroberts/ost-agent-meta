@@ -26,3 +26,6 @@ instrument: npx vitest run test/ost/next-build-briefing.test.ts
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/next-build-briefing.test.ts — Asserts the briefing resolves to one stable address across passes and that each rewrite preserves the prior reading rather than overwriting it, so the history is the record the node claims it is. Red today because no standing Next Build node exists — the content is still being appended to the root Outcome, which is the failure the node was written about.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/next-build-briefing.test.ts` — No test files found, exiting with code 1

@@ -32,3 +32,6 @@ The extractor's lead-in pattern requires the bold `**…pre-commit…**` marker 
 **Lane: compute-only.** Two committed markdown fixtures and one classifier call; no person is the measurement.
 
 ⚠️ Unvalidated. Proposed by an unattended pass from its parent's own recorded observations. Nothing here was run.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/threshold-lead-in-wrap.test.ts` — No test files found, exiting with code 1

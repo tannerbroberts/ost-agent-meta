@@ -24,3 +24,6 @@ Who may acknowledge, and whether it expires, are human decisions. A human runs t
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/acknowledge-evidence.test.ts — Asserts the verb the surface lacks: an acknowledged item leaves unmappedEvidence without being deleted or mapped, its reason persists append-only, and "corroborates [[X]]" is stored as a distinct verdict from "no genuine need" so only the first can strengthen a node later. Red today because no acknowledge verb exists and mapping is carried solely by node source frontmatter.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/acknowledge-evidence.test.ts` — No test files found, exiting with code 1
