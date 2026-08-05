@@ -4,6 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check a partial artifact is rejected at the offending line rather than at submission]]
 
 **The mechanism: move the check from submission to composition.** The artifact is parsed as it is written rather than when it is handed over, so a dialect violation surfaces at the line that caused it, while three lines exist rather than a hundred and seventy. Nothing about what the surface accepts changes; only when it says so.
 
