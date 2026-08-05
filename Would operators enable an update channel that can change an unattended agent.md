@@ -8,6 +8,7 @@ threshold: >-
   behaviour while nobody is watching, at least 2 say they would enable it and
   still leave a pass running overnight. If 2 or more say it would stop them
   running unattended, the candidate is killed.
+instrument: npx vitest run test/loop/checkpoint-update.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,3 +23,6 @@ threshold: >-
 **What a refuted result buys, which is why it is worth running early.** It would settle the shape of this whole branch cheaply: two pull-shaped candidates already sit beside this one, and a clear no here makes the comparison a two-way rather than a three-way choice without anything being built.
 
 **What it deliberately does not cover:** stated reaction, not behaviour. Someone saying they would enable a channel is the `stated` rung at best, and what an operator does with a real switch on a real machine is a different measurement that only exists after something is built.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/loop/checkpoint-update.test.ts — Asserts the node's one falsifiable engineering claim — that an announced update is held until between passes and never applied mid-pass, so it cannot land on a half-finished write. Red today because no update channel and no checkpoint barrier exist in the loop at all.
