@@ -19,3 +19,6 @@ The assumption is that the failing workspaces are ones this tool made. A manifes
 **Why it is small.** Four sessions, each of which printed a full `ls -la` immediately before failing, so the evidence needed is already in the record.
 
 **What it will not cover.** It says nothing about staleness, which is this candidate's real risk: a manifest is a claim about state rather than the state itself, and a reader that believes a wrong manifest proceeds confidently where a probe that finds nothing degrades to asking. That failure mode needs its own test and would want a period of real use to see, since nothing in four captured sessions could show it.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/runner/scaffold-manifest-coverage.test.ts` — No test files found, exiting with code 1

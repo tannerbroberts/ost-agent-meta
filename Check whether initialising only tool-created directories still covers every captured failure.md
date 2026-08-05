@@ -23,3 +23,6 @@ The second is that initialising is **safe where it would run**. A `git init` ins
 **Why it is small.** Both are properties of paths that are already in the record.
 
 **What it will not cover.** Whether the operator *wants* their disk written to without being asked is a consent question, not a coverage question, and no count settles it. If a human's answer is that unrequested initialisation is unacceptable at any scope, this candidate is dead regardless of how green this comes out — see [[Fear the agent could take a destructive, irreversible action]].
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/runner/unconditional-scaffold-init.test.ts` — No test files found, exiting with code 1

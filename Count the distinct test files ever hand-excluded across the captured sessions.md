@@ -21,3 +21,6 @@ The assumption is that there is enough of this to be worth a mechanism. A commit
 **Why the threshold is set where it is.** Below three distinct files this candidate loses to simply fixing the flake, and that is a result worth being able to get — a test that cannot come out against its own candidate is not doing anything. The current record is known to contain at least one file (`test/mcp/wall-clock-budget.test.ts`, excluded three times in one session on 2026-08-04), so a red here is a live possibility rather than a formality.
 
 **What it will not cover.** It cannot see exclusions that were never typed because the operator gave up and ran a narrower suite instead, and it says nothing about this candidate's real hazard — that a comfortable quarantine lowers the cost of never fixing anything, which is why [[Quarantine entries expire, so a workaround cannot become permanent by inattention]] may be a precondition rather than a sibling.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/hand-exclusion-census.test.ts` — No test files found, exiting with code 1
