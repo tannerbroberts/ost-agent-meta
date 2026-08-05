@@ -67,3 +67,29 @@ Sorted from the transcript channel, the ad-hoc-shell failures across this vault'
 **One caution on this table.** It is a hand-sort by the sweep that read the records, not a mechanical classification, so the class boundaries are a judgement and the count of nine-of-eleven rests on it. [[Group the harvested tool errors by hand and see whether one rule reproduces the grouping]] is the test that would settle whether the grouping survives contact with a rule.
 
 _Provenance: eight friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
+
+## Corroboration — the classes, enumerated across nine sessions (2026-08-04 sweep)
+
+Newly captured shell failures, grouped by the class each one belongs to. The grouping is the point: every one of these is a member of a small set of recurring classes, and in no case did the failure message say so.
+
+**Unmatched glob under `zsh` `nomatch`** — the shell aborts the whole command rather than passing the pattern through, which is not the `bash` behaviour the command was written for:
+- `(eval):1: no matches found: /Users/tanner/dev/ost*` — TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1 (2026-07-24)
+- `(eval):1: no matches found: /Users/tanner/dev/ost*` — TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18 (2026-07-25) — **the identical glob, a day later, in a different session**
+- `(eval):1: no matches found: test/tmp*` — TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d (2026-07-30)
+
+**`==` used where the shell wanted `=`, or a heredoc/quoting boundary lost:**
+- `(eval):1: == not found` — TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68 (2026-07-30)
+- `(eval):1: ==== not found` — TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18 (2026-07-25)
+- `(eval):41: parse error near '\n'` — TRANSCRIPT:470cb94a-d709-43b1-85aa-dedd917ac866 (2026-07-30)
+- `": invalid command code 2` — TRANSCRIPT:470cb94a-d709-43b1-85aa-dedd917ac866 (2026-07-30)
+
+**A relative path resolved against the wrong working directory:**
+- `(eval):cd:1: no such file or directory: docs/reference` — TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff (2026-07-29)
+- `sed: src/cli/index.ts: No such file or directory` — TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f (2026-07-29)
+
+**A one-liner in a language whose helper was never defined:**
+- `Undefined subroutine &main::pct called at -e line 1` — TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f (2026-07-29)
+
+The repeated `/Users/tanner/dev/ost*` glob is the strongest single item here: the same pattern, failing the same way, in two sessions a day apart. That is this node's claim reproduced rather than asserted — and it is also the cheapest possible thing to catch, because the two failures are byte-identical.
+
+_Recorded as corroboration during the 2026-08-04 unattended pass; these items remain unmapped in the sweep. Observed behavior, mechanically captured; grounds usability, not demand._
