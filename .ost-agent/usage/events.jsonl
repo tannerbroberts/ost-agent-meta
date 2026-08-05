@@ -1331,3 +1331,5 @@
 {"ts":"2026-08-05T02:32:53.016Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1375,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
 {"ts":"2026-08-05T02:33:01.478Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1878,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
 {"ts":"2026-08-05T02:33:05.139Z","tool":"ost_ingest_inbox","ok":true,"ms":2,"surface":"mcp","argBytes":2,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
+{"ts":"2026-08-05T02:33:08.174Z","tool":"ost_next_work","ok":true,"ms":34,"surface":"mcp","argBytes":2,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
+{"ts":"2026-08-05T02:33:38.183Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2294,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3","wrote":["A corrections ledger in the workspace that every session reads before it composes.md"]}

@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[A corrections ledger in the workspace that every session reads before it composes]]
 
 I keep paying for the same correction. When I reach for `sleep 45 && gh pr checks 17` to wait on something, the surface refuses it and tells me exactly what to do instead — use `Monitor` with an until-loop, or `run_in_background` for a command I started. The message is clear and correct. Then the session ends, and the next session I reach for `sleep 45 && gh pr checks` again.
 
