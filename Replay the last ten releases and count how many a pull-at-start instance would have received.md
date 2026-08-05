@@ -26,3 +26,6 @@ instrument: npx vitest run test/release/registry-propagation-lag.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/release/registry-propagation-lag.test.ts — The node states the answer is "entirely in git history and the registry's own version list", so the spec walks the last ten version bumps on `main`, resolves each against the committed registry version snapshot, computes the lag between commit and publish, and asserts at least 8 of 10 were resolvable within 24 hours. It fails today because nothing in the repository computes propagation lag and no registry snapshot is committed to score against.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/release/registry-propagation-lag.test.ts` — No test files found, exiting with code 1

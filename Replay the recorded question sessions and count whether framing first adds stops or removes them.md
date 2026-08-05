@@ -17,3 +17,6 @@ Count the total operator turns the recorded sessions actually cost, then count w
 **Lane: compute-only.**
 
 **What this does not settle.** This is a replay against history, so it answers whether the trade would have paid off on questions this run has already asked. It cannot tell you whether framing first makes the operator's answers *better* — a shorter exchange that reaches the wrong decision is worse than a long one — and it cannot speak for question shapes that have not occurred yet.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/two-stage-question-stop-count.test.ts` — No test files found, exiting with code 1

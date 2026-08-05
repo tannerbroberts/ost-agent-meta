@@ -22,3 +22,6 @@ The assumption is that a grandfathered backlog eventually gets cleared rather th
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/grandfathered-backlog-replay.test.ts — Replays the last three tightenings and asserts the nodes marked as predating each one were subsequently brought into compliance rather than accumulating; fails today because nothing marks or tracks a grandfathered node.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/grandfathered-backlog-replay.test.ts` — No test files found, exiting with code 1

@@ -20,3 +20,6 @@ instrument: npx vitest run test/product/routing-record-capability.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/product/routing-record-capability.test.ts — Replays the routing record and counts work classes with more than one collaborator, which is the comparison any capability estimate needs; fails today because nothing derives capability from what was asked and what came back.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/product/routing-record-capability.test.ts` — No test files found, exiting with code 1

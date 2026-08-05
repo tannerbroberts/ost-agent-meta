@@ -19,3 +19,6 @@ instrument: npx vitest run test/loop/corrections-ledger.test.ts
 **Why it is small.** The corpus already exists on disk and the refusal messages already contain the permitted form. Nothing needs to be run live.
 
 **What it does NOT cover, and it is most of what matters.** Whether a session that receives the correction acts on it. The node's own weakness is that a reflex which survived seven explicit refusals may well survive a note about them, and this test cannot see that — it proves delivery, not persuasion. It also cannot see the unbounded-growth failure, which only appears after months of refusals.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/corrections-ledger.test.ts` — No test files found, exiting with code 1

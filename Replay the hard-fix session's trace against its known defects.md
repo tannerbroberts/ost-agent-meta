@@ -22,3 +22,6 @@ instrument: npx vitest run test/telemetry/trace-defect-replay.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/telemetry/trace-defect-replay.test.ts — Replays the hard-fix session's trace and asserts each known defect is visible in it, which is what a trace has to do to be worth keeping; fails today because the rollup discards the detail the defects show up in.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/trace-defect-replay.test.ts` — No test files found, exiting with code 1

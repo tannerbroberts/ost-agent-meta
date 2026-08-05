@@ -21,3 +21,6 @@ The mechanism is not the risk here — an expiry date is trivial to implement. T
 **Why a red here is likely and useful.** The recorded sample is one flake. A period that "works" on one case is fitted to it, and the honest reading of a green on n=1 is that nothing was learned. The threshold is written to require zero bad firings precisely so that a thin sample fails rather than flatters — if the record cannot support a period, the finding is that this candidate needs more history before it can be tuned, and it should not ship on a guessed number.
 
 **What it will not cover.** Whether an operator renews a lapsed quarantine thoughtfully or reflexively is a behaviour no replay can see, and it is the thing that decides whether expiry creates pressure or just ceremony.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/quarantine-expiry-period.test.ts` — No test files found, exiting with code 1

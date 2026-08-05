@@ -20,3 +20,6 @@ Retrospective, no build. Proposed by the agent; a human runs it and records the 
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/adapters/recurrence-rule-filing.test.ts — The threshold is two mechanical clauses over a fixed corpus — files five or fewer records in total, and both the repeated refusal and the repeated poll appear as single records carrying their count and span — so the spec replays the same 29 harvested records through the recurrence rule and asserts the filed count and the two known groupings, including that thirteen blocked sleep-then-poll calls with differing durations and targets collapse to one record. It fails today because no recurrence rule exists.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/recurrence-rule-filing.test.ts` — No test files found, exiting with code 1
