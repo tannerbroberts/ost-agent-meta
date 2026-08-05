@@ -4,6 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check the accepted grammar is retrievable without submitting anything, and names every rejected construct]]
 
 **The mechanism: make the constraint readable instead of discoverable-by-violation.** The surface exposes what it accepts — the dialect, the forbidden constructs, the shape of a valid artifact — at an address a composer can read before it writes a line. The rule that scripts are plain JavaScript and that type annotations, interfaces and generics are the usual way to get it wrong is currently held only inside the parser's error message, which means the only way to obtain it is to be wrong first.
 
