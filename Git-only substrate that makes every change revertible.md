@@ -18,3 +18,15 @@ _Addresses: "Fear the agent could take a destructive, irreversible action". Unva
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Test does git auto-init and one-command revert work everywhere]]
+
+```
+npx vitest run test/git/revert-fidelity.test.ts
+```
+
+Red today because no spec snapshots, mutates, reverts and compares. The vault auto-commits and `test/git/` covers conflict and lock behaviour, so a write that silently escaped a commit, or a revert that left a file behind, would go unreported. Green means a pass in a fresh empty directory and a pass inside an existing repository both revert to a byte-identical prior tree in one command, and that auto-init produced a repository in the empty case rather than writing outside version control.
+
+What it does not settle: the third environment this node names — a machine with no git preinstalled — is genuinely about somebody's laptop, and no exit code in this suite stands in for it. That half stays a person's check and should be recorded separately rather than read off this command.
