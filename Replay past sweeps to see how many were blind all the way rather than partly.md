@@ -24,3 +24,4 @@ instrument: npx vitest run test/ost/blind-sweep-replay.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/blind-sweep-replay.test.ts` — No test files found, exiting with code 1
+- 2026-08-05 **green** (exit 0) `npx vitest run test/ost/blind-sweep-replay.test.ts` — Duration  12.02s (transform 365ms, setup 0ms, collect 562ms, tests 10.15s, environment 0ms, prepare 134ms)
