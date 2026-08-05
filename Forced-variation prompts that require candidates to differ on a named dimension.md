@@ -18,3 +18,13 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Does a named-dimension constraint raise distinctness without lowering candidate quality]]
+
+```
+npx vitest run test/knowledge/forced-variation-prompt.test.ts
+```
+
+Green means: the constraint actually reaches the model — every candidate requested carries an explicit and distinct variation dimension in its prompt. Green does **not** mean the constraint works: distinctness up, and plausibility down by no more than 10%, both need a human blind-rating the two sets.
