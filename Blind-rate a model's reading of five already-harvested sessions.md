@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass-2'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/adapters/transcript-model-reader.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -17,3 +18,6 @@ evidence: assertion
 **The control set is not decoration.** If the rater accepts mechanical-harvester items at a similar rate, the interpretive read is not buying anything and the cheaper sibling wins on cost alone.
 
 **Who runs it.** A human does the rating, blind to which items came from which reader. Reading five transcripts costs money, which is itself part of what is being decided — record the spend alongside the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/adapters/transcript-model-reader.test.ts — Asserts the guard the node says any shipped version needs: every filed item carries a verbatim quote that is locatable in the transcript it claims to come from, so a model's interpretation cannot be laundered into observed material. Red today because the transcript adapter only pattern-scans for tool_error, retry and clarifying_question, and no model-reading path exists.
