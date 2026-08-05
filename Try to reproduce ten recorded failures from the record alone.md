@@ -27,3 +27,9 @@ That third bucket is the point of the test. The list of named missing variables 
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/record-replay-sufficiency.test.ts — Reads the 10 most recent non-zero exits from .ost-agent/health/runs.jsonl and asserts each can be reconstructed into an executable invocation from the record alone, requiring at least 5 to carry both cwd and argv. Red today: no reconstruct-from-record helper is exported from the loop step reader at all, and the pre-v0.20.0 lines in the corpus carry neither field, so the assertion fails on both the missing mechanism and the existing data.
+
+## What the instrument does not settle
+
+The instrument `npx vitest run test/loop/record-replay-sufficiency.test.ts` answers only the mechanical half of this test: whether the record carries enough to reconstruct the invocation. A green exit code says the fields are present and sufficient to rebuild a command; it does not say the rebuilt command reproduces the original failure, and it says nothing at all about bucket three — the named variable that was actually missing — which is the part this test's own body calls more valuable than the score.
+
+That naming is a judgement over real failures and stays with a person. So a pass here is necessary and not sufficient: it clears the question "is cwd-and-argv recorded and reconstructable" and leaves "is cwd-and-argv *enough*" exactly where it was.
