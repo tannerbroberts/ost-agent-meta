@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Census every consumer that reads a suite result as a pass-or-fail boolean]]
 
 A suite result is not a boolean. It carries the set of things it did not run — excluded, skipped, quarantined, never collected — and any reader that treats it as a verdict has to look at that set. A gate reading a green with a non-empty exclusion set refuses to call it full coverage.
 
