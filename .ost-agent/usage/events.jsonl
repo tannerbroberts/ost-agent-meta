@@ -1701,3 +1701,4 @@
 {"ts":"2026-08-05T23:52:40.375Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":386,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Carry across every section the caller did not supply, rather than a hand-listed reserved set.md"]}
 {"ts":"2026-08-05T23:52:42.264Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":367,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Refuse a rewrite that would drop a section the caller never accounted for.md"]}
 {"ts":"2026-08-05T23:52:43.793Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":358,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Report what a write changed, so a silent loss stops being silent.md"]}
+{"ts":"2026-08-05T23:53:02.230Z","tool":"ost_merge_nodes","ok":true,"ms":124,"surface":"mcp","argBytes":4750,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
