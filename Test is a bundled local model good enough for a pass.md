@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-agent-as-driver.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/product/offline-trial-pass.test.ts
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -17,3 +18,4 @@ _Proposal only — a human runs this evaluation. Unvalidated._
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 instrument: (none) → npx vitest run test/product/offline-trial-pass.test.ts — Asserts the node's actual promise — a first-time user running the tool end-to-end with no external account and no network at all: a full maintenance pass completes with the network disabled and no credential in the environment. Red today because the deterministic CLI works offline but every reasoning step is supplied by the connected session's model, so a pass cannot complete without one.
