@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/loop/record-replay-sufficiency.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,6 @@ That third bucket is the point of the test. The list of named missing variables 
 **What a result must also state.** How many of the 10 could not be attempted at all — because the referenced commit is gone, the repo has moved on, or the record is too sparse to even start. Those are not failures of the candidate; they are a separate finding about record retention, and conflating them would flatter the result in one direction or damn it in the other.
 
 **Who runs it.** A human. This pass proposes the design only.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/loop/record-replay-sufficiency.test.ts — Reads the 10 most recent non-zero exits from .ost-agent/health/runs.jsonl and asserts each can be reconstructed into an executable invocation from the record alone, requiring at least 5 to carry both cwd and argv. Red today: no reconstruct-from-record helper is exported from the loop step reader at all, and the pre-v0.20.0 lines in the corpus carry neither field, so the assertion fails on both the missing mechanism and the existing data.
