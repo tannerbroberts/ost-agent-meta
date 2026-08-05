@@ -27,3 +27,11 @@ instrument: npx vitest run test/ost/census-drop-history.test.ts
 ## History
 - 2026-07-27 evidence: (none) → assertion — Agent-ideated from the shipped solution it tests. No result recorded yet by construction — it is designed to be read across 10 firings.
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/census-drop-history.test.ts — Asserts a census-history reader exists that accumulates every non-empty census line across the last 10 firings and names, per firing, the dropped or unreadable file specific enough to act on — the data this test's own threshold is counted over. Red today because nothing accumulates it: readTreeCensus() and reconcileWithGit() print their counts per invocation and the result is discarded, so there is no per-firing record for a spec to read and no exported reader to import.
+
+## What the instrument does not settle
+
+`npx vitest run test/ost/census-drop-history.test.ts` builds the record this test is counted over; it does not answer the test. A green exit says the census line is now accumulated per firing and each drop names an actionable file — it makes the 10-firing count possible where today the numbers are printed and thrown away.
+
+It settles none of the three things the threshold actually turns on. Whether anyone had **predicted** a given drop beforehand is a human's recollection, not a field. Whether a named file **led to a repair or was noted and ignored** is the operator-facing half this node says would falsify it, and that is behaviour over firings, not an exit code. And the node's own most-expected failure mode — that it fires only on vaults its author broke deliberately, never on a real one — is a fact about the world that no spec against fixtures can reach.
+
+So the instrument moves this from unrunnable to runnable-in-ten-firings, and the verdict at the end of those ten firings is still a human's.
