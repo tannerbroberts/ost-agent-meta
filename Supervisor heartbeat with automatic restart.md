@@ -23,3 +23,19 @@ Status: agent-originated candidate. Unvalidated.
 
 ## Issues
 - 2026-07-25 Cross-branch relation (twenty-passes P5, 2026-07-25): new solution 'Supervisor heartbeat consumes run journals and alerts on error' (under 'A failed pass reports success…') extends this node's contract rather than competing with it. If a human promotes either, build them as one thing.
+
+## Definition of done
+
+[[Replay historical runs against a stall definition]]
+
+```
+npx vitest run test/loop/stall-definition-replay.test.ts
+```
+
+Red today: no stall definition exists in the repository — nothing separates a pass making slow progress from one that has stopped. Green when a candidate definition replayed over every journal in `.ost-agent/runs/` flags every known stall and raises no false alarm on a healthy run.
+
+**Read the green narrowly.** This command decides whether a stall is *detectable* from journals as they already exist. It does not decide that automatic restart is safe, and this solution proposes automatic restart. The node's own pre-committed reasoning is the reason to hold that line: one false restart of healthy work is worse than no supervisor at all, because it burns compute while looking alive. A detector with zero false alarms on the recorded sample is evidence, not a guarantee, and the sample is small.
+
+So the honest sequencing is that a green here promotes the *reporting* sibling — tell a human the run looks stalled — and leaves restart needing its own argument about what happens when the detector is wrong.
+
+**What this does not settle.** Desirability and viability are untouched: nothing here says an operator wants a supervisor, or would trust one enough to leave it running, which is the claim [[Trust an unmonitored agent enough to walk away]] actually turns on.
