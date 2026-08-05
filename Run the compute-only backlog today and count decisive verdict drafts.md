@@ -6,6 +6,7 @@ source: >-
   as first operator
 created: '2026-07-25'
 evidence: assertion
+instrument: npx vitest run test/loop/compute-lane-runner.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ evidence: assertion
 **Decides:** whether the triage lane is real, and calibrates what share of this tree's work was ever actually blocked on human hours.
 
 *Proposed by the agent — verdicts recorded only by a human via ost-agent result.*
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/loop/compute-lane-runner.test.ts — Asserts a compute-only lane runner exists that executes every test carrying lane: compute-only against existing vault data and emits a verdict draft with the evidence inline and a pre-filled ost-agent result line. Run against a seeded fixture holding known compute-only tests, so it cannot pass vacuously on the empty live set — the positive-control discipline this vault learned from the planted-instance run. Red today because the runner is the half deliberately not built: v0.6.0/v0.7.0 shipped the lane model, the report and the setter, and this node's own build notes state that compute running the compute-only lane unprompted is not implemented and that the runnable set is empty by construction.
