@@ -4,6 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check a derived deny rule against legitimate uses of the same verb it was derived from]]
 
 **The mechanism: stop remembering, start narrowing.** The first time a guard refuses a class of call, it writes the refusal into the workspace's own configuration as a standing deny rule. The correction is not something a later session has to recall — it is a property of the environment that session runs in. The eighth `sleep`-then-poll is not resisted by a better-informed composer; it is simply not a thing that can be done here.
 
