@@ -6,6 +6,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[A quarantine list committed to the repo, so the exclusion is declared once instead of retyped]]
+[[A result carries its own exclusion set, so a gate cannot read it as full coverage]]
 
 **Customer need (operator's perspective):** "When I have to work around a test I know is flaky, I need the workaround to be on the record. A suite that came back green while one file was excluded by hand is not the same result as a suite that came back green, and right now nothing I can read afterwards tells the two apart."
 
