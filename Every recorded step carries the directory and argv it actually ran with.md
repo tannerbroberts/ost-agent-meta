@@ -38,3 +38,11 @@ moment the history matters.
 
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
+
+## Definition of done
+
+[[Try to reproduce ten recorded failures from the record alone]]
+
+```
+npx vitest run test/loop/record-replay-sufficiency.test.ts
+```

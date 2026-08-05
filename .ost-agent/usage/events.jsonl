@@ -1407,3 +1407,4 @@
 {"ts":"2026-08-05T03:27:42.685Z","tool":"ost_read_tree","ok":true,"ms":27,"surface":"mcp","argBytes":2,"session":"mcp-5f678039-932b-4b86-99c4-6183a440dcec"}
 {"ts":"2026-08-05T03:30:06.549Z","tool":"ost_set_instrument","ok":true,"ms":3,"surface":"mcp","argBytes":595,"session":"mcp-5f678039-932b-4b86-99c4-6183a440dcec"}
 {"ts":"2026-08-05T03:30:12.746Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":896,"session":"mcp-5f678039-932b-4b86-99c4-6183a440dcec"}
+{"ts":"2026-08-05T03:30:15.346Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":257,"session":"mcp-5f678039-932b-4b86-99c4-6183a440dcec"}
