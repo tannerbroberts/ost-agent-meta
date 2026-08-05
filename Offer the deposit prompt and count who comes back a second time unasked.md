@@ -7,6 +7,7 @@ threshold: >-
   Over two weeks, at least half of the collaborators offered the prompt deposit
   at least once, AND at least one deposits again without being prompted. Zero
   unprompted second deposits kills the candidate.
+instrument: npx vitest run test/adapters/deposit-prompt.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,6 @@ threshold: >-
 **A population problem worth stating before anyone runs it:** this vault currently has one human operator and no external collaborators, so "half of those offered" is a bar over an n that may be one. Run as-is it would measure the founder's own willingness, which is not the population the claim is about. A human should decide whether to hold this test until collaborators exist rather than run it against n=1 and record a number that reads stronger than it is.
 
 **What it deliberately does not cover:** whether what gets deposited is accurate. Self-reported reach is not measured reach, and this test counts deposits, not truth.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/adapters/deposit-prompt.test.ts — Asserts the containment the node stakes its honesty on: the collaborator's answer is stored verbatim, nothing is inferred from it, and the evidence it produces enters at the assertion floor and cannot be promoted by the deposit path itself. Red today because no deposit channel exists in any adapter.
