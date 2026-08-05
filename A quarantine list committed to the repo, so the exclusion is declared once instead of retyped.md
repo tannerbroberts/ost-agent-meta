@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Count the distinct test files ever hand-excluded across the captured sessions]]
 
 The known-flaky files live in a file in the repository, with a reason and a date beside each. The runner reads it. Nobody retypes `--exclude` into an invocation again.
 
