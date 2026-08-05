@@ -54,3 +54,13 @@ Left as an annotation rather than a proposed change. What to do about it — a c
 lease, one-writer-per-repo, or simply accepting that a stale reader wastes a pass
 occasionally — is a decision with real trade-offs, and the party that just lost a pass to
 it is not a neutral one.
+
+## Definition of done
+
+[[Does a briefing node change which node a builder actually opens first]]
+
+`npx vitest run test/ost/next-build-briefing.test.ts`
+
+The spec asserts the briefing resolves to one stable address across passes and that each rewrite preserves the prior reading rather than overwriting it — the history being the record is the node's own claim. Red today because no standing briefing node exists and the content is still going into root annotations, which is precisely the failure this node was written about.
+
+**What a green here does not settle.** Two things, and the second is the more important. First, whether a builder opens a different node because of it — that is the humans-required test and no spec sees a reader's attention. Second, and unaddressed by this instrument: the failure that actually materialised was not the noise the node predicted but **collision** — two passes read the same briefing hours apart and both built what it named, because a statement of intent carries no record of uptake. A stable address and preserved history do nothing about that. Whoever builds this should read the 2026-07-26 section above first and decide whether uptake belongs in the same change.
