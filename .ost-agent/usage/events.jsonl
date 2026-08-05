@@ -1482,3 +1482,4 @@
 {"ts":"2026-08-05T14:38:22.193Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1579,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
 {"ts":"2026-08-05T14:38:51.384Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":4197,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["A fleet instance reaches the inbox with no new credential, and its provenance survives the trip.md"]}
 {"ts":"2026-08-05T14:38:59.025Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1348,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
+{"ts":"2026-08-05T14:39:35.646Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":2671,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
