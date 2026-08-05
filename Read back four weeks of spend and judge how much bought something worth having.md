@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Spend and useful fraction are uncorrelated, or the useful fraction stays above
   50% as spend rises.
+instrument: npx vitest run test/loop/spend-ceiling.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption a ceiling makes is that cost is the thing worth bounding — that
 **What it will not cover.** Whether a node was later acted on is a poor proxy for whether producing it was worthwhile, and it penalises recent work that has not had time to be used. The judgement is also the operator's, about their own tree.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/loop/spend-ceiling.test.ts — Asserts the ceiling is external to the loop's own judgement: the loop halts at the limit even when its stop predicate insists work remains, and cannot argue past it. Red today because no per-period spend accounting or ceiling exists in the loop.
