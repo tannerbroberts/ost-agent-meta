@@ -15,3 +15,11 @@ evidence: assertion
 **What would make this the wrong pick.** If instrumenting is the cheap, valuable half and executing is genuinely blocked on something structural — a permission, a missing runner, a person's availability — then rationing punishes the part that works to protest the part that does not. Worth weighing against [[A runner that executes instruments and records exit codes only, judging nothing]] specifically: if that ships, this becomes unnecessary; if it cannot ship, this becomes the honest response.
 
 ⚠️ Unvalidated. Agent-ideated on 2026-08-05.
+
+## Definition of done
+
+[[Check the instrument allowance holds at the floor while no result has ever been recorded]]
+
+`npx vitest run test/ost/instrument-rationing.test.ts`
+
+With zero recorded results the allowance stops at a non-zero fixed floor and further instrument calls are refused with a reason that names the shortage rather than a generic error; each recorded result raises the allowance in proportion. Red today because nothing rations. The spec can prove the valve opens and closes correctly and cannot tell whether a valve was the right thing to install.
