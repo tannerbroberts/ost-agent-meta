@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[The surface publishes its accepted grammar where a composer can read it before writing]]
 
 I write a long artifact for a surface I cannot inspect first, hand the whole thing over, and the rejection arrives at a line number.
 
