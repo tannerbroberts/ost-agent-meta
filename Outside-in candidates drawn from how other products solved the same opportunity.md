@@ -18,3 +18,13 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Would an operator adopt an outside-sourced candidate into their consideration set]]
+
+```
+npx vitest run test/web/outside-in-candidate-provenance.test.ts
+```
+
+Green means: the operator is never asked to judge an idea whose origin the tree cannot name — every outside-in candidate records its host as `WEB:<host>`, enters at the `assertion` floor whatever that host's standing, and one created without a retrievable source is refused. Green does **not** mean an operator would adopt it; that is their decision.
