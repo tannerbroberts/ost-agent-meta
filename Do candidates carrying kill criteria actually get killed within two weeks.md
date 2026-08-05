@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/ost/kill-criteria-required.test.ts
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -19,3 +20,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/kill-criteria-required.test.ts — Nothing can be killed by criteria that were never written down, and no node carries any — which is why "Nothing kills a candidate, so every idea I have ever had is still alive" is a live opportunity with 264 solutions under the tree. This asserts the birth half: creating a Solution is refused without kill criteria naming a condition and a date, the criteria are stored as fields rather than prose so they can be evaluated, and the sweep lists every candidate whose date has passed with its condition unmet. Missing-spec red, not assertion red: this pass holds no repo-read grant, so the file is absent; a builder should write it against the real create path so it goes red on a criteria-free Solution that today succeeds. It does not settle whether anything actually GETS killed — that needs two weeks to elapse and a human willing to act on the list.
