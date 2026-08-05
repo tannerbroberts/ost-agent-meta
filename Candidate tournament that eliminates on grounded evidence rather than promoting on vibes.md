@@ -18,3 +18,13 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Would an operator accept an elimination they initially disagreed with once shown the evidence]]
+
+`npx vitest run test/eval/tournament-elimination.test.ts`
+
+The spec asserts the two properties that make this a tournament rather than a ranking dressed up: every elimination cites a specific evidence id or recorded result, and no round ever crowns anything — the consideration set only shrinks, and declaring a winner stays a human's call. Red today because no tournament exists and nothing enforces that an elimination be grounded.
+
+**What a green here does not settle.** Whether an operator accepts an elimination they disagreed with, which is the actual test and needs a person. Also untouched is the node's own stated weakness: a bad bracket can eliminate a good candidate early, and a spec that checks every elimination was *grounded* cannot check the bracket was *fair*. Worth reading the provenance caveat above alongside this — the whole idea is founder-stated in a single spoken rant, resting on the `assertion` floor, and a runnable command does not move it up the ladder by one rung.
