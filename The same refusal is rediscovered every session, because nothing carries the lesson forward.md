@@ -98,3 +98,13 @@ _Recorded as corroboration during the 2026-08-04 unattended pass. These eight ev
 - 2026-08-05 unlinked [[Refusals are written back as a standing corrections file every session reads first]] — re-parented under [[A correction lives only as long as the session it was given in]] — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked [[The second identical failure is answered differently from the first]] — re-parented under [[A correction lives only as long as the session it was given in]] — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked [[Refusals the tool can prevent become refusals the tool never issues]] — re-parented under [[A correction lives only as long as the session it was given in]] — this solution answers that need, not the categories beside it
+
+## Evidence
+
+Three separate sessions each hit the *same* harness refusal, days apart, with no sign that any of them had learned it from the ones before:
+
+- `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` — `Blocked: sleep 45 followed by: gh pr checks 17 head`
+- `TRANSCRIPT:995b8ab1-5e55-4a5c-b05d-aaed9e1d7538` — `Blocked: sleep 45 followed by: gh pr checks 9 head -20`
+- `TRANSCRIPT:87a025f8-c6b0-474f-9a13-0b5ec5c922ea` — `Blocked: sleep 30 followed by: gh pr checks 25 head -20`
+
+The refusal message names the correct alternative every time, and every time it is spent on one session and then discarded. This is observed behaviour of the agent's own tool use — it grounds usability, not desirability, and is not evidence anyone outside wants this.
