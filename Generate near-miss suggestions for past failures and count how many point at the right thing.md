@@ -25,3 +25,4 @@ A human marks these and records the result.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/cli/path-near-miss.test.ts` — No test files found, exiting with code 1
+- 2026-08-05 **green** (exit 0) `npx vitest run test/cli/path-near-miss.test.ts` — Duration  1.76s (transform 88ms, setup 0ms, collect 138ms, tests 1.43s, environment 0ms, prepare 31ms)
