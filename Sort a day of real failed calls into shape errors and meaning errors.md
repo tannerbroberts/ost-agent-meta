@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/telemetry/failure-shape-vs-meaning.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,6 @@ evidence: assertion
 **What a result must also state.** How many of the 62 were self-inflicted probes rather than genuine attempts. A day where 75 of 93 calls were `ost_annotate` against titles like `probe` and `x` looks like someone testing the tool surface, and probe failures should be reported separately rather than either counted or quietly dropped — they inflate the denominator and they are not the failure mode this branch is about.
 
 **Who runs it.** Mechanical classification, human verdict. This pass proposes the design only.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/telemetry/failure-shape-vs-meaning.test.ts — The node already describes the work as "mechanical classification" and its threshold is a share — shape errors at 50% or more of all failures — over calls that are already on disk in the append-only tool-invocation trace for 2026-07-25 through 2026-07-27 (217 calls, 62 failures). The spec replays those failures, classifies each as shape (refusable by schema validation alone), meaning (schema-valid but semantically wrong — a nonexistent node title, an empty-but-typed string), or neither (environment, permission, filesystem), asserts the shape share against the 50% bar, and reports the probe-inflated subset separately as the node requires, so `ost_annotate` calls against titles like `probe` and `x` cannot pad the denominator. It fails today because nothing classifies a recorded failure by kind — the trace stores the message and no code partitions it. What it does not settle stays exactly where the node put it: the verdict is a human's, and a shape share above the bar says the shipped validator is substantially complete for the failures that HAVE happened, not that semantic damage is rare.
