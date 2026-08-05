@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Judge the eighteen reopened items — were they genuinely finished]]
+[[The fallback is bounded by the version boundary and goes inert at a stated release]]
 
 The new build keeps the old build's reading as a second source: an item counts as done if the new ledger says so **or** if the legacy signal did. Nothing is rewritten, nothing is inferred into permanence, and a vault last touched by an older version simply keeps working.
 

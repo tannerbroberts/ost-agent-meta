@@ -1484,3 +1484,5 @@
 {"ts":"2026-08-05T14:38:59.025Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1348,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
 {"ts":"2026-08-05T14:39:35.646Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":2671,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
 {"ts":"2026-08-05T14:39:39.184Z","tool":"ost_ingest_inbox","ok":true,"ms":4,"surface":"mcp","argBytes":2,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
+{"ts":"2026-08-05T14:39:43.194Z","tool":"ost_next_work","ok":true,"ms":41,"surface":"mcp","argBytes":2,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
+{"ts":"2026-08-05T14:40:54.421Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3830,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["The fallback is bounded by the version boundary and goes inert at a stated release.md"]}
