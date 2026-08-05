@@ -19,3 +19,17 @@ evidence: assertion
 
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
+
+## Definition of done
+
+[[Sort a day of real failed calls into shape errors and meaning errors]]
+
+```
+npx vitest run test/telemetry/failure-shape-vs-meaning.test.ts
+```
+
+Red today: nothing classifies a recorded failure by kind — the trace stores the message and no code partitions it. Green when shape errors are shown to be at least half of all failures across 2026-07-25 to 2026-07-27, with probe calls reported separately rather than counted.
+
+**This solution has already shipped, which makes the measurement more urgent rather than less.** v0.17.0 went out on the strength of one replayed call, so the coverage question has never been sized — and a validator that reports few problems reads identically whether it is catching everything or catching the easy tenth.
+
+**What this does not settle.** The verdict stays a human's. And a green says the shipped validator is substantially complete for the failures that *have* happened; it does not say semantic damage is rare. A call with every field present and correctly typed, naming a node that does not exist, still writes — which is why a red here would send [[A tool call I got slightly wrong destroyed the note I was filing]] looking for a sibling aimed at meaning rather than shape.
