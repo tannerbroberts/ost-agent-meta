@@ -18,3 +18,13 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Do blind parallel ideators produce more distinct candidates than one agent asked for three]]
+
+```
+npx vitest run test/eval/blind-ideator-isolation.test.ts
+```
+
+Green means: no ideator's prompt contains a sibling's candidate text, so the blindness this solution is named for actually holds. Green does **not** mean the blind set is more distinct — the test's threshold puts that in front of a human blind-rating shuffled sets on three opportunities, and it stays there.
