@@ -1,5 +1,6 @@
 ---
 type: Solution
+status: shipped
 source: 'agent-ideation:2026-07-26-tenth-pass'
 created: '2026-07-26'
 evidence: assertion
@@ -30,3 +31,4 @@ The distinction this node predicted turned out to be the whole design, and it is
 
 ## History
 - 2026-08-05 unlinked "Sweep both vault histories for writes that landed as undefined or empty" — moved under "Empty and undefined writes actually landed in the vault histories" — the belief this test measures now has a node of its own
+- 2026-08-05 status: (none) → shipped — The node's own body records this as shipped in v0.18.0 (eleventh pass, 2026-07-27), and in the shape its assumption test prescribed rather than the one this node proposed: the sweep "Sweep both vault histories for writes that landed as undefined or empty" ran first, found 21 undefined / 0 empty / 0 truncated across 306 annotation entries, so the guard shipped as a tripwire for one known shape. It sits in Vault at the single point every node write funnels through — createNode, appendToNode, appendUnderSection, annotate, and the optional notes on setStatus/setEvidence/setLane — with 21 tests verified failing first (18 failed / 3 passed, the 3 being the must-still-be-allowed cases) and the full suite green at 482 tests / 64 files. Recorded as `shipped` by the 2026-08-05 unattended sweep because it sat in `solutionsMissingInstruments` and a red-now instrument is impossible for shipped behaviour: a spec asserting the guard would pass on arrival, measure nothing, and hand a builder no definition of done. Status corrected rather than an instrument invented.
