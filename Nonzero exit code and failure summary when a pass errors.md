@@ -23,3 +23,13 @@ evidence: assertion
 **Half of this node's assumption test ran mechanically as part of the build.** The regression test breaks a pass on purpose — it strips every Anthropic credential and runs `P2_map` with real evidence to map, reproducing the exact auth failure that was observed on 2026-07-25 — and asserts exit 1 with `FAILED` in the output. That is the *first* half of [[Break one pass on purpose and check cron notices within a cycle]]. The second half (does a real cron notice, within one cycle?) has not run and cannot be run by compute alone: it needs a schedule, a wall-clock cycle, and someone to confirm they were actually notified.
 
 **Status untouched.** A passing test the agent wrote about its own build is not a validated assumption, and the agent does not record results.
+
+## Definition of done
+
+[[Break one pass on purpose and check cron notices within a cycle]]
+
+```
+npx vitest run test/runner/pass-exit-code.test.ts
+```
+
+Green means: the channel cron actually reads carries the truth — a pass that throws exits nonzero, one that completes exits zero, and the failing run names the phase it died in and the last node it touched. Green does **not** mean cron notices within a cycle; that needs a real scheduled run broken on purpose and a person watching the clock.
