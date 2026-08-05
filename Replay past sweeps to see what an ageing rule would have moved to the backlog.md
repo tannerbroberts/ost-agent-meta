@@ -22,3 +22,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/backlog-ageing-rule.test.ts — Applies the ageing rule to the recorded sweeps and asserts the items it would have moved are counted and still recoverable rather than dropped; fails today because there is no backlog for anything to age into.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/backlog-ageing-rule.test.ts` — No test files found, exiting with code 1

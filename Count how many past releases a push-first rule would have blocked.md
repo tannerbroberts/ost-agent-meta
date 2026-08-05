@@ -9,7 +9,7 @@ instrument: npx vitest run test/release/push-first-blocked-census.test.ts
 
 **Risk category: viability.** Whether the rule's cost lands on the party that can least afford it.
 
-**The assumption under test.** That refusing to release from unpushed history blocks mostly bad releases and few good ones. The candidate carries a specific worry: because push and publish are both gated by the credential in [[Every run ends blocked on a credential only I hold]], a strict push-first rule makes the credential holder mandatory for every release — on a project whose stated constraint is [[I need the tree's output to be actionable by compute alone, because my hours don't exist]]. If the rule mostly blocks releases that were fine, it converts an occasional coordination problem into a permanent human dependency.
+**The assumption under test.** That refusing to release from unpushed history blocks mostly bad releases and few good ones. The candidate carries a specific worry: because push and publish are both gated by the credential in "Every run ends blocked on a credential only I hold", a strict push-first rule makes the credential holder mandatory for every release — on a project whose stated constraint is "I need the tree's output to be actionable by compute alone, because my hours don't exist". If the rule mostly blocks releases that were fine, it converts an occasional coordination problem into a permanent human dependency.
 
 **The test (replay, no build, no publish).** For every release in the project's history, reconstruct from git whether the releasing tree was ahead of, behind, or diverged from `origin/main` at the moment of release. Classify each: **would have been allowed**, or **would have been refused**. Then a human judges each refusal against one question: **was this release actually problematic, or was it fine and merely unpushed?**
 
@@ -26,3 +26,6 @@ instrument: npx vitest run test/release/push-first-blocked-census.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/release/push-first-blocked-census.test.ts — Replays every past release in this repository's history against the proposed precondition — working tree ahead of, behind, or diverged from `origin/main` — and counts how many would have been refused, which is the adoptability figure this test pre-commits to. It fails today because the release path has no ahead/behind precondition at all: there is no `git rev-list --left-right --count` gate to call, and nothing replays historical releases against one, so the census has no subject.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/release/push-first-blocked-census.test.ts` — No test files found, exiting with code 1

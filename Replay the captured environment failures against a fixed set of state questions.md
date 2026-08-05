@@ -19,3 +19,6 @@ The assumption is that a *small fixed* set of state questions covers the failure
 **Why it is small.** The failures are already captured. This is classification and counting against a fixed list, with nothing to build and nothing to run in anger.
 
 **What it will not cover.** The census is bounded by failures that happened, not failures that can happen — a question absent from history may be the one that matters, and this is exactly the limit that makes the result an argument rather than a proof. It also says nothing about probe *cost*: six questions that are cheap to answer and six that each cost a subprocess are very different products, and this measures only the count.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/runner/workspace-state-probe-coverage.test.ts` — No test files found, exiting with code 1

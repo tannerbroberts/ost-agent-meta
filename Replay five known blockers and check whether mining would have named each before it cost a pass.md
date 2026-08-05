@@ -21,3 +21,6 @@ instrument: npx vitest run test/loop/blocker-mining-replay.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/blocker-mining-replay.test.ts — Mines the recorded run history up to each known blocker and asserts the constraint profile names it before the pass that hit it; fails today because nothing mines blockers into a profile.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/blocker-mining-replay.test.ts` — No test files found, exiting with code 1
