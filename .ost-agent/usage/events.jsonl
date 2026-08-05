@@ -1174,3 +1174,4 @@
 {"ts":"2026-08-05T00:14:55.388Z","tool":"ost_ingest_inbox","ok":true,"ms":2,"surface":"mcp","argBytes":2,"session":"mcp-3f445146-242d-4502-bd7c-a07275d9c940"}
 {"ts":"2026-08-05T00:14:57.093Z","tool":"ost_next_work","ok":true,"ms":59,"surface":"mcp","argBytes":2,"session":"mcp-3f445146-242d-4502-bd7c-a07275d9c940"}
 {"ts":"2026-08-05T00:15:32.989Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2591,"session":"mcp-3f445146-242d-4502-bd7c-a07275d9c940","wrote":["One workspace-state probe the run makes before it plans, not one failing command at a time.md"]}
+{"ts":"2026-08-05T00:15:47.373Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2299,"session":"mcp-3f445146-242d-4502-bd7c-a07275d9c940","wrote":["The scaffolder writes a manifest of what it did and did not initialise.md"]}
