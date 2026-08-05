@@ -18,3 +18,13 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Do candidates carrying kill criteria actually get killed within two weeks]]
+
+```
+npx vitest run test/ost/kill-criteria-required.test.ts
+```
+
+Green means: the criteria exist and are evaluable — a Solution cannot be created without a condition and a date, both stored as fields rather than buried in prose, and the sweep lists every candidate whose date has passed with its condition unmet. Green does **not** mean anything gets killed. That needs two weeks to elapse and a human willing to act on the list, and it is the half that decides whether this solution does any good.
