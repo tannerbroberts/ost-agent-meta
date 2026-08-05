@@ -14,3 +14,13 @@ The value is in the format requirement. A gap that cannot say what closing it wo
 **Compared to the alternatives.** The only option that produces something actionable about the gap itself — the other two record or price the substitution, and then the real goal stays exactly as unreachable as before. It is also the most speculative: writing the darkness down does nothing on its own, and an unknown with no methodology can sit open indefinitely without anyone being any wiser.
 
 **What would make this the wrong pick.** If the reason the real goal cannot be charted is money or time rather than knowledge, then framing it as darkness misdescribes it. A constraint is not an unknown, and dressing one as the other buys a tidy entry and no progress.
+
+## Definition of done
+
+[[Write the gap as an unknown and see whether a Format can be stated for it at all]]
+
+```
+npx vitest run test/ost/unknown-format-required.test.ts
+```
+
+Green means: the Format section is load-bearing rather than advisory — an Unknown without one is refused at the tool boundary, and a missing Format shows up in that unknown's reported `gaps`. Green does **not** answer this vault's actual gap: whether a Format can be written for the affordable-goal distance without collapsing into "we would have more time" is a semantic judgement, and no exit code makes it.
