@@ -9,7 +9,6 @@ evidence: assertion
 [[Flag a threshold that is still an instruction to choose one]]
 [[Refuse to record a result against a threshold that was never fixed]]
 [[Make the threshold a field the node carries, not a sentence in its prose]]
-[[Do named unfixed thresholds actually get fixed]]
 
 **The need (operator's voice):** *"Every one of my assumption tests has a
 pre-commitment section, so the tree looks rigorous. Then I go to run one and the
@@ -59,3 +58,6 @@ mechanically checked, not a sentence from any user. It sits at the `assertion` f
 for the same reason everything else does, and it is another instance of the hole
 [[A Context node type for evidence that is true, useful, and not a customer need]]
 describes: verified fact about our own system, weighted like founder theory.
+
+## History
+- 2026-08-05 unlinked [[Do named unfixed thresholds actually get fixed]] — not a parent-child relation the OST hierarchy supports — every tree walk counted it as structure, so a cross-reference read as a child

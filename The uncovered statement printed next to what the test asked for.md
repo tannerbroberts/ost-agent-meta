@@ -7,7 +7,6 @@ evidence: assertion
 ---
 #Solution #evidence/assertion
 [[Does the side-by-side change what a reviewer does about a threshold]]
-[[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]]
 
 **Shipped in v0.9.0** (`ost-agent` `d9ace23`, on `main`, **not** on npm — see the root
 Outcome's release note).
@@ -77,3 +76,6 @@ report, in which case this is a nicer-looking box that still gets ticked.
 above is a fact about two vaults inside this building, both written by the same
 person and the same agent. It says nothing about whether anyone else's tree has the
 same hole — see the root Outcome's standing note on external evidence.
+
+## History
+- 2026-08-05 unlinked [[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]] — not a parent-child relation the OST hierarchy supports — every tree walk counted it as structure, so a cross-reference read as a child
