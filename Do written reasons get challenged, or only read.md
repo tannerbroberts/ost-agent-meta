@@ -7,6 +7,7 @@ threshold: >-
   At least 3 of 5 readers name a specific row they would move AND quote that
   row's stated reason as what they disagree with. Fewer than 2 doing so kills
   the candidate.
+instrument: npx vitest run test/ost/ranked-ledger-reasons.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,6 @@ threshold: >-
 **What it deliberately does not cover:** whether the order was any good. This measures only whether stated reasons are load-bearing for a reader, and a list can pass this bar while being wrong in every position. It also says nothing about the authoring cost holding up across 324 rows rather than ten.
 
 **Note on who can run it:** the measurement is what people say when handed a list, so it cannot be run by compute. The lane label is a human's to set.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/ranked-ledger-reasons.test.ts — Asserts the refusal that is this node's entire mechanism: a ledger row whose reason is missing, empty, or cites no node title or evidence id is refused a rank and lands in the named unranked tail rather than a confident position. Red today because no ranked ledger and no write-boundary refusal exist.
