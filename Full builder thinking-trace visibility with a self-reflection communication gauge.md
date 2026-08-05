@@ -20,3 +20,13 @@ created: '2026-07-26'
 **Key assumptions (explicit, untested):** (feasibility) the builder's full thinking trace is actually accessible to the OST-Agent; (usability) the three reflection questions, asked against a real trace, surface misunderstandings the pass output alone does not; (viability/safety) letting the tree alter its own ideation/build loops improves route efficiency without eroding the append-only trust guarantees; (desirability) the founder and future operators want loop authority to live in the tree rather than with the human.
 
 **Rung honesty:** founder-provided solution, entered unvalidated — no promotion implied by its provenance.
+
+## Definition of done
+
+[[Do the three reflection questions catch a builder misunderstanding the pass output missed]]
+
+```
+npx vitest run test/skill/reflection-questions.test.ts
+```
+
+Green means: all three reflection questions reach every pass output, each bound to a named node in that pass rather than asked in the abstract. Green does **not** mean they catch anything — a real builder misreading a real pass output is the measurement, and that stays with a human.
