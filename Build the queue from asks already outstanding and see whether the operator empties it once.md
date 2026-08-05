@@ -4,6 +4,7 @@ status: unvalidated
 created: '2026-08-03'
 evidence: assertion
 threshold: The operator visits at least twice in 4 weeks and the total does not grow.
+instrument: npx vitest run test/ost/pending-ask-queue.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that the operator visits the queue. Queues that are never empt
 **What it will not cover.** A queue seeded with a large existing backlog is discouraging in a way a queue that grew from empty would not be. This is close to the worst case for adoption, which cuts both ways as a test.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/pending-ask-queue.test.ts — Asserts the two properties that separate this from what already ships: an ask raised mid-pass by one run is still in the queue on a later run, carrying a non-null age and the command that would clear it. Red against today's code rather than merely against a missing file — outstandingAsks exists but is derived only from blockedOnPermission tests, so an ask a run could not answer itself is never persisted and reports ageDays null.
