@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 3 of 5 name conditions they could actually satisfy, rather than
   declining outright.
+instrument: npx vitest run test/security/credential-broker.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that operators will hand a long-lived secret to a local proces
 **What it will not cover.** Stated willingness is not behaviour, and the ladder ranks it accordingly. Someone who says yes to a described broker may still decline the real one.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/security/credential-broker.test.ts — Asserts the containment the node's whole argument rests on: the run receives the result of a scoped action and never the secret itself, and every request is logged with asker, target and outcome. Red today because no broker process, scope policy or request log exists.
