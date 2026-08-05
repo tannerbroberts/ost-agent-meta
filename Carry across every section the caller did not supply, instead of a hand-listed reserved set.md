@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A rewrite can preserve every unsupplied section without the caller naming any of them]]
 
 Today a rewriting tool protects a **list** of section headings. `ost_edit_node` names three — `## Results`, `## Uncovered`, `## Instrument Log` — reattaches those verbatim, and lets everything else in the old body go. The failure this opportunity records happens in the gap between that list and reality: `## History` is governed by a rule saying it is append-only and correctable only by appending, and it is not on the list, so it is silently dropped.
 
