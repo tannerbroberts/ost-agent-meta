@@ -121,3 +121,11 @@ TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d (2026-07-30) shows the same shap
 So the pattern holds across three subjects that have nothing in common except the absence of an event to wait on: a local test suite, a background task, and a remote CI run. Any candidate under this node should be read against all three, because a solution that subscribes to only one of them leaves the loop polling for the other two.
 
 _Recorded as corroboration during the 2026-08-04 unattended pass; these items remain unmapped in the sweep. Observed behavior, mechanically captured; grounds usability, not demand._
+
+## Corroboration — TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d
+
+Source: `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` (2026-07-30), machine-captured session friction, 8 events.
+
+The same session shows both halves of this need in one trace. Three `retry` events on `TaskOutput` for two task ids (`wzoag1pq3`, `w1ruwr8ip`), each with `block: true, timeout: 600000` — the loop parked itself for up to ten minutes per call with no way to be told when the thing it was waiting for changed. In the same session a `sleep 45 && gh pr checks 17` was refused outright, and one further Bash call came back exit 8 with a CI job still reading `pending`.
+
+This is observed behaviour of the agent's own loop, not outside demand: it grounds usability, not desirability. What it adds to this node is that the polling reflex is not one operator's habit — it survives being blocked, and the agent reaches for it again in the same session.
