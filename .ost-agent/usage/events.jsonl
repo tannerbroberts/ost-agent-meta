@@ -1688,3 +1688,4 @@
 {"ts":"2026-08-05T23:50:13.538Z","tool":"ost_next_work","ok":true,"ms":70,"surface":"mcp","argBytes":2,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:51:17.782Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":680,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Edit a node holding five sections, supply two, and check the other three survive intact.md"]}
 {"ts":"2026-08-05T23:51:21.010Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":745,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Check the guard refuses an unaccounted-for section drop and permits an acknowledged one.md"]}
+{"ts":"2026-08-05T23:51:23.835Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":773,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Check every dropped section is reported with enough to restore it.md"]}
