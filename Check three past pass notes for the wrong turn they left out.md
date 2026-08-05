@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass-2'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/adapters/session-retrospective.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ evidence: assertion
 **Relationship to [[Diff three past sessions' claims against their traces by hand]].** That test asks whether the agent's *counts* match the record; this one asks whether its *account of its own confusion* matches. Same method, same corpus, different failure mode — a note can be arithmetically perfect and still omit the day it spent going the wrong way. A human may reasonably choose to run them as one sitting, and should; they are filed separately because they close different candidates.
 
 **Who runs it.** A human, reading the record before the note so the note cannot frame the reading. No results recorded here.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/adapters/session-retrospective.test.ts — Asserts the design question the node says this candidate has to survive — that it can stay silent credibly: a session with nothing conceptual to report produces no inbox item rather than a "nothing notable" one, while a retrospective that is written lands with the session id as provenance and enters at the assertion floor as self-report. Red today because nothing is required before a session closes and no retrospective path exists.
