@@ -76,3 +76,22 @@ It is a better instance than a within-session repeat because it removes the comp
 **Where the same shape shows up again.** The blocked-`sleep` refusal is the higher-volume case of the identical pattern — nine sessions between 2026-07-24 and 2026-08-04 each independently issued a `sleep`-then-poll composition and each independently learned it was refused. That census is recorded on [[My loop spends its time waiting for a check it cannot subscribe to]] because the *want* there is a subscription; what makes it also this node's evidence is that the refusal text names the remedy every time, and nine sessions still arrived without it.
 
 _Provenance: two friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
+
+## Corroboration — eight further sessions, one identical refusal (2026-08-04 sweep)
+
+Eight sessions captured since this node was written each contain the same refusal, in the same shape: the run reaches for `sleep <n>` followed by a poll (usually `gh pr checks <n>`), and the harness blocks it with a message that names the remedy outright — "To wait for a condition, use Monitor with an until-loop".
+
+- TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837 — 2026-07-29, `sleep 45`
+- TRANSCRIPT:995b8ab1-5e55-4a5c-b05d-aaed9e1d7538 — 2026-07-29, `sleep 45`
+- TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff — 2026-07-29, `sleep 25`
+- TRANSCRIPT:470cb94a-d709-43b1-85aa-dedd917ac866 — 2026-07-30, `sleep 240`
+- TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d — 2026-07-30, `sleep 45`
+- TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68 — 2026-07-30, `sleep 45`
+- TRANSCRIPT:87a025f8-c6b0-474f-9a13-0b5ec5c922ea — 2026-07-31, `sleep 30`
+- TRANSCRIPT:785ea509-96b9-4225-b45a-babd5321aafc — 2026-08-04, `sleep 25`
+
+Five days, eight sessions, zero drift in the shape of the mistake.
+
+What the volume adds is one sharpening worth carrying into any solution under this node: **the lesson is not missing, it is mis-placed.** The refusal text already contains the complete correction, delivered at the exact moment of the error, and the run complies with it that turn every time. It still does not survive into the next session. So a candidate that works by improving the error message is addressing something these eight records show is not the constraint — the message was already right. What fails is that the correction lives in a transcript nobody re-reads, rather than anywhere the next session looks before it composes a command.
+
+_Recorded as corroboration during the 2026-08-04 unattended pass. These eight evidence items remain unmapped in `ost_next_work`, because counting an item as corroboration of an existing need has no representation in the sweep — see the pass note on [[An acknowledgement that records a decision not to act, and takes the item off the sweep]]. Observed behavior, mechanically captured; grounds usability, not demand._

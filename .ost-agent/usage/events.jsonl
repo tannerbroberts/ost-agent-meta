@@ -1152,3 +1152,4 @@
 {"ts":"2026-08-05T00:04:03.592Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":31,"session":"mcp-3f445146-242d-4502-bd7c-a07275d9c940"}
 {"ts":"2026-08-05T00:05:50.611Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2711,"session":"mcp-3f445146-242d-4502-bd7c-a07275d9c940","wrote":["I run git in a folder that was never initialised, and exit 128 is how I learn it.md"]}
 {"ts":"2026-08-05T00:06:08.192Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2768,"session":"mcp-3f445146-242d-4502-bd7c-a07275d9c940","wrote":["I hand-exclude the flaky test on every run, and the green that comes back never says what it skipped.md"]}
+{"ts":"2026-08-05T00:06:34.327Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2295,"session":"mcp-3f445146-242d-4502-bd7c-a07275d9c940"}
