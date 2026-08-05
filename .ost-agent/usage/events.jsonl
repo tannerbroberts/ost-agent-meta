@@ -1351,3 +1351,4 @@
 {"ts":"2026-08-05T02:36:51.634Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1746,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3","wrote":["Check a partial artifact is rejected at the offending line rather than at submission.md"]}
 {"ts":"2026-08-05T02:37:00.117Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1957,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3","wrote":["Check the handed-back skeleton parses clean against the same parser that accepts submissions.md"]}
 {"ts":"2026-08-05T02:37:08.327Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":551,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
+{"ts":"2026-08-05T02:37:10.886Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":622,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}

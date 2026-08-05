@@ -15,3 +15,11 @@ evidence: assertion
 **What would make this the wrong pick.** If the class the guard inferred is wider than the class that was wrong. `sleep` before a poll is refused; `sleep` in a fixture that needs a real delay is not, and a rule derived from the first will eat the second. Anything shipped here needs the constraint to be reviewable and reversible by a human, and probably needs the human to author the generalisation rather than the guard.
 
 ⚠️ Unvalidated. Agent-ideated on 2026-08-05. Note that this is the agent proposing to have its own future capability narrowed automatically, which is a proposal it is not a neutral party on in either direction.
+
+## Definition of done
+
+[[Check a derived deny rule against legitimate uses of the same verb it was derived from]]
+
+`npx vitest run test/security/derived-deny-rule.test.ts`
+
+Zero false refusals across a corpus of legitimate uses, and every derived rule attributed to its source refusal and reversible by one human action. Red today because no rule is derived from a refusal at all. It cannot find the capability nobody realised was lost — that one is absent from the corpus by definition.
