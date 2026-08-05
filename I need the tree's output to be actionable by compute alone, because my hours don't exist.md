@@ -152,3 +152,22 @@ The sweep reports a number that reads like a writing backlog — "159 solutions 
 A useful next measurement, and a cheap one: partition the 159 by the risk category their test names. If desirability and viability dominate, that is this opportunity's core claim quantified rather than argued.
 
 _Recorded during the 2026-08-05 unattended pass. Assertion — this is the agent's own analysis of the tree, not an outside finding._
+
+## The limit now has a rate attached — 2026-08-05 sweep
+
+Previous entries recorded that `ost_flag_humans_required` is ungranted on the unattended surface. This pass measured what that costs, by triaging the backlog node by node instead of skimming it.
+
+Thirty-three assumption tests were read in full and sorted by what could actually settle them:
+
+| Disposition | Count |
+| --- | --- |
+| Repo-answerable — an instrument was written | 9 |
+| Irreducibly a person (interview, consent, blind rating, a builder's own choice) | 17 |
+| Already correctly dispositioned by an earlier pass, or would go green on arrival | 4 |
+| Two lanes in one threshold — a command would answer the cheap half and hide the load-bearing one | 3 |
+
+**Roughly one in four of what remains can take a command; over half can never take one.** That ratio is the finding, and it changes what "work the backlog down" means. The residual is not a queue of un-instrumented tests waiting for effort — it is mostly a queue of *correctly* un-instrumented tests waiting for a label this surface cannot apply. A sweep that can only add instruments will asymptote at the ratio above and then report the same number forever, with nothing left that it is permitted to do.
+
+The three two-lane entries are the interesting minority, because they are neither. Each names a mechanical clause and a human clause joined by "and", so a single command goes green on arithmetic nobody doubted while the clause the solution lives or dies on stays untouched. Splitting them is the fix and it is a write this sweep does not have either — creating the split node is out of scope and labelling the human half is ungranted. They were annotated in place instead: see the note on [[Count how many past releases a push-first rule would have blocked]] for the worked example.
+
+Evidence class: a census of this vault's own state, taken by the pass that hit the limit. Assertion about the artifact, not a measurement of anyone's behaviour.
