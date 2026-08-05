@@ -1685,3 +1685,5 @@
 {"ts":"2026-08-05T23:50:03.874Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1165,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:50:09.955Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1227,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:50:11.803Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
+{"ts":"2026-08-05T23:50:13.538Z","tool":"ost_next_work","ok":true,"ms":70,"surface":"mcp","argBytes":2,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
+{"ts":"2026-08-05T23:51:17.782Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":680,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Edit a node holding five sections, supply two, and check the other three survive intact.md"]}
