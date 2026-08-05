@@ -16,3 +16,13 @@ The substitution this addresses is invisible precisely because it produces a hea
 **What would make this the wrong pick.** A root nothing can reach may simply be ignored, and a milestone that absorbs all the attention is functionally the outcome regardless of where it is filed. The label may record the substitution without doing anything to resist it.
 
 Setting or changing the outcome is a human's decision. This describes a shape a human could choose; it is not an instruction, and no pass may act on it.
+
+## Definition of done
+
+[[Leave the real goal at the root for a quarter and count what actually laddered up to it]]
+
+```
+npx vitest run test/ost/milestone-under-outcome.test.ts
+```
+
+Green means: the tree can hold both goals at once — a milestone attaches under the Outcome, is distinguishable from a category bucket, and the rollup reports per-milestone, so "what laddered up" is computed rather than tallied by hand. Green does **not** answer the test: that needs a quarter to elapse and a human to read what the count came to.
