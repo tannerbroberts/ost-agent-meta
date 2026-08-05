@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check whether initialising only tool-created directories still covers every captured failure]]
 
 Remove the variance rather than detect it. Every folder this tool scaffolds gets `git init` at creation, always, with no flag to skip it — so "is this a repository?" stops being a question anybody has to ask, probe for, or record.
 
