@@ -55,3 +55,27 @@ These two traces qualify the claim in this node's title rather than simply confi
 One further datum from `USAGE:2026-08-03`: the single failed call of 312 was an `ost_create_node` refused for declaring `observed` on a node whose sources support only `assertion` — the ladder's ceiling doing its job, and evidence that the refusal path is exercised in practice rather than theoretically.
 
 Evidence class is observed behaviour — a machine-recorded trace of tool invocations. It grounds the agent-tool loop, not external demand.
+
+## Corroboration — the fraction, measured (2026-08-04 sweep)
+
+Two machine-recorded usage traces now put a number on this node's title, and the number is the one the title guessed.
+
+USAGE:2026-08-04 — 356 calls across 5 sessions:
+
+| Tool | Calls | Share |
+| --- | --- | --- |
+| ost_append_to_node | 119 | 33% |
+| **ost_next_work** | **111** | **31%** |
+| ost_set_instrument | 88 | 25% |
+| ost_ingest_inbox | 15 | 4% |
+| ost_create_node | 14 | 4% |
+
+USAGE:2026-08-03 — 312 calls across 6 sessions: `ost_next_work` 39 of 312 (13%), against `ost_create_node` 237 (76%).
+
+So the fraction is not constant — it swung from 13% to 31% between two consecutive days — and the swing is informative. The 08-03 pass was creating nodes in bulk, where one sweep answers many writes. The 08-04 pass was setting instruments one at a time, where the sweep has to be re-asked to find out which solution is next, because the list it returns is capped at 25 of 164 and shifts under you as you work it. **The re-ask rate tracks how granular the work is**, and instrument work is the most granular kind the tree has.
+
+That points at a cheaper fix than caching: the sweep is re-asked not because its answer went stale but because its answer was truncated. A caller working a 164-item backlog through a 25-item window must return to the window six times to see the backlog once.
+
+_Note on the ladder: this node still rests on `assertion` and this append does not change that. An attempt to raise it to `observed` was refused on 2026-08-03 — recorded in that day's trace as the only failed call of 312 — because the rung is capped by what the node's own `source` points at, and appending a measurement to the body does not move it. Raising it would mean a node sourced from the recording, which is a human's call._
+
+_Recorded as corroboration during the 2026-08-04 unattended pass. USAGE:2026-08-03 and USAGE:2026-08-04 remain unmapped in the sweep. Observed behavior, mechanically captured; grounds usability, not demand._
