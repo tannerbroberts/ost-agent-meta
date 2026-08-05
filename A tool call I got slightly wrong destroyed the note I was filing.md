@@ -15,6 +15,7 @@ evidence: assertion
 [[Report what the write changed, so a silent loss stops being silent]]
 [[Carry across every section the caller did not supply, rather than a hand-listed reserved set]]
 [[Refuse a rewrite that would drop a section the caller never accounted for]]
+[[Report what a write changed, so a silent loss stops being silent]]
 
 **The need, stated as an operator would.** *If I call a tool wrong, I need it to refuse me. In an append-only vault a bad write is forever, so 'it went through' is not the reassurance it sounds like.*
 
