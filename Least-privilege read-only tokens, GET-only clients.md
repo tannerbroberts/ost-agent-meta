@@ -18,3 +18,13 @@ _Addresses: "Connecting my systems of record could leak or corrupt them". Unvali
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Test is read-only GET access enough to gather needed evidence]]
+
+```
+npx vitest run test/adapters/get-only-client.test.ts
+```
+
+Green means: every adapter request in a full ingest is a GET, and a non-GET verb is refused by the client itself rather than by the remote's permissions — so an over-scoped token cannot hide a violation. Green does **not** mean GET-only is *sufficient*; whether a real project's evidence is fully retrievable read-only needs a real Jira/Confluence corpus and stays with a human.
