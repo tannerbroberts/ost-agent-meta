@@ -5,7 +5,6 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[A rewrite can preserve every unsupplied section without the caller naming any of them]]
 [[A rewrite can preserve every unsupplied section without the caller naming one]]
 
 Today a rewriting tool protects a **list** of section headings. `ost_edit_node` names three — `## Results`, `## Uncovered`, `## Instrument Log` — reattaches those verbatim, and lets everything else in the old body go. The failure this opportunity records happens in the gap between that list and reality: `## History` is governed by a rule saying it is append-only and correctable only by appending, and it is not on the list, so it is silently dropped.
@@ -31,3 +30,6 @@ npx vitest run test/mcp/edit-node-preserves-unsupplied-sections.test.ts
 Green means: a node's unsupplied sections — including `## History`, including one already on the hand-listed reserved set, including one whose body holds a fenced block containing a `## ` line — survive a rewrite byte-identical, with nothing duplicated. Red today, and for the right reason rather than because a file is absent: the `## History` loss this asserts against was observed first-party on 2026-08-05.
 
 Named in plain text rather than as a wikilink deliberately. The test's one backlink belongs to its parent assumption, "A rewrite can preserve every unsupplied section without the caller naming any of them"; a second link from here would fail the `single-backlink` invariant. This pass confirmed that mechanic the hard way — an `ost_edit_node` call that reproduced a node's child links in `prose` produced a duplicate of each, because the tool reattaches the link header itself.
+
+## History
+- 2026-08-05 link "A rewrite can preserve every unsupplied section without the caller naming any of them" repointed to "A rewrite can preserve every unsupplied section without the caller naming one" — that node was merged away

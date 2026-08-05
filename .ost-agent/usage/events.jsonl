@@ -1695,3 +1695,4 @@
 {"ts":"2026-08-05T23:52:05.455Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":400,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["A rewrite can preserve every unsupplied section without the caller naming one.md"]}
 {"ts":"2026-08-05T23:52:07.429Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":379,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["A guard can catch the unacknowledged drop without refusing honest rewriting.md"]}
 {"ts":"2026-08-05T23:52:09.092Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":371,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Being told a section was dropped is worth little to a caller with no undo.md"]}
+{"ts":"2026-08-05T23:52:18.235Z","tool":"ost_merge_nodes","ok":true,"ms":36,"surface":"mcp","argBytes":2058,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
