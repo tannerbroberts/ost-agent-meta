@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Do named unfixed thresholds actually get fixed]]
+[[A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact]]
 
 **The idea.** `ost-agent debt` (and `status`) name every assumption test whose
 pre-commitment reads as an instruction rather than a commitment — no number, no
