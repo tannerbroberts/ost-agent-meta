@@ -18,3 +18,13 @@ _Addresses: "Don't want to buy a second AI credential just to try it". Unvalidat
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Test is a bundled local model good enough for a pass]]
+
+`npx vitest run test/product/offline-trial-pass.test.ts`
+
+The spec asserts the node's actual promise rather than a proxy for it: a full maintenance pass completes with the network disabled and no credential in the environment. Red today because the split is real but lands the other way — the deterministic half (`init`, `status`, `check`, `debt`, `lanes`, `result`) already needs no model and no key, while every reasoning step is supplied by the connected session's model. So the tool is already zero-credential for everything except the part a first-time user would call the product.
+
+**What a green here does not settle, and it is the test's own question.** Whether the bundled model is *good enough*. Completing a pass offline and producing a pass worth having are different claims, and the node concedes the trade openly — "trading some reasoning quality for zero setup". A small local model that maps every evidence item to a vague opportunity and ideates three interchangeable solutions would satisfy this spec completely and would make the trial worse than no trial, because the stranger's first impression would be of the output quality rather than the setup cost. Judging the pass is a person's job.
