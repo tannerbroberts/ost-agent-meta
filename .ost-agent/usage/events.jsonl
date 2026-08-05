@@ -1472,3 +1472,4 @@
 {"ts":"2026-08-05T14:35:02.695Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":3630,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["The CLI fallback reaches the same vault, and refuses the write half.md"]}
 {"ts":"2026-08-05T14:35:12.681Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1106,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
 {"ts":"2026-08-05T14:35:52.134Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3316,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["Every quoting surface renders the whole sentence, not just the detector that already does.md"]}
+{"ts":"2026-08-05T14:35:59.641Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1070,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}

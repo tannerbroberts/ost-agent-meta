@@ -15,3 +15,15 @@ evidence: assertion
 **Where it fails.** A sentence is an arbitrary boundary. The qualification that changes a recommendation can sit in the *next* sentence, or in a `## Issues` annotation added months later, and this does nothing about that. It also makes output longer, and length is how the docket's paste-ready verdicts stopped being read.
 
 ⚠️ Unvalidated. Proposed by the agent that wrote the defect this responds to.
+
+## Definition of done
+
+[[Every quoting surface renders the whole sentence, not just the detector that already does]]
+
+```
+npx vitest run test/ost/quote-full-sentence.test.ts
+```
+
+Green means every surface that quotes a source to justify a recommendation renders the fragment and the sentence it sits in — the generalisation this node proposes — and that a fragment straddling a sentence boundary renders every sentence it touches rather than being clipped to one. Clipping at the boundary would reintroduce, at the seam, exactly the elision the node exists to make visible.
+
+It does not settle whether showing the sentence changes what a reader does ([[Does showing the whole sentence change what a reader does with a paste-ready command]]), and it does not touch this node's second stated weakness at all: the qualification that matters can sit in the next sentence or in an `## Issues` annotation added months later, and no sentence-level rendering reaches either.
