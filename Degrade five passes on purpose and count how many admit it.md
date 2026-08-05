@@ -26,3 +26,4 @@ instrument: npx vitest run test/loop/degraded-pass-reporting.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/loop/degraded-pass-reporting.test.ts` — No test files found, exiting with code 1
+- 2026-08-05 **green** (exit 0) `npx vitest run test/loop/degraded-pass-reporting.test.ts` — ✓ every degradation mode this codebase can produce is named, not rounded to success > degradation is reported even when the firing also failed — and does not soften the failure 1147ms
