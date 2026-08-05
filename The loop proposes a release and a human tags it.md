@@ -20,3 +20,17 @@ evidence: assertion
 **Cost.** Small in code, potentially large in release latency.
 
 ⚠️ Unvalidated. Agent-ideated, 2026-08-02, and proposed as the least likely of the three to be right.
+
+## Definition of done
+
+[[Measure how long the last human-gated release actually waited]]
+
+```
+npx vitest run test/release/human-gate-latency.test.ts
+```
+
+Red today because nothing in the repository knows what a human gate is: no code pairs a became-ready timestamp with a human-acted timestamp, so there is no latency series to take a median of. Green means median human-gate latency at or under 7 days with fewer than 25% of gates still open — the bar this candidate's own viability rests on.
+
+Still-open waits are counted with their running duration rather than dropped. That is not a detail: a computation that silently excluded them would report a flattering median from exactly the gates that closed, and the gates that never close are the finding.
+
+What it does not settle: the number is about one operator. A median over this project's gates says nothing about whether a human gate is affordable for anyone else, and it cannot tell whether the honest form of this idea is the sibling it names — a single autonomous train with a human veto after the fact.
