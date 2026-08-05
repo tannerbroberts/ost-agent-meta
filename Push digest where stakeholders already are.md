@@ -23,3 +23,13 @@ Status: agent-originated candidate. Unvalidated.
 
 ## Issues
 - 2026-07-25 Cross-branch duplicate (2026-07-24 review): near-identical to 'Weekly what-changed-and-why digest'. See that node's annotation.
+
+## Definition of done
+
+[[Three-week digest engagement run]]
+
+```
+npx vitest run test/adapters/digest-delivery.test.ts
+```
+
+Green means: the digest arrives — produced on cadence, pushed to the configured channel rather than left in the vault, naming what changed since the last one rather than restating the tree, and a missed cadence reported as a miss instead of passing silently. Green does **not** measure engagement; what stakeholders do with it needs three weeks and real people.
