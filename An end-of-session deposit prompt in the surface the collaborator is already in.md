@@ -16,3 +16,13 @@ evidence: assertion
 **Contrast with neighbors:** [[Full builder thinking-trace visibility with a self-reflection communication gauge]] consumes a trace the agent already has and audits whether *the agent's* instructions landed. This candidate solicits a trace that does not exist yet and asks what *the collaborator* can do. [[Continuous story-based interview habit]] is the same family of act — asking a person — but aimed at customers and needs, not at collaborators and capability.
 
 **Cost shape:** near-zero to build, recurring social cost forever, and its yield decays the moment answering starts to feel like paperwork.
+
+## Definition of done
+
+[[Offer the deposit prompt and count who comes back a second time unasked]]
+
+`npx vitest run test/adapters/deposit-prompt.test.ts`
+
+The spec asserts the containment this node stakes its honesty on: the collaborator's answer is stored verbatim, nothing is inferred from it, and the evidence it produces enters at the `assertion` floor and cannot be promoted by the deposit path itself. That last clause is the important one — the node says outright that narrated self-report "can never rise on its own", and a channel that could quietly promote its own output would break the ladder rather than feed it. Red today because no deposit channel exists in any adapter.
+
+**What a green here does not settle, and it is the chief risk verbatim.** Voluntary compliance is not randomly distributed. The collaborators whose capability is least legible from artifacts are the least likely to sit and write a paragraph, so the profile ends up richest exactly where it was already adequate — and a spec proving the storage is faithful proves nothing about who chose to fill it in. Who comes back a second time unasked needs real collaborators, and the yield decaying "the moment answering starts to feel like paperwork" is a thing only time and people reveal.
