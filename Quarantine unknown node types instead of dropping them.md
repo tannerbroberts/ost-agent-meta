@@ -22,3 +22,13 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Does a quarantined node make the agent notice the hole in its tree]]
+
+```
+npx vitest run test/ost/quarantine-unknown-node-type.test.ts
+```
+
+Green means: an unrecognised node is retained rather than dropped, excluded from counts and gates rather than miscounted, and named in the sweep along with the type that was not understood — so a vault edited by another tool loses nothing silently. Green does **not** mean the agent acts on the hole; that is what the test asks and it needs a person judging the pass output.
