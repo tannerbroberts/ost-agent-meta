@@ -18,3 +18,15 @@ _Addresses: "Want proof no hijackable capability even exists". Unvalidated — h
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Test does the red-team harness catch known injection attacks]]
+
+```
+npx vitest run test/security/injection-red-team.test.ts
+```
+
+Red today because neither the corpus nor the harness exists — `test/security/` holds an allowlist-registration audit and nothing else drives hostile ingested content through the reader. Green means all twenty seeded attacks are flagged **and** the mutation control goes red when the defence is removed. The mutation half is not decoration: it is the only thing separating a harness that catches attacks from one that catches nothing and reports twenty passes.
+
+What it does not settle: twenty attacks somebody thought of is not the attack surface. A green here says the known twenty are caught, never that the twenty-first is, and nothing about it is evidence that an operator would trust the product more for having it.
