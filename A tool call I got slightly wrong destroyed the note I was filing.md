@@ -10,7 +10,6 @@ evidence: assertion
 #Opportunity #evidence/assertion
 [[A call the tool should have refused is permanent, because append-only cannot take it back]]
 [[A malformed call lands before anything checks it, and only reading back the file says so]]
-[[Report what the write changed, so a silent loss stops being silent]]
 [[Carry across every section the caller did not supply, rather than a hand-listed reserved set]]
 [[Refuse a rewrite that would drop a section the caller never accounted for]]
 [[Report what a write changed, so a silent loss stops being silent]]
@@ -52,3 +51,4 @@ That gap is the shape this opportunity describes. The operator does not have to 
 - 2026-08-05 unlinked "Echo the written line back so a bad write is visible immediately" — re-parented under "A malformed call lands before anything checks it, and only reading back the file says so" — this solution answers that need, not the categories beside it
 - 2026-08-05 link "Carry across every section the caller did not supply, instead of a hand-listed reserved set" repointed to "Carry across every section the caller did not supply, rather than a hand-listed reserved set" — that node was merged away
 - 2026-08-05 link "Refuse a rewrite that would drop a section the caller never acknowledged" repointed to "Refuse a rewrite that would drop a section the caller never accounted for" — that node was merged away
+- 2026-08-05 link "Report what the write changed, so a silent loss stops being silent" repointed to "Report what a write changed, so a silent loss stops being silent" — that node was merged away
