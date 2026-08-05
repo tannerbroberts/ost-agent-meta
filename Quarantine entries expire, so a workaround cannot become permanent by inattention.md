@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the recorded flake timeline to see whether any single expiry period would have helped]]
 
 Every exclusion carries an expiry. When it lapses the test rejoins the suite whether or not anyone fixed it, and the run goes red until somebody either fixes it or consciously renews the quarantine with a fresh reason.
 
