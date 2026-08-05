@@ -4,6 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check that a recorded exit code cannot clear a gate or masquerade as a result]]
 
 **The mechanism: split the verdict in two and automate only the half that is arithmetic.** Running a command and reading its exit code is not a judgement — it is an observation, and it is the observation nothing is currently permitted to make. A runner takes an instrumented test, executes its one spec command, and appends the exit code, the command, and when it ran. It never writes a pass/fail verdict, never touches `## Results`, and never says what the exit code means.
 
