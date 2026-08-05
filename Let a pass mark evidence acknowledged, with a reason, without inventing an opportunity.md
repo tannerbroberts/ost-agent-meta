@@ -25,3 +25,15 @@ The tetrix instance faced this precisely and chose correctly. Its evidence item 
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Blind-review a pass's acknowledge-or-map calls on the seven stranded items]]
+
+```
+npx vitest run test/ost/evidence-acknowledge.test.ts
+```
+
+Green means: the verb exists and cannot be abused as a silent dismissal — acknowledging records a reason and the node the item was filed under, takes it off `unmappedEvidence`, and is refused with no reason given. Green does **not** mean the acknowledgements were honest; whether a pass filed or dodged is a blind human review and stays with a human.
+
+The 2026-08-05 pass is the strongest argument yet for this solution: it found all eighteen stranded items already cited by name in existing Opportunity bodies, and still could not clear one of them, because the only tool for it was to create eighteen near-duplicate nodes.
