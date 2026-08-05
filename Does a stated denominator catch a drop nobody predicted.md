@@ -2,6 +2,7 @@
 type: AssumptionTest
 status: unvalidated
 evidence: assertion
+instrument: npx vitest run test/ost/census-drop-history.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ evidence: assertion
 
 ## History
 - 2026-07-27 evidence: (none) → assertion — Agent-ideated from the shipped solution it tests. No result recorded yet by construction — it is designed to be read across 10 firings.
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/census-drop-history.test.ts — Asserts a census-history reader exists that accumulates every non-empty census line across the last 10 firings and names, per firing, the dropped or unreadable file specific enough to act on — the data this test's own threshold is counted over. Red today because nothing accumulates it: readTreeCensus() and reconcileWithGit() print their counts per invocation and the result is discarded, so there is no per-firing record for a spec to read and no exported reader to import.
