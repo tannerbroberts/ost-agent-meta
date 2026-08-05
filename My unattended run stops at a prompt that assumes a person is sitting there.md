@@ -88,3 +88,23 @@ Roughly half are taste and half are policy. **A default-and-proceed mechanism on
 One further data point on the shape of the stop: in 785ea509 a question was itself refused (`permission_denied` on AskUserQuestion) with the operator saying they wanted to clarify — i.e. the options offered did not contain the answer. That is [[Answering one question costs me three turns, because I have to fix its options before I can reply]] happening inside a session already captured here.
 
 _Recorded as corroboration during the 2026-08-04 unattended pass; these items remain unmapped in the sweep. Observed behavior, mechanically captured; grounds usability, not demand._
+
+## A third kind of stop, and it is not a question at all (2026-08-05 sweep)
+
+Every stop in this node's corpus so far is a *question* — `AskUserQuestion`, or a shell prompt waiting on a keystroke. `TRANSCRIPT:5de6e49b-d840-4fba-9549-206d3b0d7276` (2026-08-05) is the first captured instance of a different shape, and it is worth separating rather than adding to the count.
+
+The single friction event is `ExitWorktree` refusing:
+
+> *Worktree has 2 commits on `worktree-discovery-eyes`. Removing will discard this work permanently. Confirm with the user, then re-invoke with `discard_changes: true` — or use `action: "keep"` to preserve the worktree.*
+
+Three things distinguish it from the eleven above.
+
+**It is a refusal, not a question.** No option list was offered and nothing was waiting on an answer; the tool declined an irreversible act and named the two ways forward. The instruction to *confirm with the user* is the tool's, embedded in its own error text, which means the stop is a property of the surface rather than a choice the run made.
+
+**It is correct.** Discarding two commits unprompted is precisely the action [[Fear the agent could take a destructive, irreversible action]] exists to prevent, and a mechanism that defaulted this one would be a defect. So this stop does not belong in either half of the taste/policy split recorded above — it is neither a preference only the operator holds nor a policy a standing default could settle. Defaulting it either way is wrong: `discard_changes: true` destroys work, and `action: "keep"` silently accumulates worktrees nobody prunes.
+
+**What it wants is not a default but somewhere to put the work.** The run had produced two commits and could not put them down without a person. That is closer to [[A question queue the run banks and works around, instead of stopping at the fork]] than to [[Bank each question, proceed on a stated default, and present the banked set at the end]] — the run does not need an answer to continue, it needs the branch to survive unattended and be presented later. `action: "keep"` is arguably already that mechanism, and nothing told the run it was the unattended-safe choice.
+
+**Consequence for reading this node.** Any candidate here that promises to eliminate blocking should now be read against a three-way split, not two: taste (irreducible), policy (defaultable), and *correct refusals* (must not be defaulted, and want a parking mechanism instead). The third category is the one where a default-and-proceed design does active harm, and it had no instance in the corpus until now.
+
+_Source: `TRANSCRIPT:5de6e49b-…`, read in full this pass — the only one of the sweep's 18 unmapped items not already cited in some node's body. Observed behavior from the agent's own transcript; grounds usability, not demand. Corroboration only, and a new category rather than another tally mark; the node's rung is unchanged._
