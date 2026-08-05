@@ -1478,3 +1478,4 @@
 {"ts":"2026-08-05T14:36:50.944Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":3042,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
 {"ts":"2026-08-05T14:37:12.150Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2095,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
 {"ts":"2026-08-05T14:37:35.086Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"mcp","argBytes":2581,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
+{"ts":"2026-08-05T14:38:13.685Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3814,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["Every pass records the outcome text it ran against, and a changed outcome is visible as a change.md"]}
