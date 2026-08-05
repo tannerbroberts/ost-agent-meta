@@ -15,3 +15,11 @@ evidence: assertion
 **What would make this the wrong pick.** A ledger that grows without bound becomes a thing nobody reads, which is the exact failure it was built to fix, one level up. It also puts the correction in the same place as the reflex — inside the composer's judgement — and a reflex that survived seven explicit refusals may well survive a note about them.
 
 ⚠️ Unvalidated. Agent-ideated on 2026-08-05 from machine-captured session friction, by the agent whose own repeated failure the evidence records — which is a reason to discount its confidence that a note to itself would have helped.
+
+## Definition of done
+
+[[Replay the seven refusals and check the ledger surfaces every one before a call is composed]]
+
+`npx vitest run test/loop/corrections-ledger.test.ts`
+
+Proves delivery, not persuasion: the seven observed refusal classes are in the ledger exactly once each with their permitted form, and all seven reach a session before its first composed call. Red today because nothing outlives the session a refusal was issued in.
