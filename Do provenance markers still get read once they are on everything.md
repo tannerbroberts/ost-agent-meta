@@ -21,3 +21,6 @@ instrument: npx vitest run test/ost/authorship-marker.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/authorship-marker.test.ts — The test's worry is that a marker on everything becomes invisible, which presumes markers distinguish anything at all — and today they do not: `unvalidated` is stamped on every agent-created node and says nothing about who wrote the prose, so a human's node and the agent's carry the same signal. This asserts the distinction: a node records whether its prose was machine-chosen or human-written, the marker survives an edit and a merge rather than being reset to the editor, and the rollup can report the human-written share. Missing-spec red, not assertion red: the pass cannot read the repo, so the file is absent; a builder should write it against the real frontmatter schema so it goes red on a human edit that inherits the machine marker. It does not settle whether readers still READ the marker once it is everywhere, which is the test's actual question and needs people.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/authorship-marker.test.ts` — No test files found, exiting with code 1

@@ -30,3 +30,6 @@ Nor does it settle the third assumption — that the meta-OST's map and ideate p
 **Lane: compute-only.** Two fixture instances and one inbox; no person is the measurement.
 
 ⚠️ Unvalidated. Agent-ideated by an unattended pass from the node's own list of untested assumptions. Nothing here was run.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/fleet-inbox-provenance.test.ts` — No test files found, exiting with code 1

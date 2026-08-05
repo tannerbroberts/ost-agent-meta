@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/frontier-unblocking-order.test.ts — The comparison needs a computed order to compare against, and the tree produces none — the frontier comes back as an alphabetical list capped at 25, which is neither an ordering nor a ranking. This asserts the computation: each frontier item reports how many other items its completion would unblock, the order is by that count rather than by title or cost, and an item that unblocks nothing sorts last no matter how cheap it is. Missing-spec red, not assertion red: the pass holds no repo-read grant, so the file is absent; a builder should write it against the real frontier query so it goes red on the alphabetical ordering that ships today. It does not settle the comparison itself — what a builder actually picked up is a record of human behaviour, and reading it against the computed order is a person's job.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/frontier-unblocking-order.test.ts` — No test files found, exiting with code 1

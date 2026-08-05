@@ -20,3 +20,6 @@ instrument: npx vitest run test/runner/pass-exit-code.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/runner/pass-exit-code.test.ts — Cron can only notice what the process tells it, and the channel it reads is the exit code. This asserts that channel: a pass that throws mid-run exits nonzero, a pass that completes exits zero, and the failing run prints a summary naming the phase it died in and the last node it touched — so a broken pass cannot be mistaken for a quiet one. Missing-spec red, not assertion red: this pass holds no repo-read grant, so the file is absent and the command fails on absence; a builder should write it against the real runner entry point so it goes red on a swallowed error. It does not settle whether cron notices WITHIN A CYCLE — that needs a real scheduled run broken on purpose and a person watching the clock.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/runner/pass-exit-code.test.ts` — No test files found, exiting with code 1

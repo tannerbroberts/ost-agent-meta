@@ -22,3 +22,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/security/gate-coverage-human-only.test.ts — Counting past narrowings presumes a narrowing is a distinguishable, attributable event, and today it is not — nothing separates a change to what a gate covers from any other write. This asserts both halves of the solution: a call on the agent surface that would reduce a gate's coverage is refused rather than recorded, and a human's coverage change lands as its own commit touching only the gate definition, so it can be counted from git alone rather than reconstructed. Missing-spec red, not assertion red: the pass cannot read the repo, so the file is absent; a builder should write it against the real gate definitions so it goes red on an agent-surface narrowing that today succeeds. It does not settle whether past narrowings were REASONABLE — that judgement is a person's, and it is the half the test actually names.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/security/gate-coverage-human-only.test.ts` — No test files found, exiting with code 1
