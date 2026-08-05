@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/ost/contribution-estimate.test.ts
 ---
 #AssumptionTest #unvalidated #viability #evidence/assertion
 
@@ -19,3 +20,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/contribution-estimate.test.ts — An estimate cannot survive a month of movement if it was never written down in a form that can later be checked against one. This asserts the recording half: a node carrying a contribution estimate states the local metric, the distant goal it ladders to, and a dated figure, and the rollup surfaces the estimate alongside what actually moved so the two can be compared later; an estimate stored as loose prose with no date or no named goal metric fails. Missing-spec red, not assertion red — no contribution-estimate field exists, so this fails on a missing file; a builder should write it against the real node schema so it goes red on an unstructured estimate. It does not settle whether the estimates SURVIVE — that needs a month of real movement to elapse, which is neither a spec nor a person but simply time, and the comparison is a human's to make when the month is up.
