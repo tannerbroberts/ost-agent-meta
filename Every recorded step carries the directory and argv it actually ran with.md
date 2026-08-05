@@ -1,5 +1,6 @@
 ---
 type: Solution
+status: shipped
 created: '2026-07-27'
 evidence: assertion
 ---
@@ -39,6 +40,7 @@ moment the history matters.
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
 - 2026-08-05 unlinked "Try to reproduce ten recorded failures from the record alone" — moved under "cwd and resolved argv are enough to re-run a recorded failure verbatim" — the belief this test measures now has a node of its own
+- 2026-08-05 status: (none) → shipped — The node's own body records "Shipped 2026-07-27 in v0.20.0 — and the gap was wider than the node said". Recorded as `shipped` by the 2026-08-05 unattended sweep. No instrument was invented: a red-now instrument is impossible for shipped behaviour — a spec asserting that a recorded step carries its cwd and argv would pass on arrival, measure nothing, and give a builder no definition of done. Status corrected instead, the same repair this sweep's predecessor applied to "Refuse a wiki-link that contains a newline". This says the mechanism is built, not that anyone has judged it worth having.
 
 ## Definition of done
 
