@@ -4,6 +4,7 @@ status: unvalidated
 source: 'agent-run:autonomous-loop-2026-07-25-pass6'
 created: '2026-07-25'
 evidence: assertion
+instrument: npx vitest run test/mcp/bootstrap-one-question.test.ts
 ---
 #AssumptionTest #unvalidated #usability #evidence/assertion
 
@@ -59,3 +60,6 @@ What changed is only that the thing under test now exists in a form worth handin
 someone. Two things still gate it and neither is a build: the package must be published
 (the plugin resolves to 0.9.0, which cannot start outside a vault), and a human must send
 the one-liner to the warm participant and then say nothing for thirty minutes.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/mcp/bootstrap-one-question.test.ts — Asserts the mechanical half of the threshold — that the no-vault branch reaches an initialised vault after exactly ONE question, never two: `ost_next_work` on an empty directory must return `bootstrap: true` with a single `nextStep`, and supplying only the outcome string must yield a vault whose root Outcome carries the human's words verbatim. Missing-spec red, not assertion red: this pass holds no repo-read grant, so the file does not exist and the command fails on absence. A builder should convert it to assertion red by writing the spec against today's bootstrap path first and watching the one-question count fail. It does not settle whether a STRANGER gets there — that half is a person's reaction and stays with a human.
