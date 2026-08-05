@@ -11,6 +11,7 @@ evidence: assertion
 [[A call the tool should have refused is permanent, because append-only cannot take it back]]
 [[A malformed call lands before anything checks it, and only reading back the file says so]]
 [[Carry across every section the caller did not supply, instead of a hand-listed reserved set]]
+[[Refuse a rewrite that would drop a section the caller never acknowledged]]
 
 **The need, stated as an operator would.** *If I call a tool wrong, I need it to refuse me. In an append-only vault a bad write is forever, so 'it went through' is not the reassurance it sounds like.*
 

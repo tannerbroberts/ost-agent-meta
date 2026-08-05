@@ -1673,3 +1673,4 @@
 {"ts":"2026-08-05T23:46:26.030Z","tool":"ost_next_work","ok":true,"ms":57,"surface":"mcp","argBytes":2,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:47:10.256Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2698,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:47:29.734Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2862,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Carry across every section the caller did not supply, instead of a hand-listed reserved set.md"]}
+{"ts":"2026-08-05T23:47:41.905Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2669,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Refuse a rewrite that would drop a section the caller never acknowledged.md"]}
