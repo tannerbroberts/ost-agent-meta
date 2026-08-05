@@ -21,3 +21,13 @@ _Addresses: "Worry the agent is grading its own homework". Unvalidated — human
 
 ## Issues
 - 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent LLM judge scores faithfulness to evidence' and 'Adversarial grounding judge'. One build satisfies all three; consolidation candidate.
+
+## Definition of done
+
+[[Test does an independent judge raise trust over self-report]]
+
+```
+npx vitest run test/eval/judge-independence.test.ts
+```
+
+Green means: the judging call runs under a distinct identity from the proposing call and never sees the proposer's reasoning trace, so the independence this solution is named for is real rather than nominal. Green does **not** mean trust rose — that is a reader's judgement and stays with a human.
