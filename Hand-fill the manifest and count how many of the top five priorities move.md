@@ -32,3 +32,4 @@ It also does not settle the cost that would actually sink this: somebody has to 
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/product/manifest-ranking-shift.test.ts` — No test files found, exiting with code 1
+- 2026-08-05 **green** (exit 0) `npx vitest run test/product/manifest-ranking-shift.test.ts` — Duration  325ms (transform 69ms, setup 0ms, collect 119ms, tests 10ms, environment 0ms, prepare 24ms)
