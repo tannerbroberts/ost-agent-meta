@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   The reader's risk ranking matches the assigned one, and they name at least one
   foreclosure per route that was also written down.
+instrument: npx vitest run test/ost/routes-with-forecloses.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that three genuinely distinct routes can be produced, and that
 **What it will not cover.** Agreement between a generated risk ranking and one reader's is weak evidence that either is right. It would catch the worst case — labels that are noise — and would not establish that they are well calibrated.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/routes-with-forecloses.test.ts — A reader cannot rank three routes blind unless three routes exist and are genuinely different, and nothing today produces any. This asserts what the ranking presupposes: a route request for one branch returns exactly three, each naming its risk level and — the part the solution is actually about — what choosing it forecloses, with the foreclosed sets differing between routes, so a route that forecloses nothing or repeats a sibling's trade-off fails. Missing-spec red, not assertion red: this pass holds no repo-read grant, so the file is absent; a builder should write it against the real route generator so it goes red on a route with an empty forecloses field. It does not settle the blind ranking, which needs a reader and stays with a human.
