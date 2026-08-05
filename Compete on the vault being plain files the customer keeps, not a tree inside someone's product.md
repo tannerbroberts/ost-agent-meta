@@ -16,4 +16,4 @@ This is a claim about switching costs and continuity, aimed at a buyer who has b
 **What would make this the wrong pick.** Most buyers do not price portability until they need it, and by then they are not shopping. This may be a real advantage that nobody pays for — which is a different failure from not having an advantage, and needs a different test.
 
 ## History
-- 2026-08-05 unlinked [[Ask ten buyers what happened the last time a tool they relied on shut down]] — moved under [[Buyers have been burned by lock-in recently enough to pay for portability]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Ask ten buyers what happened the last time a tool they relied on shut down" — moved under "Buyers have been burned by lock-in recently enough to pay for portability" — the belief this test measures now has a node of its own

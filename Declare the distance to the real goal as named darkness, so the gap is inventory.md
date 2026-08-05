@@ -17,7 +17,7 @@ The value is in the format requirement. A gap that cannot say what closing it wo
 
 ## Definition of done
 
-[[Write the gap as an unknown and see whether a Format can be stated for it at all]]
+"Write the gap as an unknown and see whether a Format can be stated for it at all"
 
 ```
 npx vitest run test/ost/unknown-format-required.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/ost/unknown-format-required.test.ts
 Green means: the Format section is load-bearing rather than advisory — an Unknown without one is refused at the tool boundary, and a missing Format shows up in that unknown's reported `gaps`. Green does **not** answer this vault's actual gap: whether a Format can be written for the affordable-goal distance without collapsing into "we would have more time" is a semantic judgement, and no exit code makes it.
 
 ## History
-- 2026-08-05 unlinked [[Write the gap as an unknown and see whether a Format can be stated for it at all]] — moved under [[What stands between here and the real goal is missing knowledge rather than missing resources]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Write the gap as an unknown and see whether a Format can be stated for it at all" — moved under "What stands between here and the real goal is missing knowledge rather than missing resources" — the belief this test measures now has a node of its own

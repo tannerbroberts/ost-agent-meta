@@ -18,4 +18,4 @@ The offer doubles as the sharpest available test of demand. A team that will not
 Approaching teams and interpreting what they say is a human's work. No pass may do it or record its result.
 
 ## History
-- 2026-08-05 unlinked [[Deliver three free trees and count how many the recipient shows to someone else]] — moved under [[A recipient of a free tree cares enough to show it to someone else]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Deliver three free trees and count how many the recipient shows to someone else" — moved under "A recipient of a free tree cares enough to show it to someone else" — the belief this test measures now has a node of its own

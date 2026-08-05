@@ -16,4 +16,4 @@ Understanding is maintained by being made to decide under uncertainty, which is 
 **What would make this the wrong pick.** An agent that withholds its answer to test its operator is doing something the operator has to have agreed to, and an operator in a hurry will experience it as being quizzed by their own tooling. Consent and frequency both have to be the human's, not the agent's.
 
 ## History
-- 2026-08-05 unlinked [[Withhold the agent's answer on ten forks and measure how often the operator diverges]] — moved under [[An operator consents to being asked, and finds the questions worth their time]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Withhold the agent's answer on ten forks and measure how often the operator diverges" — moved under "An operator consents to being asked, and finds the questions worth their time" — the belief this test measures now has a node of its own

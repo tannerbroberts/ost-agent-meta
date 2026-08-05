@@ -18,4 +18,4 @@ This is the candidate that leans on the substrate this product already has. Ever
 **The distinction that decides whether it is usable at all** is reversal cost, not confidence. A confidently-taken decision to publish a package is not recoverable by a revert; a hesitantly-taken decision about node placement is. Any version of this that keys off how sure the agent felt rather than how expensive the undo is has reinvented the failure it was built to avoid.
 
 ## History
-- 2026-08-05 unlinked [[Show the operator ten forks already taken and count the reversals and the minutes]] — moved under [[Decisions taken on a stated assumption are mostly accepted, and the review is short enough to happen]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Show the operator ten forks already taken and count the reversals and the minutes" — moved under "Decisions taken on a stated assumption are mostly accepted, and the review is short enough to happen" — the belief this test measures now has a node of its own

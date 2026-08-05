@@ -13,7 +13,7 @@ When a run is stopped, backgrounded, or dies mid-work, nothing marks where it go
 
 Grounding: a builder pass was backgrounded mid-work on 2026-07-24 and the next pass had no way to tell what it had finished versus abandoned (agent-filed friction, kind: blocked).
 
-Litmus: progress markers/checkpoints, a run journal, idempotent work detection, resumable pass state — multiple distinct ways to address. Distilled by the mapping agent from agent-self-reported observation; unvalidated. Distinct from [[What the agent learns doesn't accumulate over time]] (cross-session knowledge) — this is intra-run work-state.
+Litmus: progress markers/checkpoints, a run journal, idempotent work detection, resumable pass state — multiple distinct ways to address. Distilled by the mapping agent from agent-self-reported observation; unvalidated. Distinct from "What the agent learns doesn't accumulate over time" (cross-session knowledge) — this is intra-run work-state.
 
 ## Issues
 - 2026-07-27 OBSERVED TWICE IN ONE PASS, 2026-07-27 (eleventh pass) — and the gap is narrower and more fixable than this node's general framing.
@@ -22,7 +22,7 @@ Litmus: progress markers/checkpoints, a run journal, idempotent work detection, 
 
 The point is not the operator error. It is that the record is HONEST about the exit code and SILENT about the single variable that explains it, so the failure cannot be reproduced or diagnosed from the record alone. A reader six passes from now sees `bash -c npx vitest run -> exit 1` and has no way to distinguish a real regression from a mis-invocation.
 
-Cheapest fix: `loop step` stores `cwd` (and arguably the resolved argv) alongside the exit code. It is one field, and it converts an unreproducible number into a reproducible one. Filed as friction this pass; see [[Resumable append-only process journal]] for the adjacent structure this would extend.
+Cheapest fix: `loop step` stores `cwd` (and arguably the resolved argv) alongside the exit code. It is one field, and it converts an unreproducible number into a reproducible one. Filed as friction this pass; see "Resumable append-only process journal" for the adjacent structure this would extend.
 
 ## Evidence — the failure reproduced, with the missing variable named (mapped 2026-08-02)
 
@@ -30,9 +30,9 @@ Cheapest fix: `loop step` stores `cwd` (and arguably the resolved argv) alongsid
 
 `loop step --phase build -- npx vitest run` was run from the home directory instead of the repo. vitest collected all four repos and exited 1. The health record now holds an exit-1 against a command that passes in its intended cwd, and the filing's own summary is the sharpest statement of this opportunity yet written: **"The record is honest about the exit code and silent about the one variable that explains it."**
 
-This is direct confirmation of the candidate already sitting under this node, [[Every recorded step carries the directory and argv it actually ran with]] — the failure occurred, the record was kept, and the record could not be used to reproduce or attribute it. It does not validate that solution (no test has been run, and cwd is one of several variables that could have been the missing one), but it moves the solution from inferred-need to observed-need and is the concrete case any assumption test under it should have to reproduce.
+This is direct confirmation of the candidate already sitting under this node, "Every recorded step carries the directory and argv it actually ran with" — the failure occurred, the record was kept, and the record could not be used to reproduce or attribute it. It does not validate that solution (no test has been run, and cwd is one of several variables that could have been the missing one), but it moves the solution from inferred-need to observed-need and is the concrete case any assumption test under it should have to reproduce.
 
 ## History
-- 2026-08-05 unlinked [[Every recorded step carries the directory and argv it actually ran with]] — re-parented under [[An interrupted run leaves no trustworthy account of what it completed]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[A run journal written as it goes, so an interrupted run reads as a list of finished steps]] — re-parented under [[An interrupted run leaves no trustworthy account of what it completed]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Reconstruct what finished from the commit history, so no run has to be trusted to report]] — re-parented under [[An interrupted run leaves no trustworthy account of what it completed]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Every recorded step carries the directory and argv it actually ran with" — re-parented under "An interrupted run leaves no trustworthy account of what it completed" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "A run journal written as it goes, so an interrupted run reads as a list of finished steps" — re-parented under "An interrupted run leaves no trustworthy account of what it completed" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Reconstruct what finished from the commit history, so no run has to be trusted to report" — re-parented under "An interrupted run leaves no trustworthy account of what it completed" — this solution answers that need, not the categories beside it

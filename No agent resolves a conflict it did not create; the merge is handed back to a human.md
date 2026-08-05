@@ -19,7 +19,7 @@ Setting this boundary is a human's decision. No pass may grant itself the permis
 
 ## Definition of done
 
-[[Count how many vault conflicts are mechanical, to see what a human-only rule would actually cost]]
+"Count how many vault conflicts are mechanical, to see what a human-only rule would actually cost"
 
 ```
 npx vitest run test/git/conflict-mechanicality-census.test.ts
@@ -28,4 +28,4 @@ npx vitest run test/git/conflict-mechanicality-census.test.ts
 Green means every conflict in the vault history is classified as mechanically resolvable or not, so the price of the human-only rule is a number rather than a worry. It settles the cost side only. Whether that price is worth paying is the operator's call, and the safety argument for the rule does not depend on the count coming out low.
 
 ## History
-- 2026-08-05 unlinked [[Count how many vault conflicts are mechanical, to see what a human-only rule would actually cost]] — moved under [[Conflicts are rare and contested enough that human-only resolution does not flood the operator]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how many vault conflicts are mechanical, to see what a human-only rule would actually cost" — moved under "Conflicts are rare and contested enough that human-only resolution does not flood the operator" — the belief this test measures now has a node of its own

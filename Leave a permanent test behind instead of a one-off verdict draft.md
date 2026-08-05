@@ -19,7 +19,7 @@ Both routes cost the same compute and produce the same finding today. They diffe
 
 **The claim.** A verdict is a measurement of a moment; a test is a standing assertion. A verification that must be re-run by hand decays silently — the code moves, the finding stays recorded, and nobody can tell that the recorded finding stopped being true. This matters more here than in ordinary engineering, because the whole product's premise is that the map should be *trustworthy over time*. A tree full of results that were true once is exactly the failure mode the believability ladder exists to prevent, arriving through a different door.
 
-**Contrast with siblings under this opportunity.** [[Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane]] decides *which* tests compute may run — this decides *what compute should leave behind when it runs one*. They compose: lanes without this produce a growing pile of one-shot drafts; this without lanes has nothing to trigger it. The docket sibling compresses the human's residual role and is unaffected either way.
+**Contrast with siblings under this opportunity.** "Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane" decides *which* tests compute may run — this decides *what compute should leave behind when it runs one*. They compose: lanes without this produce a growing pile of one-shot drafts; this without lanes has nothing to trigger it. The docket sibling compresses the human's residual role and is unaffected either way.
 
 **Where it does not apply, which is most of the tree.** Only a minority of assumption tests have an executable form. "Will an operator hand over real discovery work" cannot become a test file. The rule should therefore be a *default with an escape*, not a requirement — and the escape must not become the path of least resistance, because writing a test is genuinely harder than writing a paragraph and an agent will feel that pull.
 
@@ -76,11 +76,11 @@ failing. Both came from making one work.
 encoding the wrong threshold is worse than a verdict doing so, and that whatever
 gets built must make splitting a node cheap "rather than depending on an agent
 noticing". v0.8.0's
-[[A result must state what it did not cover]] is that, in its smallest form.
+"A result must state what it did not cover" is that, in its smallest form.
 
 **Still one source.** Three instances, all of an agent choosing this about its own
 work, all inside this building. The cheapest disconfirmer —
-[[Do six cold artefacts show a test beating a verdict draft]] — remains unrun, and
+"Do six cold artefacts show a test beating a verdict draft" — remains unrun, and
 three self-observations do not substitute for one outsider.
 
 ## Fourth instance, 2026-07-25 (autonomous loop, pass 5) — and the first one that fired on purpose
@@ -119,12 +119,12 @@ that — which is an argument for the *inversion* step, not just the leaving-beh
 step.
 
 **Still one source.** Four instances, all of an agent observing its own work inside
-this building. [[Do six cold artefacts show a test beating a verdict draft]] remains
+this building. "Do six cold artefacts show a test beating a verdict draft" remains
 unrun, and four self-observations still do not substitute for one outsider.
 
 ## Definition of done
 
-[[Do six cold artefacts show a test beating a verdict draft]]
+"Do six cold artefacts show a test beating a verdict draft"
 
 ```
 npx vitest run test/runner/verdict-leaves-spec.test.ts
@@ -133,4 +133,4 @@ npx vitest run test/runner/verdict-leaves-spec.test.ts
 Green means: the artefact this solution is named for actually gets produced — completing a verdict writes a committed spec into the repository's own suite, the test node it settled references that file, and a prose-only verdict is refused. Today the comparison the test wants has only one side of it, because nothing leaves a test behind. Green does **not** settle whether six cold readers prefer it; that is a person's reaction.
 
 ## History
-- 2026-08-05 unlinked [[Do six cold artefacts show a test beating a verdict draft]] — moved under [[A committed test outlives and outperforms a verdict draft as the artefact of a pass]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Do six cold artefacts show a test beating a verdict draft" — moved under "A committed test outlives and outperforms a verdict draft as the artefact of a pass" — the belief this test measures now has a node of its own

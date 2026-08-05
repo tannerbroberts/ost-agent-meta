@@ -18,14 +18,14 @@ _Addresses: "Worry the agent is grading its own homework". Unvalidated — human
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test does an independent judge raise trust over self-report]] — moved under [[Splitting proposer from judge raises trust more than a proposer's own sign-off]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test does an independent judge raise trust over self-report" — moved under "Splitting proposer from judge raises trust more than a proposer's own sign-off" — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent LLM judge scores faithfulness to evidence' and 'Adversarial grounding judge'. One build satisfies all three; consolidation candidate.
 
 ## Definition of done
 
-[[Test does an independent judge raise trust over self-report]]
+"Test does an independent judge raise trust over self-report"
 
 ```
 npx vitest run test/eval/judge-independence.test.ts

@@ -18,11 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Do candidates carrying kill criteria actually get killed within two weeks]] — moved under [[A kill criterion written when a candidate was cheap actually gets honoured when it is expensive]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Do candidates carrying kill criteria actually get killed within two weeks" — moved under "A kill criterion written when a candidate was cheap actually gets honoured when it is expensive" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Do candidates carrying kill criteria actually get killed within two weeks]]
+"Do candidates carrying kill criteria actually get killed within two weeks"
 
 ```
 npx vitest run test/ost/kill-criteria-required.test.ts

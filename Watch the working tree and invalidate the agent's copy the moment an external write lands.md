@@ -9,7 +9,7 @@ evidence: assertion
 
 Something watches the working tree. When a file the agent has read is modified by anyone else, the agent is told — immediately, in band — that its copy is stale, before it composes anything against it.
 
-**The trade it makes:** it is the only sibling that prevents the wasted work rather than explaining it, and it generalises past editing. Session `424486ec` is the case it is built for: HEAD moved to a merge and roughly fourteen files changed within seconds while the agent was mid-task. A watcher turns that from a forensic discovery into a notification. It also feeds [[Two agents sharing my vault can trample each other]], which needs the same signal for a different purpose.
+**The trade it makes:** it is the only sibling that prevents the wasted work rather than explaining it, and it generalises past editing. Session `424486ec` is the case it is built for: HEAD moved to a merge and roughly fourteen files changed within seconds while the agent was mid-task. A watcher turns that from a forensic discovery into a notification. It also feeds "Two agents sharing my vault can trample each other", which needs the same signal for a different purpose.
 
 **The price is the largest of the three.** It needs a live watcher process, it is the most environment-dependent (editors write temp files, formatters touch everything on save, a `git checkout` looks like a thousand external writes), and a noisy watcher is worse than none — an agent told everything is stale will start ignoring the signal. Tuning what counts as a meaningful external write is the whole difficulty, and it is not obviously solvable in general.
 
@@ -21,7 +21,7 @@ Distinguishing assumption: that meaningful external writes are distinguishable f
 
 ## Definition of done
 
-[[Classify every filesystem event in three real sessions as meaningful or churn]]
+"Classify every filesystem event in three real sessions as meaningful or churn"
 
 ```
 npx vitest run test/runner/fs-event-classification.test.ts
@@ -35,7 +35,7 @@ Green means a rule fixed in advance classifies at least 90% of external write ev
 
 **What a red result redirects to, and it is a real fallback rather than a consolation.** Poll the mtimes of only the files this session has actually read, once before each write batch. That sidesteps classification entirely by only asking about files it already cares about, and if this test fails it becomes the stronger candidate.
 
-**A by-product worth keeping.** The same event capture would show how often two writers genuinely overlap — direct evidence for [[Two agents sharing my vault can trample each other]], a node currently resting on two anecdotes.
+**A by-product worth keeping.** The same event capture would show how often two writers genuinely overlap — direct evidence for "Two agents sharing my vault can trample each other", a node currently resting on two anecdotes.
 
 ## History
-- 2026-08-05 unlinked [[Classify every filesystem event in three real sessions as meaningful or churn]] — moved under [[Meaningful external writes are separable from churn by a rule fixed in advance]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Classify every filesystem event in three real sessions as meaningful or churn" — moved under "Meaningful external writes are separable from churn by a rule fixed in advance" — the belief this test measures now has a node of its own

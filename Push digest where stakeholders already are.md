@@ -20,14 +20,14 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Three-week digest engagement run]] — moved under [[A digest arriving where stakeholders already read gets read]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Three-week digest engagement run" — moved under "A digest arriving where stakeholders already read gets read" — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch duplicate (2026-07-24 review): near-identical to 'Weekly what-changed-and-why digest'. See that node's annotation.
 
 ## Definition of done
 
-[[Three-week digest engagement run]]
+"Three-week digest engagement run"
 
 ```
 npx vitest run test/adapters/digest-delivery.test.ts

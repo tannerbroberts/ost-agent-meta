@@ -18,11 +18,11 @@ _Addresses: "Can't tell if the generated tree is actually any good". Unvalidated
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test does the golden set discriminate good trees from bad]] — moved under [[A curated golden set discriminates a good tree from a bad one]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test does the golden set discriminate good trees from bad" — moved under "A curated golden set discriminates a good tree from a bad one" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test does the golden set discriminate good trees from bad]]
+"Test does the golden set discriminate good trees from bad"
 
 ```
 npx vitest run test/eval/golden-set-discrimination.test.ts

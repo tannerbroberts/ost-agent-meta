@@ -17,7 +17,7 @@ This converts the credential from a thing a run must possess into a service a ru
 
 ## Definition of done
 
-[[Ask five operators whether they would put their secret in a broker that acts for a run]]
+"Ask five operators whether they would put their secret in a broker that acts for a run"
 
 `npx vitest run test/security/credential-broker.test.ts`
 
@@ -26,4 +26,4 @@ The spec asserts the containment the node's argument rests on: a run asking for 
 **What a green here does not settle.** Whether operators would hand a secret to a broker at all — the node's own stated risk is that concentrating every secret into one process on one machine is plainly unacceptable to some of them, and no spec can find out which. That stays with the humans-required test. A green also cannot weigh this against short-lived tokens, since the comparison is about a trade an operator makes, not about whether the code works.
 
 ## History
-- 2026-08-05 unlinked [[Ask five operators whether they would put their secret in a broker that acts for a run]] — moved under [[Operators will accept one process holding every secret, in exchange for never handing one to a run]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Ask five operators whether they would put their secret in a broker that acts for a run" — moved under "Operators will accept one process holding every secret, in exchange for never handing one to a run" — the belief this test measures now has a node of its own

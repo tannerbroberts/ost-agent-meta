@@ -25,11 +25,11 @@ The tetrix instance faced this precisely and chose correctly. Its evidence item 
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Blind-review a pass's acknowledge-or-map calls on the seven stranded items]] — moved under [[A pass's decision not to distil an opportunity is a judgement worth recording]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Blind-review a pass's acknowledge-or-map calls on the seven stranded items" — moved under "A pass's decision not to distil an opportunity is a judgement worth recording" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Blind-review a pass's acknowledge-or-map calls on the seven stranded items]]
+"Blind-review a pass's acknowledge-or-map calls on the seven stranded items"
 
 ```
 npx vitest run test/ost/evidence-acknowledge.test.ts

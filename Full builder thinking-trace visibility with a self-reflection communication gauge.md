@@ -16,7 +16,7 @@ evidence: assertion
 
 **Closing the loop:** To that end, the OST-Agent's OST should actually be able to alter the loops that run the ideation and building — what the gauge learns about communication failures becomes changes to the running loops, not just annotations.
 
-**Contrast with neighbors:** [[Adopt session transcripts as the trace source instead of new instrumentation]] is a trace-*acquisition* mechanism serving the usage-feed opportunity; this node *consumes* trace visibility to audit whether the OST-Agent's own instructions landed, and routes the verdicts into loop control. [[Agent proposes its own workflow changes for one-click adoption]] is the nearest existing loop-alteration mechanism — human-adopted proposals; this solution implies a tighter coupling where the OST itself can alter the running loops. A human should decide how much of that authority to grant.
+**Contrast with neighbors:** "Adopt session transcripts as the trace source instead of new instrumentation" is a trace-*acquisition* mechanism serving the usage-feed opportunity; this node *consumes* trace visibility to audit whether the OST-Agent's own instructions landed, and routes the verdicts into loop control. "Agent proposes its own workflow changes for one-click adoption" is the nearest existing loop-alteration mechanism — human-adopted proposals; this solution implies a tighter coupling where the OST itself can alter the running loops. A human should decide how much of that authority to grant.
 
 **Key assumptions (explicit, untested):** (feasibility) the builder's full thinking trace is actually accessible to the OST-Agent; (usability) the three reflection questions, asked against a real trace, surface misunderstandings the pass output alone does not; (viability/safety) letting the tree alter its own ideation/build loops improves route efficiency without eroding the append-only trust guarantees; (desirability) the founder and future operators want loop authority to live in the tree rather than with the human.
 
@@ -24,7 +24,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Do the three reflection questions catch a builder misunderstanding the pass output missed]]
+"Do the three reflection questions catch a builder misunderstanding the pass output missed"
 
 ```
 npx vitest run test/skill/reflection-questions.test.ts
@@ -33,4 +33,4 @@ npx vitest run test/skill/reflection-questions.test.ts
 Green means: all three reflection questions reach every pass output, each bound to a named node in that pass rather than asked in the abstract. Green does **not** mean they catch anything — a real builder misreading a real pass output is the measurement, and that stays with a human.
 
 ## History
-- 2026-08-05 unlinked [[Do the three reflection questions catch a builder misunderstanding the pass output missed]] — moved under [[Three reflection questions against a builder's trace catch misunderstandings the pass output missed]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Do the three reflection questions catch a builder misunderstanding the pass output missed" — moved under "Three reflection questions against a builder's trace catch misunderstandings the pass output missed" — the belief this test measures now has a node of its own

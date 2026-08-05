@@ -17,7 +17,7 @@ Keep the options — they are genuinely useful when the run has guessed right �
 
 ## Definition of done
 
-[[Replay the two recorded rejections and check the run could act on the operator's own words]]
+"Replay the two recorded rejections and check the run could act on the operator's own words"
 
 ```
 npx vitest run test/loop/free-text-answer-parsing.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/loop/free-text-answer-parsing.test.ts
 Green means a written answer is genuinely first-class — the two rejection texts the operator actually typed each yield a decision the run proceeds on, with no follow-up question. It does not settle whether anyone reaches for the open field when a menu sits beside it.
 
 ## History
-- 2026-08-05 unlinked [[Replay the two recorded rejections and check the run could act on the operator's own words]] — moved under [[A run can act on a sentence the operator wrote, without asking again]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay the two recorded rejections and check the run could act on the operator's own words" — moved under "A run can act on a sentence the operator wrote, without asking again" — the belief this test measures now has a node of its own

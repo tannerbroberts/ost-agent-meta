@@ -16,7 +16,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Blind-rate ten dry-run web findings for whether they bear on an open assumption]]
+"Blind-rate ten dry-run web findings for whether they bear on an open assumption"
 
 `npx vitest run test/web/research-loop-provenance.test.ts`
 
@@ -25,4 +25,4 @@ The spec asserts the first of the four assumptions this node lists, which is als
 **What a green here does not settle — three of the four assumptions, by the node's own list.** Whether the loop stays relevant to the tree rather than drifting into generic reading is exactly what the blind-rating measures, and no spec can judge relevance. Whether inbox volume stays below what mapping passes can digest is an empirical rate question. And whether running unattended web research is compatible with the operator's trust constraints is a person's judgement — the tree already carries "I can't leave the process running unattended without worrying" as a live need, and a loop that reaches the open internet on its own schedule is squarely inside it.
 
 ## History
-- 2026-08-05 unlinked [[Blind-rate ten dry-run web findings for whether they bear on an open assumption]] — moved under [[An autonomous web loop finds things that bear on assumptions the tree actually holds open]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Blind-rate ten dry-run web findings for whether they bear on an open assumption" — moved under "An autonomous web loop finds things that bear on assumptions the tree actually holds open" — the belief this test measures now has a node of its own

@@ -17,13 +17,13 @@ Because a vault is append-only Markdown, the merges are unusually well-behaved: 
 
 ## Definition of done
 
-[[Have an unattended pass resolve ten seeded merge conflicts and grade every resolution]]
+"Have an unattended pass resolve ten seeded merge conflicts and grade every resolution"
 
 `npx vitest run test/git/branch-isolation-merge.test.ts`
 
 The spec asserts both the isolation and the conflict shape the node predicts: two passes never share a working tree; sections appended to different nodes merge without conflict, as append-only Markdown should; and the genuine collisions — two nodes created with the same title, two edits to one parent's link list — surface as conflicts rather than resolving silently. That last clause matters most, because a merge that quietly picks a side is worse than the collision it replaced. Red today because passes write to one working tree.
 
-**What a green here does not settle, and it is where the node says the problem moves.** Whether a resolution is any *good*. The spec proves conflicts are surfaced; grading ten resolutions is the humans-required test, and the node's own warning is that handing the merge to an unattended pass swaps a collision the tree can detect for a resolution it cannot check. This tree already records the downstream failure that produces — [[A merge conflict got committed into a source file, so the next run inherits a repo that cannot build]] — so the grading is not hypothetical.
+**What a green here does not settle, and it is where the node says the problem moves.** Whether a resolution is any *good*. The spec proves conflicts are surfaced; grading ten resolutions is the humans-required test, and the node's own warning is that handing the merge to an unattended pass swaps a collision the tree can detect for a resolution it cannot check. This tree already records the downstream failure that produces — "A merge conflict got committed into a source file, so the next run inherits a repo that cannot build" — so the grading is not hypothetical.
 
 ## History
-- 2026-08-05 unlinked [[Have an unattended pass resolve ten seeded merge conflicts and grade every resolution]] — moved under [[An unattended pass can resolve the merges this creates without corrupting the tree]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have an unattended pass resolve ten seeded merge conflicts and grade every resolution" — moved under "An unattended pass can resolve the merges this creates without corrupting the tree" — the belief this test measures now has a node of its own

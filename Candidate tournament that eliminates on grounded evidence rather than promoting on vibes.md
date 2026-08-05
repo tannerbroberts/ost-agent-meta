@@ -18,11 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Would an operator accept an elimination they initially disagreed with once shown the evidence]] — moved under [[An operator shown the evidence will accept an elimination they initially disagreed with]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Would an operator accept an elimination they initially disagreed with once shown the evidence" — moved under "An operator shown the evidence will accept an elimination they initially disagreed with" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Would an operator accept an elimination they initially disagreed with once shown the evidence]]
+"Would an operator accept an elimination they initially disagreed with once shown the evidence"
 
 `npx vitest run test/eval/tournament-elimination.test.ts`
 

@@ -18,8 +18,8 @@ Nothing is blocked, nothing is refused, nothing is rewritten.
 classification on top of it, in the same spirit as the rest of the coverage feature:
 it never asks whether the threshold is *good*, only whether it is a threshold.
 
-**How it differs from its siblings.** [[Refuse to record a result against a threshold that was never fixed]]
-enforces; [[Make the threshold a field the node carries, not a sentence in its prose]]
+**How it differs from its siblings.** "Refuse to record a result against a threshold that was never fixed"
+enforces; "Make the threshold a field the node carries, not a sentence in its prose"
 restructures. This one only looks. It is deliberately the weakest of the three, and
 it is proposed first for that reason: the parent opportunity's own caveat is that a
 mechanical rule here will be wrong at the edges, and a report that is wrong is a
@@ -30,11 +30,11 @@ shape as the v0.9.0 increment that produced the finding.
 
 **Trade-off.** A report nobody reads changes nothing, and this tree already has one
 unrun assumption test about exactly that failure mode
-([[Does the side-by-side change what a reviewer does about a threshold]]). Building
+("Does the side-by-side change what a reviewer does about a threshold"). Building
 two reports before learning whether the first one is read would be a pattern worth
 naming out loud.
 
-**Cheapest disconfirmer.** [[Do named unfixed thresholds actually get fixed]] — name
+**Cheapest disconfirmer.** "Do named unfixed thresholds actually get fixed" — name
 them once, wait, and count how many are still unfixed.
 
 ⚠️ Unvalidated. Proposed by an agent from a mechanical census of its own two vaults.
@@ -97,7 +97,7 @@ right sequence is to decide what the number means before improving how it is cou
 
 ## Definition of done
 
-[[A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact]]
+"A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact"
 
 ```
 npx vitest run test/ost/threshold-lead-in-wrap.test.ts
@@ -105,8 +105,8 @@ npx vitest run test/ost/threshold-lead-in-wrap.test.ts
 
 Green means `debt`'s four-way classification reads the pre-commitment paragraph rather than where prose formatting put a line break — the defect this node's own body records twice, both times reproduced live and by accident, and both times flagged rather than fixed.
 
-It does not settle the question the older sibling test asks. [[Do named unfixed thresholds actually get fixed]] is about whether naming an unfixed threshold causes anyone to fix it, which is longitudinal and about people; no exit code observes it. Nor does a green re-count history: every `absent` figure this feature has published stays a floor rather than a measurement, including the 12 in this vault.
+It does not settle the question the older sibling test asks. "Do named unfixed thresholds actually get fixed" is about whether naming an unfixed threshold causes anyone to fix it, which is longitudinal and about people; no exit code observes it. Nor does a green re-count history: every `absent` figure this feature has published stays a floor rather than a measurement, including the 12 in this vault.
 
 ## History
-- 2026-08-05 unlinked [[Do named unfixed thresholds actually get fixed]] — moved under [[Naming an unfixed threshold is enough to get it fixed]] — the belief this test measures now has a node of its own
-- 2026-08-05 unlinked [[A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact]] — moved under [[The classifier reads a pre-commitment the same way however the text happens to be wrapped]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Do named unfixed thresholds actually get fixed" — moved under "Naming an unfixed threshold is enough to get it fixed" — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact" — moved under "The classifier reads a pre-commitment the same way however the text happens to be wrapped" — the belief this test measures now has a node of its own

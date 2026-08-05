@@ -18,4 +18,4 @@ This aligns the price with the thing that is hard. Generating a tree once is nea
 Whether anyone would pay this, and how much, is a question for customers. Nothing here is validated.
 
 ## History
-- 2026-08-05 unlinked [[Offer a maintained tree at a stated monthly price to ten teams and count who asks for terms]] — moved under [[Teams will pay a monthly fee for an artefact whose best months look like its worst]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Offer a maintained tree at a stated monthly price to ten teams and count who asks for terms" — moved under "Teams will pay a monthly fee for an artefact whose best months look like its worst" — the belief this test measures now has a node of its own

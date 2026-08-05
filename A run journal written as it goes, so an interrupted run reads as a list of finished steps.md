@@ -17,7 +17,7 @@ The crucial property is that the journal is written forward. Anything summarised
 
 ## Definition of done
 
-[[Kill ten runs at random points and check what the journal's last line claims]]
+"Kill ten runs at random points and check what the journal's last line claims"
 
 ```
 npx vitest run test/loop/run-journal-interruption.test.ts
@@ -28,4 +28,4 @@ Red today: no journal is written, so the spec has nothing to read. Green when te
 **What a green spec does not settle.** It proves the journal is accurate under a clean kill. It says nothing about a crash mid-write, a full disk, or a process killed while the filesystem is still buffering — the messier cases the test node names itself — and nothing about whether an operator finds the journal readable.
 
 ## History
-- 2026-08-05 unlinked [[Kill ten runs at random points and check what the journal's last line claims]] — moved under [[A journal written per completed step never overstates what a killed run finished]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Kill ten runs at random points and check what the journal's last line claims" — moved under "A journal written per completed step never overstates what a killed run finished" — the belief this test measures now has a node of its own

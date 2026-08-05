@@ -18,7 +18,7 @@ evidence: assertion
 
 ## The threshold that gated it has now been run — 2026-07-27
 
-[[Do the shipped sweeps actually find a planted instance]] ran on the twelfth firing:
+"Do the shipped sweeps actually find a planted instance" ran on the twelfth firing:
 **12 plants, 12 found, 0 checks blind.** Its pre-commitment named this outcome explicitly —
 0 or 1 means the existing verify-failing-first discipline is mostly working and this node is
 "a belt-and-braces addition that can wait."
@@ -37,4 +37,4 @@ assertion that the baseline is clean *and* that the plant is the shape the rule 
 Annotation only — no change proposed, and the standing do-not-build is untouched.
 
 ## History
-- 2026-08-05 unlinked [[Do the shipped sweeps actually find a planted instance]] — moved under [[A positive control would actually fire on the sweeps that shipped]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Do the shipped sweeps actually find a planted instance" — moved under "A positive control would actually fire on the sweeps that shipped" — the belief this test measures now has a node of its own

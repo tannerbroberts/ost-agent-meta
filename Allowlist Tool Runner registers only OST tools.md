@@ -18,11 +18,11 @@ _Addresses: "Want proof no hijackable capability even exists". Unvalidated — h
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test audit that no tool outside the allowlist is ever registered]] — moved under [[Trust can rest on absence of capability, with no general-purpose tool ever registered]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test audit that no tool outside the allowlist is ever registered" — moved under "Trust can rest on absence of capability, with no general-purpose tool ever registered" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test audit that no tool outside the allowlist is ever registered]]
+"Test audit that no tool outside the allowlist is ever registered"
 
 ```
 npx vitest run test/security/allowlist-registration-audit.test.ts

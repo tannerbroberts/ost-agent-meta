@@ -51,7 +51,7 @@ name, so rename detection cannot see it; the source reads correctly to a human, 
 does not catch it; and Obsidian renders it as bracketed plain text, so the graph is simply
 missing the line.
 
-[[Refuse a wiki-link that contains a newline]] is the mechanical version. It is deliberately
+"Refuse a wiki-link that contains a newline" is the mechanical version. It is deliberately
 narrower than its siblings — it infers nothing and repairs nothing — and it is filed here
 because the need it serves is this node's, not a new one: *an edge stopped existing and
 nothing warned me.*

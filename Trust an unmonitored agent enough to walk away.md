@@ -29,10 +29,10 @@ _Ported from the ost-agent-vault tree (2026-07-24 consolidation). In that vault 
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Append-only audit trail the operator can replay]] — re-parented under [[I cannot see what the agent did while I was away, so walking away is a leap]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Guided dry-run mode before unattended operation]] — re-parented under [[I cannot see what the agent did while I was away, so walking away is a leap]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Weekly what-changed-and-why digest]] — re-parented under [[I cannot see what the agent did while I was away, so walking away is a leap]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[The log is the agent an event-sourced graph the whole tree is projected from]] — re-parented under [[I cannot see what the agent did while I was away, so walking away is a leap]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Append-only audit trail the operator can replay" — re-parented under "I cannot see what the agent did while I was away, so walking away is a leap" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Guided dry-run mode before unattended operation" — re-parented under "I cannot see what the agent did while I was away, so walking away is a leap" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Weekly what-changed-and-why digest" — re-parented under "I cannot see what the agent did while I was away, so walking away is a leap" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "The log is the agent an event-sourced graph the whole tree is projected from" — re-parented under "I cannot see what the agent did while I was away, so walking away is a leap" — this solution answers that need, not the categories beside it
 
 ## Issues
 - 2026-07-25 Sequenced-after-demand (2026-07-24 review): 41 nodes (~28% of the tree) harden trust for operators who do not yet exist while the outcome's bottleneck is external demand evidence. Hold new growth here until external returning operators > 0. See root Prioritization.

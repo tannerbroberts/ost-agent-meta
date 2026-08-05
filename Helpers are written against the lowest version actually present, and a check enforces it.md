@@ -17,7 +17,7 @@ This moves the discovery to the earliest possible moment, which is neither insta
 
 ## Definition of done
 
-[[Run a bash 3.2 linter over every helper and count what it flags and what it misses]]
+"Run a bash 3.2 linter over every helper and count what it flags and what it misses"
 
 ```
 npx vitest run test/runner/helper-bash-compat-lint.test.ts
@@ -27,7 +27,7 @@ Green means a shell linter set to a bash 3.2 floor, run over every helper this p
 
 **The false-alarm count is the load-bearing half, not the catch.** Flagging `mapfile` is nearly certain — the linter reads what the script does rather than what someone declared, so it cannot be defeated by an undeclared dependency. What would actually kill this approach is a check people learn to ignore, and that is measured by the second clause. A command that asserted only the catch would go green while the mechanism was busy becoming furniture.
 
-**What green does NOT settle.** The linter protects against version drift and nothing else. A command that is simply absent on the target machine — present at every bash version, just not installed — is invisible to it, which is the failure [[Installation runs the helper's own preflight and refuses to install what cannot run here]] exists to cover. Green here and a broken helper there are entirely compatible.
+**What green does NOT settle.** The linter protects against version drift and nothing else. A command that is simply absent on the target machine — present at every bash version, just not installed — is invisible to it, which is the failure "Installation runs the helper's own preflight and refuses to install what cannot run here" exists to cover. Green here and a broken helper there are entirely compatible.
 
 ## History
-- 2026-08-05 unlinked [[Run a bash 3.2 linter over every helper and count what it flags and what it misses]] — moved under [[A floor can be picked that a linter can enforce and that covers the machines in play]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Run a bash 3.2 linter over every helper and count what it flags and what it misses" — moved under "A floor can be picked that a linter can enforce and that covers the machines in play" — the belief this test measures now has a node of its own

@@ -18,7 +18,7 @@ _Addresses: "Don't want to buy a second AI credential just to try it". Unvalidat
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test can an ambient agent drive a pass at API-driver quality]] — moved under [[An agent already in the operator's session can run a pass as well as a dedicated API driver]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test can an ambient agent drive a pass at API-driver quality" — moved under "An agent already in the operator's session can run a pass as well as a dedicated API driver" — the belief this test measures now has a node of its own
 
 ## Founder preference (2026-07-25, human:conversation)
 
@@ -26,7 +26,7 @@ The founder stated as a standing opinion: "a human's interaction with the OST sh
 
 ## Test
 
-[[Test can an ambient agent drive a pass at API-driver quality]]
+"Test can an ambient agent drive a pass at API-driver quality"
 
 `npx vitest run test/loop/ambient-driver-parity.test.ts`
 

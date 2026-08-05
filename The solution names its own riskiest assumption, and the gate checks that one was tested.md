@@ -16,4 +16,4 @@ The nomination is also useful on its own, before any gate consults it. A solutio
 **What would make this the wrong pick.** If authors reliably nominate the assumption they were already going to test, this changes nothing except that the gate has a better name. Whether nominations are honest is the assumption underneath this solution, and it needs testing before the gate is built on it.
 
 ## History
-- 2026-08-05 unlinked [[Have authors nominate a riskiest assumption and check it against what they were already testing]] — moved under [[Authors nominate a riskiest assumption other than the one they were already going to test]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have authors nominate a riskiest assumption and check it against what they were already testing" — moved under "Authors nominate a riskiest assumption other than the one they were already going to test" — the belief this test measures now has a node of its own

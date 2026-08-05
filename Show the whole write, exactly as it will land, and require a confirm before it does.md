@@ -16,4 +16,4 @@ The bet is that most regretted writes are not judgement failures but composition
 **What would make this the wrong pick.** If the caller composing the write is the same one confirming it, the confirm is a formality and the whole cost is pure overhead. That is the assumption to test first, and it is not obviously true.
 
 ## History
-- 2026-08-05 unlinked [[Have five authors preview a write they were about to make and count how many change it]] — moved under [[A caller shown the exact bytes will sometimes change the write before confirming]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have five authors preview a write they were about to make and count how many change it" — moved under "A caller shown the exact bytes will sometimes change the write before confirming" — the belief this test measures now has a node of its own

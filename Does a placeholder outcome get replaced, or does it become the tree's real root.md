@@ -13,7 +13,7 @@ pass against it, getting a plausible tree, and leaving the placeholder in place
 permanently.
 
 **Why this is the load-bearing question for its solution.**
-[[Ship a starter vault whose outcome is a placeholder the human must replace]] is the
+"Ship a starter vault whose outcome is a placeholder the human must replace" is the
 only candidate that makes the founder's launch sentence literally true, and it buys
 that by letting a machine write the mandate first. If placeholders get replaced
 promptly, the objection to it is philosophical. If they stick, the product ships

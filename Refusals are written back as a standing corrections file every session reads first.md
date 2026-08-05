@@ -17,7 +17,7 @@ Entries are the refusal and its remedy, deduplicated, most-recent-first, with a 
 
 ## Definition of done
 
-[[Draft the corrections file from past refusals and check whether it would have fitted in context]]
+"Draft the corrections file from past refusals and check whether it would have fitted in context"
 
 ```
 npx vitest run test/knowledge/corrections-file-size.test.ts
@@ -25,7 +25,7 @@ npx vitest run test/knowledge/corrections-file-size.test.ts
 
 Red today: nothing in the repository assembles refusals into a corrections file, so there is no length to measure. Green when the builder exists and the deduplicated file — plus each of the two candidate expiry rules — lands under 2,000 characters.
 
-**What this does not settle.** Size is necessary and not sufficient. A green here says the file would fit in context; it says nothing about whether a session that has it actually applies it, which is the claim this solution really rests on. That half remains untested, and the evidence now on [[The same refusal is rediscovered every session, because nothing carries the lesson forward]] is why it matters: across eight captured sessions the correction was already delivered in full, at the moment of the error, and complied with — and still did not survive into the next session. A file that fits is not yet a file that is read.
+**What this does not settle.** Size is necessary and not sufficient. A green here says the file would fit in context; it says nothing about whether a session that has it actually applies it, which is the claim this solution really rests on. That half remains untested, and the evidence now on "The same refusal is rediscovered every session, because nothing carries the lesson forward" is why it matters: across eight captured sessions the correction was already delivered in full, at the moment of the error, and complied with — and still did not survive into the next session. A file that fits is not yet a file that is read.
 
 ## History
-- 2026-08-05 unlinked [[Draft the corrections file from past refusals and check whether it would have fitted in context]] — moved under [[The corrections worth inheriting fit in a session's opening context]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Draft the corrections file from past refusals and check whether it would have fitted in context" — moved under "The corrections worth inheriting fit in a session's opening context" — the belief this test measures now has a node of its own

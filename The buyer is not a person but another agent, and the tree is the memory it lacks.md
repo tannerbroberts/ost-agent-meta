@@ -18,4 +18,4 @@ The evidence for this sitting closest to hand is that it is already happening. T
 Who this is for is a question for people who are not the author. Nothing here is validated, and no interview has been run.
 
 ## History
-- 2026-08-05 unlinked [[Give a cold session only the tree and see whether it can say why the work exists]] — moved under [[A cold session given only the tree can say why the work exists]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Give a cold session only the tree and see whether it can say why the work exists" — moved under "A cold session given only the tree can say why the work exists" — the belief this test measures now has a node of its own

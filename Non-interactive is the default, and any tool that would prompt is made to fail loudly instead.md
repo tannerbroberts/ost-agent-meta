@@ -17,7 +17,7 @@ Turning a silent stall into a loud failure is the whole gain. A failure is repor
 
 ## Definition of done
 
-[[Set the non-interactive flags and check whether the tools that stalled actually honour them]]
+"Set the non-interactive flags and check whether the tools that stalled actually honour them"
 
 ```
 npx vitest run test/runner/non-interactive-honoured.test.ts
@@ -30,4 +30,4 @@ Green means both situations named in the harvested transcripts — the git that 
 **What green does NOT settle.** Two commands are not a tool chain. Any tool added later brings its own behaviour and its own idea of what non-interactive means, so this establishes the convention works for the failures actually observed and makes no claim beyond them. The honest reading of green is "the two known stalls are fixed", not "prompting is solved".
 
 ## History
-- 2026-08-05 unlinked [[Set the non-interactive flags and check whether the tools that stalled actually honour them]] — moved under [[The tools that actually stalled honour the non-interactive convention]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Set the non-interactive flags and check whether the tools that stalled actually honour them" — moved under "The tools that actually stalled honour the non-interactive convention" — the belief this test measures now has a node of its own

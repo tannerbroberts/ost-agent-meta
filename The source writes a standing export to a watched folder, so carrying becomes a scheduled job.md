@@ -14,4 +14,4 @@ The human's work moves from carrying each result to setting up, once, a recurrin
 **What would make this the wrong pick.** It quietly relocates the fragility rather than removing it. A scheduled export that silently stops — expired share link, changed sheet name, a source that stops sending — looks exactly like an experiment that produced no results, and the vault has no way to tell those apart. That failure mode is worse than a human forgetting, because a human eventually notices.
 
 ## History
-- 2026-08-05 unlinked [[Set up one scheduled export and check every week whether it is still arriving]] — moved under [[A scheduled export keeps arriving, and a stopped one does not look like an empty experiment]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Set up one scheduled export and check every week whether it is still arriving" — moved under "A scheduled export keeps arriving, and a stopped one does not look like an empty experiment" — the belief this test measures now has a node of its own

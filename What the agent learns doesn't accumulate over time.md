@@ -25,6 +25,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-compression.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Scheduled re-synthesis of the whole tree]] — re-parented under [[The tree never revisits itself, so old nodes rot and tried things get tried again]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Staleness decay that surfaces nodes for refresh]] — re-parented under [[The tree never revisits itself, so old nodes rot and tried things get tried again]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Attempt ledger of what was already tried]] — re-parented under [[The tree never revisits itself, so old nodes rot and tried things get tried again]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Scheduled re-synthesis of the whole tree" — re-parented under "The tree never revisits itself, so old nodes rot and tried things get tried again" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Staleness decay that surfaces nodes for refresh" — re-parented under "The tree never revisits itself, so old nodes rot and tried things get tried again" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Attempt ledger of what was already tried" — re-parented under "The tree never revisits itself, so old nodes rot and tried things get tried again" — this solution answers that need, not the categories beside it

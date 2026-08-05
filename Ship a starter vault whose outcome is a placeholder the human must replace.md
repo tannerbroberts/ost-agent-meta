@@ -43,4 +43,4 @@ It is the cheapest solution to build here and the most expensive to be wrong abo
 because a consideration set of one is not a consideration set.
 
 ## History
-- 2026-08-05 unlinked [[Does a placeholder outcome get replaced, or does it become the tree's real root]] — moved under [[A loudly-marked placeholder outcome gets replaced rather than becoming the tree's real root]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does a placeholder outcome get replaced, or does it become the tree's real root" — moved under "A loudly-marked placeholder outcome gets replaced rather than becoming the tree's real root" — the belief this test measures now has a node of its own

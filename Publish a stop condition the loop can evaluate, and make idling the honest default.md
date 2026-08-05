@@ -17,7 +17,7 @@ The distinction that makes this work is between outstanding and actionable. The 
 
 ## Definition of done
 
-[[Have two people independently label a full sweep's items as actionable or not, and compare]]
+"Have two people independently label a full sweep's items as actionable or not, and compare"
 
 ```
 npx vitest run test/loop/stop-condition.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/loop/stop-condition.test.ts
 Green means: the rule exists as data rather than prose, an empty sweep makes it evaluate true and the pass idles without writing, and a pass that writes while the condition holds fails. That last assertion is what makes idling the *honest* default rather than the polite one. Green does **not** mean the condition agrees with people; the two-labeller comparison stays with humans.
 
 ## History
-- 2026-08-05 unlinked [[Have two people independently label a full sweep's items as actionable or not, and compare]] — moved under [[Whether an item is actionable is decidable mechanically, not case by case]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have two people independently label a full sweep's items as actionable or not, and compare" — moved under "Whether an item is actionable is decidable mechanically, not case by case" — the belief this test measures now has a node of its own

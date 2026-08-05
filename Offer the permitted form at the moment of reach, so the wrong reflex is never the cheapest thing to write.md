@@ -18,11 +18,11 @@ evidence: assertion
 
 ## Definition of done
 
-[[Measure whether the permitted wait is actually more expensive to write than the blocked one]]
+"Measure whether the permitted wait is actually more expensive to write than the blocked one"
 
 `npx vitest run test/loop/wait-primitive-affordance.test.ts`
 
 A cheap disconfirmer aimed at this node's premise rather than its mechanism: for each of the three observed waiting cases, the permitted form must be no longer to express than the blocked one. If it is already no longer today, expression cost is not what drives the repeat and this candidate is aimed at the wrong cause — worth running before anyone designs a primitive.
 
 ## History
-- 2026-08-05 unlinked [[Measure whether the permitted wait is actually more expensive to write than the blocked one]] — moved under [[The permitted form is genuinely no more expensive to write than the blocked reflex]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Measure whether the permitted wait is actually more expensive to write than the blocked one" — moved under "The permitted form is genuinely no more expensive to write than the blocked reflex" — the belief this test measures now has a node of its own

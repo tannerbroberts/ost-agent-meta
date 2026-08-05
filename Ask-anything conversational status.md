@@ -20,11 +20,11 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Twenty-question grounding check for answer faithfulness]] — moved under [[Free-form questions about the tree can be answered faithfully from the tree]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Twenty-question grounding check for answer faithfulness" — moved under "Free-form questions about the tree can be answered faithfully from the tree" — the belief this test measures now has a node of its own
 
 ## Test
 
-[[Twenty-question grounding check for answer faithfulness]]
+"Twenty-question grounding check for answer faithfulness"
 
 `npx vitest run test/mcp/status-answer-faithfulness.test.ts`
 

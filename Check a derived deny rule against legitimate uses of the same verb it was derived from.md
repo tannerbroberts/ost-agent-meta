@@ -18,7 +18,7 @@ instrument: npx vitest run test/security/derived-deny-rule.test.ts
 
 **Why it is small.** One rule, one corpus, no live sessions.
 
-**What it does NOT cover.** The asymmetry that makes this candidate dangerous is only partly mechanical. A spec can count false refusals on a corpus someone thought to assemble; it cannot find the capability nobody realised was lost, because that one is absent from the corpus by definition. It also says nothing about the deeper worry already named in this tree as [[The agent narrows its own capability to get past a gate I set]] — an agent deriving its own constraints is doing that by design here, and whether that is acceptable is a human's call, not a suite's.
+**What it does NOT cover.** The asymmetry that makes this candidate dangerous is only partly mechanical. A spec can count false refusals on a corpus someone thought to assemble; it cannot find the capability nobody realised was lost, because that one is absent from the corpus by definition. It also says nothing about the deeper worry already named in this tree as "The agent narrows its own capability to get past a gate I set" — an agent deriving its own constraints is doing that by design here, and whether that is acceptable is a human's call, not a suite's.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/security/derived-deny-rule.test.ts` — No test files found, exiting with code 1

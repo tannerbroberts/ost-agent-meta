@@ -17,7 +17,7 @@ The failure this avoids is the one that makes autonomous research expensive and 
 
 ## Definition of done
 
-[[Count how many open assumptions in this tree could be moved by anything public at all]]
+"Count how many open assumptions in this tree could be moved by anything public at all"
 
 ```
 npx vitest run test/web/public-movable-assumptions.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/web/public-movable-assumptions.test.ts
 Green means each open assumption is labelled by whether public material could move it — the count that says whether demand-driven lookups would have anything to do. Worth expecting a low number and treating that as the finding: most of this tree's open assumptions are about its own operator and its own code, neither of which anything public knows about. It does not settle whether a lookup that *is* demanded would find anything.
 
 ## History
-- 2026-08-05 unlinked [[Count how many open assumptions in this tree could be moved by anything public at all]] — moved under [[Enough open assumptions in the tree could be moved by public information to be worth the channel]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how many open assumptions in this tree could be moved by anything public at all" — moved under "Enough open assumptions in the tree could be moved by public information to be worth the channel" — the belief this test measures now has a node of its own

@@ -24,7 +24,7 @@ Give that content its own address and it becomes findable. Nothing else in the t
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Does a briefing node change which node a builder actually opens first]] — moved under [[A briefing at a fixed address changes which node a builder actually opens first]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does a briefing node change which node a builder actually opens first" — moved under "A briefing at a fixed address changes which node a builder actually opens first" — the belief this test measures now has a node of its own
 
 ## The predicted failure was noise. The observed one is collision — 2026-07-26
 
@@ -36,7 +36,7 @@ acted on.
 The failure that did materialise is not in that paragraph at all. **Two passes read the
 same briefing hours apart and both built the thing it named**, because a briefing that
 names work has no way to say the work has been taken. Full account, with times, on
-[[Two agents sharing my vault can trample each other]]. Cost: one build pass, discarded.
+"Two agents sharing my vault can trample each other". Cost: one build pass, discarded.
 
 **Why this design invites it specifically.** The briefing is rewritten each pass and
 carries no state between readers. Its "if something must be built" clause is written to
@@ -58,7 +58,7 @@ it is not a neutral one.
 
 ## Definition of done
 
-[[Does a briefing node change which node a builder actually opens first]]
+"Does a briefing node change which node a builder actually opens first"
 
 `npx vitest run test/ost/next-build-briefing.test.ts`
 

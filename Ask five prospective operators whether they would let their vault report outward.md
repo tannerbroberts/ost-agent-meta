@@ -16,6 +16,6 @@ evidence: assertion
 
 **Pre-committed threshold.** **3 of 5 accept full content reporting** and the candidate stands as designed. **Fewer than 3, but 3 or more accept metadata-only** (counts, node totals, no bodies) and the candidate survives in reduced form and should be rewritten to match. **Fewer than 3 for either** and it is closed.
 
-**Blocked on, and honestly so.** This test needs five people who are not the founder, which is the whole of [[I can't tell if anyone outside my own head wants this]] — the tree's own designated target row. It cannot jump that queue, and recording it here is not a claim that it can. It is filed so the design exists the day the queue clears.
+**Blocked on, and honestly so.** This test needs five people who are not the founder, which is the whole of "I can't tell if anyone outside my own head wants this" — the tree's own designated target row. It cannot jump that queue, and recording it here is not a claim that it can. It is filed so the design exists the day the queue clears.
 
 **Who runs it.** A human, in conversation. Never compute.

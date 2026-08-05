@@ -18,11 +18,11 @@ evidence: assertion
 
 ## Definition of done
 
-[[Check the handed-back skeleton parses clean against the same parser that accepts submissions]]
+"Check the handed-back skeleton parses clean against the same parser that accepts submissions"
 
 `npx vitest run test/skill/skeleton-validity.test.ts`
 
 The skeleton parses clean against the submission parser, a drift check fails if the two diverge, and the skeleton shows one example of each permitted construct rather than a subset. Red today because no skeleton is handed back. The same generate-and-drift-test pattern this project already uses to keep `SKILL.md` from going stale applies directly.
 
 ## History
-- 2026-08-05 unlinked [[Check the handed-back skeleton parses clean against the same parser that accepts submissions]] — moved under [[The skeleton stays valid against the same parser that accepts submissions]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check the handed-back skeleton parses clean against the same parser that accepts submissions" — moved under "The skeleton stays valid against the same parser that accepts submissions" — the belief this test measures now has a node of its own

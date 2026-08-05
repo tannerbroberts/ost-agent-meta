@@ -17,7 +17,7 @@ This suits an append-only vault well, because the genuine collisions are rare an
 
 ## Definition of done
 
-[[Interrupt a pass mid-plan with an outside write and see what state its accepted writes leave]]
+"Interrupt a pass mid-plan with an outside write and see what state its accepted writes leave"
 
 ```
 npx vitest run test/ost/premise-drift-coherence.test.ts
@@ -27,7 +27,7 @@ Green means that across five passes interrupted at five different points, at lea
 
 **The second clause is the one that matters, and it is the one this solution is most likely to fail.** Refusing the drifted write is the easy half and this node already argues for it. The risk the test targets is what the refusal leaves behind: a pass that read the tree, formed a plan, had most of its writes accepted and one refused, and carried on — leaving a partially-applied plan resting on a premise that is no longer true. That is worse than colliding cleanly and worse than waiting, because it looks finished. A spec asserting only that the drifted write is refused would go green on exactly that outcome.
 
-**What green does NOT settle.** A deliberately timed invalidation is more adversarial than most real concurrency, so the command establishes behaviour under a hostile schedule rather than a frequency under a realistic one. It also says nothing about the operator-facing question — whether a person reading "your plan was compromised" can act on it — which is [[Two agents sharing my vault can trample each other]] territory and needs a reader, not an exit code.
+**What green does NOT settle.** A deliberately timed invalidation is more adversarial than most real concurrency, so the command establishes behaviour under a hostile schedule rather than a frequency under a realistic one. It also says nothing about the operator-facing question — whether a person reading "your plan was compromised" can act on it — which is "Two agents sharing my vault can trample each other" territory and needs a reader, not an exit code.
 
 ## History
-- 2026-08-05 unlinked [[Interrupt a pass mid-plan with an outside write and see what state its accepted writes leave]] — moved under [[Refusing the colliding write leaves the tree coherent, not half-applied]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Interrupt a pass mid-plan with an outside write and see what state its accepted writes leave" — moved under "Refusing the colliding write leaves the tree coherent, not half-applied" — the belief this test measures now has a node of its own

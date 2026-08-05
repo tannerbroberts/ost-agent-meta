@@ -25,9 +25,9 @@ instrument: npx vitest run test/ost/legacy-signal-fallback-bounds.test.ts
 
 **What is red today.** No fallback exists, so clauses 1 and 3 fail on a missing mechanism. Clause 2 is the one that would go red against the obvious implementation: an OR added to fix a live symptom has no expiry, because the expiry is not what anyone was trying to fix that day.
 
-**What a green result does NOT settle, and it is the node's own distinguishing assumption.** Whether the union is *correct* — "if the new ledger deliberately narrowed what counts as done, then the union does not fix a bug, it reintroduces one." A perfectly bounded fallback around a wrong rule is a wrong rule with a deadline. That question is [[Judge the eighteen reopened items — were they genuinely finished]], which needs someone to look at eighteen items and say whether they were finished, and no exit code substitutes for that judgement.
+**What a green result does NOT settle, and it is the node's own distinguishing assumption.** Whether the union is *correct* — "if the new ledger deliberately narrowed what counts as done, then the union does not fix a bug, it reintroduces one." A perfectly bounded fallback around a wrong rule is a wrong rule with a deadline. That question is "Judge the eighteen reopened items — were they genuinely finished", which needs someone to look at eighteen items and say whether they were finished, and no exit code substitutes for that judgement.
 
-It also does not settle the bet the node says the choice really is: how many more accounting changes are coming. One more and [[Migrate the old accounting into the new ledger on first run, and record that it happened]] wins; several and each is another permanent branch. That is a forecast, not a measurement.
+It also does not settle the bet the node says the choice really is: how many more accounting changes are coming. One more and "Migrate the old accounting into the new ledger on first run, and record that it happened" wins; several and each is another permanent branch. That is a forecast, not a measurement.
 
 **Lane: compute-only.** Fixture items either side of the boundary and a clock the test controls; no person is the measurement.
 

@@ -17,7 +17,7 @@ Disagreement is the valuable output, not a problem to resolve. Two readers namin
 
 ## Definition of done
 
-[[Can riskiest-assumption-tested be judged mechanically]]
+"Can riskiest-assumption-tested be judged mechanically"
 
 ```
 npx vitest run test/eval/riskiest-assumption-judge.test.ts
@@ -29,7 +29,7 @@ Green means a judge run independently of the author picks the same riskiest assu
 
 The section above instrumented the feasibility question for a single judge. This node's other test was still prose, which is why the solution kept reporting as un-instrumented: one runnable command under a solution with two tests leaves the second one unanswerable by anyone but a person finding the time.
 
-[[Have three independent judges nominate for ten solutions and see whether they agree with each other]]
+"Have three independent judges nominate for ten solutions and see whether they agree with each other"
 
 ```
 npx vitest run test/eval/judge-panel-agreement.test.ts
@@ -40,4 +40,4 @@ Red today because nothing runs a panel. `test/eval/riskiest-assumption-judge.tes
 Read the two commands together, because they measure opposite things and this node is easy to misread. The first asks whether a judge can be automated at all. The second asks whether independent judges converge — and the value this solution claims is in the *disagreement*, so a panel that agrees on everything has proved it is mechanisable and simultaneously that it adds nothing to the author's own nomination. Neither command settles correctness: three judges sharing training can converge on the same wrong assumption, and no exit code here distinguishes that from convergence on the right one.
 
 ## History
-- 2026-08-05 unlinked [[Have three independent judges nominate for ten solutions and see whether they agree with each other]] — moved under [[Independent judges converge on the same riskiest assumption, so agreement means something]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have three independent judges nominate for ten solutions and see whether they agree with each other" — moved under "Independent judges converge on the same riskiest assumption, so agreement means something" — the belief this test measures now has a node of its own

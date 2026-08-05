@@ -18,7 +18,7 @@ _Addresses: "Fear the agent could take a destructive, irreversible action". Rela
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test can a full pass be done with no delete or edit tool]] — moved under [[A full discovery pass can be completed with no delete and no edit tool]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test can a full pass be done with no delete or edit tool" — moved under "A full discovery pass can be completed with no delete and no edit tool" — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-08-04 Possibly stale, and left un-instrumented for that reason. This solution's premise — that the tool surface has no delete or edit tool — no longer describes the product: `ost_edit_node`, `ost_detach_nodes` and `ost_merge_nodes` all exist and this pass used all three. Its test, "Test can a full pass be done with no delete or edit tool", therefore asks a question the product has already answered in the negative by moving on.

@@ -18,11 +18,11 @@ evidence: assertion
 
 ## Definition of done
 
-[[Check the rollup reports readiness and execution as separate numbers, with neither called built]]
+"Check the rollup reports readiness and execution as separate numbers, with neither called built"
 
 `npx vitest run test/ost/rollup-execution-first.test.ts`
 
 No rollup line expresses instrument coverage as a `built` percentage, every bucket's executed count sits at least as prominently as its readiness count, and both numbers survive — readiness must not be dropped to achieve it. Red against today's output, which reads `built 13% (3/24 runnable), tested 0` on the buckets: a moving percentage for readiness and a trailing zero for the thing that has never happened.
 
 ## History
-- 2026-08-05 unlinked [[Check the rollup reports readiness and execution as separate numbers, with neither called built]] — moved under [[Honest accounting is worth having even though it builds nothing and moves no test]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check the rollup reports readiness and execution as separate numbers, with neither called built" — moved under "Honest accounting is worth having even though it builds nothing and moves no test" — the belief this test measures now has a node of its own

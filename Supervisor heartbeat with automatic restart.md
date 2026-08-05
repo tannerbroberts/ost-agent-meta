@@ -20,14 +20,14 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Replay historical runs against a stall definition]] — moved under [[A stall is definable well enough for a watchdog to act on it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay historical runs against a stall definition" — moved under "A stall is definable well enough for a watchdog to act on it" — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch relation (twenty-passes P5, 2026-07-25): new solution 'Supervisor heartbeat consumes run journals and alerts on error' (under 'A failed pass reports success…') extends this node's contract rather than competing with it. If a human promotes either, build them as one thing.
 
 ## Definition of done
 
-[[Replay historical runs against a stall definition]]
+"Replay historical runs against a stall definition"
 
 ```
 npx vitest run test/loop/stall-definition-replay.test.ts
@@ -39,4 +39,4 @@ Red today: no stall definition exists in the repository — nothing separates a 
 
 So the honest sequencing is that a green here promotes the *reporting* sibling — tell a human the run looks stalled — and leaves restart needing its own argument about what happens when the detector is wrong.
 
-**What this does not settle.** Desirability and viability are untouched: nothing here says an operator wants a supervisor, or would trust one enough to leave it running, which is the claim [[Trust an unmonitored agent enough to walk away]] actually turns on.
+**What this does not settle.** Desirability and viability are untouched: nothing here says an operator wants a supervisor, or would trust one enough to leave it running, which is the claim "Trust an unmonitored agent enough to walk away" actually turns on.

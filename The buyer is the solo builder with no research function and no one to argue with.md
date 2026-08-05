@@ -18,4 +18,4 @@ This is the segment whose failure mode the tool is shaped around. The gates, the
 Who this is for is a question for people who are not the author. Nothing here is validated, and no interview has been run.
 
 ## History
-- 2026-08-05 unlinked [[Interview ten solo builders about the last decision they made with nobody to check it]] — moved under [[Solo builders experience the absence of anyone to check them as a problem they feel]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Interview ten solo builders about the last decision they made with nobody to check it" — moved under "Solo builders experience the absence of anyone to check them as a problem they feel" — the belief this test measures now has a node of its own

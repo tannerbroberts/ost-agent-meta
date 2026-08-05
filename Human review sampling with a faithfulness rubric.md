@@ -18,11 +18,11 @@ _Addresses: "Can't tell if the generated tree is actually any good". Unvalidated
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test does a 10 percent sample estimate whole-tree quality]] — moved under [[A ten percent sample estimates whole-tree quality closely enough to act on]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test does a 10 percent sample estimate whole-tree quality" — moved under "A ten percent sample estimates whole-tree quality closely enough to act on" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test does a 10 percent sample estimate whole-tree quality]]
+"Test does a 10 percent sample estimate whole-tree quality"
 
 ```
 npx vitest run test/cli/review-sample.test.ts

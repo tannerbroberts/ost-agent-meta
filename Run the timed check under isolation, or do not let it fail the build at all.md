@@ -17,7 +17,7 @@ The principle is that a check which fails for reasons unrelated to the change is
 
 ## Definition of done
 
-[[Count how many timed checks would run somewhere that cannot guarantee isolation]]
+"Count how many timed checks would run somewhere that cannot guarantee isolation"
 
 ```
 npx vitest run test/release/timed-check-isolation-share.test.ts
@@ -32,4 +32,4 @@ Green means at least half of timed-check runs happen somewhere isolation can act
 **What green does NOT settle,** in the node's own words: it counts runs, not importance. The one place isolation is impossible might be where regressions are most likely to be introduced — a contributor's machine is the obvious candidate — and a share alone cannot show that. A green here should not be read as "the gate is safe", only as "the gate still gates most of the time".
 
 ## History
-- 2026-08-05 unlinked [[Count how many timed checks would run somewhere that cannot guarantee isolation]] — moved under [[Enough timed-check runs happen somewhere isolation can be guaranteed]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how many timed checks would run somewhere that cannot guarantee isolation" — moved under "Enough timed-check runs happen somewhere isolation can be guaranteed" — the belief this test measures now has a node of its own

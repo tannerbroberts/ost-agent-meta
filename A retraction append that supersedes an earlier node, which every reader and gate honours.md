@@ -17,7 +17,7 @@ The vault already does a version of this: a `deferred` node is withheld from the
 
 ## Definition of done
 
-[[Audit every consumer of the tree for whether it would honour a retraction flag]]
+"Audit every consumer of the tree for whether it would honour a retraction flag"
 
 ```
 npx vitest run test/ost/retraction-consumers.test.ts
@@ -28,4 +28,4 @@ Red today: retraction does not exist, so no consumer can honour it. Green when o
 **What a green spec does not settle.** It fixes the consumer set as of today. The test node names the real long-term risk itself: a reader written next year will not know retraction exists unless something enforces it, and a passing spec over today's consumers says nothing about that.
 
 ## History
-- 2026-08-05 unlinked [[Audit every consumer of the tree for whether it would honour a retraction flag]] — moved under [[Every reader of the tree can be made to honour a retraction, and there are few enough to do it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Audit every consumer of the tree for whether it would honour a retraction flag" — moved under "Every reader of the tree can be made to honour a retraction, and there are few enough to do it" — the belief this test measures now has a node of its own

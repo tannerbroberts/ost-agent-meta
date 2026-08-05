@@ -17,7 +17,7 @@ Answering seven questions at once is a different act from answering seven questi
 
 ## Definition of done
 
-[[Try to derive the seven questions from the premise alone, before reading the session]]
+"Try to derive the seven questions from the premise alone, before reading the session"
 
 `npx vitest run test/loop/premise-consequence-set.test.ts`
 
@@ -26,4 +26,4 @@ The spec asserts the shape: the consequence set is derived from the stated premi
 **What a green here does not settle, and it is what decides the node.** Whether the derivation is *complete*. The test asks someone to derive the seven questions from the premise alone and compare against what the session actually hit — and the node already concedes that some of them only became visible after work was done, the duplicated refusal template and the severed ingestion among them. A derivation that misses three of seven leaves the run stopping anyway, having also spent the operator's attention on a batch. A spec can prove the batch was presented; only the blind derivation shows what it left out.
 
 ## History
-- 2026-08-05 unlinked [[Try to derive the seven questions from the premise alone, before reading the session]] — moved under [[The decisions a run will face are mostly derivable from its premise before it starts]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Try to derive the seven questions from the premise alone, before reading the session" — moved under "The decisions a run will face are mostly derivable from its premise before it starts" — the belief this test measures now has a node of its own

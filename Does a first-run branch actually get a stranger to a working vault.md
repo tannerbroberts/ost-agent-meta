@@ -37,7 +37,7 @@ produce is any good, or whether anyone who is not already interested would insta
 at all. It tests one minute of one warm participant.
 
 **n=1, and the vault must not launder it.** A single participant cannot clear
-[[Cold-offer test - will outside teams hand over real discovery work]]'s 5-of-20
+"Cold-offer test - will outside teams hand over real discovery work"'s 5-of-20
 threshold and must not be recorded against it. What it can produce is this vault's
 **first external-operator evidence of any kind**, at the `observed` rung, which is
 more than 208 nodes of founder and agent sourcing have managed.

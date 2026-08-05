@@ -16,4 +16,4 @@ Trust is what makes this affordable. A subscription list is a standing judgement
 **What would make this the wrong pick.** The list is chosen by the same person whose blind spots are the problem, and it hardens over time. A subscription set assembled a year ago is a very efficient way to keep reading the wrong people, and nothing in the mechanism will say so.
 
 ## History
-- 2026-08-05 unlinked [[Follow a candidate source list for a month and count items that bear on anything open]] — moved under [[A chosen source list delivers items that bear on something actually open]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Follow a candidate source list for a month and count items that bear on anything open" — moved under "A chosen source list delivers items that bear on something actually open" — the belief this test measures now has a node of its own

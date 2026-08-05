@@ -21,7 +21,7 @@ The claimed properties are **deterministic replay** (any run reconstructible fro
 
 **Why it belongs under this opportunity.** The trust an operator needs before walking away is not "the agent is well-behaved" — it is "I can reconstruct exactly what happened and why, afterwards, without the agent's cooperation." Event-sourcing makes that a structural property rather than a discipline.
 
-**Contrast with siblings.** [[Append-only audit trail the operator can replay]] achieves auditability by *convention* — the agent is disciplined about committing each change with its provenance, and the tree is still the authority. This node makes auditability *structural*: the tree cannot disagree with the log because the tree is computed from it, and no amount of agent misbehavior can produce a state the log does not explain. Against [[Weekly what-changed-and-why digest]] (push, summarized, lossy) and [[Guided dry-run mode before unattended operation]] (trust earned before the fact), this is pull, complete, and retrospective. Its cost is the highest of the four by a wide margin — it is a rewrite of the storage model, not a feature.
+**Contrast with siblings.** "Append-only audit trail the operator can replay" achieves auditability by *convention* — the agent is disciplined about committing each change with its provenance, and the tree is still the authority. This node makes auditability *structural*: the tree cannot disagree with the log because the tree is computed from it, and no amount of agent misbehavior can produce a state the log does not explain. Against "Weekly what-changed-and-why digest" (push, summarized, lossy) and "Guided dry-run mode before unattended operation" (trust earned before the fact), this is pull, complete, and retrospective. Its cost is the highest of the four by a wide margin — it is a rewrite of the storage model, not a feature.
 
 ## Instructions — how to build this out
 
@@ -42,7 +42,7 @@ _Addresses: "Trust an unmonitored agent enough to walk away". Unvalidated — hu
 
 ## Definition of done
 
-[[Replay this vault's whole git history as events and see if the projection matches]]
+"Replay this vault's whole git history as events and see if the projection matches"
 
 ```
 npx vitest run test/ost/event-log-projection.test.ts
@@ -54,7 +54,7 @@ Green means every tree-changing commit in this vault's real history expresses as
 
 **Why this vault is the right subject and why that cuts both ways.** Every write here was made through the append-only MCP surface, which is the most favourable possible input — so a failure here fails everywhere, and a pass here says nothing about a vault that has been hand-edited. Expect residue to concentrate in exactly the hand-edit case.
 
-**What green does NOT settle.** Feasibility only. It says the architecture is expressible, not that it is worth the rewrite — and the node's own argument concedes that if this fails, what remains is [[Append-only audit trail the operator can replay]] at a fraction of the cost.
+**What green does NOT settle.** Feasibility only. It says the architecture is expressible, not that it is worth the rewrite — and the node's own argument concedes that if this fails, what remains is "Append-only audit trail the operator can replay" at a fraction of the cost.
 
 ## History
-- 2026-08-05 unlinked [[Replay this vault's whole git history as events and see if the projection matches]] — moved under [[The vault's whole history expresses as events with no residue, and the projection reproduces it exactly]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay this vault's whole git history as events and see if the projection matches" — moved under "The vault's whole history expresses as events with no residue, and the projection reproduces it exactly" — the belief this test measures now has a node of its own

@@ -17,4 +17,4 @@ evidence: assertion
 **Trade-off:** pre-chewing is framing power — the docket author steers the disposer. Mitigation: every item links the raw evidence, and the docket is append-only so framing is auditable after the fact.
 
 ## History
-- 2026-08-05 unlinked [[Time one real week of decisions through the docket from a phone]] — moved under [[A week of real decisions fits in ten minutes once each is pre-chewed to a yes or no]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Time one real week of decisions through the docket from a phone" — moved under "A week of real decisions fits in ten minutes once each is pre-chewed to a yes or no" — the belief this test measures now has a node of its own

@@ -17,11 +17,11 @@ The complaint underneath this opportunity is not really about access. It is that
 
 ## Test
 
-[[Enumerate the hosts this tool runs under and check which expose a delegable capability]]
+"Enumerate the hosts this tool runs under and check which expose a delegable capability"
 
 `npx vitest run test/security/host-credential-delegation.test.ts`
 
 Green when, for every host this repository ships an entry point for, the code either resolves a host-held credential or records that the host exposes none. Bounded by what we support and true only as of the run — host capabilities change on someone else's schedule. It says nothing about whether an operator would want a run acting under a credential they did not issue for it.
 
 ## History
-- 2026-08-05 unlinked [[Enumerate the hosts this tool runs under and check which expose a delegable capability]] — moved under [[The hosts this runs under expose a delegable capability, on enough of the real runs to matter]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Enumerate the hosts this tool runs under and check which expose a delegable capability" — moved under "The hosts this runs under expose a delegable capability, on enough of the real runs to matter" — the belief this test measures now has a node of its own

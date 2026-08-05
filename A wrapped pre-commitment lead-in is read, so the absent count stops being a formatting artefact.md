@@ -21,7 +21,7 @@ instrument: npx vitest run test/ost/threshold-lead-in-wrap.test.ts
 
 The extractor's lead-in pattern requires the bold `**…pre-commit…**` marker to sit at the start of the paragraph, and a hard-wrapped bold span does not.
 
-**Why this is the test and not the one already attached.** The existing sibling, [[Do named unfixed thresholds actually get fixed]], asks whether naming an unfixed threshold causes anyone to fix it — a longitudinal question about people, and untouched by this. This one asks whether the naming is correct in the first place. A feature that reports a number can be read either way, and only one of those two questions has an exit code.
+**Why this is the test and not the one already attached.** The existing sibling, "Do named unfixed thresholds actually get fixed", asks whether naming an unfixed threshold causes anyone to fix it — a longitudinal question about people, and untouched by this. This one asks whether the naming is correct in the first place. A feature that reports a number can be read either way, and only one of those two questions has an exit code.
 
 **What is red today, and why that is the strongest kind of red.** The command names behaviour that does not exist: a classifier insensitive to where prose formatting put a line break. It is not red because a file is missing — the parent solution shipped as v0.10.0 and the classifier is live — but because the shipped classifier gives two different answers for one threshold. A spec asserting wrapped and unwrapped forms classify identically fails against today's extractor, by observation rather than by prediction.
 

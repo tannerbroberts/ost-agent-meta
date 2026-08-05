@@ -18,4 +18,4 @@ This treats the software as distribution rather than product. The tool's job is 
 Whether anyone would pay this is a question for customers. Nothing here is validated.
 
 ## History
-- 2026-08-05 unlinked [[Sell one engagement and record how many hours it actually took against what was charged]] — moved under [[The engagement can be priced so the fee covers the hours, with the tool doing real work in them]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Sell one engagement and record how many hours it actually took against what was charged" — moved under "The engagement can be priced so the fee covers the hours, with the tool doing real work in them" — the belief this test measures now has a node of its own

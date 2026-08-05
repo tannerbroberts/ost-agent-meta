@@ -18,4 +18,4 @@ The pitch becomes an artefact rather than a position, and the comparison is one 
 This describes a comparison a human would run and publish. No pass may run it or record its result.
 
 ## History
-- 2026-08-05 unlinked [[Run one small corpus through both and have a blind reader say which tree they would act on]] — moved under [[A blind reader given both trees picks this one to act on]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Run one small corpus through both and have a blind reader say which tree they would act on" — moved under "A blind reader given both trees picks this one to act on" — the belief this test measures now has a node of its own

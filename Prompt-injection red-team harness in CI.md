@@ -18,11 +18,11 @@ _Addresses: "Want proof no hijackable capability even exists". Unvalidated — h
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test does the red-team harness catch known injection attacks]] — moved under [[An adversarial suite catches the injection attacks that would actually be attempted]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test does the red-team harness catch known injection attacks" — moved under "An adversarial suite catches the injection attacks that would actually be attempted" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test does the red-team harness catch known injection attacks]]
+"Test does the red-team harness catch known injection attacks"
 
 ```
 npx vitest run test/security/injection-red-team.test.ts

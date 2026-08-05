@@ -18,11 +18,11 @@ _Addresses: "Connecting my systems of record could leak or corrupt them". Unvali
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test is read-only GET access enough to gather needed evidence]] — moved under [[Read-only access is enough to gather the evidence the tree needs]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test is read-only GET access enough to gather needed evidence" — moved under "Read-only access is enough to gather the evidence the tree needs" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test is read-only GET access enough to gather needed evidence]]
+"Test is read-only GET access enough to gather needed evidence"
 
 ```
 npx vitest run test/adapters/get-only-client.test.ts

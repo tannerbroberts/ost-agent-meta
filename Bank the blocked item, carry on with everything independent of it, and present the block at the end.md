@@ -17,11 +17,11 @@ The word "whole" in the opportunity is what this attacks. One blocked item halti
 
 ## Test
 
-[[Take ten past blocked runs and measure how much work sat independent of the block]]
+"Take ten past blocked runs and measure how much work sat independent of the block"
 
 `npx vitest run test/loop/blocked-run-independent-work.test.ts`
 
 Green when the dependency walk over ten captured blocked runs shows a material share of outstanding work needed nothing the block was waiting on. Retrospective and model-reconstructed — a run in the moment lacks that view. It counts work, not value, and it cannot see a dependency the transcript never made explicit, which is exactly the case where carrying on does damage.
 
 ## History
-- 2026-08-05 unlinked [[Take ten past blocked runs and measure how much work sat independent of the block]] — moved under [[Enough of a run's remaining work sits independent of whatever blocked it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Take ten past blocked runs and measure how much work sat independent of the block" — moved under "Enough of a run's remaining work sits independent of whatever blocked it" — the belief this test measures now has a node of its own

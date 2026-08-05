@@ -17,7 +17,7 @@ The direction is the point. A vault that knows about its project is the arrangem
 
 ## Definition of done
 
-[[Add the pointer file and count how many tools actually look for it unprompted]]
+"Add the pointer file and count how many tools actually look for it unprompted"
 
 ```
 npx vitest run test/config/vault-pointer-resolution.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/config/vault-pointer-resolution.test.ts
 Green means every entry point that resolves a vault finds it from the pointer file with no path argument supplied. It settles that the pointer works for this product's own tools. It says nothing about the tools this node actually cares about — the editors, agents and scripts someone else wrote — which no spec in this repository can speak for.
 
 ## History
-- 2026-08-05 unlinked [[Add the pointer file and count how many tools actually look for it unprompted]] — moved under [[Something opening the repository will look for a pointer file without being told to]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Add the pointer file and count how many tools actually look for it unprompted" — moved under "Something opening the repository will look for a pointer file without being told to" — the belief this test measures now has a node of its own

@@ -18,11 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Load the ingest channel at ten times observed peak and check provenance survives]] — moved under [[Provenance survives a burst, so a flood produces a backlog rather than a silent hole]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Load the ingest channel at ten times observed peak and check provenance survives" — moved under "Provenance survives a burst, so a flood produces a backlog rather than a silent hole" — the belief this test measures now has a node of its own
 
 ## Test
 
-[[Load the ingest channel at ten times observed peak and check provenance survives]]
+"Load the ingest channel at ten times observed peak and check provenance survives"
 
 `npx vitest run test/adapters/ingest-backpressure-provenance.test.ts`
 

@@ -20,7 +20,7 @@ shape, none of them caught by anything:
 | 2026-07-25 (pass 4) | `tetrix-ost` root Outcome | prose wrapping |
 | 2026-07-25 (pass 6) | `tetrix-ost` — *Let the invited stranger play the board they were sent* | prose wrapping |
 | 2026-07-25 (pass 6) | `ost-agent-meta` | prose wrapping |
-| 2026-07-25 (pass 6) | `ost-agent-meta` [[A first-run branch that walks a stranger to a vault in one question]] — two links | prose wrapping |
+| 2026-07-25 (pass 6) | `ost-agent-meta` "A first-run branch that walks a stranger to a vault in one question" — two links | prose wrapping |
 | 2026-07-26 (pass 7) | `tetrix-ost` — twice, in the same pass, in its own new writing | prose wrapping |
 | 2026-07-26 (pass 7) | `ost-agent-meta` — **inside the briefing paragraph declaring this a defect** | prose wrapping |
 
@@ -41,7 +41,7 @@ as plain text with brackets, which is easy to miss in a wall of prose, and the g
 the artifact this whole product produces — simply lacks the line.
 
 **How it compares to its siblings.**
-- [[Detect renames from link topology and repair the edge]] infers intent and repairs.
+- "Detect renames from link topology and repair the edge" infers intent and repairs.
   This asserts a syntactic fact and refuses. It is strictly cheaper and strictly dumber,
   and it catches a case rename detection cannot see, because the target never existed
   under any name.
@@ -94,5 +94,5 @@ it — the dangling-link rule catches the second and nothing catches the first.
 
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
-- 2026-08-05 unlinked [[Does refusing a newline inside a wiki-link catch breaks nothing else catches]] — moved under [[A newline inside a wiki-link catches breaks that nothing else catches]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does refusing a newline inside a wiki-link catch breaks nothing else catches" — moved under "A newline inside a wiki-link catches breaks that nothing else catches" — the belief this test measures now has a node of its own
 - 2026-08-05 status: unvalidated → shipped — The node's own body records this as shipped in ost-agent v0.13.0, commit 1790775 on main: `check` fails with rule `wrapped-wikilink`, `ost_next_work` and `P5_hygiene` report it, and `wrappedLinkTargets` lives in src/ost/node.ts with all three callers using it. Recorded as `shipped` by the 2026-08-05 unattended sweep because it was sitting in `solutionsMissingInstruments`, and a red-now instrument is impossible for behaviour that already ships — a spec asserting the rule would pass on arrival, so it could not fail and would measure nothing. Status corrected instead of an instrument invented. This says the mechanism is built; it does not say anyone has judged it worth having, which is still what its assumption test is for.

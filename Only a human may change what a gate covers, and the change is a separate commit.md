@@ -17,7 +17,7 @@ This is the arrangement the vault already uses for the decisions it considers mo
 
 ## Definition of done
 
-[[Count past gate narrowings and judge how many were reasonable]]
+"Count past gate narrowings and judge how many were reasonable"
 
 ```
 npx vitest run test/security/gate-coverage-human-only.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/security/gate-coverage-human-only.test.ts
 Green means: an agent-surface call that would reduce a gate's coverage is refused rather than recorded, and a human's coverage change lands as its own commit touching only the gate definition — so narrowings are countable from git instead of reconstructed. Green does **not** say whether any past narrowing was reasonable; that judgement is a person's, and it is the half the test actually names.
 
 ## History
-- 2026-08-05 unlinked [[Count past gate narrowings and judge how many were reasonable]] — moved under [[Gate narrowings are rare enough that routing each through a person is not the bottleneck]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count past gate narrowings and judge how many were reasonable" — moved under "Gate narrowings are rare enough that routing each through a person is not the bottleneck" — the belief this test measures now has a node of its own

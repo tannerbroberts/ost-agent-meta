@@ -19,7 +19,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Do provenance markers still get read once they are on everything]]
+"Do provenance markers still get read once they are on everything"
 
 ```
 npx vitest run test/ost/authorship-marker.test.ts
@@ -28,4 +28,4 @@ npx vitest run test/ost/authorship-marker.test.ts
 Green means: the marker distinguishes something. Today `unvalidated` is stamped on every agent-created node and says nothing about who wrote the prose, so a human's node and the agent's look identical. Green requires authorship recorded per node, surviving an edit and a merge rather than resetting to whoever touched it last, and reportable as a human-written share in the rollup. Green does **not** answer the test's actual question — whether readers still read the marker once it is on everything needs people.
 
 ## History
-- 2026-08-05 unlinked [[Do provenance markers still get read once they are on everything]] — moved under [[A provenance marker keeps being read once it is on everything]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Do provenance markers still get read once they are on everything" — moved under "A provenance marker keeps being read once it is on everything" — the belief this test measures now has a node of its own

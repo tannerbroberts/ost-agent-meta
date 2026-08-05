@@ -15,7 +15,7 @@ Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
 
 ## Definition of done
 
-[[Merge the enabling config into five real project settings files and check nothing was lost]]
+"Merge the enabling config into five real project settings files and check nothing was lost"
 
 ```
 npx vitest run test/config/settings-merge-safety.test.ts
@@ -28,4 +28,4 @@ Green means five real settings fixtures — including one that already enables o
 **What green does NOT settle.** Five fixtures are not the space of real settings files, and the formats most likely to break a merge are the ones nobody thought to include. It also says nothing about the merge being *correct* — a merge that preserves every existing key and writes an enabling block that does not actually enable anything passes this command cleanly.
 
 ## History
-- 2026-08-05 unlinked [[Merge the enabling config into five real project settings files and check nothing was lost]] — moved under [[The enabling config can be merged into a real project's settings without losing anything already there]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Merge the enabling config into five real project settings files and check nothing was lost" — moved under "The enabling config can be merged into a real project's settings without losing anything already there" — the belief this test measures now has a node of its own

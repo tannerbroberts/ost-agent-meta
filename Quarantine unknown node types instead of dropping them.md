@@ -22,11 +22,11 @@ evidence: assertion
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Does a quarantined node make the agent notice the hole in its tree]] — moved under [[A node returned as unrecognised makes the agent notice the hole it would otherwise miss]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does a quarantined node make the agent notice the hole in its tree" — moved under "A node returned as unrecognised makes the agent notice the hole it would otherwise miss" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Does a quarantined node make the agent notice the hole in its tree]]
+"Does a quarantined node make the agent notice the hole in its tree"
 
 ```
 npx vitest run test/ost/quarantine-unknown-node-type.test.ts

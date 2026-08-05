@@ -20,11 +20,11 @@ evidence: assertion
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Audit both vault histories for rename-shaped link breaks]] — moved under [[Rename-shaped link breaks are common enough in the histories to be worth detecting]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Audit both vault histories for rename-shaped link breaks" — moved under "Rename-shaped link breaks are common enough in the histories to be worth detecting" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Audit both vault histories for rename-shaped link breaks]]
+"Audit both vault histories for rename-shaped link breaks"
 
 ```
 npx vitest run test/ost/rename-link-repair.test.ts

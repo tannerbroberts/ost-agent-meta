@@ -16,7 +16,7 @@ instrument: npx vitest run test/telemetry/failure-context-coverage.test.ts
 
 **Why this is small and fast.** It needs no build at all. The records already exist; the work is reading ten of them and being honest about what each needed. An afternoon.
 
-**Why the threshold is where it is.** Below 7 of 10 the field set is not carrying the class, and the right response is to widen the fields or prefer [[Replay a recorded failure in its recorded context on demand]], which does not need to predict what will matter. A result between 7 and 9 argues for shipping this as the floor and escalating to replay only for the remainder.
+**Why the threshold is where it is.** Below 7 of 10 the field set is not carrying the class, and the right response is to widen the fields or prefer "Replay a recorded failure in its recorded context on demand", which does not need to predict what will matter. A result between 7 and 9 argues for shipping this as the floor and escalating to replay only for the remainder.
 
 **What a result here does not settle.** It says nothing about whether operators would *trust* an enriched record enough to stop re-running by hand — that is the desirability question, and it belongs to a different test.
 

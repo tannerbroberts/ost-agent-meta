@@ -17,7 +17,7 @@ The frustration this addresses is largely informational. Being asked for a crede
 
 ## Definition of done
 
-[[List what a detection probe would touch and have someone say whether they consent to each]]
+"List what a detection probe would touch and have someone say whether they consent to each"
 
 `npx vitest run test/security/auth-detection-report.test.ts`
 
@@ -26,4 +26,4 @@ The spec asserts the report is emitted at startup, *before* anything needs a cre
 **What a green here does not settle.** Consent. Probing for credentials means touching the places credentials live, and a tool that enumerates the operator's secrets to be helpful has done something they may not have wanted — a spec can verify the probe touches only a declared list, and cannot ask anyone whether they agree to that list. That is exactly what the test's title asks a person to do. Note too that this candidate never unblocks anyone: it makes the problem legible, and an operator who wanted to proceed has been handed a clear account of why they cannot.
 
 ## History
-- 2026-08-05 unlinked [[List what a detection probe would touch and have someone say whether they consent to each]] — moved under [[Operators consent to a probe that looks in the places their credentials live]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "List what a detection probe would touch and have someone say whether they consent to each" — moved under "Operators consent to a probe that looks in the places their credentials live" — the belief this test measures now has a node of its own

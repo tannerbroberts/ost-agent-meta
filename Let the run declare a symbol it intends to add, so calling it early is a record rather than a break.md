@@ -19,11 +19,11 @@ Accept that a run building a feature will reference things it has not written ye
 
 ## Test
 
-[[Count how many of the captured failures were a dropped intention rather than a wrong name]]
+"Count how many of the captured failures were a dropped intention rather than a wrong name"
 
 `npx vitest run test/telemetry/symbol-failure-census.test.ts`
 
 Green when at least 3 in 10 captured symbol failures are dropped-intention rather than wrong-name. Below that bar this solution should be deferred in favour of its two siblings — the census is placed to be able to kill this node, and that is deliberate.
 
 ## History
-- 2026-08-05 unlinked [[Count how many of the captured failures were a dropped intention rather than a wrong name]] — moved under [[A meaningful share of these failures are dropped intentions rather than wrong names]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how many of the captured failures were a dropped intention rather than a wrong name" — moved under "A meaningful share of these failures are dropped intentions rather than wrong names" — the belief this test measures now has a node of its own

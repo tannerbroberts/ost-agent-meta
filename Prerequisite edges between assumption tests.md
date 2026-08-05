@@ -23,11 +23,11 @@ evidence: assertion
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Paper-map prerequisite pairs among the sixty existing tests]] — moved under [[Real prerequisite relationships exist between the tests already in the tree]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Paper-map prerequisite pairs among the sixty existing tests" — moved under "Real prerequisite relationships exist between the tests already in the tree" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Paper-map prerequisite pairs among the sixty existing tests]]
+"Paper-map prerequisite pairs among the sixty existing tests"
 
 ```
 npx vitest run test/ost/test-prerequisite-edges.test.ts

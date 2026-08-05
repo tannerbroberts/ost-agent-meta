@@ -17,4 +17,4 @@ evidence: assertion
 **Trade-off:** parsing claims out of narrative text is the soft half; false-positive disagreements would erode trust in the channel it feeds.
 
 ## History
-- 2026-08-05 unlinked [[Diff three past sessions' claims against their traces by hand]] — moved under [[A session's narrative and its trace disagree often enough, and materially enough, to be evidence]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Diff three past sessions' claims against their traces by hand" — moved under "A session's narrative and its trace disagree often enough, and materially enough, to be evidence" — the belief this test measures now has a node of its own

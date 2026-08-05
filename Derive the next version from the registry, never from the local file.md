@@ -11,7 +11,7 @@ evidence: assertion
 
 **Why it addresses the need.** It removes the shared mutable counter that caused the near-collision. Two trains that both ask the registry cannot choose the same number unless they ask at the same instant, and the second publish fails loudly on a version conflict rather than quietly clobbering. The observed failure — a local `3b9cc5e` sitting unpushed while the loop released v0.18.0 from elsewhere — becomes impossible to reach by accident.
 
-**How it differs from its siblings.** [[Refuse to release from history that has not been pushed]] stops the *divergence* that makes collisions possible; this stops the *collision* while allowing the divergence. [[The loop proposes a release and a human tags it]] removes the second train entirely. This is the only one of the three that lets both trains keep running independently, which is its whole appeal given that the autonomous loop releasing on its own is a feature rather than a bug here.
+**How it differs from its siblings.** "Refuse to release from history that has not been pushed" stops the *divergence* that makes collisions possible; this stops the *collision* while allowing the divergence. "The loop proposes a release and a human tags it" removes the second train entirely. This is the only one of the three that lets both trains keep running independently, which is its whole appeal given that the autonomous loop releasing on its own is a feature rather than a bug here.
 
 **Where it fails.** It makes the release path depend on network reachability of the registry, so a registry outage becomes a release outage — and worse, an ambiguous one, since "cannot reach npm" and "nothing is published yet" must not be conflated or the first release of a package silently picks the wrong number. It also does nothing about the deeper problem: two trains can still produce *divergent content* at consecutive version numbers, so v0.19.0 might contain work that v0.18.0's author never saw. Numbering is the symptom; unshared history is the disease.
 
@@ -21,7 +21,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Replay every past release against a registry-derived number]]
+"Replay every past release against a registry-derived number"
 
 ```
 npx vitest run test/release/registry-derived-version.test.ts
@@ -30,4 +30,4 @@ npx vitest run test/release/registry-derived-version.test.ts
 Green means no past release, replayed, would have chosen a number already published — including the collision that put two trains on the same version. It settles the derivation and nothing about availability: a registry that is unreachable at release time is a failure mode this command cannot produce, and it is the one that matters when the derivation is load-bearing.
 
 ## History
-- 2026-08-05 unlinked [[Replay every past release against a registry-derived number]] — moved under [[The registry and the origin tags together always know the true current version]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay every past release against a registry-derived number" — moved under "The registry and the origin tags together always know the true current version" — the belief this test measures now has a node of its own

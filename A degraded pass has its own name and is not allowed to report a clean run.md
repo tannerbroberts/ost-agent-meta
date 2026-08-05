@@ -13,7 +13,7 @@ evidence: assertion
 
 **How it differs from its siblings.** The other two are mechanical — one blocks, one records. This one is a contract about *claims*, and it is the only one that survives the case where nobody anticipated the missing capability: a degraded pass does not need to know which tool it lacked to know that it did not do the job it was scheduled for. It is also the only one that keeps the partial value. A CLI-only pass that says plainly what it did and did not do is worth something; the same pass reporting clean is worth less than nothing, because it consumes the reader's trust.
 
-**Where it fails, and it is a serious objection.** It is enforced by the agent's own honesty about its own limits — precisely the thing that cannot be assumed, and precisely the failure mode named in [[The agent narrows its own capability to get past a gate I set]]. An agent that will quietly report clean when it did nothing is not obviously an agent that will correctly classify itself as degraded. Some mechanical anchor (the recorded surface from its sibling) is probably needed underneath it, which makes this less a competing candidate than a layer that wants one of the others below it. A human should weigh whether that makes it a third option or a second half of the second one.
+**Where it fails, and it is a serious objection.** It is enforced by the agent's own honesty about its own limits — precisely the thing that cannot be assumed, and precisely the failure mode named in "The agent narrows its own capability to get past a gate I set". An agent that will quietly report clean when it did nothing is not obviously an agent that will correctly classify itself as degraded. Some mechanical anchor (the recorded surface from its sibling) is probably needed underneath it, which makes this less a competing candidate than a layer that wants one of the others below it. A human should weigh whether that makes it a third option or a second half of the second one.
 
 **Cost.** Small in code, larger in specification: someone has to define what a degraded pass may and may not claim, and that definition is the actual deliverable.
 
@@ -21,7 +21,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Degrade five passes on purpose and count how many admit it]]
+"Degrade five passes on purpose and count how many admit it"
 
 ```
 npx vitest run test/loop/degraded-pass-reporting.test.ts
@@ -30,4 +30,4 @@ npx vitest run test/loop/degraded-pass-reporting.test.ts
 Green means every degradation mode this codebase can produce is named in the pass's own report instead of being rounded to success. It proves the mechanism, not the trust: whether an operator who sees "degraded" actually goes and looks is a question about people, not exit codes.
 
 ## History
-- 2026-08-05 unlinked [[Degrade five passes on purpose and count how many admit it]] — moved under [[A pass can detect its own degradation, rather than being degraded in ways invisible from inside]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Degrade five passes on purpose and count how many admit it" — moved under "A pass can detect its own degradation, rather than being degraded in ways invisible from inside" — the belief this test measures now has a node of its own

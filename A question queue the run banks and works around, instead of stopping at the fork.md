@@ -19,7 +19,7 @@ When a pass reaches a fork it cannot take, it writes the question down — the q
 
 ## Definition of done
 
-[[Blind-judge what could have continued, before reading the answer that was given]]
+"Blind-judge what could have continued, before reading the answer that was given"
 
 ```
 npx vitest run test/loop/question-stop-independence-replay.test.ts
@@ -27,7 +27,7 @@ npx vitest run test/loop/question-stop-independence-replay.test.ts
 
 Red today, and red for the reason the node above already names: there is no write side. A pass cannot bank a question, cannot record what that question is blocking, and therefore has no dependency partition for a spec to score. The command goes green when a run can hit a fork, write down the question with the work it holds up, and have that partition survive replay against the seventeen recorded stops at 12-of-17 agreement with at most 2 false-independent calls.
 
-What it does not settle: whether anyone answers a banked queue. That is this candidate's other risk, it is deliberately out of scope here, and [[The whole loop waits on one human command, and nobody is told it is waiting]] is where it lives.
+What it does not settle: whether anyone answers a banked queue. That is this candidate's other risk, it is deliberately out of scope here, and "The whole loop waits on one human command, and nobody is told it is waiting" is where it lives.
 
 ## History
-- 2026-08-05 unlinked [[Blind-judge what could have continued, before reading the answer that was given]] — moved under [[Most of what a run stops for is independent of the answer, so it could have carried on]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Blind-judge what could have continued, before reading the answer that was given" — moved under "Most of what a run stops for is independent of the answer, so it could have carried on" — the belief this test measures now has a node of its own

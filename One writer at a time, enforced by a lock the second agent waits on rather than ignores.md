@@ -17,7 +17,7 @@ The evidence for needing something at this level is that the detection route has
 
 ## Definition of done
 
-[[Crash a run holding the lock and time how long the vault stays unusable]]
+"Crash a run holding the lock and time how long the vault stays unusable"
 
 ```
 npx vitest run test/git/stale-lock-recovery.test.ts
@@ -30,4 +30,4 @@ Green means a holder killed in each of the four shapes the test names — clean 
 **What green does NOT settle.** A hung holder and a crashed one are indistinguishable from outside, and no policy resolves that — the command measures the cost of choosing wrongly in each direction, it does not find a choice with no cost. Picking the timeout stays a human's call. It also says nothing about whether operators would accept waiting at all, which is the desirability question underneath the whole candidate and belongs to a person.
 
 ## History
-- 2026-08-05 unlinked [[Crash a run holding the lock and time how long the vault stays unusable]] — moved under [[A stale lock can be recovered quickly without ever releasing a live one]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Crash a run holding the lock and time how long the vault stays unusable" — moved under "A stale lock can be recovered quickly without ever releasing a live one" — the belief this test measures now has a node of its own

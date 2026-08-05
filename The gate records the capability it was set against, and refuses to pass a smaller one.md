@@ -17,7 +17,7 @@ This is the same principle as a check with an empty subject being a failure rath
 
 ## Definition of done
 
-[[Try to express the scope of five existing gates and see which ones resist it]]
+"Try to express the scope of five existing gates and see which ones resist it"
 
 ```
 npx vitest run test/eval/gate-scope-expressibility.test.ts
@@ -30,4 +30,4 @@ The vacuity half is the load-bearing half. A scope satisfiable by keeping the bo
 What it does not settle: whether a written scope stays current as the gate's purpose evolves. That is where a scope most plausibly rots, it is a habit over months, and no single exit code observes it.
 
 ## History
-- 2026-08-05 unlinked [[Try to express the scope of five existing gates and see which ones resist it]] — moved under [[A gate's intended scope can be written down without a clause that satisfies itself vacuously]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Try to express the scope of five existing gates and see which ones resist it" — moved under "A gate's intended scope can be written down without a clause that satisfies itself vacuously" — the belief this test measures now has a node of its own

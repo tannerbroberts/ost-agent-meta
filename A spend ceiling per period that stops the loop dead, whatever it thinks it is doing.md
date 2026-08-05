@@ -17,7 +17,7 @@ This does not try to make the loop honest. It assumes it will not be, and bounds
 
 ## Definition of done
 
-[[Read back four weeks of spend and judge how much bought something worth having]]
+"Read back four weeks of spend and judge how much bought something worth having"
 
 `npx vitest run test/loop/spend-ceiling.test.ts`
 
@@ -26,4 +26,4 @@ The spec asserts what this node claims is its whole advantage — that the limit
 **What a green here does not settle.** It shows the ceiling holds when the loop's reasoning is the broken thing, which is exactly the case the node was written for. It cannot tell anyone whether the spend bought anything — the node says so itself: this caps cost, not waste, and a loop that burns its budget on invented work hits the ceiling looking identical to one that did something useful. Judging which happened is the humans-required test and no spec substitutes for it.
 
 ## History
-- 2026-08-05 unlinked [[Read back four weeks of spend and judge how much bought something worth having]] — moved under [[Spending more does not buy proportionally more worth having, so a hard stop costs little]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Read back four weeks of spend and judge how much bought something worth having" — moved under "Spending more does not buy proportionally more worth having, so a hard stop costs little" — the belief this test measures now has a node of its own

@@ -21,7 +21,7 @@ Shipped 2026-07-24 at the operator's direction (repo commit 711898a: src/telemet
 
 ## Definition of done
 
-[[Replay the hard-fix session's trace against its known defects]]
+"Replay the hard-fix session's trace against its known defects"
 
 ```
 npx vitest run test/telemetry/trace-defect-replay.test.ts
@@ -30,4 +30,4 @@ npx vitest run test/telemetry/trace-defect-replay.test.ts
 Green means the trace retains enough that the hard-fix session's known defects are visible in it — the standard a trace has to meet to be worth its storage. It does not settle the defects nobody has named: a replay scored against known defects cannot report what the trace would have missed.
 
 ## History
-- 2026-08-05 unlinked [[Replay the hard-fix session's trace against its known defects]] — moved under [[A trace of calls, outcomes and durations carries the defects a session actually had]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay the hard-fix session's trace against its known defects" — moved under "A trace of calls, outcomes and durations carries the defects a session actually had" — the belief this test measures now has a node of its own

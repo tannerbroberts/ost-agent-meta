@@ -12,17 +12,17 @@ evidence: assertion
 
 **Compared to its siblings.** Cheapest by a wide margin — a counter and a refusal at the write boundary, no runner, no new evidence-handling. It is the only one that changes an agent's behaviour rather than its bookkeeping or its tooling. Against that, it is the only candidate that makes the tree *worse* in the short run on purpose: it deliberately withholds useful work to make a shortage legible, and if the operator's constraint is genuinely their own hours, refusing to prepare work for them does not give them any hours back. It is a forcing function, and forcing functions applied to a bottleneck nobody can widen are just friction.
 
-**What would make this the wrong pick.** If instrumenting is the cheap, valuable half and executing is genuinely blocked on something structural — a permission, a missing runner, a person's availability — then rationing punishes the part that works to protest the part that does not. Worth weighing against [[A runner that executes instruments and records exit codes only, judging nothing]] specifically: if that ships, this becomes unnecessary; if it cannot ship, this becomes the honest response.
+**What would make this the wrong pick.** If instrumenting is the cheap, valuable half and executing is genuinely blocked on something structural — a permission, a missing runner, a person's availability — then rationing punishes the part that works to protest the part that does not. Worth weighing against "A runner that executes instruments and records exit codes only, judging nothing" specifically: if that ships, this becomes unnecessary; if it cannot ship, this becomes the honest response.
 
 ⚠️ Unvalidated. Agent-ideated on 2026-08-05.
 
 ## Definition of done
 
-[[Check the instrument allowance holds at the floor while no result has ever been recorded]]
+"Check the instrument allowance holds at the floor while no result has ever been recorded"
 
 `npx vitest run test/ost/instrument-rationing.test.ts`
 
 With zero recorded results the allowance stops at a non-zero fixed floor and further instrument calls are refused with a reason that names the shortage rather than a generic error; each recorded result raises the allowance in proportion. Red today because nothing rations. The spec can prove the valve opens and closes correctly and cannot tell whether a valve was the right thing to install.
 
 ## History
-- 2026-08-05 unlinked [[Check the instrument allowance holds at the floor while no result has ever been recorded]] — moved under [[Backpressure on instrumenting pushes results to be recorded, rather than just stopping work]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check the instrument allowance holds at the floor while no result has ever been recorded" — moved under "Backpressure on instrumenting pushes results to be recorded, rather than just stopping work" — the belief this test measures now has a node of its own

@@ -19,7 +19,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Count how many of this vault's recommendations would go silent under a refuse-when-unclear rule]]
+"Count how many of this vault's recommendations would go silent under a refuse-when-unclear rule"
 
 ```
 npx vitest run test/knowledge/refuse-when-unclear-suppression.test.ts
@@ -32,4 +32,4 @@ Per-surface, not pooled. A rule that leaves hygiene findings intact while silenc
 What it does not settle, and it is the half that matters most: the count is a cost measurement, not a benefit one. A rule could silence 5% and silence exactly the 5% that were correct and load-bearing, and this command cannot tell that apart from silencing 5% of noise.
 
 ## History
-- 2026-08-05 unlinked [[Count how many of this vault's recommendations would go silent under a refuse-when-unclear rule]] — moved under [[Going silent on ambiguous sources costs few enough recommendations to be affordable]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how many of this vault's recommendations would go silent under a refuse-when-unclear rule" — moved under "Going silent on ambiguous sources costs few enough recommendations to be affordable" — the belief this test measures now has a node of its own

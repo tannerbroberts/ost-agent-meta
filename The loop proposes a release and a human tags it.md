@@ -9,11 +9,11 @@ evidence: assertion
 
 **The idea.** There is exactly one release train. The autonomous loop never publishes; it prepares a release — changelog, version bump, green suite — and stops, leaving a single paste-ready command. A human runs it. Two trains become one train with two contributors.
 
-**Why it addresses the need.** A collision requires two parties choosing a number. Remove one and the failure class is gone, along with its neighbours: divergent content at consecutive versions, unshared history, and the wrong thing reaching every consumer through the `@latest` tag the plugin invokes. It is the only candidate here that also serves [[Improvements I ship never reach the agents already running]] rather than being neutral to it, because a human gate is a natural place to decide what consumers should actually receive.
+**Why it addresses the need.** A collision requires two parties choosing a number. Remove one and the failure class is gone, along with its neighbours: divergent content at consecutive versions, unshared history, and the wrong thing reaching every consumer through the `@latest` tag the plugin invokes. It is the only candidate here that also serves "Improvements I ship never reach the agents already running" rather than being neutral to it, because a human gate is a natural place to decide what consumers should actually receive.
 
 **How it differs from its siblings.** The other two keep both trains and manage the conflict — one by numbering carefully, one by forbidding divergence. This removes the second train. It is the strongest guarantee and the largest concession.
 
-**Where it fails, and this is very likely disqualifying here.** It puts a human on the critical path of every release, and this vault has direct evidence about what that costs. `ost-agent result` has been sitting unrun by its operator for long enough that a sibling solution elsewhere in the tree argues explicitly against adding friction to it. Publishing is already blocked on [[Every run ends blocked on a credential only I hold]] — the lazy MCP server has been finished and unpublished since 2026-07-26 for exactly that reason. Adding a mandatory human step to a path that is *already* stalled on a mandatory human step is not obviously a fix; it may simply be the current failure, formalised.
+**Where it fails, and this is very likely disqualifying here.** It puts a human on the critical path of every release, and this vault has direct evidence about what that costs. `ost-agent result` has been sitting unrun by its operator for long enough that a sibling solution elsewhere in the tree argues explicitly against adding friction to it. Publishing is already blocked on "Every run ends blocked on a credential only I hold" — the lazy MCP server has been finished and unpublished since 2026-07-26 for exactly that reason. Adding a mandatory human step to a path that is *already* stalled on a mandatory human step is not obviously a fix; it may simply be the current failure, formalised.
 
 **Recorded because the option should be on the table, not because it is recommended.** Its honest role is as the baseline the other two must beat: if either sibling cannot be made safe, this is what safety actually costs, and the operator should choose it knowingly rather than discover it.
 
@@ -23,7 +23,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Measure how long the last human-gated release actually waited]]
+"Measure how long the last human-gated release actually waited"
 
 ```
 npx vitest run test/release/human-gate-latency.test.ts
@@ -36,4 +36,4 @@ Still-open waits are counted with their running duration rather than dropped. Th
 What it does not settle: the number is about one operator. A median over this project's gates says nothing about whether a human gate is affordable for anyone else, and it cannot tell whether the honest form of this idea is the sibling it names — a single autonomous train with a human veto after the fact.
 
 ## History
-- 2026-08-05 unlinked [[Measure how long the last human-gated release actually waited]] — moved under [[A human-gated release is tagged promptly enough not to become the bottleneck]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Measure how long the last human-gated release actually waited" — moved under "A human-gated release is tagged promptly enough not to become the bottleneck" — the belief this test measures now has a node of its own

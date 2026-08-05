@@ -46,7 +46,7 @@ Three things make this stronger than a repeat count:
 
 1. **It is not confined to CI.** The blocked waits also targeted `tail` on a log file, `ls` on a workflow journal directory, and `git status --porcelain` — the same shape wherever the loop needs to know when something outside it finished.
 2. **The sanctioned path is also unsatisfying.** Session `516fdfb8` shows what happens when the agent does poll: `gh pr checks 17` exited 8 with `bundle-drift pass 14s` and `test pending 0` — a non-zero exit that means *not finished yet*, indistinguishable at the call site from a failure. The same session recorded three `TaskOutput` retries, each with `"block":true,"timeout":600000` — ten-minute blocking waits, re-issued.
-3. **The agent keeps reaching for `sleep` anyway.** Across eight days and eleven PRs it never internalised the refusal, which is the same shape as [[The same refusal is rediscovered every session, because nothing carries the lesson forward]].
+3. **The agent keeps reaching for `sleep` anyway.** Across eight days and eleven PRs it never internalised the refusal, which is the same shape as "The same refusal is rediscovered every session, because nothing carries the lesson forward".
 
 Sessions `fd2c6d71` (a bare `CronList` retry, its only friction event) and `92cc492d` point the same way.
 

@@ -18,11 +18,11 @@ evidence: assertion
 
 ## Definition of done
 
-[[Replay the seven refusals and check the ledger surfaces every one before a call is composed]]
+"Replay the seven refusals and check the ledger surfaces every one before a call is composed"
 
 `npx vitest run test/loop/corrections-ledger.test.ts`
 
 Proves delivery, not persuasion: the seven observed refusal classes are in the ledger exactly once each with their permitted form, and all seven reach a session before its first composed call. Red today because nothing outlives the session a refusal was issued in.
 
 ## History
-- 2026-08-05 unlinked [[Replay the seven refusals and check the ledger surfaces every one before a call is composed]] — moved under [[A refusal written down once will actually be read before the next call that would repeat it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay the seven refusals and check the ledger surfaces every one before a call is composed" — moved under "A refusal written down once will actually be read before the next call that would repeat it" — the belief this test measures now has a node of its own

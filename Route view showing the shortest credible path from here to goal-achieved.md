@@ -18,4 +18,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Does a route view change which work a builder picks up first]] — moved under [[Seeing a path instead of a taxonomy changes which work a builder starts on]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does a route view change which work a builder picks up first" — moved under "Seeing a path instead of a taxonomy changes which work a builder starts on" — the belief this test measures now has a node of its own

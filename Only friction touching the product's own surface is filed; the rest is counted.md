@@ -15,7 +15,7 @@ Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
 
 ## Definition of done
 
-[[Replay all 29 records through the surface rule and see what it keeps]]
+"Replay all 29 records through the surface rule and see what it keeps"
 
 ```
 npx vitest run test/telemetry/friction-surface-rule.test.ts
@@ -24,4 +24,4 @@ npx vitest run test/telemetry/friction-surface-rule.test.ts
 Green means the rule keeps the records that touch this product's own surface and counts the rest rather than discarding them. The recorded material is a fair test of it: a great deal of the harvested friction is shell quoting and blocked polling in the harness, not in this product. It does not settle whether the counted-not-filed material was safe to demote, which is exactly what a rule like this risks getting wrong.
 
 ## History
-- 2026-08-05 unlinked [[Replay all 29 records through the surface rule and see what it keeps]] — moved under [[What the failing call was against separates product friction from everything else]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay all 29 records through the surface rule and see what it keeps" — moved under "What the failing call was against separates product friction from everything else" — the belief this test measures now has a node of its own

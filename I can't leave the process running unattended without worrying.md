@@ -24,9 +24,9 @@ Evidence: `INBOX:2026-07-24-opp-idempotent-runtime.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Resumable append-only process journal]] — re-parented under [[A run that dies while I am away stays dead, and nothing says where it stopped]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Supervisor heartbeat with automatic restart]] — re-parented under [[A run that dies while I am away stays dead, and nothing says where it stopped]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Immutable goal contract]] — re-parented under [[A run that dies while I am away stays dead, and nothing says where it stopped]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Resumable append-only process journal" — re-parented under "A run that dies while I am away stays dead, and nothing says where it stopped" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Supervisor heartbeat with automatic restart" — re-parented under "A run that dies while I am away stays dead, and nothing says where it stopped" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Immutable goal contract" — re-parented under "A run that dies while I am away stays dead, and nothing says where it stopped" — this solution answers that need, not the categories beside it
 
 ## Issues
 - 2026-07-25 Near-synonym top-level sibling of 'Trust an unmonitored agent enough to walk away' — the children happen to partition (safety/honesty vs runtime continuity) but the titles do not carry the boundary; a reader cannot predict which child lives where. Merge-or-rename candidate for human decision (2026-07-24 review).

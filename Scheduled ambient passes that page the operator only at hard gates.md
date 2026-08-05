@@ -18,11 +18,11 @@ evidence: assertion
 
 ## Gate cleared — 2026-07-25
 
-This solution was explicitly blocked behind the exit-0 defect (recorded on [[I need the tree's output to be actionable by compute alone, because my hours don't exist]]): paging on failure is meaningless when failure is indistinguishable from quiet success. That defect is fixed in v0.5.0 — `ost-agent run` exits nonzero and names the failure, and `schedule` logs it to stderr.
+This solution was explicitly blocked behind the exit-0 defect (recorded on "I need the tree's output to be actionable by compute alone, because my hours don't exist"): paging on failure is meaningless when failure is indistinguishable from quiet success. That defect is fixed in v0.5.0 — `ost-agent run` exits nonzero and names the failure, and `schedule` logs it to stderr.
 
-**What the fix does and does not give this candidate.** It gives the *page-on-error* half a mechanical trigger any wrapper can read. It gives the *silence-means-working* half nothing: a cron that stops firing produces no exit code at all, and this candidate's entire promise is that silence is trustworthy. Until something consumes journals on a heartbeat ([[Supervisor heartbeat consumes run journals and alerts on error]]), silence still means "either healthy or dead" — which is the state this candidate claims to have solved.
+**What the fix does and does not give this candidate.** It gives the *page-on-error* half a mechanical trigger any wrapper can read. It gives the *silence-means-working* half nothing: a cron that stops firing produces no exit code at all, and this candidate's entire promise is that silence is trustworthy. Until something consumes journals on a heartbeat ("Supervisor heartbeat consumes run journals and alerts on error"), silence still means "either healthy or dead" — which is the state this candidate claims to have solved.
 
 So: unblocked, not ready. The honest sequence is heartbeat first, then unattended scheduling.
 
 ## History
-- 2026-08-05 unlinked [[Two unattended weeks - count pages, grind, and money burned]] — moved under [[Two unattended weeks produce few enough pages, and little enough grind, to be worth the spend]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Two unattended weeks - count pages, grind, and money burned" — moved under "Two unattended weeks produce few enough pages, and little enough grind, to be worth the spend" — the belief this test measures now has a node of its own

@@ -17,7 +17,7 @@ Control is the point. The operator decides when to take a tightening, in the sam
 
 ## Definition of done
 
-[[Count how many existing rules would need a conditional to support two live versions]]
+"Count how many existing rules would need a conditional to support two live versions"
 
 ```
 npx vitest run test/knowledge/versioned-rule-cost.test.ts
@@ -29,9 +29,9 @@ Green means version awareness across the current rule set and its predecessor co
 
 **Read a green result pessimistically.** Two consecutive versions are the most similar pair available, so the count this produces is the optimistic end of the estimate by construction. The extrapolation clause exists precisely because the two-version number understates it; if the extrapolation is what fails, that is the honest signal and not a technicality.
 
-**A precondition this row shares.** Nothing here can fire unless a build can tell which version wrote a given vault, which is [[Check whether the writing version is recoverable from vault state at all]] — red today for the same reason, and the cheaper of the two to answer first.
+**A precondition this row shares.** Nothing here can fire unless a build can tell which version wrote a given vault, which is "Check whether the writing version is recoverable from vault state at all" — red today for the same reason, and the cheaper of the two to answer first.
 
 **What green does NOT settle.** Whether an operator whose tree is stranded out of compliance would rather be migrated than grandfathered. That is a preference about their own work and belongs to a person.
 
 ## History
-- 2026-08-05 unlinked [[Count how many existing rules would need a conditional to support two live versions]] — moved under [[Supporting two live ruleset versions costs few enough conditionals to stay maintainable]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how many existing rules would need a conditional to support two live versions" — moved under "Supporting two live ruleset versions costs few enough conditionals to stay maintainable" — the belief this test measures now has a node of its own

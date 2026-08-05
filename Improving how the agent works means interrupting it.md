@@ -24,9 +24,9 @@ Evidence: `INBOX:2026-07-24-opp-self-replacing-workflow.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Versioned workflow with scheduled hot-swap and rollback]] — re-parented under [[A change I ship can only reach the agent by stopping it first]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Canary the changed process against the old one]] — re-parented under [[A change I ship can only reach the agent by stopping it first]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Agent proposes its own workflow changes for one-click adoption]] — re-parented under [[A change I ship can only reach the agent by stopping it first]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Versioned workflow with scheduled hot-swap and rollback" — re-parented under "A change I ship can only reach the agent by stopping it first" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Canary the changed process against the old one" — re-parented under "A change I ship can only reach the agent by stopping it first" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Agent proposes its own workflow changes for one-click adoption" — re-parented under "A change I ship can only reach the agent by stopping it first" — this solution answers that need, not the categories beside it
 
 ## Supporting evidence — observed friction (2026-07-24)
 

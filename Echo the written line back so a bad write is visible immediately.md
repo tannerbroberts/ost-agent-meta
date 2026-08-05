@@ -19,7 +19,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Does an operator notice a bad write when the tool echoes the line back]]
+"Does an operator notice a bad write when the tool echoes the line back"
 
 `npx vitest run test/mcp/echo-written-line.test.ts`
 
@@ -30,4 +30,4 @@ Every mutating tool must return the line it actually wrote, not a confirmation t
 **What a green here does not settle, and the node is honest that it is fatal on its own.** It relies on somebody reading the output. An unattended pass discards tool output routinely; this pass read hundreds of tool results and would have skimmed past a bad line in most of them. Whether an operator *notices* is the humans-required test. The node's own conclusion stands: this is nearly free as a third layer behind a schema check and a write guard, and weak as a sole defence.
 
 ## History
-- 2026-08-05 unlinked [[Does an operator notice a bad write when the tool echoes the line back]] — moved under [[An operator shown the line that was actually written notices when it is wrong]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does an operator notice a bad write when the tool echoes the line back" — moved under "An operator shown the line that was actually written notices when it is wrong" — the belief this test measures now has a node of its own

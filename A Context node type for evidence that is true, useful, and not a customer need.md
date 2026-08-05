@@ -24,7 +24,7 @@ Every one of them is genuinely valuable. That is what makes this a schema proble
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Count stranded evidence items across both vaults that only a Context node could home]] — moved under [[Enough true, useful, non-need evidence is being stranded to justify a layer of its own]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count stranded evidence items across both vaults that only a Context node could home" — moved under "Enough true, useful, non-need evidence is being stranded to justify a layer of its own" — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 SECOND VAULT, SAME GAP (2026-07-25, autonomous loop pass 4). The tetrix pass
@@ -37,7 +37,7 @@ it lands next to founder theory and is weighted like founder theory.
 
 This is a second, independent sighting of the hole this node describes, from the
 other product, arrived at without reference to this node. Worth counting toward
-[[Count stranded evidence items across both vaults that only a Context node could home]] — and worth noting that the stranded item in this case was the single most
+"Count stranded evidence items across both vaults that only a Context node could home" — and worth noting that the stranded item in this case was the single most
 consequential thing that pass found.
 - 2026-08-03 Stranded-evidence backlog is now self-sustaining, and this node is the only proposed fix. As of the 2026-08-03 unattended pass, 18 of 25 unmapped evidence items cannot be cleared by any action available to a pass: mapping them would require inventing a need (refused) or duplicating a sibling (refused), and there is no acknowledge-or-skip verb. They will therefore be reported as outstanding on every future pass indefinitely, and `done` can never be reached while they sit there. Two consequences a human should weigh. First, the queue teaches the wrong lesson: a pass that wants to reach `done` is under standing pressure to manufacture opportunities, which is precisely the failure the sibling opportunity about an honest loop inventing work describes. Second, the census appended above splits the 18 into 14 that want an attachment to an existing node and 4 that want a home of their own — so a cheaper partial fix exists, namely making `source` appendable on an existing node, and it would resolve 78% of this backlog without a new node type. Neither option is this pass's to choose.
 - 2026-08-05 2026-08-05 The "already attached in every sense but the ledger's" claim is now counted rather than asserted, and it is 17 of 18 rather than all of them. The 2026-08-04 entry above argues for the cheap fix (an appendable `source`) partly on the ground that "the attachments have in fact already been written: prior passes cited these same transcript ids in the bodies of the opportunities they ground." This pass checked that mechanically instead of asserting it. Searching the vault for the sweep's 18 unmapped ids returns 220 occurrences across 24 node files — so the evidence is not merely mapped in a reader's sense, it is mapped densely, several nodes deep, with the same session cited from three or four different opportunities. Exactly one of the 18 was not cited anywhere: `TRANSCRIPT:5de6e49b-…`, ingested 2026-08-05, which this pass read and attached to "My unattended run stops at a prompt that assumes a person is sitting there" as a genuinely new category (a correct tool refusal, as distinct from a question — the first such in that node's corpus). Two things follow, and they point opposite ways, which is why both are recorded. First, the case for an appendable `source` is stronger than the 2026-08-04 entry could show: the attachment work is not hypothetical future effort, it has already been done 220 times by hand into node bodies where no ledger counts it, and the frontmatter field is the only thing that has ever been the obstacle. Second, the exception is the sharper finding: the one uncited item was the newest one, which is the same shape as the "Correction to the forecast" entry above. A pass that assumed the backlog was fully covered would have skipped the only item carrying anything new. So the backlog is not inert — it is 17 items of settled corroboration with a live edge, and the honest handling is to re-read the edge each pass rather than to treat the whole set as read. No new census taken; the tables above still account for all of them.
@@ -86,7 +86,7 @@ Recorded by an unattended pass. Nothing here was tested, and no threshold was me
 
 ## Census update — 19 stranded items, 2026-08-04
 
-The 2026-08-03 census above counted 18. A day later it is 19: `USAGE:2026-08-03` was ingested this pass and joins the first table — 312 calls, 1 failed, with `ost_next_work` taking 39 of them. It grounds two needs the tree already holds and neither of them newly: [[A third of my calls go on re-asking what is outstanding]] gets its third measurement of the re-ask share (39 of 312 here, 17 of 108 on 2026-07-25), and [[Two thirds of my calls failed, and each one only told me after I made it]] gets the single failure, which is an `ost_create_node` refused for declaring `observed` where the source supported only `assertion` — a caller confident and wrong, exactly the case that node describes.
+The 2026-08-03 census above counted 18. A day later it is 19: `USAGE:2026-08-03` was ingested this pass and joins the first table — 312 calls, 1 failed, with `ost_next_work` taking 39 of them. It grounds two needs the tree already holds and neither of them newly: "A third of my calls go on re-asking what is outstanding" gets its third measurement of the re-ask share (39 of 312 here, 17 of 108 on 2026-07-25), and "Two thirds of my calls failed, and each one only told me after I made it" gets the single failure, which is an `ost_create_node` refused for declaring `observed` where the source supported only `assertion` — a caller confident and wrong, exactly the case that node describes.
 
 So the backlog grew by one and cleared by none, which is what the prediction above said would happen. The 2026-08-03 entry called this self-sustaining; one pass later that is no longer a forecast. Nothing about this pass's handling was novel: every one of the 19 was re-read, every one was already covered by an existing opportunity or carried no need at all, and mapping any of them would still have meant inventing a need or duplicating a sibling.
 
@@ -96,7 +96,7 @@ Recorded by an unattended pass. Nothing here was tested and no threshold was met
 
 ## Definition of done
 
-[[Count stranded evidence items across both vaults that only a Context node could home]]
+"Count stranded evidence items across both vaults that only a Context node could home"
 
 ```
 npx vitest run test/ost/stranded-evidence-census.test.ts
@@ -106,7 +106,7 @@ Green means the census this node's own body sketches by hand is computed rather 
 
 ## Correction to the forecast — the strand rate is not 100%, 2026-08-04
 
-The 2026-08-04 pass ingested one new item, `TRANSCRIPT:42dcb7b4-f01b-40bc-a211-ed4a44a74fd3`, and **it mapped**. It carried a need the tree did not hold — two `AskUserQuestion` calls answered `permission_denied` because the operator was rewriting the question rather than refusing to answer it — and became [[Answering one question costs me three turns, because I have to fix its options before I can reply]].
+The 2026-08-04 pass ingested one new item, `TRANSCRIPT:42dcb7b4-f01b-40bc-a211-ed4a44a74fd3`, and **it mapped**. It carried a need the tree did not hold — two `AskUserQuestion` calls answered `permission_denied` because the operator was rewriting the question rather than refusing to answer it — and became "Answering one question costs me three turns, because I have to fix its options before I can reply".
 
 This matters to the argument above, which is why it is recorded here rather than restated as another census. The entry immediately preceding says the backlog "grew by one and cleared by none" and calls the strand self-sustaining. One pass later a new item cleared, so the honest reading is narrower than that: the *existing* 19 are stranded and stay stranded, but new evidence still yields new needs at a non-zero rate. A Context node justified on "every incoming item is already covered" would be justified on something that is not true.
 

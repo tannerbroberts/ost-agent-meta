@@ -17,7 +17,7 @@ One failed lookup then costs one call instead of three, because it answers the q
 
 ## Definition of done
 
-[[Generate near-miss suggestions for past failures and count how many point at the right thing]]
+"Generate near-miss suggestions for past failures and count how many point at the right thing"
 
 ```
 npx vitest run test/cli/path-near-miss.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/cli/path-near-miss.test.ts
 Green means the recorded failed lookups — `src/cli/index.ts`, `docs/reference`, `report2.txt`, and the missing node file — each come back with the path that was actually meant. It settles that the suggestion can be computed; it does not settle whether being handed a near miss stops the caller guessing again, which only the next few sessions' traces can show.
 
 ## History
-- 2026-08-05 unlinked [[Generate near-miss suggestions for past failures and count how many point at the right thing]] — moved under [[The nearest existing path is usually the one the caller meant]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Generate near-miss suggestions for past failures and count how many point at the right thing" — moved under "The nearest existing path is usually the one the caller meant" — the belief this test measures now has a node of its own

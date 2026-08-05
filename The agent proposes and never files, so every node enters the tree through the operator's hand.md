@@ -16,4 +16,4 @@ The premise is that comprehension comes from deciding, not from typing. If that 
 **What would make this the wrong pick.** An operator faced with forty drafts will approve in bulk, and bulk approval is indistinguishable from automation while feeling like oversight. That is worse than automating openly, because the operator now believes they understand a tree they skimmed.
 
 ## History
-- 2026-08-05 unlinked [[Queue forty drafts for approval and record how long the operator spends on each]] — moved under [[An operator facing a queue of drafts keeps reading them rather than approving in bulk]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Queue forty drafts for approval and record how long the operator spends on each" — moved under "An operator facing a queue of drafts keeps reading them rather than approving in bulk" — the belief this test measures now has a node of its own

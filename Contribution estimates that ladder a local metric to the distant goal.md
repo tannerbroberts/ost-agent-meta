@@ -18,11 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Do written contribution estimates survive one month of real movement]] — moved under [[A written estimate of how much a branch moves the goal survives contact with real movement]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Do written contribution estimates survive one month of real movement" — moved under "A written estimate of how much a branch moves the goal survives contact with real movement" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Do written contribution estimates survive one month of real movement]]
+"Do written contribution estimates survive one month of real movement"
 
 ```
 npx vitest run test/ost/contribution-estimate.test.ts

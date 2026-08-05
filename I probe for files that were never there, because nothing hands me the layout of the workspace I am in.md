@@ -54,7 +54,7 @@ Evidence class is observed behaviour of this agent using its own harness — usa
 
 **Two distinct kinds, and the node currently only names one.** The title is about *files that were never there* — the first four rows, where a path was guessed and did not exist. The last three rows are a different and more systematic error: `git` invoked with exit 128 in a directory that is not a repository at all, four times, three of them in the same working directory on the same day. That is not a wrong guess about a file; it is a wrong belief about *what kind of place the session is standing in*, and every action taken on that belief fails until something says so.
 
-The distinction matters because the remedies differ. A workspace map — the thing [[Draft the workspace map and check how many past failed lookups it would have answered]] proposes — answers "does this path exist". It does not answer "is this a repository, is it the repository you think, and where is its root", which is what three of these seven cost a turn to learn.
+The distinction matters because the remedies differ. A workspace map — the thing "Draft the workspace map and check how many past failed lookups it would have answered" proposes — answers "does this path exist". It does not answer "is this a repository, is it the repository you think, and where is its root", which is what three of these seven cost a turn to learn.
 
 **The recovery is cheap and identical every time,** which is what makes the repetition wasteful rather than dangerous: every one of these failures is followed immediately by an `ls`, and the `ls` output is right there in the same record. The information was one call away and no call announced it.
 

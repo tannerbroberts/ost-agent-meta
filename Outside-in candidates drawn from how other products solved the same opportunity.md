@@ -18,11 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Would an operator adopt an outside-sourced candidate into their consideration set]] — moved under [[An operator will adopt an outside-sourced candidate into their real consideration set]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Would an operator adopt an outside-sourced candidate into their consideration set" — moved under "An operator will adopt an outside-sourced candidate into their real consideration set" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Would an operator adopt an outside-sourced candidate into their consideration set]]
+"Would an operator adopt an outside-sourced candidate into their consideration set"
 
 ```
 npx vitest run test/web/outside-in-candidate-provenance.test.ts

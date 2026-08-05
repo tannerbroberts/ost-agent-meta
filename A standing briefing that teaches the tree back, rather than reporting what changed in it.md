@@ -17,7 +17,7 @@ The distinction from a changelog is the whole idea. A list of what changed requi
 
 ## Definition of done
 
-[[Have the operator answer questions about their own tree from the briefing alone]]
+"Have the operator answer questions about their own tree from the briefing alone"
 
 `npx vitest run test/ost/standing-briefing.test.ts`
 
@@ -26,4 +26,4 @@ The spec asserts the briefing is regenerated in full each pass and names the bel
 **What a green here does not settle, and it is the node's own objection.** The briefing is written by the same agent whose judgement it is meant to keep the operator able to check. If the agent has misread the tree, a full regeneration will misread it identically and confidently, and a passing spec will confirm only that the misreading was complete and freshly dated. Whether an operator can actually answer questions about their own tree from it is the humans-required test, and it is the one that matters here.
 
 ## History
-- 2026-08-05 unlinked [[Have the operator answer questions about their own tree from the briefing alone]] — moved under [[A briefing written for comprehension leaves the operator able to check the agent's own reading]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have the operator answer questions about their own tree from the briefing alone" — moved under "A briefing written for comprehension leaves the operator able to check the agent's own reading" — the belief this test measures now has a node of its own

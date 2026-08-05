@@ -17,7 +17,7 @@ The vault already works this way in places — reserved headings that no argumen
 
 ## Definition of done
 
-[[Take the last ten regretted writes and check whether each could have been refused mechanically]]
+"Take the last ten regretted writes and check whether each could have been refused mechanically"
 
 ```
 npx vitest run test/ost/regretted-write-invariants.test.ts
@@ -30,4 +30,4 @@ Green means at least 6 of the 10 regretted writes already recorded in this vault
 **What green does NOT settle, and it is a selection problem rather than a coverage one.** The fixture set is drawn from regrets that were *noticed and written down*. Bad writes nobody has spotted are absent by construction, and there is a live reason to think they are the harder class: a write that looked fine at the time is exactly the one no invariant over call-time information would have caught. Green says the recorded regrets were mechanical; it cannot say the unrecorded ones are.
 
 ## History
-- 2026-08-05 unlinked [[Take the last ten regretted writes and check whether each could have been refused mechanically]] — moved under [[Most regretted writes could have been refused by a check needing no judgement]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Take the last ten regretted writes and check whether each could have been refused mechanically" — moved under "Most regretted writes could have been refused by a check needing no judgement" — the belief this test measures now has a node of its own

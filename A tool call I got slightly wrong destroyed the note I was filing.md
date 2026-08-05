@@ -30,6 +30,6 @@ evidence: assertion
 
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
-- 2026-08-05 unlinked [[Validate every tool call against the schema the tool already declares]] — re-parented under [[A malformed call lands before anything checks it, and only reading back the file says so]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Refuse a write whose content is empty or literally undefined]] — re-parented under [[A malformed call lands before anything checks it, and only reading back the file says so]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Echo the written line back so a bad write is visible immediately]] — re-parented under [[A malformed call lands before anything checks it, and only reading back the file says so]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Validate every tool call against the schema the tool already declares" — re-parented under "A malformed call lands before anything checks it, and only reading back the file says so" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Refuse a write whose content is empty or literally undefined" — re-parented under "A malformed call lands before anything checks it, and only reading back the file says so" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Echo the written line back so a bad write is visible immediately" — re-parented under "A malformed call lands before anything checks it, and only reading back the file says so" — this solution answers that need, not the categories beside it

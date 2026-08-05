@@ -11,7 +11,7 @@ instrument: npx vitest run test/ost/event-log-projection.test.ts
 ---
 #AssumptionTest #human-entered #feasibility #unvalidated #evidence/assertion
 
-**The riskiest assumption is feasibility, not desirability.** The paradigm's value is uncontroversial if it works; what is unproven is that *this* tree can be expressed as an event log at all. If the vault's real history contains changes that do not decompose into a closed event vocabulary, the projection can never be authoritative and the whole architecture collapses to an audit log sitting next to a tree — which is [[Append-only audit trail the operator can replay]], already proposed, at a fraction of the cost.
+**The riskiest assumption is feasibility, not desirability.** The paradigm's value is uncontroversial if it works; what is unproven is that *this* tree can be expressed as an event log at all. If the vault's real history contains changes that do not decompose into a closed event vocabulary, the projection can never be authoritative and the whole architecture collapses to an audit log sitting next to a tree — which is "Append-only audit trail the operator can replay", already proposed, at a fraction of the cost.
 
 **Why this is the cheapest disconfirmer.** It is retrospective and runs entirely against committed state — no build, no operator, no external party, no model call required for the mechanical part. The subject already exists: this vault carries a full commit history in which every write was made by the append-only MCP surface, which is the most favorable possible input. If it fails *here*, it fails everywhere.
 

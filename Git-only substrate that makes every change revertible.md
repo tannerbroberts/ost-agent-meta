@@ -18,11 +18,11 @@ _Addresses: "Fear the agent could take a destructive, irreversible action". Unva
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test does git auto-init and one-command revert work everywhere]] — moved under [[Git auto-init and one-command revert work on the machines this will actually run on]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test does git auto-init and one-command revert work everywhere" — moved under "Git auto-init and one-command revert work on the machines this will actually run on" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test does git auto-init and one-command revert work everywhere]]
+"Test does git auto-init and one-command revert work everywhere"
 
 ```
 npx vitest run test/git/revert-fidelity.test.ts

@@ -19,9 +19,9 @@ _Provenance: INBOX:2026-07-22-agent-as-driver.md (design review conversation, 20
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Ambient session agent drives the append-only tools]] — re-parented under [[Trying this at all costs a purchase, before I know whether it is worth anything]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Bundled local model for zero-credential trial]] — re-parented under [[Trying this at all costs a purchase, before I know whether it is worth anything]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Optional bring-your-own-key, off by default]] — re-parented under [[Trying this at all costs a purchase, before I know whether it is worth anything]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Ambient session agent drives the append-only tools" — re-parented under "Trying this at all costs a purchase, before I know whether it is worth anything" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Bundled local model for zero-credential trial" — re-parented under "Trying this at all costs a purchase, before I know whether it is worth anything" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Optional bring-your-own-key, off by default" — re-parented under "Trying this at all costs a purchase, before I know whether it is worth anything" — this solution answers that need, not the categories beside it
 
 ## Issues
 - 2026-07-25 Design decision (ambient-agent driver) reverse-engineered into a need — the node's own body concedes the evidence names one solution. Sequenced-after-demand (2026-07-24 review).

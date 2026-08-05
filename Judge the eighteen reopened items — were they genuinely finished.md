@@ -15,7 +15,7 @@ threshold: >-
 
 **Why 16 of 18.** Below that, the newer accounting is finding real gaps and the union rule would suppress them, which turns the cheapest and safest candidate in this row into the most damaging one. At or above it, the reopening is an artifact and the fallback is doing what it claims.
 
-**This test discriminates between siblings rather than validating one idea.** A high score favours the fallback. A low score favours [[Report the accounting change explicitly instead of folding it into the counts]], because then the eighteen deserve a human's attention rather than automatic re-suppression — and it argues against [[Migrate the old accounting into the new ledger on first run, and record that it happened]] for the same reason. One question, three candidates re-ranked.
+**This test discriminates between siblings rather than validating one idea.** A high score favours the fallback. A low score favours "Report the accounting change explicitly instead of folding it into the counts", because then the eighteen deserve a human's attention rather than automatic re-suppression — and it argues against "Migrate the old accounting into the new ledger on first run, and record that it happened" for the same reason. One question, three candidates re-ranked.
 
 **Why a person has to answer it.** "Is there anything left to do here" is the judgement the whole accounting exists to approximate. Asking compute to grade it would be asking the disputed rule to referee its own dispute.
 

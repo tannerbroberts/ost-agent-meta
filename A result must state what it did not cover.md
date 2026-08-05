@@ -23,7 +23,7 @@ sibling tetrix product, two times the honest move after running a test was to *s
 the node*, because the artefact left behind covered less than the threshold it was
 answering. Both times that depended on an agent happening to notice. This is the
 mechanical half of noticing — and it hardens the risk
-[[Leave a permanent test behind instead of a one-off verdict draft]] had already
+"Leave a permanent test behind instead of a one-off verdict draft" had already
 written down before that idea gets built rather than after.
 
 **The check is deliberately shallow, and the CLI prints that it is.** It never reads
@@ -34,7 +34,7 @@ made to write one. Whether the limit is honest stays a human judgement.
 changes anything. It is entirely possible this produces boilerplate ("nothing much")
 at the same rate as it produces insight, in which case it has added friction to the
 one command humans are already reluctant to run. That is
-[[Does a forced uncovered field change what a second reader believes]], and it is
+"Does a forced uncovered field change what a second reader believes", and it is
 unrun.
 
 **A fix came with it.** `appendUnderSection` had been appending to the end of the
@@ -46,7 +46,7 @@ would have filed itself under `## Results`.
 
 This node's closing caveat said shipping the field settled nothing about whether
 being made to write the sentence changes anything, because nothing ever *read* the
-sentence. [[The uncovered statement printed next to what the test asked for]] is the
+sentence. "The uncovered statement printed next to what the test asked for" is the
 smallest thing that changes that: `ost-agent debt` now prints each bounded test's
 pre-committed threshold directly above the limit its run stated.
 
@@ -57,11 +57,11 @@ tests open their pre-commitment with an imperative — an instruction to decide 
 threshold, standing where the threshold should be — and only 4 of 27 carry a number. The coverage machinery
 this node introduced has been enforcing a limit statement against a bar that, in that
 vault, mostly does not exist. Filed as
-[[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]].
+"My tests carry thresholds nobody ever fixed, so nothing can come out a failure".
 
 That is the first thing either of these two features has found on its own, and it
 argues for this line of work more than any of its own reasoning did. It does not,
-however, answer [[Does a forced uncovered field change what a second reader believes]],
+however, answer "Does a forced uncovered field change what a second reader believes",
 which remains unrun.
 
 ## Issues
@@ -74,4 +74,4 @@ I did not add that instrument, for the reason the ruleset gives: an instrument m
 Same shape as the general finding recorded on "I need the tree's output to be actionable by compute alone, because my hours don't exist": a mechanism-shaped solution carrying a belief-shaped test.
 
 ## History
-- 2026-08-05 unlinked [[Does a forced uncovered field change what a second reader believes]] — moved under [[Making a result state its gaps changes what a second reader concludes from it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does a forced uncovered field change what a second reader believes" — moved under "Making a result state its gaps changes what a second reader concludes from it" — the belief this test measures now has a node of its own

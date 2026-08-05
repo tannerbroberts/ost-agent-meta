@@ -46,6 +46,6 @@ That makes nine sessions and seventeen recorded stops. It is also the sharpest i
 _Source: `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9`, read in full this pass — observed behavior from the agent's own transcript. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
 
 ## History
-- 2026-08-05 unlinked [[A question queue the run banks and works around, instead of stopping at the fork]] — re-parented under [[A run has no authority to decide anything, so every fork is a full stop]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[A standing authority contract naming which classes of decision compute may take alone]] — re-parented under [[A run has no authority to decide anything, so every fork is a full stop]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Take the fork, state the assumption, and price the reversal]] — re-parented under [[A run has no authority to decide anything, so every fork is a full stop]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "A question queue the run banks and works around, instead of stopping at the fork" — re-parented under "A run has no authority to decide anything, so every fork is a full stop" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "A standing authority contract naming which classes of decision compute may take alone" — re-parented under "A run has no authority to decide anything, so every fork is a full stop" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Take the fork, state the assumption, and price the reversal" — re-parented under "A run has no authority to decide anything, so every fork is a full stop" — this solution answers that need, not the categories beside it

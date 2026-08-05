@@ -25,4 +25,4 @@ evidence: assertion
 **The digest half of this node is not built** — there is no digest. Only `status` was touched.
 
 ## History
-- 2026-08-05 unlinked [[Five-second status glance test after a failed run]] — moved under [[Putting the failure first makes a human see it in a glance]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Five-second status glance test after a failed run" — moved under "Putting the failure first makes a human see it in a glance" — the belief this test measures now has a node of its own

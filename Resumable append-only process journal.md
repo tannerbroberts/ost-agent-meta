@@ -20,7 +20,7 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Kill-at-random-points restart test]] — moved under [[Killing the process at any instant leaves a state a restart can resume from]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Kill-at-random-points restart test" — moved under "Killing the process at any instant leaves a state a restart can resume from" — the belief this test measures now has a node of its own
 
 ## Supporting evidence — observed friction (2026-07-24)
 
@@ -28,7 +28,7 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 
 ## Definition of done
 
-[[Kill-at-random-points restart test]]
+"Kill-at-random-points restart test"
 
 ```
 npx vitest run test/loop/kill-restart-idempotence.test.ts

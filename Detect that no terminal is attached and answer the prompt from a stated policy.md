@@ -17,7 +17,7 @@ This is the only route that keeps the run going through a prompt rather than sto
 
 ## Definition of done
 
-[[Sort the observed prompts into safe-to-default and must-stop, and see whether a rule separates them]]
+"Sort the observed prompts into safe-to-default and must-stop, and see whether a rule separates them"
 
 `npx vitest run test/runner/no-tty-policy-answer.test.ts`
 
@@ -26,4 +26,4 @@ The spec asserts the boundary that makes this acceptable rather than reckless. W
 **What a green here does not settle.** Whether the policy's boundary is in the right place. The node states plainly that the grant of authority is a human's to set and not a pass's to widen, and a spec can only enforce the line someone drew — it cannot tell whether that line was drawn well, and it is the largest trust surface of the three siblings. Sorting the observed prompts into safe-to-default and must-stop is the humans-required judgement that produces the policy this spec would then defend.
 
 ## History
-- 2026-08-05 unlinked [[Sort the observed prompts into safe-to-default and must-stop, and see whether a rule separates them]] — moved under [[Safe-to-default prompts separate from must-stop ones by a rule someone can write down]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Sort the observed prompts into safe-to-default and must-stop, and see whether a rule separates them" — moved under "Safe-to-default prompts separate from must-stop ones by a rule someone can write down" — the belief this test measures now has a node of its own

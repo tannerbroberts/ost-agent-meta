@@ -18,7 +18,7 @@ _Addresses: "Trust an unmonitored agent enough to walk away". Unvalidated — hu
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test does the weekly digest make operators willing to walk away]] — moved under [[A weekly digest is enough to make an operator willing to walk away]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test does the weekly digest make operators willing to walk away" — moved under "A weekly digest is enough to make an operator willing to walk away" — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch duplicate (2026-07-24 review): near-identical to 'Push digest where stakeholders already are' under a different opportunity; 'A standing Next Build node the agent rewrites every pass' is a third flavor of the same genre. Consolidation candidate — duplicate solutions in two branches is the classic symptom of overlapping parent opportunities.

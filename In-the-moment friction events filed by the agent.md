@@ -20,11 +20,11 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Five-pass count of self-filed friction events]] — moved under [[An agent given a one-line channel at the point of pain will actually file]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Five-pass count of self-filed friction events" — moved under "An agent given a one-line channel at the point of pain will actually file" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Five-pass count of self-filed friction events]]
+"Five-pass count of self-filed friction events"
 
 ```
 npx vitest run test/telemetry/self-filed-friction-events.test.ts

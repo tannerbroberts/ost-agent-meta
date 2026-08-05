@@ -17,7 +17,7 @@ This is the cheapest possible intervention, because nothing is built. The rulese
 
 ## Definition of done
 
-[[Read past re-reads and judge how many caught something the caller did not already know]]
+"Read past re-reads and judge how many caught something the caller did not already know"
 
 ```
 npx vitest run test/mcp/sweep-version-and-delta.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/mcp/sweep-version-and-delta.test.ts
 Green means: the sweep can say whether anything changed — it carries a version, an unchanged tree returns the same version with an empty delta, and a re-read after a write reports which buckets moved. That is the precondition for the contract; a sweep that cannot express "nothing changed" gives a caller no reason not to re-ask. Green does **not** judge past re-reads for whether they were informative — that is a person's read of a historical trace.
 
 ## History
-- 2026-08-05 unlinked [[Read past re-reads and judge how many caught something the caller did not already know]] — moved under [[The re-reads this would remove were mostly not learning anything]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Read past re-reads and judge how many caught something the caller did not already know" — moved under "The re-reads this would remove were mostly not learning anything" — the belief this test measures now has a node of its own

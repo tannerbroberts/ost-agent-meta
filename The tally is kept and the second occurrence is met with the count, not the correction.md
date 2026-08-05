@@ -16,4 +16,4 @@ What changes is the caller's model of what is happening. Five separate messages 
 **What would make this the wrong pick.** Everything depends on the grouping. Two zsh failures with different messages are the same class, and two identical messages from different causes are not — get that wrong and the counter either never fires or cries wolf, and a wolf-crying counter is quickly ignored.
 
 ## History
-- 2026-08-05 unlinked [[Apply the escalating message to the five-failure session and check where it would have fired]] — moved under [[Error classes can be grouped so the counter fires on the second real repeat and changes behaviour]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Apply the escalating message to the five-failure session and check where it would have fired" — moved under "Error classes can be grouped so the counter fires on the second real repeat and changes behaviour" — the belief this test measures now has a node of its own

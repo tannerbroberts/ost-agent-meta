@@ -17,7 +17,7 @@ The asymmetry is what makes it work. An operator's tree is theirs and valuable a
 
 ## Definition of done
 
-[[Take a week of this vault's refusals and check whether any leaks content when quoted]]
+"Take a week of this vault's refusals and check whether any leaks content when quoted"
 
 ```
 npx vitest run test/security/refusal-redaction.test.ts
@@ -30,4 +30,4 @@ Green means every refusal this vault recorded in a week, run through the redacti
 **What green does NOT settle.** A string-matching check catches quoted content, not inferable content: a refusal that reveals nothing verbatim can still narrow what an outsider can guess about what this vault is for, and no spec of this shape sees that. The corpus is also one week of one vault whose subject is this product itself; a vault about something commercially sensitive has more to lose from the same text, and the human read this test also asks for is what would catch that.
 
 ## History
-- 2026-08-05 unlinked [[Take a week of this vault's refusals and check whether any leaks content when quoted]] — moved under [[A refusal can be reported without carrying any of the content it refused]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Take a week of this vault's refusals and check whether any leaks content when quoted" — moved under "A refusal can be reported without carrying any of the content it refused" — the belief this test measures now has a node of its own

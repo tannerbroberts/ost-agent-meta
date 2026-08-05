@@ -15,7 +15,7 @@ Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
 
 ## Definition of done
 
-[[Resume three handed-off passes from their recorded state and check they continue correctly]]
+"Resume three handed-off passes from their recorded state and check they continue correctly"
 
 ```
 npx vitest run test/loop/pass-resume-fidelity.test.ts
@@ -28,4 +28,4 @@ Green means three passes driven to a wait, serialized, and restarted from the re
 **What green does NOT settle.** It proves the state a pass knows it is holding survives the handoff. Whatever a pass was holding implicitly — a reading of the tree it never wrote down — is absent from the record and therefore absent from the comparison, so this cannot detect a category of context that was never a candidate for serialization in the first place.
 
 ## History
-- 2026-08-05 unlinked [[Resume three handed-off passes from their recorded state and check they continue correctly]] — moved under [[A pass can record enough state to be resumed without repeating work or inventing any]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Resume three handed-off passes from their recorded state and check they continue correctly" — moved under "A pass can record enough state to be resumed without repeating work or inventing any" — the belief this test measures now has a node of its own

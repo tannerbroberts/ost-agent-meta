@@ -13,13 +13,13 @@ evidence: assertion
 
 **Chief risk, stated plainly, and it is the interesting one:** the estimate confirms itself. Work never routed to a collaborator produces no evidence they could have done it, so an early low estimate suppresses exactly the assignments that would have corrected it, and the profile hardens around an accident of the first few weeks. Fixing that means deliberately routing against the current estimate sometimes — spending real work on exploration — and the operator pays for that in delivery, not in tokens. There is a second, worse failure: an outcome ledger over people is a performance record, and this vault has no ruling on who may read one.
 
-**Contrast with neighbors:** [[Attempt ledger of what was already tried]] records what the *tree* tried, so a later pass does not repeat it; this records what a *collaborator* was asked and what returned. [[A builder capability profile read off the work already committed, with no deposit asked for]] reads the artifact trail passively and is blind to work never assigned; this one is blind in the same place for a different reason — it never assigned it.
+**Contrast with neighbors:** "Attempt ledger of what was already tried" records what the *tree* tried, so a later pass does not repeat it; this records what a *collaborator* was asked and what returned. "A builder capability profile read off the work already committed, with no deposit asked for" reads the artifact trail passively and is blind to work never assigned; this one is blind in the same place for a different reason — it never assigned it.
 
 **Cost shape:** free to run, slow to converge, and it cannot say anything at all on day one.
 
 ## Definition of done
 
-[[Replay the routing record and count how many work classes ever reached more than one collaborator]]
+"Replay the routing record and count how many work classes ever reached more than one collaborator"
 
 ```
 npx vitest run test/product/routing-record-capability.test.ts
@@ -28,4 +28,4 @@ npx vitest run test/product/routing-record-capability.test.ts
 Green means the routing record can in fact support a capability estimate — and the count it returns is the honest limit on that estimate, because a work class only ever routed to one collaborator yields a comparison of one. It does not settle whether the estimate predicts anything about work not yet routed.
 
 ## History
-- 2026-08-05 unlinked [[Replay the routing record and count how many work classes ever reached more than one collaborator]] — moved under [[Work classes have been routed to more than one collaborator, so the record can compare them]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay the routing record and count how many work classes ever reached more than one collaborator" — moved under "Work classes have been routed to more than one collaborator, so the record can compare them" — the belief this test measures now has a node of its own

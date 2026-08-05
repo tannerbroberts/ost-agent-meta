@@ -19,7 +19,7 @@ instrument: npx vitest run test/telemetry/failure-shape-vs-meaning.test.ts
 - **meaning** — schema-valid, semantically wrong (nonexistent node, empty-but-typed string, wrong-but-well-formed title);
 - **neither** — an environment, permission, or filesystem failure the validator was never aimed at.
 
-**Pre-committed threshold.** **Shape errors at 50% or more of all failures** and the shipped validator stands as a substantially complete answer to its opportunity. **Below 50%** and the majority of real damage is semantic, and [[A tool call I got slightly wrong destroyed the note I was filing]] needs a sibling candidate aimed at meaning — an existence precheck on node titles, or a non-empty-content guard — rather than further schema work.
+**Pre-committed threshold.** **Shape errors at 50% or more of all failures** and the shipped validator stands as a substantially complete answer to its opportunity. **Below 50%** and the majority of real damage is semantic, and "A tool call I got slightly wrong destroyed the note I was filing" needs a sibling candidate aimed at meaning — an existence precheck on node titles, or a non-empty-content guard — rather than further schema work.
 
 **What a result must also state.** How many of the 62 were self-inflicted probes rather than genuine attempts. A day where 75 of 93 calls were `ost_annotate` against titles like `probe` and `x` looks like someone testing the tool surface, and probe failures should be reported separately rather than either counted or quietly dropped — they inflate the denominator and they are not the failure mode this branch is about.
 

@@ -17,7 +17,7 @@ Presenting a single most-efficient path hides the assumption that makes it effic
 
 ## Definition of done
 
-[[Produce three routes for one live branch and have a reader rank them without seeing the labels]]
+"Produce three routes for one live branch and have a reader rank them without seeing the labels"
 
 ```
 npx vitest run test/ost/routes-with-forecloses.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/ost/routes-with-forecloses.test.ts
 Green means: three routes come back for one branch, each naming its risk level and what choosing it forecloses, with the foreclosed sets differing between them — a route that forecloses nothing, or repeats a sibling's trade-off, fails. The forecloses field is the whole solution; three routes without it are three labels. Green does **not** perform the blind ranking, which needs a reader.
 
 ## History
-- 2026-08-05 unlinked [[Produce three routes for one live branch and have a reader rank them without seeing the labels]] — moved under [[Three routes differ enough in kind that a reader can rank them without the labels]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Produce three routes for one live branch and have a reader rank them without seeing the labels" — moved under "Three routes differ enough in kind that a reader can rank them without the labels" — the belief this test measures now has a node of its own

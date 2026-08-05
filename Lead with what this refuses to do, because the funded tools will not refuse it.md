@@ -16,4 +16,4 @@ The wager is that generated discovery artefacts have a credibility problem, and 
 **What would make this the wrong pick.** It assumes buyers punish overclaiming. They may instead prefer the tool that says yes, and experience the refusals as the product being worse. That is the desirability assumption underneath the whole position, and it is entirely untested here.
 
 ## History
-- 2026-08-05 unlinked [[Pitch the refusals to ten prospects and count who treats them as a feature]] — moved under [[Buyers treat refusals as trustworthiness rather than as the product being worse]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Pitch the refusals to ten prospects and count who treats them as a feature" — moved under "Buyers treat refusals as trustworthiness rather than as the product being worse" — the belief this test measures now has a node of its own

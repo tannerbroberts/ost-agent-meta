@@ -43,13 +43,13 @@ The section above was written by the 2026-08-04 sweep, which read 23 items, clea
 | Already dispositioned by a prior explicit ruling (`USAGE:` clean days, "a clean day reveals no need of its own") | 3 |
 | Genuinely reveals no need and nobody should act on it | **0** |
 
-Zero. Every one of the 23 was *used* — the pass wrote seven substantial corroboration sections from them onto [[My loop spends its time waiting for a check it cannot subscribe to]], [[The same refusal is rediscovered every session, because nothing carries the lesson forward]], [[I repeat one shell mistake five times in a session, because the first failure never said it was a class]], [[I probe for files that were never there, because nothing hands me the layout of the workspace I am in]], [[My unattended run stops at a prompt that assumes a person is sitting there]], [[Answering one question costs me three turns, because I have to fix its options before I can reply]], [[The file changed after I read it, and the failed edit is how I find out]] and [[Two thirds of my calls failed, and each one only told me after I made it]] — and not one of them was a case for "I looked at this, and the right action is none".
+Zero. Every one of the 23 was *used* — the pass wrote seven substantial corroboration sections from them onto "My loop spends its time waiting for a check it cannot subscribe to", "The same refusal is rediscovered every session, because nothing carries the lesson forward", "I repeat one shell mistake five times in a session, because the first failure never said it was a class", "I probe for files that were never there, because nothing hands me the layout of the workspace I am in", "My unattended run stops at a prompt that assumes a person is sitting there", "Answering one question costs me three turns, because I have to fix its options before I can reply", "The file changed after I read it, and the failed edit is how I find out" and "Two thirds of my calls failed, and each one only told me after I made it" — and not one of them was a case for "I looked at this, and the right action is none".
 
 **So the verb this node proposes would have been used zero times on the largest stranded set this vault has ever held.** The cheaper mechanism the section above floated as a possible narrowing — *let an existing node take an additional `source`* — would have cleared 20 of 23 on its own, and the remaining 3 were cleared years-of-vault-time ago by a written ruling that simply had no way to be recorded in frontmatter.
 
-That is now a measured claim rather than a guess, and it argues for a specific ordering: build the additional-`source` route first, then re-measure how many items are left that no node wants to cite. If the answer stays near zero, this node is a solution to a problem the vault does not have, and the honest end for it is `deferred` with a pointer. This pass is not making that call — it is the party that just spent an hour producing the number, and [[Worry the agent is grading its own homework]] names exactly why that party should not rule on it.
+That is now a measured claim rather than a guess, and it argues for a specific ordering: build the additional-`source` route first, then re-measure how many items are left that no node wants to cite. If the answer stays near zero, this node is a solution to a problem the vault does not have, and the honest end for it is `deferred` with a pointer. This pass is not making that call — it is the party that just spent an hour producing the number, and "Worry the agent is grading its own homework" names exactly why that party should not rule on it.
 
-**One caveat that keeps this node alive.** The classification above is the sweep's own judgement about its own work, and "every item I read turned out to be useful" is precisely the conclusion a pass reaching for justification would reach. [[Blind-review a pass's acknowledge-or-map calls on the seven stranded items]] is the test that would check it, and it is unrun; it should be re-scoped to twenty-three.
+**One caveat that keeps this node alive.** The classification above is the sweep's own judgement about its own work, and "every item I read turned out to be useful" is precisely the conclusion a pass reaching for justification would reach. "Blind-review a pass's acknowledge-or-map calls on the seven stranded items" is the test that would check it, and it is unrun; it should be re-scoped to twenty-three.
 
 Evidence class: a census of this vault's own state, taken by the pass that hit the wall. Assertion about the artifact, not a measurement of anyone's behaviour.
 
@@ -58,7 +58,7 @@ Evidence class: a census of this vault's own state, taken by the pass that hit t
 
 ## Definition of done
 
-[[Have a human review a pass's acknowledgements and count how many were avoidance]]
+"Have a human review a pass's acknowledgements and count how many were avoidance"
 
 `npx vitest run test/ost/acknowledge-evidence.test.ts`
 
@@ -96,4 +96,4 @@ The pressure this creates is the thing worth naming: the only way for a pass to 
 One thing this census does not establish: that every one of the eighteen was *well* filed. It counts citations, not judgement. Whether the filing was accurate is what "Have a human review a pass's acknowledgements and count how many were avoidance" is for, and that remains unrun.
 
 ## History
-- 2026-08-05 unlinked [[Have a human review a pass's acknowledgements and count how many were avoidance]] — moved under [[A pass that can dismiss its own backlog will not use it to avoid work that mattered]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have a human review a pass's acknowledgements and count how many were avoidance" — moved under "A pass that can dismiss its own backlog will not use it to avoid work that mattered" — the belief this test measures now has a node of its own

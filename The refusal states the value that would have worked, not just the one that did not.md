@@ -17,7 +17,7 @@ The tree's own trace shows the difference this makes. The three failed calls on 
 
 ## Definition of done
 
-[[Check whether naming the acceptable rung leads callers to take it without new grounds]]
+"Check whether naming the acceptable rung leads callers to take it without new grounds"
 
 ```
 npx vitest run test/telemetry/rung-suggestion-reflex.test.ts
@@ -28,4 +28,4 @@ Red today for two compounding reasons: the refusal does not name the acceptable 
 Read the green narrowly. Taking the named ceiling is often correct, because it may be the honest rung; separating a reflexive acceptance from a right one means reading the justification, which is a judgement. **This command produces the flag, never the verdict** — and a solution whose whole risk is that a helpful message becomes an autocomplete is one where mistaking the flag for the verdict is the specific way a reader gets it wrong.
 
 ## History
-- 2026-08-05 unlinked [[Check whether naming the acceptable rung leads callers to take it without new grounds]] — moved under [[Naming the acceptable value does not become a way to take it without grounds]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check whether naming the acceptable rung leads callers to take it without new grounds" — moved under "Naming the acceptable value does not become a way to take it without grounds" — the belief this test measures now has a node of its own

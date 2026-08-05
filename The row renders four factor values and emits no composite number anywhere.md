@@ -23,7 +23,7 @@ instrument: npx vitest run test/ost/factor-table-no-composite.test.ts
 
 **What a green result does NOT settle, and this is the parent's own strongest objection.** The factors that have actually driven this tree's real decisions — the founder's free-distribution call, the evidence-debt gates, the WIP limit, the sequencing of the cold-offer test — are not recoverable from the vault. A green table renders four columns of correct values for a row and still misses the thing that put that row where it is. The gate/decision column is a boolean standing in for a paragraph, and the parent says so. No exit code detects a table that is right about everything cheap and silent about everything that mattered.
 
-Nor does it settle whether an operator forms a better view from factor values than from an order — [[Hand-label the gated rows and check whether a detector agrees]] is the sibling that needs a person's labels.
+Nor does it settle whether an operator forms a better view from factor values than from an order — "Hand-label the gated rows and check whether a detector agrees" is the sibling that needs a person's labels.
 
 **Lane: compute-only.** Fixture vault, the four extractors, and a scan of the rendered output; no person is the measurement.
 

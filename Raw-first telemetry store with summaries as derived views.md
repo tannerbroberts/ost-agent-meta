@@ -18,11 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Replay one week of raw events against five questions the rollup cannot answer]] — moved under [[Keeping the raw stream lets new questions be asked of history already collected]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay one week of raw events against five questions the rollup cannot answer" — moved under "Keeping the raw stream lets new questions be asked of history already collected" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Replay one week of raw events against five questions the rollup cannot answer]]
+"Replay one week of raw events against five questions the rollup cannot answer"
 
 ```
 npx vitest run test/telemetry/raw-event-question-coverage.test.ts

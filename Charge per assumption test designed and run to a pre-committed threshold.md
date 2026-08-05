@@ -18,4 +18,4 @@ This prices the only step in the whole process that produces new knowledge. Mapp
 Whether anyone would pay this is a question for customers. Nothing here is validated.
 
 ## History
-- 2026-08-05 unlinked [[Ask ten buyers to split a test's price between designing it and running it]] — moved under [[Buyers value the design of a test, not just the running of it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Ask ten buyers to split a test's price between designing it and running it" — moved under "Buyers value the design of a test, not just the running of it" — the belief this test measures now has a node of its own

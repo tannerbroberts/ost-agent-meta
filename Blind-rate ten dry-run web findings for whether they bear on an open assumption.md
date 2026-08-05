@@ -9,7 +9,7 @@ instrument: npx vitest run test/web/research-loop-provenance.test.ts
 
 **Risk category: viability.** Whether the loop's output is worth the money and the mapping attention it consumes.
 
-**The assumption under test.** That an autonomous research loop stays tethered to the tree rather than drifting into generic reading. The solution node names this itself ("the loop can stay relevant to the tree rather than drifting"), and it is the assumption that decides the whole candidate: a loop producing plausible-but-untethered articles does not merely fail to help, it floods the inbox that [[The pass never says it is done, so I can't tell when to stop paying for compute]] already shows cannot be drained.
+**The assumption under test.** That an autonomous research loop stays tethered to the tree rather than drifting into generic reading. The solution node names this itself ("the loop can stay relevant to the tree rather than drifting"), and it is the assumption that decides the whole candidate: a loop producing plausible-but-untethered articles does not merely fail to help, it floods the inbox that "The pass never says it is done, so I can't tell when to stop paying for compute" already shows cannot be drained.
 
 **The test (one shot, no loop, no schedule).** Run the derive-and-search step **once, by hand**, against the tree's current open assumptions. Produce exactly 10 candidate findings with provenance. Then have a rater who has not seen the search queries judge each finding against one question only: **does this bear on a specific named open assumption or opportunity in the tree — yes or no?** The rater is shown the finding and the tree, not the query that produced it, so relevance cannot be graded on the intent behind the search.
 

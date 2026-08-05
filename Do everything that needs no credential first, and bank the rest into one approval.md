@@ -17,7 +17,7 @@ The operator is still in the loop, and deliberately so — this does not try to 
 
 ## Definition of done
 
-[[Classify the steps of ten past runs as credentialed or not, and see how much work sits upstream]]
+"Classify the steps of ten past runs as credentialed or not, and see how much work sits upstream"
 
 ```
 npx vitest run test/loop/credentialed-step-independence.test.ts
@@ -30,4 +30,4 @@ That is the number this whole reordering rests on. If most of a run's work sits 
 What it does not settle: past runs were written by an agent that stopped at the first block, so their step order already reflects that habit. A run designed to defer credentialed work might sequence itself quite differently, and this replay cannot see that counterfactual.
 
 ## History
-- 2026-08-05 unlinked [[Classify the steps of ten past runs as credentialed or not, and see how much work sits upstream]] — moved under [[Credentialed steps sit late in a run rather than upstream of everything else]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Classify the steps of ten past runs as credentialed or not, and see how much work sits upstream" — moved under "Credentialed steps sit late in a run rather than upstream of everything else" — the belief this test measures now has a node of its own

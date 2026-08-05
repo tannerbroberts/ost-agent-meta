@@ -9,7 +9,7 @@ evidence: assertion
 
 **The idea.** Before a session ends, the agent writes one short structured retrospective: the wrong turn it took, roughly what that turn cost, and what it would have needed to know at the start to avoid it. Not a summary of what it did — a confession of where it was confused. It lands in the inbox like any other evidence item, with the session id as provenance.
 
-**Why this is not [[In-the-moment friction events filed by the agent]].** That sibling fires at the moment of pain, which is exactly when a conceptual mistake is invisible: an agent halfway down a wrong framing does not know it is on one, and the thing it would file is "this is going fine." Conceptual friction is only legible *after* the reversal — the moment you discover the approach was wrong is the moment you can name it. In-the-moment filing catches surprises; a retrospective catches misconceptions. They are complementary, not redundant, and the census on the parent argues for both: 82 mechanical events in 24 sessions, and not one of them is a misconception.
+**Why this is not "In-the-moment friction events filed by the agent".** That sibling fires at the moment of pain, which is exactly when a conceptual mistake is invisible: an agent halfway down a wrong framing does not know it is on one, and the thing it would file is "this is going fine." Conceptual friction is only legible *after* the reversal — the moment you discover the approach was wrong is the moment you can name it. In-the-moment filing catches surprises; a retrospective catches misconceptions. They are complementary, not redundant, and the census on the parent argues for both: 82 mechanical events in 24 sessions, and not one of them is a misconception.
 
 **The obvious weakness, stated up front.** This is self-report by the party whose confusion is being reported, at the end of a session it wants to declare successful. Every known bias runs the wrong way: retrospectives will under-report, will be written to look competent, and will be thinnest exactly in the sessions that went worst. Compare that against its one real advantage — it is the only mechanism here that has access to *why* the agent believed what it believed, which neither an outside reader nor an artifact scan can recover.
 
@@ -19,7 +19,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Check three past pass notes for the wrong turn they left out]]
+"Check three past pass notes for the wrong turn they left out"
 
 `npx vitest run test/adapters/session-retrospective.test.ts`
 
@@ -28,4 +28,4 @@ The spec asserts the design question the node says this candidate must survive �
 **What a green here does not settle, and every bias runs the wrong way.** This is self-report by the party whose confusion is being reported, at the end of a session it wants to declare successful. Retrospectives will under-report, will be written to look competent, and will be thinnest exactly where the session went worst — a spec can force the field to exist and cannot make it honest. Reading three past pass notes for the wrong turn they left out is the humans-required check, and it is the only thing that would catch a fluent, silent omission.
 
 ## History
-- 2026-08-05 unlinked [[Check three past pass notes for the wrong turn they left out]] — moved under [[An agent can identify its own wrong turn well enough for the retrospective to be worth reading]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check three past pass notes for the wrong turn they left out" — moved under "An agent can identify its own wrong turn well enough for the retrospective to be worth reading" — the belief this test measures now has a node of its own

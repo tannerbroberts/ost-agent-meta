@@ -16,4 +16,4 @@ There is a second effect worth as much as the first: a change to the product and
 **What would make this the wrong pick.** One tree per product is the rule, but products and repositories are not the same thing. A product spread across four repositories has no obvious home, and a monorepo holding six products has too many.
 
 ## History
-- 2026-08-05 unlinked [[Check what would actually have to be redacted before a vault could live in a shared repo]] — moved under [[A vault could live in a shared repository with little enough redaction, decided by a stated rule]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check what would actually have to be redacted before a vault could live in a shared repo" — moved under "A vault could live in a shared repository with little enough redaction, decided by a stated rule" — the belief this test measures now has a node of its own

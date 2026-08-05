@@ -20,7 +20,7 @@ evidence: assertion
 ## Issues
 - 2026-07-27 SHIPPED, v0.18.0, 2026-07-27 (eleventh pass) — and shipped in the shape its own assumption test prescribed rather than the shape this node proposed.
 
-[[Sweep both vault histories for writes that landed as undefined or empty]] was run FIRST, with its threshold fixed in advance. It found 21 undefined / 0 empty / 0 truncated across 306 annotation entries in both vaults, so the assumption held and this guard ships as a TRIPWIRE for one known shape — not as the primary fix it would have become had the sweep refuted.
+"Sweep both vault histories for writes that landed as undefined or empty" was run FIRST, with its threshold fixed in advance. It found 21 undefined / 0 empty / 0 truncated across 306 annotation entries in both vaults, so the assumption held and this guard ships as a TRIPWIRE for one known shape — not as the primary fix it would have become had the sweep refuted.
 
 Implementation: the guard sits in Vault, at the single point every node write funnels through, so it holds for entry points that do not exist yet. Covered: createNode, appendToNode, appendUnderSection, annotate, and the optional notes on setStatus, setEvidence, setLane.
 
@@ -29,4 +29,4 @@ The distinction this node predicted turned out to be the whole design, and it is
 21 tests, verified failing first (18 failed / 3 passed before the guard, where the 3 passing were the must-still-be-allowed cases). Full suite 482 tests / 64 files green, tsc clean. Published to npm as 0.18.0 via workflow_dispatch; registry confirms latest = 0.18.0.
 
 ## History
-- 2026-08-05 unlinked [[Sweep both vault histories for writes that landed as undefined or empty]] — moved under [[Empty and undefined writes actually landed in the vault histories]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Sweep both vault histories for writes that landed as undefined or empty" — moved under "Empty and undefined writes actually landed in the vault histories" — the belief this test measures now has a node of its own

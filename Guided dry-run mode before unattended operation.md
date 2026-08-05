@@ -18,11 +18,11 @@ _Addresses: "Trust an unmonitored agent enough to walk away". Unvalidated — hu
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test does a supervised dry run raise willingness to enable cron]] — moved under [[Watching one supervised pass raises an operator's willingness to enable unattended runs]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test does a supervised dry run raise willingness to enable cron" — moved under "Watching one supervised pass raises an operator's willingness to enable unattended runs" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test does a supervised dry run raise willingness to enable cron]]
+"Test does a supervised dry run raise willingness to enable cron"
 
 ```
 npx vitest run test/loop/dry-run-no-writes.test.ts

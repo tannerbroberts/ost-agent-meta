@@ -16,9 +16,9 @@ instrument: npx vitest run test/mcp/refusal-shows-current-text.test.ts
 
 **Why this test is unusually decisive for its cost.** The population is the entire known population — not a sample of six, but all six. There is no sampling error to argue about, and the whole apparatus is git history plus six transcripts.
 
-**Why 4 of 6 rather than 5.** The two failures whose cause was a genuinely vanished target are expected to fail, and should: this candidate does not claim to fix those, [[Carry a content hash from read to write and refuse on drift, naming what drifted]] does. A score of exactly 4 with the two misses being drift cases is a *clean* result, not a marginal one, because it confirms the two siblings are complements rather than rivals.
+**Why 4 of 6 rather than 5.** The two failures whose cause was a genuinely vanished target are expected to fail, and should: this candidate does not claim to fix those, "Carry a content hash from read to write and refuse on drift, naming what drifted" does. A score of exactly 4 with the two misses being drift cases is a *clean* result, not a marginal one, because it confirms the two siblings are complements rather than rivals.
 
-**What makes the result worth acting on immediately.** This is the cheapest candidate in its row — a change to a message, no new state — and [[Two thirds of my calls failed, and each one only told me after I made it]] reached the same recommendation from an unrelated channel. A pass here is close to a decision.
+**What makes the result worth acting on immediately.** This is the cheapest candidate in its row — a change to a message, no new state — and "Two thirds of my calls failed, and each one only told me after I made it" reached the same recommendation from an unrelated channel. A pass here is close to a decision.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
 

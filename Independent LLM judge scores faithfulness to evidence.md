@@ -18,14 +18,14 @@ _Addresses: "Can't tell if the generated tree is actually any good". Also suppor
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test does the LLM judge agree with human faithfulness ratings]] — moved under [[An LLM judge's faithfulness ratings agree with a human's]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test does the LLM judge agree with human faithfulness ratings" — moved under "An LLM judge's faithfulness ratings agree with a human's" — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent judge separate from the proposer' and 'Adversarial grounding judge' — a second pass with no stake reviews nodes against evidence. One build satisfies all three; consolidation candidate.
 
 ## Definition of done
 
-[[Test does the LLM judge agree with human faithfulness ratings]]
+"Test does the LLM judge agree with human faithfulness ratings"
 
 ```
 npx vitest run test/eval/faithfulness-judge.test.ts

@@ -14,4 +14,4 @@ A small authenticated endpoint accepts posted results and files them as evidence
 **What would make this the wrong pick.** It puts a listening service in the loop, with the reachability, authentication, and replay problems that come with one — and a missed delivery is invisible, where a failed pull is at least a channel reporting that it could not read. For a single-operator vault on a laptop, that may be more surface than the latency is worth.
 
 ## History
-- 2026-08-05 unlinked [[Count how many of the operator's real experiment sources can push anywhere at all]] — moved under [[The operator's real experiment sources can push anywhere at all]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how many of the operator's real experiment sources can push anywhere at all" — moved under "The operator's real experiment sources can push anywhere at all" — the belief this test measures now has a node of its own

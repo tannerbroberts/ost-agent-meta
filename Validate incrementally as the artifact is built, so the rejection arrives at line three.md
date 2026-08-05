@@ -18,11 +18,11 @@ evidence: assertion
 
 ## Definition of done
 
-[[Check a partial artifact is rejected at the offending line rather than at submission]]
+"Check a partial artifact is rejected at the offending line rather than at submission"
 
 `npx vitest run test/eval/incremental-parse.test.ts`
 
 A three-line fragment containing a type annotation is rejected at its own line, and incompleteness is not itself an error — that second clause is the one that decides whether this node is buildable, since a parser which only accepts whole input has nothing to offer a partial artifact. Red today because parsing happens at submission and nowhere else.
 
 ## History
-- 2026-08-05 unlinked [[Check a partial artifact is rejected at the offending line rather than at submission]] — moved under [[Artifacts are composed incrementally, so there is a line three at which to check]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check a partial artifact is rejected at the offending line rather than at submission" — moved under "Artifacts are composed incrementally, so there is a line three at which to check" — the belief this test measures now has a node of its own

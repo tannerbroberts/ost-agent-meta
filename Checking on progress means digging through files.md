@@ -21,6 +21,6 @@ Evidence: `INBOX:2026-07-24-opp-stakeholder-progress-view.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Push digest where stakeholders already are]] — re-parented under [[Nothing brings the tree's state to me, so staying current means going and reading it]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Rendered tree view with diff since last visit]] — re-parented under [[Nothing brings the tree's state to me, so staying current means going and reading it]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Ask-anything conversational status]] — re-parented under [[Nothing brings the tree's state to me, so staying current means going and reading it]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Push digest where stakeholders already are" — re-parented under "Nothing brings the tree's state to me, so staying current means going and reading it" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Rendered tree view with diff since last visit" — re-parented under "Nothing brings the tree's state to me, so staying current means going and reading it" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Ask-anything conversational status" — re-parented under "Nothing brings the tree's state to me, so staying current means going and reading it" — this solution answers that need, not the categories beside it

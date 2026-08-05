@@ -15,7 +15,7 @@ threshold before starting" cannot be refuted, and an irrefutable result is the t
 this whole product exists to keep out of the tree.
 
 **Approach.** Reuse the classification from
-[[Flag a threshold that is still an instruction to choose one]] at the write
+"Flag a threshold that is still an instruction to choose one" at the write
 boundary rather than the read one. The refusal names the node and prints what it
 found, so fixing it is one edit.
 
@@ -43,11 +43,11 @@ costs the whole recording.
 version, and it should stay behind it.
 
 ## History
-- 2026-08-05 unlinked [[Replay all existing tests to count how many a refusal would have blocked]] — moved under [[Refusing an unfixed threshold blocks few enough filings to be a guard rather than a wall]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay all existing tests to count how many a refusal would have blocked" — moved under "Refusing an unfixed threshold blocks few enough filings to be a guard rather than a wall" — the belief this test measures now has a node of its own
 
 ## Proving this
 
-[[Replay all existing tests to count how many a refusal would have blocked]]
+"Replay all existing tests to count how many a refusal would have blocked"
 
 ```
 npx vitest run test/ost/unfixed-threshold-refusal-census.test.ts

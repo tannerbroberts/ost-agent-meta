@@ -17,11 +17,11 @@ Build an index of what the project exports and what its types carry, and put it 
 
 ## Test
 
-[[Rebuild the symbol index at the commit that failed, and check it would have named the right symbol]]
+"Rebuild the symbol index at the commit that failed, and check it would have named the right symbol"
 
 `npx vitest run test/runner/symbol-index.test.ts`
 
 Green when the index, built against the failing commit, reports `reconcileWithUsage` absent, `reconcileWithGit` present, and `configProblem` absent from `ToolContext`. Feasibility only — it does not show a run would consult the index, or that anyone wants it.
 
 ## History
-- 2026-08-05 unlinked [[Rebuild the symbol index at the commit that failed, and check it would have named the right symbol]] — moved under [[An index built from the repository state would have named the right symbol before the compile did]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Rebuild the symbol index at the commit that failed, and check it would have named the right symbol" — moved under "An index built from the repository state would have named the right symbol before the compile did" — the belief this test measures now has a node of its own

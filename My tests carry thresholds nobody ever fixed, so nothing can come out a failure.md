@@ -49,15 +49,15 @@ and "an instruction to set one" is fuzzy, and the cheap mechanical version of th
 (does the sentence start with an imperative verb) will be wrong at the edges. A rule
 that nags about well-written thresholds gets turned off, and then the genuinely empty
 ones come back with it. Whatever gets built here should be a *report* before it is
-ever a *refusal* — which is the order [[Flag a threshold that is still an instruction to choose one]]
-and [[Refuse to record a result against a threshold that was never fixed]] are
+ever a *refusal* — which is the order "Flag a threshold that is still an instruction to choose one"
+and "Refuse to record a result against a threshold that was never fixed" are
 deliberately proposed in.
 
 **Provenance:** agent-origin — a fact about two vaults inside this building,
 mechanically checked, not a sentence from any user. It sits at the `assertion` floor
 for the same reason everything else does, and it is another instance of the hole
-[[A Context node type for evidence that is true, useful, and not a customer need]]
+"A Context node type for evidence that is true, useful, and not a customer need"
 describes: verified fact about our own system, weighted like founder theory.
 
 ## History
-- 2026-08-05 unlinked [[Do named unfixed thresholds actually get fixed]] — not a parent-child relation the OST hierarchy supports — every tree walk counted it as structure, so a cross-reference read as a child
+- 2026-08-05 unlinked "Do named unfixed thresholds actually get fixed" — not a parent-child relation the OST hierarchy supports — every tree walk counted it as structure, so a cross-reference read as a child

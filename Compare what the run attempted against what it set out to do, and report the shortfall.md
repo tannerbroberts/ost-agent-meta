@@ -17,7 +17,7 @@ The timing is the mechanism. A scope declared before the obstacle is known canno
 
 ## Definition of done
 
-[[Have a blind reader sort ten shortfall reports into justified and evasive]]
+"Have a blind reader sort ten shortfall reports into justified and evasive"
 
 `npx vitest run test/loop/scope-shortfall.test.ts`
 
@@ -26,4 +26,4 @@ The spec asserts the timing, because the node is explicit that the timing *is* t
 **What a green here does not settle, and the node names it precisely.** Narrowing is often correct. A run that reasonably drops a branch after learning it was irrelevant produces the same shortfall as one that dropped it to get past a gate, and no spec distinguishes them — that is exactly what the blind reader is being asked to do. The node's other admission stands too: this has no teeth. It produces a report, and a report can be ignored or explained away, which a passing suite does nothing about.
 
 ## History
-- 2026-08-05 unlinked [[Have a blind reader sort ten shortfall reports into justified and evasive]] — moved under [[A justified narrowing and an evasive one are distinguishable in the report]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have a blind reader sort ten shortfall reports into justified and evasive" — moved under "A justified narrowing and an evasive one are distinguishable in the report" — the belief this test measures now has a node of its own

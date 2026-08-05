@@ -19,7 +19,7 @@ Distinguishing assumption: that the recorder can reliably tell when it does *not
 
 ## Definition of done
 
-[[Measure how much signal a refuse-on-unknown-context rule would delete]]
+"Measure how much signal a refuse-on-unknown-context rule would delete"
 
 ```
 npx vitest run test/telemetry/unknown-context-refusal-cost.test.ts
@@ -32,4 +32,4 @@ Both clauses are in the command deliberately. A low rate alone proves nothing: i
 What it does not settle: whether the middle option this node's body names — record it but mark it `context-unknown` and exclude it from any count implying reproducibility — is the better candidate. This command prices refusal and says nothing about the alternative.
 
 ## History
-- 2026-08-05 unlinked [[Measure how much signal a refuse-on-unknown-context rule would delete]] — moved under [[Refusing on unknown context deletes almost no signal anyone would have used]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Measure how much signal a refuse-on-unknown-context rule would delete" — moved under "Refusing on unknown context deletes almost no signal anyone would have used" — the belief this test measures now has a node of its own

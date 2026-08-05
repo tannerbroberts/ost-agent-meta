@@ -18,4 +18,4 @@ The ladder, the provenance, and the append-only history are all directly legible
 Who this is for is a question for people who are not the author. Nothing here is validated, and no interview has been run.
 
 ## History
-- 2026-08-05 unlinked [[Ask ten PMs to recount the last time they were asked how they knew, and what they showed]] — moved under [[A PM defending a roadmap would show an honestly weak rung rather than hide it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Ask ten PMs to recount the last time they were asked how they knew, and what they showed" — moved under "A PM defending a roadmap would show an honestly weak rung rather than hide it" — the belief this test measures now has a node of its own

@@ -17,11 +17,11 @@ The vault already has the shape of this — the ingest surface reports per-chann
 
 ## Test
 
-[[Write one adapter against the messiest source and time how long it stays working]]
+"Write one adapter against the messiest source and time how long it stays working"
 
 `npx vitest run test/adapters/messiest-source-replay.test.ts`
 
 Green when the adapter parses every historical snapshot of that source in order. Durability by proxy — it means "would not have broken over the period on record", never "will not break next". It is blind to auth, rate-limit and endpoint changes, which are the failures that actually kill pull adapters.
 
 ## History
-- 2026-08-05 unlinked [[Write one adapter against the messiest source and time how long it stays working]] — moved under [[An adapter against a passive source can be built quickly and keeps working without attention]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Write one adapter against the messiest source and time how long it stays working" — moved under "An adapter against a passive source can be built quickly and keeps working without attention" — the belief this test measures now has a node of its own

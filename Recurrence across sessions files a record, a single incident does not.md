@@ -15,7 +15,7 @@ Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
 
 ## Definition of done
 
-[[Replay the same 29 records through the recurrence rule and count what files]]
+"Replay the same 29 records through the recurrence rule and count what files"
 
 ```
 npx vitest run test/adapters/recurrence-rule-filing.test.ts
@@ -30,4 +30,4 @@ Green means the rule, replayed over the same 29 harvested records the surface ru
 **What green does NOT settle.** Repetition is a proxy for significance, and the proxy is the assumption. A failure that happened once and mattered enormously is filed by neither rule, and nothing in this command would show it.
 
 ## History
-- 2026-08-05 unlinked [[Replay the same 29 records through the recurrence rule and count what files]] — moved under [[Repetition across sessions is a good enough filter for what deserves a record]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay the same 29 records through the recurrence rule and count what files" — moved under "Repetition across sessions is a good enough filter for what deserves a record" — the belief this test measures now has a node of its own

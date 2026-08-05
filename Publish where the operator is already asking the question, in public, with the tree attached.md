@@ -16,4 +16,4 @@ What makes this plausible rather than generic content marketing is that the outp
 **What would make this the wrong pick.** Publishing a real vault means publishing real evidence, and a vault about the author's own product is one thing while a customer's vault is quite another. This route works for exactly as long as the author is the only customer.
 
 ## History
-- 2026-08-05 unlinked [[Publish six pieces over six weeks and count strangers who arrive and try it]] — moved under [[Publishing real discovery work brings strangers who try it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Publish six pieces over six weeks and count strangers who arrive and try it" — moved under "Publishing real discovery work brings strangers who try it" — the belief this test measures now has a node of its own

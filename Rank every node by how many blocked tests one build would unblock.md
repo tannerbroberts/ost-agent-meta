@@ -22,4 +22,4 @@ evidence: assertion
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Hand-compute unblock counts and see if the operator's pick changes]] — moved under [[Unblock count changes which node an operator actually picks]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Hand-compute unblock counts and see if the operator's pick changes" — moved under "Unblock count changes which node an operator actually picks" — the belief this test measures now has a node of its own

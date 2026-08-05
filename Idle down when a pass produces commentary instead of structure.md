@@ -28,7 +28,7 @@ Creates, then appends, then commentary on the root. The transition is legible fr
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Paper-classify the existing commit history as structure versus commentary]] — moved under [[Structure and commentary are separable from the shape of the output alone]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Paper-classify the existing commit history as structure versus commentary" — moved under "Structure and commentary are separable from the shape of the output alone" — the belief this test measures now has a node of its own
 
 ## Observed from inside (2026-07-25, twenty-passes run)
 
@@ -36,7 +36,7 @@ Creates, then appends, then commentary on the root. The transition is legible fr
 
 ## Definition of done
 
-[[Paper-classify the existing commit history as structure versus commentary]]
+"Paper-classify the existing commit history as structure versus commentary"
 
 ```
 npx vitest run test/loop/pass-shape-classifier.test.ts

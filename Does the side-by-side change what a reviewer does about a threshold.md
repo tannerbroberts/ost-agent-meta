@@ -13,7 +13,7 @@ merely what they could see if they read carefully.
 **Why it is the riskiest assumption under this solution.** Feasibility is settled: it
 shipped, and it works on real prose in both vaults. Cost is known and small. What is
 unknown is whether a report changes behaviour. The sibling
-[[Does a forced uncovered field change what a second reader believes]] asks whether
+"Does a forced uncovered field change what a second reader believes" asks whether
 the *statement* changes a conclusion; this asks whether the *pairing* changes an
 action. Both could be no. Reports are the classic thing an operator learns to scroll
 past, and this one appears inside a command that already prints two lists and a

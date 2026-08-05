@@ -17,7 +17,7 @@ The trade is explicit: some work will be done on assumptions that turn out wrong
 
 ## Definition of done
 
-[[Sort the seven questions by reversal cost and count how many were safe to default]]
+"Sort the seven questions by reversal cost and count how many were safe to default"
 
 `npx vitest run test/loop/question-banking.test.ts`
 
@@ -26,4 +26,4 @@ The spec asserts the guard that separates this from the version that destroys mo
 **What a green here does not settle.** Whether the defaults were any good. The node names the real hazard concretely — deleting a command, deprecating a published package, choosing where work happens were among the seven in the evidence, and a run that defaulted wrongly on those has already done the damage by the time the operator reads the bank. A spec can prove the structural questions were refused a default; it cannot price a reversal, and it cannot tell whether the operator will actually revisit the ones they disagree with rather than accepting a finished run. This is also the option the node says "requires the most trust", and trust is not a suite's output.
 
 ## History
-- 2026-08-05 unlinked [[Sort the seven questions by reversal cost and count how many were safe to default]] — moved under [[The forks a run meets are mostly cheap to reverse, and the expensive ones are recognisable in advance]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Sort the seven questions by reversal cost and count how many were safe to default" — moved under "The forks a run meets are mostly cheap to reverse, and the expensive ones are recognisable in advance" — the belief this test measures now has a node of its own

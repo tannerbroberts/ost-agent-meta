@@ -17,7 +17,7 @@ The evidence makes the case precisely: one session missed `/Users/tanner/dev/ost
 
 ## Definition of done
 
-[[Draft the workspace map and check how many past failed lookups it would have answered]]
+"Draft the workspace map and check how many past failed lookups it would have answered"
 
 ```
 npx vitest run test/runner/workspace-map-coverage.test.ts
@@ -30,4 +30,4 @@ Green means a rendered workspace map that serializes under 2,000 characters answ
 **What green does NOT settle.** It scores the map against paths that were reached for by a run that had no map, which is a corpus shaped by the absence of the thing being tested. It says nothing about staleness — a map handed over at the first action and wrong by the fortieth — and nothing about whether a run that is handed a map actually consults it rather than probing anyway.
 
 ## History
-- 2026-08-05 unlinked [[Draft the workspace map and check how many past failed lookups it would have answered]] — moved under [[A map small enough to carry answers most of the lookups that were failing]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Draft the workspace map and check how many past failed lookups it would have answered" — moved under "A map small enough to carry answers most of the lookups that were failing" — the belief this test measures now has a node of its own

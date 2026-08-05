@@ -16,4 +16,4 @@ The change is entirely in the framing. A message that reads as a fact about one 
 **What would make this the wrong pick.** It depends on classifying two failures as the same, and that is the whole difficulty. Grouping too tightly catches nothing; too loosely and it starts refusing routes that merely rhyme, which is worse than the problem.
 
 ## History
-- 2026-08-05 unlinked [[Group the harvested tool errors by hand and see whether one rule reproduces the grouping]] — moved under [[Two failures being the same class is decidable by a rule that matches hand grouping]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Group the harvested tool errors by hand and see whether one rule reproduces the grouping" — moved under "Two failures being the same class is decidable by a rule that matches hand grouping" — the belief this test measures now has a node of its own

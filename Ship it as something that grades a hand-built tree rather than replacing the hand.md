@@ -16,4 +16,4 @@ The question stops being "why would I use this instead" and becomes "why would I
 **What would make this the wrong pick.** It may be a strictly worse business built on a strictly easier sale. It is also the one option that does not answer the opportunity as written — it makes the question go away rather than answering it, and if the real want is a reason to believe the tool is better, this supplies none.
 
 ## History
-- 2026-08-05 unlinked [[Run the checks over three hand-built vaults and count findings the owner did not already know]] — moved under [[Checks over a hand-built vault surface findings its owner did not already know]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Run the checks over three hand-built vaults and count findings the owner did not already know" — moved under "Checks over a hand-built vault surface findings its owner did not already know" — the belief this test measures now has a node of its own

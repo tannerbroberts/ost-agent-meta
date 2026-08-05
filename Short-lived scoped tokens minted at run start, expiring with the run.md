@@ -14,4 +14,4 @@ Before dispatching a run, the operator mints a token narrowed to what that run i
 **What would make this the wrong pick.** It requires predicting the run's needs in advance. If runs routinely discover work the operator did not anticipate — and an autonomous discovery pass is close to the worst case for that — the scopes will be either too narrow to help or so wide that they are the original credential wearing an expiry date.
 
 ## History
-- 2026-08-05 unlinked [[Replay ten past runs and count how many needed a scope nobody would have predicted]] — moved under [[A run's credential needs are predictable enough to scope in advance]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay ten past runs and count how many needed a scope nobody would have predicted" — moved under "A run's credential needs are predictable enough to scope in advance" — the belief this test measures now has a node of its own

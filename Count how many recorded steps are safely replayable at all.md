@@ -16,7 +16,7 @@ instrument: npx vitest run test/loop/replayable-step-share.test.ts
 
 **Why the rule comes first.** Deriving the allowlist from the sample and then measuring the sample against it would prove nothing. Pre-committing the rule is what makes the number mean something.
 
-**Why 60%.** Below that, replay covers a minority of failures and the more portable [[Snapshot the resolved environment, but only for the step that failed]] is the better bet. Above it, replay covers the common case and the narrow version named in the solution body — replay only steps the loop itself issued and already knows to be read-only — becomes worth building.
+**Why 60%.** Below that, replay covers a minority of failures and the more portable "Snapshot the resolved environment, but only for the step that failed" is the better bet. Above it, replay covers the common case and the narrow version named in the solution body — replay only steps the loop itself issued and already knows to be read-only — becomes worth building.
 
 **What it does not settle.** Whether an operator would close a failure on a replay result rather than re-running by hand anyway. That habit is the value this solution claims to recover and it needs a person to answer, which is why it is not folded in here.
 

@@ -24,6 +24,6 @@ Evidence: `INBOX:2026-07-24-opp-hungry-for-external-data.md`, `INBOX:2026-07-24-
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-07-25 status: unvalidated → in-discovery — Marked TARGET opportunity per root Prioritization section (2026-07-24 hard-fix pass). Only row whose tests produce external evidence; every other row's believability is blocked on it.
-- 2026-08-05 unlinked [[Concierge design-partner cohort]] — re-parented under [[Nobody outside the building has been asked, so every claim about demand is mine]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Instrumented public trial with a willingness-to-pay probe]] — re-parented under [[Nobody outside the building has been asked, so every claim about demand is mine]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Continuous story-based interview habit]] — re-parented under [[Nobody outside the building has been asked, so every claim about demand is mine]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Concierge design-partner cohort" — re-parented under "Nobody outside the building has been asked, so every claim about demand is mine" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Instrumented public trial with a willingness-to-pay probe" — re-parented under "Nobody outside the building has been asked, so every claim about demand is mine" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Continuous story-based interview habit" — re-parented under "Nobody outside the building has been asked, so every claim about demand is mine" — this solution answers that need, not the categories beside it

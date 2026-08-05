@@ -23,6 +23,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Nested sub-outcomes between the distant goal and the opportunity space]] — re-parented under [[Nothing connects this week's work to the goal, so I can't tell if I am moving toward it]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Contribution estimates that ladder a local metric to the distant goal]] — re-parented under [[Nothing connects this week's work to the goal, so I can't tell if I am moving toward it]] — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked [[Route view showing the shortest credible path from here to goal-achieved]] — re-parented under [[Nothing connects this week's work to the goal, so I can't tell if I am moving toward it]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Nested sub-outcomes between the distant goal and the opportunity space" — re-parented under "Nothing connects this week's work to the goal, so I can't tell if I am moving toward it" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Contribution estimates that ladder a local metric to the distant goal" — re-parented under "Nothing connects this week's work to the goal, so I can't tell if I am moving toward it" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Route view showing the shortest credible path from here to goal-achieved" — re-parented under "Nothing connects this week's work to the goal, so I can't tell if I am moving toward it" — this solution answers that need, not the categories beside it

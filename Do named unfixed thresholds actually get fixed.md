@@ -26,7 +26,7 @@ after two weeks.
 **Pre-committed threshold:** at least 6 of the 21 `tetrix-ost` tests carry a number
 or a bound two weeks later, with no intervening prompt. Fewer than 3 refutes this and
 means the report is not the intervention — at which point the honest next move is
-[[Refuse to record a result against a threshold that was never fixed]] or nothing,
+"Refuse to record a result against a threshold that was never fixed" or nothing,
 **not** a second, louder report.
 
 **What it does NOT test.** Whether the thresholds people then write are any good. A

@@ -16,4 +16,4 @@ None of these are about intelligence, which is where a hand process is strongest
 **What would make this the wrong pick.** The buyer may not believe their own discipline is the problem — nobody thinks they are the one who overclaims — so the pitch describes a weakness the listener does not recognise as theirs. That framing risk is the thing to test, not whether the mechanisms exist.
 
 ## History
-- 2026-08-05 unlinked [[Ask ten practitioners whether their own discipline has ever failed them, before naming any mechanism]] — moved under [[Practitioners recognise their own discipline as something that has failed them]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Ask ten practitioners whether their own discipline has ever failed them, before naming any mechanism" — moved under "Practitioners recognise their own discipline as something that has failed them" — the belief this test measures now has a node of its own

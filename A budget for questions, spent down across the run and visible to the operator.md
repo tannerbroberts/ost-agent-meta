@@ -17,7 +17,7 @@ This changes what the run has to be good at. It no longer has to answer everythi
 
 ## Definition of done
 
-[[Rank each session's questions by consequence and check whether the first ones asked were the important ones]]
+"Rank each session's questions by consequence and check whether the first ones asked were the important ones"
 
 `npx vitest run test/loop/question-budget-ordering.test.ts`
 
@@ -26,4 +26,4 @@ The spec replays the four already-harvested sessions' clarifying-question sequen
 **What a green here does not settle.** It shows that spending in ranked order would have caught the question that mattered on four sessions already on disk. It says nothing about whether an operator wants a numeric cap at all — the node's own stated risk is that a count cannot express *which kinds of decision* someone wants to be asked about, and no spec can find that out. That half stays with the humans-required test.
 
 ## History
-- 2026-08-05 unlinked [[Rank each session's questions by consequence and check whether the first ones asked were the important ones]] — moved under [[A run can rank its own questions by consequence well enough that a spent budget buys the important ones]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Rank each session's questions by consequence and check whether the first ones asked were the important ones" — moved under "A run can rank its own questions by consequence well enough that a spent budget buys the important ones" — the belief this test measures now has a node of its own

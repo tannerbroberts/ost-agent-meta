@@ -10,7 +10,7 @@ evidence: assertion
 
 Treat the missing tool surface as a degradation rather than a stop. The evidence says the command line *was still available* in all three toolless passes — so when the MCP surface does not resolve, the pass routes the work it can still do through the CLI, does that work, and reports plainly which capabilities it ran without.
 
-**The trade it makes:** it is the only sibling that produces value from a toolless run, and the fallback path is already deterministic and needs no model. The price is the one this vault worries about most: a pass that quietly does less and still reports a result is [[A failed pass reports success, so my automation can't tell]] waiting to happen. It is only safe if the degraded run is loudly named as degraded — which is exactly what [[A degraded pass has its own name and is not allowed to report a clean run]] exists to enforce, and this candidate should be treated as *depending* on that rather than as standing alone.
+**The trade it makes:** it is the only sibling that produces value from a toolless run, and the fallback path is already deterministic and needs no model. The price is the one this vault worries about most: a pass that quietly does less and still reports a result is "A failed pass reports success, so my automation can't tell" waiting to happen. It is only safe if the degraded run is loudly named as degraded — which is exactly what "A degraded pass has its own name and is not allowed to report a clean run" exists to enforce, and this candidate should be treated as *depending* on that rather than as standing alone.
 
 **How it differs from its siblings.** Both other candidates end the run. This one continues it. That makes it the highest-value and highest-risk option of the three, and the choice between them is a real judgement about which failure the operator would rather have: a night of no work, or a night of partial work they might mistake for full work.
 
@@ -20,16 +20,16 @@ Distinguishing assumption: that the CLI path can actually reach the same vault t
 
 ## Definition of done
 
-[[The CLI fallback reaches the same vault, and refuses the write half]]
+"The CLI fallback reaches the same vault, and refuses the write half"
 
 ```
 npx vitest run test/loop/mcp-absent-fallback.test.ts
 ```
 
-Green means the three things this node's body argues for are mechanism rather than paragraph: the fallback resolves the same vault and gives the same read-only answers, the write half is refused rather than routed, and a fallback run cannot emit a report that reads as clean. The third clause is what enforces the dependency this node names on [[A degraded pass has its own name and is not allowed to report a clean run]], instead of leaving the two to be shipped separately.
+Green means the three things this node's body argues for are mechanism rather than paragraph: the fallback resolves the same vault and gives the same read-only answers, the write half is refused rather than routed, and a fallback run cannot emit a report that reads as clean. The third clause is what enforces the dependency this node names on "A degraded pass has its own name and is not allowed to report a clean run", instead of leaving the two to be shipped separately.
 
-It does not settle whether a person reading the degraded report notices — [[Show readers a degraded run report and see whether they notice]], which says outright that the measurement is what a human notices and that a mechanical proxy would answer a different question. Green here means the fallback is mechanically safe and its safety is still unobserved.
+It does not settle whether a person reading the degraded report notices — "Show readers a degraded run report and see whether they notice", which says outright that the measurement is what a human notices and that a mechanical proxy would answer a different question. Green here means the fallback is mechanically safe and its safety is still unobserved.
 
 ## History
-- 2026-08-05 unlinked [[Show readers a degraded run report and see whether they notice]] — moved under [[Readers notice a degraded run without being told to look]] — the belief this test measures now has a node of its own
-- 2026-08-05 unlinked [[The CLI fallback reaches the same vault, and refuses the write half]] — moved under [[The CLI fallback reaches the same vault and refuses everything the read path should not do]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Show readers a degraded run report and see whether they notice" — moved under "Readers notice a degraded run without being told to look" — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "The CLI fallback reaches the same vault, and refuses the write half" — moved under "The CLI fallback reaches the same vault and refuses everything the read path should not do" — the belief this test measures now has a node of its own

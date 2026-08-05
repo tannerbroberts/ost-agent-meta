@@ -59,7 +59,7 @@ reminder to pre-commit cannot come out a failure: whatever the run produces can 
 read as clearing a bar nobody set.
 
 That is filed as its own opportunity,
-[[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]],
+"My tests carry thresholds nobody ever fixed, so nothing can come out a failure",
 and mirrored into the tetrix tree's root. **It is the strongest argument this feature
 has** — it was built to make one sentence checkable, and the first time it read the
 trees out loud it found that a quarter of one tree's tests are unfalsifiable as
@@ -68,7 +68,7 @@ named this build: nobody had yet shown the v0.8.0 field helps at all.
 
 **What it still does not settle.** Whether printing the pair changes what a human
 *does*. Finding unfixed thresholds is the tool noticing; a reviewer acting on the
-notice is [[Does the side-by-side change what a reviewer does about a threshold]],
+notice is "Does the side-by-side change what a reviewer does about a threshold",
 which is unrun. It is entirely possible the output gets skimmed like any other
 report, in which case this is a nicer-looking box that still gets ticked.
 
@@ -78,5 +78,5 @@ person and the same agent. It says nothing about whether anyone else's tree has 
 same hole — see the root Outcome's standing note on external evidence.
 
 ## History
-- 2026-08-05 unlinked [[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]] — not a parent-child relation the OST hierarchy supports — every tree walk counted it as structure, so a cross-reference read as a child
-- 2026-08-05 unlinked [[Does the side-by-side change what a reviewer does about a threshold]] — moved under [[Putting the uncovered statement beside the threshold changes what a reviewer does]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "My tests carry thresholds nobody ever fixed, so nothing can come out a failure" — not a parent-child relation the OST hierarchy supports — every tree walk counted it as structure, so a cross-reference read as a child
+- 2026-08-05 unlinked "Does the side-by-side change what a reviewer does about a threshold" — moved under "Putting the uncovered statement beside the threshold changes what a reviewer does" — the belief this test measures now has a node of its own

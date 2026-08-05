@@ -17,7 +17,7 @@ Given that every vault is already a git repository, most of this exists: the exc
 
 ## Definition of done
 
-[[Merge two real vaults as a dry run and count the conflicts a person has to settle]]
+"Merge two real vaults as a dry run and count the conflicts a person has to settle"
 
 ```
 npx vitest run test/ost/vault-merge-conflict-census.test.ts
@@ -32,4 +32,4 @@ Green means merging the two existing vaults into a scratch tree produces at most
 **What green does NOT settle.** It measures merge cost, not merge value — whether a tree that absorbed another team's nodes is better than the one it started as is a judgement no conflict census touches, and it is the question a federation actually lives or dies on.
 
 ## History
-- 2026-08-05 unlinked [[Merge two real vaults as a dry run and count the conflicts a person has to settle]] — moved under [[Two real vaults can be merged with few enough conflicts for a person to settle them]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Merge two real vaults as a dry run and count the conflicts a person has to settle" — moved under "Two real vaults can be merged with few enough conflicts for a person to settle them" — the belief this test measures now has a node of its own

@@ -20,7 +20,7 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Hand-distil three past sessions]] — moved under [[A session transcript contains distillable stalls and dead ends worth the next pass's attention]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Hand-distil three past sessions" — moved under "A session transcript contains distillable stalls and dead ends worth the next pass's attention" — the belief this test measures now has a node of its own
 
 ## Build + first-run evidence (2026-07-24)
 

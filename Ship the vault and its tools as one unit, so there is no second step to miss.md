@@ -15,7 +15,7 @@ Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
 
 ## Definition of done
 
-[[Try to load the tools from inside the vault directory at all]]
+"Try to load the tools from inside the vault directory at all"
 
 ```
 npx vitest run test/mcp/vault-declared-tool-load.test.ts
@@ -27,7 +27,7 @@ Green means a vault carrying its own tool-server declaration yields the `ost_*` 
 
 **Why it is a spec rather than an afternoon.** The node's threshold reads as a stopwatch — "demonstrated once, within one afternoon" — but what it actually asks is whether a resolution path exists, and a fixture vault plus a working directory set somewhere unrelated answers that without anyone's afternoon. The afternoon was a proxy for cheapness, not the measurement.
 
-**What green does NOT settle.** It shows the tools resolve, not that shipping them this way is right. The packaging cost, the upgrade story for a vault that carries its own copy of the server, and whether an operator wants their vault to be executable at all are all untouched — and the last of those is the substance of [[Would an operator accept the agent living inside the vault it maintains]].
+**What green does NOT settle.** It shows the tools resolve, not that shipping them this way is right. The packaging cost, the upgrade story for a vault that carries its own copy of the server, and whether an operator wants their vault to be executable at all are all untouched — and the last of those is the substance of "Would an operator accept the agent living inside the vault it maintains".
 
 ## History
-- 2026-08-05 unlinked [[Try to load the tools from inside the vault directory at all]] — moved under [[A vault opened from an unrelated directory can yield its own tools]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Try to load the tools from inside the vault directory at all" — moved under "A vault opened from an unrelated directory can yield its own tools" — the belief this test measures now has a node of its own

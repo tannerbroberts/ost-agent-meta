@@ -19,7 +19,7 @@ Distinguishing assumption: that the build can tell it is looking at a vault writ
 
 ## Definition of done
 
-[[Check whether the writing version is recoverable from vault state at all]]
+"Check whether the writing version is recoverable from vault state at all"
 
 ```
 npx vitest run test/ost/writing-version-recoverable.test.ts
@@ -32,4 +32,4 @@ Green means the writing version can be resolved from vault state alone for at le
 **What green does NOT settle, and it is most of what this node claims.** Recoverability is feasibility only. That an accounting change *can* be detected says nothing about whether reporting it explicitly is what an operator wants, whether they read the report, or whether being told "these counts changed meaning" prevents the confusion it is aimed at — all of which are desirability questions about a person, and none of which an exit code confers. This command can go green on a node whose central idea is wrong.
 
 ## History
-- 2026-08-05 unlinked [[Check whether the writing version is recoverable from vault state at all]] — moved under [[The version that wrote a vault is recoverable from the vault itself]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check whether the writing version is recoverable from vault state at all" — moved under "The version that wrote a vault is recoverable from the vault itself" — the belief this test measures now has a node of its own

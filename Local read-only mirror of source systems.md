@@ -18,11 +18,11 @@ _Addresses: "Connecting my systems of record could leak or corrupt them". Unvali
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test is mirror staleness acceptable versus live reads]] — moved under [[A mirror can be stale and still be good enough to read discovery evidence from]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test is mirror staleness acceptable versus live reads" — moved under "A mirror can be stale and still be good enough to read discovery evidence from" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test is mirror staleness acceptable versus live reads]]
+"Test is mirror staleness acceptable versus live reads"
 
 ```
 npx vitest run test/adapters/mirror-staleness.test.ts

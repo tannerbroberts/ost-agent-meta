@@ -13,7 +13,7 @@ evidence: assertion
 
 **Lane: compute-only.** Scratch copies of two local vaults and the CLI. Nothing written to either real tree, no credential, no outside person.
 
-**Pre-committed threshold, fixed before the test runs.** If **2 or more** shipped checks fail to find their planted instance, blindness is the codebase's default rather than an accident, and [[Seed every sweep with a known-present instance it must find]] becomes the primary fix rather than a nice-to-have. **0 or 1** means the existing verify-failing-first discipline is mostly working and the positive control is a belt-and-braces addition that can wait. The count is of CHECKS, not of planted instances, so a single check missing three plants counts once.
+**Pre-committed threshold, fixed before the test runs.** If **2 or more** shipped checks fail to find their planted instance, blindness is the codebase's default rather than an accident, and "Seed every sweep with a known-present instance it must find" becomes the primary fix rather than a nice-to-have. **0 or 1** means the existing verify-failing-first discipline is mostly working and the positive control is a belt-and-braces addition that can wait. The count is of CHECKS, not of planted instances, so a single check missing three plants counts once.
 
 **What this cannot tell anyone.** Nothing about a check that finds its planted instance and still misses real ones for an unrelated reason — a plant is by construction the shape its author already imagined.
 
@@ -26,7 +26,7 @@ observation of a compute-only run, recorded here so the verdict is inspectable.
 
 **Against the pre-committed threshold (>=2 checks failing to find their plant):
 12 plants, 12 found, 0 checks blind. THRESHOLD NOT CROSSED.** Per the pre-commitment,
-[[Seed every sweep with a known-present instance it must find]] stays a belt-and-braces
+"Seed every sweep with a known-present instance it must find" stays a belt-and-braces
 addition rather than becoming the primary fix.
 
 Plants, each run against a baseline first asserted clean so a hit is demonstrably the plant

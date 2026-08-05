@@ -19,7 +19,7 @@ instrument: npx vitest run test/telemetry/same-run-baseline-ratio.test.ts
 
 **Pre-committed threshold.** Green, green, red across **3 of 3 repetitions of each scenario**. Any scenario failing on any repetition closes the candidate — a timing gate that is right most of the time is the failure being fixed, not a fix for it.
 
-**And name the factor.** A result must state the smallest planted slowdown the ratio still catches. If the answer is "only a 3× regression," the ratio is not measuring anything worth gating on, and that finding should push toward [[Assert on work units instead of milliseconds]] regardless of whether the three scenarios technically passed.
+**And name the factor.** A result must state the smallest planted slowdown the ratio still catches. If the answer is "only a 3× regression," the ratio is not measuring anything worth gating on, and that finding should push toward "Assert on work units instead of milliseconds" regardless of whether the three scenarios technically passed.
 
 **Who runs it.** A human, or an attended session with a build environment. This pass proposes the design only.
 

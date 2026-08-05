@@ -17,7 +17,7 @@ This treats the behaviour as reasonable rather than wrong. A pass that re-reads 
 
 ## Definition of done
 
-[[Time a candidate version computation against producing the full sweep]]
+"Time a candidate version computation against producing the full sweep"
 
 ```
 npx vitest run test/ost/sweep-version-cost.test.ts
@@ -30,4 +30,4 @@ This is the command that decides whether the solution is worth building at all, 
 What it does not settle: one vault at one size. The cheap candidate's cost may grow differently from the sweep's as the tree gets larger, so the ratio is the finding and neither absolute number is.
 
 ## History
-- 2026-08-05 unlinked [[Time a candidate version computation against producing the full sweep]] — moved under [[A tree version can be computed cheaply and still detect every change]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Time a candidate version computation against producing the full sweep" — moved under "A tree version can be computed cheaply and still detect every change" — the belief this test measures now has a node of its own

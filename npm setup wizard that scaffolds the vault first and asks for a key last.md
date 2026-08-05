@@ -23,7 +23,7 @@ v0.11.0 implements the *shape* of this solution's second half without the wizard
 itself. The credential step now behaves the way this node asks — it names the no-key
 drop-in path (the Claude Code plugin, whose MCP server holds no model) rather than
 dead-ending, so a subscription-plan user is offered a route instead of a wall. See
-[[Don't want to buy a second AI credential just to try it]].
+"Don't want to buy a second AI credential just to try it".
 
 The scaffolding half is *guided* rather than *automated*: the tools now report
 `bootstrap: true` with the exact command, and the skill instructs the session to ask
@@ -45,4 +45,4 @@ was gathered from the npm ecosystem's own conventions rather than from a user.
 ⚠️ Still unvalidated. No outside operator has run any of this.
 
 ## History
-- 2026-08-05 unlinked [[Install the package on ten stock setups and see whether postinstall ever gets to speak]] — moved under [[A postinstall step gets to run and speak on a stock setup]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Install the package on ten stock setups and see whether postinstall ever gets to speak" — moved under "A postinstall step gets to run and speak on a stock setup" — the belief this test measures now has a node of its own

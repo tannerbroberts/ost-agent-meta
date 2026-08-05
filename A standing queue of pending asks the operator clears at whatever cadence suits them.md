@@ -17,7 +17,7 @@ Age is what makes the queue useful rather than a second inbox. An ask that has b
 
 ## Definition of done
 
-[[Build the queue from asks already outstanding and see whether the operator empties it once]]
+"Build the queue from asks already outstanding and see whether the operator empties it once"
 
 `npx vitest run test/ost/pending-ask-queue.test.ts`
 
@@ -28,4 +28,4 @@ The spec asserts the two properties that separate this node from what already sh
 **What a green here does not settle.** Whether the operator ever empties it. The node's own stated failure mode is that queues nobody visits become furniture — a monument to blocked work — and a passing spec proves only that the monument would be accurately dated.
 
 ## History
-- 2026-08-05 unlinked [[Build the queue from asks already outstanding and see whether the operator empties it once]] — moved under [[An operator will actually visit a queue that never chases them]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Build the queue from asks already outstanding and see whether the operator empties it once" — moved under "An operator will actually visit a queue that never chases them" — the belief this test measures now has a node of its own

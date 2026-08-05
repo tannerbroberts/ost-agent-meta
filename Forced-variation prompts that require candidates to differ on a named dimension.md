@@ -18,11 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Does a named-dimension constraint raise distinctness without lowering candidate quality]] — moved under [[Requiring difference along a named dimension raises distinctness without lowering quality]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does a named-dimension constraint raise distinctness without lowering candidate quality" — moved under "Requiring difference along a named dimension raises distinctness without lowering quality" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Does a named-dimension constraint raise distinctness without lowering candidate quality]]
+"Does a named-dimension constraint raise distinctness without lowering candidate quality"
 
 ```
 npx vitest run test/knowledge/forced-variation-prompt.test.ts

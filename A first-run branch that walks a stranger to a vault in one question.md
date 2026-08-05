@@ -21,12 +21,12 @@ command, or an equivalent affordance that a person who has just installed a plug
 would actually find without knowing to ask for an OST.
 
 **How it compares to its siblings.**
-- Against [[npm setup wizard that scaffolds the vault first and asks for a key last]]:
+- Against "npm setup wizard that scaffolds the vault first and asks for a key last":
   the wizard's premise is that `npm install` does the work. npm postinstall has no
   reliable TTY and is disabled outright in many setups, so the wizard's honest form is
   `npx ost-agent init` anyway. This solution accepts that and moves the guidance into
   the layer that *does* have a conversation.
-- Against [[Ship a starter vault whose outcome is a placeholder the human must replace]]: that one buys a literal one-liner by letting a machine write the mandate
+- Against "Ship a starter vault whose outcome is a placeholder the human must replace": that one buys a literal one-liner by letting a machine write the mandate
   first. This one refuses to, and pays for the refusal with one question.
 
 **The cost, stated plainly.** The founder's launch sentence is *"setup runs itself."*
@@ -77,7 +77,7 @@ the convenience.
 
 **What this does NOT settle, and it is the whole point of the node.** Whether a person who
 installs a plugin encounters the branch *at all* is still the assumption underneath this,
-and it is still untested — see [[Does a first-run branch actually get a stranger to a working vault]]. A name in the slash-command menu is a better bet than nothing, and it is
+and it is still untested — see "Does a first-run branch actually get a stranger to a working vault". A name in the slash-command menu is a better bet than nothing, and it is
 still a bet, made by the party that wants it to work.
 
 **And it is not reachable by the person it was built for.** The plugin's MCP server runs
@@ -87,11 +87,11 @@ installing this plugin gets the failure v0.11.0 removed and never reaches the do
 added.
 
 ## Issues
-- 2026-08-05 2026-08-05 Left un-instrumented deliberately, and the reason is the node's own text rather than a shortage of ideas. Its only test, "Does a first-run branch actually get a stranger to a working vault", pre-commits a threshold that is irreducibly about a person: a warm participant reaching a committed root Outcome in their own words within 30 minutes, zero questions asked, with any clarifying question counting as a refutation rather than a narrow pass. No exit code observes that. The test also states "Lane: deliberately unset — it needs a real outside person; classifying it is a human's call", so this sweep did not flag it either; saying nothing here means only that no marker was found, never that it is safe to automate. What I did instead was follow the node's closing paragraph, which names a real and currently-true blocker: the plugin's MCP server runs `npx -y ost-agent@latest mcp`, resolving to 0.9.0 — the release that refuses to start outside a vault — so the door v0.12.0 built is not reachable by the person it was built for. That is a mechanical claim and it now has a home: an instrument asserting every registry manifest's documented install command resolves to a version that starts outside a vault is attached to [[Be found through the agent ecosystem's own directories rather than through product channels]], where the install path is the load-bearing claim rather than an aside. Worth a human's attention as sequencing rather than as a defect: the 30-minute stranger test cannot be run at all until the package is published, so the test that would produce this vault's first external-operator evidence of any kind is blocked behind an `npm publish` that no node currently owns. Three passes have now recorded that dependency without anyone clearing it.
+- 2026-08-05 2026-08-05 Left un-instrumented deliberately, and the reason is the node's own text rather than a shortage of ideas. Its only test, "Does a first-run branch actually get a stranger to a working vault", pre-commits a threshold that is irreducibly about a person: a warm participant reaching a committed root Outcome in their own words within 30 minutes, zero questions asked, with any clarifying question counting as a refutation rather than a narrow pass. No exit code observes that. The test also states "Lane: deliberately unset — it needs a real outside person; classifying it is a human's call", so this sweep did not flag it either; saying nothing here means only that no marker was found, never that it is safe to automate. What I did instead was follow the node's closing paragraph, which names a real and currently-true blocker: the plugin's MCP server runs `npx -y ost-agent@latest mcp`, resolving to 0.9.0 — the release that refuses to start outside a vault — so the door v0.12.0 built is not reachable by the person it was built for. That is a mechanical claim and it now has a home: an instrument asserting every registry manifest's documented install command resolves to a version that starts outside a vault is attached to "Be found through the agent ecosystem's own directories rather than through product channels", where the install path is the load-bearing claim rather than an aside. Worth a human's attention as sequencing rather than as a defect: the 30-minute stranger test cannot be run at all until the package is published, so the test that would produce this vault's first external-operator evidence of any kind is blocked behind an `npm publish` that no node currently owns. Three passes have now recorded that dependency without anyone clearing it.
 
 ## Definition of done
 
-[[Does a first-run branch actually get a stranger to a working vault]]
+"Does a first-run branch actually get a stranger to a working vault"
 
 ```
 npx vitest run test/mcp/bootstrap-one-question.test.ts
@@ -100,4 +100,4 @@ npx vitest run test/mcp/bootstrap-one-question.test.ts
 Green means: an empty directory reports `bootstrap: true`, exactly one question is asked, and answering it alone produces a vault whose root Outcome carries the human's words verbatim. Green does **not** mean a stranger can do it — that is a person's reaction and stays with a human.
 
 ## History
-- 2026-08-05 unlinked [[Does a first-run branch actually get a stranger to a working vault]] — moved under [[One question is enough to get someone who knows nothing to a working vault]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Does a first-run branch actually get a stranger to a working vault" — moved under "One question is enough to get someone who knows nothing to a working vault" — the belief this test measures now has a node of its own

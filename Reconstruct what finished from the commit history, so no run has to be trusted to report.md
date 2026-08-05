@@ -16,11 +16,11 @@ This has a property no self-report can have. A run that lied, crashed mid-senten
 **What would make this the wrong pick.** Much of what a run does is reading, deciding, and declining to act. A history-derived account will show a run that spent an hour correctly concluding nothing needed doing as a run that did nothing at all.
 
 ## History
-- 2026-08-05 unlinked [[Try to bound five past runs within the commit history without being told where they started]] — moved under [[A run's boundaries and work are recoverable from the commits alone]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Try to bound five past runs within the commit history without being told where they started" — moved under "A run's boundaries and work are recoverable from the commits alone" — the belief this test measures now has a node of its own
 
 ## Proving this
 
-[[Try to bound five past runs within the commit history without being told where they started]]
+"Try to bound five past runs within the commit history without being told where they started"
 
 ```
 npx vitest run test/loop/run-boundary-from-history.test.ts

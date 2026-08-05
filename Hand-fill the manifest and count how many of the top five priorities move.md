@@ -17,7 +17,7 @@ instrument: npx vitest run test/product/manifest-ranking-shift.test.ts
 
 **Pre-committed before running, so this can come out a failure:** two of the current top five must change position, or an item must enter or leave the top five. One change or none kills the candidate — it would mean the planner was already conditioning on these facts implicitly and the manifest buys nothing.
 
-**What it deliberately does not cover:** whether an operator who is *not* the founder would fill the manifest at all, and whether the answers stay true. Those are the questions [[Expiring resource questions asked at a fixed cadence]] carries.
+**What it deliberately does not cover:** whether an operator who is *not* the founder would fill the manifest at all, and whether the answers stay true. Those are the questions "Expiring resource questions asked at a fixed cadence" carries.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/product/manifest-ranking-shift.test.ts — Both halves are deterministic — rank the tree with the manifest absent, rank it again with a hand-filled manifest fixture, and diff the top five — so the count needs no judgement once the fixture is committed; it fails today because the manifest, the citation requirement and the spec are all unwritten.

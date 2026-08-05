@@ -17,7 +17,7 @@ Every miss in the evidence is a prefix error. `/Users/tanner/dev/ost-agent-meta`
 
 ## Definition of done
 
-[[Check how many past failed paths fall inside a small set of nameable roots]]
+"Check how many past failed paths fall inside a small set of nameable roots"
 
 ```
 npx vitest run test/runner/path-root-coverage.test.ts
@@ -30,4 +30,4 @@ Green means a declared root vocabulary of at most four names covers at least 80%
 **What green does NOT settle, and it is the more dangerous failure.** A root pointing somewhere wrong produces confident, uniform, wrong paths everywhere at once — worse than scattered bad guesses, because it looks systematic and nothing in a coverage number would show it. That risk needs its own check. Green also measures against paths that were reached for *without* a root vocabulary, so it cannot say how the habit changes once one exists.
 
 ## History
-- 2026-08-05 unlinked [[Check how many past failed paths fall inside a small set of nameable roots]] — moved under [[Most failed paths fall under a small set of nameable roots]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Check how many past failed paths fall inside a small set of nameable roots" — moved under "Most failed paths fall under a small set of nameable roots" — the belief this test measures now has a node of its own

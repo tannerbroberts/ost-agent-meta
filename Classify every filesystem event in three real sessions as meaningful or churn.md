@@ -18,7 +18,7 @@ instrument: npx vitest run test/runner/fs-event-classification.test.ts
 
 **What a failure redirects to.** The cheaper approximation named in the solution body — poll the mtimes of only the files this session has read, once before each write batch. That sidesteps classification entirely by only ever asking about files it already cares about, and if this test fails it becomes the stronger candidate.
 
-**A by-product worth keeping:** the same event capture would show how often two writers genuinely overlap, which is direct evidence for [[Two agents sharing my vault can trample each other]], a node currently resting on two anecdotes.
+**A by-product worth keeping:** the same event capture would show how often two writers genuinely overlap, which is direct evidence for "Two agents sharing my vault can trample each other", a node currently resting on two anecdotes.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
 

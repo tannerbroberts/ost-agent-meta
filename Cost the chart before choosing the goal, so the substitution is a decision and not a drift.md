@@ -19,7 +19,7 @@ Choosing or changing the outcome is a human's decision. This is a proposal about
 
 ## Definition of done
 
-[[Estimate charting cost for three past goals and check the estimates against what happened]]
+"Estimate charting cost for three past goals and check the estimates against what happened"
 
 ```
 npx vitest run test/cli/chart-cost-estimate.test.ts
@@ -28,4 +28,4 @@ npx vitest run test/cli/chart-cost-estimate.test.ts
 Green means: the estimate exists *before* the goal is committed rather than reconstructed afterwards — setting an outcome records a dated charting-cost figure, and the rollup reports estimate against actual per goal. That ordering is the whole solution: an estimate written after the choice cannot make the substitution a decision. Green does **not** say the estimates were any good; that retrospective judgement stays with a human.
 
 ## History
-- 2026-08-05 unlinked [[Estimate charting cost for three past goals and check the estimates against what happened]] — moved under [[Charting cost can be estimated well enough in advance to inform the choice]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Estimate charting cost for three past goals and check the estimates against what happened" — moved under "Charting cost can be estimated well enough in advance to inform the choice" — the belief this test measures now has a node of its own

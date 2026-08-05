@@ -17,7 +17,7 @@ evidence: assertion
 
 ## Definition of done
 
-[[Count how much of the tree a recorded decision could actually order]]
+"Count how much of the tree a recorded decision could actually order"
 
 ```
 npx vitest run test/ost/recorded-decision-ordering.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/ost/recorded-decision-ordering.test.ts
 Green means the ranking covers exactly what a recorded decision supports and the remainder is explicitly unranked rather than silently ordered. The count is the point: if recorded decisions can order only a small fraction of the tree, this candidate is honest but nearly empty, and that is worth knowing before building it. It does not settle whether an unranked remainder is usable by anyone.
 
 ## History
-- 2026-08-05 unlinked [[Count how much of the tree a recorded decision could actually order]] — moved under [[Enough of the tree is already ordered by a recorded human decision to rank from]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how much of the tree a recorded decision could actually order" — moved under "Enough of the tree is already ordered by a recorded human decision to rank from" — the belief this test measures now has a node of its own

@@ -18,11 +18,11 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Do blind parallel ideators produce more distinct candidates than one agent asked for three]] — moved under [[Blind parallel ideators produce more distinct candidates than one agent asked for three]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Do blind parallel ideators produce more distinct candidates than one agent asked for three" — moved under "Blind parallel ideators produce more distinct candidates than one agent asked for three" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Do blind parallel ideators produce more distinct candidates than one agent asked for three]]
+"Do blind parallel ideators produce more distinct candidates than one agent asked for three"
 
 ```
 npx vitest run test/eval/blind-ideator-isolation.test.ts

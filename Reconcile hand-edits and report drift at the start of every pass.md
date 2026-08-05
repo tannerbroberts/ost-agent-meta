@@ -22,11 +22,11 @@ evidence: assertion
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Can a pass tell a human edit from its own, using only git]] — moved under [[A pass can tell a human's edit from its own using git alone]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Can a pass tell a human edit from its own, using only git" — moved under "A pass can tell a human's edit from its own using git alone" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Can a pass tell a human edit from its own, using only git]]
+"Can a pass tell a human edit from its own, using only git"
 
 ```
 npx vitest run test/git/hand-edit-detector.test.ts

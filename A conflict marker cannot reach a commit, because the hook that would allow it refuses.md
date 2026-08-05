@@ -17,7 +17,7 @@ Small scope, exact fit. It does nothing about a bad merge that produced valid-lo
 
 ## Definition of done
 
-[[Add the hook and check whether the commit paths a run actually uses all pass through it]]
+"Add the hook and check whether the commit paths a run actually uses all pass through it"
 
 ```
 npx vitest run test/git/conflict-marker-guard.test.ts
@@ -28,4 +28,4 @@ Red today: neither the guard nor the spec exists. Green when every commit route 
 **What a green spec does not settle.** It proves the marker cannot reach a commit. It says nothing about a resolution that dropped half a function and committed cleanly — the case this solution openly concedes — and nothing about whether a local hook survives a fresh clone or a `--no-verify`. Feasibility answered mechanically leaves the "advisory, not a guarantee" objection exactly where it was.
 
 ## History
-- 2026-08-05 unlinked [[Add the hook and check whether the commit paths a run actually uses all pass through it]] — moved under [[Every route a run commits by passes through a place a local hook can occupy]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Add the hook and check whether the commit paths a run actually uses all pass through it" — moved under "Every route a run commits by passes through a place a local hook can occupy" — the belief this test measures now has a node of its own

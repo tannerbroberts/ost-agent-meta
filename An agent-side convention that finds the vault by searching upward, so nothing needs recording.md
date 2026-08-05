@@ -17,7 +17,7 @@ Because nothing is written down, nothing can be wrong. A vault that moves is fou
 
 ## Definition of done
 
-[[Put two vaults on one machine and see whether the upward search picks the right one]]
+"Put two vaults on one machine and see whether the upward search picks the right one"
 
 ```
 npx vitest run test/config/upward-vault-search.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/config/upward-vault-search.test.ts
 Green means the upward search resolves the correct vault when two are present on one machine, nested and as siblings — the ambiguity that decides whether a convention can replace a recorded pointer. It does not settle what happens on a machine laid out in a way this fixture did not anticipate, which is the standing weakness of conventions over declarations.
 
 ## History
-- 2026-08-05 unlinked [[Put two vaults on one machine and see whether the upward search picks the right one]] — moved under [[There is exactly one plausible vault above any given directory]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Put two vaults on one machine and see whether the upward search picks the right one" — moved under "There is exactly one plausible vault above any given directory" — the belief this test measures now has a node of its own

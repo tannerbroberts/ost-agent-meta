@@ -19,13 +19,13 @@ This is a generalization of a mechanism this vault already runs and already trus
 
 ## Definition of done
 
-[[Draft the decision classes from the older half of the stops and test them on the newer half]]
+"Draft the decision classes from the older half of the stops and test them on the newer half"
 
 ```
 npx vitest run test/loop/authority-class-holdout.test.ts
 ```
 
-Green means classes drawn from the older recorded stops actually classify the newer ones — the holdout that distinguishes a contract from a post-hoc description of what already happened. It settles generalisation, not authority: whether the operator would *grant* the classes this exercise discovers is a consent question, and it is the one [[Ask five operators whether they would let a stated default stand while they are away]] goes after.
+Green means classes drawn from the older recorded stops actually classify the newer ones — the holdout that distinguishes a contract from a post-hoc description of what already happened. It settles generalisation, not authority: whether the operator would *grant* the classes this exercise discovers is a consent question, and it is the one "Ask five operators whether they would let a stated default stand while they are away" goes after.
 
 ## History
-- 2026-08-05 unlinked [[Draft the decision classes from the older half of the stops and test them on the newer half]] — moved under [[The decisions a run stops for fall into stable classes that can be settled in advance]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Draft the decision classes from the older half of the stops and test them on the newer half" — moved under "The decisions a run stops for fall into stable classes that can be settled in advance" — the belief this test measures now has a node of its own

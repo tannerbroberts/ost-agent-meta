@@ -19,7 +19,7 @@ Setting or changing the outcome is a human's decision. This describes a shape a 
 
 ## Definition of done
 
-[[Leave the real goal at the root for a quarter and count what actually laddered up to it]]
+"Leave the real goal at the root for a quarter and count what actually laddered up to it"
 
 ```
 npx vitest run test/ost/milestone-under-outcome.test.ts
@@ -28,4 +28,4 @@ npx vitest run test/ost/milestone-under-outcome.test.ts
 Green means: the tree can hold both goals at once — a milestone attaches under the Outcome, is distinguishable from a category bucket, and the rollup reports per-milestone, so "what laddered up" is computed rather than tallied by hand. Green does **not** answer the test: that needs a quarter to elapse and a human to read what the count came to.
 
 ## History
-- 2026-08-05 unlinked [[Leave the real goal at the root for a quarter and count what actually laddered up to it]] — moved under [[A real goal left at the root keeps attracting work, rather than being ignored in favour of the milestone]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Leave the real goal at the root for a quarter and count what actually laddered up to it" — moved under "A real goal left at the root keeps attracting work, rather than being ignored in favour of the milestone" — the belief this test measures now has a node of its own

@@ -16,4 +16,4 @@ The project already does this for its main surface, which is bundled and runs on
 **What would make this the wrong pick.** Some helpers exist precisely because they are five lines of shell that anyone can read and edit. Rewriting those against a runtime makes them longer, less transparent, and harder for the operator to change — which may cost more than the compatibility is worth.
 
 ## History
-- 2026-08-05 unlinked [[Rewrite the shortest helper against the bundled runtime and compare length and readability]] — moved under [[A helper rewritten against the bundled runtime stays short enough that the operator would still edit it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Rewrite the shortest helper against the bundled runtime and compare length and readability" — moved under "A helper rewritten against the bundled runtime stays short enough that the operator would still edit it" — the belief this test measures now has a node of its own

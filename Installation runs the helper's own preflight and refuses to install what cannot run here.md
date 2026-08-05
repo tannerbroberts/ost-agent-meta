@@ -17,7 +17,7 @@ The failure being prevented is a silent bet: the script was written against bash
 
 ## Definition of done
 
-[[Write manifests for the existing helpers and check whether they catch the failures already seen]]
+"Write manifests for the existing helpers and check whether they catch the failures already seen"
 
 ```
 npx vitest run test/runner/helper-manifest-coverage.test.ts
@@ -30,4 +30,4 @@ Green means every helper carries a manifest that declares `mapfile`, and no mani
 **What green does NOT settle, and it is a bias in the sample rather than a gap in the check.** Manifests written now, by someone who knows this class of problem exists, are more careful than manifests written routinely six months from now. Green measures the manifests this project happens to have; it says nothing about the discipline holding, and the discipline is the actual mechanism.
 
 ## History
-- 2026-08-05 unlinked [[Write manifests for the existing helpers and check whether they catch the failures already seen]] — moved under [[A helper's declared requirements stay true as the helper changes]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Write manifests for the existing helpers and check whether they catch the failures already seen" — moved under "A helper's declared requirements stay true as the helper changes" — the belief this test measures now has a node of its own

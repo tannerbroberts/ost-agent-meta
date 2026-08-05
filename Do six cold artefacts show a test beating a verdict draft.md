@@ -18,7 +18,7 @@ instrument: npx vitest run test/runner/verdict-leaves-spec.test.ts
 
 **Pre-commit the threshold before looking.** The parent survives only if the operator picks the test over the draft in **at least 2 of the 3 pairs** *and* can say what the test gives them that the draft does not, in their own words, without being prompted with the word "decay". A preference with no reason behind it is a preference for the thing that looks like more effort, which is not the claim.
 
-**What would kill it outright.** The operator preferring the draft in 2 of 3, or preferring the test only because it looks more thorough. Either result should retire the parent and leave [[Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane]] as the sole answer under this opportunity.
+**What would kill it outright.** The operator preferring the draft in 2 of 3, or preferring the test only because it looks more thorough. Either result should retire the parent and leave "Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane" as the sole answer under this opportunity.
 
 **Lane — deliberately unset, and that is the point.** Producing the six artefacts is compute-only. Reading them and choosing is irreducibly the operator, so the test as a whole is not. It is the first case in this vault where a *single* test spans two lanes, which the v0.6.0 model does not represent: a lane is a property of a test, and this test wants two. Whoever classifies it should either split it or record that the model is too coarse — the second would be a more useful finding than this test's own result.
 

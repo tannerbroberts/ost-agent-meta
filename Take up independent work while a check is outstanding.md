@@ -14,4 +14,4 @@ Treat an outstanding check as a background fact rather than a barrier. The pass 
 Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
 
 ## History
-- 2026-08-05 unlinked [[Count how much post-handoff work in past sessions would have survived a failing check]] — moved under [[Work done while a check is pending survives that check failing]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how much post-handoff work in past sessions would have survived a failing check" — moved under "Work done while a check is pending survives that check failing" — the belief this test measures now has a node of its own

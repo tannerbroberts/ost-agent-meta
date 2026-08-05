@@ -18,4 +18,4 @@ The honest possibility is that this comes back saying the hand process is fine. 
 This describes a comparison a human would run. No pass may run it or record its outcome.
 
 ## History
-- 2026-08-05 unlinked [[Have a second person run the hand arm, so the comparison is not built by its own author]] — moved under [[Someone outside the project will run the hand arm, so the comparison is not built by its own author]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Have a second person run the hand arm, so the comparison is not built by its own author" — moved under "Someone outside the project will run the hand arm, so the comparison is not built by its own author" — the belief this test measures now has a node of its own

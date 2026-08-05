@@ -18,11 +18,11 @@ _Addresses: "Trust an unmonitored agent enough to walk away". Unvalidated — hu
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Test do operators actually replay the audit trail to regain trust]] — moved under [[Operators actually replay a history to rebuild trust, rather than just wanting one to exist]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Test do operators actually replay the audit trail to regain trust" — moved under "Operators actually replay a history to rebuild trust, rather than just wanting one to exist" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Test do operators actually replay the audit trail to regain trust]]
+"Test do operators actually replay the audit trail to regain trust"
 
 `npx vitest run test/git/commit-provenance.test.ts`
 

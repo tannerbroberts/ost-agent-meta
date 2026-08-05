@@ -20,11 +20,11 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Three reserved discovery passes rated for usefulness]] — moved under [[Discovery done because the budget exists is as useful as discovery done because someone chose it]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Three reserved discovery passes rated for usefulness" — moved under "Discovery done because the budget exists is as useful as discovery done because someone chose it" — the belief this test measures now has a node of its own
 
 ## Definition of done
 
-[[Three reserved discovery passes rated for usefulness]]
+"Three reserved discovery passes rated for usefulness"
 
 ```
 npx vitest run test/loop/discovery-budget-reserved.test.ts

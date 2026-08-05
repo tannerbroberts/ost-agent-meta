@@ -17,7 +17,7 @@ This accepts that bad states will happen and makes them cheap to discover. The e
 
 ## Definition of done
 
-[[Time the build check against how often a run would actually have found a broken tree]]
+"Time the build check against how often a run would actually have found a broken tree"
 
 ```
 npx vitest run test/loop/inherited-tree-build-check.test.ts
@@ -26,4 +26,4 @@ npx vitest run test/loop/inherited-tree-build-check.test.ts
 Green means a run refuses to plan against a tree that fails its own check, and the check costs less than the bound the test names. It settles feasibility and cost. It does not settle the trade the test is really asking about — whether broken trees are common enough to be worth paying that cost on every run — because the rate comes from history, not from the guard.
 
 ## History
-- 2026-08-05 unlinked [[Time the build check against how often a run would actually have found a broken tree]] — moved under [[Broken inherited trees are common enough, and the check cheap enough, to pay for it every run]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Time the build check against how often a run would actually have found a broken tree" — moved under "Broken inherited trees are common enough, and the check cheap enough, to pay for it every run" — the belief this test measures now has a node of its own

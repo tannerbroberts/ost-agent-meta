@@ -15,7 +15,7 @@ Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
 
 ## Definition of done
 
-[[Blind-rate ten records as typo or friction and compare against the recovery rule]]
+"Blind-rate ten records as typo or friction and compare against the recovery rule"
 
 `npx vitest run test/adapters/friction-recovery-rule.test.ts`
 
@@ -24,4 +24,4 @@ The spec asserts the rule judges by what happened next rather than by the error 
 **What a green here does not settle.** Whether the rule agrees with what a person means by friction — that is the blind rating, and it is the test. The node also names its own blind spot, which no spec can close: recovery is inferred from what follows in the transcript, so a session that *quietly gave up* on something reads as a session that recovered cleanly. That is the failure already recorded in this tree as "The friction that matters leaves no error behind", and it means a passing suite here would report clean recovery for precisely the sessions that went worst.
 
 ## History
-- 2026-08-05 unlinked [[Blind-rate ten records as typo or friction and compare against the recovery rule]] — moved under [[What happened next separates a typo from real friction reliably]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Blind-rate ten records as typo or friction and compare against the recovery rule" — moved under "What happened next separates a typo from real friction reliably" — the belief this test measures now has a node of its own

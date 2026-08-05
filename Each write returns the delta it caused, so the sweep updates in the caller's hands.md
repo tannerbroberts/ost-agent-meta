@@ -17,7 +17,7 @@ The re-reads exist because writes currently answer only "done" when they could a
 
 ## Definition of done
 
-[[Maintain a sweep from returned deltas alone across a full pass and compare against a fresh read]]
+"Maintain a sweep from returned deltas alone across a full pass and compare against a fresh read"
 
 ```
 npx vitest run test/mcp/sweep-delta-consistency.test.ts
@@ -29,7 +29,7 @@ Green means a sweep accumulated from returned deltas alone, over more than a hun
 
 **Why the sample size is in the threshold.** Divergence compounds; ten writes can agree by luck. This vault's own passes routinely exceed two hundred writes, so a hundred is a realistic single-run sample rather than a stress figure.
 
-**What green does NOT settle.** It assumes a single writer, which is exactly the condition under which delta accumulation is correct by construction. The interesting failure is drift when a second agent is writing to the same vault, and this command is blind to it — that needs a concurrent arm, and [[Two agents sharing my vault can trample each other]] is where the cost of getting it wrong is already recorded.
+**What green does NOT settle.** It assumes a single writer, which is exactly the condition under which delta accumulation is correct by construction. The interesting failure is drift when a second agent is writing to the same vault, and this command is blind to it — that needs a concurrent arm, and "Two agents sharing my vault can trample each other" is where the cost of getting it wrong is already recorded.
 
 ## History
-- 2026-08-05 unlinked [[Maintain a sweep from returned deltas alone across a full pass and compare against a fresh read]] — moved under [[A sweep maintained from returned deltas stays exactly in step with a fresh read]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Maintain a sweep from returned deltas alone across a full pass and compare against a fresh read" — moved under "A sweep maintained from returned deltas stays exactly in step with a fresh read" — the belief this test measures now has a node of its own

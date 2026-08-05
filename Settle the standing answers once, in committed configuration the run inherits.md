@@ -16,4 +16,4 @@ The evidence supports this strongly: a divergent-branch reconcile policy and a f
 **What would make this the wrong pick.** Pre-answering questions is pre-committing to defaults, and a default committed once will eventually apply in a case where it is wrong. Silently reconciling divergent branches the same way every time is convenient until the once it should have stopped.
 
 ## History
-- 2026-08-05 unlinked [[Settle the known prompts as config and count how many new ones appear in a month]] — moved under [[The prompts a run meets are a stable set, so settling them once mostly ends them]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Settle the known prompts as config and count how many new ones appear in a month" — moved under "The prompts a run meets are a stable set, so settling them once mostly ends them" — the belief this test measures now has a node of its own

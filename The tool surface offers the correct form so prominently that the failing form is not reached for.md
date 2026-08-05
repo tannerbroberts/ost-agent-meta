@@ -17,7 +17,7 @@ The five identical failures in one session were all the same shape: a comparison
 
 ## Definition of done
 
-[[Count how many of the harvested shell failures a curated set of safe forms would have covered]]
+"Count how many of the harvested shell failures a curated set of safe forms would have covered"
 
 ```
 npx vitest run test/knowledge/safe-form-coverage.test.ts
@@ -27,9 +27,9 @@ Green means a named candidate set of first-class forms — comparison, wait, glo
 
 **Why coverage is the whole question.** Callers reach for shell because shell does everything. If the safe forms miss the case in hand often, the caller falls back to the failing form having now paid for both — which is strictly worse than not offering the forms at all. The two weights matter separately: covering most commands while missing most *failures* would be a set that is popular and useless, and a single blended number would hide it.
 
-**The corpus this scores against is now enumerated.** [[I repeat one shell mistake five times in a session, because the first failure never said it was a class]] carries a hand-sort of the harvested failures into five classes, of which three are one underlying class — commands composed for bash and run under zsh. That table is the raw material for naming the candidate forms, and it is also a warning about this command's denominator: it is a sort by the pass that read the records, not a mechanical one.
+**The corpus this scores against is now enumerated.** "I repeat one shell mistake five times in a session, because the first failure never said it was a class" carries a hand-sort of the harvested failures into five classes, of which three are one underlying class — commands composed for bash and run under zsh. That table is the raw material for naming the candidate forms, and it is also a warning about this command's denominator: it is a sort by the pass that read the records, not a mechanical one.
 
 **What green does NOT settle.** Past commands were written by someone who had only shell available and shaped their intent around it. What a caller would write with better forms available is not visible in this corpus at all, so high coverage of past commands is weak evidence about future ones — and low coverage would be the more trustworthy result of the two.
 
 ## History
-- 2026-08-05 unlinked [[Count how many of the harvested shell failures a curated set of safe forms would have covered]] — moved under [[A curated set of safe forms covers enough of what callers actually need]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Count how many of the harvested shell failures a curated set of safe forms would have covered" — moved under "A curated set of safe forms covers enough of what callers actually need" — the belief this test measures now has a node of its own

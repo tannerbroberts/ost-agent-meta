@@ -17,7 +17,7 @@ This removes the question the opportunity is really about. A loop that must deci
 
 ## Definition of done
 
-[[Census every source of new work in this vault and check which can be watched as an event]]
+"Census every source of new work in this vault and check which can be watched as an event"
 
 ```
 npx vitest run test/loop/work-source-census.test.ts
@@ -30,4 +30,4 @@ Green means every channel that can put new work in front of a pass is enumerated
 **What green does NOT settle.** It says every source has a watcher, not that the watcher fires when it should, nor that waking on an event costs less than the poll it replaces. A source that produced nothing in the sampled history is absent from the census entirely, so the enumeration is bounded by what has happened rather than by what can happen. Latency, duplicate wakeups, and whether the operator is better off are all untouched.
 
 ## History
-- 2026-08-05 unlinked [[Census every source of new work in this vault and check which can be watched as an event]] — moved under [[Every source of new work in this vault can be watched as an event]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Census every source of new work in this vault and check which can be watched as an event" — moved under "Every source of new work in this vault can be watched as an event" — the belief this test measures now has a node of its own

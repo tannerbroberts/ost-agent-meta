@@ -15,9 +15,9 @@ evidence: assertion
 
 **Where it fails, stated plainly.** Every vault becomes a fork. Two vaults that pulled on different days run different agents against the same rules, and a fix shipped to one is invisible to the other until someone remembers — which is the opportunity restated one level down rather than solved. It also asks the operator to do something: `git pull` is a human action, and this tree's mandate is explicitly about work compute can carry alone. Worst case it converts an invisible skew into a visible one that still nobody closes, and it inflates every vault with a copy of the product, so a repository meant to hold evidence starts holding a build artifact.
 
-**Compare against:** [[Resolve the newest published version at pass start and refuse to run silently on a stale one]] keeps the registry and inherits its credential; this one abandons the registry and inherits fork drift instead. [[A push channel the operator subscribes to, applied at the next safe checkpoint]] keeps a single source of truth but adds a channel pointing inward at the operator's machine.
+**Compare against:** "Resolve the newest published version at pass start and refuse to run silently on a stale one" keeps the registry and inherits its credential; this one abandons the registry and inherits fork drift instead. "A push channel the operator subscribes to, applied at the next safe checkpoint" keeps a single source of truth but adds a channel pointing inward at the operator's machine.
 
-**Assumption it rests on:** that an operator would accept the agent living inside their own vault rather than installed beside it. Tested by [[Would an operator accept the agent living inside the vault it maintains]].
+**Assumption it rests on:** that an operator would accept the agent living inside their own vault rather than installed beside it. Tested by "Would an operator accept the agent living inside the vault it maintains".
 
 ## History
-- 2026-08-05 unlinked [[Would an operator accept the agent living inside the vault it maintains]] — moved under [[Operators will accept the agent living inside the vault it maintains]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Would an operator accept the agent living inside the vault it maintains" — moved under "Operators will accept the agent living inside the vault it maintains" — the belief this test measures now has a node of its own

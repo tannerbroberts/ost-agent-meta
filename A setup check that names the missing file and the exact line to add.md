@@ -15,7 +15,7 @@ Unvalidated, agent-ideated: a candidate for comparison, not a recommendation.
 
 ## Definition of done
 
-[[Replay the four toolless passes and see whether the check names the right file]]
+"Replay the four toolless passes and see whether the check names the right file"
 
 ```
 npx vitest run test/config/setup-check-diagnosis.test.ts
@@ -23,7 +23,7 @@ npx vitest run test/config/setup-check-diagnosis.test.ts
 
 Red today: the setup check does not exist. Green when four fixtures reconstructing the toolless passes each get the missing file and its location named, and a correctly configured fixture draws no accusation.
 
-**What a green spec does not settle.** It proves the diagnosis is correct when the check runs. It cannot show the check runs at all inside a session that is missing its tools — that is the sibling question [[Check whether a toolless session can even run the tool check]], and if that one comes back negative this instrument is green on a check that never fires.
+**What a green spec does not settle.** It proves the diagnosis is correct when the check runs. It cannot show the check runs at all inside a session that is missing its tools — that is the sibling question "Check whether a toolless session can even run the tool check", and if that one comes back negative this instrument is green on a check that never fires.
 
 ## History
-- 2026-08-05 unlinked [[Replay the four toolless passes and see whether the check names the right file]] — moved under [[The configuration gap that makes a session toolless is mechanically identifiable]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Replay the four toolless passes and see whether the check names the right file" — moved under "The configuration gap that makes a session toolless is mechanically identifiable" — the belief this test measures now has a node of its own

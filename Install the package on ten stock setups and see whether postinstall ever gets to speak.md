@@ -16,6 +16,6 @@ evidence: assertion
 
 **Pre-committed threshold.** **7 of 10 or more reach "ran with a usable TTY"** and the postinstall wizard is viable, the current design position is overturned, and the founder's original one-liner becomes reachable. **Fewer than 7** and the design position is confirmed by measurement rather than by convention: the node's Issues section should record it, the `npx ost-agent init` form becomes the settled answer, and the PM-to-PM promise gets rewritten to match what actually works.
 
-**Explicitly out of scope.** Whether a stranger gets to a working vault — that is [[Does a first-run branch actually get a stranger to a working vault]], it needs a person, and it stays blocked on the release credential. This test asks only whether the channel can carry a wizard, and needs no stranger at all.
+**Explicitly out of scope.** Whether a stranger gets to a working vault — that is "Does a first-run branch actually get a stranger to a working vault", it needs a person, and it stays blocked on the release credential. This test asks only whether the channel can carry a wizard, and needs no stranger at all.
 
-**Who runs it.** A human, or an attended session with publish rights. Note the dependency the node already carries: publishing anything is blocked on [[Every run ends blocked on a credential only I hold]].
+**Who runs it.** A human, or an attended session with publish rights. Note the dependency the node already carries: publishing anything is blocked on "Every run ends blocked on a credential only I hold".

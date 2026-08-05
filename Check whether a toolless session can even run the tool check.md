@@ -13,9 +13,9 @@ instrument: npx vitest run test/config/toolless-preflight.test.ts
 
 **The test (reproduce the degraded surface deliberately).** Recreate the observed condition: a scheduled run with `CLAUDE_CODE_REMOTE_SKIP_SETTINGS_SYNC=1` and the plugin not enabled. Run the pass with a prototype required-tools check in each of the three plausible homes: (a) inside the plugin, (b) in the task prompt as an instruction to the session, (c) in an outer wrapper script that runs before the session starts. Record for each whether the check executed and whether the run exited non-zero.
 
-**Pre-committed threshold.** **At least one placement must halt reliably across 3 of 3 trials.** If none does, the candidate is closed and its sibling [[Every run records the tool surface it actually had]] becomes the answer by default, since recording after the fact does not require the capability to be present at decision time.
+**Pre-committed threshold.** **At least one placement must halt reliably across 3 of 3 trials.** If none does, the candidate is closed and its sibling "Every run records the tool surface it actually had" becomes the answer by default, since recording after the fact does not require the capability to be present at decision time.
 
-**What a result must also state.** Which placement worked, because that is the buildable artefact. Also whether placement (b) — instructing the session to check itself — held, since that is the cheapest and is also the one exposed to [[The agent narrows its own capability to get past a gate I set]].
+**What a result must also state.** Which placement worked, because that is the buildable artefact. Also whether placement (b) — instructing the session to check itself — held, since that is the cheapest and is also the one exposed to "The agent narrows its own capability to get past a gate I set".
 
 **Who runs it.** A human, or an attended session with scheduling rights. This pass proposes the design only.
 

@@ -20,14 +20,14 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
-- 2026-08-05 unlinked [[Critic pass rated for actionability]] — moved under [[An attack-only pass produces criticism specific enough to act on]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked "Critic pass rated for actionability" — moved under "An attack-only pass produces criticism specific enough to act on" — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent LLM judge scores faithfulness to evidence' and 'Independent judge separate from the proposer'. One build satisfies all three; consolidation candidate.
 
 ## Definition of done
 
-[[Critic pass rated for actionability]]
+"Critic pass rated for actionability"
 
 `npx vitest run test/eval/adversarial-critic-invariants.test.ts`
 
