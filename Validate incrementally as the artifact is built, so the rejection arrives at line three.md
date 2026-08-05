@@ -15,3 +15,11 @@ evidence: assertion
 **What would make this the wrong pick.** If artifacts are genuinely composed atomically — written whole in a single act with no intermediate state to validate — then there is no "line three" at which to check, and this reduces to a dry-run before submission, which is a smaller and different idea. Worth settling that before building: whether the composer *can* check midway is a question about the composing surface, not about the target one.
 
 ⚠️ Unvalidated. Agent-ideated on 2026-08-05.
+
+## Definition of done
+
+[[Check a partial artifact is rejected at the offending line rather than at submission]]
+
+`npx vitest run test/eval/incremental-parse.test.ts`
+
+A three-line fragment containing a type annotation is rejected at its own line, and incompleteness is not itself an error — that second clause is the one that decides whether this node is buildable, since a parser which only accepts whole input has nothing to offer a partial artifact. Red today because parsing happens at submission and nowhere else.
