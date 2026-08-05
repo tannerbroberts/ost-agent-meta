@@ -19,3 +19,6 @@ instrument: npx vitest run test/ost/rollup-execution-first.test.ts
 **Why it is small.** A rendering assertion over a tree that already exists.
 
 **What it does NOT cover, and the node says so itself.** Whether anyone behaves differently. After this ships, exactly as many tests have been run as before; the operator has a more honest dashboard describing the same stall. Whether a stated zero prompts action where a moving percentage did not is a question about a person reading a report, and no spec observes that. Its honest role is as a companion to whichever mechanism actually gets built.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/rollup-execution-first.test.ts` — No test files found, exiting with code 1

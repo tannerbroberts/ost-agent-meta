@@ -19,3 +19,6 @@ instrument: npx vitest run test/ost/instrument-rationing.test.ts
 **Why it is small.** A counter and a refusal, exercised over a fixture vault.
 
 **What it does NOT cover — and it is the objection that should probably decide this node.** Whether withholding work helps. If execution is blocked on something structural rather than on anyone's willingness, rationing punishes the half that works to protest the half that does not, and the operator whose hours do not exist gets no hours back. A spec can prove the valve opens and closes correctly; it cannot tell whether a valve was the right thing to install. That judgement belongs with the sibling comparison against [[A runner that executes instruments and records exit codes only, judging nothing]].
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/instrument-rationing.test.ts` — No test files found, exiting with code 1

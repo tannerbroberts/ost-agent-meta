@@ -18,3 +18,6 @@ instrument: npx vitest run test/runner/exit-code-observation.test.ts
 **Why it is small.** One test, one runner invocation, four assertions — and it is the cheapest possible check on the property that decides whether this candidate is safe to build at all.
 
 **What it does NOT cover.** Whether the exit codes mean anything. The node's own stated failure is that a suite failing for environment reasons returns the same 1 as one failing because the behaviour is missing — a distinction this tree already carries as [[A test that failed because the machine was busy looks exactly like one that failed because I broke something]]. A perfectly-contained runner filling the vault with uninterpretable 1s would pass this test completely. Whether the observations are worth having is a human's read of the first batch.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/runner/exit-code-observation.test.ts` — No test files found, exiting with code 1

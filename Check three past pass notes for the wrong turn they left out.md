@@ -24,3 +24,6 @@ instrument: npx vitest run test/adapters/session-retrospective.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/adapters/session-retrospective.test.ts — Asserts the design question the node says this candidate has to survive — that it can stay silent credibly: a session with nothing conceptual to report produces no inbox item rather than a "nothing notable" one, while a retrospective that is written lands with the session id as provenance and enters at the assertion floor as self-report. Red today because nothing is required before a session closes and no retrospective path exists.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/session-retrospective.test.ts` — No test files found, exiting with code 1

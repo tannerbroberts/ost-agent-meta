@@ -18,3 +18,6 @@ instrument: npx vitest run test/skill/published-grammar.test.ts
 **Why it is small.** The rejection cases already exist in the parser; this is an enumeration and a comparison.
 
 **What it does NOT cover.** Whether anyone reads it. The node concedes this is the weakest of its three siblings for exactly that reason: writing TypeScript into a JavaScript-only file is a habit rather than a knowledge gap, and habits do not consult references. A complete, accurate, drift-tested grammar that no composer opens changes nothing, and only watching composers would reveal that.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/skill/published-grammar.test.ts` — No test files found, exiting with code 1

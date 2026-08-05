@@ -18,3 +18,6 @@ instrument: npx vitest run test/skill/skeleton-validity.test.ts
 **Why it is small.** One artifact, one parse, one drift check — the same pattern the project already uses to keep its generated skill from going stale.
 
 **What it does NOT cover.** The scope limitation, which is this candidate's real weakness. A skeleton constrains the parts it shows and says nothing about the parts it does not, so a composer extending past the example is guessing again — which is exactly what a hundred-and-seventy-line artifact does. Nor can a spec see whether templates calcify structure: composers staying near the starting shape is a behavioural claim, and buying dialect-correctness with a narrowed range of artifacts would look identical to success from inside the suite.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/skill/skeleton-validity.test.ts` — No test files found, exiting with code 1

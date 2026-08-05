@@ -22,3 +22,6 @@ The assumption is that the set of credential forms is small and stable enough to
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/security/credential-forms.test.ts — Asserts the adaptation this node makes the tool's problem: each form the operator plausibly already holds — session token, stored CLI auth, OAuth grant, personal access token, env var set by something else — resolves to the internal call shape, and none is echoed back to the caller. Red today because a single credential type is demanded and no translation layer exists.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/security/credential-forms.test.ts` — No test files found, exiting with code 1
