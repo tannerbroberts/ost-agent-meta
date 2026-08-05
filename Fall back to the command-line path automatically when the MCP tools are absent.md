@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Show readers a degraded run report and see whether they notice]]
+[[The CLI fallback reaches the same vault, and refuses the write half]]
 
 Treat the missing tool surface as a degradation rather than a stop. The evidence says the command line *was still available* in all three toolless passes — so when the MCP surface does not resolve, the pass routes the work it can still do through the CLI, does that work, and reports plainly which capabilities it ran without.
 

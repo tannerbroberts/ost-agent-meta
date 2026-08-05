@@ -1469,3 +1469,4 @@
 {"ts":"2026-08-05T14:34:07.212Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":956,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
 {"ts":"2026-08-05T14:34:38.348Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3487,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["The run record names the tools it had and the ones it expected and did not get.md"]}
 {"ts":"2026-08-05T14:34:45.432Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":980,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
+{"ts":"2026-08-05T14:35:02.695Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":3630,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["The CLI fallback reaches the same vault, and refuses the write half.md"]}
