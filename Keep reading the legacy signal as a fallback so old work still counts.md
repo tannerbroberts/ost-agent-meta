@@ -17,3 +17,15 @@ The new build keeps the old build's reading as a second source: an item counts a
 **A bounded version:** read the legacy signal only for items created before the version boundary, and drop the fallback after a stated release. That caps the carrying cost at the price of a deadline someone has to honour.
 
 Distinguishing assumption: that the two schemes can be reconciled by a simple OR. If the new ledger deliberately *narrowed* what counts as done — that is, the reopened items were genuinely not finished by the new standard — then the union does not fix a bug, it reintroduces one.
+
+## Definition of done
+
+[[The fallback is bounded by the version boundary and goes inert at a stated release]]
+
+```
+npx vitest run test/ost/legacy-signal-fallback-bounds.test.ts
+```
+
+Green means the bounded variant sketched in one line above is a bound rather than an intention: the legacy signal is read only for items created before the version boundary, the fallback goes inert past a release named in code rather than in a comment, and items counted done by the legacy signal alone are reported as such. The third clause is what makes the carrying cost measurable — you cannot decide it is safe to drop a compatibility layer without knowing what it is holding up — and the second is the difference between a deadline someone has to honour and one the code honours by itself.
+
+It does not settle this node's own distinguishing assumption: that the two schemes reconcile by a simple OR. If the new ledger deliberately narrowed what counts as done, a perfectly bounded fallback is a wrong rule with an expiry date. That is [[Judge the eighteen reopened items — were they genuinely finished]], and it needs someone to look at eighteen items and say.
