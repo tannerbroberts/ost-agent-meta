@@ -4,6 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check the rollup reports readiness and execution as separate numbers, with neither called built]]
 
 **The mechanism: change the accounting, build nothing.** The rollup currently reports `built X%` from how many solutions carry a runnable command, which makes a day of instrumenting look like a day of progress. Stop doing that. Report readiness as readiness, keep `tested` where it is, and put the number that has never moved at the top rather than at the end of each line — so the tree states its own condition plainly instead of showing motion in the one dimension that is free.
 
