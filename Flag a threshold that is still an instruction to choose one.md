@@ -94,3 +94,15 @@ that count is currently 0 and in this vault it is 12, and an unknown share of th
 carry real thresholds that nobody can see. Flagged rather than fixed, for the reason pass 6
 gave and which still holds: changing the extractor changes a published number, and the
 right sequence is to decide what the number means before improving how it is counted.
+
+## Definition of done
+
+[[A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact]]
+
+```
+npx vitest run test/ost/threshold-lead-in-wrap.test.ts
+```
+
+Green means `debt`'s four-way classification reads the pre-commitment paragraph rather than where prose formatting put a line break — the defect this node's own body records twice, both times reproduced live and by accident, and both times flagged rather than fixed.
+
+It does not settle the question the older sibling test asks. [[Do named unfixed thresholds actually get fixed]] is about whether naming an unfixed threshold causes anyone to fix it, which is longitudinal and about people; no exit code observes it. Nor does a green re-count history: every `absent` figure this feature has published stays a floor rather than a measurement, including the 12 in this vault.
