@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/eval/blind-ideator-isolation.test.ts
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -19,3 +20,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 instrument: (none) → npx vitest run test/eval/blind-ideator-isolation.test.ts — The test's own premise is that anchoring, not capability, narrows candidate sets — which presumes the ideators are genuinely blind to each other. This asserts exactly that and nothing more: each parallel ideator's assembled prompt contains none of its siblings' candidate text, and a run configured as blind that leaks a sibling candidate into a prompt fails. Missing-spec red, not assertion red — blind parallel ideation is not built, so the command fails on a missing file; a builder should write it against the real prompt-assembly path so it goes red on the leak rather than on absence. It does not settle whether the blind set is MORE DISTINCT: the test's threshold puts that in front of a human blind-rating shuffled sets, and it stays there.
