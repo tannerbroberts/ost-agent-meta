@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Being told a section was dropped is worth little to a caller who cannot restore it]]
 
 The two siblings both try to stop the loss. This one accepts that some losses will not be anticipated and attacks the property that made this one expensive: **nothing in the response distinguished a write that preserved everything from a write that destroyed a record.** `ost_edit_node` returned `edited the body of "…"` in both cases.
 
