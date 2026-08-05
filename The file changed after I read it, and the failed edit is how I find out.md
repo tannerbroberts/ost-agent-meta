@@ -53,3 +53,13 @@ That record is also evidence for [[Two agents sharing my vault can trample each 
 **The fourth record is not the same failure.** *"old_string and new_string are exactly the same"* is a no-op edit, not a stale read. It is listed for completeness and should not be counted toward this node.
 
 _Provenance: four friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
+
+## Corroboration — four further sessions (2026-08-04 sweep)
+
+- TRANSCRIPT:424486ec-3489-4b53-8e2b-012232d221ab — 2026-07-30, two consecutive `String to replace not found` failures, the second carrying the harness's own hint that it had tried swapping `\uXXXX` escapes and neither form matched. The same session then raised a clarifying question reporting that **another process was writing to the repo concurrently** — HEAD had moved to a merge commit and ~14 source files had been touched seconds earlier, including a symbol that had not existed when the file was read. That is this node's mechanism caught in the act, with the cause named rather than inferred.
+- TRANSCRIPT:995b8ab1-5e55-4a5c-b05d-aaed9e1d7538 — 2026-07-29, same failure, same escape-swap hint.
+- TRANSCRIPT:4ff7b605-da1d-4f2e-8c05-ec6408118837 — 2026-07-29, same failure against `(!blocksDone || allOpenUnknowns.length === 0);`.
+
+One thing these add: in two of the three the harness had already tried the obvious repair (character/escape normalisation) and reported that it did not match, which rules out encoding as the cause and leaves staleness. So the failure mode is not ambiguous in the record — it is only ambiguous at the moment it happens, when the run cannot tell "I mis-transcribed" from "someone else moved it" without going back to re-read.
+
+_Recorded as corroboration during the 2026-08-04 unattended pass; these items remain unmapped in the sweep. Observed behavior, mechanically captured; grounds usability, not demand._
