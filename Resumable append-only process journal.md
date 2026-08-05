@@ -24,3 +24,15 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 ## Supporting evidence — observed friction (2026-07-24)
 
 `INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md`: a builder pass was backgrounded mid-work; the next pass had no way to tell finished from abandoned. Exactly the failure this solution exists to prevent — first observed instance in the wild. Evidence class: observed behavior (self-reported by the agent at the moment of friction).
+
+## Definition of done
+
+[[Kill-at-random-points restart test]]
+
+```
+npx vitest run test/loop/kill-restart-idempotence.test.ts
+```
+
+Red today because nothing in the repository interrupts a pass and resumes it. `test/git/stale-lock-recovery.test.ts` covers a crash while holding the lock — one of the twenty points — and there is no harness driving the other nineteen or asserting vault validity across a restart. Green means 20 of 20 kills restart into a valid vault with zero duplicates, zero partial nodes and no orphaned lock, and the pass completes. The node is explicit that this is not a percentage: one failure means the guarantee does not exist.
+
+What it does not settle: twenty seeded interruption points are the moments an author imagined. The promise the parent opportunity wants to make — kill it whenever you like — is a claim about every instant, and a green here is a sample of it.
