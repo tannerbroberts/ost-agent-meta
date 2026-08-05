@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
 [[Check the guard refuses a rewrite that omits a stored section and permits one that accounts for it]]
+[[Check the guard refuses an unaccounted-for section drop and permits an acknowledged one]]
 
 Feasibility, with a false-positive rate attached. The belief is that "the caller did not account for this section" is a decidable condition that separates the destructive call from the legitimate one, and that the separation is clean enough for the refusal to be worth its cost.
 
