@@ -10,6 +10,7 @@ evidence: assertion
 [[Staleness decay that surfaces nodes for refresh]]
 [[Attempt ledger of what was already tried]]
 [[A third of my calls go on re-asking what is outstanding]]
+[[The same blocked call comes back next session, because a correction only lives as long as the session it was given in]]
 
 **The need (customer's voice):** "It is good at finishing a task today and useless at being smarter about my product six months from now. Every run starts over — I am the only thing carrying continuity, and I forget."
 
