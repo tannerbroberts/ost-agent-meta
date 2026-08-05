@@ -18,3 +18,17 @@ The known-flaky files live in a file in the repository, with a reason and a date
 **Prior art in this vault.** The flake-attribution work under [[A test that failed because the machine was busy looks exactly like one that failed because I broke something]] is upstream: perfect attribution would reduce how often anything needs quarantining at all, but would not eliminate it, since a test can be correctly identified as flaky and still need to not block the run today.
 
 _Agent-ideated, unvalidated — one of three competing candidates under this opportunity, for a human to compare rather than adopt._
+
+## Definition of done
+
+[[Count the distinct test files ever hand-excluded across the captured sessions]]
+
+```
+npx vitest run test/telemetry/hand-exclusion-census.test.ts
+```
+
+Red today: nothing extracts exclusion flags from the harvested invocations, so the distinct count does not exist. Green when at least three distinct test files are shown to have been hand-excluded across the captured sessions.
+
+**A red here is a live possibility, not a formality.** The record is known to contain one such file, excluded three times within a single session. If the census finds only that one, the honest answer is to fix the flake and build nothing — which is the result this test is written to be able to produce.
+
+**What this does not settle.** The candidate's real hazard, that a comfortable quarantine lowers the cost of never fixing anything. That is why [[Quarantine entries expire, so a workaround cannot become permanent by inattention]] may be a precondition for this rather than an alternative to it.
