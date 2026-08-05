@@ -23,3 +23,6 @@ instrument: npx vitest run test/release/registry-derived-version.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/release/registry-derived-version.test.ts — Replays every past release and asserts a registry-derived next version never collides with one already published; fails today because the number comes from the local file, which is how two trains picked the same one.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/release/registry-derived-version.test.ts` — No test files found, exiting with code 1

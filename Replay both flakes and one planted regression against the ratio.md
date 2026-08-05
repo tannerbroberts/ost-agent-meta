@@ -25,3 +25,6 @@ instrument: npx vitest run test/telemetry/same-run-baseline-ratio.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/telemetry/same-run-baseline-ratio.test.ts — Replays the two recorded flakes and a planted regression against a same-run baseline ratio and asserts only the regression fails; fails today because the gate compares against the clock, so all three look alike.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/same-run-baseline-ratio.test.ts` — No test files found, exiting with code 1

@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/spend-ceiling.test.ts — Asserts the ceiling is external to the loop's own judgement: the loop halts at the limit even when its stop predicate insists work remains, and cannot argue past it. Red today because no per-period spend accounting or ceiling exists in the loop.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/spend-ceiling.test.ts` — No test files found, exiting with code 1

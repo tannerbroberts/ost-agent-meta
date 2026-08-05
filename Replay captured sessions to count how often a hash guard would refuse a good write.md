@@ -25,3 +25,6 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/git/read-write-hash-drift.test.ts — Replays captured sessions through a read-to-write hash guard and asserts it refuses only the writes whose file actually drifted, naming what drifted; fails today because no hash is carried from read to write.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/git/read-write-hash-drift.test.ts` — No test files found, exiting with code 1

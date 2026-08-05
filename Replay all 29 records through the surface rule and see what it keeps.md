@@ -20,3 +20,6 @@ Retrospective, no build required — the records and the judgement both already 
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/telemetry/friction-surface-rule.test.ts — Runs all 29 recorded friction records through the surface rule and asserts it keeps the ones touching the product's own surface and counts the rest; fails today because every record is filed alike.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/friction-surface-rule.test.ts` — No test files found, exiting with code 1

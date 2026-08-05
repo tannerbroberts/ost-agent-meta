@@ -24,3 +24,6 @@ instrument: npx vitest run test/runner/symbol-index.test.ts
 `npx vitest run test/runner/symbol-index.test.ts`
 
 Red today: `test/runner/symbol-index.test.ts` does not exist, and neither does the index it would exercise.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/runner/symbol-index.test.ts` — No test files found, exiting with code 1

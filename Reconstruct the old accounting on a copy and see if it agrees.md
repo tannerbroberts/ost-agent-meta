@@ -24,3 +24,6 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/accounting-reconstruction.test.ts — The node names a reproducible oracle — `ost-agent@0.1.3`'s own answer on the vault state that produced the 9-versus-27 split — so the spec runs the reconstruction against that committed state, compares item by item against the old build's recorded output, and asserts agreement on at least 26 of 27 with zero items marked done that the old build called outstanding. It fails today because no reconstruction exists.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/accounting-reconstruction.test.ts` — No test files found, exiting with code 1
