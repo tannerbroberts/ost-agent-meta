@@ -1,6 +1,6 @@
 ---
 type: Solution
-status: unvalidated
+status: shipped
 source: 'agent-ideation:autonomous-loop-2026-07-25-pass5'
 created: '2026-07-25'
 evidence: assertion
@@ -110,3 +110,4 @@ It does not settle the question the older sibling test asks. "Do named unfixed t
 ## History
 - 2026-08-05 unlinked "Do named unfixed thresholds actually get fixed" — moved under "Naming an unfixed threshold is enough to get it fixed" — the belief this test measures now has a node of its own
 - 2026-08-05 unlinked "A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact" — moved under "The classifier reads a pre-commitment the same way however the text happens to be wrapped" — the belief this test measures now has a node of its own
+- 2026-08-05 status: unvalidated → shipped — The node's own body records "Shipped as v0.10.0, and this vault never recorded it — 2026-07-25 (pass 6)": `ost-agent debt` classifies every assumption test's threshold, so a pre-commitment that is still an instruction to pick a bar is flagged rather than counted as fixed. Recorded as `shipped` by the 2026-08-05 unattended sweep. No instrument was invented: a red-now instrument is impossible for behaviour that already ships — a spec asserting the classification would pass on arrival, so it could not fail and would hand a builder no definition of done. This says the mechanism is built; it does not say anyone has judged it worth having, which is still what its assumption test is for. Note the node's own irony, preserved: it shipped and this vault did not record it, which is the second time this tree has learned a ship only by reading the release notes.
