@@ -18,3 +18,13 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Do written contribution estimates survive one month of real movement]]
+
+```
+npx vitest run test/ost/contribution-estimate.test.ts
+```
+
+Green means: an estimate is recorded in a checkable form — local metric, named distant goal, dated figure — and the rollup shows it beside what actually moved. Green does **not** mean the estimates survive. That needs a month to elapse; the waiting is not a spec and not a person, just time, and the comparison is a human's to make when the month is up.
