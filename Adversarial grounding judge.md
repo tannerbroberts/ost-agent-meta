@@ -23,3 +23,15 @@ Status: agent-originated candidate. Unvalidated.
 
 ## Issues
 - 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent LLM judge scores faithfulness to evidence' and 'Independent judge separate from the proposer'. One build satisfies all three; consolidation candidate.
+
+## Definition of done
+
+[[Critic pass rated for actionability]]
+
+`npx vitest run test/eval/adversarial-critic-invariants.test.ts`
+
+The spec asserts the two invariants that make this a critic rather than another author: a critic pass creates no nodes and removes nothing, and every objection it emits names the evidence that would settle it. Both are stated in the node as the defining constraints — it "never writes new opportunities and never removes anything — it lowers unearned confidence" — so they are the right things to make falsifiable. Red today because no critic pass exists and nothing enforces the boundary.
+
+**What a green here does not settle.** Both of the node's own riskiest assumptions, and it names them: that an independent critic finds objections a human agrees are worth acting on (desirability), and that its output stays small enough to read (usability). An over-eager critic that floods the tree with well-formed, correctly-cited objections nobody reads would pass this spec perfectly. Actionability is the humans-required test.
+
+**Unresolved, and not this pass's call.** The 2026-07-25 issue above flags this as one of three nodes making the same bet, with "one build satisfies all three". This sweep did not merge them: an adversarial critic, a faithfulness scorer, and an independent judge separate from the proposer are plausibly one mechanism and plausibly three, and the difference turns on whether attacking a claim and scoring its fidelity to evidence are the same act. What would settle it: write the one build's interface and see whether all three nodes' described outputs fall out of it. If they do, merge into this one and carry the others' prose across.
