@@ -1663,3 +1663,4 @@
 {"ts":"2026-08-05T23:39:25.394Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1443,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:39:36.781Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1870,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:40:31.926Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2993,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Each pass leaves me more to check than it started with.md"]}
+{"ts":"2026-08-05T23:41:08.220Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1785,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
