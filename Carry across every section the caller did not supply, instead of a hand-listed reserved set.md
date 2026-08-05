@@ -18,3 +18,15 @@ Today a rewriting tool protects a **list** of section headings. `ost_edit_node` 
 **Compared with its siblings.** This one prevents the loss by construction and needs nothing of the caller — the weakest assumption about who is paying attention, which matters when the caller is an unattended agent. "Refuse a rewrite that would drop a section the caller never acknowledged" catches the same class at the boundary instead and teaches the caller what it nearly did, at the price of a chattier call. "Report what the write changed, so a silent loss stops being silent" prevents nothing at all but covers losses nobody anticipated, including in tools this fix never touches. They are not alternatives so much as three different bets about where the leverage is: in the mechanism, in the contract, or in the feedback.
 
 Unvalidated — proposed by the 2026-08-05 unattended pass, from a first-party reproduction of the `## History` loss recorded on the opportunity above. For human review.
+
+## Definition of done
+
+"Edit a node holding five sections while supplying two, and check the other three survive intact"
+
+```
+npx vitest run test/mcp/edit-node-preserves-unsupplied-sections.test.ts
+```
+
+Green means: a node's unsupplied sections — including `## History`, including one already on the hand-listed reserved set, including one whose body holds a fenced block containing a `## ` line — survive a rewrite byte-identical, with nothing duplicated. Red today, and for the right reason rather than because a file is absent: the `## History` loss this asserts against was observed first-party on 2026-08-05.
+
+Named in plain text rather than as a wikilink deliberately. The test's one backlink belongs to its parent assumption, "A rewrite can preserve every unsupplied section without the caller naming any of them"; a second link from here would fail the `single-backlink` invariant. This pass confirmed that mechanic the hard way — an `ost_edit_node` call that reproduced a node's child links in `prose` produced a duplicate of each, because the tool reattaches the link header itself.

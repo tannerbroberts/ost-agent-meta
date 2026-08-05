@@ -1681,3 +1681,4 @@
 {"ts":"2026-08-05T23:49:15.542Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2729,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Edit a node holding five sections while supplying two, and check the other three survive intact.md"]}
 {"ts":"2026-08-05T23:49:27.629Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2612,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Check the guard refuses a rewrite that omits a stored section and permits one that accounts for it.md"]}
 {"ts":"2026-08-05T23:49:43.508Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2709,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Check every section reported dropped arrives with enough to restore it.md"]}
+{"ts":"2026-08-05T23:49:58.602Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1228,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
