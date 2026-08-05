@@ -18,3 +18,6 @@ instrument: npx vitest run test/eval/incremental-parse.test.ts
 **Why it is small.** Two fragments, no execution, no live surface.
 
 **What it does NOT cover.** Whether composing actually happens in a way that leaves intermediate state to check. The node names this openly: if artifacts are written whole in a single act, there is no "line three" at which to validate and this reduces to a dry-run before submission — a smaller and different idea. That is a question about the composing surface rather than the target one, and this test looks only at the target.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/eval/incremental-parse.test.ts` — No test files found, exiting with code 1

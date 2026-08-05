@@ -21,3 +21,6 @@ Proposed by the agent — a human does all reviewing and accepting. The agent mu
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 instrument: (none) → npx vitest run test/knowledge/ruleset-proposal.test.ts — Asserts the safety property that makes this candidate never surprise the operator: a pending proposal does not alter the ruleset the pass actually executes, and every proposal carries the friction evidence ids that triggered it. Red today because the agent has no way to draft a change to its own ruleset — the ruleset is generated from source and only a human edits it.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/knowledge/ruleset-proposal.test.ts` — No test files found, exiting with code 1

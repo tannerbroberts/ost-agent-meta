@@ -22,3 +22,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/pending-ask-queue.test.ts — Asserts the two properties that separate this from what already ships: an ask raised mid-pass by one run is still in the queue on a later run, carrying a non-null age and the command that would clear it. Red against today's code rather than merely against a missing file — outstandingAsks exists but is derived only from blockedOnPermission tests, so an ask a run could not answer itself is never persisted and reports ageDays null.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/pending-ask-queue.test.ts` — No test files found, exiting with code 1

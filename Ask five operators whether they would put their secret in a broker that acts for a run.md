@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/security/credential-broker.test.ts — Asserts the containment the node's whole argument rests on: the run receives the result of a scoped action and never the secret itself, and every request is logged with asker, target and outcome. Red today because no broker process, scope policy or request log exists.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/security/credential-broker.test.ts` — No test files found, exiting with code 1

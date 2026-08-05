@@ -21,3 +21,6 @@ instrument: npx vitest run test/web/research-loop-provenance.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/web/research-loop-provenance.test.ts — Asserts the anti-inflation guard the node names as its first key assumption: every filed finding carries URL, retrieval date and the open assumption it was derived from, and enters at the assertion rung regardless of the host's earned standing. Red today because no research loop files anything into the inbox — web reads are operator-initiated and budgeted, never scheduled.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/web/research-loop-provenance.test.ts` — No test files found, exiting with code 1

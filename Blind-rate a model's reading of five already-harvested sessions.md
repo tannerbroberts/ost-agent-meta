@@ -21,3 +21,6 @@ instrument: npx vitest run test/adapters/transcript-model-reader.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/adapters/transcript-model-reader.test.ts — Asserts the guard the node says any shipped version needs: every filed item carries a verbatim quote that is locatable in the transcript it claims to come from, so a model's interpretation cannot be laundered into observed material. Red today because the transcript adapter only pattern-scans for tool_error, retry and clarifying_question, and no model-reading path exists.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/transcript-model-reader.test.ts` — No test files found, exiting with code 1

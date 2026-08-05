@@ -20,3 +20,6 @@ An hour of one person's time. Proposed by the agent; a human runs it and records
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/adapters/friction-recovery-rule.test.ts — Asserts the rule judges by what happened next rather than by the error itself: an error the session recovered from within a turn or two collapses into a counted summary line, while one that changed the session's direction, cost several attempts, or ended the work gets its own record. Red today because the harvester emits every tool_error as a flat event with no recovery classification at all — which is why 24 sessions produced 82 undifferentiated items.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/friction-recovery-rule.test.ts` — No test files found, exiting with code 1
