@@ -22,3 +22,6 @@ The assumption is that upward search is unambiguous. It silently binds a project
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/config/upward-vault-search.test.ts — Lays out two vaults with nested and sibling roots and asserts the upward search resolves the one containing the working directory; fails today because no upward search exists.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/config/upward-vault-search.test.ts` — No test files found, exiting with code 1

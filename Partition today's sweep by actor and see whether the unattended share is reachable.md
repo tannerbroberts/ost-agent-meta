@@ -22,3 +22,6 @@ The assumption is that partitioning produces a share an unattended pass can actu
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/sweep-actor-partition.test.ts — The finding this test is written for is a bucket count over the sweep the tool already computes, so the classification needs no person: the spec partitions every item `ost_next_work` returns by who may act on it — unattended pass, attended session, human only, nobody — and asserts the fourth bucket is empty, or that every item in it carries a named reason. It fails today because nothing partitions the sweep by actor at all; there is no actor field on a sweep item and no classifier to produce one. The node predicted the stranded evidence records would land in the fourth bucket, and the 2026-08-05 pass confirms the prediction from the other direction: twenty-two evidence items corroborated needs the tree already holds and no actor on any surface could clear them, because clearing requires a node citing the item as `source`. Note the limit the node states and this does not touch: whether a human accepts a given reason is a human's call, and the spec asserts a reason is present, never that it is good.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/sweep-actor-partition.test.ts` — No test files found, exiting with code 1
