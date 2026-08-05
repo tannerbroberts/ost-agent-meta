@@ -15,3 +15,15 @@ evidence: assertion
 **Chief risk, stated plainly:** only what is cheap to compute gets modelled. Every factor above is recoverable from the vault; the reasons that have actually driven this tree's real decisions are not — the founder's free-distribution call, the evidence-debt gates, the WIP limit, the sequencing of the cold-offer test. A factor table would render those rows with a full set of values and still miss the thing that put them where they are, and a legible-but-wrong table is more dangerous than an absent one because it invites trust. The mitigation is that the gate/decision factor is itself one of the columns, but a boolean is a thin rendering of a paragraph.
 
 **Cost shape:** moderate to build (four extractors over the vault), near-zero per pass (recomputed, never re-authored) — the inverse of the ledger candidate's cost curve.
+
+## Definition of done
+
+[[The row renders four factor values and emits no composite number anywhere]]
+
+```
+npx vitest run test/ost/factor-table-no-composite.test.ts
+```
+
+Green means each row carries all four factors as separate visible fields, an uncomputable factor renders as unknown rather than as a zero or a blank, and no surface anywhere emits a combined or sortable single number derived from them. The last clause is the one worth committing before the convenience exists to argue with: collapsing four columns into one sort key is the obvious way to make a ranked view ranked, and this tree's prioritization rules forbid quantified scoring formulas outright.
+
+It does not answer this node's own chief risk. The factors that drove this tree's real decisions — the free-distribution call, the evidence-debt gates, the WIP limit, the cold-offer sequencing — are not recoverable from the vault, so a green table can be right about everything cheap and silent about everything that mattered. No exit code detects that, and the gate/decision column stays a boolean standing in for a paragraph.
