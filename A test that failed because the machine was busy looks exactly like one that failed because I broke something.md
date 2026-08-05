@@ -39,3 +39,12 @@ Evidence class stays `assertion` for this node overall: the trace observes the a
 - 2026-08-05 unlinked "Budget against a same-run baseline instead of against the clock" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "Assert on work units instead of milliseconds" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "Re-run once and report the disagreement rather than the first result" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
+
+## Observed corroboration — 2026-08-05 sweep
+
+Two machine-recorded session traces show this failure in its pure form, and neither needed a person to notice it:
+
+- `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68` — a Bash test run returned **exit code 143** alongside the text `Tests 1 failed (1)`. 143 is SIGTERM: the run was *killed*, not failed. The surface the agent read said "1 failed" and nothing distinguished the kill from a defect.
+- `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` — a CI poll returned **exit code 8** for `bundle-drift` while a sibling job read `test pending 0`. One job had a verdict, one had not run, and the aggregate exit code carried both.
+
+This is observed behavior from the agent's own sessions rather than an outside report, so it grounds the usability half of this opportunity and not the desirability half. What it adds is that the confusion is not hypothetical and not rare: the signal that would separate the two — the signal number, and whether a job reached a verdict at all — was present in the raw output and absent from what the agent acted on.
