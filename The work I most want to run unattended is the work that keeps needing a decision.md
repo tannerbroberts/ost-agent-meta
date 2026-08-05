@@ -49,3 +49,17 @@ _Source: `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9`, read in full this pa
 - 2026-08-05 unlinked "A question queue the run banks and works around, instead of stopping at the fork" — re-parented under "A run has no authority to decide anything, so every fork is a full stop" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "A standing authority contract naming which classes of decision compute may take alone" — re-parented under "A run has no authority to decide anything, so every fork is a full stop" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "Take the fork, state the assumption, and price the reversal" — re-parented under "A run has no authority to decide anything, so every fork is a full stop" — this solution answers that need, not the categories beside it
+
+## Observed corroboration — 2026-08-05 sweep
+
+Five machine-recorded stops, and they fall into two kinds that a solution here should not treat alike.
+
+**A guard that worked, and had nobody to ask.** `TRANSCRIPT:5de6e49b-d840-4fba-9549-206d3b0d7276` (2026-08-05, the most recent trace in this batch): `ExitWorktree` refused with *"Worktree has 2 commits on worktree-discovery-eyes. Removing will discard this work permanently. Confirm with the user, then re-invoke with discard_changes: true — or use action: keep."* The refusal is correct and the alternative is spelled out. It still ends an unattended run, and the two commits are now stranded in a worktree the run may neither discard nor clean up.
+
+**Taste questions with no safe default.** Four sessions stopped to ask the operator to choose a framing rather than to authorise a risk:
+- `TRANSCRIPT:2c1b611a-ae7e-4191-aefe-b489c631a115` — how metacognition should sit relative to the external-operators metric
+- `TRANSCRIPT:dcdaebdb-ffd9-4944-973b-cf0b8e1113c4` — which of two renderings to put in a script
+- `TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f` — which environment a vault should be
+- `TRANSCRIPT:87a025f8-c6b0-474f-9a13-0b5ec5c922ea` — whether an obsolete PR should be closed
+
+The split matters because the obvious fix for one is wrong for the other. A stated default that stands while the operator is away is a reasonable answer to the second kind, where every option is recoverable and the cost of guessing wrong is a rewrite. It is the wrong answer to the first, where the whole point of the stop is that the action is irreversible. Any candidate solution beneath this opportunity should say which kind it addresses; one that claims both is probably answering neither.
