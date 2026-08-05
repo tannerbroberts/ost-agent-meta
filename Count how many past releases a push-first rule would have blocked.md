@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/release/push-first-blocked-census.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,3 +23,6 @@ evidence: assertion
 
 ## Issues
 - 2026-08-05 2026-08-05 (unattended sweep) Left un-instrumented on purpose, and the reason is worth recording rather than leaving as silence. This test's threshold splits across two lanes and only one of them is mechanical. Reconstructing from git whether each releasing tree was ahead of, behind, or diverged from `origin/main` at the moment of release — and therefore which releases the rule would have refused, and the refusal rate as a share of all releases — is a computation over history already on disk, settleable by a spec today. The pre-committed bar is not that: "at least 50% must be judged genuinely problematic" turns on a person reading each refused release and deciding whether it was actually a problem or merely unpushed, and no exit code produces that judgement. Attaching a single command here would have gone green on the arithmetic while the clause the candidate actually lives or dies on stayed untouched, which is the failure mode the ruleset warns about — a passing test read as a validated solution. For a human: this splits cleanly into a replay test (instrumentable now: refusal set and refusal frequency, both mechanical) and a judgement test (humans-required: were the refused releases problematic). The node itself already says the frequency number "matters as much as the threshold" and that a result reporting precision without frequency has not answered the question — so the mechanical half is not a consolation prize, it is half the deliverable. Creating the split node is outside this sweep's scope and `ost_flag_humans_required` is not granted on this surface, so neither half could be filed correctly from here.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/release/push-first-blocked-census.test.ts — Replays every past release in this repository's history against the proposed precondition — working tree ahead of, behind, or diverged from `origin/main` — and counts how many would have been refused, which is the adoptability figure this test pre-commits to. It fails today because the release path has no ahead/behind precondition at all: there is no `git rev-list --left-right --count` gate to call, and nothing replays historical releases against one, so the census has no subject.
