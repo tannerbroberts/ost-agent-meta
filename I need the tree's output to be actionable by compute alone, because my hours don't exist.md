@@ -181,3 +181,9 @@ Final: **41 assumption tests read in full.** 12 took an instrument. 21 are irred
 The ratio barely moved as the sample grew — roughly 29% instrumentable against 51% human-only — which is the part worth trusting. A ratio that holds from 33 to 41 across nodes chosen for their apparent mechanisability is not going to improve on the remainder, because the remainder was not selected for it.
 
 The two-lane count rose from 3 to 4: [[Have an unattended pass resolve ten seeded merge conflicts and grade every resolution]] is the new one, and it is the sharpest instance yet. Its mechanical clause (zero conflict markers, zero broken links) is trivially achievable and its human clause (9 of 10 resolutions graded correct) is the entire question of whether an unattended pass can be trusted to own a merge. One command joined by "and" would have reported the first as if it settled the second.
+
+### One number in the correction above is wrong — corrected 2026-08-05
+
+It says 12 instruments were written. **13 were.** Verified by counting `instrument:` fields across the vault rather than by counting the pass's own actions: 97 before the sweep, 110 after.
+
+Recording it this way is the point. The first two tallies were the pass counting what it remembered doing, and the pass miscounted its own work by one while writing a section about measuring things properly. The vault could answer the question directly the whole time, and the count taken from the artifact is the one to trust. The read-count of 41 in that section came from the same memory and should be read as approximate; the disposition ratio it supports is unaffected at that precision.
