@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/web/research-loop-provenance.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -17,3 +18,6 @@ evidence: assertion
 **Deliberately not tested here.** Rung inflation (whether a cited web source can honestly sit above `assertion`) and unattended-web-access trust are separate assumptions and deserve separate tests — mixing them in would make a single verdict unreadable. The rung question is partly answered already by the existing `ost_rank_source` ceiling, where `expert` is the cap for a byline.
 
 **Who runs it.** A human, or an attended session with an outward-sensing grant. This unattended pass holds no such grant and did not search.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/web/research-loop-provenance.test.ts — Asserts the anti-inflation guard the node names as its first key assumption: every filed finding carries URL, retrieval date and the open assumption it was derived from, and enters at the assertion rung regardless of the host's earned standing. Red today because no research loop files anything into the inbox — web reads are operator-initiated and budgeted, never scheduled.

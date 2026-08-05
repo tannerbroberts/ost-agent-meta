@@ -1318,3 +1318,4 @@
 {"ts":"2026-08-05T02:31:05.249Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1946,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
 {"ts":"2026-08-05T02:31:13.782Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1778,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
 {"ts":"2026-08-05T02:31:43.570Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":578,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
+{"ts":"2026-08-05T02:31:45.701Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":548,"session":"mcp-b6620579-acd5-47ac-9b71-518d6b3bffe3"}
