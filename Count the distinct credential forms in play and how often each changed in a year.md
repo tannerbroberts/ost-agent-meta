@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At most 6 forms, with fewer than 4 breaking changes across all of them in the
   last year.
+instrument: npx vitest run test/security/credential-forms.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that the set of credential forms is small and stable enough to
 **Why it is small.** Reading public changelogs for a handful of services, an afternoon.
 
 **What it will not cover.** Past change rate predicts future change rate poorly for services that are themselves young. It also says nothing about the security exposure of handling many forms, which is the other half of the objection and needs a different test.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/security/credential-forms.test.ts — Asserts the adaptation this node makes the tool's problem: each form the operator plausibly already holds — session token, stored CLI auth, OAuth grant, personal access token, env var set by something else — resolves to the internal call shape, and none is echoed back to the caller. Red today because a single credential type is demanded and no translation layer exists.
