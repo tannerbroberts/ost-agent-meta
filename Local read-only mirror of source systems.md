@@ -18,3 +18,13 @@ _Addresses: "Connecting my systems of record could leak or corrupt them". Unvali
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Test is mirror staleness acceptable versus live reads]]
+
+```
+npx vitest run test/adapters/mirror-staleness.test.ts
+```
+
+Green means: staleness is a number the mirror reports rather than a property nobody can see — every record carries its fetch time, reads return the age with the data, and anything past the configured bound is served explicitly marked stale. Green does **not** say the staleness is acceptable; that depends on what a team is deciding with the data and is a person's call.
