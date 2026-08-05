@@ -18,3 +18,13 @@ _Addresses: "Want proof no hijackable capability even exists". Unvalidated — h
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Test does a published manifest increase operator trust]]
+
+```
+npx vitest run test/release/capability-manifest.test.ts
+```
+
+Green means: the manifest is checkable rather than merely published — it enumerates every capability the agent surface exposes, its signature verifies against the built artefact, and a build whose real tool surface diverges from its manifest fails the release instead of shipping. An unverifiable manifest would make the test measure credulity rather than trust. Green does **not** mean operators trust it more; that is a person's reaction.
