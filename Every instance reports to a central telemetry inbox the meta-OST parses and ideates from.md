@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #founder-provided #evidence/assertion
 [[Ask five prospective operators whether they would let their vault report outward]]
+[[A fleet instance reaches the inbox with no new credential, and its provenance survives the trip]]
 
 **Mechanism (founder-provided, 2026-07-26):** All instances of the OST-Agent report to a central telemetry inbox belonging to the OST-Agent that runs the OST *for* the OST-Agent (this vault). The meta-OST parses that inbox, ideates on what arrives, and generates yet more solutions — fleet experience becomes discovery input automatically, with no human carrying it.
 
