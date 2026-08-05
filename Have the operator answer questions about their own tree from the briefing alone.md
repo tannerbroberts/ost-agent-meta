@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 7 of 10 correct, including catching at least 1 of the 2 seeded
   errors.
+instrument: npx vitest run test/ost/standing-briefing.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that reading a briefing maintains real understanding rather th
 **What it will not cover.** Answering questions is not the same as being able to make good decisions, and one operator's month is a thin sample.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/standing-briefing.test.ts — Asserts the briefing is regenerated in full each pass and names the belief the tree currently rests on — the weakest rung of the believability rollup — so a cold reader gets the tree's actual footing rather than a diff. Red today because no standing briefing is generated at all.
