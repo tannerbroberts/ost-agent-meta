@@ -20,3 +20,13 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Timed side-by-side judgement of canary output]]
+
+`npx vitest run test/eval/canary-parallel-run.test.ts`
+
+The spec asserts the property this node claims as its whole advantage — no interruption, because the old process never stops. Both processes run over identical input, both outputs are captured for comparison, and a canary that errors or diverges leaves the incumbent's result untouched. Red today because no canary harness exists and a changed process simply replaces the old one.
+
+**What a green here does not settle.** Both riskiest assumptions the node names, and they are the ones that decide it. That two runs over the same input are comparable enough to judge is feasibility — a spec can prove the inputs were identical, which is not the same as the outputs being commensurable, and the node already concedes "many workflow changes have no comparable output to diff". That a human can tell which output is better in a couple of minutes is usability, and it needs a human and a clock. The doubled compute cost is also untouched: the suite passing says the harness works, not that anyone will pay twice for every change.
