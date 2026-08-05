@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 3 of 5 scopes are expressible without a clause that could be
   satisfied vacuously.
+instrument: npx vitest run test/eval/gate-scope-expressibility.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that a gate's intended coverage can be written down up front. 
 **Why it is small.** Five gates already exist. The exercise is writing, and failing to write is the result.
 
 **What it will not cover.** Whether an author would keep the scope current as the gate's purpose evolves — which is where a written scope most plausibly rots.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/eval/gate-scope-expressibility.test.ts — The bar is countable — "At least 3 of 5 scopes are expressible without a clause that could be satisfied vacuously" — and the node is explicit that failing to write a scope is itself the result, which makes this a spec rather than an essay: the scope declarations either exist in a machine-checkable form for five of this project's existing gates, or they do not. The spec requires a declared scope per gate (which files, which cases, which behaviours must be exercised), asserts each is evaluable by the checker rather than free prose, and applies the vacuity test the node asks for — hollow out what happens inside the scope and confirm the declaration goes red, since a clause satisfiable by an empty body is precisely the failure being counted. Three of five must survive both. It fails today because no gate in the repository declares its intended coverage: gates assert outcomes and nothing records what they were meant to cover, so there is nothing to check for vacuity and the count starts at zero. What it does not settle is the rot the node names — whether an author keeps a written scope current as the gate's purpose evolves is a habit over months, and no single exit code observes it.
