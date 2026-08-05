@@ -1697,3 +1697,4 @@
 {"ts":"2026-08-05T23:52:09.092Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":371,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Being told a section was dropped is worth little to a caller with no undo.md"]}
 {"ts":"2026-08-05T23:52:18.235Z","tool":"ost_merge_nodes","ok":true,"ms":36,"surface":"mcp","argBytes":2058,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:52:26.750Z","tool":"ost_merge_nodes","ok":true,"ms":35,"surface":"mcp","argBytes":2163,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
+{"ts":"2026-08-05T23:52:36.205Z","tool":"ost_merge_nodes","ok":true,"ms":36,"surface":"mcp","argBytes":2613,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}

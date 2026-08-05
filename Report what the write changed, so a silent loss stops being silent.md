@@ -5,7 +5,6 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Being told a section was dropped is worth little to a caller who cannot restore it]]
 [[Being told a section was dropped is worth little to a caller with no undo]]
 
 The two siblings both try to stop the loss. This one accepts that some losses will not be anticipated and attacks the property that made this one expensive: **nothing in the response distinguished a write that preserved everything from a write that destroyed a record.** `ost_edit_node` returned `edited the body of "…"` in both cases.
@@ -33,3 +32,6 @@ Green means every heading in a mutating response's `dropped` list arrives with e
 Two cautions for whoever builds this. Green proves a caller *could* restore, not that one would — and this solution's own assumption is stated against it, arguing that reporting may convert a silent loss into a documented one without changing the loss rate. Build it alongside one of the two preventive siblings rather than instead of one.
 
 Named in plain text rather than as a wikilink: the test's one backlink belongs to its parent assumption, "Being told a section was dropped is worth little to a caller who cannot restore it".
+
+## History
+- 2026-08-05 link "Being told a section was dropped is worth little to a caller who cannot restore it" repointed to "Being told a section was dropped is worth little to a caller with no undo" — that node was merged away
