@@ -15,3 +15,11 @@ evidence: assertion
 **What would make this the wrong pick.** If the composer's error is confident rather than ignorant. Writing TypeScript into a JavaScript-only file is not usually a gap in knowledge — it is a habit, and habits do not consult references. Against a confident composer, the skeleton sibling wins because it does not require anyone to look anything up.
 
 ⚠️ Unvalidated. Agent-ideated on 2026-08-05 from two machine-captured rejections at lines 24 and 172.
+
+## Definition of done
+
+[[Check the accepted grammar is retrievable without submitting anything, and names every rejected construct]]
+
+`npx vitest run test/skill/published-grammar.test.ts`
+
+Every construct the parser rejects appears in the published grammar, the grammar is obtainable without submitting an artifact, and a drift assertion fails if grammar and parser diverge. Red today because the rules live only inside the rejection message, so the only way to obtain them is to be wrong first. A complete, accurate, drift-tested grammar that no composer opens changes nothing.
