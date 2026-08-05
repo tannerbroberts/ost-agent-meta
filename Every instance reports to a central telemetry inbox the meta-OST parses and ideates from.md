@@ -16,3 +16,15 @@ evidence: assertion
 **Key assumptions (explicit, untested):** (feasibility) instances can identify and reach a central inbox without new credentials or infrastructure beyond the compute already in hand; (feasibility) the meta-OST's existing map/ideate passes can keep up with N instances' output without drowning the 19-item inbox backlog dynamic in noise; (viability) fleet telemetry converging on one vault preserves per-instance provenance well enough to remain believable evidence; (desirability) founder-run instance streams — self-generated, assertion-heavy — actually raise the tree's evidence quality rather than deepening the echo chamber the usage-feed opportunity explicitly warns against.
 
 **Rung honesty:** founder-provided solution, entered unvalidated — its provenance implies no promotion.
+
+## Definition of done
+
+[[A fleet instance reaches the inbox with no new credential, and its provenance survives the trip]]
+
+```
+npx vitest run test/adapters/fleet-inbox-provenance.test.ts
+```
+
+Green means the first two of the four assumptions listed above are settled: two instances deliver to one inbox on the compute and credentials they already hold, and every delivered item stays attributable to the instance that produced it, with an item that loses its attribution refused rather than ingested anonymously. That last clause is the load-bearing one — ten instances agreeing and one instance repeated ten times are the same stream once attribution is flattened, and every rung computed over it would be wrong in the flattering direction.
+
+It settles neither of the other two. Whether the meta-OST's passes keep up with N instances is a load question owned by [[Backpressure-tolerant ingest channel that preserves provenance under load]]. And whether founder-run, self-generated, assertion-heavy streams raise the tree's evidence quality or deepen the echo chamber is untouched by any exit code: green here is fully compatible with the resulting evidence being worthless, and only outside operators distinguish the two.
