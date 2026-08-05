@@ -18,3 +18,13 @@ _Addresses: "Trust an unmonitored agent enough to walk away". Unvalidated — hu
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Test does a supervised dry run raise willingness to enable cron]]
+
+```
+npx vitest run test/loop/dry-run-no-writes.test.ts
+```
+
+Green means: a full pass under the dry-run flag produces its usual plan and report while git HEAD is unchanged and no node file is touched. Green does **not** mean anyone is more willing to enable cron — that half is a person's reaction and stays with a human.
