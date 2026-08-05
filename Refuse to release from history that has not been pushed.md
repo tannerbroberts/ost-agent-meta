@@ -23,3 +23,15 @@ evidence: assertion
 
 ## History
 - 2026-08-05 unlinked [[Count how many past releases a push-first rule would have blocked]] — moved under [[A push-first rule would have blocked few enough past releases to be adoptable]] — the belief this test measures now has a node of its own
+
+## Proving this
+
+[[Count how many past releases a push-first rule would have blocked]]
+
+```
+npx vitest run test/release/push-first-blocked-census.test.ts
+```
+
+Red today: the release path has no ahead/behind precondition to call, and nothing replays past releases against one. Green when the gate exists and the census can be taken.
+
+**What a green run would not settle, and two of the three are the deciding questions.** The census answers only adoptability — how often the rule would have bitten. It does not touch this node's own stated cost, that the rule forbids legitimate branch releases, hotfixes from a detached state and deliberate prereleases; nor the admission that it narrows the collision window without closing it, since two trains in sync with `origin/main` can still read the same version in the same minute. And it says nothing about the live blocker recorded above: a strict push-first rule makes the holder of the credential in [[Every run ends blocked on a credential only I hold]] a mandatory participant in every release, which cuts directly against [[I need the tree's output to be actionable by compute alone, because my hours don't exist]]. That trade is a human's call and no exit code reaches it.
