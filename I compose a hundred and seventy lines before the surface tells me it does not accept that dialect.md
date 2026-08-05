@@ -6,6 +6,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[The surface publishes its accepted grammar where a composer can read it before writing]]
+[[Validate incrementally as the artifact is built, so the rejection arrives at line three]]
 
 I write a long artifact for a surface I cannot inspect first, hand the whole thing over, and the rejection arrives at a line number.
 
