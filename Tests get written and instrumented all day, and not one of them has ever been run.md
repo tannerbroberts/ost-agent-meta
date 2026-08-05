@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[A runner that executes instruments and records exit codes only, judging nothing]]
 
 A whole day's work goes into making tests runnable and the number of tests that have run stays at zero.
 
