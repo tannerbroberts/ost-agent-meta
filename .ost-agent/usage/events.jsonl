@@ -1231,3 +1231,4 @@
 {"ts":"2026-08-05T01:14:40.179Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":950,"session":"mcp-afc7b7aa-5f83-428f-9cd9-d4a72f6b5d90"}
 {"ts":"2026-08-05T01:14:43.962Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":974,"session":"mcp-afc7b7aa-5f83-428f-9cd9-d4a72f6b5d90"}
 {"ts":"2026-08-05T01:14:47.243Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":1025,"session":"mcp-afc7b7aa-5f83-428f-9cd9-d4a72f6b5d90"}
+{"ts":"2026-08-05T01:15:39.421Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":1476,"session":"mcp-afc7b7aa-5f83-428f-9cd9-d4a72f6b5d90"}
