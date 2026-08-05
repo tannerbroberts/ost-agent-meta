@@ -1,9 +1,9 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +19,6 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+
+## Issues
+- 2026-08-05 2026-08-05 unattended sweep — triaged as humans-required, but the lane could NOT be set, so this is a note rather than a label. Its parent solution "Rank every node by how many blocked tests one build would unblock" sits in `solutionsMissingInstruments`, and this pass judged that no instrument belongs here: the method makes a person the measurement and says so as an explicit guard — "the human operator picks a next build naively from each live vault; then is shown hand-computed unblock counts", with "Guard: the OPERATOR is the subject — an agent picking would re-create the closed loop this tree already flags." No spec file can supply an operator's changed pick. The correct disposition is the humans-required lane; `ost_flag_humans_required` is not on this unattended sweep's granted surface (the call was refused), so a human should apply it with `ost-agent lane --set`. Recorded here so the next pass reads the disposition instead of re-deriving it from the test body.
