@@ -188,3 +188,27 @@ The two-lane count rose from 3 to 4: [[Have an unattended pass resolve ten seede
 It says 12 instruments were written. **13 were.** Verified by counting `instrument:` fields across the vault rather than by counting the pass's own actions: 97 before the sweep, 110 after.
 
 Recording it this way is the point. The first two tallies were the pass counting what it remembered doing, and the pass miscounted its own work by one while writing a section about measuring things properly. The vault could answer the question directly the whole time, and the count taken from the artifact is the one to trust. The read-count of 41 in that section came from the same memory and should be read as approximate; the disposition ratio it supports is unaffected at that precision.
+
+## The runnable set is empty by construction, and three separate mechanisms each hold it there
+
+Measured this pass by working the instrument backlog directly rather than by reasoning about it. `ost_next_work` reports **0 runnable, 0 awaiting-one-command, 0 blocked-on-permission, 264 needs-humans**. That distribution is not a backlog that happens to be human-heavy. It is the only distribution the current mechanisms can produce, and the three reasons compose:
+
+1. **Only a human can put a test in the compute lane.** [[Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane]] records this as deliberate, twice: the permissive call lives on the CLI, `ost_flag_humans_required` takes no lane argument by design, and unclassified fails closed. Its own build note is explicit — *"nothing here moves a test into compute-only, and nothing can: that call is still a human's, and the runnable set is still empty by construction."* Four releases on that branch have not moved it.
+2. **The shrinking call is unavailable to an unattended pass too.** `ost_flag_humans_required` was declined at the permission layer this pass — the same refusal recorded against the 2026-08-02 third pass. So a sweep can neither add to the runnable set nor remove correctly-human work from the un-instrumented count. Both directions are shut, which is why the number only ever grows.
+3. **`solutionsMissingInstruments` cannot see either fact.** It reports "tests are prose only" and treats three different states as one.
+
+**The third point is the actionable one, and this pass sampled it rather than asserting it.** Of the solutions examined from the 112, the count mixes at least three kinds:
+
+- **Genuinely un-instrumented and mechanical** — real work, and four were cleared this pass (`record-replay-sufficiency`, `pass-shape-classifier`, `census-drop-history`, `compute-lane-runner`).
+- **Shipped behaviour that must NOT be instrumented**, because any command written for it passes on arrival and a command that cannot fail measures nothing. Confirmed on *Every count states the denominator it was taken over* (v0.22.0), *Do the shipped sweeps actually find a planted instance* (whose spec `test/eval/planted-instance.test.ts` shipped in v0.20.0), *Does refusing a newline inside a wiki-link catch breaks nothing else catches* (shipped as `check` rule `wrapped-wikilink`), and *Sweep both vault histories for writes that landed as undefined or empty* (run, threshold cleared, consequence shipped as v0.18.0).
+- **Correctly human-required**, where the node's own prose says so and is right — *Show readers a degraded run report and see whether they notice* states *"The measurement is what a human notices. There is no mechanical proxy for it, and constructing one would answer a different question."*
+
+The second and third kinds are **finished work and correctly-classified work**, both reported as outstanding. Every pass re-derives those judgements from prose, and a less careful pass resolves the pressure by writing an instrument for a shipped feature — which passes immediately, looks like progress, and hands a builder a definition of done that was already met.
+
+**What a human could change, in rough order of how much it would buy:**
+
+- Move some tests into `compute-only` with `ost-agent lane --set`. Nothing else unblocks the loop's own premise; until then `runnable: []` is guaranteed and the instrument work has no consumer.
+- Let the sweep record a reason-for-no-instrument that the counter honours, so *shipped* and *correctly-human* stop reporting as un-instrumented. Four nodes now carry that reason in prose where only a reader can find it.
+- Grant `ost_flag_humans_required` on the unattended surface, or accept that only the attended path can shrink the count.
+
+_Observed from this vault's own tooling and node bodies during the 2026-08-05 unattended sweep. Rung unchanged: this is the agent measuring its own loop, so it grounds usability and not demand, and promotion stays a human's call._

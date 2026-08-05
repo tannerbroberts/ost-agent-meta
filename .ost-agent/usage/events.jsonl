@@ -1419,3 +1419,4 @@
 {"ts":"2026-08-05T04:06:08.154Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":861,"session":"mcp-5f678039-932b-4b86-99c4-6183a440dcec"}
 {"ts":"2026-08-05T04:21:57.598Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1289,"session":"mcp-5f678039-932b-4b86-99c4-6183a440dcec"}
 {"ts":"2026-08-05T04:22:02.206Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":540,"session":"mcp-5f678039-932b-4b86-99c4-6183a440dcec"}
+{"ts":"2026-08-05T04:22:28.147Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":4192,"session":"mcp-5f678039-932b-4b86-99c4-6183a440dcec"}
