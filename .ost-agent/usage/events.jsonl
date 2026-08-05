@@ -1692,3 +1692,4 @@
 {"ts":"2026-08-05T23:51:38.406Z","tool":"ost_merge_nodes","ok":true,"ms":109,"surface":"mcp","argBytes":3267,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:51:50.111Z","tool":"ost_merge_nodes","ok":true,"ms":52,"surface":"mcp","argBytes":2922,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:52:01.128Z","tool":"ost_merge_nodes","ok":true,"ms":44,"surface":"mcp","argBytes":2947,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
+{"ts":"2026-08-05T23:52:05.455Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":400,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["A rewrite can preserve every unsupplied section without the caller naming one.md"]}
