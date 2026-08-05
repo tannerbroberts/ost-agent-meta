@@ -20,3 +20,21 @@ The felt version, from the operator whose hours don't exist: I am paying compute
 There is more than one way to address it — which is what keeps this an opportunity. Something could run instruments and record only their exit codes, without judging what a green means. The verdict step could be split so the mechanical half needs no person. Instrumenting could be rationed against the rate results actually get recorded, so readiness cannot outrun execution. Or the tree could stop counting an instrumented-but-unrun test as progress at all, and say plainly that the number that matters has not moved.
 
 Evidence class: machine-recorded trace of tool invocations, no narrator. Declared at `assertion` because a usage trace records what this agent did with its own tools — it is not a measurement of the need, and a prior call on this same channel was correctly refused when it tried to claim otherwise. It grounds the agent-tool loop, never external demand.
+
+## The specific gate, measured — 2026-08-05 unattended sweep
+
+The prose above says execution "is on nobody's surface at all." That is right, but it is one level too general to act on, and this sweep found the exact field that stops it.
+
+**Counted over the vault, not estimated:** 200 of the tree's 272 assumption tests now carry an `instrument:` of the form `npx vitest run test/…`. That is 73% of every test in the tree holding a command that a machine could execute unattended.
+
+**Against that, `ost_next_work` reports `runnable: 0`.** Not few — zero. It also reports `awaitingOneCommand: 0` and `blockedOnPermission: 0`, and puts all 272 tests in `needsHumans`. So every one of the 200 commands is classified as requiring a person.
+
+**The mechanism is one unset frontmatter field.** A grep for `^lane:` across all 920 nodes returns exactly one hit, on "Ask five operators whether they would let a stated default stand while they are away", and that one is *empty*. No node in this tree has ever been assigned a lane. `needsHumans` is therefore not a judgement anything made about these 200 tests — it is the default that applies when the field is absent, and the sweep is reading silence as "a person must do this."
+
+**Why that is the whole blockage.** Setting a test compute-only is `ost-agent lane --set` on the CLI, deliberately a human's call — the agent surface holds only `ost_flag_humans_required`, which can just *remove* work from compute's reach, never grant it. So no automated hand can move a test from `needsHumans` to `runnable`, no matter how good its instrument is. Readiness accumulates because the one transition that converts readiness into permission is the one no pass can make.
+
+**What this sharpens about the three solutions beneath.** "A runner that executes instruments and records exit codes only" is the sibling that looks like the answer, but a runner would still have nothing to run: it would ask which tests are compute-only and be told none are. The cheapest unblock in the tree right now is not a build at all — it is a human spending one session assigning lanes to the 200 tests that already have commands. That is worth stating plainly because it is a case where the tree's recommended work and its actual constraint have come apart, and this sweep has now spent a fourth pass adding readiness to a pipeline whose gate is downstream of everything it can touch.
+
+**Left for a human, not decided here.** Whether all 200 deserve the compute-only lane is exactly the judgement the lane exists to protect — a good number of them name people in their methods and should stay `needsHumans`. The claim is only that *nobody has ever made that call for any of them*, so the current zero reflects an unmade decision rather than 272 considered ones.
+
+_Established by direct measurement of this vault on the 2026-08-05 unattended sweep: `^instrument: npx` matches 200 files, `^lane:` matches 1, and `ost_next_work` reports 0 runnable. Observed behaviour of the tool surface and the tree's own state; grounds usability, not demand._
