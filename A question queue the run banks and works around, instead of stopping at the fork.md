@@ -16,3 +16,15 @@ When a pass reaches a fork it cannot take, it writes the question down — the q
 **Its chief risk, which is not the obvious one.** The obvious risk is that the queue goes unanswered; that is real but it is the same risk this vault already carries and already has a row for. The load-bearing risk is *dependency judgement*: the agent decides for itself what is independent of an unanswered question, and it decides that at exactly the moment it has demonstrated it does not know the answer. Work built on a wrong independence call is worse than a stall, because it looks finished.
 
 **Where it fits what this vault already has.** `ost_next_work` already reports `outstandingAsks` aged by how long they have gone unanswered, so the queue's read side partly exists; what does not exist is the write side — a pass has no way to bank a question, and no way to record what that question is blocking.
+
+## Definition of done
+
+[[Blind-judge what could have continued, before reading the answer that was given]]
+
+```
+npx vitest run test/loop/question-stop-independence-replay.test.ts
+```
+
+Red today, and red for the reason the node above already names: there is no write side. A pass cannot bank a question, cannot record what that question is blocking, and therefore has no dependency partition for a spec to score. The command goes green when a run can hit a fork, write down the question with the work it holds up, and have that partition survive replay against the seventeen recorded stops at 12-of-17 agreement with at most 2 false-independent calls.
+
+What it does not settle: whether anyone answers a banked queue. That is this candidate's other risk, it is deliberately out of scope here, and [[The whole loop waits on one human command, and nobody is told it is waiting]] is where it lives.
