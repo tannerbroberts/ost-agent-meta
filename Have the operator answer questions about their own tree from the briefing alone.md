@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/standing-briefing.test.ts — Asserts the briefing is regenerated in full each pass and names the belief the tree currently rests on — the weakest rung of the believability rollup — so a cold reader gets the tree's actual footing rather than a diff. Red today because no standing briefing is generated at all.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/standing-briefing.test.ts` — No test files found, exiting with code 1

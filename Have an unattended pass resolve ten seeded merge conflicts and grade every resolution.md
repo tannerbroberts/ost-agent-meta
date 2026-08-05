@@ -25,3 +25,6 @@ A human grades this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/git/branch-isolation-merge.test.ts — Asserts the isolation claim and the conflict shape the node predicts: two passes never share a working tree, sections appended to different nodes merge without conflict, and the genuine collisions — two nodes created with the same title, two edits to one parent's link list — surface as conflicts rather than resolving silently. Red today because passes write to one working tree and nothing branches per agent.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/git/branch-isolation-merge.test.ts` — No test files found, exiting with code 1

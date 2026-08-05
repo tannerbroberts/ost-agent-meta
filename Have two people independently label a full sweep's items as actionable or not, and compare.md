@@ -22,3 +22,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/stop-condition.test.ts — Two people labelling a sweep are checking a judgement the loop has to make on its own every time it wakes, and the loop currently has no published rule to check against — which is how a pass ends up either idling or inventing work. This asserts the rule exists and is evaluable: the loop publishes a stop condition as data rather than prose, a sweep with nothing actionable makes it evaluate true and the pass idles without writing, and a pass that writes while the condition holds fails. Missing-spec red, not assertion red — no stop condition is published anywhere, so the command fails on a missing file; a builder should write it against the real loop entry so it goes red on a pass that manufactures work against an empty sweep. It does not settle whether the condition AGREES with people — that is the two-labeller comparison, and it stays with humans.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/stop-condition.test.ts` — No test files found, exiting with code 1

@@ -28,3 +28,6 @@ instrument: npx vitest run test/ost/quote-full-sentence.test.ts
 **Lane: compute-only.** Fixture sources and the quoting surfaces' own output; no person is the measurement.
 
 ⚠️ Unvalidated. Agent-ideated by an unattended pass. Nothing here was run.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/quote-full-sentence.test.ts` — No test files found, exiting with code 1

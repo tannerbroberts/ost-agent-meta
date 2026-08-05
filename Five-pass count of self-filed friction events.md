@@ -23,3 +23,6 @@ Proposed by the agent — a human performs the transcript comparison; the agent 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 instrument: (none) → npx vitest run test/telemetry/self-filed-friction-events.test.ts — Two of the three clauses in this threshold are countable without a person. This asserts them: across a fixture of five recorded passes the friction channel holds at least one self-filed event per pass, and every filed event carries the fields that make it actionable — the tool, the failing input, and what was expected — so an event filed as bare prose fails. Missing-spec red, not assertion red: the pass cannot read the repo, so the file is absent and the command fails on absence; a builder should write it against the real telemetry writer so it goes red on the missing per-pass floor. It cannot settle the third clause, the unfiled-to-filed ratio below 2:1, because counting what was NEVER filed means reading the transcripts for friction that left no record — the node already assigns that to a human, and it stays there.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/self-filed-friction-events.test.ts` — No test files found, exiting with code 1

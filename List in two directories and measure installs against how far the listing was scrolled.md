@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/release/registry-install-path.test.ts — Asserts the claim this node rests its whole advantage on — that the thing is one command away from working inside a tool the buyer already runs: each registry manifest's documented install command must resolve to a version that starts outside a vault. Red against today's reality, not a missing file: the plugin's MCP server runs `npx -y ost-agent@latest mcp`, which resolves to 0.9.0 — the release that refuses to start outside a vault — so a stranger arriving through a directory today hits a failure two releases have already removed.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/release/registry-install-path.test.ts` — No test files found, exiting with code 1

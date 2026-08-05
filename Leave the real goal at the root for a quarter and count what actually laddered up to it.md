@@ -24,3 +24,6 @@ The outcome is human-set. Nothing in this test may be run by a pass, and no pass
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/milestone-under-outcome.test.ts — Counting what laddered up to the real goal presumes the tree can hold both goals at once — the real one at the root and the affordable one beneath it as a milestone — and today it cannot: the root takes one Outcome and everything below is an Opportunity. This asserts the structure the count depends on: a milestone attaches under the Outcome and is distinguishable from a category bucket, every node rolls up through its milestone to the root goal, and the rollup reports per-milestone as well as per-bucket so "what laddered up" is a number the tree computes rather than a person tallies. Missing-spec red, not assertion red — no milestone layer exists, so this fails on a missing file; a builder should write it against the real hierarchy check so it goes red on the refused milestone edge. It does not settle the test's own question, which needs a quarter to elapse and a human to read the result.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/milestone-under-outcome.test.ts` — No test files found, exiting with code 1
