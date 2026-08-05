@@ -102,3 +102,22 @@ Two things this adds that the node did not already say:
 One further datum on cost: in `785ea509` the agent then tried `Monitor` — the primitive the refusal recommends — and got `InputValidationError: An unexpected parameter 'timeout' was provided`. The suggested remedy was itself learned by failing at it.
 
 _Provenance: nine friction records from the transcript adapter, machine-captured, no narrator. Observed behavior of this product's own agent; grounds usability, not desirability. Unvalidated — for human review._
+
+## Corroboration — what the waiting actually costs, measured in one session (2026-08-04 sweep)
+
+TRANSCRIPT:785ea509-96b9-4225-b45a-babd5321aafc records the cost of this node in a form clearer than the earlier evidence: the same full-suite command, re-issued four times in one session, each with a 600-second timeout.
+
+```
+npx vitest run …                                     (600s)
+npx tsc --noEmit && npx vitest run --exclude … (600s)
+npx tsc --noEmit && npx vitest run --exclude … (600s)   ← byte-identical to the line above
+npx tsc --noEmit && npx vitest run --exclude … (600s)   ← byte-identical again
+```
+
+Three of the four are the same command. Nothing in between changed the code — the re-issues are the run checking whether the thing it already started had finished, using the only mechanism it has, which is to start it again. That is the subscription gap this node names, priced: up to four full suite runs to learn one suite result.
+
+TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d (2026-07-30) shows the same shape against a different subject — `TaskOutput` with `block: true` and a 600s timeout, re-issued twice against the identical `task_id` — and then the CI equivalent: `gh pr checks` returning `bundle-drift pass 14s` next to `test pending 0`, a result that is half-answered and can only be completed by asking again.
+
+So the pattern holds across three subjects that have nothing in common except the absence of an event to wait on: a local test suite, a background task, and a remote CI run. Any candidate under this node should be read against all three, because a solution that subscribes to only one of them leaves the loop polling for the other two.
+
+_Recorded as corroboration during the 2026-08-04 unattended pass; these items remain unmapped in the sweep. Observed behavior, mechanically captured; grounds usability, not demand._
