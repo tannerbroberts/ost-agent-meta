@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Check every section reported dropped arrives with enough to restore it]]
 
 Stated deliberately in the direction that would kill its own solution, because that is the honest way round. The belief this solution needs is that a caller told `dropped: ["## History"]` will do something about it. The belief stated here is the opposite, and it is the one with evidence behind it.
 
