@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
+evidence: assertion
+instrument: npx vitest run test/eval/adversarial-critic-invariants.test.ts
 ---
 #AssumptionTest #unvalidated #desirability #evidence/assertion
 
@@ -21,3 +22,4 @@ Proposed by the agent — the rating must be done by a human; the agent must not
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 instrument: (none) → npx vitest run test/eval/adversarial-critic-invariants.test.ts — Asserts the two invariants that define this candidate rather than its siblings: a critic pass creates no nodes and removes nothing, and every objection it emits names the evidence that would settle it. Red today because no critic pass exists, so nothing enforces that a reviewer which only lowers unearned confidence cannot quietly author or delete.
