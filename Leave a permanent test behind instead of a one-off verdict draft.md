@@ -121,3 +121,13 @@ step.
 **Still one source.** Four instances, all of an agent observing its own work inside
 this building. [[Do six cold artefacts show a test beating a verdict draft]] remains
 unrun, and four self-observations still do not substitute for one outsider.
+
+## Definition of done
+
+[[Do six cold artefacts show a test beating a verdict draft]]
+
+```
+npx vitest run test/runner/verdict-leaves-spec.test.ts
+```
+
+Green means: the artefact this solution is named for actually gets produced — completing a verdict writes a committed spec into the repository's own suite, the test node it settled references that file, and a prose-only verdict is refused. Today the comparison the test wants has only one side of it, because nothing leaves a test behind. Green does **not** settle whether six cold readers prefer it; that is a person's reaction.
