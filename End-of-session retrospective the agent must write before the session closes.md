@@ -16,3 +16,13 @@ evidence: assertion
 **Second-order cost worth weighing against the alternatives.** It spends tokens in every session, including the many where nothing conceptual went wrong, and it produces one more item for a mapping pass to disposition. The channel's current problem is not volume — 82 events already arrive and none of them is useful. A retrospective that mostly says "nothing notable" makes that worse, not better, so the design question this candidate has to survive is whether it can stay silent credibly.
 
 ⚠️ Unvalidated. Agent-ideated during the 2026-08-02 maintenance pass, from this vault's own session census. No human has reviewed it and no test has been run.
+
+## Definition of done
+
+[[Check three past pass notes for the wrong turn they left out]]
+
+`npx vitest run test/adapters/session-retrospective.test.ts`
+
+The spec asserts the design question the node says this candidate must survive — whether it can stay silent credibly. A session with nothing conceptual to report produces **no inbox item**, not a "nothing notable" one; a retrospective that is written lands with the session id as provenance and enters at the `assertion` floor as self-report. Both halves matter: the channel's problem is not volume but that 82 events already arrive and none is useful, so a mechanism that adds a mostly-empty item per session makes it worse. Red today because nothing is required before a session closes.
+
+**What a green here does not settle, and every bias runs the wrong way.** This is self-report by the party whose confusion is being reported, at the end of a session it wants to declare successful. Retrospectives will under-report, will be written to look competent, and will be thinnest exactly where the session went worst — a spec can force the field to exist and cannot make it honest. Reading three past pass notes for the wrong turn they left out is the humans-required check, and it is the only thing that would catch a fluent, silent omission.
