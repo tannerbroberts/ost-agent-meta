@@ -26,3 +26,18 @@ The parent opportunity is about the tool surface differing between the surfaces 
 To find out that a helper cannot run here before I install it, or at the latest when I install it — not on the day something else depends on its output.
 
 Evidence class: observed behaviour of the agent's own usage, captured mechanically from a session transcript. It grounds usability, not desirability, and is not outside-user evidence of want.
+
+## Observed corroboration — 2026-08-05 sweep
+
+Seven shell failures across five machine-recorded sessions, all the same shape: a command was written against a shell and a working directory nobody had confirmed, and the exit code was the first news that the assumption was wrong.
+
+- `(eval):1: no matches found: test/tmp*` — `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d`
+- `(eval):1: no matches found: /Users/tanner/dev/ost*` — `TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18` and again in `TRANSCRIPT:8fc8d6e3-7cae-41e0-a83b-e32346e352b1`
+- `(eval):1: ==== not found` — `TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18`
+- `(eval):1: == not found` — `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68`
+- `(eval):cd:1: no such file or directory: docs/reference` — `TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff`
+- `sed: src/cli/index.ts: No such file or directory` and `Undefined subroutine &main::pct` — `TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f`
+
+Two of these classes are diagnostic rather than incidental. `no matches found` is a **zsh** nomatch error: the identical command under bash passes the unmatched glob through and succeeds. `== not found` is a **bash-ism** inside `[ ]` reaching a zsh that does not accept it. So the failures are not typos — they are a portable-looking command meeting a shell whose dialect was assumed rather than read. The remaining three are the same mistake pointed at the filesystem instead: a relative path, a source path and a Perl builtin, each assumed present.
+
+Scope note for whoever reads this next: the existing framing here is about a helper the *operator* installed failing on the operator's shell. What the traces show is the same failure one layer in — the agent's own ad-hoc commands failing on the agent's own host. A human should decide whether that is this opportunity or a sibling beneath the same category; it was not split on this pass because splitting on a resemblance is how the tree grows two nodes that say one thing.

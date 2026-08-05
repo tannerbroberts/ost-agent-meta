@@ -1657,3 +1657,5 @@
 {"ts":"2026-08-05T23:36:38.832Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:36:38.914Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":31,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:38:39.491Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":1243,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
+{"ts":"2026-08-05T23:38:41.745Z","tool":"ost_read_repo","ok":false,"ms":0,"surface":"mcp","argBytes":2,"err":"no product repos configured — add local repo paths under `product.repos` in ost.config.yaml so the agent can read what the product is","session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
+{"ts":"2026-08-05T23:38:57.393Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":2121,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
