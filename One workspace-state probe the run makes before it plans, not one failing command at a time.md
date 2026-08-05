@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the captured environment failures against a fixed set of state questions]]
 
 One call, made before the run commits to a plan, that returns the **state** facts a plan depends on rather than the path facts a directory listing already gives: is this a git repository, does it have a remote, which of the binaries this plan will invoke are actually on PATH, is there a lockfile, has a build ever run here.
 
