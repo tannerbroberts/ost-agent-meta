@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: agent-ideation — reproducible against this vault's current working tree
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/ost/quarantine-unknown-node-type.test.ts
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -21,3 +22,4 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/quarantine-unknown-node-type.test.ts — The agent cannot notice a hole that leaves no trace, and today an unrecognised node type is dropped on read — which is the mechanism behind "I opened the vault in Obsidian and the agent lost half the tree". This asserts the quarantine: a node whose type is unknown is retained, excluded from counts and gates rather than miscounted, and surfaced by name in the sweep with the type that was not understood, so a vault edited by another tool loses nothing silently. Missing-spec red, not assertion red — nothing quarantines anything, so the command fails on a missing file; a builder should write it against the real vault reader so it goes red on a dropped node that today vanishes without a word. It does not settle whether the agent then ACTS on the hole, which is what the test asks and needs a person judging the pass output.
