@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[A guard can catch the unacknowledged drop without refusing honest rewrites]]
+[[A guard can catch the unacknowledged drop without refusing honest rewriting]]
 
 Borrow the shape the vault already uses for concurrent writes and point it at content instead of at time. A drift guard refuses a write when the file changed since the read; this refuses a write when the *caller's own submission* shows they did not know what was in the file.
 
