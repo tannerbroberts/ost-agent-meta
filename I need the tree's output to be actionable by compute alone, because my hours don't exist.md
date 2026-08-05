@@ -171,3 +171,13 @@ Thirty-three assumption tests were read in full and sorted by what could actuall
 The three two-lane entries are the interesting minority, because they are neither. Each names a mechanical clause and a human clause joined by "and", so a single command goes green on arithmetic nobody doubted while the clause the solution lives or dies on stays untouched. Splitting them is the fix and it is a write this sweep does not have either — creating the split node is out of scope and labelling the human half is ungranted. They were annotated in place instead: see the note on [[Count how many past releases a push-first rule would have blocked]] for the worked example.
 
 Evidence class: a census of this vault's own state, taken by the pass that hit the limit. Assertion about the artifact, not a measurement of anyone's behaviour.
+
+### Correction to the table above — final tally for the 2026-08-05 sweep
+
+The table was written mid-pass, at 33 tests read. The pass continued afterwards, so the numbers there are a snapshot rather than the total. Corrected by appending rather than by editing, which is what this vault requires of a number that moved.
+
+Final: **41 assumption tests read in full.** 12 took an instrument. 21 are irreducibly a person. 4 were already correctly dispositioned by an earlier pass or would have gone green on arrival. 4 carry two lanes in one threshold.
+
+The ratio barely moved as the sample grew — roughly 29% instrumentable against 51% human-only — which is the part worth trusting. A ratio that holds from 33 to 41 across nodes chosen for their apparent mechanisability is not going to improve on the remainder, because the remainder was not selected for it.
+
+The two-lane count rose from 3 to 4: [[Have an unattended pass resolve ten seeded merge conflicts and grade every resolution]] is the new one, and it is the sharpest instance yet. Its mechanical clause (zero conflict markers, zero broken links) is trivially achievable and its human clause (9 of 10 resolutions graded correct) is the entire question of whether an unattended pass can be trusted to own a merge. One command joined by "and" would have reported the first as if it settled the second.
