@@ -18,3 +18,15 @@ Remove the variance rather than detect it. Every folder this tool scaffolds gets
 **So the sharpest version is narrower than the title.** Initialise unconditionally *when scaffolding a new directory this tool created*, and never touch a directory it did not create. That keeps the property — no state question inside our own workspaces — without claiming authority over the operator's disk. Whether that narrower version still covers the observed failures is the thing to check first, and it is cheap to check because the four sessions are on record.
 
 _Agent-ideated, unvalidated — one of three competing candidates under this opportunity, for a human to compare rather than adopt._
+
+## Definition of done
+
+[[Check whether initialising only tool-created directories still covers every captured failure]]
+
+```
+npx vitest run test/runner/unconditional-scaffold-init.test.ts
+```
+
+Red today: scaffolding does not initialise, and nothing checks whether a scaffold target sits inside an existing working tree. Green when the narrowed rule covers all four captured failures and no target in the record would produce a nested repository.
+
+**What this does not settle, and it may be decisive.** Whether the operator accepts an unrequested write to their disk at all is a consent question, and no coverage count answers it. If the answer is no at any scope, this candidate is dead however green the command comes out.
