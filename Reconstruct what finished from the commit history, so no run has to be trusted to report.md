@@ -17,3 +17,15 @@ This has a property no self-report can have. A run that lied, crashed mid-senten
 
 ## History
 - 2026-08-05 unlinked [[Try to bound five past runs within the commit history without being told where they started]] — moved under [[A run's boundaries and work are recoverable from the commits alone]] — the belief this test measures now has a node of its own
+
+## Proving this
+
+[[Try to bound five past runs within the commit history without being told where they started]]
+
+```
+npx vitest run test/loop/run-boundary-from-history.test.ts
+```
+
+Red today: nothing in the repository derives a run's boundaries from the commit log, which is the one thing this solution says is missing. Green when the bounding exists and can exclude a concurrent run's or a human's commits from the span.
+
+**What a green run would not settle.** It proves the boundaries are recoverable, not that the account they produce is worth reading. This solution's own stated weakness — that a run which spent an hour correctly concluding nothing needed doing appears as a run that did nothing — is a desirability question about the output, and no exit code touches it.
