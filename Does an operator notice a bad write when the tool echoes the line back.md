@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideation:2026-07-26-tenth-pass'
 created: '2026-07-26'
 evidence: assertion
+instrument: npx vitest run test/mcp/echo-written-line.test.ts
 ---
 #AssumptionTest #evidence/assertion
 
@@ -19,3 +20,6 @@ evidence: assertion
 **A cheaper prior question that should be settled first, and costs nobody.** Does any unattended caller in this codebase actually *inspect* mutating tool output, or is it discarded? If it is discarded everywhere, the agent half of the audience is answered without recruiting anyone, and only the human half needs the test above.
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/mcp/echo-written-line.test.ts — Asserts every mutating tool returns the line it actually wrote rather than a confirmation that it wrote something. Red against today's code, observed directly this pass: ost_set_instrument already echoes its full History line, but ost_annotate returns `annotated "<title>"`, ost_append_to_node returns `appended to "<title>"`, and ost_create_node and ost_link_nodes report only that the call completed — so the defect this node was ideated from is still expressible on four surfaces.
