@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Edit a node holding five sections while supplying two, and check the other three survive intact]]
 
 Feasibility. The belief is that a rewriting tool can tell which `## ` sections the caller's `prose` addresses and which it does not, reliably enough to carry the rest across untouched — and that doing so requires nothing of the caller, no extra argument and no prior read.
 
