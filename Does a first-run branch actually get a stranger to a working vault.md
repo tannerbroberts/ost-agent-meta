@@ -63,3 +63,6 @@ the one-liner to the warm participant and then say nothing for thirty minutes.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/mcp/bootstrap-one-question.test.ts — Asserts the mechanical half of the threshold — that the no-vault branch reaches an initialised vault after exactly ONE question, never two: `ost_next_work` on an empty directory must return `bootstrap: true` with a single `nextStep`, and supplying only the outcome string must yield a vault whose root Outcome carries the human's words verbatim. Missing-spec red, not assertion red: this pass holds no repo-read grant, so the file does not exist and the command fails on absence. A builder should convert it to assertion red by writing the spec against today's bootstrap path first and watching the one-question count fail. It does not settle whether a STRANGER gets there — that half is a person's reaction and stays with a human.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/mcp/bootstrap-one-question.test.ts` — No test files found, exiting with code 1

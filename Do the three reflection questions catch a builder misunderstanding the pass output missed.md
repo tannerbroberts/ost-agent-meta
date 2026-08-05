@@ -18,3 +18,6 @@ instrument: npx vitest run test/skill/reflection-questions.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/skill/reflection-questions.test.ts — The three questions cannot catch anything they are never asked. This asserts they are asked and are answerable: every pass output carries all three reflection questions, each is bound to a named node in that pass rather than asked in the abstract, and an output that omits one or asks it unbound fails. Missing-spec red, not assertion red — the gauge is not built, so the command fails on a missing file; a builder should write it against the real skill-output renderer so it goes red on the missing question instead. It does not settle whether the questions CATCH a misunderstanding: that needs a real builder misreading a real pass output, which is a person's behaviour and stays with a human.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/skill/reflection-questions.test.ts` — No test files found, exiting with code 1

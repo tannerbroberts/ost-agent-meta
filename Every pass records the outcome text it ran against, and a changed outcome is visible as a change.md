@@ -30,3 +30,6 @@ instrument: npx vitest run test/loop/goal-contract-recorded.test.ts
 **Lane: compute-only.** Two fixture passes over a vault whose outcome is edited between them; no person is the measurement.
 
 ⚠️ Unvalidated. Agent-ideated by an unattended pass. Nothing here was run.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/goal-contract-recorded.test.ts` — No test files found, exiting with code 1

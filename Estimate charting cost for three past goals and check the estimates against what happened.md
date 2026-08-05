@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/cli/chart-cost-estimate.test.ts — Checking an estimate against what happened requires the estimate to have been recorded before the goal was chosen, and nothing today captures one — so every such comparison is reconstructed after the fact, which is the drift this solution exists to prevent. This asserts the capture: setting an outcome records a dated charting-cost estimate alongside it, the estimate is written before the outcome is committed rather than appended afterwards, and the rollup reports estimate against actual spend for each goal so the comparison is computed rather than remembered. Missing-spec red, not assertion red — no cost estimate is captured anywhere, so the command fails on a missing file; a builder should write it against the real set-outcome path so it goes red on an outcome accepted with no estimate. It does not settle whether the estimates were any GOOD for the three past goals, which is a person's retrospective judgement and stays with a human.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/cli/chart-cost-estimate.test.ts` — No test files found, exiting with code 1

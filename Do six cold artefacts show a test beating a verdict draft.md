@@ -26,3 +26,6 @@ instrument: npx vitest run test/runner/verdict-leaves-spec.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/runner/verdict-leaves-spec.test.ts — There are no artefacts to hand six cold readers, because a verdict currently leaves a draft and nothing else — the comparison the test wants has only one side of it. This asserts the missing side: completing a verdict writes a committed spec file into the repository's own suite, that file is referenced by the test node it settled, and a verdict that produces only prose is refused. Missing-spec red, not assertion red — verdicts do not emit specs, so the command fails on a missing file; a builder should write it against the real verdict path so it goes red on a prose-only verdict that today succeeds. It does not settle the comparison itself: whether six cold readers find the test more useful than the draft is a person's reaction and stays with a human.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/runner/verdict-leaves-spec.test.ts` — No test files found, exiting with code 1
