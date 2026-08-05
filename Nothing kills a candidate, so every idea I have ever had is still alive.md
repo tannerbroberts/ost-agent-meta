@@ -1,14 +1,15 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #founder-theory #evidence/assertion
 [[Pre-committed kill criteria attached to every candidate at birth]]
 [[Cheapest-disconfirmer first — rank tests by how fast they could kill the idea]]
 [[Candidate tournament that eliminates on grounded evidence rather than promoting on vibes]]
+[[Each pass leaves me more to check than it started with]]
 
 **The need (customer's voice):** "I can generate maps to the goal all day. What I can't do is get rid of them. Every one sits at 'unvalidated' forever, so the tree grows and my decision gets harder rather than easier. I want reasons to kill these things that come from reality, not from my mood on the day."
 
