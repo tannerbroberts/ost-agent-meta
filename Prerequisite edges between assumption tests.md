@@ -23,3 +23,13 @@ created: '2026-07-25'
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Paper-map prerequisite pairs among the sixty existing tests]]
+
+```
+npx vitest run test/ost/test-prerequisite-edges.test.ts
+```
+
+Green means: the tree can hold what a paper map finds — a test can declare another as its prerequisite, cycles are refused, and the sweep reports a test whose prerequisite has no result as blocked instead of offering it. Green does **not** say which pairs are prerequisites; that reading is the human's map, and this only gives it somewhere to land. Worth noting the count in the test's title is now stale: sixty tests then, 272 now, so a map left on paper is wasted twice over.
