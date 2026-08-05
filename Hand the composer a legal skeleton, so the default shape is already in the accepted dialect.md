@@ -15,3 +15,11 @@ evidence: assertion
 **What would make this the wrong pick.** If skeletons calcify what gets built. A starting template is a strong suggestion about structure as well as dialect, and composers tend to stay near it; buying dialect-correctness with a narrowed range of artifacts is a poor trade if the artifacts are meant to be varied. Also worth noting that a stale skeleton is worse than none — it teaches a dialect the surface has since moved off, confidently, which is the failure this whole opportunity is about pointed the other way.
 
 ⚠️ Unvalidated. Agent-ideated on 2026-08-05.
+
+## Definition of done
+
+[[Check the handed-back skeleton parses clean against the same parser that accepts submissions]]
+
+`npx vitest run test/skill/skeleton-validity.test.ts`
+
+The skeleton parses clean against the submission parser, a drift check fails if the two diverge, and the skeleton shows one example of each permitted construct rather than a subset. Red today because no skeleton is handed back. The same generate-and-drift-test pattern this project already uses to keep `SKILL.md` from going stale applies directly.
