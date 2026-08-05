@@ -5,7 +5,6 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[A guard can catch the unacknowledged drop without refusing honest rewrites]]
 [[A guard can catch the unacknowledged drop without refusing honest rewriting]]
 
 Borrow the shape the vault already uses for concurrent writes and point it at content instead of at time. A drift guard refuses a write when the file changed since the read; this refuses a write when the *caller's own submission* shows they did not know what was in the file.
@@ -33,3 +32,6 @@ Green means both directions hold: a rewrite omitting a stored section from both 
 What green does **not** buy, and a builder should not read it as bought: the false-positive rate on real rewrites. That is what this solution actually turns on, it needs a replay of recorded edits with someone judging which were legitimate, and it is a separate test.
 
 Named in plain text rather than as a wikilink: the test's one backlink belongs to its parent assumption, "A guard can catch the unacknowledged drop without refusing honest rewrites".
+
+## History
+- 2026-08-05 link "A guard can catch the unacknowledged drop without refusing honest rewrites" repointed to "A guard can catch the unacknowledged drop without refusing honest rewriting" — that node was merged away
