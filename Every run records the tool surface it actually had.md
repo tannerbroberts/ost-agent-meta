@@ -21,3 +21,15 @@ evidence: assertion
 **Cost.** Very small. The facts are available at startup; only the writing is missing.
 
 ⚠️ Unvalidated. Agent-ideated, 2026-08-02.
+
+## Definition of done
+
+[[The run record names the tools it had and the ones it expected and did not get]]
+
+```
+npx vitest run test/loop/run-record-tool-surface.test.ts
+```
+
+Green means a pass writes a tool-surface block that names the tools it had *and* the ones it expected and did not get, and says so explicitly when it cannot determine its surface at all. The expected-and-absent half is the load-bearing one: a block listing whatever resolved is easy and carries none of the diagnostic value this node was proposed for.
+
+It settles nothing about whether the record is worth writing. This node's own stated weakness — that it prevents nothing, that someone still has to read it, and that on a schedule nobody reads it changes exactly nothing — is [[Hand a reader five run records and ask which passes did their job]], which needs two people and half an hour and does not need this built.

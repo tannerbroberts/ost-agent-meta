@@ -1468,3 +1468,4 @@
 {"ts":"2026-08-05T14:33:58.207Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":3919,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact.md"]}
 {"ts":"2026-08-05T14:34:07.212Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":956,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
 {"ts":"2026-08-05T14:34:38.348Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3487,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864","wrote":["The run record names the tools it had and the ones it expected and did not get.md"]}
+{"ts":"2026-08-05T14:34:45.432Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":980,"session":"mcp-6d402f25-fb9c-402f-a631-d7b704862864"}
