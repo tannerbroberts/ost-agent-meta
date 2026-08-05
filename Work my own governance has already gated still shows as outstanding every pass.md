@@ -46,3 +46,17 @@ This node was written about `underservedOpportunities` re-demanding solutions un
 **The concrete ask, which the three solutions beneath this node do not quite cover.** They address holds an operator places deliberately. This is narrower and cheaper: the outstanding-work computation should read the dispositions the tool's own writes already record — at minimum treat `status: shipped` as answering "why is there no instrument", since a red-now instrument for shipped behaviour is forbidden by the ruleset and the bucket is therefore asking for something no pass is permitted to supply.
 
 _Observed by the 2026-08-05 unattended sweep across a pass boundary — the prior pass's remedy is on disk and dated, and the bucket's response to it is today's `ost_next_work` output. Grounds usability of the tool surface, not demand._
+
+## Upgraded from inference to direct test, within one pass — 2026-08-05
+
+The section above inferred the defect across a pass boundary: a prior pass set `status: shipped` to clear this bucket, and the bucket listed the node again the next day. That reasoning had a gap — something else could have changed in between. This sweep closed it by running the experiment inside a single pass.
+
+**Method.** Five solutions whose bodies record a shipped version were set to `status: shipped` during this pass: "Refuse a proving command whose exit code cannot report failure" (v0.21.0, `87164d6`), "Refuse a write whose content is empty or literally undefined" (v0.18.0), "Flag a threshold that is still an instruction to choose one" (v0.10.0), "Every recorded step carries the directory and argv it actually ran with" (v0.20.0), and "Every count states the denominator it was taken over" (v0.22.0, `df5288a`). Each write returned a commit hash, so the writes landed. `ost_next_work` was then re-run.
+
+**Result.** `solutionsMissingInstruments` returned 64 — the identical count, with the identical 25 titles shown, including both newly-shipped solutions that appear in the visible window. Nothing moved.
+
+**So the bucket is confirmed not to read `status`.** This is the same shape as the mapping trap established on "Evidence that fits no layer keeps coming back, so the pass never runs out of work" — where a fully-cited body section was invisible because only frontmatter `source:` counts — but it is worse in one respect. There, the pass was reaching for prose and the sweep wanted a field. Here the pass wrote *the field the tool provides for exactly this transition*, through the tool's own typed setter, and the sweep still does not consult it.
+
+**Consequence for anyone reading the number.** The 64 is not a backlog of solutions awaiting an instrument. It contains at least five that are shipped and cannot be instrumented without inventing a green-on-arrival spec the ruleset forbids, plus an unknown number whose only test is a human study. The count cannot go down through any action available to an unattended pass, so treating it as a work queue will keep producing passes that re-triage the same nodes. Two prior passes and this one have now each done that.
+
+_Direct test on the 2026-08-05 unattended sweep: five typed status writes, each returning a commit, then one re-read showing no change. Observed behaviour of the tool surface; grounds usability, not demand._
