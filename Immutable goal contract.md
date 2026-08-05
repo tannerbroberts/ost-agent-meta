@@ -21,3 +21,17 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Every pass records the outcome text it ran against, and a changed outcome is visible as a change]]
+
+```
+npx vitest run test/loop/goal-contract-recorded.test.ts
+```
+
+Two of this node's three clauses already hold and are not what the command measures. *No autonomous process can alter the outcome* is enforced by construction — an Outcome cannot be created or set through any tool an agent holds — and *raise the change as a visible question* is the only move an agent has anyway. A spec for either would pass on arrival.
+
+Green means the third clause is real: every pass records the outcome text it ran against, two passes that ran against different texts are distinguishable from their records alone, and a mid-run change is reported rather than stamped as though one end of it had held throughout. The gap is easy to miss because the current outcome is always readable — what is never recoverable is what a *given pass* ran against, which is the only thing that makes drift auditable after the fact.
+
+It settles neither of this node's stated riskiest assumptions. Whether goal drift is a real fear is [[Unprompted-fear interviews about leaving it running]]. Whether an agent reliably raises rather than quietly reinterprets an ill-fitting goal is reached by nothing in this tree — an agent can record the exact text it ran against, honestly, and still have read it to mean something the human did not intend, and a perfect audit trail of a reinterpretation is still a reinterpretation.
