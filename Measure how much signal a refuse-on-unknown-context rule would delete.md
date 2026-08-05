@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Fewer than 5 of the last 100 recorded steps would have been refused; and of
   those refused, none is a failure anyone later acted on.
+instrument: npx vitest run test/telemetry/unknown-context-refusal-cost.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ threshold: >-
 **A likely outcome worth pre-committing to:** if the count is very low, this is worth shipping *regardless* of what the other two siblings do, because it is nearly free and they do not cover the same failure.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/telemetry/unknown-context-refusal-cost.test.ts — Both clauses of this node's threshold are computable over records already on disk — "Fewer than 5 of the last 100 recorded steps would have been refused; and of those refused, none is a failure anyone later acted on" — and the second clause is the one that makes it a test rather than a rate, which is exactly why it must be in the command and not left to a reader. The spec takes the last hundred entries from the health run record, determines for each whether the recorder could have established its context, counts the refusals against the fewer-than-5 bar, then traces each refused entry forward through git for a fix, an issue, or a follow-up commit that cites it, and fails if any refused record turns out to be one somebody used. It fails today because nothing decides whether a step's context is determinable: the recorder writes what it was given, there is no unknown-context predicate anywhere in the repository, and no code links a recorded failure to the later commit that addressed it. What it does not settle is whether the middle option the solution body names — record it but mark it `context-unknown` and exclude it from any count implying reproducibility — is the better candidate; this command prices refusal and says nothing about the alternative.

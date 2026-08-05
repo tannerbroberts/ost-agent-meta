@@ -1238,3 +1238,4 @@
 {"ts":"2026-08-05T01:16:03.351Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1737,"session":"mcp-afc7b7aa-5f83-428f-9cd9-d4a72f6b5d90"}
 {"ts":"2026-08-05T01:16:34.560Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":1474,"session":"mcp-afc7b7aa-5f83-428f-9cd9-d4a72f6b5d90"}
 {"ts":"2026-08-05T01:16:41.217Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":1509,"session":"mcp-afc7b7aa-5f83-428f-9cd9-d4a72f6b5d90"}
+{"ts":"2026-08-05T01:16:47.251Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":1448,"session":"mcp-afc7b7aa-5f83-428f-9cd9-d4a72f6b5d90"}
