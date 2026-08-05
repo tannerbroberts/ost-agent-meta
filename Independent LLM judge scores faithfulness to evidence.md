@@ -21,3 +21,13 @@ _Addresses: "Can't tell if the generated tree is actually any good". Also suppor
 
 ## Issues
 - 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent judge separate from the proposer' and 'Adversarial grounding judge' — a second pass with no stake reviews nodes against evidence. One build satisfies all three; consolidation candidate.
+
+## Definition of done
+
+[[Test does the LLM judge agree with human faithfulness ratings]]
+
+```
+npx vitest run test/eval/faithfulness-judge.test.ts
+```
+
+Green means: the judge emits something a human rating can actually be compared against — a score on a fixed scale, citing the evidence span it scored, stable to within a point across repeat runs. Green does **not** mean it agrees with humans; that needs human ratings to exist as ground truth first, and producing those is a person's work.
