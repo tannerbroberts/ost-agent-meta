@@ -18,3 +18,13 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Definition of done
+
+[[Will operators consent to shipping raw usage from their own vault]]
+
+```
+npx vitest run test/telemetry/export-requires-consent.test.ts
+```
+
+Green means: consent is load-bearing, not a promise — the log is local by default with no outward path, raw export is refused without a dated consent record, and revoking consent stops further export without touching what the operator already holds. Green does **not** mean operators will consent; that is their decision about their own data, and it has to be asked.
