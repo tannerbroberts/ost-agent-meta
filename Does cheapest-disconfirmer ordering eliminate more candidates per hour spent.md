@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/ost/disconfirmer-ordering.test.ts
 ---
 #AssumptionTest #unvalidated #viability #evidence/assertion
 
@@ -19,3 +20,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/disconfirmer-ordering.test.ts — Asserts the inversion this node's whole idea rests on: the test queue orders by expected candidates-eliminated-per-effort, not by importance, and a fixture where the two orderings disagree comes out in the disconfirmer order. Red today because the queue has no ordering at all beyond the lane it sorts by.
