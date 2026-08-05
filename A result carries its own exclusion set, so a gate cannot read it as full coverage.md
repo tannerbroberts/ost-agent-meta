@@ -18,3 +18,17 @@ A suite result is not a boolean. It carries the set of things it did not run —
 **The cost, which is not small.** Every consumer of a suite result has to be taught to read the new shape, and the ones that are not taught keep reading the boolean and are now *more* wrong, because the exclusion set exists and they are ignoring it. A partial rollout of this is worse than none. That migration cost is the thing to size before building — and this vault has felt it before, under [[When the rules tighten, my existing tree is stranded out of compliance]].
 
 _Agent-ideated, unvalidated — one of three competing candidates under this opportunity, for a human to compare rather than adopt._
+
+## Definition of done
+
+[[Census every consumer that reads a suite result as a pass-or-fail boolean]]
+
+```
+npx vitest run test/runner/suite-result-consumer-census.test.ts
+```
+
+Red today: nothing enumerates the consumers of a suite verdict, so the migration is unsized. Green when at most five consumers exist and each can be migrated in a single change.
+
+**Why this before anything is built.** A partial rollout of this candidate is worse than no rollout — an untaught consumer keeps reading the boolean while an exclusion set exists beside it, and is now confidently wrong rather than merely uninformed.
+
+**What this does not settle.** It counts consumers, not the cases they would newly catch. This candidate's strongest argument is that it also surfaces *undeclared* shortfalls — a file that failed to collect, a filter typo matching nothing, a suite exiting early — and none of those appear in a consumer census. That upside needs its own replay over past runs.
