@@ -16,3 +16,15 @@ evidence: assertion
 **Where it fails.** It relies on somebody reading the output. An unattended pass discards tool output routinely — this pass would very likely have skimmed past it — so as a sole defence it is weak. As a *third* layer behind a schema check and a write guard, it is nearly free.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+[[Does an operator notice a bad write when the tool echoes the line back]]
+
+`npx vitest run test/mcp/echo-written-line.test.ts`
+
+Every mutating tool must return the line it actually wrote, not a confirmation that it wrote something.
+
+**Red against today's code, and this pass observed it directly rather than inferring it.** `ost_set_instrument` already echoes its whole History line — the prior art this node cites, and it works. But `ost_annotate` still returns `annotated "<title>"`, `ost_append_to_node` returns `appended to "<title>"`, and `ost_create_node` and `ost_link_nodes` report only that the call completed. Four surfaces on which the original defect — a write containing the word `undefined`, confirmed as successful — is still expressible today.
+
+**What a green here does not settle, and the node is honest that it is fatal on its own.** It relies on somebody reading the output. An unattended pass discards tool output routinely; this pass read hundreds of tool results and would have skimmed past a bad line in most of them. Whether an operator *notices* is the humans-required test. The node's own conclusion stands: this is nearly free as a third layer behind a schema check and a write guard, and weak as a sole defence.
