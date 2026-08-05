@@ -16,3 +16,13 @@ The point is not to make the expensive goal affordable. It is to make the moment
 **What would make this the wrong pick.** Charting cost is genuinely hard to estimate in advance, and a bad estimate is worse than none, because it will be wrong in the direction that justifies whatever was already wanted. There is no obvious way to calibrate it before the fact.
 
 Choosing or changing the outcome is a human's decision. This is a proposal about how that choice could be made, not a licence for any pass to make it.
+
+## Definition of done
+
+[[Estimate charting cost for three past goals and check the estimates against what happened]]
+
+```
+npx vitest run test/cli/chart-cost-estimate.test.ts
+```
+
+Green means: the estimate exists *before* the goal is committed rather than reconstructed afterwards — setting an outcome records a dated charting-cost figure, and the rollup reports estimate against actual per goal. That ordering is the whole solution: an estimate written after the choice cannot make the substitution a decision. Green does **not** say the estimates were any good; that retrospective judgement stays with a human.
