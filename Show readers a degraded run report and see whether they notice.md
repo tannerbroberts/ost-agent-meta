@@ -20,3 +20,6 @@ threshold: >-
 **Why this one needs people.** The measurement *is* what a human notices. There is no mechanical proxy for it, and constructing one would answer a different question.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## Issues
+- 2026-08-05 2026-08-05 unattended sweep — needs a lane a human must set, and this sweep could not set it. This test is correctly human-required and should be labelled so it stops appearing as un-instrumented work: its own text says "Why this one needs people. The measurement *is* what a human notices. There is no mechanical proxy for it, and constructing one would answer a different question." The threshold is scored on whether five unprompted readers volunteer that a run was degraded, which no exit code observes. I did not write an instrument for it, deliberately — inventing one here would answer the different question the node warns about. `ost_flag_humans_required` was declined at the permission layer on this surface, so the lane could not be set from here either. ACTION FOR A HUMAN: `ost-agent lane "Show readers a degraded run report and see whether they notice" --set humans-required`. Note this is the same permission refusal recorded against the 2026-08-02 third pass, so it is now a standing gap in what an unattended sweep can dispose of, not a one-off.
