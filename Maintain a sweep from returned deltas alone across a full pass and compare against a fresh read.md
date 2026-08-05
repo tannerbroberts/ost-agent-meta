@@ -20,3 +20,6 @@ The assumption is that every write can compute its consequences correctly. A wri
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/mcp/sweep-delta-consistency.test.ts — The threshold — the accumulated sweep matches a fresh read exactly after at least 100 writes — is settled entirely inside the process: the spec drives more than a hundred writes against a fixture vault, accumulates only the deltas each write returns without ever consulting the tree, then produces a fresh sweep and asserts the two agree field by field. It fails today because writes return no delta at all.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/mcp/sweep-delta-consistency.test.ts` — No test files found, exiting with code 1

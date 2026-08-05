@@ -22,3 +22,6 @@ The assumption is that refusing the drifted write is enough. An agent that read 
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/premise-drift-coherence.test.ts — Runs five passes that read and plan, injects an outside write invalidating part of the premise at a different point in each, and asserts the node's bar: in at least four the tree is left coherent and the pass reports its plan compromised rather than merely reporting one failed call. It fails today because nothing distinguishes a refused write from an invalidated premise, so no pass can report the second.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/premise-drift-coherence.test.ts` — No test files found, exiting with code 1

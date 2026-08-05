@@ -31,3 +31,6 @@ Correlation across fixture vaults establishes that work units are a defensible s
 The stability half is the more valuable of the two assertions and deserves to be read separately: work units being identical across repeated runs of the same fixture is what makes a gate reproducible, and it holds or fails independently of whether the correlation with milliseconds is tight. A green run that achieved stability with a weak correlation would still be a good outcome for the solution; the bar should not be read as requiring both to be strong.
 
 Nothing here says a work-unit gate would catch a real regression. A change that makes each unit slower leaves the count untouched, and that blindness is the price of the design rather than a defect to be tested away.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/work-units-vs-elapsed.test.ts` — No test files found, exiting with code 1

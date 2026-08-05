@@ -20,3 +20,6 @@ Half a day, retrospective, no build beyond the merge itself. Proposed by the age
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/config/settings-merge-safety.test.ts — The threshold — all five files keep every setting they started with, and at least four remain valid without hand-fixing — is a property of committed code: the spec carries five settings fixtures (one already enabling other plugins, one with comments and unusual formatting), applies the merge to each, and asserts every original key survives with its value and that at least four still parse. It fails today because no merge routine exists.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/config/settings-merge-safety.test.ts` — No test files found, exiting with code 1

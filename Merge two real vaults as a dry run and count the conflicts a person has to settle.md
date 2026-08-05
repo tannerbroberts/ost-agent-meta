@@ -22,3 +22,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/vault-merge-conflict-census.test.ts — The threshold — at most 5 conflicts require human judgement — becomes machine-checkable once conflicts are classified: the spec merges the two vault fixtures into a scratch tree, partitions every conflict into ones a stated rule settles and ones it cannot, and asserts the judgement-requiring count is at most 5. It fails today because nothing merges two vaults or classifies what a rule could settle.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/vault-merge-conflict-census.test.ts` — No test files found, exiting with code 1

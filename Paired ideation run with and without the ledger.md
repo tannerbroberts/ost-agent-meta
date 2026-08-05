@@ -31,3 +31,6 @@ Fewer repeats is the effect the ledger is meant to have, and it is also the effe
 "Duplicate" is also a judgement rendered as a rule. Whatever similarity test the spec commits to will call some near-misses duplicates and let some restatements through, and the number moves with that choice. The rule must be committed before the run rather than tuned to produce a satisfying gap.
 
 Nothing here shows the ledger is worth its cost — every pass pays to write and read it, and a solution that removes a handful of duplicates per opportunity may not repay that.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/attempt-ledger-repeat-rate.test.ts` — No test files found, exiting with code 1

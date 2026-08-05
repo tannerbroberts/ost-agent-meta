@@ -29,3 +29,6 @@ Ten times observed peak is a multiple of what this vault has done, not of what a
 Synthetic records also do not drift. The provenance assertion checks that ids and timestamps survive the channel, which is the right property, but every record in the test is well-formed by construction. Provenance is most likely to be lost on the malformed item the channel has to decide what to do with, and this bar never presents one.
 
 Nothing here bears on whether backpressure is needed. No observed load has yet strained the channel, so this solution is currently insurance against a volume nobody has hit — and a green run makes the insurance work without making the case for buying it.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/ingest-backpressure-provenance.test.ts` — No test files found, exiting with code 1

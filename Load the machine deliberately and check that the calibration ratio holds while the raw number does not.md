@@ -22,3 +22,6 @@ The assumption is that the calibration workload degrades the same way the real o
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/eval/calibration-ratio-stability.test.ts — The threshold is two numeric clauses over measurements the spec takes itself — raw measurement varies by more than 50% across load levels while the ratio varies by under 10% — so the spec runs the gate and its calibration together at four induced load levels with the code unchanged, records both at each level, and asserts the raw spread exceeds 50% while the ratio spread stays under 10%. It fails today because no calibration run exists and the gate has no ratio to compute.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/eval/calibration-ratio-stability.test.ts` — No test files found, exiting with code 1
