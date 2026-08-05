@@ -17,3 +17,15 @@ Treat the missing tool surface as a degradation rather than a stop. The evidence
 **Sharpest version:** fall back only for the read-only half of the pass (ingest, check, status, debt) and refuse the write half, so a degraded run can *report* but never *author*. That keeps the risk asymmetry pointing the safe way.
 
 Distinguishing assumption: that the CLI path can actually reach the same vault the MCP surface would have. If the tools are missing because the whole install is wrong, the fallback is missing too.
+
+## Definition of done
+
+[[The CLI fallback reaches the same vault, and refuses the write half]]
+
+```
+npx vitest run test/loop/mcp-absent-fallback.test.ts
+```
+
+Green means the three things this node's body argues for are mechanism rather than paragraph: the fallback resolves the same vault and gives the same read-only answers, the write half is refused rather than routed, and a fallback run cannot emit a report that reads as clean. The third clause is what enforces the dependency this node names on [[A degraded pass has its own name and is not allowed to report a clean run]], instead of leaving the two to be shipped separately.
+
+It does not settle whether a person reading the degraded report notices — [[Show readers a degraded run report and see whether they notice]], which says outright that the measurement is what a human notices and that a mechanical proxy would answer a different question. Green here means the fallback is mechanically safe and its safety is still unobserved.
