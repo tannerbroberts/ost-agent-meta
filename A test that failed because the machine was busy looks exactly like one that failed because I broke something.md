@@ -29,3 +29,10 @@ evidence: assertion
 `INBOX:friction/2026-08-01-friction-wall-clock-budget-test-flaked-once-ost-next-work.md` — kind `slow`, filed 19:30Z, one hour before the filing this node is sourced to. `ost_next_work` took 2004ms against the 2000ms budget inside the full 141-file suite, then passed at 18077ms of margin re-run in isolation seconds later. Filed with the cause already correctly identified: "a hard-coded ms threshold with no tolerance for suite-level CPU contention, so it can fail on a shared sandbox without any code regression."
 
 The pair matters more than either filing alone. A single flake is noise a reasonable person ignores; two in consecutive passes, with the same test, the same shape and the same isolation-passes result, is a property of the gate rather than of the machine. The twentieth pass's filing pre-committed the escalation — a second occurrence was to be treated as worth a human's eye rather than routine re-filing — and the twenty-first delivered it. That pre-commitment is why this reached the tree instead of becoming a third identical friction note.
+
+## Corroborating provenance
+
+- `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68` (2026-07-30, machine-recorded): a session in which `npx vitest` came back **exit code 143 with "Tests 1 failed (1)"**. 143 is SIGTERM — the run was killed, not failed — and the line the agent read said only that a test failed. This is the confusion this opportunity names, captured mechanically rather than recalled: the exit code that means "the machine took the process away" and the exit code that means "your change is wrong" arrived in the same shape, in the same sentence, and the session treated it as a real failure.
+- Same session also shows `(eval):1: == not found` and a refused `sleep 45` — both filed against other opportunities; only the 143 belongs here.
+
+Evidence class stays `assertion` for this node overall: the trace observes the agent's own run, not an outside user's.
