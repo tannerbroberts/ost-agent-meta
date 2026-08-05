@@ -73,3 +73,24 @@ Twenty items, read in full. **Three** revealed needs the tree did not already ho
 Against the prior passes' 23-items-2-novel and 24-items-2-novel, that is the third consecutive reading of the same shape: **the novel fraction is small, non-zero, and roughly constant.** It is worth recording because it bears directly on the ordering this node's previous section proposed. If the novel rate were zero, the additional-`source` route would be a complete answer. It is not zero — around one item in seven still deserves its own node — so whatever gets built has to leave room for the pass to say "this one is new" as easily as "this one corroborates [[X]]", and must not make the second so much cheaper than the first that a pass stops looking.
 
 This pass also confirmed the mechanism directly rather than by inference: it appended a corroboration section citing an evidence id verbatim, re-ran `ost_next_work`, and the item was still listed as unmapped. Prose citing an id does not map it; only `source:` frontmatter does.
+
+## Census, 2026-08-05 unattended pass
+
+The stranded count is now **18**, up from the seven this solution was written against. Every one of the eighteen was checked by name against the vault this pass, and **all eighteen are already cited in the body of at least one existing Opportunity** — several in three or four:
+
+| Evidence id | Already cited in |
+| --- | --- |
+| 516fdfb8, 5e5c119d, 92cc492d, 97546e2f, a83f0269, a0eb3fd4 | "I repeat one shell mistake five times in a session…" (22 citations), "I probe for files that were never there…" (12) |
+| 87a025f8, 995b8ab1, a0eb3fd4, 516fdfb8 | "My loop spends its time waiting for a check it cannot subscribe to" (20) |
+| 2c1b611a, dcdaebdb, 5de6e49b, 748498c4 | "My unattended run stops at a prompt that assumes a person is sitting there" (16) |
+| 424486ec, 995b8ab1 | "The file changed after I read it, and the failed edit is how I find out" (11) |
+| 748498c4 | "I run git in a folder that was never initialised, and exit 128 is how I learn it" |
+| 516fdfb8 | "I compose a hundred and seventy lines before the surface tells me it does not accept that dialect" |
+| USAGE:2026-07-25, USAGE:2026-08-03 | "A third of my calls go on re-asking what is outstanding" |
+| fd2c6d71 | "The friction that matters leaves no error behind" |
+
+This is the case for this solution stated as a measurement rather than as an argument. The sweep's unmapped test keys on a node's `source:` frontmatter field, and a node carries exactly one. A need with six independent sessions behind it can therefore only ever discharge one of them, and the other five stay on the list forever — not because nobody read them, but because the tree has no way to say "read, filed under an existing need, deliberately not given a node of its own."
+
+The pressure this creates is the thing worth naming: the only way for a pass to clear the counter is to create a near-duplicate Opportunity per stranded item. That is precisely the debt `ost_merge_nodes` exists to pay off, so the sweep is currently rewarding the behaviour the merge tool was built to undo. This pass declined to do it and left all eighteen stranded, which is why the number went up rather than down.
+
+One thing this census does not establish: that every one of the eighteen was *well* filed. It counts citations, not judgement. Whether the filing was accurate is what "Have a human review a pass's acknowledgements and count how many were avoidance" is for, and that remains unrun.
