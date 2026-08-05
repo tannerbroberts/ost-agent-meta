@@ -18,3 +18,13 @@ evidence: assertion
 **Compare against:** [[Resolve the newest published version at pass start and refuse to run silently on a stale one]] and [[The vault carries the agent it runs, upgraded by an ordinary git pull]] are both pull-shaped and both leave the operator's machine in control; this one is the only push-shaped option, and it should be judged on whether that control transfer is acceptable, not on whether it works.
 
 **Assumption it rests on:** that an operator would enable a channel that lets someone else change an agent running unattended on their machine. Tested by [[Would operators enable an update channel that can change an unattended agent]].
+
+## Definition of done
+
+[[Would operators enable an update channel that can change an unattended agent]]
+
+`npx vitest run test/loop/checkpoint-update.test.ts`
+
+The spec asserts the one engineering claim this node makes that can be falsified: an update announced while a pass is in flight is held, applied only between passes, and never lands on a half-finished write. It is red today because neither an update channel nor a checkpoint barrier exists.
+
+**What a green here does not settle, and here it is most of the node.** The node's own stated failure is a trust failure, not an engineering one — whether an operator will accept that something outside their machine can change what the agent does on it. A passing checkpoint spec proves the mechanism is safe against torn writes and says nothing about whether anyone wants a remote capability over an unattended agent. That question is the humans-required test, and on this candidate it is the one that decides.
