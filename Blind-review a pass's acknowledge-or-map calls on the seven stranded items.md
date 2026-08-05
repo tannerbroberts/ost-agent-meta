@@ -1,9 +1,10 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
+evidence: assertion
+instrument: npx vitest run test/ost/evidence-acknowledge.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,4 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/evidence-acknowledge.test.ts — There are no acknowledge calls to blind-review, because no acknowledge verb exists — the stranded count went from seven to eighteen this pass for exactly that reason, and every one of the eighteen turned out to be already cited in an existing Opportunity body. This asserts the verb the review presupposes: acknowledging an evidence item records a reason and the node it was filed under, removes it from `unmappedEvidence`, and is refused without a reason, so an acknowledgement can never be a silent dismissal. Missing-spec red, not assertion red — the verb does not exist, so the command fails on a missing file; a builder should write it against the real sweep so it goes red on an item that stays listed after being acknowledged. It does not settle the test's own question, which is whether the calls a pass makes are honest filing or avoidance — that is a blind human review and stays with a human.
