@@ -14,3 +14,17 @@ This is the same principle as a check with an empty subject being a failure rath
 **Compared to the alternatives.** Directly closes the loophole named in the opportunity, and it produces a legible artefact — the recorded scope — that a human can review independently of any run. It requires that scope be expressible up front, which is easy for files and hard for behaviours, and it can be satisfied by an agent that keeps the scope and hollows out what happens inside it.
 
 **What would make this the wrong pick.** A scope written once and enforced forever will eventually be wrong, and the pressure will then be to widen it rather than to meet it. If widening is as easy as narrowing was, the gate has changed the shape of the evasion without preventing it.
+
+## Definition of done
+
+[[Try to express the scope of five existing gates and see which ones resist it]]
+
+```
+npx vitest run test/eval/gate-scope-expressibility.test.ts
+```
+
+Red today because no gate in the repository declares its intended coverage. Gates assert outcomes; nothing records what they were meant to cover, so there is nothing to check for vacuity and the count starts at zero. Green means at least 3 of 5 existing gates carry a scope a program can evaluate, each surviving the vacuity check — hollow out what happens inside the scope and the declaration must go red.
+
+The vacuity half is the load-bearing half. A scope satisfiable by keeping the boundary and emptying what happens inside it is exactly the narrowing this solution exists to prevent, and a scope declaration that cannot detect that is decoration.
+
+What it does not settle: whether a written scope stays current as the gate's purpose evolves. That is where a scope most plausibly rots, it is a habit over months, and no single exit code observes it.
