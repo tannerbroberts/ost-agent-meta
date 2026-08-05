@@ -109,3 +109,17 @@ Three separate sessions each hit the *same* harness refusal, days apart, with no
 - `TRANSCRIPT:87a025f8-c6b0-474f-9a13-0b5ec5c922ea` — `Blocked: sleep 30 followed by: gh pr checks 25 head -20`
 
 The refusal message names the correct alternative every time, and every time it is spent on one session and then discarded. This is observed behaviour of the agent's own tool use — it grounds usability, not desirability, and is not evidence anyone outside wants this.
+
+## Observed corroboration — 2026-08-05 sweep
+
+One refusal, five separate sessions, spread over six days. Each time the agent reached for `sleep <n>` followed by `gh pr checks <pr>`, and each time the harness refused with the same text and the same suggested replacement (`Monitor` with an until-loop, or `run_in_background`):
+
+- `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` — `sleep 45` / PR 17
+- `TRANSCRIPT:995b8ab1-5e55-4a5c-b05d-aaed9e1d7538` — `sleep 45` / PR 9
+- `TRANSCRIPT:a0eb3fd4-5a36-44c1-93fc-ac8b48258cff` — `sleep 25` / PR 10
+- `TRANSCRIPT:97546e2f-307a-46c7-a40e-64de3ec75f68` — `sleep 45` / PR 18
+- `TRANSCRIPT:87a025f8-c6b0-474f-9a13-0b5ec5c922ea` — `sleep 30` / PR 25
+
+This is the cleanest instance of this opportunity the vault holds, and it is worth saying why. The refusal was not ambiguous, not intermittent, and not a judgement call — it named the wrong construct and handed back the right one, in full, every time. Nothing about the *quality* of the refusal was the problem. It was rediscovered anyway, because the channel that would have carried it from one session to the next does not exist. That isolates the variable: a better-worded refusal would not have fixed this, and only persistence would have.
+
+The count also gives this opportunity a bar it did not have. Five recurrences of a single refusal, machine-recorded, is a baseline any candidate solution here can be measured against — a mechanism that carries lessons forward should reduce that number, and one that does not reduce it has not worked.
