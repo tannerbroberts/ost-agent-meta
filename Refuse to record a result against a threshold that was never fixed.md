@@ -44,3 +44,15 @@ version, and it should stay behind it.
 
 ## History
 - 2026-08-05 unlinked [[Replay all existing tests to count how many a refusal would have blocked]] — moved under [[Refusing an unfixed threshold blocks few enough filings to be a guard rather than a wall]] — the belief this test measures now has a node of its own
+
+## Proving this
+
+[[Replay all existing tests to count how many a refusal would have blocked]]
+
+```
+npx vitest run test/ost/unfixed-threshold-refusal-census.test.ts
+```
+
+Red today: the unfixed-threshold classifier is wired only to the read boundary (the flag), so no code path applies it to a result filing or reports how many filings it would have blocked. Green when the census exists.
+
+**What a green run would not settle, and here it is the deciding question.** The census answers "is this a guard or a wall" — a count. It says nothing about the risk this node names as the one that should decide it: that this would be the second required field added to the one command the operator is already not running. That is a question about a person's willingness, and this node's own honest sequencing — do not build until somebody has recorded a result under the current rules — is not something an exit code can enforce.
