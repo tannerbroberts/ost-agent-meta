@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #evidence/assertion
 [[Does showing the whole sentence change what a reader does with a paste-ready command]]
+[[Every quoting surface renders the whole sentence, not just the detector that already does]]
 
 **The idea.** Wherever the agent quotes a source to justify a recommendation, it renders the fragment it matched *and* the whole sentence that fragment sits in. The reader sees the elision rather than having to suspect it.
 
