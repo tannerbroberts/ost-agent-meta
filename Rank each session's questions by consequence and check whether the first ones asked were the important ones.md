@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/question-budget-ordering.test.ts — Replays the four harvested sessions' clarifying-question sequences against the budget's ranking function and asserts the hindsight-top question falls inside the spent half in at least 3 of 4 — the threshold's own arithmetic, mechanised. Red today because neither a question budget nor a ranking function exists anywhere in the loop, so there is nothing for the spec to call.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/question-budget-ordering.test.ts` — No test files found, exiting with code 1

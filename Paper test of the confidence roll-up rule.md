@@ -23,3 +23,6 @@ Proposed by the agent — to be run by a human with real reviewers. No results r
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/branch-provenance-warning.test.ts — Asserts the half of this node that is not yet built: a branch whose sources are all internal — founder note, agent ideation, or a self-generated channel — is flagged as having no external source wherever the branch is read. Red against today's output rather than a missing file: the weakest-rung roll-up already ships and reports "rests on assertion" with a source count per bucket, but nothing distinguishes fourteen internal sources from one outside voice, so the node's own example warning "this opportunity has no non-founder source" cannot currently be emitted.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/branch-provenance-warning.test.ts` — No test files found, exiting with code 1

@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/routes-with-forecloses.test.ts — A reader cannot rank three routes blind unless three routes exist and are genuinely different, and nothing today produces any. This asserts what the ranking presupposes: a route request for one branch returns exactly three, each naming its risk level and — the part the solution is actually about — what choosing it forecloses, with the foreclosed sets differing between routes, so a route that forecloses nothing or repeats a sibling's trade-off fails. Missing-spec red, not assertion red: this pass holds no repo-read grant, so the file is absent; a builder should write it against the real route generator so it goes red on a route with an empty forecloses field. It does not settle the blind ranking, which needs a reader and stays with a human.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/ost/routes-with-forecloses.test.ts` — No test files found, exiting with code 1

@@ -25,3 +25,6 @@ instrument: npx vitest run test/adapters/deposit-prompt.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/adapters/deposit-prompt.test.ts — Asserts the containment the node stakes its honesty on: the collaborator's answer is stored verbatim, nothing is inferred from it, and the evidence it produces enters at the assertion floor and cannot be promoted by the deposit path itself. Red today because no deposit channel exists in any adapter.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/deposit-prompt.test.ts` — No test files found, exiting with code 1

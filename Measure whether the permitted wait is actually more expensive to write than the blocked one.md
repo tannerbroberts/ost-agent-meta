@@ -18,3 +18,6 @@ instrument: npx vitest run test/loop/wait-primitive-affordance.test.ts
 **Why it is small.** Three expressions, no execution, and it can kill the idea before anyone designs a primitive.
 
 **What it does NOT cover.** Whether a cheaper permitted form actually changes behaviour. The node concedes the alternative explanation directly — if the reflex is habit or training rather than economy, a cheaper option sitting right there will be ignored too — and only watching sessions after the change would settle that. This test can refute the premise; it cannot confirm the mechanism.
+
+## Instrument Log
+- 2026-08-05 **red** (exit 1) `npx vitest run test/loop/wait-primitive-affordance.test.ts` — No test files found, exiting with code 1
