@@ -4,6 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Replay the seven refusals and check the ledger surfaces every one before a call is composed]]
 
 **The mechanism: give the correction a carrier.** When a guard refuses a call, the refusal is appended to a durable per-workspace ledger — what was attempted, what it was refused for, and the permitted form. A session reads that ledger before it composes anything, so the seventh occurrence of `sleep 45 && gh pr checks` never gets written, because the session already knows how that ends.
 
