@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideation:2026-07-26-tenth-pass'
 created: '2026-07-26'
 evidence: assertion
+instrument: npx vitest run test/ost/authorship-marker.test.ts
 ---
 #AssumptionTest #evidence/assertion
 
@@ -17,3 +18,6 @@ evidence: assertion
 **Cheaper precondition, which should be run first and needs nobody.** Count the fraction of lines in a representative `lanes`/`check`/`debt` output that would carry the marker. **If it is above 90%, do not run the human test** — the coarse-marker precedent above already says what happens, and spending five operators to re-learn it is waste.
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/authorship-marker.test.ts — The test's worry is that a marker on everything becomes invisible, which presumes markers distinguish anything at all — and today they do not: `unvalidated` is stamped on every agent-created node and says nothing about who wrote the prose, so a human's node and the agent's carry the same signal. This asserts the distinction: a node records whether its prose was machine-chosen or human-written, the marker survives an edit and a merge rather than being reset to the editor, and the rollup can report the human-written share. Missing-spec red, not assertion red: the pass cannot read the repo, so the file is absent; a builder should write it against the real frontmatter schema so it goes red on a human edit that inherits the machine marker. It does not settle whether readers still READ the marker once it is everywhere, which is the test's actual question and needs people.
