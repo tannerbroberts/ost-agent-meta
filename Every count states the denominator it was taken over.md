@@ -1,5 +1,6 @@
 ---
 type: Solution
+status: shipped
 created: '2026-07-27'
 evidence: assertion
 ---
@@ -31,3 +32,4 @@ npx vitest run test/ost/census-drop-history.test.ts
 
 ## History
 - 2026-08-05 unlinked "Does a stated denominator catch a drop nobody predicted" — moved under "A stated denominator makes a reader notice a drop they would otherwise have missed" — the belief this test measures now has a node of its own
+- 2026-08-05 status: (none) → shipped — The node's own body states "The behaviour this node describes shipped in v0.22.0 (`df5288a`), so the buildable work here is no longer the denominator itself — it is the record the follow-on test is counted over." Recorded as `shipped` by the 2026-08-05 unattended sweep. No instrument was invented for the shipped half, because a spec asserting it would pass on arrival and measure nothing. Worth a human's eye: the node itself names residual buildable work (the record the follow-on test counts over), which is a genuinely red target and would be the honest thing to instrument — but it is a different claim from this node's title, so it wants its own solution node rather than an instrument bolted onto this one. Flagged rather than actioned because splitting a node is a product judgement, not a sweep's.
