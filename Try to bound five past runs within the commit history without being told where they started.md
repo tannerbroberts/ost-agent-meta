@@ -4,6 +4,7 @@ status: unvalidated
 created: '2026-08-03'
 evidence: assertion
 threshold: At least 4 of 5 runs are bounded correctly from the history alone.
+instrument: npx vitest run test/loop/run-boundary-from-history.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ The assumption is that one run's commits can be separated from everything else i
 **What it will not cover.** A person doing this by eye may use cues a program could not, so success here is an upper bound on what an automated reconstruction would achieve rather than a prediction of it.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/loop/run-boundary-from-history.test.ts — Measures whether a run's first and last commit can be recovered from the auto-commit log alone, with no self-report to lean on, and whether concurrent or human commits can be excluded from the span. It fails today because nothing in the repository derives run boundaries from git — the solution's own body says the bound is exactly what is missing and that separating one run's commits from a concurrent run's is not obviously solvable from git alone. That unsolved separation is what the spec asserts, so it goes green only once the bounding exists.
