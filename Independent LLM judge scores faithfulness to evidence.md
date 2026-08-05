@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-efficacy-critique.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test does the LLM judge agree with human faithfulness ratings]]
+[[An LLM judge's faithfulness ratings agree with a human's]]
 
 **Candidate solution (unvalidated).** A judge model — independent of the proposer — rates every node on whether it is genuinely grounded in its cited evidence and correctly shaped (opportunity as need, not solution). Produces a per-run faithfulness score without needing hand-built fixtures.
 
@@ -18,6 +18,7 @@ _Addresses: "Can't tell if the generated tree is actually any good". Also suppor
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test does the LLM judge agree with human faithfulness ratings]] — moved under [[An LLM judge's faithfulness ratings agree with a human's]] — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent judge separate from the proposer' and 'Adversarial grounding judge' — a second pass with no stake reviews nodes against evidence. One build satisfies all three; consolidation candidate.

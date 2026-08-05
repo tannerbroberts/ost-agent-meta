@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count how much of the tree a recorded decision could actually order]]
+[[Enough of the tree is already ordered by a recorded human decision to rank from]]
 
 **The mechanism:** the agent never authors a priority. It reads the ordering already recorded in the vault — the root's Prioritization section, the evidence-debt gates written into node bodies, lane labels, WIP holds, founder decisions — and renders each row's "why" as a citation of the human decision that put it there. Rows no recorded decision reaches are published as **unranked, and named**, rather than being assigned a position the agent invented.
 
@@ -24,3 +24,6 @@ npx vitest run test/ost/recorded-decision-ordering.test.ts
 ```
 
 Green means the ranking covers exactly what a recorded decision supports and the remainder is explicitly unranked rather than silently ordered. The count is the point: if recorded decisions can order only a small fraction of the tree, this candidate is honest but nearly empty, and that is worth knowing before building it. It does not settle whether an unranked remainder is usable by anyone.
+
+## History
+- 2026-08-05 unlinked [[Count how much of the tree a recorded decision could actually order]] — moved under [[Enough of the tree is already ordered by a recorded human decision to rank from]] — the belief this test measures now has a node of its own

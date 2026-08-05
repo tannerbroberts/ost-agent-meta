@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check past failures against the snapshot fields before building the snapshot]]
+[[A small fixed set of fields explains most recorded failures]]
 
 When a step exits non-zero, capture the context that decides whether it can be reproduced — working directory, resolved argv, the tool versions actually on `PATH`, the git SHA and dirty-file count, and the environment variables the step read — and attach it to that record. Successful steps record nothing extra.
 
@@ -32,3 +32,6 @@ Green means at least 7 of the 10 most recent recorded failures are fully explain
 **One caution on the sample.** The founding case for this opportunity — a build step run from the home directory instead of the repo — is explained by `cwd` alone and should be counted, but a result where it is the *only* clean explanation is a result carried by the case that inspired the design.
 
 **What green does NOT settle.** Whether an operator would trust an enriched record enough to stop re-running the failure by hand. That is the desirability question and no coverage count reaches it.
+
+## History
+- 2026-08-05 unlinked [[Check past failures against the snapshot fields before building the snapshot]] — moved under [[A small fixed set of fields explains most recorded failures]] — the belief this test measures now has a node of its own

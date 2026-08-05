@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-dogfooding-idea.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test does an independent judge raise trust over self-report]]
+[[Splitting proposer from judge raises trust more than a proposer's own sign-off]]
 
 **Candidate solution (unvalidated).** Split the roles: the generating agent only proposes; a distinct judge (different model/prompt, no write access to create nodes) checks each node's faithfulness against the cited evidence. The proposer can never sign off on its own output.
 
@@ -18,6 +18,7 @@ _Addresses: "Worry the agent is grading its own homework". Unvalidated — human
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test does an independent judge raise trust over self-report]] — moved under [[Splitting proposer from judge raises trust more than a proposer's own sign-off]] — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch redundancy (2026-07-24 review): same underlying bet as 'Independent LLM judge scores faithfulness to evidence' and 'Adversarial grounding judge'. One build satisfies all three; consolidation candidate.

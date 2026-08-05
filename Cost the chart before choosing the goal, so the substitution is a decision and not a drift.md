@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Estimate charting cost for three past goals and check the estimates against what happened]]
+[[Charting cost can be estimated well enough in advance to inform the choice]]
 
 Before a goal is adopted, estimate what mapping it would take: how much evidence would have to exist, how many interviews, how long before the first branch could be acted on. Put that estimate next to the same estimate for the goal actually wanted. The operator then chooses with the gap in front of them, rather than discovering months later that they chose the cheap one without noticing there was a choice.
 
@@ -26,3 +26,6 @@ npx vitest run test/cli/chart-cost-estimate.test.ts
 ```
 
 Green means: the estimate exists *before* the goal is committed rather than reconstructed afterwards — setting an outcome records a dated charting-cost figure, and the rollup reports estimate against actual per goal. That ordering is the whole solution: an estimate written after the choice cannot make the substitution a decision. Green does **not** say the estimates were any good; that retrospective judgement stays with a human.
+
+## History
+- 2026-08-05 unlinked [[Estimate charting cost for three past goals and check the estimates against what happened]] — moved under [[Charting cost can be estimated well enough in advance to inform the choice]] — the belief this test measures now has a node of its own

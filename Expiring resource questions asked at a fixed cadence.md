@@ -6,7 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Time the resource questions once and count answers the vault could not already recover]]
+[[The resource questions are quick to answer and ask for facts the vault does not already hold]]
 
 A short, bounded set of resource questions is put to the operator on a schedule rather than once, and every answer carries an expiry date after which the planner stops consulting it and reports the field as unknown. Resources are treated as perishable facts, because they are: a round closes, a token plan changes, a person's appetite for talking to strangers moves.
 
@@ -27,3 +27,6 @@ npx vitest run test/config/resource-question-recoverability.test.ts
 ```
 
 Green means each standing resource question is labelled by whether the vault can already recover its answer — which is the count that decides whether asking on a cadence buys anything, or just bills the operator for what is already on disk. It does not settle the timing half of the question: how fast an answer goes stale is a property of the operator's world, not of the vault.
+
+## History
+- 2026-08-05 unlinked [[Time the resource questions once and count answers the vault could not already recover]] — moved under [[The resource questions are quick to answer and ask for facts the vault does not already hold]] — the belief this test measures now has a node of its own

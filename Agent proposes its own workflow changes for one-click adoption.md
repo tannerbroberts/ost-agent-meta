@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Acceptance rate of five self-drafted ruleset changes]]
+[[The changes an agent drafts for its own ruleset are ones a human would accept]]
 
 When the agent hits the same friction repeatedly, it drafts the change to its own ruleset as a reviewable proposal — with the friction evidence attached — that a human accepts or rejects in one action. The agent keeps running the old workflow until then.
 
@@ -20,6 +20,7 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Acceptance rate of five self-drafted ruleset changes]] — moved under [[The changes an agent drafts for its own ruleset are ones a human would accept]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

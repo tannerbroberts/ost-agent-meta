@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Draft the decision classes from the older half of the stops and test them on the newer half]]
+[[The decisions a run stops for fall into stable classes that can be settled in advance]]
 
 **Where authority sits: delegated in advance, by class.** The human writes down once — not per question — which kinds of decision a run may settle on its own: reversible and confined to the repo, yes; anything outward-facing, anything that spends money, anything that amends a rule the vault is governed by, no. A run consults the contract at the fork and either proceeds under it or stops and cites the clause that stopped it.
 
@@ -26,3 +26,6 @@ npx vitest run test/loop/authority-class-holdout.test.ts
 ```
 
 Green means classes drawn from the older recorded stops actually classify the newer ones — the holdout that distinguishes a contract from a post-hoc description of what already happened. It settles generalisation, not authority: whether the operator would *grant* the classes this exercise discovers is a consent question, and it is the one [[Ask five operators whether they would let a stated default stand while they are away]] goes after.
+
+## History
+- 2026-08-05 unlinked [[Draft the decision classes from the older half of the stops and test them on the newer half]] — moved under [[The decisions a run stops for fall into stable classes that can be settled in advance]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Measure whether work count actually tracks elapsed time across vault sizes]]
+[[Work count tracks elapsed time closely enough to catch the regressions a clock would]]
 
 **The idea.** Stop asserting on elapsed time. Assert on the countable work the operation performs — files read, nodes parsed, passes over the tree — with a fixed ceiling. A regression that makes `ost_next_work` slow almost always makes it slow by doing more work, and the work count is deterministic on a given vault regardless of how busy the machine is.
 
@@ -28,3 +28,6 @@ evidence: assertion
 `npx vitest run test/telemetry/work-units-vs-elapsed.test.ts`
 
 Green when work units correlate with elapsed time across vault-size fixtures above a committed bound, and stay identical across repeated runs of the same fixture. The stability half is the one that makes a gate reproducible and holds independently of the correlation. Blind by design to a change that makes each unit slower.
+
+## History
+- 2026-08-05 unlinked [[Measure whether work count actually tracks elapsed time across vault sizes]] — moved under [[Work count tracks elapsed time closely enough to catch the regressions a clock would]] — the belief this test measures now has a node of its own

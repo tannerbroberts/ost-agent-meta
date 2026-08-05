@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Compare the scheduler's view of the environment against the run's]]
+[[The scheduler's view of the environment matches what the run itself would see]]
 
 Make readiness the scheduler's problem, not the pass's. Before firing a scheduled run, the thing that fires it confirms the vault is reachable and the required tools resolve; if not, it does not dispatch, and it reports the skip against the schedule rather than against the run.
 
@@ -32,3 +32,6 @@ Green means ten consecutive dispatches agreed *exactly* between what the schedul
 **What green does NOT settle.** Parity across ten dispatches on one machine says nothing about a scheduler and a run that live on different hosts, in different containers, or under a different user — the case where divergence is likeliest and this command is least informative. It also says nothing about whether aborting early is what an operator wants; a run cancelled on a preflight that was right is still a run that did not happen, and whether that trade is acceptable is a person's call.
 
 **A failure here is not a refutation of the solution.** It would say the check must run *inside* the dispatched context rather than in the scheduler's — a different design, and still a valuable one.
+
+## History
+- 2026-08-05 unlinked [[Compare the scheduler's view of the environment against the run's]] — moved under [[The scheduler's view of the environment matches what the run itself would see]] — the belief this test measures now has a node of its own

@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Can riskiest-assumption-tested be judged mechanically]]
+[[Whether the riskiest assumption has been tested can be judged mechanically]]
 
 Work cannot start on a solution whose riskiest assumption is untested — the request is held and the missing test surfaced instead. Building stays possible, but only downstream of evidence.
 
@@ -20,3 +20,4 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Can riskiest-assumption-tested be judged mechanically]] — moved under [[Whether the riskiest assumption has been tested can be judged mechanically]] — the belief this test measures now has a node of its own

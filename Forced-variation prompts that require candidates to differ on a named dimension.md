@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Does a named-dimension constraint raise distinctness without lowering candidate quality]]
+[[Requiring difference along a named dimension raises distinctness without lowering quality]]
 
 Require each candidate in a set to differ from its siblings along a declared dimension — who does the work, what is automated versus manual, what is bought versus built, what is deliberately given up. Distinctness becomes a stated property of the set rather than something hoped for.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Does a named-dimension constraint raise distinctness without lowering candidate quality]] — moved under [[Requiring difference along a named dimension raises distinctness without lowering quality]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

@@ -5,7 +5,7 @@ created: '2026-07-26'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Does an operator notice a bad write when the tool echoes the line back]]
+[[An operator shown the line that was actually written notices when it is wrong]]
 
 **The idea.** A mutating tool returns the line it actually wrote, not a confirmation that it wrote something. `annotated "Some node"` becomes `annotated "Some node": - 2026-07-26 undefined`.
 
@@ -28,3 +28,6 @@ Every mutating tool must return the line it actually wrote, not a confirmation t
 **Red against today's code, and this pass observed it directly rather than inferring it.** `ost_set_instrument` already echoes its whole History line — the prior art this node cites, and it works. But `ost_annotate` still returns `annotated "<title>"`, `ost_append_to_node` returns `appended to "<title>"`, and `ost_create_node` and `ost_link_nodes` report only that the call completed. Four surfaces on which the original defect — a write containing the word `undefined`, confirmed as successful — is still expressible today.
 
 **What a green here does not settle, and the node is honest that it is fatal on its own.** It relies on somebody reading the output. An unattended pass discards tool output routinely; this pass read hundreds of tool results and would have skimmed past a bad line in most of them. Whether an operator *notices* is the humans-required test. The node's own conclusion stands: this is nearly free as a third layer behind a schema check and a write guard, and weak as a sole defence.
+
+## History
+- 2026-08-05 unlinked [[Does an operator notice a bad write when the tool echoes the line back]] — moved under [[An operator shown the line that was actually written notices when it is wrong]] — the belief this test measures now has a node of its own

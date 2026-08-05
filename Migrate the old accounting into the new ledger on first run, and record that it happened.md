@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Reconstruct the old accounting on a copy and see if it agrees]]
+[[The old accounting can be reconstructed accurately enough to migrate without inventing done-ness]]
 
 When a newer build first opens a vault written by an older one, it reconstructs the new ledger from whatever the old accounting used — node sources, history entries, whatever carried done-ness before — writes the result once, and appends a visible migration entry saying what it inferred and from what.
 
@@ -34,3 +34,6 @@ Green means the reconstruction, run against the vault state that produced the 9-
 **A live case the spec should carry as a fixture.** This opportunity's Issues section records `.ost-agent/state/mapped.json` listing two TRANSCRIPT ids as mapped while `ost_next_work` called both outstanding in the same minute — the same disagreement happening now rather than historically, and a cheaper oracle than the archived split.
 
 **What green does NOT settle.** It says the inference is recoverable against one known disagreement on one vault. It says nothing about a vault whose divergence has a different cause, and nothing about whether recording that the migration happened is enough for a later reader to trust the counts.
+
+## History
+- 2026-08-05 unlinked [[Reconstruct the old accounting on a copy and see if it agrees]] — moved under [[The old accounting can be reconstructed accurately enough to migrate without inventing done-ness]] — the belief this test measures now has a node of its own

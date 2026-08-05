@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Write the gap as an unknown and see whether a Format can be stated for it at all]]
+[[What stands between here and the real goal is missing knowledge rather than missing resources]]
 
 Rather than restructuring the tree, name the thing that is missing. An explicit piece of declared darkness records what would have to be knowable for the real goal to be chartable at all — what an answer would look like, how it could be collected, and what would change if it were had. The gap stops being an absence and becomes an item with a stopping condition.
 
@@ -24,3 +24,6 @@ npx vitest run test/ost/unknown-format-required.test.ts
 ```
 
 Green means: the Format section is load-bearing rather than advisory — an Unknown without one is refused at the tool boundary, and a missing Format shows up in that unknown's reported `gaps`. Green does **not** answer this vault's actual gap: whether a Format can be written for the affordable-goal distance without collapsing into "we would have more time" is a semantic judgement, and no exit code makes it.
+
+## History
+- 2026-08-05 unlinked [[Write the gap as an unknown and see whether a Format can be stated for it at all]] — moved under [[What stands between here and the real goal is missing knowledge rather than missing resources]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Measure how long the last human-gated release actually waited]]
+[[A human-gated release is tagged promptly enough not to become the bottleneck]]
 
 **The idea.** There is exactly one release train. The autonomous loop never publishes; it prepares a release — changelog, version bump, green suite — and stops, leaving a single paste-ready command. A human runs it. Two trains become one train with two contributors.
 
@@ -34,3 +34,6 @@ Red today because nothing in the repository knows what a human gate is: no code 
 Still-open waits are counted with their running duration rather than dropped. That is not a detail: a computation that silently excluded them would report a flattering median from exactly the gates that closed, and the gates that never close are the finding.
 
 What it does not settle: the number is about one operator. A median over this project's gates says nothing about whether a human gate is affordable for anyone else, and it cannot tell whether the honest form of this idea is the sibling it names — a single autonomous train with a human veto after the fact.
+
+## History
+- 2026-08-05 unlinked [[Measure how long the last human-gated release actually waited]] — moved under [[A human-gated release is tagged promptly enough not to become the bottleneck]] — the belief this test measures now has a node of its own

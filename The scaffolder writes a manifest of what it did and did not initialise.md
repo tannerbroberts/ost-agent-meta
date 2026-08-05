@@ -5,7 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count how many captured failures happened in a directory this tool actually scaffolded]]
+[[The failures this would prevent happened in directories this tool actually created]]
 
 Whatever creates a workspace leaves a small machine-readable record of what it set up and, more importantly, what it deliberately did not: `git: false`, `deps-installed: false`, `remote: none`. Any later reader gets the state by reading one file instead of probing for it.
 
@@ -30,3 +30,6 @@ npx vitest run test/runner/scaffold-manifest-coverage.test.ts
 Red today: nothing in the repository records what a scaffolder initialised, so there is no manifest to check coverage against. Green when at least three of the four captured exit-128 failures are shown to have occurred in tool-created directories.
 
 **What this does not settle.** Staleness, which is this candidate's real hazard — a manifest is a claim about state, not the state, and a reader that believes a wrong one proceeds confidently where a probe that finds nothing degrades to asking. Nothing in four captured sessions can show that; it needs a period of real use.
+
+## History
+- 2026-08-05 unlinked [[Count how many captured failures happened in a directory this tool actually scaffolded]] — moved under [[The failures this would prevent happened in directories this tool actually created]] — the belief this test measures now has a node of its own

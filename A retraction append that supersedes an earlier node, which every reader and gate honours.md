@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Audit every consumer of the tree for whether it would honour a retraction flag]]
+[[Every reader of the tree can be made to honour a retraction, and there are few enough to do it]]
 
 Nothing is deleted; a later append declares an earlier node retracted, names the reason, and every consumer of the tree — the sweep, the gates, the duplicate scan, the counts — reads that declaration and excludes the node. The history stays complete and legible, and the live tree stops carrying the mistake.
 
@@ -26,3 +26,6 @@ npx vitest run test/ost/retraction-consumers.test.ts
 Red today: retraction does not exist, so no consumer can honour it. Green when one planted retracted node is excluded by every node-reading path — check, debt, the status rollup, the duplicate scan, the sweep, and each gate.
 
 **What a green spec does not settle.** It fixes the consumer set as of today. The test node names the real long-term risk itself: a reader written next year will not know retraction exists unless something enforces it, and a passing spec over today's consumers says nothing about that.
+
+## History
+- 2026-08-05 unlinked [[Audit every consumer of the tree for whether it would honour a retraction flag]] — moved under [[Every reader of the tree can be made to honour a retraction, and there are few enough to do it]] — the belief this test measures now has a node of its own

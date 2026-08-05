@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Will operators consent to shipping raw usage from their own vault]]
+[[Operators will consent to shipping raw usage out of their own vault]]
 
 Raw events accumulate inside the operator's own vault, under their own git history, and travel outward only on an explicit consented export. The product's default posture stays local-first; the founder receives full fidelity from those who opt in rather than thin telemetry from everyone.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Will operators consent to shipping raw usage from their own vault]] — moved under [[Operators will consent to shipping raw usage out of their own vault]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

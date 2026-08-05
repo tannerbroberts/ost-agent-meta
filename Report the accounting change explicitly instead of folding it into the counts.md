@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check whether the writing version is recoverable from vault state at all]]
+[[The version that wrote a vault is recoverable from the vault itself]]
 
 Do not try to preserve done-ness. Make the reinterpretation impossible to miss: when a build reads a vault last written under a different accounting, it says so — "27 outstanding, of which 18 were counted done under the previous version" — and names them, so the reopened class is distinguishable from the genuinely outstanding one.
 
@@ -30,3 +30,6 @@ Green means the writing version can be resolved from vault state alone for at le
 **Why this is the right first command for this node rather than one about reporting.** Nothing here can fire unless a build can tell it is looking at a vault written under different accounting. If the version is not recoverable there is no boundary to detect, no moment to report, and the honest first move for the whole row is to start stamping it. A negative here re-scopes three sibling candidates at once, which is the cheapest useful thing this row can learn.
 
 **What green does NOT settle, and it is most of what this node claims.** Recoverability is feasibility only. That an accounting change *can* be detected says nothing about whether reporting it explicitly is what an operator wants, whether they read the report, or whether being told "these counts changed meaning" prevents the confusion it is aimed at — all of which are desirability questions about a person, and none of which an exit code confers. This command can go green on a node whose central idea is wrong.
+
+## History
+- 2026-08-05 unlinked [[Check whether the writing version is recoverable from vault state at all]] — moved under [[The version that wrote a vault is recoverable from the vault itself]] — the belief this test measures now has a node of its own

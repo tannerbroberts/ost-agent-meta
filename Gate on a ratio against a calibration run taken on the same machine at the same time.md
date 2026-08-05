@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Load the machine deliberately and check that the calibration ratio holds while the raw number does not]]
+[[The calibration workload and the measured one respond to contention the same way]]
 
 The gate stops measuring milliseconds and starts measuring a ratio. Immediately before the real measurement, the same run executes a small fixed workload of known cost — the calibration — on the same machine under the same load. The gate compares the measurement to the calibration. A machine that is twice as busy makes both numbers twice as large and the ratio unchanged.
 
@@ -30,3 +30,6 @@ Green means that with the code unchanged across four induced load levels, the ra
 **A tension worth naming, because this vault already holds the other side of it.** This command is itself a timed check, and [[Run the timed check under isolation, or do not let it fail the build at all]] argues that timed checks running where isolation cannot be guaranteed should not be allowed to fail a build. That applies here: this spec deliberately contends for the machine, so it belongs in an isolated lane rather than in the ordinary suite, and running it on shared CI would produce exactly the ambiguous red that node is about.
 
 **What green does NOT settle.** One machine and one kind of induced load. The assumption is that the calibration workload degrades the way the real one does, and that holds for CPU-bound work and much less well once disk or network is involved — contention from disk behaves differently, and a laptop under thermal throttling differently again. Green on CPU contention is not green on the class.
+
+## History
+- 2026-08-05 unlinked [[Load the machine deliberately and check that the calibration ratio holds while the raw number does not]] — moved under [[The calibration workload and the measured one respond to contention the same way]] — the belief this test measures now has a node of its own

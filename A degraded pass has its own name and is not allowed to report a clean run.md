@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Degrade five passes on purpose and count how many admit it]]
+[[A pass can detect its own degradation, rather than being degraded in ways invisible from inside]]
 
 **The idea.** Stop treating "full pass" and "whatever this surface could manage" as the same event. A pass that lacks its tools runs anyway as an explicitly *degraded* pass, and the contract for a degraded pass is different: it may report only what it actually verified, it must name what it could not attempt, and it is barred from emitting the words that mean the tree is fine. Success and partial-success become different outcomes with different vocabularies rather than the same green tick.
 
@@ -28,3 +28,6 @@ npx vitest run test/loop/degraded-pass-reporting.test.ts
 ```
 
 Green means every degradation mode this codebase can produce is named in the pass's own report instead of being rounded to success. It proves the mechanism, not the trust: whether an operator who sees "degraded" actually goes and looks is a question about people, not exit codes.
+
+## History
+- 2026-08-05 unlinked [[Degrade five passes on purpose and count how many admit it]] — moved under [[A pass can detect its own degradation, rather than being degraded in ways invisible from inside]] — the belief this test measures now has a node of its own

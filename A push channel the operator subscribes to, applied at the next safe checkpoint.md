@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Would operators enable an update channel that can change an unattended agent]]
+[[Operators will let a channel change an agent that is running while nobody is watching]]
 
 **Candidate (unvalidated, agent-ideated — one of three deliberately different mechanisms under this opportunity).**
 
@@ -28,3 +28,6 @@ evidence: assertion
 The spec asserts the one engineering claim this node makes that can be falsified: an update announced while a pass is in flight is held, applied only between passes, and never lands on a half-finished write. It is red today because neither an update channel nor a checkpoint barrier exists.
 
 **What a green here does not settle, and here it is most of the node.** The node's own stated failure is a trust failure, not an engineering one — whether an operator will accept that something outside their machine can change what the agent does on it. A passing checkpoint spec proves the mechanism is safe against torn writes and says nothing about whether anyone wants a remote capability over an unattended agent. That question is the humans-required test, and on this candidate it is the one that decides.
+
+## History
+- 2026-08-05 unlinked [[Would operators enable an update channel that can change an unattended agent]] — moved under [[Operators will let a channel change an agent that is running while nobody is watching]] — the belief this test measures now has a node of its own

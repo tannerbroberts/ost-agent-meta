@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Does cheapest-disconfirmer ordering eliminate more candidates per hour spent]]
+[[Ordering by time-to-kill eliminates more candidates per hour than ordering by importance]]
 
 Order the test queue not by importance but by expected time-to-kill: run first whatever could eliminate the most candidates for the least effort. Optimises for shrinking the consideration set quickly rather than for building confidence in a favourite.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Does cheapest-disconfirmer ordering eliminate more candidates per hour spent]] — moved under [[Ordering by time-to-kill eliminates more candidates per hour than ordering by importance]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

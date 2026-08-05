@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Would an operator accept an elimination they initially disagreed with once shown the evidence]]
+[[An operator shown the evidence will accept an elimination they initially disagreed with]]
 
 Run candidates against each other in rounds — each round eliminates on a specific piece of grounded evidence rather than crowning anything. Matches the ruleset's own position that "good" is only judgeable relative to alternatives, and produces a shrinking consideration set without ever declaring a winner (which remains a human decision).
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Would an operator accept an elimination they initially disagreed with once shown the evidence]] — moved under [[An operator shown the evidence will accept an elimination they initially disagreed with]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

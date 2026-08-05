@@ -8,7 +8,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the hard-fix session's trace against its known defects]]
+[[A trace of calls, outcomes and durations carries the defects a session actually had]]
 
 **The idea.** Instrument the single tool-dispatch choke point (buildOstTools) so every allowlisted invocation appends one JSONL event — tool, outcome, duration, surface, input size, never content — to `.ost-agent/usage/events.jsonl` inside the vault. A `usage` adapter rolls each finished day into one evidence item of computed statistics. Fail-open: telemetry may lose an event, never a mutation.
 
@@ -28,3 +28,6 @@ npx vitest run test/telemetry/trace-defect-replay.test.ts
 ```
 
 Green means the trace retains enough that the hard-fix session's known defects are visible in it — the standard a trace has to meet to be worth its storage. It does not settle the defects nobody has named: a replay scored against known defects cannot report what the trace would have missed.
+
+## History
+- 2026-08-05 unlinked [[Replay the hard-fix session's trace against its known defects]] — moved under [[A trace of calls, outcomes and durations carries the defects a session actually had]] — the belief this test measures now has a node of its own

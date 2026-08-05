@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Paper test of the confidence roll-up rule]]
+[[A branch reading as only as strong as its weakest input changes what people act on]]
 
 Roll evidence strength up the tree: a branch is only as believable as its weakest load-bearing input, and the tree surfaces that — "this entire branch rests on founder theory", "this opportunity has no non-founder source" — wherever the branch is read or acted on.
 
@@ -20,6 +20,7 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Paper test of the confidence roll-up rule]] — moved under [[A branch reading as only as strong as its weakest input changes what people act on]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

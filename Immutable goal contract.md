@@ -6,8 +6,8 @@ created: '2026-07-24'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Unprompted-fear interviews about leaving it running]]
-[[Every pass records the outcome text it ran against, and a changed outcome is visible as a change]]
+[[A locked outcome addresses what operators are actually afraid of when they leave it running]]
+[[Drift is auditable after the fact from the pass records alone]]
 
 The outcome is a locked contract: no autonomous process can alter it, any proposed change is raised as a visible question for a human, and every pass records which goal it ran against so drift is auditable after the fact.
 
@@ -21,6 +21,8 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Unprompted-fear interviews about leaving it running]] — moved under [[A locked outcome addresses what operators are actually afraid of when they leave it running]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked [[Every pass records the outcome text it ran against, and a changed outcome is visible as a change]] — moved under [[Drift is auditable after the fact from the pass records alone]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

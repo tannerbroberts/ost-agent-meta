@@ -5,7 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the two recorded rejections and check the run could act on the operator's own words]]
+[[A run can act on a sentence the operator wrote, without asking again]]
 
 Keep the options — they are genuinely useful when the run has guessed right — but never make them the only way to reply. Every question the run asks carries an open field alongside the enumerated choices, and an answer written into that field is handled as an answer, not as a refusal. The operator who wants to say "neither, here is the actual distinction" says it once, in the same turn, and the run proceeds on it.
 
@@ -24,3 +24,6 @@ npx vitest run test/loop/free-text-answer-parsing.test.ts
 ```
 
 Green means a written answer is genuinely first-class — the two rejection texts the operator actually typed each yield a decision the run proceeds on, with no follow-up question. It does not settle whether anyone reaches for the open field when a menu sits beside it.
+
+## History
+- 2026-08-05 unlinked [[Replay the two recorded rejections and check the run could act on the operator's own words]] — moved under [[A run can act on a sentence the operator wrote, without asking again]] — the belief this test measures now has a node of its own

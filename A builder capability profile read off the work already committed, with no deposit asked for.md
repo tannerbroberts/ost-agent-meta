@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count how much of the committed record could name a capability at all]]
+[[The commits and PRs already written are specific enough to name what their author can do]]
 
 **The mechanism:** nobody is asked to deposit anything. The agent builds its picture of each collaborator from the record that already exists and that it can already reach — authored commits and their diffs, PR descriptions and review exchanges, which node bodies a builder wrote, which tests they ran and which they abandoned, what they attempted and reverted. The profile is an inference over artifacts, not a submission.
 
@@ -26,3 +26,6 @@ npx vitest run test/product/committed-capability-profile.test.ts
 ```
 
 Green means a capability profile can in fact be derived from commits alone, with nothing asked of the operator. It settles feasibility only. Whether the profile it produces is *accurate* about what a builder can do, and whether anyone would act on it, are untouched by this command.
+
+## History
+- 2026-08-05 unlinked [[Count how much of the committed record could name a capability at all]] — moved under [[The commits and PRs already written are specific enough to name what their author can do]] — the belief this test measures now has a node of its own

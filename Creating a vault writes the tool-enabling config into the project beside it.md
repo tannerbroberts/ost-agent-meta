@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Merge the enabling config into five real project settings files and check nothing was lost]]
+[[The enabling config can be merged into a real project's settings without losing anything already there]]
 
 Setup writes the enabling configuration at the moment the vault is created, into the project directory the vault lives in, so that having a vault and having the tools that operate on it become the same event. The step that is currently invisible and manual stops existing rather than becoming better documented.
 
@@ -26,3 +26,6 @@ Green means five real settings fixtures — including one that already enables o
 **Safety is the whole value here, not a precondition of it.** This candidate's advantage over its siblings is that it removes the failure rather than detecting it, and that advantage survives only if the write is safe. If merging is unsafe, this is not a setup-time fix at all — it is a way to damage an operator's existing configuration at the exact moment they are trying the product for the first time, which is the worst moment available.
 
 **What green does NOT settle.** Five fixtures are not the space of real settings files, and the formats most likely to break a merge are the ones nobody thought to include. It also says nothing about the merge being *correct* — a merge that preserves every existing key and writes an enabling block that does not actually enable anything passes this command cleanly.
+
+## History
+- 2026-08-05 unlinked [[Merge the enabling config into five real project settings files and check nothing was lost]] — moved under [[The enabling config can be merged into a real project's settings without losing anything already there]] — the belief this test measures now has a node of its own

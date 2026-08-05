@@ -6,7 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay all existing tests to count how many a refusal would have blocked]]
+[[Refusing an unfixed threshold blocks few enough filings to be a guard rather than a wall]]
 
 **The idea.** `ost-agent result` refuses a filing when the test's pre-commitment is
 not a commitment — the same shape as its existing refusals for a blank `--by` and a
@@ -41,3 +41,6 @@ costs the whole recording.
 
 ⚠️ Unvalidated. Proposed by an agent. Deliberately proposed *after* the report
 version, and it should stay behind it.
+
+## History
+- 2026-08-05 unlinked [[Replay all existing tests to count how many a refusal would have blocked]] — moved under [[Refusing an unfixed threshold blocks few enough filings to be a guard rather than a wall]] — the belief this test measures now has a node of its own

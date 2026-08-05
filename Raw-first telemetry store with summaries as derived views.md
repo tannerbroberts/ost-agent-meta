@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay one week of raw events against five questions the rollup cannot answer]]
+[[Keeping the raw stream lets new questions be asked of history already collected]]
 
 Keep the full event stream as the system of record and never discard it; every count, rollup and digest becomes a view computed *over* the raw log rather than a substitute for it. New questions get asked of history that has already been collected instead of requiring new instrumentation and a wait.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Replay one week of raw events against five questions the rollup cannot answer]] — moved under [[Keeping the raw stream lets new questions be asked of history already collected]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

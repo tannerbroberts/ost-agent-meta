@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Ask ten buyers to split a test's price between designing it and running it]]
+[[Buyers value the design of a test, not just the running of it]]
 
 The unit is one tested assumption: the risky belief named, the test designed small and fast, the threshold committed before it runs, the result recorded with what it failed to cover. Priced per test. A customer who buys nothing gets nothing, and a customer who buys ten has ten things they know that they did not know before.
 
@@ -16,3 +16,6 @@ This prices the only step in the whole process that produces new knowledge. Mapp
 **What would make this the wrong pick.** Customers may see the test design as the cheap part and the running as the expensive part, in which case they are paying for the wrong half. Worth asking before pricing anything.
 
 Whether anyone would pay this is a question for customers. Nothing here is validated.
+
+## History
+- 2026-08-05 unlinked [[Ask ten buyers to split a test's price between designing it and running it]] — moved under [[Buyers value the design of a test, not just the running of it]] — the belief this test measures now has a node of its own

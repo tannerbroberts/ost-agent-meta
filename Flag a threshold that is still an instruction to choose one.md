@@ -6,8 +6,8 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Do named unfixed thresholds actually get fixed]]
-[[A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact]]
+[[Naming an unfixed threshold is enough to get it fixed]]
+[[The classifier reads a pre-commitment the same way however the text happens to be wrapped]]
 
 **The idea.** `ost-agent debt` (and `status`) name every assumption test whose
 pre-commitment reads as an instruction rather than a commitment — no number, no
@@ -106,3 +106,7 @@ npx vitest run test/ost/threshold-lead-in-wrap.test.ts
 Green means `debt`'s four-way classification reads the pre-commitment paragraph rather than where prose formatting put a line break — the defect this node's own body records twice, both times reproduced live and by accident, and both times flagged rather than fixed.
 
 It does not settle the question the older sibling test asks. [[Do named unfixed thresholds actually get fixed]] is about whether naming an unfixed threshold causes anyone to fix it, which is longitudinal and about people; no exit code observes it. Nor does a green re-count history: every `absent` figure this feature has published stays a floor rather than a measurement, including the 12 in this vault.
+
+## History
+- 2026-08-05 unlinked [[Do named unfixed thresholds actually get fixed]] — moved under [[Naming an unfixed threshold is enough to get it fixed]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked [[A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact]] — moved under [[The classifier reads a pre-commitment the same way however the text happens to be wrapped]] — the belief this test measures now has a node of its own

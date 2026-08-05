@@ -8,7 +8,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Two unattended weeks - count pages, grind, and money burned]]
+[[Two unattended weeks produce few enough pages, and little enough grind, to be worth the spend]]
 
 **The idea.** Invert who initiates: cron-scheduled ambient Claude sessions run the full maintenance loop (ingest, map, ideate where ungated, run compute-only tests, refresh the docket) with no human trigger. The operator is contacted only on pages — a hard gate hit (identity, money, validation) or an invariant failure. Silence means it's working; the weekly digest is the only scheduled human touchpoint.
 
@@ -23,3 +23,6 @@ This solution was explicitly blocked behind the exit-0 defect (recorded on [[I n
 **What the fix does and does not give this candidate.** It gives the *page-on-error* half a mechanical trigger any wrapper can read. It gives the *silence-means-working* half nothing: a cron that stops firing produces no exit code at all, and this candidate's entire promise is that silence is trustworthy. Until something consumes journals on a heartbeat ([[Supervisor heartbeat consumes run journals and alerts on error]]), silence still means "either healthy or dead" — which is the state this candidate claims to have solved.
 
 So: unblocked, not ready. The honest sequence is heartbeat first, then unattended scheduling.
+
+## History
+- 2026-08-05 unlinked [[Two unattended weeks - count pages, grind, and money burned]] — moved under [[Two unattended weeks produce few enough pages, and little enough grind, to be worth the spend]] — the belief this test measures now has a node of its own

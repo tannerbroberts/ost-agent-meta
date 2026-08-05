@@ -5,8 +5,8 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Show readers a degraded run report and see whether they notice]]
-[[The CLI fallback reaches the same vault, and refuses the write half]]
+[[Readers notice a degraded run without being told to look]]
+[[The CLI fallback reaches the same vault and refuses everything the read path should not do]]
 
 Treat the missing tool surface as a degradation rather than a stop. The evidence says the command line *was still available* in all three toolless passes — so when the MCP surface does not resolve, the pass routes the work it can still do through the CLI, does that work, and reports plainly which capabilities it ran without.
 
@@ -29,3 +29,7 @@ npx vitest run test/loop/mcp-absent-fallback.test.ts
 Green means the three things this node's body argues for are mechanism rather than paragraph: the fallback resolves the same vault and gives the same read-only answers, the write half is refused rather than routed, and a fallback run cannot emit a report that reads as clean. The third clause is what enforces the dependency this node names on [[A degraded pass has its own name and is not allowed to report a clean run]], instead of leaving the two to be shipped separately.
 
 It does not settle whether a person reading the degraded report notices — [[Show readers a degraded run report and see whether they notice]], which says outright that the measurement is what a human notices and that a mechanical proxy would answer a different question. Green here means the fallback is mechanically safe and its safety is still unobserved.
+
+## History
+- 2026-08-05 unlinked [[Show readers a degraded run report and see whether they notice]] — moved under [[Readers notice a degraded run without being told to look]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked [[The CLI fallback reaches the same vault, and refuses the write half]] — moved under [[The CLI fallback reaches the same vault and refuses everything the read path should not do]] — the belief this test measures now has a node of its own

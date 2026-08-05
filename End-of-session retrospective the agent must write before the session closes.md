@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check three past pass notes for the wrong turn they left out]]
+[[An agent can identify its own wrong turn well enough for the retrospective to be worth reading]]
 
 **The idea.** Before a session ends, the agent writes one short structured retrospective: the wrong turn it took, roughly what that turn cost, and what it would have needed to know at the start to avoid it. Not a summary of what it did — a confession of where it was confused. It lands in the inbox like any other evidence item, with the session id as provenance.
 
@@ -26,3 +26,6 @@ evidence: assertion
 The spec asserts the design question the node says this candidate must survive — whether it can stay silent credibly. A session with nothing conceptual to report produces **no inbox item**, not a "nothing notable" one; a retrospective that is written lands with the session id as provenance and enters at the `assertion` floor as self-report. Both halves matter: the channel's problem is not volume but that 82 events already arrive and none is useful, so a mechanism that adds a mostly-empty item per session makes it worse. Red today because nothing is required before a session closes.
 
 **What a green here does not settle, and every bias runs the wrong way.** This is self-report by the party whose confusion is being reported, at the end of a session it wants to declare successful. Retrospectives will under-report, will be written to look competent, and will be thinnest exactly where the session went worst — a spec can force the field to exist and cannot make it honest. Reading three past pass notes for the wrong turn they left out is the humans-required check, and it is the only thing that would catch a fluent, silent omission.
+
+## History
+- 2026-08-05 unlinked [[Check three past pass notes for the wrong turn they left out]] — moved under [[An agent can identify its own wrong turn well enough for the retrospective to be worth reading]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check whether naming the acceptable rung leads callers to take it without new grounds]]
+[[Naming the acceptable value does not become a way to take it without grounds]]
 
 Since the tool knows enough to refuse, it usually knows enough to say what would have been accepted. A rung refusal names the highest rung this source can carry. A hierarchy refusal names the layers this parent will take. A reserved-heading refusal names the headings that are free. One round trip, and the caller has the answer rather than a diagnosis.
 
@@ -26,3 +26,6 @@ npx vitest run test/telemetry/rung-suggestion-reflex.test.ts
 Red today for two compounding reasons: the refusal does not name the acceptable ceiling yet, so there is no suggestion to be taken reflexively, and nothing pairs a refused call with the retry that followed it — the trace stores calls, not call sequences. Green means at most 5 of 20 retries adopt the named rung with the justification unchanged from the refused attempt.
 
 Read the green narrowly. Taking the named ceiling is often correct, because it may be the honest rung; separating a reflexive acceptance from a right one means reading the justification, which is a judgement. **This command produces the flag, never the verdict** — and a solution whose whole risk is that a helpful message becomes an autocomplete is one where mistaking the flag for the verdict is the specific way a reader gets it wrong.
+
+## History
+- 2026-08-05 unlinked [[Check whether naming the acceptable rung leads callers to take it without new grounds]] — moved under [[Naming the acceptable value does not become a way to take it without grounds]] — the belief this test measures now has a node of its own

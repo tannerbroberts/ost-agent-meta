@@ -6,7 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Five-second status glance test after a failed run]]
+[[Putting the failure first makes a human see it in a glance]]
 
 **The idea.** `ost-agent status` (and any digest) surfaces the most recent failed run journal first — error, when, which pass — before node counts. Failure becomes the first thing a human sees, not a JSON file to spelunk.
 
@@ -23,3 +23,6 @@ evidence: assertion
 **The trade-off this node named is unchanged and unaddressed:** this only helps if a human looks. Unattended operation still rests entirely on the exit-code sibling, and on a supervisor that nobody has built.
 
 **The digest half of this node is not built** — there is no digest. Only `status` was touched.
+
+## History
+- 2026-08-05 unlinked [[Five-second status glance test after a failed run]] — moved under [[Putting the failure first makes a human see it in a glance]] — the belief this test measures now has a node of its own

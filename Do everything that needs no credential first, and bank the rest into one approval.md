@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Classify the steps of ten past runs as credentialed or not, and see how much work sits upstream]]
+[[Credentialed steps sit late in a run rather than upstream of everything else]]
 
 The run classifies its intended work by whether it needs the operator's secret. It does all the unsecured work first, to completion. Every action that needs the credential is described, queued, and presented at the end as a single list the operator approves or declines in one sitting.
 
@@ -28,3 +28,6 @@ Red today because no code partitions a run's steps by credential need. The journ
 That is the number this whole reordering rests on. If most of a run's work sits downstream of one push or one authenticated read, reordering buys nothing and the run still ends with almost nothing accomplished.
 
 What it does not settle: past runs were written by an agent that stopped at the first block, so their step order already reflects that habit. A run designed to defer credentialed work might sequence itself quite differently, and this replay cannot see that counterfactual.
+
+## History
+- 2026-08-05 unlinked [[Classify the steps of ten past runs as credentialed or not, and see how much work sits upstream]] — moved under [[Credentialed steps sit late in a run rather than upstream of everything else]] — the belief this test measures now has a node of its own

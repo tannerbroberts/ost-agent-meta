@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Produce three routes for one live branch and have a reader rank them without seeing the labels]]
+[[Three routes differ enough in kind that a reader can rank them without the labels]]
 
 Instead of one recommended path, produce three that differ in kind — the safe route that learns slowly, the direct route that commits early, and the cheap route that tests the riskiest belief first — and for each, state plainly what taking it makes harder to do afterwards. The operator picks, and picks knowing the price of being wrong.
 
@@ -24,3 +24,6 @@ npx vitest run test/ost/routes-with-forecloses.test.ts
 ```
 
 Green means: three routes come back for one branch, each naming its risk level and what choosing it forecloses, with the foreclosed sets differing between them — a route that forecloses nothing, or repeats a sibling's trade-off, fails. The forecloses field is the whole solution; three routes without it are three labels. Green does **not** perform the blind ranking, which needs a reader.
+
+## History
+- 2026-08-05 unlinked [[Produce three routes for one live branch and have a reader rank them without seeing the labels]] — moved under [[Three routes differ enough in kind that a reader can rank them without the labels]] — the belief this test measures now has a node of its own

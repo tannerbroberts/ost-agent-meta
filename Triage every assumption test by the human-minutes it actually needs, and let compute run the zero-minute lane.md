@@ -8,7 +8,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Run the compute-only backlog today and count decisive verdict drafts]]
+[[A real share of the backlog is compute-only and yields decisive verdict drafts]]
 
 **The idea.** Classify each test at birth (and the 66-test backlog now) into three lanes: COMPUTE-ONLY (replays, audits, paper-classifications over existing data — no customer, no fabrication risk), ONE-COMMAND (compute prepares the full verdict draft; the human's entire role is reading one paragraph and running one pre-filled `ost-agent result` line), and HUMANS-REQUIRED (real outside people irreducibly in the loop). The ambient agent then runs the compute-only lane unprompted and keeps the one-command lane's drafts current.
 
@@ -67,3 +67,6 @@ The lane model, the report and the setter shipped in v0.6.0/v0.7.0. The clause s
 ```
 npx vitest run test/loop/compute-lane-runner.test.ts
 ```
+
+## History
+- 2026-08-05 unlinked [[Run the compute-only backlog today and count decisive verdict drafts]] — moved under [[A real share of the backlog is compute-only and yields decisive verdict drafts]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Write the migration for one past tightening and have a reader check it changed nothing's meaning]]
+[[A migration can bring old nodes into compliance without changing what any of them means]]
 
 A rule change is not allowed to land alone. It arrives with a migration that brings existing nodes into compliance where that can be done mechanically, and with a list — node by node — of the ones that cannot, each saying what a human would have to decide. The tree is never left in a state nobody has a plan for.
 
@@ -22,3 +22,6 @@ This puts the cost on the author of the rule, who understands the change and kno
 `npx vitest run test/ost/tightening-migration-meaning.test.ts`
 
 Green when the migration takes a before-tightening tree fixture from red to green under `check` while leaving every node's prose byte-identical. That proves it moved structure, not wording — it does not prove meaning survived, because re-parenting a node changes what its unchanged words claim. The human reader still checks the nodes whose position moved.
+
+## History
+- 2026-08-05 unlinked [[Write the migration for one past tightening and have a reader check it changed nothing's meaning]] — moved under [[A migration can bring old nodes into compliance without changing what any of them means]] — the belief this test measures now has a node of its own

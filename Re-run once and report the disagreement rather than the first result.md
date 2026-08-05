@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check whether isolation correctly acquits a flake and convicts a real regression]]
+[[Isolation acquits a flake and convicts a real regression]]
 
 **The idea.** When a timing assertion fails, re-run that test alone and compare. Agreement means red — report it as a real failure. Disagreement means the record says so explicitly: *"failed at 2280ms in suite, passed at 18077ms of margin in isolation — contention, not regression."* The verdict carries its own attribution instead of leaving the reader to re-derive it.
 
@@ -36,3 +36,6 @@ Green means all three planted scenarios are labelled correctly on 3 of 3 repetit
 **A red result here still leaves something buildable,** which is why this command is worth running before the mechanism is committed to. If scenario 3 cannot be convicted, the honest fallback is already written into the test node: report the disagreement without resolving it — *"failed in suite, passed in isolation; cause not determined"* — keeping the attribution information and dropping the unearned verdict. That is a rewrite of this solution, not a closed branch.
 
 **What green does NOT settle.** That the labels are *useful* to whoever reads them. Correct attribution on three planted cases says nothing about how often the real corpus contains a shape none of the three resemble, and a plant is by construction the shape its author already imagined — the caution [[Do the shipped sweeps actually find a planted instance]] recorded after its own run.
+
+## History
+- 2026-08-05 unlinked [[Check whether isolation correctly acquits a flake and convicts a real regression]] — moved under [[Isolation acquits a flake and convicts a real regression]] — the belief this test measures now has a node of its own

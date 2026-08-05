@@ -4,7 +4,7 @@ created: '2026-07-27'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Replay past sweeps to see how many were blind all the way rather than partly]]
+[[Sweeps that found nothing were mostly looking at nothing at all, rather than at a subset]]
 
 **The idea.** Any sweep whose subject count is zero exits non-zero and says so, rather than reporting zero findings. "I looked at nothing and found nothing wrong" stops being expressible.
 
@@ -23,3 +23,6 @@ npx vitest run test/ost/blind-sweep-replay.test.ts
 ```
 
 Green means a sweep that read nothing is reported as a failure rather than a clean run, and the recorded sweeps can be replayed to say how many were blind. It does not say whether the blindness rate is high enough to be worth anyone's concern — that reading is the operator's.
+
+## History
+- 2026-08-05 unlinked [[Replay past sweeps to see how many were blind all the way rather than partly]] — moved under [[Sweeps that found nothing were mostly looking at nothing at all, rather than at a subset]] — the belief this test measures now has a node of its own

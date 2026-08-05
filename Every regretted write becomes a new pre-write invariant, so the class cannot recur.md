@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Take the last ten regretted writes and check whether each could have been refused mechanically]]
+[[Most regretted writes could have been refused by a check needing no judgement]]
 
 When a human finds a write that should never have been accepted, the response is not to fix that node but to write the check that would have refused it, and add it to the set every mutating call runs before touching disk. The backlog of regretted writes becomes the specification for the refusal set.
 
@@ -28,3 +28,6 @@ Green means at least 6 of the 10 regretted writes already recorded in this vault
 **Why 6 of 10 and not all 10.** If most regrets turn on judgement rather than on anything checkable, the refusal set cannot grow to meet them and this whole approach is the wrong shape. Six is the point at which the mechanism carries more than half its own weight; demanding ten would make the test unpassable for a reason that has nothing to do with whether the idea works.
 
 **What green does NOT settle, and it is a selection problem rather than a coverage one.** The fixture set is drawn from regrets that were *noticed and written down*. Bad writes nobody has spotted are absent by construction, and there is a live reason to think they are the harder class: a write that looked fine at the time is exactly the one no invariant over call-time information would have caught. Green says the recorded regrets were mechanical; it cannot say the unrecorded ones are.
+
+## History
+- 2026-08-05 unlinked [[Take the last ten regretted writes and check whether each could have been refused mechanically]] — moved under [[Most regretted writes could have been refused by a check needing no judgement]] — the belief this test measures now has a node of its own

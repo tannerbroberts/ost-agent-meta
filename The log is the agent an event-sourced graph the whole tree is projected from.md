@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #human-entered #architecture #activegraph #unvalidated #evidence/assertion
-[[Replay this vault's whole git history as events and see if the projection matches]]
+[[The vault's whole history expresses as events with no residue, and the projection reproduces it exactly]]
 
 **Candidate solution (unvalidated). Entered by hand at the operator's direction, 2026-08-03 — not ideated by a pass.**
 
@@ -55,3 +55,6 @@ Green means every tree-changing commit in this vault's real history expresses as
 **Why this vault is the right subject and why that cuts both ways.** Every write here was made through the append-only MCP surface, which is the most favourable possible input — so a failure here fails everywhere, and a pass here says nothing about a vault that has been hand-edited. Expect residue to concentrate in exactly the hand-edit case.
 
 **What green does NOT settle.** Feasibility only. It says the architecture is expressible, not that it is worth the rewrite — and the node's own argument concedes that if this fails, what remains is [[Append-only audit trail the operator can replay]] at a fraction of the cost.
+
+## History
+- 2026-08-05 unlinked [[Replay this vault's whole git history as events and see if the projection matches]] — moved under [[The vault's whole history expresses as events with no residue, and the projection reproduces it exactly]] — the belief this test measures now has a node of its own

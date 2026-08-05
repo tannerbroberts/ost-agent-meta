@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Do candidates carrying kill criteria actually get killed within two weeks]]
+[[A kill criterion written when a candidate was cheap actually gets honoured when it is expensive]]
 
 Every candidate records, at creation, the observation that would end it — before anyone is attached to it. Killing then becomes bookkeeping against a commitment made when it was cheap, rather than an argument had when it is expensive.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Do candidates carrying kill criteria actually get killed within two weeks]] — moved under [[A kill criterion written when a candidate was cheap actually gets honoured when it is expensive]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count how many existing rules would need a conditional to support two live versions]]
+[[Supporting two live ruleset versions costs few enough conditionals to stay maintainable]]
 
 A vault records the ruleset version it is on. Checks evaluate against that version, so a tightening published today does not retroactively fail a tree that has not adopted it. Adopting is an explicit act: the operator moves the version, sees exactly what newly fails, and does that work when they choose to.
 
@@ -32,3 +32,6 @@ Green means version awareness across the current rule set and its predecessor co
 **A precondition this row shares.** Nothing here can fire unless a build can tell which version wrote a given vault, which is [[Check whether the writing version is recoverable from vault state at all]] — red today for the same reason, and the cheaper of the two to answer first.
 
 **What green does NOT settle.** Whether an operator whose tree is stranded out of compliance would rather be migrated than grandfathered. That is a preference about their own work and belongs to a person.
+
+## History
+- 2026-08-05 unlinked [[Count how many existing rules would need a conditional to support two live versions]] — moved under [[Supporting two live ruleset versions costs few enough conditionals to stay maintainable]] — the belief this test measures now has a node of its own

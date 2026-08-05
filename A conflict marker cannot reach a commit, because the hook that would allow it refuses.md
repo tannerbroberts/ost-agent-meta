@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Add the hook and check whether the commit paths a run actually uses all pass through it]]
+[[Every route a run commits by passes through a place a local hook can occupy]]
 
 A pre-commit check scans staged content for conflict markers and refuses the commit outright. It is a handful of lines, it has no false positives worth speaking of, and it makes the specific state described here impossible to create.
 
@@ -26,3 +26,6 @@ npx vitest run test/git/conflict-marker-guard.test.ts
 Red today: neither the guard nor the spec exists. Green when every commit route this project's runs actually take refuses staged conflict-marker content.
 
 **What a green spec does not settle.** It proves the marker cannot reach a commit. It says nothing about a resolution that dropped half a function and committed cleanly — the case this solution openly concedes — and nothing about whether a local hook survives a fresh clone or a `--no-verify`. Feasibility answered mechanically leaves the "advisory, not a guarantee" objection exactly where it was.
+
+## History
+- 2026-08-05 unlinked [[Add the hook and check whether the commit paths a run actually uses all pass through it]] — moved under [[Every route a run commits by passes through a place a local hook can occupy]] — the belief this test measures now has a node of its own

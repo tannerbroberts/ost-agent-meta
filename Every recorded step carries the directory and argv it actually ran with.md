@@ -4,7 +4,7 @@ created: '2026-07-27'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Try to reproduce ten recorded failures from the record alone]]
+[[cwd and resolved argv are enough to re-run a recorded failure verbatim]]
 
 **The idea.** `loop step` records `cwd` and the resolved argv next to the exit code it already stores, so a recorded failure can be re-run verbatim from the record.
 
@@ -38,6 +38,7 @@ moment the history matters.
 
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
+- 2026-08-05 unlinked [[Try to reproduce ten recorded failures from the record alone]] — moved under [[cwd and resolved argv are enough to re-run a recorded failure verbatim]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

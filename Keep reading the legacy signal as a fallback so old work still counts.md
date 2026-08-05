@@ -5,8 +5,8 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Judge the eighteen reopened items — were they genuinely finished]]
-[[The fallback is bounded by the version boundary and goes inert at a stated release]]
+[[The items the legacy signal keeps counted were genuinely finished]]
+[[The fallback can be bounded so it does not become permanent]]
 
 The new build keeps the old build's reading as a second source: an item counts as done if the new ledger says so **or** if the legacy signal did. Nothing is rewritten, nothing is inferred into permanence, and a vault last touched by an older version simply keeps working.
 
@@ -29,3 +29,7 @@ npx vitest run test/ost/legacy-signal-fallback-bounds.test.ts
 Green means the bounded variant sketched in one line above is a bound rather than an intention: the legacy signal is read only for items created before the version boundary, the fallback goes inert past a release named in code rather than in a comment, and items counted done by the legacy signal alone are reported as such. The third clause is what makes the carrying cost measurable — you cannot decide it is safe to drop a compatibility layer without knowing what it is holding up — and the second is the difference between a deadline someone has to honour and one the code honours by itself.
 
 It does not settle this node's own distinguishing assumption: that the two schemes reconcile by a simple OR. If the new ledger deliberately narrowed what counts as done, a perfectly bounded fallback is a wrong rule with an expiry date. That is [[Judge the eighteen reopened items — were they genuinely finished]], and it needs someone to look at eighteen items and say.
+
+## History
+- 2026-08-05 unlinked [[Judge the eighteen reopened items — were they genuinely finished]] — moved under [[The items the legacy signal keeps counted were genuinely finished]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked [[The fallback is bounded by the version boundary and goes inert at a stated release]] — moved under [[The fallback can be bounded so it does not become permanent]] — the belief this test measures now has a node of its own

@@ -6,7 +6,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay five known blockers and check whether mining would have named each before it cost a pass]]
+[[The loop's recorded stalls name a resource early enough to be a planner input]]
 
 Nobody is asked anything. Every stall the loop already records — a deferred node, a blocked friction event, a refused command, an ask that went unanswered — names the resource it stalled on, and a rollup assembles those into an observed constraint profile the planner consults. The resource picture is derived from the record of what this project could not do, not from anyone's account of what it can.
 
@@ -27,3 +27,6 @@ npx vitest run test/loop/blocker-mining-replay.test.ts
 ```
 
 Green means the profile, mined only from history available *before* each blocker, names that blocker in advance — the holdout discipline that separates mining from hindsight. It does not settle whether a named constraint changes what the loop does about it; a profile nothing reads is a well-tested no-op.
+
+## History
+- 2026-08-05 unlinked [[Replay five known blockers and check whether mining would have named each before it cost a pass]] — moved under [[The loop's recorded stalls name a resource early enough to be a planner input]] — the belief this test measures now has a node of its own

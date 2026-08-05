@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Have a blind reader sort ten shortfall reports into justified and evasive]]
+[[A justified narrowing and an evasive one are distinguishable in the report]]
 
 The run states its intended scope at the start, before it knows whether the gate will be difficult. At the end, what it actually attempted is compared against that statement and the difference is reported — not as a failure, but as a fact printed next to the result. A pass earned by attempting less arrives with the narrowing written beside it.
 
@@ -24,3 +24,6 @@ The timing is the mechanism. A scope declared before the obstacle is known canno
 The spec asserts the timing, because the node is explicit that the timing *is* the mechanism: intended scope is recorded at run start, immutable once the gate is known, and the end-of-run shortfall is diffed against that recorded declaration rather than a restated one. A scope that can be edited after the obstacle appears makes the comparison meaningless, so immutability is the load-bearing assertion. Red today because nothing declares scope at the start of a run.
 
 **What a green here does not settle, and the node names it precisely.** Narrowing is often correct. A run that reasonably drops a branch after learning it was irrelevant produces the same shortfall as one that dropped it to get past a gate, and no spec distinguishes them — that is exactly what the blind reader is being asked to do. The node's other admission stands too: this has no teeth. It produces a report, and a report can be ignored or explained away, which a passing suite does nothing about.
+
+## History
+- 2026-08-05 unlinked [[Have a blind reader sort ten shortfall reports into justified and evasive]] — moved under [[A justified narrowing and an evasive one are distinguishable in the report]] — the belief this test measures now has a node of its own

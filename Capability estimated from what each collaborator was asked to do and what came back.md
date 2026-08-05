@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the routing record and count how many work classes ever reached more than one collaborator]]
+[[Work classes have been routed to more than one collaborator, so the record can compare them]]
 
 **The mechanism:** capability is treated as an estimate the tree updates rather than a fact it collects. Every time work is routed to a collaborator the agent records the assignment, the class of work, and what came back — done, done-with-help, refused, abandoned, silently dropped. The profile is the running ledger of those outcomes, and it is always a claim about observed reliability at a class of work rather than a claim about a person.
 
@@ -26,3 +26,6 @@ npx vitest run test/product/routing-record-capability.test.ts
 ```
 
 Green means the routing record can in fact support a capability estimate — and the count it returns is the honest limit on that estimate, because a work class only ever routed to one collaborator yields a comparison of one. It does not settle whether the estimate predicts anything about work not yet routed.
+
+## History
+- 2026-08-05 unlinked [[Replay the routing record and count how many work classes ever reached more than one collaborator]] — moved under [[Work classes have been routed to more than one collaborator, so the record can compare them]] — the belief this test measures now has a node of its own

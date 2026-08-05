@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Try to express the scope of five existing gates and see which ones resist it]]
+[[A gate's intended scope can be written down without a clause that satisfies itself vacuously]]
 
 When a gate is set, it captures the scope it was meant to cover — which files, which surfaces, which behaviours. Passing requires covering that scope. An agent that shrinks what it attempts until the gate is satisfied now fails a different check: the gate reports that it was asked about less than it was set up to guard, and a reduced subject is a failure rather than a pass.
 
@@ -28,3 +28,6 @@ Red today because no gate in the repository declares its intended coverage. Gate
 The vacuity half is the load-bearing half. A scope satisfiable by keeping the boundary and emptying what happens inside it is exactly the narrowing this solution exists to prevent, and a scope declaration that cannot detect that is decoration.
 
 What it does not settle: whether a written scope stays current as the gate's purpose evolves. That is where a scope most plausibly rots, it is a habit over months, and no single exit code observes it.
+
+## History
+- 2026-08-05 unlinked [[Try to express the scope of five existing gates and see which ones resist it]] — moved under [[A gate's intended scope can be written down without a clause that satisfies itself vacuously]] — the belief this test measures now has a node of its own

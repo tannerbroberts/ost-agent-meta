@@ -5,7 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Census every consumer that reads a suite result as a pass-or-fail boolean]]
+[[Few enough consumers read a suite result as a boolean that they can all be migrated at once]]
 
 A suite result is not a boolean. It carries the set of things it did not run — excluded, skipped, quarantined, never collected — and any reader that treats it as a verdict has to look at that set. A gate reading a green with a non-empty exclusion set refuses to call it full coverage.
 
@@ -32,3 +32,6 @@ Red today: nothing enumerates the consumers of a suite verdict, so the migration
 **Why this before anything is built.** A partial rollout of this candidate is worse than no rollout — an untaught consumer keeps reading the boolean while an exclusion set exists beside it, and is now confidently wrong rather than merely uninformed.
 
 **What this does not settle.** It counts consumers, not the cases they would newly catch. This candidate's strongest argument is that it also surfaces *undeclared* shortfalls — a file that failed to collect, a filter typo matching nothing, a suite exiting early — and none of those appear in a consumer census. That upside needs its own replay over past runs.
+
+## History
+- 2026-08-05 unlinked [[Census every consumer that reads a suite result as a pass-or-fail boolean]] — moved under [[Few enough consumers read a suite result as a boolean that they can all be migrated at once]] — the belief this test measures now has a node of its own

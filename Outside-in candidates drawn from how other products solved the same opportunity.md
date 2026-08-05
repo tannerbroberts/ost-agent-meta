@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Would an operator adopt an outside-sourced candidate into their consideration set]]
+[[An operator will adopt an outside-sourced candidate into their real consideration set]]
 
 Seed the candidate set from outside the system — how other products, other industries, or plainly non-software processes have addressed the same underlying need — and only then generate natively. The set starts wider than anything the current context could have produced from itself.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Would an operator adopt an outside-sourced candidate into their consideration set]] — moved under [[An operator will adopt an outside-sourced candidate into their real consideration set]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

@@ -6,7 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Break one pass on purpose and check cron notices within a cycle]]
+[[The schedulers already watching this speak exit codes, and will notice]]
 
 **The idea.** The smallest honest contract: a pass whose driver or any tool invocation errors exits nonzero and prints the error as the last line. Cron, launchd, CI — everything already speaks this protocol.
 
@@ -33,3 +33,6 @@ npx vitest run test/runner/pass-exit-code.test.ts
 ```
 
 Green means: the channel cron actually reads carries the truth — a pass that throws exits nonzero, one that completes exits zero, and the failing run names the phase it died in and the last node it touched. Green does **not** mean cron notices within a cycle; that needs a real scheduled run broken on purpose and a person watching the clock.
+
+## History
+- 2026-08-05 unlinked [[Break one pass on purpose and check cron notices within a cycle]] — moved under [[The schedulers already watching this speak exit codes, and will notice]] — the belief this test measures now has a node of its own

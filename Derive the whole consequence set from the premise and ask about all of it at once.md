@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Try to derive the seven questions from the premise alone, before reading the session]]
+[[The decisions a run will face are mostly derivable from its premise before it starts]]
 
 Before starting, work out what the stated premise implies and present the whole set together: here are the seven decisions that follow from this, here is what each depends on, here is the default proposed for each. The operator answers once, in one sitting, seeing the shape of the whole thing. The run then proceeds without stopping again unless it meets something genuinely outside what was covered.
 
@@ -24,3 +24,6 @@ Answering seven questions at once is a different act from answering seven questi
 The spec asserts the shape: the consequence set is derived from the stated premise **before** the run begins, presented as one batch with each item's dependency and its proposed default, and the run then proceeds without stopping again unless it meets something outside the covered set. The dependency links are load-bearing — the node's argument is that answering seven at once differs from seven in sequence precisely because the operator can see that question four is why five through seven exist. Red today because nothing derives consequences up front.
 
 **What a green here does not settle, and it is what decides the node.** Whether the derivation is *complete*. The test asks someone to derive the seven questions from the premise alone and compare against what the session actually hit — and the node already concedes that some of them only became visible after work was done, the duplicated refusal template and the severed ingestion among them. A derivation that misses three of seven leaves the run stopping anyway, having also spent the operator's attention on a batch. A spec can prove the batch was presented; only the blind derivation shows what it left out.
+
+## History
+- 2026-08-05 unlinked [[Try to derive the seven questions from the premise alone, before reading the session]] — moved under [[The decisions a run will face are mostly derivable from its premise before it starts]] — the belief this test measures now has a node of its own

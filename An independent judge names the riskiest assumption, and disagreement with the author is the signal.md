@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Have three independent judges nominate for ten solutions and see whether they agree with each other]]
+[[Independent judges converge on the same riskiest assumption, so agreement means something]]
 
 A second party — a different model, a colleague, a reviewer who did not write the solution — reads it cold and names what it thinks would sink it. That nomination is recorded alongside the author's. Where the two agree, the gate has a well-supported target. Where they disagree, the gate says so and refuses to be satisfied by a test against only one of them.
 
@@ -38,3 +38,6 @@ npx vitest run test/eval/judge-panel-agreement.test.ts
 Red today because nothing runs a panel. `test/eval/riskiest-assumption-judge.test.ts` scores one judge against a labelled set; there is no code that puts several judges over the same solution and compares their nominations, so there is no agreement number to assert. Green means at least 2 of 3 judges name the same assumption on at least 6 of 10 solutions.
 
 Read the two commands together, because they measure opposite things and this node is easy to misread. The first asks whether a judge can be automated at all. The second asks whether independent judges converge — and the value this solution claims is in the *disagreement*, so a panel that agrees on everything has proved it is mechanisable and simultaneously that it adds nothing to the author's own nomination. Neither command settles correctness: three judges sharing training can converge on the same wrong assumption, and no exit code here distinguishes that from convergence on the right one.
+
+## History
+- 2026-08-05 unlinked [[Have three independent judges nominate for ten solutions and see whether they agree with each other]] — moved under [[Independent judges converge on the same riskiest assumption, so agreement means something]] — the belief this test measures now has a node of its own

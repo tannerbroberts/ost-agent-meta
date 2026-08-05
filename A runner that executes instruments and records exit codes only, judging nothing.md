@@ -4,7 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check that a recorded exit code cannot clear a gate or masquerade as a result]]
+[[An observation can be recorded without becoming a verdict that clears a gate]]
 
 **The mechanism: split the verdict in two and automate only the half that is arithmetic.** Running a command and reading its exit code is not a judgement — it is an observation, and it is the observation nothing is currently permitted to make. A runner takes an instrumented test, executes its one spec command, and appends the exit code, the command, and when it ran. It never writes a pass/fail verdict, never touches `## Results`, and never says what the exit code means.
 
@@ -23,3 +23,6 @@ evidence: assertion
 `npx vitest run test/runner/exit-code-observation.test.ts`
 
 The safety property that decides whether this is buildable at all: a recorded exit code writes only to the instrument log, never to `## Results`, never changes status, and leaves the solution's gate BLOCKED — including, especially, when the exit code is 0. Red today because no runner exists. A perfectly-contained runner filling the vault with uninterpretable 1s would pass this completely; whether the observations are worth having is a human's read of the first batch.
+
+## History
+- 2026-08-05 unlinked [[Check that a recorded exit code cannot clear a gate or masquerade as a result]] — moved under [[An observation can be recorded without becoming a verdict that clears a gate]] — the belief this test measures now has a node of its own

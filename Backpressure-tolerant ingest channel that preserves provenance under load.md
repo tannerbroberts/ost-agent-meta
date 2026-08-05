@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Load the ingest channel at ten times observed peak and check provenance survives]]
+[[Provenance survives a burst, so a flood produces a backlog rather than a silent hole]]
 
 Treat the influx itself as the product problem the founder named: an ingest path that degrades by slowing and buffering rather than by dropping, where every event keeps its source identity through every hop, and where a burst produces a backlog rather than a silent hole. "Keeping it all straight" is the acceptance criterion, not throughput.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Load the ingest channel at ten times observed peak and check provenance survives]] — moved under [[Provenance survives a burst, so a flood produces a backlog rather than a silent hole]] — the belief this test measures now has a node of its own
 
 ## Test
 

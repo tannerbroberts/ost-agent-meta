@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Enumerate the hosts this tool runs under and check which expose a delegable capability]]
+[[The hosts this runs under expose a delegable capability, on enough of the real runs to matter]]
 
 Where the tool runs inside a host that is already authenticated — a signed-in agent session, a logged-in CLI, an editor with an account — it asks that host to perform the action rather than asking for a key of its own. The operator's existing authentication becomes the tool's authentication, and there is no second credential to obtain, store, or rotate.
 
@@ -22,3 +22,6 @@ The complaint underneath this opportunity is not really about access. It is that
 `npx vitest run test/security/host-credential-delegation.test.ts`
 
 Green when, for every host this repository ships an entry point for, the code either resolves a host-held credential or records that the host exposes none. Bounded by what we support and true only as of the run — host capabilities change on someone else's schedule. It says nothing about whether an operator would want a run acting under a credential they did not issue for it.
+
+## History
+- 2026-08-05 unlinked [[Enumerate the hosts this tool runs under and check which expose a delegable capability]] — moved under [[The hosts this runs under expose a delegable capability, on enough of the real runs to matter]] — the belief this test measures now has a node of its own

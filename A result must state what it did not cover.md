@@ -6,7 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Does a forced uncovered field change what a second reader believes]]
+[[Making a result state its gaps changes what a second reader concludes from it]]
 
 **Shipped in v0.8.0** (`ost-agent` `d9ed3ac`, on `main`, not yet on npm).
 
@@ -72,3 +72,6 @@ This node's only test is "Does a forced uncovered field change what a second rea
 I did not add that instrument, for the reason the ruleset gives: an instrument must be red when it is written, and this behaviour already ships, so the command would pass on arrival and measure nothing. Attaching it needs to happen the other way round — as a regression spec written against the shipped guard, which is a builder's act, not this sweep's.
 
 Same shape as the general finding recorded on "I need the tree's output to be actionable by compute alone, because my hours don't exist": a mechanism-shaped solution carrying a belief-shaped test.
+
+## History
+- 2026-08-05 unlinked [[Does a forced uncovered field change what a second reader believes]] — moved under [[Making a result state its gaps changes what a second reader concludes from it]] — the belief this test measures now has a node of its own

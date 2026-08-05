@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check the deferred nodes for whether what killed them repeats by category]]
+[[What kills solutions in this tree repeats by category, often enough to infer risk from]]
 
 Use the tree's own history instead of anyone's judgement. When a solution comes up for testing, find the solutions most like it that were deferred or abandoned, read what actually killed them, and require a test against that same class of assumption first. Risk is inferred from what has already gone wrong here rather than nominated by whoever is closest to the idea.
 
@@ -28,3 +28,6 @@ Red today, and worth being precise about why, because this one fails against dat
 **That makes the red itself the current answer.** The node argues this route works from a prior built out of past deaths. A vault with one death has no prior, so the approach cannot help here yet regardless of whether the assumption holds in general. A builder reading this should treat the failing command as a not-yet rather than a defect, and should not build the ordering mechanism until the count clause passes on its own.
 
 **What this does not settle.** Whether failure repeats by category in products at large — the general claim underneath this solution — is untouched by a census of one young vault. And a cause read out of a History line is the cause somebody wrote down, which is not always the cause that operated.
+
+## History
+- 2026-08-05 unlinked [[Check the deferred nodes for whether what killed them repeats by category]] — moved under [[What kills solutions in this tree repeats by category, often enough to infer risk from]] — the belief this test measures now has a node of its own

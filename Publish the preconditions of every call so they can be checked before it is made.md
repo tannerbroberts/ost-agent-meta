@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Try to express every refusal this tool can issue as a precondition, and count the ones that resist]]
+[[Most refusals are expressible as conditions knowable before the call]]
 
 Every refusal a tool can issue is expressible as a condition over things knowable in advance — this parent exists, this layer may sit under that one, this source has earned at most this rung, this heading is reserved. Publish those conditions as data the caller can read and evaluate before composing a call, rather than discovering them one refusal at a time.
 
@@ -30,3 +30,6 @@ Green means the refusals that can be fully expressed as a caller-evaluable preco
 **Scope limit this command inherits, and it is a real one.** Everything measurable here lives on this tool's own surface. Four refusals recorded on [[Two thirds of my calls failed, and each one only told me after I made it]] this pass came from the surrounding harness — a `Monitor` schema, two `Workflow` dialect rejections, a blocked shell composition — and no precondition this project publishes could have covered any of them. Green at 70% of *this tool's* refusals is compatible with most of the caller's actual pain being untouched.
 
 **What green does NOT settle.** The drift risk — a published copy of the rules going stale against the real ones — is the objection that most threatens this solution and this command does not test it at all. That needs a separate check that the published set and the enforced set stay in step, and without one, a green here can decay into a confidently wrong contract.
+
+## History
+- 2026-08-05 unlinked [[Try to express every refusal this tool can issue as a precondition, and count the ones that resist]] — moved under [[Most refusals are expressible as conditions knowable before the call]] — the belief this test measures now has a node of its own

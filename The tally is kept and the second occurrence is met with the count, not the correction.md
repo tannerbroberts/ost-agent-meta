@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Apply the escalating message to the five-failure session and check where it would have fired]]
+[[Error classes can be grouped so the counter fires on the second real repeat and changes behaviour]]
 
 Errors are grouped into classes as they happen and counted. The first is answered as it is now. The second leads with the fact that it is the second, quotes what was said the first time, and states that the previous correction was not applied. By the fourth, the message is mostly about the pattern and barely about the command.
 
@@ -14,3 +14,6 @@ What changes is the caller's model of what is happening. Five separate messages 
 **Compared to the alternatives.** Cheap, general, and it needs no new design work per error class — it works for shell quoting, workflow parse errors, and anything else that recurs. It also arrives after the damage has begun, by construction, and it can only escalate wording rather than actually helping. A better affordance would have prevented all five.
 
 **What would make this the wrong pick.** Everything depends on the grouping. Two zsh failures with different messages are the same class, and two identical messages from different causes are not — get that wrong and the counter either never fires or cries wolf, and a wolf-crying counter is quickly ignored.
+
+## History
+- 2026-08-05 unlinked [[Apply the escalating message to the five-failure session and check where it would have fired]] — moved under [[Error classes can be grouped so the counter fires on the second real repeat and changes behaviour]] — the belief this test measures now has a node of its own

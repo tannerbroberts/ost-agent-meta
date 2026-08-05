@@ -5,7 +5,7 @@ created: '2026-07-26'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Do provenance markers still get read once they are on everything]]
+[[A provenance marker keeps being read once it is on everything]]
 
 **The idea.** Give agent-selected excerpts a visual and textual register of their own, distinct from human-authored text — so *the agent picked this line out of that node* never renders identically to *a person wrote this down as the reason*. The trust the quote earns should be the trust the selector has earned, not the trust the original author had.
 
@@ -26,3 +26,6 @@ npx vitest run test/ost/authorship-marker.test.ts
 ```
 
 Green means: the marker distinguishes something. Today `unvalidated` is stamped on every agent-created node and says nothing about who wrote the prose, so a human's node and the agent's look identical. Green requires authorship recorded per node, surviving an edit and a merge rather than resetting to whoever touched it last, and reportable as a human-written share in the rollup. Green does **not** answer the test's actual question — whether readers still read the marker once it is on everything needs people.
+
+## History
+- 2026-08-05 unlinked [[Do provenance markers still get read once they are on everything]] — moved under [[A provenance marker keeps being read once it is on everything]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the captured environment failures against a fixed set of state questions]]
+[[A small fixed set of state questions covers the environment failures that actually occur]]
 
 One call, made before the run commits to a plan, that returns the **state** facts a plan depends on rather than the path facts a directory listing already gives: is this a git repository, does it have a remote, which of the binaries this plan will invoke are actually on PATH, is there a lockfile, has a build ever run here.
 
@@ -30,3 +30,6 @@ npx vitest run test/runner/workspace-state-probe-coverage.test.ts
 Red today: nothing enumerates workspace state questions, and no probe exists to answer them. Green when at most six questions cover every captured environment failure and none needs a seventh.
 
 **What this does not settle.** Coverage is not cost — six questions that are cheap to answer and six that each cost a subprocess are different products, and this counts only the questions. Nor does it establish that anyone wants a probe; it establishes that one could be small enough to be worth wanting.
+
+## History
+- 2026-08-05 unlinked [[Replay the captured environment failures against a fixed set of state questions]] — moved under [[A small fixed set of state questions covers the environment failures that actually occur]] — the belief this test measures now has a node of its own

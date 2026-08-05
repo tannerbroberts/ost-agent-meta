@@ -9,7 +9,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Do six cold artefacts show a test beating a verdict draft]]
+[[A committed test outlives and outperforms a verdict draft as the artefact of a pass]]
 
 **The idea.** When a pass runs something in the compute-only lane, its output should default to a **committed test in the product repo**, not a verdict draft in the vault. The draft is still written — a human still records the verdict — but the artefact that survives is executable.
 
@@ -131,3 +131,6 @@ npx vitest run test/runner/verdict-leaves-spec.test.ts
 ```
 
 Green means: the artefact this solution is named for actually gets produced — completing a verdict writes a committed spec into the repository's own suite, the test node it settled references that file, and a prose-only verdict is refused. Today the comparison the test wants has only one side of it, because nothing leaves a test behind. Green does **not** settle whether six cold readers prefer it; that is a person's reaction.
+
+## History
+- 2026-08-05 unlinked [[Do six cold artefacts show a test beating a verdict draft]] — moved under [[A committed test outlives and outperforms a verdict draft as the artefact of a pass]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Partition today's sweep by actor and see whether the unattended share is reachable]]
+[[Partitioning by actor leaves an unattended pass a reachable share and nobody's pile empty]]
 
 The sweep partitions everything it finds by who is permitted to act. An unattended pass sees what an unattended pass may do. A human sees what needs a human. Nothing is hidden — both partitions are always available — but the default answer to "what is outstanding" is scoped to the asker's authority, and `done` is computed over that share alone.
 
@@ -30,3 +30,6 @@ Red today: nothing partitions the sweep by actor — a sweep item carries no act
 That sharpens what this solution is worth. A partition that reports "nobody may act on these twenty-two" is genuinely useful, because today they are silently counted as the unattended pass's outstanding work and make `done` unreachable. But it is diagnosis, not treatment.
 
 **What this does not settle.** Whether a stated reason is a good reason is a human's judgement; the spec asserts only that one is present. And the node's own second limit stands untouched: a pass shown only its own share may lose sight of what it is blocked behind, and a loop reporting done while the human partition grows unread is a failure this test cannot see.
+
+## History
+- 2026-08-05 unlinked [[Partition today's sweep by actor and see whether the unattended share is reachable]] — moved under [[Partitioning by actor leaves an unattended pass a reachable share and nobody's pile empty]] — the belief this test measures now has a node of its own

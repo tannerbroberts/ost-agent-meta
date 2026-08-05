@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Five-pass count of self-filed friction events]]
+[[An agent given a one-line channel at the point of pain will actually file]]
 
 Give the agent a way to file a small structured note the moment it is blocked, uncertain about a rule, or forced to guess — one line, at the point of pain, while the context is still live.
 
@@ -20,6 +20,7 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Five-pass count of self-filed friction events]] — moved under [[An agent given a one-line channel at the point of pain will actually file]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

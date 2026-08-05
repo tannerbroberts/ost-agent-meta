@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Time a candidate version computation against producing the full sweep]]
+[[A tree version can be computed cheaply and still detect every change]]
 
 Each sweep carries a version derived from the tree's state. A caller holding a sweep may ask whether it is still current by presenting that version; if nothing has changed, the answer is a few bytes rather than the whole outstanding list. The caller keeps re-asking exactly as often as it likes, and the cost of doing so collapses.
 
@@ -28,3 +28,6 @@ Red today because the sweep returns no version at all — `ost_next_work` recomp
 This is the command that decides whether the solution is worth building at all, rather than one that confirms it after the fact. A version that is cheap and coarse is worse than the re-reading it replaces: it tells a caller the tree is current when it is not.
 
 What it does not settle: one vault at one size. The cheap candidate's cost may grow differently from the sweep's as the tree gets larger, so the ratio is the finding and neither absolute number is.
+
+## History
+- 2026-08-05 unlinked [[Time a candidate version computation against producing the full sweep]] — moved under [[A tree version can be computed cheaply and still detect every change]] — the belief this test measures now has a node of its own

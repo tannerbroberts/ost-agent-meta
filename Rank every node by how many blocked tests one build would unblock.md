@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: agent-ideation — generalized from tetrix-ost commit 2328e61
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Hand-compute unblock counts and see if the operator's pick changes]]
+[[Unblock count changes which node an operator actually picks]]
 
 **The idea.** Compute, for each candidate build, how many *other* assumption tests become readable if it ships — and surface that ratio as the tree's primary ordering. Not importance, not effort, not confidence. Unblocking count.
 
@@ -22,3 +22,4 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Hand-compute unblock counts and see if the operator's pick changes]] — moved under [[Unblock count changes which node an operator actually picks]] — the belief this test measures now has a node of its own

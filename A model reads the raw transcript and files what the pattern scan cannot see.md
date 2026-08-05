@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Blind-rate a model's reading of five already-harvested sessions]]
+[[A model reading a whole session finds friction that a pattern scan structurally cannot]]
 
 **The idea.** Instead of scanning a transcript for error strings, have a model read the whole session and answer a small fixed set of questions about it: where did the agent change its mind, and what changed it? What did it try, abandon, and not come back to? Where did it repeat itself without noticing? What did it believe at the start that it did not believe at the end? The answers, with quotes, become the evidence item. The mechanical scan stays where it is; this reads the same file for a different thing.
 
@@ -26,3 +26,6 @@ evidence: assertion
 The spec asserts the guard this node names as the condition of shipping at all: every filed item carries a verbatim quote, and each quote is locatable in the transcript the item claims to come from. That is the mechanical half of "a human can check the reading against the transcript". It is red today because the transcript adapter only pattern-scans for `tool_error`, `retry` and `clarifying_question` — there is no model-reading path for the spec to call.
 
 **What a green here does not settle.** Quote-traceability stops an interpretation being laundered into observed material; it says nothing about whether the interpretation is any good. Whether a model reading a whole session surfaces anything a regex missed — the entire premise, given the harvester's 82 events and zero conceptual items over 24 sessions — is the blind-rating, and that needs a person who was not in the session. The cost objection the node raises is also untouched: a spec cannot price per-session model reads against an operator whose binding constraint is already the credential.
+
+## History
+- 2026-08-05 unlinked [[Blind-rate a model's reading of five already-harvested sessions]] — moved under [[A model reading a whole session finds friction that a pattern scan structurally cannot]] — the belief this test measures now has a node of its own

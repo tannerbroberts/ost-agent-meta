@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Merge two real vaults as a dry run and count the conflicts a person has to settle]]
+[[Two real vaults can be merged with few enough conflicts for a person to settle them]]
 
 There is no central inbox. An operator who wants to benefit from another instance's experience arranges an exchange with that instance directly — a pull from a git remote they were given access to, on terms the two of them set. Learning spreads peer to peer, and nobody has to trust an operator they have not chosen to trust.
 
@@ -30,3 +30,6 @@ Green means merging the two existing vaults into a scratch tree produces at most
 **This is the easiest possible case and green should be discounted accordingly.** The two vaults share an author, a schema version, and a naming style. Two vaults from unrelated teams would collide far more, and nothing in this command reaches that. A red result here is therefore much more informative than a green one: it would mean the mechanism fails on the most favourable input that exists.
 
 **What green does NOT settle.** It measures merge cost, not merge value — whether a tree that absorbed another team's nodes is better than the one it started as is a judgement no conflict census touches, and it is the question a federation actually lives or dies on.
+
+## History
+- 2026-08-05 unlinked [[Merge two real vaults as a dry run and count the conflicts a person has to settle]] — moved under [[Two real vaults can be merged with few enough conflicts for a person to settle them]] — the belief this test measures now has a node of its own

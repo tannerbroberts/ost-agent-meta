@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Would an operator accept the agent living inside the vault it maintains]]
+[[Operators will accept the agent living inside the vault it maintains]]
 
 **Candidate (unvalidated, agent-ideated — one of three deliberately different mechanisms under this opportunity).**
 
@@ -18,3 +18,6 @@ evidence: assertion
 **Compare against:** [[Resolve the newest published version at pass start and refuse to run silently on a stale one]] keeps the registry and inherits its credential; this one abandons the registry and inherits fork drift instead. [[A push channel the operator subscribes to, applied at the next safe checkpoint]] keeps a single source of truth but adds a channel pointing inward at the operator's machine.
 
 **Assumption it rests on:** that an operator would accept the agent living inside their own vault rather than installed beside it. Tested by [[Would an operator accept the agent living inside the vault it maintains]].
+
+## History
+- 2026-08-05 unlinked [[Would an operator accept the agent living inside the vault it maintains]] — moved under [[Operators will accept the agent living inside the vault it maintains]] — the belief this test measures now has a node of its own

@@ -4,7 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check the handed-back skeleton parses clean against the same parser that accepts submissions]]
+[[The skeleton stays valid against the same parser that accepts submissions]]
 
 **The mechanism: start from something valid.** The surface hands back a working skeleton in its accepted dialect — the required preamble, one example of each construct, and the shape a complete artifact takes. The composer edits rather than originates, so the dialect is established by the starting point instead of by anyone's recall.
 
@@ -23,3 +23,6 @@ evidence: assertion
 `npx vitest run test/skill/skeleton-validity.test.ts`
 
 The skeleton parses clean against the submission parser, a drift check fails if the two diverge, and the skeleton shows one example of each permitted construct rather than a subset. Red today because no skeleton is handed back. The same generate-and-drift-test pattern this project already uses to keep `SKILL.md` from going stale applies directly.
+
+## History
+- 2026-08-05 unlinked [[Check the handed-back skeleton parses clean against the same parser that accepts submissions]] — moved under [[The skeleton stays valid against the same parser that accepts submissions]] — the belief this test measures now has a node of its own

@@ -6,7 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Does a first-run branch actually get a stranger to a working vault]]
+[[One question is enough to get someone who knows nothing to a working vault]]
 
 **The idea.** Setup is not a wizard the package runs; it is a conversation the session
 already knows how to have. The tool layer reports "there is no vault here, and here is
@@ -98,3 +98,6 @@ npx vitest run test/mcp/bootstrap-one-question.test.ts
 ```
 
 Green means: an empty directory reports `bootstrap: true`, exactly one question is asked, and answering it alone produces a vault whose root Outcome carries the human's words verbatim. Green does **not** mean a stranger can do it — that is a person's reaction and stays with a human.
+
+## History
+- 2026-08-05 unlinked [[Does a first-run branch actually get a stranger to a working vault]] — moved under [[One question is enough to get someone who knows nothing to a working vault]] — the belief this test measures now has a node of its own

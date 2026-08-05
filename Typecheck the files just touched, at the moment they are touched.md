@@ -5,7 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Time a single-file check against the whole-project run it would replace]]
+[[A narrow check catches the same diagnostic far faster than the whole-project run]]
 
 Keep the check but move it. Instead of one whole-project `tsc --noEmit` at the end of a batch, run a narrow check over the file that just changed and its immediate dependents, and return the diagnostic attached to the edit that caused it.
 
@@ -24,3 +24,6 @@ Keep the check but move it. Instead of one whole-project `tsc --noEmit` at the e
 `npx vitest run test/runner/incremental-typecheck.test.ts`
 
 Green when the single-file check finds the known TS2339 in under 2s and beats the whole-project run by a wide margin on the same machine. It settles cost and detection; it does not settle the mid-refactor false-positive rate, which is what would actually make this unbearable.
+
+## History
+- 2026-08-05 unlinked [[Time a single-file check against the whole-project run it would replace]] — moved under [[A narrow check catches the same diagnostic far faster than the whole-project run]] — the belief this test measures now has a node of its own

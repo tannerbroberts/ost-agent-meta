@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-design-goals.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test do operators actually replay the audit trail to regain trust]]
+[[Operators actually replay a history to rebuild trust, rather than just wanting one to exist]]
 
 **Candidate solution (unvalidated).** Every change the agent makes is an atomic git commit carrying the node, its provenance link, and a human-readable message. After walking away, the operator rebuilds trust by replaying the diff history — nothing is hidden, everything is attributable to a source.
 
@@ -18,6 +18,7 @@ _Addresses: "Trust an unmonitored agent enough to walk away". Unvalidated — hu
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test do operators actually replay the audit trail to regain trust]] — moved under [[Operators actually replay a history to rebuild trust, rather than just wanting one to exist]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

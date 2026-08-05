@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay every past release against a registry-derived number]]
+[[The registry and the origin tags together always know the true current version]]
 
 **The idea.** The release path never reads the next version out of the local `package.json`. It asks the registry what is currently published, asks `origin/main` what is currently tagged, takes the maximum, and increments from there. The local file becomes an output of the release rather than an input to it.
 
@@ -28,3 +28,6 @@ npx vitest run test/release/registry-derived-version.test.ts
 ```
 
 Green means no past release, replayed, would have chosen a number already published — including the collision that put two trains on the same version. It settles the derivation and nothing about availability: a registry that is unreachable at release time is a failure mode this command cannot produce, and it is the one that matters when the derivation is load-bearing.
+
+## History
+- 2026-08-05 unlinked [[Replay every past release against a registry-derived number]] — moved under [[The registry and the origin tags together always know the true current version]] — the belief this test measures now has a node of its own

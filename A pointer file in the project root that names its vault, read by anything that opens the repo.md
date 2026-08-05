@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Add the pointer file and count how many tools actually look for it unprompted]]
+[[Something opening the repository will look for a pointer file without being told to]]
 
 A small committed file at the project root recording where the vault lives and what outcome it serves. Anything that opens the repository — an agent starting cold, a new contributor, a tool looking for context — finds it in the first place it would look. The link travels with the code, survives clones, and is versioned alongside the thing it describes.
 
@@ -24,3 +24,6 @@ npx vitest run test/config/vault-pointer-resolution.test.ts
 ```
 
 Green means every entry point that resolves a vault finds it from the pointer file with no path argument supplied. It settles that the pointer works for this product's own tools. It says nothing about the tools this node actually cares about — the editors, agents and scripts someone else wrote — which no spec in this repository can speak for.
+
+## History
+- 2026-08-05 unlinked [[Add the pointer file and count how many tools actually look for it unprompted]] — moved under [[Something opening the repository will look for a pointer file without being told to]] — the belief this test measures now has a node of its own

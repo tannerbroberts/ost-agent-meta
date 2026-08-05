@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay all 29 records through the surface rule and see what it keeps]]
+[[What the failing call was against separates product friction from everything else]]
 
 Scope the filter by what the failing call was against. An error from the product's own tools becomes an evidence record; an error from a shell, an editor, or a script runner becomes a number in a periodic tally. Nothing is discarded — the tally is still there to be read — but only the first kind arrives claiming a pass's attention.
 
@@ -22,3 +22,6 @@ npx vitest run test/telemetry/friction-surface-rule.test.ts
 ```
 
 Green means the rule keeps the records that touch this product's own surface and counts the rest rather than discarding them. The recorded material is a fair test of it: a great deal of the harvested friction is shell quoting and blocked polling in the harness, not in this product. It does not settle whether the counted-not-filed material was safe to demote, which is exactly what a rule like this risks getting wrong.
+
+## History
+- 2026-08-05 unlinked [[Replay all 29 records through the surface rule and see what it keeps]] — moved under [[What the failing call was against separates product friction from everything else]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Interview ten solo builders about the last decision they made with nobody to check it]]
+[[Solo builders experience the absence of anyone to check them as a problem they feel]]
 
 Aim at the person building alone: a solo founder, an indie developer, a one-person product team inside a larger company. They have no researcher, no second opinion, and nothing between an idea and building it. What they lack is not intelligence about their market but friction — something that will not agree with them, will not let them mark their own guess validated, and will keep asking what the evidence actually was.
 
@@ -16,3 +16,6 @@ This is the segment whose failure mode the tool is shaped around. The gates, the
 **What would make this the wrong pick.** The tool's own vault is n=1, and that one is the author. Generalising from it is precisely the move the tool exists to prevent, which makes this hypothesis the one to be most suspicious of.
 
 Who this is for is a question for people who are not the author. Nothing here is validated, and no interview has been run.
+
+## History
+- 2026-08-05 unlinked [[Interview ten solo builders about the last decision they made with nobody to check it]] — moved under [[Solo builders experience the absence of anyone to check them as a problem they feel]] — the belief this test measures now has a node of its own

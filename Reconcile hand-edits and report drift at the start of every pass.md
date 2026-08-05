@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: agent-ideation — from the 2026-07-24 hand-edit incident in this vault
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Can a pass tell a human edit from its own, using only git]]
+[[A pass can tell a human's edit from its own using git alone]]
 
 **The idea.** Before doing any work, a pass diffs the vault against the last state it wrote, and reports what a human changed in between. Not to undo it — to *see* it, and to treat it as the highest-priority evidence in the vault.
 
@@ -22,6 +22,7 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Can a pass tell a human edit from its own, using only git]] — moved under [[A pass can tell a human's edit from its own using git alone]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Timed side-by-side judgement of canary output]]
+[[A side-by-side comparison of two processes' output is judgeable in reasonable time]]
 
 Run the modified process alongside the current one over the same inputs, put the two outputs side by side, and let a human adopt or discard based on the comparison — no interruption, because the old process never stops.
 
@@ -20,6 +20,7 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Timed side-by-side judgement of canary output]] — moved under [[A side-by-side comparison of two processes' output is judgeable in reasonable time]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

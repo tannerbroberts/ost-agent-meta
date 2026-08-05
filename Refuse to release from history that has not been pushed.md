@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count how many past releases a push-first rule would have blocked]]
+[[A push-first rule would have blocked few enough past releases to be adoptable]]
 
 **The idea.** The release path refuses to run when the working tree is ahead of, behind, or diverged from `origin/main`. Push first, or do not release. The rule is a precondition, checked before anything is built or numbered.
 
@@ -20,3 +20,6 @@ evidence: assertion
 **Cost.** Very small: a `git rev-list --left-right --count` and a refusal.
 
 ⚠️ Unvalidated. Agent-ideated, 2026-08-02.
+
+## History
+- 2026-08-05 unlinked [[Count how many past releases a push-first rule would have blocked]] — moved under [[A push-first rule would have blocked few enough past releases to be adoptable]] — the belief this test measures now has a node of its own

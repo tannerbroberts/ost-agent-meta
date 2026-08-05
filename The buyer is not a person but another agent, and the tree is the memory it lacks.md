@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Give a cold session only the tree and see whether it can say why the work exists]]
+[[A cold session given only the tree can say why the work exists]]
 
 The customer is a coding or research agent operating over days and many sessions, which has no durable place to put what it learned about why it is building any of this. The tree is that place: structured, append-only, gated, and readable by the next session that starts cold. The human in the picture buys it for their agent the way they would buy it a repository.
 
@@ -16,3 +16,6 @@ The evidence for this sitting closest to hand is that it is already happening. T
 **What would make this the wrong pick.** It is the most flattering hypothesis available to an author who has been building exactly this, which is reason enough to hold it loosely.
 
 Who this is for is a question for people who are not the author. Nothing here is validated, and no interview has been run.
+
+## History
+- 2026-08-05 unlinked [[Give a cold session only the tree and see whether it can say why the work exists]] — moved under [[A cold session given only the tree can say why the work exists]] — the belief this test measures now has a node of its own

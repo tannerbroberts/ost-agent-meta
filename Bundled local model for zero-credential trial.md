@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-agent-as-driver.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test is a bundled local model good enough for a pass]]
+[[A small bundled model is good enough for a routine maintenance pass]]
 
 **Candidate solution (unvalidated).** Ship with a small local/bundled model sufficient for routine maintenance passes, so a first-time user can run the tool end-to-end with no external account or network dependency at all.
 
@@ -18,6 +18,7 @@ _Addresses: "Don't want to buy a second AI credential just to try it". Unvalidat
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test is a bundled local model good enough for a pass]] — moved under [[A small bundled model is good enough for a routine maintenance pass]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

@@ -3,9 +3,10 @@ type: Solution
 status: unvalidated
 source: 'human:conversation:2026-07-26'
 created: '2026-07-26'
+evidence: assertion
 ---
 #Solution #unvalidated #founder-provided #evidence/assertion
-[[Do the three reflection questions catch a builder misunderstanding the pass output missed]]
+[[Three reflection questions against a builder's trace catch misunderstandings the pass output missed]]
 
 **Mechanism (founder-provided, 2026-07-26):** When the builder is an AI agent — as in the OST-Agent's own OST — the builder's thinking trace is completely visible to the OST-Agent. The OST-Agent then gauges its own communication to the builder via self-reflection questions asked against that trace:
 
@@ -30,3 +31,6 @@ npx vitest run test/skill/reflection-questions.test.ts
 ```
 
 Green means: all three reflection questions reach every pass output, each bound to a named node in that pass rather than asked in the abstract. Green does **not** mean they catch anything — a real builder misreading a real pass output is the measurement, and that stays with a human.
+
+## History
+- 2026-08-05 unlinked [[Do the three reflection questions catch a builder misunderstanding the pass output missed]] — moved under [[Three reflection questions against a builder's trace catch misunderstandings the pass output missed]] — the belief this test measures now has a node of its own

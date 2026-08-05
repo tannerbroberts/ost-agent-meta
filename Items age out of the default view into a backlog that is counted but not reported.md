@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay past sweeps to see what an ageing rule would have moved to the backlog]]
+[[What ages out is mostly work that genuinely did not matter]]
 
 An item reported outstanding for N consecutive passes with nothing done about it moves into a backlog. It is still counted, still queryable, still there — but the sweep stops leading with it, and `done` is computed over the active list. Ageing does the sorting, so nobody has to decide anything.
 
@@ -24,3 +24,6 @@ npx vitest run test/ost/backlog-ageing-rule.test.ts
 ```
 
 Green means the ageing rule moves items out of the default view while keeping them counted and recoverable — the distinction between a backlog and a quiet deletion. Worth naming what this is aimed at: the nineteen stranded evidence items that every pass re-reads and no pass can clear. It does not settle the risk that ageing hides something that mattered, which no replay can see, because the replay only knows what was already ignored.
+
+## History
+- 2026-08-05 unlinked [[Replay past sweeps to see what an ageing rule would have moved to the backlog]] — moved under [[What ages out is mostly work that genuinely did not matter]] — the belief this test measures now has a node of its own

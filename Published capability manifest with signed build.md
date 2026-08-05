@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test does a published manifest increase operator trust]]
+[[An inspectable manifest raises operator trust more than an assertion does]]
 
 **Candidate solution (unvalidated).** Publish the exact list of tools the agent can call as an inspectable manifest, and ship signed releases so an operator can verify the running binary matches the audited tool set. Proof is *inspectable*, not just asserted.
 
@@ -18,6 +18,7 @@ _Addresses: "Want proof no hijackable capability even exists". Unvalidated — h
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test does a published manifest increase operator trust]] — moved under [[An inspectable manifest raises operator trust more than an assertion does]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

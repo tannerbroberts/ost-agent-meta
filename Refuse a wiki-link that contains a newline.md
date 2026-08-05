@@ -6,7 +6,7 @@ created: '2026-07-26'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Does refusing a newline inside a wiki-link catch breaks nothing else catches]]
+[[A newline inside a wiki-link catches breaks that nothing else catches]]
 
 **The idea.** `ost-agent check` fails on any `[[…]]` whose contents contain a newline.
 One rule, mechanical, no judgement, no false positives — a wiki-link with a line break in
@@ -94,3 +94,4 @@ it — the dangling-link rule catches the second and nothing catches the first.
 
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
+- 2026-08-05 unlinked [[Does refusing a newline inside a wiki-link catch breaks nothing else catches]] — moved under [[A newline inside a wiki-link catches breaks that nothing else catches]] — the belief this test measures now has a node of its own

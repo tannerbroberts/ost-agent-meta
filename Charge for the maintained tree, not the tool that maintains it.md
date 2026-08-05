@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Offer a maintained tree at a stated monthly price to ten teams and count who asks for terms]]
+[[Teams will pay a monthly fee for an artefact whose best months look like its worst]]
 
 The unit is a living discovery record for one product, kept current: evidence mapped as it arrives, opportunities kept laddered, solutions kept compared, assumptions kept surfaced, and everything stale flagged. Priced per tree per month. What the customer buys is the state of the artefact, and what they stop paying for is the artefact going stale.
 
@@ -16,3 +16,6 @@ This aligns the price with the thing that is hard. Generating a tree once is nea
 **What would make this the wrong pick.** Most teams have one product and would buy one tree, which is a small account, and the value is invisible in exactly the months when nothing much happened. A subscription whose best months look like its worst months is a hard subscription to keep.
 
 Whether anyone would pay this, and how much, is a question for customers. Nothing here is validated.
+
+## History
+- 2026-08-05 unlinked [[Offer a maintained tree at a stated monthly price to ten teams and count who asks for terms]] — moved under [[Teams will pay a monthly fee for an artefact whose best months look like its worst]] — the belief this test measures now has a node of its own

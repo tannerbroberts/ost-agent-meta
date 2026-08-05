@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Try to confirm a tool surface without invoking any of it]]
+[[A tool surface can be confirmed without invoking any of the tools on it]]
 
 A pass states, up front and in one place, the tools it cannot work without. Before any reasoning, it checks that surface and — if the tools are absent — exits immediately with a named, distinctive failure rather than proceeding into work it cannot do.
 
@@ -32,3 +32,6 @@ Green means that on every surface a pass runs on, the full required tool list is
 **What a red result buys, and it is not nothing.** If enumeration proves impossible somewhere, the honest fallbacks are already named on this node — call one cheap known tool and read its failure as the signal, or move the check outward to [[Have the scheduler verify the environment before it dispatches a run at all]], which may see what the pass cannot.
 
 **What green does NOT settle.** It confirms presence, not usability: a tool that enumerates cleanly and then refuses every call, or is present at a schema the caller does not hold, passes this command and fails the run.
+
+## History
+- 2026-08-05 unlinked [[Try to confirm a tool surface without invoking any of it]] — moved under [[A tool surface can be confirmed without invoking any of the tools on it]] — the belief this test measures now has a node of its own

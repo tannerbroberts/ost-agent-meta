@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-efficacy-critique.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test does the golden set discriminate good trees from bad]]
+[[A curated golden set discriminates a good tree from a bad one]]
 
 **Candidate solution (unvalidated).** Curate fixtures of real evidence paired with expert-reviewed "good" trees, and score each agent run against them (coverage, faithfulness, no-solution-as-opportunity, etc.). Efficacy becomes a measured regression signal rather than an assumption. Unlike the existing scripted end-to-end test (canned outputs prove only that nodes move), this tests whether the *ideation* is any good.
 
@@ -18,6 +18,7 @@ _Addresses: "Can't tell if the generated tree is actually any good". Unvalidated
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test does the golden set discriminate good trees from bad]] — moved under [[A curated golden set discriminates a good tree from a bad one]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

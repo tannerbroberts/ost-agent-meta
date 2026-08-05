@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check whether a toolless session can even run the tool check]]
+[[A session missing its tools still has enough surface left to run the check that says so]]
 
 **The idea.** A scheduled task names its required tool surface up front — for this vault, the `ost_*` MCP tools. Before doing any work, the run checks that they are present. If they are not, it exits non-zero with a message naming exactly which tools are missing and what enables them. The pass never starts.
 
@@ -28,3 +28,6 @@ npx vitest run test/config/toolless-preflight.test.ts
 ```
 
 Green means the preflight survives the case that motivates it: a session with none of its tools present still gets told which ones are missing, rather than the check itself being one of the casualties. That is the whole feasibility question here, and it is the one a spec file can answer outright. Whether "loudly" is loud enough to reach an absent operator is a separate question this does not touch.
+
+## History
+- 2026-08-05 unlinked [[Check whether a toolless session can even run the tool check]] — moved under [[A session missing its tools still has enough surface left to run the check that says so]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check whether initialising only tool-created directories still covers every captured failure]]
+[[Initialising only tool-created directories still covers every failure that occurred]]
 
 Remove the variance rather than detect it. Every folder this tool scaffolds gets `git init` at creation, always, with no flag to skip it — so "is this a repository?" stops being a question anybody has to ask, probe for, or record.
 
@@ -30,3 +30,6 @@ npx vitest run test/runner/unconditional-scaffold-init.test.ts
 Red today: scaffolding does not initialise, and nothing checks whether a scaffold target sits inside an existing working tree. Green when the narrowed rule covers all four captured failures and no target in the record would produce a nested repository.
 
 **What this does not settle, and it may be decisive.** Whether the operator accepts an unrequested write to their disk at all is a consent question, and no coverage count answers it. If the answer is no at any scope, this candidate is dead however green the command comes out.
+
+## History
+- 2026-08-05 unlinked [[Check whether initialising only tool-created directories still covers every captured failure]] — moved under [[Initialising only tool-created directories still covers every failure that occurred]] — the belief this test measures now has a node of its own

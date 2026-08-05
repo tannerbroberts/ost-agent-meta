@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Do blind parallel ideators produce more distinct candidates than one agent asked for three]]
+[[Blind parallel ideators produce more distinct candidates than one agent asked for three]]
 
 Generate candidates in parallel from separate contexts, each blind to the others, and merge only afterwards. Removes the anchoring that makes candidates two and three variations on candidate one — the founder's "context object is SO INFURIATINGLY BAD" complaint applied directly to ideation.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Do blind parallel ideators produce more distinct candidates than one agent asked for three]] — moved under [[Blind parallel ideators produce more distinct candidates than one agent asked for three]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

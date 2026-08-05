@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Three-week digest engagement run]]
+[[A digest arriving where stakeholders already read gets read]]
 
 After each pass, send a short digest to wherever the stakeholder already reads things — what changed, what it means for the outcome, and the one or two decisions or tests the agent needs from a human. No new place to visit.
 
@@ -20,6 +20,7 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Three-week digest engagement run]] — moved under [[A digest arriving where stakeholders already read gets read]] — the belief this test measures now has a node of its own
 
 ## Issues
 - 2026-07-25 Cross-branch duplicate (2026-07-24 review): near-identical to 'Weekly what-changed-and-why digest'. See that node's annotation.

@@ -4,7 +4,7 @@ created: '2026-07-27'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Does the guard catch real laundering without refusing honest commands]]
+[[The guard catches real laundering without refusing honest commands]]
 
 **Shipped v0.21.0, commit `87164d6` on `main`.**
 
@@ -26,3 +26,4 @@ evidence: assertion
 
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
+- 2026-08-05 unlinked [[Does the guard catch real laundering without refusing honest commands]] — moved under [[The guard catches real laundering without refusing honest commands]] — the belief this test measures now has a node of its own

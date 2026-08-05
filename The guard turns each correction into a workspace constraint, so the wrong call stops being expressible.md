@@ -4,7 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check a derived deny rule against legitimate uses of the same verb it was derived from]]
+[[A deny rule derived from one refusal does not eat the legitimate uses of the same verb]]
 
 **The mechanism: stop remembering, start narrowing.** The first time a guard refuses a class of call, it writes the refusal into the workspace's own configuration as a standing deny rule. The correction is not something a later session has to recall — it is a property of the environment that session runs in. The eighth `sleep`-then-poll is not resisted by a better-informed composer; it is simply not a thing that can be done here.
 
@@ -23,3 +23,6 @@ evidence: assertion
 `npx vitest run test/security/derived-deny-rule.test.ts`
 
 Zero false refusals across a corpus of legitimate uses, and every derived rule attributed to its source refusal and reversible by one human action. Red today because no rule is derived from a refusal at all. It cannot find the capability nobody realised was lost — that one is absent from the corpus by definition.
+
+## History
+- 2026-08-05 unlinked [[Check a derived deny rule against legitimate uses of the same verb it was derived from]] — moved under [[A deny rule derived from one refusal does not eat the legitimate uses of the same verb]] — the belief this test measures now has a node of its own

@@ -1,14 +1,14 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: >-
   agent-ideation — mapped-ledger dead-end observed in this vault and
   RUNTIME:tetrix-ost@2328e61
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Blind-review a pass's acknowledge-or-map calls on the seven stranded items]]
+[[A pass's decision not to distil an opportunity is a judgement worth recording]]
 
 **The idea.** A tool call that records "this evidence has been dealt with, and here is what I did with it" — including the case where what the agent did was decline to distil an opportunity from it, and say why. The ledger stops being a proxy for "an Opportunity node cites this source" and starts recording an actual judgement.
 
@@ -25,6 +25,7 @@ The tetrix instance faced this precisely and chose correctly. Its evidence item 
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Blind-review a pass's acknowledge-or-map calls on the seven stranded items]] — moved under [[A pass's decision not to distil an opportunity is a judgement worth recording]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

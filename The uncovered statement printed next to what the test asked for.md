@@ -6,7 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Does the side-by-side change what a reviewer does about a threshold]]
+[[Putting the uncovered statement beside the threshold changes what a reviewer does]]
 
 **Shipped in v0.9.0** (`ost-agent` `d9ace23`, on `main`, **not** on npm — see the root
 Outcome's release note).
@@ -79,3 +79,4 @@ same hole — see the root Outcome's standing note on external evidence.
 
 ## History
 - 2026-08-05 unlinked [[My tests carry thresholds nobody ever fixed, so nothing can come out a failure]] — not a parent-child relation the OST hierarchy supports — every tree walk counted it as structure, so a cross-reference read as a child
+- 2026-08-05 unlinked [[Does the side-by-side change what a reviewer does about a threshold]] — moved under [[Putting the uncovered statement beside the threshold changes what a reviewer does]] — the belief this test measures now has a node of its own

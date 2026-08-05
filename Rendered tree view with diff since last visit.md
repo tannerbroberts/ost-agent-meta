@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-opp-stakeholder-progress-view.md'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Five-minute orientation task on a static mock]]
+[[A rendered tree orients a reader faster than the files do]]
 
 A read-only rendered view of the tree — outcome at the root, opportunities sized and coloured by evidence strength, solutions and tests beneath — that highlights everything added or changed since that person last looked.
 
@@ -20,3 +20,4 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Five-minute orientation task on a static mock]] — moved under [[A rendered tree orients a reader faster than the files do]] — the belief this test measures now has a node of its own

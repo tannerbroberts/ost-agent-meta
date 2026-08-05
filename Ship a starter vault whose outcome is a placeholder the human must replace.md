@@ -6,7 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Does a placeholder outcome get replaced, or does it become the tree's real root]]
+[[A loudly-marked placeholder outcome gets replaced rather than becoming the tree's real root]]
 
 **The idea, including the part that is uncomfortable.** `npx ost-agent init` with no
 arguments scaffolds a complete, working vault immediately — git, config, inbox, and a
@@ -41,3 +41,6 @@ It is the cheapest solution to build here and the most expensive to be wrong abo
 
 ⚠️ Unvalidated, and proposed against the agent's own design instincts — recorded
 because a consideration set of one is not a consideration set.
+
+## History
+- 2026-08-05 unlinked [[Does a placeholder outcome get replaced, or does it become the tree's real root]] — moved under [[A loudly-marked placeholder outcome gets replaced rather than becoming the tree's real root]] — the belief this test measures now has a node of its own

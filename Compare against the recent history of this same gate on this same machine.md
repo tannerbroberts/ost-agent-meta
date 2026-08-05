@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the stored measurements and check whether they came from comparable conditions]]
+[[The stored measurements came from comparable enough conditions to be a distribution]]
 
 Keep the last N measurements of this gate and fail only on a departure from that distribution — a run slower than the recent spread rather than slower than a number chosen once. The bar moves with the machine, and a busy afternoon shifts the whole distribution rather than tripping the gate.
 
@@ -24,3 +24,6 @@ npx vitest run test/telemetry/gate-condition-comparability.test.ts
 ```
 
 Green means every stored measurement carries enough recorded context to say whether it is a fair baseline — which is the precondition for comparing against history at all, and is currently assumed rather than checked. It does not settle the harder question underneath: what counts as "comparable" is a judgement, and a green run only proves the data needed to make that judgement is present, not that the threshold drawn from it is right.
+
+## History
+- 2026-08-05 unlinked [[Replay the stored measurements and check whether they came from comparable conditions]] — moved under [[The stored measurements came from comparable enough conditions to be a distribution]] — the belief this test measures now has a node of its own

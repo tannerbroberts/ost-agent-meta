@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count how many timed checks would run somewhere that cannot guarantee isolation]]
+[[Enough timed-check runs happen somewhere isolation can be guaranteed]]
 
 Stop trying to make the measurement robust to contention and remove the contention instead. Timed checks run only where load is controlled — a dedicated runner, a quiet queue, one at a time. Anywhere that guarantee does not hold, the check still runs and still reports its number, but it cannot fail anything; it is recorded and shown, never gating.
 
@@ -30,3 +30,6 @@ Green means at least half of timed-check runs happen somewhere isolation can act
 **Weighting by run frequency, not by location count, is the load-bearing detail.** Four locations of which three cannot isolate sounds like a failure; if 90% of runs are in the fourth, it is a pass. A per-location count would give the wrong answer in exactly the case that matters.
 
 **What green does NOT settle,** in the node's own words: it counts runs, not importance. The one place isolation is impossible might be where regressions are most likely to be introduced — a contributor's machine is the obvious candidate — and a share alone cannot show that. A green here should not be read as "the gate is safe", only as "the gate still gates most of the time".
+
+## History
+- 2026-08-05 unlinked [[Count how many timed checks would run somewhere that cannot guarantee isolation]] — moved under [[Enough timed-check runs happen somewhere isolation can be guaranteed]] — the belief this test measures now has a node of its own

@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test audit that no tool outside the allowlist is ever registered]]
+[[Trust can rest on absence of capability, with no general-purpose tool ever registered]]
 
 **Candidate solution (unvalidated).** Use the Anthropic API SDK Tool Runner, which registers *only* the tools we define, instead of the Claude Agent SDK, whose built-in Bash/Write/Edit tools would have to be disabled by blocklist. No general-purpose or destructive tool exists to hijack — trust from absence of capability, not restraint of a capable agent.
 
@@ -18,6 +18,7 @@ _Addresses: "Want proof no hijackable capability even exists". Unvalidated — h
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test audit that no tool outside the allowlist is ever registered]] — moved under [[Trust can rest on absence of capability, with no general-purpose tool ever registered]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

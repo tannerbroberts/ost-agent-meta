@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[One re-synthesis pass with human accept-reject]]
+[[Reading the whole tree at once yields reorganisations a human accepts]]
 
 Periodically read the entire tree at once and propose how it should be reorganised — merge duplicates, split overloaded opportunities, re-parent nodes whose real home has become clear, retire branches evidence has moved past. Proposals only; a human confirms structural change.
 
@@ -20,3 +20,4 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[One re-synthesis pass with human accept-reject]] — moved under [[Reading the whole tree at once yields reorganisations a human accepts]] — the belief this test measures now has a node of its own

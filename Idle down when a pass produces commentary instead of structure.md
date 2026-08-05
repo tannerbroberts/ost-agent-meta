@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent-ideation — from observed pass-shape decay in tetrix-ost 14:37→16:46'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Paper-classify the existing commit history as structure versus commentary]]
+[[Structure and commentary are separable from the shape of the output alone]]
 
 **The idea.** Stop trying to define "done" and instead detect *diminishing returns* from the shape of the agent's own output, then lengthen the interval between passes. Set-and-forget does not require the agent to finish. It requires the agent to stop spending money once it has stopped learning.
 
@@ -28,6 +28,7 @@ Creates, then appends, then commentary on the root. The transition is legible fr
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Paper-classify the existing commit history as structure versus commentary]] — moved under [[Structure and commentary are separable from the shape of the output alone]] — the belief this test measures now has a node of its own
 
 ## Observed from inside (2026-07-25, twenty-passes run)
 

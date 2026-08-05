@@ -5,7 +5,7 @@ created: '2026-07-26'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Sweep both vault histories for writes that landed as undefined or empty]]
+[[Empty and undefined writes actually landed in the vault histories]]
 
 **The idea.** Put the guard at the vault instead of at the call: `Vault.annotate`, `append`, and their siblings refuse content that is empty, whitespace, or the strings `undefined`/`null`, whatever produced it.
 
@@ -27,3 +27,6 @@ Implementation: the guard sits in Vault, at the single point every node write fu
 The distinction this node predicted turned out to be the whole design, and it is worth recording that the prediction was right: the rule is that content IS exactly undefined/null/empty, never that it CONTAINS those words. This very node's history now contains the word repeatedly and must stay writable. A test pins that. A second test pins the subtler half — an ABSENT optional note (the JS value undefined) is a caller legitimately declining to explain itself and passes; the four-character STRING is a caller that stringified a variable it never set, and is refused. One String() apart, opposite verdicts.
 
 21 tests, verified failing first (18 failed / 3 passed before the guard, where the 3 passing were the must-still-be-allowed cases). Full suite 482 tests / 64 files green, tsc clean. Published to npm as 0.18.0 via workflow_dispatch; registry confirms latest = 0.18.0.
+
+## History
+- 2026-08-05 unlinked [[Sweep both vault histories for writes that landed as undefined or empty]] — moved under [[Empty and undefined writes actually landed in the vault histories]] — the belief this test measures now has a node of its own

@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-adapter-reality.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test is read-only GET access enough to gather needed evidence]]
+[[Read-only access is enough to gather the evidence the tree needs]]
 
 **Candidate solution (unvalidated).** Each integration authenticates itself with a least-privilege, read-only API token supplied via environment variable and issues only GET requests against the vendor's cloud REST APIs. The agent structurally cannot write back to the system of record.
 
@@ -18,6 +18,7 @@ _Addresses: "Connecting my systems of record could leak or corrupt them". Unvali
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test is read-only GET access enough to gather needed evidence]] — moved under [[Read-only access is enough to gather the evidence the tree needs]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

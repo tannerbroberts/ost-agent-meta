@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the last three tightenings and see whether the grandfathered backlog ever cleared]]
+[[A grandfathered backlog actually gets cleared rather than becoming permanent]]
 
 A rule records when it came into force. Nodes created before that moment are not violations; they are marked as predating the rule, and the check reports them in a separate class from things that broke it. A tightening produces a clean gate and a visible backlog, rather than a red gate the operator learns to ignore.
 
@@ -24,3 +24,6 @@ npx vitest run test/ost/grandfathered-backlog-replay.test.ts
 ```
 
 Green means grandfathered nodes were actually brought into compliance after each of the last three tightenings rather than quietly accumulating — which is the question that decides whether forward-only is mercy or debt. A red run here is genuinely informative: it would say this candidate's core promise has already failed three times in this vault's own history.
+
+## History
+- 2026-08-05 unlinked [[Replay the last three tightenings and see whether the grandfathered backlog ever cleared]] — moved under [[A grandfathered backlog actually gets cleared rather than becoming permanent]] — the belief this test measures now has a node of its own

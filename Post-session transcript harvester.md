@@ -6,7 +6,7 @@ created: '2026-07-24'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Hand-distil three past sessions]]
+[[A session transcript contains distillable stalls and dead ends worth the next pass's attention]]
 
 After each run, read the agent's own chat transcript, distil the questions, uncertainties, stalls and dead ends it hit, and drop them into the inbox as evidence for the next pass.
 
@@ -20,6 +20,7 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Hand-distil three past sessions]] — moved under [[A session transcript contains distillable stalls and dead ends worth the next pass's attention]] — the belief this test measures now has a node of its own
 
 ## Build + first-run evidence (2026-07-24)
 

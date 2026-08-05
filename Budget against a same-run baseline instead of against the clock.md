@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay both flakes and one planted regression against the ratio]]
+[[A same-run baseline rises with load in step with the thing it is normalising]]
 
 **The idea.** The test measures a trivial reference operation in the same process, at the same moment, under the same contention, and asserts a *ratio* — `ost_next_work` must complete within N times the baseline — instead of an absolute 2000ms. When the box is loaded, both numbers rise together and the ratio holds. When the code regresses, the ratio moves and the test goes red.
 
@@ -28,3 +28,6 @@ npx vitest run test/telemetry/same-run-baseline-ratio.test.ts
 ```
 
 Green means the two recorded flakes pass and the planted regression fails — the discrimination an absolute clock threshold cannot make, and the whole reason this candidate exists. It does not settle the ratio's behaviour on a machine whose *baseline* is itself degraded, which is the case a same-run comparison is least able to see.
+
+## History
+- 2026-08-05 unlinked [[Replay both flakes and one planted regression against the ratio]] — moved under [[A same-run baseline rises with load in step with the thing it is normalising]] — the belief this test measures now has a node of its own

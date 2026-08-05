@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Compute the unblocking order and compare it against what the builder actually picked up]]
+[[Unblocking order produces choices a builder prefers to the ones they were making]]
 
 The tree computes, for every actionable item, how much else is waiting behind it, and presents the frontier in that order. The top of the list is whatever the most work is currently blocked on — not the cheapest thing, not the highest-scoring thing, but the one whose absence is costing the most elsewhere.
 
@@ -24,3 +24,6 @@ npx vitest run test/ost/frontier-unblocking-order.test.ts
 ```
 
 Green means: the order exists and is the one this solution names — each item reports how many others its completion unblocks, sorting is by that count rather than title or cost, and an item that unblocks nothing sorts last however cheap it is. Today the frontier is alphabetical and capped at 25, which is neither. Green does **not** perform the comparison; what a builder actually picked up is a record of human behaviour and reading it against the computed order is a person's job.
+
+## History
+- 2026-08-05 unlinked [[Compute the unblocking order and compare it against what the builder actually picked up]] — moved under [[Unblocking order produces choices a builder prefers to the ones they were making]] — the belief this test measures now has a node of its own

@@ -4,7 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check the rollup reports readiness and execution as separate numbers, with neither called built]]
+[[Honest accounting is worth having even though it builds nothing and moves no test]]
 
 **The mechanism: change the accounting, build nothing.** The rollup currently reports `built X%` from how many solutions carry a runnable command, which makes a day of instrumenting look like a day of progress. Stop doing that. Report readiness as readiness, keep `tested` where it is, and put the number that has never moved at the top rather than at the end of each line — so the tree states its own condition plainly instead of showing motion in the one dimension that is free.
 
@@ -23,3 +23,6 @@ evidence: assertion
 `npx vitest run test/ost/rollup-execution-first.test.ts`
 
 No rollup line expresses instrument coverage as a `built` percentage, every bucket's executed count sits at least as prominently as its readiness count, and both numbers survive — readiness must not be dropped to achieve it. Red against today's output, which reads `built 13% (3/24 runnable), tested 0` on the buckets: a moving percentage for readiness and a trailing zero for the thing that has never happened.
+
+## History
+- 2026-08-05 unlinked [[Check the rollup reports readiness and execution as separate numbers, with neither called built]] — moved under [[Honest accounting is worth having even though it builds nothing and moves no test]] — the belief this test measures now has a node of its own

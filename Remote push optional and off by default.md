@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-safety-requirement.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test do operators get value with remote push off]]
+[[Operators get real value with the vault staying entirely local]]
 
 **Candidate solution (unvalidated).** Nothing leaves the operator's machine unless they explicitly enable and configure remote push. By default the vault is local-only, so the blast radius of any bad commit — or any prompt-injection — is confined to a local folder under version control.
 
@@ -18,3 +18,4 @@ _Addresses: "Fear the agent could take a destructive, irreversible action". Unva
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test do operators get value with remote push off]] — moved under [[Operators get real value with the vault staying entirely local]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Crash a run holding the lock and time how long the vault stays unusable]]
+[[A stale lock can be recovered quickly without ever releasing a live one]]
 
 A vault-scoped lock taken before any mutation and released after it commits. A second agent arriving finds the lock, learns who holds it and since when, and waits rather than proceeding. Concurrent writes stop being possible instead of being handled.
 
@@ -28,3 +28,6 @@ Green means a holder killed in each of the four shapes the test names — clean 
 **Why the recovery half is the definition of done and the locking half is not.** Taking a lock is trivial and every implementation does it correctly. Every way this solution actually fails is a recovery policy that is wrong in one of two directions — too eager and it defeats the lock it just added, too patient and a crash on a Friday costs the weekend. A spec that only proved mutual exclusion would go green on a design that makes the vault worse than no lock at all.
 
 **What green does NOT settle.** A hung holder and a crashed one are indistinguishable from outside, and no policy resolves that — the command measures the cost of choosing wrongly in each direction, it does not find a choice with no cost. Picking the timeout stays a human's call. It also says nothing about whether operators would accept waiting at all, which is the desirability question underneath the whole candidate and belongs to a person.
+
+## History
+- 2026-08-05 unlinked [[Crash a run holding the lock and time how long the vault stays unusable]] — moved under [[A stale lock can be recovered quickly without ever releasing a live one]] — the belief this test measures now has a node of its own

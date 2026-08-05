@@ -6,8 +6,8 @@ created: '2026-07-26'
 evidence: assertion
 ---
 #Solution #unvalidated #founder-provided #evidence/assertion
-[[Ask five prospective operators whether they would let their vault report outward]]
-[[A fleet instance reaches the inbox with no new credential, and its provenance survives the trip]]
+[[Operators will let their vault report outward at all]]
+[[An instance can deliver to the central inbox on what it already holds, with its provenance intact]]
 
 **Mechanism (founder-provided, 2026-07-26):** All instances of the OST-Agent report to a central telemetry inbox belonging to the OST-Agent that runs the OST *for* the OST-Agent (this vault). The meta-OST parses that inbox, ideates on what arrives, and generates yet more solutions — fleet experience becomes discovery input automatically, with no human carrying it.
 
@@ -28,3 +28,7 @@ npx vitest run test/adapters/fleet-inbox-provenance.test.ts
 Green means the first two of the four assumptions listed above are settled: two instances deliver to one inbox on the compute and credentials they already hold, and every delivered item stays attributable to the instance that produced it, with an item that loses its attribution refused rather than ingested anonymously. That last clause is the load-bearing one — ten instances agreeing and one instance repeated ten times are the same stream once attribution is flattened, and every rung computed over it would be wrong in the flattering direction.
 
 It settles neither of the other two. Whether the meta-OST's passes keep up with N instances is a load question owned by [[Backpressure-tolerant ingest channel that preserves provenance under load]]. And whether founder-run, self-generated, assertion-heavy streams raise the tree's evidence quality or deepen the echo chamber is untouched by any exit code: green here is fully compatible with the resulting evidence being worthless, and only outside operators distinguish the two.
+
+## History
+- 2026-08-05 unlinked [[Ask five prospective operators whether they would let their vault report outward]] — moved under [[Operators will let their vault report outward at all]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked [[A fleet instance reaches the inbox with no new credential, and its provenance survives the trip]] — moved under [[An instance can deliver to the central inbox on what it already holds, with its provenance intact]] — the belief this test measures now has a node of its own

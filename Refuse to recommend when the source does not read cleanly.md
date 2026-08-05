@@ -5,7 +5,7 @@ created: '2026-07-26'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Count how many of this vault's recommendations would go silent under a refuse-when-unclear rule]]
+[[Going silent on ambiguous sources costs few enough recommendations to be affordable]]
 
 **The idea.** When the agent cannot read a source into exactly one answer, it produces no recommendation at all — it reports the ambiguity and names what a human would have to settle. Silence in place of a confident half-reading.
 
@@ -30,3 +30,6 @@ Red today because the rule does not exist and neither does the counter: nothing 
 Per-surface, not pooled. A rule that leaves hygiene findings intact while silencing every caution hint would pass on a combined number and fail the question being asked.
 
 What it does not settle, and it is the half that matters most: the count is a cost measurement, not a benefit one. A rule could silence 5% and silence exactly the 5% that were correct and load-bearing, and this command cannot tell that apart from silencing 5% of noise.
+
+## History
+- 2026-08-05 unlinked [[Count how many of this vault's recommendations would go silent under a refuse-when-unclear rule]] — moved under [[Going silent on ambiguous sources costs few enough recommendations to be affordable]] — the belief this test measures now has a node of its own

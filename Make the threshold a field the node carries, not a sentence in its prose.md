@@ -6,7 +6,7 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check whether the threshold field gets a bound or just the same wrapped prose]]
+[[Moving the threshold into a field gets a bound written, rather than the same prose relocated]]
 
 **The idea.** An assumption test carries its threshold as frontmatter — a named field
 set when the node is created — instead of a bold lead-in somewhere in the body. The
@@ -71,3 +71,6 @@ npx vitest run test/ost/threshold-field-bound.test.ts
 ```
 
 Green means a threshold field parses to an actual bound — a comparator and a number — so a test carrying one can come out a failure. This is the mechanism behind the tree's own standing complaint that nothing can fail. It does not settle whether the bound anyone writes is the *right* bound, and moving prose into a field does not make a badly chosen number good.
+
+## History
+- 2026-08-05 unlinked [[Check whether the threshold field gets a bound or just the same wrapped prose]] — moved under [[Moving the threshold into a field gets a bound written, rather than the same prose relocated]] — the belief this test measures now has a node of its own

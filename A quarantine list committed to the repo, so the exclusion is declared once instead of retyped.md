@@ -5,7 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count the distinct test files ever hand-excluded across the captured sessions]]
+[[Enough distinct files get hand-excluded that declaring them once beats retyping]]
 
 The known-flaky files live in a file in the repository, with a reason and a date beside each. The runner reads it. Nobody retypes `--exclude` into an invocation again.
 
@@ -32,3 +32,6 @@ Red today: nothing extracts exclusion flags from the harvested invocations, so t
 **A red here is a live possibility, not a formality.** The record is known to contain one such file, excluded three times within a single session. If the census finds only that one, the honest answer is to fix the flake and build nothing — which is the result this test is written to be able to produce.
 
 **What this does not settle.** The candidate's real hazard, that a comfortable quarantine lowers the cost of never fixing anything. That is why [[Quarantine entries expire, so a workaround cannot become permanent by inattention]] may be a precondition for this rather than an alternative to it.
+
+## History
+- 2026-08-05 unlinked [[Count the distinct test files ever hand-excluded across the captured sessions]] — moved under [[Enough distinct files get hand-excluded that declaring them once beats retyping]] — the belief this test measures now has a node of its own

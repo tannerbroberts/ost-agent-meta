@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check how many past failed paths fall inside a small set of nameable roots]]
+[[Most failed paths fall under a small set of nameable roots]]
 
 The run is given named roots at the start — the project, the vault, the logs — and refers to things relative to those names rather than by assembling absolute paths itself. A caller asks for the vault's inbox, not for a string beginning `/Users/tanner/`. The prefix is supplied once, correctly, by whatever knows it.
 
@@ -28,3 +28,6 @@ Green means a declared root vocabulary of at most four names covers at least 80%
 **Why coverage is the whole test and not a proxy for it.** Anything outside the named roots is constructed by hand exactly as before, so the share of real failures the roots capture *is* the value of the approach. A root set that covers half the failures halves the benefit and keeps all of the machinery.
 
 **What green does NOT settle, and it is the more dangerous failure.** A root pointing somewhere wrong produces confident, uniform, wrong paths everywhere at once — worse than scattered bad guesses, because it looks systematic and nothing in a coverage number would show it. That risk needs its own check. Green also measures against paths that were reached for *without* a root vocabulary, so it cannot say how the habit changes once one exists.
+
+## History
+- 2026-08-05 unlinked [[Check how many past failed paths fall inside a small set of nameable roots]] — moved under [[Most failed paths fall under a small set of nameable roots]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count how many open assumptions in this tree could be moved by anything public at all]]
+[[Enough open assumptions in the tree could be moved by public information to be worth the channel]]
 
 Nothing searches on a timer. Instead, every open assumption that could be moved by public information carries the question it would need answered, and lookups are spent only against that list, cheapest question first. A finding enters the tree already attached to the thing it bears on.
 
@@ -24,3 +24,6 @@ npx vitest run test/web/public-movable-assumptions.test.ts
 ```
 
 Green means each open assumption is labelled by whether public material could move it — the count that says whether demand-driven lookups would have anything to do. Worth expecting a low number and treating that as the finding: most of this tree's open assumptions are about its own operator and its own code, neither of which anything public knows about. It does not settle whether a lookup that *is* demanded would find anything.
+
+## History
+- 2026-08-05 unlinked [[Count how many open assumptions in this tree could be moved by anything public at all]] — moved under [[Enough open assumptions in the tree could be moved by public information to be worth the channel]] — the belief this test measures now has a node of its own

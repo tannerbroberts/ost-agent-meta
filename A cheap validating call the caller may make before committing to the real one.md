@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check how often the caller knew to be uncertain before the call that failed]]
+[[A caller about to make a failing call usually already doubts it, so a validate-only twin gets reached for]]
 
 Every mutating call gains a validate-only twin: identical arguments, every check run, nothing written, and a verdict returned. A caller unsure whether a composition will be accepted asks first. The round trip is still spent, but it is spent on a call that was never going to change anything, so a rejection costs nothing but latency.
 
@@ -20,3 +20,6 @@ Every mutating call gains a validate-only twin: identical arguments, every check
 `npx vitest run test/telemetry/preflight-uncertainty-census.test.ts`
 
 Green when the census, run over the committed usage and transcript fixtures, reports what fraction of failed calls were preceded by a visible hedge or a read. Feasibility and sizing only — it cannot show a caller would actually spend the extra call, and it produces no evidence that anyone outside this project wants a dry-run mode.
+
+## History
+- 2026-08-05 unlinked [[Check how often the caller knew to be uncertain before the call that failed]] — moved under [[A caller about to make a failing call usually already doubts it, so a validate-only twin gets reached for]] — the belief this test measures now has a node of its own

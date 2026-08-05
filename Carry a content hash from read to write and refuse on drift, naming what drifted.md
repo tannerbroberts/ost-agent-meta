@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay captured sessions to count how often a hash guard would refuse a good write]]
+[[A hash guard refuses almost no good writes while correctly naming the ones that were drift]]
 
 Every read hands back a fingerprint of the file as it was. Every write presents that fingerprint. If the file has changed since, the write is refused with a message that says *the file changed since you read it* — not *your string was not found* — and names what moved.
 
@@ -28,3 +28,6 @@ npx vitest run test/git/read-write-hash-drift.test.ts
 Green means the guard refuses exactly the writes whose file moved under the read — the recorded `String to replace not found in file` failures, and the session where a concurrent writer had moved HEAD and touched fourteen files — and names what drifted rather than reporting a generic miss. The count in the test's own title is the thing to watch: a guard that also refuses good writes trades one interruption for another, and this command is what makes that rate visible instead of assumed.
 
 It does not settle what the caller should *do* on refusal, which is where the cost of being right actually lands.
+
+## History
+- 2026-08-05 unlinked [[Replay captured sessions to count how often a hash guard would refuse a good write]] — moved under [[A hash guard refuses almost no good writes while correctly naming the ones that were drift]] — the belief this test measures now has a node of its own

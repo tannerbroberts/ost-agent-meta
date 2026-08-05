@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Twenty-question grounding check for answer faithfulness]]
+[[Free-form questions about the tree can be answered faithfully from the tree]]
 
 Let a stakeholder simply ask — "what's the strongest evidence we have?", "what changed this week?", "why is this branch still unvalidated?" — and get an answer grounded in the tree, with links to the nodes it came from.
 
@@ -20,6 +20,7 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Twenty-question grounding check for answer faithfulness]] — moved under [[Free-form questions about the tree can be answered faithfully from the tree]] — the belief this test measures now has a node of its own
 
 ## Test
 

@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Build the queue from asks already outstanding and see whether the operator empties it once]]
+[[An operator will actually visit a queue that never chases them]]
 
 Every ask a run cannot answer itself goes into one durable queue, aged, with the command that would clear it. The operator visits when they choose, works down the list, and each thing they clear releases whatever was behind it. Nothing chases them and nothing is lost.
 
@@ -26,3 +26,6 @@ The spec asserts the two properties that separate this node from what already sh
 **This one is red against today's code, not merely against a missing file.** `ost_next_work` already returns `outstandingAsks`, aged — but it is derived only from `blockedOnPermission` tests, so an ask a run could not answer itself is never persisted and the field reports `ageDays: null`. The spec fails on today's behaviour, which is a better definition of done than "create this file."
 
 **What a green here does not settle.** Whether the operator ever empties it. The node's own stated failure mode is that queues nobody visits become furniture — a monument to blocked work — and a passing spec proves only that the monument would be accurately dated.
+
+## History
+- 2026-08-05 unlinked [[Build the queue from asks already outstanding and see whether the operator empties it once]] — moved under [[An operator will actually visit a queue that never chases them]] — the belief this test measures now has a node of its own

@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test does the red-team harness catch known injection attacks]]
+[[An adversarial suite catches the injection attacks that would actually be attempted]]
 
 **Candidate solution (unvalidated).** Every build runs an adversarial suite of poisoned-content cases (e.g. ingested notes instructing "delete everything", "exfiltrate the token") and asserts that no tool call outside the allowlist ever fires. Capability-safety is proven continuously, not once.
 
@@ -18,6 +18,7 @@ _Addresses: "Want proof no hijackable capability even exists". Unvalidated — h
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test does the red-team harness catch known injection attacks]] — moved under [[An adversarial suite catches the injection attacks that would actually be attempted]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

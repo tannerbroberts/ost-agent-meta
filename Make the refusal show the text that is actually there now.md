@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check whether the near-miss text would have supplied the correction]]
+[[The text at the intended site contains what a correct retry needs]]
 
 Do not try to detect drift. Make one failure enough. When an edit does not match, the refusal returns the text that *is* at the intended site — the nearest near-miss, with enough surrounding context to re-anchor — so the agent can correct on the next call instead of re-reading the file and starting over.
 
@@ -28,3 +28,6 @@ npx vitest run test/mcp/refusal-shows-current-text.test.ts
 ```
 
 Green means the recorded failed edits each come back with the text actually present, and that text contains what the caller needed to correct itself — the difference between a refusal and a diagnosis. It does not settle whether a caller handed the correction actually uses it rather than re-reading the whole file anyway, which only the next sessions' traces show.
+
+## History
+- 2026-08-05 unlinked [[Check whether the near-miss text would have supplied the correction]] — moved under [[The text at the intended site contains what a correct retry needs]] — the belief this test measures now has a node of its own

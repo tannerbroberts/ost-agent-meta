@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Classify every filesystem event in three real sessions as meaningful or churn]]
+[[Meaningful external writes are separable from churn by a rule fixed in advance]]
 
 Something watches the working tree. When a file the agent has read is modified by anyone else, the agent is told — immediately, in band — that its copy is stale, before it composes anything against it.
 
@@ -36,3 +36,6 @@ Green means a rule fixed in advance classifies at least 90% of external write ev
 **What a red result redirects to, and it is a real fallback rather than a consolation.** Poll the mtimes of only the files this session has actually read, once before each write batch. That sidesteps classification entirely by only asking about files it already cares about, and if this test fails it becomes the stronger candidate.
 
 **A by-product worth keeping.** The same event capture would show how often two writers genuinely overlap — direct evidence for [[Two agents sharing my vault can trample each other]], a node currently resting on two anecdotes.
+
+## History
+- 2026-08-05 unlinked [[Classify every filesystem event in three real sessions as meaningful or churn]] — moved under [[Meaningful external writes are separable from churn by a rule fixed in advance]] — the belief this test measures now has a node of its own

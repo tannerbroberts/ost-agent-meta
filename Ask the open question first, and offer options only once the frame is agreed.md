@@ -5,7 +5,7 @@ created: '2026-08-04'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the recorded question sessions and count whether framing first adds stops or removes them]]
+[[The run's proposed options are wrong often enough that framing first saves turns rather than costing them]]
 
 Split the ask in two. The run first states what it is uncertain about in open form — "I don't know what the appended tests should be allowed to do to the build gate" — and lets the operator set the frame. Only then, with the frame in the operator's words, does it offer concrete options, which are now guesses inside a shape it did not invent.
 
@@ -24,3 +24,6 @@ npx vitest run test/loop/two-stage-question-stop-count.test.ts
 ```
 
 Green means the two-stage form costs no more operator turns on the recorded history than the one-stage form did — the arithmetic this candidate depends on, computed rather than assumed. It does not settle whether framing first produces better decisions, only cheaper ones.
+
+## History
+- 2026-08-05 unlinked [[Replay the recorded question sessions and count whether framing first adds stops or removes them]] — moved under [[The run's proposed options are wrong often enough that framing first saves turns rather than costing them]] — the belief this test measures now has a node of its own

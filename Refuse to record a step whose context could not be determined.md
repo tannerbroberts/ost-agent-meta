@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Measure how much signal a refuse-on-unknown-context rule would delete]]
+[[Refusing on unknown context deletes almost no signal anyone would have used]]
 
 Invert the goal. The stated cost here is not that context is missing — it is that **the record looks complete**, so a failure that cannot be reproduced also cannot be dismissed. Fix the looking-complete part: if the recorder cannot establish where a step ran, it declines to write a normal failure record and writes an explicitly incomplete one instead, or nothing at all.
 
@@ -30,3 +30,6 @@ Red today because nothing decides whether a step's context is determinable. The 
 Both clauses are in the command deliberately. A low rate alone proves nothing: if the five refused records happen to be the five that mattered, the rule is bad at 5%, and leaving that clause to a reader is how a rate gets mistaken for a verdict.
 
 What it does not settle: whether the middle option this node's body names — record it but mark it `context-unknown` and exclude it from any count implying reproducibility — is the better candidate. This command prices refusal and says nothing about the alternative.
+
+## History
+- 2026-08-05 unlinked [[Measure how much signal a refuse-on-unknown-context rule would delete]] — moved under [[Refusing on unknown context deletes almost no signal anyone would have used]] — the belief this test measures now has a node of its own

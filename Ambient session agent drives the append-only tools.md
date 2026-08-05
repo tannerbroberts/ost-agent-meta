@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-22-agent-as-driver.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Test can an ambient agent drive a pass at API-driver quality]]
+[[An agent already in the operator's session can run a pass as well as a dedicated API driver]]
 
 **Candidate solution (unvalidated).** Expose the append-only OST tools as a CLI and MCP server that the Claude agent *already running in the operator's session* drives directly. The ambient agent does the discovery reasoning; there is no separate API token to buy or manage. Safety guarantees (append-only, allowlist, git, never delete) hold regardless of who drives.
 
@@ -18,6 +18,7 @@ _Addresses: "Don't want to buy a second AI credential just to try it". Unvalidat
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Test can an ambient agent drive a pass at API-driver quality]] — moved under [[An agent already in the operator's session can run a pass as well as a dedicated API driver]] — the belief this test measures now has a node of its own
 
 ## Founder preference (2026-07-25, human:conversation)
 

@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent-ideation — from ost_read_tree omitting the type:Metric node, 2026-07-24'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Does a quarantined node make the agent notice the hole in its tree]]
+[[A node returned as unrecognised makes the agent notice the hole it would otherwise miss]]
 
 **The idea.** A node whose `type:` the reader does not recognize should come back from `ost_read_tree` marked unrecognized — not be omitted. Silence is the bug; the unknown type is just the trigger.
 
@@ -22,6 +22,7 @@ created: '2026-07-25'
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Does a quarantined node make the agent notice the hole in its tree]] — moved under [[A node returned as unrecognised makes the agent notice the hole it would otherwise miss]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

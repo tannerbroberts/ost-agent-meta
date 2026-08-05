@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the last ten releases and count how many a pull-at-start instance would have received]]
+[[The registry is a path improvements actually travel down, promptly]]
 
 **Candidate (unvalidated, agent-ideated — one of three deliberately different mechanisms under this opportunity).**
 
@@ -32,3 +32,6 @@ Green means at least 8 of the last 10 versions cut on `main` were resolvable fro
 **This command can kill the solution rather than shape it, which is why it is the cheapest thing in this branch.** The assumption is not that an instance can resolve `@latest` — obviously it can — but that the registry is a path improvements actually travel down. This vault has already recorded the counter-evidence in passing, five passes running: `npm whoami` returning `ENEEDAUTH`, four releases cut and unpublished, `npx -y ost-agent@latest mcp` resolving to 0.9.0 while v0.10.0 through v0.13.0 sat on `main`. At 7 or fewer the candidate is killed rather than repaired, because the fix would be a publish credential and a release discipline — a different opportunity from this one.
 
 **What green does NOT settle.** It measures this project's own release discipline over one publisher and a ten-release window, not the registry's reliability in general. It also says nothing about the second half of this solution — whether *refusing to run* is the right response to detected skew is a judgement about unattended operation that no propagation number reaches.
+
+## History
+- 2026-08-05 unlinked [[Replay the last ten releases and count how many a pull-at-start instance would have received]] — moved under [[The registry is a path improvements actually travel down, promptly]] — the belief this test measures now has a node of its own

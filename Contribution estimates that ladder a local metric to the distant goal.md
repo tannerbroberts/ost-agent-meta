@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Do written contribution estimates survive one month of real movement]]
+[[A written estimate of how much a branch moves the goal survives contact with real movement]]
 
 Each opportunity or sub-target carries an explicit, written estimate of how much moving it would move the top goal, and on what reasoning. The ladder stays flat structurally, but every rung states its claimed contribution, so a branch that cannot articulate one is visibly a branch nobody has connected to the goal.
 
@@ -18,6 +18,7 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Do written contribution estimates survive one month of real movement]] — moved under [[A written estimate of how much a branch moves the goal survives contact with real movement]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

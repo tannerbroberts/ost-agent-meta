@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'agent:P3_ideate'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Pre-order probe - will anyone pay before the map proves itself]]
+[[Someone will pay before the tree has proved itself to them]]
 
 Open a self-serve trial that anyone can start, instrument what they actually do (first tree created, evidence ingested, return visits, passes completed), and place a real price in the path — a paid tier or pre-order — so that money and retention become observable rather than asserted.
 
@@ -20,3 +20,4 @@ Status: agent-originated candidate. Unvalidated.
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Pre-order probe - will anyone pay before the map proves itself]] — moved under [[Someone will pay before the tree has proved itself to them]] — the belief this test measures now has a node of its own

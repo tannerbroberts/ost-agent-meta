@@ -5,7 +5,7 @@ created: '2026-07-26'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Sort a day of real failed calls into shape errors and meaning errors]]
+[[Enough failed calls are shape errors that schema validation catches a real share of them]]
 
 **The idea.** Before a tool touches the vault, check the input against the JSON Schema the tool itself publishes — required properties present, no unexpected ones, types as declared — and refuse the call with a message naming the offending property. **Shipped in v0.17.0.**
 
@@ -19,6 +19,7 @@ evidence: assertion
 
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
+- 2026-08-05 unlinked [[Sort a day of real failed calls into shape errors and meaning errors]] — moved under [[Enough failed calls are shape errors that schema validation catches a real share of them]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

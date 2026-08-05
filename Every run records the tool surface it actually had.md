@@ -5,8 +5,8 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Hand a reader five run records and ask which passes did their job]]
-[[The run record names the tools it had and the ones it expected and did not get]]
+[[A reader given run records can tell which passes actually did their job]]
+[[A pass can name the tools it expected and did not get, not merely the ones it had]]
 
 **The idea.** Every pass writes into its run record the tool surface it observed at start: which tools were present, which were expected and absent, and the environment facts that explain the difference. Nothing is blocked and nothing halts. The record simply stops being silent about the variable that decides what a pass could do.
 
@@ -33,3 +33,7 @@ npx vitest run test/loop/run-record-tool-surface.test.ts
 Green means a pass writes a tool-surface block that names the tools it had *and* the ones it expected and did not get, and says so explicitly when it cannot determine its surface at all. The expected-and-absent half is the load-bearing one: a block listing whatever resolved is easy and carries none of the diagnostic value this node was proposed for.
 
 It settles nothing about whether the record is worth writing. This node's own stated weakness — that it prevents nothing, that someone still has to read it, and that on a schedule nobody reads it changes exactly nothing — is [[Hand a reader five run records and ask which passes did their job]], which needs two people and half an hour and does not need this built.
+
+## History
+- 2026-08-05 unlinked [[Hand a reader five run records and ask which passes did their job]] — moved under [[A reader given run records can tell which passes actually did their job]] — the belief this test measures now has a node of its own
+- 2026-08-05 unlinked [[The run record names the tools it had and the ones it expected and did not get]] — moved under [[A pass can name the tools it expected and did not get, not merely the ones it had]] — the belief this test measures now has a node of its own

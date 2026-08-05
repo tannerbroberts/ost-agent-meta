@@ -4,7 +4,7 @@ created: '2026-07-27'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Do the shipped sweeps actually find a planted instance]]
+[[A positive control would actually fire on the sweeps that shipped]]
 
 **The idea.** Each sweep carries at least one instance it is known to be able to find, and fails if it does not find it. Not a count assertion — a positive control.
 
@@ -35,3 +35,6 @@ seed that was never the right shape. Whatever eventually gets built here should 
 assertion that the baseline is clean *and* that the plant is the shape the rule matches.
 
 Annotation only — no change proposed, and the standing do-not-build is untouched.
+
+## History
+- 2026-08-05 unlinked [[Do the shipped sweeps actually find a planted instance]] — moved under [[A positive control would actually fire on the sweeps that shipped]] — the belief this test measures now has a node of its own

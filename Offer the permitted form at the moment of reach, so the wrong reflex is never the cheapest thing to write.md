@@ -4,7 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Measure whether the permitted wait is actually more expensive to write than the blocked one]]
+[[The permitted form is genuinely no more expensive to write than the blocked reflex]]
 
 **The mechanism: make the right thing the easy thing, and the memory problem dissolves.** Rather than recording the correction or forbidding the mistake, put a first-class waiting primitive where the reflex reaches. The reason `sleep 45 && gh pr checks 17` keeps getting written is that it is the shortest expression of "wait for this to finish" available; the permitted form — an until-loop under a monitor, or backgrounding the command and collecting it — is longer, less obvious, and has to be recalled. Invert that and there is nothing to remember.
 
@@ -23,3 +23,6 @@ evidence: assertion
 `npx vitest run test/loop/wait-primitive-affordance.test.ts`
 
 A cheap disconfirmer aimed at this node's premise rather than its mechanism: for each of the three observed waiting cases, the permitted form must be no longer to express than the blocked one. If it is already no longer today, expression cost is not what drives the repeat and this candidate is aimed at the wrong cause — worth running before anyone designs a primitive.
+
+## History
+- 2026-08-05 unlinked [[Measure whether the permitted wait is actually more expensive to write than the blocked one]] — moved under [[The permitted form is genuinely no more expensive to write than the blocked reflex]] — the belief this test measures now has a node of its own

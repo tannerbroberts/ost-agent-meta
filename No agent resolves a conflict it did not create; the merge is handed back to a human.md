@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Count how many vault conflicts are mechanical, to see what a human-only rule would actually cost]]
+[[Conflicts are rare and contested enough that human-only resolution does not flood the operator]]
 
 Conflict resolution becomes a class of decision compute may not take alone. An agent meeting a conflict between its own work and someone else's stops, records both sides, and hands the merge to a human. It may describe the conflict and propose a resolution; it may not commit one.
 
@@ -26,3 +26,6 @@ npx vitest run test/git/conflict-mechanicality-census.test.ts
 ```
 
 Green means every conflict in the vault history is classified as mechanically resolvable or not, so the price of the human-only rule is a number rather than a worry. It settles the cost side only. Whether that price is worth paying is the operator's call, and the safety argument for the rule does not depend on the count coming out low.
+
+## History
+- 2026-08-05 unlinked [[Count how many vault conflicts are mechanical, to see what a human-only rule would actually cost]] — moved under [[Conflicts are rare and contested enough that human-only resolution does not flood the operator]] — the belief this test measures now has a node of its own

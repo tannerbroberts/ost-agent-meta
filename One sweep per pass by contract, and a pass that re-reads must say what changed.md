@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Read past re-reads and judge how many caught something the caller did not already know]]
+[[The re-reads this would remove were mostly not learning anything]]
 
 Make the expectation explicit in the ruleset the pass follows: read the sweep once at the start, work from it, and re-read only at the end to confirm. A pass that wants an extra read states what it did that could have changed the answer. The discipline is written down rather than left to judgement, and departures from it become visible in the record.
 
@@ -24,3 +24,6 @@ npx vitest run test/mcp/sweep-version-and-delta.test.ts
 ```
 
 Green means: the sweep can say whether anything changed — it carries a version, an unchanged tree returns the same version with an empty delta, and a re-read after a write reports which buckets moved. That is the precondition for the contract; a sweep that cannot express "nothing changed" gives a caller no reason not to re-ask. Green does **not** judge past re-reads for whether they were informative — that is a person's read of a historical trace.
+
+## History
+- 2026-08-05 unlinked [[Read past re-reads and judge how many caught something the caller did not already know]] — moved under [[The re-reads this would remove were mostly not learning anything]] — the belief this test measures now has a node of its own

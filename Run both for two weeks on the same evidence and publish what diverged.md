@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Have a second person run the hand arm, so the comparison is not built by its own author]]
+[[Someone outside the project will run the hand arm, so the comparison is not built by its own author]]
 
 Take the same body of evidence and maintain two trees from it for two weeks: one by hand in Obsidian with a chat model, one through the tool. Then publish the differences — what each caught, what each missed, how many claims in each survive a sceptic, and how long each took. The answer to the question becomes a document rather than an argument.
 
@@ -16,3 +16,6 @@ The honest possibility is that this comes back saying the hand process is fine. 
 **What would make this the wrong pick.** The operator running both arms built one of them. There is no version of this where that bias is absent, and the result will be worth roughly what an outside reader thinks that bias is worth.
 
 This describes a comparison a human would run. No pass may run it or record its outcome.
+
+## History
+- 2026-08-05 unlinked [[Have a second person run the hand arm, so the comparison is not built by its own author]] — moved under [[Someone outside the project will run the hand arm, so the comparison is not built by its own author]] — the belief this test measures now has a node of its own

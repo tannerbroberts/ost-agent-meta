@@ -4,7 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Check the instrument allowance holds at the floor while no result has ever been recorded]]
+[[Backpressure on instrumenting pushes results to be recorded, rather than just stopping work]]
 
 **The mechanism: backpressure.** A pass may attach instruments only up to some multiple of the results actually recorded since the last one. With zero results ever recorded, the allowance is a small fixed floor — enough to keep working, not enough to instrument another eighty-eight in a day. When results start being recorded, the allowance opens up in proportion.
 
@@ -23,3 +23,6 @@ evidence: assertion
 `npx vitest run test/ost/instrument-rationing.test.ts`
 
 With zero recorded results the allowance stops at a non-zero fixed floor and further instrument calls are refused with a reason that names the shortage rather than a generic error; each recorded result raises the allowance in proportion. Red today because nothing rations. The spec can prove the valve opens and closes correctly and cannot tell whether a valve was the right thing to install.
+
+## History
+- 2026-08-05 unlinked [[Check the instrument allowance holds at the floor while no result has ever been recorded]] — moved under [[Backpressure on instrumenting pushes results to be recorded, rather than just stopping work]] — the belief this test measures now has a node of its own

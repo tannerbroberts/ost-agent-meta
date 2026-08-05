@@ -4,7 +4,7 @@ created: '2026-07-27'
 evidence: assertion
 ---
 #Solution #evidence/assertion
-[[Does a stated denominator catch a drop nobody predicted]]
+[[A stated denominator makes a reader notice a drop they would otherwise have missed]]
 
 **The idea.** Any tool that reports "N found" also reports "over M examined, K unreadable". The operator reads a ratio, never a bare integer.
 
@@ -28,3 +28,6 @@ The behaviour this node describes shipped in v0.22.0 (`df5288a`), so the buildab
 ```
 npx vitest run test/ost/census-drop-history.test.ts
 ```
+
+## History
+- 2026-08-05 unlinked [[Does a stated denominator catch a drop nobody predicted]] — moved under [[A stated denominator makes a reader notice a drop they would otherwise have missed]] — the belief this test measures now has a node of its own

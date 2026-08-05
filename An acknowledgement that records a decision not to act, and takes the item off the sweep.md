@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Have a human review a pass's acknowledgements and count how many were avoidance]]
+[[A pass that can dismiss its own backlog will not use it to avoid work that mattered]]
 
 Give a pass a way to say "I looked at this, and the right action is none" — recorded, with a reason, append-only, and honoured by the sweep. The item leaves the outstanding list without being deleted, without being mapped, and without anyone pretending it was work.
 
@@ -94,3 +94,6 @@ This is the case for this solution stated as a measurement rather than as an arg
 The pressure this creates is the thing worth naming: the only way for a pass to clear the counter is to create a near-duplicate Opportunity per stranded item. That is precisely the debt `ost_merge_nodes` exists to pay off, so the sweep is currently rewarding the behaviour the merge tool was built to undo. This pass declined to do it and left all eighteen stranded, which is why the number went up rather than down.
 
 One thing this census does not establish: that every one of the eighteen was *well* filed. It counts citations, not judgement. Whether the filing was accurate is what "Have a human review a pass's acknowledgements and count how many were avoidance" is for, and that remains unrun.
+
+## History
+- 2026-08-05 unlinked [[Have a human review a pass's acknowledgements and count how many were avoidance]] — moved under [[A pass that can dismiss its own backlog will not use it to avoid work that mattered]] — the belief this test measures now has a node of its own

@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Do written reasons get challenged, or only read]]
+[[Written reasons get argued with, rather than read and accepted]]
 
 **The mechanism:** the agent emits one ordered ledger covering every rankable node in the tree, not a single next-build pick, and the write is refused unless every row carries a written reason that cites at least one node title or evidence id. A row whose reason is missing, empty, or citation-free does not get a rank — it lands in an explicitly-named unranked tail, so a gap in the reasoning shows up as a gap in the list rather than as a confident position.
 
@@ -24,3 +24,6 @@ evidence: assertion
 The spec asserts the refusal that is the whole mechanism: a row whose reason is missing, empty, or cites no node title or evidence id is refused a rank and lands in the explicitly-named unranked tail. A gap in the reasoning has to show up as a gap in the list. Red today because no ledger and no write-boundary refusal exist.
 
 **What a green here does not settle, and the node already says it.** Authored prose is unfalsifiable. The spec can force every row to carry a citation; it cannot tell whether the sentence attached to that citation is true, and an agent can write a fluent justification for very nearly any order. The defence on offer is that a written reason is *challengeable* — and whether reasons actually get challenged rather than skimmed is the assumption, measurable only by watching an operator, not by a passing suite.
+
+## History
+- 2026-08-05 unlinked [[Do written reasons get challenged, or only read]] — moved under [[Written reasons get argued with, rather than read and accepted]] — the belief this test measures now has a node of its own

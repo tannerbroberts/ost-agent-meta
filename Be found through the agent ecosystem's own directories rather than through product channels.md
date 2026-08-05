@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[List in two directories and measure installs against how far the listing was scrolled]]
+[[The agent directories carry enough traffic to be a distribution channel worth packaging for]]
 
 Distribute where agents are already installed from — plugin registries, MCP server directories, skill marketplaces. The person who finds it is not searching for a discovery tool; they are browsing what their agent can be given, and this is one of the things. Discovery happens at the moment they are already deciding to add a capability.
 
@@ -26,3 +26,6 @@ The spec asserts what this node says matters more than the pitch — that the th
 **This is red against today's reality, and the failure is already recorded elsewhere in this tree.** [[A first-run branch that walks a stranger to a vault in one question]] notes that the plugin's MCP server runs `npx -y ost-agent@latest mcp`, which resolves to **0.9.0** — the release that refuses to start outside a vault. So the install path this whole distribution strategy depends on is currently broken for exactly the person it is aimed at: a browsing stranger who adds the capability and gets the failure two later releases already removed. That is a stronger red than a missing file, and it is arguably a build item rather than a test item.
 
 **What a green here does not settle.** Everything the node is actually unsure about. Whether these directories have traffic, whether their ranking rewards anything an author controls, whether a browsing low-intent visitor converts, and whether the channels exist in a year — none is a property of the code. The listing-and-scroll measurement is the humans-and-market test, and a working install path is its precondition, not its answer.
+
+## History
+- 2026-08-05 unlinked [[List in two directories and measure installs against how far the listing was scrolled]] — moved under [[The agent directories carry enough traffic to be a distribution channel worth packaging for]] — the belief this test measures now has a node of its own

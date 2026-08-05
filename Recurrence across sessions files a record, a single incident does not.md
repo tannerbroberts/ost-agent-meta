@@ -5,7 +5,7 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Replay the same 29 records through the recurrence rule and count what files]]
+[[Repetition across sessions is a good enough filter for what deserves a record]]
 
 Make repetition the filing criterion. A one-off error is counted and held; the same error shape appearing across several distinct sessions is what creates an evidence record, and the record carries the count and the span rather than a single instance.
 
@@ -28,3 +28,6 @@ Green means the rule, replayed over the same 29 harvested records the surface ru
 **Why the same 29 records.** The candidate this competes with was scored on that corpus, so identical material is what makes the comparison mean anything. What decides between them is not the raw hit rate but whether this rule keeps the patterns the other discards while still filing few enough records that a pass can read them all.
 
 **What green does NOT settle.** Repetition is a proxy for significance, and the proxy is the assumption. A failure that happened once and mattered enormously is filed by neither rule, and nothing in this command would show it.
+
+## History
+- 2026-08-05 unlinked [[Replay the same 29 records through the recurrence rule and count what files]] — moved under [[Repetition across sessions is a good enough filter for what deserves a record]] — the belief this test measures now has a node of its own

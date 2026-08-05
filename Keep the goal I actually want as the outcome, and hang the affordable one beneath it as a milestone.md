@@ -5,7 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Leave the real goal at the root for a quarter and count what actually laddered up to it]]
+[[A real goal left at the root keeps attracting work, rather than being ignored in favour of the milestone]]
 
 The root keeps the goal that is actually wanted, even when nothing beneath it is reachable this quarter. The affordable goal moves down a level and is labelled as what it is: a milestone chosen because it can be charted, sitting under the thing it is supposed to serve. The distance between them stays visible instead of being resolved by quietly replacing one with the other.
 
@@ -26,3 +26,6 @@ npx vitest run test/ost/milestone-under-outcome.test.ts
 ```
 
 Green means: the tree can hold both goals at once — a milestone attaches under the Outcome, is distinguishable from a category bucket, and the rollup reports per-milestone, so "what laddered up" is computed rather than tallied by hand. Green does **not** answer the test: that needs a quarter to elapse and a human to read what the count came to.
+
+## History
+- 2026-08-05 unlinked [[Leave the real goal at the root for a quarter and count what actually laddered up to it]] — moved under [[A real goal left at the root keeps attracting work, rather than being ignored in favour of the milestone]] — the belief this test measures now has a node of its own

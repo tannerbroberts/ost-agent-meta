@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'ported:ost-agent-vault@57c3745 — agent-ideation'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
-[[Paper-map prerequisite pairs among the sixty existing tests]]
+[[Real prerequisite relationships exist between the tests already in the tree]]
 
 **The idea.** Let one assumption test declare that another must be answered first, and let ordering fall out of the resulting graph rather than out of anyone's opinion. A strict OST is a tree; real discovery has cross-branch dependencies, and the tetrix instance demonstrated one spanning an entire top-level opportunity.
 
@@ -23,6 +23,7 @@ created: '2026-07-25'
 ## History
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Paper-map prerequisite pairs among the sixty existing tests]] — moved under [[Real prerequisite relationships exist between the tests already in the tree]] — the belief this test measures now has a node of its own
 
 ## Definition of done
 

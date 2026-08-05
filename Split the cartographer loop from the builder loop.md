@@ -1,12 +1,12 @@
 ---
 type: Solution
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-opp-two-loop-split.md'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[Can a builder work from the map without ideating]]
+[[A builder can work from the map without ideating on it]]
 
 Two loops with separate mandates. The cartographer reads evidence, maintains the map, and never writes code. The builder reads the map, builds, and files what it learns back into the cartographer's inbox as evidence. Hunger lives in the cartographer; hands live in the builder.
 
@@ -20,3 +20,4 @@ Status: agent-originated candidate; this is the founder's original solution-shap
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Can a builder work from the map without ideating]] — moved under [[A builder can work from the map without ideating on it]] — the belief this test measures now has a node of its own
