@@ -18,3 +18,15 @@ Whatever creates a workspace leaves a small machine-readable record of what it s
 **The failure mode to test for.** A manifest is a claim about state, not the state itself, and claims go stale — somebody runs `git init` by hand and the file now lies. A stale manifest is worse than no manifest, because a probe that finds nothing degrades to asking, while a reader that believes a wrong manifest proceeds confidently. Any version of this needs an answer for staleness before it is worth building.
 
 _Agent-ideated, unvalidated — one of three competing candidates under this opportunity, for a human to compare rather than adopt._
+
+## Definition of done
+
+[[Count how many captured failures happened in a directory this tool actually scaffolded]]
+
+```
+npx vitest run test/runner/scaffold-manifest-coverage.test.ts
+```
+
+Red today: nothing in the repository records what a scaffolder initialised, so there is no manifest to check coverage against. Green when at least three of the four captured exit-128 failures are shown to have occurred in tool-created directories.
+
+**What this does not settle.** Staleness, which is this candidate's real hazard — a manifest is a claim about state, not the state, and a reader that believes a wrong one proceeds confidently where a probe that finds nothing degrades to asking. Nothing in four captured sessions can show that; it needs a period of real use.
