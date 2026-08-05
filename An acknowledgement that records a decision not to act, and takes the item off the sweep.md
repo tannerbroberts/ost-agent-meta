@@ -55,3 +55,21 @@ Evidence class: a census of this vault's own state, taken by the pass that hit t
 
 ## Issues
 - 2026-08-05 This solution's absence was the binding constraint on the 2026-08-04 unattended pass, and the pass can now say how much it cost. Twenty-four evidence items were read in full. Two revealed needs not already on the tree and became Opportunity nodes. The other twenty-two corroborated needs the tree already holds — the eight-session `sleep`-then-poll refusal, four more stale-Edit failures, eight more blocking clarifying questions, nine more shell-syntax failures, and two usage traces that put a measured number on an existing node's title. That corroboration was recorded, on the five nodes it belongs to, and it made those nodes materially stronger. But there is no way to represent it in the sweep: `ost_next_work` computes "mapped" from node `source:` frontmatter, so an item is cleared only by a node created to cite it. The pass's choices were therefore to duplicate twenty-two needs the tree already has, or to leave twenty-two items outstanding forever. It chose the second. The consequence is that `done` cannot become true on this vault by any amount of correct work, and every future pass will re-read the same twenty-two records to reach the same conclusion — which is itself an instance of the need this node's parent describes. Worth noting for whoever builds this: the acknowledgement wants to record *which existing node* the item was counted toward, not merely that it was dismissed. "Corroborates [[X]]" and "no genuine need" are different verdicts, and only the first should be able to strengthen a node's evidence later. Flagged for human review — the pass cannot build this, and cannot clear the backlog without it.
+
+## Definition of done
+
+[[Have a human review a pass's acknowledgements and count how many were avoidance]]
+
+`npx vitest run test/ost/acknowledge-evidence.test.ts`
+
+The spec asserts the verb the surface lacks, in the sharpened form the section above argues for rather than the original one: an acknowledged item leaves `unmappedEvidence` without being deleted and without being mapped, its reason persists append-only, and `corroborates [[X]]` is stored as a **distinct verdict** from "no genuine need" — so only the first can strengthen a node's evidence later. Red today because no acknowledge verb exists and mapping is carried solely by node `source:` frontmatter.
+
+**What a green here does not settle, and it is this node's own central worry.** That acknowledgement is indistinguishable from avoidance at the moment it is used. A spec can prove the record is durable, attributed and correctly typed; it cannot tell whether the reason written into it was honest. A pass that can dismiss its own backlog will eventually dismiss something that mattered and will write a reason that sounds entirely reasonable — which is exactly why the humans-required review, and the question of who may acknowledge at all, stay off this instrument.
+
+## The 2026-08-05 sweep hit the same wall, and the number moved slightly
+
+Twenty items, read in full. **Three** revealed needs the tree did not already hold and became Opportunity nodes sourced at the evidence — the cross-session persistence of a correction, tests being instrumented but never run, and a foreign surface's dialect being discoverable only by violating it. The other seventeen corroborate needs already here.
+
+Against the prior passes' 23-items-2-novel and 24-items-2-novel, that is the third consecutive reading of the same shape: **the novel fraction is small, non-zero, and roughly constant.** It is worth recording because it bears directly on the ordering this node's previous section proposed. If the novel rate were zero, the additional-`source` route would be a complete answer. It is not zero — around one item in seven still deserves its own node — so whatever gets built has to leave room for the pass to say "this one is new" as easily as "this one corroborates [[X]]", and must not make the second so much cheaper than the first that a pass stops looking.
+
+This pass also confirmed the mechanism directly rather than by inference: it appended a corroboration section citing an evidence id verbatim, re-ran `ost_next_work`, and the item was still listed as unmapped. Prose citing an id does not map it; only `source:` frontmatter does.
