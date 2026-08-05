@@ -70,3 +70,19 @@ _Source: `TRANSCRIPT:e42cd03d-b2a4-44ba-989a-9e01cc368f77` — observed behavior
 - 2026-08-05 unlinked [[A run declares the tools it needs and halts loudly when they are absent]] — re-parented under [[A run never states which tools it had, so a degraded pass reads like a full one afterwards]] — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked [[Every run records the tool surface it actually had]] — re-parented under [[A run never states which tools it had, so a degraded pass reads like a full one afterwards]] — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked [[A degraded pass has its own name and is not allowed to report a clean run]] — re-parented under [[A run never states which tools it had, so a degraded pass reads like a full one afterwards]] — this solution answers that need, not the categories beside it
+
+## Observed on the unattended surface itself — 2026-08-05 sweep
+
+This pass hit the node's own claim while trying to do its assigned work, and the instance is sharp enough to be worth the record.
+
+The sweep's brief names exactly two legitimate ways to clear a solution out of `solutionsMissingInstruments`: attach a runnable `instrument`, or — when the test can only be answered by real people — `ost_flag_humans_required` it. The brief is explicit that the second is "a legitimate outcome and not a skipped step."
+
+**`ost_flag_humans_required` is not granted on this surface.** The call was made and returned a permission refusal, not a tool error. `ost_set_instrument`, `ost_set_status`, `ost_append_to_node` and `ost_annotate` all succeeded in the same pass, so this is one tool missing from an otherwise working set.
+
+**What that does to the bucket.** Of the 25 solutions this pass could see, roughly eleven rest on tests that are irreducibly human — cold offers to outside teams, willingness-to-pay probes, story-based interviews, asking ten buyers how they price something. Those must never get an instrument; inventing a spec for "will a stranger accept an offer" would be exactly the fabrication the red-now rule exists to prevent. Their only correct disposition is the lane, and the lane is the one thing this surface cannot set. **They are therefore uncloseable by the unattended loop by construction**, and will report as debt on every future pass regardless of how well that pass does its job.
+
+**Why this is this node's evidence and not just a config complaint.** The claim here is that the same agent gets a different tool surface depending on where it runs, and that a degraded surface is not visible as degraded. Both halves are present. The attended skill path lists `ost_flag_humans_required` among its tools; this path has the same brief, the same instructions about when to use it, and not the tool. Nothing in the sweep's own output says so — `ost_next_work` reports the work as outstanding either way, and a reader of the resulting tree cannot tell "this pass declined to flag" from "this pass could not."
+
+**For a human.** Either grant `ost_flag_humans_required` to the unattended loop — it is the one call on this surface that can only ever *remove* work from compute's reach, which is why the skill hands it to the agent rather than reserving it — or accept that the human-lane share of `solutionsMissingInstruments` is permanent debt and stop counting it as outstanding work. The middle state, where the loop is asked each hour to do something it has no tool for, spends a firing's attention rediscovering the same wall.
+
+_Observed behaviour of this product's own run surface, 2026-08-05 unattended sweep. Grounds usability, not demand._
