@@ -4,6 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check the instrument allowance holds at the floor while no result has ever been recorded]]
 
 **The mechanism: backpressure.** A pass may attach instruments only up to some multiple of the results actually recorded since the last one. With zero results ever recorded, the allowance is a small fixed floor — enough to keep working, not enough to instrument another eighty-eight in a day. When results start being recorded, the allowance opens up in proportion.
 
