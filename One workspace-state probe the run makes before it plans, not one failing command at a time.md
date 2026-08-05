@@ -18,3 +18,15 @@ The reader pays. That is this candidate's defining property and the axis it shou
 **Relationship to existing work.** This is the state-shaped cousin of the workspace-map candidates under [[I probe for files that were never there, because nothing hands me the layout of the workspace I am in]]. Those answer "what is here"; this answers "what is true of it". Worth checking with a human whether they should be one mechanism — the 2026-08-05 pass judged them distinct enough to sit apart, since a map that listed every file in the captured sessions would still not have said the folder was not a repository.
 
 _Agent-ideated, unvalidated — one of three competing candidates under this opportunity, for a human to compare rather than adopt._
+
+## Definition of done
+
+[[Replay the captured environment failures against a fixed set of state questions]]
+
+```
+npx vitest run test/runner/workspace-state-probe-coverage.test.ts
+```
+
+Red today: nothing enumerates workspace state questions, and no probe exists to answer them. Green when at most six questions cover every captured environment failure and none needs a seventh.
+
+**What this does not settle.** Coverage is not cost — six questions that are cheap to answer and six that each cost a subprocess are different products, and this counts only the questions. Nor does it establish that anyone wants a probe; it establishes that one could be small enough to be worth wanting.
