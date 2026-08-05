@@ -4,6 +4,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Check the handed-back skeleton parses clean against the same parser that accepts submissions]]
 
 **The mechanism: start from something valid.** The surface hands back a working skeleton in its accepted dialect — the required preamble, one example of each construct, and the shape a complete artifact takes. The composer edits rather than originates, so the dialect is established by the starting point instead of by anyone's recall.
 
