@@ -18,3 +18,17 @@ Borrow the shape the vault already uses for concurrent writes and point it at co
 **Compared with its siblings.** "Carry across every section the caller did not supply" makes the mistake unrepresentable and asks nothing of the caller, but also removes the ability to delete. This keeps deletion available and makes it deliberate, at the price of assuming the caller will read a refusal and act on it — an assumption the vault's own census of thirteen sessions rediscovering one refusal should make nobody comfortable. "Report what the write changed" gives up on prevention entirely in exchange for covering losses in tools nobody has audited.
 
 Unvalidated — proposed by the 2026-08-05 unattended pass, from a first-party reproduction of the `## History` loss recorded on the opportunity above. For human review.
+
+## Definition of done
+
+"Check the guard refuses a rewrite that omits a stored section and permits one that accounts for it"
+
+```
+npx vitest run test/mcp/edit-node-unacknowledged-section-guard.test.ts
+```
+
+Green means both directions hold: a rewrite omitting a stored section from both `prose` and `dropping:` is refused with the section named, and the same rewrite carrying `dropping: ["## History"]` succeeds. Red today on both counts — the `dropping:` argument does not exist, and the omit case currently succeeds silently, which is the 2026-08-05 observation that put this branch in the tree.
+
+What green does **not** buy, and a builder should not read it as bought: the false-positive rate on real rewrites. That is what this solution actually turns on, it needs a replay of recorded edits with someone judging which were legitimate, and it is a separate test.
+
+Named in plain text rather than as a wikilink: the test's one backlink belongs to its parent assumption, "A guard can catch the unacknowledged drop without refusing honest rewrites".
