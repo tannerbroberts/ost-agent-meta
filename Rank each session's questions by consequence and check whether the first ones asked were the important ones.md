@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/question-budget-ordering.test.ts` — No test files found, exiting with code 1
+- 2026-08-05 **green** (exit 0) `npx vitest run test/loop/question-budget-ordering.test.ts` — NOTE: THE ROUNDING DECIDES THIS. "Half" of an odd-length session is not a whole number; rounded down the corpus scores 2/4 and the threshold fails.
