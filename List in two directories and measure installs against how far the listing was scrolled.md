@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 25 installs across the two in 8 weeks, with at least 5 running it
   more than once.
+instrument: npx vitest run test/release/registry-install-path.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that these directories carry real traffic. They are new, their
 **What it will not cover.** Placement is opaque and a poor listing may fail for reasons unrelated to demand. Installs also overstate interest badly in browse-driven channels, which is why the second-run count matters more than the first number.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/release/registry-install-path.test.ts — Asserts the claim this node rests its whole advantage on — that the thing is one command away from working inside a tool the buyer already runs: each registry manifest's documented install command must resolve to a version that starts outside a vault. Red against today's reality, not a missing file: the plugin's MCP server runs `npx -y ost-agent@latest mcp`, which resolves to 0.9.0 — the release that refuses to start outside a vault — so a stranger arriving through a directory today hits a failure two releases have already removed.
