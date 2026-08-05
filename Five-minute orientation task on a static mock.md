@@ -1,9 +1,9 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
+evidence: assertion
 ---
 #AssumptionTest #unvalidated #usability #evidence/assertion
 
@@ -19,3 +19,6 @@ Proposed by the agent — to be run by a human with real observers. No results r
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-08-05 2026-08-05 unattended sweep — triaged as humans-required, lane not settable from this surface. Its parent solution "Rendered tree view with diff since last visit" sits in `solutionsMissingInstruments`, and no instrument belongs here: the measurement is strangers being observed — "Give five people two tasks ... Watch silently", "to be run by a human with real observers" — with a threshold (≥3 of 5 answer both tasks correctly within 3 minutes, unaided) that only exists relative to real observers. `ost_flag_humans_required` was refused on this sweep (not granted), so a human should set the lane with `ost-agent lane --set`. Recorded so this is not re-triaged next pass.
