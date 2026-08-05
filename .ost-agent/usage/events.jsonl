@@ -1690,3 +1690,4 @@
 {"ts":"2026-08-05T23:51:21.010Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":745,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Check the guard refuses an unaccounted-for section drop and permits an acknowledged one.md"]}
 {"ts":"2026-08-05T23:51:23.835Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":773,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea","wrote":["Check every dropped section is reported with enough to restore it.md"]}
 {"ts":"2026-08-05T23:51:38.406Z","tool":"ost_merge_nodes","ok":true,"ms":109,"surface":"mcp","argBytes":3267,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
+{"ts":"2026-08-05T23:51:50.111Z","tool":"ost_merge_nodes","ok":true,"ms":52,"surface":"mcp","argBytes":2922,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
