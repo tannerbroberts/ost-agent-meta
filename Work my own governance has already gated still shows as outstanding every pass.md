@@ -27,6 +27,19 @@ Distilled from `INBOX:2026-07-25-friction-ost-next-work-demands-solutions-under-
 
 ## Issues
 - 2026-08-02 Duplicate of a prior disposition — flagged by the pass that created it, 2026-08-02. The Outcome's ledger for the twenty-passes cycle 2 (2026-07-25) records "quota-vs-gate friction → MAPPED: appended to the same node (mechanism 3)", meaning this evidence is already carried on "The pass never says it is done, so I can't tell when to stop paying for compute" — which is this node's parent. So parent and child now represent the same evidence at two levels. This pass created the node because the append had left the item showing as unmapped. Worth a human's attention beyond the merge question: this node's subject is the governance gating that the same prioritization pass established, and a pass that cannot see those gates keeps being asked to fill quotas the gates forbid — which is what happened here.
+- 2026-08-05 **A second, structural instance of this — measured during the 2026-08-05 unattended pass.**
+
+`underservedOpportunities` counts an opportunity as needing solutions when it has fewer than three **direct** `#Solution` children. It does not distinguish that from an opportunity whose solutions correctly live one layer down. So every category bucket and every mid-level parent opportunity is reported as outstanding work, permanently, and no amount of correct work removes it.
+
+The proof is on this vault's own tree and does not require a judgement call. "The same refusal is rediscovered every session, because nothing carries the lesson forward" is listed as having 0 solutions and needing 3. Its `## History` records why: on 2026-08-05 a prior pass deliberately unlinked its three solutions and re-parented them under its child, "A correction lives only as long as the session it was given in", with the reason *"this solution answers that need, not the categories beside it."* The tree was made **more** correct, and the sweep read that as a regression from three solutions to zero.
+
+Scale, from this pass's own numbers: of the 27 opportunities reported underserved, **17 are the Outcome's own category buckets** — the layer the `outcome-files-categories` invariant requires to exist and whose children are opportunities by definition. They can never have three direct solutions without violating the shape another gate enforces. The two gates are asking for opposite things, and a pass that satisfied the sweep would fail `check`.
+
+The cost is exactly this node's claim. An unattended pass is instructed to handle every bucket the sweep returns; the honest response to 17 of these 27 is to do nothing; and there is no way to record "correctly empty" that the next pass will see. So each pass re-derives the same finding, or — worse, and this is the failure mode with teeth — ideates three generic solutions under a category label to make the number go down, which is how a tree acquires solutions nobody can build under needs nobody has.
+
+**Two shapes of fix, for a human.** Either count a parent opportunity as served when its children collectively carry the solutions (roll the count down the subtree), or let the layer be declared — a bucket or parent marked as such is exempt, the way `deferred` already exempts a node from the duplicate scan. The second is narrower and matches machinery that already exists in this tool.
+
+Recorded here rather than acted on: making the sweep stop asking is a change to what counts as done, which is governance, not maintenance.
 
 ## The same trap, now confirmed in a second bucket — 2026-08-05 unattended sweep
 
