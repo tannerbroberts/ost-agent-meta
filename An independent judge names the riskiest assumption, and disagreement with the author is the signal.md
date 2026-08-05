@@ -24,3 +24,17 @@ npx vitest run test/eval/riskiest-assumption-judge.test.ts
 ```
 
 Green means a judge run independently of the author picks the same riskiest assumption as a committed labelled set often enough to be worth listening to. Note what green does *not* mean here, because this node is unusually easy to misread: the value in this solution is the *disagreement*, so a judge that agrees perfectly has proved it can be automated and simultaneously that it carries no signal. The command settles feasibility only, and the labelled set it scores against is itself somebody's opinion.
+
+## Definition of done — the second half
+
+The section above instrumented the feasibility question for a single judge. This node's other test was still prose, which is why the solution kept reporting as un-instrumented: one runnable command under a solution with two tests leaves the second one unanswerable by anyone but a person finding the time.
+
+[[Have three independent judges nominate for ten solutions and see whether they agree with each other]]
+
+```
+npx vitest run test/eval/judge-panel-agreement.test.ts
+```
+
+Red today because nothing runs a panel. `test/eval/riskiest-assumption-judge.test.ts` scores one judge against a labelled set; there is no code that puts several judges over the same solution and compares their nominations, so there is no agreement number to assert. Green means at least 2 of 3 judges name the same assumption on at least 6 of 10 solutions.
+
+Read the two commands together, because they measure opposite things and this node is easy to misread. The first asks whether a judge can be automated at all. The second asks whether independent judges converge — and the value this solution claims is in the *disagreement*, so a panel that agrees on everything has proved it is mechanisable and simultaneously that it adds nothing to the author's own nomination. Neither command settles correctness: three judges sharing training can converge on the same wrong assumption, and no exit code here distinguishes that from convergence on the right one.
