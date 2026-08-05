@@ -81,3 +81,11 @@ Two of twenty-two sessions read this pass recorded a concurrent writer directly,
 The distinction worth preserving: this node is about the *damage to shared state*, and "The file changed after I read it, and the failed edit is how I find out" is about the *damage to a single call issued against an expired read*. `424486ec` is the session where both happened at once — the failed edits were the symptom, the second writer was the cause — which is why it appears in both places.
 
 _Source: `TRANSCRIPT:424486ec-3489-4b53-8e2b-012232d221ab` and `TRANSCRIPT:06eba571-9780-458a-b384-da5abe101e6f` — observed behavior from the agent's own transcripts. Grounds usability, not demand. Note that both concern the source repository rather than a vault; whether that generalises to two agents on one vault is an inference a human should rule on, not a fact these records establish._
+
+## Observed corroboration — 2026-08-05 sweep
+
+`TRANSCRIPT:424486ec-3489-4b53-8e2b-012232d221ab` caught this happening rather than being predicted. In one session the agent hit two `Edit` failures reading `String to replace not found in file`, then stopped and asked the operator to confirm what it had inferred: another process was writing to the repo at that moment — HEAD had moved to a merge commit, roughly fourteen source files carried uncommitted changes touched seconds earlier, and a symbol existed that had not existed when the file was read.
+
+Two things in that sequence are worth keeping. First, the collision announced itself only as a *failed edit* — the same error text a stale read produces when nobody else is involved, which is why the agent needed a second signal (the git state) to tell the two apart at all. Second, the agent could not resolve it alone and spent a clarifying question on it, so a concurrent writer converted an unattended run into a blocked one. That links this opportunity to "The whole loop waits on one human command, and nobody is told it is waiting" without either being a duplicate of the other: this is the cause, that is the cost.
+
+Observed behavior from the agent's own session, so it grounds usability and the collision's existence — not how often two *operators* would collide, which is still unmeasured.
