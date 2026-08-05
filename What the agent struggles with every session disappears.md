@@ -6,11 +6,9 @@ created: '2026-07-24'
 evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
-[[Post-session transcript harvester]]
-[[In-the-moment friction events filed by the agent]]
-[[Mine tool errors and retries from run logs]]
 [[The friction that matters leaves no error behind]]
 [[The same refusal is rediscovered every session, because nothing carries the lesson forward]]
+[[The friction I hit leaves no record behind, so nothing can be learned from it]]
 
 **The need (customer's voice):** "The agent gets confused, asks the same question again, stalls on the same step — and all of that is thrown away when the session ends. The clearest usage data this product has ever produced is being deleted every day."
 
@@ -24,6 +22,9 @@ Evidence: `INBOX:2026-07-24-opp-transcript-ingestion.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Post-session transcript harvester]] — re-parented under [[The friction I hit leaves no record behind, so nothing can be learned from it]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[In-the-moment friction events filed by the agent]] — re-parented under [[The friction I hit leaves no record behind, so nothing can be learned from it]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Mine tool errors and retries from run logs]] — re-parented under [[The friction I hit leaves no record behind, so nothing can be learned from it]] — this solution answers that need, not the categories beside it
 
 ## Issues
 - 2026-07-25 Mis-parent flag (2026-07-24 review): the node's own caveat concedes dogfood friction must not substitute for the outside-user evidence its parent ('I can't tell if anyone outside my own head wants this') is about — a child that explicitly does not deliver the parent's need. Proposed reparent to an evidence-channel/instrumentation row; human to confirm.

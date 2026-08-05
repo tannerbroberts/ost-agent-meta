@@ -1,15 +1,13 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-opp-stakeholder-progress-view.md'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
-[[Push digest where stakeholders already are]]
-[[Rendered tree view with diff since last visit]]
-[[Ask-anything conversational status]]
 [[Nothing points from my project to the vault that maps it]]
+[[Nothing brings the tree's state to me, so staying current means going and reading it]]
 
 **The need (customer's voice):** "I want to know where this thing stands — what it learned, what changed, what it's about to do — without opening a vault, learning a graph view, or reading Markdown files I didn't write."
 
@@ -23,3 +21,6 @@ Evidence: `INBOX:2026-07-24-opp-stakeholder-progress-view.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Push digest where stakeholders already are]] — re-parented under [[Nothing brings the tree's state to me, so staying current means going and reading it]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Rendered tree view with diff since last visit]] — re-parented under [[Nothing brings the tree's state to me, so staying current means going and reading it]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Ask-anything conversational status]] — re-parented under [[Nothing brings the tree's state to me, so staying current means going and reading it]] — this solution answers that need, not the categories beside it

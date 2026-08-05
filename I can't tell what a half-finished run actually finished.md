@@ -6,10 +6,8 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
-[[Every recorded step carries the directory and argv it actually ran with]]
 [[A recorded failure can't be reproduced, because the record omits where it ran]]
-[[A run journal written as it goes, so an interrupted run reads as a list of finished steps]]
-[[Reconstruct what finished from the commit history, so no run has to be trusted to report]]
+[[An interrupted run leaves no trustworthy account of what it completed]]
 
 When a run is stopped, backgrounded, or dies mid-work, nothing marks where it got to. The next run — or the operator — cannot tell finished work from abandoned work, so it either redoes, skips, or guesses.
 
@@ -33,3 +31,8 @@ Cheapest fix: `loop step` stores `cwd` (and arguably the resolved argv) alongsid
 `loop step --phase build -- npx vitest run` was run from the home directory instead of the repo. vitest collected all four repos and exited 1. The health record now holds an exit-1 against a command that passes in its intended cwd, and the filing's own summary is the sharpest statement of this opportunity yet written: **"The record is honest about the exit code and silent about the one variable that explains it."**
 
 This is direct confirmation of the candidate already sitting under this node, [[Every recorded step carries the directory and argv it actually ran with]] — the failure occurred, the record was kept, and the record could not be used to reproduce or attribute it. It does not validate that solution (no test has been run, and cwd is one of several variables that could have been the missing one), but it moves the solution from inferred-need to observed-need and is the concrete case any assumption test under it should have to reproduce.
+
+## History
+- 2026-08-05 unlinked [[Every recorded step carries the directory and argv it actually ran with]] — re-parented under [[An interrupted run leaves no trustworthy account of what it completed]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[A run journal written as it goes, so an interrupted run reads as a list of finished steps]] — re-parented under [[An interrupted run leaves no trustworthy account of what it completed]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Reconstruct what finished from the commit history, so no run has to be trusted to report]] — re-parented under [[An interrupted run leaves no trustworthy account of what it completed]] — this solution answers that need, not the categories beside it

@@ -6,10 +6,8 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #ported-from-ost-agent-vault #evidence/assertion
-[[A standing Next Build node the agent rewrites every pass]]
-[[Prerequisite edges between assumption tests]]
-[[Rank every node by how many blocked tests one build would unblock]]
 [[Show me the whole priority order, and why each item sits where it does]]
+[[Nothing names the one node to pick up next, so choosing is work before the work]]
 
 **Customer need (operator's perspective):** "I poured compute into this and came back to forty nodes that all say `unvalidated`. I believe them. I still don't know what to do on Monday morning."
 
@@ -38,6 +36,9 @@ _Provenance: direct observation of a second OST-Agent instance's vault and git h
 ## History
 - 2026-07-24 evidence: (none) → observed — retro-labeled: recorded-as-it-happened incident in this vault / tetrix-ost with commit-level provenance
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
+- 2026-08-05 unlinked [[A standing Next Build node the agent rewrites every pass]] — re-parented under [[Nothing names the one node to pick up next, so choosing is work before the work]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Prerequisite edges between assumption tests]] — re-parented under [[Nothing names the one node to pick up next, so choosing is work before the work]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Rank every node by how many blocked tests one build would unblock]] — re-parented under [[Nothing names the one node to pick up next, so choosing is work before the work]] — this solution answers that need, not the categories beside it
 
 ## Issues
 - 2026-07-25 Mirror flag: near-duplicate pain with 'Nothing kills a candidate, so every idea I have ever had is still alive' — see that node's annotation. Merge-candidate pair for human decision (2026-07-24 review).

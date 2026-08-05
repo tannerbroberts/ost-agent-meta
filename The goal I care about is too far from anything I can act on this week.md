@@ -6,10 +6,8 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #founder-theory #evidence/assertion
-[[Nested sub-outcomes between the distant goal and the opportunity space]]
-[[Contribution estimates that ladder a local metric to the distant goal]]
-[[Route view showing the shortest credible path from here to goal-achieved]]
 [[I aim at a goal I can afford to chart, not the one I actually want]]
+[[Nothing connects this week's work to the goal, so I can't tell if I am moving toward it]]
 
 **The need (customer's voice):** "My real goal is something like '10,000 daily active users.' Nothing I could do tomorrow moves that number visibly, so I finish a week with no idea whether I got closer or went nowhere. The thing I *can* move — 'landing page dropoff to 5%' — I can't show ladders up to the goal I actually have."
 
@@ -25,3 +23,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Nested sub-outcomes between the distant goal and the opportunity space]] — re-parented under [[Nothing connects this week's work to the goal, so I can't tell if I am moving toward it]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Contribution estimates that ladder a local metric to the distant goal]] — re-parented under [[Nothing connects this week's work to the goal, so I can't tell if I am moving toward it]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Route view showing the shortest credible path from here to goal-achieved]] — re-parented under [[Nothing connects this week's work to the goal, so I can't tell if I am moving toward it]] — this solution answers that need, not the categories beside it

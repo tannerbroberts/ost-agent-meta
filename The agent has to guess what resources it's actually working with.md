@@ -7,14 +7,12 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[The same agent has a different tool surface on every surface I run it on]]
-[[A declared resource manifest the planner must cite before it ranks anything]]
-[[Constraint profile mined from what actually blocked the loop]]
-[[Expiring resource questions asked at a fixed cadence]]
 [[Two thirds of my calls failed, and each one only told me after I made it]]
 [[I probe for files that were never there, because nothing hands me the layout of the workspace I am in]]
 [[I call a symbol I never wrote, and a whole-project typecheck at the end of the batch is what tells me]]
 [[I run git in a folder that was never initialised, and exit 128 is how I learn it]]
 [[I compose a hundred and seventy lines before the surface tells me it does not accept that dialect]]
+[[Nothing declares what I have to work with, so every plan is built on a guess]]
 
 **The need (customer's voice):** "The OST-Agent shouldn't have to guess what its resources are." (Founder, verbatim, 2026-07-25.) The founder's own examples, kept in their words because each names a different resource class:
 - "If a project is in the middle of a seed round, and has a million dollars it needs to spend intelligently, THAT'S WORTH KNOWING!!!" — capital, and its deployment deadline.
@@ -36,6 +34,9 @@ Evidence: founder statement in conversation, 2026-07-25.
 
 ## History
 - 2026-07-25 evidence: (none) → assertion — founder-stated need, verbatim examples preserved; no external party involved; floor rung per the ladder's rule.
+- 2026-08-05 unlinked [[A declared resource manifest the planner must cite before it ranks anything]] — re-parented under [[Nothing declares what I have to work with, so every plan is built on a guess]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Constraint profile mined from what actually blocked the loop]] — re-parented under [[Nothing declares what I have to work with, so every plan is built on a guess]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Expiring resource questions asked at a fixed cadence]] — re-parented under [[Nothing declares what I have to work with, so every plan is built on a guess]] — this solution answers that need, not the categories beside it
 
 ## Corroboration — session 0d27cebf (2026-08-02)
 

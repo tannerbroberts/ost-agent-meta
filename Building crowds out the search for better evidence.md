@@ -6,10 +6,8 @@ created: '2026-07-24'
 evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #reframed-from-solution-input #evidence/assertion
-[[Split the cartographer loop from the builder loop]]
-[[Evidence-debt gate before building]]
-[[Protected discovery budget]]
 [[The gate can tell me something was tested, not whether the risky thing was]]
+[[Discovery and building draw on the same budget, and building always wins]]
 
 **The need (customer's voice):** "Whenever there is code to write, everything else stops. Nobody is asking whether we are building the right thing — the asking loses to the building every single time, and I only notice months later."
 
@@ -26,6 +24,9 @@ Evidence: `INBOX:2026-07-24-opp-two-loop-split.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Split the cartographer loop from the builder loop]] — re-parented under [[Discovery and building draw on the same budget, and building always wins]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Evidence-debt gate before building]] — re-parented under [[Discovery and building draw on the same budget, and building always wins]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Protected discovery budget]] — re-parented under [[Discovery and building draw on the same budget, and building always wins]] — this solution answers that need, not the categories beside it
 
 ## Evidence (mapped 2026-07-25)
 

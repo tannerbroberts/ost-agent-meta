@@ -6,11 +6,9 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
-[[Budget against a same-run baseline instead of against the clock]]
-[[Assert on work units instead of milliseconds]]
-[[Re-run once and report the disagreement rather than the first result]]
 [[My performance gate is an absolute number, so a busy machine alone can fail it]]
 [[I hand-exclude the flaky test on every run, and the green that comes back never says what it skipped]]
+[[One red run is all I get, and nothing in it separates noise from a real break]]
 
 **The need (operator's voice):** "My gate went red. I cannot tell from the record whether I broke the product or whether the box was busy, so I have to re-run it by hand to find out — and if I stop bothering to check, the day it means something I will wave it through."
 
@@ -36,3 +34,8 @@ The pair matters more than either filing alone. A single flake is noise a reason
 - Same session also shows `(eval):1: == not found` and a refused `sleep 45` — both filed against other opportunities; only the 143 belongs here.
 
 Evidence class stays `assertion` for this node overall: the trace observes the agent's own run, not an outside user's.
+
+## History
+- 2026-08-05 unlinked [[Budget against a same-run baseline instead of against the clock]] — re-parented under [[One red run is all I get, and nothing in it separates noise from a real break]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Assert on work units instead of milliseconds]] — re-parented under [[One red run is all I get, and nothing in it separates noise from a real break]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Re-run once and report the disagreement rather than the first result]] — re-parented under [[One red run is all I get, and nothing in it separates noise from a real break]] — this solution answers that need, not the categories beside it

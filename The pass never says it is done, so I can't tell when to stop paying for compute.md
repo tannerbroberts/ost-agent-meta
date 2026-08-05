@@ -8,12 +8,10 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #ported-from-ost-agent-vault #evidence/assertion
-[[A Context node type for evidence that is true, useful, and not a customer need]]
-[[Idle down when a pass produces commentary instead of structure]]
-[[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]]
 [[Work my own governance has already gated still shows as outstanding every pass]]
 [[Nothing tells an honest loop to stop, so it either idles or invents work]]
 [[My loop spends its time waiting for a check it cannot subscribe to]]
+[[Evidence that fits no layer keeps coming back, so the pass never runs out of work]]
 
 **Customer need (operator's perspective):** "Set-it-and-forget-it means I need to know when forgetting it is still buying me something. Right now it never finishes, and I can't tell the difference between working and idling."
 
@@ -42,6 +40,9 @@ _Provenance: `.ost-agent/state/mapped.json` behaviour in this vault (confirmed i
 - 2026-07-24 provenance repaired: frontmatter source was corrupted to ">-" by the 57c3745 vault merge; restored from the body's provenance footnote (human-authorized repair).
 - 2026-07-24 evidence: (none) → observed — retro-labeled: recorded-as-it-happened incident in this vault / tetrix-ost with commit-level provenance
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
+- 2026-08-05 unlinked [[A Context node type for evidence that is true, useful, and not a customer need]] — re-parented under [[Evidence that fits no layer keeps coming back, so the pass never runs out of work]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Idle down when a pass produces commentary instead of structure]] — re-parented under [[Evidence that fits no layer keeps coming back, so the pass never runs out of work]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity]] — re-parented under [[Evidence that fits no layer keeps coming back, so the pass never runs out of work]] — this solution answers that need, not the categories beside it
 
 ## Two more mechanisms, observed live (2026-07-25, twenty-passes run)
 

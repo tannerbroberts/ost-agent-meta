@@ -6,12 +6,10 @@ created: '2026-08-02'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
-[[A run declares the tools it needs and halts loudly when they are absent]]
-[[Every run records the tool surface it actually had]]
-[[A degraded pass has its own name and is not allowed to report a clean run]]
 [[Having the vault is not the same as having the tools, and nothing points that out]]
 [[A scheduled run finds out its tools are missing only after it has started]]
 [[A helper I installed fails on my own machine's shell, and only running it says so]]
+[[A run never states which tools it had, so a degraded pass reads like a full one afterwards]]
 
 **The need (operator's voice):** "I scheduled the same maintenance task I run by hand. Locally it has the full tool surface; on the scheduled surface it silently has none — and I only found out by reading a friction note five passes later. I want a run to tell me what it can actually do before it spends an hour proving it can't."
 
@@ -67,3 +65,8 @@ _Source: `TRANSCRIPT:e42cd03d-b2a4-44ba-989a-9e01cc368f77` — observed behavior
 
 ## Issues
 - 2026-08-03 2026-08-03, unattended sweep (second of the day) — two more per-tool refusals on this surface, appended because they sharpen this node's claim rather than repeat it. `ost_check` was declined at the permission layer (fifth consecutive pass) and `ost_flag_humans_required` was declined (third consecutive pass), in a session where every write tool — `ost_create_node`, `ost_append_to_node`, `ost_annotate`, `ost_ingest_inbox`, `ost_next_work` — worked without a prompt. The pattern is now stable enough to state as a shape rather than an incident: on this surface the tools that cannot change anything are the ones refused, while the tools that can write are granted, and the pass cannot discover which is which until the call fails. The concrete cost this pass: two of the three assumption tests it created are compute-only by construction and both are reported under `needsHumans`, because the one call that would have labelled the third was refused and no lane could be written for any of them.
+
+## History
+- 2026-08-05 unlinked [[A run declares the tools it needs and halts loudly when they are absent]] — re-parented under [[A run never states which tools it had, so a degraded pass reads like a full one afterwards]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Every run records the tool surface it actually had]] — re-parented under [[A run never states which tools it had, so a degraded pass reads like a full one afterwards]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[A degraded pass has its own name and is not allowed to report a clean run]] — re-parented under [[A run never states which tools it had, so a degraded pass reads like a full one afterwards]] — this solution answers that need, not the categories beside it

@@ -6,11 +6,9 @@ created: '2026-07-24'
 evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
-[[Scheduled re-synthesis of the whole tree]]
-[[Staleness decay that surfaces nodes for refresh]]
-[[Attempt ledger of what was already tried]]
 [[A third of my calls go on re-asking what is outstanding]]
 [[The same blocked call comes back next session, because a correction only lives as long as the session it was given in]]
+[[The tree never revisits itself, so old nodes rot and tried things get tried again]]
 
 **The need (customer's voice):** "It is good at finishing a task today and useless at being smarter about my product six months from now. Every run starts over — I am the only thing carrying continuity, and I forget."
 
@@ -27,3 +25,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-compression.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Scheduled re-synthesis of the whole tree]] — re-parented under [[The tree never revisits itself, so old nodes rot and tried things get tried again]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Staleness decay that surfaces nodes for refresh]] — re-parented under [[The tree never revisits itself, so old nodes rot and tried things get tried again]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Attempt ledger of what was already tried]] — re-parented under [[The tree never revisits itself, so old nodes rot and tried things get tried again]] — this solution answers that need, not the categories beside it

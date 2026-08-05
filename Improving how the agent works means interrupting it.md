@@ -1,15 +1,13 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-opp-self-replacing-workflow.md'
 created: '2026-07-24'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #placement-ambiguous #evidence/assertion
-[[Versioned workflow with scheduled hot-swap and rollback]]
-[[Canary the changed process against the old one]]
-[[Agent proposes its own workflow changes for one-click adoption]]
 [[Improvements I ship never reach the agents already running]]
+[[A change I ship can only reach the agent by stopping it first]]
 
 **The need (customer's voice):** "Every time I want the agent to work a little differently, I have to stop it, change it, and start it over — and I lose the thread of what it was doing. So I put off improvements, and it keeps working the old way."
 
@@ -26,6 +24,9 @@ Evidence: `INBOX:2026-07-24-opp-self-replacing-workflow.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-05 unlinked [[Versioned workflow with scheduled hot-swap and rollback]] — re-parented under [[A change I ship can only reach the agent by stopping it first]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Canary the changed process against the old one]] — re-parented under [[A change I ship can only reach the agent by stopping it first]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Agent proposes its own workflow changes for one-click adoption]] — re-parented under [[A change I ship can only reach the agent by stopping it first]] — this solution answers that need, not the categories beside it
 
 ## Supporting evidence — observed friction (2026-07-24)
 

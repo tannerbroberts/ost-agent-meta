@@ -6,11 +6,9 @@ created: '2026-08-02'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
-[[A question queue the run banks and works around, instead of stopping at the fork]]
-[[A standing authority contract naming which classes of decision compute may take alone]]
-[[Take the fork, state the assumption, and price the reversal]]
 [[One migration stopped me seven times, because settling the policy once never settled the rest]]
 [[Answering one question costs me three turns, because I have to fix its options before I can reply]]
+[[A run has no authority to decide anything, so every fork is a full stop]]
 
 One captured session stopped to ask a human eight separate times, and its questions were not trivia — what happens to the published package, how the server should launch once a dependency is gone, whether a severed ingestion path should be closed one way or another, whether to fix a violation the plan itself forbade. Another session asked seven times. These are the decisions that determine what the product becomes, and none of them could be settled by the agent alone.
 
@@ -46,3 +44,8 @@ _Source: the eight `TRANSCRIPT:` records named above, read in full this pass —
 That makes nine sessions and seventeen recorded stops. It is also the sharpest instance yet, because the question is not about the world outside — it is about **the governance of this vault**: when the evidence-debt gate refuses a candidate, does the loop build something else, build the blocker, or stop? An agent that answers that on its own authority is not automating the build loop, it is amending the rules the build loop exists to obey. Every mechanism named in the body has to survive that case, and the two that let compute proceed (pre-authorized classes, proceed-under-stated-assumption) are the two it strains hardest.
 
 _Source: `TRANSCRIPT:3d729ebc-348f-4d45-8f3c-25df1de8fbc9`, read in full this pass — observed behavior from the agent's own transcript. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
+
+## History
+- 2026-08-05 unlinked [[A question queue the run banks and works around, instead of stopping at the fork]] — re-parented under [[A run has no authority to decide anything, so every fork is a full stop]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[A standing authority contract naming which classes of decision compute may take alone]] — re-parented under [[A run has no authority to decide anything, so every fork is a full stop]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Take the fork, state the assumption, and price the reversal]] — re-parented under [[A run has no authority to decide anything, so every fork is a full stop]] — this solution answers that need, not the categories beside it

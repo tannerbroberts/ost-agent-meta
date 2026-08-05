@@ -7,9 +7,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[I repeat one shell mistake five times in a session, because the first failure never said it was a class]]
-[[Refusals are written back as a standing corrections file every session reads first]]
-[[The second identical failure is answered differently from the first]]
-[[Refusals the tool can prevent become refusals the tool never issues]]
+[[A correction lives only as long as the session it was given in]]
 
 Across at least six separate captured sessions the agent reached for the same shape — wait a while, then check on something — by writing `sleep 45` followed by a status command. Every time, the call was refused with the same message pointing at the right affordance. Every time, the agent adapted within the session. Every time, the next session started over and made the identical call.
 
@@ -95,3 +93,8 @@ Five days, eight sessions, zero drift in the shape of the mistake.
 What the volume adds is one sharpening worth carrying into any solution under this node: **the lesson is not missing, it is mis-placed.** The refusal text already contains the complete correction, delivered at the exact moment of the error, and the run complies with it that turn every time. It still does not survive into the next session. So a candidate that works by improving the error message is addressing something these eight records show is not the constraint — the message was already right. What fails is that the correction lives in a transcript nobody re-reads, rather than anywhere the next session looks before it composes a command.
 
 _Recorded as corroboration during the 2026-08-04 unattended pass. These eight evidence items remain unmapped in `ost_next_work`, because counting an item as corroboration of an existing need has no representation in the sweep — see the pass note on [[An acknowledgement that records a decision not to act, and takes the item off the sweep]]. Observed behavior, mechanically captured; grounds usability, not demand._
+
+## History
+- 2026-08-05 unlinked [[Refusals are written back as a standing corrections file every session reads first]] — re-parented under [[A correction lives only as long as the session it was given in]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[The second identical failure is answered differently from the first]] — re-parented under [[A correction lives only as long as the session it was given in]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Refusals the tool can prevent become refusals the tool never issues]] — re-parented under [[A correction lives only as long as the session it was given in]] — this solution answers that need, not the categories beside it

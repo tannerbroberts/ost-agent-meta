@@ -8,14 +8,11 @@ created: '2026-07-25'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
-[[Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane]]
-[[Weekly ten-minute docket - every pending decision arrives prepared as one yes or no]]
-[[Scheduled ambient passes that page the operator only at hard gates]]
-[[Leave a permanent test behind instead of a one-off verdict draft]]
 [[Every run ends blocked on a credential only I hold]]
 [[The whole loop waits on one human command, and nobody is told it is waiting]]
 [[The work I most want to run unattended is the work that keeps needing a decision]]
 [[Tests get written and instrumented all day, and not one of them has ever been run]]
+[[Every piece of work is priced in my minutes, and I have none to spend]]
 
 **The need (operator's voice):** "I'm a working man, husband, and father of three, soon to be four. I prioritize my family, but there's no excuses that build new products. The output from my OST needs to be actionable by me pointing my Claude subscription's token generation power at the problem. I need better bootstrappability from the agent with less involvement from me."
 
@@ -213,3 +210,9 @@ The second and third kinds are **finished work and correctly-classified work**, 
 - Grant `ost_flag_humans_required` on the unattended surface, or accept that only the attended path can shrink the count.
 
 _Observed from this vault's own tooling and node bodies during the 2026-08-05 unattended sweep. Rung unchanged: this is the agent measuring its own loop, so it grounds usability and not demand, and promotion stays a human's call._
+
+## History
+- 2026-08-05 unlinked [[Triage every assumption test by the human-minutes it actually needs, and let compute run the zero-minute lane]] — re-parented under [[Every piece of work is priced in my minutes, and I have none to spend]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Weekly ten-minute docket - every pending decision arrives prepared as one yes or no]] — re-parented under [[Every piece of work is priced in my minutes, and I have none to spend]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Scheduled ambient passes that page the operator only at hard gates]] — re-parented under [[Every piece of work is priced in my minutes, and I have none to spend]] — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked [[Leave a permanent test behind instead of a one-off verdict draft]] — re-parented under [[Every piece of work is priced in my minutes, and I have none to spend]] — this solution answers that need, not the categories beside it
