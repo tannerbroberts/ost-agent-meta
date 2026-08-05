@@ -15,3 +15,11 @@ evidence: assertion
 **What would make this the wrong pick.** If exit codes turn out to be mostly noise — a suite that fails for environment reasons produces the same 1 as a suite that fails because the behaviour is missing, a distinction this tree already carries a whole opportunity about ([[A test that failed because the machine was busy looks exactly like one that failed because I broke something]]). A runner that fills the vault with uninterpretable 1s has added spend and no knowledge.
 
 ⚠️ Unvalidated. Agent-ideated on 2026-08-05, by a pass that had just spent most of its own budget making tests more ready to run — which is a reason to check whether it is proposing the mechanism that would make its own work look productive.
+
+## Definition of done
+
+[[Check that a recorded exit code cannot clear a gate or masquerade as a result]]
+
+`npx vitest run test/runner/exit-code-observation.test.ts`
+
+The safety property that decides whether this is buildable at all: a recorded exit code writes only to the instrument log, never to `## Results`, never changes status, and leaves the solution's gate BLOCKED — including, especially, when the exit code is 0. Red today because no runner exists. A perfectly-contained runner filling the vault with uninterpretable 1s would pass this completely; whether the observations are worth having is a human's read of the first batch.
