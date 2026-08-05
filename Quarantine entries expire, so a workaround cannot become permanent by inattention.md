@@ -18,3 +18,17 @@ Every exclusion carries an expiry. When it lapses the test rejoins the suite whe
 **Which suggests the real question is not the mechanism but the period**, and that is empirical rather than arguable. The vault has flake evidence on record — two friction notes naming the same test flaking on 2026-08-01, and its exclusion still being typed by hand on 2026-08-04 — so there is at least one real case whose timeline can be read to see what expiry would have helped and what would merely have interrupted.
 
 _Agent-ideated, unvalidated — one of three competing candidates under this opportunity, for a human to compare rather than adopt._
+
+## Definition of done
+
+[[Replay the recorded flake timeline to see whether any single expiry period would have helped]]
+
+```
+npx vitest run test/telemetry/quarantine-expiry-period.test.ts
+```
+
+Red today: nothing reconstructs a flake as a timeline, so no period can be swept against it. Green when a single expiry period fires after every recorded flake was resolved, before it was forgotten, and never against an unresolved one.
+
+**Read a green here sceptically.** The recorded sample is one flake, and a period that fits one case is fitted to it. The threshold demands zero bad firings precisely so a thin sample fails rather than flatters — if the record cannot support a period, the finding is that this candidate should not ship on a guessed number.
+
+**What this does not settle.** Whether an operator renews a lapsed quarantine thoughtfully or reflexively, which is what decides whether expiry creates real pressure or just ceremony. No replay can see that.
