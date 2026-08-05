@@ -1,5 +1,6 @@
 ---
 type: Solution
+status: shipped
 created: '2026-07-27'
 evidence: assertion
 ---
@@ -27,3 +28,4 @@ evidence: assertion
 ## History
 - 2026-08-01 evidence: observed → assertion — demoted by the fifteenth pass — B3's rung-unearned guard (v0.23.0-line) shipped after this node was authored; its source is not a TRANSCRIPT: recording, so 'observed' was unearned. Demotion only, per rungs.ts's own remedy.
 - 2026-08-05 unlinked "Does the guard catch real laundering without refusing honest commands" — moved under "The guard catches real laundering without refusing honest commands" — the belief this test measures now has a node of its own
+- 2026-08-05 status: (none) → shipped — The node's own body records this as shipped: "Shipped v0.21.0, commit `87164d6` on `main`" — a shell `-c` script containing an unguarded pipeline is refused before the child spawns, with 33 new tests (15 of them pinning what must NOT be refused), 70 test files / 543 tests passing and tsc clean. Recorded as `shipped` by the 2026-08-05 unattended sweep because it sat in `solutionsMissingInstruments`, and a red-now instrument is impossible for behaviour that already ships: a spec asserting the guard would pass on arrival, so it could not fail and would give a builder no definition of done. Status corrected rather than an instrument invented — the same repair this sweep's predecessor applied to "Refuse a wiki-link that contains a newline". This says the mechanism is built; it does not say anyone has judged it worth having, which is still what its assumption test is for.
