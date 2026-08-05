@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+instrument: npx vitest run test/ost/unfixed-threshold-refusal-census.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,6 @@ evidence: assertion
 **The count that decides the rest of the argument.** However the rate comes out, the *absolute* number of tests that would be blocked matters independently. This vault has 91 tests with no results and one operator who is not running the command. If the classifier would block a large share of them, the node's own strongest objection stands on its own — hardening the one command the operator is already avoiding is optimising the wrong thing — and that conclusion does not depend on the classifier being accurate.
 
 **Who runs it.** A human does the judging. The classifier run itself is mechanical, but a verdict here must not be recorded by compute.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/ost/unfixed-threshold-refusal-census.test.ts — Replays every AssumptionTest in a vault through the unfixed-threshold classifier and counts how many filings a refusal at the `ost-agent result` write boundary would have blocked — the census that decides whether this is a guard or a wall. It fails today because the classifier is only wired to the read boundary (the flag), and no code path applies it to a result filing or reports the blocked count, so there is nothing for the spec to call.
