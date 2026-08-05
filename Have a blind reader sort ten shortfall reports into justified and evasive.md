@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   The blind reader's sort matches the full-knowledge judgement on at least 7 of
   10.
+instrument: npx vitest run test/loop/scope-shortfall.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that a shortfall report carries usable signal. Narrowing is of
 **What it will not cover.** Ten runs from one project, none of which were actually evasive as far as anyone knows — so the evasive class may be empty, and the test would mostly show whether justified narrowings are correctly recognised.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-05 instrument: (none) → npx vitest run test/loop/scope-shortfall.test.ts — Asserts the timing that the node says is the mechanism: intended scope is recorded at run start, is immutable once the gate is known, and the end-of-run shortfall is diffed against that recorded declaration rather than a restated one. Red today because nothing declares scope at the start of a run, so there is no pre-obstacle statement to compare against.
