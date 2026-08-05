@@ -7,6 +7,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[A runner that executes instruments and records exit codes only, judging nothing]]
 [[Ration instrumenting against the rate results are recorded, so readiness cannot outrun execution]]
+[[Stop counting an unrun test as progress, and report execution as the only number that moves]]
 
 A whole day's work goes into making tests runnable and the number of tests that have run stays at zero.
 
