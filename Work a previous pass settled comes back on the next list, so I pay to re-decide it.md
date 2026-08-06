@@ -63,3 +63,21 @@ _Observed directly on 2026-08-06: one `ost_create_node` call with `humansRequire
 So the permanently-stuck floor under that bucket is at least 10 of 65, not 5 of 64, before counting the human-lane share described in face 3. The bucket's drainable fraction is smaller than any previous pass has recorded.
 
 Not merged into the body above because it sharpens a number rather than adding a face, and the argument it sharpens is already made there correctly.
+
+## Face 2, enumerated — so no future pass has to re-derive it
+
+This node establishes that `underservedOpportunities` counts parent opportunities whose solution space lives on their children, and estimates "roughly half". The 2026-08-06 sweep's list of 26 has now been sorted item by item against the rollup's own bucket list. The split is worse than half:
+
+**Bucket categories (15).** These are the Outcome's direct children — the filing layer the ruleset requires. Each carries a large subtree; each reports `solutions: 0, needed: 3`. Ideating directly beneath one would attach a specific solution to a category, which is the shape `outcome-files-categories` exists to prevent.
+
+"A test that failed because the machine was busy looks exactly like one that failed because I broke something", "Building crowds out the search for better evidence", "Checking on progress means digging through files", "Don't want to buy a second AI credential just to try it", "I can't leave the process running unattended without worrying", "I can't say why anyone wouldn't just do this by hand with Claude and Obsidian", "I can't tell if anyone outside my own head wants this", "I have a tree full of unvalidated nodes and no idea which one to pick up", "I need the tree's output to be actionable by compute alone, because my hours don't exist", "I want my usage to automatically feed into and make the OST-Agent better", "The agent has to guess what resources it's actually working with", "The goal I care about is too far from anything I can act on this week", "The pass never says it is done, so I can't tell when to stop paying for compute", "Trust an unmonitored agent enough to walk away", "What the agent learns doesn't accumulate over time".
+
+**Re-parented, documented, and still listed (1).** "The same refusal is rediscovered every session, because nothing carries the lesson forward" — the case this node already describes.
+
+**Deferred and retired, and still listed (1).** "Want proof no hijackable capability even exists" carries `status: deferred` and the same sweep response reports it under `retiredFromDuplicateScan`. So one part of `ost_next_work` knows it is retired and another part is asking for a third solution beneath it. That is a **fourth face**, and it is the cheapest of all of them to fix: the exclusion the duplicate scan already applies is simply not applied to the underserved count.
+
+**Genuine gaps (8).** Leaf needs with no solutions and no reason not to have them: "A second process is editing the same files, and a failed string match is the only notification", "I can't tell what a half-finished run actually finished", "Improving how the agent works means interrupting it", "The whole loop waits on one human command, and nobody is told it is waiting", "The work I most want to run unattended is the work that keeps needing a decision", "Two agents sharing my vault can trample each other", "Waiting on a slow external check burns the session, because every obvious way to wait is refused", "What the agent struggles with every session disappears".
+
+**So 8 of 26 are real work and 18 are the bucket mis-reporting.** The pass that wrote this served two other genuine gaps to completion — "A guard derived the rule it was checking, so it agreed with the bug for 23 releases" and "Commands are composed against a repo layout nobody checked, so the first thing that runs is a path that isn't there" — and both left the list, which is the control that shows the remaining 18 are not merely un-worked.
+
+_Sorted by hand against the rollup's bucket list on the 2026-08-06 sweep. Re-checkable by anyone comparing `ost_next_work`'s underserved list against the Outcome's direct children._
