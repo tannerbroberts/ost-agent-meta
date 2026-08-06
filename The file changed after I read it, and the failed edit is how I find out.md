@@ -64,3 +64,17 @@ _Provenance: four friction records from the transcript adapter, machine-captured
 One thing these add: in two of the three the harness had already tried the obvious repair (character/escape normalisation) and reported that it did not match, which rules out encoding as the cause and leaves staleness. So the failure mode is not ambiguous in the record — it is only ambiguous at the moment it happens, when the run cannot tell "I mis-transcribed" from "someone else moved it" without going back to re-read.
 
 _Recorded as corroboration during the 2026-08-04 unattended pass; these items remain unmapped in the sweep. Observed behavior, mechanically captured; grounds usability, not demand._
+
+## Census of the whole transcript corpus — 55 read-before-write refusals across 19 sessions (unattended sweep, 2026-08-06)
+
+A count across every transcript record the vault holds, taken by grepping the evidence corpus rather than by reading sessions one at a time.
+
+**55 occurrences of `File has not been read yet. Read it first before writing to it.`, across 19 distinct sessions.** The heaviest are `1744f10a` (7), `79d0471e` (5), `3a54bb43` (4), `fe671285` (4), `57249c25` (4), `b7bb77c7` (4) and `971dbc8e` (4).
+
+**What this does and does not support.** It is the *precondition* half of this node's subject, not the *drift* half. This refusal fires when a write is attempted against a file the session never read; the failure this node names is subtler — a file read, then changed by someone else, with the failed edit as the only notification. The two are worth holding apart, because a mechanism that auto-satisfies the precondition would delete this 55 without touching the drift case at all, and could make the drift case worse by removing the one moment a stale read currently surfaces. That trade is exactly what the test "Auto-satisfy a read-before-write, then change the file underneath and require the write to still refuse" was written to settle, and this census gives it a denominator it did not have: 55 refusals is the volume that would be absorbed, and the question is how many of them were protecting against real drift versus enforcing a formality.
+
+**One session shows both halves together.** `3a54bb43` carries four of these refusals alongside `Exit code 128 … error: Please commit or stash them` — a write blocked for an unread file in the same run as a git operation blocked by an unexpectedly dirty tree. A second writer touching the same working tree produces both symptoms, and neither message names the other process.
+
+**Read the number honestly.** These are agent sessions writing to files, and an agent that has simply forgotten to read a file first generates this refusal without any second writer existing. So 55 is an upper bound on the drift-related cases and probably a loose one; nothing in the grep distinguishes "never read it" from "read it and it moved." Separating those requires the read/write timestamps the transcripts do not carry, which is itself an argument for the drift-detection candidates under this node — the record cannot currently tell the two apart, so neither can anyone reading it.
+
+_Method: a grep of every `TRANSCRIPT_*.md` record in this vault's evidence folder, counted per file. Observed behaviour of this product's own agent, captured mechanically with no narrator — it grounds usability, not demand. Those session records remain listed as unmapped evidence in the sweep; citing them here does not clear them. Corroboration only — no test was run, no result recorded, and the node's rung is unchanged._
