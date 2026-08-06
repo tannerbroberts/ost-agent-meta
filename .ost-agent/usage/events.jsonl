@@ -1808,3 +1808,4 @@
 {"ts":"2026-08-06T15:12:10.611Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2045,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["The measurement and the criterion, side by side, are enough to tell noise from regression.md"]}
 {"ts":"2026-08-06T15:12:25.037Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2362,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Replay recorded perf failures with the pair alone and check whether they separate.md"]}
 {"ts":"2026-08-06T15:12:31.023Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":778,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
+{"ts":"2026-08-06T15:12:45.076Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1985,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Every channel can name a per-item source, not just a per-channel one.md"]}

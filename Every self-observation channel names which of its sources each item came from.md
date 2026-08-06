@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Every channel can name a per-item source, not just a per-channel one]]
 
 **The failure this closes, measured before it was fixed.** The transcript channel — the one whose entire premise is "the agent is this product's most active user" — had never once read an unattended firing. Claude Code keys a session directory to the cwd a session ran in; a firing runs with cwd set to the *vault*, while `adapters.transcript.projectDir` pointed at the *code repository*. Counted on this vault on 2026-08-06: **36 distinct sessions cited across 114 nodes, all 36 from the code repository's directory, zero from the directory holding 100 firings.**
 
