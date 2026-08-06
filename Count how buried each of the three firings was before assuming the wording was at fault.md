@@ -20,3 +20,6 @@ For each of the three recorded firings, measure the density of unrelated output 
 Committing that bar before looking is the whole point. The number is small and arguable; what is not arguable is that picking it afterwards would let either hypothesis claim the result.
 
 **What a green run here does not settle.** It establishes only that the messages were visible, which is the precondition for wording mattering, not proof that wording is what failed. A firing that was perfectly isolated and still misread could have been misread because the reader did not know what the gate defends, because the criterion was unfamiliar, or because they were tired at the end of a long session. Separating those needs the reader, and none of them is answerable here. This test can kill the content hypothesis; it cannot confirm it.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/gate-signal-density.test.ts` — No test files found, exiting with code 1

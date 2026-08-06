@@ -22,3 +22,6 @@ Report the four cells. The one that decides the design is hand-written-and-patte
 Committed before counting, and worth stating plainly: this pass already knows two of its own searches were structural patterns, so the assumption is under real pressure and the bar is not a formality.
 
 **What a green run here does not settle.** The trace records searches that were *issued*, not searches that were wanted — a pass that avoided a pattern search because the last one failed is recorded as never having needed one, which biases the census toward the answer this solution wants. It also covers only searches over node text; the shell failures in the same opportunity, where a path was globbed or a flag read as a filename, are outside its scope entirely and are the sibling candidate's territory.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/search-literality-census.test.ts` — No test files found, exiting with code 1

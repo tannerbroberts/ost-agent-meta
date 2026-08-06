@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[One ledger shape can carry a disposition for evidence, solutions and opportunities alike]]
+[[An operator would accept a pass dismissing its own work list by written assertion]]
 
 **The idea.** One append-only ledger of dispositions, written by a pass and read by every bucket. An entry names the item, the disposition, the reason, and the pass that wrote it — "this evidence corroborates a node the tree already has", "this solution ships", "this opportunity's solution space lives on its children". A bucket lists an item only if no live disposition covers it.
 

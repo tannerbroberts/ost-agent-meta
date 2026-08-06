@@ -21,3 +21,6 @@ Then repeat with the spread included — the min and max the same commit produce
 Deliberately not a threshold on the triple: this test exists to falsify the pair, and setting a second bar would invite reporting whichever one passed.
 
 **What a green run here does not settle.** It measures separation against a fixture whose causes are known because they were manufactured. Real failures arrive without labels, and a classifier that is right about ten constructed cases may be useless on the eleventh real one. It also says nothing about whether an operator reading the rendered pair reaches the same conclusion the classifier does — the sibling solution "Three gates fired correctly in one session and every one of them read as noise first" is about exactly that gap, and no exit code closes it.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/eval/perf-gate-noise-band.test.ts` — No test files found, exiting with code 1

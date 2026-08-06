@@ -31,3 +31,6 @@ The mechanism, now observed rather than inferred: the transcript adapter cannot 
 The repair keeps the test's identity and sharpens its bar. A write-time refusal should distinguish three cases, not two: an id that resolves to a stored record (accept), an id that resolves to nothing but names a session file present on disk (accept, and mark it as pending harvest so the hygiene sweep can wait it out rather than report it), and an id that resolves to neither (refuse). The middle case is what this pass walked into and it is checkable — the session file exists before the adapter reads it.
 
 Left for a human because rewriting the prose would re-aim a test toward a bar this pass invented, and because the parent solution's `## Definition of done` names this test by title and quotes the old threshold. Both want changing together.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/adapters/source-attribution.test.ts` — No test files found, exiting with code 1

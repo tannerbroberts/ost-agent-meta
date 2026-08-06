@@ -22,3 +22,6 @@ Then the part that actually tests the parent assumption: assert the flattening p
 **Pre-committed bar:** the reported total is 8 examined / 2 unread with both reasons named, and no call path yields a bare count without the unread case being handled.
 
 **What a green run here does not settle.** It covers the mechanical path only. Every summary this pass wrote was composed in prose by a model, and nothing in a type system stops a sentence from saying "no issues found" over a subject that was never read. It also uses two failure modes chosen because they are on record; a third that nobody has hit yet will not be covered, and this test passing is not evidence that the unread state is complete.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/ost/unread-subject-propagation.test.ts` — No test files found, exiting with code 1

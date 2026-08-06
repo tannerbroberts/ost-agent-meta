@@ -24,3 +24,6 @@ Three — the generator is pointed at a settings file a human has narrowed by ha
 **Pre-committed bar:** all three refuse, each with a non-zero exit and no bytes written to the target settings file. Any one of them writing is enough to kill this candidate outright in favour of "Preflight the run's tool demands against its grant and stop at turn one", which detects the same gap without ever holding the pen.
 
 **What a green run here does not settle.** It proves the dangerous path is closed. It does not prove the solution is wanted: case three passing means the generator tolerates a deliberately narrow grant, which is a mechanism, not evidence that any operator maintains one. It also says nothing about install-time correctness on a real machine — every case here is a fixture, and a generator that behaves perfectly against fixtures can still write to the wrong path on someone's laptop.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/security/allowlist-generator-guard.test.ts` — No test files found, exiting with code 1
