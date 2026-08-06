@@ -10,6 +10,7 @@ evidence: assertion
 [[I hand-exclude the flaky test on every run, and the green that comes back never says what it skipped]]
 [[One red run is all I get, and nothing in it separates noise from a real break]]
 [[A perf gate reports its measurement next to the number the criterion recorded]]
+[[Three gates fired correctly in one session and every one of them read as noise first]]
 
 **The need (operator's voice):** "My gate went red. I cannot tell from the record whether I broke the product or whether the box was busy, so I have to re-run it by hand to find out — and if I stop bothering to check, the day it means something I will wave it through."
 
