@@ -18,3 +18,15 @@ evidence: assertion
 **Cost.** Substantially the largest of the three. A mutation harness, a curated mutant set per guard, and CI time — against a repository whose perf gates are already noted as fragile under load.
 
 ⚠️ Unvalidated. Agent-ideated. No operator has asked for this, and its cost is real enough that a census should probably run first to size the population it would be applied to.
+
+## Definition of done
+
+"Mutate the manifest server name and require the three prefix guards to go red"
+
+```
+npx vitest run test/guards/mutation-detects-self-derivation.test.ts
+```
+
+Green means all three known-defective prefix guards go red under a mutation of the manifest field they derive from — the technique catching the case that motivated it, scored against ground truth. Three of three, not a majority: a technique that misses one of the three known cases has no claim on the unknown ones. Run "Census every check whose expected and actual sides are drawn from the same source" first if cost is a concern; this is the most expensive of the three siblings and the census sizes the population it would be applied to.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "The three guards that agreed with the bug would stay green under a mutation of the thing they check".

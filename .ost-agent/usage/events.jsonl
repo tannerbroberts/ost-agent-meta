@@ -1940,3 +1940,4 @@
 {"ts":"2026-08-06T19:02:03.187Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":1402,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["Forcing a look before every path costs more turns than the wrong guesses did.md"]}
 {"ts":"2026-08-06T19:02:17.840Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2117,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["Generate the inventory and require it to fit a startup budget while still naming the failed paths.md"]}
 {"ts":"2026-08-06T19:02:27.148Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":1855,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["Replay the corpus to count how many correct path guesses the guard would have taxed.md"]}
+{"ts":"2026-08-06T19:02:33.643Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1056,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
