@@ -37,3 +37,15 @@ The sibling solution "A perf gate reports its measurement next to the number the
 
 ## Issues
 - 2026-08-06 unresolved-citation (flagged by ost_check): frontmatter cites `TRANSCRIPT:89ac8277-29ce-4d80-827e-cefea0bebabf`, and no record under `.ost-agent/evidence/` carries that id. Same fault, same missing id, on four nodes created in one sitting; the full diagnosis and the check that would settle it are recorded on "A guard derived the rule it was checking, so it agreed with the bug for 23 releases". Until it is settled, treat this node's evidence rung as unsupported.
+
+## Definition of done
+
+"Count how buried each of the three firings was before assuming the wording was at fault"
+
+```
+npx vitest run test/telemetry/gate-signal-density.test.ts
+```
+
+Red today: neither the density measure nor the spec exists, and the recorded session it reads has never been queried this way.
+
+Run this one *before* building anything. It can only kill the content hypothesis, never confirm it — but killing it is worth the whole cost, because the placement remedy and the wording remedy do not overlap and building the wrong one costs a full cycle.
