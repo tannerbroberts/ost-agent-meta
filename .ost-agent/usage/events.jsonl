@@ -1972,3 +1972,4 @@
 {"ts":"2026-08-06T20:13:38.995Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":3188,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
 {"ts":"2026-08-06T20:13:58.756Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3233,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
 {"ts":"2026-08-06T20:14:26.559Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":3316,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:15:00.985Z","tool":"ost_ingest_inbox","ok":true,"ms":6,"surface":"mcp","argBytes":2,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
