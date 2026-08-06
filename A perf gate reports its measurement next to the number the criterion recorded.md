@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The measurement and the criterion, side by side, are enough to tell noise from regression]]
 
 **The idea.** A wall-clock gate asserts one thing today: `measured < BUDGET`. That single comparison cannot separate "the code got slower" from "this box is slower", so every failure is arguable and the cheapest reading always wins. Make the gate print, and assert against, a second number it already has access to: the figure the criterion recorded when it was last met. Then a failure says which of the two it is — `1,603ms measured, 620–750ms recorded at Z3, budget 2,000ms` names a 2.4x regression, and `900ms measured, 620–750ms recorded, budget 2,000ms` on a slow runner names a slow runner.
 
