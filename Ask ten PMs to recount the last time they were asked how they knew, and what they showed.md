@@ -20,3 +20,6 @@ The assumption is that this buyer wants a record that could contradict them. The
 **What it will not cover.** People describe their reviews as more rigorous than they are, and this question invites that. Asking to see the actual artefact they showed would ground it and is worth adding where anyone will.
 
 A human runs this and records the result.
+
+## Issues
+- 2026-08-06 Lane unset, and this sweep could not set it. Judged humans-required by the 2026-08-06 unattended pass: past behaviour recounted by the practitioner who lived it is the measurement, and no exit code substitutes for it. `ost_flag_humans_required` is not granted on the unattended surface. Left for a human: `ost-agent lane --set humans-required`.
