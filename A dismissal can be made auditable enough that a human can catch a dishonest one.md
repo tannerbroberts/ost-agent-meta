@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Dismiss ten records and require every one to be attributable and reversible]]
 
 **The belief, stated so it could be false.** A dismissal that records who skipped the item, why, and when — reversibly, and listable in one command — gives a human enough to catch bulk or dishonest skipping after the fact, which makes it safe to let an unattended agent skip at all.
 
