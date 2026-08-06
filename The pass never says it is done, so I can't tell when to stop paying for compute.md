@@ -70,3 +70,21 @@ The three mechanisms above predicted this would keep happening. It did, and the 
 **Why appending does not help.** Several of these items are mapped in substance and have been for weeks — this node's own "three mechanisms" section cites three of them by id, in prose, with analysis. That work is real and is not counted, because prose in a body is not a `source:` field. An evidence item that corroborates an *existing* opportunity therefore has no way to be recorded as handled: `ost_create_node` sets `source` only at creation, and there is no affordance to add a second source to a node that already exists. The only counter-clearing move available is to create a new node per evidence item, which is precisely the duplication the tree's rules forbid.
 
 **Consequence, stated plainly for whoever reads this next.** The unmapped counter cannot reach zero by honest work on this vault's current contents. A pass that respects the no-duplicates rule will report the same backlog forever; a pass that clears the counter will have manufactured near-duplicate opportunities to do it. Both prior candidates under this node — "Let a pass mark evidence acknowledged, with a reason, without inventing an opportunity" and "A Context node type for evidence that is true, useful, and not a customer need" — address the semantic half. Neither addresses this mechanical half: **many-to-one evidence, where one opportunity is corroborated by many items.** That gap is now the binding one and a human should decide it; this pass has not invented a node to close it.
+
+## Measured during the unattended pass of 2026-08-06
+
+This need has a mechanism, and this pass walked into it with numbers attached.
+
+The pass opened by ingesting: 11 new items from the transcript channel, joining 15 already unmapped, for 26. It then did the mapping work — read all 26 records in full, distilled three new opportunities from them. Before re-checking, it ingested again, as the loop requires. That second ingest captured **18 more**, and the outstanding count went from 26 to **40**. The pass had mapped for an hour and finished with 54% more unmapped evidence than it started with.
+
+Nothing malfunctioned. The transcript channel harvests this vault's own unattended firings, and unattended firings are what this vault does. Every pass generates the session record that the next pass must map. So `unmappedEvidence` is not a backlog that a diligent pass drains — it is a treadmill whose speed is set by how often the loop runs, and a pass instructed to loop "until done" over a bucket fed by its own execution cannot terminate on that bucket by working harder.
+
+Three consequences worth separating, because they want different fixes:
+
+The first is that "done" is the wrong shape for this bucket. A pass can honestly finish having mapped every record *it was shown at the start*, and that is a completable job; "no unmapped evidence exists" is not.
+
+The second is that the counter overstates the work. Of the 18 records captured in the second ingest, every one was another unattended firing recording the same three needs already distilled that morning — permission denials, a write refused for a read-first precondition, a string parsed as syntax. Mapping them would have produced duplicate opportunities, so the honest action was to leave 15 of them unmapped, which is indistinguishable in the count from not having done the work.
+
+The third is the cost question this node is actually about. Compute spent re-reading self-generated friction that corroborates a need already on the tree buys corroboration, and corroboration has sharply diminishing returns: the sixth recording of `ost_flag_humans_required` being denied changes no decision the first five did not already support.
+
+Provenance: this pass, 2026-08-06, first-party. Not an ingested record — citing an id for a session that has not ended is the fault flagged on four other nodes in this vault this morning.
