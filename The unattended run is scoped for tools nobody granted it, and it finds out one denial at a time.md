@@ -52,3 +52,15 @@ The tree happens to be clean: the four `unresolved-citation` issues cleared duri
 Which sharpens what this opportunity is really about. The cost of a denied grant is not the turn. It is that an unattended run's ability to check itself is a permission, and when that permission is missing the run does the work anyway and reports it with a confidence it has not earned. Every summary this pass wrote about its own correctness rests on a gate it was not allowed to open.
 
 Grants this pass needed and did not have: `ost_check`, `ost_debt`, `ost_flag_humans_required`, and read access to the product repository (both by path and via `product.repos`, which is unconfigured).
+
+## The denied set is stable, which changes what kind of problem this is — 2026-08-06, later pass
+
+A second unattended pass the same day hit **exactly** the set the tally above names: `ost_debt`, `ost_flag_humans_required`, and `Glob` on the product directory. Nothing new was denied and nothing previously denied was granted. (`ost_check` was not reached this time; the other three matched.)
+
+Deliberately not appending another census — the repetition itself is the only new fact, and this node has been asked once already to stop accumulating restatements.
+
+What the repetition establishes is worth one line, because it rules out a reading. A grant gap that varied between runs would be a flaky or context-dependent permission, and the fix would be defensive retry or graceful degradation. A grant gap that reproduces identically across independent firings is a **fixed, known, enumerable list that nobody has applied to the allowlist.** There is nothing to discover. The four tools were named in the tally above at 2026-08-06, and the next pass needed the same four.
+
+That is direct corroboration of the premise under "Derive the permission allowlist from the skill's own allowed-tools, so the two lists cannot drift" — the two lists have not drifted unpredictably, they are statically different in a way that has now been measured twice and would be measured the same way every future pass. It also means the cost is not a one-off: every pass pays the same workaround tax, and every pass records the same finding, which is itself a small instance of the lesson-never-carries-forward problem this vault tracks separately.
+
+One consequence specific to this firing: three more tests that name outside people as the measurement could not be labelled, for the same reason as last time. "Hand-compute unblock counts and see if the operator's pick changes", "Five-minute orientation task on a static mock" and "Test do operators get value with remote push off" all sit under solutions listed in `solutionsMissingInstruments`, and all three are correctly answered by a person rather than a command. The disposition they need is `humansRequired`, the tool for it is denied, and so they will be offered again next pass as solutions missing instruments — where the only available action is to write a command that cannot honestly measure them.
