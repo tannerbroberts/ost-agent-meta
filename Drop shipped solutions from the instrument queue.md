@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Status alone decides what belongs in the instrument queue]]
 
 **The idea.** `computeNextWork` excludes any Solution whose status is `shipped` when it builds `solutionsMissingInstruments`. One predicate, no judgement: a solution the operator has recorded as built is not owed a command that fails today, because no such command exists.
 
