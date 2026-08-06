@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A pass can know which tools it needs before it makes its first call]]
 
 **The idea.** A pass names its required tool set as a precondition and checks it against what is actually callable before the first unit of work. A missing tool stops the pass at second zero, with the name of what is absent, rather than surfacing forty calls in as a denial the agent then works around.
 
