@@ -81,3 +81,22 @@ This node establishes that `underservedOpportunities` counts parent opportunitie
 **So 8 of 26 are real work and 18 are the bucket mis-reporting.** The pass that wrote this served two other genuine gaps to completion — "A guard derived the rule it was checking, so it agreed with the bug for 23 releases" and "Commands are composed against a repo layout nobody checked, so the first thing that runs is a path that isn't there" — and both left the list, which is the control that shows the remaining 18 are not merely un-worked.
 
 _Sorted by hand against the rollup's bucket list on the 2026-08-06 sweep. Re-checkable by anyone comparing `ost_next_work`'s underserved list against the Outcome's direct children._
+
+## Measured — the under-served queue is 25/26 already-settled work (unattended sweep, 2026-08-06)
+
+This node says settled work comes back. This pass counted it on one specific queue, and the number is close to total.
+
+`ost_next_work` reported **26 opportunities with fewer than 3 solutions**. Every one was checked:
+
+- **15 of 26 are the rollup's own named buckets** — "Trust an unmonitored agent enough to walk away", "The agent has to guess what resources it's actually working with", "The pass never says it is done", and twelve more. These are category nodes whose job is to hold sub-opportunities, and the rollup shows their subtrees carrying 31, 45 and 15 solutions respectively. They report as under-served because they have no *direct* solution child.
+- **1 of 26 is retired** — "Want proof no hijackable capability even exists", `status: deferred`, and the sweep's own response withholds it from the duplicate scan while still counting it here.
+- **Of the remaining 10, nine were read in full this pass. Seven carry Opportunity children** and were made into categories deliberately: "The work I most want to run unattended…", "The whole loop waits on one human command…", "What the agent struggles with every session disappears", "The same refusal is rediscovered every session…", "I can't tell what a half-finished run actually finished", "Improving how the agent works means interrupting it", and "Two agents sharing my vault can trample each other".
+- **Two are genuine unserved leaves**, and one of those two is a suspected near-duplicate of an existing node.
+
+**The mechanism, stated so it can be fixed rather than re-noticed.** The under-served rule counts direct Solution children. Nesting a sub-opportunity under an opportunity is the tree's own prescribed way to grow the opportunity space, and doing it correctly moves that node's solutions one level down — after which the parent reports as under-served **permanently**, and no amount of correct work clears it. The 2026-08-05 pass's History lines are visible on several of these nodes doing exactly that re-parenting, and every node it touched is on this list.
+
+**Why this is worse than noise.** The instruction a pass receives is to ideate up to the minimum. Followed literally against this queue, it would attach three solutions directly to fifteen category nodes — flattening the opportunity space the previous passes built, and putting solution nodes on the bucket layer the root's own invariant exists to keep clean. The queue does not merely waste attention; it asks for the opposite of the structure.
+
+**What would settle it:** whether an opportunity with Opportunity children should count as under-served at all. If the answer is no, this queue drops from 26 to 3 and the pass's ideation budget goes to the leaves that actually lack candidates.
+
+_Source: `ost_next_work` output of 2026-08-06 and direct reads of the nine node files named above. Observed behaviour of this product's own sweep. Corroboration only; the node's rung is unchanged._
