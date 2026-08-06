@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Let a friction record corroborate an existing opportunity instead of demanding a new node]]
 [[Cluster friction records by signature before the queue sees them]]
+[[Record a read-and-skipped judgement so the queue drains without a write]]
 
 **The need.** I turned on self-observation so my own usage would improve the tool. What I got is a queue that grows by one record per session, where most records say something the tree already knows — and the only way to take one off the queue is to create a node, so honest maintenance makes the tree worse.
 
