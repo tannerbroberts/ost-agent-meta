@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Auto-satisfy a read-before-write, then change the file underneath and require the write to still refuse]]
 
 **The belief, stated so it could be false.** A surface that quietly performs the prerequisite read on the caller's behalf loses nothing, because the read was pure ceremony.
 
