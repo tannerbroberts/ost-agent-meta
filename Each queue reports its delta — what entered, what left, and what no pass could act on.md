@@ -16,3 +16,13 @@ evidence: assertion
 **Where it fails.** It needs a durable record of previous passes' queue contents, which the vault does not currently keep, and that record is a new thing to maintain and to get wrong. It also reports movement without judging it: a pass that empties a queue by deferring everything scores identically to one that resolved it.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Recompute two past passes' queues from git and compare against what those passes reported"
+
+```
+npx vitest run test/ost/queue-delta-from-git.test.ts
+```
+
+Named in plain text rather than linked: the test is already wikilinked by its parent assumption, and a title is linked exactly once in the vault.
