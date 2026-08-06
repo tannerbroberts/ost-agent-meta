@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Kill a lease holder mid-build and check the workspace is reclaimed without the TTL elapsing]]
 
 Feasibility, and it is what separates leasing from a timeout with better manners.
 
