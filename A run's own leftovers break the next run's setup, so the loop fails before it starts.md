@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Setup reconciles the workspace it finds instead of assuming there isn't one]]
 [[Each run gets a workspace named after itself, so two runs cannot collide]]
+[[The workspace is leased, and the next run reclaims a lease whose holder is gone]]
 
 An unattended firing died before it did any work, and the thing that stopped it was the previous firing's residue.
 
