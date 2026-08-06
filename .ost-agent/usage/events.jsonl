@@ -2043,3 +2043,4 @@
 {"ts":"2026-08-06T22:37:08.187Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2951,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c","wrote":["Kill a lease holder mid-build and check the workspace is reclaimed without the TTL elapsing.md"]}
 {"ts":"2026-08-06T22:37:17.200Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":670,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
 {"ts":"2026-08-06T22:37:19.945Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":637,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
+{"ts":"2026-08-06T22:37:22.222Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":587,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}

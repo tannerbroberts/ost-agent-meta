@@ -20,3 +20,13 @@ evidence: assertion
 **Cost.** The largest of the three. A lease file, heartbeat writes, an expiry check, and a reset path — plus a decision about what a reclaiming run does with whatever the dead one left in the tree.
 
 ⚠️ Unvalidated. Agent-ideated from one observed failure.
+
+## Definition of done
+
+"Kill a lease holder mid-build and check the workspace is reclaimed without the TTL elapsing"
+
+```
+npx vitest run test/runner/workspace-lease-liveness.test.ts
+```
+
+Green means death is detected rather than assumed — prompt reclaim after a SIGKILL, and zero reclaims across twenty trials against a live slow holder. It leaves the hard liveness cases untouched: a slept machine, a recycled process id, or a holder whose heartbeat outlived its work.
