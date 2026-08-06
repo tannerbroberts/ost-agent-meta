@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Every work bucket excludes nodes whose own frontmatter already says they are closed]]
 
 A pass reaches a correct decision, writes down why, and the next pass is handed the same item as outstanding work — because the bucket that selects it has no way to represent "settled by a means other than the one this bucket expects."
 
