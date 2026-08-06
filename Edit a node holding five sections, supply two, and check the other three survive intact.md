@@ -27,3 +27,6 @@ First-party observation made during the unattended maintenance pass of 2026-08-0
 
 ## History
 - 2026-08-05 merged "Edit a node holding five sections while supplying two, and check the other three survive intact" into this node and deleted its file — Same test, same threshold, same instrument — the original was created minutes earlier in this pass with a fabricated provenance id (`TRANSCRIPT:2026-08-05-unattended-pass`) that matches no stored evidence record, which `ost_check` correctly reported as an unresolved-citation violation. `source` is frontmatter and no tool on this surface can set it, so re-creating with a truthful free-text provenance and folding the original in is the only available repair. Nothing about the test's content changed.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/edit-node-preserves-unsupplied-sections.test.ts` — No test files found, exiting with code 1

@@ -22,3 +22,6 @@ The assumption is that the history is comparable — same machine, similar condi
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/telemetry/gate-condition-comparability.test.ts — Replays the stored gate measurements and asserts each carries enough recorded context to judge comparability before it is used as a baseline; fails today because measurements are stored without the conditions they were taken under.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/gate-condition-comparability.test.ts` — No test files found, exiting with code 1

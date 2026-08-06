@@ -23,3 +23,6 @@ instrument: npx vitest run test/git/dead-end-scan.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/git/dead-end-scan.test.ts — Runs the dead-end scan over the recorded commit range and asserts it flags the abandoned trails and not the live ones; fails today because no scan reads dead ends off the artifact trail.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/git/dead-end-scan.test.ts` — No test files found, exiting with code 1

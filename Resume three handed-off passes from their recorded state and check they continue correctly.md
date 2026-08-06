@@ -20,3 +20,6 @@ Proposed by the agent; a human runs it and records the outcome.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/pass-resume-fidelity.test.ts — The threshold — all three resumed passes take the same next action the original took, with no work repeated and no state silently invented — is settled against recorded state rather than against anyone's afternoon: the spec drives three passes to a wait, serializes the handoff record, starts fresh passes from that record alone, and asserts each one's next action matches the original's while re-doing nothing. It fails today because a pass has no handoff record to resume from.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/pass-resume-fidelity.test.ts` — No test files found, exiting with code 1

@@ -28,3 +28,6 @@ First-party observation made during the unattended maintenance pass of 2026-08-0
 
 ## History
 - 2026-08-05 merged "Check the guard refuses a rewrite that omits a stored section and permits one that accounts for it" into this node and deleted its file — Same test, same threshold, same instrument — the original was created minutes earlier in this pass with a fabricated provenance id (`TRANSCRIPT:2026-08-05-unattended-pass`) matching no stored evidence record, which `ost_check` reported as an unresolved-citation violation. `source` is frontmatter with no setter on this surface, so re-creating with truthful free-text provenance and folding the original in is the only available repair. No content changed.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/edit-node-unacknowledged-section-guard.test.ts` — No test files found, exiting with code 1

@@ -29,3 +29,6 @@ _Unvalidated — a human runs this and records the outcome with `ost-agent resul
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/event-log-projection.test.ts — The threshold is already written as two mechanical clauses — at least 95% of tree-changing commits express as events with no residue, AND the projection of the full log is byte-identical to the current vault — and the node's own method says it "runs entirely against committed state, no build, no operator, no external party". The spec walks every tree-changing commit, attempts to express each diff in the event vocabulary, counts residue, then replays the log through the projector and diffs node by node. It fails today because neither the event vocabulary nor the projector exists.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/ost/event-log-projection.test.ts` — No test files found, exiting with code 1

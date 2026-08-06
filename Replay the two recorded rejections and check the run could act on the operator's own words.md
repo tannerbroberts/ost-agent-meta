@@ -17,3 +17,6 @@ This does not need anybody's afternoon. The measurement material already exists:
 **Lane: compute-only.**
 
 **What this does not settle.** Green proves prose can be turned into a decision for these two cases. It says nothing about whether operators would use an open field when a menu is sitting next to it, nor whether the decisions parsed out of prose are the ones the operator meant — the second is a correctness question a passing parse cannot see, and two samples is a fixture, not a rate.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/free-text-answer-parsing.test.ts` — No test files found, exiting with code 1
