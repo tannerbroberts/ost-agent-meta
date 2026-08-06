@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A workspace inventory detailed enough to prevent the observed failures is too large to carry in context]]
 
 **The idea.** The run receives a generated inventory of the workspace as part of its opening context — the directories that exist, the test suite's layout, whether this is a git repository, which roots are readable at all. It composes against a description rather than a belief.
 
