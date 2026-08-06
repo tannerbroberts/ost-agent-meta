@@ -1759,3 +1759,4 @@
 {"ts":"2026-08-06T14:12:07.443Z","tool":"ost_next_work","ok":true,"ms":90,"surface":"mcp","argBytes":2,"session":"mcp-d5ebff49-27b2-4f7f-917f-c5ab3b81b10c"}
 {"ts":"2026-08-06T14:12:59.694Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":3826,"session":"mcp-d5ebff49-27b2-4f7f-917f-c5ab3b81b10c","wrote":["A perf gate reports its measurement next to the number the criterion recorded.md"]}
 {"ts":"2026-08-06T14:13:22.249Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":3926,"session":"mcp-d5ebff49-27b2-4f7f-917f-c5ab3b81b10c","wrote":["Every self-observation channel names which of its sources each item came from.md"]}
+{"ts":"2026-08-06T14:38:09.779Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":3558,"session":"mcp-d5ebff49-27b2-4f7f-917f-c5ab3b81b10c","wrote":["A guard derived the rule it was checking, so it agreed with the bug for 23 releases.md"]}
