@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A generated manifest can only carry the rules the schemas know, and the refusal that bit hardest is not one of them]]
 
 **The idea.** The run reads one machine-generated manifest at startup that states, per tool, the preconditions a caller cannot otherwise see: that a write requires a prior read of the same path, that a response is refused above a size, that a parameter set is closed, that an evidence rung is capped by provenance. The cost of each rule is paid once, at composition time, instead of a turn at a time in the middle of unattended work.
 
