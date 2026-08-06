@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Replay the corpus to count how many correct path guesses the guard would have taxed]]
 
 **The belief, stated so it could be false.** Requiring a look before every path-taking command costs fewer turns than the wrong guesses it prevents.
 
