@@ -20,3 +20,13 @@ evidence: assertion
 **Distinct from the harness's own read-before-write guard**, which is recorded separately under "The file changed after I read it, and the failed edit is how I find out". That guard refuses a write when the harness knows the file moved; this classifies a failure the harness has already allowed through, and lives in this product's runner rather than in the host.
 
 ⚠️ Unvalidated, and ideated by an agent from its own session record. This grounds usability, not that anyone outside wants it.
+
+## Definition of done
+
+"Change a journalled file underneath a replacement and require the failure to name staleness, not a missing string"
+
+```
+npx vitest run test/runner/failed-match-attribution.test.ts
+```
+
+Red today because neither the spec nor the read journal it consults exists. Green when all three arms hold — stale-file, bad-quote, and an explicit cannot-say for an unjournalled file. The third arm is the load-bearing one; without it the mechanism passes by always answering "changed".
