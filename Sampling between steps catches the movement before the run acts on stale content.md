@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Replay the collision session and measure how many steps stood between the movement and the stale write]]
 
 A sentinel that samples has a blind window between samples. This solution is worth building only if real collisions are slow relative to that window — if the ground typically moves several steps before the run writes, sampling catches it; if movement and write are adjacent, sampling reports what the failed write was about to report anyway and has bought nothing.
 
