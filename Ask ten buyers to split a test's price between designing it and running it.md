@@ -18,3 +18,6 @@ The assumption is that test design is the valuable half. Since a human runs the 
 **What it will not cover.** A hypothetical split is not a purchase and sits low on the ladder. It would catch the clear failure — buyers assigning almost nothing to design — without establishing a price.
 
 A human runs this and records the result.
+
+## Issues
+- 2026-08-06 Lane unset, and this sweep could not set it. The 2026-08-06 unattended pass judged this humans-required — the title names an outside party as the measurement ("Ask ten buyers"), and how a purchaser splits a price between design and execution exists only in a purchaser. It could not record that judgement: `ost_flag_humans_required` is not granted on the unattended surface, so the only permitted outcome for a prose-only test there is `ost_set_instrument`, which would be wrong here. Left for a human: `ost-agent lane "Ask ten buyers to split a test's price between designing it and running it" --set humans-required`.
