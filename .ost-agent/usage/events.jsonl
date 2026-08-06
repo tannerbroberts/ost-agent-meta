@@ -1914,3 +1914,4 @@
 {"ts":"2026-08-06T18:55:14.577Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":1901,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["Require every size-capped tool to answer a size probe without materialising its payload.md"]}
 {"ts":"2026-08-06T18:55:24.444Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":871,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T18:55:29.435Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":991,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
+{"ts":"2026-08-06T18:55:32.397Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":882,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}

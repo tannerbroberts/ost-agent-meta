@@ -18,3 +18,15 @@ evidence: assertion
 **Where this fails.** It helps only where the caller has a narrower call to fall back on. A read of one large file has no smaller form, so the probe converts a refusal into a forewarned refusal and saves nothing but the surprise.
 
 ⚠️ Unvalidated. Agent-originated, first-party observation of this product's own surface.
+
+## Definition of done
+
+"Require every size-capped tool to answer a size probe without materialising its payload"
+
+```
+npx vitest run test/mcp/size-probe-precedes-refusal.test.ts
+```
+
+Green means every size-capped tool answers a size probe without invoking its serialiser. The expected argument is `ost_read_tree`, whose size may be knowable only by walking all 1,007 node files — if it fails, the honest outcome is to split this solution into a real probe for file-backed reads and a better refusal message for computed aggregations, rather than to ship it as one thing.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "A response cannot be sized more cheaply than it can be produced, so stating the size first buys nothing".
