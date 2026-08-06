@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[A preflight manifest states every tool precondition before the pass composes its first call]]
 
 When I hand a run a file to change, it does not fail because the change was wrong. It fails because it did not know it had to read the file first — and the only way it learned that was by trying to write.
 

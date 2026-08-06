@@ -1896,3 +1896,7 @@
 {"ts":"2026-08-06T16:24:15.811Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3596,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
 {"ts":"2026-08-06T17:11:59.104Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3302,"session":"mcp-d5ebff49-27b2-4f7f-917f-c5ab3b81b10c"}
 {"ts":"2026-08-06T17:47:33.914Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-7d6d00b2-2202-4755-b273-a02807ac2441"}
+{"ts":"2026-08-06T17:47:35.617Z","tool":"ost_next_work","ok":true,"ms":69,"surface":"mcp","argBytes":2,"session":"mcp-7d6d00b2-2202-4755-b273-a02807ac2441"}
+{"ts":"2026-08-06T17:48:12.955Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-7d6d00b2-2202-4755-b273-a02807ac2441"}
+{"ts":"2026-08-06T17:48:22.877Z","tool":"ost_read_repo","ok":false,"ms":0,"surface":"mcp","argBytes":2,"err":"no product repos configured — add local repo paths under `product.repos` in ost.config.yaml so the agent can read what the product is","session":"mcp-7d6d00b2-2202-4755-b273-a02807ac2441"}
+{"ts":"2026-08-06T17:50:38.532Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2371,"session":"mcp-7d6d00b2-2202-4755-b273-a02807ac2441","wrote":["A preflight manifest states every tool precondition before the pass composes its first call.md"]}
