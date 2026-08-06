@@ -1958,3 +1958,4 @@
 {"ts":"2026-08-06T20:07:04.988Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
 {"ts":"2026-08-06T20:07:05.787Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
 {"ts":"2026-08-06T20:11:08.410Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"mcp","argBytes":2186,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b","wrote":["A drift sentinel that samples HEAD and file mtimes between steps and interrupts on movement.md"]}
+{"ts":"2026-08-06T20:11:20.202Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2663,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b","wrote":["Classify the failed match by comparing the file against the run journal's recorded read.md"]}
