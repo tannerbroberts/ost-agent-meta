@@ -1986,3 +1986,4 @@
 {"ts":"2026-08-06T21:20:17.579Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2987,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026","wrote":["Refuse an instrument that passes on arrival.md"]}
 {"ts":"2026-08-06T21:20:39.627Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1478,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026","wrote":["Status alone decides what belongs in the instrument queue.md"]}
 {"ts":"2026-08-06T21:20:47.366Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1473,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026","wrote":["A shipped solution's claim is settleable by running one named spec.md"]}
+{"ts":"2026-08-06T21:20:54.466Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1604,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026","wrote":["A command's exit code at write time distinguishes unbuilt behaviour from a broken environment.md"]}

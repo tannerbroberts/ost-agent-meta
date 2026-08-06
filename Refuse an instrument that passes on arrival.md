@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A command's exit code at write time distinguishes unbuilt behaviour from a broken environment]]
 
 **The idea.** Move the guard from the queue to the write boundary. `ost_set_instrument` runs the command it is handed before accepting it, and refuses when it exits 0 — with a message that says the solution appears to be already built and points at the status field. The queue can go on listing whatever it likes; the wrong answer simply cannot land.
 
