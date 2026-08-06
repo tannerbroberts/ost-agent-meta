@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Sampling between steps catches the movement before the run acts on stale content]]
 
 **Candidate solution (unvalidated).** The run records a cheap fingerprint of the ground it is standing on — `HEAD`, and the mtime/size of every file it has read this pass — and re-samples it between steps. When the fingerprint moves, the run is interrupted with what moved, at the moment it moved, rather than discovering it several steps later through an unrelated failure.
 
