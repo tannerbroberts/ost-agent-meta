@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A provenance census would not have flagged the three guards that motivated it]]
 
 **The idea.** Do not fix anything yet. Walk every assertion in the suite and trace where each side came from. Report the ones where the expected value and the actual value trace back to the same module, constant, or generator — the shape that cannot disagree. The output is a list with a number on it, not a repair.
 

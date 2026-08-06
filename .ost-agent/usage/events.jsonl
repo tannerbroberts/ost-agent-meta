@@ -1929,3 +1929,4 @@
 {"ts":"2026-08-06T18:59:58.512Z","tool":"ost_ingest_inbox","ok":true,"ms":6,"surface":"mcp","argBytes":2,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T19:00:00.495Z","tool":"ost_next_work","ok":true,"ms":87,"surface":"mcp","argBytes":2,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T19:00:32.217Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1664,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["The three guards that agreed with the bug would stay green under a mutation of the thing they check.md"]}
+{"ts":"2026-08-06T19:00:38.883Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1602,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["A provenance census would not have flagged the three guards that motivated it.md"]}
