@@ -1719,3 +1719,5 @@
 {"ts":"2026-08-06T00:41:37.263Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
 {"ts":"2026-08-06T00:41:37.929Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
 {"ts":"2026-08-06T00:41:55.388Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1125,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["A second process is editing the same files, and a failed string match is the only notification.md"]}
+{"ts":"2026-08-06T00:42:00.849Z","tool":"ost_read_tree","ok":true,"ms":40,"surface":"mcp","argBytes":2,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:44:21.183Z","tool":"ost_set_instrument","ok":true,"ms":1,"surface":"mcp","argBytes":532,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
