@@ -24,3 +24,15 @@ evidence: assertion
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 unlinked "Hand-compute unblock counts and see if the operator's pick changes" — moved under "Unblock count changes which node an operator actually picks" — the belief this test measures now has a node of its own
+
+## Definition of done
+
+"Compute the unblock-count distribution over this vault and require it to be non-flat"
+
+```
+npx vitest run test/rank/unblock-leverage-distribution.test.ts
+```
+
+Green means the top-ranked build unblocks at least 3x the median and the top decile carries at least a quarter of all unblockings — the ranking separates candidates rather than declaring them equal. This is the prerequisite check this node's own body asked for and never got a runnable form: red here means do not build the graph machinery, and do not spend an operator's afternoon on the study beneath this solution, because it would be a study of a ranking that cannot rank.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "Unblock counts are near-uniform across a real tree, so ranking by them orders nothing".
