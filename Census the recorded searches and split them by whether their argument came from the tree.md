@@ -25,3 +25,4 @@ Committed before counting, and worth stating plainly: this pass already knows tw
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/search-literality-census.test.ts` — No test files found, exiting with code 1
+- 2026-08-06 **green** (exit 0) `npx vitest run test/telemetry/search-literality-census.test.ts` — Duration  2.67s (transform 40ms, setup 0ms, collect 2.47s, tests 6ms, environment 0ms, prepare 29ms)
