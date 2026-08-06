@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Forcing a look before every path costs more turns than the wrong guesses did]]
 
 **The idea.** A command that takes a path is refused unless that path has already appeared in this session — in a listing, a search result, or a prior read. The run must look before it addresses. The refusal is cheap, immediate, and names the looking that would satisfy it.
 
