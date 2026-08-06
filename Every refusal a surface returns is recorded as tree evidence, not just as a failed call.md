@@ -16,3 +16,13 @@ evidence: assertion
 **Where it fails.** It records what was *attempted*. A capability the agent never reached for, because it had already learned not to, leaves no trace — so the record drifts toward the tools the agent is most persistent about and away from the ones it has quietly given up on.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Replay a denied call and a tool error and check they land as different records"
+
+```
+npx vitest run test/adapters/usage-denial-classification.test.ts
+```
+
+Named in plain text rather than linked: the test is already wikilinked by its parent assumption, and a title is linked exactly once in the vault.
