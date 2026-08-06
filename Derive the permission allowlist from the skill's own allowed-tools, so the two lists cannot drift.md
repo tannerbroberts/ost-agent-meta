@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Solution #unvalidated #evidence/observed
+[[A generated allowlist can widen a grant without a human in the loop]]
 
 There are two lists of tools and they are maintained by different hands at different times, which is the whole disease.
 
