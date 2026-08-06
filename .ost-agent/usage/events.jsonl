@@ -2026,3 +2026,9 @@
 {"ts":"2026-08-06T21:28:49.719Z","tool":"ost_ingest_inbox","ok":true,"ms":2,"surface":"mcp","argBytes":2,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
 {"ts":"2026-08-06T21:28:54.136Z","tool":"ost_next_work","ok":true,"ms":63,"surface":"mcp","argBytes":2,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
 {"ts":"2026-08-06T22:29:42.318Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
+{"ts":"2026-08-06T22:29:43.886Z","tool":"ost_next_work","ok":true,"ms":62,"surface":"mcp","argBytes":2,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
+{"ts":"2026-08-06T22:30:28.792Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
+{"ts":"2026-08-06T22:30:29.131Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
+{"ts":"2026-08-06T22:33:39.147Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
+{"ts":"2026-08-06T22:33:50.641Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
+{"ts":"2026-08-06T22:34:45.960Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2648,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c","wrote":["A run's own leftovers break the next run's setup, so the loop fails before it starts.md"]}

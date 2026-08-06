@@ -12,6 +12,7 @@ evidence: assertion
 [[I can't tell what a half-finished run actually finished]]
 [[A run that dies while I am away stays dead, and nothing says where it stopped]]
 [[The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time]]
+[[A run's own leftovers break the next run's setup, so the loop fails before it starts]]
 
 **The need (customer's voice):** "If I hand a goal and some compute to an autonomous agent and walk away, I need to come back to a system that is still running and still pointed at the same goal — and if I stop it or it crashes mid-step, I need to be able to start it again without wondering what got half-written."
 
