@@ -23,3 +23,6 @@ instrument: >-
 **Why it is red today.** No census exists. Missing-file red, stated plainly — and this sweep could not read the repository to name a better path, for the permission reason recorded under "The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed".
 
 **What a green does NOT settle.** That the census's *other* findings are real defects rather than legitimate shared constants, or that anyone would act on the list. Both matter and neither is measured here.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/guards/provenance-census-scores-against-known-defects.test.ts` — No test files found, exiting with code 1

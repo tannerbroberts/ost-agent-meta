@@ -21,3 +21,6 @@ instrument: npx vitest run test/runner/write-intent-preflight-false-stop.test.ts
 **Why it is red today.** `test/runner/write-intent-preflight-false-stop.test.ts` does not exist, and no preflight rule exists for it to exercise. A missing-file red rather than an assertion red, because repository reads were denied from this surface and no module could be named as the one that would have to change.
 
 **What a green here does NOT settle.** That the rule separates the two cases on the sessions recorded so far — a sample drawn entirely from one operator's machine and this agent's own runs. It says nothing about a busier repository, nothing about whether an operator would leave the guard switched on once it refused them once, and nothing about desirability.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/write-intent-preflight-false-stop.test.ts` — No test files found, exiting with code 1

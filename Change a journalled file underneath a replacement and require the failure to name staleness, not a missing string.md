@@ -23,3 +23,6 @@ instrument: npx vitest run test/runner/failed-match-attribution.test.ts
 **Distinct from the host's read-before-write guard**, tested separately by "Auto-satisfy a read-before-write, then change the file underneath and require the write to still refuse". That one asks whether a write is refused. This one asks what the run is told once a write has already failed, and lives in this product rather than in the harness.
 
 **What a green here does NOT settle.** Only that the attribution is correct when it speaks. Whether a correctly-attributed failure changes what an unattended run then does is untested, and whether any operator cares about the distinction is not a question a spec can reach.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/failed-match-attribution.test.ts` — filter:  test/runner/failed-match-attribution.test.ts

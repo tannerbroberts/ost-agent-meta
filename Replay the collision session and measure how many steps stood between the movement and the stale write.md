@@ -19,3 +19,6 @@ instrument: npx vitest run test/runner/drift-sentinel-window.test.ts
 **Why it is red today.** `test/runner/drift-sentinel-window.test.ts` does not exist, and neither does the replay helper it would need. This is a missing-file red rather than an assertion red — the honest weaker of the two — because the product repository could not be read from this surface: reads of it were denied, which is recorded on its own opportunity. A builder should expect to write the replay helper before the assertion means anything.
 
 **What a green here does NOT settle.** It says a sentinel would have had time to fire. It says nothing about whether firing helps: an interrupted unattended run that then has no authority to decide what to do about the interruption may be worse off than one that failed at the write. It also says nothing about the false-stop rate, which belongs to the preflight candidate, and nothing at all about desirability — no operator outside this vault has said any of this matters.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/drift-sentinel-window.test.ts` — No test files found, exiting with code 1

@@ -19,3 +19,6 @@ _Proposal only — a human runs this evaluation. Unvalidated._
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 instrument: (none) → npx vitest run test/product/offline-trial-pass.test.ts — Asserts the node's actual promise — a first-time user running the tool end-to-end with no external account and no network at all: a full maintenance pass completes with the network disabled and no credential in the environment. Red today because the deterministic CLI works offline but every reasoning step is supplied by the connected session's model, so a pass cannot complete without one.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/product/offline-trial-pass.test.ts` — No test files found, exiting with code 1

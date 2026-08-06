@@ -19,3 +19,6 @@ instrument: npx vitest run test/mcp/size-probe-precedes-refusal.test.ts
 **Why it is red today.** No size probe exists on any tool, so every case fails at the first call. This is missing-mechanism red rather than merely missing-file red — the caps themselves are real and observed, and the absent thing is the probe. The path is still named from vault convention rather than read off the suite, because this pass had no repository sight; a human should confirm the location.
 
 **What a green does NOT settle.** That a caller who is told a size in advance actually behaves differently. Sizing is necessary for the solution and nowhere near sufficient for it, and a green here must not be read as evidence that the friction went away.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/size-probe-precedes-refusal.test.ts` — No test files found, exiting with code 1
