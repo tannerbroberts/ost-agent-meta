@@ -1907,3 +1907,4 @@
 {"ts":"2026-08-06T18:51:41.066Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T18:51:41.233Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T18:54:12.341Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":1948,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["A generated manifest can only carry the rules the schemas know, and the refusal that bit hardest is not one of them.md"]}
+{"ts":"2026-08-06T18:54:26.944Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2171,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["Measure what fraction of recorded refusals a schema-derived manifest could have named.md"]}

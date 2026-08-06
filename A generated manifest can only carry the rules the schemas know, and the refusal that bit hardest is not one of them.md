@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Measure what fraction of recorded refusals a schema-derived manifest could have named]]
 
 **The belief, stated so it could be false.** Every precondition that actually costs a pass a turn is derivable from the tool surface's own schemas, so a manifest generated from those schemas would have named the rules that sessions actually collided with.
 
