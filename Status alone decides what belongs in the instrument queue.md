@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Filter the queue on shipped and count what is still unsatisfiable]]
 
 **The belief, stated so it could be false.** Every solution currently in `solutionsMissingInstruments` that cannot be given a red-now instrument is there because it is shipped — so filtering on `status: shipped` empties the unsatisfiable part of the queue and leaves only work a builder can act on.
 
