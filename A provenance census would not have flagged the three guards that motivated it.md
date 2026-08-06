@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Score the provenance census against the three guards it was invented to catch]]
 
 **The belief, stated so it could be false.** A syntactic provenance trace catches enough of the self-derivation pattern to be worth running, including the three prefix guards that exposed the problem.
 
