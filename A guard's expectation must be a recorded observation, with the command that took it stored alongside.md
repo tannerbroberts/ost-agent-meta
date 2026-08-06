@@ -18,3 +18,15 @@ evidence: assertion
 **Cost.** A policy plus a lint that recognises the pattern. No new runtime machinery.
 
 ⚠️ Unvalidated. Agent-ideated from the agent's own repository, generalising one repair into a rule — which is exactly the move the parent opportunity warns produces confident wrong guards, and a human should weigh that irony rather than let this pass unremarked.
+
+## Definition of done
+
+"Re-run every stored probe in CI and require its recorded literal to still agree"
+
+```
+npx vitest run test/guards/stored-probes-still-agree.test.ts
+```
+
+Green means every stored probe runs in under 5 seconds and its output still equals the literal recorded beside it. The two failure modes are different findings and the spec must distinguish them: a drifted literal is a staleness this policy caught, while a probe that cannot run unattended is a recording nothing will ever re-verify — and the second is this solution's central risk, because it turns a stored command back into a comment.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "A recorded expectation goes stale silently, because the probe stored beside it is never re-run".
