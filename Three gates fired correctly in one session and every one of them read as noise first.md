@@ -33,3 +33,6 @@ The sibling solution "A perf gate reports its measurement next to the number the
 
 ## History
 - 2026-08-06 body edited — The closing paragraph wikilinked its sibling in prose, which broke `single-backlink` — exactly one link, from the parent — and turned the whole tree red, which is the state that stops the discovery loop firing. Same rule the product enforces and the same one I had just been reading about. Reworded to name the sibling as plain text; nothing else changed.
+
+## Issues
+- 2026-08-06 unresolved-citation (flagged by ost_check): frontmatter cites `TRANSCRIPT:89ac8277-29ce-4d80-827e-cefea0bebabf`, and no record under `.ost-agent/evidence/` carries that id. Same fault, same missing id, on four nodes created in one sitting; the full diagnosis and the check that would settle it are recorded on "A guard derived the rule it was checking, so it agreed with the bug for 23 releases". Until it is settled, treat this node's evidence rung as unsupported.
