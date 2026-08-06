@@ -20,3 +20,15 @@ evidence: assertion
 **Cost.** A generator plus context budget at startup, on every run, whether or not the run touches a file.
 
 ⚠️ Unvalidated. Agent-ideated from the agent's own transcripts — usability evidence, not evidence that anyone wants this.
+
+## Definition of done
+
+"Generate the inventory and require it to fit a startup budget while still naming the failed paths"
+
+```
+npx vitest run test/preflight/workspace-inventory-fits-and-covers.test.ts
+```
+
+Green means the generated inventory is under 4,000 tokens **and** names the parent directory of every path that failed in the captured corpus. Both, not either — the two requirements pull against each other, and this vault already has the receipt for the losing side in `ost_read_tree` being refused at 134,240 characters. Which condition breaks decides whether this solution narrows to a scoped inventory or dies in favour of a sibling. The 4,000 figure is a judgement rather than a measurement and should be argued with before the test runs, because the whole verdict turns on it.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "A workspace inventory detailed enough to prevent the observed failures is too large to carry in context".
