@@ -2011,3 +2011,4 @@
 {"ts":"2026-08-06T21:25:57.083Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":767,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
 {"ts":"2026-08-06T21:26:00.243Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":882,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
 {"ts":"2026-08-06T21:26:15.994Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1604,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
+{"ts":"2026-08-06T21:26:16.273Z","tool":"ost_ingest_inbox","ok":true,"ms":2,"surface":"mcp","argBytes":2,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
