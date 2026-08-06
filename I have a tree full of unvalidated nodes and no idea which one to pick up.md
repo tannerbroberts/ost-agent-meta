@@ -42,6 +42,13 @@ _Provenance: direct observation of a second OST-Agent instance's vault and git h
 
 ## Issues
 - 2026-07-25 Mirror flag: near-duplicate pain with 'Nothing kills a candidate, so every idea I have ever had is still alive' — see that node's annotation. Merge-candidate pair for human decision (2026-07-24 review).
+- 2026-08-06 Scope judgement by the 2026-08-06 unattended sweep, recorded so a human can overrule it. The sweep was asked to ideate up to three solutions for each of 28 under-served opportunities — roughly 78 new solutions, each needing an assumption and a test, so ~230 nodes. It stopped after two opportunities (six solutions, six assumptions, six tests, all grounded in evidence ingested in the same pass) and did not mass-ideate the rest.
+
+Reason: the tree already holds 267 solutions and 275 tests, of which 0 have been tested and roughly 10% are built. The stated need on this node is that there are too many unvalidated nodes to choose between. Adding 78 more agent-ideated candidates, none of which anyone asked for and none of which would be tested either, is the mechanism of this opportunity operating rather than a response to it — the queue would be satisfied and the customer's problem made worse.
+
+The two opportunities that were served were chosen because this pass had fresh first-party evidence for them, not because they ranked highest: "The same agent has a different tool surface on every surface I run it on" and "Each pass leaves me more to check than it started with".
+
+What a human should decide: whether under-served counts are worth clearing at all on a tree this size, or whether the minimum-solutions rule should be scoped to opportunities somebody has actually chosen to target. Torres's own work-in-progress limit says one target opportunity at a time, which is not what a tree-wide minimum produces.
 
 ## Supporting evidence — builder verdict (2026-07-24)
 
