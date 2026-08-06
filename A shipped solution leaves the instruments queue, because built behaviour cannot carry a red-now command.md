@@ -18,3 +18,13 @@ This is the opportunity's mechanism in miniature. The cost is not the four items
 **Where it fails.** It trusts `status: shipped`, which an agent can set. A solution wrongly marked shipped would vanish from the one queue that would have chased it — so this shifts weight onto a field with no gate behind it, and is only safe while status changes are recorded in `## History` with the reasoning attached, as those four are.
 
 ⚠️ Unvalidated. Agent-ideated, from the queue this pass was working.
+
+## Definition of done
+
+"Audit every shipped solution against the repository before trusting the exclusion"
+
+```
+npx vitest run test/ost/shipped-status-audit.test.ts
+```
+
+Named in plain text rather than linked: the test is already wikilinked by its parent assumption, and a title is linked exactly once in the vault.
