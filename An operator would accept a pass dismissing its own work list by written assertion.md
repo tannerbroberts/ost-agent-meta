@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Show five operators a pass's dismissed-work list and ask whether they would have let it stand]]
 
 Desirability, and the one that should decide whether this candidate ships at all.
 
