@@ -20,3 +20,17 @@ evidence: assertion
 **Cost.** The largest of the three by a wide margin: an execution path, a timeout policy, a sandbox question, and a decision about what to do when the command cannot be run.
 
 ⚠️ Unvalidated. Proposed by the agent whose unchecked writes it is designed to refuse; that is a reason to take the diagnosis seriously and to distrust the enthusiasm.
+
+## Definition of done
+
+"Feed the guard three reds and one green and require it to sort them"
+
+```
+npx vitest run test/mcp/instrument-red-now-guard.test.ts
+```
+
+Red today: nothing executes a candidate command — `ost_set_instrument` checks the command's shape and takes red-now on the author's word. Green when the guard classifies all four planted exit codes correctly.
+
+Before building this, settle the prior question it raises: adding command execution to a write path contradicts "Append-only tool surface with no delete or shell tool", and that is a decision about what this product is willing to be. A passing spec does not authorise it.
+
+The test title is quoted rather than linked because it is already wikilinked once by its parent Assumption, and a second link would fail `check`'s single-backlink rule.
