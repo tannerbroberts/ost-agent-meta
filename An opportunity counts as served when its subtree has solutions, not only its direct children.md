@@ -18,3 +18,13 @@ evidence: assertion
 **Compared with its siblings.** "Every work bucket excludes nodes whose frontmatter says they are closed" fixes the shipped face and cannot touch this one, because a parent opportunity's status is legitimately `unvalidated`. "A disposition record every bucket consults" would fix this by letting a pass write down "served by children" once — more general, more expensive, and it requires someone to remember to write it, where this derives the answer from edges that already exist.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Count how many underserved opportunities have a solution somewhere beneath them"
+
+```
+npx vitest run test/ost/underserved-subtree-count.test.ts
+```
+
+Green means the bucket counts Solutions across an opportunity's whole subtree, so a parent whose children are served stops being reported as a gap. The bar is fixed in advance: at least half of the currently-reported underserved opportunities must turn out to have a Solution beneath them, or the phantom-gap theory is refuted and plain ideation is the better answer.
