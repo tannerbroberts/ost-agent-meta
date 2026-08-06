@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Solution #unvalidated #evidence/observed
+[[A session can find out which tools it may call without calling one]]
 
 Before the run reads the tree, it works out what it is going to need and whether it has it.
 
