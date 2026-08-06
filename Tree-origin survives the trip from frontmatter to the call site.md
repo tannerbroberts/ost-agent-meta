@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Assumption #unvalidated #evidence/observed
+[[Replay the two titles that broke ripgrep through every path that reaches a command]]
 
 **Feasibility.** The scheme needs "this came from the tree" to be a property of the value at the moment it reaches a command, not a fact about its history that a reader could reconstruct.
 
