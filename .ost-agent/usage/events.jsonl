@@ -1850,3 +1850,4 @@
 {"ts":"2026-08-06T15:24:35.709Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2416,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Replay the two titles that broke ripgrep through every path that reaches a command.md"]}
 {"ts":"2026-08-06T15:24:43.700Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":866,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:24:45.636Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
+{"ts":"2026-08-06T15:25:08.518Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1969,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}

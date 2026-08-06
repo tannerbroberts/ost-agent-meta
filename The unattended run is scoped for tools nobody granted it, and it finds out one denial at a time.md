@@ -40,3 +40,15 @@ Both denials had a workaround and neither was free. The `ost_debt` question was 
 That second case is the sharper form of this opportunity than the one the body above describes. A denied read costs turns. A denied *write* leaves the tree carrying a claim in a place no gate reads, and the pass that recorded it looks, from its own summary, like it handled the item.
 
 Provenance: this pass, 2026-08-06. Not an ingested record — no adapter has captured this session yet, and citing an id for a session that has not ended is the exact fault flagged on four nodes elsewhere in this vault this morning.
+
+## Final tally for the pass of 2026-08-06
+
+Three distinct tools denied, not two. `ost_check` was called last, to verify the tree's invariants after roughly forty writes, and refused with the same message as the others.
+
+That third one is the worst of the three and worth separating from the rest. `ost_debt` cost turns and had a workaround. `ost_flag_humans_required` left three labels unwritten and was recorded as prose. `ost_check` means **the pass could not verify its own output.** Forty-odd writes went in — new opportunities, solutions, assumptions, tests, instruments, appended definitions of done — and the one deterministic check that would say whether any of them broke an invariant was unavailable to the run that made them.
+
+The tree happens to be clean: the four `unresolved-citation` issues cleared during the pass, and the final `ost_next_work` returned `hygieneIssues: []`, which is computed over every node. So there is a second channel and it gave a good answer. But that is luck about which surfaces overlap, not a property anyone designed, and `ost_next_work` reports hygiene rather than the full invariant set — a wrapped wikilink or a second backlink is `ost_check`'s to catch and this pass has no assurance about either.
+
+Which sharpens what this opportunity is really about. The cost of a denied grant is not the turn. It is that an unattended run's ability to check itself is a permission, and when that permission is missing the run does the work anyway and reports it with a confidence it has not earned. Every summary this pass wrote about its own correctness rests on a gate it was not allowed to open.
+
+Grants this pass needed and did not have: `ost_check`, `ost_debt`, `ost_flag_humans_required`, and read access to the product repository (both by path and via `product.repos`, which is unconfigured).
