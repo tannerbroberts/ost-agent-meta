@@ -51,3 +51,21 @@ Not one item revealed a need the tree does not hold. So the honest disposition f
 **One consequence for the believability rollup, worth a human's attention.** These six opportunities are the most heavily corroborated needs in the vault — dozens of mechanically captured observations each — and most of them read `rests on assertion`. That is partly a bookkeeping artefact of the same defect: `observed` requires provenance that is itself a recording, `source:` is settable only at creation, and these nodes were created citing inbox notes or agent ideation. The corroboration exists and cannot be attached. A reader taking the rollup's floor rung at face value will under-rate exactly the needs this product has the most evidence for.
 
 _Census taken 2026-08-06 by direct count over `.ost-agent/evidence/TRANSCRIPT_*.md`. Counts are occurrences of each refusal string, not sessions; session counts are given where they differ. Re-checkable by anyone with the vault._
+
+## Measured — 63 items, and citing one in a body does not retire it (unattended sweep, 2026-08-06)
+
+This pass ingested 2 new transcript records and found **63 unmapped evidence items**, all from the transcript channel. Five were read in full. Their content is, without exception, needs this tree already holds:
+
+- permission denials for tools the pass was told to use — held by "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time"
+- denied reads of the product repository — held by "The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed"
+- `Edit` refusing with "File has not been read yet" and "File has been modified since read" — held by "The file changed after I read it, and the failed edit is how I find out"
+- byte-identical re-calls of `ost_ingest_inbox` and `ost_next_work` inside one session — held by "A third of my calls go on re-asking what is outstanding"
+- a tool invoked whose schema was never fetched — held by "Every precondition is discovered by violating it, so a pass pays a turn per rule it did not know"
+
+**The mechanical finding, which is the part worth keeping.** An item is retired from the unmapped queue only by a node whose **`source:` frontmatter** carries its exact id. A citation in a node *body* does nothing. This is checkable rather than inferred: `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` is cited by name in the corroboration table on "The same refusal is rediscovered every session, because nothing carries the lesson forward", and in four separate corroboration sections on "My loop spends its time waiting for a check it cannot subscribe to" — and it is still on this pass's unmapped list.
+
+**So the queue has exactly two exits, and both are wrong.** Either create a node per item — 63 opportunities restating needs the tree already carries, which is the duplication debt the ruleset forbids — or leave them outstanding forever, in which case `done: true` is unreachable and every future pass re-reads the same records to reach the same conclusion. Corroborating an existing node, which is the *correct* handling and what several passes have done at length, is the one action that changes nothing about the queue.
+
+**What would settle it:** whether corroboration counts as mapping. If a body citation retired an item, the honest handling and the queue-clearing handling would be the same act, and this node's whole complaint dissolves. The tree already holds a proposed mechanism for this — the test "Blind-review a pass's acknowledge-or-map calls on the seven stranded items", instrumented at `test/ost/evidence-acknowledge.test.ts` — and it remains unbuilt, which is why the count went from seven stranded items to sixty-three.
+
+_Source: `ost_next_work` output of 2026-08-06; records `022e473f`, `2a4bcf6e`, `49d6b2d3`, `c41b49d0` and `e6e8542c` read in full; the `516fdfb8` citation checked directly against both node files. Observed behaviour of this product's own sweep. Corroboration only; the node's rung is unchanged._
