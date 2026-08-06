@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-06 instrument: (none) → npx vitest run test/mcp/refusal-absorption-census.test.ts — The test's own threshold — at least 4 of the top 10 refusal classes judged safe to absorb, covering 30% or more of all refusals fired — is a census over the recorded refusal corpus and a classification of each class, and neither the census nor the classification exists in the repository today, so the spec has nothing to import and fails.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/refusal-absorption-census.test.ts` — No test files found, exiting with code 1

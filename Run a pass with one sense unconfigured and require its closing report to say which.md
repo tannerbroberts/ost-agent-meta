@@ -19,3 +19,6 @@ instrument: npx vitest run test/loop/sense-census-report.test.ts
 **The half of the threshold most likely to fail, stated in advance so a red there counts.** "A sense nothing reached for is distinguishable from one that worked" is the demanding clause. If the census can only be assembled from observed denials, then a sense nothing tried renders as fine, and the mechanism has reproduced the exact ambiguity it was built to remove. That is a refutation of the assumption, not a bug in the test.
 
 **What a green run does not settle.** It proves the report can be produced. It says nothing about whether anyone reads it — and this loop's standing problem is that its output already exceeds what gets reviewed, so a census nobody opens changes nothing about the degraded work that still went into the tree. Desirability and usability are both untouched.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/sense-census-report.test.ts` — No test files found, exiting with code 1
