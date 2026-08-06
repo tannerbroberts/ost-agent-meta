@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Assumption #unvalidated #evidence/observed
+[[Run the refusals section for two weeks and count the mornings it changes anything]]
 
 **Desirability.** The solution assumes the missing thing is information. It may be that the information was always available and the operator's problem is attention, in which case adding a section at the top of a report changes where the failure sits without removing it.
 
