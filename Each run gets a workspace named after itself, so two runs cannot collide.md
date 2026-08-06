@@ -18,3 +18,13 @@ evidence: assertion
 **Cost.** A path derivation and a reaper for old directories. No decision table, which is its main advantage over reconciliation.
 
 ⚠️ Unvalidated. Agent-ideated from one observed failure.
+
+## Definition of done
+
+"Set up a per-run workspace and count what it reinstalls against the warm shared one"
+
+```
+npx vitest run test/runner/per-run-workspace-cost.test.ts
+```
+
+Green means a run-id-derived workspace reinstalls nothing and prepares within 20% of the warm shared path — the cost objection answered. It settles nothing about correctness: two live per-run worktrees sharing one dependency tree by symlink are isolated only in their working trees, and that failure stays green on every number this command reports.
