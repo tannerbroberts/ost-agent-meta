@@ -20,3 +20,17 @@ evidence: assertion
 **Cost.** Session-scoped path bookkeeping plus a refusal path. Cheap to build, and the expensive part is the friction it deliberately introduces.
 
 ⚠️ Unvalidated. Agent-ideated from the agent's own transcripts — usability evidence, not evidence that anyone wants this.
+
+## Definition of done
+
+"Replay the corpus to count how many correct path guesses the guard would have taxed"
+
+```
+npx vitest run test/friction/path-guess-hit-rate.test.ts
+```
+
+Green means wrong first-contact path guesses are at least 1 in 5 of all first-contact path-taking calls. Below that the guard costs more turns than it saves and this solution should be dropped in favour of "A path failure answers with the layout it was addressed against, not with the path that was missing".
+
+One trap the spec must avoid, or the number is meaningless: the friction adapter records failures only, so a test reading the distilled friction records would see no successful guesses, compute a hit rate of 100%, and pass resoundingly while measuring nothing. It must read raw session transcripts and fail loudly if handed the friction records instead.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "Forcing a look before every path costs more turns than the wrong guesses did".
