@@ -20,3 +20,17 @@ evidence: assertion
 **Cost.** Error-path changes at each of the product's own tools. No new state.
 
 ⚠️ Unvalidated. Agent-ideated from the agent's own transcripts — usability evidence, not evidence that anyone wants this.
+
+## Definition of done
+
+"Count what share of observed path failures came through this product's own tools"
+
+```
+npx vitest run test/friction/path-failure-attribution.test.ts
+```
+
+Green means at least 40% of path-shaped failures in the captured corpus arrive through tools this repository controls. Below that, this solution improves the error surface of a minority of calls and must either narrow to a named subset or be dropped — the parent opportunity's own census lists `sed`, `ls`, a shell glob and `git`, none of which are this product's to change, so the risk is real rather than theoretical.
+
+The spec should report the totals with and without permission-denied failures counted as layout failures, since that classification choice moves the number and picking one silently would hide it.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "The tools this product controls account for a minority of the path failures observed".
