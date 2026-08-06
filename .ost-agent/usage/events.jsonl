@@ -1845,3 +1845,4 @@
 {"ts":"2026-08-06T15:23:28.022Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":810,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:23:45.406Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2066,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Nearly every search a pass issues is a literal lookup wearing a pattern language.md"]}
 {"ts":"2026-08-06T15:23:59.866Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2406,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Census the recorded searches and split them by whether their argument came from the tree.md"]}
+{"ts":"2026-08-06T15:24:05.828Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":946,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}

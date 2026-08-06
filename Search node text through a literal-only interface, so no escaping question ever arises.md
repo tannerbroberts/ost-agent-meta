@@ -19,3 +19,17 @@ The bet is that the overwhelming majority of searches a pass actually issues are
 If it is false — if passes routinely need real pattern semantics over node text — then a literal-only interface just moves the calls to the escape hatch and the failures come back through it. That is the assumption worth settling before building, and it is settled by counting, not by arguing: the searches a pass issues are recorded.
 
 Against its siblings. "Never let a malformed search be counted as an empty result" is strictly more robust and strictly less satisfying — it tolerates the failure and prevents the miscount, and it keeps working for denied reads and size caps that no escaping fixes. "Route every data-derived argument through a quoter" keeps the pattern language and adds a rule that must be remembered, which is the shape of fix this project has elsewhere concluded is not enough on its own. This candidate is the only one of the three that makes the mistake unavailable rather than survivable, and it is also the only one whose scope claim might be wrong.
+
+## Definition of done
+
+"Census the recorded searches and split them by whether their argument came from the tree"
+
+```
+npx vitest run test/telemetry/search-literality-census.test.ts
+```
+
+Red today: the trace records search invocations but nothing classifies them by pattern-need or by argument provenance, so the census has nothing to read.
+
+Run this before building. It is as likely to redraw the solution as to confirm it — if tree-derived arguments turn out to be overwhelmingly literal while hand-written ones are freely patterned, the interface should be drawn on provenance, not on literalness, and this node wants rewriting rather than implementing.
+
+Green here bounds only searches over node text. The shell failures in the same opportunity — a path globbed, a flag read as a filename — are untouched by it.
