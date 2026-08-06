@@ -1852,3 +1852,10 @@
 {"ts":"2026-08-06T15:24:45.636Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:25:08.518Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1969,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T16:10:45.165Z","tool":"ost_ingest_inbox","ok":true,"ms":26,"surface":"mcp","argBytes":2,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
+{"ts":"2026-08-06T16:10:47.002Z","tool":"ost_next_work","ok":true,"ms":98,"surface":"mcp","argBytes":2,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
+{"ts":"2026-08-06T16:11:28.985Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
+{"ts":"2026-08-06T16:11:29.176Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
+{"ts":"2026-08-06T16:11:37.583Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
+{"ts":"2026-08-06T16:11:38.516Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
+{"ts":"2026-08-06T16:12:19.360Z","tool":"ost_read_tree","ok":true,"ms":58,"surface":"mcp","argBytes":2,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
+{"ts":"2026-08-06T16:15:20.330Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":4530,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381","wrote":["Work a previous pass settled comes back on the next list, so I pay to re-decide it.md"]}

@@ -12,6 +12,7 @@ evidence: assertion
 [[Nothing tells an honest loop to stop, so it either idles or invents work]]
 [[My loop spends its time waiting for a check it cannot subscribe to]]
 [[Evidence that fits no layer keeps coming back, so the pass never runs out of work]]
+[[Work a previous pass settled comes back on the next list, so I pay to re-decide it]]
 
 **Customer need (operator's perspective):** "Set-it-and-forget-it means I need to know when forgetting it is still buying me something. Right now it never finishes, and I can't tell the difference between working and idling."
 
