@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Every work bucket excludes nodes whose own frontmatter already says they are closed]]
+[[An opportunity counts as served when its subtree has solutions, not only its direct children]]
 
 A pass reaches a correct decision, writes down why, and the next pass is handed the same item as outstanding work — because the bucket that selects it has no way to represent "settled by a means other than the one this bucket expects."
 
