@@ -1787,3 +1787,4 @@
 {"ts":"2026-08-06T15:04:45.067Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:04:45.480Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":31,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:06:55.343Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2832,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Every precondition is discovered by violating it, so a pass pays a turn per rule it did not know.md"]}
+{"ts":"2026-08-06T15:07:14.068Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2571,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time.md"]}
