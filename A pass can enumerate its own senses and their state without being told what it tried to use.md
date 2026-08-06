@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Run a pass with one sense unconfigured and require its closing report to say which]]
 
 Feasibility. The census is only cheap if it is derivable — read the config, read the tool grant, and state each sense as configured/wired/granted without the pass having to instrument every call site.
 
