@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Feed the guard three reds and one green and require it to sort them]]
 
 **The belief, stated so it could be false.** Running the candidate command at write time yields a signal the guard can act on — a red exit means the behaviour is genuinely absent, not that the suite could not run.
 
