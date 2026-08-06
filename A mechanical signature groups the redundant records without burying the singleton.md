@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Run the signature over the real 65 and check the singleton survives]]
 
 **The belief, stated so it could be false.** Tool name plus error class is a good enough signature: it collapses the repeating frictions into a handful of clusters while leaving the rare, one-off event individually visible.
 
