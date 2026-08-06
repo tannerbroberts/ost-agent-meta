@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Write one disposition of each of the three kinds through a single ledger schema]]
 
 Feasibility. The belief is that the three faces of this defect are close enough in shape to share one record: an id, a disposition, a reason, a pass. If they are, the general form costs one store and one read per bucket. If they are not, it costs a bespoke entry kind per bucket, at which point the two cheaper siblings are the better buy and this candidate should lose.
 
