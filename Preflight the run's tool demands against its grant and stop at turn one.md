@@ -21,3 +21,15 @@ What this deliberately does not do is guess. It does not request the grant, esca
 Contrast with its siblings: "The run's report leads with what it was refused, so a denied night cannot read as a quiet one" accepts the gap and fixes the reporting instead; "Derive the permission allowlist from the skill's own allowed-tools, so the two lists cannot drift" removes the gap by construction and would make this preflight redundant. This one is the cheapest to build and the only one of the three that helps when the mismatch is the operator's deliberate choice rather than a drift.
 
 The cost is a false stop: a pass that could have done nine tenths of its work refuses to do any of it because one optional tool is missing. That is the risk worth testing before building.
+
+## Definition of done
+
+"Resolve the declared tool list against the settings allowlist and name every gap, including path-scoped ones"
+
+```
+npx vitest run test/runner/grant-preflight.test.ts
+```
+
+Red today: `test/runner/grant-preflight.test.ts` does not exist, and neither does the resolver it would exercise. A builder should treat the spec's assertions as the specification — four omitted grants named, the path-scoped read gap named, zero false gaps against a pattern-granted entry — and not merely as a file that needs to exist.
+
+Green here proves feasibility and nothing else. Whether stopping the entire pass over one missing optional tool is what an operator wants is untested and needs a person.
