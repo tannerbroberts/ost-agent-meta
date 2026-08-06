@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A dead lease holder can be told from a slow one without waiting out the TTL]]
 
 **The idea.** Treat the shared workspace the way this product already treats the loop itself: a run takes a lease on it, stamped with its id and a heartbeat, and releases it on exit. A run that finds a held lease checks whether the holder is still alive; an expired lease is reclaimed and the workspace reset, a live one means back off rather than break in.
 
