@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Mutate the manifest server name and require the three prefix guards to go red]]
 
 **The belief, stated so it could be false.** Mutating the source a self-derived guard reads from makes that guard follow the mutation and stay green, so mutation testing detects the "cannot fail" property this opportunity is about.
 
