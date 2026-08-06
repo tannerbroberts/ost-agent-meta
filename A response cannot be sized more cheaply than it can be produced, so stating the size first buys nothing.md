@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Require every size-capped tool to answer a size probe without materialising its payload]]
 
 **The belief, stated so it could be false.** The size of a response that might be refused can be reported without paying the cost of building that response, so a caller can plan around the limit instead of discovering it by exceeding it.
 
