@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Assumption #unvalidated #evidence/observed
+[[Census the recorded searches and split them by whether their argument came from the tree]]
 
 **Feasibility, and a scope claim rather than a technical one.** A literal-only interface eliminates this failure class only if it covers the work. If passes routinely need real pattern semantics over node text, the calls move to whatever escape hatch exists and the failures return through it, having cost a new interface on the way.
 
