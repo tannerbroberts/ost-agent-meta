@@ -21,3 +21,17 @@ evidence: assertion
 **Cost.** The smallest change of the three — a flag, a reason, and a filter — and the largest change to what the agent is permitted to decide, which is the wrong ratio and worth saying out loud.
 
 ⚠️ Unvalidated. Proposed by an unattended agent for its own convenience; a human should weigh whether the drain is worth the permission it grants.
+
+## Definition of done
+
+"Dismiss ten records and require every one to be attributable and reversible"
+
+```
+npx vitest run test/ost/evidence-dismissal-audit-trail.test.ts
+```
+
+Red today: there is no dismissal action, so every assertion fails against an absent mechanism.
+
+Do not read a green run as clearance to ship this. It proves the log is honest; it does not prove anyone reads it, and the parent assumption turns entirely on that. Of the three candidates under this opportunity, this is the one that grants an unattended agent new authority, and a human should choose it deliberately or not at all.
+
+The test title is quoted rather than linked because it is already wikilinked once by its parent Assumption, and a second link would fail `check`'s single-backlink rule.
