@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Most opportunities the sweep calls underserved are categories whose children are already served]]
 
 **The idea.** `underservedOpportunities` counts solutions in an opportunity's whole subtree rather than on its direct edges. An opportunity that has opportunity-children is a category, and a category whose children are well served is not a gap.
 
