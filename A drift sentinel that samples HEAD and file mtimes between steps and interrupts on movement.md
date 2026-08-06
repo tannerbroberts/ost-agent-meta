@@ -16,3 +16,13 @@ evidence: assertion
 **Where it is weakest, stated so it can be judged.** Sampling has a window: movement between the last sample and the next write is still invisible, so this narrows the gap rather than closing it. It also cannot distinguish a merge landing from the operator saving a file in an editor, and an unattended run interrupted by the latter is a false stop. Both are reasons the threshold beneath it is about how often sampling would actually have fired before the damage, not about whether sampling is possible.
 
 ⚠️ Unvalidated, and ideated by an agent from its own session record. This grounds usability, not that anyone outside wants it.
+
+## Definition of done
+
+"Replay the collision session and measure how many steps stood between the movement and the stale write"
+
+```
+npx vitest run test/runner/drift-sentinel-window.test.ts
+```
+
+Red today because the spec and the replay helper it needs do not exist. Green when the sentinel's sampling window is shown to be wide enough to have fired on the collisions already recorded. A green proves the window, not the worth: it does not say an interrupted unattended run is better off than one that failed at the write.
