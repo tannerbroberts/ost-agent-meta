@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Many records from one self-observing actor will not inflate a node's believability]]
 
 **The idea.** An evidence record can be attached to an opportunity that already exists, as an additional source, without creating anything. The record leaves `unmappedEvidence`; the opportunity's source count goes up by one; nothing new is written to the tree but a line in the opportunity's History.
 
