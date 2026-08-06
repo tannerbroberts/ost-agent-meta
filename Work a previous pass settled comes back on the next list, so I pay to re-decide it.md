@@ -36,3 +36,23 @@ Taken together the three faces say something the individual nodes do not: this i
 The sweep's own summary is what the loop's spend ceiling is set against. Three buckets over-report, so the pass is never done, the cadence never idles, and the operator cannot use "outstanding work" as a signal for anything. The config raised the spend ceiling 8x on 2026-08-04 to unblock exactly this queue; a queue that cannot drain will absorb whatever ceiling it is given.
 
 ⚠️ Unvalidated, and agent-observed. This is the agent reporting a defect in the surface it is graded through, which is the reflexive case the Outcome warns about — the counts above are checkable by anyone re-running the sweep, and should be checked rather than taken.
+
+## A third face, observed by walking into it during the pass that wrote this node
+
+The two faces above were found by reading nodes the sweep offered. This one was produced accidentally, which makes it the cleanest of the three.
+
+This pass created "The instrument-writing step declares repo sight required and skips itself rather than inventing paths", and gave it an assumption test — "Blind-rate ten instruments for groundedness and compare against whether their pass had repo sight" — using `ost_create_node`'s `humansRequired` argument. That is the sanctioned path: the tool's own description says to use it "when a person outside the building is irreducibly the measurement", and the reason there is sound, because whether an instrument is grounded is a property of what its assertions mean against a codebase, and a missing-file red and a broken-mechanism red both exit non-zero today.
+
+The test was created correctly, in the humans-required lane, and appears in `assumptionWork.needsHumans`. **And the solution above it immediately appeared in `solutionsMissingInstruments`, taking the count from 64 to 65.**
+
+So a solution whose only test is *correctly* human-lane is indistinguishable, in that bucket, from one whose test is prose nobody has bothered to instrument. The bucket asks for a command, the correct answer is that no command can settle it, and giving the correct answer through the tool built for it does not register.
+
+**Why this is the sharpest face of the three.** The other two waste a turn re-deciding something. This one penalises the right action. A pass that writes a human-lane test grows the bucket; a pass that writes a bogus command shrinks it. That gradient points away from the thing the ruleset asks for, and it points that way on every future pass, against an agent under a spend ceiling that is measured by how much outstanding work remains.
+
+It also explains a number in the rollup that otherwise looks like neglect. Of the 65 solutions in that bucket, a large share have tests that name people as the measurement — "Five-minute orientation task on a static mock", "Test do operators get value with remote push off", "Hand-compute unblock counts and see if the operator's pick changes", and the whole commercial branch about pricing, cohorts and willingness to pay. Those are not un-instrumented through laziness. They are correctly un-instrumentable, and the bucket has no way to say so.
+
+**What would fix this face specifically:** `solutionsMissingInstruments` should exclude a solution whose tests all carry a lane that puts them beyond compute — the same way the status filter proposed above excludes a solution that already shipped. The information is on the test's frontmatter already.
+
+**And it compounds with a grant problem recorded elsewhere.** For a test created *before* this rule existed, the correct disposition is `ost_flag_humans_required`, which is denied on the unattended surface — twice now, in two independent firings. So the pre-existing human-lane tests cannot be labelled by the pass that finds them, and their solutions stay in this bucket permanently, where the only available action is to invent a command that cannot honestly measure them. See "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time".
+
+_Observed directly on 2026-08-06: one `ost_create_node` call with `humansRequired`, one `ost_next_work` before and after, count 64 → 65._
