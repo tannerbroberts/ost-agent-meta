@@ -15,6 +15,7 @@ evidence: assertion
 [[Nothing declares what I have to work with, so every plan is built on a guess]]
 [[Commands are composed against a repo layout nobody checked, so the first thing that runs is a path that isn't there]]
 [[The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed]]
+[[Every precondition is discovered by violating it, so a pass pays a turn per rule it did not know]]
 
 **The need (customer's voice):** "The OST-Agent shouldn't have to guess what its resources are." (Founder, verbatim, 2026-07-25.) The founder's own examples, kept in their words because each names a different resource class:
 - "If a project is in the middle of a seed round, and has a million dollars it needs to spend intelligently, THAT'S WORTH KNOWING!!!" — capital, and its deployment deadline.
