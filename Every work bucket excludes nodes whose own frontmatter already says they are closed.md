@@ -18,3 +18,13 @@ evidence: assertion
 **Compared with its siblings.** "Count an opportunity's whole subtree" fixes a different face and neither subsumes this. "A disposition record every bucket consults" is the general form of this one — it would cover all three faces, and costs a new store and a new write path. This is the special case that needs neither, and shipping it does not foreclose the general form.
 
 ⚠️ Unvalidated. Agent-ideated from the agent's own observation of the surface it is graded through.
+
+## Definition of done
+
+"Seed a shipped solution with no instrument and require the work list to omit it"
+
+```
+npx vitest run test/ost/next-work-status-filter.test.ts
+```
+
+Green means `computeNextWork` consults `status` before listing: a fixture vault's `shipped` and `deferred` solutions are absent from `solutionsMissingInstruments`, and its `unvalidated` one lacking an instrument is still there. It does not mean the five real shipped solutions are truly built — that claim is inferred from documentation for at least one of them, and checking it needs a repository this surface cannot read.
