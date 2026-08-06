@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Replay recorded perf failures with the pair alone and check whether they separate]]
 
 **Feasibility, and the one this solution lives or dies on.** Putting the two numbers together assumes their difference carries the answer. It very likely does not.
 
