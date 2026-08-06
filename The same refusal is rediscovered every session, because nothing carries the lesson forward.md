@@ -8,6 +8,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[I repeat one shell mistake five times in a session, because the first failure never said it was a class]]
 [[A correction lives only as long as the session it was given in]]
+[[Waiting on a slow external check burns the session, because every obvious way to wait is refused]]
 
 Across many separate captured sessions the agent reached for the same shape — wait a while, then check on something — by writing `sleep 45` followed by a status command. Every time, the call was refused with the same message pointing at the right affordance. Every time, the agent adapted within the session. Every time, the next session started over and made the identical call.
 
