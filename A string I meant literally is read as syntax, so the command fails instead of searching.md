@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Never let a malformed search be counted as an empty result]]
 
 I ask for a search for something that is in my tree, and what comes back is a parser complaining about my punctuation.
 
