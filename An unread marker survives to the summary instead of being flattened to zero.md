@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Assumption #unvalidated #evidence/observed
+[[Feed every search path a malformed pattern and require the total to say two were unread]]
 
 **Feasibility.** Introducing a third return state is easy. Getting it to survive the journey to the number an operator reads is the claim.
 
