@@ -6,6 +6,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Setup reconciles the workspace it finds instead of assuming there isn't one]]
+[[Each run gets a workspace named after itself, so two runs cannot collide]]
 
 An unattended firing died before it did any work, and the thing that stopped it was the previous firing's residue.
 
