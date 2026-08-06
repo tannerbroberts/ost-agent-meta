@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Drop shipped solutions from the instrument queue]]
+[[Ask a shipped solution for its observed exit code instead of an instrument]]
 
 **The need.** When I finish a piece of work and record it as finished, the queue should stop asking me for it. Right now it does not, so every pass re-reads the same items, and the pass cannot reach `done` no matter how much real work gets done.
 
