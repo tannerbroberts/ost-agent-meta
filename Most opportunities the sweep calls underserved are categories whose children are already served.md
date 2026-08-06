@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count how many underserved opportunities have a solution somewhere beneath them]]
 
 Feasibility, and it is the load-bearing one: subtree counting is worth building only if the phantom gaps are most of the list rather than a handful.
 
