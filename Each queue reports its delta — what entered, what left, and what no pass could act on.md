@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A pass's queue contents can be recovered from what the vault already keeps]]
 
 **The idea.** `ost_next_work` reports each bucket's movement since the previous pass, not just its contents: entered, left, and unchanged-across-N-passes. A count of 64 says nothing about whether the last pass helped; 64 with "3 left, 5 entered, 41 unchanged for six passes" says exactly what the operator wants to know.
 
