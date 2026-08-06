@@ -18,3 +18,11 @@ evidence: assertion
 **Compared with its siblings.** Narrower than both and the only one that protects the artefact rather than the run. It composes with "A pass ends by reporting which of its senses were live" — the skip needs somewhere to be reported — and it is redundant with "Every path the config declares is checked when the config is read" only if that check is set to refuse, which the sibling itself argues may be too blunt for an unattended loop.
 
 ⚠️ Unvalidated. Agent-ideated by a pass that wrote one such instrument this sitting and said so.
+
+## Definition of done
+
+"Blind-rate ten instruments for groundedness and compare against whether their pass had repo sight"
+
+This one has no command, deliberately. Whether an instrument is grounded is a property of what its assertions mean against a codebase, and a missing-file red and a broken-mechanism red both exit non-zero today — which is exactly why the distinction has to be read rather than run. The bar is fixed: the proxy must agree with a blind reader on at least 8 of 10, and at or below 7 this candidate is refused as a gate.
+
+**Do not build this before that test runs.** Its own assumption already carries counter-evidence: the 2026-08-06 sweep had no repo sight and wrote two grounded instruments out of three, which is the proxy over-blocking in a sample of one. If a wider read agrees, the better design is the one that assumption names — require an instrument's author to declare which kind of red they wrote, and check the declaration is present, rather than gating on a proxy for it.
