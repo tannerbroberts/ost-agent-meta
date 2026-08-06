@@ -1996,3 +1996,4 @@
 {"ts":"2026-08-06T21:22:41.273Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1048,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
 {"ts":"2026-08-06T21:22:44.570Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":874,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
 {"ts":"2026-08-06T21:22:52.423Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":1187,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
+{"ts":"2026-08-06T21:22:56.470Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1123,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
