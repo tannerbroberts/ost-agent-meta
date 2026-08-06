@@ -28,3 +28,15 @@ Written by the session that made the mistake, immediately after fixing it (`perf
 
 ## Issues
 - 2026-08-06 unresolved-citation (flagged by ost_check): frontmatter cites `TRANSCRIPT:89ac8277-29ce-4d80-827e-cefea0bebabf`, and no record under `.ost-agent/evidence/` carries that id. Same fault, same missing id, on four nodes created in one sitting; the full diagnosis and the check that would settle it are recorded on "A guard derived the rule it was checking, so it agreed with the bug for 23 releases". Until it is settled, treat this node's evidence rung as unsupported: a citation that resolves to nothing is the same as no citation.
+
+## Definition of done
+
+"Replay recorded perf failures with the pair alone and check whether they separate"
+
+```
+npx vitest run test/eval/perf-gate-noise-band.test.ts
+```
+
+Red today: the spec and the fixture of cause-labelled failures do not exist.
+
+Read this one as a falsification rather than a build target. The spec is designed to show that the two numbers this solution renders are *not* enough — if it comes out red on the pair and green on the pair-plus-spread, the correct response is to rewrite this node around the spread, not to declare the solution built. A builder who makes the command pass by rendering the pair more prettily has confirmed nothing.
