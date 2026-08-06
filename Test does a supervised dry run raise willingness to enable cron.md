@@ -19,3 +19,6 @@ _Proposal only — a human runs this with real operators. Unvalidated._
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/dry-run-no-writes.test.ts — The solution promises a dry-run mode, and a dry run that writes is not one. This asserts the mechanism the willingness question depends on: with the dry-run flag set, a full pass produces its usual plan and report while the vault's git HEAD is unchanged and no node file's mtime moves. Missing-spec red, not assertion red — no dry-run mode exists to test, so the command fails on a missing file; a builder should make it assertion red by writing the spec first against the real loop entry point. It settles nothing about willingness to enable cron, which is a person's reaction and stays with a human.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/dry-run-no-writes.test.ts` — No test files found, exiting with code 1
