@@ -16,3 +16,13 @@ evidence: assertion
 **Where it fails.** It is a second place for the truth to live. If the profile says a surface has a tool and the host does not grant it, the config is now confidently wrong, which is worse than silent — and nothing here reconciles the two without the preflight sibling.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Pin three surfaces in config and check a profile expresses what actually differs"
+
+```
+npx vitest run test/config/surface-profile.test.ts
+```
+
+Named in plain text rather than linked: the test is already wikilinked by its parent assumption, and a title is linked exactly once in the vault.
