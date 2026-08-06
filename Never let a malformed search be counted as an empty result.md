@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Solution #unvalidated #evidence/observed
+[[An unread marker survives to the summary instead of being flattened to zero]]
 
 Give up on preventing the parse failures and make it impossible for one to be mistaken for a finding.
 
