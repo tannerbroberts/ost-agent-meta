@@ -19,3 +19,9 @@ The bet is that the expensive failure here is not the missing capability but the
 It also generalises past permissions, which the other two candidates do not. A run blocked by an unconfigured `product.repos`, a rate limit, or a spent lookup budget produces the same silent hole, and the same section would carry all of them. That breadth is the argument for building this one first even if a preflight follows.
 
 The risk is that it becomes noise. A report that opens with a list of everything that did not happen, every morning, is a report that stops being read by the second week — which is the same failure mode the node "Three gates fired correctly in one session and every one of them read as noise first" already describes at the gate layer. Whether an operator actually acts on a refusals section is the assumption to probe, and it is not a question the repository can answer.
+
+## Definition of done
+
+"Run the refusals section for two weeks and count the mornings it changes anything"
+
+No command. This one is in the humans-required lane on purpose: the repository can prove the section renders, counts correctly, and appears first, and none of that would answer whether an operator reads it. A builder who wants a mechanical target should write specs for the rendering and treat them as necessary, not sufficient — the definition of done for this solution is the two-week count, and it is a person's to record with `ost-agent result`.
