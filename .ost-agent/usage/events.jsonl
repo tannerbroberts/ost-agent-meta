@@ -1738,3 +1738,4 @@
 {"ts":"2026-08-06T00:47:07.952Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":433,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
 {"ts":"2026-08-06T00:47:25.976Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":2282,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["A shipped solution leaves the instruments queue, because built behaviour cannot carry a red-now command.md"]}
 {"ts":"2026-08-06T00:47:37.628Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":1747,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["Each queue reports its delta — what entered, what left, and what no pass could act on.md"]}
+{"ts":"2026-08-06T00:47:47.792Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":1980,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["An item a pass declined is suppressed until the reason it was declined stops holding.md"]}
