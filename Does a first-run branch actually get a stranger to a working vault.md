@@ -66,3 +66,4 @@ the one-liner to the warm participant and then say nothing for thirty minutes.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/mcp/bootstrap-one-question.test.ts` — No test files found, exiting with code 1
+- 2026-08-06 **green** (exit 0) `npx vitest run test/mcp/bootstrap-one-question.test.ts` — Duration  1.11s (transform 149ms, setup 0ms, collect 254ms, tests 653ms, environment 0ms, prepare 25ms)
