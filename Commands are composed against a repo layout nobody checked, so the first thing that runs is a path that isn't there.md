@@ -6,6 +6,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[The run is handed the workspace layout at startup, before it composes anything]]
+[[Require a path to have been observed this session before a command may address it]]
 
 Observed across sessions: `sed: src/cli/index.ts: No such file or directory`, `ls: test/adapters/transcript-model-reader.test.ts: No such file or directory`, `(eval):1: no matches found: test/tmp*`, and a `git` invocation returning exit 128 from a directory holding only `bin/` and `vaults/`. In each case the command was well-formed and addressed a file the agent believed existed.
 
