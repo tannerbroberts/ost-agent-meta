@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Preflight the run's tool demands against its grant and stop at turn one]]
 
 I set a run going while I am asleep, and it spends the night being told no.
 
