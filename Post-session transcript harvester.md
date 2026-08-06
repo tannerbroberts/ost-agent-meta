@@ -29,3 +29,17 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 
 ## Issues
 - 2026-08-05 Deliberately not instrumented by the 2026-08-05 unattended pass, and the reason is worth recording because it is the good kind of problem. Unlike most solutions in this bucket, the mechanism here appears to have shipped: the transcript channel is live and reported by `ost_ingest_inbox`, and this pass read fifteen harvested session records covering 2026-07-24 through 2026-08-05. A spec asserting "the harvester produces a record per session" would therefore be green on arrival, and a command that cannot fail measures nothing. Its test — "Hand-distil three past sessions" — is the comparison half, a human distilling the same sessions by hand and checking what the harvester missed, and that stays with a person. Two things a human should settle. First, whether the test is effectively answered by the shipped harvester and should be closed with `ost-agent result` rather than left open since 2026-07-24. Second, the one claim that may still be red: `ost_ingest_inbox` reports "[transcript] 0 new" without saying how many sessions it considered, so a session it silently skipped and a window with genuinely nothing in it produce the same line. If per-session coverage — every session in the window either harvested or explicitly named as skipped, with a reason — is part of what this solution promises, that is instrumentable and would fail today. This pass could not distinguish "no sessions" from "sessions passed over" without reading the repository, which it holds no grant to do.
+
+## Yield, re-counted 2026-08-06 — the near-zero result did not hold
+
+The builder report of 2026-07-24 recorded the honest first result: 3 friction events across 3 sessions, all shell-quoting mistakes, none of them a product problem, and the pre-committed bar of "Hand-distil three past sessions" not met by the mechanical channel alone.
+
+Twelve days on, the same channel has produced 16 harvested sessions carrying roughly 45 friction events, and the composition is no longer uniform. Counted from the ingested records: `tool_error` dominates, but `clarifying_question` (the agent stopping to ask) and `retry` now both appear across multiple independent sessions. Recurring shapes, each seen in two or more sessions:
+
+- `sleep N && gh pr checks …` blocked with the same guidance, rediscovered from scratch each time
+- `Edit: String to replace not found in file`, in one case with a concurrent writer confirmed as the cause
+- commands addressing paths that were not there — `src/cli/index.ts`, `test/adapters/transcript-model-reader.test.ts`, `test/tmp*`
+
+Three opportunities in this tree were distilled from those records this pass, so the channel has now produced product evidence rather than only quoting mistakes.
+
+**What this does not settle.** Yield rising is not the same as the assumption clearing: the test's bar asks a human to hand-distil and judge items as real product evidence, and no such sitting has happened. This is the automatable half reporting a larger and more varied catch than it had on day one, nothing more. It also remains one non-paying user's usability data — the founder's own sessions — and is not evidence that anyone outside this head wants the product.
