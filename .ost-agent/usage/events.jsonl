@@ -1981,3 +1981,4 @@
 {"ts":"2026-08-06T21:17:51.668Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
 {"ts":"2026-08-06T21:17:52.087Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026"}
 {"ts":"2026-08-06T21:19:28.263Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":3338,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026","wrote":["Work I already finished keeps coming back in the queue, so the pass can never say it is done.md"]}
+{"ts":"2026-08-06T21:19:45.417Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2845,"session":"mcp-d0b75502-39a7-42c6-b481-b637e1d8e026","wrote":["Drop shipped solutions from the instrument queue.md"]}
