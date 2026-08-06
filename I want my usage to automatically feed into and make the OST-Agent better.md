@@ -10,6 +10,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[The friction channel fills with my own typos, so the signal I wanted is buried]]
 [[What I actually do with the tool is never recorded, so improving it runs on memory]]
+[[Every self-observation channel names which of its sources each item came from]]
 
 **The need (operator's voice):** "There's a distinction between the agent's usage of the OST and its assertions about that usage. Traces and statistics can be tracked mechanically and give credence in a way assertions can't touch. I want my usage to feed the product automatically — reflection on self-generated statistics, not an echo chamber."
 
