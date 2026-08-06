@@ -7,6 +7,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Never let a malformed search be counted as an empty result]]
+[[Search node text through a literal-only interface, so no escaping question ever arises]]
 
 I ask for a search for something that is in my tree, and what comes back is a parser complaining about my punctuation.
 
