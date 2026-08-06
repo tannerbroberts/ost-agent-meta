@@ -20,3 +20,6 @@ The assumption is that regretted writes are mostly mechanically detectable — t
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/ost/regretted-write-invariants.test.ts — The threshold — "at least 6 of 10 have a check expressible without a model's judgement" — becomes a property of committed code the moment the checks are written: the spec commits the ten regretted writes already recorded in this vault's annotations and history as fixtures, replays each against the pre-write invariant set, and asserts at least six are refused on information available at call time. It fails today because no pre-write invariant set exists and no regretted write is committed as a fixture.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/ost/regretted-write-invariants.test.ts` — No test files found, exiting with code 1

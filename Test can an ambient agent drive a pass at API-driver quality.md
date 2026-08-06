@@ -27,3 +27,6 @@ Parity of node sets and edges is the strictest thing a spec can assert here, and
 The comparison also runs over a fixture vault, where the work is bounded and known. The failure mode this solution actually risks is a long real pass — context exhaustion partway through, or a driver that quietly stops mid-sweep and reports a clean run. A fixture short enough to be a spec will not reach that.
 
 Nothing here touches cost, which is the reason anyone would want an ambient driver in the first place. Whether it is cheaper per pass than the API driver is a measurement, and it is not this one.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/ambient-driver-parity.test.ts` — No test files found, exiting with code 1
