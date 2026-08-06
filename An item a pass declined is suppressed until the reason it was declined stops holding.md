@@ -16,3 +16,13 @@ evidence: assertion
 **Where it fails.** That is the real risk: a suppression is an agent quietly removing work from its own queue, and the difference between "correctly declined" and "gave up" is exactly the judgement this system does not let agents make unsupervised. It would need the condition to be machine-checkable, and a suppression whose condition cannot be evaluated is indistinguishable from a delete.
 
 ⚠️ Unvalidated. Agent-ideated, and proposed by an agent that would be its main beneficiary — which is a reason to read the failure paragraph before the idea.
+
+## Definition of done
+
+"Write four real suppression conditions and check each evaluates without judgement"
+
+```
+npx vitest run test/ost/suppression-condition.test.ts
+```
+
+Named in plain text rather than linked: the test is already wikilinked by its parent assumption, and a title is linked exactly once in the vault.
