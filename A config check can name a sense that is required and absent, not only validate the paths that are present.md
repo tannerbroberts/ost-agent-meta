@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Load this vault's own config and require the check to name product.repos as absent]]
 
 Feasibility, and it is the one that decides whether this candidate catches the case that motivated it.
 
