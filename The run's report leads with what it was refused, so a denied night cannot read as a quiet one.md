@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Solution #unvalidated #evidence/observed
+[[An operator handed a refusals section acts on it instead of learning to skip it]]
 
 Leave the permissions exactly as they are and change what the morning looks like.
 
