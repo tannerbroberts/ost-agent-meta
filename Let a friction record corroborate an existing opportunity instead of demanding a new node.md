@@ -21,3 +21,15 @@ evidence: assertion
 **Cost.** A new edge type from evidence to opportunity, a change to how `unmappedEvidence` is computed, and a source-count display that distinguishes actors. Middling.
 
 ⚠️ Unvalidated. Proposed by the agent that generated all 65 records, which is the party that benefits most from them counting for something.
+
+## Definition of done
+
+"Attach thirty self-observations to one node and require the rung not to move"
+
+```
+npx vitest run test/adapters/corroboration-actor-ceiling.test.ts
+```
+
+Red today: there is no way to attach an evidence record to an existing node, so the spec fails on its first line against a missing mechanism — and the actor-count assertions fail independently, because the rollup prints a bare "N source(s)" with no actor breakdown.
+
+The test title is quoted rather than linked because it is already wikilinked once by its parent Assumption, and a second link would fail `check`'s single-backlink rule.
