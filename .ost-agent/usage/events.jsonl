@@ -1902,3 +1902,4 @@
 {"ts":"2026-08-06T17:50:38.532Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2371,"session":"mcp-7d6d00b2-2202-4755-b273-a02807ac2441","wrote":["A preflight manifest states every tool precondition before the pass composes its first call.md"]}
 {"ts":"2026-08-06T17:50:50.770Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2273,"session":"mcp-7d6d00b2-2202-4755-b273-a02807ac2441","wrote":["The surface satisfies a precondition it could have satisfied itself.md"]}
 {"ts":"2026-08-06T17:51:00.918Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2171,"session":"mcp-7d6d00b2-2202-4755-b273-a02807ac2441","wrote":["Every response that can be refused for size states its size first.md"]}
+{"ts":"2026-08-06T18:51:10.410Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
