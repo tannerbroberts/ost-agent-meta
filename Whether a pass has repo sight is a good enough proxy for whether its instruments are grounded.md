@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Blind-rate ten instruments for groundedness and compare against whether their pass had repo sight]]
 
 This is the assumption that decides whether gating on repo sight is the right gate, and it is the weakest link in the candidate above it.
 
