@@ -21,3 +21,15 @@ evidence: assertion
 **Cost.** A signature function and a change to the harvester's emit step. The cheapest of the three, and the only one that changes nothing about the tree's data model.
 
 ⚠️ Unvalidated. Nobody has confirmed that a count is what the operator wants from self-observation rather than a readable account of what went wrong.
+
+## Definition of done
+
+"Run the signature over the real 65 and check the singleton survives"
+
+```
+npx vitest run test/adapters/friction-signature-clustering.test.ts
+```
+
+Red today: the harvester emits one record per session and computes no signature anywhere — this pass's 65-item queue is the evidence. Green when the corpus collapses to ≤8 clusters AND session `2a4bcf6e`'s lone `clarifying_question` is still individually listed. Both halves, or re-cut the signature rather than tuning it.
+
+The test title is quoted rather than linked because it is already wikilinked once by its parent Assumption, and a second link would fail `check`'s single-backlink rule.
