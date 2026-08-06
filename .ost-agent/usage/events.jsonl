@@ -1791,3 +1791,4 @@
 {"ts":"2026-08-06T15:07:37.771Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2977,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["A string I meant literally is read as syntax, so the command fails instead of searching.md"]}
 {"ts":"2026-08-06T15:07:57.681Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1344,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:08:03.216Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":631,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
+{"ts":"2026-08-06T15:08:09.864Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":759,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}

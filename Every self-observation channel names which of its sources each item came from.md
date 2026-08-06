@@ -26,3 +26,6 @@ Met. `test/adapters/transcript.test.ts` (both piles harvested, origin carried an
 ## The next measurement, when there is one
 
 The first firing after this landed is the first unattended session this tree has ever been able to read. Whether it yields an opportunity nobody had already filed by hand is the number that says whether this earned its keep.
+
+## Issues
+- 2026-08-06 unresolved-citation (flagged by ost_check): frontmatter cites `TRANSCRIPT:89ac8277-29ce-4d80-827e-cefea0bebabf`, and no record under `.ost-agent/evidence/` carries that id. Same fault, same missing id, on four nodes created in one sitting; the full diagnosis and the check that would settle it are recorded on "A guard derived the rule it was checking, so it agreed with the bug for 23 releases". Sharper here than on the siblings: this node's whole claim is that every self-observation channel should name where each item came from, and its own provenance points at a record that does not exist. Until it is settled, treat its evidence rung as unsupported.
