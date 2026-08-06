@@ -19,3 +19,6 @@ instrument: npx vitest run test/guards/stored-probes-still-agree.test.ts
 **Why it is red today.** The convention does not exist — there is one recorded literal with a probe above it, added as the fix for the prefix defect, and no machinery that collects or replays them. Mechanism-missing rather than merely file-missing, though the path itself is named from vault convention because this sweep had no repository sight.
 
 **What a green does NOT settle.** Only that the recordings are current. It does not establish that recording beats deriving in general, that the boundary between external and internal contracts is drawn correctly, or that the practice survives contact with a contributor who would rather update the literal than investigate the drift — which is the golden-file failure mode the parent solution names and this test cannot see.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/guards/stored-probes-still-agree.test.ts` — No test files found, exiting with code 1

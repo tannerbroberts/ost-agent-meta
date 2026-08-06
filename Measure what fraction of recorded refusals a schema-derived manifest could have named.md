@@ -18,3 +18,6 @@ instrument: npx vitest run test/preflight/manifest-covers-observed-refusals.test
 **Why it is red today.** No generator exists, so the spec has nothing to call. That is the weak kind of red and it is worth saying plainly: the pass that wrote this could not read the product repository — `ost_read_repo` is not on the unattended surface and a direct Grep of the source tree was refused for permissions — so the path is named from the vault's own conventions rather than from the suite as it stands. A human or an attended pass should re-point it at the real module before treating a green as meaningful.
 
 **What a green does NOT settle.** Only that a manifest *could* carry the rules. It says nothing about whether a run that receives one composes fewer colliding calls — that is a separate, behavioural claim, and this vault already has a partial instance of the idea (the corrections header in the unattended prompt) that sessions kept hitting refusals around. Desirability, viability and usability are exactly where they were.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/preflight/manifest-covers-observed-refusals.test.ts` — No test files found, exiting with code 1

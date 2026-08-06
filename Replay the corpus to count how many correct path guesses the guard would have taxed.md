@@ -18,3 +18,6 @@ instrument: npx vitest run test/friction/path-guess-hit-rate.test.ts
 **Why it is red today.** Nothing in the product replays a transcript for first-contact path analysis; the friction adapter records failures only, so the successful calls this test needs are not currently extracted at all. That absence is itself part of the finding — the corpus is biased toward failure by construction, and a test that only sees friction events would compute a hit rate of zero and look like a resounding pass. The spec must read raw session transcripts rather than the distilled friction records, and it should fail loudly if handed the latter.
 
 **What a green does NOT settle.** Whether the turns are equally expensive. A listing that returns a whole directory may be worth more than the failure it replaced, which would justify the guard even at a poor ratio — this test counts turns and cannot weigh them.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/friction/path-guess-hit-rate.test.ts` — No test files found, exiting with code 1

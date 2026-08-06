@@ -21,3 +21,6 @@ instrument: npx vitest run test/rank/unblock-leverage-distribution.test.ts
 **A caveat on the sample that should not be waved away.** Running this against this vault measures one tree, authored largely by one agent under one ruleset. A non-flat result here is weak evidence that leverage is non-flat in a stranger's tree. Treat a green as a licence to build, not as a general finding.
 
 **What a green does NOT settle.** Only that the numbers differ from each other. It says nothing about whether the ordering is *right*, whether an operator would follow it, or whether unblocking count is the property worth ordering by rather than merely the one that is cheap to compute. Those are what "Hand-compute unblock counts and see if the operator's pick changes" is for, and it still needs a person.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/rank/unblock-leverage-distribution.test.ts` — No test files found, exiting with code 1

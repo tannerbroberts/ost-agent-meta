@@ -20,3 +20,6 @@ instrument: npx vitest run test/guards/mutation-detects-self-derivation.test.ts
 **A caveat on the path.** This sweep had no repository sight. `ost_read_repo` is off the unattended surface and a direct read of the product source tree was refused for permissions, so the spec path follows this vault's naming conventions rather than the suite as it stands. A human or attended pass should re-point it before treating a green as meaningful.
 
 **What a green does NOT settle.** That mutation testing catches self-derived guards *in general* — this scores it against the three cases that inspired it, which is the friendliest possible sample. It says nothing about cost, nothing about whether the mutation set generalises, and nothing about guards that are missing rather than blind.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/guards/mutation-detects-self-derivation.test.ts` — No test files found, exiting with code 1

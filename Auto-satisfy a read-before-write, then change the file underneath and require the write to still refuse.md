@@ -18,3 +18,6 @@ instrument: npx vitest run test/preflight/auto-satisfy-preserves-staleness-guard
 **Why it is red today.** The auto-satisfying path does not exist, so the spec has nothing to exercise. Stated plainly: this is missing-file red rather than mechanism-missing red, because the pass that wrote it had no repository sight — `ost_read_repo` is off the unattended surface and a direct source-tree Grep was refused. Re-point it at the real guard module before trusting a green.
 
 **What a green does NOT settle.** Only that the staleness guard survives one narrowing. It does not establish that removing preconditions is what operators want, that the narrowed solution still removes enough friction to matter, or that the remaining ceremony is the expensive part. Those stay open.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/preflight/auto-satisfy-preserves-staleness-guard.test.ts` — No test files found, exiting with code 1

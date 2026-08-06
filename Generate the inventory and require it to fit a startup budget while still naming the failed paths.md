@@ -21,3 +21,6 @@ instrument: npx vitest run test/preflight/workspace-inventory-fits-and-covers.te
 **Why the bar is where it is.** 4,000 tokens is a judgement, not a measurement, and should be argued with rather than inherited: it is roughly the largest fixed startup cost that still leaves an unattended pass its working context. A human who thinks the real budget is 1,000 or 10,000 should change it before this runs, because the whole verdict turns on it.
 
 **What a green does NOT settle.** That a run given the inventory reads it, or that reading it changes which command it composes. This measures the artefact, not the behaviour, and the behavioural half needs the run's own transcripts after the fact.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/preflight/workspace-inventory-fits-and-covers.test.ts` — No test files found, exiting with code 1

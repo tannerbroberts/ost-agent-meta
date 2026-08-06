@@ -21,3 +21,6 @@ instrument: npx vitest run test/friction/path-failure-attribution.test.ts
 **One thing the count will get wrong, stated in advance.** A permission-denied on a path is arguably not a layout failure at all, and this sweep hit several of them. Whichever way the classifier treats them will move the number, so the spec should report both totals rather than pick one and hide the choice.
 
 **What a green does NOT settle.** That better error messages change what a run does next. It establishes only that the messages this solution would improve are a large enough share to be worth improving — necessary for the solution and nowhere near sufficient.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/friction/path-failure-attribution.test.ts` — filter:  test/friction/path-failure-attribution.test.ts
