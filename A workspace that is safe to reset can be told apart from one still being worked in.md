@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Put a worktree into each dirty state and check the reconciler's verdict on every one]]
 
 Feasibility, and it is the load-bearing belief: reconciliation is worth building only if "repair or replace it" can be decided mechanically without ever replacing something that mattered.
 
