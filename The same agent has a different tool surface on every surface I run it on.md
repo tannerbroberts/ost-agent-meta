@@ -10,6 +10,7 @@ evidence: assertion
 [[A scheduled run finds out its tools are missing only after it has started]]
 [[A helper I installed fails on my own machine's shell, and only running it says so]]
 [[A run never states which tools it had, so a degraded pass reads like a full one afterwards]]
+[[A pass declares the tools it needs before it starts, and refuses to begin without them]]
 
 **The need (operator's voice):** "I scheduled the same maintenance task I run by hand. Locally it has the full tool surface; on the scheduled surface it silently has none — and I only found out by reading a friction note five passes later. I want a run to tell me what it can actually do before it spends an hour proving it can't."
 
