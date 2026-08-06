@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The expensive half of a workspace can be shared while the mutable half is per-run]]
 
 **The idea.** Delete the fixed path. Each run derives its workspace from its own run id — `/tmp/ost-<runid>` — so the question "is it already there?" cannot arise, because no other run has ever used that name. Teardown becomes best-effort rather than load-bearing: a leaked directory costs disk, not the next firing.
 
