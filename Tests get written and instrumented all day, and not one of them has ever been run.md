@@ -58,3 +58,27 @@ That is the ruleset behaving exactly as written — prose is never promoted to a
 **Unchanged and still the cheapest unblock in the tree:** one human session assigning lanes. Whether all 232 deserve `compute-only` is precisely the judgement the lane exists to protect, and a good number name people in their methods and should stay where they are. The claim remains only that the call has never been made for any of them.
 
 _Direct measurement of this vault, 2026-08-06: `^instrument: npx` matches 232 files, `^lane:` matches 4 (all humans-required), `ost_next_work` reports 0 runnable and 301 needsHumans. Plus first-party observation of 8 instrumented compute-only-declared tests created this pass, all classified needsHumans on the next sweep._
+
+## Measured — an instrument does not make a test runnable, and only a human's label can (unattended sweep, 2026-08-06)
+
+This node asks why nothing ever runs. This pass hit the mechanism directly, by creating three tests and watching where they landed.
+
+**What was done.** Three `#AssumptionTest` nodes were created with `instrument:` set and no `humansRequired:` — deliberately compute-answerable questions (replay recorded sessions, compare two hashes, replay working-tree states), each declaring `**Lane: compute-only.**` in its own prose. `ost_next_work` before the writes reported `runnable: 0` and `needsHumans: 307`. After: `runnable: 0` and `needsHumans: 310`. All three went to the humans-required lane.
+
+**Why.** The created files carry `threshold:` and `instrument:` in frontmatter and **no `lane:` field at all**. An unset lane counts as needing a person, and the prose declaration does not promote it — the ruleset says so outright: nothing ever promotes prose to a label, only a human's `ost-agent lane --set` moves what compute may run. The one lane tool an agent holds, `ost_flag_humans_required`, moves work in the restrictive direction only, and is not on this surface in any case.
+
+**This is not an artefact of new nodes.** Three tests already in the tree carry instruments and sit in `needsHumans` on the same sweep:
+
+| Test | Instrument |
+| --- | --- |
+| "Blind-review a pass's acknowledge-or-map calls on the seven stranded items" | `test/ost/evidence-acknowledge.test.ts` |
+| "Audit every shipped solution against the repository before trusting the exclusion" | `test/ost/shipped-status-audit.test.ts` |
+| "Acceptance rate of five self-drafted ruleset changes" | `test/knowledge/ruleset-proposal.test.ts` |
+
+**So the loop this node names is closed, and closed by design.** Passes are instructed to write instruments; instruments are what a compute-only lane would need; but the label that admits a test to the compute lane is reachable only from the CLI. `runnable` is therefore structurally 0 for everything any pass has ever authored, which is exactly what the rollup shows: every bucket in this tree reads `tested 0`, across 310 tests.
+
+**What this does not claim.** That the gate is wrong. A human holding the permissive label is the same principle that stops an agent clearing its own evidence gate, and it is defensible. What it does mean is that "write more instruments" cannot on its own change the tested count, and no unattended pass can move that number by any amount of correct work.
+
+**The cheapest thing that would test the fix:** take the three instrumented tests named above, run `ost-agent lane --set` on them, and see whether `runnable` becomes 3 and whether an attended session then actually runs them. If it does, the bottleneck is one CLI call per test and the tree can be unblocked in a batch. If it does not, the blockage is somewhere further down and this node's question is still open.
+
+_Source: `ost_next_work` output immediately before and after three `ost_create_node` calls on 2026-08-06, plus direct reads of the created files' frontmatter and of the three existing test nodes named above. Observed behaviour of this product's own sweep. Corroboration only; the node's rung is unchanged._
