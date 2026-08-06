@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Refuse a source that names no record, at write time rather than at sweep time]]
 
 **Feasibility.** Ingestion already reports per channel — six lines, one each for inbox, friction, transcript, usage, atlassian and slack, saying what each captured or why it was off. The solution asks for something a level finer: each captured item naming the source inside its channel that produced it.
 
