@@ -1707,3 +1707,10 @@
 {"ts":"2026-08-05T23:53:39.033Z","tool":"ost_ingest_inbox","ok":true,"ms":4,"surface":"mcp","argBytes":2,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-05T23:53:41.214Z","tool":"ost_next_work","ok":true,"ms":141,"surface":"mcp","argBytes":2,"session":"mcp-458e8362-8f2d-4b84-94d9-13be6acde8ea"}
 {"ts":"2026-08-06T00:39:25.990Z","tool":"ost_ingest_inbox","ok":true,"ms":32,"surface":"mcp","argBytes":2,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:39:28.015Z","tool":"ost_next_work","ok":true,"ms":59,"surface":"mcp","argBytes":2,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:40:07.414Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:40:15.568Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:40:26.718Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":31,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:40:27.013Z","tool":"ost_next_work","ok":true,"ms":2,"surface":"mcp","argBytes":62,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:41:14.330Z","tool":"ost_create_node","ok":false,"ms":1,"surface":"mcp","argBytes":982,"err":"\"The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed\" cannot declare 'observed': what it points at supports 'assertion'. The two measurement rungs assert that something was measured, and no byline confers them. declare 'assertion' or lower (demotion i","session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:41:18.299Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1032,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["Commands are composed against a repo layout nobody checked, so the first thing that runs is a path that isn't there.md"]}

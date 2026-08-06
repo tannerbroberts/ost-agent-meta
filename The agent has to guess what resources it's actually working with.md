@@ -13,6 +13,7 @@ evidence: assertion
 [[I run git in a folder that was never initialised, and exit 128 is how I learn it]]
 [[I compose a hundred and seventy lines before the surface tells me it does not accept that dialect]]
 [[Nothing declares what I have to work with, so every plan is built on a guess]]
+[[Commands are composed against a repo layout nobody checked, so the first thing that runs is a path that isn't there]]
 
 **The need (customer's voice):** "The OST-Agent shouldn't have to guess what its resources are." (Founder, verbatim, 2026-07-25.) The founder's own examples, kept in their words because each names a different resource class:
 - "If a project is in the middle of a seed round, and has a million dollars it needs to spend intelligently, THAT'S WORTH KNOWING!!!" — capital, and its deployment deadline.
