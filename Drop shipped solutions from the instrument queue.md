@@ -20,3 +20,15 @@ evidence: assertion
 **Cost.** A status predicate in `computeNextWork` and one spec. Comparable to the annotation that would otherwise be written on each shipped node every pass.
 
 ⚠️ Unvalidated. Proposed by an unattended pass that was itself being handed the unsatisfiable work, which is a reason to trust the observation and discount the conviction.
+
+## Definition of done
+
+"Filter the queue on shipped and count what is still unsatisfiable"
+
+```
+npx vitest run test/ost/instrument-queue-excludes-shipped.test.ts
+```
+
+Red today: this pass observed five `status: shipped` solutions sitting in the live `solutionsMissingInstruments` queue, so the exclusion is demonstrably absent. Green when `computeNextWork` filters them out and the survivors are entries a spec could settle.
+
+The test title is quoted rather than linked because it is already wikilinked once by its parent Assumption, and a second link would fail `check`'s single-backlink rule.
