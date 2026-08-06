@@ -8,7 +8,6 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[I repeat one shell mistake five times in a session, because the first failure never said it was a class]]
 [[A correction lives only as long as the session it was given in]]
-[[Waiting on a slow external check burns the session, because every obvious way to wait is refused]]
 
 Across many separate captured sessions the agent reached for the same shape — wait a while, then check on something — by writing `sleep 45` followed by a status command. Every time, the call was refused with the same message pointing at the right affordance. Every time, the agent adapted within the session. Every time, the next session started over and made the identical call.
 
@@ -80,3 +79,4 @@ The three candidate solutions that used to hang directly here were re-parented o
 - 2026-08-05 unlinked "The second identical failure is answered differently from the first" — re-parented under "A correction lives only as long as the session it was given in" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "Refusals the tool can prevent become refusals the tool never issues" — re-parented under "A correction lives only as long as the session it was given in" — this solution answers that need, not the categories beside it
 - 2026-08-05 **the three entries above were restored by hand, not re-performed.** They were present before this pass and were dropped when `ost_edit_node` rewrote this node's body; they are reinstated verbatim from a read of the file taken before the edit. No edge changed as a result of the restoration — the re-parenting they describe happened on 2026-08-05 as written, and this line records only that the record of it was lost and put back. Ordering within this section is therefore not chronological; these three precede the `body edited` entries above them.
+- 2026-08-06 unlinked "Waiting on a slow external check burns the session, because every obvious way to wait is refused" — Detached ahead of folding this node into "My loop spends its time waiting for a check it cannot subscribe to". Its own Issues section (2026-08-06) concluded that its only distinguishing content — the rediscovery cost — is what THIS parent already holds, leaving it carrying the intersection of two needs the tree keeps separately. Detaching first so the merge does not hand the survivor a second parent and break single-parent.
