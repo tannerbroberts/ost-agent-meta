@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A shipped solution's claim is settleable by running one named spec]]
 
 **The idea.** A solution that ships does not leave the queue — it moves to a different one. `solutionsMissingInstruments` keeps only the unbuilt; shipped solutions with no recorded run appear under a separate heading that asks for the thing a shipped solution can actually supply: a command that passes now, run once, with its exit code recorded as an observation.
 
