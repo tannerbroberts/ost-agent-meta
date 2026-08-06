@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Assumption #unvalidated #evidence/observed
+[[Resolve the declared tool list against the settings allowlist and name every gap, including path-scoped ones]]
 
 **Feasibility.** The whole preflight rests on this and nothing else: that the set of tools a session is permitted to invoke is readable before the first invocation.
 
