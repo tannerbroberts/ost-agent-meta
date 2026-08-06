@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A pass can enumerate its own senses and their state without being told what it tried to use]]
 
 **The idea.** Every pass closes with a census of its senses — configured, wired, reached for, refused — the way `ost_ingest_inbox` already reports one line per channel including the disabled ones. Nothing is blocked; the degradation simply stops being silent.
 

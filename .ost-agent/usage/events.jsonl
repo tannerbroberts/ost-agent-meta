@@ -1882,3 +1882,4 @@
 {"ts":"2026-08-06T16:21:32.843Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
 {"ts":"2026-08-06T16:21:34.946Z","tool":"ost_next_work","ok":true,"ms":93,"surface":"mcp","argBytes":2,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381"}
 {"ts":"2026-08-06T16:22:06.839Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1401,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381","wrote":["A config check can name a sense that is required and absent, not only validate the paths that are present.md"]}
+{"ts":"2026-08-06T16:22:14.220Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1365,"session":"mcp-b17af825-0be8-4666-b815-e6ee49aae381","wrote":["A pass can enumerate its own senses and their state without being told what it tried to use.md"]}
