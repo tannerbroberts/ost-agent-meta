@@ -7,6 +7,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Every path the config declares is checked when the config is read, not when something reaches for it]]
 [[A pass ends by reporting which of its senses were live and which it never had]]
+[[The instrument-writing step declares repo sight required and skips itself rather than inventing paths]]
 
 Machine-recorded: in 583 tool invocations on 2026-08-05, exactly one call failed, and it was `ost_read_repo` — "no product repos configured — add local repo paths under `product.repos` in ost.config.yaml". The operator does not discover the gap at setup, when it is cheap to fix; they discover it in the middle of a pass, at the moment the agent reached for the product and found nothing there. Everything downstream of that reach — instruments grounded in real modules rather than invented paths — is silently degraded rather than blocked, so the pass reports success while working blind.
 
