@@ -25,3 +25,4 @@ Then the part that actually tests the parent assumption: assert the flattening p
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/unread-subject-propagation.test.ts` — No test files found, exiting with code 1
+- 2026-08-06 **green** (exit 0) `npx vitest run test/ost/unread-subject-propagation.test.ts` — Duration  518ms (transform 24ms, setup 0ms, collect 25ms, tests 295ms, environment 0ms, prepare 24ms)
