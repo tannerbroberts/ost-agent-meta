@@ -1947,3 +1947,4 @@
 {"ts":"2026-08-06T19:02:54.224Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1142,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T19:02:57.475Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1123,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T19:03:30.258Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2988,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
+{"ts":"2026-08-06T19:03:32.439Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
