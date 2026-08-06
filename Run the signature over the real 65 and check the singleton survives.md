@@ -23,3 +23,6 @@ instrument: npx vitest run test/adapters/friction-signature-clustering.test.ts
 
 ## History
 - 2026-08-06 body edited — The body declared "Lane: compute-only", which this pass had no power to set — `ost_flag_humans_required` is withheld on this surface and only a human's `ost-agent lane --set` moves what compute may run. The node carries no `lane:` field, so its effective lane is needs-humans (confirmed: it landed in `assumptionWork.needsHumans`), and the prose contradicted that. Replaced with the vault's established "Who runs it" phrasing.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/adapters/friction-signature-clustering.test.ts` — No test files found, exiting with code 1
