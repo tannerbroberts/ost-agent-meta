@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Compute the unblock-count distribution over this vault and require it to be non-flat]]
 
 **The belief, stated so it could be false.** Unblocking leverage is unevenly distributed across a real tree, so ordering by it separates the candidates rather than declaring them all equal.
 
