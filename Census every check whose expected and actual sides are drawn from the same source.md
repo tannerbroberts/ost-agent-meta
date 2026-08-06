@@ -20,3 +20,15 @@ That last caveat is severe enough to state as a limit rather than a footnote: th
 **Cost.** A one-off analysis script and a reading. No product change, no CI time, nothing to maintain if the answer is small.
 
 ⚠️ Unvalidated. Agent-ideated, from the agent's own repository.
+
+## Definition of done
+
+"Score the provenance census against the three guards it was invented to catch"
+
+```
+npx vitest run test/guards/provenance-census-scores-against-known-defects.test.ts
+```
+
+Green means the census flags all three known-defective prefix guards. This node's own body predicts it will not — the three derived the prefix independently and share no symbol — and the test exists to settle that prediction rather than leave it as a caveat. A red is the expected and informative outcome: the census may still be worth building to size the syntactically self-derived population, but it would have to be re-described as measuring a related population rather than as an answer to this opportunity.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "A provenance census would not have flagged the three guards that motivated it".
