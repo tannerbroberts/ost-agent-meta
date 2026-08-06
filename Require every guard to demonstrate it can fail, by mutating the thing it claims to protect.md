@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The three guards that agreed with the bug would stay green under a mutation of the thing they check]]
 
 **The idea.** For each guard, break the property it claims to protect and require the guard to go red. A guard that stays green while its subject is deliberately wrong is not a guard, and the suite says so by name rather than by counting coverage.
 
