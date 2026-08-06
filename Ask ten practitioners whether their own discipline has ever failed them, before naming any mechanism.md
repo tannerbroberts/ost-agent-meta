@@ -20,3 +20,6 @@ The assumption is that buyers recognise their own discipline as the problem. Nob
 **What it will not cover.** Willingness to admit a past lapse in conversation is not willingness to buy a tool that assumes it. This measures recognition, which is necessary and well short of sufficient.
 
 A human runs this and records the result.
+
+## Issues
+- 2026-08-06 Lane unset, and this sweep could not set it. Judged humans-required by the 2026-08-06 unattended pass: it names outside practitioners and constrains the ordering of the questions ("before naming any mechanism"), which is an interview protocol rather than anything a command can carry out. `ost_flag_humans_required` is not granted on the unattended surface. Left for a human: `ost-agent lane --set humans-required`.
