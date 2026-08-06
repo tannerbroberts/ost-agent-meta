@@ -18,3 +18,15 @@ evidence: assertion
 **Cost.** Generation from the existing tool schemas plus a startup read. No new refusal, no new state.
 
 ⚠️ Unvalidated. Agent-originated, from the agent's own transcripts — usability evidence, not evidence that anyone wants this.
+
+## Definition of done
+
+"Measure what fraction of recorded refusals a schema-derived manifest could have named"
+
+```
+npx vitest run test/preflight/manifest-covers-observed-refusals.test.ts
+```
+
+Green means a manifest generated from the tool schemas alone names a rule covering at least 60% of the distinct refusal classes in the captured transcript corpus. Below that bar the solution's cost argument is refuted rather than refined, because the rules that actually bite would be living outside the schemas it generates from.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "A generated manifest can only carry the rules the schemas know, and the refusal that bit hardest is not one of them".
