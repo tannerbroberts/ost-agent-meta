@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Attach thirty self-observations to one node and require the rung not to move]]
 
 **The belief, stated so it could be false.** Attaching many transcript records to one opportunity raises how well-sourced it *looks* by exactly as much as it deserves — the actor ceiling holds, so thirty self-observations read as one actor observing itself thirty times and never as thirty independent voices.
 
