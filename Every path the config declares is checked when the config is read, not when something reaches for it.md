@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A config check can name a sense that is required and absent, not only validate the paths that are present]]
 
 **The idea.** Config load validates every declared path: it must exist and be readable. A missing or unreadable one is a startup error naming the key and the offending value, printed once, before any work begins.
 
