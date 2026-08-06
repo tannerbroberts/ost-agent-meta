@@ -18,3 +18,13 @@ evidence: assertion
 **Cost.** A stat-and-branch in the setup path, plus a decision table for the states a worktree can be found in.
 
 ⚠️ Unvalidated. Agent-ideated from one observed failure.
+
+## Definition of done
+
+"Put a worktree into each dirty state and check the reconciler's verdict on every one"
+
+```
+npx vitest run test/runner/workspace-reconcile-states.test.ts
+```
+
+Green means the reconciler returns a verdict for all eight enumerated worktree states and never classes uncommitted or in-progress work as replaceable. It does not mean the candidate is safe under concurrency: a live run mid-build and a dead run's leftovers look identical to filesystem inspection, and separating them is the sibling lease candidate's premise, not this one's.
