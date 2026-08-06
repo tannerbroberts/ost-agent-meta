@@ -21,3 +21,15 @@ evidence: assertion
 **Cost.** A store, a write path, a read in every bucket, and a review surface so a human can see what a pass dismissed. Much the largest of the three.
 
 ⚠️ Unvalidated. Agent-ideated, and it is the candidate that most benefits the agent proposing it — discount accordingly.
+
+## Definition of done
+
+"Write one disposition of each of the three kinds through a single ledger schema"
+
+```
+npx vitest run test/ost/disposition-ledger-shape.test.ts
+```
+
+Green means one entry type carries all three dispositions and every bucket reads them through one shared call. The design constraint is already established and is not negotiable: the ledger must live where the *sweep* reads, not where a *reader* reads — a `## Disposition` section in a node body was tried on 2026-08-05 and the sweep did not see it.
+
+Do not build this before "Show five operators a pass's dismissed-work list and ask whether they would have let it stand" has run. That test can kill this candidate outright, and it costs five conversations against a store, a write path, a read in every bucket, and an audit surface.
