@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A tree being moved by another writer can be told apart from an operator simply working]]
 
 **Candidate solution (unvalidated).** Before doing any work, a run states the paths it intends to write and checks whether anything else is currently holding them — uncommitted changes with recent mtimes, an in-flight merge, a rebase or merge state in `.git`, another run's lease. If the ground is already moving, the run declines to start and says so, instead of beginning work it will have to abandon halfway.
 
