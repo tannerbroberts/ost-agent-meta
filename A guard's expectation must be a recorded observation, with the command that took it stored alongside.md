@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A recorded expectation goes stale silently, because the probe stored beside it is never re-run]]
 
 **The idea.** Any check whose subject is a contract with something outside the repository — a namespace another runtime mints, a registry's published version, a shell's globbing behaviour — may not compute its expected value. It asserts against a literal captured from a real run, and the probe command that produced that literal is stored on the line above it, so the next reader can re-take the observation instead of trusting it.
 
