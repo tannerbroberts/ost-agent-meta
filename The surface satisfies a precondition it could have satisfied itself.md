@@ -18,3 +18,15 @@ evidence: assertion
 **Cost.** One retry path per absorbable precondition, plus a record of every automatic discharge so the absorbed signal is counted rather than lost.
 
 ⚠️ Unvalidated. Agent-originated, and proposed by the party the current handshake inconveniences, which is a reason to discount its conviction.
+
+## Definition of done
+
+"Auto-satisfy a read-before-write, then change the file underneath and require the write to still refuse"
+
+```
+npx vitest run test/preflight/auto-satisfy-preserves-staleness-guard.test.ts
+```
+
+Green means the surface auto-satisfies preconditions that carry no detection duty while still refusing a write whose target moved after the caller's read. One silent overwrite fails it. The bar is zero, not a rate, because the failure this guards against is the one this tree already names under "The file changed after I read it, and the failed edit is how I find out" — and removing a refusal to create a silent overwrite is a worse trade than the friction it removes.
+
+Named in plain text rather than linked: the test's one wikilink is held by its parent assumption, "A precondition the surface satisfies for you stops enforcing the thing it existed to enforce".
