@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Solution #unvalidated #evidence/observed
+[[Nearly every search a pass issues is a literal lookup wearing a pattern language]]
 
 Remove the pattern language from the path where node text is searched, rather than learning to quote for it.
 
