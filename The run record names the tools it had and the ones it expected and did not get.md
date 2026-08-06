@@ -28,3 +28,6 @@ instrument: npx vitest run test/loop/run-record-tool-surface.test.ts
 **Lane: compute-only.** A pass run twice against a fixture vault, once with a tool withheld; no person is the measurement.
 
 ⚠️ Unvalidated. Agent-ideated by an unattended pass. Nothing here was run.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/run-record-tool-surface.test.ts` — No test files found, exiting with code 1

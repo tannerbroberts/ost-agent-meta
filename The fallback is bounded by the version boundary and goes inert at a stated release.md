@@ -32,3 +32,6 @@ It also does not settle the bet the node says the choice really is: how many mor
 **Lane: compute-only.** Fixture items either side of the boundary and a clock the test controls; no person is the measurement.
 
 ⚠️ Unvalidated. Agent-ideated by an unattended pass from the node's own bounded variant. Nothing here was run.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/ost/legacy-signal-fallback-bounds.test.ts` — No test files found, exiting with code 1

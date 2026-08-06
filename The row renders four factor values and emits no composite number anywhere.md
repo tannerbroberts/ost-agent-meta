@@ -28,3 +28,6 @@ Nor does it settle whether an operator forms a better view from factor values th
 **Lane: compute-only.** Fixture vault, the four extractors, and a scan of the rendered output; no person is the measurement.
 
 ⚠️ Unvalidated. Agent-ideated by an unattended pass. Nothing here was run.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/ost/factor-table-no-composite.test.ts` — No test files found, exiting with code 1

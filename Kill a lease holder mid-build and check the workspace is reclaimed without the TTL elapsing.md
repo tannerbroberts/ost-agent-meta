@@ -21,3 +21,6 @@ instrument: npx vitest run test/runner/workspace-lease-liveness.test.ts
 **Honesty about that claim.** The `lockTtlMinutes` reading comes from this vault's own `ost.config.yaml`, which this pass did read. The claim that no workspace-level lease exists comes from the transcript, not from the code: product-directory reads were denied here and `ost_read_repo` was not granted. That second half is the weaker of the two and a builder should confirm it before trusting this node's framing.
 
 **What a green run does NOT settle.** It shows liveness is detectable in the two cases staged — a killed process and a slow one. It says nothing about the cases that are genuinely hard and are why TTLs exist: a holder on a machine that slept, a holder whose process id was recycled, or a holder killed so abruptly that its heartbeat is fresh and its work is not. It also does not settle what a reclaiming run should do with whatever the dead one left in the tree, which is a separate design question this test deliberately does not reach into. And nothing here argues that leasing is worth its cost against the two cheaper siblings; that comparison is a human's.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/workspace-lease-liveness.test.ts` — No test files found, exiting with code 1

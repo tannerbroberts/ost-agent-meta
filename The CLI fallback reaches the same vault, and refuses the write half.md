@@ -29,3 +29,6 @@ instrument: npx vitest run test/loop/mcp-absent-fallback.test.ts
 **Lane: compute-only.** A fixture vault and an environment with the MCP surface withheld; no person is the measurement.
 
 ⚠️ Unvalidated. Agent-ideated by an unattended pass from the parent's own stated distinguishing assumption. Nothing here was run.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/mcp-absent-fallback.test.ts` — No test files found, exiting with code 1
