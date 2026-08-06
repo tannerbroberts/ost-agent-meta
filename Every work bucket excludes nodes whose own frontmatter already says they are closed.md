@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Filtering by status removes the stuck shipped solutions without hiding any that still owe an instrument]]
 
 **The idea.** `computeNextWork` filters every bucket by the node's own `status` before listing it. A solution with `status: shipped` or `status: deferred` is not missing an instrument — it is finished or abandoned — and does not appear in `solutionsMissingInstruments`. The same filter applies wherever a bucket selects nodes.
 
