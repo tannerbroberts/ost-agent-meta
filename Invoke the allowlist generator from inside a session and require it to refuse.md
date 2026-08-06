@@ -27,3 +27,4 @@ Three — the generator is pointed at a settings file a human has narrowed by ha
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/security/allowlist-generator-guard.test.ts` — No test files found, exiting with code 1
+- 2026-08-06 **green** (exit 0) `npx vitest run test/security/allowlist-generator-guard.test.ts` — Duration  24.17s (transform 116ms, setup 0ms, collect 93ms, tests 22.80s, environment 0ms, prepare 208ms)
