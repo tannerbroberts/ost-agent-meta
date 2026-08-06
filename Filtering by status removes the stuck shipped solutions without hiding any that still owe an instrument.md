@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Seed a shipped solution with no instrument and require the work list to omit it]]
 
 Feasibility. The belief is that `status` is a clean enough signal to filter on: every solution currently listed in `solutionsMissingInstruments` that carries `status: shipped` is genuinely built, and no solution that still owes a builder a definition of done carries that status.
 
