@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The surfaces differ in ways one pinned profile shape could actually express]]
 
 **The idea.** The operator names surfaces in `ost.config.yaml` — `unattended`, `attended`, `ci` — and each pins the tool set that surface is meant to have. A pass runs under exactly one named profile, and the profile is the contract, so what the agent may do stops depending on which client happened to launch it.
 
