@@ -1926,3 +1926,4 @@
 {"ts":"2026-08-06T18:59:12.852Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2959,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["A path failure answers with the layout it was addressed against, not with the path that was missing.md"]}
 {"ts":"2026-08-06T18:59:47.302Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3450,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T18:59:56.840Z","tool":"ost_annotate","ok":true,"ms":15,"surface":"mcp","argBytes":1187,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
+{"ts":"2026-08-06T18:59:58.512Z","tool":"ost_ingest_inbox","ok":true,"ms":6,"surface":"mcp","argBytes":2,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
