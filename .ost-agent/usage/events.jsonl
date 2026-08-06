@@ -1918,3 +1918,4 @@
 {"ts":"2026-08-06T18:56:35.943Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":1884,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["Unblock counts are near-uniform across a real tree, so ranking by them orders nothing.md"]}
 {"ts":"2026-08-06T18:56:51.327Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2563,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["Compute the unblock-count distribution over this vault and require it to be non-flat.md"]}
 {"ts":"2026-08-06T18:56:57.508Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":953,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
+{"ts":"2026-08-06T18:57:43.374Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2805,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62","wrote":["A guard's expectation must be a recorded observation, with the command that took it stored alongside.md"]}

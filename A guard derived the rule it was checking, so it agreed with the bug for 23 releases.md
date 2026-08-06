@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[A guard's expectation must be a recorded observation, with the command that took it stored alongside]]
 
 **The observation (2026-08-06).** Every tool grant this product ships to a plugin session — eight command files and the generated skill — named tools that no plugin session mints. Claude Code namespaces a directly-registered server `mcp__<server>__` and a plugin-delivered one `mcp__plugin_<plugin>_<server>__`; both names here are `ost-agent`, so the short form read as correct. Confirmed by probing a live session, not by reading docs.
 
