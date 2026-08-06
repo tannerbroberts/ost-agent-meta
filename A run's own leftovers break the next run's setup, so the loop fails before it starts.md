@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Setup reconciles the workspace it finds instead of assuming there isn't one]]
 
 An unattended firing died before it did any work, and the thing that stopped it was the previous firing's residue.
 

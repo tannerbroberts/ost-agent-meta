@@ -2032,3 +2032,4 @@
 {"ts":"2026-08-06T22:33:39.147Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
 {"ts":"2026-08-06T22:33:50.641Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c"}
 {"ts":"2026-08-06T22:34:45.960Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2648,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c","wrote":["A run's own leftovers break the next run's setup, so the loop fails before it starts.md"]}
+{"ts":"2026-08-06T22:34:59.512Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1976,"session":"mcp-b8b71a22-3b42-498d-95e4-ec1d3340de4c","wrote":["Setup reconciles the workspace it finds instead of assuming there isn't one.md"]}
