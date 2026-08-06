@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Require a shipped solution to be asked for an observation and not for a red command]]
 
 **The belief, stated so it could be false.** For a solution recorded as shipped, there exists one command in the repository's own suite whose green exit code is meaningful evidence that the claimed mechanism is present — enough to move the node off `assertion`.
 
