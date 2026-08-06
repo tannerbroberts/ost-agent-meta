@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Excluding shipped solutions removes items that are genuinely done, not items being dodged]]
 
 **The idea.** `solutionsMissingInstruments` excludes solutions whose status is `shipped`. An instrument must fail against the repository today and pass once the solution is built; for behaviour that already ships, no such command exists, so demanding one asks for something that cannot be supplied.
 
