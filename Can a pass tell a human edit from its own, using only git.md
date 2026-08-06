@@ -4,7 +4,7 @@ status: unvalidated
 source: agent-ideation — reproducible against this vault's git history
 created: '2026-07-25'
 evidence: assertion
-instrument: npx vitest run test/git/authorship-attribution.test.ts
+instrument: npx vitest run test/git/hand-edit-detector.test.ts
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -26,6 +26,7 @@ instrument: npx vitest run test/git/authorship-attribution.test.ts
 - 2026-08-04 instrument: npx vitest run test/git/hand-edit-detector.test.ts → npx vitest run test/git/human-vs-agent-edit-attribution.test.ts — The question is literally whether git alone carries enough signal, so the answer is a classifier over a fixture repository seeded with both kinds of edit — agent commits made through the tool surface and hand edits made outside it — scored against the known truth; it fails today because no attribution pass exists.
 - 2026-08-04 instrument: npx vitest run test/git/human-vs-agent-edit-attribution.test.ts → npx vitest run test/git/hand-edit-detector.test.ts — Restoring the instrument this test already carried; the preceding replacement in this History was made in error, from misreading the default `needsHumans` lane as an instrument gap.
 - 2026-08-06 instrument: npx vitest run test/git/hand-edit-detector.test.ts → npx vitest run test/git/authorship-attribution.test.ts — Fails today because no attribution module exists: nothing in the vault's git layer distinguishes a commit an agent pass authored from one a human made by hand, so the spec has nothing to assert against. Written blind of the repository — this sweep holds no repo-read grant, so the spec path names behaviour that does not exist rather than assertions that go red against today's code.
+- 2026-08-06 instrument: npx vitest run test/git/authorship-attribution.test.ts → npx vitest run test/git/hand-edit-detector.test.ts — Restoring the instrument this test already carried. The 2026-08-06 unattended sweep replaced it in error, having read `assumptionWork.needsHumans` as meaning "no instrument" when it means "no result yet and no compute-only lane label". No permit was in force to lose, and the original path is the one a builder should work to.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/git/hand-edit-detector.test.ts` — No test files found, exiting with code 1
