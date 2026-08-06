@@ -1951,3 +1951,10 @@
 {"ts":"2026-08-06T19:03:34.370Z","tool":"ost_next_work","ok":true,"ms":121,"surface":"mcp","argBytes":2,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T19:04:13.396Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3886,"session":"mcp-4c1dcc54-cb24-45f7-bd94-754a462dea62"}
 {"ts":"2026-08-06T20:04:56.424Z","tool":"ost_ingest_inbox","ok":true,"ms":24,"surface":"mcp","argBytes":2,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:04:58.391Z","tool":"ost_next_work","ok":true,"ms":73,"surface":"mcp","argBytes":2,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:05:40.222Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:05:49.352Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:05:50.207Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:07:04.988Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:07:05.787Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:11:08.410Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"mcp","argBytes":2186,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b","wrote":["A drift sentinel that samples HEAD and file mtimes between steps and interrupts on movement.md"]}
