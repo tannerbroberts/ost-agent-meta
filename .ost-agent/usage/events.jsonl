@@ -1968,3 +1968,4 @@
 {"ts":"2026-08-06T20:12:49.151Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2160,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b","wrote":["Run the preflight over recorded working-tree states and count the clean sessions it would have refused.md"]}
 {"ts":"2026-08-06T20:12:56.354Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":652,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
 {"ts":"2026-08-06T20:12:58.484Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":625,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}
+{"ts":"2026-08-06T20:13:01.120Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":711,"session":"mcp-7ba6f143-8b49-416c-a946-7869df9f594b"}

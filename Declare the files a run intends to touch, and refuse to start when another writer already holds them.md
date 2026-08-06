@@ -18,3 +18,13 @@ evidence: assertion
 **Where it fails.** It is a check at one instant. Nothing stops a merge landing one second after the preflight passes, so on its own it converts some collisions into refusals and leaves the rest exactly as they are. It is the weakest of the three unless paired with the sentinel — which is an argument for building it second, not first.
 
 ⚠️ Unvalidated, and ideated by an agent from its own session record. This grounds usability, not that anyone outside wants it.
+
+## Definition of done
+
+"Run the preflight over recorded working-tree states and count the clean sessions it would have refused"
+
+```
+npx vitest run test/runner/write-intent-preflight-false-stop.test.ts
+```
+
+Red today because no preflight rule exists and the spec does not exist. Green only when both halves hold together — it refuses the session where a merge landed mid-run, and refuses fewer than one in ten of the sessions that finished cleanly. Either half alone is satisfiable by tuning against the other's blind spot, which is why they are asserted in one command.
