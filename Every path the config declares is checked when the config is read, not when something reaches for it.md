@@ -18,3 +18,15 @@ evidence: assertion
 **Compared with its siblings.** "A pass reports which of its senses were live" never blocks and never fixes — it makes the degradation visible and leaves the choice. "The step that needs the product repo declares it required" is the narrow version, gating one activity rather than the run. This is the earliest and bluntest of the three, and it is the only one that catches the problem before any compute is spent.
 
 ⚠️ Unvalidated. Agent-ideated from the agent's own blocked pass.
+
+## Definition of done
+
+"Load this vault's own config and require the check to name product.repos as absent"
+
+```
+npx vitest run test/config/declared-path-validation.test.ts
+```
+
+Green means config load emits exactly one diagnostic for a config shaped like this vault's — a repository named under `adapters.transcript.projectDir` with `product.repos` absent — naming the missing key and suggesting the value, and stays silent for a fully-configured vault and for one configuring neither. The two silent cases are load-bearing: without them this is a check that nags every correctly-configured vault.
+
+It does not cover the harness-grant half. `Glob` on the product directory was denied on 2026-08-06 by permission, not by configuration, and no config check can see that.
