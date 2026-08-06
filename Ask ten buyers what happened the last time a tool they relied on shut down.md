@@ -20,3 +20,6 @@ The assumption is that portability is priced. Most buyers do not value it until 
 **What it will not cover.** Recollection of a past loss predicts stated concern better than it predicts a purchase. Someone burned once may still choose the hosted tool with the better demo.
 
 A human runs this and records the result.
+
+## Issues
+- 2026-08-06 Lane unset, and this sweep could not set it. Judged humans-required by the 2026-08-06 unattended pass: the title names an outside party and a recalled past experience ("what happened the last time"), which is story-based interview material and not available to any command. `ost_flag_humans_required` is not granted on the unattended surface, so the judgement is recorded here instead. Left for a human: `ost-agent lane --set humans-required`.
