@@ -56,3 +56,10 @@ It also explains a number in the rollup that otherwise looks like neglect. Of th
 **And it compounds with a grant problem recorded elsewhere.** For a test created *before* this rule existed, the correct disposition is `ost_flag_humans_required`, which is denied on the unattended surface — twice now, in two independent firings. So the pre-existing human-lane tests cannot be labelled by the pass that finds them, and their solutions stay in this bucket permanently, where the only available action is to invent a command that cannot honestly measure them. See "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time".
 
 _Observed directly on 2026-08-06: one `ost_create_node` call with `humansRequired`, one `ost_next_work` before and after, count 64 → 65._
+
+## Issues
+- 2026-08-06 2026-08-06, later firing — face 1's count corrected upward, and the direction matters. This node says "at least 5 of the 64 listed are `status: shipped`". A direct count over the vault finds **10** solutions carrying `status: shipped`, and every one of them is structurally unable to leave `solutionsMissingInstruments`: the five named here plus "Every self-observation channel names which of its sources each item came from", "Every count states the denominator it was taken over", "Every recorded step carries the directory and argv it actually ran with", "Flag a threshold that is still an instruction to choose one", and "The uncovered statement printed next to what the test asked for".
+
+So the permanently-stuck floor under that bucket is at least 10 of 65, not 5 of 64, before counting the human-lane share described in face 3. The bucket's drainable fraction is smaller than any previous pass has recorded.
+
+Not merged into the body above because it sharpens a number rather than adding a face, and the argument it sharpens is already made there correctly.
