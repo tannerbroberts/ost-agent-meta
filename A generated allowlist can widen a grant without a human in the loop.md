@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Assumption #unvalidated #evidence/observed
+[[Invoke the allowlist generator from inside a session and require it to refuse]]
 
 **Potential harm.** Stated as the thing that could go wrong rather than the thing that will work: if the allowlist is generated from a declaration, then editing the declaration is how you acquire a permission — and the run can edit files.
 
