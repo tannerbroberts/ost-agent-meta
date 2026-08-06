@@ -1725,3 +1725,4 @@
 {"ts":"2026-08-06T00:45:09.062Z","tool":"ost_set_status","ok":true,"ms":1,"surface":"mcp","argBytes":907,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
 {"ts":"2026-08-06T00:45:21.625Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1767,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
 {"ts":"2026-08-06T00:45:51.130Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":1929,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["A pass declares the tools it needs before it starts, and refuses to begin without them.md"]}
+{"ts":"2026-08-06T00:45:59.155Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":1647,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["Every refusal a surface returns is recorded as tree evidence, not just as a failed call.md"]}
