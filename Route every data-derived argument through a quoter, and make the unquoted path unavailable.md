@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: observed
 ---
 #Solution #unvalidated #evidence/observed
+[[Tree-origin survives the trip from frontmatter to the call site]]
 
 Keep the pattern languages and the shell, and close the gap where tree text reaches them unescaped.
 
