@@ -1812,3 +1812,4 @@
 {"ts":"2026-08-06T15:12:59.499Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2300,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Refuse a source that names no record, at write time rather than at sweep time.md"]}
 {"ts":"2026-08-06T15:13:05.305Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":838,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:13:41.341Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2152,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["What made those firings read as noise is something the gate's own wording can fix.md"]}
+{"ts":"2026-08-06T15:13:59.175Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2268,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Count how buried each of the three firings was before assuming the wording was at fault.md"]}

@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count how buried each of the three firings was before assuming the wording was at fault]]
 
 **Usability.** The node records three correct gate firings that were each read as noise before they were read as findings. The implicit diagnosis is that the gates said the wrong thing. That is one hypothesis and it is not the only one.
 
