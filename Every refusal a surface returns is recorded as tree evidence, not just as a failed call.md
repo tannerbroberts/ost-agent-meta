@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A permission denial is distinguishable from a tool failing on its own terms]]
 
 **The idea.** When a tool call is refused for lack of a grant, the refusal is written to the vault as an evidence record naming the tool, the surface, and the work it was about to do — so the shape of each surface accumulates instead of being rediscovered.
 
