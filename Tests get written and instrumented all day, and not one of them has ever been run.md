@@ -38,3 +38,23 @@ The prose above says execution "is on nobody's surface at all." That is right, b
 **Left for a human, not decided here.** Whether all 200 deserve the compute-only lane is exactly the judgement the lane exists to protect — a good number of them name people in their methods and should stay `needsHumans`. The claim is only that *nobody has ever made that call for any of them*, so the current zero reflects an unmade decision rather than 272 considered ones.
 
 _Established by direct measurement of this vault on the 2026-08-05 unattended sweep: `^instrument: npx` matches 200 files, `^lane:` matches 1, and `ost_next_work` reports 0 runnable. Observed behaviour of the tool surface and the tree's own state; grounds usability, not demand._
+
+## Confirmed first-party, one day later — 2026-08-06
+
+The 2026-08-05 measurement found 200 instrumented tests, 1 `lane:` field, 0 runnable. Re-measured on this vault today:
+
+- **232** nodes carry `instrument: npx …` — up 32 in one day.
+- **4** nodes carry a `lane:` field. All four read `humans-required`. Not one node in this tree has ever been assigned `compute-only`.
+- `ost_next_work` still reports `runnable: 0`, `awaitingOneCommand: 0`, `blockedOnPermission: 0`, and **301** tests in `needsHumans` — up from 272.
+
+So readiness grew by 32 and execution stayed at zero, which is the pattern this node named, holding exactly.
+
+**This pass confirmed the gate by walking into it, which is better evidence than counting.** It created 9 assumption tests, 8 of them carrying a `vitest` instrument, and wrote `**Lane: compute-only.**` as the opening line of every one of those 8 bodies — because each is genuinely settled by a spec file over the vault or the repository, with no person anywhere in the method. All 8 landed in `needsHumans`. "Auto-satisfy a read-before-write, then change the file underneath and require the write to still refuse" is visible there in the sweep output, alongside tests that name interviews and willingness-to-pay probes.
+
+That is the ruleset behaving exactly as written — prose is never promoted to a label, and only `ost-agent lane --set` moves what compute may run — and it is worth recording because it closes the last gap in this node's argument. The 2026-08-05 finding could still have been read as neglect: 200 tests nobody had got round to labelling. It is now demonstrated that a pass *actively declaring* a test compute-only, in the sanctioned place, with a runnable command attached, cannot move it. The default is not unset because nobody looked. It is unmovable by anything that runs unattended.
+
+**The compounding cost, stated plainly.** Every unattended pass that does its job well makes this worse. This one added 8 more commands to a queue of 232 that nothing may execute, and it did so while following the instructions it was given. A fifth pass has now added readiness to a pipeline whose gate is downstream of everything it can touch.
+
+**Unchanged and still the cheapest unblock in the tree:** one human session assigning lanes. Whether all 232 deserve `compute-only` is precisely the judgement the lane exists to protect, and a good number name people in their methods and should stay where they are. The claim remains only that the call has never been made for any of them.
+
+_Direct measurement of this vault, 2026-08-06: `^instrument: npx` matches 232 files, `^lane:` matches 4 (all humans-required), `ost_next_work` reports 0 runnable and 301 needsHumans. Plus first-party observation of 8 instrumented compute-only-declared tests created this pass, all classified needsHumans on the next sweep._
