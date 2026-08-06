@@ -42,3 +42,21 @@ npx vitest run test/adapters/source-attribution.test.ts
 Red today, and red for a reason stronger than a missing file: this node itself cites `TRANSCRIPT:89ac8277-29ce-4d80-827e-cefea0bebabf`, which resolves to nothing, and the write that created it was accepted. The spec's second half replays exactly that write and requires a refusal. A builder can watch the current behaviour fail before writing a line.
 
 Green here proves sources resolve. It does not prove they are the right sources, and it says nothing about whether finer attribution improves the tree — that needs an operator who has worked with both.
+
+## The broken-citation fault has a mechanism, and it was watched closing
+
+Earlier in this pass, four nodes — this one among them — carried an `unresolved-citation` hygiene issue: each cited `TRANSCRIPT:89ac8277-29ce-4d80-827e-cefea0bebabf`, and no stored evidence record had that id. The diagnosis written into the `## Issues` sections was that the pass had cited the session it was running in, which the transcript adapter cannot have stored yet because that session had not ended.
+
+That diagnosis is now confirmed by observation rather than argument. The third `ost_ingest_inbox` of this pass captured sixteen records, and the first name in the list was `Session friction 89ac8277-29ce-4d80-827e-cefea0bebabf`. The next `ost_next_work` returned `hygieneIssues: []`. Four violations cleared at once, by an ingest, with nobody repairing anything.
+
+So the fault is real but temporary, and its shape matters more than its severity: **a node that cites its own live session is born with a broken citation and self-heals whenever that session is next harvested.** Between those two moments the tree fails `ost_check`, and there is no way to tell, from the violation alone, whether it is a citation that will resolve itself tonight or one that names a record that never existed. Those two want opposite responses — wait, or come down to `assertion` — and the check reports them identically.
+
+Three things follow for this solution, which is about channels naming their sources.
+
+Attribution is not only coarse, it is temporarily wrong by construction, and any design that treats a source string as immediately verifiable will mis-handle the commonest case in this vault.
+
+A check that cannot distinguish "not yet harvested" from "does not exist" produces a violation an operator learns to wait out, which is how a real broken citation gets ignored. The sibling assumption test "Refuse a source that names no record, at write time rather than at sweep time" is now the wrong shape as written: refusing at write time would have refused all four of these nodes, and all four were correct. The refusal needs to distinguish an id that is well-formed and unharvested from one that is neither — and that distinction is checkable, because a live session id names a file that exists on disk before the adapter reads it.
+
+Any humility about the ladder is warranted here. The four nodes rested on `observed` while pointing at nothing, for some hours, and nothing in the tree noticed except a rule that fires after the fact.
+
+Provenance: this pass, 2026-08-06, first-party — the ingest and the cleared check were both observed directly.
