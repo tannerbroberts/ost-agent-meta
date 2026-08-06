@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A dismissal can be made auditable enough that a human can catch a dishonest one]]
 
 **The idea.** Give the skill's existing instruction a mechanism. The skill already tells the agent "if an item reveals no genuine need, skip it" — but there is no way to record a skip, so a skipped item is indistinguishable from an unread one and comes back next pass. A dismissal action takes the evidence id and a written reason, marks the record read-and-skipped, and removes it from `unmappedEvidence` without creating a node.
 
