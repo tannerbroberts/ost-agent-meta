@@ -29,4 +29,7 @@ A red gate produces a triage the next session can read: the recorded figure besi
 
 ## Relationship to its sibling
 
-`[[A perf gate reports its measurement next to the number the criterion recorded]]` builds the first of the three questions into the gate itself, so it is answered whether or not anyone remembers to ask. This node is the general habit; that one is the part that can be made automatic. If only one gets built, build that one.
+The sibling solution "A perf gate reports its measurement next to the number the criterion recorded" builds the first of the three questions into the gate itself, so it is answered whether or not anyone remembers to ask. This node is the general habit; that one is the part that can be made automatic. If only one gets built, build that one.
+
+## History
+- 2026-08-06 body edited — The closing paragraph wikilinked its sibling in prose, which broke `single-backlink` — exactly one link, from the parent — and turned the whole tree red, which is the state that stops the discovery loop firing. Same rule the product enforces and the same one I had just been reading about. Reworded to name the sibling as plain text; nothing else changed.
