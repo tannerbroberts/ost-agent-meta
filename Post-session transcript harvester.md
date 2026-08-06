@@ -1,6 +1,6 @@
 ---
 type: Solution
-status: unvalidated
+status: shipped
 source: 'INBOX:2026-07-24-opp-transcript-ingestion.md'
 created: '2026-07-24'
 evidence: assertion
@@ -21,6 +21,7 @@ Status: agent-originated candidate; mechanism was founder-suggested. Unvalidated
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 unlinked "Hand-distil three past sessions" — moved under "A session transcript contains distillable stalls and dead ends worth the next pass's attention" — the belief this test measures now has a node of its own
+- 2026-08-06 status: unvalidated → shipped — Built and live: the builder report of 2026-07-24 records `src/adapters/transcript.ts` with 19 tests, wired into config and `buildPassContext`, documented in the README, and enabled on this vault (`adapters.transcript`, projectDir /Users/tanner/dev/OST-Agent). The channel is observably running — `ost_ingest_inbox` reports a `[transcript]` line every pass and the vault holds TRANSCRIPT_* evidence records. Recorded as `shipped` by the 2026-08-06 unattended sweep because it sat in `solutionsMissingInstruments`, where a red-now instrument is impossible for behaviour that already ships: a spec asserting the adapter exists would pass on arrival, measure nothing, and give a builder no definition of done. This says the mechanism is built; it does not say the channel earns its keep, which is what its assumption test is still for.
 
 ## Build + first-run evidence (2026-07-24)
 
