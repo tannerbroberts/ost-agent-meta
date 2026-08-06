@@ -19,3 +19,15 @@ The bet is that miscounting is the whole harm and prevention is optional. If a p
 That last point is the strongest argument for it. Four of this vault's recorded friction events were reads denied on the product directory, and one was a read refused for exceeding a size cap. Neither is a syntax problem, and both produce exactly the same false zero.
 
 The cost is that every caller has to handle a third return state, and a caller that maps unread to empty for convenience has silently reintroduced the bug. Whether the unread state survives the trip through real call sites, rather than being flattened at the first convenient boundary, is what the test beneath this node is for.
+
+## Definition of done
+
+"Feed every search path a malformed pattern and require the total to say two were unread"
+
+```
+npx vitest run test/ost/unread-subject-propagation.test.ts
+```
+
+Red today: there is no unread state to propagate, so the spec has nothing to assert against. The stronger half of it — that no call path yields a bare count without handling the unread case — will stay red until the search interface stops returning a plain collection, which is a design change rather than an addition.
+
+Green here proves the mechanical path preserves the distinction. It does not cover prose: a model writing "no issues found" over a subject it could not read is the same error, and no type system prevents it.
