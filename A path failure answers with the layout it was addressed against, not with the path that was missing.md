@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The tools this product controls account for a minority of the path failures observed]]
 
 **The idea.** Let the wrong guess happen, and make the first failure carry what the run needed. A missing path answers with the nearest existing ancestor and its contents; a permission denial says the path exists and the grant does not; a `git` call outside a repository says which directories above it are repositories. One turn is spent, and it returns the layout instead of a negation.
 
