@@ -18,3 +18,15 @@ evidence: assertion
 **Compared with its siblings.** Strictly weaker than "Every path the config declares is checked when the config is read" at preventing the loss, and strictly better at not costing a night. "The step that needs the product repo declares it required" is the middle path. This is the one to ship first if the others are contested, because it is nearly free and it produces the measurements the other two would be judged by.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Run a pass with one sense unconfigured and require its closing report to say which"
+
+```
+npx vitest run test/loop/sense-census-report.test.ts
+```
+
+Green means the closing report enumerates every sense with a state, derived from config and grant rather than from what the pass happened to touch — modelled on `ost_ingest_inbox`, which already reports six channels including the disabled ones without trying any of them.
+
+The demanding clause is that a sense nothing reached for must be distinguishable from one that worked. If the census can only be built from observed denials, that clause fails, and the failure refutes the assumption rather than the test.
