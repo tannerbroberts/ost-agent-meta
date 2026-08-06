@@ -19,3 +19,15 @@ The bet is that provenance survives. It may not. Once a title has been read out 
 Against its siblings. "Search node text through a literal-only interface" removes the destination rather than guarding the source, which is cleaner where it applies and does nothing for the shell — and the shell produced as many recorded failures as ripgrep did: `no matches found: test/tmp*`, `ls: -d`, `== not found`. This candidate is the only one of the three that covers both. "Never let a malformed search be counted as an empty result" is the safety net under whichever of these is built, and is worth having regardless.
 
 The honest ranking, on today's evidence: build the miscount fix first because it is cheap and general, then decide between this and the literal interface on the basis of how many of a pass's searches genuinely need pattern semantics.
+
+## Definition of done
+
+"Replay the two titles that broke ripgrep through every path that reaches a command"
+
+```
+npx vitest run test/security/tainted-argument-guard.test.ts
+```
+
+Red today: no wrapper type exists, so nothing carries origin and every route interpolates bare strings. A builder can watch the two real titles fail before writing a line — they are nodes in this vault, and they broke ripgrep twice on record.
+
+The half that matters is the second: no bare form obtainable without naming a destination. A quoter callers are expected to remember passes the first half and leaves the hole. Green here still says nothing about ergonomics — a scheme unpleasant enough to be worked around has failed in a way no exit code reports.

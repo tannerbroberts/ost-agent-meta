@@ -1848,3 +1848,4 @@
 {"ts":"2026-08-06T15:24:05.828Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":946,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:24:20.251Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2114,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Tree-origin survives the trip from frontmatter to the call site.md"]}
 {"ts":"2026-08-06T15:24:35.709Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2416,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Replay the two titles that broke ripgrep through every path that reaches a command.md"]}
+{"ts":"2026-08-06T15:24:43.700Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":866,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
