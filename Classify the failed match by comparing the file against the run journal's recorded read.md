@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The run's own journal is enough to tell a stale file from a badly quoted one]]
 
 **Candidate solution (unvalidated).** Every read the run performs is journalled with the file's content hash. When a string replacement then fails, the run re-hashes the file and answers the one question the raw error cannot: did the file change since I read it, or did I quote it wrong? Two causes that produce one identical message become two different reports.
 
