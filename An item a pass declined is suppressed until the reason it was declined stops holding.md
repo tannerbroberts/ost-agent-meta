@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A suppression condition can be checked by machine, or it is a delete]]
 
 **The idea.** A pass can record "I will not act on this, and here is the condition under which that changes" against an item, and the item stops being offered until that condition is met. Not deferral of the node — the node stays live — but suppression of the *demand*, with an expiry that is a fact rather than a date.
 
