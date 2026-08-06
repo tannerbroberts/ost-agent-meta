@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A response cannot be sized more cheaply than it can be produced, so stating the size first buys nothing]]
 
 **The idea.** Any call that can be refused for exceeding a response limit can first be asked what it would cost. A cheap probe returns the count or byte size the full call would produce, so a caller chooses a narrower call instead of discovering the cap by hitting it.
 
