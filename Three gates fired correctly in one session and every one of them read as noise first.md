@@ -6,6 +6,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[What made those firings read as noise is something the gate's own wording can fix]]
 
 **The idea.** When a gate fails on CI and passes locally, the session's first move should be a fixed, cheap triage — not a judgement call. Three questions, in order, each with a command behind it: *what number did the criterion record?* (compare against the doc), *does it fail at the commit before mine?* (run it there), *what is the machine actually doing?* (profile, or read the error's own mechanism). Only after those three may a session write the word "flaky", and then it must write which of the three ruled the alternatives out.
 
