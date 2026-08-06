@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count what share of observed path failures came through this product's own tools]]
 
 **The belief, stated so it could be false.** Enough of the observed path failures arrive through tools this repository controls that improving their error messages would cover most of the friction.
 
