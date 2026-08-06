@@ -5,6 +5,7 @@ created: '2026-08-05'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[A shipped solution leaves the instruments queue, because built behaviour cannot carry a red-now command]]
 
 I pay for a pass hoping it will close questions. The tool-invocation trace says it opens them instead, and it does so at a rate nothing downstream can absorb.
 

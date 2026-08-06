@@ -1736,3 +1736,4 @@
 {"ts":"2026-08-06T00:47:05.129Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":433,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
 {"ts":"2026-08-06T00:47:07.168Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":446,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
 {"ts":"2026-08-06T00:47:07.952Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":433,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
+{"ts":"2026-08-06T00:47:25.976Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":2282,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["A shipped solution leaves the instruments queue, because built behaviour cannot carry a red-now command.md"]}
