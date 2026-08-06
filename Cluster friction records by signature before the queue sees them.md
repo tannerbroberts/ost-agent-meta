@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A mechanical signature groups the redundant records without burying the singleton]]
 
 **The idea.** The transcript harvester stops emitting one record per session. It groups friction events by signature — tool name plus error class, so "permission denied on a declared MCP tool" is one signature however many sessions hit it — and emits one record per signature, carrying the count and the contributing session ids.
 
