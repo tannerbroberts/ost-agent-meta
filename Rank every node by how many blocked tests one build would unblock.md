@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
 [[Unblock count changes which node an operator actually picks]]
+[[Unblock counts are near-uniform across a real tree, so ranking by them orders nothing]]
 
 **The idea.** Compute, for each candidate build, how many *other* assumption tests become readable if it ships — and surface that ratio as the tree's primary ordering. Not importance, not effort, not confidence. Unblocking count.
 
