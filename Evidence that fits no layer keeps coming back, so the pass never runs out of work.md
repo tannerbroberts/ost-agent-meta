@@ -28,3 +28,26 @@ Prior passes recorded *that* acknowledged evidence keeps returning. This pass es
 **This pass mapped none of the 18**, on the grounds that creating 18 opportunities to satisfy a counter would put 18 duplicate needs into a tree whose stated weakest point is that nothing in it is tested.
 
 _Established by direct test on the 2026-08-05 unattended sweep — one append, one re-read, no change. Observed behaviour of the tool surface; grounds usability, not demand._
+
+## The backlog this trap holds has grown from 18 to 62 — 2026-08-06
+
+The mechanism above was established on 2026-08-05 against 18 stranded items. One day later the unattended sweep reports **62**, and the growth is not neglect — it is the trap operating as described, plus a channel that produces new items faster than any pass could mint nodes for them. The transcript adapter captured 2 more during this pass's own opening `ost_ingest_inbox` call.
+
+**This pass classified all 62 rather than mapping them, and the classification is the finding.** Every friction class in the corpus already has an opportunity in this tree:
+
+| Friction class | Occurrences | Already filed as |
+|---|---|---|
+| Read-before-write refusal | ~45 across 18 sessions | "Every precondition is discovered by violating it, so a pass pays a turn per rule it did not know" |
+| Ungranted MCP tool (`ost_flag_humans_required` ×25, `ost_check` ×22, `ost_status` ×14, `ost_debt` ×4) | ~65 across 27 sessions | "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time" |
+| Product-repo read denied for permissions | ~18 across 16 sessions | "The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed" |
+| Stale or unmatched edit target | 7 | "The file changed after I read it, and the failed edit is how I find out" |
+| Response refused for size | 2 | "Every response that can be refused for size states its size first" |
+| Malformed call body | 1 | "A malformed call lands before anything checks it, and only reading back the file says so" |
+
+Not one item revealed a need the tree does not hold. So the honest disposition for all 62 is *acknowledged, corroborates an existing node* — which is exactly the disposition this opportunity exists because nothing can express.
+
+**What is new here, beyond a larger number.** The 2026-08-05 test showed reuse cannot be recorded. This census shows what that costs at scale: the 62 items are not a queue of unexamined signal, they are 62 receipts for six needs, and a channel that will keep issuing them. The remedy under this node — an `acknowledges:` list the sweep reads — would clear all 62 in six calls if it existed, one per class. Without it the only mechanical clearing move is to mint 62 duplicate opportunities, which would grow this tree's opportunity layer by half again with nodes that restate six claims.
+
+**One consequence for the believability rollup, worth a human's attention.** These six opportunities are the most heavily corroborated needs in the vault — dozens of mechanically captured observations each — and most of them read `rests on assertion`. That is partly a bookkeeping artefact of the same defect: `observed` requires provenance that is itself a recording, `source:` is settable only at creation, and these nodes were created citing inbox notes or agent ideation. The corroboration exists and cannot be attached. A reader taking the rollup's floor rung at face value will under-rate exactly the needs this product has the most evidence for.
+
+_Census taken 2026-08-06 by direct count over `.ost-agent/evidence/TRANSCRIPT_*.md`. Counts are occurrences of each refusal string, not sessions; session counts are given where they differ. Re-checkable by anyone with the vault._
