@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Whether a pass has repo sight is a good enough proxy for whether its instruments are grounded]]
 
 **The idea.** Gate the activity, not the run. Writing an instrument is the one step that provably degrades without the product repository, so that step declares repo sight required. Without it, the pass does everything else — maps, ideates, surfaces assumptions, repairs hygiene — and skips instrument-writing with a named reason instead of producing commands whose only red is a missing file.
 
