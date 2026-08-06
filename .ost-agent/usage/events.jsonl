@@ -1804,3 +1804,4 @@
 {"ts":"2026-08-06T15:10:50.545Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":683,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}
 {"ts":"2026-08-06T15:11:13.564Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2423,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["A generated allowlist can widen a grant without a human in the loop.md"]}
 {"ts":"2026-08-06T15:11:28.147Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2497,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007","wrote":["Invoke the allowlist generator from inside a session and require it to refuse.md"]}
+{"ts":"2026-08-06T15:11:33.897Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":911,"session":"mcp-a2fedbb5-bbd4-4652-87cc-b442e79c0007"}

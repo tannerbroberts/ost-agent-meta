@@ -19,3 +19,15 @@ The bet is that the two lists were never independent decisions in the first plac
 That is the real fork between this candidate and "Preflight the run's tool demands against its grant and stop at turn one", and it is a question about what operators want rather than about what is buildable: is a narrower grant than the skill declares a mistake, or a choice? Until somebody asks one, this candidate is the more elegant fix to a problem it may be misdescribing.
 
 Practically it is also the most invasive of the three. It reaches outside the vault into how the plugin is installed and how settings are written, which is a surface this project has otherwise kept its hands off. A generated allowlist that silently rewrites a human's settings file would be, in miniature, the same act the ruleset forbids everywhere else: compute granting itself a permit.
+
+## Definition of done
+
+"Invoke the allowlist generator from inside a session and require it to refuse"
+
+```
+npx vitest run test/security/allowlist-generator-guard.test.ts
+```
+
+Red today: neither the generator nor the spec exists. The spec is the specification — three refusals, non-zero exit, zero bytes written — and a builder who creates the file to make the command pass without those three cases has built nothing.
+
+Green here closes the self-granting path. It leaves entirely open whether any operator wants a grant narrower than the skill declares, which is the question that decides whether this candidate or "Preflight the run's tool demands against its grant and stop at turn one" is the right one to ship. That question is currently unowned and needs operators.
