@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Re-run every stored probe in CI and require its recorded literal to still agree]]
 
 **The belief, stated so it could be false.** Storing the probe command beside a recorded literal keeps the recording honest, because someone re-takes the observation when it matters.
 
