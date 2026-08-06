@@ -22,3 +22,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/block-notification.test.ts — Asserts the notification fires at the moment the run blocks and carries both things the node says make it useful — the exact command that would unblock it and what is queued behind it. Red today because a run that hits an operator-only step records the block and tells nobody.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/block-notification.test.ts` — No test files found, exiting with code 1

@@ -24,3 +24,6 @@ The boundary of this authority is a human's to set. A human runs this and record
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/runner/no-tty-policy-answer.test.ts — Asserts the boundary that makes answering-on-the-operator's-behalf acceptable: with no terminal attached a recognised prompt is answered from the written policy and journalled with the question, the answer and the policy line that supplied it, while a prompt outside the policy and any must-stop class — destructive overwrite, force push — stops the run whatever the policy says. Red today because nothing detects the absent terminal or holds a prompt policy.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/no-tty-policy-answer.test.ts` — No test files found, exiting with code 1

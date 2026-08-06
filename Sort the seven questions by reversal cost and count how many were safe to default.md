@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/question-banking.test.ts — Asserts the guard that keeps this from destroying more than it saves: a question in a class the operator has not marked defaultable blocks instead of defaulting, and every banked decision records both the assumption taken and what reversing it would cost. Red today because nothing banks questions — a run either asks and stops or does not ask at all, and no standing defaultable-class policy exists.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/question-banking.test.ts` — No test files found, exiting with code 1

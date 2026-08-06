@@ -20,3 +20,6 @@ The assumption is that invoked tools honour the convention. The ones that ignore
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/runner/non-interactive-honoured.test.ts — Reproduces the two situations named in the harvested transcripts — the git that hit divergent branches, the copy that asked to overwrite — under every non-interactive signal available, and asserts each fails promptly rather than prompting or hanging, which is the node's whole threshold. It fails today because nothing sets those signals and no harness reproduces either command.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/non-interactive-honoured.test.ts` — No test files found, exiting with code 1

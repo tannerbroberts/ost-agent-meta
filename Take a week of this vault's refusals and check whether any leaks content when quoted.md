@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/security/refusal-redaction.test.ts — The bar as written — "after redaction, 0 of the week's refusals reveal a node title, customer, or product decision" — is machine-checkable once a redactor exists: the spec runs every recorded refusal in the vault's trace through the redaction rule and asserts no surviving string matches any node title, vault path, or opportunity body in the tree. It fails today because no redactor exists, so every refusal quotes node titles verbatim.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/security/refusal-redaction.test.ts` — No test files found, exiting with code 1

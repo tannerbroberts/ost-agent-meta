@@ -30,3 +30,6 @@ The measurement is retrospective and the dependency model is reconstructed, whic
 It also counts work, not value. Ten blocked runs might each leave a large volume of trivial work available and nothing that mattered, and the count cannot tell — a high number is compatible with banking the block being pointless.
 
 And it says nothing about the failure that makes this solution risky rather than merely unhelpful: work carried out under an assumption the block would have corrected. Every unit the walk counts as safely independent is safe only if the answer to the blocking question could not have changed it, and a dependency model built from transcripts cannot see a dependency the transcript never made explicit.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/blocked-run-independent-work.test.ts` — No test files found, exiting with code 1

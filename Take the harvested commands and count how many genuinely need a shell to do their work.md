@@ -20,3 +20,6 @@ The assumption is that most commands do not need a shell. If a lot of real work 
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/runner/shell-necessity-census.test.ts — Classifies each harvested command as needing a shell or expressible as argv, and asserts the argv path executes the latter without a shell; fails today because every command is handed to a shell as a string.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/shell-necessity-census.test.ts` — No test files found, exiting with code 1
