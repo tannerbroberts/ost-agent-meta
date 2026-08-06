@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 4 of the top 10 classes are judged safe to absorb, covering 30% or
   more of all refusals fired.
+instrument: npx vitest run test/mcp/refusal-absorption-census.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that a worthwhile share of recurring refusals exist for reason
 **What it will not cover.** The judgements are made by the person who wrote most of these refusals, which biases toward believing each was necessary. It also cannot tell whether absorbing a class is technically feasible — only whether it would be safe.
 
 A human runs this and records the result.
+
+## History
+- 2026-08-06 instrument: (none) → npx vitest run test/mcp/refusal-absorption-census.test.ts — The test's own threshold — at least 4 of the top 10 refusal classes judged safe to absorb, covering 30% or more of all refusals fired — is a census over the recorded refusal corpus and a classification of each class, and neither the census nor the classification exists in the repository today, so the spec has nothing to import and fails.
