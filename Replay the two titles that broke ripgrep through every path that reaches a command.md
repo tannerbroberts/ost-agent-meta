@@ -20,3 +20,6 @@ Then the part that separates the two possible designs. Assert there is no way to
 **Pre-committed bar:** both titles traverse all four routes with correct quoting or an explicit refusal, and no call path yields the unwrapped string without naming a destination. Any bare form available anywhere fails this, however convenient its use.
 
 **What a green run here does not settle.** It covers routes that exist today. A route added next month inherits nothing from this spec unless the bare form is genuinely absent, which is why the second half of the bar matters more than the first. It also says nothing about whether the wrapping is worth its cost in ergonomics — a scheme that is correct and unpleasant enough to be worked around has failed in a way no exit code reports, and that judgement needs someone who has written code against it.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/security/tainted-argument-guard.test.ts` — No test files found, exiting with code 1

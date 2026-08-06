@@ -20,3 +20,6 @@ The part that decides whether the parent assumption survives is the path-scoped 
 **Pre-committed bar:** all four missing tool grants named, the path-scoped read gap named, and zero false gaps against the granted-by-pattern entry. Anything less and the preflight cannot be trusted to clear a run, which means the assumption is false in the way that matters and the sibling solution "The run's report leads with what it was refused, so a denied night cannot read as a quiet one" is the one to build.
 
 **What a green run here does not settle.** It answers feasibility only: that the gap is computable from files already on disk. It says nothing about whether stopping the whole pass over one missing optional tool is the behaviour an operator wants — that is the false-stop risk named on the parent solution, it is a desirability question, and it needs an operator, not a spec file. It also says nothing about whether the harness's live grant matches the settings file it read; a resolver that is right about the configuration and wrong about the session is still wrong at 3am.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/grant-preflight.test.ts` — No test files found, exiting with code 1
