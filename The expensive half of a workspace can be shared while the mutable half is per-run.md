@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Set up a per-run workspace and count what it reinstalls against the warm shared one]]
 
 Viability, expressed as cost per firing: per-run workspaces are affordable only if the part that is slow to build can still be shared.
 
