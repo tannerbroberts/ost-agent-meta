@@ -28,3 +28,13 @@ npx vitest run test/ost/shipped-status-audit.test.ts
 ```
 
 Named in plain text rather than linked: the test is already wikilinked by its parent assumption, and a title is linked exactly once in the vault.
+
+## Confirmed in the same pass that proposed it — 2026-08-06
+
+This node was written from four solutions the 2026-08-05 sweep had corrected to `shipped` and which were back in the 2026-08-06 queue. That is consistent with the claim but does not isolate it: those four were promoted by a different pass, and something else could have re-admitted them.
+
+The 2026-08-06 sweep then ran the experiment directly. It promoted "Post-session transcript harvester" to `shipped` — on the builder report of 2026-07-24 recording `src/adapters/transcript.ts`, 19 tests, wired into config and live on this vault — and re-called `ost_next_work` in the same pass. The solution appears in `solutionsMissingInstruments` in the very next call.
+
+So the queue's membership test does not consult `status`, and one promotion is enough to show it. Five solutions are now known to be in this state: the four from 2026-08-05 and this one.
+
+**What this does not settle.** Only that the exclusion is absent, which was never really in doubt once the four recurred — it is now observed rather than inferred. Whether the exclusion is the *right* fix is what this node's assumption test is for, and its safety edge is untouched: `status: shipped` is agent-settable, and this very entry is an agent promoting a solution and then citing the promotion. A human should check that the transcript harvester really is built before treating this as clean evidence.
