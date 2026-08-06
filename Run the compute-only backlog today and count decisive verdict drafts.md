@@ -30,3 +30,6 @@ instrument: npx vitest run test/loop/compute-lane-runner.test.ts
 The bar is **≥3 drafts the operator records unchanged, and ≥1 KILL**. "Records unchanged" is a person's judgement about whether a draft was decisive or mush — the exact thing the assumption doubts — and no exit code observes it. The KILL requirement is stronger still: it asks whether compute-run tests ever *refute* anything or only ever confirm, and a runner that emits three confident supported-verdicts would satisfy the instrument while demonstrating precisely the decoration this test was written to detect.
 
 There is also a prerequisite the instrument cannot supply. The runnable set is empty by construction — only a human's `ost-agent lane --set` moves a test into `compute-only`, and nothing has. So a green runner executes zero live tests until someone triages the backlog; the fixture proves the mechanism, not that there is any work for it to do.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/compute-lane-runner.test.ts` — No test files found, exiting with code 1

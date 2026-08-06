@@ -20,3 +20,6 @@ The assumption is that a linter configured to a version floor catches this class
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/runner/helper-bash-compat-lint.test.ts — The threshold — the known failure is flagged, with at most 2 false alarms across all helpers — is machine-checkable against a committed expected-findings fixture: the spec runs the shell linter at a bash 3.2 floor over every helper the project installs, asserts the known `mapfile` use is among the findings, and asserts the count of findings outside the fixture is at most 2. It fails today because no linter is configured at a version floor and nothing runs over the helpers.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/runner/helper-bash-compat-lint.test.ts` — No test files found, exiting with code 1

@@ -20,3 +20,6 @@ Proposed by the agent; a human runs it and records the outcome.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/blocking-wait-refusal-parity.test.ts — Both halves of the threshold are mechanical — "zero blocked-call refusals across the five passes, and wall-clock time no worse than the polling baseline" — and the baseline is already on disk in the recorded poll-and-retry sessions, so no person is the measurement. The spec drives five passes through a blocking-wait primitive against a fixture that pends and then completes, asserts no invocation is refused with the harness's `Blocked:` message, and compares elapsed time against the counted timeouts and retries in the recorded sessions. It fails today because no blocking wait exists in the loop: the only waiting mechanism is poll-and-retry, which is what produced the refusals in the first place. This settles whether the refusals go away and whether the cost moves; it does not settle whether the handoff design is the better answer, which is the comparison the node says would actually change the economics.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/loop/blocking-wait-refusal-parity.test.ts` — No test files found, exiting with code 1

@@ -20,3 +20,6 @@ instrument: npx vitest run test/config/surface-profile.test.ts
 **Lane: compute-only.**
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## Instrument Log
+- 2026-08-06 **red** (exit 1) `npx vitest run test/config/surface-profile.test.ts` — No test files found, exiting with code 1
