@@ -16,3 +16,13 @@ evidence: assertion
 **Where it fails.** A pass that legitimately adapts to a smaller surface — an unattended sweep that genuinely should not hold repo sight — would be refused by a naive requirement list. The precondition has to distinguish *needed* from *would use*, and getting that split wrong makes the check either useless or an obstacle.
 
 ⚠️ Unvalidated. Agent-ideated, from friction the ideating agent hit in the same pass.
+
+## Definition of done
+
+"Declare a required tool set and check a pass refuses before doing any work"
+
+```
+npx vitest run test/mcp/preflight-required-tools.test.ts
+```
+
+Named in plain text rather than linked: the test is already wikilinked by its parent assumption, and a title is linked exactly once in the vault.

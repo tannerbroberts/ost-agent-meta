@@ -1733,3 +1733,4 @@
 {"ts":"2026-08-06T00:46:40.054Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1638,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["Declare a required tool set and check a pass refuses before doing any work.md"]}
 {"ts":"2026-08-06T00:46:47.246Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1622,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["Replay a denied call and a tool error and check they land as different records.md"]}
 {"ts":"2026-08-06T00:46:57.370Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1638,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4","wrote":["Pin three surfaces in config and check a profile expresses what actually differs.md"]}
+{"ts":"2026-08-06T00:47:05.129Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":433,"session":"mcp-6a3cb4dd-c8be-4ef6-b4c7-22e9e2f847d4"}
