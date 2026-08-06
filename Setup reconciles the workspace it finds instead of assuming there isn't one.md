@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A workspace that is safe to reset can be told apart from one still being worked in]]
 
 **The idea.** Make setup converge on the state it wants rather than assert the state it expects. Before creating the worktree, look: if the path is absent, create it; if it holds a valid worktree on the right branch, reuse it; if it holds something else, repair or replace it. Same for the `node_modules` symlink — a link already pointing at the right place is success, not `File exists`.
 
