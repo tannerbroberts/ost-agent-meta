@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A precondition the surface satisfies for you stops enforcing the thing it existed to enforce]]
 
 **The idea.** Where a precondition is one the tool could discharge on its own, it does — a write to a path the caller has not read performs that read and proceeds, recording that it did. The rule stops being something a caller must know, because there is no longer a rule to know.
 
