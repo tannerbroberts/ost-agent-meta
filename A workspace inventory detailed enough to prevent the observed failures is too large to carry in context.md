@@ -5,6 +5,7 @@ created: '2026-08-06'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Generate the inventory and require it to fit a startup budget while still naming the failed paths]]
 
 **The belief, stated so it could be false.** An inventory specific enough to have prevented the observed path failures fits in a startup context budget.
 
