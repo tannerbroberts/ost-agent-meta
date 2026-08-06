@@ -20,3 +20,15 @@ evidence: assertion
 **Cost.** A second queue in `computeNextWork`, a second acceptance rule at the write boundary, and a way to record a green run distinctly from a red one. Meaningfully more than its cheapest sibling.
 
 ⚠️ Unvalidated. No human has said they want more evidence from shipped work rather than less noise, and those are different products.
+
+## Definition of done
+
+"Require a shipped solution to be asked for an observation and not for a red command"
+
+```
+npx vitest run test/ost/shipped-observation-queue.test.ts
+```
+
+Red today: there is one queue and one acceptance rule, and no path by which a green command is accepted for anything. Green when the two queues separate cleanly AND the write boundary still refuses a green instrument for unshipped work — that last assertion is the abandon condition, not a detail.
+
+The test title is quoted rather than linked because it is already wikilinked once by its parent Assumption, and a second link would fail `check`'s single-backlink rule.
