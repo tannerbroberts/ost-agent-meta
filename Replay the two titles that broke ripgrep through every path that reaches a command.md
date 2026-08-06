@@ -23,3 +23,4 @@ Then the part that separates the two possible designs. Assert there is no way to
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/security/tainted-argument-guard.test.ts` — No test files found, exiting with code 1
+- 2026-08-06 **green** (exit 0) `npx vitest run test/security/tainted-argument-guard.test.ts` — Duration  246ms (transform 25ms, setup 0ms, collect 35ms, tests 11ms, environment 0ms, prepare 28ms)
