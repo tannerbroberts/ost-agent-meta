@@ -19,3 +19,9 @@ A body read is the widest new capability of the three candidates here. Every nod
 Against "Merge by patch rather than by replacement, so the survivor's unread prose is never at risk": that one removes the need to read at all, which is strictly safer for merging but does nothing for the instrument-overwrite case, and it constrains what a merge can say. This one is more general and less safe.
 
 Against "Refuse a merge whose prose was composed without a read of the survivor": that guard is worthless without this read existing first — there would be nothing to satisfy it with. They compose rather than compete; this is the enabling half.
+
+## Definition of done
+
+"Point the body read at the sidecar and at a node holding results, and require both to be refused or labelled"
+
+npx vitest run test/tools/read-node-body-scope.test.ts
