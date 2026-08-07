@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Requiring the spec file to exist still leaves genuinely new behaviour expressible]]
 
 **The idea.** `ost_set_instrument` resolves the spec path against the configured product repo and refuses when the file is not there. The author must name a spec that exists and whose assertions go red — which cannot be done without having read the code.
 
