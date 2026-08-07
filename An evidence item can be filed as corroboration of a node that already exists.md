@@ -22,3 +22,13 @@ It also does not decide *who* may file. An unattended pass filing its own observ
 **Cost.** A new disposition in the evidence store, a count on the node, and a tool verb. Moderate.
 
 ⚠️ Unvalidated. Agent-ideated during a pass that was itself facing the choice this node describes.
+
+## Definition of done
+
+"Filing corroboration clears the item and moves no rung"
+
+```
+npx vitest run test/evidence/corroborate-disposition.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. The rung assertion is the load-bearing one: thirty recordings of one channel must not read as thirty sources.
