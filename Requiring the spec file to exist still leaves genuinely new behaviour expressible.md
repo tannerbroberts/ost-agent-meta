@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Every solution in the current backlog has an existing spec that could go red for it]]
 
 **Kind: feasibility.**
 
