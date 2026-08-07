@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A declared-replacement flag does not simply become a flag always passed]]
 
 **The idea.** `ost_set_instrument` refuses when the test already carries a command, unless the call explicitly says replacement is intended. The refusal names the existing command, so the pass learns what it was about to destroy at the moment it matters.
 
