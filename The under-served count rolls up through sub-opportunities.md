@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Solutions beneath a category address the category's own need]]
 
 **The idea.** `underservedOpportunities` stops counting a node's direct `#Solution` children and counts every solution in its subtree instead. A category holding 45 solutions two levels down reads as served, because it is.
 
