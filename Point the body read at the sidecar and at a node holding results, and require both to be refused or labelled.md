@@ -23,3 +23,6 @@ Weak red: the spec file is absent, so this command fails because nothing is ther
 ## Lane
 
 Not declared. The question is mechanical, but the lane is a human's to set with `ost-agent lane --set`; this node sits in the humans-required lane by default until then.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/tools/read-node-body-scope.test.ts` — No test files found, exiting with code 1

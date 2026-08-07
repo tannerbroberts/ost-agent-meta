@@ -31,3 +31,6 @@ This instrument was written by a pass with no sight of the repository: `ost_read
 
 ## History
 - 2026-08-07 body edited — The original body opened with "**Lane: compute-only.**", which this surface has no power to make true. The node was created in the humans-required lane — an instrument does not move a lane, and only `ost-agent lane --set` does — so the declaration contradicted the node's own `lane:` field and would trip the lane-conflict rule. Replaced with a Lane section that says what is actually the case and leaves the label to a human.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/gate/operation-budget.test.ts` — No test files found, exiting with code 1

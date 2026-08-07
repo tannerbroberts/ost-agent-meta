@@ -30,3 +30,6 @@ Weak red: the spec file is absent, so the command fails for want of a file rathe
 ## Lane
 
 Not declared. Mechanical question; the lane is a human's to set with `ost-agent lane --set`.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/tools/merge-read-guard-bypass.test.ts` — No test files found, exiting with code 1
