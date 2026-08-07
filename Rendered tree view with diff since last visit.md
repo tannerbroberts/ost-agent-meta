@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[A rendered tree orients a reader faster than the files do]]
+[[A per-visit diff of the tree can be computed from the vault alone]]
 
 A read-only rendered view of the tree — outcome at the root, opportunities sized and coloured by evidence strength, solutions and tests beneath — that highlights everything added or changed since that person last looked.
 

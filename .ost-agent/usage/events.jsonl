@@ -2085,3 +2085,13 @@
 {"ts":"2026-08-07T08:13:01.322Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-74b6626f-4bd8-44f7-b695-e9685ddc69d7"}
 {"ts":"2026-08-07T08:13:01.927Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-74b6626f-4bd8-44f7-b695-e9685ddc69d7"}
 {"ts":"2026-08-07T13:02:45.727Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T13:18:30.022Z","tool":"ost_next_work","ok":true,"ms":68,"surface":"mcp","argBytes":2,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T13:18:58.028Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T13:18:59.463Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T13:19:00.148Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T13:19:01.004Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T13:34:37.166Z","tool":"ost_read_tree","ok":true,"ms":47,"surface":"mcp","argBytes":2,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T13:50:44.407Z","tool":"ost_read_repo","ok":false,"ms":0,"surface":"mcp","argBytes":2,"err":"no product repos configured — add local repo paths under `product.repos` in ost.config.yaml so the agent can read what the product is","session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T14:03:47.877Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T14:03:49.291Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
+{"ts":"2026-08-07T14:06:22.786Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2494,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3","wrote":["A per-visit diff of the tree can be computed from the vault alone.md"]}
