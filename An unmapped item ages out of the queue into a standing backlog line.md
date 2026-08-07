@@ -24,3 +24,13 @@ The failure mode is therefore that this ships, the complaint goes quiet, and nei
 **Cost.** Lowest of the three. A counter per item and a summary line.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"A novel item survives the age-out that buries its neighbours"
+
+```
+npx vitest run test/evidence/age-out-preserves-novel.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. Note that passing requires consulting something besides age — which, if it holds, means this candidate is less judgement-free than its body claims.
