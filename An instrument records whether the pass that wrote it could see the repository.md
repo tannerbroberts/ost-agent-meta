@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Repo sight is derivable from the surface rather than from the author]]
 
 **The idea.** When `ost_set_instrument` records a command, it also records — from the surface's actual capabilities at that moment, not from the author's claim — whether repo sight was available. `debt` and `status` then report grounded and blind instruments as separate figures.
 
