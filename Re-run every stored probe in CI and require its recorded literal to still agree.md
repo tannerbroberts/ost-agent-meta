@@ -22,3 +22,4 @@ instrument: npx vitest run test/guards/stored-probes-still-agree.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/guards/stored-probes-still-agree.test.ts` — No test files found, exiting with code 1
+- 2026-08-07 **green** (exit 0) `npx vitest run test/guards/stored-probes-still-agree.test.ts` — Duration  568ms (transform 29ms, setup 0ms, collect 28ms, tests 278ms, environment 0ms, prepare 42ms)
