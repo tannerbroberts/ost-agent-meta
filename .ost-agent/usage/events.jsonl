@@ -2101,3 +2101,4 @@
 {"ts":"2026-08-07T14:07:11.694Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":897,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
 {"ts":"2026-08-07T14:07:15.315Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":791,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
 {"ts":"2026-08-07T14:08:27.560Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3566,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3","wrote":["A second pass builds what the first already built, because nothing says the work was taken.md"]}
+{"ts":"2026-08-07T14:08:40.817Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1922,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3","wrote":["A pass claims the work item before it starts, and the claim outlives the session.md"]}

@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[A pass claims the work item before it starts, and the claim outlives the session]]
 
 **The need (operator's voice).** "I paid for eight hours of compute and got a commit I had to delete. Another run had already built the same thing six hours earlier, and nothing told either of them."
 
