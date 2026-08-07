@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Two passes reading one briefing would name the same work item the same way]]
 
 **The idea.** Before a pass begins building, it writes a claim naming the work item, the session that took it, and an expiry. The claim is committed where the next pass will look before it chooses — the vault, or a file in the product repo. A pass that finds a live claim on the item it was about to start picks something else or stands down and says why.
 
