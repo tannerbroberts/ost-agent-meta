@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Run the same merges through both shapes and require identical edges, sections and refusals]]
 
 Changing what a merge asks for must not change what it guarantees. The current merge repoints every inbound edge at the survivor, unions the loser's outbound edges in, carries the loser's reserved sections across so no recorded result is lost with the file, and refuses the one case that would clear a gate nobody earned — folding a node carrying a result into one that has none.
 
