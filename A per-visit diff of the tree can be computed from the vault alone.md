@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Render the tree across a recorded visit and require the second render to name exactly what changed]]
 
 **The belief, stated so it could be false.** A reader's "what changed since I last looked" can be derived from what the vault already holds — the node files, their `## History` lines, and the git commits every write produces — without asking the reader to install anything, without a server keeping per-reader state, and without the agent being asked to remember who visited when.
 
