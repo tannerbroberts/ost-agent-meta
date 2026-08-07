@@ -24,3 +24,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/premise-consequence-set.test.ts — Asserts the consequence set is derived from the stated premise before the run begins, presented as one batch with each item's dependency and proposed default, and that the run then proceeds without stopping unless it meets something outside the covered set. Red today because nothing derives consequences up front — a run discovers each question when it hits it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/premise-consequence-set.test.ts` — No test files found, exiting with code 1

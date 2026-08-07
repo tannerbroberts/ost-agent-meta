@@ -33,3 +33,6 @@ That third bucket is the point of the test. The list of named missing variables 
 The instrument `npx vitest run test/loop/record-replay-sufficiency.test.ts` answers only the mechanical half of this test: whether the record carries enough to reconstruct the invocation. A green exit code says the fields are present and sufficient to rebuild a command; it does not say the rebuilt command reproduces the original failure, and it says nothing at all about bucket three — the named variable that was actually missing — which is the part this test's own body calls more valuable than the score.
 
 That naming is a judgement over real failures and stays with a person. So a pass here is necessary and not sufficient: it clears the question "is cwd-and-argv recorded and reconstructable" and leaves "is cwd-and-argv *enough*" exactly where it was.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/record-replay-sufficiency.test.ts` — No test files found, exiting with code 1

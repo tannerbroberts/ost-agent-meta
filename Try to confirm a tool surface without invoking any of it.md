@@ -25,3 +25,6 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/runner/tool-surface-preflight.test.ts — The threshold is pass/fail per surface with no partial credit — the full required tool list must be confirmable without invoking any listed tool, on every surface the pass runs on — which a spec settles directly by asking the preflight to enumerate each supported surface and asserting the required list is confirmed with zero invocations recorded. It fails today because no preflight exists, so a missing tool is discoverable only by calling it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/runner/tool-surface-preflight.test.ts` — No test files found, exiting with code 1

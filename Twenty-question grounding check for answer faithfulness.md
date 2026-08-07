@@ -29,3 +29,6 @@ Twenty questions with answers derivable from a fixture vault test faithfulness o
 The citation assertion is the stronger half and worth keeping distinct: requiring every answer to name a node that exists rules out the specific failure that would destroy trust fastest — a confident answer about a node the tree does not contain. That check generalises past the fixture in a way the correctness check does not.
 
 It settles nothing about desirability. Whether an operator would rather ask a question than read the rollup is a question about people, and no fixture answers it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/mcp/status-answer-faithfulness.test.ts` — No test files found, exiting with code 1

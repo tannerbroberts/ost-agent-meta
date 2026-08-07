@@ -20,3 +20,6 @@ An afternoon at most. If it takes longer than that to answer, the answer is effe
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/mcp/vault-declared-tool-load.test.ts — The threshold — "a vault opened from an unrelated working directory yields its tools" — is a property of committed code, not of anyone's afternoon: the spec builds a vault fixture carrying its own tool-server declaration, resolves the server with the process working directory set somewhere unrelated, and asserts the ost_* surface comes back. It fails today because nothing in the repository reads a tool declaration out of a vault.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/mcp/vault-declared-tool-load.test.ts` — No test files found, exiting with code 1

@@ -20,3 +20,6 @@ The assumption is that the conditions are expressible outside the tool. Any that
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/mcp/refusal-precondition-coverage.test.ts — Enumerates every refusal each mutating call can issue, sorts each into fully expressible, expressible-with-caveat, or not expressible as a caller-evaluable precondition, weights by how often each has actually fired in the captured usage traces, and asserts the node's 70% bar. It fails today because no refusal is published as a precondition and nothing enumerates the refusal paths against the frequency data.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/mcp/refusal-precondition-coverage.test.ts` — No test files found, exiting with code 1
