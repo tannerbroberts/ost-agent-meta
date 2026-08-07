@@ -24,3 +24,13 @@ It also collides with legitimate correction. Fixing a wrong instrument is the sa
 **Cost.** A parameter, a refusal path, and fixtures for both directions.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"The overwrite refusal names the command at risk and still lets a correction through"
+
+```
+npx vitest run test/instruments/overwrite-guard.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. Note the deliberately unusual clause: the refusal must NOT name the parameter that clears it. A message that teaches the way through converts this guard into a speed bump on first contact.
