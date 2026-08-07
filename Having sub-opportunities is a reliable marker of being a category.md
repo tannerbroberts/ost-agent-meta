@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The category exemption does not silence a childless gap]]
 
 **Kind: feasibility.**
 
