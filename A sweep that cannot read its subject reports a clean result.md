@@ -8,6 +8,7 @@ evidence: assertion
 [[A check with an empty subject is a failure, not a pass]]
 [[Seed every sweep with a known-present instance it must find]]
 [[The repair I am asked to make requires rewriting prose no tool will show me]]
+[[I overwrote a good instrument because nothing showed me one was already there]]
 
 **The need (operator's voice):** "The sweep told me 5 and 12. The real answer was 6 and 15. It never said it had failed to open four of the files it was counting — it just counted the ones it could open and printed a total that looked finished."
 
