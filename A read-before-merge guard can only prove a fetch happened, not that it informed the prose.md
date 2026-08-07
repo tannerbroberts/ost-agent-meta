@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Satisfy the guard with a bare fetch that discards the body, and require the merge to go through]]
 
 This guard is worth building only if satisfying it is meaningfully harder than ignoring it. The mechanism available is a session-scoped record that the survivor's body was fetched — which is what the file tools' read-before-write check does.
 
