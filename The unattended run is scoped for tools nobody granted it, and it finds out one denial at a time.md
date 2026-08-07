@@ -102,3 +102,11 @@ This node has been argued from individual sessions. This is the count across eve
 **A pre-committed bar for anything built here.** 113 denials across 34 sessions, machine-recorded, is the baseline. A preflight that names the missing tools at turn one should drive the per-session count to at most one; anything that leaves a run discovering denials mid-pass has not worked.
 
 _Method: a grep of every `TRANSCRIPT_*.md` record in this vault's evidence folder for the harness's denial string, counted per file. Observed behaviour of this product's own agent, captured mechanically with no narrator — it grounds usability and feasibility, not demand. The 34 session records remain listed as unmapped evidence in the sweep; citing them here does not clear them, per the standing finding on "Evidence that fits no layer keeps coming back, so the pass never runs out of work". Corroboration only — no test was run, no result recorded, and the node's rung is unchanged._
+
+## Evidence — TRANSCRIPT:49d6b2d3-b867-4996-9d9d-8f10dd0871de
+
+Source: TRANSCRIPT:49d6b2d3-b867-4996-9d9d-8f10dd0871de (observed, the agent's own unattended firing; usability, not demand).
+
+Ten friction events, six of them denials, and the shape is the point: `ost_flag_humans_required` was requested and denied **four times in the same session**. The run did not learn from the first refusal, because a denial arrives as a per-call error and nothing on the surface carries it forward to the next call. `ost_status` and `ost_check` were each discovered denied the same way, one call apiece.
+
+This is the same need this node already states, now with a count attached: the cost of discovering scope one call at a time is not one wasted call per missing tool, it is one wasted call per *attempt*.
