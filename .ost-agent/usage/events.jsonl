@@ -2213,3 +2213,5 @@
 {"ts":"2026-08-07T16:58:04.511Z","tool":"ost_detach_nodes","ok":true,"ms":2,"surface":"mcp","argBytes":653,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
 {"ts":"2026-08-07T16:59:13.434Z","tool":"ost_merge_nodes","ok":true,"ms":45,"surface":"mcp","argBytes":14766,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
 {"ts":"2026-08-07T16:59:20.479Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
+{"ts":"2026-08-07T16:59:22.728Z","tool":"ost_next_work","ok":true,"ms":61,"surface":"mcp","argBytes":2,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
+{"ts":"2026-08-07T17:07:43.437Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2350,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["The sweep reports which tests already carry an instrument, beside the solutions that lack one.md"]}
