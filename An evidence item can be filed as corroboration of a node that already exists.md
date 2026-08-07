@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Corroboration can be recorded without asserting a new need]]
 
 **The idea.** Give an evidence item a second disposition besides "became a node". A pass can file an item as corroborating an existing opportunity: the item leaves `unmappedEvidence`, its id is recorded on the target node, and the node's corroboration count goes up by one.
 
