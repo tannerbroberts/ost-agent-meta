@@ -20,3 +20,13 @@ evidence: assertion
 **Cost.** A predicate and fixtures. Smaller than the annotation that reported the problem.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"The category exemption does not silence a childless gap"
+
+```
+npx vitest run test/ost/next-work-category-exemption.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. The two assertions must both be present: the exemption is only safe if the empty-child case still reports.
