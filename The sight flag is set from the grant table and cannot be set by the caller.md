@@ -20,3 +20,6 @@ instrument: npx vitest run test/instruments/sight-provenance.test.ts
 **What a green here does not settle.** Whether anything downstream reads the flag. A correctly-derived field that no gate and no report consumes leaves the tree in the state the parent complains about, plus a column — and this node's solution names that as its own most likely failure. Confirming a consumer exists is separate work.
 
 There is also a gap the threshold cannot close: a pass with a configured repo but a *denied* filesystem grant would record `grounded` and be just as blind. Both failures were observed on this surface on 2026-08-07 and only one of them is visible at the tool boundary.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/instruments/sight-provenance.test.ts` — No test files found, exiting with code 1

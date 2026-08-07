@@ -21,3 +21,6 @@ The third clause keeps the guard honest in the other direction: legitimate corre
 **Honest limit on the instrument.** Written without repo sight, so the path is invented and its first red is an absent file rather than a failing assertion against the tool.
 
 **What a green here does not settle.** The assumption itself. Whether the flag becomes reflexive is a question about a caller's behaviour over many passes, and no spec can watch that — it wants a replay of how the parameter is actually used once it exists, which is a study and not a command. The exit code here covers only the message content and the two call paths.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/instruments/overwrite-guard.test.ts` — No test files found, exiting with code 1

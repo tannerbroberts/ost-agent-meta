@@ -18,3 +18,6 @@ instrument: npx vitest run test/ost/next-work-category-exemption.test.ts
 **Honest limit on the instrument.** Written without repo sight; the path does not exist, so the first failure is a missing file rather than a failing assertion. See "My instruments are red because a file is absent, not because the behaviour is".
 
 **What a green here does not settle.** Whether the exemption is preferable to rollup or to leaf redirection — that is a comparison across three candidates and this file only examines one. It also says nothing about how many real nodes in the live tree have the dangerous shape, which is a census, not a spec.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/ost/next-work-category-exemption.test.ts` — No test files found, exiting with code 1
