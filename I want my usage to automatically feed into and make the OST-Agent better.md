@@ -12,6 +12,7 @@ evidence: assertion
 [[What I actually do with the tool is never recorded, so improving it runs on memory]]
 [[Every self-observation channel names which of its sources each item came from]]
 [[Every session leaves an evidence record that restates a need the tree already holds]]
+[[Evidence that only confirms a need I already recorded still arrives as work I have to clear]]
 
 **The need (operator's voice):** "There's a distinction between the agent's usage of the OST and its assertions about that usage. Traces and statistics can be tracked mechanically and give credence in a way assertions can't touch. I want my usage to feed the product automatically — reflection on self-generated statistics, not an echo chamber."
 

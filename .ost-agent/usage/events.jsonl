@@ -2127,3 +2127,11 @@
 {"ts":"2026-08-07T14:35:29.335Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-fb3a4a0d-18c4-4dbd-ab3e-a8fb955919cf"}
 {"ts":"2026-08-07T14:35:31.259Z","tool":"ost_next_work","ok":true,"ms":55,"surface":"mcp","argBytes":2,"session":"mcp-fb3a4a0d-18c4-4dbd-ab3e-a8fb955919cf"}
 {"ts":"2026-08-07T15:36:13.609Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:36:15.771Z","tool":"ost_next_work","ok":true,"ms":61,"surface":"mcp","argBytes":2,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:36:36.845Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:36:41.201Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:36:48.040Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:36:55.537Z","tool":"ost_read_tree","ok":true,"ms":41,"surface":"mcp","argBytes":2,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:37:28.628Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:38:10.542Z","tool":"ost_read_repo","ok":false,"ms":1,"surface":"mcp","argBytes":15,"err":"no product repos configured — add local repo paths under `product.repos` in ost.config.yaml so the agent can read what the product is","session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:39:34.536Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2583,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42","wrote":["Evidence that only confirms a need I already recorded still arrives as work I have to clear.md"]}
