@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Five operators choose between sixty-one weak instruments and sixty-one blanks]]
 
 **Kind: desirability.**
 
