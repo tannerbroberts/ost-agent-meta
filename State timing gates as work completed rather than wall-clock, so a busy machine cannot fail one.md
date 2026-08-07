@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The timing criteria that flake can be re-stated as operation counts without losing what they were guarding]]
 
 The two existing candidates under this opportunity both work after the fact: report the measurement next to the criterion, or learn to read a correct firing as signal rather than noise. Both leave the ambiguity in place and help the operator resolve it faster.
 
