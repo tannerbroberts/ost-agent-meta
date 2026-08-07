@@ -2183,3 +2183,4 @@
 {"ts":"2026-08-07T16:52:29.389Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2609,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["A pass that cannot see the repository cannot set an instrument at all.md"]}
 {"ts":"2026-08-07T16:52:37.858Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":994,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Solutions beneath a category address the category's own need.md"]}
 {"ts":"2026-08-07T16:52:44.204Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1204,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Having sub-opportunities is a reliable marker of being a category.md"]}
+{"ts":"2026-08-07T16:52:51.602Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1116,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Every short category has a leaf beneath it that is genuinely under-served.md"]}

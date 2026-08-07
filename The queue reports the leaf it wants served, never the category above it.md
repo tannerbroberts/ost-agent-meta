@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Every short category has a leaf beneath it that is genuinely under-served]]
 
 **The idea.** When the sweep finds a category short of solutions, it does not report the category. It walks down to the leaf opportunities beneath it and reports whichever of those are actually under-served. If none are, it reports nothing for that branch.
 
