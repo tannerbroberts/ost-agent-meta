@@ -6,6 +6,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[The under-served count rolls up through sub-opportunities]]
+[[A node with sub-opportunities is exempt from the under-served check]]
 
 The tree files its needs in two tiers. A small set of category opportunities sit directly under the Outcome — "Tools fail", "The run stalls on me" — and the specific needs hang beneath them. That shape is enforced, and it is the right shape: it is what makes a thousand-node tree readable.
 

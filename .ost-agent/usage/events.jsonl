@@ -2173,3 +2173,4 @@
 {"ts":"2026-08-07T16:48:15.186Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
 {"ts":"2026-08-07T16:48:15.720Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
 {"ts":"2026-08-07T16:50:52.737Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2245,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["The under-served count rolls up through sub-opportunities.md"]}
+{"ts":"2026-08-07T16:51:02.675Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1852,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["A node with sub-opportunities is exempt from the under-served check.md"]}
