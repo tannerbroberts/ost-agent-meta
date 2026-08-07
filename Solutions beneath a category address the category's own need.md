@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A category whose subtree is full stops being reported as under-served]]
 
 **Kind: feasibility** (with a desirability shadow, noted below).
 
