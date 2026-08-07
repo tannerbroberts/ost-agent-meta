@@ -7,7 +7,7 @@ threshold: >-
   After attaching 30 transcript records from the same actor to one opportunity,
   its rung is unchanged and every surface reporting its source count also
   reports the distinct-actor count — 0 places where the raw count appears alone.
-instrument: npx vitest run test/evidence/self-observation-ceiling.test.ts
+instrument: npx vitest run test/adapters/corroboration-actor-ceiling.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,6 +24,7 @@ instrument: npx vitest run test/evidence/self-observation-ceiling.test.ts
 ## History
 - 2026-08-06 body edited — The body declared "Lane: compute-only", which this pass had no power to set — `ost_flag_humans_required` is withheld on this surface and only a human's `ost-agent lane --set` moves what compute may run. The node carries no `lane:` field, so its effective lane is needs-humans (confirmed: it landed in `assumptionWork.needsHumans`), and the prose contradicted that. Replaced with the vault's established "Who runs it" phrasing.
 - 2026-08-07 instrument: npx vitest run test/adapters/corroboration-actor-ceiling.test.ts → npx vitest run test/evidence/self-observation-ceiling.test.ts — This test asks whether volume of self-generated observation can push a node up the believability ladder, which is a property of the ladder's ceiling rules and is settled by code, not by a person: attach thirty transcript-sourced observations to one node and assert the computed rung is unchanged. It fails today because no spec asserts that a self-observation count cannot move a rung — the pass writing it had no repository sight (ost_read_repo refused for want of product.repos), so the file is absent rather than the assertions falling short against a real module.
+- 2026-08-07 instrument: npx vitest run test/evidence/self-observation-ceiling.test.ts → npx vitest run test/adapters/corroboration-actor-ceiling.test.ts — Restoring the instrument this node already carried. The 2026-08-07 unattended pass replaced it in error: it was working from `ost_next_work`, which reports a test's title but not whether an instrument is already set, and had assumed this test was one of the prose-only ones. The original path sits under `test/adapters/`, which locates the ceiling rule at the corroboration adapter and is better grounded than the replacement — that pass had no repository sight at all (`ost_read_repo` refused for want of `product.repos`). Note for a human: the erroneous swap un-cleared whatever permit the original command held, and this restoration does not reinstate it, because a permit needs an observed failure from `ost-agent verify`. That re-verification is the residue of the mistake and has to be re-run by hand.
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/adapters/corroboration-actor-ceiling.test.ts` — No test files found, exiting with code 1
