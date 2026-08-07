@@ -2189,3 +2189,4 @@
 {"ts":"2026-08-07T16:53:11.894Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":877,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Ageing an item out does not bury a novel one.md"]}
 {"ts":"2026-08-07T16:53:21.110Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1267,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Repo sight is derivable from the surface rather than from the author.md"]}
 {"ts":"2026-08-07T16:53:26.773Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":969,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Requiring the spec file to exist still leaves genuinely new behaviour expressible.md"]}
+{"ts":"2026-08-07T16:53:32.215Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1080,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Operators would rather have honest gaps than guessed commands.md"]}
