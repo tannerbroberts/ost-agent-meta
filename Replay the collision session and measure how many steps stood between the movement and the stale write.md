@@ -22,3 +22,4 @@ instrument: npx vitest run test/runner/drift-sentinel-window.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/drift-sentinel-window.test.ts` — No test files found, exiting with code 1
+- 2026-08-07 **green** (exit 0) `npx vitest run test/runner/drift-sentinel-window.test.ts` — Duration  257ms (transform 35ms, setup 0ms, collect 46ms, tests 4ms, environment 0ms, prepare 25ms)
