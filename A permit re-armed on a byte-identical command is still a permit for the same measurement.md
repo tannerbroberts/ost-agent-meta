@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A re-armed permit is refused when the spec file changed underneath it]]
 
 **Kind: feasibility, and it is the hole in this candidate rather than a formality.**
 
