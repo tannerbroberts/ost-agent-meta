@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Push a skeleton commit on a cadence against the replayed timeline and record when rejection first arrives]]
 
 **The belief, stated so it could be false.** `git push --ff-only` rejects on divergent history, not on semantic overlap. The rejection at 08:47Z happened because the other session's commit was already on the branch — so any push after 02:56Z would have been rejected too, regardless of what it contained. On that reading the belief holds trivially and the candidate works.
 
