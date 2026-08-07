@@ -20,3 +20,13 @@ _Addresses: "Worry the agent is grading its own homework". Unvalidated — human
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 unlinked "Test can teams define a real-world outcome signal for the gate" — moved under "Teams can define an external signal that decides whether their outcome was met" — the belief this test measures now has a node of its own
+
+## Definition of done
+
+This solution's original belief — that teams can name an external signal — is a question for people and stays with them. The half that is the product's own to hold is now separated out as "No call on the agent surface can mark the outcome achieved without a declared external signal", and it carries a command.
+
+"Try every agent write path to record the outcome as met, and require each one to refuse"
+
+    npx vitest run test/ost/outcome-signal-gate.test.ts
+
+Green means compute cannot open this gate through any write path it holds. It says nothing about whether a team defines a signal, whether that signal measures what they think, or how often the human CLI escape hatch is used.
