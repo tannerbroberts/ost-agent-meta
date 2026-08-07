@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A start-of-build scan of recent history would have caught the collision that was observed]]
 
 **The idea.** Move the detector from the end of the pass to the beginning. Before building, a pass states the intent it is about to implement and checks the target repository's recent history for work that already matches it — commits, branches, and open pull requests since some window. If something matches, it reports the match and picks different work instead of building into it.
 
