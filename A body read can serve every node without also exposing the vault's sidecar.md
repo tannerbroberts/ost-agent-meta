@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Point the body read at the sidecar and at a node holding results, and require both to be refused or labelled]]
 
 The body read is only safe to add if it can be scoped to nodes and nothing else. The vault already draws this line elsewhere: `ost_read_repo` refuses a vault's own `.ost-agent/` sidecar even when the vault is a configured repo, because evidence bodies are supposed to arrive through one channel with its framing attached.
 
