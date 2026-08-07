@@ -22,3 +22,13 @@ It also does not clear the backlog. Four grouped items are still four unmapped i
 **Cost.** A normaliser and a grouping key at ingest, plus fixtures built from the corpus's real strings.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"One normaliser collapses the read-before-write family and keeps three permission denials apart"
+
+```
+npx vitest run test/adapters/friction-signature.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. The fixture strings must be taken from this vault's real corpus — invented strings would make both halves trivially satisfiable.
