@@ -20,3 +20,13 @@ evidence: assertion
 **Cost.** One traversal already performed, one comparison changed, and fixtures pinning both directions.
 
 ⚠️ Unvalidated. Agent-ideated from a first-party observation made during the pass that wrote it.
+
+## Definition of done
+
+"A category whose subtree is full stops being reported as under-served"
+
+```
+npx vitest run test/ost/next-work-rollup-count.test.ts
+```
+
+The spec path is named, not linked — the test is wikilinked once already, by the assumption above it. Written without repo sight, so its first red is an absent file rather than a failing assertion; a builder should relocate the assertions into whichever existing spec covers the sweep.
