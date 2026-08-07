@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[A read that returns one node's body, so a rewrite starts from what is actually there]]
 
 Merging is the sanctioned answer to a duplicate: it folds one node into another, repoints every inbound edge, deletes the loser's file, and leaves the tree with one claim where there were two. Annotating both instead leaves two nodes and adds a third claim, so the guidance is right to prefer the merge.
 

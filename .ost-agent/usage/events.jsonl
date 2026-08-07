@@ -2155,3 +2155,4 @@
 {"ts":"2026-08-07T15:44:09.070Z","tool":"ost_ingest_inbox","ok":true,"ms":2,"surface":"mcp","argBytes":2,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
 {"ts":"2026-08-07T15:44:10.823Z","tool":"ost_next_work","ok":true,"ms":58,"surface":"mcp","argBytes":2,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
 {"ts":"2026-08-07T15:44:33.235Z","tool":"ost_edit_node","ok":true,"ms":0,"surface":"mcp","argBytes":3010,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:45:11.590Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1948,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42","wrote":["A read that returns one node's body, so a rewrite starts from what is actually there.md"]}
