@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The overwrite refusal names the command at risk and still lets a correction through]]
 
 **Kind: feasibility.**
 
