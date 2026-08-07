@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Carrying the instrument field pushes no visible entry out of the sweep]]
 
 **Kind: feasibility.**
 
