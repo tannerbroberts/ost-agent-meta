@@ -2141,3 +2141,4 @@
 {"ts":"2026-08-07T15:41:08.128Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2452,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42","wrote":["The repair I am asked to make requires rewriting prose no tool will show me.md"]}
 {"ts":"2026-08-07T15:41:26.453Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1157,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
 {"ts":"2026-08-07T15:41:31.389Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":1074,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
+{"ts":"2026-08-07T15:41:33.905Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1026,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
