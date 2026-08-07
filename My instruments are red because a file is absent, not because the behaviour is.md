@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[An instrument records whether the pass that wrote it could see the repository]]
 [[An instrument naming a spec path that does not exist is refused]]
+[[A pass that cannot see the repository cannot set an instrument at all]]
 
 An instrument earns its place by being a falsifiable prediction: it names behaviour that does not exist yet, fails today, and goes green when the solution is built. There are two ways for it to fail today, and they are worth very different amounts.
 
