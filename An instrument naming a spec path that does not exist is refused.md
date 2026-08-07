@@ -22,3 +22,13 @@ It is also unbuildable where the parent's observation was made. This pass had no
 **Cost.** Path resolution, a configured repo it can rely on, an escape hatch, and fixtures for both directions.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Every solution in the current backlog has an existing spec that could go red for it"
+
+```
+npx vitest run test/instruments/spec-path-resolution.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. The exit code covers only the resolution guard; the census of 61 solutions is the half that decides the assumption and has to be recorded by hand in the result.
