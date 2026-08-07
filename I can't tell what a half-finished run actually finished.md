@@ -7,7 +7,6 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[A recorded failure can't be reproduced, because the record omits where it ran]]
-[[An interrupted run leaves no trustworthy account of what it completed]]
 
 When a run is stopped, backgrounded, or dies mid-work, nothing marks where it got to. The next run — or the operator — cannot tell finished work from abandoned work, so it either redoes, skips, or guesses.
 
@@ -37,3 +36,4 @@ This is direct confirmation of the candidate already sitting under this node, "E
 - 2026-08-05 unlinked "Every recorded step carries the directory and argv it actually ran with" — re-parented under "An interrupted run leaves no trustworthy account of what it completed" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "A run journal written as it goes, so an interrupted run reads as a list of finished steps" — re-parented under "An interrupted run leaves no trustworthy account of what it completed" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "Reconstruct what finished from the commit history, so no run has to be trusted to report" — re-parented under "An interrupted run leaves no trustworthy account of what it completed" — this solution answers that need, not the categories beside it
+- 2026-08-07 unlinked "An interrupted run leaves no trustworthy account of what it completed" — Detaching ahead of folding this node INTO that child, as the 2026-08-07 near-duplicate annotation recommended. Without this the merge would union the loser's outbound edges into the survivor and hand the survivor a wikilink to itself — the same precaution the 2026-08-06 pass took before folding "Waiting on a slow external check burns the session" into its survivor. The child is briefly orphaned; the merge that follows repoints this node's own inbound edge from "I can't leave the process running unattended without worrying" onto it.
