@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The instrument field fits in the sweep without displacing the work it reports]]
 
 **The idea.** `ost_next_work` stops reporting only which solutions lack an instrument and starts reporting, for each test beneath them, whether it has one and what it is. The pass can then tell attachment from replacement before it composes the call.
 
