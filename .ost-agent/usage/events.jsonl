@@ -2193,3 +2193,4 @@
 {"ts":"2026-08-07T16:53:55.472Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2055,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["A category whose subtree is full stops being reported as under-served.md"]}
 {"ts":"2026-08-07T16:54:03.953Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1626,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["The category exemption does not silence a childless gap.md"]}
 {"ts":"2026-08-07T16:54:10.476Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1504,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Descending to leaves never returns silence without a reason.md"]}
+{"ts":"2026-08-07T16:54:22.252Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1780,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d","wrote":["Filing corroboration clears the item and moves no rung.md"]}
