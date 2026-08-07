@@ -9,10 +9,10 @@ evidence: assertion
 [[Improving how the agent works means interrupting it]]
 [[Two agents sharing my vault can trample each other]]
 [[A failed pass reports success, so my automation can't tell]]
-[[I can't tell what a half-finished run actually finished]]
 [[A run that dies while I am away stays dead, and nothing says where it stopped]]
 [[The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time]]
 [[A run's own leftovers break the next run's setup, so the loop fails before it starts]]
+[[An interrupted run leaves no trustworthy account of what it completed]]
 
 **The need (customer's voice):** "If I hand a goal and some compute to an autonomous agent and walk away, I need to come back to a system that is still running and still pointed at the same goal — and if I stop it or it crashes mid-step, I need to be able to start it again without wondering what got half-written."
 
@@ -29,6 +29,7 @@ Evidence: `INBOX:2026-07-24-opp-idempotent-runtime.md`
 - 2026-08-05 unlinked "Resumable append-only process journal" — re-parented under "A run that dies while I am away stays dead, and nothing says where it stopped" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "Supervisor heartbeat with automatic restart" — re-parented under "A run that dies while I am away stays dead, and nothing says where it stopped" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "Immutable goal contract" — re-parented under "A run that dies while I am away stays dead, and nothing says where it stopped" — this solution answers that need, not the categories beside it
+- 2026-08-07 link "I can't tell what a half-finished run actually finished" repointed to "An interrupted run leaves no trustworthy account of what it completed" — that node was merged away
 
 ## Issues
 - 2026-07-25 Near-synonym top-level sibling of 'Trust an unmonitored agent enough to walk away' — the children happen to partition (safety/honesty vs runtime continuity) but the titles do not carry the boundary; a reader cannot predict which child lives where. Merge-or-rename candidate for human decision (2026-07-24 review).

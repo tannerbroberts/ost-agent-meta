@@ -2209,3 +2209,4 @@
 {"ts":"2026-08-07T16:55:34.140Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":502,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
 {"ts":"2026-08-07T16:55:37.816Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":720,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
 {"ts":"2026-08-07T16:56:46.914Z","tool":"ost_detach_nodes","ok":true,"ms":1,"surface":"mcp","argBytes":700,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
+{"ts":"2026-08-07T16:57:08.903Z","tool":"ost_merge_nodes","ok":true,"ms":55,"surface":"mcp","argBytes":5111,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
