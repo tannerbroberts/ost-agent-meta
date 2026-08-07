@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[An evidence item can be filed as corroboration of a node that already exists]]
 
 The self-observation channels work: this vault's own sessions are harvested mechanically and land as evidence without anyone carrying them in. What they mostly produce, though, is the same handful of frictions over and over — permission refusals for tools the surface withheld, `File has not been read yet` before an Edit, a clarifying question asked of a human who was not there. The tree already holds an opportunity for each of those.
 
