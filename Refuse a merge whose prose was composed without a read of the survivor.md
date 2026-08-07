@@ -21,3 +21,9 @@ The same cost the file tools already pay, visible in this vault's own transcript
 ## How it compares
 
 Against "Merge by patch rather than by replacement, so the survivor's unread prose is never at risk": that removes the hazard, this polices it. Removing beats policing where both are available, so this is the weakest of the three on its own terms — its value is as insurance if the body read is built and merges keep their replace-the-body shape.
+
+## Definition of done
+
+"Satisfy the guard with a bare fetch that discards the body, and require the merge to go through"
+
+npx vitest run test/tools/merge-read-guard-bypass.test.ts
