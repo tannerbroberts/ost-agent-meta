@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Show me the whole priority order, and why each item sits where it does]]
 [[Nothing names the one node to pick up next, so choosing is work before the work]]
+[[The queue sends me to ideate under a heading that already has thirty solutions under it]]
 
 **Customer need (operator's perspective):** "I poured compute into this and came back to forty nodes that all say `unvalidated`. I believe them. I still don't know what to do on Monday morning."
 
