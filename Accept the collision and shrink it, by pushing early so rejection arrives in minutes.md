@@ -16,3 +16,11 @@ evidence: assertion
 **Why it belongs in the consideration set anyway.** It is the honest floor: if neither sibling survives its assumptions, this one still bounds the loss, and it can ship alongside either without conflicting.
 
 ⚠️ Unvalidated, agent-proposed. Nobody has judged it against the alternatives.
+
+## Definition of done
+
+"Push a skeleton commit on a cadence against the replayed timeline and record when rejection first arrives"
+
+    npx vitest run test/loop/early-push-collision-window.test.ts
+
+Green means the first rejection arrives within 30 minutes of the colliding commit landing — which bounds the recorded loss at roughly 3.5 hours, not the "minutes" this node's title promises. If it passes, the title is overstated and should be corrected to say what it actually bounds. It settles nothing about collisions on separate branches or non-overlapping duplicates, where no cadence produces a rejection at all.
