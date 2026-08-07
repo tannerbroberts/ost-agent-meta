@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Descending to leaves never returns silence without a reason]]
 
 **Kind: feasibility.**
 
