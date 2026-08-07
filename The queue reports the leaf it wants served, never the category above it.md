@@ -20,3 +20,13 @@ evidence: assertion
 **Cost.** Highest of the three. A traversal, an ordering rule, and fixtures for the empty-descent case.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Descending to leaves never returns silence without a reason"
+
+```
+npx vitest run test/ost/next-work-leaf-redirect.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. The bar is the diagnostic on an empty descent, not the count.
