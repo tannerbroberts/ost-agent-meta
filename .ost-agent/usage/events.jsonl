@@ -2095,3 +2095,4 @@
 {"ts":"2026-08-07T14:03:47.877Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
 {"ts":"2026-08-07T14:03:49.291Z","tool":"ost_next_work","ok":true,"ms":3,"surface":"mcp","argBytes":62,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}
 {"ts":"2026-08-07T14:06:22.786Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2494,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3","wrote":["A per-visit diff of the tree can be computed from the vault alone.md"]}
+{"ts":"2026-08-07T14:06:32.369Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2146,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3","wrote":["No call on the agent surface can mark the outcome achieved without a declared external signal.md"]}

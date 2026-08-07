@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #ported-from-ost-agent-vault #evidence/assertion
 [[Teams can define an external signal that decides whether their outcome was met]]
+[[No call on the agent surface can mark the outcome achieved without a declared external signal]]
 
 **Candidate solution (unvalidated).** Whether the desired outcome is met is decided only by external real-world signal (metrics, customer behavior) plus a human — never by the agent. The agent may surface progress but can never declare its own outcome achieved, closing the hall-of-mirrors circularity at the top of the tree.
 
