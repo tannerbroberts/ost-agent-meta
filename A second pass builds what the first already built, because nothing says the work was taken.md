@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[A pass claims the work item before it starts, and the claim outlives the session]]
+[[Scan for prior art at the start of a build, not at the push]]
 
 **The need (operator's voice).** "I paid for eight hours of compute and got a commit I had to delete. Another run had already built the same thing six hours earlier, and nothing told either of them."
 
