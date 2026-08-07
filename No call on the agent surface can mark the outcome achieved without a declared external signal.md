@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Try every agent write path to record the outcome as met, and require each one to refuse]]
 
 **The belief, stated so it could be false.** The circularity this solution closes can be closed by construction rather than by discipline: the outcome can carry a declared external signal, and every write path available to compute can refuse to record the outcome as met while that signal is undeclared or unmet — the same way `validated` is absent from `ost_set_status` and promotion is a human's CLI call.
 
