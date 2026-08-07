@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Having sub-opportunities is a reliable marker of being a category]]
 
 **The idea.** If an Opportunity has Opportunity children, it is a category, and a category is never reported as under-served. One structural fact, read off the edges, no counting.
 
