@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A body read can serve every node without also exposing the vault's sidecar]]
 
 Add the missing read: a call that takes one node title and returns that node's body, the same way `ost_next_work({evidence})` already serves one evidence record in full. A caller about to merge reads both nodes, composes prose that keeps what each said, and passes it.
 
