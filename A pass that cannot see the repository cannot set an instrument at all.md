@@ -24,3 +24,11 @@ The blunter risk: gating on capability means the capability becomes the thing to
 **Cost.** A capability check and a lane. Small to build, large to live with.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Five operators choose between sixty-one weak instruments and sixty-one blanks"
+
+There is deliberately **no command** here. This solution's risk is not mechanical — it trades throughput for groundedness, and whether that trade is wanted is a preference the repository cannot hold. The test names five operators who run an unattended agent overnight and pay for the compute, and it is created human-required rather than left as prose nobody is assigned to.
+
+A builder should not start this one until that result exists: building it and being wrong costs the whole unattended instrument backlog.
