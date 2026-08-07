@@ -2098,3 +2098,4 @@
 {"ts":"2026-08-07T14:06:32.369Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2146,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3","wrote":["No call on the agent surface can mark the outcome achieved without a declared external signal.md"]}
 {"ts":"2026-08-07T14:06:48.554Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2727,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3","wrote":["Render the tree across a recorded visit and require the second render to name exactly what changed.md"]}
 {"ts":"2026-08-07T14:07:03.830Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2514,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3","wrote":["Try every agent write path to record the outcome as met, and require each one to refuse.md"]}
+{"ts":"2026-08-07T14:07:11.694Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":897,"session":"mcp-81b4c53d-4319-4ead-aad3-1f8ee99467c3"}

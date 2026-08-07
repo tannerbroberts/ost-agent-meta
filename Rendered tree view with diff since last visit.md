@@ -25,3 +25,13 @@ Status: agent-originated candidate. Unvalidated.
 
 ## Issues
 - 2026-08-06 2026-08-06 In `solutionsMissingInstruments`, and an instrument would be a category error as this node stands. Its single Assumption child is "A rendered tree orients a reader faster than the files do" — a usability claim whose measurement is a reader, not an exit code. A spec file can assert that a renderer emits a particular shape; it cannot assert that the shape oriented anybody faster, and an instrument attached to this assumption would let a green test read as evidence the claim was settled. The sanctioned disposition is `ost_flag_humans_required`, which is withheld from the unattended surface, so this pass could not label it. For a human: either flag this test humans-required, or — if the intent is to build the renderer first — add a second, feasibility-shaped Assumption ("the tree can be rendered with per-visit diff from the vault alone") and instrument that one, leaving the reader claim to people. This node is a rendering candidate, so it is more likely than most of its queue-mates to be mistaken for feasibility work; that is why the note is here rather than only in the central census on "Filter the queue on shipped and count what is still unsatisfiable".
+
+## Definition of done
+
+The reader-shaped half of this solution stays with people, and four passes were right to refuse an instrument for it. What those passes recommended and none performed is now done: a second, feasibility-shaped belief has been separated out — "A per-visit diff of the tree can be computed from the vault alone" — and it carries a command.
+
+"Render the tree across a recorded visit and require the second render to name exactly what changed"
+
+    npx vitest run test/cli/tree-view-diff-since-last-visit.test.ts
+
+Green means the diff is computable from the vault alone across a created node, a status transition and a merge. It does not mean anyone was oriented faster, and it must not be read that way — that claim is the assumption beside it and is measured by a reader, not an exit code.
