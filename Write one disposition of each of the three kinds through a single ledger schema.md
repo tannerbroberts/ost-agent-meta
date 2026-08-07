@@ -19,3 +19,4 @@ instrument: npx vitest run test/ost/disposition-ledger-shape.test.ts
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/disposition-ledger-shape.test.ts` — No test files found, exiting with code 1
+- 2026-08-07 **green** (exit 0) `npx vitest run test/ost/disposition-ledger-shape.test.ts` — Duration  4.22s (transform 121ms, setup 0ms, collect 182ms, tests 3.85s, environment 0ms, prepare 30ms)
