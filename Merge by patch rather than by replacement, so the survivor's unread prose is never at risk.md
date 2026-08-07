@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A patch-shaped merge preserves everything the replace-shaped merge preserved]]
 
 Change what a merge asks for. Instead of the survivor's complete merged body, the caller supplies only what the loser contributes — the sentence or section that says something the survivor does not — and the tool appends it under a dated heading. The survivor's existing prose is never an argument, so it is never at risk from a caller who has not read it.
 
