@@ -16,3 +16,11 @@ evidence: assertion
 **Cost.** One read of the target repo's recent history per build, plus whatever judgement decides "this matches". Cheaper than a claim protocol and strictly less reliable.
 
 ⚠️ Unvalidated, agent-proposed. Nobody has judged it against the alternatives.
+
+## Definition of done
+
+"Replay the collision timeline and check what a start-of-build scan could have seen at 00:47Z"
+
+    npx vitest run test/loop/prior-art-scan-catches-recorded-collision.test.ts
+
+Note that this test is expected to fail on its merits, and the failure is the finding: the prior art did not exist when the pass started, so a single start-of-build scan sees nothing and this candidate must be re-specified as a scan on a cadence before it is built. Green would mean the detector fires on the one recorded collision; it would say nothing about false positives, or about non-overlapping duplicates, which no textual scan finds.
