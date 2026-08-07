@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[One normaliser collapses the read-before-write family and keeps three permission denials apart]]
 
 **Kind: feasibility.**
 
