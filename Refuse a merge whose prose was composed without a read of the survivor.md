@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A read-before-merge guard can only prove a fetch happened, not that it informed the prose]]
 
 Borrow the shape the file tools already use. An editor that refuses to write a file the session has not read is the reason `File has not been read yet` appears throughout this vault's own friction records — it is annoying, it fires constantly, and it stops exactly this class of mistake. Apply it here: the merge tool tracks whether the calling session has read the survivor's body, and refuses when it has not.
 
