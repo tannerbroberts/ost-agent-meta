@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Ageing an item out does not bury a novel one]]
 
 **The idea.** An evidence item that has been offered to N passes and mapped by none stops being listed individually. It joins a single line — "62 items aged out, oldest 2026-07-24" — that is always visible and never expands unless asked for.
 
