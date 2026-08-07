@@ -24,3 +24,13 @@ Second failure worth naming: this makes replacement cheaper, and cheaper replace
 **Cost.** A history of prior commands per test, and the re-association rule. Largest of the three, and the only one that touches how permits are stored.
 
 ⚠️ Unvalidated. Agent-ideated by the surface that caused the loss it is proposing to make recoverable, which is a reason to trust the observation and discount the conviction.
+
+## Definition of done
+
+"A re-armed permit is refused when the spec file changed underneath it"
+
+```
+npx vitest run test/instruments/permit-rearm.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. If the naive string-keyed implementation cannot pass the second case, that is the finding — it means re-arming needs content addressing and this node is a larger change than its body claims.
