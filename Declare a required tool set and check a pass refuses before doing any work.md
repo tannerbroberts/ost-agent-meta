@@ -23,3 +23,4 @@ instrument: npx vitest run test/mcp/preflight-required-tools.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/preflight-required-tools.test.ts` — No test files found, exiting with code 1
+- 2026-08-07 **green** (exit 0) `npx vitest run test/mcp/preflight-required-tools.test.ts` — Duration  9.00s (transform 105ms, setup 0ms, collect 161ms, tests 8.64s, environment 0ms, prepare 24ms)
