@@ -2157,3 +2157,4 @@
 {"ts":"2026-08-07T15:44:33.235Z","tool":"ost_edit_node","ok":true,"ms":0,"surface":"mcp","argBytes":3010,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42"}
 {"ts":"2026-08-07T15:45:11.590Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1948,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42","wrote":["A read that returns one node's body, so a rewrite starts from what is actually there.md"]}
 {"ts":"2026-08-07T15:45:24.819Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2132,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42","wrote":["Merge by patch rather than by replacement, so the survivor's unread prose is never at risk.md"]}
+{"ts":"2026-08-07T15:45:36.006Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2153,"session":"mcp-1706636d-4588-4443-bd0a-e77383a56f42","wrote":["Refuse a merge whose prose was composed without a read of the survivor.md"]}
