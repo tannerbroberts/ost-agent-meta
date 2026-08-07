@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Have two independent readers name the work in one briefing paragraph and compare the identities]]
 
 **The belief, stated so it could be false.** A claim only excludes a second pass if the second pass recognises the claim as covering the work it was about to start. That requires two independent readings of one briefing to produce the same item identity.
 
