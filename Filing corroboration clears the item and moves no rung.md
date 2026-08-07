@@ -19,3 +19,6 @@ instrument: npx vitest run test/evidence/corroborate-disposition.test.ts
 **Honest limit on the instrument.** This pass could not read the product repository, so the spec path is invented and will first fail because it is absent rather than because the evidence store disagrees. Recorded rather than hidden; see "My instruments are red because a file is absent, not because the behaviour is".
 
 **What a green here does not settle.** Whether the judgement "this confirms an existing need" is being made correctly. This file pins the mechanics of a filing and is completely blind to whether the filing was right — including the novelty-hiding failure the parent opportunity names as the main risk. That question needs a reader, not a spec.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/evidence/corroborate-disposition.test.ts` — No test files found, exiting with code 1

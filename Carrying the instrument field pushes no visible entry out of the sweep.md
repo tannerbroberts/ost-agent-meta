@@ -21,3 +21,6 @@ The explicit-null half matters: a field that is present only when set cannot be 
 **Honest limit on the instrument.** This pass had no repository sight — `ost_read_repo` is unconfigured and direct reads of the product checkout were denied — so the named spec file does not exist and its first red is a missing path rather than a failing assertion against `computeNextWork`. The weak form of red, recorded rather than hidden; see "My instruments are red because a file is absent, not because the behaviour is".
 
 **What a green here does not settle.** Whether a pass handed the field reads it. That is the candidate's stated failure mode and it is about behaviour under budget pressure, not about the response shape.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/ost/next-work-instrument-visibility.test.ts` — No test files found, exiting with code 1

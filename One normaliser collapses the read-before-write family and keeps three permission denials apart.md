@@ -21,3 +21,6 @@ The fixture strings are taken from the corpus rather than invented, which is the
 **Honest limit on the instrument.** Written blind — no repo sight on this surface — so the named path does not exist and its first red is an absent file rather than a failing assertion against the ingest adapter.
 
 **What a green here does not settle.** That the four groups it produces correspond to four *needs*. Grouping identical refusals is a claim about strings; the parent opportunity's claim is about needs, and nothing here bridges that.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/adapters/friction-signature.test.ts` — No test files found, exiting with code 1

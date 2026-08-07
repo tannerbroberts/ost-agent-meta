@@ -21,3 +21,6 @@ The spec form is the mechanical half — that the tool resolves a path against t
 **Honest limit on the instrument.** Written without repo sight, so the path is invented; its first red is an absent file. The irony is load-bearing rather than incidental — this is a blind instrument for the rule that would forbid blind instruments, and it is exactly the artefact "An instrument records whether the pass that wrote it could see the repository" wants marked.
 
 **What a green here does not settle.** The census. A passing resolution check says the guard works; it says nothing about whether 55 of 61 solutions have a home, and that number is the assumption.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/instruments/spec-path-resolution.test.ts` — No test files found, exiting with code 1

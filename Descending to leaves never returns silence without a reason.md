@@ -20,3 +20,6 @@ The bar is deliberately about the *diagnostic*, not about the count. It is fine 
 **Honest limit on the instrument.** No repo sight was available to this pass, so the path is invented and its first red is an absent file. A builder should relocate the assertions into the existing spec for the sweep.
 
 **What a green here does not settle.** Whether the diagnostic is one a human would act on, and whether the ordering rule for a leaf reachable from several branches is right — both are design questions this file does not touch.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/ost/next-work-leaf-redirect.test.ts` — No test files found, exiting with code 1

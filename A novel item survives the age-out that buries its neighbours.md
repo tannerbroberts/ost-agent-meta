@@ -19,3 +19,6 @@ instrument: npx vitest run test/evidence/age-out-preserves-novel.test.ts
 **Honest limit on the instrument.** No repository sight was available, so the path is invented and fails first for absence. A builder should fold these assertions into the existing spec for the evidence store.
 
 **What a green here does not settle.** Whether the operator notices the backlog line, and whether a quiet queue causes the tooling gap underneath it to stop being fixed — which is this candidate's stated failure mode and is about people, not code.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/evidence/age-out-preserves-novel.test.ts` — No test files found, exiting with code 1

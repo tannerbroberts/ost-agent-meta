@@ -18,3 +18,6 @@ instrument: npx vitest run test/instruments/permit-rearm.test.ts
 **Honest limit on the instrument.** Written without repository sight, so the path is invented and fails first for absence. This one would benefit most from being grounded, because whether content addressing is cheap depends entirely on how permits are currently stored — which this pass could not read.
 
 **What a green here does not settle.** The second failure mode this candidate's body names: that making replacement recoverable makes replacement more frequent. That is a behavioural effect over passes and needs a count, not an exit code.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/instruments/permit-rearm.test.ts` — No test files found, exiting with code 1
