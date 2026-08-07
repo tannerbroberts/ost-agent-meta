@@ -23,3 +23,9 @@ It also cannot help the instrument-overwrite case at all: `ost_set_instrument` r
 ## How it compares
 
 Strictly safer than "A read that returns one node's body, so a rewrite starts from what is actually there", and strictly narrower — it fixes merging only, and it trades prose quality for safety. If both were built, this would be the everyday path and the body read the one used when a merged node needs tidying.
+
+## Definition of done
+
+"Run the same merges through both shapes and require identical edges, sections and refusals"
+
+npx vitest run test/tools/merge-patch-parity.test.ts
