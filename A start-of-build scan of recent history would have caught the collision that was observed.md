@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Replay the collision timeline and check what a start-of-build scan could have seen at 00 47Z]]
 
 **The belief, stated so it could be false.** At 00:47Z the second pass cloned the repo clean, and the first pass's commit did not land until 02:56Z. So the scan this solution proposes would have found nothing at the moment the pass started — the prior art did not exist yet.
 
