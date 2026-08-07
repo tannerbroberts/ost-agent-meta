@@ -4,6 +4,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A load-independent gate keeps its verdict when the machine is saturated]]
 
 The solution rests on a translation being available. Every timing gate that currently flakes has to have an operation-count form that guards the same thing the wall-clock form guarded.
 
