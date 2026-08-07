@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[An early skeleton push would have been rejected, so the loss would have been minutes]]
 
 **The idea.** Stop trying to prevent the duplicate and make it cheap instead. The detector that caught the observed collision — `git push --ff-only` — worked perfectly; it simply ran once, eight hours in. A pass that pushes a skeleton commit within the first minutes of building, and keeps pushing as it goes, gets the same rejection at the same fidelity while it has spent almost nothing.
 
