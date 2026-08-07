@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Friction shapes are separable by a mechanical signature]]
 
 **The idea.** At ingest, friction events are reduced to a signature — tool name plus the normalised refusal text, with paths and ids stripped. Items sharing a signature arrive in the queue as one entry carrying the number of times it was seen and the sessions it came from.
 
