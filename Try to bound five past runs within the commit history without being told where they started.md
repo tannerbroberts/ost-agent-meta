@@ -22,3 +22,6 @@ A human runs this and records the result.
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/run-boundary-from-history.test.ts — Measures whether a run's first and last commit can be recovered from the auto-commit log alone, with no self-report to lean on, and whether concurrent or human commits can be excluded from the span. It fails today because nothing in the repository derives run boundaries from git — the solution's own body says the bound is exactly what is missing and that separating one run's commits from a concurrent run's is not obviously solvable from git alone. That unsolved separation is what the spec asserts, so it goes green only once the bounding exists.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/run-boundary-from-history.test.ts` — No test files found, exiting with code 1

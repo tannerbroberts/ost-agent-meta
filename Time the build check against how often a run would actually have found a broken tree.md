@@ -22,3 +22,6 @@ The assumption is that the tax is worth the catch. A build on every run is a rea
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/loop/inherited-tree-build-check.test.ts — Asserts a run refuses to plan work on a tree that fails its own check, and bounds what that check costs; fails today because a run plans against whatever tree it inherits without checking it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/inherited-tree-build-check.test.ts` — No test files found, exiting with code 1

@@ -23,3 +23,6 @@ Proposed by the agent — to be run by human reviewers; the agent must not judge
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 instrument: (none) → npx vitest run test/eval/canary-parallel-run.test.ts — Asserts the property the node claims as its whole advantage — no interruption, because the old process never stops: both processes run over identical input, both outputs are captured for comparison, and a canary that errors or diverges leaves the incumbent's result untouched. Red today because no canary harness exists and a changed process simply replaces the old one.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/eval/canary-parallel-run.test.ts` — No test files found, exiting with code 1

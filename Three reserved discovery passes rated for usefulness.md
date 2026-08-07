@@ -23,3 +23,6 @@ Proposed by the agent — a human does the rating; the agent must not rate its o
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/discovery-budget-reserved.test.ts — A budget that build work can borrow from is not protected, and there is no reservation of any kind today — which is the opportunity "Building crowds out the search for better evidence" stated as a mechanism. This asserts the protection: a configured share of passes is reserved for discovery, a build-shaped pass is refused once the reserve is the only budget left, and the reserve does not roll over so an unused discovery pass is spent or lost rather than banked against future building. Missing-spec red, not assertion red: this pass holds no repo-read grant, so the file is absent; a builder should write it against the real loop scheduler so it goes red on a build pass that today consumes the reserve unopposed. It does not settle whether the reserved passes were USEFUL — rating them is a person's judgement and is what the test actually asks.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/discovery-budget-reserved.test.ts` — npm notice

@@ -24,3 +24,6 @@ instrument: npx vitest run test/runner/incremental-typecheck.test.ts
 `npx vitest run test/runner/incremental-typecheck.test.ts`
 
 Red today: the spec file does not exist and no per-file check path is implemented.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/runner/incremental-typecheck.test.ts` — No test files found, exiting with code 1

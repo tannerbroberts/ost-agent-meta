@@ -24,3 +24,6 @@ instrument: npx vitest run test/config/resource-question-recoverability.test.ts
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/config/resource-question-recoverability.test.ts — Asserts, for each standing resource question, whether the vault can already recover the answer without asking — the count that decides whether the cadence is worth the operator's time; fails today because no such question set is declared.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/config/resource-question-recoverability.test.ts` — No test files found, exiting with code 1
