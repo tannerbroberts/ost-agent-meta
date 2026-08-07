@@ -24,3 +24,13 @@ There is also a budget cost that is not trivial here: the sweep already truncate
 **Cost.** A field in an existing response. Smallest of the three.
 
 ⚠️ Unvalidated. Agent-ideated from a first-party error made on this surface.
+
+## Definition of done
+
+"Carrying the instrument field pushes no visible entry out of the sweep"
+
+```
+npx vitest run test/ost/next-work-instrument-visibility.test.ts
+```
+
+Written without repo sight, so its first red is an absent file. The explicit-null clause is load-bearing: a field present only when set is indistinguishable from a field cut for room.
