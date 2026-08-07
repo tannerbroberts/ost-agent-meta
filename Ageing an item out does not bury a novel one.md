@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A novel item survives the age-out that buries its neighbours]]
 
 **Kind: feasibility.**
 
