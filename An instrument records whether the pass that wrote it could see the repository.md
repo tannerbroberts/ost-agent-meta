@@ -24,3 +24,13 @@ The flag is also only as good as the capability detection behind it. Deriving it
 **Cost.** A field, a source of truth for capability, and two lines in two reports. Small.
 
 ⚠️ Unvalidated. Agent-ideated by a pass that was itself blind, which is a reason to trust the observation and discount the conviction.
+
+## Definition of done
+
+"The sight flag is set from the grant table and cannot be set by the caller"
+
+```
+npx vitest run test/instruments/sight-provenance.test.ts
+```
+
+Written without repo sight, so its first red is an absent file — the defect this solution exists to make visible, occurring inside its own test. Recorded rather than hidden.
