@@ -21,6 +21,7 @@ Evidence: `INBOX:2026-07-24-opp-self-replacing-workflow.md`
 
 ## Issues
 - 2026-07-24 Ambiguous parent (agent-flagged, 2026-07-24 pass). This opportunity fits two plausible parents: "I can't leave the process running unattended without worrying" (chosen — the felt pain is interruption of an unattended system) and "What the agent learns doesn't accumulate over time" (self-improvement as a form of compounding). Placed under the former and flagged rather than double-linked or duplicated, per the single-best-fit-parent rule. A human should confirm or re-parent.
+- 2026-08-07 Near-duplicate of "A change I ship can only reach the agent by stopping it first" — proposed merge, not executed. Both state that the only route from an improvement to a running agent is a halt. That node already carries three solutions ("Versioned workflow with scheduled hot-swap and rollback", "Canary the changed process against the old one", "Agent proposes its own workflow changes for one-click adoption"); this node carries none, which is why it is reported under-served on every pass. Recommended: merge this INTO "A change I ship can only reach the agent by stopping it first", which states the same need in the customer's own terms and holds the subtree. Not executed here for want of body sight; see "The repair I am asked to make requires rewriting prose no tool will show me".
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
