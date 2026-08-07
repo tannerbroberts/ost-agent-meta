@@ -16,3 +16,11 @@ evidence: assertion
 **Cost.** Small to write, and the cost is not in the writing. It is in every future pass having to name its work in a shared vocabulary before it may act, which is friction on the path this product most wants to be frictionless.
 
 ⚠️ Unvalidated, agent-proposed. Nobody has judged it against the alternatives.
+
+## Definition of done
+
+"Have two independent readers name the work in one briefing paragraph and compare the identities"
+
+    npx vitest run test/loop/work-claim-vocabulary-match.test.ts
+
+Green means a claim written from one naming of the work excludes a differently-worded naming of the same work. It does not mean the claim survives a pass dying mid-build — the expiry problem this node names as inherited and unsolved — and it does not mean two passes would bother to claim before starting.
