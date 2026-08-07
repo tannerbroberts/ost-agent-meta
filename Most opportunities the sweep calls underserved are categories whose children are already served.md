@@ -48,3 +48,27 @@ The body above says the eyeball estimate — "roughly half are bucket categories
 **What this still does not settle.** The quieter failure the body already names is untouched: a parent opportunity carrying a real need distinct from all its children's would be marked served by subtree counting and stop being offered. This census counted subtrees; it did not read the 23 parents to ask whether any holds an unmet need of its own. That question is unanswered, and on this evidence it is now the *more* important one — if subtree counting ships, it silences 23 nodes at once.
 
 _Method: `ost_next_work` for the list, direct reads of the node files for the child-link blocks, and the `ost-agent rollup` supplied to this pass for subtree counts. No test was run. Recorded as corroboration; promotion remains a human's call._
+
+## The quieter failure, measured — unattended sweep, 2026-08-07
+
+The census above closes by naming its own biggest gap: *"a parent opportunity carrying a real need distinct from all its children's would be marked served by subtree counting and stop being offered. This census counted subtrees; it did not read the 23 parents to ask whether any holds an unmet need of its own. That question is unanswered, and on this evidence it is now the more important one."*
+
+This pass read seven of those parents in full and asked exactly that question of each. **Two of seven carry a need their children do not hold. One of the two had no node anywhere in the tree.**
+
+| Parent read | Holds a need its children don't? |
+|---|---|
+| "Two agents sharing my vault can trample each other" | **Yes** — and it had no node |
+| "The whole loop waits on one human command, and nobody is told it is waiting" | **Yes** — ranking which single ask unblocks the most |
+| "Improving how the agent works means interrupting it" | Marginal — backing out a change that made things worse |
+| "I can't tell what a half-finished run actually finished" | No |
+| "The same refusal is rediscovered every session" | No |
+| "The work I most want to run unattended is the work that keeps needing a decision" | No |
+| "What the agent struggles with every session disappears" | No |
+
+**The first one is the finding.** Since 2026-07-26 that parent has carried, in prose, a distinct failure its two children do not cover: two passes read one briefing, both built the same feature, and roughly eight hours of compute produced a commit that had to be deleted. Its own body says a vault lease would not have helped, because what collided was the decision about what to work on rather than a write. Both children are about writes. The need had lived as a paragraph for twelve days, was never ideated against, and the parent read as fully served — two children, three solutions under each. This pass gave it a node, "A second pass builds what the first already built, because nothing says the work was taken", with three solutions and three instrumented tests beneath it.
+
+**What this does to the solution under this assumption.** It does not argue against subtree counting; the 23-of-25 phantom count stands and the queue is still mostly noise. It argues that the change needs a companion, because shipping it alone would have permanently silenced the node that turned out to be hiding a real gap. Two candidate shapes, neither ideated yet: count the subtree but keep offering a parent whose body has grown since its children were attached, or treat re-parenting as the event that marks a parent served, so a parent that acquired prose *after* its solutions moved down stays visible.
+
+**How weak this measurement is, stated plainly.** Seven of 23, not a sample chosen at random — they are the seven this pass had already opened for other reasons, which biases toward nodes with long bodies, and long bodies are exactly where an unheld need would hide. The true rate across all 23 is likely lower than 2-in-7. It is also a judgement call each time, made by one reader with no second opinion: "does the parent hold a need its children don't" has no exit code. Treat 2 as a floor on the count, not an estimate of the rate.
+
+_Method: direct reads of seven parent node files and their child-link blocks, plus reads of three of the children. No test was run, no result recorded, and this promotes nothing — the instrument beneath this assumption is still unrun._
