@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[The sweep reports which tests already carry an instrument, beside the solutions that lack one]]
 [[Attaching an instrument to a test that has one is refused unless replacement is declared]]
+[[Replacing an instrument preserves the old command and re-arms the permit if it is restored]]
 
 `ost_set_instrument` does two different jobs behind one call: it attaches a runnable command to a test that has none, and it replaces the command on a test that already has one. The first is pure repair. The second is destructive — the tool's own contract says a replacement deliberately un-clears any permit the old command held, so a swap costs a verification that has to be re-run by hand.
 
