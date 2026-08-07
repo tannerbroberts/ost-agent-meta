@@ -21,3 +21,6 @@ The threshold deliberately does not claim the loss becomes "minutes", which is w
 **What a green here would NOT settle.** The blind spot this candidate never escapes: rejection needs divergent history on one branch, so two passes on separate branches, or building non-overlapping duplicates of one intent, produce no rejection at any cadence. It also says nothing about whether pushing unfinished work to a shared branch is acceptable in the repositories this would run against, which is a policy question for people.
 
 ⚠️ Unvalidated, agent-proposed. Nobody has run it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/early-push-collision-window.test.ts` — No test files found, exiting with code 1

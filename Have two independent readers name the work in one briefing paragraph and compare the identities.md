@@ -21,3 +21,6 @@ The matcher is the object under test, not the file format. A spec that asserts a
 **What a green here would NOT settle.** Only that two namings of one paragraph match. It would not show that a claim survives a pass dying mid-build — the expiry problem the solution's own body names as inherited and unsolved — nor that two passes would bother to claim before starting, nor that the vocabulary generalises past this one paragraph. n=1 on the input, and the 1 is the case selected because it is the case that failed.
 
 ⚠️ Unvalidated, agent-proposed. Nobody has run it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/work-claim-vocabulary-match.test.ts` — No test files found, exiting with code 1

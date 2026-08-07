@@ -21,3 +21,6 @@ instrument: npx vitest run test/loop/prior-art-scan-catches-recorded-collision.t
 **What a green here would NOT settle.** That the scan catches collisions in general. The node this sits under records the sharper case explicitly — two passes building non-overlapping duplicates of one intent leave nothing textual to find, and no version of this scan sees them. It would also say nothing about false positives, which is the cost side: a scan that stops a pass whenever recent history looks vaguely related is worse than no scan.
 
 ⚠️ Unvalidated, agent-proposed. Nobody has run it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/prior-art-scan-catches-recorded-collision.test.ts` — No test files found, exiting with code 1

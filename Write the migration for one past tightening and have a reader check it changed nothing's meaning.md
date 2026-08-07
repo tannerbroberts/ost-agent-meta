@@ -32,3 +32,6 @@ Byte-identical prose plus a red-to-green `check` is a strong mechanical stand-in
 So the reader in this test's title has not been made redundant, only made cheaper: they no longer have to diff the wording, and can spend their attention on the handful of nodes whose position moved. If that set is large, this instrument passing should not be read as the test passing.
 
 It also covers exactly one past tightening. Generalising from that to "migrations ship with tightenings and it works" is the inference this evidence cannot support.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/ost/tightening-migration-meaning.test.ts` — No test files found, exiting with code 1

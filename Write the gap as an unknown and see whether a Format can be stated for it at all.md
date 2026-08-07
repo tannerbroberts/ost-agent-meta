@@ -22,3 +22,6 @@ The assumption is that the gap between the affordable goal and the real one is a
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/ost/unknown-format-required.test.ts — The test names the Format section as its discriminator — "an unknown that cannot say what a valid answer looks like is not an unknown" — but nothing currently enforces that, so an Unknown can be created with the section absent and the discriminator never bites. This asserts it: creating an Unknown without a non-empty `## Format` is refused at the tool boundary, and `ost_next_work` reports a missing Format in that unknown's `gaps` rather than counting it as contract-complete. Missing-spec red, not assertion red — this pass cannot read the repo, so the file is absent; a builder should write it against the real create path so it goes red on an accepted Format-less Unknown. It does not settle this vault's actual gap: whether a Format can be stated for the affordable-goal gap without reducing to "we would have more time" is a semantic judgement no exit code makes, and it stays with a human.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/ost/unknown-format-required.test.ts` — No test files found, exiting with code 1
