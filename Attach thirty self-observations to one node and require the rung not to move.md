@@ -7,7 +7,7 @@ threshold: >-
   After attaching 30 transcript records from the same actor to one opportunity,
   its rung is unchanged and every surface reporting its source count also
   reports the distinct-actor count — 0 places where the raw count appears alone.
-instrument: npx vitest run test/adapters/corroboration-actor-ceiling.test.ts
+instrument: npx vitest run test/evidence/self-observation-ceiling.test.ts
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,6 +23,7 @@ instrument: npx vitest run test/adapters/corroboration-actor-ceiling.test.ts
 
 ## History
 - 2026-08-06 body edited — The body declared "Lane: compute-only", which this pass had no power to set — `ost_flag_humans_required` is withheld on this surface and only a human's `ost-agent lane --set` moves what compute may run. The node carries no `lane:` field, so its effective lane is needs-humans (confirmed: it landed in `assumptionWork.needsHumans`), and the prose contradicted that. Replaced with the vault's established "Who runs it" phrasing.
+- 2026-08-07 instrument: npx vitest run test/adapters/corroboration-actor-ceiling.test.ts → npx vitest run test/evidence/self-observation-ceiling.test.ts — This test asks whether volume of self-generated observation can push a node up the believability ladder, which is a property of the ladder's ceiling rules and is settled by code, not by a person: attach thirty transcript-sourced observations to one node and assert the computed rung is unchanged. It fails today because no spec asserts that a self-observation count cannot move a rung — the pass writing it had no repository sight (ost_read_repo refused for want of product.repos), so the file is absent rather than the assertions falling short against a real module.
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/adapters/corroboration-actor-ceiling.test.ts` — No test files found, exiting with code 1
