@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A permit re-armed on a byte-identical command is still a permit for the same measurement]]
 
 **The idea.** A replacement records the command it displaced alongside the observation that command had earned. If the original command is later set again, the observation it held is re-associated rather than gone.
 
