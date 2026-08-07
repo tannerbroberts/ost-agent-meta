@@ -2065,3 +2065,4 @@
 {"ts":"2026-08-06T23:49:49.203Z","tool":"ost_next_work","ok":true,"ms":63,"surface":"mcp","argBytes":2,"session":"mcp-b6b3c580-0fcd-4564-9456-e17b54ee132b"}
 {"ts":"2026-08-06T23:50:22.359Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":3325,"session":"mcp-b6b3c580-0fcd-4564-9456-e17b54ee132b"}
 {"ts":"2026-08-06T23:50:39.433Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2994,"session":"mcp-b6b3c580-0fcd-4564-9456-e17b54ee132b"}
+{"ts":"2026-08-07T01:23:20.543Z","tool":"ost_ingest_inbox","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-775f537b-ec20-455a-8369-38ce202c1da8"}
