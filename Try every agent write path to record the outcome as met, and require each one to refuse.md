@@ -20,3 +20,6 @@ The interesting cases are not `ost_set_status`, which already lacks `validated`.
 **What a green here would NOT settle.** Whether any team can name an external signal worth gating on, whether the signal they choose measures what they believe it measures, or whether the human CLI escape hatch gets used routinely. All three are how this solution fails in the field, none has an exit code, and all stay with "Teams can define an external signal that decides whether their outcome was met" — the reader-and-buyer-shaped belief beside this one.
 
 ⚠️ Unvalidated, agent-proposed. Nobody has run it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/ost/outcome-signal-gate.test.ts` — No test files found, exiting with code 1

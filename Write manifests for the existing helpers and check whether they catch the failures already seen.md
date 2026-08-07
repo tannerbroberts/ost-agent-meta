@@ -22,3 +22,6 @@ The assumption is that requirements can be declared accurately enough to catch r
 
 ## History
 - 2026-08-04 instrument: (none) → npx vitest run test/runner/helper-manifest-coverage.test.ts — The threshold — the manifests catch the known failure, and each omits at most 1 real dependency — is a diff between two things the repository holds: the spec loads each helper's declared manifest, extracts the commands and builtins the script actually invokes, asserts `mapfile` is declared, and asserts no manifest omits more than one command its script genuinely uses. It fails today because no helper carries a manifest.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/runner/helper-manifest-coverage.test.ts` — No test files found, exiting with code 1

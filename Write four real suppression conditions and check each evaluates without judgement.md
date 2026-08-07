@@ -21,3 +21,6 @@ instrument: npx vitest run test/ost/suppression-condition.test.ts
 **Lane: compute-only.**
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/ost/suppression-condition.test.ts` — No test files found, exiting with code 1

@@ -28,3 +28,6 @@ Replaying historical snapshots is a proxy for durability, not durability itself.
 The proxy has a specific blind spot worth naming: snapshots capture what the source *returned*, not changes to how it is reached — an auth change, a rate limit, a moved endpoint. Those are the failures most likely to break a pull adapter in practice and none of them appear in a replay corpus.
 
 Nothing here bears on whether reading this source directly is worth doing. That the messiest source *can* be adapted says nothing about whether the records it yields change a single node in the tree, which is the question that decides whether any adapter should be written.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/adapters/messiest-source-replay.test.ts` — No test files found, exiting with code 1

@@ -21,3 +21,6 @@ The three change kinds are chosen because they fail differently. A created node 
 **What a green here would NOT settle.** Everything the solution is actually for. It would not show that a reader orients faster, that the view is legible at this tree's real size — 1071 nodes — or that structure is what a stakeholder wants rather than an answer to "are we on track?". Those belong to "A rendered tree orients a reader faster than the files do", which is a reader-measured claim and stays with people. A green exit code here must not be read as evidence that anyone was oriented.
 
 ⚠️ Unvalidated, agent-proposed. Nobody has run it.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/cli/tree-view-diff-since-last-visit.test.ts` — No test files found, exiting with code 1

@@ -26,3 +26,6 @@ instrument: npx vitest run test/loop/checkpoint-update.test.ts
 
 ## History
 - 2026-08-05 instrument: (none) → npx vitest run test/loop/checkpoint-update.test.ts — Asserts the node's one falsifiable engineering claim — that an announced update is held until between passes and never applied mid-pass, so it cannot land on a half-finished write. Red today because no update channel and no checkpoint barrier exist in the loop at all.
+
+## Instrument Log
+- 2026-08-07 **red** (exit 1) `npx vitest run test/loop/checkpoint-update.test.ts` — No test files found, exiting with code 1
