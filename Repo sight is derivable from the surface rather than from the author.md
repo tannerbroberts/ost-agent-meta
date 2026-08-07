@@ -5,6 +5,7 @@ created: '2026-08-07'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The sight flag is set from the grant table and cannot be set by the caller]]
 
 **Kind: feasibility.**
 
