@@ -24,3 +24,4 @@ The matcher is the object under test, not the file format. A spec that asserts a
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/loop/work-claim-vocabulary-match.test.ts` — No test files found, exiting with code 1
+- 2026-08-07 **green** (exit 0) `npx vitest run test/loop/work-claim-vocabulary-match.test.ts` — Duration  408ms (transform 26ms, setup 0ms, collect 28ms, tests 179ms, environment 0ms, prepare 24ms)
