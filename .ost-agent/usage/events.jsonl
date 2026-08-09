@@ -2231,3 +2231,7 @@
 {"ts":"2026-08-07T17:09:37.913Z","tool":"ost_next_work","ok":true,"ms":86,"surface":"mcp","argBytes":2,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
 {"ts":"2026-08-07T17:09:58.139Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2163,"session":"mcp-bf57e5ac-113d-4f7c-8cae-c8af18b2d02d"}
 {"ts":"2026-08-09T22:53:11.058Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
+{"ts":"2026-08-09T22:53:13.897Z","tool":"ost_next_work","ok":true,"ms":96,"surface":"mcp","argBytes":2,"session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
+{"ts":"2026-08-09T22:54:11.647Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
+{"ts":"2026-08-09T22:54:29.944Z","tool":"ost_read_repo","ok":false,"ms":0,"surface":"mcp","argBytes":2,"err":"no product repos configured — add local repo paths under `product.repos` in ost.config.yaml so the agent can read what the product is","session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
+{"ts":"2026-08-09T22:59:12.489Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4307,"session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
