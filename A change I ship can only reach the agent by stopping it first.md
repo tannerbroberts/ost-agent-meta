@@ -12,12 +12,6 @@ evidence: assertion
 [[Agent proposes its own workflow changes for one-click adoption]]
 [[Improvements I ship never reach the agents already running]]
 
-#Opportunity #unvalidated #needs-customer-interview #placement-ambiguous #evidence/assertion
-[[Versioned workflow with scheduled hot-swap and rollback]]
-[[Canary the changed process against the old one]]
-[[Agent proposes its own workflow changes for one-click adoption]]
-[[Improvements I ship never reach the agents already running]]
-
 **The need (customer's voice):** "Every time I want the agent to work a little differently, I have to stop it, change it, and start it over — and I lose the thread of what it was doing. So I put off improvements, and it keeps working the old way."
 
 The running process holds its policy from when it started. Shipping an improvement means killing the run, and killing the run costs whatever it was in the middle of — so improvements queue up behind a restart nobody wants to spend, and the agent keeps running the version I already know is worse.
@@ -33,4 +27,4 @@ The running process holds its policy from when it started. Shipping an improveme
 Evidence: `INBOX:2026-07-24-opp-self-replacing-workflow.md`, and the friction record named above.
 
 ## History
-- 2026-08-09 merged "Improving how the agent works means interrupting it" into this node and deleted its file — Same claim, and the duplication was manufactured mechanically rather than by two people noticing two needs. The survivor's own frontmatter records its origin as `tree-restructure:2026-08-05 — split from the bucket that held these solutions directly`: the 2026-08-05 pass moved all three solutions off "Improving how the agent works means interrupting it" onto this newly-created child, leaving the parent an empty restatement of it. Parent said "every time I want the agent to work a little differently, I have to stop it, change it, and start it over"; child says "shipping an improvement means killing the run". One need, stated twice, because a re-parenting created the second copy. Merging here rather than the other way because this node holds the subtree and states the mechanism (policy frozen at start) rather than only the felt pain. The loser's customer-voice framing, its schema-evolution instance, and its unresolved placement question are carried into the prose. Executed by the 2026-08-09 unattended sweep, acting on the merge proposed on 2026-08-07 and left unexecuted "for want of body sight" — this pass had body sight and confirmed the two bodies make the same claim before folding them.
+- 2026-08-09 body edited — Repairing a defect this pass introduced in the merge of 2026-08-09, not a change of meaning. The `prose` passed to `ost_merge_nodes` began with its own `#Opportunity` tag line and a copy of the four child wikilinks, and the tool preserved the node's existing header block and appended that prose beneath it — so the tag line appeared twice and "Versioned workflow with scheduled hot-swap and rollback", "Canary the changed process against the old one", "Agent proposes its own workflow changes for one-click adoption" and "Improvements I ship never reach the agents already running" were each wikilinked twice from this one file. Four second backlinks, which is the single-backlink rule (`check` rule single-backlink) broken four times by the write that was supposed to reduce duplication. This edit restores exactly one header block and one edge per child; the prose below it is unchanged in substance. Recorded rather than quietly fixed because the cause generalises: `prose` on a merge is the body only, and a caller that hand-writes the link block gets a duplicate rather than a refusal.
