@@ -2236,3 +2236,4 @@
 {"ts":"2026-08-09T22:54:29.944Z","tool":"ost_read_repo","ok":false,"ms":0,"surface":"mcp","argBytes":2,"err":"no product repos configured — add local repo paths under `product.repos` in ost.config.yaml so the agent can read what the product is","session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
 {"ts":"2026-08-09T22:59:12.489Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4307,"session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
 {"ts":"2026-08-09T22:59:22.702Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2149,"session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
+{"ts":"2026-08-09T22:59:48.581Z","tool":"ost_merge_nodes","ok":true,"ms":56,"surface":"mcp","argBytes":4188,"session":"mcp-de27845a-b3fa-44ae-8244-f427552e57c1"}
