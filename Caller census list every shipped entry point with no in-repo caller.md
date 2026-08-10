@@ -19,3 +19,15 @@ evidence: assertion
 **Cost.** Small — one module, one CLI subcommand, no schema change and no new state.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Run the census and check it accuses claim without accusing the eight commands build-pass invokes"
+
+```
+npx vitest run test/product/caller-census.test.ts
+```
+
+Quoted rather than linked: the test hangs under the Assumption "A static walk can tell an unreached entry point from a reached one well enough to be read", and a title is wikilinked exactly once in the vault.
+
+Red today as **`no-spec`** — the file does not exist, which is the weakest reason a command can fail. The assertion that gives it meaning is written out on the test node: the census must name `claim` and must not name the six subcommands `build-pass.sh` reaches through `node "$CLI" <subcommand>`.
