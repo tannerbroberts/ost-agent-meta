@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #founder-theory #self-organization #unvalidated #evidence/assertion
+[[Class-level ranking matches how the founder actually triages a live backlog]]
 
 Let opportunities belong to named classes, and let one act re-rank the class — "up-rank/down-rank opportunities into entire classes of opportunities" (founder, 2026-08-10). When a fundamental misunderstanding falls, it rarely falls on one node; every opportunity that rested on it should sink together, in a single justified, versioned act, rather than through thirty hand-edits that will never all happen. The evidence-debt gate on the founder-theory lane is this shape already, done by hand once: a class ("resting on founder theory") and a rank consequence ("no new siblings until…"). This solution makes that a mechanism.
 
