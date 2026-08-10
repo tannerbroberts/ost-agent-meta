@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #founder-theory #goal-acquisition #unvalidated #evidence/assertion
+[[The operator will let a surviving claim widen a real permission without a fresh approval]]
 
 Make "grows its autonomy as it proves it deserves it" a mechanism instead of a mood. A ledger records every claim the agent staked, the instrument that judged it, and the outcome; permission scope is a *function of the ledger* — sustained survived-claims widen what the agent may probe or spend unattended, refuted claims narrow it, and the mapping from track record to scope is human-set the way the spend ceiling is. Trust stops being a constant configured once and becomes a price reality has been paid.
 
