@@ -29,3 +29,4 @@ instrument: npx vitest run test/knowledge/disposition-pattern.test.ts
 - 2026-08-10 **no-spec** (exit none) `npx vitest run test/knowledge/disposition-pattern.test.ts` — test/knowledge/disposition-pattern.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-10 **no-spec** (exit none) `npx vitest run test/knowledge/disposition-pattern.test.ts` — test/knowledge/disposition-pattern.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-10 **no-spec** (exit none) `npx vitest run test/knowledge/disposition-pattern.test.ts` — test/knowledge/disposition-pattern.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/knowledge/disposition-pattern.test.ts` — test/knowledge/disposition-pattern.test.ts does not exist — no spec was collected, so nothing was measured
