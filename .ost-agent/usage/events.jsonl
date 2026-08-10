@@ -2282,3 +2282,4 @@
 {"ts":"2026-08-10T01:28:21.218Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
 {"ts":"2026-08-10T01:28:56.822Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":44,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
 {"ts":"2026-08-10T01:30:12.458Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2997,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c","wrote":["Something can ship, pass its tests, and never be wired into anything that runs.md"]}
+{"ts":"2026-08-10T01:30:31.742Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":2228,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c","wrote":["Caller census list every shipped entry point with no in-repo caller.md"]}

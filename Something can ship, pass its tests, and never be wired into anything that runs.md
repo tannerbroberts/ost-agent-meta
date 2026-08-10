@@ -6,6 +6,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Caller census list every shipped entry point with no in-repo caller]]
 
 **The need, from the operator's side.** I read my changelog and my test suite and conclude a class of failure is now handled. Neither artefact can tell me whether the handling is ever reached. A module that exists, compiles, and has a green spec of its own is indistinguishable — in every record I actually look at — from one that runs. So my picture of what is protecting me is built out of things that may protect nothing.
 
