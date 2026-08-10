@@ -2255,3 +2255,4 @@
 {"ts":"2026-08-10T00:23:42.665Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":2541,"session":"mcp-f23a2eb1-c5aa-45cc-a865-7cd7df7272fc"}
 {"ts":"2026-08-10T00:24:13.990Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3687,"session":"mcp-f23a2eb1-c5aa-45cc-a865-7cd7df7272fc","wrote":["Withhold deferred opportunities from the under-served count.md"]}
 {"ts":"2026-08-10T00:24:27.308Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2079,"session":"mcp-f23a2eb1-c5aa-45cc-a865-7cd7df7272fc","wrote":["A retired opportunity is still counted as needing solutions.md"]}
+{"ts":"2026-08-10T00:24:51.015Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3633,"session":"mcp-f23a2eb1-c5aa-45cc-a865-7cd7df7272fc","wrote":["Count deferred opportunities in the under-served queue.md"]}

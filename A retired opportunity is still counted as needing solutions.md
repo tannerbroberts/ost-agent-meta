@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count deferred opportunities in the under-served queue]]
 
 **The belief, stated so it could be false.** `computeNextWork` does not consult an Opportunity's `status` when it decides whether that opportunity is under-served, so a node carrying `status: deferred` is counted, compared against `minSolutionsPerOpportunity`, and offered as work.
 
