@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #founder-theory #self-organization #unvalidated #evidence/assertion
+[[A reader can find a node's prior classification from the node itself, without opening git]]
 
 A first-class reclassify operation: a node can change layer, parent, or rank, and the act writes a version — what it was, where it sat, why it moved — into the node itself, not only into git. "Never delete content, version it" (founder, 2026-08-10): the file's history section carries each prior classification the way the root Outcome's History already carries its body edits, so a reader sees the move without archaeology. The justification is mandatory and structural, not prose-optional: a move without a stated reason is refused the way an AssumptionTest without an instrument is refused.
 
