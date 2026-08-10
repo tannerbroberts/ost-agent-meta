@@ -69,3 +69,27 @@ This is a sibling of "The queue sends me to ideate under a heading that already 
 **What this does NOT settle.** The remaining 37 of 62 were not listed by the tool and were not classified; the true proportion across the whole bucket is still unmeasured, and a capped list is not a random sample — it is alphabetical, which is not a reason to think it is unrepresentative but is not a reason to think it is representative either. It also says nothing about whether the 7 mechanical ones are well-specified, only that a command is the right kind of answer for them.
 
 _Method: the 25 titles returned by `ost_next_work`, classified by subject; the shipped class confirmed by reading `status:` from each node's frontmatter; two of the no-command class confirmed by reading the full nodes. Agent self-observation of this vault — it grounds feasibility, not demand. No test was run, no result recorded, and this node's rung is unchanged._
+
+## The census re-done by opening the tests instead of reading the titles — 2026-08-10
+
+**Not a recorded result, and not an independent measurement.** The 2026-08-09 census on this node classified 25 queue entries by the solution's subject and flagged its own weakest point: *"they were classified by subject rather than by opening each node… it is still 14 titles read as titles."* This pass opened twelve of the twenty-five and, for each, read **the assumption test beneath it** rather than the solution — because what an instrument can measure is a property of the test, not of the solution's topic.
+
+**Twelve opened, and none of them wants a mechanical instrument.**
+
+| Class | n | What the test beneath actually asks for |
+|---|---|---|
+| Already shipped, `status: shipped` read from frontmatter | 3 | Nothing red is possible; the behaviour exists |
+| No command by design, stated in the node's own body | 1 | This node |
+| A person is the measurement | 5 | Ten buyers, ten practitioners, five operators, two practitioners, operators' felt value |
+| **Elapsed calendar time is the measurement** | 2 | "Count previously unseen prompts over a month"; "two unattended weeks — count pages, grind, money" |
+| Premise superseded by the product | 1 | "Can a full pass be done with no delete or edit tool" — answered no by building the tools |
+
+**The elapsed-time class is new and the earlier census had no slot for it.** Its three classes were shipped, no-command-by-design, and human preference. A test whose method is *run normally for four weeks and count what stops you* is none of those: nobody is being asked anything, no preference is being elicited, and the product is not finished-and-shipped. It is a question that only calendar time can answer, and it is as unreachable by a spec file as an interview is — for a different reason, which is why it deserves its own name. Two of twelve is a small sample, but it is a class that will never shrink to zero, because a product whose whole claim is about unattended operation over time will keep generating tests shaped like that.
+
+**Where this agrees with the earlier census and where it goes further.** It agrees on the headline — the bucket is mostly not asking for what it says it is asking for — and on the shipped count of three, verified the same way. It goes further in one respect that matters: the earlier census read fourteen titles and *inferred* they were human-preference; opening the tests confirms the inference for the five checked and, more usefully, shows the inference was made at the wrong level. "Nested sub-outcomes between the distant goal and the opportunity space" is a **mechanical** solution — it proposes a schema change — and would be classed as plausibly-instrumentable by subject. Its only test asks whether two practitioners place the same opportunity under the same sub-outcome. Classifying by the solution's topic gets that one wrong in the optimistic direction, which means the earlier estimate of seven plausibly-mechanical entries is an upper bound rather than a centre.
+
+**The consequence for this pass, stated plainly.** This sweep held repo sight — the capability every prior pass recorded as the thing blocking the mechanical remainder — and wrote **zero instruments**, because among the twelve entries it opened there was no test a command could settle. That is a stronger version of the same finding the last three passes reported: the blocker was named as blindness, and with the blindness removed the queue did not yield. Whatever is wrong with `solutionsMissingInstruments` is not repo access.
+
+**What this does not settle.** Thirteen of the twenty-five visible entries were not opened, and the thirty-three the tool does not list have now gone four passes without being classified by anybody. The upper bound of seven is not disproved — only shown to be measured at the wrong level. And nothing here says whether the escape this node proposes is one an operator would want, which is still what its own human-required test is for.
+
+_Method: full reads of twelve node files and their assumption tests in this vault, plus `ost_read_repo` listings of the product suite, 2026-08-10. First-party reads of this vault and of committed code; no command executed, no result recorded, no rung changed._
