@@ -39,3 +39,4 @@ It also settles nothing about whether a stricter `shipped` is wanted, which is a
 - 2026-08-10 **no-spec** (exit none) `npx vitest run test/ost/shipped-requires-witness.test.ts` — test/ost/shipped-requires-witness.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-10 **no-spec** (exit none) `npx vitest run test/ost/shipped-requires-witness.test.ts` — test/ost/shipped-requires-witness.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-10 **no-spec** (exit none) `npx vitest run test/ost/shipped-requires-witness.test.ts` — test/ost/shipped-requires-witness.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/ost/shipped-requires-witness.test.ts` — test/ost/shipped-requires-witness.test.ts does not exist — no spec was collected, so nothing was measured
