@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A signature can group the friction records without collapsing distinctions that matter]]
 
 **The idea.** Fix it upstream, where the volume is manufactured. `adapters/transcript.ts` currently mints one evidence record per session. Instead, key a record on the *signature* of the friction — the tool name and the error class, e.g. `permission-denied:mcp__ost-agent__ost_check` — and keep one record per signature per window, whose body carries a count and the session ids it covers. Forty sessions denied the same tool become one record that says forty.
 
