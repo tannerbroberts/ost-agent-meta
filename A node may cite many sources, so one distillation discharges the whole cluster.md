@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Every reader of source can take a list without breaking the nodes that carry a string]]
 
 **The idea.** Make `source` a list. A node distilled from forty session-friction records cites forty ids, and the mapped-ness derivation — *"evidence is mapped iff some node cites its id as that node's source"* — is unchanged except that "cites" now reads a list. One distillation, forty records discharged, and the tree gains one node instead of forty.
 
