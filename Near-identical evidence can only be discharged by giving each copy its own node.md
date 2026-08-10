@@ -41,3 +41,31 @@ Both new items were read in full rather than sampled, and neither revealed a nee
 One thing this adds that the earlier census did not. That earlier note put the cost at "one tool call per body it opened" and concluded the sweep "physically cannot audit its own inbox within a firing". The first half is now known to be avoidable: the evidence records are ordinary files under `.ost-agent/evidence/`, readable with `Read`/`Glob`/`Grep`, so a pass holding those built-ins can audit the whole 96 at a fraction of the metered cost. The second half stands anyway — reading them all still would not discharge one, because discharge needs a node citing the id, not a reading of it. Worth separating for whoever picks this up: the audit is cheap and the discharge is not, and only the second is what this node is about.
 
 For a human, unchanged and now better evidenced: nothing an unattended pass can do to individual nodes touches this. The choice is between this node's three sibling solutions and the ones under "The queue groups identical friction shapes into one item with a count". Every pass that meets this queue pays to re-read a sample of it and leaves it larger than it found it.
+
+## The whole corpus censused instead of sampled — 177 of 177, 2026-08-10 (not a recorded result)
+
+**No test was run and nothing here clears a gate.** This is a mechanical count over files, done to close the limitation every previous census on this node declared about itself. The 2026-08-10 note above says *"this census rests on a 5-of-94 sample and says so"*, and the note after it read two more records in full. Three passes have now described this queue from between two and five of its members. This one counted all of it.
+
+**The method that made it cheap, which the note above predicted.** That note observed that the evidence records are ordinary files under `.ost-agent/evidence/` and therefore auditable with the built-in file tools at a fraction of the metered cost. That is correct and is what happened: the entire census below is five `Grep` calls and one `Glob`, with no `ost_next_work` body fetch beyond the six records read in full for other reasons. The audit that three passes called physically impossible within a firing took six tool calls.
+
+**The corpus.** 177 evidence records on disk. `ost_next_work` reports **98** of them unmapped after this firing's ingest — up from 96 at the previous firing, and both increments are `TRANSCRIPT:` records filed by this vault's own sessions, which is this node's central claim recording itself for the third consecutive pass on the same day.
+
+**Every friction signature in the corpus, counted rather than sampled.**
+
+| Signature | Occurrences | Records carrying it |
+|---|---|---|
+| `requested permissions to …` — a grant discovered by hitting it | 128 | 48 |
+| `File has not been read yet` — the read-before-write refusal | 73 | 28 |
+| `clarifying_question` — a question asked with nobody present | 38 | 19 |
+| `InputValidationError` — a dialect the surface does not accept | 11 | 10 |
+| `permission_denied` — a call rejected outright | 6 | 5 |
+
+91 of the 177 records carry at least one of those signatures, and that 91 is a floor rather than a total, because the union pattern behind it used a narrower phrasing of the permission case than the row above does.
+
+**What the count settles, and it is the thing three passes have asserted from samples.** Every one of the five signatures already has an opportunity in this tree — respectively "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time", "The file changed after I read it, and the failed edit is how I find out", "A run has no authority to decide anything, so every fork is a full stop", "I compose a hundred and seventy lines before the surface tells me it does not accept that dialect", and the first of those again. So the claim that the queue restates needs the tree already holds is no longer an inference from five records: it is a property of the corpus. No opportunity was created from the 98 this pass, under the rule that an item revealing no genuine need is skipped, and the skip is now evidenced rather than assumed.
+
+**One thing the count changes about how this node reads.** The earlier notes lead with the read-before-write family as the dominant shape, because that is what the sampled records happened to contain. Over the whole corpus it is second. The largest class by a wide margin is a permission the running surface does not hold — 128 occurrences across 48 records, better than a quarter of every evidence record in the vault. That matters for which sibling solution is worth building first: a normaliser tuned to the edit-refusal family would collapse 28 records, and one tuned to the permission family would collapse 48.
+
+**What this does NOT settle.** The counts are taken over all 177 records, not over the 98 unmapped ones, because mapped-ness is a derived relation over node frontmatter and separating it was not worth a sixth call — so the table describes the corpus and is an upper bound on the unmapped subset, not a measurement of it. Signatures were matched by literal string, so a record phrasing the same friction differently is uncounted and the true concentration is at least this high rather than exactly this high. And nothing here touches the actual problem: counting 98 records discharges none of them, because discharge needs a node citing the id. The audit is cheap, the discharge is not, and only the second is what this node is about.
+
+_Method: one `Glob` of `.ost-agent/evidence/` and five counted `Grep` passes over it, plus six records read in full through `ost_next_work`. First-party reads of this vault's own files. No command executed, no result recorded, no rung changed._
