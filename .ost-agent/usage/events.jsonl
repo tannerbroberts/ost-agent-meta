@@ -2550,3 +2550,8 @@
 {"ts":"2026-08-10T22:20:04.601Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
 {"ts":"2026-08-10T22:20:07.665Z","tool":"ost_next_work","ok":true,"ms":63,"surface":"mcp","argBytes":2,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
 {"ts":"2026-08-10T23:20:56.077Z","tool":"ost_ingest_inbox","ok":true,"ms":24,"surface":"mcp","argBytes":2,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074"}
+{"ts":"2026-08-10T23:20:58.237Z","tool":"ost_next_work","ok":true,"ms":115,"surface":"mcp","argBytes":2,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074"}
+{"ts":"2026-08-10T23:21:44.410Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"mcp","argBytes":92,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074"}
+{"ts":"2026-08-10T23:24:38.815Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":108,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074"}
+{"ts":"2026-08-10T23:25:17.100Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":98,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074"}
+{"ts":"2026-08-10T23:26:23.173Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3684,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074","unknown":"What structure must opportunity classes have before class-level ranking can act on them"}
