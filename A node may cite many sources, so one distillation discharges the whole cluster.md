@@ -20,3 +20,15 @@ evidence: assertion
 **Cost.** Medium — a frontmatter shape change, every `source` reader updated, and a migration that must leave existing single-string nodes readable.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Cite three ids from one node and require all three to leave the unmapped list"
+
+```
+npx vitest run test/ost/multi-source-mapping.test.ts
+```
+
+Quoted rather than linked: the test hangs under the Assumption "Every reader of source can take a list without breaking the nodes that carry a string".
+
+Red today as **`no-spec`**. The load-bearing assertion is the rung ceiling: a node citing one `stated` source among two `assertion` sources must cap at `assertion`. That is pre-committed here, before the code exists, because taking the strongest source in a list is both the intuitive implementation and a free promotion.
