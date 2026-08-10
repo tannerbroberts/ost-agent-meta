@@ -30,3 +30,6 @@ instrument: npx vitest run test/ost/underserved-excludes-deferred.test.ts
 **One caveat on the instrument itself, recorded rather than hidden.** This pass could not read the product repository — `product.repos` is unconfigured and product-directory reads are denied on this surface — so it could not confirm that `test/ost/underserved-excludes-deferred.test.ts` does not already exist, nor name the module that has to change. If a spec of that name already exists and passes, this instrument is green on arrival and measures nothing, and that should be checked before anyone builds against it. The path follows the convention its sibling uses (`test/ost/instrument-queue-excludes-shipped.test.ts`).
 
 ⚠️ Unvalidated. Proposed, not run — no result is recorded and none may be recorded from an unattended pass.
+
+## Instrument Log
+- 2026-08-10 **red** (exit 1) `npx vitest run test/ost/underserved-excludes-deferred.test.ts` — No test files found, exiting with code 1
