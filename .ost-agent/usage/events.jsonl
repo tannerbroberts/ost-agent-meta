@@ -2411,3 +2411,10 @@
 {"ts":"2026-08-10T14:37:36.500Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
 {"ts":"2026-08-10T14:37:40.080Z","tool":"ost_next_work","ok":true,"ms":62,"surface":"mcp","argBytes":2,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
 {"ts":"2026-08-10T15:23:38.471Z","tool":"ost_ingest_inbox","ok":true,"ms":47,"surface":"mcp","argBytes":2,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
+{"ts":"2026-08-10T15:23:42.552Z","tool":"ost_next_work","ok":true,"ms":227,"surface":"mcp","argBytes":2,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
+{"ts":"2026-08-10T15:23:57.476Z","tool":"ost_next_work","ok":true,"ms":49,"surface":"mcp","argBytes":62,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
+{"ts":"2026-08-10T15:23:59.235Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
+{"ts":"2026-08-10T15:24:44.674Z","tool":"ost_read_tree","ok":true,"ms":153,"surface":"mcp","argBytes":2,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
+{"ts":"2026-08-10T15:26:18.080Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
+{"ts":"2026-08-10T15:26:18.627Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
+{"ts":"2026-08-10T15:37:11.668Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":9330,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d","unknown":"What is in the 33 queue entries no tool has ever listed"}

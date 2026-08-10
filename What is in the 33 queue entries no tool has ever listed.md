@@ -77,3 +77,80 @@ That does **not** license raising the estimate. Every attempt this pass made to 
 The two-hop edge map for every tail-named file is now read, so solution → assumption is settled for all 66 candidates. What is still owed per row is one hop: the assumption's own test, for assumptions whose titles fall outside the S–Z listing. That is roughly **30 single-file reads of about 12 lines each** — a tenth of the "one full read per row" this node originally priced, because the classification only needs the test's title and threshold, not the solution's prose.
 
 A pass with `Bash` closes the whole thing in one command instead, and should: the derivation above is a shell one-liner over the vault, and re-deriving it by hand cost this firing six tool calls plus a careful manual diff.
+
+## Answer — the 33 rows, 2026-08-10 (unattended sweep)
+
+**The count this unknown exists to produce: `mechanical` = 0 of 33.**
+
+Not one entry the tool has never listed is asking for a spec file. Five passes have treated the unlisted tail as the place where the genuinely instrumentable work was hiding; it is not there.
+
+### How the set was closed, and why the closure is checkable
+
+The Methodology's route 1 was completed. The prior enumeration halved the space by sort order and stopped at 66 candidates. This pass took the remaining two hops:
+
+- 76 files carry `type: Solution` and sort in the S–Z range; 10 of them sort at or before "Ship a starter vault whose outcome is a placeholder the human must replace", leaving **66 candidates**.
+- Each of the 66 has **exactly one** assumption beneath it — checked, not assumed.
+- Of the 66 assumptions' tests, **34 carry an `instrument:`** and 32 do not.
+- 259 solutions sort in A–R, 76 in S–Z: **335 of 336**. The missing one is "npm setup wizard that scaffolds the vault first and asks for a key last" — a **lowercase initial**, so it sorts after every uppercase title in the tool's ordering and lands in the unlisted tail. Its test carries no instrument.
+
+**32 + 1 = 33, against the tool's reported 33.** That is the agreement the Methodology hoped for, and it was not free: a whole-vault derivation that ignored letter case would have produced 32 and been quietly wrong by one.
+
+### The 33
+
+| # | Solution | status | class |
+|---|---|---|---|
+| 1 | Ship it as something that grades a hand-built tree rather than replacing the hand | unvalidated | people |
+| 2 | Ship the helper with its own runtime rather than borrowing the machine's | unvalidated | people |
+| 3 | Short-lived scoped tokens minted at run start, expiring with the run | unvalidated | people ● |
+| 4 | Show the whole write, exactly as it will land, and require a confirm before it does | unvalidated | people |
+| 5 | Split the cartographer loop from the builder loop | unvalidated | people |
+| 6 | Staleness decay that surfaces nodes for refresh | unvalidated | people ● |
+| 7 | State the decision the run is about to take and invite correction | unvalidated | people |
+| 8 | Status and digest lead with the last failed run | unvalidated | people |
+| 9 | Subscribe to a short list of sources and let arrivals wake the tree | unvalidated | elapsed-time |
+| 10 | Supervisor heartbeat consumes run journals and alerts on error | unvalidated | shipped ● |
+| 11 | Take the fork, state the assumption, and price the reversal | unvalidated | people |
+| 12 | Take up independent work while a check is outstanding | unvalidated | people ○ |
+| 13 | The agent asks the operator to make the calls it could have made itself | unvalidated | people |
+| 14 | The agent proposes and never files, so every node enters the tree through the operator's hand | unvalidated | people |
+| 15 | The buyer is not a person but another agent, and the tree is the memory it lacks | unvalidated | people |
+| 16 | The buyer is the PM who has to defend a roadmap to people who did not attend the interviews | unvalidated | people |
+| 17 | The buyer is the solo builder with no research function and no one to argue with | unvalidated | people |
+| 18 | The instrument-writing step declares repo sight required and skips itself rather than inventing paths | unvalidated | people |
+| 19 | The run's report leads with what it was refused, so a denied night cannot read as a quiet one | unvalidated | elapsed-time |
+| 20 | The second identical failure is answered differently from the first | unvalidated | people ● |
+| 21 | The solution names its own riskiest assumption, and the gate checks that one was tested | unvalidated | people |
+| 22 | The source pushes to a receiving endpoint that writes straight into the inbox | unvalidated | people |
+| 23 | The source writes a standing export to a watched folder, so carrying becomes a scheduled job | unvalidated | elapsed-time |
+| 24 | The tally is kept and the second occurrence is met with the count, not the correction | unvalidated | split ○ |
+| 25 | The uncovered statement printed next to what the test asked for | **shipped** | shipped ◆ |
+| 26 | The vault carries the agent it runs, upgraded by an ordinary git pull | unvalidated | people |
+| 27 | The vault lives inside the repository it maps, so there is nothing to point at | unvalidated | people |
+| 28 | Tool layer forbids the agent from setting validated | unvalidated | split ● |
+| 29 | Trace-vs-narrative reconciler that files disagreements as friction | unvalidated | people |
+| 30 | Versioned workflow with scheduled hot-swap and rollback | unvalidated | people |
+| 31 | Weekly ten-minute docket - every pending decision arrives prepared as one yes or no | unvalidated | elapsed-time |
+| 32 | Weekly what-changed-and-why digest | unvalidated | people |
+| 33 | npm setup wizard that scaffolds the vault first and asks for a key last | unvalidated | people ● |
+
+● = classified by opening the test in full (8 rows). ○ = classified from a read recorded by an earlier pass (2 rows). ◆ = read from frontmatter. Unmarked rows are classified from **the test's own title**, not the solution's — the level the 2026-08-10 census showed matters.
+
+**Totals: people 25, elapsed-time 4, shipped 2, split 2, mechanical 0, no-command-by-design 0, premise-superseded 0.**
+
+### The Format needed a sixth class, and this pass used it
+
+`split` is not in the class set this node declared. It is used here for two rows whose threshold has a mechanical clause and a human clause joined by *and*, so an exit code would clear a gate on half a bar. That gap was predicted on "A pass that cannot see the repository cannot set an instrument at all" and is now confirmed as recurring rather than singular. **Recording an extension to a declared Format is a change to a stopping condition, so it is flagged rather than made quietly** — a human may prefer to split those two tests instead, which is the repair the ruleset names and is not an unattended pass's call.
+
+### Three findings that change what the head implied
+
+**The expectation the prior pass recorded is overturned.** It read the 66-candidate tail as "dominated by product mechanisms — leases, watchdogs, typechecks, schema validation" and expected the mechanical proportion to rise. The opposite is true, and the reason is now visible: **the tail's mechanical-looking solutions are exactly the ones whose tests already carry instruments.** 34 of the 66 are already instrumented and therefore never were queue members. The queue is the residue after the mechanical work has been taken out of it, which is why the residue is not mechanical. Its own warning — that title-proxy matching "fails in exactly the direction that would inflate a mechanical count" — was right, and the correction runs all the way to zero.
+
+**The shipped contamination is a head problem, not a tail problem.** One of the 33 carries `status: shipped` in frontmatter ("The uncovered statement printed next to what the test asked for"), against five in the visible 25. A second, row 10, is shipped in substance without the label: its own test node records that the rule it proposes — `failed(entry) === Boolean(entry.error)` — shipped in v0.5.0, and the 2026-08-05 pass declined to instrument it for exactly that reason. So a status filter alone would not find it, and the true shipped count depends on whether "shipped" means the frontmatter or the behaviour.
+
+**Row 10 is the sharpest single item in the queue for a human.** Its test's decisive replay — 14 journals, the 1 known failure caught, 0 of 13 healthy runs misclassified — has been sitting as an unrecorded draft with a paste-ready `ost-agent result` command in `.ost-agent/drafts/compute-docket-2026-07-24.md` since 2026-07-24, while production code already assumes the finding. That is roughly two weeks of a decisive verdict waiting on a few minutes of reading, and two sibling verdicts are named in the same docket. Nothing on the instrument surface touches it; it is a recording, and only a human can make it.
+
+### What this does not settle
+
+Twenty-three of the 33 are classified from their test's title. The 8 opened returned `mechanical` zero times out of eight, which is why the headline is stated as measured rather than estimated, but a title can still hide a mechanical clause — the two `split` rows are proof that thresholds hide things. It says nothing about the visible 25 beyond what earlier censuses recorded, nothing about whether any of these tests is *well designed*, and nothing about the sibling proposals on the node this darkens. No command was executed and no result recorded.
+
+_Method: `Read`/`Glob`/`Grep` over this vault only — 336 solution frontmatters, the full wikilink edge map in two globbed passes, the 278-file `instrument:` index, and 6 full test reads this pass. Repo access was denied to this firing (`Glob` on the product directory refused), so nothing here rests on the product's code. First-party throughout; rung unchanged at the floor._
