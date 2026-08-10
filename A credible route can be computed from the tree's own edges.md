@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Compute a route over a tree that encodes no ordering and require a refusal]]
 
 **The belief, stated so it can be false.** The edges the tree already holds are sufficient to compute a route — an ordered chain from where the reader is to the goal state — without any new declaration on any existing node.
 
