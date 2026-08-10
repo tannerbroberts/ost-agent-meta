@@ -2418,3 +2418,4 @@
 {"ts":"2026-08-10T15:26:18.080Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
 {"ts":"2026-08-10T15:26:18.627Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
 {"ts":"2026-08-10T15:37:11.668Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":9330,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d","unknown":"What is in the 33 queue entries no tool has ever listed"}
+{"ts":"2026-08-10T15:37:32.051Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2571,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
