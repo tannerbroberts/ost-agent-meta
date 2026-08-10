@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Plant a deliberately mis-shaped instance and require the control to report a bad plant, not a miss]]
 
 **The belief, stated so it can be false.** A positive control can tell the difference between a check that went blind and a plant that was never the shape the check looks for, and reports the two differently.
 
