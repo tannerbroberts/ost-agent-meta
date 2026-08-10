@@ -2409,3 +2409,5 @@
 {"ts":"2026-08-10T14:36:05.277Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1705,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
 {"ts":"2026-08-10T14:37:31.347Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3204,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232","unknown":"What is in the 33 queue entries no tool has ever listed"}
 {"ts":"2026-08-10T14:37:36.500Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:37:40.080Z","tool":"ost_next_work","ok":true,"ms":62,"surface":"mcp","argBytes":2,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T15:23:38.471Z","tool":"ost_ingest_inbox","ok":true,"ms":47,"surface":"mcp","argBytes":2,"session":"mcp-a4ba3963-9b13-4442-bede-0a3fcdabb54d"}
