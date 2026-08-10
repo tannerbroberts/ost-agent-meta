@@ -22,3 +22,17 @@ evidence: assertion
 **Cost.** A status predicate in one queue builder and one spec.
 
 ⚠️ Unvalidated. Proposed by the unattended pass that was itself handed the unsatisfiable item, which is a reason to trust the observation and discount the conviction.
+
+## Definition of done
+
+"Count deferred opportunities in the under-served queue"
+
+```
+npx vitest run test/ost/underserved-excludes-deferred.test.ts
+```
+
+Red today: the live `ost_next_work` of 2026-08-09 returned a `status: deferred` opportunity inside `underservedOpportunities` while the same response listed that node under `retiredFromDuplicateScan` for that very status. Green when the under-served builder consults status and the two analyses stop contradicting each other.
+
+The test title is quoted rather than linked because it is already wikilinked once by its parent Assumption, and a second link would fail `check`'s single-backlink rule.
+
+Not confirmed against the repository: `product.repos` is unconfigured and product-directory reads are denied on this surface, so whether a spec of that name already exists was not checkable. Check before building.
