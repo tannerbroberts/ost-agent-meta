@@ -47,3 +47,30 @@ That is one case, n=1, and the builder here was an agent with full repo access w
 **The honest counterweight.** One success does not price the failures, and the failures are the ones that leave no trace: a weak instrument nobody builds simply sits in the tree looking like coverage, and there is no log entry for that. This vault holds 340 tests and, per the rollup, zero recorded runs across every bucket — so the observed-green case is by construction the rare one. The right reading is that the weak red *can* work when a threshold carries it, not that it usually does.
 
 _Sources: the `## Instrument Log` on "Declare a required tool set and check a pass refuses before doing any work" (recorded exit codes, first-party) and `TRANSCRIPT:48c870d7-8192-478a-bdc1-f4aef040cce3` (observed). Grounds feasibility and usability, not demand. No result recorded by this pass and this node's rung is unchanged._
+
+## The weak form counted, and it was almost all of them — 2026-08-09
+
+This node was created from the writer's side and later softened by one observed success. What was missing from both was the size of the thing. Counted across the vault on 2026-08-09:
+
+- 342 assumption tests, 267 carrying an `instrument` field.
+- 266 with a recorded observation. **260 of those reds read `No test files found`.**
+- 241 named a spec path that does not exist in the product repo.
+- 25 named a spec that does exist.
+
+So the weak form was not an edge this node was watching for — it was 98% of the tree's recorded evidence that its own tests were capable of failing. Every one of those 241 also cleared `buildPermit`, whose stated reason is *"`<command>` fails today and passes when `<solution>` is built. That is the definition of done."* An empty file satisfies that sentence.
+
+`knowledge/instruments.ts` justifies the closed instrument form on the grounds that "an agent cannot author the outcome — only name the file". That argument holds exactly while the file exists. Naming one that does not authors the outcome completely, which is why the counts above are not a coincidence: the cheap path produced a guaranteed red.
+
+## What was built, and how this node's own evidence changed it — 2026-08-09
+
+A run that collects no spec is now observed `no-spec` rather than `red` (`src/ost/instrument.ts`). It is **filed, not refused** — the fact that a spec was never written is the actionable half, and refusing would leave the node looking un-run instead.
+
+The first design refused the permit for every weak red. **This node's 2026-08-09 addendum argued against that and changed it.** That addendum records a complete weak-red lifecycle — "Declare a required tool set and check a pass refuses before doing any work", red 2026-08-06 on `No test files found`, green 2026-08-07 — where the builder found the path empty and built to the node's pre-committed threshold instead. A blanket refusal would have blocked the one weak-red lifecycle this vault has watched succeed, so the bar became the threshold rather than the file: a weak red keeps its permit when the test names a **bound** threshold, and loses it only when there is neither a spec nor a fixed bar.
+
+Measured against this vault before shipping: of 241 affected permits, **180 stand and 61 are withdrawn**. The 61 are those handing a builder neither a spec nor a number.
+
+Two ways out are named in the refusal, because either is a real fix and the builder picks: write the failing spec, or pre-commit the bar.
+
+**What this does not settle.** It is a feasibility change, verified by spec (`test/eval/vacuous-red.test.ts`) and by the counts above. It says nothing about whether the 61 withdrawn permits were work anyone wanted, and nothing about desirability, viability or usability. It also does not show that the 180 kept permits are good — only that this vault's one observed case says a bound threshold can carry a builder through a missing spec, on n=1.
+
+_Sources: first-party counts over this vault's own node files and instrument logs, and the recorded observation cited in the addendum above (observed). No result recorded; this node's rung is unchanged._
