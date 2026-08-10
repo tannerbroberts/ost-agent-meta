@@ -2313,3 +2313,4 @@
 {"ts":"2026-08-10T01:37:52.788Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2583,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
 {"ts":"2026-08-10T01:38:09.090Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2768,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
 {"ts":"2026-08-10T01:38:27.831Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":2265,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
+{"ts":"2026-08-10T01:38:30.163Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
