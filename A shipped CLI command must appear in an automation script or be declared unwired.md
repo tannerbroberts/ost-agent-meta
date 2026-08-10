@@ -6,6 +6,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The commands that legitimately have no script caller are a small nameable set]]
 
 **The idea.** Narrow the claim to the one surface where reachability is cheap to decide. Every subcommand the CLI registers is either named by a script under `examples/automation/`, or listed in an explicit `unwired` allowlist with a one-line reason. A spec walks both lists and fails on any command in neither. Adding a command therefore forces one of two sentences: which loop runs it, or why nothing does.
 
