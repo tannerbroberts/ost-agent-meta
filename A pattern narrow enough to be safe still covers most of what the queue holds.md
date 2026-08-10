@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Match one candidate pattern against the stored corpus and count what it covers and what it would hide]]
 
 **The belief, stated so it can be false.** There is a pattern an operator would actually be willing to write — specific enough that they can predict what it hides — which still covers a large share of the 85 transcript records. If it exists, one dismissal replaces eighty-five and the operator keeps a defensible sentence about what they hid.
 
