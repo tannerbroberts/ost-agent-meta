@@ -24,3 +24,4 @@ instrument: npx vitest run test/friction/path-failure-attribution.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/friction/path-failure-attribution.test.ts` — filter:  test/friction/path-failure-attribution.test.ts
+- 2026-08-10 **green** (exit 0) `npx vitest run test/friction/path-failure-attribution.test.ts` — ✓ test/friction/path-failure-attribution.test.ts (40 tests) 4ms
