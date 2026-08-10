@@ -21,3 +21,4 @@ instrument: npx vitest run test/preflight/manifest-covers-observed-refusals.test
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/preflight/manifest-covers-observed-refusals.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/preflight/manifest-covers-observed-refusals.test.ts` — Duration  405ms (transform 134ms, setup 0ms, collect 202ms, tests 7ms, environment 0ms, prepare 27ms)
