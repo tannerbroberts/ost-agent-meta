@@ -2523,3 +2523,4 @@
 {"ts":"2026-08-10T22:12:26.407Z","tool":"ost_next_work","ok":true,"ms":62,"surface":"mcp","argBytes":2,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
 {"ts":"2026-08-10T22:15:21.132Z","tool":"ost_read_tree","ok":true,"ms":53,"surface":"mcp","argBytes":108,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
 {"ts":"2026-08-10T22:16:18.395Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":1810,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7","wrote":["There's no way to declare which axioms I accept, so derivable truth can't move the tree.md"]}
+{"ts":"2026-08-10T22:16:28.621Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2091,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7","wrote":["What structure must opportunity classes have before class-level ranking can act on them.md"]}
