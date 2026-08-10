@@ -2500,3 +2500,4 @@
 {"ts":"2026-08-10T21:08:30.054Z","tool":"ost_read_tree","ok":true,"ms":48,"surface":"mcp","argBytes":83,"session":"mcp-2bfb258d-dfad-4586-b077-bb3714cc789e"}
 {"ts":"2026-08-10T21:09:09.388Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3386,"session":"mcp-2bfb258d-dfad-4586-b077-bb3714cc789e"}
 {"ts":"2026-08-10T21:09:17.188Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1393,"session":"mcp-2bfb258d-dfad-4586-b077-bb3714cc789e"}
+{"ts":"2026-08-10T21:09:20.974Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-2bfb258d-dfad-4586-b077-bb3714cc789e"}
