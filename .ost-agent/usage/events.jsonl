@@ -2511,3 +2511,12 @@
 {"ts":"2026-08-10T21:37:07.600Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":1644,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8","wrote":["Up-rank or down-rank whole classes of opportunities in one recorded act.md"]}
 {"ts":"2026-08-10T21:37:14.797Z","tool":"ost_create_node","ok":true,"ms":5,"surface":"mcp","argBytes":1534,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8","wrote":["Weave corrected misconceptions into the map as legibly closed roads.md"]}
 {"ts":"2026-08-10T22:10:02.451Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:10:04.834Z","tool":"ost_next_work","ok":true,"ms":70,"surface":"mcp","argBytes":2,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:10:43.416Z","tool":"ost_next_work","ok":true,"ms":6,"surface":"mcp","argBytes":73,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:10:45.738Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":79,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:11:24.782Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":92,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:11:28.291Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:11:37.640Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:11:40.556Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:11:52.863Z","tool":"ost_read_tree","ok":true,"ms":46,"surface":"mcp","argBytes":2,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
+{"ts":"2026-08-10T22:12:24.204Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":980,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}

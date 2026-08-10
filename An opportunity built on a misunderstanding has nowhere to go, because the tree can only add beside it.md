@@ -18,3 +18,7 @@ evidence: assertion
 **Guard to carry into anything built from this:** reclassification is an agent-reachable write that changes what the tree says. It must not become a laundering channel — the moved node's evidence, history, and prior classifications must survive the move visibly, or "version it" quietly becomes deletion with extra steps.
 
 **Provenance caveat:** Founder-directed in session (2026-08-10), mapped at the founder's explicit direction rather than by an autonomous pass. Believability rests on the floor rung (`assertion`). Source: `INBOX:2026-08-10-founder-directive-self-organizing-tree.md`.
+
+## Sources
+
+- INBOX:2026-08-10-founder-directive-self-organizing-tree.md — founder directive (2026-08-10) restating this need in doctrine terms: the tree must be able to self-organize — reclassify nodes, up/down-rank whole classes, version rather than delete, and keep corrected misconceptions legible on the map. The three solutions beneath this opportunity ("Versioned reclassification that moves a node while keeping every prior self readable", "Up-rank or down-rank whole classes of opportunities in one recorded act", "Weave corrected misconceptions into the map as legibly closed roads") were ideated from this directive. Evidence class: assertion — founder theory. The directive also names an open question it does not answer: what the agent should do with an opportunity mis-construed from a fundamental misunderstanding of reality.
