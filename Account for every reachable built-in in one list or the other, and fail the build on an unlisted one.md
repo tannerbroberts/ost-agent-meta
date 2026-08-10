@@ -25,3 +25,13 @@ Neither document is lying on purpose. `DENIED_TOOLS` names "every built-in that 
 **Where this fails, stated so it can be judged rather than assumed.** It needs a committed list of the host's built-ins to compare against, and that list goes stale the moment the host ships a tool — so the mechanism is only as exhaustive as its own manifest, which is the same class of problem one level up. It also cannot say a granted tool is *safe*, only that somebody decided; and it says nothing about capability reachable through a granted tool's arguments rather than through a tool name. The `Skill`/`SlashCommand` rename recorded in the script is the precedent that argues for it anyway: a deny rule naming a retired tool was inert for four days while the capability it existed to refuse moved to a name nothing denied, and the warning that reported the hole was read as noise about a stale name.
 
 ⚠️ Unvalidated. Agent-ideated on the strength of a hole the agent found by using three tools it was not knowingly granted, which is a reason to trust the observation and discount the conviction.
+
+## Definition of done
+
+"Reconcile both tool lists against a committed built-in manifest and count what falls in neither"
+
+```
+npx vitest run test/release/surface-enumeration.test.ts
+```
+
+Green means the accounting closes: every built-in the committed manifest names is in `OST_TOOLS` or `DENIED_TOOLS`, the two are disjoint, and nothing is in neither. Red today for the missing-file reason rather than a failing assertion — the spec has to be written first, and this surface cannot write it. Named in plain text rather than linked, because the test's one backlink belongs to the assumption it hangs under.

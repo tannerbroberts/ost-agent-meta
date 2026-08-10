@@ -2403,3 +2403,4 @@
 {"ts":"2026-08-10T14:27:38.974Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":4577,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232","wrote":["Account for every reachable built-in in one list or the other, and fail the build on an unlisted one.md"]}
 {"ts":"2026-08-10T14:27:59.495Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1990,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232","wrote":["The set of built-ins a host can hand a pass is enumerable and stable enough to commit.md"]}
 {"ts":"2026-08-10T14:28:15.745Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2574,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232","wrote":["Reconcile both tool lists against a committed built-in manifest and count what falls in neither.md"]}
+{"ts":"2026-08-10T14:28:21.915Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":742,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
