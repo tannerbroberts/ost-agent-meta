@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Veto-only review of imported axioms still leaves the operator owning them]]
 
 Instead of authoring axioms blank-page, import candidate axioms from a named body the operator already trusts — this vault's own recorded decisions and doctrine (DEC records, the ruleset), a published methodology, a standard — and put the human in a veto-only role: strike what they reject, keep the rest as the accepted set, with the source body named on every entry. "It takes all kinds to run the world": different operators would import different bodies, which is the personalization the founder described, delivered by selection rather than authorship.
 
