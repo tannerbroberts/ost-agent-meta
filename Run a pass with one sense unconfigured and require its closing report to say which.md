@@ -22,3 +22,4 @@ instrument: npx vitest run test/loop/sense-census-report.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/sense-census-report.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/loop/sense-census-report.test.ts` — Duration  12.02s (transform 107ms, setup 0ms, collect 162ms, tests 11.67s, environment 0ms, prepare 30ms)
