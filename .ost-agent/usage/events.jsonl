@@ -2405,3 +2405,4 @@
 {"ts":"2026-08-10T14:28:15.745Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2574,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232","wrote":["Reconcile both tool lists against a committed built-in manifest and count what falls in neither.md"]}
 {"ts":"2026-08-10T14:28:21.915Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":742,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
 {"ts":"2026-08-10T14:35:36.594Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":8887,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232","unknown":"What is in the 33 queue entries no tool has ever listed"}
+{"ts":"2026-08-10T14:35:56.947Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2115,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
