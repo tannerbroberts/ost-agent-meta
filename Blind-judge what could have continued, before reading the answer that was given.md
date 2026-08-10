@@ -29,3 +29,4 @@ Two numbers come out, and they are not equally important. **Agreement** is how o
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/question-stop-independence-replay.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/loop/question-stop-independence-replay.test.ts` — Duration  327ms (transform 19ms, setup 0ms, collect 19ms, tests 3ms, environment 0ms, prepare 31ms)
