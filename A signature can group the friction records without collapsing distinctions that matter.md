@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Feed the signature two denials of one tool and two different error classes and require two groups not one]]
 
 **The belief, stated so it can be false.** A signature computable from a friction event — tool name plus error class — groups the records an operator would call the same event and separates the ones they would call different.
 
