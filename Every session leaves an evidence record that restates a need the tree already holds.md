@@ -57,3 +57,15 @@ The first of those is the interesting one. It is first-party evidence of a build
 **What this pass did with the 84.** Mapped none, for the reasons this node already gives, and reached that decision independently before reading this node — which is itself weak corroboration that the reasoning is forced by the queue's shape rather than inherited from the prior pass's write-up.
 
 _Source records: `TRANSCRIPT:3b9eaea5-d098-4f47-ad0a-65871012d639`, `TRANSCRIPT:48c870d7-8192-478a-bdc1-f4aef040cce3`, `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d`, `USAGE:2026-08-09`. Observed behaviour from the agent's own transcripts; grounds usability, not demand. No rung change — these corroborate this node's existing `observed` rung and do not lift it._
+
+### Correction to the section above — the `ls` miss was not the failure mode I called it — 2026-08-09
+
+The paragraph above reads session `48c870d7`'s `ls: … test/mcp/preflight-required-tools.test.ts: No such file or directory` as "the exact failure mode 'My instruments are red because a file is absent' describes, caught from the builder's side." That is wrong, and the record that settles it is in this vault.
+
+"Declare a required tool set and check a pass refuses before doing any work" carries an `## Instrument Log` with both ends of that spec's life: **2026-08-06 red (exit 1), "No test files found, exiting with code 1"**, then **2026-08-07 green (exit 0)**. Session `48c870d7` is timestamped 2026-08-07T14:23:33Z. So the builder was checking whether the file existed *before writing it* — the ordinary build sequence — and then built it. Nothing was harmed; the instrument did its job.
+
+The row I proposed for the clustering table does not survive, and I am withdrawing it rather than leaving it to be designed around. The two claims in that paragraph that do survive are unaffected: the three "File has not been read yet" refusals and the sensitive-file denial are row-2 and row-1 instances as stated.
+
+What the episode is actually good evidence for is recorded on "My instruments are red because a file is absent, not because the behaviour is", where it belongs — and it cuts partly *for* the weak red rather than against it.
+
+_Correction appended rather than edited, per this vault's append-only History discipline. Same source record, re-read against the Instrument Log the first reading did not consult._
