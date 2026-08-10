@@ -25,3 +25,6 @@ That second assertion is the whole test. It is chosen because it is the cheapest
 **What a green here does not settle.** Nothing about whether unreached code is common — that is the number the census exists to produce and this only checks the instrument can produce it. Nothing about the deeper false-negative direction either: code called only from other dead code counts as reached under any caller-counting scheme, and this test does not probe that at all. And nothing about whether an operator reads the report.
 
 ⚠️ Unvalidated. Agent-proposed; not run.
+
+## Instrument Log
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/product/caller-census.test.ts` — test/product/caller-census.test.ts does not exist — no spec was collected, so nothing was measured

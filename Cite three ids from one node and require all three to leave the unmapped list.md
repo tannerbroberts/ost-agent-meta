@@ -25,3 +25,6 @@ That third assertion is where the assumption is genuinely at risk. A list gives 
 **What a green here does not settle.** Whether the citations are honest. Nothing in an exit code distinguishes forty ids a pass distilled from forty it skimmed, and the solution node names that as its central risk. It also says nothing about `classifyProvenance`'s handling of the non-evidence prefixes `WEB:` and `INTERVIEW:` appearing in a mixed list, which needs its own assertion and is not in this threshold.
 
 ⚠️ Unvalidated. Agent-proposed; not run.
+
+## Instrument Log
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/ost/multi-source-mapping.test.ts` — test/ost/multi-source-mapping.test.ts does not exist — no spec was collected, so nothing was measured

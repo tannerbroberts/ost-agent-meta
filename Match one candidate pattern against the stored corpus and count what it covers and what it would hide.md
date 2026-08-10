@@ -24,3 +24,6 @@ instrument: npx vitest run test/knowledge/disposition-pattern.test.ts
 **What a green here does not settle, and it is the larger half.** The coverage ratio over the *real* eighty-five records — the number the assumption is actually about. A fixture proves the matcher behaves; it cannot tell anyone whether a pattern an operator would willingly write covers seventy of the queue or twenty of it. That is a census over the stored corpus and somebody has to run it. Nor does it touch whether an operator wants a standing dismissal at all, which is a preference and would need people.
 
 ⚠️ Unvalidated. Agent-proposed; not run.
+
+## Instrument Log
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/knowledge/disposition-pattern.test.ts` — test/knowledge/disposition-pattern.test.ts does not exist — no spec was collected, so nothing was measured

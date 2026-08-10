@@ -22,3 +22,6 @@ instrument: npx vitest run test/adapters/transcript-rollup.test.ts
 **What a green here does not settle.** Whether the grouping is *right* in the cases nobody thought to pin. The spec fixes two — one group that must merge, one pair that must not — and a signature can pass both while collapsing a third distinction an operator cares about; that judgement is a person's reading of the rolled-up corpus. It also does nothing for the eighty-five records already stored under the old scheme, and says nothing about the window boundary, where an event straddling two windows appears twice with two partial counts.
 
 ⚠️ Unvalidated. Agent-proposed; not run.
+
+## Instrument Log
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/adapters/transcript-rollup.test.ts` — test/adapters/transcript-rollup.test.ts does not exist — no spec was collected, so nothing was measured

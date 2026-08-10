@@ -25,3 +25,6 @@ The second assertion is a threshold rather than a guard, and it is pre-committed
 **What a green here does not settle.** That a named subcommand is actually executed. The rule checks a string appears in a script; a command mentioned in a comment, in an unreachable branch, or behind an env flag nobody sets satisfies it. It would have caught `claim`, which appears nowhere, and it will not catch the variant that appears once and never runs. It also says nothing about the MCP tool surface, which has the same exposure and no equivalent script.
 
 ⚠️ Unvalidated. Agent-proposed; not run.
+
+## Instrument Log
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/cli/unwired-commands.test.ts` — test/cli/unwired-commands.test.ts does not exist — no spec was collected, so nothing was measured
