@@ -107,3 +107,20 @@ This pass could not confirm it against the code. `product.repos` is unconfigured
 For a human: if the guard is in fact shipped, this solution wants its status changed and its test recorded as answered, and neither is an unattended surface's call. If it is not shipped, the ruleset is describing a guard that does not exist, which is a sharper problem than the missing feature and belongs under "A guard derived the rule it was checking, so it agreed with the bug for 23 releases".
 
 Two siblings from the same era carry the same suspicion and were not checked either: "Refuse a proving command whose exit code cannot report failure" — `ost_set_instrument` already rejects shell punctuation and non-spec commands, which is at least part of that claim — and "Refuse a write whose content is empty or literally undefined". Both should be checked against the repository before anyone writes an instrument for them.
+
+## Verified against the repository — 2026-08-09 (not a recorded result)
+
+**No test was run and nothing here clears a gate.** This is a read of committed code. A note on this node named it as one of two that should be checked against the repository before anyone instruments them; the 2026-08-05 and 2026-08-06 passes each deferred that check because product-directory reads were denied to them. Repo sight was granted this pass, so here is the check.
+
+**The claim holds.** The rule lives in `test/ost/vault-write-guard.test.ts`, read in full through `ost_read_repo`, under the heading *"a wikilink split across a line break is refused at every write parameter"*. Against `src/ost/vault.js` it asserts:
+
+- `See [[Some\nTitle]] for context.` is refused at **all six** free-text parameters the tool surface exposes: `ost_create_node.body`, `ost_append_to_node.section`, `ost_annotate.issue`, `ost_set_status.note`, `ost_set_evidence.note`, and `ost_flag_humans_required.why` (which routes through `setLane`'s note guard).
+- The refusal names the flattened title the author meant — `[[Some Title]]` — rather than echoing the broken text, so the caller is told what to write instead.
+- A refused append leaves the file byte-identical; a refused `createNode` leaves no file behind.
+- Three cases pin what must stay writable: a link on one unbroken line inside hard-wrapped prose, a multi-line body with no wikilink, and an unclosed `[[` that must not swallow the rest of the body into a false positive.
+
+The spec's header states the reasoning this node was built on, in the code's own words: a wrapped link is not an edge and is not a dangling edge either, so every structural check is blind to it except `wrapped-wikilink`; nothing on an append-only surface can then clear it, because clearing it would mean shrinking a body. The write is the last moment the content is revocable. That is the argument for a write-time refusal rather than a check, and it is now verified as implemented rather than only asserted.
+
+**What this does not settle.** That the specs pass — nothing was executed, only read. That a write path added later routes through the guard. And nothing about whether the refusal is a good experience for an author who hits it, which is a usability question needing a person.
+
+**On the recurring queue entry.** This node was set to `shipped` by the 2026-08-05 sweep precisely because an instrument was impossible for it, and it has been listed in `solutionsMissingInstruments` on every pass since. That repair is correct and does not work; the fix belongs to "Work I already finished keeps coming back in the queue, so the pass can never say it is done", not here.
