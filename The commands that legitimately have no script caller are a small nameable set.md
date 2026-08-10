@@ -6,6 +6,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count how many registered subcommands need an allowlist entry before the list stops meaning anything]]
 
 **The belief, stated so it can be false.** Most registered subcommands are reached by an automation script, and the ones that are not form a short list with an obvious shared reason — they are the human's commands (`init`, `set-outcome`, `promote`, `result`, `retract`, `lane --set`). If that is right, the allowlist is a readable statement about the product's shape and a new entry on it is conspicuous.
 
