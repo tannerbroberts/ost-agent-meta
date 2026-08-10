@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Axiom asks arrive rarely enough to be answered instead of batched into ignorance]]
 
 No register up front. When a derivation could move a node but rests on an axiom nobody has accepted, that axiom becomes one outstanding ask in the standing queue the operator already clears at their own cadence. Accept and the derivation proceeds and the axiom is recorded for reuse; reject and the derivation is filed as closed. The axiom set grows lazily, and every entry was accepted at a moment it visibly mattered.
 
