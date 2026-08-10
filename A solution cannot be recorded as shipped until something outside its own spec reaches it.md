@@ -21,3 +21,15 @@ The deeper risk: a witness path is prose the same pass can write, so this harden
 **Cost.** Medium — a frontmatter field, a reader, a migration decision for existing shipped nodes.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Resolve a witness path for every node the tree already calls shipped and count the failures"
+
+```
+npx vitest run test/ost/shipped-requires-witness.test.ts
+```
+
+Quoted rather than linked: the test hangs under the Assumption "Requiring a witness path would not demote mechanisms that genuinely run".
+
+Red today as **`no-spec`**. Note the honest limit, which is unusually large for this node: the command proves the guard behaves over fixtures. It does not answer whether the five nodes this tree already calls shipped can each name a witness, and that census — not this command — is what decides whether the rule is buildable as written or only as a going-forward rule.
