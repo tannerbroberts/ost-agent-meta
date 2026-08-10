@@ -2336,3 +2336,4 @@
 {"ts":"2026-08-10T02:46:18.186Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":3101,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6","wrote":["A whole-tree read stays coherent as the tree grows.md"]}
 {"ts":"2026-08-10T02:46:39.898Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3779,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6","wrote":["Run re-synthesis against a vault larger than every cap and require it to see every node.md"]}
 {"ts":"2026-08-10T02:46:49.144Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1648,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}
+{"ts":"2026-08-10T02:46:52.300Z","tool":"ost_ingest_inbox","ok":true,"ms":4,"surface":"mcp","argBytes":2,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}
