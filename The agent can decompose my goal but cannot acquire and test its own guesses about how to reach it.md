@@ -19,3 +19,6 @@ evidence: assertion
 **For a human to review alongside this:** the source note names an adjacent undecided duplicate — sub-outcome vs milestone, two instruments about to build one intermediate layer under two names, deciding question whether nesting is recursive.
 
 **Provenance caveat:** Founder spoken theory, recorded in session, rung `assertion`. This is a hypothesis about a need, not an observed need; no evidentiary weight until a non-founder artifact corroborates it.
+
+## Issues
+- 2026-08-10 2026-08-10 unattended sweep — ost_next_work lists this node as under-served (0 of 3 solutions), and this pass deliberately did not ideate under it. The node's own prose records a same-day decision that ideation here is "left to an attended pass or a human, deliberately", grounded in two regional holds (the altitude branch's evidence-debt gate and the trust umbrella's 2026-07-25 hold on new growth). An unattended pass overriding a recorded hold to satisfy the under-served counter would be silent re-architecture. Future sweeps: expect this node to appear under-served until a human or attended pass lifts the hold; read the prose before acting on the counter.

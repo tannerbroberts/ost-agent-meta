@@ -2556,3 +2556,4 @@
 {"ts":"2026-08-10T23:25:17.100Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":98,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074"}
 {"ts":"2026-08-10T23:26:23.173Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3684,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074","unknown":"What structure must opportunity classes have before class-level ranking can act on them"}
 {"ts":"2026-08-10T23:26:30.219Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"mcp","argBytes":722,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074"}
+{"ts":"2026-08-10T23:26:35.265Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":787,"session":"mcp-e20a4863-9409-4d7c-9f91-7dc99e53c074"}
