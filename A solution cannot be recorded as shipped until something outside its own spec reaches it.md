@@ -6,6 +6,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Requiring a witness path would not demote mechanisms that genuinely run]]
 
 **The idea.** Move the check from the repository to the tree. `status: shipped` stops being a sentence a pass can write about a solution and becomes a claim with a required witness: the node must name a path — a script line, a registered command, a call site — by which the built thing is reached in ordinary operation, and the reader of that field checks the path resolves. A solution whose mechanism exists but is unreached is `unvalidated` with a stated reason, not shipped.
 
