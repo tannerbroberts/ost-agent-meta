@@ -2449,3 +2449,4 @@
 {"ts":"2026-08-10T17:49:51.334Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":38,"session":"mcp-a2f7b03c-cb12-4c61-af5c-1267dda485ad"}
 {"ts":"2026-08-10T17:53:14.356Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4422,"session":"mcp-a2f7b03c-cb12-4c61-af5c-1267dda485ad"}
 {"ts":"2026-08-10T17:53:42.638Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2034,"session":"mcp-a2f7b03c-cb12-4c61-af5c-1267dda485ad"}
+{"ts":"2026-08-10T17:53:48.770Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-a2f7b03c-cb12-4c61-af5c-1267dda485ad"}
