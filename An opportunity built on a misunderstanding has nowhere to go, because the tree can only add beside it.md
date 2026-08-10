@@ -7,6 +7,7 @@ evidence: assertion
 #Opportunity #founder-theory #self-organization #unvalidated #evidence/assertion
 [[Versioned reclassification that moves a node while keeping every prior self readable]]
 [[Up-rank or down-rank whole classes of opportunities in one recorded act]]
+[[Weave corrected misconceptions into the map as legibly closed roads]]
 
 **The need (founder's voice):** "What is an agent to do with an opportunity that was actually mis-construed given a fundamental misunderstanding of reality? I don't know, but that's something it'll have to deal with as it builds towards futures that haven't yet been proven."
 
