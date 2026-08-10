@@ -24,3 +24,4 @@ Deliberately not a threshold on the triple: this test exists to falsify the pair
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/eval/perf-gate-noise-band.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/eval/perf-gate-noise-band.test.ts` — Duration  238ms (transform 18ms, setup 0ms, collect 18ms, tests 12ms, environment 0ms, prepare 24ms)
