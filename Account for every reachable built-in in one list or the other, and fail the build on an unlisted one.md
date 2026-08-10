@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The set of built-ins a host can hand a pass is enumerable and stable enough to commit]]
 
 **The idea.** Neither the grant nor the deny list is the proof. The proof is that the two together are *exhaustive*: take the set of built-in tools the host can actually hand this pass, and require every member to appear in `OST_TOOLS` (granted, deliberately) or `DENIED_TOOLS` (refused, deliberately). A built-in in neither list is not a judgement call about whether it is dangerous — it is a capability nobody decided about, and the build fails naming it. That converts "no hijackable capability exists" from a claim about our own code into an accounting identity over the host's surface.
 
