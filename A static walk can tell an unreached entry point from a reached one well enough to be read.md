@@ -6,6 +6,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Run the census and check it accuses claim without accusing the eight commands build-pass invokes]]
 
 **The belief, stated so it can be false.** A census built from static reads of this repository classifies entry points accurately enough that its output is worth an operator's attention — specifically, it names `claim` and does not name the eight subcommands `build-pass.sh` actually shells out to.
 
