@@ -5,6 +5,7 @@ evidence: assertion
 ---
 #Solution #evidence/assertion
 [[A positive control would actually fire on the sweeps that shipped]]
+[[A positive control fails loudly when its plant is the wrong shape, not silently as a sweep miss]]
 
 **The idea.** Each sweep carries at least one instance it is known to be able to find, and fails if it does not find it. Not a count assertion — a positive control.
 
