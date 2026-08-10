@@ -106,3 +106,13 @@ _Method: ripgrep counts over `.ost-agent/evidence/TRANSCRIPT_*.md` in this vault
 **What this pass did with the 100.** Mapped none, for the reasons this node already gives. Recorded here rather than re-argued.
 
 _Method: five full evidence reads via `ost_next_work({evidence})`, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Sixth consecutive decline — 2026-08-10, third firing today
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → **102**. The two records new since the previous firing were both read in full and both land in rows the 2026-08-10 corpus count already names: `TRANSCRIPT:431f8aa8` is two retries of `ost_ingest_inbox`/`ost_next_work` (row 4), and `TRANSCRIPT:5bca8279` is four `Edit` refusals — two "modified since read", two "has not been read yet" (row 2, both halves). Also sampled: `030e5db3` (row 1, permission denials on the withheld tools), `2a4bcf6e` (row 3, an `AskUserQuestion` raised with nobody watching), and `48c870d7`, already covered and corrected in the 2026-08-09 entry.
+
+**One standing item in the 102 is not this channel's noise and should not be counted as it.** `INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md` sits on the queue because the 2026-08-07 merge that consumed its sole citing node dropped the loser's `source:` frontmatter — the mechanism defect recorded in the Issues section of "An interrupted run leaves no trustworthy account of what it completed". Its need is already held there; no tool on this surface can restore the frontmatter mapping, so the item will reappear every pass until the merge tool unions `source` or a human sets it.
+
+**What this pass did with the 102.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
+
+_Method: full evidence reads via `ost_next_work({evidence})` of the two new records plus three older samples. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
