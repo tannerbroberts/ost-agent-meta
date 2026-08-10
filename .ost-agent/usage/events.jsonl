@@ -2501,3 +2501,5 @@
 {"ts":"2026-08-10T21:09:09.388Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3386,"session":"mcp-2bfb258d-dfad-4586-b077-bb3714cc789e"}
 {"ts":"2026-08-10T21:09:17.188Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1393,"session":"mcp-2bfb258d-dfad-4586-b077-bb3714cc789e"}
 {"ts":"2026-08-10T21:09:20.974Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-2bfb258d-dfad-4586-b077-bb3714cc789e"}
+{"ts":"2026-08-10T21:09:23.203Z","tool":"ost_next_work","ok":true,"ms":61,"surface":"mcp","argBytes":2,"session":"mcp-2bfb258d-dfad-4586-b077-bb3714cc789e"}
+{"ts":"2026-08-10T21:36:10.957Z","tool":"ost_create_node","ok":true,"ms":9,"surface":"mcp","argBytes":2852,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8","wrote":["The agent can't earn wider autonomy, because it has no way to let reality judge its own claims.md"]}
