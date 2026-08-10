@@ -6,6 +6,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A static walk can tell an unreached entry point from a reached one well enough to be read]]
 
 **The idea.** A report, not a gate. Walk the repository's exported surface — CLI subcommands registered in `src/cli/`, MCP tools registered in `src/mcp/`, exported functions in `src/` — and for each one count callers that are not its own spec file. Print the ones whose only reader is their test. The count is the artefact; nobody is blocked by it.
 
