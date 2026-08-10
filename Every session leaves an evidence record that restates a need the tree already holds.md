@@ -69,3 +69,28 @@ The row I proposed for the clustering table does not survive, and I am withdrawi
 What the episode is actually good evidence for is recorded on "My instruments are red because a file is absent, not because the behaviour is", where it belongs — and it cuts partly *for* the weak red rather than against it.
 
 _Correction appended rather than edited, per this vault's append-only History discipline. Same source record, re-read against the Instrument Log the first reading did not consult._
+
+## The whole corpus counted, instead of four records read — 2026-08-10
+
+**The trend point.** 65 (2026-08-06) → 73 (2026-08-07) → 84 (2026-08-09) → **92** today. Fourth consecutive sweep, same decision, same reason; the three solutions beneath this node are still unbuilt and the queue has still never gone down.
+
+**What is new is the method, not the number.** Every previous entry on this node read four to six records in full and asserted that the rest land in the same four rows. This pass matched the error strings mechanically across every `TRANSCRIPT_*` evidence file in the vault, so the table below is a count over the whole corpus rather than an extrapolation from a sample.
+
+| Friction string | Occurrences | Sessions | Row it belongs to |
+|---|---|---|---|
+| `File has not been read yet. Read it first before writing to it` | 69 | 26 | Row 2 — read-before-write |
+| `requested permissions to read from …` | 38 | 33 | Row 1 — denied tool/path grants |
+| `could not be parsed as JSON` / `No such tool available` | 10 | 10 | not in the table — see below |
+| `modified since read` / `String to replace not found` | 8 | 7 | Row 2, staleness half |
+
+**Two things the count changes for whoever builds under this node.**
+
+*The two dominant classes rank differently depending on what you are optimising.* Read-before-write is the largest by occurrence (69) and permission denial is the largest by session spread (33 of the corpus's sessions carry at least one). A clusterer tuned to collapse the biggest cluster would collapse read-before-write; a clusterer tuned to reach the most sessions would collapse permission denials. They are not the same target and the queue's shape does not say which the operator wants.
+
+*Read-before-write is one string, not one need.* 69 occurrences of the identical message, and 8 of the near-miss shapes that follow from the same cause, means row 2 is where clustering pays best — and it is already the row the tree holds two distinct opportunities for, one about staleness after a read and one about the first write to a file never read. A signature that collapses all 77 into one item would be collapsing across that distinction, which "One normaliser collapses the read-before-write family and keeps three permission denials apart" is the node that already argues about.
+
+**A class the table does not cover, offered as a candidate row rather than a claim.** Ten sessions carry a malformed-call or missing-tool error — a tool input that failed to parse as JSON, or a call to a tool that exists but is not enabled on that surface. These are not a resource the run lacked and not a file it failed to read; they are the run getting the call itself wrong and finding out afterwards. The tree may already hold this under "Two thirds of my calls failed, and each one only told me after I made it", in which case it is a fifth pointer and not a fifth row. I am not deciding that here, because whether it is a distinct need is a judgement about the opportunity space and this pass has not created any opportunity today.
+
+**What this does not settle.** Nothing about whether a smaller queue is preferable — still nobody's stated preference, exactly as this node's original caveat says. And the string match is a proxy for a need: two records carrying the same message could still have had different causes, and the count cannot see that.
+
+_Method: ripgrep counts over `.ost-agent/evidence/TRANSCRIPT_*.md` in this vault, 2026-08-10. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change — this corroborates the existing `observed` rung and does not lift it._
