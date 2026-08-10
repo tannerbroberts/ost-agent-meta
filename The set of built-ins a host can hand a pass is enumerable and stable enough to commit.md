@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Reconcile both tool lists against a committed built-in manifest and count what falls in neither]]
 
 **Feasibility.** The whole mechanism rests on there being a knowable denominator: a list of the tool names the host can hand an unattended pass, committed in this repository, against which the grant and the deny list can be reconciled. If that set cannot be obtained — or churns fast enough that the committed copy is wrong most weeks — then the check does not prove exhaustiveness, it proves agreement with a stale file, and a capability could arrive and sit unaccounted for exactly as `Read`, `Glob` and `Grep` do today.
 
