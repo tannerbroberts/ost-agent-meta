@@ -140,3 +140,28 @@ The section above measured the shipped preflight at zero denials and then listed
 **The repo-sight half is unrepaired for the sixth time** and is recorded on its own node, not restated here.
 
 _First-party observation by the unattended sweep of 2026-08-09, of its own opening context and its own call log. Agent self-observation: grounds feasibility and usability, not demand. No result recorded; the node's rung is unchanged._
+
+## Third consecutive pass at zero, and the corpus splits into two populations — 2026-08-10
+
+**The count, first, because that is the cheap part.** Zero calls to any of the six withheld tools, so zero denials. n=3. The "What this surface withholds" section was present in this pass's opening context, naming the same six with the same instruction to report writes as unverified-by-design. Baseline and bar unchanged.
+
+This pass had a live occasion, as the pass before it did, and a sharper one. It found five solutions in `solutionsMissingInstruments` carrying `status: shipped` and several more whose tests can only be answered by a person — `ost_flag_humans_required` is the tool for the second class and is the single most-denied tool in the whole corpus. It was not called. That is the third firing running against a real demand for a withheld tool and not making the call.
+
+**What is actually new: the 113 was two different problems added together.** Every census on this node has counted the harness's denial string as one population. Re-counted this pass by the *shape* of the denial, over the whole evidence corpus:
+
+| Class | Occurrences | Sessions | Per session |
+|---|---|---|---|
+| `permissions to use mcp__…ost_*` — a withheld tool | 83 | 28 | 3.0 |
+| `permissions to read from <path>` — a directory | 42 | 36 | 1.2 |
+
+127 total across 47 sessions, up from the 2026-08-06 baseline of 113 across 34, counted with the identical string so the two are comparable.
+
+**The split inverts this node's prioritisation, and that is the finding.** Every argument here has been made from concentration — the worst sessions burning 9, 8, 7 calls, all of them withheld-tool denials. That framing made the tool class look like the whole problem and the product-repo grant look like a footnote. By reach it is the other way round: the path-read class appears in **36 sessions to the tool class's 28**. It is the more widespread of the two and always has been; it was invisible because it costs about one call per session instead of three, so it never showed up in a tally sorted by volume. A run hits a directory denial once, concludes the path is not available, and stops — which is the *absence* of this node's title behaviour, and is why it never produced the signature that got attention.
+
+So the fourth grant, the one that is a single line of `product.repos` config and is now six passes old, was never the small half. It reaches more firings than the three that were closed by PR #69, and it has been triaged behind them on a count that could not see it.
+
+**A bar for the unrepaired half, stated separately from the tool bar.** 42 denials across 36 sessions, 1.2 per session, is the baseline for product-directory reads. Configuring `product.repos` should drive it to zero; anything that leaves a firing discovering the path unavailable mid-pass has not worked. The existing bar — at most one withheld-tool denial per session — is untouched and is still met.
+
+**Caveats, and two are new.** The three standing ones hold: the observer is the subject, the pass had read the bar before acting, and three firings that all knew about the preflight cannot separate it working from it working on a run that was told. New: this firing's own `Glob` denial on `/Users/tanner/dev/OST-Agent` is **not** in the 42, because a session's transcript is filed after it ends — so the path-read count is one short of current and the direction of the error is known. And the two classes sum to 125 rather than 127; the residue is other denial shapes not broken out, so both rows are floors.
+
+_Method: four counted `Grep` passes over every record in this vault's evidence folder, separating the denial string by the phrase that follows it. Agent self-observation of this product's own firings, captured mechanically — it grounds feasibility and usability, not demand. No test was run, no result recorded, and this node's rung is unchanged._
