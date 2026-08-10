@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Reading the whole tree at once yields reorganisations a human accepts]]
+[[A whole-tree read stays coherent as the tree grows]]
 
 Periodically read the entire tree at once and propose how it should be reorganised — merge duplicates, split overloaded opportunities, re-parent nodes whose real home has become clear, retire branches evidence has moved past. Proposals only; a human confirms structural change.
 
