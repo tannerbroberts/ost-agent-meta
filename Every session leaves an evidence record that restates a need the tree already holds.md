@@ -126,3 +126,13 @@ _Method: full evidence reads via `ost_next_work({evidence})` of the two new reco
 **What this pass did with the 105.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
 
 _Method: full evidence reads via `ost_next_work({evidence})` of all three new records. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Eighth consecutive decline, and the fifth-row question is closed — 2026-08-10, fifth firing today
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → **107**. Both records new since the previous firing were read in full and land in known rows: `TRANSCRIPT:11e16f3d` is three "File has not been read yet" Edit refusals (row 2); `TRANSCRIPT:97218381` is one permission-denied Grep of the product source plus two ingest/next_work retries (rows 1 and 4).
+
+**The one open question this channel had left is now answered.** The candidate fifth row — malformed-call and missing-tool errors, proposed by the 2026-08-10 corpus count and re-deferred twice — was read this firing against "Two thirds of my calls failed, and each one only told me after I made it" and dispositioned there: it is that node's need issued by the harness, a fifth pointer and not a fifth row. The disposition and its instances are recorded on that node, where they belong.
+
+**What this pass did with the 107.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
+
+_Method: full evidence reads via `ost_next_work({evidence})` of both new records. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
