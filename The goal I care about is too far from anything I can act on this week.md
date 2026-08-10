@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #needs-customer-interview #founder-theory #evidence/assertion
 [[I aim at a goal I can afford to chart, not the one I actually want]]
 [[Nothing connects this week's work to the goal, so I can't tell if I am moving toward it]]
+[[The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it]]
 
 **The need (customer's voice):** "My real goal is something like '10,000 daily active users.' Nothing I could do tomorrow moves that number visibly, so I finish a week with no idea whether I got closer or went nowhere. The thing I *can* move — 'landing page dropoff to 5%' — I can't show ladders up to the goal I actually have."
 
