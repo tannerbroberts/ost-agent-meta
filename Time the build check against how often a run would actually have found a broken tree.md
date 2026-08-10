@@ -25,3 +25,4 @@ The assumption is that the tax is worth the catch. A build on every run is a rea
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/loop/inherited-tree-build-check.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/loop/inherited-tree-build-check.test.ts` — Duration  2.02s (transform 21ms, setup 0ms, collect 25ms, tests 1.80s, environment 0ms, prepare 28ms)
