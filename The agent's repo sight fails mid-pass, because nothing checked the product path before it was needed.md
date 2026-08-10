@@ -55,3 +55,17 @@ Both channels to the product's own code were dead this pass, and the failure arr
 **What a preflight would have done.** Named the missing `product.repos` key in the first second, before the pass planned work that depended on it. The pass would then have known to reallocate to work that needs no repo sight — which is what it did anyway, but 40 minutes later and after committing to a plan it could not carry out.
 
 _Source: this pass's own two tool calls, 2026-08-06 — first-party observation of the product's behaviour, captured as it happened. Grounds feasibility and usability, not demand. Unvalidated; no test was run and no result is recorded._
+
+## Sixth sighting — unchanged, and the price is now 62 solutions — 2026-08-09 (unattended sweep)
+
+Kept short on purpose; this node has five sightings and the diagnosis needs no restating. Three facts only.
+
+**Still absent.** `product.repos` is not in this vault's `ost.config.yaml` — this pass read the file directly and confirmed the key does not exist, while `adapters.transcript.projectDir` still correctly names `/Users/tanner/dev/OST-Agent` on line 15. The one-line repair the 2026-08-06 sighting described is now, by that sighting's own counting, seven passes old.
+
+**Both channels dead again, in the same order.** `ost_read_repo()` → "no product repos configured — add local repo paths under `product.repos` in ost.config.yaml". `Glob("/Users/tanner/dev/OST-Agent/src/**/*.ts")` → "Claude requested permissions to read from /Users/tanner/dev/OST-Agent, but you haven't granted it yet." Two independent failures, neither covering for the other, exactly as recorded before.
+
+**What it cost this pass, priced the way the fourth sighting priced it.** The queue was 62 solutions whose tests are prose only. This pass wrote **no** instrument against an invented path — it declined the whole bucket rather than manufacture reds that fail on a missing file — and instead spent its instrument budget on the one place where absence could be established without repo sight: behaviour verified missing by *running `ost_next_work` and reading what it returned*. That is the better of the two reds the sighting above distinguishes, and it was available for exactly one item out of 62.
+
+That ratio is the finding. Repo blindness does not merely weaken instruments; it restricts honest instrument-writing to the narrow set of claims about the tool's own observable output, which is roughly 1 in 60 of what the queue holds. Five sightings established that the gap recurs. This one establishes what it caps.
+
+_First-party observation by the unattended sweep of 2026-08-09, from its own two failed calls and a direct read of the vault's config. Grounds feasibility and usability, not demand. Unvalidated; no test was run and no result is recorded._
