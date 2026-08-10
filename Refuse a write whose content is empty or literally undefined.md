@@ -33,3 +33,21 @@ The distinction this node predicted turned out to be the whole design, and it is
 ## History
 - 2026-08-05 unlinked "Sweep both vault histories for writes that landed as undefined or empty" — moved under "Empty and undefined writes actually landed in the vault histories" — the belief this test measures now has a node of its own
 - 2026-08-05 status: (none) → shipped — The node's own body records this as shipped in v0.18.0 (eleventh pass, 2026-07-27), and in the shape its assumption test prescribed rather than the one this node proposed: the sweep "Sweep both vault histories for writes that landed as undefined or empty" ran first, found 21 undefined / 0 empty / 0 truncated across 306 annotation entries, so the guard shipped as a tripwire for one known shape. It sits in Vault at the single point every node write funnels through — createNode, appendToNode, appendUnderSection, annotate, and the optional notes on setStatus/setEvidence/setLane — with 21 tests verified failing first (18 failed / 3 passed, the 3 being the must-still-be-allowed cases) and the full suite green at 482 tests / 64 files. Recorded as `shipped` by the 2026-08-05 unattended sweep because it sat in `solutionsMissingInstruments` and a red-now instrument is impossible for shipped behaviour: a spec asserting the guard would pass on arrival, measure nothing, and hand a builder no definition of done. Status corrected rather than an instrument invented.
+
+## Verified against the repository — 2026-08-09 (not a recorded result)
+
+**No test was run and nothing here clears a gate.** This is a read of committed code, answering the question two earlier passes had to leave open because they could not open the repository: is the shipped claim on this node true?
+
+**It is.** `test/ost/vault-write-guard.test.ts` exists and was read in full through `ost_read_repo`. It asserts, against `src/ost/vault.js`:
+
+- Eight known-bad values are refused — `undefined`, `null`, `  undefined  `, `Undefined`, the empty string, whitespace only, a lone newline, a lone tab — and each refusal is checked to have written **nothing**, by byte-comparing the file before and after.
+- The rule is *is exactly that*, never *contains that*: prose reading "the tool wrote the literal string undefined into 16 nodes" stays writable, which is the case that would have made an over-broad guard unusable in this very vault.
+- Every content-bearing write path is covered, not only `annotate`: `appendToNode`, `appendUnderSection`, `createNode` (asserting no file is left behind), and the optional `note` parameters on `setStatus`, `setEvidence` and `setLane`.
+- The distinction the guard turns on is pinned explicitly — `note === undefined` (a caller declining to explain itself) is allowed; `note === "undefined"` (a caller that stringified a variable it never set) is refused.
+- There is a positive control, `"the guard cannot pass vacuously"`, asserting each guarded method still rejects a known-bad value — so a method that stops routing through the guard fails loudly rather than going quiet.
+
+The spec's own header records the occasion: 21 destroyed annotation lines across 16 nodes in the two live vaults, 2026-07-24/26.
+
+**What this does not settle.** That the specs pass — nothing was executed here, only read. That the guard covers write paths added since. And nothing at all about desirability: this confirms a mechanism exists and is specified, not that anyone wanted it.
+
+**Why the standing instruction still cannot be followed.** This node keeps appearing in `solutionsMissingInstruments`. A red-now instrument remains impossible, and now for a verified rather than a claimed reason: the behaviour is built and specified, so any honest command passes on arrival, cannot fail, and hands a builder no definition of done. The systemic repair is "Work I already finished keeps coming back in the queue, so the pass can never say it is done".
