@@ -24,3 +24,4 @@ The assumption is that the migration is bounded. This candidate's cost is not bu
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/runner/suite-result-consumer-census.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/runner/suite-result-consumer-census.test.ts` — Duration  244ms (transform 16ms, setup 0ms, collect 13ms, tests 35ms, environment 0ms, prepare 27ms)
