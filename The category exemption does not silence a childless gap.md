@@ -21,6 +21,7 @@ instrument: npx vitest run test/ost/next-work-category-exemption.test.ts
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/next-work-category-exemption.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/ost/next-work-category-exemption.test.ts` — Duration  2.39s (transform 116ms, setup 0ms, collect 176ms, tests 2.02s, environment 0ms, prepare 22ms)
 
 ## The census found zero childless gaps in the current population — 2026-08-09
 
