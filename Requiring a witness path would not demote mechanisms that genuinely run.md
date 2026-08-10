@@ -6,6 +6,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Resolve a witness path for every node the tree already calls shipped and count the failures]]
 
 **The belief, stated so it can be false.** The solutions this tree already calls `shipped` can each name a reachable witness path, so adding the requirement documents what is true rather than demoting working mechanisms into `unvalidated`.
 
