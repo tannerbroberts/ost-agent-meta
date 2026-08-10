@@ -2536,3 +2536,4 @@
 {"ts":"2026-08-10T22:17:39.189Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1566,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7","wrote":["Run one live triage offering only class-rank verbs and watch for per-node fallback.md"]}
 {"ts":"2026-08-10T22:17:46.944Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1467,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7","wrote":["Hand a reclassified-node mock to a cold reader and time finding its prior self.md"]}
 {"ts":"2026-08-10T22:17:53.934Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1597,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7","wrote":["Ideate three times over a map with closed roads and count re-proposals of the closed misconception.md"]}
+{"ts":"2026-08-10T22:18:01.616Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-23c6e720-2af3-4231-8e62-78313d9b92a7"}
