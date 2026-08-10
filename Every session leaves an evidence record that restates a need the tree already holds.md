@@ -94,3 +94,15 @@ _Correction appended rather than edited, per this vault's append-only History di
 **What this does not settle.** Nothing about whether a smaller queue is preferable — still nobody's stated preference, exactly as this node's original caveat says. And the string match is a proxy for a need: two records carrying the same message could still have had different causes, and the count cannot see that.
 
 _Method: ripgrep counts over `.ost-agent/evidence/TRANSCRIPT_*.md` in this vault, 2026-08-10. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change — this corroborates the existing `observed` rung and does not lift it._
+
+## Fifth consecutive decline, and the rate is steady — 2026-08-10, later firing
+
+**The trend point.** 65 → 73 → 84 → 92 → **100**. Eight new records since the previous firing the same day, matching the ~8/day rate every earlier entry recorded. The three solutions beneath this node are still unbuilt and the queue has still never gone down.
+
+**Nothing new in the shapes, and that is now the finding.** This pass read five records in full (`3a54bb43`, `32cac6f7`, `2a4bcf6e`, `48c870d7`, and the one `INBOX:` friction note) before consulting this node, and every one lands in a row the table above already names — read-before-write refusals, denied grants, an unattended firing raising `AskUserQuestion` with nobody watching, and a `git` exit 128 reading *"Please commit or stash them"*. Five sweeps have now sampled this channel independently and none has found a fifth need in it. The channel is not delivering new information; it is delivering the same four needs at eight records a day.
+
+**One point on the open question the previous entry left.** That entry proposed a candidate fifth row — malformed-call and missing-tool errors, counted at ten sessions — and declined to decide whether it is a distinct need. This firing is an eleventh instance: its own pre-flight corrections record a `Read` refused for input that could not be parsed as JSON, and a `Bash` call refused with *"No such tool available"*. Offered as one more pointer, not as the decision, which is still a judgement about the opportunity space and still not an unattended pass's to make.
+
+**What this pass did with the 100.** Mapped none, for the reasons this node already gives. Recorded here rather than re-argued.
+
+_Method: five full evidence reads via `ost_next_work({evidence})`, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
