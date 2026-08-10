@@ -26,3 +26,24 @@ On 2026-08-07 a maintenance pass called `ost_read_repo` to ground its instrument
 ## History
 
 - 2026-08-07 — Created from a first-party observation during an unattended maintenance pass: `ost_read_repo` refused for want of `product.repos`, immediately before instrument-repair work.
+
+## A weak red observed end to end, and it partly argues against this node — 2026-08-09
+
+This node was created from the writer's side: a pass denied repo sight, therefore able to write only the weak form. The vault now holds one complete lifecycle of a weak-red instrument, both ends machine-recorded, and it is worth reading because it does not go the way this node implies.
+
+**The instance.** "Declare a required tool set and check a pass refuses before doing any work" names `npx vitest run test/mcp/preflight-required-tools.test.ts`. Its `## Instrument Log`:
+
+- **2026-08-06 red (exit 1)** — `No test files found, exiting with code 1`. That is the weak red in its purest form: the command failed because the path did not exist, and for no other reason.
+- **2026-08-07 green (exit 0)** — 9.00s, tests ran.
+
+Between the two, session `48c870d7` (2026-08-07T14:23:33Z, a builder session) ran `ls` against that exact path and got `No such file or directory`, then went on to edit `src/knowledge/ruleset.ts` and `docs/reference/v1-readiness.md`. So the sequence is complete and observed: weak red written → builder orients by checking the path → builder builds → green inside 24 hours.
+
+**Why this cuts against the node, and how far.** The node's claim is that the weak form "hands the builder nothing beyond 'create this file.'" In this instance that was enough. The builder was not stranded; it read the test's threshold — *"Required-missing produces zero vault writes and names the absent tool; would-use-missing completes normally"* — which is carried in the node's own `threshold:` field rather than in the spec, and built to that. The threshold did the work the spec path could not.
+
+That is one case, n=1, and the builder here was an agent with full repo access working on a mechanism it had context for. It does not show the weak red is fine in general. What it does show is that **the weak red is not inert**, and that the thing rescuing it is a well-written pre-committed threshold sitting beside it.
+
+**What this suggests about which solution to prefer, stated as a question rather than an answer.** Two of the three candidates below refuse or restrict the weak instrument ("An instrument naming a spec path that does not exist is refused"; "A pass that cannot see the repository cannot set an instrument at all"). This instance is a case both of those would have blocked, and it ended green in a day. The third — "An instrument records whether the pass that wrote it could see the repository" — would have labelled it without blocking it, and is the only one of the three this evidence does not argue against.
+
+**The honest counterweight.** One success does not price the failures, and the failures are the ones that leave no trace: a weak instrument nobody builds simply sits in the tree looking like coverage, and there is no log entry for that. This vault holds 340 tests and, per the rollup, zero recorded runs across every bucket — so the observed-green case is by construction the rare one. The right reading is that the weak red *can* work when a threshold carries it, not that it usually does.
+
+_Sources: the `## Instrument Log` on "Declare a required tool set and check a pass refuses before doing any work" (recorded exit codes, first-party) and `TRANSCRIPT:48c870d7-8192-478a-bdc1-f4aef040cce3` (observed). Grounds feasibility and usability, not demand. No result recorded by this pass and this node's rung is unchanged._
