@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A retired opportunity is still counted as needing solutions]]
 
 **The idea.** `computeNextWork` skips any Opportunity whose status is `deferred` when it builds `underservedOpportunities` — the same predicate it already applies when it builds `retiredFromDuplicateScan`.
 
