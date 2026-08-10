@@ -45,6 +45,15 @@ loop:
     # to the vault, so the slug is the vault path. Declared, never derived.
     sessionsDir: "~/.claude/projects/-Users-tanner-ost-agent-meta"
 
+# Local repo paths the agent may READ (read-only) to ground ideas in what the product
+# actually is. Set 2026-08-09: six consecutive discovery passes reported repo sight dead
+# and declined to instrument 62 prose-only tests rather than write instruments against
+# invented paths. The path is not a preference — it is the same checkout already declared
+# above as adapters.transcript.projectDir, i.e. where this vault's product lives.
+product:
+  repos:
+    - /Users/tanner/dev/OST-Agent
+
 processes:
   P1_ingest:      { cron: "*/15 * * * *", triggers: ["inbox:new"] }
   P2_map:         { cron: "",             triggers: ["after:P1_ingest"] }
