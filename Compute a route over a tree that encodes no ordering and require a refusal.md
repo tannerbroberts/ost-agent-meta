@@ -30,3 +30,6 @@ The second case is what stops the first from being satisfied by a function that 
 **What this does NOT settle, stated so a green is not over-read.** A pass here proves only that a route can be computed honestly from existing edges and that the computation knows when it cannot. It says nothing about whether seeing a route changes which work a builder picks up first — that is the sibling assumption on this solution, it names a person as the measurement, and no exit code observes one. It also says nothing about whether the routes produced are *useful* to a reader, only that they are not fabricated. A solution that passes this and fails the behavioural half is a correct feature nobody needed.
 
 ⚠️ Unvalidated. Agent-ideated; no test was run and no result is recorded.
+
+## Instrument Log
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/ost/route-from-edges.test.ts` — test/ost/route-from-edges.test.ts does not exist — no spec was collected, so nothing was measured

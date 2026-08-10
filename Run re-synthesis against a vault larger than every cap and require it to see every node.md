@@ -32,3 +32,6 @@ Point 3 is the load-bearing one. Point 4 exists so the spec does not force an un
 **What this does NOT settle, so a green is not over-read.** Passing proves the re-synthesis input is complete or honestly bounded. It proves nothing about whether reading the whole tree at once yields reorganisations a human accepts — that is the sibling belief on this solution, it names a person as the measurement, and it stays a human study. It also says nothing about cost: a read that is complete and takes an unacceptable amount of context to process would pass this and still be unusable, which is the trade-off the solution body names as "expensive in context and compute". And it says nothing about the real hazard the solution flags, that re-organisation is where an agent can silently destroy meaning.
 
 ⚠️ Unvalidated. Agent-ideated; no test was run and no result is recorded.
+
+## Instrument Log
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/ost/whole-tree-read-scale.test.ts` — test/ost/whole-tree-read-scale.test.ts does not exist — no spec was collected, so nothing was measured

@@ -28,3 +28,4 @@ The second assertion is a threshold rather than a guard, and it is pre-committed
 
 ## Instrument Log
 - 2026-08-10 **no-spec** (exit none) `npx vitest run test/cli/unwired-commands.test.ts` — test/cli/unwired-commands.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/cli/unwired-commands.test.ts` — test/cli/unwired-commands.test.ts does not exist — no spec was collected, so nothing was measured

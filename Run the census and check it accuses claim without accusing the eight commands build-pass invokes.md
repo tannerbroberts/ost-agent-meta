@@ -28,3 +28,4 @@ That second assertion is the whole test. It is chosen because it is the cheapest
 
 ## Instrument Log
 - 2026-08-10 **no-spec** (exit none) `npx vitest run test/product/caller-census.test.ts` — test/product/caller-census.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/product/caller-census.test.ts` — test/product/caller-census.test.ts does not exist — no spec was collected, so nothing was measured
