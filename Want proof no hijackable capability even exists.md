@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Allowlist Tool Runner registers only OST tools]]
 [[Published capability manifest with signed build]]
+[[Account for every reachable built-in in one list or the other, and fail the build on an unlisted one]]
 
 **Customer need (operator's perspective):** "I don't want to rely on the agent *choosing* to behave, or on a blocklist that might miss something. I want assurance that no general-purpose or destructive capability even exists for a poisoned input to hijack — trust from the absence of capability, not from restraining a capable agent."
 

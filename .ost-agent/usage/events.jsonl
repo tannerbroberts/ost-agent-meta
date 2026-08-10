@@ -2392,3 +2392,12 @@
 {"ts":"2026-08-10T13:34:15.084Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":4288,"session":"mcp-ce668921-8c14-4b44-9d0f-7c86a629afa8","wrote":["What is in the 33 queue entries no tool has ever listed.md"]}
 {"ts":"2026-08-10T13:34:25.299Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-ce668921-8c14-4b44-9d0f-7c86a629afa8"}
 {"ts":"2026-08-10T14:20:18.537Z","tool":"ost_ingest_inbox","ok":true,"ms":40,"surface":"mcp","argBytes":2,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:20:21.918Z","tool":"ost_next_work","ok":true,"ms":205,"surface":"mcp","argBytes":2,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:20:55.727Z","tool":"ost_read_tree","ok":true,"ms":143,"surface":"mcp","argBytes":2,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:21:30.831Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:21:37.990Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:21:38.052Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":92,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:22:15.111Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:22:55.667Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:26:44.808Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":49,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
+{"ts":"2026-08-10T14:27:38.974Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":4577,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232","wrote":["Account for every reachable built-in in one list or the other, and fail the build on an unlisted one.md"]}
