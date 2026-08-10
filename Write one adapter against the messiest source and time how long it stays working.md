@@ -31,3 +31,4 @@ Nothing here bears on whether reading this source directly is worth doing. That 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/adapters/messiest-source-replay.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/adapters/messiest-source-replay.test.ts` — Duration  271ms (transform 23ms, setup 0ms, collect 39ms, tests 15ms, environment 0ms, prepare 27ms)
