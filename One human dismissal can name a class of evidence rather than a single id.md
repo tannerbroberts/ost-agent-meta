@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A pattern narrow enough to be safe still covers most of what the queue holds]]
 
 **The idea.** Extend the disposition ledger's subject from one id to one *predicate*. `ost-agent dispose --kind evidence --matching <pattern> --by <who> --why <reason>` records the pattern, not the expansion, and `ost_next_work` withholds any record it matches — including records that arrive after the dismissal was written.
 
