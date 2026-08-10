@@ -26,3 +26,4 @@ Not declared. The question is mechanical, but the lane is a human's to set with 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/tools/read-node-body-scope.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/tools/read-node-body-scope.test.ts` — Duration  3.92s (transform 169ms, setup 0ms, collect 289ms, tests 3.41s, environment 0ms, prepare 27ms)
