@@ -2347,3 +2347,4 @@
 {"ts":"2026-08-10T02:48:31.082Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":28,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}
 {"ts":"2026-08-10T02:48:57.644Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3622,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6","wrote":["A positive control fails loudly when its plant is the wrong shape, not silently as a sweep miss.md"]}
 {"ts":"2026-08-10T02:49:19.398Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":4086,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6","wrote":["Plant a deliberately mis-shaped instance and require the control to report a bad plant, not a miss.md"]}
+{"ts":"2026-08-10T02:49:29.691Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":2044,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}

@@ -39,3 +39,21 @@ Annotation only — no change proposed, and the standing do-not-build is untouch
 
 ## History
 - 2026-08-05 unlinked "Do the shipped sweeps actually find a planted instance" — moved under "A positive control would actually fire on the sweeps that shipped" — the belief this test measures now has a node of its own
+
+## Definition of done
+
+"Plant a deliberately mis-shaped instance and require the control to report a bad plant, not a miss"
+
+```
+npx vitest run test/ost/positive-control-plant-shape.test.ts
+```
+
+**This instruments the narrower version this node already asked for, and nothing more.** The section above records that the gating threshold ran — 12 plants, 12 found, 0 checks blind — and that by its own pre-commitment this stays not the primary fix. That standing do-not-build is untouched. What the run surfaced and left without a node is that **all three apparent misses were defects in the plants, not the checks**, and the recommendation drawn from it: whatever gets built here "should carry an assertion that the baseline is clean *and* that the plant is the shape the rule matches."
+
+That recommendation is now a belief with a node and a command. The command asserts a clean baseline, a good plant found, and — the load-bearing part — that a deliberately mis-shaped plant produces a verdict distinguishable from a sweep miss, so a false alarm cannot masquerade as a blind check.
+
+**Grounded rather than guessed.** `src/ost/census.ts` was read in full this pass. It already takes source independence seriously — `reconcileWithGit` shells out to `git ls-files` so a broken walk cannot define its own denominator — and it contains no plant or seeding mechanism at all, which is why the command is red.
+
+**What it does not cover.** It does not re-answer whether the shipped sweeps find plants; that has a recorded result. It does not address this node's own stated weakness, that a control drawn from the same source the sweep reads can be blind in the same way — that is the false-negative direction and needs an independently established fixture. And it does not touch the unbudgeted maintenance cost of keeping fixtures current, which is a question about people's time.
+
+The red is a `no-spec` red and the test node says so.
