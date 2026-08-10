@@ -2391,3 +2391,4 @@
 {"ts":"2026-08-10T13:33:37.009Z","tool":"ost_next_work","ok":true,"ms":88,"surface":"mcp","argBytes":2,"session":"mcp-ce668921-8c14-4b44-9d0f-7c86a629afa8"}
 {"ts":"2026-08-10T13:34:15.084Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":4288,"session":"mcp-ce668921-8c14-4b44-9d0f-7c86a629afa8","wrote":["What is in the 33 queue entries no tool has ever listed.md"]}
 {"ts":"2026-08-10T13:34:25.299Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-ce668921-8c14-4b44-9d0f-7c86a629afa8"}
+{"ts":"2026-08-10T14:20:18.537Z","tool":"ost_ingest_inbox","ok":true,"ms":40,"surface":"mcp","argBytes":2,"session":"mcp-814b1c41-3fa6-47ad-9a41-a047f23af232"}
