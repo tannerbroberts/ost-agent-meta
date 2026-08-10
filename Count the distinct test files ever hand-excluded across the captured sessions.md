@@ -24,3 +24,4 @@ The assumption is that there is enough of this to be worth a mechanism. A commit
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/hand-exclusion-census.test.ts` — No test files found, exiting with code 1
+- 2026-08-10 **green** (exit 0) `npx vitest run test/telemetry/hand-exclusion-census.test.ts` — Duration  249ms (transform 35ms, setup 0ms, collect 43ms, tests 5ms, environment 0ms, prepare 25ms)
