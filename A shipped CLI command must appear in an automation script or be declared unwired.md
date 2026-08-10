@@ -21,3 +21,15 @@ evidence: assertion
 **Cost.** Very small — one spec and one allowlist file.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Count how many registered subcommands need an allowlist entry before the list stops meaning anything"
+
+```
+npx vitest run test/cli/unwired-commands.test.ts
+```
+
+Quoted rather than linked: the test hangs under the Assumption "The commands that legitimately have no script caller are a small nameable set".
+
+Red today as **`no-spec`**. Once written it is red for this question specifically — `claim` is in neither the scripts nor an allowlist that does not yet exist — and green when the wiring or the exemption is recorded.
