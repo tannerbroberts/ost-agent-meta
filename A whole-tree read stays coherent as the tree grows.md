@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Run re-synthesis against a vault larger than every cap and require it to see every node]]
 
 **The belief, stated so it can be false.** Re-synthesis works by reading the entire tree at once and proposing how it should be reorganised. That only means anything if the read is actually entire. This assumption is that a whole-tree read stays coherent — complete, and understood to be complete — as the tree grows.
 
