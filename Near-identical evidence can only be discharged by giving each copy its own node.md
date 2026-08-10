@@ -7,6 +7,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[One human dismissal can name a class of evidence rather than a single id]]
 [[A node may cite many sources, so one distillation discharges the whole cluster]]
+[[The transcript adapter rolls near-identical sessions into one record before storing them]]
 
 **The need, from the operator's side.** My highest-volume evidence channel produces many records of one recurring event. Discharging them is priced per record and paid by me: either I distil each into a node — forbidden, because they are the same claim — or I dismiss each by hand. Eighty-seven items is eighty-seven acts, and the channel manufactures more while I work.
 
