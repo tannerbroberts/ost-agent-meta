@@ -5,6 +5,7 @@ created: '2026-08-10'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Cite three ids from one node and require all three to leave the unmapped list]]
 
 **The belief, stated so it can be false.** `source` has a small, enumerable set of readers, and each can be widened to a list while a node carrying a plain string keeps behaving exactly as it does now.
 
