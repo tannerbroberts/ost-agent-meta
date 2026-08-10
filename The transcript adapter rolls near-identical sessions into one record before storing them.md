@@ -22,3 +22,15 @@ There is also a migration question with no clean answer: the 85 transcript recor
 **Cost.** Medium, concentrated in the signature function, which is where all the judgement lives and which will be re-tuned repeatedly.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Feed the signature two denials of one tool and two different error classes and require two groups not one"
+
+```
+npx vitest run test/adapters/transcript-rollup.test.ts
+```
+
+Quoted rather than linked: the test hangs under the Assumption "A signature can group the friction records without collapsing distinctions that matter".
+
+Red today as **`no-spec`** — `adapters/transcript.ts` mints one record per session and there is no signature function to import. The separating assertion is the one to write first: a permission denial and an `InputValidationError` on the same tool must not merge, and both appear in one real stored session, so the fixture is transcribed rather than imagined.
