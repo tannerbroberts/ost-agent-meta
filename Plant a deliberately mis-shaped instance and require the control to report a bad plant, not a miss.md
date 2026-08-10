@@ -34,3 +34,6 @@ Assertion 3 is the load-bearing one. Assertion 1 and 2 exist so it cannot be sat
 **Standing do-not-build is untouched.** The 2026-07-27 result put this solution behind the existing verify-failing-first discipline by its own pre-commitment, and nothing here promotes it. This gives the narrower version a runnable form for whenever it is picked up.
 
 ⚠️ Unvalidated. Agent-ideated; no test was run and no result is recorded.
+
+## Instrument Log
+- 2026-08-10 **no-spec** (exit none) `npx vitest run test/ost/positive-control-plant-shape.test.ts` — test/ost/positive-control-plant-shape.test.ts does not exist — no spec was collected, so nothing was measured
