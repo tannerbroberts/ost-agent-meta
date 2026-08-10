@@ -74,3 +74,29 @@ Two ways out are named in the refusal, because either is a real fix and the buil
 **What this does not settle.** It is a feasibility change, verified by spec (`test/eval/vacuous-red.test.ts`) and by the counts above. It says nothing about whether the 61 withdrawn permits were work anyone wanted, and nothing about desirability, viability or usability. It also does not show that the 180 kept permits are good — only that this vault's one observed case says a bound threshold can carry a builder through a missing spec, on n=1.
 
 _Sources: first-party counts over this vault's own node files and instrument logs, and the recorded observation cited in the addendum above (observed). No result recorded; this node's rung is unchanged._
+
+## A sharper class inside the weak red — the directory is not there either — 2026-08-10
+
+**This is not a fourth census and should not be read as one.** The 2026-08-09 section already counted the weak form at 241 absent paths against 25 present, and re-measuring today gives 27 present against 250 absent out of 277 instrument fields. Same tree, same method, one day apart — that is persistence, not corroboration, and nobody should count it as a second measurement.
+
+What this pass adds is a partition of the absent 250 that the earlier count did not draw, made possible by listing the product suite directory by directory rather than testing paths one at a time.
+
+**Seventeen instruments name a top-level `test/` subdirectory that does not exist.** The suite has twenty: `adapters`, `automation`, `cli`, `config`, `eval`, `fixtures`, `friction`, `git`, `knowledge`, `loop`, `mcp`, `ost`, `processes`, `product`, `release`, `runner`, `security`, `skill`, `telemetry`, `web`. These seven are named by instruments and are not among them:
+
+| Phantom directory | Instruments naming it |
+|---|---|
+| `test/instruments/` | 4 |
+| `test/preflight/` | 3 |
+| `test/tools/` | 3 |
+| `test/guards/` | 2 |
+| `test/evidence/` | 2 |
+| `test/gate/` | 1 |
+| `test/rank/` | 1 |
+
+**Why this is worth separating from "the file is absent".** A missing file inside a real directory is a builder writing one spec beside its neighbours, and the surrounding files tell them the conventions, the fixtures, and what the module under test is called. A missing file inside a missing directory tells them none of that: the author was inventing repository structure, not just a filename, and the builder's first decision is whether this product should have a `test/gate/` at all. That is a design question arriving disguised as a spec path, and it is the weakest form of red this tree can produce — weaker than the weak red this node was created to name, because the earlier form at least pointed at a real neighbourhood.
+
+**The instance that makes the point.** "Every solution in the current backlog has an existing spec that could go red for it" — the assumption whose whole subject is whether a real spec can be found for each backlog solution — carries `npx vitest run test/instruments/spec-path-resolution.test.ts`, in a directory that does not exist. Its own node already says so in prose (*"Written without repo sight, so the path is invented"*), and its Instrument Log records the 2026-08-07 red as `No test files found`. That is the tree predicting its own result correctly and having no way to act on it.
+
+**What this does not settle.** Whether the seven phantom directories are bad ideas — a product may well want a `test/instruments/`, and three of the four instruments naming it are about the instrument machinery, which currently has its specs spread across `test/ost/instrument.test.ts` and `test/knowledge/instruments.ts`. The finding is only that seventeen instruments encode an unmade structural decision, and that no amount of building the named behaviour makes them resolve until somebody makes it. It says nothing about desirability, viability, or usability, and no test was run.
+
+_Method: `ost_read_repo` listings of every directory under `test/` in the OST-Agent repository, matched against every `instrument:` field in this vault, 2026-08-10. Read of committed code and of this vault's own nodes; no command was executed and no result recorded. This node's rung is unchanged._
