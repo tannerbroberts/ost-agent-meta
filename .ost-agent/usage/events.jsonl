@@ -2295,3 +2295,5 @@
 {"ts":"2026-08-10T01:33:04.849Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":669,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
 {"ts":"2026-08-10T01:33:11.821Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":822,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
 {"ts":"2026-08-10T01:33:43.942Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":3256,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c","wrote":["Near-identical evidence can only be discharged by giving each copy its own node.md"]}
+{"ts":"2026-08-10T01:33:50.734Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":35,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
+{"ts":"2026-08-10T01:34:23.601Z","tool":"ost_edit_node","ok":true,"ms":0,"surface":"mcp","argBytes":4927,"session":"mcp-7ff6e923-5170-4f0a-b109-b1dd4d28a07c"}
