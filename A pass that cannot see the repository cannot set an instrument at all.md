@@ -125,3 +125,27 @@ Both facts can hold at once, and that is the finding: **`ost_read_repo` and the 
 **What this does not settle.** Whether `ost_read_repo` was in fact live on either firing — neither attempted it under a brief that forbade it, and the earlier one's claim to have used it is its own report. Whether the separable-grant finding generalises beyond this machine's permission model. And nothing about the sibling proposals, which remain uncompared.
 
 _Method: this firing's own tool results, plus a full read of `TRANSCRIPT:79a96b5a-9874-4507-9175-b285b601eb24` through `ost_next_work`. Agent self-observation — it grounds feasibility, not demand. No command executed, no result recorded, no rung changed._
+
+## The head is now closed too, so the whole queue is classified — 2026-08-10, later firing (not a recorded result)
+
+**No test was run.** This is the missing half of a count this node has carried four times. The tail was closed on the unknown "What is in the 33 queue entries no tool has ever listed" at `mechanical` = 0 of 33. The head — the 25 the tool prints — had never been finished: 25 classified by subject on 2026-08-09, 12 opened on 2026-08-10, **13 never opened by anybody**. Those 13 are now classified.
+
+**The whole 58-entry queue contains zero entries asking for a spec file.**
+
+| | people | elapsed-time | shipped | no-command | premise-superseded | split | **mechanical** |
+|---|---|---|---|---|---|---|---|
+| head (25) | 15 | 3 | 5 | 1 | 1 | 0 | **0** |
+| tail (33) | 25 | 4 | 2 | 0 | 0 | 2 | **0** |
+| **58** | **40** | **7** | **7** | **1** | **1** | **2** | **0** |
+
+**The shipped class is verified rather than inferred, and it is bigger in the head than any pass has recorded.** One grep for `status: shipped` across the vault returns ten solutions; **five of the ten are in the visible 25** — "Refuse a proving command whose exit code cannot report failure", "Refuse a wiki-link that contains a newline", "Refuse a write whose content is empty or literally undefined", "Post-session transcript harvester", and "A result must state what it did not cover". The other five are absent from the queue for the ordinary reason: their tests carry instruments. So `status: shipped` does not exclude a solution from this bucket, and the 2026-08-05 repair that set the first of those to `shipped` has now failed to remove it on six consecutive passes.
+
+**The strongest mechanical-looking entry in the head was opened and is not mechanical.** "Settle the standing answers once, in committed configuration the run inherits" proposes committed configuration — a schema change, mechanical by subject. Its only test, "Settle the known prompts as config and count how many new ones appear in a month", has the threshold *"At most 2 previously unseen prompts stop a run in the month"* and the design *"run normally for a month and count how many previously unseen prompts stop a run."* Class `elapsed-time`. That is the third consecutive time the title-proxy method has read a queue entry as mechanical and the test has said otherwise, and it is now 3 for 3 in the optimistic direction.
+
+**An independent derivation of the uninstrumented set, which agrees.** Two multiline greps over frontmatter — tests whose last key is a plain scalar, and tests whose last key is a `threshold:` block — return 35 and 25 files, **60 tests carrying no `instrument:`**. Against the arithmetic total of 73 (351 tests minus 278 with instruments), 13 tests have a frontmatter shape neither pattern catches and were not enumerated here. So this is a floor of 60 of 73, not a complete census of tests — but every one of the 60 was classified, and none is mechanical.
+
+**What this changes for the instruction.** Every prior pass framed the blocker as capability: repo sight, then built-in file access. Both have now been held by a firing, and the count did not move, because the queue's composition is the constraint. The bucket's instruction — "declare an `instrument:` (one spec file that fails today and passes when the solution is built)" — is not merely hard to satisfy on most entries; on this measurement it is satisfiable on **none of the 58**. A pass that reports progress against it is writing commands that measure nothing. The repair belongs entirely to the queue's derivation and not to any solution beneath it.
+
+**What this does not settle.** Twenty-three of the tail's 33 and roughly half of the head's 25 rest on their test's *title*; the two `split` rows already prove a threshold can hide a clause a title does not show, so `mechanical` = 0 is a measurement with a known blind spot rather than a proof. The 13 unenumerated tests are unclassified. Nothing here says whether any of these tests is well designed, and nothing was executed.
+
+_Method: `Read`/`Glob`/`Grep` over this vault, plus `ost_read_repo` reads of `test/`, `test/ost/` and `test/ost/instrument.test.ts` in the product. First-party throughout; no command executed, no result recorded, no rung changed._
