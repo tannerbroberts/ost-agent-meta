@@ -20,3 +20,17 @@ evidence: assertion
 **Cost.** Small to medium — a predicate field on the ledger entry, a matcher, and one honest decision about how loudly matches are reported.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Match one candidate pattern against the stored corpus and count what it covers and what it would hide"
+
+```
+npx vitest run test/knowledge/disposition-pattern.test.ts
+```
+
+Quoted rather than linked: the test hangs under the Assumption "A pattern narrow enough to be safe still covers most of what the queue holds".
+
+Red today as **`no-spec`** — `dispose` takes no `--matching` argument and the file does not exist. The assertion that gives the command meaning is the false-positive one: the two content-bearing `friction/` records must survive a pattern that clears the transcripts.
+
+A builder should note what the green does not buy: the coverage ratio over the real eighty-five records is a census, not this spec, and it is what decides whether the feature is worth its risk.
