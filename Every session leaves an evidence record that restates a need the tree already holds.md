@@ -116,3 +116,13 @@ _Method: five full evidence reads via `ost_next_work({evidence})`, plus this fir
 **What this pass did with the 102.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
 
 _Method: full evidence reads via `ost_next_work({evidence})` of the two new records plus three older samples. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Seventh consecutive decline — 2026-08-10, fourth firing today
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → **105**. The three records new since the previous firing were all read in full and all land in known territory: `TRANSCRIPT:801c0ff1` is two retries of `ost_ingest_inbox`/`ost_next_work` (row 4); `TRANSCRIPT:d2927383` is two "File has not been read yet" Edit refusals (row 2) plus one Bash failure loading a module path that does not exist (`Cannot find module './src/loop/question-bank.js'`); `TRANSCRIPT:bf39241c` is a single zsh syntax failure (`(eval):1: == not found`) — one more pointer to the candidate fifth row the 2026-08-10 corpus count proposed (the run getting the call itself wrong and finding out afterwards), now at roughly a dozen instances and still awaiting an attended judgement on whether it is a distinct need.
+
+**This firing's own row-1 instance, with a consequence.** A `Grep` of the product source directory was permission-denied at the first attempt. That is why the 58 solutions in `solutionsMissingInstruments` go unhandled again this pass: an instrument written without repo sight can only name a file the writer cannot check, which is the `no-spec` red this tree measured at 260 of its own 266 recorded reds — and `ost_flag_humans_required` is withheld from this surface, so the human-only remainder cannot be laned either. The bucket is structurally unactionable from an unattended sweep, which "A pass that cannot see the repository cannot set an instrument at all" already argues.
+
+**What this pass did with the 105.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
+
+_Method: full evidence reads via `ost_next_work({evidence})` of all three new records. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
