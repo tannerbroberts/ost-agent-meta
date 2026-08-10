@@ -4,6 +4,7 @@ status: unvalidated
 source: 'INBOX:2026-07-22-adapter-reality.md'
 created: '2026-07-25'
 evidence: assertion
+instrument: npx vitest run test/security/no-secret-in-vault-or-history.test.ts
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -17,6 +18,7 @@ _Proposal only — a human runs/reviews this. Unvalidated._
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+- 2026-08-10 instrument: (none) → npx vitest run test/security/no-secret-in-vault-or-history.test.ts — The spec seeds a sentinel secret through the broker, runs a pass that writes the credential audit log, then asserts the sentinel literal appears in no vault file and in no commit reachable from HEAD via `git log -p`; it is red because no such scan exists anywhere in the repository — `test/security/no-secret-in-vault-or-history.test.ts` is absent from test/security's 22 specs — while `src/security/credential-audit.ts` writes broker records to `.ost-agent/credentials/audit.jsonl` INSIDE the vault, which this product auto-commits, so a credential-derived artefact demonstrably reaches git history with nothing asserting end-to-end that the secret itself does not ride along.
 
 ## Issues
 - 2026-08-07 2026-08-07 A mechanical test with no instrument, and the command is nearly writable — but this pass declined to set it, because it cannot tell whether the command would be red. Recorded here so the next pass with repository sight can set it in one call rather than re-deriving it.
