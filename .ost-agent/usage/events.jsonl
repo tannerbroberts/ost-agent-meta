@@ -2328,3 +2328,6 @@
 {"ts":"2026-08-10T02:43:14.877Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":92,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}
 {"ts":"2026-08-10T02:43:43.263Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}
 {"ts":"2026-08-10T02:44:09.571Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3400,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}
+{"ts":"2026-08-10T02:44:18.995Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}
+{"ts":"2026-08-10T02:44:19.162Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6"}
+{"ts":"2026-08-10T02:44:41.802Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3001,"session":"mcp-0fec1e7d-7e1c-411e-9ccb-91beb0c3abe6","wrote":["A credible route can be computed from the tree's own edges.md"]}

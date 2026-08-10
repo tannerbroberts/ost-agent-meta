@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Seeing a path instead of a taxonomy changes which work a builder starts on]]
+[[A credible route can be computed from the tree's own edges]]
 
 Render the tree as a route rather than a hierarchy: given the current state and the goal state, display the specific chain of targets that would connect them, with the tradeoffs at each fork made visible. The underlying nodes are unchanged; what changes is that a reader sees a path instead of a taxonomy.
 
