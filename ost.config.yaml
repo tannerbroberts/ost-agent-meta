@@ -45,6 +45,13 @@ loop:
     # to the vault, so the slug is the vault path. Declared, never derived.
     sessionsDir: "~/.claude/projects/-Users-tanner-ost-agent-meta"
 
+# Focus the discovery pass on one opportunity's branch (Torres's single target
+# opportunity). Human-set 2026-08-11: the founder directed in-session that the
+# compression branch be prioritized for discovery and build ("this feels like
+# gold"). Remove or blank the target to return to the whole-tree sweep.
+discovery:
+  target: "More reaches my senses than fits in the window where I think"
+
 # Local repo paths the agent may READ (read-only) to ground ideas in what the product
 # actually is. Set 2026-08-09: six consecutive discovery passes reported repo sight dead
 # and declined to instrument 62 prose-only tests rather than write instruments against
