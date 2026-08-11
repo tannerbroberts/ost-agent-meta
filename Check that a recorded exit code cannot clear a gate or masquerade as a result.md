@@ -21,3 +21,4 @@ instrument: npx vitest run test/runner/exit-code-observation.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/runner/exit-code-observation.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/runner/exit-code-observation.test.ts` — Duration  3.67s (transform 105ms, setup 0ms, collect 160ms, tests 3.31s, environment 0ms, prepare 25ms)
