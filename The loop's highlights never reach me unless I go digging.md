@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Announce a red-to-green flip on the founder's channel the moment it is observed]]
 
 **The need (founder's voice, 2026-08-11, verbatim in substance):** "If a red test goes green, I'm not notified. If a long-standing opportunity gets killed, I'm not made aware of the reasons... I'd like to be at least notified of the highlights, but I haven't found a good way to helping you determine what's worth sharing, nor am I certain that the highlights are happening as hoped." And the success criterion behind it: "I want this whole build + discover loop to be a compute success, not my success... the thesis gets proven if it can succeed on its own."
 
