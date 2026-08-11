@@ -161,3 +161,15 @@ _Method: `Read`/`Glob`/`Grep` over this vault, plus `ost_read_repo` reads of `te
 **What this does not settle.** The tail's unlisted 42 were not re-enumerated; this classifies the family the growth came from, verified by frontmatter on the four tests, not every hidden entry individually. And nothing about whether any of the four human studies is well designed.
 
 _Method: `Grep`/`Read` over this vault's own files plus full `ost_read_tree` reads of two new solutions and one new test; `ost_read_repo` root and `test/` listings. First-party; no command executed, no result recorded, no rung changed._
+
+## The growth 67 → 70 is the highlight family, and the zero holds — 2026-08-11, unattended sweep (not a recorded result)
+
+**No test was run.** `solutionsMissingInstruments` stood at 70 this firing, up three from the closed census at 67. The three new entries are the 2026-08-11 highlight family: "A highlight criteria note the founder edits and the loop reads before deciding what to surface", "A highlights digest distilled from what vault history already records", and "Announce a red-to-green flip on the founder's channel the moment it is observed".
+
+**All three tests carry `lane: humans-required`, set at creation and read from frontmatter this firing.** "Seed a one-line criteria note and see whether the founder edits it within two weeks", "Hand the founder a digest built from last month's history and ask what it missed", and "Send flip announcements for two weeks and count which ones the founder reacts to" each name the founder as irreducibly the measurement — his edits, his named misses, his reactions. Class: `people`, all three. `mechanical` remains **0 of 70**.
+
+**Repo sight was live on this surface and it changed nothing, again.** This firing probed `ost_read_repo` before touching the queue and it answered — `test/` listed in full on the first call. Zero instruments were written, for the composition reason the census already established, not for blindness: the queue still contains nothing an exit code can settle, and the batch-scale defect recorded on 2026-08-10 — a test created `humansRequired` still surfaces its solution in this bucket on the next sweep — has now reproduced on a third consecutive family.
+
+**What this does not settle.** Whether the highlight family's three human studies are well designed, and nothing about the queue's unlisted tail, which was not re-enumerated.
+
+_Method: frontmatter reads of the three new tests and their solutions in this vault; `ost_read_repo` listing of `test/`. First-party; no command executed, no result recorded, no rung changed._
