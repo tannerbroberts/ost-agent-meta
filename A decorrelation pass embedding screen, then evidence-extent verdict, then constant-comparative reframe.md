@@ -28,3 +28,9 @@ Stages 1 and 3 remain open, deliberately: stage 1 (embedding-similarity screenin
 
 ## History
 - 2026-08-11 status: (none) → shipped — Stage 2 (evidence-extent verdict) merged to main 2026-08-11 as PR #101 (commit ec522d1); pinned by test/ost/extent.test.ts. Stage 1 (embedding screen) blocked on an embedding capability the tool surface lacks; stage 3 (reframe) is now pass discipline whose quality is unmeasured.
+
+## First live use of stage 2, and one behaviour diverged from this node's description — 2026-08-11
+
+The twelve extent flags this mechanism raised on its first day were each adjudicated by the unattended sweep (Torres's interventional test, verdicts recorded as annotations on the flagged nodes — all twelve distinct-with-shared-provenance, zero merges, zero re-hangs; see the assumption "Extent flags mostly point at real duplicates, not at distinct needs sharing a source" beneath this node). The Shipped section above says the three rules "clear by annotation." After all eight flagged nodes were annotated, `ost_next_work` still reports the same twelve issues. Either clearing requires a form these annotations do not have, or the clear-by-annotation behaviour did not ship as described. Whichever it is, the flags currently block `done` with no path a pass can clear them by, which converts each false-positive flag into a permanent cost rather than a one-time adjudication. Worth a builder's eye before the next sweep re-pays the same twelve adjudications.
+
+_First-party observation from the 2026-08-11 unattended sweep's own tool calls: eight `ost_annotate` writes followed by a re-run of `ost_next_work` showing `hygieneIssues` unchanged at 12. Grounds feasibility of the shipped stage, not demand. No rung change._
