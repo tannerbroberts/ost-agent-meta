@@ -2702,3 +2702,12 @@
 {"ts":"2026-08-11T13:17:31.888Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1821,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8"}
 {"ts":"2026-08-11T13:17:33.919Z","tool":"ost_set_status","ok":true,"ms":0,"surface":"mcp","argBytes":423,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8"}
 {"ts":"2026-08-11T13:32:51.219Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:32:54.343Z","tool":"ost_next_work","ok":true,"ms":74,"surface":"mcp","argBytes":2,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:33:44.294Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":92,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:33:45.011Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:33:46.435Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:33:46.598Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:34:07.146Z","tool":"ost_read_tree","ok":true,"ms":47,"surface":"mcp","argBytes":2,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:40:23.247Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:40:23.414Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
+{"ts":"2026-08-11T13:41:53.412Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":1617,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89","wrote":["Buckets ordered by branch, so consecutive firings finish a region before sampling the next.md"]}
