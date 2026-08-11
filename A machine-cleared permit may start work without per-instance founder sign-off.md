@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Assumption #machine-witness #goal-acquisition #unvalidated #evidence/assertion
+[[Ask the founder whether a machine-cleared permit may start a build with nobody watching]]
 
 **Risk category: viability (authorization).**
 
