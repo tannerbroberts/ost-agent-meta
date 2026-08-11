@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[By 2026-08-25 the target is set and one scoped firing has run]]
 
 **Kind: desirability.** The shipped mechanism is inert until a human writes one line — `discovery.target` in `ost.config.yaml` — and no tool can write it for them, by design. The belief, stated so it can be false: an operator who asked for branch-at-a-time discovery on 2026-08-11, and had the mechanism shipped the same day, will perform the one-line act that turns it on.
 
