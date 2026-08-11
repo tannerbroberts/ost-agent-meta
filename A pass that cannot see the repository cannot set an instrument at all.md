@@ -173,3 +173,13 @@ _Method: `Grep`/`Read` over this vault's own files plus full `ost_read_tree` rea
 **What this does not settle.** Whether the highlight family's three human studies are well designed, and nothing about the queue's unlisted tail, which was not re-enumerated.
 
 _Method: frontmatter reads of the three new tests and their solutions in this vault; `ost_read_repo` listing of `test/`. First-party; no command executed, no result recorded, no rung changed._
+
+## The queue moved 70 → 66 without a sweep writing anything — 2026-08-11, second unattended firing (not a recorded result)
+
+**No test was run.** `solutionsMissingInstruments` stood at 66 this firing, down four from the 70 the same-day census closed at. No sweep wrote an instrument in the interval; the vault's own recent commit history shows build-loop commits recording instrument observations ("record 8 observation(s) from the build loop" and one post-build observation), which is the ordinary exit from this bucket — a test beneath gains an instrument, its solution leaves the queue. Which four left was not verified from this surface: the tool lists 25 of 66 and the tail is unenumerable here.
+
+**The visible head contains nothing outside the classified families.** All 25 listed titles belong to families a prior census already classified — the commercial head, the axiom/goal-acquisition family, the highlight family, and the shipped class ("A result must state what it did not cover" is still listed). Nothing new has visibly entered since the highlight family, so `mechanical` remains 0 of everything classified; the unlisted 41 were not re-enumerated.
+
+**Zero instruments written again, and both blockers were checked rather than assumed.** This firing's brief withheld the `ost_read_*` senses, and its `Glob` of the product directory was permission-refused at first attempt — so the separable built-in grant, live on the previous firing, was absent on this one. Sight or no sight, the standing finding is unchanged: the queue contains nothing an exit code can settle, and the repair belongs to the queue's derivation, not to any solution beneath it.
+
+_Method: this firing's own tool results plus the vault's git log. First-party; no command executed, no result recorded, no rung changed._
