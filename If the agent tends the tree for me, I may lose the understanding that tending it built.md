@@ -20,3 +20,6 @@ evidence: assertion
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+
+## Issues
+- 2026-08-11 2026-08-11 shared-extent flag vs "I don't know what unit of this anyone would pay for" adjudicated: DISTINCT, do not merge. Deskilling-viability and pricing unit share the five-dimension review as source, nothing else — "The agent proposes and never files, so every node enters the tree through the operator's hand" preserves understanding and says nothing about price. Sweep's own verdict; queued for human confirmation via "A human re-judges the first twelve extent flags against Torres's test".
