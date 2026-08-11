@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #needs-customer-interview #evidence/assertion
 [[Nothing points from my project to the vault that maps it]]
 [[Nothing brings the tree's state to me, so staying current means going and reading it]]
+[[The loop's highlights never reach me unless I go digging]]
 
 **The need (customer's voice):** "I want to know where this thing stands — what it learned, what changed, what it's about to do — without opening a vault, learning a graph view, or reading Markdown files I didn't write."
 
