@@ -7,6 +7,7 @@ evidence: stated
 #Opportunity #unvalidated #evidence/stated
 [[A discovery firing scoped to one human-chosen target branch, worked to done before the sweep widens]]
 [[Buckets ordered by branch, so consecutive firings finish a region before sampling the next]]
+[[A deep-dive firing that spends its whole budget thinking about one branch, and clears no buckets]]
 
 **The need (operator's voice, 2026-08-11):** "Does the discovery phase work with one branch at a time? I'd prefer that, so more mental space can be reserved for problem solving, and so we avoid distractions during discovery."
 

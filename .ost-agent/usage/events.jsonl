@@ -2711,3 +2711,4 @@
 {"ts":"2026-08-11T13:40:23.247Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":62,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
 {"ts":"2026-08-11T13:40:23.414Z","tool":"ost_next_work","ok":true,"ms":4,"surface":"mcp","argBytes":62,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89"}
 {"ts":"2026-08-11T13:41:53.412Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":1617,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89","wrote":["Buckets ordered by branch, so consecutive firings finish a region before sampling the next.md"]}
+{"ts":"2026-08-11T13:42:00.348Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1579,"session":"mcp-ec3b9538-2598-4075-8ef3-bcc0c0603c89","wrote":["A deep-dive firing that spends its whole budget thinking about one branch, and clears no buckets.md"]}
