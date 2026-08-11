@@ -188,3 +188,13 @@ _Method: full evidence reads via `ost_next_work({evidence})` of both newly inges
 **What this pass did with the 123.** Mapped none, for the reasons this node already gives. The instrument queue held at 66 with its visible head unchanged from the classified families (`mechanical` = 0 stands), and the one under-served opportunity's recorded hold was respected. Recorded, not re-argued.
 
 _Method: full evidence read via `ost_next_work({evidence})` of the one newly ingested record, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Consecutive decline continues — 2026-08-11, fourth unattended firing
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → 107 → 113 → 119 → 122 → 123 → **124**. The one record ingested at the top of this firing, `TRANSCRIPT:2f762fdc`, was read in full and lands in known rows: one `Glob` of the product directory permission-refused (row 1) and two ingest/next_work retries (row 4). No new shape.
+
+**Row 1 held on this surface again, and the firing itself is another instance.** This firing's own `Grep` of `/Users/tanner/dev/OST-Agent/src` was permission-refused at first attempt — the built-in grant, observed present once and absent on the two firings since, is absent a third time. The brief also disagreed with itself about the outward senses again (one paragraph granting the `ost_read_*` tools, the hard-rules paragraph withholding them); resolved conservatively, no probe attempted — and none was needed, because the instrument queue's standing blocker is composition, not sight.
+
+**What this pass did with the 124.** Mapped none, for the reasons this node already gives. The instrument queue held at 66 with its visible head unchanged from the classified families (`mechanical` = 0 stands), and the one under-served opportunity's recorded hold was read and respected. Recorded, not re-argued.
+
+_Method: full evidence read via `ost_next_work({evidence})` of the one newly ingested record, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
