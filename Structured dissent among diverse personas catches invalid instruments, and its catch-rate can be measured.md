@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Assumption #founder-theory #goal-acquisition #machine-witness #unvalidated #evidence/assertion
+[[Seed the dissent panel with planted-defective instruments and measure its catch rate against a pre-committed bar]]
 
 The belief the gate-parity solution depends on, stated so it can be wrong: a debate of diverse personality-prompted judges — each charged with attacking an instrument's validity (does the spec exist, can it pass vacuously, does red mean what the question asks) and with pre-registering what its passing would commit the tree to — reliably rejects invalid instruments that a single author would wave through, AND the panel's reliability is itself measurable by machine.
 
