@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Solution #founder-theory #goal-acquisition #machine-witness #unvalidated #evidence/assertion
+[[Structured dissent among diverse personas catches invalid instruments, and its catch-rate can be measured]]
 
 Retire the human-recorded-result requirement from `ost-agent gate` for claims whose deciding reality is machine-readable: a valid instrument's verdict clears the worth-building permit with no human retyping what a program already observed. Founder doctrine (2026-08-10): human senses are gene-survival-tuned instruments, nothing magical — "programs can observe reality with even MORE high fidelity than a human can" — and the tree should stop faking incapability. Humans are flagged for what is genuinely missing (authorization, human-resident phenomena like demand and trust, a sense nobody has built yet); they are never a universal notary.
 
