@@ -23,3 +23,4 @@ The assumption is that a forward-written journal is accurate at the moment of in
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/loop/run-journal-interruption.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/loop/run-journal-interruption.test.ts` — Duration  2.04s (transform 22ms, setup 0ms, collect 23ms, tests 1.83s, environment 0ms, prepare 26ms)
