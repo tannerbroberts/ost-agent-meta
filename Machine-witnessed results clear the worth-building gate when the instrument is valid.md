@@ -22,3 +22,11 @@ Retire the human-recorded-result requirement from `ost-agent gate` for claims wh
 ## Refinement — 2026-08-10 (founder, same session)
 
 The counterparty substitution this node requires now has a proposed mechanism: not a one-off vote but well-shaped dissent — a debate of diverse personality-prompted judges who must agree on an instrument's failure-case validity and on what its passing would mean, with the panel's own catch-rate machine-witnessed (canary corpus of planted-defective instruments, dissent-rate telemetry, pre-registered pass semantics). Mapped as the Assumption "Structured dissent among diverse personas catches invalid instruments, and its catch-rate can be measured" beneath this node. Source: `INBOX:2026-08-10-founder-theory-simulated-dissent-as-counterparty.md`.
+
+## Definition of done
+
+"Seed the dissent panel with planted-defective instruments and measure its catch rate against a pre-committed bar"
+
+npx vitest run test/eval/dissent-canary-catch-rate.test.ts
+
+Red today as `no-spec` (neither panel nor spec exists); the deliverable is the failing spec, created through the normal branch/PR flow. Two further tests sit beneath this solution's other assumptions — "Gate refuses a permit when the claim's author is the sole author of its judge" (compute) and "Ask the founder whether a machine-cleared permit may start a build with nobody watching" (human, authorization) — and a builder should treat the catch-rate spec as the buildable edge while the authorization answer is outstanding.
