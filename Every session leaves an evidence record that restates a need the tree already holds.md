@@ -168,3 +168,13 @@ _Method: full evidence reads via `ost_next_work({evidence})` of both new records
 **What this pass did with the 119.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
 
 _Method: full read of the one newly ingested record from the captured store, plus corpus-wide greps of all stored transcript records. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Consecutive decline continues — 2026-08-11, second unattended firing
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → 107 → 113 → 119 → **122**. The two records ingested at the top of this firing were read in full and land in known territory: `TRANSCRIPT:9cd5ea9f` is a single zsh syntax failure (`(eval):1: ==== not found`) — the harness-issued call-friction shape already dispositioned onto "Two thirds of my calls failed, and each one only told me after I made it"; `TRANSCRIPT:00908faf` is one `Grep` refusal (ripgrep rejecting a look-around pattern before searching — the same call-friction shape, told after the call) plus two ingest/next_work retries (row 4). The third record that arrived between firings was not individually read.
+
+**Row 1 held on this surface this firing, in the reverse direction from the last entry.** The previous unattended firing recorded `ost_read_repo` answering here; this firing's `Glob` of the product directory was permission-refused at first attempt, and the brief forbade the `ost_read_*` tools outright. So the grant over the product repository has now been observed present and absent on the same surface within a day — one more instance of "The agent has to guess what resources it's actually working with," and a concrete case for reading capability per-firing rather than carrying it forward from the last entry.
+
+**What this pass did with the 122.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
+
+_Method: full evidence reads via `ost_next_work({evidence})` of both newly ingested records, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
