@@ -1,5 +1,6 @@
 ---
 type: Solution
+status: shipped
 source: 'CONVO:2026-08-11 literature research pass'
 created: '2026-08-11'
 evidence: expert
@@ -23,3 +24,6 @@ Key sources: producttalk.org/opportunity-mapping · producttalk.org/prioritize-o
 Built and merged to main as PR #101 (commit ec522d1, 2026-08-11), on the operator's direct mandate. `src/ost/extent.ts` computes every Opportunity's evidence extent (the stored records its whole subtree cites) and applies the FCA/Torres verdicts as three hygiene rules on the near-duplicate channel, siblings-only: `shared-extent` (identical extents — merge, or name a solution addressing one alone), `subset-extent` (strict subset — a child mis-hung as a peer, re-hang it), `entangled-extent` (crossing overlap ≥ 0.5 — rewrite each node from its own evidence so each statement carries its differentia). All three block `done`, clear by annotation, and resolve by judgement between `ost_merge_nodes` and `ost_edit_node`; the ruleset and /ost-pass now state the discipline. Performance holds the wall-clock budget by clustering identical extents and posting-list candidate generation (the naive all-pairs form was caught by the instrument at 2423ms on the 10,000-node fixture). Pinned by 8 tests in `test/ost/extent.test.ts`.
 
 Stages 1 and 3 remain open, deliberately: stage 1 (embedding-similarity screening) needs an embedding capability this closed tool surface does not hold — it would nominate differently-worded duplicates whose extents are disjoint because mapping created a fresh node per record, which is the case set arithmetic cannot see and the meta vault's 124-record queue exemplifies. Stage 3 (the constant-comparative reframe itself) is judgement work the pass now performs when an `entangled-extent` issue fires, per the /ost-pass instructions; whether it does so well is measurable once the first flags land.
+
+## History
+- 2026-08-11 status: (none) → shipped — Stage 2 (evidence-extent verdict) merged to main 2026-08-11 as PR #101 (commit ec522d1); pinned by test/ost/extent.test.ts. Stage 1 (embedding screen) blocked on an embedding capability the tool surface lacks; stage 3 (reframe) is now pass discipline whose quality is unmeasured.
