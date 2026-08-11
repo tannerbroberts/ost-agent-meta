@@ -210,3 +210,13 @@ _Method: full evidence read via `ost_next_work({evidence})` of the one newly ing
 **What this pass did with the 126.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
 
 _Method: full evidence reads via `ost_next_work({evidence})` of both newly ingested records plus four older samples; this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Consecutive decline continues — 2026-08-11, sixth unattended firing
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → 107 → 113 → 119 → 122 → 123 → 124 → 126 → **129**. All three records ingested at the top of this firing were read in full and land in known territory: `TRANSCRIPT:7c7e6863` is a zsh eval syntax failure (the harness call-friction shape dispositioned onto "Two thirds of my calls failed, and each one only told me after I made it") plus one "File has not been read yet" Edit refusal (row 2); `TRANSCRIPT:89ee644b` is a builder session in the product repo — two "String to replace not found" Edit refusals (row 2, staleness half), one zsh eval failure and one blocked sleep-chain (both the call-friction shape), and one `gh pr checks` exit 8 with CI still pending; `TRANSCRIPT:b18b497c` is one permission-denied `Glob` of the product directory (row 1) plus two ingest/next_work retries (row 4). No new shape.
+
+**Row 1 held on this surface again.** This firing did not probe the product directory — the brief withheld the `ost_read_*` senses and the standing composition finding on the instrument queue made a sight probe moot — but `TRANSCRIPT:b18b497c`, itself a prior firing on this surface, shows the built-in grant absent there too.
+
+**What this pass did with the 129.** Mapped none, for the reasons this node already gives. The twelve extent flags in `hygieneIssues` were verified to be the twelve already adjudicated on 2026-08-11 (verdicts spot-checked on three flagged nodes; all carry the recorded DISTINCT verdict and the queued human re-judge), the instrument queue's 66 → 70 delta was classified on the census node (`mechanical` = 0 stands), and the one under-served opportunity's recorded hold was read and respected. Recorded, not re-argued.
+
+_Method: full evidence reads via `ost_next_work({evidence})` of all three newly ingested records, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
