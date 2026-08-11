@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Assumption #machine-witness #goal-acquisition #unvalidated #evidence/assertion
+[[Gate refuses a permit when the claim's author is the sole author of its judge]]
 
 **Risk category: feasibility.**
 
