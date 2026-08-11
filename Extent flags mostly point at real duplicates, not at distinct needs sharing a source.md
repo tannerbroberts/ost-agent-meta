@@ -7,6 +7,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A human re-judges the first twelve extent flags against Torres's test]]
 
 **Kind: feasibility (of the verdict stage doing useful work).** Stage 2 treats identical or nested evidence extents as the signature of duplicate or mis-hung concepts. The belief, stated so it can be false: most sibling pairs the arithmetic flags are really one concept wearing two titles, so the flags route judgement to merges and re-hangs rather than taxing every firing with false alarms.
 
