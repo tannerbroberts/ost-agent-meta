@@ -23,3 +23,4 @@ The assumption is that most commands do not need a shell. If a lot of real work 
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/shell-necessity-census.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/runner/shell-necessity-census.test.ts` — Duration  521ms (transform 24ms, setup 0ms, collect 253ms, tests 70ms, environment 0ms, prepare 25ms)
