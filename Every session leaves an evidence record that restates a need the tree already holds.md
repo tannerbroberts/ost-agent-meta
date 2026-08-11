@@ -198,3 +198,15 @@ _Method: full evidence read via `ost_next_work({evidence})` of the one newly ing
 **What this pass did with the 124.** Mapped none, for the reasons this node already gives. The instrument queue held at 66 with its visible head unchanged from the classified families (`mechanical` = 0 stands), and the one under-served opportunity's recorded hold was read and respected. Recorded, not re-argued.
 
 _Method: full evidence read via `ost_next_work({evidence})` of the one newly ingested record, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Consecutive decline continues — 2026-08-11, fifth unattended firing
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → 107 → 113 → 119 → 122 → 123 → 124 → **126**. Both records ingested at the top of this firing were read in full and land in known territory: `TRANSCRIPT:e9a4ef9e` is three harness call-friction tool errors (an oversized `Read`, a zsh eval syntax failure, a `sed` invalid-command against a binary) — the shape already dispositioned onto "Two thirds of my calls failed, and each one only told me after I made it"; `TRANSCRIPT:8997da14` is one permission-denied `Grep` of the product source (row 1) plus two ingest/next_work retries (row 4). No new shape. Also sampled in full this firing: `030e5db3` (row 1, the withheld-tool denials), `2a4bcf6e` (row 3), `32cac6f7` (rows 2 and 1 plus one human mid-session rejection), and the standing `INBOX:` backgrounded-session item, whose un-dischargeability from this surface the 2026-08-10 sixth-decline entry already records.
+
+**Row 1 held on this surface again.** This firing's own `Glob` of `/Users/tanner/dev/OST-Agent` was permission-refused at first attempt — the built-in grant, observed present once on 2026-08-10, has now been absent four consecutive firings. Capability was probed once and not retried, and the instrument queue (66) was left untouched for the standing reason: the census's `mechanical = 0` finding stands, `ost_flag_humans_required` remains withheld here, and blind instruments mint only the `no-spec` red this tree measured at 260 of 266.
+
+**One thing this firing did that earlier entries could not.** The first twelve extent flags from stage 2 of the decorrelation solution (shipped 2026-08-11) landed this firing and were adjudicated rather than annotated-and-left: all twelve judged distinct-with-shared-provenance, verdicts recorded on the flagged nodes, and the finding itself fed back as the assumption "Extent flags mostly point at real duplicates, not at distinct needs sharing a source" with a humans-required test over the same twelve pairings.
+
+**What this pass did with the 126.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
+
+_Method: full evidence reads via `ost_next_work({evidence})` of both newly ingested records plus four older samples; this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
