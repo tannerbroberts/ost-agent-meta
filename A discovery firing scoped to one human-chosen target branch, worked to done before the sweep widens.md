@@ -6,6 +6,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The operator will set the target the shipped mechanism waits on]]
 
 **Mechanism:** a human-set target (a `target:` field in `ost.config.yaml`, or `ost-agent target <opportunity title>` on the CLI — human-set to honor the MUST NOT at `ruleset.ts:142` against auto-selecting a target opportunity). `ost_next_work` gains a `scope` parameter that filters every bucket to the target opportunity's subtree, plus the evidence records whose best-match candidate lands there; `/ost-pass` reads the target and works that branch until its buckets are empty before touching anything else. When no target is set, today's whole-tree sweep is the unchanged fallback. Render the ruleset's `cadence` block (which already prescribes "select a single target opportunity at a time") into SKILL.md so the running agent finally sees it.
 
