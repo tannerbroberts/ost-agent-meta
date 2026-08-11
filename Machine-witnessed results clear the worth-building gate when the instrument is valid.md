@@ -16,3 +16,7 @@ Retire the human-recorded-result requirement from `ost-agent gate` for claims wh
 **Scope boundary:** this clears the epistemic half only. Whether a human must still authorize what gets built and spent is a separate founder-owned question, deliberately not answered here.
 
 **Provenance caveat:** founder doctrine, spoken 2026-08-10, mapped at the founder's direction. Floor rung (`assertion`).
+
+## Refinement — 2026-08-10 (founder, same session)
+
+The counterparty substitution this node requires now has a proposed mechanism: not a one-off vote but well-shaped dissent — a debate of diverse personality-prompted judges who must agree on an instrument's failure-case validity and on what its passing would mean, with the panel's own catch-rate machine-witnessed (canary corpus of planted-defective instruments, dissent-rate telemetry, pre-registered pass semantics). Mapped as the Assumption "Structured dissent among diverse personas catches invalid instruments, and its catch-rate can be measured" beneath this node. Source: `INBOX:2026-08-10-founder-theory-simulated-dissent-as-counterparty.md`.

@@ -2596,3 +2596,4 @@
 {"ts":"2026-08-11T02:29:55.108Z","tool":"ost_next_work","ok":true,"ms":61,"surface":"mcp","argBytes":2,"session":"mcp-413c344a-e7d4-4756-ae55-ad490ce30877"}
 {"ts":"2026-08-11T03:12:09.079Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2378,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8","wrote":["Machine-witnessed results clear the worth-building gate when the instrument is valid.md"]}
 {"ts":"2026-08-11T03:27:34.328Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2337,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8","wrote":["Structured dissent among diverse personas catches invalid instruments, and its catch-rate can be measured.md"]}
+{"ts":"2026-08-11T03:27:37.303Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":819,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8"}
