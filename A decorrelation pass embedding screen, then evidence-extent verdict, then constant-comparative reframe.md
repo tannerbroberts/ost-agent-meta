@@ -6,6 +6,7 @@ created: '2026-08-11'
 evidence: expert
 ---
 #Solution #unvalidated #evidence/expert
+[[Extent flags mostly point at real duplicates, not at distinct needs sharing a source]]
 
 Three stages, each borrowed from an established method, run per sibling set (siblings are the comparison set prioritization actually uses, so overlap between distant cousins is lower-stakes):
 
