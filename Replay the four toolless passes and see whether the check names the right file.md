@@ -24,3 +24,4 @@ An hour or two, retrospective, no build. Proposed by the agent; a human runs it 
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/config/setup-check-diagnosis.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/config/setup-check-diagnosis.test.ts` — Duration  216ms (transform 17ms, setup 0ms, collect 15ms, tests 7ms, environment 0ms, prepare 26ms)
