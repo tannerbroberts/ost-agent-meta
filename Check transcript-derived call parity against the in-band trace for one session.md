@@ -25,3 +25,4 @@ instrument: npx vitest run test/telemetry/transcript-trace-parity.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/telemetry/transcript-trace-parity.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/telemetry/transcript-trace-parity.test.ts` — Duration  1.46s (transform 100ms, setup 0ms, collect 98ms, tests 10ms, environment 0ms, prepare 212ms)
