@@ -148,3 +148,13 @@ _Method: full evidence reads via `ost_next_work({evidence})` of both new records
 **What this pass did with the 113.** Mapped none, for the reasons this node already gives. Ninth consecutive sweep, same decision, same reason; the three solutions beneath this node remain unbuilt and the queue has still never gone down.
 
 _Method: full evidence reads via `ost_next_work({evidence})` of all three newly ingested records plus three older samples. First-party observation of the agent's own transcripts and tool trace; grounds usability, not demand. No rung change._
+
+## Tenth consecutive decline, and one standing blocker has lifted — 2026-08-10, seventh firing today
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → 107 → 113 → **115**. Both records new since the previous firing were read in full and land in known rows: `TRANSCRIPT:db9b0ef4` is a single zsh syntax failure (`(eval):1: == not found`) — the harness-issued call-friction shape already dispositioned onto "Two thirds of my calls failed, and each one only told me after I made it"; `TRANSCRIPT:1b5a7f48` is one permission-denied `Grep` of the product source plus two ingest/next_work retries (rows 1 and 4).
+
+**The standing blocker recorded by the seventh through ninth firings has lifted.** This firing called `ost_read_repo` on the unattended surface and it answered — root listing of the configured OST-Agent repo, no denial. The three prior entries each recorded that the `solutionsMissingInstruments` bucket was structurally unactionable from this surface because an instrument written blind can only mint a `no-spec` red; that reasoning no longer holds, and this pass is acting on the instrument backlog with repo sight. Note the irony for row 1: `TRANSCRIPT:1b5a7f48`'s denied `Grep` of the same directory happened on this very surface hours earlier — the grant arrived between firings, which is itself an instance of "The agent has to guess what resources it's actually working with."
+
+**What this pass did with the 115.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
+
+_Method: full evidence reads via `ost_next_work({evidence})` of both new records, plus this firing's own `ost_read_repo` result. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
