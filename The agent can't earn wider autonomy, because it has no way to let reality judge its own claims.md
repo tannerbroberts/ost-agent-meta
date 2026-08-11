@@ -9,6 +9,7 @@ evidence: assertion
 [[A proof lane where derivations from declared axioms count as evidence]]
 [[An autonomy ledger that widens permission as staked claims survive their instruments]]
 [[There's no way to declare which axioms I accept, so derivable truth can't move the tree]]
+[[Machine-witnessed results clear the worth-building gate when the instrument is valid]]
 
 **The need (founder's voice):** "This repo wants to grow its autonomy as it proves to itself with reality that it deserves it. To make progress on something, an agent needs proper autonomy to not only make a guess as to how the world works, but also test that guess, stake a claim on untested ground, and see if it sticks."
 

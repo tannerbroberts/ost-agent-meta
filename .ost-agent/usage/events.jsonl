@@ -2593,3 +2593,5 @@
 {"ts":"2026-08-11T02:28:33.636Z","tool":"ost_read_tree","ok":true,"ms":42,"surface":"mcp","argBytes":95,"session":"mcp-413c344a-e7d4-4756-ae55-ad490ce30877"}
 {"ts":"2026-08-11T02:29:45.841Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2845,"session":"mcp-413c344a-e7d4-4756-ae55-ad490ce30877"}
 {"ts":"2026-08-11T02:29:52.078Z","tool":"ost_ingest_inbox","ok":true,"ms":4,"surface":"mcp","argBytes":2,"session":"mcp-413c344a-e7d4-4756-ae55-ad490ce30877"}
+{"ts":"2026-08-11T02:29:55.108Z","tool":"ost_next_work","ok":true,"ms":61,"surface":"mcp","argBytes":2,"session":"mcp-413c344a-e7d4-4756-ae55-ad490ce30877"}
+{"ts":"2026-08-11T03:12:09.079Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2378,"session":"mcp-8b449c64-0c10-4792-b30d-97e08e0899b8","wrote":["Machine-witnessed results clear the worth-building gate when the instrument is valid.md"]}
