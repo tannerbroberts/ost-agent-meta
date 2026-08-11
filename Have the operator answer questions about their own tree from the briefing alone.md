@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/standing-briefing.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/ost/standing-briefing.test.ts` — Duration  314ms (transform 73ms, setup 0ms, collect 111ms, tests 7ms, environment 0ms, prepare 26ms)
