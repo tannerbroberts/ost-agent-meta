@@ -158,3 +158,13 @@ _Method: full evidence reads via `ost_next_work({evidence})` of all three newly 
 **What this pass did with the 115.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
 
 _Method: full evidence reads via `ost_next_work({evidence})` of both new records, plus this firing's own `ost_read_repo` result. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Tenth consecutive decline — 2026-08-11, unattended sweep
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → 107 → 113 → **119**. The one record ingested at the top of this firing, `TRANSCRIPT:a16fcaf7`, was read in full and lands in known rows: one permission-denied `Grep` of the product source (row 1), one `ost_create_node` evidence-ceiling refusal — "The loop's highlights never reach me unless I go digging" declaring `stated` against an inbox channel capped at `assertion` — and two ingest/next_work retries (row 4). The five records that arrived between firings were not individually read; corpus-wide greps this firing ran across all 147 stored transcript records surfaced no event shape the tree does not already hold a node for.
+
+**Row 1's standing consequence has ended, and the instrument queue still did not move.** `ost_read_repo` answered on this surface at the first probe — `test/` listed in full — so the instrument backlog is no longer blocked by sight from unattended firings. It is blocked by composition: the census on "A pass that cannot see the repository cannot set an instrument at all" now covers all 70 entries at `mechanical` = 0, extended this firing by the three new highlight-family entries, all `humans-required` at creation.
+
+**What this pass did with the 119.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
+
+_Method: full read of the one newly ingested record from the captured store, plus corpus-wide greps of all stored transcript records. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
