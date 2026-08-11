@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Analysis-only firings change decisions rather than producing commentary]]
 
 **Mechanism:** a distinct firing type beside the sweep. Input: one branch (the standing `discovery.target`, or a branch the human names for the occasion). Output: sustained analysis appended to that branch's own nodes — sharper framings, newly surfaced assumptions, contradictions between siblings, what the branch's evidence actually supports — and explicitly zero bucket-clearing. The sweep keeps the tree current; the deep-dive is where a hard problem gets an hour of thought instead of a bucket visit.
 
