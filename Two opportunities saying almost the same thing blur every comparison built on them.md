@@ -7,6 +7,7 @@ evidence: stated
 #Opportunity #unvalidated #evidence/stated
 [[A decorrelation pass embedding screen, then evidence-extent verdict, then constant-comparative reframe]]
 [[Every new sibling opportunity states its differentia at creation, or the create is refused]]
+[[A controlled opportunity-statement grammar, so wording variance cannot fake or mask overlap]]
 
 **The need (operator's voice, 2026-08-11):** "We should have strong decorrelation operations between opportunities. If one opportunity has significant overlap with another, it ought to be rephrased from the evidence of both into two totally separate ideas." The operator also asked whether accepted ontologies of concepts — or a proven method for constructing rigorous ontologies of opportunity concepts — exist.
 
