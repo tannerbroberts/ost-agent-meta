@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[What the founder means by highlights is already present in vault history]]
 
 A periodic (per-firing or daily) digest that reads what the vault already records — the 20 unsurfaced red-to-green observations existed in history the night the founder said he heard nothing — ranks the entries, and delivers a short highlights message. Nothing new is measured; the gap this closes is that recorded milestones are written where nobody reads.
 
