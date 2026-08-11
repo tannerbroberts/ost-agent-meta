@@ -41,6 +41,7 @@ evidence: assertion
 [[Two release trains picked the same version number because nothing checked what was already published]]
 [[The file changed after I read it, and the failed edit is how I find out]]
 [[Discovery visits every branch and dwells on none, so the hard problems never get sustained thought]]
+[[Two opportunities saying almost the same thing blur every comparison built on them]]
 
 OST-Agent's mandate is to close the innermost loop: observe its own runs, name where it failed itself, and patch that failure — reliably, unattended, and faster than new failures appear. Everything else in this tree is downstream of that capability.
 
