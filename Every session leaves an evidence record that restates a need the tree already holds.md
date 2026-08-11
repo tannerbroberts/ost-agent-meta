@@ -178,3 +178,13 @@ _Method: full read of the one newly ingested record from the captured store, plu
 **What this pass did with the 122.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
 
 _Method: full evidence reads via `ost_next_work({evidence})` of both newly ingested records, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Consecutive decline continues — 2026-08-11, third unattended firing
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → 107 → 113 → 119 → 122 → **123**. The one record ingested at the top of this firing, `TRANSCRIPT:db01c34e`, was read in full and lands in known rows: one `Glob` of the product directory permission-refused (row 1) and two ingest/next_work retries (row 4). No new shape.
+
+**Row 1 held on this surface again, in the direction the previous entry predicted.** This firing's own `Glob` of `/Users/tanner/dev/OST-Agent` was refused at first attempt — the built-in grant, observed present two firings ago and absent one firing ago, is absent again. Capability was read per-firing rather than carried forward, exactly as the previous entry recommended, and the probe cost one call.
+
+**What this pass did with the 123.** Mapped none, for the reasons this node already gives. The instrument queue held at 66 with its visible head unchanged from the classified families (`mechanical` = 0 stands), and the one under-served opportunity's recorded hold was respected. Recorded, not re-argued.
+
+_Method: full evidence read via `ost_next_work({evidence})` of the one newly ingested record, plus this firing's own tool results. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
