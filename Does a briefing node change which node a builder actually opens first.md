@@ -29,3 +29,4 @@ instrument: npx vitest run test/ost/next-build-briefing.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/next-build-briefing.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/ost/next-build-briefing.test.ts` — Duration  224ms (transform 17ms, setup 0ms, collect 16ms, tests 5ms, environment 0ms, prepare 24ms)
