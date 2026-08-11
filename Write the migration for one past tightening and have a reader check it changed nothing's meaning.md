@@ -35,3 +35,4 @@ It also covers exactly one past tightening. Generalising from that to "migration
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/tightening-migration-meaning.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/ost/tightening-migration-meaning.test.ts` — Duration  346ms (transform 90ms, setup 0ms, collect 134ms, tests 17ms, environment 0ms, prepare 26ms)
