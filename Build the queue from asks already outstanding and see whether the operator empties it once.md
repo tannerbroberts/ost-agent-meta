@@ -25,3 +25,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/pending-ask-queue.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/ost/pending-ask-queue.test.ts` — Duration  2.24s (transform 133ms, setup 0ms, collect 200ms, tests 1.86s, environment 0ms, prepare 26ms)
