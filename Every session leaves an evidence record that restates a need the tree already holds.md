@@ -136,3 +136,15 @@ _Method: full evidence reads via `ost_next_work({evidence})` of all three new re
 **What this pass did with the 107.** Mapped none, for the reasons this node already gives. Recorded, not re-argued.
 
 _Method: full evidence reads via `ost_next_work({evidence})` of both new records. First-party observation of the agent's own transcripts; grounds usability, not demand. No rung change._
+
+## Ninth consecutive decline — 2026-08-10, sixth firing today
+
+**The trend point.** 65 → 73 → 84 → 92 → 100 → 102 → 105 → 107 → **113**. The three records ingested at the top of this firing were all read in full and all land in known rows: `TRANSCRIPT:729f76e6` is one permission-denied `Glob` of the product repo plus two ingest/next_work retries (rows 1 and 4); `TRANSCRIPT:70458029` is a `TaskOutput` retry plus a `git` exit 128 refusing to delete a /tmp checkout holding untracked files — the harness-issued call-friction shape already dispositioned onto "Two thirds of my calls failed, and each one only told me after I made it"; `USAGE:2026-08-10` is a mechanical rollup, 315 calls, 314 ok.
+
+**The usage trace carries one detail worth keeping.** Its single failed call is `ost_read_repo: no product repos configured` — and the same trace shows 63 `ost_read_repo` calls succeeding the same day, after `product.repos` was set on 2026-08-09. So the trace is first-party confirmation that repo sight is alive on the attended path while this surface remains denied: this firing's own `Grep` of the product source was permission-refused at first attempt, which is again why the 67 solutions in `solutionsMissingInstruments` go unhandled — an instrument written blind can only mint the `no-spec` red this tree measured at 260 of its own 266 recorded reds, and `ost_flag_humans_required` stays withheld so the human-only remainder cannot be laned either. The blocker is surface-specific, not product-wide, which sharpens the handoff: the instrument backlog is attended-pass work, not undone work.
+
+**Also sampled this firing** (older records, all in known rows): `2a4bcf6e` (row 3 — an `AskUserQuestion` raised with nobody watching), `32cac6f7` (rows 2 and 1, plus one human mid-session rejection), `48c870d7` (already covered and corrected in the 2026-08-09 entry), and the standing `INBOX:` item, whose cause and unfixability-from-here the 2026-08-10 sixth-decline entry already records.
+
+**What this pass did with the 113.** Mapped none, for the reasons this node already gives. Ninth consecutive sweep, same decision, same reason; the three solutions beneath this node remain unbuilt and the queue has still never gone down.
+
+_Method: full evidence reads via `ost_next_work({evidence})` of all three newly ingested records plus three older samples. First-party observation of the agent's own transcripts and tool trace; grounds usability, not demand. No rung change._
