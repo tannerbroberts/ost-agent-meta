@@ -23,6 +23,7 @@ instrument: npx vitest run test/ost/shipped-status-audit.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/shipped-status-audit.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/ost/shipped-status-audit.test.ts` — Duration  4.45s (transform 112ms, setup 0ms, collect 173ms, tests 4.09s, environment 0ms, prepare 29ms)
 
 ## Partial audit already done — 2026-08-09 (not a result, and not a lane change)
 
