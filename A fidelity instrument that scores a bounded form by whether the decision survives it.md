@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Solution #compression #unvalidated #evidence/assertion
+[[The fields a verdict reads can be declared ahead of time and checked mechanically, with no model in the loop]]
 
 Give compression a fitness function before giving it more machinery. Every bounded surface in the product (rollup, next-work excerpts, briefing, capped lists) exists to serve a downstream decision, and each decision reads specific things from the bounded form. This solution makes that explicit: a registry of compression surfaces — like the sense census in src/loop/senses.ts, but for outputs instead of inputs — where each surface declares the decision it serves and the fields that decision reads, plus a harness that mechanically verifies the bounded output preserves those fields for arbitrary inputs. Model-free, so it runs in CI.
 
