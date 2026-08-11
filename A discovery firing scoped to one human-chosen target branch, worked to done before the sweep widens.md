@@ -1,5 +1,6 @@
 ---
 type: Solution
+status: shipped
 source: 'CONVO:2026-08-11 operator session'
 created: '2026-08-11'
 evidence: assertion
@@ -15,3 +16,6 @@ evidence: assertion
 ## Shipped
 
 Built and merged to main as PR #100 (commit 666f383, 2026-08-11), on the operator's direct mandate ("we actually need to work those opportunities"). What shipped, against the mechanism sketch above: `discovery.target` in `ost.config.yaml` (human-set; no tool can write it and `ost_next_work` deliberately grew NO input parameter for it, honoring the auto-select MUST NOT structurally); a scoped sweep in `computeNextWork` where every done-blocking bucket and `done` itself cover the target opportunity's subtree; per-list exclusion accounting in `scope.excluded` so scoping is never silent; a mistyped target runs UNSCOPED with `resolved: false` and a summary warning rather than narrowing to nothing; the ruleset's cadence block ("select a single target opportunity at a time") now renders into SKILL.md for the first time; /ost-pass instructs a scoped firing to work the branch alone. Pinned by 9 tests in `test/mcp/scoped-next-work.test.ts`. Setting the first target remains the operator's move — one line in the meta vault's `ost.config.yaml`.
+
+## History
+- 2026-08-11 status: (none) → shipped — PR #100 merged to main 2026-08-11 (commit 666f383); behavior pinned by test/mcp/scoped-next-work.test.ts (9 tests). Shipped-not-validated: no operator has yet run a targeted pass.
