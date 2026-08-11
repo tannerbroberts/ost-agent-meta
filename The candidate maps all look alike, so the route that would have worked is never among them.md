@@ -1,9 +1,9 @@
 ---
 type: Opportunity
 status: unvalidated
-evidence: assertion
 source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
+evidence: assertion
 ---
 #Opportunity #unvalidated #needs-customer-interview #founder-theory #evidence/assertion
 [[Independent ideators that never see each other's candidates]]
@@ -24,3 +24,6 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
+
+## Issues
+- 2026-08-11 2026-08-11 three subset-extent flags (vs "I can't tell if anyone outside my own head wants this", "Nothing kills a candidate, so every idea I have ever had is still alive", "The goal I care about is too far from anything I can act on this week") adjudicated: DISTINCT from all three, do not re-hang. The subset relation is an artefact of citing one founder-theory record the larger siblings also cite. Generation diversity is its own need — "Independent ideators that never see each other's candidates" serves it while touching neither external demand, elimination discipline, nor goal altitude. This node's own prose already records the generation/elimination complement with "Nothing kills a candidate" and flags the nest-under-a-shared-parent question for a human; that flag stands unchanged. Sweep's own verdict; queued for human confirmation via "A human re-judges the first twelve extent flags against Torres's test".
