@@ -60,3 +60,6 @@ nothing warned me.*
 writing, and two of them by the very pass that filed this. That makes the observation solid
 and the generalisation weak: nothing here is evidence that an operator who writes their own
 nodes hits this at all.
+
+## Issues
+- 2026-08-11 2026-08-11 shared-extent flag vs "I don't know what unit of this anyone would pay for" adjudicated: DISTINCT, do not merge. Hand-edit resilience and pricing unit share a citation, not a need — "Detect renames from link topology and repair the edge" addresses this node and could not touch pricing; no pricing solution repairs a broken edge. Sweep's own verdict; queued for human confirmation via "A human re-judges the first twelve extent flags against Torres's test".
