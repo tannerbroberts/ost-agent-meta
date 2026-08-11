@@ -5,6 +5,7 @@ created: '2026-08-11'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The founder will actually maintain a highlight criteria note over time]]
 
 A small durable note in the vault — "what counts as a highlight" — that the founder edits in his own words and every reporting surface consults before deciding what to push. Seeded with the two classes he already named (a red test going green; a long-standing branch dying, with reasons), and grown by him as surfaced non-highlights teach him what he did not mean.
 
