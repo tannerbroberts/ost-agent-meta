@@ -37,3 +37,7 @@ Reconcile an existing workspace rather than assuming absence; give each run its 
 ## Provenance
 
 Observed behaviour of this product's own loop, captured mechanically from a session transcript with no narrator. It grounds reliability of the unattended loop, not demand: it is not evidence that anyone outside this building wants any of this.
+
+## Corroborating instance — 2026-08-11 (named in plain text; discharges nothing)
+
+`INBOX:2026-08-11-observed-build-loop-reports-not-merged-on-merged-prs.md` — a scratch worktree at `/private/tmp/ost-main-check`, created by the session that built the "check the tree you inherited builds" feature and never removed, stayed pinned at PR #93's merge commit. Every later `gh pr merge --delete-branch` then failed its local switch-to-main, so the build loop reported "NOT MERGED" on PRs #94 and #95 that GitHub shows merged — the leak was one session's, and the cost was paid by every firing after it, exactly this node's claim. The same leak stranded the shared checkout on a merged feature branch, so the discovery loop read its policy from a stale branch. Cleaned up by hand in an attended session (worktree removed, checkout returned to main, merged branches deleted); the source note proposes that a session which creates a worktree owns its removal, and that a preflight could refuse on a foreign worktree holding `main` — both are candidate directions beneath this node, not built and not validated.
