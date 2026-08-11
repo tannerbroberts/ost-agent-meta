@@ -25,3 +25,4 @@ The assumption is that the set of credential forms is small and stable enough to
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/security/credential-forms.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/security/credential-forms.test.ts` — Duration  230ms (transform 29ms, setup 0ms, collect 31ms, tests 6ms, environment 0ms, prepare 25ms)
