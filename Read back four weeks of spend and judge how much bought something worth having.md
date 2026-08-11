@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/spend-ceiling.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/loop/spend-ceiling.test.ts` — Duration  4.94s (transform 15ms, setup 0ms, collect 12ms, tests 4.74s, environment 0ms, prepare 28ms)
