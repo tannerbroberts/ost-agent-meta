@@ -28,3 +28,6 @@ On 2026-08-07 an unattended maintenance pass identified six duplicate pairs in t
 ## History
 
 - 2026-08-07 — Created from a first-party observation during an unattended maintenance pass that was asked to prefer merging and could not do it correctly.
+
+## Issues
+- 2026-08-11 2026-08-11 shared-extent flag vs "I overwrote a good instrument because nothing showed me one was already there" adjudicated by Torres's interventional test: DISTINCT, do not merge. Both cite TRANSCRIPT:49d6b2d3 because one session hit two different frictions. Discriminator: "A read that returns one node's body, so a rewrite starts from what is actually there" serves this need and does nothing for instrument-field visibility; "The sweep reports which tests already carry an instrument, beside the solutions that lack one" serves the sibling alone. Shared provenance, separate needs. Verdict is the sweep's own; queued for human confirmation via "A human re-judges the first twelve extent flags against Torres's test".
