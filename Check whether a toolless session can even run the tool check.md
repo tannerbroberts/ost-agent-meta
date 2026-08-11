@@ -24,3 +24,4 @@ instrument: npx vitest run test/config/toolless-preflight.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/config/toolless-preflight.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/config/toolless-preflight.test.ts` — Duration  421ms (transform 29ms, setup 0ms, collect 31ms, tests 205ms, environment 0ms, prepare 26ms)
