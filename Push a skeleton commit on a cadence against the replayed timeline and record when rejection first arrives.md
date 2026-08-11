@@ -24,3 +24,4 @@ The threshold deliberately does not claim the loss becomes "minutes", which is w
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/loop/early-push-collision-window.test.ts` — No test files found, exiting with code 1
+- 2026-08-11 **green** (exit 0) `npx vitest run test/loop/early-push-collision-window.test.ts` — Duration  6.01s (transform 21ms, setup 0ms, collect 27ms, tests 5.80s, environment 0ms, prepare 27ms)
