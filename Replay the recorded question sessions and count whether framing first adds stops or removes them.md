@@ -20,3 +20,4 @@ Count the total operator turns the recorded sessions actually cost, then count w
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/two-stage-question-stop-count.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **no-spec** (exit none) `npx vitest run test/loop/two-stage-question-stop-count.test.ts` — test/loop/two-stage-question-stop-count.test.ts does not exist — no spec was collected, so nothing was measured
