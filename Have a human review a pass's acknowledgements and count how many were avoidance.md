@@ -27,3 +27,4 @@ Who may acknowledge, and whether it expires, are human decisions. A human runs t
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/acknowledge-evidence.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/ost/acknowledge-evidence.test.ts` — ✓ "corroborates [[X]]" is a distinct verdict from "no genuine need" > a hand-mangled verdict fails closed in both directions: no work removed, no node strengthened 344ms
