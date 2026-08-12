@@ -33,3 +33,4 @@ Most importantly it does not touch the question underneath the solution: whether
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/security/host-credential-delegation.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/security/host-credential-delegation.test.ts` — Duration  750ms (transform 37ms, setup 0ms, collect 49ms, tests 494ms, environment 0ms, prepare 45ms)
