@@ -24,6 +24,7 @@ The spec form is the mechanical half — that the tool resolves a path against t
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/instruments/spec-path-resolution.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/instruments/spec-path-resolution.test.ts` — Duration  4.33s (transform 176ms, setup 0ms, collect 290ms, tests 3.85s, environment 0ms, prepare 31ms)
 
 ## The census half now has a denominator — read from the repository, 2026-08-10
 
