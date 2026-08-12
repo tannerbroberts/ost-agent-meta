@@ -26,3 +26,4 @@ Proposed by the agent — the rating must be done by a human; the agent must not
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/eval/adversarial-critic-invariants.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/eval/adversarial-critic-invariants.test.ts` — Duration  356ms (transform 73ms, setup 0ms, collect 110ms, tests 12ms, environment 0ms, prepare 26ms)
