@@ -30,3 +30,4 @@ Nothing here touches cost, which is the reason anyone would want an ambient driv
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/ambient-driver-parity.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/loop/ambient-driver-parity.test.ts` — Duration  3.01s (transform 180ms, setup 0ms, collect 303ms, tests 2.49s, environment 0ms, prepare 33ms)
