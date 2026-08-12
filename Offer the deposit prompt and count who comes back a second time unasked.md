@@ -28,3 +28,4 @@ instrument: npx vitest run test/adapters/deposit-prompt.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/deposit-prompt.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/adapters/deposit-prompt.test.ts` — Duration  4.06s (transform 170ms, setup 0ms, collect 286ms, tests 3.57s, environment 0ms, prepare 25ms)
