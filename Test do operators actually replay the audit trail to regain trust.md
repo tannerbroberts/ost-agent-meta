@@ -22,3 +22,4 @@ _Proposal only — a human runs this with real operators. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/git/commit-provenance.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/git/commit-provenance.test.ts` — Duration  2.32s (transform 177ms, setup 0ms, collect 298ms, tests 1.83s, environment 0ms, prepare 26ms)
