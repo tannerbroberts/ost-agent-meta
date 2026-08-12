@@ -23,3 +23,4 @@ There is also a gap the threshold cannot close: a pass with a configured repo bu
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/instruments/sight-provenance.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/instruments/sight-provenance.test.ts` — Duration  4.71s (transform 179ms, setup 0ms, collect 305ms, tests 4.21s, environment 0ms, prepare 26ms)
