@@ -22,3 +22,4 @@ instrument: npx vitest run test/evidence/corroborate-disposition.test.ts
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/evidence/corroborate-disposition.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/evidence/corroborate-disposition.test.ts` — Duration  960ms (transform 139ms, setup 0ms, collect 208ms, tests 554ms, environment 0ms, prepare 25ms)
