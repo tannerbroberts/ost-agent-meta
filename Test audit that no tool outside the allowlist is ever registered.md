@@ -22,3 +22,4 @@ _Proposal only — a human runs/reviews this. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/security/allowlist-registration-audit.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/security/allowlist-registration-audit.test.ts` — ✓ allowlist registration audit > the audit is enforced at construction, not only observed here: buildOstTools runs the fail-closed guard on every surface 462ms
