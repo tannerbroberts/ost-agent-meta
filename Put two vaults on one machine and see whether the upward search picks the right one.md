@@ -25,3 +25,4 @@ The assumption is that upward search is unambiguous. It silently binds a project
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/config/upward-vault-search.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/config/upward-vault-search.test.ts` — Duration  2.14s (transform 108ms, setup 0ms, collect 174ms, tests 1.79s, environment 0ms, prepare 28ms)
