@@ -24,3 +24,4 @@ Proposed by the agent — a human does all reviewing and accepting. The agent mu
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/knowledge/ruleset-proposal.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/knowledge/ruleset-proposal.test.ts` — Duration  554ms (transform 180ms, setup 0ms, collect 302ms, tests 36ms, environment 0ms, prepare 30ms)
