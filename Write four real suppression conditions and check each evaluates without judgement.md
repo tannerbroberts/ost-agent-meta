@@ -24,3 +24,4 @@ instrument: npx vitest run test/ost/suppression-condition.test.ts
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/suppression-condition.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/ost/suppression-condition.test.ts` — ✓ fail-open, both directions: a hand-damaged ledger line suppresses nothing, and a condition whose node left the tree stops holding 335ms
