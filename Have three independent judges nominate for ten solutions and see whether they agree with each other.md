@@ -25,3 +25,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/eval/judge-panel-agreement.test.ts` — No test files found, exiting with code 1
+- 2026-08-12 **green** (exit 0) `npx vitest run test/eval/judge-panel-agreement.test.ts` — fragility: #4 "It is also the only option that still costs a round trip per uncertain call, and a caller who validates everything has doubled the traffic to avoid a rare failure."
