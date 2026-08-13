@@ -78,3 +78,4 @@ instrument: npx vitest run test/adapters/transcript-rollup.test.ts
 - 2026-08-13 **no-spec** (exit none) `npx vitest run test/adapters/transcript-rollup.test.ts` — test/adapters/transcript-rollup.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-13 **no-spec** (exit none) `npx vitest run test/adapters/transcript-rollup.test.ts` — test/adapters/transcript-rollup.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-13 **no-spec** (exit none) `npx vitest run test/adapters/transcript-rollup.test.ts` — test/adapters/transcript-rollup.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-13 **no-spec** (exit none) `npx vitest run test/adapters/transcript-rollup.test.ts` — test/adapters/transcript-rollup.test.ts does not exist — no spec was collected, so nothing was measured
