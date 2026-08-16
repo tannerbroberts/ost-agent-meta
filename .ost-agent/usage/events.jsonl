@@ -3064,3 +3064,23 @@
 {"ts":"2026-08-16T14:20:52.571Z","tool":"ost_set_status","ok":true,"ms":2,"surface":"mcp","argBytes":1057,"session":"mcp-9f51d397-d757-4c63-a234-a0e8e1035489"}
 {"ts":"2026-08-16T14:21:05.171Z","tool":"ost_ingest_inbox","ok":true,"ms":3,"surface":"mcp","argBytes":2,"session":"mcp-9f51d397-d757-4c63-a234-a0e8e1035489"}
 {"ts":"2026-08-16T15:06:56.847Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:06:57.288Z","tool":"ost_next_work","ok":true,"ms":130,"surface":"mcp","argBytes":2,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:07:44.705Z","tool":"ost_next_work","ok":true,"ms":7,"surface":"mcp","argBytes":92,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:07:45.516Z","tool":"ost_next_work","ok":true,"ms":6,"surface":"mcp","argBytes":62,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:07:45.589Z","tool":"ost_next_work","ok":true,"ms":6,"surface":"mcp","argBytes":112,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:08:04.233Z","tool":"ost_read_tree","ok":true,"ms":48,"surface":"mcp","argBytes":2,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:15.428Z","tool":"ost_read_tree","ok":true,"ms":50,"surface":"mcp","argBytes":86,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:15.929Z","tool":"ost_read_tree","ok":true,"ms":46,"surface":"mcp","argBytes":88,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:16.048Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":53,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:16.439Z","tool":"ost_read_tree","ok":true,"ms":46,"surface":"mcp","argBytes":62,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:17.054Z","tool":"ost_read_tree","ok":true,"ms":46,"surface":"mcp","argBytes":74,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:17.568Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":97,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:17.974Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":75,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:18.073Z","tool":"ost_read_tree","ok":true,"ms":46,"surface":"mcp","argBytes":88,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:36.383Z","tool":"ost_read_tree","ok":true,"ms":47,"surface":"mcp","argBytes":101,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:36.932Z","tool":"ost_read_tree","ok":true,"ms":47,"surface":"mcp","argBytes":111,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:37.027Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":64,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:37.146Z","tool":"ost_read_tree","ok":true,"ms":48,"surface":"mcp","argBytes":83,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:47.885Z","tool":"ost_read_tree","ok":true,"ms":45,"surface":"mcp","argBytes":109,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:09:47.978Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":108,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:10:09.128Z","tool":"ost_create_node","ok":true,"ms":11,"surface":"mcp","argBytes":1019,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622","wrote":["Reset the shared checkout to main before every firing reads which script to run.md"]}
