@@ -7,6 +7,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Reset the shared checkout to main before every firing reads which script to run]]
 [[Give each firing its own isolated worktree, so no firing inherits another's checked-out state]]
+[[Deny the build agent's own Write grant on the automation-script paths]]
 
 **The need (operator's voice, inferred from an audit session's finding):** "My build and discovery loops both run their automation scripts directly out of one shared working directory with no worktree isolation. A build session's first step is `git checkout -b <branch>`, and that branch stays checked out after the session ends — observed: this repo sat on a stuck solution's branch for its whole stuck period, so every later firing of both loops ran automation code from that branch rather than from reviewed `main`. In this instance it was harmless, but the build agent has unrestricted `Write` against the whole repository, including its own policy scripts (`examples/automation/*.sh`). Nothing stops a future build session from editing that script, leaving its branch checked out, and having its own unreviewed edit become the executable policy for every subsequent firing of both loops with no review in between."
 
