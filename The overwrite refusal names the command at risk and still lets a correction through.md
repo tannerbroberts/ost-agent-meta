@@ -24,3 +24,4 @@ The third clause keeps the guard honest in the other direction: legitimate corre
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/instruments/overwrite-guard.test.ts` — No test files found, exiting with code 1
+- 2026-08-16 **green** (exit 0) `npx vitest run test/instruments/overwrite-guard.test.ts` — Duration  2.96s (transform 181ms, setup 0ms, collect 302ms, tests 2.47s, environment 0ms, prepare 28ms)
