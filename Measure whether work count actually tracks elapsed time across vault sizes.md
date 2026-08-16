@@ -34,3 +34,4 @@ Nothing here says a work-unit gate would catch a real regression. A change that 
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/work-units-vs-elapsed.test.ts` — No test files found, exiting with code 1
+- 2026-08-16 **green** (exit 0) `npx vitest run test/telemetry/work-units-vs-elapsed.test.ts` — Duration  5.84s (transform 141ms, setup 0ms, collect 209ms, tests 5.44s, environment 0ms, prepare 28ms)
