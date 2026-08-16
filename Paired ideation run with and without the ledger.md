@@ -34,3 +34,4 @@ Nothing here shows the ledger is worth its cost — every pass pays to write and
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/attempt-ledger-repeat-rate.test.ts` — No test files found, exiting with code 1
+- 2026-08-16 **green** (exit 0) `npx vitest run test/loop/attempt-ledger-repeat-rate.test.ts` — Duration  497ms (transform 126ms, setup 0ms, collect 199ms, tests 36ms, environment 0ms, prepare 35ms)
