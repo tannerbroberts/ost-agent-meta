@@ -32,3 +32,4 @@ Nothing here bears on whether backpressure is needed. No observed load has yet s
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/ingest-backpressure-provenance.test.ts` — No test files found, exiting with code 1
+- 2026-08-16 **green** (exit 0) `npx vitest run test/adapters/ingest-backpressure-provenance.test.ts` — Duration  5.58s (transform 181ms, setup 0ms, collect 303ms, tests 5.08s, environment 0ms, prepare 27ms)
