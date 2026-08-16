@@ -3086,3 +3086,9 @@
 {"ts":"2026-08-16T15:10:09.128Z","tool":"ost_create_node","ok":true,"ms":11,"surface":"mcp","argBytes":1019,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622","wrote":["Reset the shared checkout to main before every firing reads which script to run.md"]}
 {"ts":"2026-08-16T15:10:13.508Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":1014,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622","wrote":["Give each firing its own isolated worktree, so no firing inherits another's checked-out state.md"]}
 {"ts":"2026-08-16T15:10:16.780Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":968,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622","wrote":["Deny the build agent's own Write grant on the automation-script paths.md"]}
+{"ts":"2026-08-16T15:10:41.765Z","tool":"ost_next_work","ok":true,"ms":5,"surface":"mcp","argBytes":75,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:11:07.444Z","tool":"ost_read_tree","ok":true,"ms":46,"surface":"mcp","argBytes":87,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:11:07.538Z","tool":"ost_read_tree","ok":true,"ms":47,"surface":"mcp","argBytes":88,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:11:29.891Z","tool":"ost_read_tree","ok":true,"ms":46,"surface":"mcp","argBytes":75,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:12:33.773Z","tool":"ost_read_tree","ok":true,"ms":48,"surface":"mcp","argBytes":61,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
+{"ts":"2026-08-16T15:12:43.027Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
