@@ -3009,3 +3009,4 @@
 {"ts":"2026-08-16T03:48:02.360Z","tool":"ost_read_tree","ok":true,"ms":48,"surface":"mcp","argBytes":57,"session":"mcp-b7ff03e8-4d66-4428-9b54-3cd7e29a53e2"}
 {"ts":"2026-08-16T03:48:32.582Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":80,"session":"mcp-b7ff03e8-4d66-4428-9b54-3cd7e29a53e2"}
 {"ts":"2026-08-16T03:49:05.858Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":725,"session":"mcp-b7ff03e8-4d66-4428-9b54-3cd7e29a53e2"}
+{"ts":"2026-08-16T03:49:11.323Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1555,"session":"mcp-b7ff03e8-4d66-4428-9b54-3cd7e29a53e2"}
