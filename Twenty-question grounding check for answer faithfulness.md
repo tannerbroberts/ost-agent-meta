@@ -32,3 +32,4 @@ It settles nothing about desirability. Whether an operator would rather ask a qu
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/mcp/status-answer-faithfulness.test.ts` — No test files found, exiting with code 1
+- 2026-08-16 **green** (exit 0) `npx vitest run test/mcp/status-answer-faithfulness.test.ts` — Duration  6.59s (transform 541ms, setup 0ms, collect 947ms, tests 4.36s, environment 0ms, prepare 216ms)
