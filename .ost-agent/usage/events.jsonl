@@ -3084,3 +3084,4 @@
 {"ts":"2026-08-16T15:09:47.885Z","tool":"ost_read_tree","ok":true,"ms":45,"surface":"mcp","argBytes":109,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
 {"ts":"2026-08-16T15:09:47.978Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":108,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622"}
 {"ts":"2026-08-16T15:10:09.128Z","tool":"ost_create_node","ok":true,"ms":11,"surface":"mcp","argBytes":1019,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622","wrote":["Reset the shared checkout to main before every firing reads which script to run.md"]}
+{"ts":"2026-08-16T15:10:13.508Z","tool":"ost_create_node","ok":true,"ms":7,"surface":"mcp","argBytes":1014,"session":"mcp-9e3d5a76-e2b4-4f4d-bf99-0c5307fb0622","wrote":["Give each firing its own isolated worktree, so no firing inherits another's checked-out state.md"]}
