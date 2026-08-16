@@ -3105,3 +3105,4 @@
 {"ts":"2026-08-16T17:19:11.339Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-a9e0f299-e526-4c6e-a4eb-57a78b9ec9d2"}
 {"ts":"2026-08-16T17:19:11.772Z","tool":"ost_next_work","ok":true,"ms":85,"surface":"mcp","argBytes":2,"session":"mcp-a9e0f299-e526-4c6e-a4eb-57a78b9ec9d2"}
 {"ts":"2026-08-16T17:22:18.751Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2089,"session":"mcp-a9e0f299-e526-4c6e-a4eb-57a78b9ec9d2"}
+{"ts":"2026-08-16T17:22:20.883Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-a9e0f299-e526-4c6e-a4eb-57a78b9ec9d2"}
