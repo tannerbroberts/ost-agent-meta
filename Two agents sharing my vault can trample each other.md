@@ -9,6 +9,7 @@ evidence: assertion
 [[A merge conflict got committed into a source file, so the next run inherits a repo that cannot build]]
 [[Two runs write the same vault at once and nothing arbitrates between them]]
 [[A second pass builds what the first already built, because nothing says the work was taken]]
+[[A build session's edit to the automation scripts becomes unreviewed policy for every future firing]]
 
 **The need (operator's voice):** "I had a thinker loop and a builder loop working the same git vault. Nothing told either whose turn it was — the builder had to check for a clean tree and hope, and would have had to back off mid-work if the thinker were mid-commit."
 
