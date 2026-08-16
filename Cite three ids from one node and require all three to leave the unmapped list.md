@@ -119,3 +119,4 @@ That third assertion is where the assumption is genuinely at risk. A list gives 
 - 2026-08-16 **no-spec** (exit none) `npx vitest run test/ost/multi-source-mapping.test.ts` — test/ost/multi-source-mapping.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-16 **no-spec** (exit none) `npx vitest run test/ost/multi-source-mapping.test.ts` — test/ost/multi-source-mapping.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-16 **no-spec** (exit none) `npx vitest run test/ost/multi-source-mapping.test.ts` — test/ost/multi-source-mapping.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-16 **no-spec** (exit none) `npx vitest run test/ost/multi-source-mapping.test.ts` — test/ost/multi-source-mapping.test.ts does not exist — no spec was collected, so nothing was measured
