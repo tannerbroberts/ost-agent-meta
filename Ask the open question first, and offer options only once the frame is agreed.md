@@ -1,5 +1,6 @@
 ---
 type: Solution
+status: deferred
 source: 'agent-ideated:2026-08-04-unattended-sweep-question-shape'
 created: '2026-08-04'
 evidence: assertion
@@ -27,3 +28,4 @@ Green means the two-stage form costs no more operator turns on the recorded hist
 
 ## History
 - 2026-08-05 unlinked "Replay the recorded question sessions and count whether framing first adds stops or removes them" — moved under "The run's proposed options are wrong often enough that framing first saves turns rather than costing them" — the belief this test measures now has a node of its own
+- 2026-08-16 status: (none) → deferred — Its own instrument (test/loop/two-stage-question-stop-count.test.ts, "Replay the recorded question sessions and count whether framing first adds stops or removes them") was run by the build loop against real harvested history: two-stage framing costs 92 operator turns vs one-stage's actual 72 across 46 recorded questions — only 28% reframed, well below the ~50% breakeven the arithmetic needs. Build report (INBOX:2026-08-16-build-loop-stuck-ask-the-open-question-first-and-offer-options-only-once-the-.md) confirms tsc clean, full suite green except this designed-to-fail assertion, PR #130 not expected to merge. Deferring per the evidence rather than leaving it live for the build loop to keep retrying — a human should still decide whether to close PR #130 and whether the underlying belief ("The run's proposed options are wrong often enough that framing first saves turns rather than costing them") needs reframing instead.
