@@ -24,3 +24,4 @@ instrument: npx vitest run test/web/research-loop-provenance.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/web/research-loop-provenance.test.ts` — No test files found, exiting with code 1
+- 2026-08-16 **green** (exit 0) `npx vitest run test/web/research-loop-provenance.test.ts` — Duration  536ms (transform 134ms, setup 0ms, collect 220ms, tests 45ms, environment 0ms, prepare 32ms)
