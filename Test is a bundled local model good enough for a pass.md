@@ -22,3 +22,4 @@ _Proposal only — a human runs this evaluation. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/product/offline-trial-pass.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/product/offline-trial-pass.test.ts` — Duration  7.02s (transform 179ms, setup 0ms, collect 301ms, tests 6.53s, environment 0ms, prepare 28ms)
