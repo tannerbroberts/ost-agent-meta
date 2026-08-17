@@ -26,3 +26,4 @@ instrument: >-
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/guards/provenance-census-scores-against-known-defects.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/guards/provenance-census-scores-against-known-defects.test.ts` — Duration  411ms (transform 17ms, setup 0ms, collect 182ms, tests 23ms, environment 0ms, prepare 24ms)
