@@ -5,6 +5,7 @@ created: '2026-08-17'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Operators actually read the run's completion report closely enough to notice an appended friction line]]
 
 Whatever channel already tells the operator a run finished (a commit message, a status file, a completion note) gets one more line: how many tool_error / retry events this run hit. No new surface, no new place to check — the friction count rides along with information the operator already reads.
 
