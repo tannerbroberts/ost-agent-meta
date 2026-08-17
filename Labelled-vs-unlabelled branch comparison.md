@@ -26,3 +26,4 @@ Proposed by the agent — to be run by a human with real readers. No results rec
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/evidence-class-on-every-node.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/ost/evidence-class-on-every-node.test.ts` — Duration  324ms (transform 94ms, setup 0ms, collect 137ms, tests 2ms, environment 0ms, prepare 31ms)
