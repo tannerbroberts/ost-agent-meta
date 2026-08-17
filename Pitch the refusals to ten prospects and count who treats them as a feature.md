@@ -18,3 +18,6 @@ The assumption underneath this whole position is that buyers punish overclaiming
 **What it will not cover.** What people say about a described product is not what they do with a real one, and the ladder ranks it accordingly. A prospect who admires rigour in conversation may still buy the tool that agrees with them.
 
 A human runs this and records the result.
+
+## Issues
+- 2026-08-17 Lane unset, and this sweep could not set it. Humans-required: the design describes the product to ten real prospects and records their unprompted reaction — a real person's judgement, not computable from the repository. `ost_flag_humans_required` is withheld on this unattended surface. Left for a human: `ost-agent lane "Pitch the refusals to ten prospects and count who treats them as a feature" --set humans-required`.
