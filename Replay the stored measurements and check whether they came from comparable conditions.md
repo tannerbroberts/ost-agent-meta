@@ -25,3 +25,4 @@ The assumption is that the history is comparable — same machine, similar condi
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/gate-condition-comparability.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/telemetry/gate-condition-comparability.test.ts` — Duration  248ms (transform 17ms, setup 0ms, collect 16ms, tests 1ms, environment 0ms, prepare 32ms)
