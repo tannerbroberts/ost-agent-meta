@@ -30,3 +30,4 @@ First-party observation made during the unattended maintenance pass of 2026-08-0
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/edit-node-preserves-unsupplied-sections.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/mcp/edit-node-preserves-unsupplied-sections.test.ts` — Duration  299ms (transform 64ms, setup 0ms, collect 99ms, tests 6ms, environment 0ms, prepare 26ms)
