@@ -124,3 +124,4 @@ instrument: npx vitest run test/release/surface-enumeration.test.ts
 - 2026-08-17 **no-spec** (exit none) `npx vitest run test/release/surface-enumeration.test.ts` — test/release/surface-enumeration.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-17 **no-spec** (exit none) `npx vitest run test/release/surface-enumeration.test.ts` — test/release/surface-enumeration.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-17 **no-spec** (exit none) `npx vitest run test/release/surface-enumeration.test.ts` — test/release/surface-enumeration.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-17 **no-spec** (exit none) `npx vitest run test/release/surface-enumeration.test.ts` — test/release/surface-enumeration.test.ts does not exist — no spec was collected, so nothing was measured
