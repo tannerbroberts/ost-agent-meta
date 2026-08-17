@@ -99,3 +99,4 @@ One small, fast test of one belief: that author–judge separation can be read o
 - 2026-08-16 **no-spec** (exit none) `npx vitest run test/eval/author-judge-separation.test.ts` — test/eval/author-judge-separation.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-16 **no-spec** (exit none) `npx vitest run test/eval/author-judge-separation.test.ts` — test/eval/author-judge-separation.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-16 **no-spec** (exit none) `npx vitest run test/eval/author-judge-separation.test.ts` — test/eval/author-judge-separation.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-17 **no-spec** (exit none) `npx vitest run test/eval/author-judge-separation.test.ts` — test/eval/author-judge-separation.test.ts does not exist — no spec was collected, so nothing was measured
