@@ -1,9 +1,9 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
+evidence: assertion
 ---
 #AssumptionTest #unvalidated #desirability #evidence/assertion
 
@@ -26,3 +26,4 @@ Proposed by the agent — to be run by a human with real people. No results reco
 - 2026-07-25 RUN FIRST (2026-07-24 prioritization): attacks the retuned outcome's bottleneck directly — about a week, zero build, kill threshold already pre-committed, and every reply INCLUDING the noes becomes the first external evidence this vault has ever contained. Success additionally seeds design partners whose usage feeds every other branch. Outreach draft ready at .ost-agent/drafts/cold-offer-outreach.md.
 - 2026-07-25 DECLINED BY FOUNDER, not failed (human:conversation): shown the outreach plan, the founder ruled it out — "that isn't going to fly" — and replaced the strategy with free distribution and a build-in-public following (decision recorded on the root Outcome). The test never ran; its threshold was never tried; nothing here counts as evidence against the assumption. The desirability question — will strangers hand real discovery work to an agent — remains open and is now expected to be answered by inbound adoption of a free product instead of cold outreach. RUN FIRST no longer applies.
 - 2026-07-25 CONDITIONALLY REVIVED at n=1, warm (human:conversation, same day as the decline): the founder has "lined up another person to try this out" — not cold outreach, one warm participant — gated on an explicit launch bar: "I won't give the cold-offer a shot unless I can say, 'Just install ost-agent, setup runs itself.'" The gate is "I can't tell another PM 'just run npm install' and have it work", where a fresh-user audit (same day) found exactly one seam remaining. A single warm trial cannot clear this test's 5-of-20 threshold and must not be recorded against it; what it can produce is this vault's first external-operator evidence of any kind, which is the mandate's own metric. If it happens, file it as its own evidence, not as a partial run of this test.
+- 2026-08-17 Lane unset, and this sweep could not set it. Humans-required: the proposed test is a direct-outreach offer to ~20 qualified teams, measuring who books a kickoff and sends real artefacts — an outside party's response, not a computable question. `ost_flag_humans_required` is withheld on this unattended surface. Left for a human: `ost-agent lane "Cold-offer test - will outside teams hand over real discovery work" --set humans-required`.
