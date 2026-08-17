@@ -3682,3 +3682,4 @@
 {"ts":"2026-08-17T21:25:26.249Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"mcp","argBytes":62,"session":"mcp-448d7753-7011-4e72-903c-35dd8141027b"}
 {"ts":"2026-08-17T21:25:32.969Z","tool":"ost_read_tree","ok":true,"ms":52,"surface":"mcp","argBytes":83,"session":"mcp-448d7753-7011-4e72-903c-35dd8141027b"}
 {"ts":"2026-08-17T21:26:03.986Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2334,"session":"mcp-448d7753-7011-4e72-903c-35dd8141027b"}
+{"ts":"2026-08-17T21:26:13.379Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1646,"session":"mcp-448d7753-7011-4e72-903c-35dd8141027b"}

@@ -93,3 +93,14 @@ Instances now on record, beyond the four the earlier section holds: roughly ten 
 **For a human.** This is an unattended pass's reading of a deferred judgement, recorded so the question stops being re-deferred. If a human reads the class as a distinct need after all, the right shape would be an opportunity about composing calls without schemas in hand, and the instances above are its starting evidence.
 
 _Provenance: corpus count and session ids as recorded on "Every session leaves an evidence record that restates a need the tree already holds" 2026-08-10, plus this firing's own pre-flight corrections. Observed behaviour of this product's own agent; grounds usability, not demand. Corroboration and disposition only; the node's rung is unchanged._
+
+## Corroboration — two more instances, same shape, both discovered mid-batch (unattended sweep, 2026-08-17)
+
+Both from a single session's transcript, `TRANSCRIPT:0095203e-ab42-4179-a53e-a2d4d6dd6032` (2026-08-15):
+
+- **`Monitor` refused for `Contains command_substitution`** — a constraint on the wait-condition string that existed the whole time and was not knowable to the caller until the call was composed and submitted.
+- **`Write` refused with `File has not been read yet. Read it first before writing to it.`** — a precondition on file state that the tool enforces but does not publish; the caller learns the rule from the refusal rather than before composing the call.
+
+A second session, `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` (2026-08-17), shows the same `Write`-before-`Read` refusal recurring twice in one session, alongside `Bash` failures for modules that turned out not to exist at the path the agent composed against (`Cannot find module './scripts/provenance-census.js'`, `ERR_MODULE_NOT_FOUND` for a `.ts` path) — this half belongs more precisely to "The agent has to guess what resources it's actually working with" (guessed paths), but the `Write`-before-`Read` and `Monitor` refusals are this node's shape exactly: a rule stated only by the refusal.
+
+_Source: `TRANSCRIPT:0095203e-ab42-4179-a53e-a2d4d6dd6032`, `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` — observed behaviour from the agent's own transcripts. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
