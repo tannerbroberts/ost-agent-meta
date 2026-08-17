@@ -40,3 +40,12 @@ Same pattern (tool_error/retry counts from unattended firings), each read and co
 - TRANSCRIPT:1c8a3722-b8a5-4828-b57e-c45b1566cf6d
 - TRANSCRIPT:1d62c716-4c49-40ec-84fe-2c849012d3f2
 - TRANSCRIPT:1e4cae02-74ec-4d78-8feb-fd351495f24d
+
+## Corroborating sessions — 2026-08-17 unattended sweep
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:1ec21bc8-95d9-42c5-a6bd-5e1ca1dba7ac (3 events: tool_error×2, retry×1 — Edit/Write "file not read yet", Bash retry)
+- TRANSCRIPT:d231305b-c425-4597-9fd7-b7a8872f9c1d (3 events: tool_error×2, retry×1 — a Read tool_error worth noting on its own: "File content (409.8KB) exceeds maximum allowed size (256KB)", plus a Write "file not read yet")
+- TRANSCRIPT:fee7afb0-c0d1-4ee7-ad54-3ee323cbb114 (2 events: retry×2 — on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves)
+
+## Issues
+- 2026-08-17 unattended sweep — 250 more TRANSCRIPT friction records remain in `unmappedEvidence` beyond the three cited above (253 total this pass, 2 non-transcript). Citing each individually is diminishing-return busywork at this scale: the node's own prose already says "the pattern, not any single session, is the evidence," and this bucket already has 25 corroborating citations. Recommend a human deprioritize further one-by-one manual citation here in favor of shipping "Cluster friction records by signature before the queue sees them" (already proposed beneath this node's sibling), which is the mechanism designed to absorb exactly this volume. Also worth a human's attention: TRANSCRIPT:d231305b's Read tool_error (409.8KB file exceeding a 256KB read cap) is a distinct, possibly novel failure shape within this pattern — a large-file read limit hit during an unattended firing — rather than the usual "file not read yet" retry loop.
