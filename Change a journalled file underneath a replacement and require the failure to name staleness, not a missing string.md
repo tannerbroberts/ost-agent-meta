@@ -26,3 +26,4 @@ instrument: npx vitest run test/runner/failed-match-attribution.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/failed-match-attribution.test.ts` — filter:  test/runner/failed-match-attribution.test.ts
+- 2026-08-17 **green** (exit 0) `npx vitest run test/runner/failed-match-attribution.test.ts` — ✓ test/runner/failed-match-attribution.test.ts (4 tests) 3ms
