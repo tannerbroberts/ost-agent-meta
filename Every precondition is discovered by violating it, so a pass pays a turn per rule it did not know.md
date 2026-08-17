@@ -39,3 +39,9 @@ One new instance of the general form, and it happened to the pass writing this: 
 That is the same disease as the read-before-write handshake and it is worth stating as one claim rather than two: a caller cannot plan around a limit it can only observe by exceeding it.
 
 Provenance: this pass, 2026-08-06, reading records `TRANSCRIPT:1744f10a-e7ce-4e46-a573-a1d99c44960c` and `TRANSCRIPT:28d14def-76a2-4bbb-bd55-6f9b80c8ca8c` in full, plus the `ost_read_tree` refusal observed first-party. Frontmatter still cites the single record it was created from; ids are matched exactly, so the rest are named here in plain text.
+
+## Corroboration — twelve more sessions, same handshake (unattended sweep, 2026-08-17)
+
+The read-before-write refusal continues to be the single most common self-observed friction in this vault. Twelve further sessions from the 2026-08-05 through 2026-08-17 window each hit "File has not been read yet. Read it first before writing to it." on a Write or Edit call, several immediately re-issuing the identical call — the same by-collision learning shape already documented above.
+
+_Source: `TRANSCRIPT:0095203e-ab42-4179-a53e-a2d4d6dd6032`, `TRANSCRIPT:00c3120a-411d-4c42-ba04-aaf9c43aadd7`, `TRANSCRIPT:024ceca3-0f40-42af-9937-aa2ad9a95278`, `TRANSCRIPT:0a5010a7-07f7-481b-b777-b529d6e7463b`, `TRANSCRIPT:0e0cd6f3-7541-4221-a6f1-efe977d0e2e2`, `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11`, `TRANSCRIPT:11e16f3d-f49a-491c-be33-164eb7059774`, `TRANSCRIPT:13d01f73-0c88-4be1-a704-d2ccc78e1c38`, `TRANSCRIPT:19ccdb48-e5f7-4dda-8289-38b25a651397`, `TRANSCRIPT:1c8a3722-b8a5-4828-b57e-c45b1566cf6d`, `TRANSCRIPT:1e4cae02-74ec-4d78-8feb-fd351495f24d`, `TRANSCRIPT:1ec21bc8-95d9-42c5-a6bd-5e1ca1dba7ac` — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not desirability.
