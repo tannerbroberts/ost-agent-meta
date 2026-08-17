@@ -24,3 +24,4 @@ instrument: npx vitest run test/loop/blocker-mining-replay.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/blocker-mining-replay.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/loop/blocker-mining-replay.test.ts` — Duration  1.38s (transform 87ms, setup 0ms, collect 80ms, tests 26ms, environment 0ms, prepare 217ms)
