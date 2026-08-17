@@ -26,3 +26,4 @@ Proposed by the agent — to be run by human reviewers; the agent must not judge
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/eval/canary-parallel-run.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/eval/canary-parallel-run.test.ts` — Duration  214ms (transform 17ms, setup 0ms, collect 14ms, tests 3ms, environment 0ms, prepare 25ms)
