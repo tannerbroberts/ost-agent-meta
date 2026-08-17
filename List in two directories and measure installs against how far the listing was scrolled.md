@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/release/registry-install-path.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/release/registry-install-path.test.ts` — Duration  689ms (transform 14ms, setup 0ms, collect 11ms, tests 479ms, environment 0ms, prepare 26ms)
