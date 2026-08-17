@@ -18,3 +18,6 @@ The assumption is that a maintained tree is worth a recurring payment. The value
 **What it will not cover.** Asking about terms is not paying, and the ladder ranks it below money accordingly. It also says nothing about renewal, which is where the invisible-value problem actually bites.
 
 A human runs this and records the result.
+
+## Issues
+- 2026-08-17 Lane unset, and this sweep could not set it. This test is humans-required, not instrument-able: design says "Make a concrete offer to ten teams" and count who asks about terms/trial/invoice — a real prospective buyer's reaction to a live offer, not computable. `ost_flag_humans_required` is withheld on this unattended surface (see the "what this surface withholds" list), so the judgement is recorded here instead. Left for a human: `ost-agent lane "Offer a maintained tree at a stated monthly price to ten teams and count who asks for terms" --set humans-required`.
