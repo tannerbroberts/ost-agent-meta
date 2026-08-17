@@ -1,9 +1,9 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
+evidence: assertion
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -24,3 +24,4 @@ Proposed by the agent — to be run by a human with real interviewees. No result
 
 ## Issues
 - 2026-07-25 RUN SECOND (2026-07-24 prioritization): establishes the standing evidence supply chain the retuned outcome depends on; <= 2h/week, zero build; even failure is decisive (evidence must then come from usage instead of conversation).
+- 2026-08-17 Lane unset, and this sweep could not set it. Humans-required: the design runs a real recruiting channel for two weeks and holds real interviews with real interviewees — the supply of willing outside people is the measurement. `ost_flag_humans_required` is withheld on this unattended surface. Left for a human: `ost-agent lane "Two-week recruiting test for interview supply" --set humans-required`.

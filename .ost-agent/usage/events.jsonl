@@ -3375,3 +3375,4 @@
 {"ts":"2026-08-17T07:13:11.258Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":689,"session":"mcp-1e043a2e-b548-4c58-9f12-8ba26263ed01"}
 {"ts":"2026-08-17T07:13:12.905Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":536,"session":"mcp-1e043a2e-b548-4c58-9f12-8ba26263ed01"}
 {"ts":"2026-08-17T07:13:14.479Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":530,"session":"mcp-1e043a2e-b548-4c58-9f12-8ba26263ed01"}
+{"ts":"2026-08-17T07:13:16.121Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":470,"session":"mcp-1e043a2e-b548-4c58-9f12-8ba26263ed01"}
