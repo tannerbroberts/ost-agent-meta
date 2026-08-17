@@ -89,3 +89,15 @@ The sweep's brief names exactly two legitimate ways to clear a solution out of `
 **For a human.** Either grant `ost_flag_humans_required` to the unattended loop — it is the one call on this surface that can only ever *remove* work from compute's reach, which is why the skill hands it to the agent rather than reserving it — or accept that the human-lane share of `solutionsMissingInstruments` is permanent debt and stop counting it as outstanding work. The middle state, where the loop is asked each hour to do something it has no tool for, spends a firing's attention rediscovering the same wall.
 
 _Observed behaviour of this product's own run surface, 2026-08-05 unattended sweep. Grounds usability, not demand._
+
+## Corroboration — the surface now discloses its own gaps, and the disclosure changes the shape of the problem (unattended sweep, 2026-08-17)
+
+Two new facts, both first-hand from this firing.
+
+**The silent half of the problem is now fixed.** This pass's own instructions carry a "What this surface withholds" section naming exactly which `ost_*` tools are absent here — `ost_check`, `ost_debt`, `ost_deposit`, `ost_flag_humans_required`, `ost_gate`, `ost_rank_source`, `ost_status` — before any call was attempted, with the instruction to "do the pass without them" and report writes as "unverified-by-design" rather than as a failure. That is the fix this node has been asking a human to make since 2026-08-05: the pass now knows what it is missing *before* it reaches for it, rather than discovering it call by call. The variance between surfaces has not gone away — it is disclosed rather than silent, which is a materially different cost.
+
+**A fresh transcript instance shows the old, undisclosed shape.** `TRANSCRIPT:030e5db3-9414-441f-9221-b4a984c11825` (2026-08-05) recorded a session hitting permission refusals on `Glob`, `mcp__ost-agent__ost_flag_humans_required`, `mcp__ost-agent__ost_check`, and `mcp__ost-agent__ost_status`, interleaved with repeated retries of `ost_ingest_inbox`/`ost_next_work` — the agent re-issuing calls it had no reason to expect would change, consistent with a pass stalled on a permission wall it could not see coming. Predates the disclosure fix above; consistent with every prior filing on this node.
+
+**Net effect for a human.** The disclosure is new and worth confirming works as intended over more passes, but the underlying question this node opened — whether to grant `ost_flag_humans_required` to the unattended loop or accept the human-lane share of `solutionsMissingInstruments` as permanent debt — is still open. This pass held no `ost_flag_humans_required` grant and left tests needing it unflagged; see this pass's own closing report.
+
+_Source: `TRANSCRIPT:030e5db3-9414-441f-9221-b4a984c11825`, read in full this pass — observed behaviour from the agent's own transcript. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
