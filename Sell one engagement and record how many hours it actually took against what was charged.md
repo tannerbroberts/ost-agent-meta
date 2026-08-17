@@ -20,3 +20,6 @@ The assumption is that the engagement is worth selling — that the price a team
 **What it will not cover.** A first engagement is the slowest, and its hours overstate the steady state. The second measure matters more than the first: if nearly all the work was consulting, the tool is not the business regardless of the margin.
 
 A human runs this and records the result.
+
+## Issues
+- 2026-08-17 Lane unset, and this sweep could not set it. Humans-required: "Sell one engagement at a real price to a real team" and record actual hours worked — a real sale and real consulting hours, irreducibly human. `ost_flag_humans_required` is withheld on this unattended surface. Left for a human: `ost-agent lane "Sell one engagement and record how many hours it actually took against what was charged" --set humans-required`.
