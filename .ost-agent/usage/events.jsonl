@@ -3438,3 +3438,4 @@
 {"ts":"2026-08-17T09:28:31.030Z","tool":"ost_read_tree","ok":true,"ms":47,"surface":"mcp","argBytes":111,"session":"mcp-b41ea212-4f4e-4242-a471-832283fbe62f"}
 {"ts":"2026-08-17T09:28:45.874Z","tool":"ost_read_tree","ok":true,"ms":48,"surface":"mcp","argBytes":27,"session":"mcp-b41ea212-4f4e-4242-a471-832283fbe62f"}
 {"ts":"2026-08-17T09:29:06.897Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1473,"session":"mcp-b41ea212-4f4e-4242-a471-832283fbe62f"}
+{"ts":"2026-08-17T09:29:09.280Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-b41ea212-4f4e-4242-a471-832283fbe62f"}
