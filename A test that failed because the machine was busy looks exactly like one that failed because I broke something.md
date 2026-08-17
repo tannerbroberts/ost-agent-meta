@@ -51,3 +51,9 @@ Two machine-recorded session traces show this failure in its pure form, and neit
 - `TRANSCRIPT:516fdfb8-bab1-41a4-b1e5-92fde97bd90d` — a CI poll returned **exit code 8** for `bundle-drift` while a sibling job read `test pending 0`. One job had a verdict, one had not run, and the aggregate exit code carried both.
 
 This is observed behavior from the agent's own sessions rather than an outside report, so it grounds the usability half of this opportunity and not the desirability half. What it adds is that the confusion is not hypothetical and not rare: the signal that would separate the two — the signal number, and whether a job reached a verdict at all — was present in the raw output and absent from what the agent acted on.
+
+## Corroboration — a transient upstream 503 read the same as a real failure (unattended sweep, 2026-08-17)
+
+`TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` recorded three consecutive Bash calls returning `Exit code 1 … HTTP 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists. (https://api.github.com/graphql)`. Each surfaced as a plain exit-code-1 tool_error, indistinguishable in shape from a call that failed because the request itself was wrong — the same confusion this node names, this time at the network layer rather than the process-signal layer the prior corroboration recorded.
+
+_Source: `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability.
