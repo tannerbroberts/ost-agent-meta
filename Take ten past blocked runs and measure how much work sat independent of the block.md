@@ -33,3 +33,4 @@ And it says nothing about the failure that makes this solution risky rather than
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/blocked-run-independent-work.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/loop/blocked-run-independent-work.test.ts` — Duration  221ms (transform 19ms, setup 0ms, collect 19ms, tests 1ms, environment 0ms, prepare 28ms)
