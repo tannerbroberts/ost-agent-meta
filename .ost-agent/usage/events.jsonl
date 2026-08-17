@@ -3333,3 +3333,5 @@
 {"ts":"2026-08-17T05:01:36.870Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":94,"session":"mcp-6a209d0c-0f3a-464a-a380-fd0914c19978"}
 {"ts":"2026-08-17T05:02:18.676Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2463,"session":"mcp-6a209d0c-0f3a-464a-a380-fd0914c19978"}
 {"ts":"2026-08-17T05:02:20.979Z","tool":"ost_ingest_inbox","ok":true,"ms":6,"surface":"mcp","argBytes":2,"session":"mcp-6a209d0c-0f3a-464a-a380-fd0914c19978"}
+{"ts":"2026-08-17T05:02:21.411Z","tool":"ost_next_work","ok":true,"ms":163,"surface":"mcp","argBytes":2,"session":"mcp-6a209d0c-0f3a-464a-a380-fd0914c19978"}
+{"ts":"2026-08-17T06:02:56.830Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-e623fd17-d8ba-476a-bfdb-ea59cf55eaa8"}
