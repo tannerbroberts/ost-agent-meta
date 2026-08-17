@@ -28,3 +28,4 @@ instrument: npx vitest run test/telemetry/same-run-baseline-ratio.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/same-run-baseline-ratio.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/telemetry/same-run-baseline-ratio.test.ts` — Duration  29.10s (transform 135ms, setup 0ms, collect 204ms, tests 28.69s, environment 0ms, prepare 25ms)
