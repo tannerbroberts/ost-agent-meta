@@ -24,3 +24,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/eval/tournament-elimination.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/eval/tournament-elimination.test.ts` — Duration  258ms (transform 46ms, setup 0ms, collect 66ms, tests 4ms, environment 0ms, prepare 28ms)
