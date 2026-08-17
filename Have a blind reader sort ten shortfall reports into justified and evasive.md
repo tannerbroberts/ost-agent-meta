@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/scope-shortfall.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/loop/scope-shortfall.test.ts` — Duration  816ms (transform 30ms, setup 0ms, collect 32ms, tests 596ms, environment 0ms, prepare 29ms)
