@@ -19,3 +19,6 @@ An unattended run has no supervisor and no resumable record. If it fails at hour
 
 ## Corroborating evidence — 2026-08-16
 `INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md` — a builder pass was backgrounded mid-work; the next pass had no way to tell what it had finished versus abandoned. Same need as this node, filed from the build loop's own friction rather than an interview. Evidence class: observed (self-reported by the agent) — grounds usability, not demand.
+
+## Corroborating evidence
+- INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md — builder-loop self-filed friction (blocked): an earlier builder pass was backgrounded mid-work; the next pass had no way to tell what it had finished versus abandoned. Same need as this node, filed from the build side rather than the operator side.

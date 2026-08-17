@@ -3581,3 +3581,4 @@
 {"ts":"2026-08-17T16:59:38.982Z","tool":"ost_read_tree","ok":true,"ms":55,"surface":"mcp","argBytes":87,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad"}
 {"ts":"2026-08-17T17:00:07.978Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1521,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad","wrote":["My unattended runs recover from tool errors and retries I never find out about.md"]}
 {"ts":"2026-08-17T17:00:30.030Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1365,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad"}
+{"ts":"2026-08-17T17:00:35.342Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":460,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad"}
