@@ -15,6 +15,7 @@ evidence: assertion
 [[A tool call I got slightly wrong destroyed the note I was filing]]
 [[I cannot see what the agent did while I was away, so walking away is a leap]]
 [[The agent can't earn wider autonomy, because it has no way to let reality judge its own claims]]
+[[My unattended runs recover from tool errors and retries I never find out about]]
 
 **Customer need (operator's perspective):** "I want to download the tool, run one command, then walk away and trust it to run completely unmonitored — and come back to a tree that faithfully reflects what my business is learning, with fresh candidate solutions and assumptions, and nothing unproven dressed up as proven."
 
