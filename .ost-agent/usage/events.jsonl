@@ -3365,3 +3365,4 @@
 {"ts":"2026-08-17T06:08:17.499Z","tool":"ost_read_tree","ok":true,"ms":54,"surface":"mcp","argBytes":90,"session":"mcp-e623fd17-d8ba-476a-bfdb-ea59cf55eaa8"}
 {"ts":"2026-08-17T06:08:28.590Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":27,"session":"mcp-e623fd17-d8ba-476a-bfdb-ea59cf55eaa8"}
 {"ts":"2026-08-17T06:08:47.667Z","tool":"ost_ingest_inbox","ok":true,"ms":4,"surface":"mcp","argBytes":2,"session":"mcp-e623fd17-d8ba-476a-bfdb-ea59cf55eaa8"}
+{"ts":"2026-08-17T07:09:25.079Z","tool":"ost_ingest_inbox","ok":true,"ms":22,"surface":"mcp","argBytes":2,"session":"mcp-1e043a2e-b548-4c58-9f12-8ba26263ed01"}
