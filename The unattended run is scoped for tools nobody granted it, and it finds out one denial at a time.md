@@ -165,3 +165,15 @@ So the fourth grant, the one that is a single line of `product.repos` config and
 **Caveats, and two are new.** The three standing ones hold: the observer is the subject, the pass had read the bar before acting, and three firings that all knew about the preflight cannot separate it working from it working on a run that was told. New: this firing's own `Glob` denial on `/Users/tanner/dev/OST-Agent` is **not** in the 42, because a session's transcript is filed after it ends — so the path-read count is one short of current and the direction of the error is known. And the two classes sum to 125 rather than 127; the residue is other denial shapes not broken out, so both rows are floors.
 
 _Method: four counted `Grep` passes over every record in this vault's evidence folder, separating the denial string by the phrase that follows it. Agent self-observation of this product's own firings, captured mechanically — it grounds feasibility and usability, not demand. No test was run, no result recorded, and this node's rung is unchanged._
+
+## Fourth-plus consecutive count at zero tool denials, and the unrepaired half keeps growing — unattended sweep, 2026-08-16
+
+Recounted today by the same method as the prior censuses: `grep` of every `TRANSCRIPT_*.md` record in this vault's evidence folder, split by denial shape.
+
+**Tool-denial class (`permissions to use mcp__…`): 83 occurrences across 28 sessions — unchanged from the 2026-08-10 count, to the occurrence.** No session recorded since has hit any of the six withheld tools. The streak this node has been tracking since the 2026-08-07 fix now covers a full week of firings, not two isolated passes.
+
+**Path-read class (`permissions to read from <path>`): 59 occurrences across 50 sessions, up from 42/36 on 2026-08-10.** Fourteen more sessions hit a denied read of the product directory in the six days since, and it is now unambiguously the larger and still-growing half of this node's title, exactly as the 2026-08-10 section predicted it would remain once nobody was scoring by volume.
+
+**One correction to the record.** `ost.config.yaml` now sets `product.repos: [/Users/tanner/dev/OST-Agent]` — its own comment dates the change to 2026-08-09, before the 2026-08-10 section that still called the grant unset. So `ost_read_repo`'s configuration gap is closed; the continuing denials are raw `Glob`/`Read` calls against the product directory made by whatever surface a firing is running on, which is a harness sandbox permission this vault's config cannot reach. That is a narrower, harder claim than "one line of config, unapplied" — it is a permission this product does not control, growing at roughly the same rate the tool-denial class has stopped growing at.
+
+_Method: `rg -c "haven't granted it yet"` / `"permissions to use mcp__"` / `"permissions to read from"` over `.ost-agent/evidence/TRANSCRIPT_*.md`, read directly rather than through the transcript adapter. Agent self-observation of this product's own firings; grounds feasibility and usability, not demand. No test run, no result recorded, node's rung unchanged._
