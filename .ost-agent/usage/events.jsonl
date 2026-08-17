@@ -3754,3 +3754,13 @@
 {"ts":"2026-08-17T22:39:18.259Z","tool":"ost_read_tree","ok":true,"ms":56,"surface":"mcp","argBytes":27,"session":"mcp-a06a552a-1ed8-430a-b331-d24c8f246155"}
 {"ts":"2026-08-17T22:39:32.059Z","tool":"ost_ingest_inbox","ok":true,"ms":4,"surface":"mcp","argBytes":2,"session":"mcp-a06a552a-1ed8-430a-b331-d24c8f246155"}
 {"ts":"2026-08-17T23:40:19.106Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:40:19.524Z","tool":"ost_next_work","ok":true,"ms":146,"surface":"mcp","argBytes":2,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:40:51.360Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"mcp","argBytes":62,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:40:52.445Z","tool":"ost_next_work","ok":true,"ms":7,"surface":"mcp","argBytes":112,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:40:52.517Z","tool":"ost_next_work","ok":true,"ms":7,"surface":"mcp","argBytes":92,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:41:33.967Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"mcp","argBytes":62,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:41:35.087Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:41:35.612Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:42:31.785Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:42:32.145Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
+{"ts":"2026-08-17T23:44:50.591Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-cd1ceb54-8a72-4681-b478-30985f11a8f9"}
