@@ -26,3 +26,4 @@ Proposed by the agent — to be run by a human with real reviewers. No results r
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/branch-provenance-warning.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/ost/branch-provenance-warning.test.ts` — Duration  1.92s (transform 362ms, setup 0ms, collect 553ms, tests 7ms, environment 0ms, prepare 224ms)
