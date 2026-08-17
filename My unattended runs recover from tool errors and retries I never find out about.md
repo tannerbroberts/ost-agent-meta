@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Append a one-line friction summary to the run's own completion report]]
 [[Alert only when a run's friction count crosses a set threshold]]
+[[Surface a rolling friction trend across the last N firings, not per-run]]
 
 Session transcripts from this vault's own unattended firings show a steady rate of tool_error and retry events — the run recovers and keeps going, so nothing surfaces the friction to the operator. Walking away with confidence means trusting not just that the run finishes, but that what it had to fight through along the way was nothing worse than noise. Right now there is no way to tell the difference between a run that sailed through and one that limped through eight retries, short of reading its transcript.
 

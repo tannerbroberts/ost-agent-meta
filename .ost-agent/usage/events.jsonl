@@ -3586,3 +3586,4 @@
 {"ts":"2026-08-17T17:01:16.475Z","tool":"ost_read_tree","ok":true,"ms":55,"surface":"mcp","argBytes":108,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad"}
 {"ts":"2026-08-17T17:01:26.862Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1173,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad","wrote":["Append a one-line friction summary to the run's own completion report.md"]}
 {"ts":"2026-08-17T17:01:33.719Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1196,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad","wrote":["Alert only when a run's friction count crosses a set threshold.md"]}
+{"ts":"2026-08-17T17:01:40.268Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1270,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad","wrote":["Surface a rolling friction trend across the last N firings, not per-run.md"]}
