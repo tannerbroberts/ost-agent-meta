@@ -22,3 +22,9 @@ An unattended run has no supervisor and no resumable record. If it fails at hour
 
 ## Corroborating evidence
 - INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md — builder-loop self-filed friction (blocked): an earlier builder pass was backgrounded mid-work; the next pass had no way to tell what it had finished versus abandoned. Same need as this node, filed from the build side rather than the operator side.
+
+## Corroboration — a builder pass filed this as its own blocker (unattended sweep, 2026-08-17)
+
+`INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md` (filed by `builder-loop`, 2026-07-24): an earlier builder pass was backgrounded mid-work, and the next pass had no way to tell what it had finished versus abandoned. Same need this node already states, filed from the build side rather than the maintenance side: the process that died left no marker of where it stopped, so the next firing could not pick up cleanly.
+
+_Source: `INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md` — observed behaviour, self-reported by the product's own agent at the moment of friction. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
