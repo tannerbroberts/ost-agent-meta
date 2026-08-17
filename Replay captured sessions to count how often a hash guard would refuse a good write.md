@@ -28,3 +28,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/git/read-write-hash-drift.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/git/read-write-hash-drift.test.ts` — Duration  282ms (transform 18ms, setup 0ms, collect 17ms, tests 53ms, environment 0ms, prepare 26ms)
