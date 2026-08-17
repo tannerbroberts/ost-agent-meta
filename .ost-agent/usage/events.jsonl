@@ -3604,3 +3604,11 @@
 {"ts":"2026-08-17T18:06:00.226Z","tool":"ost_next_work","ok":true,"ms":6,"surface":"mcp","argBytes":112,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
 {"ts":"2026-08-17T18:06:08.061Z","tool":"ost_read_tree","ok":true,"ms":55,"surface":"mcp","argBytes":87,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
 {"ts":"2026-08-17T18:07:35.222Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1465,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
+{"ts":"2026-08-17T18:07:38.259Z","tool":"ost_read_tree","ok":true,"ms":55,"surface":"mcp","argBytes":108,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
+{"ts":"2026-08-17T18:07:46.482Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":73,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
+{"ts":"2026-08-17T18:07:47.079Z","tool":"ost_read_tree","ok":true,"ms":56,"surface":"mcp","argBytes":80,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
+{"ts":"2026-08-17T18:07:47.583Z","tool":"ost_read_tree","ok":true,"ms":57,"surface":"mcp","argBytes":82,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
+{"ts":"2026-08-17T18:07:47.697Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":80,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
+{"ts":"2026-08-17T18:07:48.119Z","tool":"ost_read_tree","ok":true,"ms":54,"surface":"mcp","argBytes":104,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
+{"ts":"2026-08-17T18:07:48.267Z","tool":"ost_read_tree","ok":true,"ms":56,"surface":"mcp","argBytes":90,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc"}
+{"ts":"2026-08-17T18:08:29.265Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":681,"session":"mcp-5d4de372-0fd9-4d99-9b6f-3a7447472cfc","wrote":["A single fixed per-run friction-count threshold separates sessions worth the operator's attention from ordinary recoverable noise.md"]}
