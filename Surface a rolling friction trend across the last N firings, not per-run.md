@@ -5,6 +5,7 @@ created: '2026-08-17'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Operators would proactively check a rolling friction trend rather than needing to be pushed a per-run alert]]
 
 Neither a single run's count nor a one-off spike says whether things are getting better or worse. Instead, track tool_error/retry counts across the last N firings and surface the trend — is friction climbing, flat, or falling — the next time the operator checks in, rather than at any one run's end.
 
