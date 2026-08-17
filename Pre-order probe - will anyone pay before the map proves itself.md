@@ -1,9 +1,9 @@
 ---
 type: AssumptionTest
 status: unvalidated
-evidence: assertion
 source: 'agent:P4_assumptions'
 created: '2026-07-24'
+evidence: assertion
 ---
 #AssumptionTest #unvalidated #viability #evidence/assertion
 
@@ -25,3 +25,4 @@ Proposed by the agent — to be run by a human with real traffic. No results rec
 ## Issues
 - 2026-07-25 GATED (2026-07-24 prioritization): highest-believability signal on the ladder (money) but premature — with no audience source, a null result cannot distinguish no-demand from no-traffic, violating the tree's own cheapest-disconfirmer principle. Unlock after the cold-offer test and a distribution channel exist (see new opportunity 'No one outside my own network could discover this product exists').
 - 2026-07-25 MOOTED BY FOUNDER DECISION, not by evidence (human:conversation): the product will be given away free — "no chance in hell I get to charge for this one" (decision recorded on the root Outcome). Willingness-to-pay is no longer a signal this strategy can collect. Retained unrun for the record; if the free-distribution strategy is ever reversed, this test is still well-formed and its threshold still stands.
+- 2026-08-17 Lane unset, and this sweep could not set it. Humans-required: the design puts a real price and checkout in front of real traffic and measures completed payment — willingness to pay is irreducibly a real person's decision. `ost_flag_humans_required` is withheld on this unattended surface. Left for a human: `ost-agent lane "Pre-order probe - will anyone pay before the map proves itself" --set humans-required`.
