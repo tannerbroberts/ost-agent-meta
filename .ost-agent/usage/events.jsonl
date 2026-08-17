@@ -3591,3 +3591,4 @@
 {"ts":"2026-08-17T17:02:19.475Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":961,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad","wrote":["An isolated worktree per firing prevents state leakage without adding meaningful setup cost.md"]}
 {"ts":"2026-08-17T17:02:25.228Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1023,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad","wrote":["Resetting the shared checkout to main before every firing doesn't clobber a still-running firing's in-flight work.md"]}
 {"ts":"2026-08-17T17:02:30.095Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":567,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad"}
+{"ts":"2026-08-17T17:02:33.132Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":576,"session":"mcp-55d33182-66dc-4a9a-ab52-b4e6bcc3ffad"}
