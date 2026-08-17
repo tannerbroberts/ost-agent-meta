@@ -28,3 +28,7 @@ Either a read that answers "does this test have an instrument, and what is it" b
 ## History
 
 - 2026-08-07 — Created from a first-party observation during an unattended maintenance pass: the pass made this error, caught it from the tool's own diff output, reverted it, and abandoned the remaining instrument work as unsafe to perform blind.
+
+## Tool capability changed — instrument field is now visible per-node (unattended sweep, 2026-08-17)
+
+`ost_read_tree({node: "<title>"})` now returns an `instrument` field (alongside `evidence`, `lane`, `threshold`) in every single-node read this pass performed. A pass can now check whether a test already carries an instrument before calling `ost_set_instrument`, closing the specific blind spot the 2026-08-07 observation describes (the tool distinguishing attach-vs-replace at the API level — `ost_set_instrument` refusing an overwrite unless `replace: true` — was already true then and remains true now; what was missing was a cheap way to check first, and that is what this read now provides). A human should confirm whether this closes the need.
