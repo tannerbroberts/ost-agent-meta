@@ -195,3 +195,11 @@ _Method: this firing's own tool results plus the vault's git log. First-party; n
 **Zero instruments written, and sight was not probed.** This firing's brief withheld the `ost_read_*` senses; no probe was attempted because the standing finding makes it moot — the queue contains nothing an exit code can settle, and the repair belongs to the queue's derivation, not to any solution beneath it.
 
 _Method: full `ost_read_tree` reads of the four entrant solutions and one assumption beneath them, plus this firing's `ost_next_work` listings. First-party; no command executed, no result recorded, no rung changed._
+
+## Queue at 70, composition unchanged — 2026-08-17, unattended sweep (not a recorded result)
+
+**No test was run.** `solutionsMissingInstruments` stood at 70 this firing. The 25 visible titles were cross-checked against the families this node has already classified (commercial/pricing, axiom/goal-acquisition, highlight-digest, CONVO opportunity-grammar, plus the recurring shipped false-positive "A result must state what it did not cover") — all 25 match an already-classified family; nothing new entered. `mechanical` remains 0 of the visible set.
+
+This firing's brief withholds `ost_read_repo` (see "What this surface withholds" at the top of the skill text) and a direct `Glob` of `/Users/tanner/dev/OST-Agent` was refused with the same permission error prior firings recorded — so the separable built-in grant was absent here too. Zero instruments written, consistent with every sighted and unsighted firing since the 2026-08-10 complete census: the constraint is the queue's composition, not sight.
+
+_Method: title cross-reference against this node's own classification tables; one refused `Glob` call. First-party; no command executed, no result recorded, no rung changed._
