@@ -3731,3 +3731,4 @@
 {"ts":"2026-08-17T22:35:35.995Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":735,"session":"mcp-a06a552a-1ed8-430a-b331-d24c8f246155"}
 {"ts":"2026-08-17T22:35:38.173Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":666,"session":"mcp-a06a552a-1ed8-430a-b331-d24c8f246155"}
 {"ts":"2026-08-17T22:35:40.905Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":841,"session":"mcp-a06a552a-1ed8-430a-b331-d24c8f246155"}
+{"ts":"2026-08-17T22:35:43.625Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":841,"session":"mcp-a06a552a-1ed8-430a-b331-d24c8f246155"}
