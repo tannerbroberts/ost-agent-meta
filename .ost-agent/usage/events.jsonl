@@ -3693,3 +3693,4 @@
 {"ts":"2026-08-17T21:27:34.637Z","tool":"ost_read_tree","ok":true,"ms":155,"surface":"mcp","argBytes":80,"session":"mcp-448d7753-7011-4e72-903c-35dd8141027b"}
 {"ts":"2026-08-17T21:27:47.408Z","tool":"ost_read_tree","ok":true,"ms":143,"surface":"mcp","argBytes":27,"session":"mcp-448d7753-7011-4e72-903c-35dd8141027b"}
 {"ts":"2026-08-17T21:28:06.846Z","tool":"ost_ingest_inbox","ok":true,"ms":11,"surface":"mcp","argBytes":2,"session":"mcp-448d7753-7011-4e72-903c-35dd8141027b"}
+{"ts":"2026-08-17T22:29:04.832Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-a06a552a-1ed8-430a-b331-d24c8f246155"}
