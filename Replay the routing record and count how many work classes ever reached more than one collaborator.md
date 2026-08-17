@@ -23,3 +23,4 @@ instrument: npx vitest run test/product/routing-record-capability.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/product/routing-record-capability.test.ts` — No test files found, exiting with code 1
+- 2026-08-17 **green** (exit 0) `npx vitest run test/product/routing-record-capability.test.ts` — Duration  1.32s (transform 39ms, setup 0ms, collect 61ms, tests 1.07s, environment 0ms, prepare 27ms)
