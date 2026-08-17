@@ -27,3 +27,9 @@ Cited record: `TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18`. Independently r
 The last line of this note is the same claim the bucket "A sweep that cannot read its subject reports a clean result" makes about sweeps generally; this node is the argument-level cause of it, not a second copy of it.
 
 This is the agent's own usage captured mechanically. It grounds usability, not desirability.
+
+## Corroboration — two more literal-as-syntax instances (unattended sweep, 2026-08-17)
+
+`TRANSCRIPT:022e473f-670e-4455-ac06-6a7cfc60ba60` recorded `ls: -d: No such file or directory` — a flag-shaped literal read as a flag. `TRANSCRIPT:054b78fc-df16-44ff-b394-760b30f34cb3` recorded `rg: error parsing glob '{Import': unclosed alternate group; missing '}'` — the same brace-in-a-title failure already documented above, on a different node title. Both are the pattern this node names: a literal intended as data, read as an operator by the interpreter it was handed to.
+
+_Source: `TRANSCRIPT:022e473f-670e-4455-ac06-6a7cfc60ba60`, `TRANSCRIPT:054b78fc-df16-44ff-b394-760b30f34cb3` — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not desirability.
