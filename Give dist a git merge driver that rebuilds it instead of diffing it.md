@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[A build step is reliably available in the environment that resolves a git merge on an unattended firing]]
+[[A git merge driver can deterministically rebuild dist from source instead of needing a content-level diff merge]]
 
 Keep dist/ost-agent.mjs checked in, but register a custom git merge driver (via .gitattributes) for that path that runs the build from the merged source instead of attempting a textual three-way merge. A conflict on the compiled output is resolved by regenerating it, never by reconciling two versions of generated code by hand or aborting the firing.
 
