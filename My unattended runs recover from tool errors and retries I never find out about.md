@@ -61,3 +61,7 @@ Read and confirmed to match the same pattern before citing:
 ## Corroborating sessions — 2026-08-18 unattended sweep (third batch)
 Read and confirmed to match the same pattern before citing:
 - TRANSCRIPT:89a95209-c65d-460f-801a-a75fd0805b65 (4 events: tool_error×2, retry×2 — retries on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves, same shape as fee7afb0/205477ec/1f8c1645 above; the two tool_errors are a distinct shape, cited separately on "The agent's repo sight fails mid-pass...")
+
+## Corroborating sessions — 2026-08-18 unattended sweep (fourth batch)
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:b2dafbe1-d52b-4f3e-9d9b-3b47c54bcf10 (1 event: retry×1 — on mcp__ost-agent__ost_ingest_inbox itself, same shape as fee7afb0/205477ec/1f8c1645/89a95209 above)
