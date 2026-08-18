@@ -4216,3 +4216,5 @@
 {"ts":"2026-08-18T17:41:25.970Z","tool":"ost_read_tree","ok":true,"ms":52,"surface":"mcp","argBytes":87,"session":"mcp-458a0081-7877-4cfd-9f52-cb3662481863"}
 {"ts":"2026-08-18T17:41:35.738Z","tool":"ost_next_work","ok":true,"ms":7,"surface":"mcp","argBytes":62,"session":"mcp-458a0081-7877-4cfd-9f52-cb3662481863"}
 {"ts":"2026-08-18T17:41:40.099Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":467,"session":"mcp-458a0081-7877-4cfd-9f52-cb3662481863"}
+{"ts":"2026-08-18T17:41:42.492Z","tool":"ost_read_tree","ok":true,"ms":49,"surface":"mcp","argBytes":75,"session":"mcp-458a0081-7877-4cfd-9f52-cb3662481863"}
+{"ts":"2026-08-18T17:41:51.433Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":730,"session":"mcp-458a0081-7877-4cfd-9f52-cb3662481863"}
