@@ -39,3 +39,9 @@ _Source: `TRANSCRIPT:97b0a3c7-fe6f-4a97-9ca8-406267f01cd1` — observed behavior
 Same shape twice more: a Write `tool_error` — "File has not been read yet." — each in a session also carrying an unrelated tool_error (a missing test/src path in one, a Bash retry in the other). Consistent with the established finding: ordering-guard friction, not a new pattern.
 
 _Source: `TRANSCRIPT:0e0cd6f3-7541-4221-a6f1-efe977d0e2e2`, `TRANSCRIPT:a9656e01-d4e0-4552-bc44-06a4a9984f58` — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not desirability._
+
+## Corroboration — eleventh instance, unattended sweep (2026-08-18)
+
+Same shape twice in one session: an Edit and a Write `tool_error`, both "File has not been read yet. Read it first before writing to it." — on `/Users/tanner/dev/OST-Agent/src/cli/index.ts`. The same session also hit a Read `tool_error` ("InputValidationError... could not be parsed as JSON... unescaped backslashes in file paths") and an Edit retry — both already-tracked shapes on other nodes, not new patterns.
+
+_Source: `TRANSCRIPT:d81442dd-4979-4a6e-bb2c-3d8eec99f0ba` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
