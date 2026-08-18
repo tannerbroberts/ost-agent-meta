@@ -4302,3 +4302,4 @@
 {"ts":"2026-08-18T21:27:37.725Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
 {"ts":"2026-08-18T21:27:38.084Z","tool":"ost_next_work","ok":true,"ms":87,"surface":"mcp","argBytes":2,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
 {"ts":"2026-08-18T21:28:08.312Z","tool":"ost_create_node","ok":true,"ms":12,"surface":"mcp","argBytes":647,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518","wrote":["A narrow wait-for-condition primitive covers the polling shapes Monitor currently refuses.md"]}
+{"ts":"2026-08-18T21:28:11.018Z","tool":"ost_create_node","ok":true,"ms":9,"surface":"mcp","argBytes":718,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518","wrote":["A background task can declare its own output path and have Monitor's read scope extended to exactly that path.md"]}
