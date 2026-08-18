@@ -86,3 +86,9 @@ _First-party observation by the unattended sweep of 2026-08-09, from its own suc
 
 ## Issues
 - 2026-08-11 2026-08-11 subset-extent flag vs "The same agent has a different tool surface on every surface I run it on" adjudicated: DISTINCT, keep as siblings, do not re-hang. "Every path the config declares is checked when the config is read, not when something reaches for it" repairs config-declared senses and does nothing about per-tool permission variance, which is the sibling's need (and the sibling's preflight solutions do not validate config paths). Subset extent is an artefact of a shared usage record. Sweep's own verdict; queued for human confirmation via "A human re-judges the first twelve extent flags against Torres's test".
+
+## Eighth sighting — the permission-denial channel recurs (unattended sweep, 2026-08-18)
+
+`TRANSCRIPT:89a95209-c65d-460f-801a-a75fd0805b65` shows the same fallback-channel failure the sixth and seventh sightings distinguished from the config-key failure: `Glob(/Users/tanner/dev/OST-Agent)` and `Read(/Users/tanner/dev/OST-Agent/package.json)` both denied with "Claude requested permissions to read from ... but you haven't granted it yet." This is the Glob/Read permission route, not the `ost_read_repo` config-key route the seventh sighting reported fixed — the two channels remain independent, and this session hit the one that was never the subject of that repair. The same session also retried `mcp__ost-agent__ost_ingest_inbox` and `mcp__ost-agent__ost_next_work` with no arguments, an already-tracked shape cited on "My unattended runs recover from tool errors and retries I never find out about."
+
+_Source: `TRANSCRIPT:89a95209-c65d-460f-801a-a75fd0805b65` — observed behavior, captured mechanically from the agent's own transcript. Grounds feasibility and usability, not demand._
