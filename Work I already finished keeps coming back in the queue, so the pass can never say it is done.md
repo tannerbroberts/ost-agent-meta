@@ -52,3 +52,9 @@ What makes it sharper than the shipped case is that **the same tool response con
 **Why this matters for the parent's question.** All three instances share a shape: the sweep holds the fact that would drain the item (`status: shipped`, `status: deferred`, "this is a category") and applies it to some analyses and not others. The bucket fix shows the repair is cheap once the fact is applied consistently. Two applications remain.
 
 _First-party observation by the unattended sweep of 2026-08-09, from its own `ost_next_work` response and a grep of the vault's frontmatter. Observed behaviour of this product's own tooling — it grounds feasibility and usability, not demand. No test was run, no result recorded, and this node's rung is unchanged._
+
+## Corroboration — a fresh instance, inconsistent within the same sweep (unattended sweep, 2026-08-18)
+
+This pass created three AssumptionTests this sweep, all `humansRequired` at creation with `lane: humans-required` confirmed by direct read. Two of the three solutions correctly dropped out of `solutionsMissingInstruments` on the next `ost_next_work` call; the third ("A background task's own output directory is automatically readable by the Monitor call that started it") did not, despite its test reading identically (`lane: "humans-required"`, confirmed via `ost_read_tree`). Same defect already on record here, now shown to be inconsistent even across sibling nodes created in the same batch, not just across separate batches as the earlier sightings found.
+
+_Source: this pass's own writes and re-reads, 2026-08-18 — first-party observation. Grounds usability, not demand._
