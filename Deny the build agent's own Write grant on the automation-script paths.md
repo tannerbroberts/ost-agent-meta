@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Denying Write on automation-script paths still lets the build agent finish every task it's actually asked to do]]
+[[No legitimate firing still needs the build agent's own Write grant on the automation-script paths]]
 
 Scope the build agent's own `Write` permission grant to exclude `examples/automation/*.sh` (and any other path that constitutes the loops' executable policy), so a build session cannot edit the scripts that bound its own behavior even within a single firing, regardless of checkout or worktree hygiene. Orthogonal to the checkout-reset and worktree-isolation candidates beside it: those stop a bad edit from *persisting* to the next firing; this stops the edit from being *writable* at all. Requires the policy scripts to live somewhere the agent's own grant does not cover, or a permission-layer path-deny the harness enforces independent of git state.
 
