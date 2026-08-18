@@ -27,3 +27,4 @@ The boundary of this authority is a human's to set. A human runs this and record
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/no-tty-policy-answer.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/runner/no-tty-policy-answer.test.ts` — Duration  223ms (transform 18ms, setup 0ms, collect 16ms, tests 7ms, environment 0ms, prepare 25ms)
