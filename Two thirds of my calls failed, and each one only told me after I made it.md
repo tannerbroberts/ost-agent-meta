@@ -104,3 +104,13 @@ Both from a single session's transcript, `TRANSCRIPT:0095203e-ab42-4179-a53e-a2d
 A second session, `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` (2026-08-17), shows the same `Write`-before-`Read` refusal recurring twice in one session, alongside `Bash` failures for modules that turned out not to exist at the path the agent composed against (`Cannot find module './scripts/provenance-census.js'`, `ERR_MODULE_NOT_FOUND` for a `.ts` path) — this half belongs more precisely to "The agent has to guess what resources it's actually working with" (guessed paths), but the `Write`-before-`Read` and `Monitor` refusals are this node's shape exactly: a rule stated only by the refusal.
 
 _Source: `TRANSCRIPT:0095203e-ab42-4179-a53e-a2d4d6dd6032`, `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` — observed behaviour from the agent's own transcripts. Grounds usability, not demand. Corroboration only; the node's rung is unchanged._
+
+## Corroboration — a working-directory sandbox boundary, discovered the same way (unattended sweep, 2026-08-18)
+
+`TRANSCRIPT:0f28d01f-35fa-49f0-b085-89170e306ef8` (a build-loop firing against the product repo) shows two refusals of this node's exact shape, plus one already-known instance:
+
+- **`Monitor` refused twice for reading a log file outside the session's own directory**: `tail in '/private/tmp/vitest-full-2.log' was blocked. For security, Claude Code may only read the end of files from the allowed working directories for this session: '/Users/tanner/ost-agent-meta'`, then the identical refusal against a path inside the product repo itself (`/Users/tanner/dev/OST-Agent/vitest-full-2.log`). The sandbox boundary is not the product repo the session is reasoning about — it is the vault's own working directory — and nothing said so until the read was attempted twice, against two different paths, in the same session.
+- **`Monitor` refused for compound-command composition**: `This Bash command contains multiple operations. The following parts require approval: until pgrep -f "vitest run" …` — the same "compound command refused by policy" shape already on record here from the `sleep 45` instance, now against a wait-loop instead of a wait-then-report.
+- **`Write` refused with `File has not been read yet`** on the build-loop's own `last-report.txt` — the already-established instance of this node's shape, recurring again.
+
+_Source: `TRANSCRIPT:0f28d01f-35fa-49f0-b085-89170e306ef8`, read in full this pass. Observed behavior of this product's own agent; grounds usability, not demand. Corroboration only; the node's rung is unchanged._
