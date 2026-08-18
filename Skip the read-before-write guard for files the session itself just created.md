@@ -5,6 +5,7 @@ created: '2026-08-18'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The harness can reliably tell created by this session apart from pre-existing, this session just wrote to it]]
 
 Narrow the guard's scope: a file the session created with its own Write call this run cannot hold content the session hasn't seen (it wrote all of it), so a subsequent Edit to that same file should not require an interposed Read. Only files that existed before this session touched them, or that another process could have changed, need the guard.
 
