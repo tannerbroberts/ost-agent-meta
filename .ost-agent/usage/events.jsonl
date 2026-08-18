@@ -4282,3 +4282,5 @@
 {"ts":"2026-08-18T21:25:33.378Z","tool":"ost_create_node","ok":true,"ms":10,"surface":"mcp","argBytes":658,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518","wrote":["Monitor accepts a vetted until-loop primitive instead of raw shell polling.md"]}
 {"ts":"2026-08-18T21:25:36.654Z","tool":"ost_create_node","ok":true,"ms":9,"surface":"mcp","argBytes":687,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518","wrote":["A background task's own output directory is automatically readable by the Monitor call that started it.md"]}
 {"ts":"2026-08-18T21:25:39.128Z","tool":"ost_create_node","ok":true,"ms":10,"surface":"mcp","argBytes":642,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518","wrote":["Monitor states its accepted command grammar up front rather than discovered by refusal.md"]}
+{"ts":"2026-08-18T21:25:43.921Z","tool":"ost_read_tree","ok":true,"ms":52,"surface":"mcp","argBytes":108,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
+{"ts":"2026-08-18T21:25:48.479Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":506,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
