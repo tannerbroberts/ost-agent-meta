@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Monitor accepts a vetted until-loop primitive instead of raw shell polling]]
 [[A background task's own output directory is automatically readable by the Monitor call that started it]]
+[[Monitor states its accepted command grammar up front rather than discovered by refusal]]
 
 **The need (operator's voice, inferred from observed behavior):** "When I leave a long-running build or test polling to run in the background, I need to be able to check on it without a person present to approve each check — but the tool that watches background work keeps refusing the exact commands that would let it watch."
 
