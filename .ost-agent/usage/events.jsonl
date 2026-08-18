@@ -4313,3 +4313,4 @@
 {"ts":"2026-08-18T21:28:42.339Z","tool":"ost_read_tree","ok":true,"ms":50,"surface":"mcp","argBytes":120,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
 {"ts":"2026-08-18T21:28:45.979Z","tool":"ost_read_tree","ok":true,"ms":50,"surface":"mcp","argBytes":156,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
 {"ts":"2026-08-18T21:29:00.749Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1011,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
+{"ts":"2026-08-18T22:44:33.387Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-12592f79-b976-4038-a929-05ba9e43340f"}
