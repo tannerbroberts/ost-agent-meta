@@ -4012,3 +4012,4 @@
 {"ts":"2026-08-18T08:15:18.518Z","tool":"ost_next_work","ok":true,"ms":7,"surface":"mcp","argBytes":62,"session":"mcp-32964f19-ef9d-4a77-b96a-662008feda37"}
 {"ts":"2026-08-18T08:15:31.066Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":816,"session":"mcp-32964f19-ef9d-4a77-b96a-662008feda37"}
 {"ts":"2026-08-18T08:15:34.647Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":382,"session":"mcp-32964f19-ef9d-4a77-b96a-662008feda37"}
+{"ts":"2026-08-18T08:15:44.101Z","tool":"ost_ingest_inbox","ok":true,"ms":9,"surface":"mcp","argBytes":2,"session":"mcp-32964f19-ef9d-4a77-b96a-662008feda37"}
