@@ -3891,3 +3891,5 @@
 {"ts":"2026-08-18T04:48:39.276Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":130,"session":"mcp-20853977-cfaf-45a5-8834-d3469fb8518d"}
 {"ts":"2026-08-18T04:49:58.534Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":87,"session":"mcp-20853977-cfaf-45a5-8834-d3469fb8518d"}
 {"ts":"2026-08-18T04:50:22.930Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":2795,"session":"mcp-20853977-cfaf-45a5-8834-d3469fb8518d"}
+{"ts":"2026-08-18T04:50:26.624Z","tool":"ost_read_tree","ok":true,"ms":53,"surface":"mcp","argBytes":108,"session":"mcp-20853977-cfaf-45a5-8834-d3469fb8518d"}
+{"ts":"2026-08-18T04:51:41.224Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":737,"session":"mcp-20853977-cfaf-45a5-8834-d3469fb8518d","wrote":["The harness exposes a hook at the moment a session is backgrounded or interrupted, in time to write one line before control is lost.md"]}
