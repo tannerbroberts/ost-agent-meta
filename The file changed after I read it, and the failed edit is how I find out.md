@@ -78,3 +78,7 @@ A count across every transcript record the vault holds, taken by grepping the ev
 **Read the number honestly.** These are agent sessions writing to files, and an agent that has simply forgotten to read a file first generates this refusal without any second writer existing. So 55 is an upper bound on the drift-related cases and probably a loose one; nothing in the grep distinguishes "never read it" from "read it and it moved." Separating those requires the read/write timestamps the transcripts do not carry, which is itself an argument for the drift-detection candidates under this node — the record cannot currently tell the two apart, so neither can anyone reading it.
 
 _Method: a grep of every `TRANSCRIPT_*.md` record in this vault's evidence folder, counted per file. Observed behaviour of this product's own agent, captured mechanically with no narrator — it grounds usability, not demand. Those session records remain listed as unmapped evidence in the sweep; citing them here does not clear them. Corroboration only — no test was run, no result recorded, and the node's rung is unchanged._
+
+## Additional observed instance
+
+TRANSCRIPT:0459d729-8ee3-43fc-ae1f-f05928ad84e2 — an unattended firing's Edit failed with "File has been modified since read, either by the user or by a linter," on `docs/reference/v1-readiness.md`, mid-edit of a figure it had just read.
