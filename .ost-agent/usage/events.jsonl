@@ -3800,3 +3800,13 @@
 {"ts":"2026-08-18T02:33:14.779Z","tool":"ost_next_work","ok":true,"ms":7,"surface":"mcp","argBytes":62,"session":"mcp-827938df-041c-40b7-b4c3-eb28b654885f"}
 {"ts":"2026-08-18T02:36:28.320Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-827938df-041c-40b7-b4c3-eb28b654885f"}
 {"ts":"2026-08-18T03:37:09.588Z","tool":"ost_ingest_inbox","ok":true,"ms":21,"surface":"mcp","argBytes":2,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:37:12.156Z","tool":"ost_next_work","ok":true,"ms":151,"surface":"mcp","argBytes":2,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:38:20.533Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"mcp","argBytes":92,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:38:20.987Z","tool":"ost_next_work","ok":true,"ms":7,"surface":"mcp","argBytes":112,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:38:21.303Z","tool":"ost_next_work","ok":true,"ms":7,"surface":"mcp","argBytes":62,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:39:09.489Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:39:09.995Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:39:11.111Z","tool":"ost_next_work","ok":true,"ms":6,"surface":"mcp","argBytes":62,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:39:11.270Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:40:05.502Z","tool":"ost_read_tree","ok":true,"ms":48,"surface":"mcp","argBytes":87,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:40:30.337Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1690,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29","wrote":["The session tries to write a file before it has read it this run, and the guard fails the turn instead of reading first.md"]}
