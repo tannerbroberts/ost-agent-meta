@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/cli/chart-cost-estimate.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/cli/chart-cost-estimate.test.ts` — Duration  4.15s (transform 109ms, setup 0ms, collect 167ms, tests 3.80s, environment 0ms, prepare 28ms)
