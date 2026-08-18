@@ -75,3 +75,9 @@ _Source: `TRANSCRIPT:dd1903bf-d723-4d03-b6c0-84a9081997c4` — observed behavior
 Same shape again: a Write `tool_error` — "File has not been read yet. Read it first before writing to it." — occurring twice in one session, on `/Users/tanner/.local/state/ost-build-loop/last-report.txt`, with a retry that then wrote the file successfully. No other friction in this session. Consistent with the established finding: ordering-guard friction, not a new pattern.
 
 _Source: `TRANSCRIPT:553e570c-d6c0-4501-a5fa-c041f34860b8` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
+
+## Corroboration — seventeenth instance, unattended sweep (2026-08-18, fifth batch)
+
+Same shape again: a Write `tool_error` — "File has not been read yet. Read it first before writing to it." — on `/Users/tanner/.local/state/ost-build-loop/last-report.txt`, cleared by a retry that then wrote the file. The same session also retried a `Bash` `tsc --noEmit` command with no error shown — a one-off, not a new pattern. Consistent with the established finding: ordering-guard friction, not a new shape.
+
+_Source: `TRANSCRIPT:8f2086ca-7c0e-4939-a8a3-a45cb29c28f4` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
