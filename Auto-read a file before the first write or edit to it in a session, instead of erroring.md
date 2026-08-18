@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Auto-reading a file before write doesn't mask the exact race condition the guard exists to catch]]
+[[Editor tooling can auto-read a file transparently before a first Write Edit without weakening the guard's protection against blind overwrites]]
 
 When Write or Edit targets a file the session has not read yet this run, have the harness perform the read itself first (transparently, no extra turn) rather than refusing with a tool_error. The guard's purpose — never clobber content the session hasn't seen — is preserved; only the burned turn and retry disappear.
 
