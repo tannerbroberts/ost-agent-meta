@@ -75,3 +75,9 @@ _Source: `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11`, `TRANSCRIPT:0e0cd6f3
 
 TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11 — `Cannot find module './scripts/provenance-census.js'` and a second module-not-found error from a path under `/private/tmp/` that the session apparently assumed existed.
 TRANSCRIPT:1c8a3722-b8a5-4828-b57e-c45b1566cf6d — a Read tool_error, "File does not exist," against a path the session guessed relative to the wrong current working directory (`/Users/tanner/ost-agent-meta` when the target was under `/Users/tanner/dev/OST-Agent`).
+
+## Corroboration — a helper script's own import path, guessed and wrong (unattended sweep, 2026-08-18)
+
+`TRANSCRIPT:0f28d01f-35fa-49f0-b085-89170e306ef8`: a `Bash` call failed with `Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/private/tmp/src/ost/vault.js' imported from /private/tmp/check-queue.mts` — a build-loop monitoring script composed against a module path that does not exist at that location, the same shape as the earlier `e335a680`/`09ec7cd2` symbol- and module-path guesses already on record here, now against the loop's own tooling rather than the product's.
+
+_Source: `TRANSCRIPT:0f28d01f-35fa-49f0-b085-89170e306ef8`, read in full this pass. Observed behavior; grounds usability, not demand. Corroboration only; the node's rung is unchanged._
