@@ -4300,3 +4300,5 @@
 {"ts":"2026-08-18T21:27:02.663Z","tool":"ost_read_tree","ok":true,"ms":52,"surface":"mcp","argBytes":80,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
 {"ts":"2026-08-18T21:27:26.544Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":27,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
 {"ts":"2026-08-18T21:27:37.725Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
+{"ts":"2026-08-18T21:27:38.084Z","tool":"ost_next_work","ok":true,"ms":87,"surface":"mcp","argBytes":2,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518"}
+{"ts":"2026-08-18T21:28:08.312Z","tool":"ost_create_node","ok":true,"ms":12,"surface":"mcp","argBytes":647,"session":"mcp-54a01846-3537-4fc9-b12e-6aa750276518","wrote":["A narrow wait-for-condition primitive covers the polling shapes Monitor currently refuses.md"]}
