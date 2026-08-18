@@ -3832,3 +3832,4 @@
 {"ts":"2026-08-18T03:42:35.381Z","tool":"ost_next_work","ok":true,"ms":79,"surface":"mcp","argBytes":2,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
 {"ts":"2026-08-18T03:43:05.358Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":742,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
 {"ts":"2026-08-18T03:43:06.800Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":733,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T03:43:14.382Z","tool":"ost_create_node","ok":true,"ms":51,"surface":"mcp","argBytes":1125,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29","wrote":["Auto-read a file before the first write or edit to it in a session, instead of erroring.md"]}
