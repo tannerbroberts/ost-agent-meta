@@ -23,3 +23,4 @@ instrument: npx vitest run test/runner/per-run-workspace-cost.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/per-run-workspace-cost.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/runner/per-run-workspace-cost.test.ts` — Duration  1.92s (transform 15ms, setup 0ms, collect 14ms, tests 1.71s, environment 0ms, prepare 25ms)
