@@ -28,3 +28,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/runner/tool-surface-preflight.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/runner/tool-surface-preflight.test.ts` — Duration  1.43s (transform 193ms, setup 0ms, collect 322ms, tests 906ms, environment 0ms, prepare 25ms)
