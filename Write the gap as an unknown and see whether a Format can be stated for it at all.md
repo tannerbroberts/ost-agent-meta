@@ -25,3 +25,4 @@ The assumption is that the gap between the affordable goal and the real one is a
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/unknown-format-required.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/ost/unknown-format-required.test.ts` — Duration  2.45s (transform 182ms, setup 0ms, collect 268ms, tests 1.99s, environment 0ms, prepare 25ms)
