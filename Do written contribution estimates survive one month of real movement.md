@@ -24,3 +24,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/contribution-estimate.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/ost/contribution-estimate.test.ts` — Duration  510ms (transform 183ms, setup 0ms, collect 301ms, tests 18ms, environment 0ms, prepare 29ms)
