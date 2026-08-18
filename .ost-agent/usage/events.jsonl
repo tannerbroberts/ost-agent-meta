@@ -3965,3 +3965,4 @@
 {"ts":"2026-08-18T06:02:00.958Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-79c9cbad-59a9-40ca-a45d-b7149cf7e342"}
 {"ts":"2026-08-18T06:02:15.608Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":49,"session":"mcp-79c9cbad-59a9-40ca-a45d-b7149cf7e342"}
 {"ts":"2026-08-18T06:03:03.453Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2387,"session":"mcp-79c9cbad-59a9-40ca-a45d-b7149cf7e342"}
+{"ts":"2026-08-18T06:03:12.967Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1724,"session":"mcp-79c9cbad-59a9-40ca-a45d-b7149cf7e342"}
