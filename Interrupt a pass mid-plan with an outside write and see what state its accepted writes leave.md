@@ -25,3 +25,4 @@ The assumption is that refusing the drifted write is enough. An agent that read 
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/premise-drift-coherence.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/ost/premise-drift-coherence.test.ts` — Duration  328ms (transform 76ms, setup 0ms, collect 110ms, tests 29ms, environment 0ms, prepare 30ms)
