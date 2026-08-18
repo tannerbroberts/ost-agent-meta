@@ -51,3 +51,9 @@ _Source: `TRANSCRIPT:d81442dd-4979-4a6e-bb2c-3d8eec99f0ba` — observed behavior
 Same shape again: a Write `tool_error` — "File has not been read yet. Read it first before writing to it." — the session's only friction event this time, no accompanying errors. Consistent with the established finding: ordering-guard friction, not a new pattern.
 
 _Source: `TRANSCRIPT:16afc9ed-cb98-46c2-ba86-b628eafbebbf` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
+
+## Corroboration — thirteenth instance, unattended sweep (2026-08-18)
+
+Same shape again: an Edit and a Write `tool_error`, both "File has not been read yet. Read it first before writing to it." — on `test/ost/premise-drift-coherence.test.ts`. The same session also hit a one-off `Bash` `cat` error on a nonexistent path — already-tracked noise, not a new pattern.
+
+_Source: `TRANSCRIPT:7e00f4dd-7d81-4ef9-a6da-6ec1abf7fba2` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
