@@ -5,6 +5,7 @@ created: '2026-08-18'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Append a checkpoint note to a fixed log the instant a session is backgrounded or interrupted]]
 
 An earlier builder pass was backgrounded mid-work; the next pass had no way to tell what it had finished versus abandoned. Filed by the agent itself at the moment of friction (kind: blocked).
 
