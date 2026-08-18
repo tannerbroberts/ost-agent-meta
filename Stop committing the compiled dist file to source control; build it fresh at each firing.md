@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Every current consumer of the checked-in dist file can be changed to build it locally instead]]
+[[Nothing outside the build loop depends on dist being present in the committed tree between firings]]
 
 Remove dist/ost-agent.mjs (and any other compiled artifact) from version control and .gitignore it; have each firing run the build step to produce it locally before use. Two branches can no longer conflict over a file neither of them hand-edits, because it is never checked in on either.
 
