@@ -26,3 +26,4 @@ instrument: npx vitest run test/git/dead-end-scan.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/git/dead-end-scan.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/git/dead-end-scan.test.ts` — Duration  1.60s (transform 18ms, setup 0ms, collect 23ms, tests 1.33s, environment 0ms, prepare 31ms)
