@@ -32,3 +32,7 @@ Either a read that answers "does this test have an instrument, and what is it" b
 ## Tool capability changed — instrument field is now visible per-node (unattended sweep, 2026-08-17)
 
 `ost_read_tree({node: "<title>"})` now returns an `instrument` field (alongside `evidence`, `lane`, `threshold`) in every single-node read this pass performed. A pass can now check whether a test already carries an instrument before calling `ost_set_instrument`, closing the specific blind spot the 2026-08-07 observation describes (the tool distinguishing attach-vs-replace at the API level — `ost_set_instrument` refusing an overwrite unless `replace: true` — was already true then and remains true now; what was missing was a cheap way to check first, and that is what this read now provides). A human should confirm whether this closes the need.
+
+## Third confirmation — capability still works (unattended sweep, 2026-08-18)
+
+This pass's single-node `ost_read_tree` calls continued to return an `instrument` field alongside `evidence`, `lane` and `threshold` throughout the sweep, confirming the 2026-08-17 fix a second time from independent use rather than a repeat reading of the same evidence. No `ost_set_instrument` calls were made this pass (repo sight was unavailable — see "The agent's repo sight fails mid-pass..."), so this is confirmation the check is available, not a further demonstration of it preventing an overwrite in practice.
