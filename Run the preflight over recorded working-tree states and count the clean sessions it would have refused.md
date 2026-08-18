@@ -24,3 +24,4 @@ instrument: npx vitest run test/runner/write-intent-preflight-false-stop.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/write-intent-preflight-false-stop.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/runner/write-intent-preflight-false-stop.test.ts` — Duration  598ms (transform 20ms, setup 0ms, collect 23ms, tests 379ms, environment 0ms, prepare 25ms)
