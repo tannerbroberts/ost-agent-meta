@@ -23,3 +23,4 @@ Half a day, retrospective, no build beyond the merge itself. Proposed by the age
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/config/settings-merge-safety.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/config/settings-merge-safety.test.ts` — Duration  214ms (transform 21ms, setup 0ms, collect 22ms, tests 7ms, environment 0ms, prepare 28ms)
