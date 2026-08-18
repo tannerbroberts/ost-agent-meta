@@ -65,3 +65,9 @@ Read and confirmed to match the same pattern before citing:
 ## Corroborating sessions — 2026-08-18 unattended sweep (fourth batch)
 Read and confirmed to match the same pattern before citing:
 - TRANSCRIPT:b2dafbe1-d52b-4f3e-9d9b-3b47c54bcf10 (1 event: retry×1 — on mcp__ost-agent__ost_ingest_inbox itself, same shape as fee7afb0/205477ec/1f8c1645/89a95209 above)
+
+## Corroborating sessions — 2026-08-18 unattended sweep (fifth batch)
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:ff07a24a-c660-445c-9c6f-d81536dc48c0 (4 events: tool_error×2, retry×2 — Edit/Write "file not read yet", same shape as prior batches)
+- TRANSCRIPT:77650cae-9ab3-4bea-8b9d-14700b4f9885 (1 event: retry×1 — on mcp__ost-agent__ost_ingest_inbox itself, same shape as fee7afb0/205477ec/1f8c1645/89a95209/b2dafbe1 above)
+- TRANSCRIPT:21d3b726-1bba-4a35-be4a-918bc3452b5c (2 events: tool_error×1, retry×1 — Write "file not read yet", same shape as prior batches)
