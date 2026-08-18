@@ -26,6 +26,7 @@ instrument: npx vitest run test/ost/instrument-queue-excludes-shipped.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/instrument-queue-excludes-shipped.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/ost/instrument-queue-excludes-shipped.test.ts` — Duration  821ms (transform 122ms, setup 0ms, collect 187ms, tests 428ms, environment 0ms, prepare 26ms)
 
 ## A hand count of the queue's composition — unattended sweep, 2026-08-06
 
