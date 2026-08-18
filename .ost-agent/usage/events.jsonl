@@ -3791,3 +3791,4 @@
 {"ts":"2026-08-18T01:28:39.371Z","tool":"ost_read_tree","ok":true,"ms":46,"surface":"mcp","argBytes":75,"session":"mcp-d228b4bf-1799-49a3-8832-b9a87315e384"}
 {"ts":"2026-08-18T01:29:03.393Z","tool":"ost_read_tree","ok":true,"ms":47,"surface":"mcp","argBytes":80,"session":"mcp-d228b4bf-1799-49a3-8832-b9a87315e384"}
 {"ts":"2026-08-18T01:29:54.897Z","tool":"ost_ingest_inbox","ok":true,"ms":4,"surface":"mcp","argBytes":2,"session":"mcp-d228b4bf-1799-49a3-8832-b9a87315e384"}
+{"ts":"2026-08-18T02:30:33.614Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-827938df-041c-40b7-b4c3-eb28b654885f"}
