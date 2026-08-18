@@ -28,3 +28,4 @@ A human grades this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/git/branch-isolation-merge.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/git/branch-isolation-merge.test.ts` — Duration  6.76s (transform 22ms, setup 0ms, collect 27ms, tests 6.54s, environment 0ms, prepare 28ms)
