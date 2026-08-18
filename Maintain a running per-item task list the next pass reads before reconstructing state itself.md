@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Sessions update the task list as they go, not only at a clean end a backgrounded session never reaches]]
+[[A task list a prior session left behind saves more than it costs, and won't get acted on when stale or wrong]]
 
 Have each session maintain a structured task list (done / in-progress / not-started) in a known location, updated as it works rather than only at the end. If backgrounded or interrupted, whatever it last marked in-progress is exactly the boundary the next pass needs, without inferring it from raw transcript events.
 
