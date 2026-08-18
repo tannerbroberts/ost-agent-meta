@@ -23,3 +23,4 @@ The assumption is that every write can compute its consequences correctly. A wri
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/mcp/sweep-delta-consistency.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/mcp/sweep-delta-consistency.test.ts` — Duration  82.36s (transform 1.04s, setup 0ms, collect 1.83s, tests 79.24s, environment 0ms, prepare 119ms)
