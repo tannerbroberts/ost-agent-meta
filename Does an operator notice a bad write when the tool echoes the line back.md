@@ -26,3 +26,4 @@ instrument: npx vitest run test/mcp/echo-written-line.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/mcp/echo-written-line.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/mcp/echo-written-line.test.ts` — Duration  2.80s (transform 902ms, setup 0ms, collect 1.54s, tests 88ms, environment 0ms, prepare 144ms)
