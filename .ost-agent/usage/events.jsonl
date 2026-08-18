@@ -4335,3 +4335,4 @@
 {"ts":"2026-08-18T22:49:25.939Z","tool":"ost_next_work","ok":true,"ms":10,"surface":"mcp","argBytes":62,"session":"mcp-12592f79-b976-4038-a929-05ba9e43340f"}
 {"ts":"2026-08-18T22:49:26.120Z","tool":"ost_next_work","ok":true,"ms":10,"surface":"mcp","argBytes":62,"session":"mcp-12592f79-b976-4038-a929-05ba9e43340f"}
 {"ts":"2026-08-18T22:49:42.151Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":833,"session":"mcp-12592f79-b976-4038-a929-05ba9e43340f"}
+{"ts":"2026-08-18T22:49:44.500Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":771,"session":"mcp-12592f79-b976-4038-a929-05ba9e43340f"}

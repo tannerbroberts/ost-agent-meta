@@ -80,3 +80,8 @@ Read and confirmed to match the same pattern before citing:
 Read and confirmed to match the same pattern before citing:
 - TRANSCRIPT:ecb445ec-8ebf-40ab-9b08-83c74e7bcfea (4 events: tool_error×2, retry×2 — Edit/Write "file not read yet" on docs/reference/v1-readiness.md and the build-loop's own last-report.txt, same shape as prior batches)
 - TRANSCRIPT:a1b0c98a-aef4-45aa-9367-ed0ed400e300 (2 events: retry×2 — on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves, same shape as fee7afb0/205477ec/1f8c1645/89a95209/b2dafbe1/77650cae/4b84b40a above)
+
+## Corroborating sessions — 2026-08-18 unattended sweep (eighth batch)
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:8f2086ca-7c0e-4939-a8a3-a45cb29c28f4 (3 events: retry×2, tool_error×1 — Write "file not read yet" plus a Bash retry, same shape as 1ec21bc8 above; also cited on "The session tries to write a file before it has read it this run..." for the write-before-read half)
+- TRANSCRIPT:743f3b45-0dae-4e2b-b603-97919dff7548 (4 events: retry×4 — on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves, same shape as fee7afb0/205477ec/1f8c1645/89a95209/b2dafbe1/77650cae/4b84b40a/a1b0c98a above)
