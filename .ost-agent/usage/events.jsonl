@@ -4055,3 +4055,4 @@
 {"ts":"2026-08-18T10:27:30.333Z","tool":"ost_next_work","ok":true,"ms":68,"surface":"mcp","argBytes":62,"session":"mcp-72129268-6ba3-421a-946d-8c05744d229e"}
 {"ts":"2026-08-18T10:27:30.511Z","tool":"ost_next_work","ok":true,"ms":10,"surface":"mcp","argBytes":62,"session":"mcp-72129268-6ba3-421a-946d-8c05744d229e"}
 {"ts":"2026-08-18T10:28:04.332Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":662,"session":"mcp-72129268-6ba3-421a-946d-8c05744d229e"}
+{"ts":"2026-08-18T10:28:09.737Z","tool":"ost_ingest_inbox","ok":true,"ms":6,"surface":"mcp","argBytes":2,"session":"mcp-72129268-6ba3-421a-946d-8c05744d229e"}
