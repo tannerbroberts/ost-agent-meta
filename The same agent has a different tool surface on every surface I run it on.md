@@ -109,3 +109,7 @@ Seven further sessions hit the same unattended permission wall this node's 2026-
 One further, distinct instance of the same underlying need: session `1d62c716` recorded `<tool_use_error>Error: No such tool available: mcp__ost-antml:parameter-agent__ost_read_tree</tool_use_error>` — the agent addressed a tool name it believed was callable and the surface it happened to be running on did not recognize it. Same shape as the "Unknown skill" instance already recorded above: intent formed against a remembered tool surface, refused only after the call was spent.
 
 _Source: `TRANSCRIPT:03b2fe6f-0338-4243-bcb4-5d908a89514f`, `TRANSCRIPT:08f7d98f-24bd-46c0-a5ad-c17d53c4bbca`, `TRANSCRIPT:14c9afa5-ff0d-46b9-ba9b-c068c08eec63`, `TRANSCRIPT:1515b876-9426-4fd8-8259-471f2aba7da1`, `TRANSCRIPT:1a8f25fb-1259-4b80-8b53-32fbfde38e54`, `TRANSCRIPT:1b5a7f48-abaf-4958-8317-d2df1ed37e08`, `TRANSCRIPT:1d62c716-4c49-40ec-84fe-2c849012d3f2` — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not desirability.
+
+## Additional observed instance
+
+TRANSCRIPT:030e5db3-9414-441f-9221-b4a984c11825 — one unattended firing's session hit permission-not-granted tool_errors on Glob, `mcp__ost-agent__ost_flag_humans_required`, `mcp__ost-agent__ost_check`, and `mcp__ost-agent__ost_status` in a row — four different tools it expected to be able to use but couldn't on that particular firing's surface.
