@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/security/auth-detection-report.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/security/auth-detection-report.test.ts` — Duration  223ms (transform 28ms, setup 0ms, collect 31ms, tests 5ms, environment 0ms, prepare 29ms)
