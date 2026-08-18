@@ -33,3 +33,9 @@ This pass read 24 of the ~244 still-unread "Session friction" transcript records
 Same shape again: a Write `tool_error` — "File has not been read yet. Read it first before writing to it." — in a session that also hit two other, unrelated tool errors (a Read on a nonexistent path, an Edit refused for an ambiguous `replace_all`). Consistent with the prior sweep's stratified-sample finding: no new pattern, same ordering-guard need.
 
 _Source: `TRANSCRIPT:97b0a3c7-fe6f-4a97-9ca8-406267f01cd1` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
+
+## Corroboration — two more instances, unattended sweep (2026-08-18)
+
+Same shape twice more: a Write `tool_error` — "File has not been read yet." — each in a session also carrying an unrelated tool_error (a missing test/src path in one, a Bash retry in the other). Consistent with the established finding: ordering-guard friction, not a new pattern.
+
+_Source: `TRANSCRIPT:0e0cd6f3-7541-4221-a6f1-efe977d0e2e2`, `TRANSCRIPT:a9656e01-d4e0-4552-bc44-06a4a9984f58` — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not desirability._
