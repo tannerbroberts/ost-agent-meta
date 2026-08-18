@@ -4123,3 +4123,4 @@
 {"ts":"2026-08-18T12:39:14.313Z","tool":"ost_read_tree","ok":true,"ms":51,"surface":"mcp","argBytes":112,"session":"mcp-566bdcae-769e-48ef-8f90-9e0418e42e95"}
 {"ts":"2026-08-18T12:40:22.824Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":776,"session":"mcp-566bdcae-769e-48ef-8f90-9e0418e42e95"}
 {"ts":"2026-08-18T12:40:25.472Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":707,"session":"mcp-566bdcae-769e-48ef-8f90-9e0418e42e95"}
+{"ts":"2026-08-18T12:40:27.680Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":432,"session":"mcp-566bdcae-769e-48ef-8f90-9e0418e42e95"}

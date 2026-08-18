@@ -53,3 +53,7 @@ Read and confirmed to match the same pattern before citing:
 ## Corroborating sessions — 2026-08-18 unattended sweep
 Read and confirmed to match the same pattern before citing:
 - TRANSCRIPT:205477ec-b356-413f-b5f2-3a9cbe814f2d (1 event: retry×1 — on mcp__ost-agent__ost_ingest_inbox itself, same shape as the fee7afb0 citation above)
+
+## Corroborating sessions — 2026-08-18 unattended sweep (second batch)
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:1f8c1645-a9fa-4b0c-a648-1ef27ad4f18b (2 events: retry×2 — on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves, same shape as fee7afb0/205477ec above)
