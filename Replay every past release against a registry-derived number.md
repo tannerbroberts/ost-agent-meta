@@ -26,3 +26,4 @@ instrument: npx vitest run test/release/registry-derived-version.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/release/registry-derived-version.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/release/registry-derived-version.test.ts` — Duration  207ms (transform 18ms, setup 0ms, collect 15ms, tests 3ms, environment 0ms, prepare 28ms)
