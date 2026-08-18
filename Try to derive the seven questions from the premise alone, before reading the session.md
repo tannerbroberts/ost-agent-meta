@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/loop/premise-consequence-set.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/loop/premise-consequence-set.test.ts` — Duration  219ms (transform 20ms, setup 0ms, collect 19ms, tests 2ms, environment 0ms, prepare 25ms)
