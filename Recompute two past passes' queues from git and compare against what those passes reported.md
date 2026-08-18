@@ -23,3 +23,4 @@ instrument: npx vitest run test/ost/queue-delta-from-git.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/queue-delta-from-git.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/ost/queue-delta-from-git.test.ts` — Duration  1.67s (transform 147ms, setup 0ms, collect 223ms, tests 1.25s, environment 0ms, prepare 26ms)
