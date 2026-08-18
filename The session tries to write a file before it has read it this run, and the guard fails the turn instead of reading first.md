@@ -57,3 +57,9 @@ _Source: `TRANSCRIPT:16afc9ed-cb98-46c2-ba86-b628eafbebbf` — observed behavior
 Same shape again: an Edit and a Write `tool_error`, both "File has not been read yet. Read it first before writing to it." — on `test/ost/premise-drift-coherence.test.ts`. The same session also hit a one-off `Bash` `cat` error on a nonexistent path — already-tracked noise, not a new pattern.
 
 _Source: `TRANSCRIPT:7e00f4dd-7d81-4ef9-a6da-6ec1abf7fba2` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
+
+## Corroboration — fourteenth instance, unattended sweep (2026-08-18)
+
+Same shape again: an Edit and a Write `tool_error`, both "File has not been read yet. Read it first before writing to it." — this session also hit three Bash errors unrelated to this node's claim (a `cat` on a since-created test file, an ambiguous git ref, and an attempt to create a branch that already existed) and two Read retries on `last-report.txt` — all already-tracked shapes on other nodes (see this session's other citation on "My unattended runs recover from tool errors and retries I never find out about"), not new patterns.
+
+_Source: `TRANSCRIPT:fb366858-3f64-4cc1-ad74-6e00d208d697` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
