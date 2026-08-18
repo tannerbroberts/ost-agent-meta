@@ -5,6 +5,7 @@ created: '2026-08-18'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A session that dies before making any commit-worthy write is rare enough not to matter]]
 
 Rather than a separate log or task list, carry the session id through into commit metadata (trailer or branch name) for every write the session makes. The next pass reconstructs exactly what an interrupted session touched by querying git for commits tagged with its id — no new state to keep in sync, since it rides on writes that already happen and already auto-commit.
 
