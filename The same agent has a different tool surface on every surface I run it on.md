@@ -113,3 +113,9 @@ _Source: `TRANSCRIPT:03b2fe6f-0338-4243-bcb4-5d908a89514f`, `TRANSCRIPT:08f7d98f
 ## Additional observed instance
 
 TRANSCRIPT:030e5db3-9414-441f-9221-b4a984c11825 — one unattended firing's session hit permission-not-granted tool_errors on Glob, `mcp__ost-agent__ost_flag_humans_required`, `mcp__ost-agent__ost_check`, and `mcp__ost-agent__ost_status` in a row — four different tools it expected to be able to use but couldn't on that particular firing's surface.
+
+## Corroboration — one more permission-wall instance (unattended sweep, 2026-08-18)
+
+Same shape again: `Grep` refused — "Claude requested permissions to read from /Users/tanner/dev/OST-Agent/examples/automation/autonomous-pass.sh, but you haven't granted it yet." — in a session that also hit two `Grep` errors against tool-result cache paths that did not exist yet, a narrower and not-yet-repeated harness quirk not folded into this claim.
+
+_Source: `TRANSCRIPT:9d3b24f8-d22c-4fc3-80d8-52a861c627f5` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
