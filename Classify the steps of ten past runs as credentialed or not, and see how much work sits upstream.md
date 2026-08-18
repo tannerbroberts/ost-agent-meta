@@ -25,3 +25,4 @@ The assumption is that a useful amount of a run's work is independent of its cre
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/credentialed-step-independence.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/loop/credentialed-step-independence.test.ts` — Duration  235ms (transform 18ms, setup 0ms, collect 17ms, tests 2ms, environment 0ms, prepare 27ms)
