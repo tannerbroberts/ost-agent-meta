@@ -5,6 +5,7 @@ created: '2026-08-18'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The harness can hook the moment a session is backgrounded or killed reliably enough to always write the checkpoint]]
 
 Have the harness itself (not the agent, which may not get a final turn) append one line to a fixed-path log the moment a session is backgrounded or its process ends: session id, timestamp, and the last tool call it completed. The next pass reads this log first, before re-deriving state from the transcript or the tree.
 
