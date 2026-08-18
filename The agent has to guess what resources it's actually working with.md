@@ -70,3 +70,8 @@ _Source: `TRANSCRIPT:748498c4-31fb-4110-9012-464c441a463f`, `TRANSCRIPT:a0eb3fd4
 `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` hit `Error: Cannot find module './scripts/provenance-census.js'` and `Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/private/tmp/scripts/provenance-census.ts'` — a run composing against a script it believed existed. `TRANSCRIPT:0e0cd6f3-7541-4221-a6f1-efe977d0e2e2` hit `cat: test/product/offline-trial-pass.test.ts: No such file or directory` and `ls: src/automation: No such file or directory`. `TRANSCRIPT:19ccdb48-e5f7-4dda-8289-38b25a651397` hit `cat: test/mcp/edit-node-preserves-unsupplied-sections.test.ts: No such file or directory`. Same shape as the prior corroboration rounds: a path addressed as if declared, refused by the filesystem instead.
 
 _Source: `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11`, `TRANSCRIPT:0e0cd6f3-7541-4221-a6f1-efe977d0e2e2`, `TRANSCRIPT:19ccdb48-e5f7-4dda-8289-38b25a651397` — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not desirability.
+
+## Additional observed instances
+
+TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11 — `Cannot find module './scripts/provenance-census.js'` and a second module-not-found error from a path under `/private/tmp/` that the session apparently assumed existed.
+TRANSCRIPT:1c8a3722-b8a5-4828-b57e-c45b1566cf6d — a Read tool_error, "File does not exist," against a path the session guessed relative to the wrong current working directory (`/Users/tanner/ost-agent-meta` when the target was under `/Users/tanner/dev/OST-Agent`).
