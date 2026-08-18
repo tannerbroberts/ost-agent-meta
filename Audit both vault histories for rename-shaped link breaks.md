@@ -26,3 +26,4 @@ instrument: npx vitest run test/ost/rename-link-repair.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/ost/rename-link-repair.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/ost/rename-link-repair.test.ts` — Duration  1.19s (transform 76ms, setup 0ms, collect 112ms, tests 893ms, environment 0ms, prepare 31ms)
