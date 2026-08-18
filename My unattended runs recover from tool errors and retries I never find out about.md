@@ -49,3 +49,7 @@ Read and confirmed to match the same pattern before citing:
 
 ## Issues
 - 2026-08-17 unattended sweep — 250 more TRANSCRIPT friction records remain in `unmappedEvidence` beyond the three cited above (253 total this pass, 2 non-transcript). Citing each individually is diminishing-return busywork at this scale: the node's own prose already says "the pattern, not any single session, is the evidence," and this bucket already has 25 corroborating citations. Recommend a human deprioritize further one-by-one manual citation here in favor of shipping "Cluster friction records by signature before the queue sees them" (already proposed beneath this node's sibling), which is the mechanism designed to absorb exactly this volume. Also worth a human's attention: TRANSCRIPT:d231305b's Read tool_error (409.8KB file exceeding a 256KB read cap) is a distinct, possibly novel failure shape within this pattern — a large-file read limit hit during an unattended firing — rather than the usual "file not read yet" retry loop.
+
+## Corroborating sessions — 2026-08-18 unattended sweep
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:205477ec-b356-413f-b5f2-3a9cbe814f2d (1 event: retry×1 — on mcp__ost-agent__ost_ingest_inbox itself, same shape as the fee7afb0 citation above)
