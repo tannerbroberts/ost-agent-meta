@@ -3859,3 +3859,4 @@
 {"ts":"2026-08-18T03:44:42.805Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":514,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
 {"ts":"2026-08-18T03:44:44.503Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":467,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
 {"ts":"2026-08-18T03:44:45.245Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":519,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
+{"ts":"2026-08-18T04:45:18.546Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-20853977-cfaf-45a5-8834-d3469fb8518d"}
