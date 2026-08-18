@@ -3834,3 +3834,4 @@
 {"ts":"2026-08-18T03:43:06.800Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":733,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29"}
 {"ts":"2026-08-18T03:43:14.382Z","tool":"ost_create_node","ok":true,"ms":51,"surface":"mcp","argBytes":1125,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29","wrote":["Auto-read a file before the first write or edit to it in a session, instead of erroring.md"]}
 {"ts":"2026-08-18T03:43:18.756Z","tool":"ost_create_node","ok":true,"ms":14,"surface":"mcp","argBytes":1026,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29","wrote":["Warn before the write attempt on an unread file, rather than reject after it.md"]}
+{"ts":"2026-08-18T03:43:22.575Z","tool":"ost_create_node","ok":true,"ms":13,"surface":"mcp","argBytes":1066,"session":"mcp-8aca8134-04d2-4fbe-82d2-c1b0cebe5b29","wrote":["Skip the read-before-write guard for files the session itself just created.md"]}
