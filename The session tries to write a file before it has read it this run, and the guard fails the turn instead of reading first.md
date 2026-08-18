@@ -69,3 +69,9 @@ _Source: `TRANSCRIPT:fb366858-3f64-4cc1-ad74-6e00d208d697` — observed behavior
 Same shape twice in one session: an Edit and a Write `tool_error`, both "File has not been read yet. Read it first before writing to it." — on `test/release/module-reachability.test.ts` and `/Users/tanner/.local/state/ost-build-loop/last-report.txt` respectively. No other friction in this session. Consistent with the established finding: ordering-guard friction, not a new pattern.
 
 _Source: `TRANSCRIPT:dd1903bf-d723-4d03-b6c0-84a9081997c4` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
+
+## Corroboration — sixteenth instance, unattended sweep (2026-08-18, fourth batch)
+
+Same shape again: a Write `tool_error` — "File has not been read yet. Read it first before writing to it." — occurring twice in one session, on `/Users/tanner/.local/state/ost-build-loop/last-report.txt`, with a retry that then wrote the file successfully. No other friction in this session. Consistent with the established finding: ordering-guard friction, not a new pattern.
+
+_Source: `TRANSCRIPT:553e570c-d6c0-4501-a5fa-c041f34860b8` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._

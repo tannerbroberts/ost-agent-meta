@@ -4173,3 +4173,4 @@
 {"ts":"2026-08-18T15:02:54.492Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"mcp","argBytes":62,"session":"mcp-51408594-f973-4bf1-aed9-0d8337359376"}
 {"ts":"2026-08-18T15:03:02.608Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":89,"session":"mcp-51408594-f973-4bf1-aed9-0d8337359376"}
 {"ts":"2026-08-18T15:03:10.390Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":411,"session":"mcp-51408594-f973-4bf1-aed9-0d8337359376"}
+{"ts":"2026-08-18T15:03:13.224Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":792,"session":"mcp-51408594-f973-4bf1-aed9-0d8337359376"}
