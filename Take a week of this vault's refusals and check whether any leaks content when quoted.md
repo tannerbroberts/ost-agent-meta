@@ -27,3 +27,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/security/refusal-redaction.test.ts` — No test files found, exiting with code 1
+- 2026-08-18 **green** (exit 0) `npx vitest run test/security/refusal-redaction.test.ts` — Duration  330ms (transform 23ms, setup 0ms, collect 24ms, tests 12ms, environment 0ms, prepare 39ms)
