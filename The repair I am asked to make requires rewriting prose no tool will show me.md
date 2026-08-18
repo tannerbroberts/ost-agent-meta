@@ -35,3 +35,7 @@ On 2026-08-07 an unattended maintenance pass identified six duplicate pairs in t
 ## Tool capability changed — the read gap appears closed (unattended sweep, 2026-08-17)
 
 `ost_read_tree` now accepts a `node` parameter and returns that node's full body (prose plus reserved sections) — this pass used it dozens of times to read survivor prose before every merge/edit decision. The original observation (2026-08-07) was that no tool on the surface returned a node's body; that is no longer true as of this pass's tool schema. This does not itself confirm the merge-composition failure mode is gone (a pass still has to choose to read before merging, and nothing forces that read), but the missing capability this node is built on has shipped. A human should confirm whether this closes the need or whether the remaining gap is now "nothing forces the read" rather than "nothing permits it."
+
+## Third confirmation — capability still works (unattended sweep, 2026-08-18)
+
+This pass called `ost_read_tree({node: "<title>"})` eighteen times ahead of every append/edit decision made this sweep, and each call returned the node's full prose plus its reserved sections labelled apart from it. The 2026-08-17 fix holds. The open question this node's prior entry left — "nothing forces the read" vs "nothing permits it" — is unchanged by this observation: this pass chose to read first because the skill instructs it to, not because the tool requires it. Still a human's call whether that residual gap closes this node or whether it is a distinct, narrower need.
