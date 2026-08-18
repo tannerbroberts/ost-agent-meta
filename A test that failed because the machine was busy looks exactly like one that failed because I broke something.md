@@ -57,3 +57,7 @@ This is observed behavior from the agent's own sessions rather than an outside r
 `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` recorded three consecutive Bash calls returning `Exit code 1 … HTTP 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists. (https://api.github.com/graphql)`. Each surfaced as a plain exit-code-1 tool_error, indistinguishable in shape from a call that failed because the request itself was wrong — the same confusion this node names, this time at the network layer rather than the process-signal layer the prior corroboration recorded.
 
 _Source: `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability.
+
+## Additional observed instance
+
+TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11 — an unattended firing hit three consecutive "HTTP 503: No server is currently available" errors from api.github.com/graphql within one session, indistinguishable at the time from a real failure in what the run was trying to do.
