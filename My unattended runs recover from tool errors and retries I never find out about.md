@@ -108,3 +108,11 @@ Read and confirmed to match the same pattern before citing:
 - TRANSCRIPT:d1537b68-092f-449a-a1a1-ccfb185bd0d7 (1 event: retry×1 — on mcp__ost-agent__ost_ingest_inbox itself, same shape as fee7afb0/205477ec/1f8c1645/89a95209/b2dafbe1/77650cae/4b84b40a/a1b0c98a/743f3b45/2277b8c5/998e1ca9 above)
 
 No new shape; the standing recommendation against further one-by-one citation of the backlog (see Issues) still stands.
+
+## Corroborating sessions — 2026-08-19 unattended sweep (second batch)
+
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:39f64565-b1fe-47c4-88b4-26b22cf8e523 (1 event: tool_error×1 — Write "file not read yet", same shape as prior batches)
+- TRANSCRIPT:bf37bdf6-e025-424b-bad9-6024c37dc430 (3 events: tool_error×1, retry×2 — retries on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves, same shape as prior batches; the tool_error is a distinct shape — a Glob refused on `/Users/tanner/dev/OST-Agent` with "Claude requested permissions to read... but you haven't granted it yet" — already tracked as the permission-wall pattern on "The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed" and "The same agent has a different tool surface on every surface I run it on", not cited twice here)
+
+No new shape; the standing recommendation against further one-by-one citation of the backlog (see Issues) still stands.
