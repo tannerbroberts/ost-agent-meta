@@ -47,3 +47,6 @@ That claim does not match this node's own History: `status: deferred` was set on
 No disposition change: this node is already correctly deferred, and a third independent replay reaching the same falsification is corroboration, not new information about the solution itself.
 
 _Source: `INBOX:2026-08-19-build-loop-stuck-ask-the-open-question-first-and-offer-options-only-once-the-.md` — observed, an exit code the loop watched._
+
+## Issues
+- 2026-08-19 2026-08-19: build loop re-selected this deferred solution as a target a third time (after #130 and the 2026-08-16 note, now #171) and re-derived the same falsification the first run already recorded. Deferred status did not stop it from being re-selected — worth a human checking whether the build loop's target-selection logic actually excludes `deferred` nodes.
