@@ -4539,3 +4539,4 @@
 {"ts":"2026-08-19T20:03:47.434Z","tool":"ost_read_tree","ok":true,"ms":50,"surface":"mcp","argBytes":82,"session":"mcp-0898e05e-b34e-4612-aa2e-9e8c67422417"}
 {"ts":"2026-08-19T20:03:47.901Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":112,"session":"mcp-0898e05e-b34e-4612-aa2e-9e8c67422417"}
 {"ts":"2026-08-19T20:04:04.769Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1044,"session":"mcp-0898e05e-b34e-4612-aa2e-9e8c67422417"}
+{"ts":"2026-08-19T20:04:09.730Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1151,"session":"mcp-0898e05e-b34e-4612-aa2e-9e8c67422417"}

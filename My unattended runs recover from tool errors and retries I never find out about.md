@@ -123,3 +123,10 @@ Read and confirmed to match the same pattern before citing:
 - TRANSCRIPT:0e24ead9-09d1-4417-a6de-37879156cfe0 (2 events: retry×2 — on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves, same shape as fee7afb0/205477ec/1f8c1645/89a95209/b2dafbe1/77650cae/4b84b40a/a1b0c98a/743f3b45/2277b8c5/998e1ca9/d1537b68 above)
 
 No new shape; the standing recommendation against further one-by-one citation of the backlog (see Issues) still stands.
+
+## Corroborating sessions — 2026-08-19 unattended sweep (fourth batch)
+
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11 (9 events: tool_error×8, retry×1 — the richest session in this batch, and it carries a shape not yet cited here: three consecutive Bash `tool_error`s reading "HTTP 503: No server is currently available to service your request" from `api.github.com/graphql`, alongside two `Cannot find module` errors and two Write "file not read yet" errors. The 503s are an external-dependency-flakiness shape distinct from every internal tool_error cited so far — the run recovered from GitHub's API being transiently unavailable, not from anything the agent did wrong. Worth a human's attention as a separate failure class: network/external-service flakiness during unattended firings, not just internal tool-usage friction.
+
+No other new shapes this batch; the standing recommendation against further one-by-one citation of the backlog (see Issues) still stands.
