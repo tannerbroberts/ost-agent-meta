@@ -4659,3 +4659,7 @@
 {"ts":"2026-08-19T23:23:46.942Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":946,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1","wrote":["Ask someone with the build loop's target-selection source open whether it filters candidates on status.md"]}
 {"ts":"2026-08-19T23:23:50.219Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":895,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1","wrote":["Ask someone with the build loop's source open whether target selection re-reads live status or works from a cached snapshot.md"]}
 {"ts":"2026-08-19T23:23:52.900Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":879,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1","wrote":["Ask someone with the build loop's source and persisted state open whether a per-target failure record already exists across firings.md"]}
+{"ts":"2026-08-19T23:24:08.926Z","tool":"ost_read_tree","ok":true,"ms":50,"surface":"mcp","argBytes":27,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:24:21.718Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:24:22.290Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:24:44.948Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
