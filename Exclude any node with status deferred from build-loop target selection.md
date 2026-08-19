@@ -5,6 +5,7 @@ created: '2026-08-19'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The build loop's target-selection query has no status filter, or an incomplete one, letting deferred nodes back into the candidate pool]]
 
 Add `status !== 'deferred'` as a hard filter in whatever query the build loop runs to pick its next target, alongside whatever "has an instrument, cleared its permit" filter it already applies. Cheapest possible fix if the loop is simply not checking status at all — a one-line predicate change.
 

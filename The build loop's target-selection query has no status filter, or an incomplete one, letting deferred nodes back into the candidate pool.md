@@ -1,0 +1,9 @@
+---
+type: Assumption
+source: 'agent-ideated:2026-08-19-unattended-sweep'
+created: '2026-08-19'
+evidence: assertion
+---
+#Assumption #unvalidated #evidence/assertion
+
+Feasibility assumption. This solution is only the right fix if the loop's candidate query is genuinely missing (or misapplying) a status check — settleable by reading the loop's own source, not by asking anyone what they want.
