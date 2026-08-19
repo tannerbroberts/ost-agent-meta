@@ -4481,3 +4481,4 @@
 {"ts":"2026-08-19T16:30:37.835Z","tool":"ost_next_work","ok":true,"ms":10,"surface":"mcp","argBytes":112,"session":"mcp-b63eb086-591d-46be-9b84-41408e3f0445"}
 {"ts":"2026-08-19T16:32:48.070Z","tool":"ost_read_tree","ok":true,"ms":57,"surface":"mcp","argBytes":27,"session":"mcp-b63eb086-591d-46be-9b84-41408e3f0445"}
 {"ts":"2026-08-19T16:33:08.449Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":783,"session":"mcp-b63eb086-591d-46be-9b84-41408e3f0445"}
+{"ts":"2026-08-19T16:33:11.093Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-b63eb086-591d-46be-9b84-41408e3f0445"}
