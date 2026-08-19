@@ -83,3 +83,21 @@ _Recorded as corroboration during the 2026-08-04 unattended pass. USAGE:2026-08-
 ## A sharper cause, observed this pass — evidence cited in prose isn't recognised as mapped (2026-08-17 unattended sweep)
 
 Two `unmappedEvidence` items this pass (`INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md` and `INBOX:2026-08-16-build-loop-stuck-ask-the-open-question-first-and-offer-options-only-once-the-.md`) were read in full and found already thoroughly incorporated — the first cited three separate times in "A run that dies while I am away stays dead, and nothing says where it stopped"'s body (2026-08-15, 2026-08-16, and once more, unlabeled), the second fully accounted for in "Ask the open question first, and offer options only once the frame is agreed"'s own `## History` with the exact numbers from the evidence body. Neither is stale work; both are the tree correctly reflecting evidence a human or prior pass already read. But `ost_next_work` still lists both as unmapped, which means its detector checks a node's `source` field (singular) rather than whether the evidence id appears anywhere in a node's body/History. This is a distinct mechanism from the truncation cause identified 2026-08-04 above, and it compounds it: some share of every pass's `unmappedEvidence` re-reads and re-confirms work that is already done, rather than genuinely new work. A human should decide whether the detector should also match citations in prose, or whether nodes that fully incorporate an evidence id should record that fact somewhere the detector reads.
+
+## Corroboration — single-node reads now dominate, not sweep re-asks (2026-08-18 unattended sweep)
+
+`USAGE:2026-08-18` — 580 calls across 19 sessions, 0 failed:
+
+| Tool | Calls | Share |
+| --- | --- | --- |
+| ost_read_tree | 277 | 48% |
+| ost_next_work | 143 | 25% |
+| ost_create_node | 55 | 9% |
+| ost_append_to_node | 45 | 8% |
+| ost_ingest_inbox | 38 | 7% |
+| ost_read_repo | 21 | 4% |
+| ost_annotate | 1 | <1% |
+
+`ost_next_work` sits at 25% today — close to the "third" the title names, within the range this node's own corroborations already show swinging 13%–34%. The new datum is `ost_read_tree` at 48%, now the single largest share of the day and nearly double `ost_next_work`. `ost_read_tree` did not exist as a per-node body read until the 2026-08-17 tool change recorded on "The repair I am asked to make requires rewriting prose no tool will show me" (a `node` parameter added so a single call returns one node's full prose before an edit/merge/append). This day's trace is the first full-day usage record since that change, and it suggests the re-asking cost this node describes has partly migrated: rather than re-calling the sweep to recover context, sessions now call `ost_read_tree({node})` once per node touched — a cost the sweep-re-ask framing above does not price in, because it is a different tool answering a related but distinct question ("what does this node say" rather than "what is still outstanding").
+
+Evidence class: observed behaviour — machine-recorded trace of tool invocations, no narrator. Grounds usability and the agent-tool loop, not external demand.
