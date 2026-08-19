@@ -37,3 +37,13 @@ Green means the two-stage form costs no more operator turns on the recorded hist
 This corroborates the `status: deferred` this node already carries — a second independent replay reached the same falsification the first one did, not a new finding requiring a different disposition. No action beyond this citation: promotion/disposition changes stay a human's call, and this node is already correctly deferred.
 
 _Source: `INBOX:2026-08-16-build-loop-stuck-ask-the-open-question-first-and-offer-options-only-once-the-.md` — observed, an exit code the loop watched. Corroboration only; status and evidence rung unchanged._
+
+## Third build attempt, also failed (unattended sweep, 2026-08-19)
+
+`INBOX:2026-08-19-build-loop-stuck-ask-the-open-question-first-and-offer-options-only-once-the-.md` records a third firing landing on the same diagnosis: nothing to build (already shipped as PR #171, distinct from the earlier PR #130), `tsc` clean, vitest red on exactly the one pre-committed assertion — two-stage framing costs 92 operator turns against one-stage's actual 72 across 46 recorded questions. The build loop's own report is explicit that this is now the third time this identical diagnosis has been produced (#130, a note in between, now #171), because — in its words — "the vault node was never updated after the first two runs to reflect that the assumption failed."
+
+That claim does not match this node's own History: `status: deferred` was set on 2026-08-16, citing this exact falsification. The build loop is either re-selecting a `deferred` node into its build queue regardless of status, or reading a stale copy of this node. Either is worth a human's attention on its own — a build loop that keeps re-deriving a result the tree already recorded is spending build cycles a `deferred` filter should have prevented.
+
+No disposition change: this node is already correctly deferred, and a third independent replay reaching the same falsification is corroboration, not new information about the solution itself.
+
+_Source: `INBOX:2026-08-19-build-loop-stuck-ask-the-open-question-first-and-offer-options-only-once-the-.md` — observed, an exit code the loop watched._
