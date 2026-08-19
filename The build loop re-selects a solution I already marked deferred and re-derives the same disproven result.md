@@ -8,6 +8,7 @@ evidence: assertion
 #Opportunity #unvalidated #evidence/assertion
 [[Exclude any node with status deferred from build-loop target selection]]
 [[Have the build loop re-read a target's current status immediately before committing to it, not a cached snapshot]]
+[[Have the build loop keep its own do-not-reselect ledger for targets whose instrument stayed red after a build, independent of vault status]]
 
 **The need (operator's voice, inferred from repeated automated build notes):** "I marked a solution `deferred` on 2026-08-16 because the data disproved it. The build loop kept picking it as a target anyway — on 2026-08-16 and again on 2026-08-19 — and spent a full firing re-deriving the exact same falsification each time. If `deferred` doesn't actually stop the loop from touching a node, I can't trust that any status I set holds while I'm not watching."
 
