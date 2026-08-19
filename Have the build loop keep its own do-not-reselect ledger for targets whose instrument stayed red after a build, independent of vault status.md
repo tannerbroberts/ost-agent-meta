@@ -5,6 +5,7 @@ created: '2026-08-19'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The build loop keeps no memory across firings of which targets already failed their own instrument]]
 
 Instead of depending on the vault's `deferred` status being set (which requires a human, or a maintenance pass, to notice the build report and act on it), have the build loop itself record — in its own state, not the tree's — that it tried a target and the target's own instrument was still red after the build. On its next run, skip anything in that ledger unless the underlying node file has changed since the ledger entry was written.
 
