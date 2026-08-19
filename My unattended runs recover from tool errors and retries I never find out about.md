@@ -100,3 +100,11 @@ Read and confirmed to match the same pattern before citing:
 - TRANSCRIPT:998e1ca9-dd79-43fa-8788-fd76dc19d823 (3 events: retry×3 — on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves, same shape as fee7afb0/205477ec/1f8c1645/89a95209/b2dafbe1/77650cae/4b84b40a/a1b0c98a/743f3b45/2277b8c5 above)
 
 Per the standing recommendation in this node's own Issues section, this pass did not attempt to individually cite the remaining ~277 unmapped transcript friction records — the pattern is established, not the count.
+
+## Corroborating sessions — 2026-08-19 unattended sweep
+
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:cb2ca491-f7e5-4c47-826d-25dbe1e422f0 (2 events: tool_error×2 — a Bash exit 1 on `git commit` with nothing to commit, plus a Write "file not read yet", same shape as prior batches)
+- TRANSCRIPT:d1537b68-092f-449a-a1a1-ccfb185bd0d7 (1 event: retry×1 — on mcp__ost-agent__ost_ingest_inbox itself, same shape as fee7afb0/205477ec/1f8c1645/89a95209/b2dafbe1/77650cae/4b84b40a/a1b0c98a/743f3b45/2277b8c5/998e1ca9 above)
+
+No new shape; the standing recommendation against further one-by-one citation of the backlog (see Issues) still stands.
