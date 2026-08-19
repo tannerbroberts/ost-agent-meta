@@ -21,3 +21,9 @@ threshold: >-
 **Small and fast:** twelve pairings, one sitting, no instrumentation — the cost is one review session against annotations already written.
 
 A person outside the building is the measurement here: The twelve verdicts under review were written by the pass itself; only a human's independent judgement of the same pairings can grade them without self-grading.
+
+## Fourth occurrence — same 13 flags, no new pairs (unattended sweep, 2026-08-19)
+
+`ost_next_work` reported 13 hygiene issues this pass. All 13 are re-flags of pairs already adjudicated DISTINCT in the 2026-08-11 and/or 2026-08-17 passes (recorded in each node's own `## Issues` section): the five siblings sharing "I don't know what unit of this anyone would pay for" as evidence, "I don't know what unit..." vs its three subset-extent siblings, the two shared-extent pairs from `TRANSCRIPT:49d6b2d3` and `TRANSCRIPT:0459d729`, and the four subset-extent pairs on "The candidate maps all look alike..." and "The agent's repo sight fails mid-pass...". No pair in this pass's list was novel. Re-appending a third "DISTINCT, do not merge" verdict per node adds no information the tree doesn't already have and was skipped this pass for that reason.
+
+The extent-detector has no memory of prior adjudications, so this set will keep resurfacing on every future sweep until a human runs this test and either confirms the standing verdicts (in which case the detector's shared/subset-extent rule should probably stop flagging citations of a single shared source note as evidence of duplication) or overturns one. Worth prioritizing simply to stop the recurring churn, independent of whether any individual verdict changes.
