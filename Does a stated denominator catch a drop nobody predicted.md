@@ -38,3 +38,4 @@ So the instrument moves this from unrunnable to runnable-in-ten-firings, and the
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/census-drop-history.test.ts` — No test files found, exiting with code 1
+- 2026-08-19 **green** (exit 0) `npx vitest run test/ost/census-drop-history.test.ts` — Duration  281ms (transform 51ms, setup 0ms, collect 77ms, tests 8ms, environment 0ms, prepare 28ms)
