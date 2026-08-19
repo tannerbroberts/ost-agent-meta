@@ -94,3 +94,9 @@ Read and confirmed to match the same pattern before citing:
 ## Corroborating sessions — 2026-08-18 unattended sweep (tenth batch)
 Read and confirmed to match the same pattern before citing:
 - TRANSCRIPT:0b98ae8c-050d-4438-a7ee-90d2432a7156 (3 events: retry×2, tool_error×1 — a Bash retry of the same `npx vitest run ... | tail -60` command, a ScheduleWakeup tool_error for the same malformed-call shape seen in the ninth batch's faed1a6e citation (`prompt` required when `stop` is not true), and a `{"command":"true"}` no-op retry. Same blocked-wait-flailing shape as faed1a6e above, now seen twice in one sweep — worth a human's attention as a recurring pattern rather than a one-off.
+
+## Corroborating sessions — 2026-08-18 unattended sweep (eleventh batch)
+Read and confirmed to match the same pattern before citing:
+- TRANSCRIPT:998e1ca9-dd79-43fa-8788-fd76dc19d823 (3 events: retry×3 — on mcp__ost-agent__ost_ingest_inbox and mcp__ost-agent__ost_next_work themselves, same shape as fee7afb0/205477ec/1f8c1645/89a95209/b2dafbe1/77650cae/4b84b40a/a1b0c98a/743f3b45/2277b8c5 above)
+
+Per the standing recommendation in this node's own Issues section, this pass did not attempt to individually cite the remaining ~277 unmapped transcript friction records — the pattern is established, not the count.
