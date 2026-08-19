@@ -23,3 +23,4 @@ An hour of one person's time. Proposed by the agent; a human runs it and records
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/friction-recovery-rule.test.ts` — No test files found, exiting with code 1
+- 2026-08-19 **green** (exit 0) `npx vitest run test/adapters/friction-recovery-rule.test.ts` — Duration  211ms (transform 21ms, setup 0ms, collect 20ms, tests 3ms, environment 0ms, prepare 30ms)
