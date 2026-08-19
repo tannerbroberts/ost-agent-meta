@@ -4633,3 +4633,20 @@
 {"ts":"2026-08-19T22:18:06.867Z","tool":"ost_ingest_inbox","ok":true,"ms":4,"surface":"mcp","argBytes":2,"session":"mcp-78dca3d9-d07d-4730-bb50-ddd2421f7169"}
 {"ts":"2026-08-19T22:18:07.115Z","tool":"ost_next_work","ok":true,"ms":80,"surface":"mcp","argBytes":2,"session":"mcp-78dca3d9-d07d-4730-bb50-ddd2421f7169"}
 {"ts":"2026-08-19T23:18:50.005Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:18:51.524Z","tool":"ost_next_work","ok":true,"ms":157,"surface":"mcp","argBytes":2,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:20:44.612Z","tool":"ost_read_tree","ok":true,"ms":57,"surface":"mcp","argBytes":86,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:20:44.723Z","tool":"ost_read_tree","ok":true,"ms":54,"surface":"mcp","argBytes":88,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:20:45.119Z","tool":"ost_read_tree","ok":true,"ms":52,"surface":"mcp","argBytes":130,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:20:45.668Z","tool":"ost_read_tree","ok":true,"ms":53,"surface":"mcp","argBytes":112,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:20:46.508Z","tool":"ost_read_tree","ok":true,"ms":51,"surface":"mcp","argBytes":53,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:20:46.621Z","tool":"ost_read_tree","ok":true,"ms":54,"surface":"mcp","argBytes":62,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:20:58.246Z","tool":"ost_read_tree","ok":true,"ms":50,"surface":"mcp","argBytes":101,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:20:58.358Z","tool":"ost_read_tree","ok":true,"ms":51,"surface":"mcp","argBytes":111,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:21:16.608Z","tool":"ost_read_tree","ok":true,"ms":50,"surface":"mcp","argBytes":108,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:21:25.527Z","tool":"ost_next_work","ok":true,"ms":10,"surface":"mcp","argBytes":112,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:21:25.597Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":112,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:21:34.230Z","tool":"ost_read_tree","ok":true,"ms":50,"surface":"mcp","argBytes":87,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:22:04.438Z","tool":"ost_next_work","ok":true,"ms":11,"surface":"mcp","argBytes":62,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:22:04.568Z","tool":"ost_next_work","ok":true,"ms":8,"surface":"mcp","argBytes":62,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:22:26.721Z","tool":"ost_create_node","ok":false,"ms":0,"surface":"mcp","argBytes":2941,"err":"\"The build loop re-selects a solution I already marked deferred and re-derives the same disproven result\" cannot declare 'observed': what it points at supports 'assertion'. The two measurement rungs assert that something was measured, and no byline confers them. declare 'assertion' or lower (demotio","session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1"}
+{"ts":"2026-08-19T23:22:38.596Z","tool":"ost_create_node","ok":true,"ms":10,"surface":"mcp","argBytes":3047,"session":"mcp-51de0573-f756-417b-b300-7e12ea683ba1","wrote":["The build loop re-selects a solution I already marked deferred and re-derives the same disproven result.md"]}
