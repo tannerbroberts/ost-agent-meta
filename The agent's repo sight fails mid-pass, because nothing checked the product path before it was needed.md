@@ -100,3 +100,9 @@ This pass (the unattended `opportunity-solution-tree` maintenance sweep, run via
 **Consequence, priced the way earlier sightings priced it.** This pass declined the entire `solutionsMissingInstruments` bucket (88 solutions) rather than write instruments against invented paths, and could not use `ost_flag_humans_required` either (also withheld this surface) to dispose of the human-required subset correctly. Both of the two legitimate dispositions the brief names for that bucket were structurally unavailable in the same pass, for the same underlying reason this node tracks: a surface that does not disclose what it lacks until the call that needs it fails.
 
 _First-party observation, 2026-08-19 unattended sweep, from this pass's own two refused calls. Grounds feasibility and usability, not demand. No test was run; this node's rung is unchanged._
+
+## Tenth sighting — permission channel, reproduced again (unattended sweep, 2026-08-19)
+
+`TRANSCRIPT:f1c62e34-107b-4f8f-ab9e-c431d918fe07` shows the same shape as the eighth and ninth sightings: `Glob` denied on `/Users/tanner/dev/OST-Agent` ("Claude requested permissions to read from ..., but you haven't granted it yet."), immediately followed by retries of `mcp__ost-agent__ost_ingest_inbox` and `mcp__ost-agent__ost_next_work` — the agent re-issuing calls it had no reason to expect would change, the same recovery shape already tracked on "My unattended runs recover from tool errors and retries I never find out about". This pass (the maintenance sweep that added this entry) independently held no `ost_read_repo` grant either, consistent with the ninth sighting's finding that the withholding is not stable across sweeps run on the same surface.
+
+_Source: `TRANSCRIPT:f1c62e34-107b-4f8f-ab9e-c431d918fe07` — observed behavior, captured mechanically from the agent's own transcript. Grounds feasibility and usability, not demand. No test was run; this node's rung is unchanged._
