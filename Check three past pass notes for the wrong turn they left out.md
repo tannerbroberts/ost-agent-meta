@@ -27,3 +27,4 @@ instrument: npx vitest run test/adapters/session-retrospective.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/session-retrospective.test.ts` — No test files found, exiting with code 1
+- 2026-08-19 **green** (exit 0) `npx vitest run test/adapters/session-retrospective.test.ts` — Duration  3.79s (transform 120ms, setup 0ms, collect 183ms, tests 3.41s, environment 0ms, prepare 29ms)
