@@ -34,3 +34,4 @@ Left for a human because rewriting the prose would re-aim a test toward a bar th
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/adapters/source-attribution.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/adapters/source-attribution.test.ts` — Duration  2.91s (transform 227ms, setup 0ms, collect 387ms, tests 2.29s, environment 0ms, prepare 31ms)
