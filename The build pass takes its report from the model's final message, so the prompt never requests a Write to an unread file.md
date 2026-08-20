@@ -16,3 +16,13 @@ evidence: assertion
 **Cost.** A change to one shell script and its prompt text, plus a spec asserting the prompt no longer requests the write.
 
 ⚠️ Unvalidated. Agent-ideated from the count on the parent node; no operator has said the wasted turn matters to them.
+
+## Definition of done
+
+"The build prompt no longer instructs a Write to the report file, and the script places the captured report itself"
+
+```
+npx vitest run test/automation/build-pass-report-channel.test.ts
+```
+
+Red today as `no-spec` — the file is not written. The test node names the two assertions it must hold (prompt heredoc contains no Write-the-report instruction; executable lines route `claude -p` output into `$REPORT`), both of which fail against today's `examples/automation/build-pass.sh`. A green proves the prompt stopped requesting the refused operation; it says nothing about whether anyone wanted the turn back.
