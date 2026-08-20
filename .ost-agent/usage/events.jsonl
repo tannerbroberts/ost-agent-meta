@@ -4814,3 +4814,4 @@
 {"ts":"2026-08-20T19:17:21.925Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2266,"session":"mcp-8d879128-2c96-4222-a928-88793e4f8fd8","wrote":["Show the escalated message to five fresh sessions facing the same failure and count which change approach.md"]}
 {"ts":"2026-08-20T19:17:25.406Z","tool":"ost_set_status","ok":true,"ms":1,"surface":"mcp","argBytes":897,"session":"mcp-8d879128-2c96-4222-a928-88793e4f8fd8"}
 {"ts":"2026-08-20T19:17:30.362Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":1284,"session":"mcp-8d879128-2c96-4222-a928-88793e4f8fd8"}
+{"ts":"2026-08-20T19:17:38.099Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1859,"session":"mcp-8d879128-2c96-4222-a928-88793e4f8fd8","wrote":["A create-time guard can tell whether a differentia was supplied for each nearest sibling, without judging it.md"]}

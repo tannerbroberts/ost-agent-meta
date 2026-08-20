@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Authors required to state a differentia produce discriminators, not boilerplate]]
+[[A create-time guard can tell whether a differentia was supplied for each nearest sibling, without judging it]]
 
 **Mechanism:** BFO's genus-differentia discipline moved to authoring time. Creating an Opportunity that would have siblings requires one extra argument: a sentence per nearest sibling naming a solution that would address the new node and not that sibling — Torres's interventional test, asked at the moment of writing instead of discovered by a later sweep. No differentia, no node.
 
