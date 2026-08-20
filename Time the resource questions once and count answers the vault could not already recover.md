@@ -27,3 +27,4 @@ instrument: npx vitest run test/config/resource-question-recoverability.test.ts
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/config/resource-question-recoverability.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/config/resource-question-recoverability.test.ts` — Duration  355ms (transform 66ms, setup 0ms, collect 97ms, tests 21ms, environment 0ms, prepare 29ms)
