@@ -114,3 +114,11 @@ _Source: `TRANSCRIPT:0095203e-ab42-4179-a53e-a2d4d6dd6032`, `TRANSCRIPT:09ec7cd2
 - **`Write` refused with `File has not been read yet`** on the build-loop's own `last-report.txt` — the already-established instance of this node's shape, recurring again.
 
 _Source: `TRANSCRIPT:0f28d01f-35fa-49f0-b085-89170e306ef8`, read in full this pass. Observed behavior of this product's own agent; grounds usability, not demand. Corroboration only; the node's rung is unchanged._
+
+## Fifth trace — 319 calls, 1 failed, and the one is the ceiling rule again (unattended sweep, 2026-08-20)
+
+`USAGE:2026-08-19`: 319 invocations across 12 sessions, 318 ok, p50 49ms. The single failure was `ost_create_node` refused for declaring `observed` on INBOX provenance — the same ceiling-rule refusal that accounted for all five failures in `USAGE:2026-08-02`. The rule is still learned from the refusal, now at one per ~300 calls rather than five per 240. Also worth one line: 174 of the 319 calls were `ost_read_tree` — reading is 55% of the surface's use, which is what the probe-by-write pattern this node opened on looks like once a cheap read exists.
+
+**The harness-issued half of this need, recounted.** The 2026-08-10 entry above counted the malformed-call class at "roughly ten sessions". Counted over the whole evidence store this pass: the `Read` "could not be parsed as JSON" refusal alone is now **24 occurrences across 19 sessions** (three of them in one session, `TRANSCRIPT:1329bda4-c23b-427a-aeab-9536c1d87cf9`, 2026-08-19), and `ScheduleWakeup` refusing "`prompt` is required when `stop` is not true" appears in 3 sessions. Still the same event this node names — a call composed under a constraint that was communicated only by the refusal — and still entirely outside what this product can publish preconditions for.
+
+_Machine-recorded trace plus a text count over `.ost-agent/evidence/`; no narrator. Grounds usability. Rung unchanged (USAGE: provenance is capped at assertion — see the Issues entry of 2026-08-02)._
