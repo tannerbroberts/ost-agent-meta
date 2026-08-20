@@ -31,3 +31,4 @@ Nor does it settle whether an operator forms a better view from factor values th
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/factor-table-no-composite.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/ost/factor-table-no-composite.test.ts` — Duration  503ms (transform 107ms, setup 0ms, collect 159ms, tests 48ms, environment 0ms, prepare 55ms)
