@@ -15,3 +15,13 @@ evidence: assertion
 **What would make this the wrong pick.** If the rule is genuinely conditional on the instrument resolving (and this pass could not read `src/security/tools.ts`, 118KB, to confirm), the schema can only hold the unconditional part, and an unconditional digits rule would refuse thresholds that are legitimately non-numeric — "the guard refuses" is a bar with no number in it.
 
 ⚠️ Unvalidated. Agent-ideated from one recorded session; grounded in `src/mcp/server.ts` read this pass, not in the tool body.
+
+## Definition of done
+
+"Run a digit-required pattern over a fixture of this vault's existing thresholds and count the legitimate bars it refuses"
+
+```
+npx vitest run test/security/threshold-schema-pattern.test.ts
+```
+
+Green means the `threshold` property of `ost_create_node`'s schema carries a pattern that `validateToolInput` reports per field, a digit-less bar is refused with a problem naming `threshold`, and none of the fixture's fixed bars — including non-numeric ones — are refused. Today this is a no-spec red; once written it fails because the schema carries no such pattern. It settles nothing about whether an unconditional rule is the right rule.
