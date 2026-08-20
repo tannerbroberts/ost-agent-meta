@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The per-target attempt count survives between firings and is consulted when a target is selected]]
 
 **Variation dimension: automated versus manual — a count, with no judgement anywhere in it.** The loop already knows how many consecutive firings have built against a target with its node unchanged — that is the number in the "has not shipped after 2 attempt(s) in a row" note. This candidate makes that count *do* something: on the second assertion-red after a build (not a `no-spec`, not a compile failure — `src/ost/instrument.ts` already keeps those apart), the loop writes a `disputed` marker into its own state, excludes the target from `buildable` on every later firing until the node's file hash changes, and says so in the report. Discovery, reading the tree, sees a target the loop has stood down from and can propose `deferred` or a reframing.
 
