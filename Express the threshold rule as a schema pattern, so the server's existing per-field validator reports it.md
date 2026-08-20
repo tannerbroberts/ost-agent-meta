@@ -6,6 +6,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The numeric-bar rule can be stated as an unconditional schema pattern without refusing legitimate thresholds]]
 
 **Variation dimension: bought vs built — adopt the validator the server already runs instead of building a message.** `src/mcp/server.ts` already passes every call through `validateToolInput` before the tool body runs, and that path reports problems per field by construction ("invalid input for ost_create_node: - threshold …"). Declare the numeric-bar requirement on the `threshold` property in the tool's own input schema (a `pattern`, read this pass as the mechanism the server already honours) and delete the bespoke check from the tool body. The misdirected sentence cannot recur because no hand-written sentence is involved: the field name comes from the schema key.
 
