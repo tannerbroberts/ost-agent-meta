@@ -31,3 +31,4 @@ instrument: npx vitest run test/ost/quote-full-sentence.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/quote-full-sentence.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/ost/quote-full-sentence.test.ts` — Duration  374ms (transform 89ms, setup 0ms, collect 137ms, tests 3ms, environment 0ms, prepare 30ms)
