@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A builder's self-filed disconfirmation is honest often enough that a human acts on it instead of re-deriving it]]
 
 **Variation dimension: who decides — the builder's judgement, carried verbatim, never promoted.** The builder is the only party that saw *why* the assertion failed: it wrote the replay, read the numbers, and knew the bar. Today that judgement is a paragraph in `last-report.txt` that the loop's postflight explicitly overrides ("regardless of what the report above says"). This candidate gives it a structured shape — a `disconfirmation:` block naming the test, the pre-committed bar, the observed value, and the builder's claim that the red is *by design* — which the loop appends to the instrument's node as a clearly labelled, non-reserved section, and which discovery's next pass reads as an input to proposing `deferred`.
 
