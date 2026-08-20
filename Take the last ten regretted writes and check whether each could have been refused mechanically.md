@@ -23,3 +23,4 @@ The assumption is that regretted writes are mostly mechanically detectable — t
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/regretted-write-invariants.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/ost/regretted-write-invariants.test.ts` — Duration  638ms (transform 219ms, setup 0ms, collect 370ms, tests 34ms, environment 0ms, prepare 31ms)
