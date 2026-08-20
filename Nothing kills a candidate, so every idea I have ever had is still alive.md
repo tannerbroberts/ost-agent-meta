@@ -11,6 +11,7 @@ evidence: assertion
 [[Candidate tournament that eliminates on grounded evidence rather than promoting on vibes]]
 [[Each pass leaves me more to check than it started with]]
 [[An opportunity built on a misunderstanding has nowhere to go, because the tree can only add beside it]]
+[[A build that refutes my idea looks, to the loop, exactly like a build that is not finished yet]]
 
 **The need (customer's voice):** "I can generate maps to the goal all day. What I can't do is get rid of them. Every one sits at 'unvalidated' forever, so the tree grows and my decision gets harder rather than easier. I want reasons to kill these things that come from reality, not from my mood on the day."
 
