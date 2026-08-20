@@ -16,3 +16,11 @@ evidence: assertion
 **Where it fails, stated so it can be judged.** It cannot tell a refuted idea from a badly built one; it can only say "stop spending here". A solution that genuinely needs three attempts is stood down after two. And it depends on the per-target count surviving between firings, which the existing note mechanism appears not to guarantee.
 
 **Cost.** A state file keyed by target and node hash, one filter in the preflight, one sentence in the report.
+
+## Definition of done
+
+"Replaying the PR #130 sequence, the preflight refuses the third selection of a twice-red unchanged target"
+
+    npx vitest run test/loop/disputed-target-exclusion.test.ts
+
+No-spec red as of 2026-08-20: the spec is unwritten. Once written it fails genuinely — `build-pass.sh`'s preflight reads no per-target history, and the recorded third selection of 2026-08-19 is the observation the spec encodes. Green settles that exclusion is feasible; the number two, and what the disputed marker means to discovery, stay open.
