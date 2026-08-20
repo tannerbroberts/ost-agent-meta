@@ -16,3 +16,11 @@ evidence: assertion
 **Where it fails, stated so it can be judged.** A branch whose name shares no vocabulary with the solution title (claim.ts's own Jaccard-0.29 example) resolves to nothing, and the filter does nothing. An abandoned branch left open forever would hide a target indefinitely, which is the same stranding risk claim.ts accepts for a TTL — the report has to name what it skipped, or this manufactures a silent hole in the queue.
 
 **Cost.** One resolution call per candidate, one `gh` call per firing, and a branch-naming convention for builders to follow.
+
+## Definition of done
+
+"Both recorded builder branch names resolve to their own solution against that firing's buildable list"
+
+    npx vitest run test/loop/branch-name-resolves-target.test.ts
+
+No-spec red as of 2026-08-20: the spec is unwritten. A builder's first act is to write it so it fails on the `two-stage-question-stop-count` pair; a green on the first run means the matcher is stronger than assumed and the spec should name a harder recorded pair, not be loosened. Green settles feasibility of resolution only.
