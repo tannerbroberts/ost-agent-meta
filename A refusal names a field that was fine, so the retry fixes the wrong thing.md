@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: observed
 ---
 #Opportunity #usability #tool-surface #unvalidated #evidence/observed
+[[The refusal names the field that failed and the form that would have passed]]
 
 **The need (operator's voice, from the agent's own session):** "I asked for a test with an instrument and a threshold. The tool refused, told me the test 'cannot carry that instrument', and quoted the spec path. So I reworked the instrument. The real cause was that my threshold spelled its number out in words — the one field the message never mentioned."
 
