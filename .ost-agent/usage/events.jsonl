@@ -4876,3 +4876,4 @@
 {"ts":"2026-08-20T20:25:07.323Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":23,"session":"mcp-3af75f44-046b-4bdb-87aa-354e7921413b"}
 {"ts":"2026-08-20T20:25:07.388Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-3af75f44-046b-4bdb-87aa-354e7921413b"}
 {"ts":"2026-08-20T20:26:42.990Z","tool":"ost_create_node","ok":true,"ms":16,"surface":"mcp","argBytes":3308,"session":"mcp-3af75f44-046b-4bdb-87aa-354e7921413b","wrote":["A refusal names a field that was fine, so the retry fixes the wrong thing.md"]}
+{"ts":"2026-08-20T20:26:50.855Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1355,"session":"mcp-3af75f44-046b-4bdb-87aa-354e7921413b"}

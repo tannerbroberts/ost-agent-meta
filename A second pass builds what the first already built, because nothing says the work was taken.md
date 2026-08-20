@@ -34,3 +34,9 @@ The same shape recurs across the transcript channel for PR #130: at least nine s
 **Smaller fact, for a human:** the 2026-08-20 firing was blocked from shipping by changes its *own* re-verification left in the working tree. Nearest existing home is "A run's own leftovers break the next run's setup, so the loop fails before it starts"; recorded here instead because this time the leftovers broke the same run. One instance; no node.
 
 _Sources: the INBOX note (automated; an exit code the loop watched) and nine transcript records (observed behaviour of the product's own agent). Grounds usability and the loop's mechanics, not demand. Rung unchanged._
+
+## Third firing on the same finished PR, and this one reached for the merge itself (unattended sweep, 2026-08-20, later)
+
+`TRANSCRIPT:97af8252-5994-4c67-98fe-5fd6650aaaad` (2026-08-20 18:55Z): a third build firing selected "Every run records the tool surface it actually had", found PR #181 already implemented and green, and — per its own report — "moved its branch into the main checkout and merged origin/main" into it rather than re-verifying and standing down as the second firing had. Three firings on one finished build, each spending its selection on the same target, and the third escalating from re-verify to merge-by-hand is a new fact: when target selection cannot see an open PR as "taken", the firings do not merely repeat, they start to improvise the missing ship step. The session's only friction event was the build loop's usual Write on its own `last-report.txt`, already counted on "The session tries to write a file before it has read it this run…".
+
+_Source: `TRANSCRIPT:97af8252-5994-4c67-98fe-5fd6650aaaad` — observed behaviour of the product's own agent; the report text is the agent's own account, the re-selection is the recorded fact. Grounds the loop's mechanics, not demand. Rung unchanged._
