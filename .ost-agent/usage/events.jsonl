@@ -4716,3 +4716,4 @@
 {"ts":"2026-08-20T17:05:35.631Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2132,"session":"mcp-82ad1e1e-d3ef-4847-a6c3-edfba6af328a"}
 {"ts":"2026-08-20T17:05:53.519Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":2670,"session":"mcp-82ad1e1e-d3ef-4847-a6c3-edfba6af328a","wrote":["The build prompt no longer instructs a Write to the report file, and the script places the captured report itself.md"]}
 {"ts":"2026-08-20T17:06:02.258Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":786,"session":"mcp-82ad1e1e-d3ef-4847-a6c3-edfba6af328a"}
+{"ts":"2026-08-20T17:06:02.700Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-82ad1e1e-d3ef-4847-a6c3-edfba6af328a"}
