@@ -35,3 +35,4 @@ The extractor's lead-in pattern requires the bold `**…pre-commit…**` marker 
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/threshold-lead-in-wrap.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/ost/threshold-lead-in-wrap.test.ts` — Duration  328ms (transform 56ms, setup 0ms, collect 86ms, tests 4ms, environment 0ms, prepare 32ms)
