@@ -4712,3 +4712,4 @@
 {"ts":"2026-08-20T17:04:43.666Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1664,"session":"mcp-82ad1e1e-d3ef-4847-a6c3-edfba6af328a"}
 {"ts":"2026-08-20T17:04:49.364Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1900,"session":"mcp-82ad1e1e-d3ef-4847-a6c3-edfba6af328a"}
 {"ts":"2026-08-20T17:04:59.128Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2430,"session":"mcp-82ad1e1e-d3ef-4847-a6c3-edfba6af328a","wrote":["The build pass takes its report from the model's final message, so the prompt never requests a Write to an unread file.md"]}
+{"ts":"2026-08-20T17:05:25.130Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1571,"session":"mcp-82ad1e1e-d3ef-4847-a6c3-edfba6af328a","wrote":["The model's report can be captured from its final output by the script, without the model writing a file.md"]}

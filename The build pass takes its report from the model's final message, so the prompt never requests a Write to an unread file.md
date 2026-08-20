@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #build-loop #unvalidated #evidence/assertion
+[[The model's report can be captured from its final output by the script, without the model writing a file]]
 
 **Mechanism.** `examples/automation/build-pass.sh` stops telling the model to Write `$REPORT` and instead captures the model's final message itself — `claude -p` output into the report path, with the prompt told that its last paragraph *is* the report. The script already owns every other write to that file (`report()`, `prefix_lineage()`); the model's Write is the only one routed through the harness's read-before-write guard, and it is refused on the first attempt every firing because the script has just pre-written the file and the session has never read it.
 
