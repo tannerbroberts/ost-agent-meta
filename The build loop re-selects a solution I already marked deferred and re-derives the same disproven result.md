@@ -19,3 +19,11 @@ evidence: assertion
 **Litmus test (more than one way to address?):** yes — filter build-loop target selection on `status != deferred`; have the loop re-read the node's current status immediately before committing to a target rather than caching an earlier snapshot; have the loop write a short-lived "do not re-select" marker when a target fails its own instrument, distinct from the tree's own deferred status; surface a loop-side alert when the same target is selected twice with an unchanged node file. Passes.
 
 **Provenance:** rests on two automated build-loop notes (INBOX channel) plus the target Solution node's own History; not corroborated by a first-party recording (TRANSCRIPT) of the loop's selection logic itself, so held at the floor rung until one exists.
+
+## Corroboration — the 2026-08-16 note, read in full (unattended sweep, 2026-08-20)
+
+`INBOX:2026-08-16-build-loop-stuck-ask-the-open-question-first-and-offer-options-only-once-the-.md` is the second of the three automated notes this node's evidence paragraph already cites, read in full this pass. It adds one detail the paragraph did not: the 2026-08-16 firing's own report already contained the correct disposition — "recommend the tree record the solution as disproven" — and the target was set `deferred` that same day. So the loop had the verdict and the tree had the status before the 2026-08-19 firing re-selected it; neither fact reached target selection. Corroboration of the claim as stated, not new information about the mechanism.
+
+One adjacent fact from `USAGE:2026-08-19`: the only failed call in 319 that day was the `ost_create_node` that created this node, refused once for declaring `observed` on INBOX provenance (that channel's ceiling is `assertion`). Same unlearned-rule shape as recorded on "Two thirds of my calls failed, and each one only told me after I made it"; noted here so this node's rung history is legible.
+
+_Both records are automated notes / machine counts; floor rung unchanged._
