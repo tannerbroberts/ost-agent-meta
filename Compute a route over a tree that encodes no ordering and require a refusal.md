@@ -190,3 +190,4 @@ The second case is what stops the first from being satisfied by a function that 
 - 2026-08-20 **no-spec** (exit none) `npx vitest run test/ost/route-from-edges.test.ts` — test/ost/route-from-edges.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-20 **no-spec** (exit none) `npx vitest run test/ost/route-from-edges.test.ts` — test/ost/route-from-edges.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-20 **no-spec** (exit none) `npx vitest run test/ost/route-from-edges.test.ts` — test/ost/route-from-edges.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-20 **no-spec** (exit none) `npx vitest run test/ost/route-from-edges.test.ts` — test/ost/route-from-edges.test.ts does not exist — no spec was collected, so nothing was measured
