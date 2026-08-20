@@ -26,3 +26,6 @@ sight: grounded
 **Why it is red today, and which kind of red.** Read against the repository this pass: the `ost_create_node` schema has no differentia argument, and the hierarchy check inspects the parent's layer only, never the parent's other children. The spec file does not exist either, so this is a **no-spec red** — the mechanism is named (the create path in `src/ost/` that `ost_create_node` calls, and the tool schema in `src/mcp/server.ts`), the assertions are stated, and the builder's deliverable is the guard and the spec together, not a file.
 
 **What a green does not settle.** Whether the sentences authors write under the gate discriminate anything. A gate can require a sentence and cannot judge one; that is "The operator grades the first ten differentia statements as discriminators or filler" under the sibling assumption, which needs a person. A green here plus a high filler rate there is the case the solution's own prose calls worse than no gate.
+
+## Instrument Log
+- 2026-08-20 **no-spec** (exit none) `npx vitest run test/ost/sibling-differentia-guard.test.ts` — test/ost/sibling-differentia-guard.test.ts does not exist — no spec was collected, so nothing was measured
