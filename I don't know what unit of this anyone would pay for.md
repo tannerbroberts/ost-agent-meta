@@ -1,6 +1,6 @@
 ---
 type: Opportunity
-status: unvalidated
+status: deferred
 source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
 evidence: assertion
@@ -28,6 +28,7 @@ evidence: assertion
 
 ## History
 - 2026-07-24 evidence: (none) → assertion — labeled at creation intent; ost_create_node@0.1.3 silently dropped the evidence input
+- 2026-08-20 status: unvalidated → deferred — Records a human decision already on this node, not a new judgement: the 2026-07-25 Issues entry says the pricing question was ANSWERED BY FOUNDER DECISION (human:conversation) — the unit is zero, the product will be free, and no solutions should be ideated here while that stands. The node has sat at `unvalidated` since, so every sweep re-runs the evidence-extent comparison against it and re-files the same eight shared/subset-extent flags (2026-08-11 and 2026-08-17 both adjudicated all of them DISTINCT). Deferred is the nearest status to "closed by decision": it keeps the node and its three pricing solutions as the record that the question existed and how it was resolved, and retires it from the duplicate scan. If the free-product decision is reversed, restore `unvalidated` and the question reopens with its history intact.
 
 ## Issues
 - 2026-08-17 2026-08-17 unattended sweep — four more shared-extent flags this pass (vs "I don't know who this is for beyond myself", "I opened the vault in Obsidian and the agent lost half the tree", "If the agent tends the tree for me, I may lose the understanding that tending it built", "No one outside my own network could discover this product exists") adjudicated: DISTINCT from all four, do not merge. Same root cause as the 2026-08-11 subset-extent batch above — this node cites only the five-dimension external review, a record several unrelated siblings also cite, so shared provenance is an artefact of one source note touching many topics, not a shared claim. Torres's test: a pricing-unit probe ("Charge per assumption test designed and run to a pre-committed threshold") addresses none of audience identification, Obsidian data loss, loss-of-tending-understanding, or discoverability, and none of those four solutions would move this node's pricing question either. Sweep's own verdict; queued for human confirmation via "A human re-judges the first twelve extent flags against Torres's test" alongside the earlier batch.
