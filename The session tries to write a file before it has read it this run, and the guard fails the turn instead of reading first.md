@@ -8,6 +8,7 @@ evidence: observed
 [[Auto-read a file before the first write or edit to it in a session, instead of erroring]]
 [[Warn before the write attempt on an unread file, rather than reject after it]]
 [[Skip the read-before-write guard for files the session itself just created]]
+[[The build pass takes its report from the model's final message, so the prompt never requests a Write to an unread file]]
 
 Across the vault's own unattended build firings, the single most common friction event is a Write or Edit tool_error: "File has not been read yet. Read it first before writing to it." The session never read the file in this run at all — it isn't a race with an external change, it's the ordering guard catching a session that skipped straight to writing. Each occurrence burns a turn on an error plus a retry instead of just reading the file, which is unattended cost with nobody there to notice or shrug it off.
 
