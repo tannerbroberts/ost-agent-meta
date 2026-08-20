@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A branch name a builder chose can be resolved to the solution it builds by the matcher claim.ts already uses]]
 
 **Variation dimension: when it acts — at selection time, before any model call.** The preflight in `build-pass.sh` already narrows candidates mechanically (`gate`, `buildable`); this adds one more mechanical filter in the same place: a candidate whose title resolves to an open branch or open PR on the product checkout is dropped from the buildable list and named in the report as "finished, awaiting merge" rather than built.
 
