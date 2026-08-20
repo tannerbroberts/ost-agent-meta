@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Both recorded builder branch names resolve to their own solution against that firing's buildable list]]
 
 **Kind: feasibility.** The solution only works if "this branch is about that solution" can be computed, and the two recorded cases are not kind to it. `run-tool-surface` shares three significant terms with "Every run records the tool surface it actually had". `two-stage-question-stop-count` shares one — *question* — with "Ask the open question first, and offer options only once the frame is agreed", and `src/loop/claim.ts` documents that a pair sharing two of seven terms (Jaccard 0.29) is exactly the case a wording-keyed match misses. `resolveWorkItem` resolves a naming against a document of items rather than title-to-title, and its `DEFAULT_MIN_COVERAGE = 0.6` was "chosen on n = 1"; whether the buildable list of the day is a good enough document for a branch name to land on one item and clear the margin is the thing nobody has measured.
 
