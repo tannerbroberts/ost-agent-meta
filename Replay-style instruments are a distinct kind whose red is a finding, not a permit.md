@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A spec's imports alone separate a replay of recorded data from an assertion about unbuilt behaviour]]
 
 **Variation dimension: what it measures — the kind of spec, classified before anyone runs it.** Two specs can both be `npx vitest run <file>` and mean opposite things by their red. A *permit* spec asserts behaviour that does not exist yet; red means "not built", green means "built". A *replay* spec runs recorded data through existing code against a pre-committed bar; red means "the hypothesis lost", and there is nothing to build that would turn it green without loosening the bar — which the builder in the observed case correctly refused to do. The loop treats every instrument as the first kind. This candidate lets an instrument declare itself the second (`instrument-kind: replay`, or inferred from the spec importing a recorded-sessions fixture), and `verify` files a replay red as `**refuted**` rather than `**red**` — an observation that is a finding, and that `buildable` does not read as a permit.
 
