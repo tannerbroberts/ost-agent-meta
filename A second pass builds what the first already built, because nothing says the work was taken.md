@@ -8,6 +8,7 @@ evidence: assertion
 [[A pass claims the work item before it starts, and the claim outlives the session]]
 [[Scan for prior art at the start of a build, not at the push]]
 [[Accept the collision and shrink it, by pushing early so rejection arrives in minutes]]
+[[A build that is finished and waiting in an open PR is picked as a target again, because selection reads only the tree]]
 
 **The need (operator's voice).** "I paid for eight hours of compute and got a commit I had to delete. Another run had already built the same thing six hours earlier, and nothing told either of them."
 
