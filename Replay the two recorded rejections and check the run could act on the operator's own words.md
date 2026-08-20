@@ -20,3 +20,4 @@ This does not need anybody's afternoon. The measurement material already exists:
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/free-text-answer-parsing.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/loop/free-text-answer-parsing.test.ts` — Duration  199ms (transform 17ms, setup 0ms, collect 13ms, tests 2ms, environment 0ms, prepare 30ms)
