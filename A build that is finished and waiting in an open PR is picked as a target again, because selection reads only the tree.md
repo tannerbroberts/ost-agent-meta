@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Target selection skips any solution that an open branch or PR on the product repo already names]]
+[[The ship step merges its own green, mergeable PR instead of leaving it for a human]]
 
 **The need (operator's voice):** "The work is done. It is sitting in a green, mergeable PR. And the loop keeps spending firings re-discovering that, because the only thing it reads before choosing a target is the tree, and the tree does not change until the PR merges."
 
