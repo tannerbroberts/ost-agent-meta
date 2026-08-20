@@ -16,3 +16,11 @@ evidence: assertion
 **Where it fails, stated so it can be judged.** The two observed targets (#130, #181) were never claimed — the claim module landed after those builds started — so this fixes the next occurrence, not the recorded ones. A PR abandoned open holds its claim forever unless something closes it; that is the stranding the TTL prevented, now traded for the re-selection the TTL caused. Checking merge state needs the product checkout or the forge to be reachable from the state directory, which the claim module deliberately does not assume today.
 
 **Cost.** A field on `ClaimRecord`, a merge-state check in `isLive`, and a decision about what "closed without merge" means for the claim.
+
+## Definition of done
+
+"A claim whose branch landed by merge commit, squash, or rebase reads as released from the checkout alone"
+
+    npx vitest run test/loop/claim-merge-release.test.ts
+
+No-spec red as of 2026-08-20: the spec is unwritten. Once written, expect the squash fixture to fail first (ancestry-based `--merged` cannot see a squash) and the nine-hour-held fixture to fail by design (`isLive` reads only `expiresAt`). Green settles that the read is feasible; it says nothing about abandoned branches or the two already-recorded, never-claimed targets.
