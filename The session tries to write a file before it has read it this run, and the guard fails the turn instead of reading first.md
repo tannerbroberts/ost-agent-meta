@@ -87,3 +87,13 @@ _Source: `TRANSCRIPT:8f2086ca-7c0e-4939-a8a3-a45cb29c28f4` — observed behavior
 Same shape again: a Write `tool_error` — "File has not been read yet. Read it first before writing to it." — on `/Users/tanner/.local/state/ost-build-loop/last-report.txt`, cleared by a retry that then wrote the file (reporting PR #171 already built). No other friction in this session. Consistent with the established finding: ordering-guard friction, not a new pattern.
 
 _Source: `TRANSCRIPT:e4051d7c-c4c6-45e5-ba9a-eede020cbb0c` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
+
+## Measured over the whole channel: it is mostly one file, and the product's own prompt asks for the write (unattended sweep, 2026-08-20)
+
+Counted over every transcript record in this vault's evidence store rather than sampled: **160 records carry "File has not been read yet. Read it first before writing to it."; in 94 of them the retry that follows is a Write to `~/.local/state/ost-build-loop/last-report.txt`** — the build loop's own report file. `examples/automation/build-pass.sh` (read via `ost_read_repo` this pass) says why, in its own comment: "the prompt tells the model to Write the file itself, which replaces whatever was there." The script pre-writes the report on every exit path, so the file always exists and the session has never read it; the harness guard then fires on the first Write, by construction, once per firing.
+
+This changes what the need is for the majority case. The entries above treat this as harness friction the session recovers from. For 94 of 160 records it is friction the product's own prompt induces: the build pass requests exactly the operation the guard refuses. The three solutions beneath this node all ask the harness to change; a fourth, added this pass, asks the product to stop requesting the refused operation. Sessions read in full this pass and consistent with the count: `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11`, `TRANSCRIPT:1329bda4-c23b-427a-aeab-9536c1d87cf9`.
+
+The remaining 66 records are Edits or Writes to repo source and test files mid-build — the harness-side half of the need, unchanged by this finding.
+
+_Counted with a text search over `.ost-agent/evidence/` this pass; observed behaviour of the product's own agent. Grounds usability, not demand. Rung unchanged._
