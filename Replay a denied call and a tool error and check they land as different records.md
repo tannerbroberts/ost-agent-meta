@@ -23,3 +23,4 @@ instrument: npx vitest run test/adapters/usage-denial-classification.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/adapters/usage-denial-classification.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/adapters/usage-denial-classification.test.ts` — Duration  295ms (transform 41ms, setup 0ms, collect 45ms, tests 7ms, environment 0ms, prepare 32ms)
