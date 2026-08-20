@@ -16,3 +16,9 @@ evidence: assertion
 **Where it fails, stated so it can be judged.** A green suite is not a reviewed change; merging on green makes the suite the whole review. Anything the instrument does not cover (the node's own `## Uncovered`, if it has one) ships unread. A flaky CI check becomes a merge-blocker or, worse, a merge-enabler depending on the retry.
 
 **What is deliberately given up.** Human review as a step between build and trunk, for changes whose entire definition was written by a discovery pass.
+
+## Definition of done
+
+"Ask the operator, with the third firing's hand merge of PR #181 in front of them, whether an unattended firing may merge its own green PR"
+
+Deliberately no command. This solution widens what an unattended loop may do to the operator's trunk, and that is a permission no spec can observe; the test is `humansRequired` by design and a builder should not start until its result is recorded. A yes with conditions becomes the ship step's preflight; a no retires this candidate.
