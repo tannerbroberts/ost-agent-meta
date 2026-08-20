@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #usability #tool-surface #unvalidated #evidence/observed
 [[The refusal names the field that failed and the form that would have passed]]
 [[Drop the create-time numeric-bar check for no-spec instruments and let verify-time catch the missing bar]]
+[[Express the threshold rule as a schema pattern, so the server's existing per-field validator reports it]]
 
 **The need (operator's voice, from the agent's own session):** "I asked for a test with an instrument and a threshold. The tool refused, told me the test 'cannot carry that instrument', and quoted the spec path. So I reworked the instrument. The real cause was that my threshold spelled its number out in words — the one field the message never mentioned."
 
