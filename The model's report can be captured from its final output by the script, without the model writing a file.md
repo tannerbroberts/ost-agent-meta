@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Assumption #feasibility #build-loop #unvalidated #evidence/assertion
+[[The build prompt no longer instructs a Write to the report file, and the script places the captured report itself]]
 
 **The belief (feasibility).** `build-pass.sh` can obtain the one-paragraph report from the model's final output — the stdout of `claude -p "$(cat "$PROMPT_FILE")"` — and write it to `$REPORT` itself, so the prompt no longer needs to instruct a Write to that path and the harness's read-before-write guard is never asked to refuse one.
 
