@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Whether a claim's branch has merged can be read from the product checkout alone, including after a squash merge]]
 
 **Variation dimension: what is deliberately given up — the TTL's self-healing.** `src/loop/claim.ts` releases a claim in exactly two ways: an explicit `released` record, or `DEFAULT_CLAIM_TTL_HOURS = 8` elapsing. The module's own header names the consequence: "too long and a pass that dies mid-build strands the item until the clock runs out" — so it chose a clock. This candidate chooses the other horn: a claim carries the branch (or PR number) it produced, stays `held` past its TTL while that branch is unmerged and open, and is released when the branch merges or the PR closes. The clock survives only for claims that never produced a branch at all — the dead-mid-build case the TTL was for.
 
