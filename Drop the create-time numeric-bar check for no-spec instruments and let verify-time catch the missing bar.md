@@ -15,3 +15,9 @@ evidence: assertion
 **What would make this the wrong pick.** The create-time check exists because this tree measured, on 2026-08-09, that most recorded reds were vacuous and many tests carried no bar; moving the check downstream means a no-bar test enters the tree and is caught only if somebody runs the census. Whether the operator will accept a weaker write-time guard for a cleaner refusal is a risk call that is theirs, not the code's.
 
 ⚠️ Unvalidated. Agent-ideated from one recorded session.
+
+## Definition of done
+
+"Ask the operator, with the 2026-08-09 vacuous-red count in hand, whether the write-time numeric-bar check may be relaxed"
+
+No command, by design: this candidate trades a guard for a cleaner refusal, and whether that trade is acceptable is the operator's risk call — humans-required. A builder should not start this until that answer is recorded; a yes conditioned on some other write-time guard refutes it.
