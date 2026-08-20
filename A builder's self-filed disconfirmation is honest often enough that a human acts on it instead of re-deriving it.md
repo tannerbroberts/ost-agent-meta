@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The operator judges the next five builder-filed disconfirmations against their specs and counts the honest ones]]
 
 **Kind: viability, with a harm check attached.** The channel is worth building only if what comes through it can be acted on. A builder that cannot make a spec pass has a standing incentive to call the red a refutation, and the structure (bar cited, value cited) narrows but does not remove that. The one recorded instance was honest — "fails by design and should not be loosened" — but n=1, and the builder that wrote it was also the one that had just spent a firing failing.
 
