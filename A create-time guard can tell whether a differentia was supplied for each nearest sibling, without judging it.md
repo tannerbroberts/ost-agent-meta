@@ -7,6 +7,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Create an opportunity beside an existing sibling with no differentia and require the refusal, then supply one per sibling and require the write]]
 
 **Kind: feasibility.** Stated so it can be false: at the moment an Opportunity is created, the tool can (1) find the nodes that would become its siblings — the parent's existing Opportunity children — (2) require one differentia sentence per sibling, and (3) refuse the write when any is missing, all without reading the sentence for quality. If the sibling set cannot be computed at create time (the parent is the Outcome, or the parent's children are mixed layers), or if requiring the argument breaks the single-call create-and-attach contract, the gate cannot be built as described and the solution falls back to a sweep-time check it was meant to replace.
 
