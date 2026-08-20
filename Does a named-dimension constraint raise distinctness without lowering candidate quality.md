@@ -24,3 +24,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/knowledge/forced-variation-prompt.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/knowledge/forced-variation-prompt.test.ts` — Duration  1.28s (transform 192ms, setup 0ms, collect 285ms, tests 747ms, environment 0ms, prepare 46ms)
