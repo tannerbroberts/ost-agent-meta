@@ -19,3 +19,4 @@ instrument: npx vitest run test/ost/next-work-status-filter.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/next-work-status-filter.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/ost/next-work-status-filter.test.ts` — Duration  1.01s (transform 195ms, setup 0ms, collect 300ms, tests 487ms, environment 0ms, prepare 30ms)
