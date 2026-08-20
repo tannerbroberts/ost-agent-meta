@@ -4749,3 +4749,4 @@
 {"ts":"2026-08-20T18:09:17.012Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":114,"session":"mcp-2ee2505f-f59e-4878-8d2a-6f97e408f9c2"}
 {"ts":"2026-08-20T18:09:17.340Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":101,"session":"mcp-2ee2505f-f59e-4878-8d2a-6f97e408f9c2"}
 {"ts":"2026-08-20T18:09:55.880Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":1986,"session":"mcp-2ee2505f-f59e-4878-8d2a-6f97e408f9c2"}
+{"ts":"2026-08-20T18:10:01.472Z","tool":"ost_ingest_inbox","ok":true,"ms":6,"surface":"mcp","argBytes":2,"session":"mcp-2ee2505f-f59e-4878-8d2a-6f97e408f9c2"}
