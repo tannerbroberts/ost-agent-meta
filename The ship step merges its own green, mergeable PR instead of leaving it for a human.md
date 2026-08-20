@@ -5,6 +5,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The operator will let an unattended firing merge a green PR into main with nobody watching]]
 
 **Variation dimension: who does the work — the loop finishes the job, rather than a human or a later firing.** The window in which a finished build can be re-selected exists because the loop stops one step short: it opens the PR and waits. If the postflight merges a PR that is green on CI, mergeable, and whose instrument has transitioned red→green, the window closes in the same firing that opened it, and there is nothing left for a later firing to rediscover.
 
