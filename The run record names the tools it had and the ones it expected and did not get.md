@@ -31,3 +31,4 @@ instrument: npx vitest run test/loop/run-record-tool-surface.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/run-record-tool-surface.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **no-spec** (exit none) `npx vitest run test/loop/run-record-tool-surface.test.ts` — test/loop/run-record-tool-surface.test.ts does not exist — no spec was collected, so nothing was measured
