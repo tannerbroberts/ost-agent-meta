@@ -20,3 +20,6 @@ sight: grounded
 **Why it is red today, and what kind of red.** `test/loop/claim-merge-release.test.ts` does not exist — a **no-spec red**, declared as such; it mints no permit until the spec exists and fails on an assertion. Once written, the squash case is the one expected to fail first: `git branch --merged` answers by ancestry, and a squashed branch is never an ancestor of main. The nine-hour case fails today by design because `isLive` reads only `expiresAt`.
 
 **What a green does NOT settle.** Whether an abandoned open branch should hold a claim forever (the stranding this trades for), whether the forge should be consulted instead, and whether the two already-recorded targets — never claimed — are helped at all. Feasibility of the read only.
+
+## Instrument Log
+- 2026-08-20 **no-spec** (exit none) `npx vitest run test/loop/claim-merge-release.test.ts` — test/loop/claim-merge-release.test.ts does not exist — no spec was collected, so nothing was measured

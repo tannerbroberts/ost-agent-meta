@@ -19,3 +19,6 @@ sight: grounded
 **Why it is red today, and what kind of red.** `test/instruments/replay-kind-classification.test.ts` does not exist — a **no-spec red**, declared as such; it mints no permit until the spec exists and fails on an assertion. Once written it fails on the import: no classifier exists, and `Observation` in `src/ost/instrument.ts` has three members, none of them a finding.
 
 **What a green does NOT settle.** That imports separate the two kinds on eleven files says nothing about a spec that is both (fixture plus new code path), nothing about the harness-unbuilt phase where a replay spec is legitimately a permit red, and nothing about whether `buildable` should read `refuted` as not-a-permit — that is the solution's second half and needs its own assertion. Feasibility of the heuristic only.
+
+## Instrument Log
+- 2026-08-20 **no-spec** (exit none) `npx vitest run test/instruments/replay-kind-classification.test.ts` — test/instruments/replay-kind-classification.test.ts does not exist — no spec was collected, so nothing was measured

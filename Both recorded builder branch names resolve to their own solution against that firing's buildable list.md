@@ -21,3 +21,6 @@ sight: grounded
 **Why it is red today, and what kind of red.** `test/loop/branch-name-resolves-target.test.ts` does not exist — this is a **no-spec red**, declared as such, and it mints no permit until the spec is written and an assertion in it fails. The assertion is expected to fail genuinely once written: `two-stage-question-stop-count` shares one significant term with its solution's title, which claim.ts's own header predicts is under the bar. If it passes on the first run, the assumption holds more strongly than its author expected and the instrument should be re-pointed at a harder recorded pair rather than loosened.
 
 **What a green does NOT settle.** That the matcher works on these two pairs says nothing about a convention-free future branch name, nothing about whether the operator wants selection consulting the forge at all, and nothing about the stranding risk of an abandoned open branch. Feasibility of resolution only.
+
+## Instrument Log
+- 2026-08-20 **no-spec** (exit none) `npx vitest run test/loop/branch-name-resolves-target.test.ts` — test/loop/branch-name-resolves-target.test.ts does not exist — no spec was collected, so nothing was measured
