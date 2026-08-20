@@ -6,6 +6,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The operator will accept a no-bar test entering the tree at write time if the census still catches it]]
 
 **Variation dimension: automated vs manual — the bar check is deliberately moved off the automated write path.** `ost_create_node` stops refusing a no-spec instrument on the grounds that the threshold's number is spelled out rather than typed as digits. The test is written; the "does this test state a fixed bar?" question stays where the tree already answers it — the rollup's "N of M tests state no fixed bar" census and the human's `ost-agent verify` / `result` step, both of which read the threshold with judgement rather than a digit regex. The refusal that misled the session is removed rather than reworded.
 
