@@ -32,3 +32,4 @@ instrument: npx vitest run test/loop/mcp-absent-fallback.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/mcp-absent-fallback.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/loop/mcp-absent-fallback.test.ts` — ✓ clause 3 — a fallback run cannot emit a report a clean-run reader would accept > a failed verb is recorded as failed, reported, and does not soften the verdict 3374ms
