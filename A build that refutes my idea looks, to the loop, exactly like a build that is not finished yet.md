@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[The builder files a structured disconfirmation that the loop carries into the tree beside the red]]
+[[After two builds leave an instrument red on an assertion, the loop files the target as disputed and stops selecting it]]
 
 **The need (operator's voice):** "The builder ran the experiment and the idea lost — 92 turns against 72, only 28% reframed, well under breakeven. That is the best news a test can bring. And the loop filed it as 'not shipped, instrument still red' and went looking for another buildable candidate, as if the spec just hadn't been written yet."
 
