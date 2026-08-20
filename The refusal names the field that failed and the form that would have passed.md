@@ -6,6 +6,7 @@ created: '2026-08-20'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A create-time refusal can name the failing field without the tool body being restructured]]
 
 **Variation dimension: who does the work — the tool carries the diagnosis.** Every refusal `ost_create_node` emits for an AssumptionTest names the field that actually failed its check (`threshold`, `instrument`, `humansRequired`) and states the form that would pass — "threshold must carry a numeric bar, e.g. 'at least 5 of 20'" — so the caller's retry is a lookup, not a guess. The session changes nothing about how it composes calls; the message does the work the session was doing by trial.
 
