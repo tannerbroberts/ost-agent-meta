@@ -25,3 +25,4 @@ The assumption is that the calibration workload degrades the same way the real o
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/eval/calibration-ratio-stability.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **no-spec** (exit none) `npx vitest run test/eval/calibration-ratio-stability.test.ts` — test/eval/calibration-ratio-stability.test.ts does not exist — no spec was collected, so nothing was measured
