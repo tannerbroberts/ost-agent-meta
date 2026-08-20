@@ -28,3 +28,4 @@ Proposed by the agent — the hand judgement must be human and blind to the rule
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/eval/riskiest-assumption-judge.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/eval/riskiest-assumption-judge.test.ts` — [riskiest] agree — Retry a failed push three times: declared → untested (label untested)
