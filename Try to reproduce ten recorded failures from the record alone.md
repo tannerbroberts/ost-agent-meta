@@ -36,3 +36,4 @@ That naming is a judgement over real failures and stays with a person. So a pass
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/loop/record-replay-sufficiency.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/loop/record-replay-sufficiency.test.ts` — Duration  220ms (transform 24ms, setup 0ms, collect 24ms, tests 2ms, environment 0ms, prepare 27ms)
