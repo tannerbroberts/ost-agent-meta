@@ -16,3 +16,9 @@ evidence: assertion
 **Where it fails, stated so it can be judged.** A builder that cannot make a spec pass has every incentive to call the red a refutation. The structure limits that (it must cite the bar and the value, both of which the spec itself encodes) but cannot prevent it; a human reading five of these will know quickly whether the channel is honest, and that is the assumption beneath.
 
 **Cost.** A report-file convention, a postflight parser, and one new non-reserved section heading that the content guard must allow and the gate must ignore.
+
+## Definition of done
+
+"The operator judges the next five builder-filed disconfirmations against their specs and counts the honest ones"
+
+Deliberately no command. The channel's worth is whether a person can act on what comes through it, and honesty is judged by reading, not by exit code; the test is `humansRequired` by design and cannot begin until the channel exists. A builder who ships the channel should know the first five entries are the sample.
