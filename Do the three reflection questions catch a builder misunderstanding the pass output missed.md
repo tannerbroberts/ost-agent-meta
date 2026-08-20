@@ -21,3 +21,4 @@ instrument: npx vitest run test/skill/reflection-questions.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/skill/reflection-questions.test.ts` — No test files found, exiting with code 1
+- 2026-08-20 **green** (exit 0) `npx vitest run test/skill/reflection-questions.test.ts` — Duration  316ms (transform 78ms, setup 0ms, collect 119ms, tests 4ms, environment 0ms, prepare 27ms)
