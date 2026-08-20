@@ -16,3 +16,11 @@ evidence: assertion
 **Where it fails, stated so it can be judged.** Classification from imports is a heuristic and a spec can be both (set up a fixture, replay it, assert a new code path). A replay spec that is red because the *replay harness* is unbuilt — the first firing on #130 built `STOP_COUNT_RULE` before the replay could run — is a permit red until the harness exists and a finding red after; one spec, two phases, and the classifier has to know which phase it is in.
 
 **Cost.** One observation kind, one frontmatter field or import heuristic, and a `buildable` that reads `refuted` as not-a-permit.
+
+## Definition of done
+
+"An import-only classifier labels the known replay spec replay and none of ten permit specs replay"
+
+    npx vitest run test/instruments/replay-kind-classification.test.ts
+
+No-spec red as of 2026-08-20: the spec is unwritten. Once written it fails on the import — no classifier exists and `Observation` in `src/ost/instrument.ts` has three members, none a finding. Green settles the heuristic on eleven files only; `buildable` reading `refuted` as not-a-permit is the second half and needs its own assertion.
