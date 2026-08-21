@@ -5,6 +5,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Solution #build-loop #unvalidated #evidence/assertion
+[[The build prompt and gitignore alone can put probes inside the checkout, where they resolve the repo's modules and never reach a commit]]
 
 **Variation dimension: who-does-the-work — position: nobody, because the step is removed.** No person writes tooling and no agent learns a new command. The repository gains one gitignored directory (say `.scratch/`), and `examples/automation/build-pass.sh`'s prompt says in one sentence that throwaway probes go there and nowhere else. A file under the checkout resolves `@modelcontextprotocol/sdk` from the repo's `node_modules` and `./src/...` from the repo root by Node's ordinary rules — the resolution question the two observed sessions paid a turn for never arises, so nobody answers it.
 
