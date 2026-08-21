@@ -27,3 +27,6 @@ sight: grounded
 **Why it is red today, honestly classified.** The spec file does not exist, so today's red is `no-spec` — it would fail identically for any question written on this path and grants no build permit. It becomes a real red the moment the spec above is written: assertion (1) fails against the current config and (3) against the current `.gitignore`. A pass on this surface can name the mechanism but cannot leave the spec behind; the deliverable is the failing spec, not this filename.
 
 **What a green does NOT settle.** Whether a probe dressed as a spec gets committed as one by a session that forgot it was throwaway (habit, observed over firings); whether the argv gate survives the next vitest major (a future red, not today's); and whether anyone wanted the lost turn back (desirability).
+
+## Instrument Log
+- 2026-08-21 **no-spec** (exit none) `npx vitest run test/config/probe-spec-by-name-only.test.ts` — test/config/probe-spec-by-name-only.test.ts does not exist — no spec was collected, so nothing was measured
