@@ -101,3 +101,18 @@ Two `unmappedEvidence` items this pass (`INBOX:2026-07-24-friction-a-backgrounde
 `ost_next_work` sits at 25% today — close to the "third" the title names, within the range this node's own corroborations already show swinging 13%–34%. The new datum is `ost_read_tree` at 48%, now the single largest share of the day and nearly double `ost_next_work`. `ost_read_tree` did not exist as a per-node body read until the 2026-08-17 tool change recorded on "The repair I am asked to make requires rewriting prose no tool will show me" (a `node` parameter added so a single call returns one node's full prose before an edit/merge/append). This day's trace is the first full-day usage record since that change, and it suggests the re-asking cost this node describes has partly migrated: rather than re-calling the sweep to recover context, sessions now call `ost_read_tree({node})` once per node touched — a cost the sweep-re-ask framing above does not price in, because it is a different tool answering a related but distinct question ("what does this node say" rather than "what is still outstanding").
 
 Evidence class: observed behaviour — machine-recorded trace of tool invocations, no narrator. Grounds usability and the agent-tool loop, not external demand.
+
+## The 2026-08-17 mechanism, now with a number on it (unattended sweep, 2026-08-21)
+
+The section above identified the cause and could not size it: `unmappedEvidence` matches on a node's `source` field, so evidence fully incorporated into a node's *body* still reads as unmapped forever. Today's sweep measures the consequence.
+
+`ost_next_work` reported **357 unmapped evidence items, with `agedOutEvidence.count: 0`** — nothing has ever aged out of this queue. All 357 are from the `transcript` channel. This pass read six of them in full, sampling the largest bodies (the ones most likely to carry an unmapped need): every one described friction already mapped — permission refusals on withheld tools, "File has not been read yet", malformed-JSON `Read` retries, exit-143 timeouts. One (`TRANSCRIPT:09ec7cd2-…`, the three consecutive `HTTP 503` errors from api.github.com) is not merely already-mapped but already **cited twice** in the body of "A test that failed because the machine was busy looks exactly like one that failed because I broke something" — once as a dated corroboration section and once as an "Additional observed instance". It is still listed as unmapped.
+
+So the queue is not a backlog of unread evidence. It is a backlog of *already-read* evidence that the detector cannot see has been read, and it grows monotonically because nothing retires an item and nothing ages one out. Two costs follow, and the second is the expensive one:
+
+- Every sweep re-reads some share of it to find out it is already done — the re-asking cost this node is about.
+- The genuinely new record is indistinguishable from the 356 repeats. This pass could only find the novel ones by reading bodies one at a time, and at 357 items that is not a strategy any sweep can afford. A channel with no novelty signal and no age-out converges on being unreadable.
+
+**For a human:** the repair named on 2026-08-17 — match citations in prose, or let a node record which evidence ids it has incorporated — is unchanged, and now has a size. A cheaper partial: age-out or a novelty diff would restore a readable queue without touching the detector.
+
+_Measured from this pass's own `ost_next_work` response. Observed behaviour of the tool, not an outside report; rung unchanged at the floor for the reason this node already records._
