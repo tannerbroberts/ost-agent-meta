@@ -5,6 +5,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[The extent flag's own text names the annotation that clears it, beside merge and rewrite]]
 
 **The need, from the side of whoever works the hygiene list.** When I look at a flag, apply the judgement it asks for, and write that judgement on the node it sits on, the flag should stay cleared — or come back only when the facts behind it change. Instead the same twelve extent flags returned on 2026-08-11, 2026-08-17, 2026-08-19, 2026-08-20 and again on 2026-08-21, each time already carrying a prior pass's reasoned DISTINCT verdict in its own `## Issues`, and each pass spent its hygiene budget re-reading verdicts it could not act on.
 

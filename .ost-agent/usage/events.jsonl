@@ -5199,3 +5199,4 @@
 {"ts":"2026-08-21T18:19:57.829Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3874,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a","wrote":["A flag I already judged false comes back every pass, because the clear is keyed to wording nothing told me to repeat.md"]}
 {"ts":"2026-08-21T18:20:03.507Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1376,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
 {"ts":"2026-08-21T18:20:17.201Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2657,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
+{"ts":"2026-08-21T18:20:35.877Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2204,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a","wrote":["The extent flag's own text names the annotation that clears it, beside merge and rewrite.md"]}
