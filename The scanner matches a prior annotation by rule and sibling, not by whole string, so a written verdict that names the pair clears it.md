@@ -17,3 +17,11 @@ evidence: assertion
 **Where it fails.** Any prose that happens to name a sibling in quotes next to a rule name — a corroboration note, a cross-reference — reads as a verdict. The assumption beneath is that the key can be loose enough to catch real verdicts and strict enough to miss incidental mentions.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"A prose verdict naming the rule and the sibling clears the flag, an incidental mention does not, and a verdict on one relation kind does not carry to another"
+
+`npx vitest run test/ost/extent-clear-by-pair.test.ts`
+
+No-spec red as of 2026-08-21: the file does not exist, so the command fails on "No test files found" and grants no permit until a builder writes the spec named on the test node — whose case 1 (a 2026-08-17-shaped prose verdict clears the flag) then fails against today's whole-string match in `detectHygiene` for a reason specific to this solution.
