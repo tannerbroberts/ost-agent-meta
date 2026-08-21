@@ -21,3 +21,4 @@ instrument: npx vitest run test/skill/skeleton-validity.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/skill/skeleton-validity.test.ts` — No test files found, exiting with code 1
+- 2026-08-21 **green** (exit 0) `npx vitest run test/skill/skeleton-validity.test.ts` — Duration  262ms (transform 37ms, setup 0ms, collect 51ms, tests 14ms, environment 0ms, prepare 25ms)
