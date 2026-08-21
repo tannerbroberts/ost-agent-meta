@@ -78,3 +78,28 @@ An agent has no tool that writes a spec file. So for behaviour that has not been
 **A caveat against over-reading this.** The `no-spec` mechanism is not a defect — the code argues for it explicitly and the argument is good: a missing file is red for every question equally, so it distinguishes none of them. Nothing above disputes that. The finding is narrower: given that rule, the instruction that unattended sweeps should prefer assertion-specific reds over missing-file reds cannot be complied with from this surface, and a sweep that appears to comply is naming files it has not written.
 
 _First-party observation of this product's own source, read this pass via `ost_read_repo`. Grounds feasibility only; it says nothing about whether anyone wants the queue cleared. Rung stays at the `assertion` floor._
+
+## Correction to the section above, same pass (2026-08-21)
+
+The finding above states that an agent's only reachable outcomes are "a `no-spec` filing (naming a file nobody has written) or a refused green", and in listing the four composing facts it says a `no-spec` run mints no permit. **That last part is wrong, and the error matters because it undersells what a sweep can hand a builder.** Corrected after reading `src/eval/buildable.ts`, which the earlier section had not yet read.
+
+`confirmPermit` treats a `no-spec` run conditionally, not fatally:
+
+```
+if (observed.observation === "no-spec") {
+  if (permit.thresholdBound) return permit;   // permit stands
+  return { cleared: false, … }
+}
+```
+
+**A weak red keeps its permit when the test names a bound threshold, and loses it only when there is neither a spec nor a fixed bar.** The code argues the point from this vault's own history: "Declare a required tool set and check a pass refuses before doing any work" was recorded red on 2026-08-06 with "No test files found" and went green on 2026-08-07 — a builder read the path, found nothing there, and built to the node's pre-committed threshold instead. Refusing every weak red would have blocked that lifecycle.
+
+So the structural claim survives in weakened form, and the practical advice inverts:
+
+- **Still true:** an agent that cannot author files cannot produce a non-vacuous *red*. The grammar admits one form, refuses shell punctuation, and `runInstrument` short-circuits on a missing file. That part stands, and it still explains the 260-of-266 figure.
+- **False as stated:** that this makes the resulting instrument worthless. A `no-spec` instrument **with a bound threshold** is a working build permit by design, not a failure the system tolerates.
+- **What follows for a sweep:** the thing that decides whether an unattended pass hands a builder anything is not repo sight and not the spec path — it is **whether the threshold is a fixed bar**. That is entirely within an agent's power to write, and it is the one lever here that does not need a capability nobody granted.
+
+That reframes this node's own gating argument a third time. Sight is not the blocker (the standing finding). The write capability is not really the blocker either. **The blocker is threshold discipline** — which is the subject of a different opportunity already on this tree, "My tests carry thresholds nobody ever fixed, so nothing can come out a failure", whose own measurement found 20 of 63 tests in one bucket stating no fixed bar. Those two nodes are pointing at the same lever from opposite ends, and a human may want to read them together.
+
+_Correction recorded by appending rather than by rewriting the section above, so the mistaken claim and its correction both stay visible. First-party read of `src/eval/buildable.ts`._
