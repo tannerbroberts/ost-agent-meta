@@ -6,6 +6,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A key loose enough to recognise a prose verdict is still strict enough to ignore an incidental mention of the same sibling]]
 
 **Mechanism.** Loosen the suppression key for the three extent rules from "an Issues line equal to the issue string" to "an Issues line that names the rule (`shared-extent` / `subset-extent` / `entangled-extent`) and quotes the sibling's title". Every verdict the 2026-08-11, 08-17 and 08-20 passes wrote already has that shape — "2026-08-17 subset-extent flag vs "Nothing kills a candidate…" adjudicated … DISTINCT" — so all of them would have counted on the day they were written. The relation kind is part of the key on purpose: a verdict on a `shared-extent` pairing does not carry over when new evidence turns the same pair into `subset-extent`, which is exactly when a human should look again.
 
