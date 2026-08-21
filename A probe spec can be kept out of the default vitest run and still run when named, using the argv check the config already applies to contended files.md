@@ -5,6 +5,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Assumption #feasibility #build-loop #unvalidated #evidence/assertion
+[[A probe spec is absent from the bare vitest run, present when named, and gitignored]]
 
 **The belief (feasibility).** Adding a `**/*.probe.test.ts` glob to `vitest.config.ts`'s `exclude` — gated by the same `namedOnCommandLine()` check the `CONTENDED` list already uses — makes a probe invisible to `npx vitest run` and reachable by `npx vitest run test/<area>/<name>.probe.test.ts`, and `.gitignore` listing `*.probe.test.ts` keeps it out of every commit.
 
