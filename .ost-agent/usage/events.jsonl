@@ -5126,3 +5126,4 @@
 {"ts":"2026-08-21T17:54:06.644Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
 {"ts":"2026-08-21T17:54:07.376Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":53,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
 {"ts":"2026-08-21T17:54:18.611Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2168,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946","wrote":["A gitignored scratch directory inside the checkout, named in the build prompt, so a probe resolves like any repo file.md"]}
+{"ts":"2026-08-21T17:54:28.573Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2217,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946","wrote":["A probe npm script that evaluates inline code with the repo's loader and cwd, so no scratch file exists to mis-resolve.md"]}
