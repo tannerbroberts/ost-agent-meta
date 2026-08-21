@@ -5330,3 +5330,4 @@
 {"ts":"2026-08-21T23:47:42.535Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":44,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:48:07.445Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2783,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:48:46.341Z","tool":"ost_create_node","ok":true,"ms":57,"surface":"mcp","argBytes":4179,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14","wrote":["A merge driver invoked without the build toolchain fails loudly instead of writing a half-built dist.md"]}
+{"ts":"2026-08-21T23:49:07.400Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":3452,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
