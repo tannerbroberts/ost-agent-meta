@@ -5,6 +5,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Solution #build-loop #unvalidated #evidence/assertion
+[[A probe spec can be kept out of the default vitest run and still run when named, using the argv check the config already applies to contended files]]
 
 **Variation dimension: bought-vs-built — position: adopt vitest as-is as the probe runner; build nothing but a config line, a gitignore line and a prompt sentence.** A probe is written as `test/<area>/<anything>.probe.test.ts` and run with `npx vitest run test/<area>/<anything>.probe.test.ts`. The file sits inside the repo, so imports resolve; vitest supplies `expect`, fixtures, the same `root` resolution every committed spec uses, and the familiar red/green output. Nothing new is authored in this repository: the runner, the harness and the resolution are all already bought.
 
