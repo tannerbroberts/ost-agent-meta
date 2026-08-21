@@ -5297,3 +5297,30 @@
 {"ts":"2026-08-21T22:37:39.219Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":3396,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
 {"ts":"2026-08-21T22:37:41.046Z","tool":"ost_ingest_inbox","ok":true,"ms":11,"surface":"mcp","argBytes":2,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
 {"ts":"2026-08-21T23:38:33.255Z","tool":"ost_ingest_inbox","ok":true,"ms":45,"surface":"mcp","argBytes":2,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:38:34.946Z","tool":"ost_next_work","ok":true,"ms":374,"surface":"mcp","argBytes":2,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:38:47.086Z","tool":"ost_next_work","ok":true,"ms":30,"surface":"mcp","argBytes":62,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:38:53.217Z","tool":"ost_next_work","ok":true,"ms":29,"surface":"mcp","argBytes":62,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:39:58.162Z","tool":"ost_read_tree","ok":true,"ms":174,"surface":"mcp","argBytes":108,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:40:18.173Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:40:34.980Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":27,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:40:36.463Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:40:37.953Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:41:05.533Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":23,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:41:07.238Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:44:21.301Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:44:35.433Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:44:36.842Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":30,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:44:44.303Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:44:45.634Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:44:47.593Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":22,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:44:49.224Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":38,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:45:00.554Z","tool":"ost_set_instrument","ok":false,"ms":0,"surface":"mcp","argBytes":1123,"err":"cannot set that instrument on \"Have someone with the vault-write code open confirm every commit path can carry a session id without breaking commit-message parsers\": \"npx vitest run test/git/commit-provenance.test.ts -t \"every commit carries the session id of the run that made it\"\" contains shell pu","session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:45:08.416Z","tool":"ost_set_instrument","ok":false,"ms":0,"surface":"mcp","argBytes":1155,"err":"cannot set that instrument on \"Have someone with the vault-write code open confirm every commit path can carry a session id without breaking commit-message parsers\": \"npx vitest run test/git/commit-provenance.test.ts -t session-id\" is not an instrument form. The allowed forms are: vitest-spec (`npx ","session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:45:33.377Z","tool":"ost_set_instrument","ok":false,"ms":0,"surface":"mcp","argBytes":1660,"err":"refusing to instrument \"Have someone with the vault-write code open confirm every commit path can carry a session id without breaking commit-message parsers\": it is labelled humans-required, so a person is the measurement and no command can stand in for them. Attaching one would leave the node claim","session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:45:57.424Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:45:59.971Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":21,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:46:25.811Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":25,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:46:27.327Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":22,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:46:28.982Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:46:30.269Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":21,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:47:01.262Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":5894,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}

@@ -100,3 +100,46 @@ What this pass adds is a partition of the absent 250 that the earlier count did 
 **What this does not settle.** Whether the seven phantom directories are bad ideas — a product may well want a `test/instruments/`, and three of the four instruments naming it are about the instrument machinery, which currently has its specs spread across `test/ost/instrument.test.ts` and `test/knowledge/instruments.ts`. The finding is only that seventeen instruments encode an unmade structural decision, and that no amount of building the named behaviour makes them resolve until somebody makes it. It says nothing about desirability, viability, or usability, and no test was run.
 
 _Method: `ost_read_repo` listings of every directory under `test/` in the OST-Agent repository, matched against every `instrument:` field in this vault, 2026-08-10. Read of committed code and of this vault's own nodes; no command was executed and no result recorded. This node's rung is unchanged._
+
+## The phantom-directory table re-checked eleven days on — five of seven are now real — 2026-08-21
+
+The 2026-08-10 section above listed seven `test/` subdirectories named by instruments and absent from the product suite, and argued that a missing file inside a *missing* directory is the weakest red this tree can produce because the author was inventing repository structure rather than a filename. That table is a falsifiable claim about the repository, so this pass re-ran it against today's checkout. It has largely resolved.
+
+| Phantom directory (2026-08-10) | Instruments naming it | State on 2026-08-21 |
+|---|---|---|
+| `test/instruments/` | 4 | **exists** — `overwrite-guard`, `sight-provenance`, `spec-path-resolution` |
+| `test/preflight/` | 3 | **exists** — `manifest-covers-observed-refusals` |
+| `test/tools/` | 3 | **exists** — `read-node-body-scope` |
+| `test/guards/` | 2 | **exists** — `provenance-census-scores-against-known-defects` |
+| `test/evidence/` | 2 | **exists** — `age-out-preserves-novel`, `corroborate-disposition` |
+| `test/gate/` | 1 | still absent |
+| `test/rank/` | 1 | still absent |
+
+The suite has gone from twenty top-level directories to twenty-seven: the five above plus `compression` and `perf`.
+
+**The instance this node picked out has resolved too.** Line 98 above names "Every solution in the current backlog has an existing spec that could go red for it" as the sharpest case — an instrument about spec-path resolution, pointing at `test/instruments/spec-path-resolution.test.ts`, in a directory that did not exist, with its own prose admitting the path was invented. That file exists today. The structural decision the instrument encoded was made, in the direction the instrument assumed.
+
+**What this changes, and what it does not.** It weakens the strongest version of this node's argument. Fourteen of the seventeen instruments that encoded an unmade structural decision no longer do; the decision got made, and the phantom paths were a reasonable prediction of where the product was going rather than invention. That is the same shape as the n=1 lifecycle recorded in the 2026-08-09 addendum, now at a larger n and about directory structure rather than a single file — so the two observations agree, and both cut the same way.
+
+It does not show the specs *assert this tree's questions*. A directory existing with one file in it does not mean the instrument naming a second file in it will go red for a test-specific reason; it means the neighbourhood is real, which was precisely the distinction line 96 drew as the thing worth having. The `no-spec` count is not re-measured here and this section is not a census — one table, re-checked, eleven days later.
+
+_Method: `ost_read_repo` listings of `test/` and of each of the seven named subdirectories in the OST-Agent repository, 2026-08-21, matched against the table this node already carried. Read of committed code only; no command was executed, no result recorded, and this node's rung is unchanged._
+
+## Why the weak form is the only form this surface can write — measured at the tool boundary, 2026-08-21
+
+The node has argued since 2026-08-07 that "which of the two an agent can write depends entirely on whether it can see the repository." This pass held repo sight and still could not write the strong form, which locates the constraint somewhere the node had not looked: `ost_set_instrument` itself.
+
+Attempting to give an existing test an assertion-specific red inside an existing spec produced two refusals, in this order:
+
+- `npx vitest run test/git/commit-provenance.test.ts -t "every commit carries the session id of the run that made it"` → *"contains shell punctuation. Instruments are run as argv with no shell... Name one spec file."*
+- `npx vitest run test/git/commit-provenance.test.ts -t session-id` → *"is not an instrument form. The allowed forms are: vitest-spec (`npx vitest run <path>.test.ts`)."*
+
+So the accepted grammar is a bare spec path and nothing else. A test-name filter — the mechanism by which a command names one assertion inside a file that already exists — cannot be expressed at all.
+
+**Why that forces the weak form.** The strong red requires a command that fails today *inside* a spec that exists. With only a bare path accepted, a named file either passes today (so it cannot fail, and is refused for that) or does not exist (so it fails, as `no-spec`). On a green suite there is no third case. The strong instrument this node was created to ask for is therefore not merely hard to write without repo sight — on this tool surface it is **unwriteable with it**, and every instrument written here is weak by construction.
+
+This is worth separating from the sight argument because it changes what would fix it. Granting repo sight to more passes cannot close this; the grammar in `knowledge/instruments.ts` would have to admit a test-name filter, or the tree would have to accept that a builder's definition of done lives in the `threshold:` field rather than in the command — which is the reading the 2026-08-09 addendum already found evidence for, on n=1.
+
+**What this does not settle.** Whether admitting `-t` is a good idea. The stated reason for the closed form is that "an agent cannot author the outcome — only name the file", and a test-name filter is a string the agent chooses, so widening the grammar re-opens exactly the hole the closed form was built to shut. That trade is a design decision and is not made here. No test was run and this node's rung is unchanged.
+
+_Method: two `ost_set_instrument` calls made during this pass, and their verbatim refusals. First-party observation of the product's own tool boundary; grounds feasibility, not demand._
