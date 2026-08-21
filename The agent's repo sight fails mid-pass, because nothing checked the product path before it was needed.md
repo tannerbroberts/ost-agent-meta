@@ -86,6 +86,7 @@ _First-party observation by the unattended sweep of 2026-08-09, from its own suc
 
 ## Issues
 - 2026-08-11 2026-08-11 subset-extent flag vs "The same agent has a different tool surface on every surface I run it on" adjudicated: DISTINCT, keep as siblings, do not re-hang. "Every path the config declares is checked when the config is read, not when something reaches for it" repairs config-declared senses and does nothing about per-tool permission variance, which is the sibling's need (and the sibling's preflight solutions do not validate config paths). Subset extent is an artefact of a shared usage record. Sweep's own verdict; queued for human confirmation via "A human re-judges the first twelve extent flags against Torres's test".
+- 2026-08-21 subset evidence extent: every record this rests on (1) is part of what sibling "The same agent has a different tool surface on every surface I run it on" rests on (6) — a subset extent is a child, not a sibling; consider re-hanging it beneath "The same agent has a different tool surface on every surface I run it on", or cite the evidence that makes it a genuinely separate need
 
 ## Eighth sighting — the permission-denial channel recurs (unattended sweep, 2026-08-18)
 
