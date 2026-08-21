@@ -5,6 +5,7 @@ created: '2026-08-21'
 evidence: observed
 ---
 #Opportunity #build-loop #transcript-friction #unvalidated #evidence/observed
+[[A gitignored scratch directory inside the checkout, named in the build prompt, so a probe resolves like any repo file]]
 
 **The need (the build agent's voice):** "When I want to poke one module of the product — call a function, print what it returns — I write a ten-line script somewhere scratch, run it, and it dies on the import before it reaches my question. The turn is spent learning where Node resolves packages from, not learning what the module does."
 

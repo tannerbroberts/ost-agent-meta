@@ -5116,3 +5116,13 @@
 {"ts":"2026-08-21T17:52:29.506Z","tool":"ost_read_tree","ok":true,"ms":53,"surface":"mcp","argBytes":82,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
 {"ts":"2026-08-21T17:52:29.622Z","tool":"ost_read_tree","ok":true,"ms":52,"surface":"mcp","argBytes":72,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
 {"ts":"2026-08-21T17:53:04.765Z","tool":"ost_create_node","ok":true,"ms":14,"surface":"mcp","argBytes":3341,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946","wrote":["A probe I write outside the repo can't import the repo's modules, and only running it says so.md"]}
+{"ts":"2026-08-21T17:53:05.509Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":23,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:53:05.581Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:53:05.651Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":21,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:53:12.080Z","tool":"ost_next_work","ok":true,"ms":106,"surface":"mcp","argBytes":2,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:53:12.257Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:53:12.783Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:53:12.847Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:54:06.644Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:54:07.376Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":53,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946"}
+{"ts":"2026-08-21T17:54:18.611Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2168,"session":"mcp-495cc4f5-07e8-4f71-b607-a8ba83881946","wrote":["A gitignored scratch directory inside the checkout, named in the build prompt, so a probe resolves like any repo file.md"]}
