@@ -16,3 +16,13 @@ evidence: assertion
 **What it gives up.** Nothing enforces it. A probe left in `.scratch/` is invisible to git and therefore to review, which is the point for throwaway code and a liability the moment a probe grows into something worth keeping.
 
 ⚠️ Unvalidated. Agent-ideated from two transcript records; no operator has said the lost turn matters to them.
+
+## Definition of done
+
+"The build prompt names the in-checkout probe directory, gitignore excludes it, and a probe under it loads the repo's modules"
+
+```
+npx vitest run test/automation/build-pass-probe-location.test.ts
+```
+
+Red today as `no-spec` — the file is not written. The test node names the three assertions it must hold (the prompt heredoc names `.scratch/` and warns off `/tmp`; `.gitignore` lists `.scratch/`; a fixture under `.scratch/` importing `@modelcontextprotocol/sdk` and `../src/index.js` runs green under `npx tsx`), the first two of which fail against today's `examples/automation/build-pass.sh` and `.gitignore`. A green proves the location is named and resolves; it says nothing about whether a session follows the instruction or whether anyone wanted the turn back.
