@@ -17,3 +17,11 @@ evidence: assertion
 **Where it fails.** If the human never runs the command, the flags churn exactly as before — this candidate converts an undiscoverable clear into a discoverable ask, and the vault currently holds 49 asks with no recorded answer.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"An extents-unchanged ledger condition parses, holds while both siblings' extents match their recorded digest, and stops holding when either gains a citation"
+
+`npx vitest run test/ost/suppression-extent-condition.test.ts`
+
+No-spec red as of 2026-08-21: the file does not exist, so the command fails on "No test files found" and grants no permit until a builder writes the spec named on the test node — whose first assertion (`parseSuppressionCondition({ holdsWhile: "extents-unchanged", … })` does not throw `PROSE_REFUSAL`) then fails against today's `src/knowledge/suppressions.ts` for a reason specific to this solution.

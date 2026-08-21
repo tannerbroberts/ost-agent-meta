@@ -5210,3 +5210,4 @@
 {"ts":"2026-08-21T18:22:01.801Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2702,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a","wrote":["An extents-unchanged ledger condition parses, holds while both siblings' extents match their recorded digest, and stops holding when either gains a citation.md"]}
 {"ts":"2026-08-21T18:22:11.592Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":705,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
 {"ts":"2026-08-21T18:22:13.618Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":756,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
+{"ts":"2026-08-21T18:22:16.323Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":795,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
