@@ -25,3 +25,4 @@ The assumption is that a map small enough to carry is large enough to help. One 
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/runner/workspace-map-coverage.test.ts` — No test files found, exiting with code 1
+- 2026-08-21 **green** (exit 0) `npx vitest run test/runner/workspace-map-coverage.test.ts` — Duration  209ms (transform 18ms, setup 0ms, collect 19ms, tests 3ms, environment 0ms, prepare 26ms)
