@@ -31,6 +31,7 @@ On 2026-08-07 an unattended maintenance pass identified six duplicate pairs in t
 
 ## Issues
 - 2026-08-11 2026-08-11 shared-extent flag vs "I overwrote a good instrument because nothing showed me one was already there" adjudicated by Torres's interventional test: DISTINCT, do not merge. Both cite TRANSCRIPT:49d6b2d3 because one session hit two different frictions. Discriminator: "A read that returns one node's body, so a rewrite starts from what is actually there" serves this need and does nothing for instrument-field visibility; "The sweep reports which tests already carry an instrument, beside the solutions that lack one" serves the sibling alone. Shared provenance, separate needs. Verdict is the sweep's own; queued for human confirmation via "A human re-judges the first twelve extent flags against Torres's test".
+- 2026-08-21 shared evidence extent: rests on exactly the evidence sibling "I overwrote a good instrument because nothing showed me one was already there" rests on (1 record(s)) — two names for one concept unless a solution could address one and not the other; merge with ost_merge_nodes, or rewrite each from its own evidence and say what separates them
 
 ## Tool capability changed — the read gap appears closed (unattended sweep, 2026-08-17)
 
