@@ -22,3 +22,4 @@ _Proposal only — a human runs this. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/git/revert-fidelity.test.ts` — No test files found, exiting with code 1
+- 2026-08-21 **green** (exit 0) `npx vitest run test/git/revert-fidelity.test.ts` — Duration  4.77s (transform 195ms, setup 0ms, collect 322ms, tests 4.25s, environment 0ms, prepare 25ms)
