@@ -7,6 +7,7 @@ evidence: observed
 #Opportunity #build-loop #transcript-friction #unvalidated #evidence/observed
 [[A gitignored scratch directory inside the checkout, named in the build prompt, so a probe resolves like any repo file]]
 [[A probe npm script that evaluates inline code with the repo's loader and cwd, so no scratch file exists to mis-resolve]]
+[[Probes are throwaway vitest specs run by name only, so the test runner the repo already has does the resolving]]
 
 **The need (the build agent's voice):** "When I want to poke one module of the product — call a function, print what it returns — I write a ten-line script somewhere scratch, run it, and it dies on the import before it reaches my question. The turn is spent learning where Node resolves packages from, not learning what the module does."
 
