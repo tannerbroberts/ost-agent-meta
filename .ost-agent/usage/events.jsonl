@@ -5273,3 +5273,4 @@
 {"ts":"2026-08-21T22:32:02.818Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":89,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
 {"ts":"2026-08-21T22:32:02.948Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":80,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
 {"ts":"2026-08-21T22:32:44.026Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":3709,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4","wrote":["The build-pass invocation denies Write on its own automation-script paths while still granting Write elsewhere.md"]}
+{"ts":"2026-08-21T22:32:54.091Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":1100,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}

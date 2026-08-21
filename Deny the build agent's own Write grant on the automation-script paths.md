@@ -20,3 +20,17 @@ Scope the build agent's own `Write` permission grant to exclude `examples/automa
 So the open feasibility question this assumption names — can `Write`/`Edit` be scoped to exclude specific paths within one invocation, rather than denied wholesale — is not settled by what is currently deployed; neither script currently exercises that finer grain, which is evidence of absence in the current code, not proof the CLI itself lacks the capability. Confirming it either way needs someone to consult Claude Code's own permission-flag documentation or try a path-scoped rule directly, which is outside what `ost_read_repo` (scoped to this product's repo) can settle.
 
 _Source: this pass's own `ost_read_repo` reads of both automation scripts — first-party observation of the repository. Grounds feasibility, not desirability._
+
+## Definition of done
+
+"The build-pass invocation denies Write on its own automation-script paths while still granting Write elsewhere"
+
+```
+npx vitest run test/automation/build-pass-write-scope.test.ts
+```
+
+The spec reads `examples/automation/build-pass.sh` as text (the technique `test/automation/build-pass-reports.test.ts` already uses seven times) and asserts two things: that the invocation's permission flags exclude `examples/automation/**` from Write and Edit, and that the same invocation still grants Write on a non-automation path. The second assertion is load-bearing — without it a blanket `Write` deny would satisfy this and defeat the point.
+
+Named in plain quoted text rather than as a wikilink: the test is linked exactly once, by the Assumption above it, and a second link would fail the single-backlink invariant.
+
+This is feasibility only. Whether any legitimate firing still needs to write those paths is the sibling assumption's question, and it is with the operator.
