@@ -5324,3 +5324,4 @@
 {"ts":"2026-08-21T23:46:28.982Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:46:30.269Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":21,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:47:01.262Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":5894,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:47:18.624Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2860,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
