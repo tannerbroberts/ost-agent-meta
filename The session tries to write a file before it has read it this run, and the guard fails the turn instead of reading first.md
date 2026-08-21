@@ -18,6 +18,7 @@ Observed directly in, e.g., TRANSCRIPT:0459d729-8ee3-43fc-ae1f-f05928ad84e2, TRA
 
 ## Issues
 - 2026-08-17 shared-extent flag vs "Merging a build branch conflicts on the compiled dist file from a concurrent firing, stalling the run" adjudicated by Torres's interventional test: DISTINCT, keep as siblings, do not merge. Both cite TRANSCRIPT:0459d729-8ee3-43fc-ae1f-f05928ad84e2 only because one session hit both frictions. A read-before-write ordering fix (e.g. auto-reading unread files) does nothing about a merge conflict on a compiled artifact, and removing the dist/ file from version control does nothing about write-before-read ordering. Shared provenance, separate needs.
+- 2026-08-21 shared evidence extent: rests on exactly the evidence sibling "Merging a build branch conflicts on the compiled dist file from a concurrent firing, stalling the run" rests on (1 record(s)) — two names for one concept unless a solution could address one and not the other; merge with ost_merge_nodes, or rewrite each from its own evidence and say what separates them
 
 ## Corroboration — nine more instances, unattended sweep (2026-08-17)
 
