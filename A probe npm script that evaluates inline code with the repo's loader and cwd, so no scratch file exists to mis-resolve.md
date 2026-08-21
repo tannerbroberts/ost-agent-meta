@@ -16,3 +16,13 @@ evidence: assertion
 **What it gives up.** Shell quoting. A probe containing both single and double quotes is painful to pass through `npm run -- '…'`, which is a new friction traded for the old one.
 
 ⚠️ Unvalidated. Agent-ideated from two transcript records; no operator has said the lost turn matters to them.
+
+## Definition of done
+
+"The probe script exists and an inline import of a bare package and a ./src path both load under it"
+
+```
+npx vitest run test/tools/probe-script.test.ts
+```
+
+Red today as `no-spec` — the file is not written. The test node names the two assertions it must hold (`package.json` has a `probe` script invoking `tsx -e`; spawning it with an inline import of `zod` and `./src/index.js` exits 0 and prints `probe-ok:function`), the first of which fails against today's `package.json` (scripts: `build`, `bundle`, `dev`, `gen:skill`, `test`, `test:watch` — no `probe`). A green proves evaluated code resolves from the repo root; it says nothing about whether an agent reaches for the command unprompted or whether anyone wanted the turn back.
