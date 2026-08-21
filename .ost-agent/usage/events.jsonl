@@ -5345,3 +5345,4 @@
 {"ts":"2026-08-21T23:52:14.909Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3104,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:52:51.623Z","tool":"ost_create_node","ok":true,"ms":50,"surface":"mcp","argBytes":4802,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14","wrote":["A pre-firing reset is refused while either loop's lock is live, and runs only when neither is.md"]}
 {"ts":"2026-08-21T23:53:08.333Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3397,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:53:54.497Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4067,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}

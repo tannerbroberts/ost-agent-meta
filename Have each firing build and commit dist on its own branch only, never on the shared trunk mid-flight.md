@@ -14,3 +14,21 @@ Leave dist/ checked in and built normally, but change when it's committed: build
 
 ## Issues
 - 2026-08-17 Assumption surfaced ("Firings rarely finish close enough together to still collide even with a serialized commit point") but its test is not created: settling it needs a count of how often firings actually overlap, which this pass has no data source for. Left for an attended pass or human to design against real firing-schedule data.
+
+## Repo sight and vault sight this pass — one assumption is contradicted, the other's blocker is half-discharged (unattended sweep, 2026-08-21)
+
+**The second assumption looks false as written, on committed code.** "Nothing downstream needs dist present and current on the shared trunk between firings" — two consumers say otherwise. `examples/automation/build-pass.sh` sets `CLI="$OST_AGENT_DIR/dist/ost-agent.mjs"` and invokes `node "$CLI"` for six calls on every firing (`build-check`, `gate`, `buildable`, `verify`, `check`, `debt`), with no build step anywhere in the script; `examples/automation/github-workflow.yml` points its MCP config at `node "$SRC/dist/ost-agent.mjs"` on a fresh runner that never installs this project or builds it.
+
+Read strictly, that contradicts the assumption: the build loop needs the bundle present on whatever checkout `$OST_AGENT_DIR` names, between firings, because it has no other way to get one. Read charitably, the assumption may mean *current* rather than *present* — a slightly stale bundle might serve — and that is a real distinction this candidate could survive on. Either way the assumption as worded no longer stands unexamined, and whoever picks this up should re-word it before testing it. Not edited here: choosing between "present" and "current" changes what the candidate claims, and that is the author's call rather than a sweep's.
+
+**The first assumption's stated blocker is half-discharged.** The Issues note says settling "firings rarely finish close enough together to collide" needs a count of how often firings actually overlap, "which this pass has no data source for". A data source now exists and did not when that was written: `.ost-agent/census-history/firings.jsonl`, added in v0.23, records one line per check-phase firing — `{"ts":"2026-08-21T17:57:06.372Z","command":"check","examined":1376,...}`.
+
+It is not sufficient on its own, and the gap is specific enough to be worth naming rather than glossing. **It records instants, not intervals.** Each line is one timestamp at one point inside a firing, with no start, no end, and no loop identity — so two firings overlapping is not a question this file can answer, however many lines it accumulates. What it can give is a lower bound on cadence and a spine to join against: the session transcripts under `.ost-agent/evidence/TRANSCRIPT_*.md` carry their own timestamps, and pairing the two could estimate durations. That is an inference, not a measurement, and it should be labelled as one.
+
+So the honest restatement of the blocker: it is no longer "no data source" but "no recorded interval". The cheapest thing that would make this assumption testable at all is for a firing to record when it started and when it stopped, and which loop it was — which is a small change to the same census that already writes this file, and would turn an inference into a measurement.
+
+**Why this matters beyond this node.** The build loop and the discovery loop hold separate locks and, per `build-pass.sh`'s own comments, "neither waits on the other" — so overlap is not a rare pathology to be ruled out but a designed-in possibility. A candidate whose whole case rests on overlap being rare is resting on something the architecture does not promise, and that is the risk to weigh rather than the frequency.
+
+No test is created here. Writing one against an interval nothing records would be a spec for a measurement that cannot be taken, and re-wording the second assumption is the author's decision, not this pass's.
+
+_Sources: this pass's `ost_read_repo` reads of examples/automation/build-pass.sh and examples/automation/github-workflow.yml, and a direct read of this vault's own `.ost-agent/census-history/firings.jsonl`. First-party reads of committed code and stored records; grounds feasibility, not demand. No command executed, no result recorded, rung unchanged._
