@@ -80,3 +80,23 @@ Ingest captured 1 new `TRANSCRIPT:` record (`d1d7f923-ee88-406a-ad38-df34a006413
 ## 2026-08-17 (third unattended firing today) — 2 new items, no new opportunity
 
 Ingest captured 2 new `TRANSCRIPT:` records (`782edd91-f604-4324-9747-be995feccc5c`, `f41328cf-5a4d-4658-a32a-acd9a6ad7bdf`) since the second firing's census, which stood at 240. Both read in full. `782edd91` is 2 `retry` events with no other content — the already-mapped "retry noise" family. `f41328cf` is 5 events: two `File has not been read yet` refusals ("The file changed after I read it, and the failed edit is how I find out"), one `InputValidationError` on a Read call's malformed JSON ("I compose a hundred and seventy lines before the surface tells me it does not accept that dialect"), and one new shape — a Bash call to `api.github.com/graphql` returning exit 1 / HTTP 503, a transient upstream outage rather than a tool-permission or dialect problem. That fourth event does not fit any of the five censused signatures cleanly; it is one occurrence, so per the standing rule it is noted here rather than minted as its own opportunity, but a human should watch whether it recurs — an unattended pass treating a transient 503 as a hard failure is a different risk than the permission/dialect/edit-refusal families this node already tracks. `unmappedEvidence` now 251 (before this firing's other work). Skipped per the standing rule; nothing new to map.
+
+## Whole-channel census by tool-error class, 2026-08-21 — 351 unmapped, nothing new to map, two classes the earlier tables did not name
+
+One `Grep` over every `TRANSCRIPT_*` record in `.ost-agent/evidence/` (702 `tool_error` lines; retries not counted) rather than a sample. `unmappedEvidence` stands at 351, all transcript records. Every class found already has a node:
+
+| Class | Sessions (approx.) | Already mapped at |
+|---|---|---|
+| `File has not been read yet` (Write/Edit) | ~160 | "The session tries to write a file before it has read it this run…" |
+| `requested permissions to read from /Users/tanner/…` (Glob/Grep/Read) | ~60 | "The unattended run is scoped for tools nobody granted it…" / repo-sight node |
+| zsh `=`-expansion — `(eval):1: == not found` on an unquoted `===` banner | ~22 | "A string I meant literally is read as syntax…" / "I repeat one shell mistake five times in a session…" |
+| `ScheduleWakeup`: `prompt` is required when `stop` is not true | ~17 | cited on "Two thirds of my calls failed…" and "My unattended runs recover from tool errors…" |
+| `Blocked: sleep N followed by …` / Monitor `command_substitution` / `multiple operations` | ~25 | "The Monitor tool refuses the exact commands an unattended run needs…" |
+| `InputValidationError` (Read JSON, Glob/Grep params) | ~20 | "I compose a hundred and seventy lines before the surface tells me…" |
+| `Cannot find module` / `ERR_MODULE_NOT_FOUND` from a `/private/tmp` probe | ~12 | the probe-scratch solutions added 2026-08-21 under the build-loop branch |
+| `cat: test/…: No such file` (existence check by cat) | ~20 | tracked as noise on the read-before-write node |
+| one-offs: `tac`/`tmux` not found, Workflow parse error, EAGAIN, 503s, git exit 128 | ≤3 each | 503s on the load-vs-breakage node; the rest noise |
+
+Two rows are new to these tables, not to the tree: the zsh `=`-expansion banner (an unquoted `echo === …` in a zsh `eval`) and the `ScheduleWakeup` call with neither `stop` nor `prompt`, which is the loop skill ending a pass with a malformed wake-up in roughly one session in twenty. Both already sit on named nodes, so per the standing rule no opportunity was minted; the counts are here so whoever picks a normaliser knows the third and fourth largest shapes after the two the 2026-08-10 census led with.
+
+_Method: one `Grep -o` over the evidence directory, read in full; first-party. No record discharged — discharge still needs a node citing the id, which is this node's point._
