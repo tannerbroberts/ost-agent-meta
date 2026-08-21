@@ -5334,3 +5334,7 @@
 {"ts":"2026-08-21T23:49:16.289Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1583,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:49:50.314Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3200,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:50:00.427Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:50:02.076Z","tool":"ost_next_work","ok":true,"ms":286,"surface":"mcp","argBytes":2,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:50:15.424Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:50:17.057Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":43,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
+{"ts":"2026-08-21T23:50:48.170Z","tool":"ost_create_node","ok":true,"ms":74,"surface":"mcp","argBytes":4583,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14","wrote":["Two firings in per-firing worktrees leave the shared checkout clean with the residue waiver switched off.md"]}

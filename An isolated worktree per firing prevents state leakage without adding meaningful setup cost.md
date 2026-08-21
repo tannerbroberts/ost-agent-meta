@@ -5,6 +5,7 @@ created: '2026-08-17'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Two firings in per-firing worktrees leave the shared checkout clean with the residue waiver switched off]]
 
 Feasibility/cost assumption: creating a fresh worktree per firing actually stops one firing's edits (including an edit to the automation scripts) from being inherited by the next firing's checkout, and the setup/teardown cost of doing this every firing is small enough not to matter against how often firings run.
 
