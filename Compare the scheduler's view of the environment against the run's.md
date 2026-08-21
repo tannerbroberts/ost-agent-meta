@@ -27,3 +27,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/loop/preflight-parity.test.ts` — No test files found, exiting with code 1
+- 2026-08-21 **green** (exit 0) `npx vitest run test/loop/preflight-parity.test.ts` — ✓ a dispatch the run does not match — the control that lets this instrument fail > a run started from another directory with another PATH is recorded as a disagreement 1549ms
