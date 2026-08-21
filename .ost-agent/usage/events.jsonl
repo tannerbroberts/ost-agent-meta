@@ -5338,3 +5338,4 @@
 {"ts":"2026-08-21T23:50:15.424Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:50:17.057Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":43,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
 {"ts":"2026-08-21T23:50:48.170Z","tool":"ost_create_node","ok":true,"ms":74,"surface":"mcp","argBytes":4583,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14","wrote":["Two firings in per-firing worktrees leave the shared checkout clean with the residue waiver switched off.md"]}
+{"ts":"2026-08-21T23:51:03.561Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2913,"session":"mcp-01fc2da7-53ef-49a2-be1f-d80fe5f53b14"}
