@@ -5,6 +5,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Normalized duplicate pairs clear the dedupe bar that their raw titles fail, and distinct siblings stay below it]]
 
 Feasibility assumption, and it is separable from the desirability one beside it. "A reader still recognizes their own need after normalization" asks whether the rewriting costs too much of the customer's voice — that needs readers. This asks the prior question: whether normalization does the mechanical job at all.
 
