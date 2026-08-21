@@ -5065,3 +5065,4 @@
 {"ts":"2026-08-21T11:01:42.441Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":31,"session":"mcp-66d8a59b-6693-4da6-abe9-15896c4739a0"}
 {"ts":"2026-08-21T11:01:42.504Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":23,"session":"mcp-66d8a59b-6693-4da6-abe9-15896c4739a0"}
 {"ts":"2026-08-21T11:09:59.008Z","tool":"ost_set_status","ok":true,"ms":2,"surface":"mcp","argBytes":735,"session":"mcp-66d8a59b-6693-4da6-abe9-15896c4739a0"}
+{"ts":"2026-08-21T11:10:03.197Z","tool":"ost_set_status","ok":true,"ms":2,"surface":"mcp","argBytes":936,"session":"mcp-66d8a59b-6693-4da6-abe9-15896c4739a0"}
