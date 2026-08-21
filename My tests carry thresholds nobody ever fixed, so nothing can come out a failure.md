@@ -61,3 +61,28 @@ describes: verified fact about our own system, weighted like founder theory.
 
 ## History
 - 2026-08-05 unlinked "Do named unfixed thresholds actually get fixed" — not a parent-child relation the OST hierarchy supports — every tree walk counted it as structure, so a cross-reference read as a child
+
+## Why this matters more than the node already claims — and the tool gap that blocks repairing it (2026-08-21 unattended sweep)
+
+This node argues the case on rigour: an unfixed bar means every outcome reads as a pass. Reading `src/eval/buildable.ts` this pass turns that into something sharper and more mechanical — **threshold-boundness is what decides whether a solution reaches a builder at all.**
+
+`confirmPermit` treats a `no-spec` run (the instrument names a spec nobody has written) conditionally:
+
+```
+if (observed.observation === "no-spec") {
+  if (permit.thresholdBound) return permit;   // permit stands
+  return { cleared: false, … }                // nothing to build to
+}
+```
+
+A weak red keeps its build permit **if and only if** the test carries a bound threshold. The code justifies this from a real lifecycle in this vault — "Declare a required tool set and check a pass refuses before doing any work", red 2026-08-06 with "No test files found", green 2026-08-07, where the builder found the path empty and built to the pre-committed bar instead.
+
+So an unfixed threshold is not only an epistemic problem. It is the difference between a test that hands a builder a definition of done and one that hands them nothing — and given that an agent cannot author spec files (see "A pass that cannot see the repository cannot set an instrument at all"), the threshold is frequently the *only* thing carrying that definition. The rollup's per-bucket counts of tests stating no fixed bar are therefore a direct count of permits that cannot survive contact with `confirmPermit`.
+
+**The tool gap.** No tool on any agent surface sets a threshold on a test that already exists. `ost_create_node` accepts a `threshold` argument at creation; after that there is nothing — `ost_set_instrument`, `ost_set_status` and `ost_set_evidence` each own their field, `ost_edit_node` takes prose only and explicitly leaves frontmatter untouched, and no `ost_set_threshold` exists. This is a genuine asymmetry with the instrument field: `ost_set_instrument` exists precisely so passes can retrofit tests written before instruments existed, and its tool description makes that argument at length ("Use this to work through tests written before instruments existed"). The identical argument applies to thresholds, and the identical tool is absent.
+
+The consequence is that every existing test with an unfixed bar is unrepairable from an agent surface, however clearly a pass can see what the bar should be. This sweep hit it directly: it could give three new tests bound thresholds at creation and could not fix a single existing one.
+
+**For a human:** this looks like a missing sibling to `ost_set_instrument` rather than a design decision — but it may be deliberate (a threshold is a pre-commitment, and letting an agent revise one after the fact is exactly how a bar gets moved to meet a result). If it is deliberate, that reasoning deserves recording, because the asymmetry currently reads as an oversight. If it is not, the repair is small and unblocks the lever this node is about.
+
+_First-party read of this product's own source via `ost_read_repo`, plus the tool surface this sweep actually held. Grounds feasibility only; rung unchanged at the floor._
