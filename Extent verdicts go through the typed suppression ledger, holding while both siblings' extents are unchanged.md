@@ -6,6 +6,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[An extent-equality condition evaluates without judgement against the tree alone and stops holding when either sibling's citations change]]
 
 **Mechanism.** The product already ships a suppression ledger with typed, judgement-free conditions — `src/knowledge/suppressions.ts`, pinned by `test/ost/suppression-condition.test.ts`: `status-is`, `lane-is`, `lane-unlabelled`, `section-missing`, each a boolean over the tree alone, each reviving the item the moment the fact flips, and each refusing prose. Add one condition kind, `extents-unchanged`, over a sibling pair: it holds while the evidence extent of each named node equals the digest recorded when the verdict was entered, and stops holding when either side gains or loses a citation. An extent verdict then lives on the ledger like every other decline, is disclosed on every `ost_next_work` response under `suppressedByCondition`, and carries `by` and `reason` — and the write path stays what the ledger's own spec says it must be: the CLI's, not any agent tool's.
 
