@@ -5,6 +5,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Solution #build-loop #unvalidated #evidence/assertion
+[[Inline code handed to tsx from the repo root resolves bare packages and . src paths the same way a checked-in file does]]
 
 **Variation dimension: automated-vs-manual — position: the resolution is automated; the probe's authorship stays manual.** `package.json` gains a `probe` script — `tsx -e` pinned to the repo root — so the agent runs `npm run probe -- 'import { x } from "./src/ost/thing.js"; console.log(await x())'` and the code is evaluated where bare packages and `./src` paths both resolve. There is no file, so there is no place for the file to be wrong. What is deliberately left manual is writing the probe itself: the script does not guess what the agent wants to see, it only guarantees that whatever the agent writes will load.
 
