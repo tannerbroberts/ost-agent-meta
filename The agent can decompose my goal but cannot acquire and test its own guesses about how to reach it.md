@@ -14,17 +14,20 @@ evidence: assertion
 
 **Boundary this node deliberately draws.** The source note admits two readings: (a) build goal acquisition *beneath* the human-set mandate — agent-formed sub-goals plus unattended claim-testing; (b) relax the never-originate-the-mandate invariant itself. This node records reading (a) only. Reading (b) is a mandate change, is the founder's decision alone, and nothing in the source note or this node proposes it.
 
-**Why no solutions hang here yet.** Two recorded holds counsel against founder-theory ideation in this region: the altitude branch beside this node is evidence-debt-gated ("no new siblings until a non-founder artifact cites the row"), and the trust umbrella carries a 2026-07-25 hold on new growth until external returning operators exceed zero. This node maps the evidence so the need is on the tree; whether to ideate under it is left to an attended pass or a human, deliberately.
-
 **For a human to review alongside this:** the source note names an adjacent undecided duplicate — sub-outcome vs milestone, two instruments about to build one intermediate layer under two names, deciding question whether nesting is recursive.
 
 **Provenance caveat:** Founder spoken theory, recorded in session, rung `assertion`. This is a hypothesis about a need, not an observed need; no evidentiary weight until a non-founder artifact corroborates it.
 
+## Standing hold: no ideation here without a human or an attended pass
+
+**Why no solutions hang here.** Two recorded holds counsel against founder-theory ideation in this region: the altitude branch beside this node is evidence-debt-gated ("no new siblings until a non-founder artifact cites the row"), and the trust umbrella carries a 2026-07-25 hold on new growth until external returning operators exceed zero. This node maps the evidence so the need is on the tree; whether to ideate under it is left to an attended pass or a human, deliberately.
+
+**Expect this node to appear under-served.** `ost_next_work` lists it at 0 of 3 solutions and will keep doing so until a human or attended pass lifts the hold. That counter is not a defect and clearing it by ideating would be silent re-architecture — an unattended pass overriding a recorded hold to satisfy a counter.
+
+**Respected by four consecutive unattended sweeps:** 2026-08-10, 2026-08-18, 2026-08-19 and 2026-08-21. Each read the prose before acting on the counter and declined to ideate. Recorded once here rather than re-annotated per pass; git holds the individual entries.
+
 ## Issues
-- 2026-08-10 2026-08-10 unattended sweep — ost_next_work lists this node as under-served (0 of 3 solutions), and this pass deliberately did not ideate under it. The node's own prose records a same-day decision that ideation here is "left to an attended pass or a human, deliberately", grounded in two regional holds (the altitude branch's evidence-debt gate and the trust umbrella's 2026-07-25 hold on new growth). An unattended pass overriding a recorded hold to satisfy the under-served counter would be silent re-architecture. Future sweeps: expect this node to appear under-served until a human or attended pass lifts the hold; read the prose before acting on the counter.
-- 2026-08-18 2026-08-18 unattended sweep — still under-served (0 of 3 solutions), still deliberately not ideated. The node's own prose (2026-08-10 Issues entry) records a hold on new growth here pending an attended pass or a human, grounded in the altitude branch's evidence-debt gate and the trust umbrella's 2026-07-25 hold. Respected again this pass rather than overridden to clear the counter.
-- 2026-08-19 2026-08-19 unattended sweep — still under-served (0 of 3 solutions), still deliberately not ideated. The 2026-08-10 and 2026-08-18 Issues entries record a hold on new growth here pending an attended pass or a human, grounded in the altitude branch's evidence-debt gate and the trust umbrella's 2026-07-25 hold. Respected again this pass rather than overridden to clear the counter.
+- 2026-08-21 Consolidated four near-identical hold annotations (2026-08-10, -18, -19 ×2 — the last written both as an Issues bullet and as a duplicate standalone section) into the standing hold above. No claim dropped. Future sweeps: add a dated line to the sweep list above rather than a new annotation.
 
-## 2026-08-19 unattended sweep — still under-served (0 of 3 solutions), still deliberately not ideated
-
-The 2026-08-10, 2026-08-18 (and now this) Issues entries record a hold on new growth here pending an attended pass or a human, grounded in the altitude branch's evidence-debt gate and the trust umbrella's 2026-07-25 hold. Respected again this pass rather than overridden to clear the counter.
+## History
+- 2026-08-21 body edited — Three sweeps (2026-08-10, -18, -19) appended near-identical annotations recording that the ideation hold was respected, and the 2026-08-19 one was written twice — once as an Issues bullet and again as a standalone section with the same text. Folding the four into one standing note: the fact worth keeping is that the hold exists and has now been respected by four consecutive sweeps, not four separate assertions of it. No claim dropped; git holds the prior text.
