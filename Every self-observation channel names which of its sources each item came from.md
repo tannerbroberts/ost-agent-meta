@@ -60,3 +60,6 @@ A check that cannot distinguish "not yet harvested" from "does not exist" produc
 Any humility about the ladder is warranted here. The four nodes rested on `observed` while pointing at nothing, for some hours, and nothing in the tree noticed except a rule that fires after the fact.
 
 Provenance: this pass, 2026-08-06, first-party — the ingest and the cleared check were both observed directly.
+
+## History
+- 2026-08-21 status: shipped → shipped — Promotion to shipped recorded with reasoning so trustsShippedStatus (src/eval/shipped-audit.ts) stops reporting this node as instrument debt; its History carried no promotion line. Verified against the repository this pass via ost_read_repo directory listings: every file this node names outside a code fence exists — test/adapters/transcript.test.ts, test/runner/context.test.ts and src/loop/corrections.ts — which is the path-resolution half of the shipped audit (auditShippedSolutions), and the per-item `actor` stamp the idea describes is live in src/processes/tree.ts (writeEvidence takes `actor` as a separate argument and readEvidenceScan fails closed to `unknown`). The fenced test/adapters/source-attribution.test.ts is a definition of done for a follow-on and is excluded from the audit by design; it also exists now. Read, not run: the spec files were listed, not executed; no result recorded, not a validation.
