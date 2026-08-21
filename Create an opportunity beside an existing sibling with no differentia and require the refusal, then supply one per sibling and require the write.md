@@ -32,3 +32,4 @@ sight: grounded
 - 2026-08-20 **no-spec** (exit none) `npx vitest run test/ost/sibling-differentia-guard.test.ts` — test/ost/sibling-differentia-guard.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-20 **no-spec** (exit none) `npx vitest run test/ost/sibling-differentia-guard.test.ts` — test/ost/sibling-differentia-guard.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-20 **no-spec** (exit none) `npx vitest run test/ost/sibling-differentia-guard.test.ts` — test/ost/sibling-differentia-guard.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-21 **no-spec** (exit none) `npx vitest run test/ost/sibling-differentia-guard.test.ts` — test/ost/sibling-differentia-guard.test.ts does not exist — no spec was collected, so nothing was measured
