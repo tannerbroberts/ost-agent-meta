@@ -26,3 +26,4 @@ The assumption is that the calibration workload degrades the same way the real o
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/eval/calibration-ratio-stability.test.ts` — No test files found, exiting with code 1
 - 2026-08-20 **no-spec** (exit none) `npx vitest run test/eval/calibration-ratio-stability.test.ts` — test/eval/calibration-ratio-stability.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-21 **green** (exit 0) `npx vitest run test/eval/calibration-ratio-stability.test.ts` — 0 spinners: 277ms raw, 135ms calibration, 2.03× [280/173=1.62 279/137=2.03 277/135=2.05 278/137=2.02 276/135=2.05 276/136=2.02 279/135=2.06 275/134=2.05 274/135=2.02]
