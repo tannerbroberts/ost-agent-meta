@@ -23,3 +23,6 @@ sight: grounded
 **What a green does NOT settle.** Whether a pass writes "MERGE" in a verdict and never merges; the matcher never reads the verdict's content, so that misuse is invisible to this spec and observable only across firings.
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## Instrument Log
+- 2026-08-21 **no-spec** (exit none) `npx vitest run test/ost/extent-clear-by-pair.test.ts` — test/ost/extent-clear-by-pair.test.ts does not exist — no spec was collected, so nothing was measured

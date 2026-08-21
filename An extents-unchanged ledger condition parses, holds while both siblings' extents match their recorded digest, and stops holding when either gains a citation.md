@@ -23,3 +23,6 @@ sight: grounded
 **What a green does NOT settle.** Whether a human ever writes the ledger entry; the write path is the CLI's by design, so desirability here is a person's willingness to run one command per verdict, which only firings over time can show.
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## Instrument Log
+- 2026-08-21 **no-spec** (exit none) `npx vitest run test/ost/suppression-extent-condition.test.ts` — test/ost/suppression-extent-condition.test.ts does not exist — no spec was collected, so nothing was measured
