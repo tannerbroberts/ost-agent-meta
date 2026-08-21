@@ -17,3 +17,11 @@ evidence: assertion
 **What it deliberately gives up.** Any verdict written before the text changed still does not match; the twelve cleared on 2026-08-21 were cleared by hand. And a pass that reads the instruction and still paraphrases is not helped — the belief this rests on is that disclosure is what was missing, not discipline.
 
 ⚠️ Unvalidated. Agent-ideated.
+
+## Definition of done
+
+"Every extent issue string names ost_annotate with its own text as a disposition, and annotating with that full string still clears the flag"
+
+`npx vitest run test/ost/extent-issue-names-clear.test.ts`
+
+No-spec red as of 2026-08-21: the file does not exist, so the command fails on "No test files found" and grants no permit until a builder writes the spec named on the test node — whose first assertion (`toContain("ost_annotate")` on each of the three issue strings) then fails against today's `src/ost/extent.ts` for a reason specific to this solution.
