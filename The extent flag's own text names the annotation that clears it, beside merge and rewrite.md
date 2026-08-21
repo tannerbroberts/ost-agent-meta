@@ -6,6 +6,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A clear the scanner states in its own issue text is one a pass will quote rather than paraphrase]]
 
 **Mechanism.** The issue string `scanExtentOverlap` emits today ends with two dispositions — "merge with ost_merge_nodes, or rewrite each from its own evidence and say what separates them". Add the third one the code already honours: "or, if a solution could address one and not the other, `ost_annotate` this node with this exact text to record the pair as distinct". Nothing else changes: the key stays the whole issue string, so a clear still expires the moment either sibling's extent changes (the record counts are part of the string), and the matching code in `detectHygiene` is untouched.
 
