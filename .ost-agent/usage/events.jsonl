@@ -5239,3 +5239,37 @@
 {"ts":"2026-08-21T19:26:05.735Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-2e942ce2-573b-4661-a7aa-fd457bbce16a"}
 {"ts":"2026-08-21T19:26:15.122Z","tool":"ost_next_work","ok":true,"ms":89,"surface":"mcp","argBytes":2,"session":"mcp-2e942ce2-573b-4661-a7aa-fd457bbce16a"}
 {"ts":"2026-08-21T22:27:55.776Z","tool":"ost_ingest_inbox","ok":true,"ms":37,"surface":"mcp","argBytes":2,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:27:57.404Z","tool":"ost_next_work","ok":true,"ms":199,"surface":"mcp","argBytes":2,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:28:04.621Z","tool":"ost_next_work","ok":true,"ms":68,"surface":"mcp","argBytes":62,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:28:09.187Z","tool":"ost_next_work","ok":true,"ms":11,"surface":"mcp","argBytes":62,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:28:26.672Z","tool":"ost_next_work","ok":true,"ms":70,"surface":"mcp","argBytes":62,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:28:37.655Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":119,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:28:45.716Z","tool":"ost_next_work","ok":true,"ms":77,"surface":"mcp","argBytes":62,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:28:55.522Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":71,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:29:03.756Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":61,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:29:14.045Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":66,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:29:23.359Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":108,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:29:51.748Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:02.243Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":24,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:02.316Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":25,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:04.320Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":80,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:13.038Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":113,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:17.312Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:19.438Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:19.504Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:23.825Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:24.155Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:37.709Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":64,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:38.408Z","tool":"ost_read_tree","ok":true,"ms":58,"surface":"mcp","argBytes":80,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:38.530Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":73,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:51.930Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":26,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:52.501Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":122,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:30:52.618Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":140,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:31:06.650Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":53,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:31:31.601Z","tool":"ost_create_node","ok":false,"ms":0,"surface":"mcp","argBytes":3350,"err":"\"The build-pass invocation denies Write on its own automation-script paths while still granting Write elsewhere\" cannot carry that instrument: \"npx vitest run test/automation/build-pass-reports.test.ts -t \"the build agent cannot write the scripts that govern it\"\" contains shell punctuation. Instrume","session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:31:41.988Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:31:43.444Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:31:50.855Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":39,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:32:02.818Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":89,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:32:02.948Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":80,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:32:44.026Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":3709,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4","wrote":["The build-pass invocation denies Write on its own automation-script paths while still granting Write elsewhere.md"]}

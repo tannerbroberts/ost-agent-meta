@@ -5,6 +5,7 @@ created: '2026-08-17'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The build-pass invocation denies Write on its own automation-script paths while still granting Write elsewhere]]
 
 Feasibility assumption: revoking Write on the automation-script paths closes the hole (a build session editing the scripts that govern every future firing) without also blocking legitimate build work that never needs to touch those paths. If normal build tasks occasionally DO need to edit automation scripts (e.g. shipping a fix to the loop itself), a blanket deny either breaks that class of work or has to be special-cased, which reopens the same hole through the exception.
 
