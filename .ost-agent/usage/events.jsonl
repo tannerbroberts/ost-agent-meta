@@ -5284,3 +5284,11 @@
 {"ts":"2026-08-21T22:35:15.189Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":3437,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4","wrote":["Normalized duplicate pairs clear the dedupe bar that their raw titles fail, and distinct siblings stay below it.md"]}
 {"ts":"2026-08-21T22:35:22.555Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1281,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
 {"ts":"2026-08-21T22:35:24.591Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:35:26.405Z","tool":"ost_next_work","ok":true,"ms":363,"surface":"mcp","argBytes":2,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:35:35.944Z","tool":"ost_read_tree","ok":true,"ms":150,"surface":"mcp","argBytes":81,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:35:43.022Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:35:44.705Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:35:46.287Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:36:03.851Z","tool":"ost_read_tree","ok":true,"ms":136,"surface":"mcp","argBytes":146,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:36:08.126Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":51,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4"}
+{"ts":"2026-08-21T22:36:38.897Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":4514,"session":"mcp-33692be9-34df-43ee-ad74-21469c5165f4","wrote":["buildableSolutions drops a deferred solution that still carries a red instrument.md"]}
