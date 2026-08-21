@@ -22,3 +22,4 @@ _Proposal only — a human runs/reviews this. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/eval/golden-set-discrimination.test.ts` — No test files found, exiting with code 1
+- 2026-08-21 **green** (exit 0) `npx vitest run test/eval/golden-set-discrimination.test.ts` — Duration  317ms (transform 78ms, setup 0ms, collect 125ms, tests 4ms, environment 0ms, prepare 28ms)
