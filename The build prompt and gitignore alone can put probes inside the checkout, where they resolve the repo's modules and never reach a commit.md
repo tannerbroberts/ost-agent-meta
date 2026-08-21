@@ -5,6 +5,7 @@ created: '2026-08-21'
 evidence: assertion
 ---
 #Assumption #feasibility #build-loop #unvalidated #evidence/assertion
+[[The build prompt names the in-checkout probe directory, gitignore excludes it, and a probe under it loads the repo's modules]]
 
 **The belief (feasibility).** Naming a `.scratch/` directory in `examples/automation/build-pass.sh`'s prompt and listing it in `.gitignore` is sufficient: a TypeScript file under that directory resolves `@modelcontextprotocol/sdk` from the repo's `node_modules` and `./src/...` from the repo root when run with `npx tsx`, and nothing the build loop does (`git add`, the postflight commit) can carry it into a commit.
 
