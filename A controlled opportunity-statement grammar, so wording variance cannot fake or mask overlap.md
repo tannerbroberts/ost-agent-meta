@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[A reader still recognizes their own need after normalization]]
+[[Normalization raises the similarity score of two statements of one need above the bar their raw wording fails]]
 
 **Mechanism:** an Ulwick-style controlled grammar for opportunity statements — situation, struggle, desired progress, in the customer's voice — applied as a normalization step before any comparison runs. Two statements of one need converge toward one wording; two needs stop being mistaken for one because they happened to share vocabulary. This attacks the exact blind spot the parent records: title-token Jaccard scored two names for the identical work item at 0.29, and no extent arithmetic can see overlap between nodes whose citations are disjoint.
 
