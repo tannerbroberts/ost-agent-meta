@@ -39,3 +39,27 @@ A fifth candidate shape — malformed tool calls, mangled tool names, zsh/shell 
 
 ## Issues
 - 2026-08-17 The three solutions beneath this node remain unbuilt after 20 sweeps confirming the need. Building one of them — most likely "Record a read-and-skipped judgement so the queue drains without a write" — would end the pattern this History section now summarizes instead of restates.
+
+## Trend continued and the table extended — 2026-08-21 (unattended sweep)
+
+Added as one entry rather than a prose restatement, per the 2026-08-17 Issues note. Two things this pass can add that the standing finding does not already carry.
+
+**The trend, continued: 244 (2026-08-17) → 359 (2026-08-21).** Up 115 in four days, against roughly one-a-day growth over the preceding fortnight. The queue has still never gone down. Two of the 359 were captured by this pass's own `ost_ingest_inbox`; both are the read-before-write shape.
+
+**Corpus counts re-measured over all 359 records** (grep over `.ost-agent/evidence/TRANSCRIPT_*.md`, so these cover the whole population and not the 25 the sweep displays):
+
+| Shape | Occurrences / files | Row |
+|---|---|---|
+| `File has not been read yet` | 289 / 173 | row 1 |
+| `requested permissions to read from …` | 82 / 69 | row 2 |
+| `Blocked: sleep N followed by …` | 34 / 31 | **not in the table — see below** |
+| `could not be parsed as JSON` | 24 / 19 | closed 2026-08-10, routes to "Two thirds of my calls failed, and each one only told me after I made it" |
+| `exceeds maximum allowed size (256KB)` | 2 / 2 | homed on "More reaches my senses than fits in the window where I think" |
+
+**A fifth row, and unlike the 2026-08-10 candidate it survives.** Thirty-four records across thirty-one sessions are the harness refusing a `sleep`: `Blocked: sleep 45 followed by: gh pr checks 18 | tail -10`, `sleep 90 followed by: echo done`, `sleep 120 followed by: tail -5 …`. The run has started something that takes minutes — a CI check, a background build-loop log, a backgrounded task — and has no permitted way to wait for it, so it reaches for `sleep` and is refused with a pointer to Monitor's until-loop.
+
+This is not row 4. Row 4 is a run re-issuing a tool call after a transient failure; this is a run being told a whole *category* of waiting is unavailable to it, and it is not noise — the tree already holds it twice, as "The Monitor tool refuses the exact commands an unattended run needs to check on its own background work" and "My loop spends its time waiting for a check it cannot subscribe to". So the standing claim stands ("no new friction shape has been found") in the sense that matters — the tree holds it — but the table under-describes the channel, and a clustering solution built to the four rows would leave a thirty-one-session shape unclustered. Route new instances to the Monitor node.
+
+**Nothing was mapped, for the reason this node exists.** Every one of the 359 lands in a row above, all of which are held. There is still no tool call on this surface that records "read and judged redundant" without either creating a duplicate node or growing this one — so this entry is itself an instance of the debt it describes, which is the third pass in a row that has had to say so.
+
+_Method: `Grep` over the vault's own evidence sidecar, 2026-08-21, plus full reads of four representative records. First-party counts over stored records; no node was created and no rung moved._
