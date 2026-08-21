@@ -5185,3 +5185,4 @@
 {"ts":"2026-08-21T18:18:28.956Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":396,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
 {"ts":"2026-08-21T18:18:30.433Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":419,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
 {"ts":"2026-08-21T18:18:31.886Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":397,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
+{"ts":"2026-08-21T18:18:33.198Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":460,"session":"mcp-5dfc06ac-f972-4671-a750-9c08275e4b2a"}
