@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A proof rung resolves through its cited axioms instead of returning a constant rank]]
 
 **Feasibility assumption, stated so it can be false.** This solution proposes conclusions carrying evidence `proved-given-axioms`, "believable exactly as far as the axioms". That is not a position on the ladder — it is a *function* of what the node cites. The belief this node records is that such a thing can be added to the existing ladder without breaking the consumers that read a rung as a scalar. It may not be, and the code gives a reason to doubt it.
 
