@@ -5704,3 +5704,4 @@
 {"ts":"2026-08-22T09:44:41.741Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":80,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:44:53.780Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":101,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:45:42.522Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1377,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["Grouping ost_next_work's buckets by branch withholds no item the flat listing would have shown.md"]}
+{"ts":"2026-08-22T09:45:52.323Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1688,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["The branch-grouped sweep emits the same item set as the flat sweep, only reordered.md"]}

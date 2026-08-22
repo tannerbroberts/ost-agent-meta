@@ -4,6 +4,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The branch-grouped sweep emits the same item set as the flat sweep, only reordered]]
 
 Feasibility belief, surfaced beside the viability one rather than in place of it.
 
