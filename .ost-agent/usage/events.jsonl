@@ -5754,3 +5754,5 @@
 {"ts":"2026-08-22T10:54:47.476Z","tool":"ost_next_work","ok":true,"ms":11,"surface":"mcp","argBytes":62,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
 {"ts":"2026-08-22T10:54:55.119Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":72,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
 {"ts":"2026-08-22T10:55:20.670Z","tool":"ost_create_node","ok":true,"ms":16,"surface":"mcp","argBytes":2428,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["A command stops to ask a yes no question and the unattended run has nobody to answer it.md"]}
+{"ts":"2026-08-22T10:55:21.081Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":108,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:55:49.370Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":365,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
