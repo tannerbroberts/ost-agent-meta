@@ -4,6 +4,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A candidate whose instrument turned green since it was recorded is dropped before any model pass is spent]]
 
 Feasibility belief, and it relocates this candidate's target from where its own prose puts it.
 
