@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[File a result dated before its own threshold and require the record to say so]]
 
 **The belief, stated so it can be false.** The billable unit this solution defines is not "a test" — it is "a test run to a threshold committed *before* it ran". The word doing the pricing work is `pre-committed`, and it is the only part of the unit a customer cannot verify by looking at the deliverable. This node is the belief nobody wrote down: that the ordering is auditable from the stored record, so an invoice for ten pre-committed tests is a claim the vault can back rather than one the vendor makes.
 
