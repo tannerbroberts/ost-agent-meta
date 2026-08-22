@@ -17,3 +17,13 @@ evidence: assertion
 **Cost.** A per-tool flag table and a preflight pass over the automation scripts. Smallest of the three to build, largest to keep current.
 
 ⚠️ Unvalidated. Agent-ideated from one recorded session (`005ca37f`, `overwrite src/cli/index.ts? (y/n [n]) not overwritten`).
+
+## Definition of done
+
+"A lint over the automation scripts flags at least one prompting command lacking its documented non-interactive flag"
+
+```
+npx vitest run test/preflight/noninteractive-flag-lint.test.ts
+```
+
+Red today as a no-spec filing, with a bound bar so it is a working permit rather than a vacuous red. Worth reading before starting: this test can *refute* the candidate rather than merely fail. A count of exactly 0 means the checked-in scripts are already clean, the observed prompt came from a command composed at run time, and the effort belongs with one of the two run-time siblings instead. Run it before building the refusal half.
