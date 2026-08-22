@@ -18,3 +18,17 @@ The wager is that generated discovery artefacts have a credibility problem, and 
 
 ## History
 - 2026-08-05 unlinked "Pitch the refusals to ten prospects and count who treats them as a feature" — moved under "Buyers treat refusals as trustworthiness rather than as the product being worse" — the belief this test measures now has a node of its own
+
+## Definition of done
+
+"Delete each guard behind a claimed refusal in turn and require the suite to redden every time"
+
+```
+npx vitest run test/release/claimed-refusals-bound.test.ts
+```
+
+Bar: all 4 refusals the copy names are bound to a guard that reddens when the guard is disabled; 0 unbound. A refusal that survives its guard being removed is struck from the copy, not explained.
+
+**This is the feasibility half only.** Green proves the four sentences are true and stay true. It is silent on whether a buyer reads refusals as trustworthiness or as the product being worse — that is the assumption "Buyers treat refusals as trustworthiness rather than as the product being worse", and a person is the measurement.
+
+The command is a `no-spec` red today. The pattern it should follow already exists in this repository as the negative half — `test/release/withdrawn-claims.test.ts`, including its anti-vacuity tests in both directions — so the builder is porting a proven shape, not inventing one.
