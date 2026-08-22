@@ -33,3 +33,15 @@ So the honest restatement of the blocker: it is no longer "no data source" but "
 No test is created here. Writing one against an interval nothing records would be a spec for a measurement that cannot be taken, and re-wording the second assumption is the author's decision, not this pass's.
 
 _Sources: this pass's `ost_read_repo` reads of examples/automation/build-pass.sh and examples/automation/github-workflow.yml, and a direct read of this vault's own `.ost-agent/census-history/firings.jsonl`. First-party reads of committed code and stored records; grounds feasibility, not demand. No command executed, no result recorded, rung unchanged._
+
+## Definition of done
+
+"Every automation entrypoint that runs the built bundle builds it first, and the check counts what it read"
+
+```
+npx vitest run test/automation/dist-consumers-build-first.test.ts
+```
+
+Red today for a reason specific to this candidate, not merely because the spec is unwritten: `examples/automation/build-pass.sh` reaches `node "$CLI" build-check` with `CLI` pointing at `dist/ost-agent.mjs` and no build step above it, so the assertion has a named failing case waiting for it. Green when no entrypoint depends on a bundle it did not build — which is the precondition this candidate needs in order to be safe at all.
+
+**This command settles feasibility only**, and only the half the repository owns. Whether consumers need dist *current* or merely *present* is the operator's answer, narrowed on the ask beneath "Nothing downstream needs dist present and current on the shared trunk between firings". Whether firings overlap often enough for the serialized commit point to help remains unmeasured — the 2026-08-21 note on this node stands: `.ost-agent/census-history/firings.jsonl` records instants, not intervals, so overlap is not a question that file can answer at any volume.
