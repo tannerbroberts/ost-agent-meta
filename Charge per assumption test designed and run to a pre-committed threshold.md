@@ -20,3 +20,19 @@ Whether anyone would pay this is a question for customers. Nothing here is valid
 
 ## History
 - 2026-08-05 unlinked "Ask ten buyers to split a test's price between designing it and running it" — moved under "Buyers value the design of a test, not just the running of it" — the belief this test measures now has a node of its own
+
+## Definition of done
+
+"File a result dated before its own threshold and require the record to say so"
+
+```
+npx vitest run test/ost/precommitment-ordering.test.ts
+```
+
+Bar: 0 of 20 filings whose run date precedes the threshold's commitment are accepted silently — each is refused or marked, naming both dates. At least 19 of 20 ordinary in-order filings are unaffected, because a check that fires on honest filings gets turned off.
+
+**This is the feasibility half only.** Green makes an invoice for pre-committed tests checkable against the vault. It says nothing about whether anyone buys the unit — that is the assumption "Buyers value the design of a test, not just the running of it", and a person is the measurement.
+
+The command is a `no-spec` red today. The mechanism it is red about is specific and was read this pass: `recordResult` in `src/ost/results.ts` computes its date as `filing.on ?? new Date()...` and never reads the node's threshold, `created:` date or History before appending. The comparison is absent, not lenient — there is nothing to tighten, only something to add.
+
+**Worth a decision before building:** refuse the out-of-order filing, or file it with the discrepancy recorded beside it. Refusing is cleaner and loses a real result when a date was merely mistyped; marking keeps the result and puts the burden on the reader. Either satisfies the bar. The test exists to make that choice unavoidable, not to make it.
