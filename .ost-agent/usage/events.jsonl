@@ -5767,3 +5767,7 @@
 {"ts":"2026-08-22T10:57:19.022Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2294,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["The create-time bar check and the downstream threshold classifier disagree, so what one refuses the other would have accepted.md"]}
 {"ts":"2026-08-22T10:57:33.308Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2691,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["A word-bar threshold the create-time check refuses is classified bound by the census classifier.md"]}
 {"ts":"2026-08-22T10:57:44.499Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1041,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:57:44.789Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":149,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:57:51.781Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:57:53.955Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":28,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:58:27.857Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2635,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
