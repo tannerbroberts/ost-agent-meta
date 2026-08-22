@@ -28,3 +28,4 @@ instrument: npx vitest run test/adapters/corroboration-actor-ceiling.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/adapters/corroboration-actor-ceiling.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/adapters/corroboration-actor-ceiling.test.ts` — Duration  2.43s (transform 144ms, setup 0ms, collect 229ms, tests 1.95s, environment 0ms, prepare 36ms)
