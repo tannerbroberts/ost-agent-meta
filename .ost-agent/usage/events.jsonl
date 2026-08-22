@@ -5727,3 +5727,4 @@
 {"ts":"2026-08-22T09:49:25.871Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4453,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:49:33.646Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":95,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:49:51.247Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2247,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["A survived claim is distinguishable in the record from one whose spec was never written.md"]}
+{"ts":"2026-08-22T09:50:05.422Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2419,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["The ledger credits a red-then-green claim and credits nothing for a no-spec-only history.md"]}

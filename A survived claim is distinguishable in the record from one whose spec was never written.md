@@ -4,6 +4,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The ledger credits a red-then-green claim and credits nothing for a no-spec-only history]]
 
 Feasibility belief, and it is the mechanical form of the failure mode this node already names at birth.
 
