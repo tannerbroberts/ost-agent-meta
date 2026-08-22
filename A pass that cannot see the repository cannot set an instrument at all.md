@@ -136,3 +136,38 @@ The correction above ends by relocating the blocker a third time: not sight, not
 **Why this is filed here rather than ideated as a sibling.** It sharpens the argument this node makes about what gating buys, and it names a decision — repair the 78, or accept them as sunk — that belongs to a human. It proposes no new solution.
 
 _Method: tool-contract enumeration over the surface held this pass, plus four `Grep`/`Read` passes over the vault's own node files to confirm both threshold conventions are in live use. No repo sight this pass, so the parser question is left open rather than guessed. First-party on the tool surface and on the stored nodes; silent on whether anyone wants the queue cleared. Rung stays at the `assertion` floor._
+
+## Answered from source: the counter reads BOTH, and prose wins the ~78 back (2026-08-21 unattended sweep, repo sight held)
+
+The section above ends by naming one question and asking whoever holds repo sight next to settle it: "Does the no-fixed-bar counter read the `threshold:` frontmatter field, the prose lead-in, or both?" — with the note that it "decides the disposition of ~78 tests" and is "a five-minute read of the counter." This pass held `ost_read_repo` and read it. **The answer is both, frontmatter first and prose as a fallback, and the practical consequence is the one the section hoped for rather than the one it feared.**
+
+**The chain, named so it can be re-checked rather than believed.** `src/eval/rollup.ts` computes `withFixedThreshold` as `tests.filter(t => thresholdKindOf(t) === "bound")` — so the rollup line quoted in the section above is `thresholdKindOf` and nothing else. `thresholdKindOf` (`src/eval/coverage.ts`) calls `askedOf`, whose first eight lines are:
+
+```
+export function askedOf(test: OstNode): string | null {
+  if (test.threshold) {
+    const trimmed = test.threshold.trim();
+    if (trimmed) return trimmed;
+  }
+  const lines = test.body.split("\n");
+  ...
+```
+
+The frontmatter field is preferred **when present and non-empty**, and every node without one falls through to a prose scan of the body. The function's own docstring says so outright: "Falls back to the prose scan for every node written before the field existed, which is most of both live vaults."
+
+**So the disjunction in the section above resolves to its first branch.** Quoting it: "If the counter reads **prose**, then the 78 are agent-repairable after all — `ost_edit_node` can write a properly-formatted lead-in with digits in it, and the correction above is right for existing tests too." That is the case. The alternative branch — "If it reads **frontmatter only**, the 78 are a human's or an attended pass's work, permanently" — is false, and the ~78 tests are **not** stranded. The weak inference the section flagged for checking (that a sibling test about hard-wrapped lead-ins only makes sense if prose is parsed) was correct, and `coverage.ts` confirms it in detail: `paragraphAt` exists precisely so a hard-wrapped lead-in reads the same as an unwrapped one, and its docstring records that mis-parse as "observed twice in a live vault."
+
+**What an agent must write for a paragraph to count `bound`.** The classifier is two regexes, and neither requires a digit:
+
+- `PRECOMMIT_LEAD` — a **bold** span containing the substring `pre-commit`, case-insensitive, anywhere in the paragraph. "Pre-committed threshold", "Pre-committed success threshold", "Pre-commit the threshold before starting" all match; the docstring says the loose match is deliberate because "tightening this to one spelling would silently report the tree as thresholdless."
+- `A_BOUND` — `/\d|[≥≤]|>=|<=|\b(at least|at most|no more than|no fewer than|fewer than|more than|majority|unanimous|exactly|zero|none|half)\b/i`, tested against the text following the lead-in.
+
+A bar in words scores exactly as well as a bar in digits: **"at least 4 of 5" and "at least four of five" both read `bound`**, because `at least` alone satisfies `A_BOUND`. That is worth stating flatly, because the 2026-08-20 Issues note below records the opposite behaviour at the *other* boundary — `ost_create_node` refusing a no-spec instrument whose threshold spelled its numbers out, and accepting the same threshold with digits. **Those are two different checks with two different rules, and only the create-time one cares about digits.** A pass that generalised from the create-time refusal to the census counter would wrongly conclude its word-bars are invisible. They are not.
+
+**Where this leaves the node's own argument, a fourth time.** The correction above relocated the blocker to threshold discipline and called it "the one lever here that does not need a capability nobody granted." The section after it bounded that to creation time only, on the grounds that no tool sets `threshold:` after the fact. The bound is real about the *field* and wrong about the *outcome*: `ost_edit_node` rewrites prose, prose is the fallback the counter reads, and a rewritten body carrying a `**Pre-committed threshold:** …` paragraph with a bar in it lands `bound` just as a frontmatter field would. The tool-contract table in that section is accurate and its conclusion does not follow from it.
+
+Concretely, and this is the part a future sweep should act on: **`confirmPermit` reads `permit.thresholdBound`, which is `thresholdKindOf(chosen) === "bound"`** (`src/eval/buildable.ts`, `permitFrom`). So the repair path for an existing thresholdless test is open end to end — edit the prose to carry a bound pre-commitment, and a `no-spec` instrument on that test keeps its permit instead of being refused with "there is no number to build to."
+
+**One caution against over-running this finding.** It does not make the instrument queue mechanical. The standing `mechanical = 0` finding is untouched: this pass re-checked two more queue entries ("A highlights digest distilled from what vault history already records" and "Alert only when a run's friction count crosses a set threshold") and both bottom out in tests that are correctly `lane: humans-required` with bound thresholds already in the field — a person is the measurement, and no spec can stand in. What the finding changes is narrower and still large: the ~78 no-fixed-bar tests are repairable from an agent surface, which was believed closed an hour ago.
+
+_Method: first-party reads of `src/eval/rollup.ts`, `src/eval/coverage.ts` and `src/eval/buildable.ts` in full via `ost_read_repo`, plus `ost_read_tree` on the two queue entries named. Nothing executed — the regex conclusions are read off the source, not observed by running the classifier, and a sweep with a shell should confirm one repaired node actually moves the rollup count. Grounds feasibility only; silent on whether anyone wants the queue cleared. Rung stays at the `assertion` floor._
