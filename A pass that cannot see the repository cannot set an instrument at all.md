@@ -289,3 +289,27 @@ Continuing the third firing's reframe — that `mechanical = 0` measured each so
 **The bound.** Three entries is a sample and the standing finding is not refuted: all three still carry a genuine human ask, none became buildable, and none left the queue. What generalises is the accounting — the mechanical half was unwritten, not absent, and that has now held across three separate firings sampling four different families. A full recount under the second reading remains the measurement this node wants.
 
 _Method: `ost_read_tree` on each entry, plus first-party `ost_read_repo` reads of `src/knowledge/believability.ts`, `src/ost/extent.ts`, `src/ost/node.ts` and `src/ost/frontmatter.ts`, all `truncated: false`. `src/processes/tree.js` deliberately not read, so the `claimsStoredEvidence` question is left open on the node rather than guessed. Nothing executed. Grounds feasibility only. Rung stays at the `assertion` floor._
+
+## The commercial family was written off unread — three for three (2026-08-22 unattended sweep, sixth firing, repo sight held)
+
+The standing log records the commercial/pricing cluster as "deliberately not touched" (third firing) and lists it among the already-classified families that new queue entrants land in. It is the largest single family in `solutionsMissingInstruments` and the one the `people` classification is most obviously right about. This firing went there specifically because of that: if the third and fifth firings' reframe — that `mechanical = 0` measured each solution's *existing tests* and never the beliefs nobody had written — is a real finding rather than an artefact of sampling loop-adjacent families, it should hold where it is least likely to.
+
+It held. Three entries opened, three mechanical beliefs missing, each now on the tree with a bound threshold and a no-spec instrument.
+
+| Queue entry | Belief that was missing | Why a spec settles it |
+|---|---|---|
+| Compete on the vault being plain files… | the *provenance* survives the tool, not just the prose | `source:` pointers resolve into `.ost-agent/`, which Obsidian hides |
+| Lead with what this refuses to do… | each claimed refusal is bound to a guard whose removal reddens | the negative half already exists; the positive half does not |
+| Charge per assumption test… to a pre-committed threshold | the *ordering* is auditable from the record | `recordResult` never reads the threshold before filing |
+
+**All three have the shape this node's reframe predicts, and each solution carried exactly one assumption, a buyer's.** That is not a criticism of the earlier classification: a census that asks "what could this solution's tests measure" is answered correctly by `people` in all three cases. The beliefs above were not among the tests to be classified.
+
+**The third is the one that pays for the exercise.** `src/ost/results.ts` refuses a blank `by`, a blank `note` and a blank `uncovered`, and argues each refusal in the code — an unattributed result "cannot be told apart from a fabricated one." Its date is `filing.on ?? new Date()...`, caller-supplied and compared against nothing. So the one file in the product most careful about the integrity of a result is silent about whether the bar predates it. That matters beyond pricing: `pre-committed` is load-bearing in the ruleset, in `confirmPermit`, and in every claim this tree makes about not grading its own homework, and nothing anywhere checks it. A pricing node is a strange place for that to surface, which is exactly why nobody had.
+
+**A second finding, smaller and adjacent.** The positioning entry's belief is not speculative — this repository has already shipped the failure it describes. `test/release/withdrawn-claims.test.ts` exists because four operator-facing surfaces, one of them the *generated* `SKILL.md`, carried a false bound-the-damage claim into the model's own context on every pass until 2026-07-29. The guard prevents that claim returning and binds no currently-asserted claim to anything. A product positioned on its refusals has no drift check on the refusals it asserts.
+
+**The bound.** Three entries is a sample, the standing `mechanical = 0` finding is untouched, none of the three became buildable, and all three keep a genuine human ask that is still correctly a person's. What has now held across four firings and five families is the accounting: the mechanical half is unwritten, not absent. A full recount under that reading remains the measurement this node wants, and it is now overdue rather than merely proposed — five families sampled, five hits, zero families where the reframe failed.
+
+**One consequence for the surface, unchanged from the third firing.** All three solutions stay in `solutionsMissingInstruments` until something runs `ost-agent verify`, and their human asks stay unlaned because `ost_flag_humans_required` is withheld here.
+
+_Method: `Read` over the three solution nodes in the vault, plus first-party `ost_read_repo` reads of `src/ost/results.ts` and `test/release/withdrawn-claims.test.ts` in full (`truncated: false`), and listings of `src/`, `src/ost/`, `src/product/`, `test/`, `test/ost/`, `test/eval/`, `test/product/`, `test/release/`, `test/security/`, `test/instruments/` to confirm the three named spec paths are absent. `test/product/committed-capability-profile.test.ts` read in full to confirm it does not already cover the claims-versus-code question. Nothing executed. Grounds feasibility only; silent on whether anyone wants any of this. Rung stays at the `assertion` floor._
