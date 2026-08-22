@@ -35,3 +35,4 @@ It also does not settle the bet the node says the choice really is: how many mor
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/legacy-signal-fallback-bounds.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/ost/legacy-signal-fallback-bounds.test.ts` — Duration  383ms (transform 91ms, setup 0ms, collect 134ms, tests 35ms, environment 0ms, prepare 35ms)
