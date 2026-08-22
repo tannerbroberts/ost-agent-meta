@@ -6,6 +6,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A prompt the policy does not cover stops the run and is recorded, rather than being guessed]]
 
 **Variation dimension: automated vs manual — the answering is automated, the policy stays deliberately manual.** The operator writes, once and by hand, which questions a firing may answer for itself and what the answer is: overwrite an existing file, yes; delete anything, never, fail the run instead; push to a remote, never. A shim wraps the prompting call, matches the question against that policy, and supplies the answer. A question the policy does not cover is not guessed — the run stops and records the exact prompt text for the operator, joining the same `outstandingAsks` queue every other human question sits on.
 
