@@ -5444,3 +5444,15 @@
 {"ts":"2026-08-22T01:47:02.180Z","tool":"ost_next_work","ok":true,"ms":10,"surface":"mcp","argBytes":62,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
 {"ts":"2026-08-22T01:47:14.919Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":103,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
 {"ts":"2026-08-22T01:47:41.578Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":3235,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:47:56.243Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:47:56.589Z","tool":"ost_next_work","ok":true,"ms":10,"surface":"mcp","argBytes":62,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:48:10.708Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:48:12.293Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:48:14.821Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":40,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:48:16.062Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:48:55.979Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:48:56.050Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":23,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:48:57.485Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":26,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:49:01.243Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:49:02.932Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:50:07.054Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":5817,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c","wrote":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}

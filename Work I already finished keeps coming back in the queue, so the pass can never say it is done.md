@@ -10,6 +10,7 @@ evidence: assertion
 [[Refuse an instrument that passes on arrival]]
 [[Withhold deferred opportunities from the under-served count]]
 [[A flag I already judged false comes back every pass, because the clear is keyed to wording nothing told me to repeat]]
+[[I map evidence the way the method says — onto an existing node — and the queue counts it as untouched]]
 
 **The need.** When I finish a piece of work and record it as finished, the queue should stop asking me for it. Right now it does not, so every pass re-reads the same items, and the pass cannot reach `done` no matter how much real work gets done.
 
