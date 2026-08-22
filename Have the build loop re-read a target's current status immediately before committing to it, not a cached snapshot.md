@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[The build loop selects a target from a cached list rather than re-reading its live status at commit time]]
+[[The build loop re-runs a candidate's instrument before spending a model pass on it]]
 
 If the loop selects candidates from a list built earlier in its run (or carried over from a prior firing) and does not re-check the node file at the moment it commits to building one, a status change written between selection and commit is invisible to it. Fix: re-read the target node's frontmatter (status at minimum) as the last step before starting work, and skip to the next candidate if it has changed.
 
