@@ -24,3 +24,4 @@ instrument: npx vitest run test/ost/evidence-acknowledge.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/evidence-acknowledge.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/ost/evidence-acknowledge.test.ts` — Duration  3.27s (transform 171ms, setup 0ms, collect 257ms, tests 2.79s, environment 0ms, prepare 34ms)
