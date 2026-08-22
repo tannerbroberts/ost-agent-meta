@@ -5858,3 +5858,4 @@
 {"ts":"2026-08-22T21:56:46.918Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2725,"session":"mcp-bc892e3d-4b11-4b04-983c-7bd1480af829","wrote":["The stored record shows the bar was fixed before the run, rather than merely asserting it was.md"]}
 {"ts":"2026-08-22T21:57:04.772Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3160,"session":"mcp-bc892e3d-4b11-4b04-983c-7bd1480af829","wrote":["File a result dated before its own threshold and require the record to say so.md"]}
 {"ts":"2026-08-22T21:57:34.722Z","tool":"ost_append_to_node","ok":true,"ms":18,"surface":"mcp","argBytes":4739,"session":"mcp-bc892e3d-4b11-4b04-983c-7bd1480af829"}
+{"ts":"2026-08-22T21:57:36.581Z","tool":"ost_ingest_inbox","ok":true,"ms":111,"surface":"mcp","argBytes":2,"session":"mcp-bc892e3d-4b11-4b04-983c-7bd1480af829"}
