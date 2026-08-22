@@ -5395,3 +5395,4 @@
 {"ts":"2026-08-22T00:51:20.355Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:51:20.532Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:51:49.158Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1523,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["A bar can be stated as a pattern and a count over one arriving record, so ingest can judge it without a model.md"]}
+{"ts":"2026-08-22T00:52:07.022Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3140,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["Express this vault's own stated bars as pattern-and-count and require at least 6 of 10 to evaluate from one record.md"]}

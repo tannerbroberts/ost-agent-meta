@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Express this vault's own stated bars as pattern-and-count and require at least 6 of 10 to evaluate from one record]]
 
 **Feasibility belief, stated so it can be false:** every bar worth tripping on can be reduced to a pattern matched against a single arriving record's text, a count of the matches, and a comparison against a fixed number — with no judgement about what the record *means*.
 
