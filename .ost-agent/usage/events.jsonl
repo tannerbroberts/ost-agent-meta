@@ -5525,3 +5525,4 @@
 {"ts":"2026-08-22T04:05:57.932Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-78d082bb-a5e2-421a-b749-219a9e860507"}
 {"ts":"2026-08-22T04:05:58.329Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"mcp","argBytes":62,"session":"mcp-78d082bb-a5e2-421a-b749-219a9e860507"}
 {"ts":"2026-08-22T04:06:17.933Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":1932,"session":"mcp-78d082bb-a5e2-421a-b749-219a9e860507"}
+{"ts":"2026-08-22T04:06:19.858Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-78d082bb-a5e2-421a-b749-219a9e860507"}
