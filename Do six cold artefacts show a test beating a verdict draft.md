@@ -29,3 +29,4 @@ instrument: npx vitest run test/runner/verdict-leaves-spec.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/runner/verdict-leaves-spec.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/runner/verdict-leaves-spec.test.ts` — Duration  948ms (transform 152ms, setup 0ms, collect 244ms, tests 381ms, environment 0ms, prepare 62ms)
