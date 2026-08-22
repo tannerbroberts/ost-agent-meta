@@ -32,3 +32,4 @@ The fixture's hand labels are a human input committed once. If they are re-cut, 
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/pass-shape-classifier.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/loop/pass-shape-classifier.test.ts` — Duration  247ms (transform 17ms, setup 0ms, collect 20ms, tests 7ms, environment 0ms, prepare 25ms)
