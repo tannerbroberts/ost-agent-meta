@@ -5778,3 +5778,4 @@
 {"ts":"2026-08-22T10:59:08.344Z","tool":"ost_next_work","ok":true,"ms":104,"surface":"mcp","argBytes":2,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
 {"ts":"2026-08-22T10:59:23.872Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":30,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
 {"ts":"2026-08-22T10:59:37.868Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2214,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["Run every unattended firing with no controlling terminal, so prompting tools take their non-interactive branch.md"]}
+{"ts":"2026-08-22T10:59:51.224Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2240,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["A prompt-answer policy the operator writes, and a shim that answers from it while the run is away.md"]}
