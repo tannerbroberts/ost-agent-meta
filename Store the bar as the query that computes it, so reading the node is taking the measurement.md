@@ -18,3 +18,13 @@ This is the same posture the rollup already takes and the same one the codebase 
 **What would make this the wrong pick.** It needs an expression language, and the honest version of that requirement is uncomfortable: the four censuses on the originating node are hand-written greps with hand-chosen splits, and at least one of them ("the two classes sum to 125 rather than 127; the residue is other denial shapes not broken out") admits its own pattern is a floor. An expression language rich enough to express what those greps actually did is a substantial build, and one too poor to express them would silently narrow what gets measured — a number that is always current and quietly counts the wrong thing is worse than a stale one somebody knows to distrust.
 
 ⚠️ Unvalidated. Agent-ideated from one recorded session.
+
+## Definition of done
+
+"Re-derive all 4 recorded censuses from stored expressions and require every count to match exactly"
+
+```
+npx vitest run test/eval/census-expression-fidelity.test.ts
+```
+
+Bar: all 4 recorded censuses re-derive with 0 count discrepancies against a frozen corpus fixture, and the census declaring its rows floors reproduces that declaration rather than returning a total. An expression that refuses a partition it cannot express passes; one that returns a narrower number fails.
