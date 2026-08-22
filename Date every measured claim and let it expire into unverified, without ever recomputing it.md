@@ -16,3 +16,13 @@ evidence: assertion
 **What would make this the wrong pick.** If everything on the tree ages out, the label stops distinguishing anything: a vault where most claims read "not measured since" has re-created the unlabelled state with more words. That is a real risk here, because this tree's nodes are dense with dated first-party observations that nothing will ever re-take — most of them would expire and stay expired. Picking a shelf life is also a judgement nobody has data for, and picking it wrong is invisible in both directions: too long and it never fires, too short and it fires on everything.
 
 ⚠️ Unvalidated. Agent-ideated from one recorded session.
+
+## Definition of done
+
+"Count this vault's dated claims by age and require the expired share to fall between 10 and 70 percent"
+
+```
+npx vitest run test/eval/claim-expiry-density.test.ts
+```
+
+Bar: at a 14-day shelf life over a frozen snapshot of this vault, the expired share lands between 10% and 70% inclusive. Both bounds are load-bearing — above 70% the label discriminates nothing, below 10% it never fires — and the shelf life is not to be re-tuned to land inside the window.
