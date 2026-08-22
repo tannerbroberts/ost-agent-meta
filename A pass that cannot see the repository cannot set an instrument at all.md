@@ -103,3 +103,36 @@ So the structural claim survives in weakened form, and the practical advice inve
 That reframes this node's own gating argument a third time. Sight is not the blocker (the standing finding). The write capability is not really the blocker either. **The blocker is threshold discipline** — which is the subject of a different opportunity already on this tree, "My tests carry thresholds nobody ever fixed, so nothing can come out a failure", whose own measurement found 20 of 63 tests in one bucket stating no fixed bar. Those two nodes are pointing at the same lever from opposite ends, and a human may want to read them together.
 
 _Correction recorded by appending rather than by rewriting the section above, so the mistaken claim and its correction both stay visible. First-party read of `src/eval/buildable.ts`._
+
+## The threshold lever is reachable only at creation time — a bound on the correction above (2026-08-22 unattended sweep)
+
+The correction above ends by relocating the blocker a third time: not sight, not the write capability, but **threshold discipline** — "entirely within an agent's power to write, and the one lever here that does not need a capability nobody granted." That conclusion is right about *which* lever matters and wrong about who can pull it for the tests that need it. The distinction is creation time versus afterwards, and it decides whether ~78 existing tests are an agent's work or a human's.
+
+**What an agent surface can and cannot do to a threshold, enumerated from the tool contracts held this pass:**
+
+| Act | Tool | Available? |
+|---|---|---|
+| Set `threshold:` when creating a test | `ost_create_node` (`threshold` argument) | Yes |
+| Set `threshold:` on a test that already exists | — | **No such tool** |
+| Change status / evidence / lane / instrument on an existing test | `ost_set_status`, `ost_set_evidence`, `ost-agent lane`, `ost_set_instrument` | Yes — each a typed transition |
+| Rewrite a test's prose | `ost_edit_node` | Yes, prose only |
+
+`ost_edit_node` states the rule that closes this: "Frontmatter is untouched — status, evidence, lane and instrument each have their own tool because each records a typed transition." **Threshold is absent from that list of four, and has no tool of its own.** It is the one frontmatter field with no typed-transition path, so on this surface it is write-once at creation and immutable thereafter.
+
+**Why that matters against `confirmPermit`.** The correction above establishes that a `no-spec` run keeps its permit **iff** `permit.thresholdBound`. Composed with the table:
+
+- A **new** test can be given a bound threshold and a no-spec instrument in one `ost_create_node` call, and that is a working build permit — the correction's advice holds in full.
+- An **existing** thresholdless test cannot be repaired the same way. Setting an instrument on one produces precisely the artefact the ruleset condemns: a no-spec red with no bound bar, `cleared: false`, nothing handed to a builder. **So the correct action on a thresholdless entry in `solutionsMissingInstruments` is still to leave it alone** — the standing "write nothing" finding survives this reframing, for a different reason than it was originally given.
+
+**The size of the affected set, and the caveat on the number.** Summing the rollup's per-bucket "N of M test(s) state no fixed bar" lines gives **78** across 18 buckets. Treat that as approximate rather than a census: a test beneath an opportunity filed under two buckets would be counted twice, and this pass did not de-duplicate it. The order of magnitude is what the argument needs — this is a two-figure backlog, not a handful.
+
+**One question decides whether any of it is agent-repairable, and this pass could not answer it.** Does the no-fixed-bar counter read the `threshold:` frontmatter field, the prose lead-in, or both? Observed in the vault this pass: both conventions are in live use. `Ask ten buyers what happened the last time a tool they relied on shut down` carries a `threshold: >-` field; `Test does a 10 percent sample estimate whole-tree quality` carries no such field and states its bar only in prose as "**Pre-committed success threshold:** sample estimate within ±10% of the full-tree score."
+
+- If the counter reads **prose**, then the 78 are agent-repairable after all — `ost_edit_node` can write a properly-formatted lead-in with digits in it, and the correction above is right for existing tests too.
+- If it reads **frontmatter only**, the 78 are a human's or an attended pass's work, permanently, and no amount of prose discipline touches them.
+
+**Weak evidence for the prose reading, stated as the inference it is.** The tree already holds a test named "A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact" — a question that only makes sense if the counter parses the prose lead-in and mis-parses hard-wrapped ones. That is an inference from a sibling node's title, not a read of the parser, and it should be checked rather than believed. Whoever holds repo sight next: this is a five-minute read of the counter, and it decides the disposition of ~78 tests.
+
+**Why this is filed here rather than ideated as a sibling.** It sharpens the argument this node makes about what gating buys, and it names a decision — repair the 78, or accept them as sunk — that belongs to a human. It proposes no new solution.
+
+_Method: tool-contract enumeration over the surface held this pass, plus four `Grep`/`Read` passes over the vault's own node files to confirm both threshold conventions are in live use. No repo sight this pass, so the parser question is left open rather than guessed. First-party on the tool surface and on the stored nodes; silent on whether anyone wants the queue cleared. Rung stays at the `assertion` floor._
