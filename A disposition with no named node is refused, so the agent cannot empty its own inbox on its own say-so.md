@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Try to dispose of a record without naming a node, including through the reveals-no-need case]]
 
 **The belief, stated so it could be false (feasibility, guarding a safety property).** This candidate's objection is that it hands a constrained actor a way to shrink its own denominator — the one power this codebase withholds everywhere else. The proposed mitigation is a guard: a disposition is accepted only when it names a node that actually exists in the tree, so "reveals no need" cannot be a bare dismissal.
 
