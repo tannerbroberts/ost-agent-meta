@@ -5,7 +5,6 @@ created: '2026-08-18'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
-[[The harness can hook the moment a session is backgrounded or killed reliably enough to always write the checkpoint]]
 [[The harness exposes a hook at the moment a session is backgrounded or interrupted, in time to write one line before control is lost]]
 
 Have the harness itself (not the agent, which may not get a final turn) append one line to a fixed-path log the moment a session is backgrounded or its process ends: session id, timestamp, and the last tool call it completed. The next pass reads this log first, before re-deriving state from the transcript or the tree.
@@ -24,3 +23,6 @@ This bears directly on the assumption beneath THIS solution ("The harness expose
 Left for a human or attended pass to decide (not decided here, since it is a judgement about whether one solution supersedes another, not a mechanical fact): whether this solution should be deferred as superseded, kept as a genuinely distinct backup for interruption modes the journal doesn't cover (a crash mid-write, a full disk — both named as uncovered in the journal solution's own body), or left open pending confirmation that the journal is actually wired into the harness's interruption path rather than only its normal step loop.
 
 _Source: this pass's own `ost_read_repo` reads of `src/loop/journal.ts` and `test/loop/run-journal-interruption.test.ts` — first-party observation of the repository. Grounds feasibility, not desirability._
+
+## History
+- 2026-08-22 link "The harness can hook the moment a session is backgrounded or killed reliably enough to always write the checkpoint" repointed to "The harness exposes a hook at the moment a session is backgrounded or interrupted, in time to write one line before control is lost" — that node was merged away
