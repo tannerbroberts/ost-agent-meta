@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A blind set-instrument call is refused, while a sighted one on the same vault still writes]]
 
 **The belief, stated so it could be false:** the `ost_set_instrument` / `ost_create_node` write boundary can distinguish a pass that could see the repository from one that could not, and refuse only the blind one — without the refusal degenerating into "no instrument may ever be written."
 
