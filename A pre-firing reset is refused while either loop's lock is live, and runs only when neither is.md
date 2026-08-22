@@ -50,3 +50,4 @@ So at any moment the build loop and the discovery loop may both be running again
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/pre-firing-reset-safety.test.ts` — test/loop/pre-firing-reset-safety.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/pre-firing-reset-safety.test.ts` — test/loop/pre-firing-reset-safety.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/pre-firing-reset-safety.test.ts` — test/loop/pre-firing-reset-safety.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/pre-firing-reset-safety.test.ts` — test/loop/pre-firing-reset-safety.test.ts does not exist — no spec was collected, so nothing was measured
