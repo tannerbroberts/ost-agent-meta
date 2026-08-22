@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Give one node two sources and check every reader of the source field still answers]]
 
 **The belief, stated so it could be false (feasibility).** `source` is a string today, and this candidate makes it a list. The assumption is that the blast radius of that change is bounded — that the readers consuming `source` either already tolerate a list or can be made to without cascading.
 
