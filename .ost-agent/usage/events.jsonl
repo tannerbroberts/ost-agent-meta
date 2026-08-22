@@ -5389,3 +5389,4 @@
 {"ts":"2026-08-22T00:47:56.111Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":106,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:49:33.856Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":5343,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:50:11.681Z","tool":"ost_create_node","ok":true,"ms":30,"surface":"mcp","argBytes":5080,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["A measured bar is only re-taken when a pass feels like it, so a fix reads as working long after it stopped.md"]}
+{"ts":"2026-08-22T00:50:39.494Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2647,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["Check each newly ingested record against the bars its own class names, at ingest rather than at review.md"]}
