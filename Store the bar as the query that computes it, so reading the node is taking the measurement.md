@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A stored expression can reproduce what the hand-written censuses counted, without quietly narrowing it]]
 
 **Variation dimension: automated vs manual — the counting is automated and the judgement is left manual, and the split is drawn between them rather than around the whole task.** A node stops quoting a number in prose and instead carries the expression that produces it: the record set, the pattern counted, and the bar. Anything that renders the node runs the expression and prints the current value beside the bar — "91 across 29 sessions; bar is at most 1 per session; **breached**." The prose keeps every word of the argument about what the number *means*, which is the part no expression holds.
 
