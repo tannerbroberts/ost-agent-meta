@@ -80,3 +80,17 @@ That is a sharper claim than "the queue grows", and it moves where the remedy pl
 This is a second instance of the pattern now filed as "A measured bar is only re-taken when a pass feels like it, so a fix reads as working long after it stopped", found on a different node within the same hour as the first. Two is not a rate, but both were found by recounting something a node asserted, which is the only way either would have surfaced.
 
 _Method: two `Glob` counts over the evidence sidecar plus arithmetic against the sweep's own totals; the INBOX conclusion is an inference from the list's sort order, stated so it can be checked. First-party counts over stored records. No node created, no rung moved, nothing mapped — for the reason this node exists._
+
+## Trend line and a sixth shape — 2026-08-22 (unattended sweep)
+
+Held to one short entry per the 2026-08-17 Issues note. Two facts only.
+
+**Trend: 359 (2026-08-21) → 365.** Up 6 in a day. Still never gone down. Two of the six were captured by this pass's own `ost_ingest_inbox` (`005ca37f…`, `5e29c8b9…`); both were read in full.
+
+**A sixth shape, and like the `sleep` row it survives the "already in the table" test.** `005ca37f…` contains `overwrite src/cli/index.ts? (y/n [n]) not overwritten` — a *shell command* blocking on an interactive prompt with nobody at the keyboard, alongside `(eval):1: === not found` and a `pathspec … did not match any file(s)`. This is not row 3. Row 3 is the agent raising `AskUserQuestion` itself; this is a subprocess the agent invoked stopping to ask, which no amount of discipline about the agent's own question-asking would prevent. The tree holds it — "My unattended run stops at a prompt that assumes a person is sitting there", with "Non-interactive is the default, and any tool that would prompt is made to fail loudly instead" and "Detect that no terminal is attached and answer the prompt from a stated policy" beneath it — so the standing claim ("every record lands in a row the tree already holds") still stands. Route new instances there.
+
+That makes two shapes now found outside the four-row table in two consecutive sweeps (the `sleep`/Monitor row on 2026-08-21, this one today). The table is not wrong, it is under-specified, and the practical consequence is the one already stated for the `sleep` row: **a clustering solution built to the four rows would leave both unclustered.** Worth a builder reading the table as a floor rather than a spec.
+
+**Nothing was mapped, for the reason this node exists.** No tool on this surface records "read and judged redundant."
+
+_Method: full reads of both newly-captured records plus two `Grep` passes over the vault confirming the interactive-prompt shape already has a home. First-party over stored records; no node created, no rung moved._
