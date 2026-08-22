@@ -6,6 +6,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The automation scripts already contain prompting commands with no non-interactive flag, so a lint would have caught the observed failure]]
 
 **Variation dimension: bought vs built — the answers are adopted from outside as they are, and only the enforcement is built here.** Every tool that prompts already ships the flag that stops it: `cp -f`, `rm -f`, `git -c advice.*=false`, `npm --yes`, `gh --yes`. Nothing here invents a mechanism or a policy language. What is built is one preflight check over `examples/automation/*.sh`: a command whose executable is on a known-prompting list and which carries none of that tool's documented non-interactive flags is refused before the firing starts, with the flag named in the refusal.
 
