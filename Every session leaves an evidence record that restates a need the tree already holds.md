@@ -94,3 +94,15 @@ That makes two shapes now found outside the four-row table in two consecutive sw
 **Nothing was mapped, for the reason this node exists.** No tool on this surface records "read and judged redundant."
 
 _Method: full reads of both newly-captured records plus two `Grep` passes over the vault confirming the interactive-prompt shape already has a home. First-party over stored records; no node created, no rung moved._
+
+## Trend, second firing of 2026-08-22 — 365 → 367, no new shape
+
+One short entry per the 2026-08-17 Issues note, and deliberately not a second narrative: the entry above already covers today.
+
+**Trend: 365 → 367.** Both new records were captured by this pass's own `ost_ingest_inbox` and both were read in full. `32113b68…` is three `File has not been read yet` errors — row 1, unmixed. `4badb8cf…` is a denied `Glob` on `/Users/tanner/dev/OST-Agent` plus `No such tool available: Bash` — row 2. No sixth or seventh shape; the six now on record (four in the table, plus the `sleep`/Monitor row and yesterday's interactive-subprocess row) cover both.
+
+**One detail in `4badb8cf…` is worth a builder's eye, because this pass reproduced it exactly.** That session was denied `Glob` on the product repo while `ost_read_repo` answered for the same directory — and this firing hit the identical pair, `Glob` refused and `ost_read_repo` live. That is the separable-grants observation already recorded on "A pass that cannot see the repository cannot set an instrument at all", but it had been an inference from two firings' differing behaviour; here it is one session's mechanically captured transcript and a second firing reproducing it within the day. The consequence for anyone reading a pass's capability claims: "no repo sight" and "no `Glob`" are different statements, and a sweep that checks only the built-in file tools will report itself blind while holding a working read channel.
+
+**Nothing was mapped, for the reason this node exists.** Still no tool call on this surface that records "read and judged redundant."
+
+_Method: full reads of both newly-captured records; the grant asymmetry observed first-hand this pass. First-party over stored records. No node created, no rung moved._
