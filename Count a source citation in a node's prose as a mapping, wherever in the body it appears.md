@@ -16,3 +16,13 @@ evidence: assertion
 **What would make this the wrong pick, stated so it can be judged.** Prose is unstructured, so the scan cannot tell *how* an id is being used. A node saying "this is **not** the same failure as `TRANSCRIPT:abc`" would drain `abc` on a mention that argues the opposite. That is not hypothetical in this vault — nodes here routinely cite records to distinguish them from neighbouring ones. The failure is also silent and one-directional: a wrongly-drained record is invisible from then on, whereas the status quo's error (never draining) at least stays loud. Anyone building this should decide whether a bare mention is enough or whether it must sit under a recognised heading.
 
 ⚠️ Unvalidated. Agent-ideated from this pass's own tool output.
+
+## Definition of done
+
+"Scan every node body for the 363 unmapped ids and count both the hits and the negations"
+
+```
+npx vitest run test/evidence/prose-citation-mapping.test.ts
+```
+
+Green means the citations needed to drain a worthwhile share of the queue are demonstrably already on disk, and that reading them as mappings would not wrongly drain records this tree cites only to distinguish itself from. It is a `no-spec` red today — the file does not exist — so the bar in the test's threshold, not the path, is what a builder is building to. It settles feasibility only: nothing here says the operator wants this queue drained, or that a prose scan beats the structured-field sibling.
