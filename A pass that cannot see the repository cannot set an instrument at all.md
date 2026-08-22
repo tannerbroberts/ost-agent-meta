@@ -325,3 +325,17 @@ The section above ends by repeating the third firing's prediction — "All three
 **The bound.** Three entries, one observation, one sweep. It does not follow that the third firing's five also left — that was not checked, and the count between those firings moved for other reasons too. Anyone re-reading this should recount rather than infer.
 
 _Method: `ost_next_work` before and after the three writes in one firing, listings compared by hand. First-party observation of this product's own sweep output. Nothing executed. Rung stays at the `assertion` floor._
+
+## Bound on this firing's own claim: the harness family is where the reframe fails
+
+The commercial-family section above closes with "five families sampled, five hits, zero families where the reframe failed." Before reporting that, this firing tested it against the family most likely to break it, and it broke. The claim should read *five of six*.
+
+**The family.** The Monitor/harness entries — "Monitor states its accepted command grammar up front rather than discovered by refusal", "Monitor accepts a vetted until-loop primitive instead of raw shell polling", "A background task's own output directory is automatically readable by the Monitor call that started it". Read this pass: the first is four lines long and asks that Monitor "surface its constraints in its own tool description or a preflight probe."
+
+**Why there is no mechanical half to write.** The subject is a tool description belonging to the harness. No spec in this repository can assert what Claude Code's Monitor tool documents, and one that tried would be asserting a fact about a dependency the suite does not own — a green that means the fixture was written correctly and nothing else. Unlike the commercial entries, where the unwritten belief was about *this* product and simply nobody had written it, here the belief is about someone else's product and this repository is the wrong place to hold it. The existing `humansRequired` framing is correct, and these entries should be read as permanently non-mechanical rather than as unrecounted.
+
+**The distinction worth carrying forward,** because it makes the proposed full recount cheaper: the reframe finds a mechanical half when the solution's premise is a claim about **this** product's behaviour, however commercial the solution sounds. It finds nothing when the premise is a claim about an external dependency, however technical the solution sounds. Sorting the queue on that question first would skip the families that cannot pay.
+
+**One adjacent thing this firing declined to do.** These transcripts' friction — compose, get refused, retry — is arguably answerable here, via whatever carries a recorded correction into the next composing session. That belief belongs beneath the corrections solution, not beneath a Monitor-documentation solution, and filing it here to make a family produce a hit would be the exact defect this node's chain keeps catching. Left for a pass working that branch.
+
+_Method: `Read` of the solution node in the vault; no repo read was needed, because the subject is not in the repository. Rung stays at the `assertion` floor._
