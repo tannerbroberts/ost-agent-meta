@@ -5413,3 +5413,4 @@
 {"ts":"2026-08-22T00:55:18.485Z","tool":"ost_read_tree","ok":true,"ms":141,"surface":"mcp","argBytes":94,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:55:56.093Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3165,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:56:23.375Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3407,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["Have the transcript adapter emit one rolling record per friction shape instead of one per session.md"]}
+{"ts":"2026-08-22T00:56:35.357Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2006,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["Rolling per-shape records keep enough to rebuild the per-session findings this tree has already made.md"]}

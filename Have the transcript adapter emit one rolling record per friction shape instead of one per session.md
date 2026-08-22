@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Rolling per-shape records keep enough to rebuild the per-session findings this tree has already made]]
 
 **Variation dimension: where it lives — upstream at the adapter, before anything reaches the vault. All three siblings act downstream, on a queue that already exists.** The transcript adapter stops writing one record per session. It writes one record per *friction shape* — `File has not been read yet`, `permissions to read from`, `Blocked: sleep N followed by`, and so on — and each new session updates its shapes' records in place: occurrence count, session count, first and last seen, a sample. A shape nobody has seen before creates a record, which is exactly the event a sweep should be interrupted for.
 
