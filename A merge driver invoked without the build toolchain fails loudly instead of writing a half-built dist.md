@@ -26,3 +26,6 @@ The assumption above is a feasibility belief about the environment: that whateve
 **Instrument honesty, stated rather than hidden.** This is a `no-spec` red: `test/git/dist-merge-driver-toolchain.test.ts` does not exist, so the command fails today for the weakest available reason. That is not a choice — `ost_set_instrument` accepts only a bare `npx vitest run <path>.test.ts` and refuses any test-name filter, so an assertion-specific red inside an existing spec cannot be expressed on this surface at all (measured this pass; recorded on "My instruments are red because a file is absent, not because the behaviour is"). Two things are done to make it as strong as the grammar allows: the path sits in `test/git/`, a directory that exists and holds six sibling specs, so the builder inherits the neighbourhood's conventions rather than a structural decision; and the threshold above names the four cases and the bar, which is what this tree's one observed weak-red lifecycle showed a builder actually works from.
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## Instrument Log
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/git/dist-merge-driver-toolchain.test.ts` — test/git/dist-merge-driver-toolchain.test.ts does not exist — no spec was collected, so nothing was measured

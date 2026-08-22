@@ -30,3 +30,6 @@ So at any moment the build loop and the discovery loop may both be running again
 **Instrument honesty, stated rather than hidden.** This is a `no-spec` red: `test/loop/pre-firing-reset-safety.test.ts` does not exist, so the command fails today for the weakest available reason. Forced rather than chosen — `ost_set_instrument` accepts only a bare `npx vitest run <path>.test.ts` and refuses any test-name filter, so an assertion-specific red inside an existing spec cannot be expressed on this surface (measured this pass; recorded on "My instruments are red because a file is absent, not because the behaviour is"). The path sits in `test/loop/` beside `lock.test.ts` and `firing-residue.test.ts`, both of which already drive the locking and working-tree machinery this spec needs.
 
 ⚠️ Proposed only — the agent does not run tests or record results.
+
+## Instrument Log
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/pre-firing-reset-safety.test.ts` — test/loop/pre-firing-reset-safety.test.ts does not exist — no spec was collected, so nothing was measured

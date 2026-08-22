@@ -30,3 +30,4 @@ sight: grounded
 - 2026-08-21 **no-spec** (exit none) `npx vitest run test/ost/suppression-extent-condition.test.ts` — test/ost/suppression-extent-condition.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-21 **no-spec** (exit none) `npx vitest run test/ost/suppression-extent-condition.test.ts` — test/ost/suppression-extent-condition.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-21 **no-spec** (exit none) `npx vitest run test/ost/suppression-extent-condition.test.ts` — test/ost/suppression-extent-condition.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/ost/suppression-extent-condition.test.ts` — test/ost/suppression-extent-condition.test.ts does not exist — no spec was collected, so nothing was measured
