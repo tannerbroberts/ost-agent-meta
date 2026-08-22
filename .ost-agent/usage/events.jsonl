@@ -5812,3 +5812,4 @@
 {"ts":"2026-08-22T20:50:35.340Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178"}
 {"ts":"2026-08-22T20:50:40.187Z","tool":"ost_read_repo","ok":true,"ms":5,"surface":"mcp","argBytes":28,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178"}
 {"ts":"2026-08-22T20:51:17.913Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"mcp","argBytes":3301,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178","wrote":["The citation index revocation needs already exists in evidenceExtents, and only its keying and its source filter stand in the way.md"]}
+{"ts":"2026-08-22T20:51:42.564Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3304,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178","wrote":["Querying the citers of one revoked axiom returns the direct citers at any layer, and not their ancestors.md"]}

@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Querying the citers of one revoked axiom returns the direct citers at any layer, and not their ancestors]]
 
 **Feasibility assumption, stated so it can be false.** This solution's prose commits to a mechanism nothing else on the node accounts for: "revising or revoking an axiom is a recorded act that **re-opens every derivation citing it**." That needs an answer to "which nodes cite X" — a reverse index over citations. The belief recorded here is that the index already exists in this repository in all but its keying, so revocation is a small change rather than new machinery. It may be false, and the reasons it might be are named below.
 
