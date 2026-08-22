@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Classify 12 already-falsified claims from this vault's git history by what falsified each]]
 
 **Efficacy belief, and the one that decides whether this candidate is worth building at all:** when a measured claim on this tree stops being true, the thing that made it stop is usually a record the vault subsequently ingested.
 
