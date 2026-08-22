@@ -4,6 +4,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Every automation entrypoint that runs the built bundle builds it first, and the check counts what it read]]
 
 Feasibility belief, and this pass's repo read suggests it is currently FALSE — which is why it is worth stating as its own node rather than leaving inside another node's prose.
 

@@ -5721,3 +5721,4 @@
 {"ts":"2026-08-22T09:47:53.785Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:48:05.593Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1272,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:48:19.498Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2218,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["No automation entrypoint invokes the built bundle without a build step of its own.md"]}
+{"ts":"2026-08-22T09:48:31.812Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2196,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["Every automation entrypoint that runs the built bundle builds it first, and the check counts what it read.md"]}
