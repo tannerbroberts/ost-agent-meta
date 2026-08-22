@@ -171,3 +171,32 @@ Concretely, and this is the part a future sweep should act on: **`confirmPermit`
 **One caution against over-running this finding.** It does not make the instrument queue mechanical. The standing `mechanical = 0` finding is untouched: this pass re-checked two more queue entries ("A highlights digest distilled from what vault history already records" and "Alert only when a run's friction count crosses a set threshold") and both bottom out in tests that are correctly `lane: humans-required` with bound thresholds already in the field — a person is the measurement, and no spec can stand in. What the finding changes is narrower and still large: the ~78 no-fixed-bar tests are repairable from an agent surface, which was believed closed an hour ago.
 
 _Method: first-party reads of `src/eval/rollup.ts`, `src/eval/coverage.ts` and `src/eval/buildable.ts` in full via `ost_read_repo`, plus `ost_read_tree` on the two queue entries named. Nothing executed — the regex conclusions are read off the source, not observed by running the classifier, and a sweep with a shell should confirm one repaired node actually moves the rollup count. Grounds feasibility only; silent on whether anyone wants the queue cleared. Rung stays at the `assertion` floor._
+
+## Bound on the section above: the prose repair path reaches 117 of 430 tests, not all of them (2026-08-22 unattended sweep, repo sight held)
+
+The section above ("Answered from source: the counter reads BOTH...") ends by declaring the repair path open: "the repair path for an existing thresholdless test is open end to end — edit the prose to carry a bound pre-commitment, and a `no-spec` instrument on that test keeps its permit." **That is true for a minority of the tests it was written about, and the boundary is one clause in the function it quotes.**
+
+**The clause.** `askedOf` opens:
+
+```
+if (test.threshold) {
+  const trimmed = test.threshold.trim();
+  if (trimmed) return trimmed;
+}
+```
+
+It **returns**. When a node carries a non-empty `threshold:` frontmatter field, the prose scan below it is never reached — not consulted as a second opinion, not merged, not fallen back to. The section above quotes these exact eight lines and reads the fallback correctly, but then generalises the conclusion to "every existing thresholdless test", and the field-carrying case is the one where the generalisation fails.
+
+**Composed with the tool-contract table two sections up, this closes a door that section left open.** That table established there is no tool on any agent surface that sets `threshold:` on an existing node — it is write-once at `ost_create_node` and absent from `ost_edit_node`'s list of typed transitions. So for a test that already carries a field reading `prose` or `instruction`:
+
+- `ost_edit_node` can rewrite the body, and `askedOf` will not look at it.
+- No tool can rewrite the field.
+- Therefore **no agent surface can move that test to `bound`, by any route.** It is a human's `ost-agent` work permanently, and the earlier section's bound-to-creation-time conclusion was right after all for this subset — it was only wrong about the subset's size.
+
+**Census, so the split is a number rather than an impression.** Counted this pass over the vault's own files: **313 of 430 AssumptionTest nodes carry a `^threshold:` field.** So the prose repair path is reachable for **117** tests and unreachable for **313**. The ~78 no-fixed-bar figure the section above computed by summing rollup lines is drawn from both groups without distinguishing them, so it cannot be read as a repairable backlog — some unknown share of it is field-carrying and permanently out of reach from here.
+
+**A worked instance, checked by hand rather than asserted.** "Ask the operator whether firings on the shared checkout can ever overlap in time" carries `threshold: 'Operator confirms strict serialization, or confirms overlap is possible'`. Against `A_BOUND` that string holds no digit, no `≥`/`≤`/`>=`/`<=`, and none of the listed words (`at least`, `at most`, `no more than`, `no fewer than`, `fewer than`, `more than`, `majority`, `unanimous`, `exactly`, `zero`, `none`, `half`). Its opener, "Operator", is not in `DEFERRING_VERBS`. So it classifies `prose`, counts against the rollup's fixed-bar line, and would fail `confirmPermit`'s `thresholdBound` check — and no amount of editing its body changes any of that.
+
+**What a future sweep should do with this.** Before spending an edit on a thresholdless test, check whether the node carries a `threshold:` field. If it does, the edit is wasted motion; name it for a human instead. If it does not, the section above is correct and the edit works.
+
+_Method: first-party `ost_read_repo` of `src/eval/coverage.ts` and `src/eval/rollup.ts` in full, plus a count over the vault's own node files for the 313/430 split. Nothing executed — the classifications are read off the regexes, not observed by running them. Grounds feasibility only. Rung stays at the `assertion` floor._
