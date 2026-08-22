@@ -5714,3 +5714,5 @@
 {"ts":"2026-08-22T09:46:48.183Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1604,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["A candidate threshold's would-have-fired verdict is computable from friction records already stored.md"]}
 {"ts":"2026-08-22T09:46:59.454Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1987,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["Every stored friction record is labelled fired or not-fired at each candidate bar, with none left unlabelled.md"]}
 {"ts":"2026-08-22T09:47:06.656Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1296,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
+{"ts":"2026-08-22T09:47:08.932Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":90,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
+{"ts":"2026-08-22T09:47:25.245Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1939,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["Every build that lands is announceable, including one whose only prior observation was no-spec.md"]}

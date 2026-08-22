@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Highlight interrupts keep their signal — the founder keeps reading them rather than tuning them out]]
+[[Every build that lands is announceable, including one whose only prior observation was no-spec]]
 
 When a post-build observation records an instrument going from red to green, send one short push message to a channel the founder already watches, at the moment the flip is recorded — the event, the solution it clears, and where the observation lives.
 
