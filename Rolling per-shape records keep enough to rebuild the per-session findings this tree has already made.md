@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Replay all 4 named per-session findings against rolling records and require every one to be reproducible]]
 
 **Feasibility belief, and the one that decides whether this candidate can ship at all:** a rolling per-shape record can carry enough that every finding this tree has already drawn from per-session records could still have been drawn.
 
