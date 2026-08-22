@@ -5551,3 +5551,4 @@
 {"ts":"2026-08-22T05:14:21.753Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":28,"session":"mcp-32fd0145-e548-465f-b094-9ff3b17f5830"}
 {"ts":"2026-08-22T05:14:33.298Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-32fd0145-e548-465f-b094-9ff3b17f5830"}
 {"ts":"2026-08-22T05:14:58.168Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3940,"session":"mcp-32fd0145-e548-465f-b094-9ff3b17f5830"}
+{"ts":"2026-08-22T05:15:03.399Z","tool":"ost_ingest_inbox","ok":true,"ms":6,"surface":"mcp","argBytes":2,"session":"mcp-32fd0145-e548-465f-b094-9ff3b17f5830"}
