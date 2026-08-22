@@ -22,3 +22,15 @@ evidence: assertion
 "Ask the operator, with the 2026-08-09 vacuous-red count in hand, whether the write-time numeric-bar check may be relaxed"
 
 No command, by design: this candidate trades a guard for a cleaner refusal, and whether that trade is acceptable is the operator's risk call — humans-required. A builder should not start this until that answer is recorded; a yes conditioned on some other write-time guard refutes it.
+
+## Definition of done — the mechanical half (added 2026-08-22 unattended sweep)
+
+The section above is right that the operator's risk call has no command. It is not the whole of what a builder needs, because it is asked on an unchecked premise: that the guard it proposes dropping is producing false refusals. That premise is code behaviour and a spec settles it.
+
+"A word-bar threshold the create-time check refuses is classified bound by the census classifier"
+
+```
+npx vitest run test/eval/create-time-bar-parity.test.ts
+```
+
+Red today as a no-spec filing — the parity spec has not been written. It carries a bound bar, so it is a working permit rather than a vacuous red. What it settles is narrow: whether the two readers of a threshold string disagree. It says nothing about whether the trade this solution proposes is one the operator wants, which stays with the humans-required test above.
