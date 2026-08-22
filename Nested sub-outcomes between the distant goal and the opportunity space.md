@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Two practitioners place the same opportunity under the same sub-outcome]]
+[[The invasive part is the metric field, not the nesting, because the Opportunity layer already nests recursively]]
 
 Allow a layer of movable sub-outcomes under the root: the root holds the distant goal, each sub-outcome holds a metric that can visibly move inside a working cycle, and opportunities attach to a sub-outcome rather than directly to the goal. Altitude becomes explicit structure instead of a judgement each reader re-makes.
 
