@@ -8,6 +8,7 @@ evidence: observed
 [[Let a friction record corroborate an existing opportunity instead of demanding a new node]]
 [[Cluster friction records by signature before the queue sees them]]
 [[Record a read-and-skipped judgement so the queue drains without a write]]
+[[Have the transcript adapter emit one rolling record per friction shape instead of one per session]]
 
 **The need.** Self-observation was turned on so the agent's own usage would improve the tool. What it produces is a queue that grows daily, where nearly every record restates a need the tree already holds — and the only way to take one off the queue is to create a node, so honest maintenance would make the tree worse (duplicate debt) rather than better.
 
