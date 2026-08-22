@@ -5405,3 +5405,4 @@
 {"ts":"2026-08-22T00:53:51.410Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":858,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:53:55.598Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":624,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:54:00.351Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":608,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:54:04.494Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
