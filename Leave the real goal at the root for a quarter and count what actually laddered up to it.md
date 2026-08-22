@@ -27,3 +27,4 @@ The outcome is human-set. Nothing in this test may be run by a pass, and no pass
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/milestone-under-outcome.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/ost/milestone-under-outcome.test.ts` — Duration  3.66s (transform 1.19s, setup 0ms, collect 2.02s, tests 172ms, environment 0ms, prepare 226ms)
