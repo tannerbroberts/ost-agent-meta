@@ -5905,3 +5905,4 @@
 {"ts":"2026-08-22T23:09:50.701Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-448c2799-fe60-4166-9385-0beca8e322be"}
 {"ts":"2026-08-22T23:09:52.416Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":40,"session":"mcp-448c2799-fe60-4166-9385-0beca8e322be"}
 {"ts":"2026-08-22T23:10:28.758Z","tool":"ost_append_to_node","ok":true,"ms":4,"surface":"mcp","argBytes":4488,"session":"mcp-448c2799-fe60-4166-9385-0beca8e322be"}
+{"ts":"2026-08-22T23:10:42.801Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":642,"session":"mcp-448c2799-fe60-4166-9385-0beca8e322be"}

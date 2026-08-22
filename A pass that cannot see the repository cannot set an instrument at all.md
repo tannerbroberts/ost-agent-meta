@@ -366,3 +366,13 @@ So the instruction each sweep is given — "re-write those tests rather than add
 **A gap in this firing's own surface, recorded because it is not a choice this pass made.** `ost_flag_humans_required` is withheld from the unattended sweep. So for a queue entry whose test genuinely needs a person — which the census says is most of them — this pass can neither instrument it nor label it into the humans-required lane. It can only write this. A surface that is told silence is unacceptable and is given no way to say "a person is the measurement" will keep producing notes like this one.
 
 _Method: `ost_read_repo` over `/Users/tanner/dev/OST-Agent` — `src/ost/instrument.ts`, `src/knowledge/instruments.ts`, `src/mcp/server.ts`, `test/instruments/spec-path-resolution.test.ts`. No command was run and no result recorded. First-party; rung unchanged at the floor._
+
+## Definition of done
+
+"A blind set-instrument call is refused, while a sighted one on the same vault still writes"
+
+```
+npx vitest run test/instruments/blind-instrument-refusal.test.ts
+```
+
+Named in plain text rather than linked: the test's one backlink belongs to its parent assumption, and a second would break the single-backlink rule. This covers the feasibility half only — the desirability half beneath "Operators would rather have honest gaps than guessed commands" still needs a person, and green here is not evidence for it.
