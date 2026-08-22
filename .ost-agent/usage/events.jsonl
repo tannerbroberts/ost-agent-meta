@@ -5718,3 +5718,5 @@
 {"ts":"2026-08-22T09:47:25.245Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1939,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["Every build that lands is announceable, including one whose only prior observation was no-spec.md"]}
 {"ts":"2026-08-22T09:47:37.293Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2057,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["A green arriving after a no-spec-only history announces, and a repeat green announces nothing.md"]}
 {"ts":"2026-08-22T09:47:45.811Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1561,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
+{"ts":"2026-08-22T09:47:53.785Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
+{"ts":"2026-08-22T09:48:05.593Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1272,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
