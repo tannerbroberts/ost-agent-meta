@@ -4,6 +4,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[One completion path carries the run's friction counts, and a clean run says so explicitly]]
 
 Feasibility belief, surfaced beside the desirability one rather than in place of it.
 

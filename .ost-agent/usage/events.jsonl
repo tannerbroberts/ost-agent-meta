@@ -5707,3 +5707,4 @@
 {"ts":"2026-08-22T09:45:52.323Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":1688,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["The branch-grouped sweep emits the same item set as the flat sweep, only reordered.md"]}
 {"ts":"2026-08-22T09:45:59.823Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1044,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:46:09.859Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1607,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["The run's completion report is produced in one place that can carry a friction count.md"]}
+{"ts":"2026-08-22T09:46:18.357Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1577,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["One completion path carries the run's friction counts, and a clean run says so explicitly.md"]}
