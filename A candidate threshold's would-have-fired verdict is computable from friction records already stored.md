@@ -4,6 +4,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Every stored friction record is labelled fired or not-fired at each candidate bar, with none left unlabelled]]
 
 Feasibility belief, and it is the one that gates the sibling rather than competing with it.
 

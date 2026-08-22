@@ -5712,3 +5712,4 @@
 {"ts":"2026-08-22T09:46:25.695Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":73,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:46:33.685Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":140,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:46:48.183Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1604,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["A candidate threshold's would-have-fired verdict is computable from friction records already stored.md"]}
+{"ts":"2026-08-22T09:46:59.454Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":1987,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["Every stored friction record is labelled fired or not-fired at each candidate bar, with none left unlabelled.md"]}
