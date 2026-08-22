@@ -5456,3 +5456,4 @@
 {"ts":"2026-08-22T01:49:01.243Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
 {"ts":"2026-08-22T01:49:02.932Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
 {"ts":"2026-08-22T01:50:07.054Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":5817,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c","wrote":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
+{"ts":"2026-08-22T01:50:24.127Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2424,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c","wrote":["Count a source citation in a node's prose as a mapping, wherever in the body it appears.md"]}
