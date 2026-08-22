@@ -5720,3 +5720,4 @@
 {"ts":"2026-08-22T09:47:45.811Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1561,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:47:53.785Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:48:05.593Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1272,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
+{"ts":"2026-08-22T09:48:19.498Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2218,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["No automation entrypoint invokes the built bundle without a build step of its own.md"]}
