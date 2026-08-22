@@ -6,6 +6,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A word-bar threshold the create-time check refuses is classified bound by the census classifier]]
 
 **The belief, stated so it could be false:** the write-time guard in `ost_create_node` and the classifier the downstream census uses are reading the same threshold string and reaching opposite verdicts — the guard refuses a bar the census would have counted as fixed. If that is true, the guard is a false positive and this solution's premise holds. If the two agree, the guard is catching real no-bar tests and dropping it would let them through, which refutes the solution rather than costing it a guard.
 
