@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[The operator reads sweep-chosen work order as ordering, not as target selection]]
+[[Grouping ost_next_work's buckets by branch withholds no item the flat listing would have shown]]
 
 **Mechanism:** `ost_next_work` emits every bucket grouped by branch instead of tree-walk (effectively alphabetical) order — all of one region's outstanding items surface together, and the next region is not sampled until the first reports clean. The observed failure this answers is the display-capped alphabetical slice: fourteen consecutive passes re-deriving the same global queue and finishing no region of it.
 
