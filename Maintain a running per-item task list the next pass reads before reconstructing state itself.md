@@ -14,3 +14,4 @@ Have each session maintain a structured task list (done / in-progress / not-star
 
 ## Issues
 - 2026-08-17 Assumption surfaced ("Sessions update the task list as they go, not only at a clean end a backgrounded session never reaches") but its test is not created: this is a usability/behavioral question best answered by observing real sessions rather than a mechanical spec. Left prose-only for an attended pass or human to design.
+- 2026-08-22 2026-08-22 unattended sweep, repo sight held: re-checked for an unstated mechanical belief and found none worth writing. Both assumptions here are genuinely behavioral — whether a model keeps its list current as it works, and whether a later session trusts a stranger's list — and the artefact they are about (the harness's own task list) is not in this repository, so no spec in `test/` can reach it. This confirms rather than clears the 2026-08-17 note above. Deliberately left prose-only; not a skipped step.

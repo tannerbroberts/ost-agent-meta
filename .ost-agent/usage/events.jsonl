@@ -5773,3 +5773,5 @@
 {"ts":"2026-08-22T10:58:27.857Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2635,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
 {"ts":"2026-08-22T10:58:42.630Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2936,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["A target whose instrument stayed red after a build is skipped by the next firing.md"]}
 {"ts":"2026-08-22T10:58:48.708Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1056,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:58:49.181Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":103,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:59:08.056Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":630,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
