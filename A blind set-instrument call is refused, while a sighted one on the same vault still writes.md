@@ -28,3 +28,6 @@ The builder's first real decision is what happens to the existing stand-down cas
 **What a green here does NOT settle.** Only feasibility. It says nothing about whether operators would rather have an honest gap than a guessed command — that is the sibling assumption, it needs people, and a passing spec here must not be read as evidence for it. It also says nothing about the throughput cost the solution's own body flags as an unknown exchange rate: a boundary that refuses correctly can still refuse so often that the queue never moves, and this spec cannot see that.
 
 **Provenance note.** Written by an unattended pass that held repo sight; every claim above about current behaviour was read from `src/ost/instrument.ts`, `src/knowledge/instruments.ts` and `test/instruments/spec-path-resolution.test.ts` this pass, not remembered.
+
+## Instrument Log
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/instruments/blind-instrument-refusal.test.ts` — test/instruments/blind-instrument-refusal.test.ts does not exist — no spec was collected, so nothing was measured
