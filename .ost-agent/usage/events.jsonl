@@ -5593,3 +5593,4 @@
 {"ts":"2026-08-22T06:24:59.391Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1686,"session":"mcp-31d79b8b-48fd-4202-b055-5596dfb687b5"}
 {"ts":"2026-08-22T06:26:13.918Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4981,"session":"mcp-31d79b8b-48fd-4202-b055-5596dfb687b5"}
 {"ts":"2026-08-22T06:26:37.274Z","tool":"ost_ingest_inbox","ok":true,"ms":5,"surface":"mcp","argBytes":2,"session":"mcp-31d79b8b-48fd-4202-b055-5596dfb687b5"}
+{"ts":"2026-08-22T06:27:01.118Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3276,"session":"mcp-31d79b8b-48fd-4202-b055-5596dfb687b5"}
