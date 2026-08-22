@@ -5416,3 +5416,5 @@
 {"ts":"2026-08-22T00:56:35.357Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2006,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["Rolling per-shape records keep enough to rebuild the per-session findings this tree has already made.md"]}
 {"ts":"2026-08-22T00:56:53.665Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3280,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["Replay all 4 named per-session findings against rolling records and require every one to be reproducible.md"]}
 {"ts":"2026-08-22T00:56:58.082Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":683,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:57:09.429Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":23,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:57:19.885Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
