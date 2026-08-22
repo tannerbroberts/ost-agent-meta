@@ -22,3 +22,4 @@ _Proposal only — a human runs this. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/cli/review-sample.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/cli/review-sample.test.ts` — Duration  4.09s (transform 124ms, setup 0ms, collect 189ms, tests 3.68s, environment 0ms, prepare 35ms)
