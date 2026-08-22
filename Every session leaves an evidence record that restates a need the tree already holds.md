@@ -121,3 +121,31 @@ _Method: full reads of both newly-captured records; the grant asymmetry observed
 **What a human should take from this.** The backlog is not 369 unmapped needs; it is a growing pile of records that mostly restate a small number of held needs, with no confirmed way to mark one as read. The unblocking move is a result on any one of those three tests, not more mapping.
 
 _Method: `ost_ingest_inbox`, then `ost_next_work({evidence})` on each of the two new ids, read in full. The within-session grant split is first-party observation of this pass's own tool surface. Both records are the agent's own usage — usability evidence, not outside demand. Rung stays at the `assertion` floor._
+
+## The mechanism exists and is shipping — `ost-agent dispose` (2026-08-22 unattended sweep, repo sight held)
+
+One short entry per the 2026-08-17 Issues note, and deliberately not a trend line: today already carries three of those. This entry overturns two standing claims on this node instead.
+
+**The claim in the body above is now false.** It reads: "there is no tool call that records 'read and judged redundant' without either creating a node or growing this one. That gap is real product debt, not an oversight by any one pass." There is one. `src/knowledge/dispositions.ts` is an append-only JSONL sidecar at `.ost-agent/dispositions/dispositions.jsonl` whose entire purpose is this, and its own docstring names this node's situation as the motivating case.
+
+**And the 2026-08-17 Issues note is false too:** "The three solutions beneath this node remain unbuilt after 20 sweeps confirming the need." At least two are built. The typed verdict vocabulary is `corroborates` / `no-genuine-need`, and a `corroborates` entry must name the node the item was counted toward — which is "Let a friction record corroborate an existing opportunity instead of demanding a new node", built as specified, pointer included.
+
+**What a filing does, pinned by a committed spec.** `test/evidence/corroborate-disposition.test.ts` files thirty transcript ids against one opportunity and asserts: all thirty leave `unmappedEvidence`; the evidence records stay on disk; every withheld item is disclosed on the response that withheld it (`withheldByDisposition`); no node is created; and the node file is **byte-identical** afterwards, so no rung moved and thirty recordings of one channel do not become thirty sources. That is exactly the discharge this node has wanted for 24 sweeps, with the corroboration-inflation failure already designed out.
+
+**Why no pass found it: it is not on this surface, on purpose.** The write is `ost-agent dispose`, a human's CLI command (`test/cli/dispose.test.ts`), held off the agent surface for the same reason as `result` and `promote` — the docstring calls it "the highest-risk write on the surface" because a pass that could dismiss its own work list has a completion signal that means nothing. Whether it should ever reach the agent is already a node on this tree ("An operator would accept a pass dismissing its own work list by written assertion"). So every past pass reporting "no tool on this surface records read-and-skipped" was accurate about its surface and wrong about the product.
+
+**The same file answers the question the entry above left open**, verbatim from its docstring: "an item is mapped only when a node's frontmatter `source:` equals its id, **body citations are invisible to the sweep**, and no tool can add a `source:` to an existing node." That settles all three tests this node names as the unblocking move, without running them — and settles two of them in the negative. A node carries **one** `source:` field, so one distillation discharges exactly one id; "A node may cite many sources, so one distillation discharges the whole cluster" is false as the code stands, and "Scan every node body for the ids" would count hits that discharge nothing. The prior pass was right to decline to write 369 citations: they would have done nothing.
+
+**What this does not settle.** Nothing here is a result. It says the capability exists, not that the operator wants 373 items dismissed, nor that any particular filing would be judged correctly — the spec's own docstring concedes it "is blind to whether the filing was right." This vault has **zero** live dispositions (`withheldByDisposition: []` on this pass's sweep), so the mechanism has never been used here.
+
+**The actionable line for the operator**, which is the point of this entry: the backlog is drainable today, by you, without creating a single node —
+
+```
+ost-agent dispose "TRANSCRIPT:<id>" --kind evidence --verdict corroborates \
+  --node "The file changed after I read it, and the failed edit is how I find out" \
+  --by <you> --why "another instance of the read-before-write shape"
+```
+
+The six shapes in the table above are the routing map for doing it in bulk, and `ost-agent dispositions` prints every live dismissal for audit with the one-command reversal beside it.
+
+_Method: first-party `ost_read_repo` reads of `src/knowledge/dispositions.ts` and `test/evidence/corroborate-disposition.test.ts` in full (`"truncated": false` on both), plus directory listings confirming `test/cli/dispose.test.ts`. Nothing executed — the behaviour is read off a committed spec, not observed by running it, so a surface with a shell should confirm one real filing actually clears one real id. Grounds feasibility only; silent on whether anyone wants the queue drained. No node created, no rung moved._
