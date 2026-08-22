@@ -5388,3 +5388,4 @@
 {"ts":"2026-08-22T00:47:06.861Z","tool":"ost_next_work","ok":true,"ms":28,"surface":"mcp","argBytes":62,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:47:56.111Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":106,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:49:33.856Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":5343,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:50:11.681Z","tool":"ost_create_node","ok":true,"ms":30,"surface":"mcp","argBytes":5080,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2","wrote":["A measured bar is only re-taken when a pass feels like it, so a fix reads as working long after it stopped.md"]}
