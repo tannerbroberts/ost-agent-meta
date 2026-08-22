@@ -33,3 +33,4 @@ instrument: npx vitest run test/loop/goal-contract-recorded.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/goal-contract-recorded.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/loop/goal-contract-recorded.test.ts` — Duration  18.39s (transform 39ms, setup 0ms, collect 57ms, tests 18.12s, environment 0ms, prepare 31ms)
