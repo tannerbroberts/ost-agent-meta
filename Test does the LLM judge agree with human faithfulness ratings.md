@@ -22,3 +22,4 @@ _Proposal only — a human runs this. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/eval/faithfulness-judge.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/eval/faithfulness-judge.test.ts` — Duration  340ms (transform 46ms, setup 0ms, collect 67ms, tests 49ms, environment 0ms, prepare 29ms)
