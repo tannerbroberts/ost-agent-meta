@@ -86,3 +86,25 @@ The consequence is that every existing test with an unfixed bar is unrepairable 
 **For a human:** this looks like a missing sibling to `ost_set_instrument` rather than a design decision — but it may be deliberate (a threshold is a pre-commitment, and letting an agent revise one after the fact is exactly how a bar gets moved to meet a result). If it is deliberate, that reasoning deserves recording, because the asymmetry currently reads as an oversight. If it is not, the repair is small and unblocks the lever this node is about.
 
 _First-party read of this product's own source via `ost_read_repo`, plus the tool surface this sweep actually held. Grounds feasibility only; rung unchanged at the floor._
+
+## Three readers of "fixed bar" disagree, and the operator reads the loosest one (2026-08-22 unattended sweep, repo sight held)
+
+`thresholdKindOf` sorts every test into four kinds — `bound`, `instruction`, `prose`, `absent`. **Three separate consumers read that classifier and draw the line in two different places**, which means this vault's headline number and its debt report are counting different sets, and nothing says so at either surface.
+
+| Consumer | Treats as a defect | Treats as fine |
+|---|---|---|
+| `computeUnfixedThresholds` (what `ost-agent debt` lists as `unfixed`) | `instruction`, `absent` | **`prose`**, `bound` |
+| `renderRollup` ("N of M test(s) state no fixed bar") | `instruction`, `absent`, **`prose`** | `bound` |
+| `confirmPermit` (`permit.thresholdBound`) | `instruction`, `absent`, **`prose`** | `bound` |
+
+`prose` is the whole disagreement, and both sides argue their case in comments. `coverage.ts` excludes it deliberately: "`prose` — neither. Often a perfectly good falsifiable bar written in words ('the piece survives a page reload'), which is why it is not flagged." `rollup.ts` includes it just as deliberately: "`bound` is the only kind that names a number fixed in advance; `prose`, `instruction` and `absent` all leave the bar to be decided after the run, which is the same as having none."
+
+**Why this matters to a reader rather than only to a maintainer.** The rollup line is the one an operator actually sees — it is pasted at the head of every unattended firing's prompt and read in notifications. So the number in front of the operator uses the strict definition, while the tool they would run to *find out which tests* (`ost-agent debt`) uses the loose one and will not name the `prose` ones at all. A person who reads "14 of 50 test(s) state no fixed bar" and then goes looking for fourteen tests will be handed a shorter list, with no explanation of the gap. That is the failure mode this opportunity is about, one level up: a count that cannot be reconciled with the thing it counts teaches its reader to stop trusting it.
+
+**Which line is right is a real question and not this pass's to settle.** `confirmPermit` siding with the rollup is the strongest argument for the strict reading — a `no-spec` instrument on a `prose` test loses its permit, so in the one place the distinction spends money, `prose` already counts as unfixed. The argument for the loose reading is equally real: a bar in words is a bar, and nagging about well-written thresholds is how a report gets ignored, which `coverage.ts` says outright.
+
+**The cheap repair, if anyone wants it, is neither of those.** Make the rollup line name its own definition — "N of M state no bar fixed in advance (`bound`); `ost-agent debt` lists the subset that states none at all" — so the two numbers stop looking like the same measurement. That is a wording change, not a classifier change, and it does not require deciding the question above.
+
+**Not acted on.** Nothing here changes a classifier, a threshold or a lane; it names a disagreement between three readers of one function. A human choosing the strict reading should expect `ost-agent debt`'s unfixed count to jump.
+
+_Method: first-party `ost_read_repo` of `src/eval/coverage.ts`, `src/eval/rollup.ts` and `src/eval/buildable.ts` in full. Nothing executed — the three call sites are read off the source, not observed. Grounds feasibility only; silent on whether anyone wants either number changed. Rung stays at the `assertion` floor._
