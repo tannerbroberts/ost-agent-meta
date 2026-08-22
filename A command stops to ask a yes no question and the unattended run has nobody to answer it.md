@@ -8,6 +8,7 @@ evidence: observed
 #Opportunity #unvalidated #evidence/observed
 [[Run every unattended firing with no controlling terminal, so prompting tools take their non-interactive branch]]
 [[A prompt-answer policy the operator writes, and a shim that answers from it while the run is away]]
+[[Adopt each tool's own documented non-interactive flag, and refuse an automation command that omits it]]
 
 **The need (customer's voice):** "When I am not at the keyboard, a step that pauses to ask me something is a step that silently does nothing. I need the run to either not be asked, or to answer for itself under a rule I set beforehand — not to stall on a question I will read hours later."
 
