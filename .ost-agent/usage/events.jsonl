@@ -5809,3 +5809,6 @@
 {"ts":"2026-08-22T20:49:20.132Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":41,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178"}
 {"ts":"2026-08-22T20:50:11.494Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":3200,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178","wrote":["A derived rung can be expressed in the ladder without breaking the fixed order every consumer reads.md"]}
 {"ts":"2026-08-22T20:50:29.099Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3200,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178","wrote":["A proof rung resolves through its cited axioms instead of returning a constant rank.md"]}
+{"ts":"2026-08-22T20:50:35.340Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178"}
+{"ts":"2026-08-22T20:50:40.187Z","tool":"ost_read_repo","ok":true,"ms":5,"surface":"mcp","argBytes":28,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178"}
+{"ts":"2026-08-22T20:51:17.913Z","tool":"ost_create_node","ok":true,"ms":8,"surface":"mcp","argBytes":3301,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178","wrote":["The citation index revocation needs already exists in evidenceExtents, and only its keying and its source filter stand in the way.md"]}

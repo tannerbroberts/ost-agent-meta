@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[An up-front authoring session produces axioms the founder still endorses when they matter]]
+[[The citation index revocation needs already exists in evidenceExtents, and only its keying and its source filter stand in the way]]
 
 Axioms are elicited up front and kept as a curated register in the vault: each entry states the axiom, who accepted it, when, and what accepting it commits the tree to. A derivation may only enter the proof lane by citing register entries; revising or revoking an axiom is a recorded act that re-opens every derivation citing it.
 
