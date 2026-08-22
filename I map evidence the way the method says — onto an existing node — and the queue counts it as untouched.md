@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Count a source citation in a node's prose as a mapping, wherever in the body it appears]]
+[[Give a node a structured list of the sources it rests on, and a tool call to add one]]
 
 **The need.** The skill's own rule for evidence is "reuse, don't duplicate": when a new record corroborates a need already on the tree, append the corroboration to that node rather than minting a second opportunity saying the same thing. Passes here have followed that rule scrupulously for weeks. The queue does not register any of it. Every correctly-handled record stays in `unmappedEvidence` forever, and the count is now **363** — by a wide margin the largest number in the sweep, and the single biggest reason a pass cannot reach `done`.
 
