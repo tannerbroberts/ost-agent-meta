@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count how many cited sources a reader can open with the tool gone and the dot-directories hidden]]
 
 **The belief, stated so it can be false.** The solution's pitch is that the artefact is "readable in Obsidian, greppable, diffable, reviewable in a pull request, and entirely intact if the tool disappears tomorrow." That sentence is a claim about the *whole* record — the claims and what they rest on. This node is the half nobody wrote down: that the provenance survives the tool as well as the prose does.
 
