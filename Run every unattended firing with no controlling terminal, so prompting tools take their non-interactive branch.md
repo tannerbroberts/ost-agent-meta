@@ -17,3 +17,13 @@ evidence: assertion
 **Cost.** A change to how `examples/automation/autonomous-pass.sh` and `build-pass.sh` invoke the session, plus the environment block. No new module.
 
 ⚠️ Unvalidated. Agent-ideated from one recorded session (`005ca37f`, `overwrite src/cli/index.ts? (y/n [n]) not overwritten`).
+
+## Definition of done
+
+"A prompting command run with no controlling terminal exits non-zero with its question on stderr, and does not silently default"
+
+```
+npx vitest run test/automation/no-tty-prompt-behaviour.test.ts
+```
+
+Red today as a no-spec filing, with a bound bar so it is a working permit rather than a vacuous red. The spec settles feasibility — does removing the TTY make the failure legible — and nothing else. Whether a loud refusal is an acceptable outcome, given that the work still does not get done, is a person's call and belongs with the sibling candidates.
