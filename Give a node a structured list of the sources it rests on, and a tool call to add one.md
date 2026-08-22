@@ -16,3 +16,13 @@ evidence: assertion
 **What would make this the wrong pick.** It adds a write the agent must remember to make, so the queue drains only as well as passes are disciplined — and a pass that appends the corroboration prose and forgets the call leaves the tree in exactly today's state while believing it is done. It is also the one candidate here that touches the write boundary and the frontmatter schema, which is where this product's guards live; a migration over ~1,400 nodes is not a small blast radius for a counter.
 
 ⚠️ Unvalidated. Agent-ideated from this pass's own tool output.
+
+## Definition of done
+
+"Give one node two sources and check every reader of the source field still answers"
+
+```
+npx vitest run test/evidence/multi-source-node.test.ts
+```
+
+Green means a list-valued `source` does not break the five surfaces that read the field, and — the harder half — that none of them silently reports the first source as the whole truth. It is a `no-spec` red today. It settles the mechanical blast radius only: what rung a node resting on sources of differing standing should be capped at is a design question left open by a green run, and is stated as such on the assumption beneath this.

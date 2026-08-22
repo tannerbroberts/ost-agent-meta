@@ -5466,3 +5466,4 @@
 {"ts":"2026-08-22T01:51:52.916Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2475,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c","wrote":["Give one node two sources and check every reader of the source field still answers.md"]}
 {"ts":"2026-08-22T01:52:08.100Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2711,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c","wrote":["Try to dispose of a record without naming a node, including through the reveals-no-need case.md"]}
 {"ts":"2026-08-22T01:52:14.122Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":814,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
+{"ts":"2026-08-22T01:52:17.119Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":733,"session":"mcp-b11321c0-89b8-4c8c-b720-9b4d09cf981c"}
