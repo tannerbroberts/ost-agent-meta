@@ -27,3 +27,6 @@ Assert that the model pass is not entered for rows two and three, and that the r
 **Why it is red today, and the bound on that claim.** `buildPermit` is pure and never runs the command; `confirmPermit` exists to close that and is documented as opt-in. No `confirm` invocation appears in the portion of `build-pass.sh` read on 2026-08-22 (start through the no-build-candidates report branch), so the wiring is believed absent — but the tail was truncated by the reader's cap, so this spec settles the question rather than assuming it. If the wiring turns out to be present, the spec goes green immediately and that is itself the answer.
 
 **What this does not settle.** Nothing about whether re-running instruments at selection time is affordable. Each confirmation spawns the repo's test runner, and the script already caps verification at eight per firing for exactly that reason — so a green here could be bought at a wall-clock cost nobody has measured. It also says nothing about the sibling reading (a missing status filter), which stands or falls on its own.
+
+## Instrument Log
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/confirm-before-spend.test.ts` — test/loop/confirm-before-spend.test.ts does not exist — no spec was collected, so nothing was measured
