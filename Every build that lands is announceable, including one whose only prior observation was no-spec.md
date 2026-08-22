@@ -4,6 +4,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A green arriving after a no-spec-only history announces, and a repeat green announces nothing]]
 
 Feasibility belief, surfaced beside the habituation one rather than in place of it.
 
