@@ -22,3 +22,4 @@ _Proposal only — a human runs this with real data. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/adapters/get-only-client.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/adapters/get-only-client.test.ts` — Duration  1.75s (transform 184ms, setup 0ms, collect 197ms, tests 30ms, environment 0ms, prepare 141ms)
