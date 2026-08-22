@@ -200,3 +200,31 @@ It **returns**. When a node carries a non-empty `threshold:` frontmatter field, 
 **What a future sweep should do with this.** Before spending an edit on a thresholdless test, check whether the node carries a `threshold:` field. If it does, the edit is wasted motion; name it for a human instead. If it does not, the section above is correct and the edit works.
 
 _Method: first-party `ost_read_repo` of `src/eval/coverage.ts` and `src/eval/rollup.ts` in full, plus a count over the vault's own node files for the 313/430 split. Nothing executed — the classifications are read off the regexes, not observed by running them. Grounds feasibility only. Rung stays at the `assertion` floor._
+
+## The reachable repair backlog was 6, not 117 — measured and cleared (2026-08-22 unattended sweep, second firing, repo sight held)
+
+The section above establishes the split correctly — 313 of 430 tests carry a `threshold:` field and are permanently out of reach from an agent surface, 117 do not and are prose-repairable — and then advises: "Before spending an edit on a thresholdless test, check whether the node carries a `threshold:` field. If it does, the edit is wasted motion." That advice is right. What it does not say, because nobody had counted, is **how many of the 117 actually need the edit.** This pass counted, and the answer is small enough to change what a sweep should do about it.
+
+**The count.** `askedOf` falls back to a prose scan only for field-less nodes, and that scan looks for a bold span containing the substring `pre-commit`. Grepping the vault for that lead-in shape and intersecting against the 117:
+
+| Of the 117 field-less tests | n |
+|---|---|
+| Already carry a pre-commitment lead-in | 111 |
+| Carry none at all — classify `absent` | **6** |
+
+**All 6 are now repaired**, by appending a `**Pre-committed threshold:** …` paragraph to each. Every one of them already stated a real bar in its opening line as a bare `Threshold: …` sentence — a form that matches no lead-in and reads as `absent`. So this was the formatting artefact the sibling test "A wrapped pre-commitment lead-in is read, so the absent count stops being a formatting artefact" was written about, in a second shape: not a hard-wrapped lead-in, but no bold at all. No question was changed and no bar was invented; each appended paragraph restates the node's own sentence in the form the reader can see, and each says what clearing it does not settle. Verified after the fact: the lead-in grep went 194 → 200 files, and all 6 titles appear in it.
+
+The 6, all of them `lane: humans-required` and all of them on the `outstandingAsks` queue:
+
+- Ask someone with the build loop's target-selection source open whether it filters candidates on status
+- Ask someone with the build loop's source open whether target selection re-reads live status or works from a cached snapshot
+- Ask someone with the build loop's source and persisted state open whether a per-target failure record already exists across firings
+- Ask the operator whether reading Monitor's stated constraints before composing would have changed how these two sessions wrote their commands
+- Ask someone with the Monitor tool's implementation open whether a bounded until sleep primitive is addable without reopening arbitrary shell execution
+- Ask someone with the harness's sandbox implementation open whether a per-task scoped read grant is addable without widening the sandbox generally
+
+**What this does and does not settle about the ~78 figure.** The section above computes ~78 by summing the rollup's per-bucket "N of M state no fixed bar" lines, and correctly warns it double-counts. It cannot be read as a repairable backlog, and now the reason is sharper than "some unknown share is field-carrying": `absent` among the field-less was exactly 6. Whatever else in the 78 is field-less is a lead-in **present with a bar-less paragraph** — `prose` or `instruction` — which is repairable by rewriting that paragraph rather than by adding one, and needs `ost_edit_node` on prose a sweep has to read first. **That subset was not counted this pass**, and counting it is the obvious next measurement: it is the only remaining agent-repairable share.
+
+**Consequence for this node's own argument.** The relocation chain now ends somewhere concrete. Sight is not the blocker; the write capability is not the blocker; threshold discipline is the blocker; the discipline is reachable for field-less tests only; and the reachable-and-unstarted part of that was 6 nodes, which took one pass. The remaining backlog is either field-carrying (a human's, permanently) or bar-less prose (agent-repairable, uncounted). Neither is the "sight" story this node was created to argue, and the standing `mechanical = 0` finding is untouched — this pass opened 6 more queue entries and found people-or-design questions in every one.
+
+_Method: `Grep` over the vault's own node files for `^type: AssumptionTest` (430), `^threshold:` (313) and the bold `pre-commit` lead-in shape, diffed by hand; plus a first-party `ost_read_repo` of `src/eval/coverage.ts` read in full (`"truncated": false`) to confirm the early-return and the `A_BOUND` word-bars rather than take the section above on trust. Nothing executed — the classifications are read off the regexes, not observed by running them, so a surface with a shell should confirm the rollup's absent count actually fell by 6. Grounds feasibility only; silent on whether anyone wants the queue cleared. Rung stays at the `assertion` floor._
