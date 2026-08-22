@@ -33,3 +33,4 @@ The assumption above is a feasibility belief about the environment: that whateve
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/git/dist-merge-driver-toolchain.test.ts` — test/git/dist-merge-driver-toolchain.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/git/dist-merge-driver-toolchain.test.ts` — test/git/dist-merge-driver-toolchain.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/git/dist-merge-driver-toolchain.test.ts` — test/git/dist-merge-driver-toolchain.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/git/dist-merge-driver-toolchain.test.ts` — test/git/dist-merge-driver-toolchain.test.ts does not exist — no spec was collected, so nothing was measured

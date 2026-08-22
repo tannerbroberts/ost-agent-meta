@@ -38,3 +38,4 @@ sight: grounded
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/branch-name-resolves-target.test.ts` — test/loop/branch-name-resolves-target.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/branch-name-resolves-target.test.ts` — test/loop/branch-name-resolves-target.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/branch-name-resolves-target.test.ts` — test/loop/branch-name-resolves-target.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/loop/branch-name-resolves-target.test.ts` — test/loop/branch-name-resolves-target.test.ts does not exist — no spec was collected, so nothing was measured
