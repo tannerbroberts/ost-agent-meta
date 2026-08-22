@@ -5816,3 +5816,4 @@
 {"ts":"2026-08-22T20:52:21.822Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":33,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178"}
 {"ts":"2026-08-22T20:52:30.346Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":26,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178"}
 {"ts":"2026-08-22T20:53:09.792Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":4004,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178","wrote":["The invasive part is the metric field, not the nesting, because the Opportunity layer already nests recursively.md"]}
+{"ts":"2026-08-22T20:53:33.035Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3311,"session":"mcp-9b98fb35-c4e2-4c05-9acc-7d350318b178","wrote":["A sub-outcome metric survives a serialize round-trip, and no existing opportunity is re-parented to get one.md"]}

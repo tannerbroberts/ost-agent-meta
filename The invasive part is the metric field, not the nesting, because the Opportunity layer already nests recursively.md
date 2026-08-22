@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A sub-outcome metric survives a serialize round-trip, and no existing opportunity is re-parented to get one]]
 
 **Feasibility assumption, stated so it can be false.** This node's prose calls itself "the most invasive option — it changes the schema and every existing node's ladder-up path." The belief recorded here is that the second half of that sentence is wrong and the first half is right about the wrong thing: the ladder-up path needs no change at all, and the only genuine schema change is a field to hold the metric.
 
