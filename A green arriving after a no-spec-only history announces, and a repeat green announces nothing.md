@@ -26,3 +26,6 @@ The fourth row is the one that keeps the channel worth reading: an announcement 
 **Pre-committed threshold:** exactly one announcement for each of the first two histories, zero for the fourth, and zero duplicate announcements across two consecutive green runs of the same instrument.
 
 **What this does not settle.** Whether the founder keeps reading the interrupts. That is the sibling assumption, "Highlight interrupts keep their signal — the founder keeps reading them rather than tuning them out", and it needs the founder over time, not an exit code. It also says nothing about the announcement's content being useful — only that the right number of them fire.
+
+## Instrument Log
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/telemetry/build-landed-announcement.test.ts` — test/telemetry/build-landed-announcement.test.ts does not exist — no spec was collected, so nothing was measured
