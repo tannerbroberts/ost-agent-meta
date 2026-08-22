@@ -5737,3 +5737,4 @@
 {"ts":"2026-08-22T09:51:41.725Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2434,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:51:54.951Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2407,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["The build loop re-runs a candidate's instrument before spending a model pass on it.md"]}
 {"ts":"2026-08-22T09:52:08.646Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2589,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe","wrote":["A candidate whose instrument turned green since it was recorded is dropped before any model pass is spent.md"]}
+{"ts":"2026-08-22T09:52:19.347Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1931,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
