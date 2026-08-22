@@ -59,3 +59,20 @@ _First-party observation by the unattended sweep of 2026-08-09, from its own `os
 This pass created three AssumptionTests this sweep, all `humansRequired` at creation with `lane: humans-required` confirmed by direct read. Two of the three solutions correctly dropped out of `solutionsMissingInstruments` on the next `ost_next_work` call; the third ("A background task's own output directory is automatically readable by the Monitor call that started it") did not, despite its test reading identically (`lane: "humans-required"`, confirmed via `ost_read_tree`). Same defect already on record here, now shown to be inconsistent even across sibling nodes created in the same batch, not just across separate batches as the earlier sightings found.
 
 _Source: this pass's own writes and re-reads, 2026-08-18 — first-party observation. Grounds usability, not demand._
+
+## The queue now directs the agent into calls the product itself refuses — machine-captured (unattended sweep, 2026-08-22)
+
+Every instance recorded above is a pass *reasoning its way out* of unsatisfiable work: it read the queue, worked out that the item was already settled, and declined. The cost was attention. `TRANSCRIPT:14f184b4-6ca1-41d3-bf1f-b9e036b2a1a0` (2026-08-21, nobody watching) shows the next stage, where the cost is refused calls instead of reasoning — three consecutive `ost_set_instrument` failures on one node:
+
+- ×2 — `cannot set that instrument on "Have someone with the vault-write code open confirm every commit path can carry a session id without breaking commit-message parsers": "npx vitest run test/git/commit-provenance.test.ts -t …` (the `-t` filter, refused as shell punctuation)
+- ×1 — `refusing to instrument "Have someone with the vault-write code open confirm every commit path can carry a session id without breaking commit-message parsers": it is labelled humans-required, so a person is the measurement`
+
+**The third refusal is the finding.** `ost_set_instrument` read `lane: humans-required` off that test and refused on exactly those grounds — while `solutionsMissingInstruments`, computed from the same field in the same product, had listed the solution as owing an instrument. One half of the tool surface knows the answer and states it as a refusal; the other half asks the question anyway. Same session, minutes apart, no human involved.
+
+That is the "filter applied inconsistently across analyses" shape this node already names, at its strongest yet, and it changes the argument in one respect worth a builder's attention: **the queue is no longer merely failing to drain, it is issuing an instruction the product is built to reject.** A pass following the queue literally cannot comply, and the refusal it earns is the product telling it so. The earlier sightings here were inferred from status fields a pass went and looked up; this one is a mechanically captured transcript of the contradiction being executed.
+
+**Note the sequencing cost, too.** The refusal that would have ended the attempt immediately — "it is labelled humans-required" — arrived third, after two refusals about grammar. The lane check runs after the instrument-form check, so a pass pays for composing a well-formed command before learning that no command was wanted. Cheap to reorder if someone is already in that code.
+
+**What this does not settle.** It says nothing about whether an operator wants the queue drained — the caveat above still stands, and one could argue a humans-required solution should stay visible as owed evidence, just not as owed *instrument*. That is the design question; this record only fixes what the current behaviour costs.
+
+_Source: `TRANSCRIPT:14f184b4-6ca1-41d3-bf1f-b9e036b2a1a0`, read in full this pass. Observed behavior of this product's own tooling, captured mechanically from an unattended firing's transcript; grounds usability and feasibility, not demand. No command executed, no result recorded, rung unchanged._
