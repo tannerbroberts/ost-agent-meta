@@ -25,3 +25,4 @@ The assumption is that requirements can be declared accurately enough to catch r
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/runner/helper-manifest-coverage.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/runner/helper-manifest-coverage.test.ts` — Duration  318ms (transform 35ms, setup 0ms, collect 72ms, tests 20ms, environment 0ms, prepare 38ms)
