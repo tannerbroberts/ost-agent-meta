@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A disposition with no named node is refused, so the agent cannot empty its own inbox on its own say-so]]
 
 **Variation dimension: when it acts — this candidate drains at the moment of judgement, where both siblings drain by inspecting the tree afterwards.** A pass that has read an evidence record records a disposition for it on a ledger: `corroborates <node>`, or `reveals no need`, with a sentence of reasoning. The queue reads the ledger and stops offering what has been disposed of.
 
