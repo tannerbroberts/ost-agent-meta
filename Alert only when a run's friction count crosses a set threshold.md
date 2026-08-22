@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[A single fixed per-run friction-count threshold separates sessions worth the operator's attention from ordinary recoverable noise]]
+[[A candidate threshold's would-have-fired verdict is computable from friction records already stored]]
 
 Most runs recover from a couple of retries without it meaning anything; the interesting case is the run that fought through nine. Rather than reporting every run's count, only surface a message when one run's tool_error/retry count crosses a pre-set bar — the operator hears about the outlier and nothing else.
 
