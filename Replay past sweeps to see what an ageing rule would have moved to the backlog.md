@@ -25,3 +25,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/backlog-ageing-rule.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/ost/backlog-ageing-rule.test.ts` — Duration  2.18s (transform 172ms, setup 0ms, collect 258ms, tests 1.70s, environment 0ms, prepare 26ms)
