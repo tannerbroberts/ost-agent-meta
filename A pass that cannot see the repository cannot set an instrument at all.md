@@ -7,6 +7,7 @@ evidence: assertion
 #Solution #unvalidated #evidence/assertion
 [[Operators would rather have honest gaps than guessed commands]]
 [[What is in the 33 queue entries no tool has ever listed]]
+[[The write boundary can refuse a blind instrument without refusing every instrument]]
 
 **The idea.** Instrument-writing is gated on repo sight. A surface without it gets a refusal instead of a write, and the test routes to a named lane (work waiting on an attended pass) rather than being cleared blind.
 
