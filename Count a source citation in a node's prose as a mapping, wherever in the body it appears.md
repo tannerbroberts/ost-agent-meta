@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[The evidence ids already sitting in node prose are enough to drain most of the queue, and are not mostly negations]]
 
 **Variation dimension: where the fact lives — this candidate reads it from the body, not the frontmatter.** The mapping predicate stops looking only at `source:` and scans each node's whole text for evidence ids. A record named anywhere in any node — a `_Source:_` line, a corroboration table, a dated finding — counts as mapped.
 
