@@ -26,3 +26,4 @@ Proposed by the agent — a human performs the transcript comparison; the agent 
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/self-filed-friction-events.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/telemetry/self-filed-friction-events.test.ts` — Duration  361ms (transform 62ms, setup 0ms, collect 90ms, tests 52ms, environment 0ms, prepare 28ms)
