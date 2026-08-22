@@ -6,6 +6,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A near-miss prompt stops the run, while the exact covered prompt is answered]]
 
 **The belief, stated so it could be false:** the shim can tell "this question matches a rule the operator wrote" apart from "this question resembles one", and on the second it stops rather than answers. The solution's whole safety case rests on that boundary: a standing yes for overwriting files that quietly generalises to a yes for deleting them is the single worst outcome any candidate under this opportunity can produce, and it is worse than the silent no the opportunity is about.
 
