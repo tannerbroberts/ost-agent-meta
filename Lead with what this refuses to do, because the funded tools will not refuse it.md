@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Buyers treat refusals as trustworthiness rather than as the product being worse]]
+[[Every refusal the positioning names is bound to a live guard, so the copy cannot outrun the code]]
 
 Stop competing on generating trees, which is table stakes and which the funded tools do with more people. Position on the refusals: a tool that cannot mark its own output validated, cannot invent the outcome, cannot record a test result it did not watch a human run, and caps every claim at the rung its source actually earned. What is being sold is a discovery record a sceptic will believe, and the mechanism is what the tool is structurally unable to do.
 
