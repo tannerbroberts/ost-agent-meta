@@ -77,3 +77,44 @@ That is the "filter applied inconsistently across analyses" shape this node alre
 **What this does not settle.** It says nothing about whether an operator wants the queue drained — the caveat above still stands, and one could argue a humans-required solution should stay visible as owed evidence, just not as owed *instrument*. That is the design question; this record only fixes what the current behaviour costs.
 
 _Source: `TRANSCRIPT:14f184b4-6ca1-41d3-bf1f-b9e036b2a1a0`, read in full this pass. Observed behavior of this product's own tooling, captured mechanically from an unattended firing's transcript; grounds usability and feasibility, not demand. No command executed, no result recorded, rung unchanged._
+
+## The lane defect, read from source — the fix already exists twelve lines away, and its size is ambiguous (2026-08-21 unattended sweep, repo sight held)
+
+Every sighting recorded above infers this defect from behaviour: a pass observes the queue asking for something the product refuses, and reasons back to a missing filter. This pass held `ost_read_repo` and read the filter itself. **The defect is confirmed, its location is one function, and the repair the entries above call for is not as simple as they assume — the two natural spellings of it differ by an order of magnitude in this vault.**
+
+**The function, and what it does and does not exclude.** `solutionsMissingInstruments` in `src/eval/buildable.ts` walks every node and skips on exactly three conditions:
+
+```
+if (n.layer !== "Solution") continue;
+if (n.status === "deferred") continue;
+if (trustsShippedStatus(n)) continue;
+const tests = testsUnder(index, n);
+if (tests.length === 0) continue;
+if (tests.some((t) => nodeInstrument(t))) continue;
+out.push(n.title);
+```
+
+There is no lane check of any kind. The `deferred` and `shipped` exclusions this node's earlier entries campaigned for **did ship** — both are right there, each with a docstring arguing its case — so the queue did learn to withhold two classes of settled work. It never learned the third.
+
+**The repair is already written, in the same file, for a different consumer.** `testsAwaitingVerification` — roughly forty lines below in `buildable.ts` — opens its loop with:
+
+```
+if (n.lane === CAUTIOUS_LANE) continue;
+```
+
+and its comment states the principle the queue is missing: "A test a human put beyond compute's reach is never run by compute… The lane is the authority on who may run a test; an instrument only ever says what running it would mean." So the codebase already holds both the rule and its justification; one of the two functions that needs it has it. That is a smaller and better-specified repair than anything this node has been able to name until now, and a builder does not have to design it — only copy a line into a sibling function.
+
+**The part the earlier entries get wrong, and it decides how big the fix is.** Those entries ask, three times, for "humans-required-laned tests" to be excluded, as though that phrase named one set. It names two, because a lane can be absent:
+
+- **`n.lane === CAUTIOUS_LANE`** — the explicit field only, which is what `testsAwaitingVerification` uses. Counted in this vault this pass: **50 tests carry `lane:` at all, and all 50 are `humans-required`.**
+- **`!computeMayRun(n.lane)`** — the fail-closed reading from `src/knowledge/lanes.ts`, where a missing or unrecognised lane answers `false`. That is **all 430 tests in the tree**, which is why `ost_next_work` reports `assumptionWork.needsHumans` at 430 of 430.
+
+Copy the line and the queue drops the solutions whose tests were explicitly labelled. Use the fail-closed predicate instead — which reads like the safer choice, and in `computeMayRun`'s own context is — and the queue empties almost entirely, including solutions nobody has ever assessed. **The safe-looking spelling is the destructive one here**, because this bucket is asking "has anyone written a definition of done?" rather than "may compute run this?", and an unlabelled test is silent on the first question while defaulting loudly on the second.
+
+**A related fact the lane counts surface, worth its own line.** All 50 explicit lanes in the vault are `humans-required`. `compute-only`, `one-command` and `pending-permission` are defined in `lanes.ts` and used **zero** times. That is the mechanical reason `assumptionWork.runnable` has been 0 on every sweep: not that no cheap test exists, but that the one lane compute may run has never once been applied, and only a human's `ost-agent lane --set` can apply it. A reader taking "0 runnable" as evidence that the backlog is irreducibly human is reading an unused field, not a measured property of the work.
+
+**Two fresh instances, checked directly rather than inferred.** Both of these solutions sat in this pass's `solutionsMissingInstruments`, and both are correctly finished work: "A highlights digest distilled from what vault history already records", whose only test is "Hand the founder a digest built from last month's history and ask what it missed" (`lane: humans-required`, threshold `The founder names at most 2 highlight classes the digest missed…`), and "Alert only when a run's friction count crosses a set threshold", whose only test is "Show the operator a handful of recorded sessions and the threshold's would-have-fired verdict, and ask which they'd have wanted alerted" (`lane: humans-required`, threshold `…agrees with the threshold's alert/no-alert call on at least 4 of 5 sampled sessions.`). Correct lane, bound bar in the field, a person named as the measurement — nothing missing, and both listed as owing an instrument. The 2026-08-18 entry above found this inconsistent across siblings in one batch; here it is consistent and wrong for two unrelated nodes from different families.
+
+**What this does not settle**, unchanged from the entry above: whether the operator wants the queue drained at all. One could argue a humans-required solution should stay visible as *owed evidence* while dropping out of *owed instrument* — which is an argument for splitting the bucket rather than filtering it, and is a design call. This record only fixes where the code is, what the two candidate repairs actually select, and which of them looks safe while being wrong.
+
+_Method: first-party reads of `src/eval/buildable.ts` and `src/knowledge/lanes.ts` in full via `ost_read_repo`; lane counts by `Grep` over the vault's own node files (`^lane:` — 50 matches, all `humans-required`); the two instances confirmed by `ost_read_tree` on the solutions and their tests. Nothing executed and no result recorded. Observed behaviour of this product's own code and stored nodes — grounds feasibility, silent on demand. Rung unchanged._
