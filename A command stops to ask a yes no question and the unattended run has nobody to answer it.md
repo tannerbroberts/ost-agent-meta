@@ -6,6 +6,7 @@ created: '2026-08-22'
 evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Run every unattended firing with no controlling terminal, so prompting tools take their non-interactive branch]]
 
 **The need (customer's voice):** "When I am not at the keyboard, a step that pauses to ask me something is a step that silently does nothing. I need the run to either not be asked, or to answer for itself under a rule I set beforehand — not to stall on a question I will read hours later."
 
