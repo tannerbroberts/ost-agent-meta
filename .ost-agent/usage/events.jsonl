@@ -5362,3 +5362,29 @@
 {"ts":"2026-08-22T00:41:06.698Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":142,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:41:06.829Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":125,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
 {"ts":"2026-08-22T00:41:29.835Z","tool":"ost_merge_nodes","ok":true,"ms":63,"surface":"mcp","argBytes":2452,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:34.693Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":115,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:35.289Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":110,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:35.418Z","tool":"ost_read_tree","ok":true,"ms":58,"surface":"mcp","argBytes":80,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:51.232Z","tool":"ost_read_repo","ok":false,"ms":1,"surface":"mcp","argBytes":41,"err":"\"src/ost/rollup.ts\" does not exist in OST-Agent — OST-Agent/src/ost exists and contains briefing.ts, census.ts, dedupe.ts, extent.ts, frontmatter.ts, headings.ts, instrument.ts, lanes.ts, migrate.ts, node.ts, pending-asks.ts, plan.ts, ranked-ledger.ts, rename-repair.ts, results.ts, sanitize.ts, sear","session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:51.429Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":52,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:53.371Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":41,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:53.441Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:54.684Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":29,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:41:57.668Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":31,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:43:10.269Z","tool":"ost_read_repo","ok":false,"ms":0,"surface":"mcp","argBytes":44,"err":"\"src/processes/map.ts\" does not exist in OST-Agent — OST-Agent/src/processes exists and contains tree.ts, types.ts; nothing there is close enough to name, so this is not a typo to correct","session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:43:10.336Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:43:12.408Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:43:14.707Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":26,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:43:21.311Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":26,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:45:57.316Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":40,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:45:57.488Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:45:59.394Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":27,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:46:30.496Z","tool":"ost_next_work","ok":true,"ms":30,"surface":"mcp","argBytes":62,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:46:30.856Z","tool":"ost_next_work","ok":true,"ms":30,"surface":"mcp","argBytes":62,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:46:50.848Z","tool":"ost_read_tree","ok":true,"ms":168,"surface":"mcp","argBytes":101,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:47:04.377Z","tool":"ost_next_work","ok":true,"ms":29,"surface":"mcp","argBytes":62,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:47:05.412Z","tool":"ost_next_work","ok":true,"ms":27,"surface":"mcp","argBytes":62,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:47:06.486Z","tool":"ost_next_work","ok":true,"ms":29,"surface":"mcp","argBytes":62,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:47:06.861Z","tool":"ost_next_work","ok":true,"ms":28,"surface":"mcp","argBytes":62,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:47:56.111Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":106,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
+{"ts":"2026-08-22T00:49:33.856Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":5343,"session":"mcp-8f3c4d5a-4bf0-436c-b2c3-8f698076d7b2"}
