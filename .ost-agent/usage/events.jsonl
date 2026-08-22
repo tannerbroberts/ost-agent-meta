@@ -5744,3 +5744,13 @@
 {"ts":"2026-08-22T09:52:54.894Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T09:52:56.614Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-0fb0f680-a243-4de9-8698-d139b4d16cbe"}
 {"ts":"2026-08-22T10:53:43.687Z","tool":"ost_ingest_inbox","ok":true,"ms":25,"surface":"mcp","argBytes":2,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:53:45.434Z","tool":"ost_next_work","ok":true,"ms":182,"surface":"mcp","argBytes":2,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:54:17.242Z","tool":"ost_next_work","ok":true,"ms":11,"surface":"mcp","argBytes":62,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:54:24.881Z","tool":"ost_next_work","ok":true,"ms":9,"surface":"mcp","argBytes":62,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:54:25.327Z","tool":"ost_next_work","ok":true,"ms":11,"surface":"mcp","argBytes":62,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:54:34.189Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:54:34.264Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:54:47.330Z","tool":"ost_next_work","ok":true,"ms":11,"surface":"mcp","argBytes":62,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:54:47.476Z","tool":"ost_next_work","ok":true,"ms":11,"surface":"mcp","argBytes":62,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:54:55.119Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":72,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
+{"ts":"2026-08-22T10:55:20.670Z","tool":"ost_create_node","ok":true,"ms":16,"surface":"mcp","argBytes":2428,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["A command stops to ask a yes no question and the unattended run has nobody to answer it.md"]}
