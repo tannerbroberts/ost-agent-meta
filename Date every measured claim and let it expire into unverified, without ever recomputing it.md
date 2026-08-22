@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Dated claims here are spread across enough ages that an expiry label separates some from others]]
 
 **Variation dimension: what is deliberately given up — this candidate gives up ever knowing the current value, and buys back the guarantee that the tree never asserts a stale one.** No re-measurement, no scheduler, no expression language. A measured claim carries the date it was taken and a stated shelf life; past that date every surface that renders it prefixes it "not measured since 2026-08-16" instead of printing it as a finding. The number is not corrected and is not deleted — it is demoted from a claim to a historical reading, which is what it actually is.
 
