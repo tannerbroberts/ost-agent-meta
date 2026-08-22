@@ -5788,3 +5788,4 @@
 {"ts":"2026-08-22T11:01:15.392Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":785,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}
 {"ts":"2026-08-22T11:01:24.901Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":1940,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["A prompt the policy does not cover stops the run and is recorded, rather than being guessed.md"]}
 {"ts":"2026-08-22T11:01:43.046Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2699,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb","wrote":["A near-miss prompt stops the run, while the exact covered prompt is answered.md"]}
+{"ts":"2026-08-22T11:01:49.341Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1060,"session":"mcp-d806368f-1cf3-43d2-bff9-ac6c067a76fb"}

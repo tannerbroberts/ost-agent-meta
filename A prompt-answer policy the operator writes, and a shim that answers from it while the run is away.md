@@ -17,3 +17,15 @@ evidence: assertion
 **Cost.** A policy file format, a matcher, a shim on the invocation path, and a new failure class for uncovered prompts. The largest of the three.
 
 ⚠️ Unvalidated. Agent-ideated from one recorded session (`005ca37f`, `overwrite src/cli/index.ts? (y/n [n]) not overwritten`).
+
+## Definition of done
+
+"A near-miss prompt stops the run, while the exact covered prompt is answered"
+
+```
+npx vitest run test/security/prompt-policy-near-miss.test.ts
+```
+
+Red today as a no-spec filing, with a bound bar so it is a working permit rather than a vacuous red. This is the candidate whose failure mode does damage rather than merely failing to help, so the near-miss bar is decisive rather than proportional: a single near-miss answered refutes.
+
+A green is a floor for building and not a warrant for running the shim with nobody watching. It shows the matcher safe against strings somebody thought of; the real threat is the prompt a third-party tool ships next release, which no spec reaches. The operator's standing-yes question stays open regardless — "Ask five operators whether they would let a stated default stand while they are away" is already on the tree and is the gate for actually enabling this.
