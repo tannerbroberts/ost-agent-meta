@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Re-derive all 4 recorded censuses from stored expressions and require every count to match exactly]]
 
 **Feasibility belief, and the one this candidate lives or dies on:** an expression language small enough to be worth building is still rich enough to say what the censuses already on this tree actually counted.
 
