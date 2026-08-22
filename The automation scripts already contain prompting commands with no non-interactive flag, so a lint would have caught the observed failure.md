@@ -6,6 +6,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A lint over the automation scripts flags at least one prompting command lacking its documented non-interactive flag]]
 
 **The belief, stated so it could be false:** the defect this solution proposes to lint for is present in the checked-in automation today, and a lint over `examples/automation/*.sh` would have refused the firing that produced the founding evidence.
 
