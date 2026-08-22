@@ -99,3 +99,23 @@ This changes what the need is for the majority case. The entries above treat thi
 The remaining 66 records are Edits or Writes to repo source and test files mid-build — the harness-side half of the need, unchanged by this finding.
 
 _Counted with a text search over `.ost-agent/evidence/` this pass; observed behaviour of the product's own agent. Grounds usability, not demand. Rung unchanged._
+
+## Recount, 2026-08-22 unattended sweep: 160 → 181 records in two days, and the first occurrence-level count
+
+The 2026-08-20 section counted 160 records carrying the guard string. Re-taken today over the same corpus, and adding a measure no prior census took.
+
+| Measure | 2026-08-20 | **2026-08-22** |
+|---|---|---|
+| Records carrying "File has not been read yet" | 160 | **181** |
+| Total occurrences | not counted | **312** |
+| Share of all transcript records (399) | — | **45%** |
+
+**Twenty-one more records in two days**, which is the fastest stretch this node has recorded and is consistent with the 2026-08-20 finding that the build loop induces one occurrence per firing by construction.
+
+**The occurrence count is the new part, and it changes the cost estimate.** Every prior census here counted records — how many sessions hit the guard at least once. At 312 occurrences across 181 records the mean is **1.7 per affected session**, so the guard is not a once-per-firing toll: the modal session hits it, recovers, and hits it again on a different file. The distribution has a tail — one record carries 8, another 7, several carry 4 or 5. That is the same shape this vault's tool-denial census found and named as the signature of a session that does not learn within itself: the first refusal does not change how the next write is composed.
+
+**One figure deliberately not offered as a continuation.** The 2026-08-20 section reported that in 94 of 160 records the following retry was a Write to the build loop's `last-report.txt`. A filename search finds that path mentioned in 104 occurrences across 100 records today, but that is a *different and looser* measure — it counts any mention anywhere in the record, not the stricter "the retry that follows this guard error targets that file". The two numbers are not comparable and the split between product-induced and harness-side friction should be re-derived by whoever needs it, not read off this line.
+
+**Corroborating record captured by this pass:** `TRANSCRIPT:77641cf6-326a-4df8-890d-2a9a3a738ddc` — an Edit and a Write, both refused with the guard string, in a session whose only other friction was a Bash `ls` on a spec path that did not exist. Same shape, no new pattern, cited rather than given a node of its own.
+
+_Method: two `Grep` count passes over `.ost-agent/evidence/TRANSCRIPT_*.md`. Agent self-observation of this product's own firings, captured mechanically — it grounds usability, not demand. No test run, no result recorded, rung unchanged. These records stay listed as unmapped evidence; citing them here does not clear them._
