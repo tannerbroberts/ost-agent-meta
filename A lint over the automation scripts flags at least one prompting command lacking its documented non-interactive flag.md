@@ -23,3 +23,6 @@ sight: grounded
 **What a green here does NOT settle.** Only that the lint has something to find. It does not settle whether refusing the firing is the right response (a warning may be better), whether the flag table stays current as tools change, or whether the share of prompts originating in ad-hoc mid-run commands is large enough to make this candidate marginal even when it works. Feasibility only.
 
 **Category:** feasibility.
+
+## Instrument Log
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured

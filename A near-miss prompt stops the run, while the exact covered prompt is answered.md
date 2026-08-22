@@ -23,3 +23,6 @@ sight: grounded
 **What a green here does NOT settle, and this one matters.** A matcher that refuses 7 curated near-misses has been shown safe against 7 strings somebody thought of. It has not been shown safe against the prompt a tool ships next year, which is the actual threat, and no spec can reach that. So a green is a floor for building, not a warrant for running the shim unattended — and it leaves the operator's willingness question ("Ask five operators whether they would let a stated default stand while they are away", already on the tree) entirely open. Desirability and viability untouched.
 
 **Category:** feasibility, probing a potential-harm boundary.
+
+## Instrument Log
+- 2026-08-22 **no-spec** (exit none) `npx vitest run test/security/prompt-policy-near-miss.test.ts` — test/security/prompt-policy-near-miss.test.ts does not exist — no spec was collected, so nothing was measured
