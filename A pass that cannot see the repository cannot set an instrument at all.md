@@ -340,3 +340,29 @@ The commercial-family section above closes with "five families sampled, five hit
 **One adjacent thing this firing declined to do.** These transcripts' friction — compose, get refused, retry — is arguably answerable here, via whatever carries a recorded correction into the next composing session. That belief belongs beneath the corrections solution, not beneath a Monitor-documentation solution, and filing it here to make a family produce a hit would be the exact defect this node's chain keeps catching. Left for a pass working that branch.
 
 _Method: `Read` of the solution node in the vault; no repo read was needed, because the subject is not in the repository. Rung stays at the `assertion` floor._
+
+## The queue's real blocker, measured with repo sight (unattended sweep, 2026-08-22)
+
+This node carries the tree's census of `solutionsMissingInstruments`, so the finding belongs here. Six passes reported repo sight dead and declined to instrument; this firing had it, and what it found is that sight was never the whole blocker. The write boundary's own rules are, and they are stateable exactly.
+
+**The three rules, read first-party from the code this pass:**
+
+1. **One form, anchored.** `INSTRUMENT_FORMS` in `src/knowledge/instruments.ts` accepts `npx vitest run <path>.test.ts` and nothing else, and `SHELL_METACHARACTERS` rejects quotes, `-t` filters, and every other punctuation mark on sight. A test whose question needs a named case within a spec file cannot be expressed at all.
+2. **A path that does not resolve is refused** against `product.repos` (`specResolves`), at both write boundaries.
+3. **Unless the test carries a *bound* threshold.** That is the deliberate escape for genuinely new behaviour: `test/instruments/spec-path-resolution.test.ts` accepts "at least 5 of the 20 replayed sessions are refused" and refuses "the resolver feels correct to whoever reads it", which `thresholdKindOf` reads as `prose`.
+
+**The consequence nobody has written down, and it explains the whole backlog.** Put those three together against a legacy test — prose question, no bound bar — and there is no honest instrument that can be set on it *in place*:
+
+- A new spec path is refused, because the bar is not bound.
+- An existing spec path is accepted, and is then almost always the wrong answer: the suite is green, so `verifyInstrument` meets a first-run green and refuses to record it, by the red-before-green rule. The instrument field would be written and could never produce an observation.
+- And **no tool on any agent surface can bind the bar**. `threshold` is an argument of `ost_create_node` only; there is no `ost_set_threshold`, and `MCP_TOOL_NAMES` has no equivalent. (Whether the CLI offers one was not checked — `src/cli/index.ts` is 141KB and exceeds this surface's read cap. A human should confirm before treating this as closed.)
+
+So the instruction each sweep is given — "re-write those tests rather than adding more" — is, for the un-barred class, not expressible with the tools the sweep holds. The only legal move that produces a runnable question is to create a *new* test carrying a bound bar, which is the thing the instruction forbids. That is a genuine contradiction between the ruleset and the write boundary, not a pass declining work, and it is why the queue has not moved.
+
+**What that implies for the 68.** Read alongside the answer recorded on "What is in the 33 queue entries no tool has ever listed" — `mechanical` = 0 of 33 in the unlisted tail — the queue is mostly work no exit code can settle, and its residue is mostly work no agent tool can re-bar. Both halves point at the same repair, and it is to the queue rather than to any solution beneath it.
+
+**One entry was paid off this pass, to show the escape works.** A feasibility assumption was surfaced beneath this node — "The write boundary can refuse a blind instrument without refusing every instrument" — and its test carries a bound bar and a new spec path, accepted by rule 3. It is red for a reason specific to itself: `test/instruments/spec-path-resolution.test.ts` asserts the *opposite* behaviour under "with no product repo configured, the guard stands down". That is the shape a grounded instrument takes here, and it took repo sight to write.
+
+**A gap in this firing's own surface, recorded because it is not a choice this pass made.** `ost_flag_humans_required` is withheld from the unattended sweep. So for a queue entry whose test genuinely needs a person — which the census says is most of them — this pass can neither instrument it nor label it into the humans-required lane. It can only write this. A surface that is told silence is unacceptable and is given no way to say "a person is the measurement" will keep producing notes like this one.
+
+_Method: `ost_read_repo` over `/Users/tanner/dev/OST-Agent` — `src/ost/instrument.ts`, `src/knowledge/instruments.ts`, `src/mcp/server.ts`, `test/instruments/spec-path-resolution.test.ts`. No command was run and no result recorded. First-party; rung unchanged at the floor._
