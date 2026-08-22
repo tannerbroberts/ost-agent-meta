@@ -16,3 +16,13 @@ evidence: assertion
 **What would make this the wrong pick, and it is the sharpest objection in this set.** It hands the agent a button that makes its own inbox smaller. Every other mechanism on this surface that removes work from view is deliberately held away from the agent — retraction is a human's CLI act, `validated` is not a settable status, promotion is human-only — for the single reason stated throughout this codebase: a constrained actor must never be able to empty a gate's denominator on its own authority. A dismissal ledger is exactly that power, pointed at evidence. Mitigations exist (require a named node; make dispositions append-only and reviewable; let the queue keep a "disposed, unreviewed" count so nothing vanishes) but they are mitigations, and whether the trade is acceptable is the operator's call rather than this pass's.
 
 ⚠️ Unvalidated. Agent-ideated from this pass's own tool output.
+
+## Definition of done
+
+"Try to dispose of a record without naming a node, including through the reveals-no-need case"
+
+```
+npx vitest run test/evidence/dismissal-requires-a-node.test.ts
+```
+
+Green means the guard binds on all four attempted disposals, including the `reveals no need` case that has no node to name — which is the case the assumption beneath this predicts will break it. Accepting that one while naming nothing is scored as a refutation, not a near-pass, because a guard that binds only the easy case does not answer the objection this candidate carries. It is a `no-spec` red today. It settles that the guard holds mechanically; whether an unattended actor should hold this power at all is the operator's call and no exit code speaks to it.
