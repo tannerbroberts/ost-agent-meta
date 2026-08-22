@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[A node can carry several sources without breaking the readers that assume it carries exactly one]]
 
 **Variation dimension: what is measured — this candidate measures a declaration, where its sibling measures a mention.** The single-valued `source:` field becomes a list, and a tool call adds an id to a node that already exists. Mapping becomes a typed transition a pass performs on purpose, recorded in History like every other typed transition on this surface, rather than a side effect of how a paragraph was worded.
 
