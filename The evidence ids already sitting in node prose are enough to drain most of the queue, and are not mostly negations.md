@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Scan every node body for the 363 unmapped ids and count both the hits and the negations]]
 
 **The belief, stated so it could be false (feasibility).** This candidate's whole case is that the information needed to drain the queue is already written down in the bodies. That is two claims, and either could turn out wrong:
 
