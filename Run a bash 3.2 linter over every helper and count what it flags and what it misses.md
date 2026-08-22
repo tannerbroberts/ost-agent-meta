@@ -23,3 +23,4 @@ The assumption is that a linter configured to a version floor catches this class
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/helper-bash-compat-lint.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/runner/helper-bash-compat-lint.test.ts` — Duration  276ms (transform 29ms, setup 0ms, collect 55ms, tests 8ms, environment 0ms, prepare 34ms)
