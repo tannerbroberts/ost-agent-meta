@@ -63,3 +63,19 @@ This is not row 4. Row 4 is a run re-issuing a tool call after a transient failu
 **Nothing was mapped, for the reason this node exists.** Every one of the 359 lands in a row above, all of which are held. There is still no tool call on this surface that records "read and judged redundant" without either creating a duplicate node or growing this one — so this entry is itself an instance of the debt it describes, which is the third pass in a row that has had to say so.
 
 _Method: `Grep` over the vault's own evidence sidecar, 2026-08-21, plus full reads of four representative records. First-party counts over stored records; no node was created and no rung moved._
+
+## Addendum to the 2026-08-21 entry above — the channel split, and one standing claim that has cleared
+
+Two facts the entry above does not carry. Kept to this length deliberately, per the 2026-08-17 Issues note.
+
+**1. The backlog is one channel, entirely.** Counted on disk: `.ost-agent/evidence/` holds **458** records, of which **385** are `TRANSCRIPT_` and **73** are not (`INBOX_`, `USAGE_`, `INBOX_friction_`). The sweep reports **361 unmapped**, so **97 are mapped** — and 73 + 24 = 97. Cross-checked against the sweep's own list, which is sorted ascending by id: its first entry is `TRANSCRIPT:0095203e…`, and every `INBOX:` id sorts before every `TRANSCRIPT:` id, so an unmapped INBOX item could not be hiding past the display cap.
+
+**Every non-transcript record ever ingested — 73 of 73 — is mapped. 361 of 385 transcript records (94%) are not.** Nothing else on this channel list contributes a single item to the queue.
+
+That is a sharper claim than "the queue grows", and it moves where the remedy plausibly belongs. The three solutions beneath this node all sit in the sweep — cluster before the queue sees it, corroborate instead of creating, record a read-and-skipped judgement. The split says the sweep is not where the asymmetry originates: every other adapter produces records that distil into needs and leave, and one adapter produces records that never can, because a per-session friction digest is a report about the tool rather than a want anyone has. Whether that argues for fixing this at the transcript adapter — emitting one rolling record per shape instead of one per session — rather than at the queue is a design call for a human, and it is a fourth candidate none of the three existing solutions covers.
+
+**2. A standing claim on this node has cleared, and nothing noticed.** The body above says of `INBOX:2026-07-24-friction-a-backgrounded-session-leaves-no-marker-of-where.md`: "No tool on this surface can repair the mapping — it will reappear every pass until a human sets `source` directly or the merge tool is fixed." It is not on the queue now, and by the sort argument above it cannot be. Whatever repaired it, the prediction no longer holds and the paragraph asserting it does. Not edited out here — a human should decide whether it was fixed or merely re-cited, and the wording is evidence either way.
+
+This is a second instance of the pattern now filed as "A measured bar is only re-taken when a pass feels like it, so a fix reads as working long after it stopped", found on a different node within the same hour as the first. Two is not a rate, but both were found by recounting something a node asserted, which is the only way either would have surfaced.
+
+_Method: two `Glob` counts over the evidence sidecar plus arithmetic against the sweep's own totals; the INBOX conclusion is an inference from the list's sort order, stated so it can be checked. First-party counts over stored records. No node created, no rung moved, nothing mapped — for the reason this node exists._
