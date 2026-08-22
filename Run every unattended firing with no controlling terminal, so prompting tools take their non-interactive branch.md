@@ -6,6 +6,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
+[[Without a controlling terminal the prompting tool fails loudly instead of silently taking its default]]
 
 **Variation dimension: who-does-the-work — nobody does, because the step is removed.** The other candidates decide who answers the prompt. This one arranges for the prompt never to be asked. A firing is launched with stdin closed and no controlling terminal, and with the environment variables the common offenders read (`CI`, `DEBIAN_FRONTEND=noninteractive`, `GIT_TERMINAL_PROMPT=0`). Well-behaved tools detect the absent TTY and take the branch they already have for pipelines and CI; the one that prompted in the founding evidence would have overwritten or refused loudly instead of defaulting to no in silence.
 
