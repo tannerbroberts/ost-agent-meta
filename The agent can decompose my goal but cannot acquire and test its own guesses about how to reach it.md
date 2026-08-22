@@ -24,10 +24,13 @@ evidence: assertion
 
 **Expect this node to appear under-served.** `ost_next_work` lists it at 0 of 3 solutions and will keep doing so until a human or attended pass lifts the hold. That counter is not a defect and clearing it by ideating would be silent re-architecture — an unattended pass overriding a recorded hold to satisfy a counter.
 
-**Respected by four consecutive unattended sweeps:** 2026-08-10, 2026-08-18, 2026-08-19 and 2026-08-21. Each read the prose before acting on the counter and declined to ideate. Recorded once here rather than re-annotated per pass; git holds the individual entries.
+**Respected by five consecutive unattended sweeps:** 2026-08-10, 2026-08-18, 2026-08-19, 2026-08-21 and 2026-08-22. Each read the prose before acting on the counter and declined to ideate. Recorded once here rather than re-annotated per pass; git holds the individual entries.
+
+**A consequence worth stating once, for whoever lifts the hold.** This node is now the sole entry in `underservedOpportunities`, and it is unclearable by design on an unattended surface. So `ost_next_work` cannot return `done: true` on this vault while the hold stands — not because anything is broken, but because the one remaining blocking item is deliberately held. A reader treating `done: false` as a backlog signal will misread it; the accurate reading is "the sweep is current, and one counter is parked on purpose." Lifting the hold or ideating under it here is the only thing that changes that, and both are a human's call.
 
 ## Issues
 - 2026-08-21 Consolidated four near-identical hold annotations (2026-08-10, -18, -19 ×2 — the last written both as an Issues bullet and as a duplicate standalone section) into the standing hold above. No claim dropped. Future sweeps: add a dated line to the sweep list above rather than a new annotation.
 
 ## History
 - 2026-08-21 body edited — Three sweeps (2026-08-10, -18, -19) appended near-identical annotations recording that the ideation hold was respected, and the 2026-08-19 one was written twice — once as an Issues bullet and again as a standalone section with the same text. Folding the four into one standing note: the fact worth keeping is that the hold exists and has now been respected by four consecutive sweeps, not four separate assertions of it. No claim dropped; git holds the prior text.
+- 2026-08-22 body edited — Adding this sweep's date to the standing hold list, in the form the node's own 2026-08-21 Issues note asks future sweeps to use instead of a fresh annotation. Also recording once that this node is now the only entry in underservedOpportunities and is unclearable from an unattended surface, so `done: false` on this vault reads as a parked counter rather than as outstanding work — a distinction the report consumer otherwise has to re-derive every pass. No prior claim removed.
