@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Buyers value the design of a test, not just the running of it]]
+[[The stored record shows the bar was fixed before the run, rather than merely asserting it was]]
 
 The unit is one tested assumption: the risky belief named, the test designed small and fast, the threshold committed before it runs, the result recorded with what it failed to cover. Priced per test. A customer who buys nothing gets nothing, and a customer who buys ten has ten things they know that they did not know before.
 
