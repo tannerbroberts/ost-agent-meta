@@ -202,3 +202,24 @@ Recounted this pass by the same method — a grep of every `TRANSCRIPT_*.md` in 
 **Corroborated first-party, this pass.** `Glob` on `/Users/tanner/dev/OST-Agent` was denied to this firing too, with the same message, and `ost_read_repo` answered normally against the same directory — the separable-grants finding recorded on the sibling node, observed again. This firing's own denial is not in the 82; the count is a floor by one, and the direction of the error is known.
 
 _Method: two `Grep` count passes over `.ost-agent/evidence/TRANSCRIPT_*.md`, plus a direct read of the 90d8aeae record and its frontmatter timestamp. Agent self-observation of this product's own firings, captured mechanically with no narrator — it grounds feasibility and usability, not demand. No test was run, no result recorded, and this node's rung is unchanged. The 29 and 69 session records remain listed as unmapped evidence; citing them here does not clear them._
+
+## Recount, 2026-08-22 unattended sweep: the tool-class break has not recurred; the path class still climbing
+
+Re-taking the census the section above tracks, by the same method, because that section's own finding was that nobody re-takes it. Kept short deliberately — this node has twice been asked to stop accumulating restatements, and only the numbers are new.
+
+| Class | 08-10 | 08-16 | 08-21 | **08-22** |
+|---|---|---|---|---|
+| `permissions to use mcp__…` — a withheld tool | 83 / 28 | 83 / 28 | 91 / 29 | **91 / 29** |
+| `requested permissions to read from <path>` | 42 / 36 | 59 / 50 | 82 / 69 | **91 / 75** |
+
+Denominator: 399 transcript records in the evidence store.
+
+**The tool class is flat, to the occurrence, five days after the break.** The 2026-08-21 section established that the entire 83 → 91 rise was one session (`90d8aeae`, eight consecutive denied `ost_flag_humans_required` calls) and left open whether that firing was handed the withholding section at all. Nothing has been added since: every firing recorded in the five days after it sits at zero denied withheld-tool calls, so the bar of at most one per session is met by every session in that window. That does not settle the open question — a single unexplained failure followed by silence is consistent with both readings the section named — but it does say the failure was isolated rather than the start of a decay, which is the cheaper of the two things a human would want to know first.
+
+**The path-read class is still accelerating and is now recorded in 75 sessions to the tool class's 29.** +9 occurrences and +6 sessions in the one day since the last recount, the fastest daily rate this series has recorded. The 2026-08-16 correction still explains why its bar is unreachable: these are raw `Glob`/`Read` calls against the product directory, governed by a harness sandbox permission this vault's config does not reach, so `product.repos` was never the lever. That bar remains unmet, unowned, and moving the wrong way.
+
+**First-party this pass, and it is the sharpest form of the separable-grants finding yet.** `Glob` on `/Users/tanner/dev/OST-Agent` was denied to this firing, and `ost_read_repo` answered normally against that same directory moments later — both observed in a single session rather than inferred across firings, which is what prior sightings had to settle for. The pass then did all of its repository reading through `ost_read_repo` and lost nothing but the calls it spent finding out. `TRANSCRIPT:694ffe89-2427-4fd2-bb14-f736c079698b`, captured by this pass's own ingest and timestamped seventeen minutes earlier, records another firing hitting the identical pair of `Glob` denials on the same path — so this is now the observed default for the surface, not an intermittent one.
+
+This firing's own denials are not in the 91; the count is a floor by one session, and the direction of the error is known.
+
+_Method: two `Grep` count passes over `.ost-agent/evidence/TRANSCRIPT_*.md`. Note the search string differs by two words from the prior censuses — `requested permissions to read from` rather than `permissions to read from` — so the path row is a lower bound against the earlier rows if any record phrased it differently; the tool row used the identical string and is exactly comparable. Agent self-observation of this product's own firings, captured mechanically: it grounds feasibility and usability, not demand. No test run, no result recorded, rung unchanged. The 29 and 75 session records remain listed as unmapped evidence; citing them here does not clear them._
