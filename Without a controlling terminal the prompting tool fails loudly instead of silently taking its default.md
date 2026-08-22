@@ -6,6 +6,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A prompting command run with no controlling terminal exits non-zero with its question on stderr, and does not silently default]]
 
 **The belief, stated so it could be false:** removing the TTY changes the *visibility* of the outcome, not just the outcome. The claim is that a tool which today prints `overwrite …? (y/n [n])` and exits 1 having done nothing will, with stdin closed and no controlling terminal, either do the work or fail with a message a run can classify — rather than reaching the same silent default by a different route.
 
