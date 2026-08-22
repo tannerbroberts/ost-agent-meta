@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count this vault's dated claims by age and require the expired share to fall between 10 and 70 percent]]
 
 **Feasibility belief about this vault's own shape, not about the mechanism:** the dated measured claims on this tree are spread across enough different ages that marking the old ones actually partitions them.
 
