@@ -19,3 +19,15 @@ The regression this node is distilled from would have been named at 2026-08-17, 
 **What would make this the wrong pick.** If most stale claims on this tree turn out to have decayed without any new record arriving, the tripwire fires on the minority of cases and the operator still cannot trust an unflagged claim. That is a measurable question about this vault's own history and it should be answered before this is built, not after. It also puts judgement into the ingest path, which today is deliberately dumb: a false breach report at ingest is noise on the one surface every pass reads first, and enough of it would train passes to skim the ingest output — the failure mode that made this need invisible in the first place.
 
 ⚠️ Unvalidated. Agent-ideated from one recorded session.
+
+## Definition of done
+
+"Express this vault's own stated bars as pattern-and-count and require at least 6 of 10 to evaluate from one record"
+
+```
+npx vitest run test/evidence/ingest-bar-tripwire.test.ts
+```
+
+Bar: at least 6 of the 10 sampled bars return a verdict from one record's text, and 0 need a model call.
+
+**Do not start on the command alone.** The sibling test beneath this solution — "Classify 12 already-falsified claims from this vault's git history by what falsified each" — is humans-required and decides whether this candidate is worth building at all. At 6 or fewer of 12 falsified by an ingested record, this candidate is closed and the command above becomes a green test on a thing nobody needed.
