@@ -6,6 +6,7 @@ evidence: observed
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Check each newly ingested record against the bars its own class names, at ingest rather than at review]]
+[[Store the bar as the query that computes it, so reading the node is taking the measurement]]
 
 **The need:** when my tree says a fix is working, I want that to be a reading somebody took recently — not a reading somebody took once, written down as prose, and never contradicted because nothing ever looked again.
 
