@@ -5,6 +5,7 @@ created: '2026-08-22'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Delete each guard behind a claimed refusal in turn and require the suite to redden every time]]
 
 **The belief, stated so it can be false.** This solution sells four specific refusals — the tool "cannot mark its own output validated, cannot invent the outcome, cannot record a test result it did not watch a human run, and caps every claim at the rung its source actually earned." The position is only as good as the weakest of the four, and it depends on a property nobody has written down: that each named refusal is bound to a guard, such that removing the guard turns something red before the sentence is read by a prospect.
 
