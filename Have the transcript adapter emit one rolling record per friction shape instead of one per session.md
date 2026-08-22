@@ -20,3 +20,13 @@ The queue then holds roughly as many transcript records as there are distinct fa
 **Distilled from a measurement, not from ideation.** The channel split recorded on the parent this pass — 73 of 73 non-transcript records mapped, 361 of 385 transcript records not — is what says the asymmetry belongs to one adapter rather than to the queue, and no sibling addresses it there.
 
 ⚠️ Unvalidated. Agent-ideated, 2026-08-21 unattended sweep.
+
+## Definition of done
+
+"Replay all 4 named per-session findings against rolling records and require every one to be reproducible"
+
+```
+npx vitest run test/adapters/rolling-shape-record-fidelity.test.ts
+```
+
+Bar: all 4 named findings reproduce from rolling per-shape records alone, 0 requiring the original per-session files. The assumption's own body predicts 2 of the 4 will fail against a scalar counter — a builder who widens the format until all 4 pass has built per-session storage under a new name and should say so rather than record a green.
