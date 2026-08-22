@@ -22,3 +22,4 @@ _Proposal only — a human runs this with real operators. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/eval/judge-independence.test.ts` — No test files found, exiting with code 1
+- 2026-08-22 **green** (exit 0) `npx vitest run test/eval/judge-independence.test.ts` — Duration  559ms (transform 211ms, setup 0ms, collect 336ms, tests 10ms, environment 0ms, prepare 43ms)
