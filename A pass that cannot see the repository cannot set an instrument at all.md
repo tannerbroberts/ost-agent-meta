@@ -244,3 +244,29 @@ The section above ends by naming the next measurement — count the `prose`/`ins
 **Net.** The agent-reachable threshold backlog was the 6 `absent` nodes, and it is now empty. What remains splits into field-carrying (313, a human's permanently) and `prose` word-bars (visible to a human, invisible to the regex, and not this surface's to rewrite). The honest repair for the latter is not an edit — it is a decision about whether the rollup should count `prose` as unfixed at all, which is the operator's call and is already half-stated by the product's own two disagreeing readers.
 
 _Method: first-party `ost_read_repo` of `src/eval/coverage.ts` (read in full), plus one `Grep` over the vault. Nothing executed. Rung stays at the `assertion` floor._
+
+## `mechanical = 0` measured the tests, never the missing beliefs — five counter-instances (2026-08-22 unattended sweep, third firing, repo sight held)
+
+The standing finding classifies queue entries by "what its test could actually measure" and lands `mechanical = 0` at every recount. Every recount asked the same question, and it is the wrong question by one step: **it takes each solution's assumption set as given.** The census opened the tests. It never asked whether the belief a spec *could* settle had been written down at all.
+
+It usually has not. Sampled entries share one shape: **the solution carries exactly one assumption, and it is the desirability or viability one** — the operator's preference, the founder's attention, the buyer's willingness. That single assumption is correctly `humansRequired`, so the entry classifies `people` and the census is right about it. Meanwhile the solution's *mechanical* premise sits unstated in its prose, where no counter can see it, and `solutionsMissingAssumptions` reads empty because "has ≥1 assumption" is satisfied.
+
+The classifier is honest and the tree is what is thin. `assumptionWork` this pass: **0 runnable, 0 awaiting-one-command, 0 blocked-on-permission, 430 needs-humans** — a tree whose every test is a person's, which is not a fact about the world.
+
+Five entries were re-opened and each yielded a mechanical belief nobody had written, now on the tree with a bound threshold and a no-spec instrument (a working permit, per the correction chain above):
+
+| Queue entry | Belief that was missing | Why a spec settles it |
+|---|---|---|
+| Buckets ordered by branch… | grouping withholds no item the flat listing showed | set equality over a capped listing |
+| Append a one-line friction summary… | one completion path exists that can carry the count | where a report is assembled |
+| Alert only when friction crosses a bar | the would-have-fired verdict is computable from stored records | parse and label, with a denominator |
+| Announce a red-to-green flip… | every landed build is announceable | `transitioned` is false after a no-spec-only history |
+| Build dist on its own branch only | no entrypoint runs the bundle without building it | `build-pass.sh`, read this pass |
+
+**The fourth is the one that pays for the exercise.** `verifyInstrument` sets `transitioned` only when `observedRed` matched, and `observedRed` deliberately does not match `**no-spec**`. Since this node's own finding is that no-spec is the *only* red an agent surface can produce, announcing on `transitioned` would be silent for very nearly every build this loop completes — a notification channel that reports nothing and looks healthy. That defect was invisible while the solution's only assumption was about the founder's attention span.
+
+**The bound, stated so this is not over-read.** Five entries is a sample, not a recount, and the standing finding is not refuted: each of these five *still* carries a genuine human ask, and none became buildable. What changed is the accounting. The mechanical half was never absent from these solutions, only unwritten — so `mechanical = 0` should be read as "no queue entry's *existing tests* are mechanical", which is true, and not as "no queue entry has a mechanical half", which these five contradict. A full recount under the second reading is the measurement this node now wants, and it is a different and larger job than the 2026-08-10 census.
+
+**One consequence for the surface.** All five solutions stay in `solutionsMissingInstruments` until something runs `ost-agent verify` on the new tests, and their human asks stay unlaned because `ost_flag_humans_required` is withheld here — so the queue will not appear to move on the next sweep even though five entries now hand a builder a command and a bar.
+
+_Method: `ost_read_tree` on each entry and its assumptions, plus first-party `ost_read_repo` reads of `src/ost/instrument.ts`, `src/eval/buildable.ts`, `src/eval/coverage.ts`, `src/knowledge/instruments.ts`, `src/mcp/server.ts` and `examples/automation/build-pass.sh` (all `"truncated": false` except `build-pass.sh`, read to the report-branch section). Nothing executed; the `transitioned` conclusion is read off the mechanism, not observed. Grounds feasibility only. Rung stays at the `assertion` floor._
