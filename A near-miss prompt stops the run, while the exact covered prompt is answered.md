@@ -38,3 +38,4 @@ sight: grounded
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/security/prompt-policy-near-miss.test.ts` — test/security/prompt-policy-near-miss.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/security/prompt-policy-near-miss.test.ts` — test/security/prompt-policy-near-miss.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/security/prompt-policy-near-miss.test.ts` — test/security/prompt-policy-near-miss.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-23 **no-spec** (exit none) `npx vitest run test/security/prompt-policy-near-miss.test.ts` — test/security/prompt-policy-near-miss.test.ts does not exist — no spec was collected, so nothing was measured

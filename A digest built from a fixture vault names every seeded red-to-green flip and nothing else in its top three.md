@@ -25,3 +25,6 @@ sight: grounded
 
 ## History
 - 2026-08-23 body edited — Removing a "Lane: compute-only." declaration this pass wrote into the prose. The node came back from the sweep in the needs-a-person lane, so the sentence asserted a lane the frontmatter does not carry — exactly the contradiction the lane-conflict rule exists to catch, and nothing on an unattended surface can set the field to match (the permissive call is `ost-agent lane --set`, a human's). Replaced with a statement of what the test needs rather than a label it cannot back. No other claim changed.
+
+## Instrument Log
+- 2026-08-23 **no-spec** (exit none) `npx vitest run test/loop/highlights-digest.test.ts` — test/loop/highlights-digest.test.ts does not exist — no spec was collected, so nothing was measured
