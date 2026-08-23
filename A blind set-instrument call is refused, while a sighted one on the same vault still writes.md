@@ -32,3 +32,4 @@ The builder's first real decision is what happens to the existing stand-down cas
 ## Instrument Log
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/instruments/blind-instrument-refusal.test.ts` — test/instruments/blind-instrument-refusal.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/instruments/blind-instrument-refusal.test.ts` — test/instruments/blind-instrument-refusal.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-23 **no-spec** (exit none) `npx vitest run test/instruments/blind-instrument-refusal.test.ts` — test/instruments/blind-instrument-refusal.test.ts does not exist — no spec was collected, so nothing was measured
