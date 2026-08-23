@@ -5935,3 +5935,4 @@
 {"ts":"2026-08-23T00:19:07.343Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2470,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d","wrote":["Three committed standing answers survive config load and are readable by the run.md"]}
 {"ts":"2026-08-23T00:19:23.505Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2981,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d","wrote":["A firing can be given a budget of its own, and its spend can be attributed to the one branch it worked.md"]}
 {"ts":"2026-08-23T00:19:41.238Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3183,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d","wrote":["A replayed firing reports a budget of its own and exactly one branch it spent on.md"]}
+{"ts":"2026-08-23T00:20:13.368Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":5531,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d"}
