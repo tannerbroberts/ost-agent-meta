@@ -5,6 +5,7 @@ created: '2026-08-23'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A digest built from a fixture vault names every seeded red-to-green flip and nothing else in its top three]]
 
 **Feasibility.** This solution's whole premise is that "nothing new is measured" — a distiller reads what is already on disk. That premise rests on a belief nobody has written down: that the events worth surfacing are recorded in a shape a mechanical reader can *enumerate*, not merely a shape a human can recognise on re-reading.
 
