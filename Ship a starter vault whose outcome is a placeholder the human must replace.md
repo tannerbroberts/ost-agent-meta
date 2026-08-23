@@ -7,6 +7,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[A loudly-marked placeholder outcome gets replaced rather than becoming the tree's real root]]
+[[A node written while the root was a placeholder is distinguishable afterwards from one written under the real mandate]]
 
 **The idea, including the part that is uncomfortable.** `npx ost-agent init` with no
 arguments scaffolds a complete, working vault immediately — git, config, inbox, and a
