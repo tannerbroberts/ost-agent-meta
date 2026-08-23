@@ -30,3 +30,4 @@ instrument: npx vitest run test/ost/threshold-field-bound.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/ost/threshold-field-bound.test.ts` — No test files found, exiting with code 1
+- 2026-08-23 **green** (exit 0) `npx vitest run test/ost/threshold-field-bound.test.ts` — Duration  618ms (transform 211ms, setup 0ms, collect 351ms, tests 43ms, environment 0ms, prepare 42ms)
