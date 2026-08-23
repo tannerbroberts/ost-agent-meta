@@ -3,6 +3,7 @@ type: Solution
 source: 'agent-ideation:2026-08-20-unattended-sweep'
 created: '2026-08-20'
 evidence: assertion
+authorship: machine
 ---
 #Solution #build-loop #unvalidated #evidence/assertion
 [[The model's report can be captured from its final output by the script, without the model writing a file]]
@@ -26,3 +27,6 @@ npx vitest run test/automation/build-pass-report-channel.test.ts
 ```
 
 Red today as `no-spec` — the file is not written. The test node names the two assertions it must hold (prompt heredoc contains no Write-the-report instruction; executable lines route `claude -p` output into `$REPORT`), both of which fail against today's `examples/automation/build-pass.sh`. A green proves the prompt stopped requesting the refused operation; it says nothing about whether anyone wanted the turn back.
+
+## Issues
+- 2026-08-23 2026-08-23 unattended sweep, repo sight held — a finding that could upgrade this node's red from `no-spec` to a failing assertion, but which needs a decision this surface cannot make. The Definition of done names a NEW file, `test/automation/build-pass-report-channel.test.ts`, so its red is the weakest kind: absent-file, identical for any question written on it. Read first-party this pass: `test/release/build-pass-surface.test.ts` already exists and already asserts over `examples/automation/build-pass.sh`, and it already does the exact thing this node's two assertions need — it splits the file into `executable` (comments stripped) and `commands` (prompt heredoc cut out) precisely so that "what the script runs" can be asserted separately from "what the prompt says", and its `shipping is local` block greps the prompt heredoc for instructions to the builder (`do not run 'gh pr checks'`, `Do not merge`). Both of this node's assertions — prompt heredoc contains no Write-the-report instruction; executable lines route `claude -p` output into `$REPORT` — fit that file's existing harness with no new scaffolding. Why this pass did not act on it: naming `test/release/build-pass-surface.test.ts` as the instrument would be GREEN on arrival (every assertion in it passes today), which `ost_set_instrument` rightly refuses, and an unattended discovery pass cannot add the failing assertion that would make it red. So the choice between "new file, weak red" and "existing file, strong red once a builder adds two assertions" is a builder's or an attended pass's, not this one's. Recorded because the second option was not visible to the pass that wrote the Definition of done, and it is the difference between handing a builder "create this file" and handing them one assertion to make true.
