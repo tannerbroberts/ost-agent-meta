@@ -4,6 +4,7 @@ status: unvalidated
 source: 'agent-run:autonomous-loop-2026-07-25-pass5'
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Flag a threshold that is still an instruction to choose one]]
@@ -108,3 +109,26 @@ _First-party read of this product's own source via `ost_read_repo`, plus the too
 **Not acted on.** Nothing here changes a classifier, a threshold or a lane; it names a disagreement between three readers of one function. A human choosing the strict reading should expect `ost-agent debt`'s unfixed count to jump.
 
 _Method: first-party `ost_read_repo` of `src/eval/coverage.ts`, `src/eval/rollup.ts` and `src/eval/buildable.ts` in full. Nothing executed — the three call sites are read off the source, not observed. Grounds feasibility only; silent on whether anyone wants either number changed. Rung stays at the `assertion` floor._
+
+## Correction: the bound-threshold escape is unreachable for any instrument written today (2026-08-23 unattended sweep, repo sight held)
+
+The 2026-08-21 section above says a weak red "keeps its build permit **if and only if** the test carries a bound threshold", and draws from it the conclusion that "the threshold is frequently the *only* thing carrying that definition" of done. The code it quotes is real and quoted accurately. **The conclusion does not follow, because that branch cannot be reached by an instrument an agent writes now**, and a pass planning work on the strength of it would write bound thresholds expecting them to unblock a builder. They do not.
+
+Read first-party this pass from `src/eval/buildable.ts` and `src/ost/instrument.ts`, in full:
+
+1. `permitFrom` only ever clears on `live = withInstruments.filter(t => observedRed(t.test) && !observedGreen(t.test))`. A permit that never clears is never minted.
+2. `observedRed` matches `/\*\*red\*\*/i` against the node's own Instrument Log lines. A `no-spec` run writes `- <date> **no-spec** (exit …)`. That string contains no `**red**`, so `observedRed` is false.
+3. `confirmPermit` — the function holding the `thresholdBound` escape — opens with `if (!permit.cleared || !permit.instrument) return permit;`.
+
+So the sequence is closed: a new instrument naming an absent spec files `**no-spec**` → `observedRed` is false → `permitFrom` never clears → `confirmPermit` returns at its first line and the `thresholdBound` branch is never evaluated. **The escape exists only for permits already cleared on a recorded `**red**` line** — that is, reds filed before the `no-spec` marker existed, which `confirmPermit` re-checks at spend time. Its own comment says as much ("Reds recorded before the distinction existed are re-checked at spend time"); the section above generalised a backward-compatibility path into a live route.
+
+**What a `no-spec` test actually is: waiting, not dead.** Because neither `observedRed` nor `observedGreen` matches its log, such a test stays in `testsAwaitingVerification` permanently and is re-run every pass. `runInstrument`'s own comment says this is deliberate — the missing-file case short-circuits before the runner starts precisely so "a queue full of un-written specs costs nothing to re-check every pass … that queue is meant to be re-checked until somebody writes them." The moment a builder writes the spec, the next verify files a genuine red and the permit becomes available. Nothing is lost; nothing is unblocked in the meantime.
+
+**Two consequences worth separating, because they point opposite ways.**
+
+- *For this node's own claim:* a bound threshold is still worth writing, and the reason the node gives on rigour is untouched — an unfixed bar still means any outcome reads as a pass. What is wrong is only the added mechanical claim that a bound threshold carries a definition of done past `confirmPermit` for new work.
+- *For whoever plans the instrument bucket:* this closes the one apparent loophole in the argument recorded on "The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed" that no agent surface can author a strong red. A reader comparing the two nodes would reasonably have concluded that a bound threshold was the third case that node says does not exist. It is not. That node's conclusion survives; only its step-2 reasoning (which argues from `observedRed` alone) is less complete than the path traced here.
+
+**Still true and unchanged by this correction:** no tool on any agent surface sets a threshold on an existing test, so the asymmetry with `ost_set_instrument` named above stands, and the ask to a human about whether it is deliberate stands with it.
+
+_Method: first-party `ost_read_repo` of `src/eval/buildable.ts`, `src/ost/instrument.ts` and `src/knowledge/instruments.ts` in full. Nothing executed — the control flow is read off the source, not observed at runtime, and that is the honest limit on this correction. Grounds feasibility only; no result recorded and the rung is unchanged at the floor._
