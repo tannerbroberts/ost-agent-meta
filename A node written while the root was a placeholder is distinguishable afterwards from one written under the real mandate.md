@@ -5,6 +5,7 @@ created: '2026-08-23'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Every node written under a placeholder root is identified after the outcome is replaced]]
 
 **The belief, stated so it could be false.** This solution's own argument against itself is that "every node created before it is replaced ladders up to a goal nobody chose, and the believability ladder has no rung for 'mapped against a mandate that was not real'." That risk is survivable only if the damage is *identifiable* — if, once the operator runs `set-outcome`, the tree can say which nodes were written under the placeholder. If it cannot, a placeholder run leaves no way to separate the provisional from the real, and the node's sequencing warning ("cheapest to build, most expensive to be wrong about") understates the problem: being wrong would be undetectable rather than merely costly.
 
