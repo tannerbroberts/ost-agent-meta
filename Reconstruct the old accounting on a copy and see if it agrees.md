@@ -7,6 +7,7 @@ threshold: >-
   Reconstruction agrees with ost-agent@0.1.3's own answer on at least 26 of the
   27 items, with zero items marked done that the old build called outstanding.
 instrument: npx vitest run test/ost/accounting-reconstruction.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/accounting-reconstruction.test.ts` — No test files found, exiting with code 1
+- 2026-08-23 **green** (exit 0) `npx vitest run test/ost/accounting-reconstruction.test.ts` — Duration  1.25s (transform 140ms, setup 0ms, collect 210ms, tests 818ms, environment 0ms, prepare 45ms)
