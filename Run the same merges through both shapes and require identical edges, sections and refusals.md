@@ -7,6 +7,7 @@ threshold: >-
   section and refusal across all four fixture cases. Any single divergence
   outside the survivor's prose fails it.
 instrument: npx vitest run test/tools/merge-patch-parity.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -28,3 +29,4 @@ Not declared. Mechanical question; the lane is a human's to set with `ost-agent 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/tools/merge-patch-parity.test.ts` — No test files found, exiting with code 1
+- 2026-08-23 **green** (exit 0) `npx vitest run test/tools/merge-patch-parity.test.ts` — Duration  564ms (transform 214ms, setup 0ms, collect 305ms, tests 42ms, environment 0ms, prepare 40ms)
