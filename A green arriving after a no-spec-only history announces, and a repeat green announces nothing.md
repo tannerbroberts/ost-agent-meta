@@ -55,3 +55,4 @@ The fourth row is the one that keeps the channel worth reading: an announcement 
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/telemetry/build-landed-announcement.test.ts` — test/telemetry/build-landed-announcement.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/telemetry/build-landed-announcement.test.ts` — test/telemetry/build-landed-announcement.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/telemetry/build-landed-announcement.test.ts` — test/telemetry/build-landed-announcement.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-23 **no-spec** (exit none) `npx vitest run test/telemetry/build-landed-announcement.test.ts` — test/telemetry/build-landed-announcement.test.ts does not exist — no spec was collected, so nothing was measured
