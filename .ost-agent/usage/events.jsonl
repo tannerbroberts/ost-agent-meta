@@ -5937,3 +5937,4 @@
 {"ts":"2026-08-23T00:19:41.238Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3183,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d","wrote":["A replayed firing reports a budget of its own and exactly one branch it spent on.md"]}
 {"ts":"2026-08-23T00:20:13.368Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":5531,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d"}
 {"ts":"2026-08-23T00:21:16.625Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4402,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d"}
+{"ts":"2026-08-23T00:21:19.445Z","tool":"ost_ingest_inbox","ok":true,"ms":60,"surface":"mcp","argBytes":2,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d"}
