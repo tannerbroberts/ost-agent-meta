@@ -7,6 +7,7 @@ source: >-
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/telemetry/trace-defect-replay.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ instrument: npx vitest run test/telemetry/trace-defect-replay.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/trace-defect-replay.test.ts` — No test files found, exiting with code 1
+- 2026-08-23 **green** (exit 0) `npx vitest run test/telemetry/trace-defect-replay.test.ts` — Duration  400ms (transform 84ms, setup 0ms, collect 121ms, tests 49ms, environment 0ms, prepare 31ms)
