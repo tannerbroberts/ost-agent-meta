@@ -4,6 +4,7 @@ status: unvalidated
 source: 'INBOX:2026-07-25-friction-ost-next-work-demands-solutions-under-7-opportun.md'
 created: '2026-08-02'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Split the outstanding list by who may act on it, and report only this actor's share]]
@@ -73,3 +74,19 @@ The section above inferred the defect across a pass boundary: a prior pass set `
 **Consequence for anyone reading the number.** The 64 is not a backlog of solutions awaiting an instrument. It contains at least five that are shipped and cannot be instrumented without inventing a green-on-arrival spec the ruleset forbids, plus an unknown number whose only test is a human study. The count cannot go down through any action available to an unattended pass, so treating it as a work queue will keep producing passes that re-triage the same nodes. Two prior passes and this one have now each done that.
 
 _Direct test on the 2026-08-05 unattended sweep: five typed status writes, each returning a commit, then one re-read showing no change. Observed behaviour of the tool surface; grounds usability, not demand._
+
+## Read from the implementation rather than inferred from the counter — 2026-08-23 unattended sweep
+
+Every finding above was inferred from black-box behaviour: set a field, re-run the sweep, watch the number not move. This pass read `src/eval/buildable.ts` first-party via `ost_read_repo` and can say what the filter actually does. One correction, and one new instance.
+
+**Correction: the bucket DOES read `status`, and the 2026-08-05 null result has a different cause than the one recorded above.** `solutionsMissingInstruments` skips a solution when `status === "deferred"` and when `trustsShippedStatus(n)` holds. So the conclusion "the bucket is confirmed not to read `status`" is wrong as stated, and a pass acting on it would file a product bug that does not exist. What `trustsShippedStatus` will not do is trust the bare field — the module's own comment says why: `status: shipped` is agent-settable, so only a promotion recorded in `## History` with reasoning attached leaves the queue. That is precisely why the 2026-08-05 experiment's five typed `status: shipped` writes moved nothing: they set the field the tool provides, and the field alone was never the key. **The remedy is therefore not a code change but a different command — a human's `ost-agent promote`.** Worth having straight, because the section above ends by asking a builder to make the bucket "at minimum treat `status: shipped` as answering why there is no instrument", and that is the one reading the module rejects on purpose.
+
+**New instance: the bucket does not read `lane` at all.** The filter is layer, `deferred`, `trustsShippedStatus`, has-tests, and has-an-instrument — there is no lane check anywhere in it. Directly beside it in the same file, `testsAwaitingVerification` does have one, `if (n.lane === CAUTIOUS_LANE) continue`, under a comment stating the principle plainly: the lane is the authority on who may run a test, and an instrument only ever says what running it would mean. The two neighbouring queues disagree about whether a human-lane label is binding.
+
+The consequence is this node's claim in its sharpest form yet. A solution every one of whose tests is lane-labelled human-required is counted as owing an instrument **the product forbids it to carry** — the same file records that `ost_set_instrument` refuses the instrument-plus-cautious-lane combination, so the queue asks discovery for a write the write boundary is built to reject. No honest pass can ever clear such an entry, and five have now tried.
+
+**Scale, and why this is likely most of the bucket.** `ost_next_work` reported 62 entries here this pass, alongside 454 assumption tests in `needsHumans` against 0 runnable. The tree's own answered unknown "What is in the 33 queue entries no tool has ever listed" classified the unlisted tail exhaustively and found `mechanical` = **0 of 33** — 25 `people`, 4 `elapsed-time`, 2 `shipped`, 2 `split`. A lane-aware filter is the one change that would act on that measurement rather than around it.
+
+**The ask, narrowed.** Add the lane check `solutionsMissingInstruments` is missing, so a solution whose tests are all beyond compute's reach leaves the queue the way a `deferred` one already does. This is smaller than the gate-awareness the three solutions beneath this node propose, and unlike the `status: shipped` ask above it needs no re-litigating of what the tool may trust: the lane is human-set with `ost-agent lane --set`, so reading it is reading a human's decision — exactly the thing this node says the counter fails to do.
+
+_First-party reads of `src/eval/buildable.ts`, `src/knowledge/instruments.ts` and `src/ost/instrument.ts` this pass via `ost_read_repo`; the `ost_set_instrument` refusal is quoted from that module's own comment rather than verified in the setter. Grounds feasibility and usability of the tool surface, not demand. No test was run and no result is recorded; the rung is unchanged._
