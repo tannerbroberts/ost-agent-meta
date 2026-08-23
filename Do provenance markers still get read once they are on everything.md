@@ -4,6 +4,7 @@ source: 'agent-ideation:2026-07-26-tenth-pass'
 created: '2026-07-26'
 evidence: assertion
 instrument: npx vitest run test/ost/authorship-marker.test.ts
+authorship: machine
 ---
 #AssumptionTest #evidence/assertion
 
@@ -24,3 +25,4 @@ instrument: npx vitest run test/ost/authorship-marker.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/authorship-marker.test.ts` — No test files found, exiting with code 1
+- 2026-08-23 **green** (exit 0) `npx vitest run test/ost/authorship-marker.test.ts` — Duration  424ms (transform 100ms, setup 0ms, collect 146ms, tests 47ms, environment 0ms, prepare 34ms)
