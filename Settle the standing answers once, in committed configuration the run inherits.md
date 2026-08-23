@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[The prompts a run meets are a stable set, so settling them once mostly ends them]]
+[[A standing answer an operator commits to the config file reaches the run, rather than being dropped at load]]
 
 Most of these prompts have one right answer that never changes for this project — how to reconcile divergent branches, whether to overwrite on copy, which editor is not going to be opened. Decide each once, commit it as configuration, and no run ever meets the question. The operator answers in advance, deliberately, instead of being asked at the worst moment.
 
