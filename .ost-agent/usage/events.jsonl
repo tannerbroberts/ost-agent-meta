@@ -6038,3 +6038,4 @@
 {"ts":"2026-08-23T02:45:18.183Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":94,"session":"mcp-b5e583ad-42ef-412e-a4be-28757edc843f"}
 {"ts":"2026-08-23T02:46:52.771Z","tool":"ost_edit_node","ok":true,"ms":2,"surface":"mcp","argBytes":17914,"session":"mcp-b5e583ad-42ef-412e-a4be-28757edc843f"}
 {"ts":"2026-08-23T02:47:32.846Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":2309,"session":"mcp-b5e583ad-42ef-412e-a4be-28757edc843f"}
+{"ts":"2026-08-23T02:47:38.086Z","tool":"ost_ingest_inbox","ok":true,"ms":44,"surface":"mcp","argBytes":2,"session":"mcp-b5e583ad-42ef-412e-a4be-28757edc843f"}
