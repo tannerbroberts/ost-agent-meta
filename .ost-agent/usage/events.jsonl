@@ -5946,3 +5946,4 @@
 {"ts":"2026-08-23T00:22:13.932Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":3297,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d","wrote":["A node written while the root was a placeholder is distinguishable afterwards from one written under the real mandate.md"]}
 {"ts":"2026-08-23T00:22:31.176Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3060,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d","wrote":["Every node written under a placeholder root is identified after the outcome is replaced.md"]}
 {"ts":"2026-08-23T00:22:54.180Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3133,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d"}
+{"ts":"2026-08-23T00:22:55.736Z","tool":"ost_ingest_inbox","ok":true,"ms":6,"surface":"mcp","argBytes":2,"session":"mcp-488c4853-c7b3-4339-93d4-ccda02c8543d"}
