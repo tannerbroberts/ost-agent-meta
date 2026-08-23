@@ -6134,3 +6134,28 @@
 {"ts":"2026-08-23T05:09:00.840Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":591,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
 {"ts":"2026-08-23T05:09:17.527Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":622,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
 {"ts":"2026-08-23T06:10:35.481Z","tool":"ost_ingest_inbox","ok":true,"ms":131,"surface":"mcp","argBytes":2,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:10:37.469Z","tool":"ost_next_work","ok":true,"ms":1974,"surface":"mcp","argBytes":2,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:11:04.842Z","tool":"ost_next_work","ok":true,"ms":1203,"surface":"mcp","argBytes":62,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:11:06.240Z","tool":"ost_next_work","ok":true,"ms":28,"surface":"mcp","argBytes":62,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:11:10.887Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:11:19.349Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:11:41.089Z","tool":"ost_read_tree","ok":true,"ms":166,"surface":"mcp","argBytes":130,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:11:41.435Z","tool":"ost_read_tree","ok":true,"ms":183,"surface":"mcp","argBytes":112,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:11:56.436Z","tool":"ost_read_tree","ok":true,"ms":159,"surface":"mcp","argBytes":111,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:12:29.766Z","tool":"ost_next_work","ok":true,"ms":1513,"surface":"mcp","argBytes":62,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:12:31.446Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:12:31.624Z","tool":"ost_read_tree","ok":true,"ms":172,"surface":"mcp","argBytes":108,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:12:46.243Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":24,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:12:46.967Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":22,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:12:47.121Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:12:47.300Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":23,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:13:05.452Z","tool":"ost_read_tree","ok":true,"ms":174,"surface":"mcp","argBytes":103,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:13:05.810Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":53,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:13:22.590Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":27,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:13:22.772Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":23,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:13:43.338Z","tool":"ost_read_tree","ok":true,"ms":162,"surface":"mcp","argBytes":142,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:13:43.709Z","tool":"ost_read_repo","ok":true,"ms":17,"surface":"mcp","argBytes":46,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:14:04.668Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:14:04.809Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":50,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:14:34.530Z","tool":"ost_create_node","ok":false,"ms":1,"surface":"mcp","argBytes":3393,"err":"\"A run interrupted through the loop's own signal path still reads as a list of finished steps\" cannot carry that instrument: \"npx vitest run test/loop/run-journal-interruption.test.ts -t \"a run interrupted through the loop's own signal path still reads as a list of finished steps\"\" contains shell pu","session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:15:02.516Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":4085,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c","wrote":["A run interrupted through the loop's own signal path still reads as a list of finished steps.md"]}
