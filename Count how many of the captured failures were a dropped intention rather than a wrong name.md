@@ -28,3 +28,4 @@ Red today: no census exists and the classifier it needs is unwritten.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/telemetry/symbol-failure-census.test.ts` — filter:  test/telemetry/symbol-failure-census.test.ts
+- 2026-08-23 **green** (exit 0) `npx vitest run test/telemetry/symbol-failure-census.test.ts` — ✓ test/telemetry/symbol-failure-census.test.ts (50 tests) 8ms
