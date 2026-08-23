@@ -126,3 +126,13 @@ One loophole, named so nobody mistakes it for an opening: an agent could name a 
 **Honest limit on the proposed fix, stated so it is judged rather than adopted.** A `--matches` form is *more* specific than a missing filename — it pins a real spec file, so the builder's definition of done becomes "add an assertion named X to this existing file" rather than "create this file". But it shares the vacuity in kind: any absent filter name is equally red. It is an improvement in degree, not a solution to the red-about-nothing problem, and it should be argued on that basis.
 
 _First-party reads of `src/knowledge/instruments.ts`, `src/ost/instrument.ts`, `test/instruments/spec-path-resolution.test.ts`, `test/instruments/sight-provenance.test.ts` and `vitest.config.ts` this pass, plus `TRANSCRIPT:eed15544-7e72-4107-9918-2060dda23390`. Grounds feasibility, not demand. No test was run and no result is recorded; the rung is unchanged._
+
+## The closed argument survives its one apparent loophole — checked, not re-argued (2026-08-23, later sweep, repo sight held)
+
+Deliberately five lines, not a new section of argument: the conclusion above is right and this only removes the route by which a future pass would reopen it.
+
+Step 2 of "Why no agent surface can author a strong red here at all" reasons from `observedRed` not matching `no-spec`. A reader who then reads the sibling node "My tests carry thresholds nobody ever fixed, so nothing can come out a failure" will find `confirmPermit` keeping a permit on a `no-spec` run when the test carries a bound threshold, and will reasonably conclude that a bound threshold is the third case this node says does not exist. **It is not.** `permitFrom` clears only on `observedRed`, and `confirmPermit` returns at its first line for a permit that never cleared — so for any instrument written today the `thresholdBound` branch is unreachable, and it exists only to re-check reds filed before the `no-spec` marker existed. The full trace is recorded on that sibling rather than repeated here.
+
+Net: nothing about this node's conclusion or its planning advice changes. Do not budget for `solutionsMissingInstruments` on the strength of writing bound thresholds either.
+
+_First-party `ost_read_repo` of `src/eval/buildable.ts` and `src/ost/instrument.ts`. Read, not executed. Rung unchanged._
