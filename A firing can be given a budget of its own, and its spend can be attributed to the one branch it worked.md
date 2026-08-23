@@ -5,6 +5,7 @@ created: '2026-08-23'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A replayed firing reports a budget of its own and exactly one branch it spent on]]
 
 **The belief, stated so it could be false:** the mechanism above says a deep-dive firing "spends its whole budget thinking about one branch." Both halves of that sentence are mechanical claims — that a firing can be *given* a budget of its own, and that afterwards anyone can tell from stored records *which branch* it spent on. If either is false, a deep-dive is indistinguishable from a sweep once it is over, and the operator cannot audit the thing they are being asked to pay an hour of compute for.
 
