@@ -9,6 +9,7 @@ threshold: >-
   documented non-interactive flag; exactly 0 refutes.
 instrument: npx vitest run test/preflight/noninteractive-flag-lint.test.ts
 sight: grounded
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -35,6 +36,7 @@ sight: grounded
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-22 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-23 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
