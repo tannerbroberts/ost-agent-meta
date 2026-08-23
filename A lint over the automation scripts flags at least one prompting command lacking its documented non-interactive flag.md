@@ -53,3 +53,4 @@ authorship: machine
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-23 **no-spec** (exit none) `npx vitest run test/preflight/noninteractive-flag-lint.test.ts` — test/preflight/noninteractive-flag-lint.test.ts does not exist — no spec was collected, so nothing was measured
