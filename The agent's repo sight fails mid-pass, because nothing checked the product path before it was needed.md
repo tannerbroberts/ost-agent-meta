@@ -80,3 +80,19 @@ _Sources: this vault's own usage and transcript records, plus first-party observ
 
 ## History
 - 2026-08-23 body edited — The node had grown to 18.2KB across ten separately-headed "sighting" sections, several of which restate a diagnosis their own text says needs no restating. Consolidating into one standing finding, a per-channel status table, and the two findings that are genuinely load-bearing and were buried (the ~7-of-25 ceiling, and the read-only limit that keeps every unattended instrument a no-spec red). Adding this pass's two new facts: the first COUNTED measure of the permission-denial channel over the whole corpus (101 occurrences across 84 of 423 records) in place of ten anecdotal sightings, and a first-party observation that the two channels are in OPPOSITE states on this surface today — ost_read_repo answers while Glob on the same directory is denied — which the ninth sighting had assumed could not happen. No distinct claim dropped: every sighting's dated finding, both extent adjudications, the config-line citation and the priced costs are carried forward; git holds the prior text.
+
+## A second, independent cause of the same no-spec red — verified first-party, 2026-08-23
+
+The "two limits that survived" section above names repo sight's read-only nature as the reason every unattended instrument stays a `no-spec` red. That diagnosis is incomplete. There is a second cause, it is upstream of repo sight, and **fixing repo sight does not touch it**.
+
+The ruleset's own prescription for a strong red is an *existing* spec file plus a `-t` filter naming an assertion that is not in it yet — so the command fails for a reason specific to the question rather than because a file is missing. This pass attempted exactly that, fully grounded: it had read `test/loop/run-journal-interruption.test.ts` in full, confirmed the file's four test names, and composed
+
+`npx vitest run test/loop/run-journal-interruption.test.ts -t "a run interrupted through the loop's own signal path still reads as a list of finished steps"`
+
+`ost_create_node` **refused it**: *"contains shell punctuation. Instruments are run as argv with no shell, so a command written to be interpreted would not mean what it looks like. Name one spec file."* A `-t` filter needs quoting to carry a multi-word assertion name, and quoting is what the guard rejects.
+
+**So the recommended strong form is unreachable from any agent surface**, with or without repo sight. The guard is defensible on its own terms — argv with no shell is why an instrument cannot be talked into being a command — but its consequence is that every instrument an agent writes names a file that does not exist, which the ruleset itself files as granting no build permit. Repo sight upgrades the *reasoning* recorded in the test's body, and this guard caps the *red* independently.
+
+**What this changes for whoever plans the next pass.** Do not read the 2026-08-09 repo-sight repair as having made strong instruments possible; it did not. Two things would: a builder who can leave a failing spec file behind, or an instrument grammar that accepts a name-filter argument without shell punctuation (a structured field rather than a string, e.g. an optional `match:` alongside the spec path). The second is a product change, is cheap, and is the one that would let an unattended pass hand a builder a definition of done instead of a filename.
+
+_First-party observation of this tool surface's own refusal, this pass. Grounds feasibility, not demand. No test was run and no result is recorded; the rung is unchanged._
