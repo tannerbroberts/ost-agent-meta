@@ -6133,3 +6133,4 @@
 {"ts":"2026-08-23T05:08:59.333Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":592,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
 {"ts":"2026-08-23T05:09:00.840Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":591,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
 {"ts":"2026-08-23T05:09:17.527Z","tool":"ost_annotate","ok":true,"ms":0,"surface":"mcp","argBytes":622,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
+{"ts":"2026-08-23T06:10:35.481Z","tool":"ost_ingest_inbox","ok":true,"ms":131,"surface":"mcp","argBytes":2,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
