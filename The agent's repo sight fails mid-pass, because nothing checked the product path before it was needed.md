@@ -96,3 +96,33 @@ The ruleset's own prescription for a strong red is an *existing* spec file plus 
 **What this changes for whoever plans the next pass.** Do not read the 2026-08-09 repo-sight repair as having made strong instruments possible; it did not. Two things would: a builder who can leave a failing spec file behind, or an instrument grammar that accepts a name-filter argument without shell punctuation (a structured field rather than a string, e.g. an optional `match:` alongside the spec path). The second is a product change, is cheap, and is the one that would let an unattended pass hand a builder a definition of done instead of a filename.
 
 _First-party observation of this tool surface's own refusal, this pass. Grounds feasibility, not demand. No test was run and no result is recorded; the rung is unchanged._
+
+## Correction: the cause named above is wrong, and the real one is stricter (unattended sweep, 2026-08-23, repo sight held)
+
+The section "A second, independent cause of the same no-spec red" attributes the unreachability of a strong instrument to the shell-punctuation guard, and proposes as the cheap fix "an instrument grammar that accepts a name-filter argument without shell punctuation". The refusal it observed was real — `TRANSCRIPT:eed15544-7e72-4107-9918-2060dda23390`, captured this pass, records that exact `ost_create_node` rejection verbatim. **But the punctuation guard is not the binding constraint, and a builder who relaxed it would fix nothing.**
+
+Read first-party this pass from `src/knowledge/instruments.ts`:
+
+- `parseInstrument` checks `SHELL_METACHARACTERS` **first**, which is why the punctuation message is the one a caller sees. It is the outer of two gates, not the tight one.
+- Behind it, `INSTRUMENT_FORMS` holds **exactly one form**, and its pattern is anchored at both ends: `^npx vitest run (?<target>[A-Za-z0-9][A-Za-z0-9._/-]*\.test\.ts)$`. Nothing may follow the spec path. The target character class excludes the space, so no argument of any kind can be appended.
+- So `npx vitest run test/loop/run-journal-interruption.test.ts -t drifted` — a filter with no punctuation at all, the obvious workaround — is **also refused**, falling through the form loop to the "is not an instrument form" rejection. The punctuation-free workaround does not exist.
+
+The prior section's proposed fix is right in substance and wrong about the file. Relaxing `SHELL_METACHARACTERS` leaves the anchored pattern refusing everything; the change that would work is a **second entry in `INSTRUMENT_FORMS`** carrying its own `match` group and its own `argv`, e.g. pattern `^npx vitest run <path>.test.ts --matches (?<match>[A-Za-z0-9-]+)$` mapping to `["vitest", "run", target, "-t", match]`. That keeps the closed-vocabulary argument the module rests on — the agent still names committed code and never authors the verdict.
+
+## Why no agent surface can author a strong red here at all — the closed argument
+
+Three shipped guards, read this pass in `src/ost/instrument.ts` and `src/knowledge/instruments.ts`, jointly close the space. This is the complete statement the node has been circling, and it is **not about repo sight**:
+
+1. **Write time** — `specResolves` refuses an instrument naming a spec that does not exist, unless the test carries a *bound* threshold (a comparator next to a number). Pinned by "a spec that does not exist is refused, and nothing is written" in `test/instruments/spec-path-resolution.test.ts`.
+2. **Run time, missing file** — `runInstrument` short-circuits an absent target to `no-spec`, which `observedRed` deliberately does not match, so it mints no build permit.
+3. **Run time, passing file** — `verifyInstrument` **refuses to record a first observation that is green**, unless the solution is trusted-shipped.
+
+An agent surface cannot create files. So every instrument it can express is one of exactly two cases: it names a spec that does not exist (→ `no-spec`, no permit), or it names a spec that exists and therefore passes in a maintained suite (→ green on first run, refused). **There is no third case, and repo sight does not open one.** The 2026-08-09 repair let a pass *check* which files exist; it never gave it a file that fails.
+
+One loophole, named so nobody mistakes it for an opening: an agent could name a spec that exists *and is failing today*. That red would be about whatever that spec was written for, not about the node's question — a misattributed permit, which is worse than none. It is not a route.
+
+**What this changes for whoever plans the next pass.** Do not budget for the `solutionsMissingInstruments` bucket on the strength of having repo sight. The honest dispositions for an entry in it are: a human sets the lane with `ost-agent lane --set` where the question needs people; a builder writes the failing spec where it does not; or the second instrument form above ships and an agent can name an existing spec plus an absent assertion. Nothing else drains it. This also supersedes the "~7 of 25 are mechanical and were blocked on sight" reading in the section above — those 7 were never unblocked by sight either.
+
+**Honest limit on the proposed fix, stated so it is judged rather than adopted.** A `--matches` form is *more* specific than a missing filename — it pins a real spec file, so the builder's definition of done becomes "add an assertion named X to this existing file" rather than "create this file". But it shares the vacuity in kind: any absent filter name is equally red. It is an improvement in degree, not a solution to the red-about-nothing problem, and it should be argued on that basis.
+
+_First-party reads of `src/knowledge/instruments.ts`, `src/ost/instrument.ts`, `test/instruments/spec-path-resolution.test.ts`, `test/instruments/sight-provenance.test.ts` and `vitest.config.ts` this pass, plus `TRANSCRIPT:eed15544-7e72-4107-9918-2060dda23390`. Grounds feasibility, not demand. No test was run and no result is recorded; the rung is unchanged._
