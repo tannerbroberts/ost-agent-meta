@@ -5,6 +5,7 @@ source: 'agent:P4_assumptions'
 created: '2026-07-24'
 evidence: assertion
 instrument: npx vitest run test/telemetry/log-only-friction-recall.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -26,3 +27,4 @@ Proposed by the agent — a human judges the mapping to product problems. No res
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/log-only-friction-recall.test.ts` — No test files found, exiting with code 1
+- 2026-08-23 **green** (exit 0) `npx vitest run test/telemetry/log-only-friction-recall.test.ts` — Duration  329ms (transform 33ms, setup 0ms, collect 38ms, tests 65ms, environment 0ms, prepare 37ms)
