@@ -46,3 +46,4 @@ Assert that the model pass is not entered for rows two and three, and that the r
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/loop/confirm-before-spend.test.ts` — test/loop/confirm-before-spend.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/loop/confirm-before-spend.test.ts` — test/loop/confirm-before-spend.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-23 **no-spec** (exit none) `npx vitest run test/loop/confirm-before-spend.test.ts` — test/loop/confirm-before-spend.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-23 **no-spec** (exit none) `npx vitest run test/loop/confirm-before-spend.test.ts` — test/loop/confirm-before-spend.test.ts does not exist — no spec was collected, so nothing was measured
