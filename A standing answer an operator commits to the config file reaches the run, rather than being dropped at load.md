@@ -5,6 +5,7 @@ created: '2026-08-23'
 evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Three committed standing answers survive config load and are readable by the run]]
 
 **The belief, stated so it could be false:** when an operator writes a standing answer into `ost.config.yaml` — how to reconcile divergent branches, whether to overwrite on copy, which editor never opens — the config layer carries it to the run. If that is false, the solution above does not merely underperform; it fails silently, which is worse than not shipping it.
 
