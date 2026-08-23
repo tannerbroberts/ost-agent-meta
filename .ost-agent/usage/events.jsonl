@@ -6161,3 +6161,8 @@
 {"ts":"2026-08-23T06:15:02.516Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":4085,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c","wrote":["A run interrupted through the loop's own signal path still reads as a list of finished steps.md"]}
 {"ts":"2026-08-23T06:15:17.713Z","tool":"ost_append_to_node","ok":true,"ms":11,"surface":"mcp","argBytes":2139,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
 {"ts":"2026-08-23T06:15:47.306Z","tool":"ost_append_to_node","ok":true,"ms":3,"surface":"mcp","argBytes":2613,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:15:47.885Z","tool":"ost_read_tree","ok":true,"ms":177,"surface":"mcp","argBytes":103,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:16:00.069Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":48,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:16:10.118Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":48,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:16:12.174Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":35,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
+{"ts":"2026-08-23T06:16:32.464Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2895,"session":"mcp-acc0332d-295b-477d-a4a6-5cb2370f329c"}
