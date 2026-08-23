@@ -6119,3 +6119,8 @@
 {"ts":"2026-08-23T05:06:22.309Z","tool":"ost_read_tree","ok":true,"ms":171,"surface":"mcp","argBytes":129,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
 {"ts":"2026-08-23T05:06:22.753Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":50,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
 {"ts":"2026-08-23T05:06:55.097Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1954,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
+{"ts":"2026-08-23T05:06:58.981Z","tool":"ost_set_evidence","ok":false,"ms":1,"surface":"mcp","argBytes":678,"err":"\"The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed\" cannot declare 'observed': what it points at supports 'assertion'. The two measurement rungs assert that something was measured, and no byline confers them. declare 'assertion' or lower (demotion i","session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
+{"ts":"2026-08-23T05:07:18.701Z","tool":"ost_read_tree","ok":true,"ms":167,"surface":"mcp","argBytes":100,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
+{"ts":"2026-08-23T05:07:29.262Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":53,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
+{"ts":"2026-08-23T05:07:29.380Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
+{"ts":"2026-08-23T05:07:47.542Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2907,"session":"mcp-913e605e-329b-4bdd-9f77-66e00e985d8f"}
