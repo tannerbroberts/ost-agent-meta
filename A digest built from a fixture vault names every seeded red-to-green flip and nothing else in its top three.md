@@ -17,8 +17,11 @@ sight: grounded
 
 **Pre-committed bar.** All 3 seeded flips named; 0 non-flip entries in the top 3; 0 model calls. Fixed here, before anything is built, and deliberately allowing the run to come out a failure: two of three, or three of three with a decoy in the list, is a refutation and not a partial pass.
 
-**Lane: compute-only.**
+**Who may run it.** Nothing in this question needs a person — it is a spec over a fixture, and the answer is an exit code. The node is nonetheless in the needs-a-person lane, because the lane label is set with `ost-agent lane --set` and no agent surface can move work into compute's reach. Whoever reviews this can relabel it; until then it will be listed as waiting on a human, which understates what it actually needs.
 
 **How red this is today, stated honestly.** No digest builder and no such spec exist, so this command fails today by finding no spec file — the weakest reason a command can fail, and the same reason it would fail for any question written on that path. It is recorded anyway because this test carries a bar fixed in advance, and a bound threshold is what lets a builder work to a definition of done when the spec is still empty. The test is not finished until the spec exists and an assertion in it fails; whoever writes it should expect to be judged on the decoys, not the flips.
 
 **What a green here would not settle.** Only that flips can be got back out of history. It would say nothing about whether those are the events the founder wants to hear about — that is the sibling belief, "What the founder means by highlights is already present in vault history", and it is answerable only by handing him a real digest and asking what it missed. A passing spec here plus an unanswered sibling is a digest that is cheap to build and possibly about the wrong things.
+
+## History
+- 2026-08-23 body edited — Removing a "Lane: compute-only." declaration this pass wrote into the prose. The node came back from the sweep in the needs-a-person lane, so the sentence asserted a lane the frontmatter does not carry — exactly the contradiction the lane-conflict rule exists to catch, and nothing on an unattended surface can set the field to match (the permissive call is `ost-agent lane --set`, a human's). Replaced with a statement of what the test needs rather than a label it cannot back. No other claim changed.
