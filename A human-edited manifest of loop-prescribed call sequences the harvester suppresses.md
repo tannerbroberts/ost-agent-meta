@@ -21,3 +21,15 @@ A small declarative manifest lists the call sequences that are procedure rather 
 **What would make this the wrong pick.** If the prescribed sequences turn out to be few and stable, a manifest is ceremony around two hard-coded rules. If they turn out to be many and fast-changing, nobody will keep it current. It is the right pick only in the middle case.
 
 Unvalidated — a human to review.
+
+## Definition of done — and it is not a command
+
+"Count how many recurring-input artifacts the founder has actually kept current, before asking for another"
+
+There is deliberately no instrument here. The belief this candidate rests on is whether one specific person keeps one more list current, and the bar is: at least 2 of the founder's existing recurring-input artifacts were edited within 30 days of the change they were meant to track. A script can gather the timestamps that start the conversation; it cannot supply the half that decides the answer, which is why an artifact that went stale went stale.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**Sequencing this candidate against its siblings:** this is the cheapest of the three to build and the only one that can fail after it ships, silently, by suppressing a sequence that stopped being procedure. So the viability answer should come before the build, not after — and if it comes back below the bar, the sibling that deletes the repeat inference outright is the default, because it asks nobody for anything.
+
+**Lane note for a human:** this test was created in the humans-required lane at creation time. `ost_flag_humans_required` is withheld on the unattended surface, so if the lane ever needs changing it is `ost-agent lane --set`.
