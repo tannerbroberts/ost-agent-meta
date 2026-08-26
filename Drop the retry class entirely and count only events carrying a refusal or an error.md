@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Removing the repeat inference silences the loop's own closing calls and nothing that carries an error]]
 
 **Variation dimension: who-does-the-work. Position taken: nobody — the step is removed.**
 
