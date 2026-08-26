@@ -45,3 +45,17 @@ Yes, and they trade off against each other: teach the harvester which call seque
 **Evidence rung:** `observed` — the source is a mechanical transcript recording of the agent's own session, not a self-report. It grounds usability of this product's own feedback loop; it is not outside-user demand data and must not be counted as evidence that anyone wants this.
 
 **For a human to review:** whether a prescribed repeat is genuinely *never* friction. A loop forced to re-call because the first call returned something unusable would look identical in the record, and this node assumes that case is rare enough to trade away. That assumption is the agent's and is worth checking.
+
+## The mechanism, read first-party from the code (2026-08-26)
+
+`ost_read_repo` on `src/adapters/transcript.ts` settles how a `retry` comes to exist, and it is simpler and more deterministic than the observation alone suggested. Inside `extractFriction`, every `tool_use` block is reduced to `` const signature = `${name}:${input}` `` where `input` is `JSON.stringify(block.input ?? {})`. If that exact string has been seen before in the session, a `retry` event is pushed; otherwise the signature is remembered.
+
+Three consequences follow directly, and they are facts about the code rather than inferences from the record:
+
+1. **A repeat fires on identical arguments, and both loop-closing calls take none.** `ost_ingest_inbox` and `ost_next_work` are invoked with `{}`, so their signatures are `mcp__ost-agent__ost_ingest_inbox:{}` and `mcp__ost-agent__ost_next_work:{}` on the first call and byte-identical on the second. Step 5 of the maintenance loop therefore emits two `retry` events on every well-behaved pass, by construction. The record this node is sourced to is not a fluke; it is the guaranteed output.
+2. **The `retry` branch is the one classifier that never consults whether anything failed.** Every other kind in this adapter is grounded in something observable: `tool_error` and `permission_denied` are only reached under `block.is_error === true`, and `interruption` matches text the host wrote. `retry` alone is derived purely from call shape, with no reference to the outcome of the earlier call.
+3. **The better a pass complies, the more friction it appears to generate.** A pass that skips the loop's confirmation step files nothing here; a pass that follows the instructions files two. The channel's incentive runs backwards.
+
+This raises the node's grounding from "one record read in full" to "the record plus the rule that produced it", and it is what makes the litmus candidates below concrete rather than speculative. It does not raise the evidence rung: reading the source confirms the mechanism, not that anyone outside this project cares.
+
+_Source: this pass's own `ost_read_repo` read of `src/adapters/transcript.ts`. First-party observation of the repository. No test was run and no result is recorded — the code is reported as read, not as executed._

@@ -6388,3 +6388,8 @@
 {"ts":"2026-08-26T19:32:58.792Z","tool":"ost_create_node","ok":true,"ms":27,"surface":"mcp","argBytes":2559,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a","wrote":["Drop the retry class entirely and count only events carrying a refusal or an error.md"]}
 {"ts":"2026-08-26T19:33:11.967Z","tool":"ost_create_node","ok":true,"ms":25,"surface":"mcp","argBytes":2681,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a","wrote":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
 {"ts":"2026-08-26T19:33:27.880Z","tool":"ost_create_node","ok":true,"ms":26,"surface":"mcp","argBytes":2675,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a","wrote":["Take the host's own error flag as the definition of friction instead of authoring one here.md"]}
+{"ts":"2026-08-26T19:33:28.216Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":23,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
+{"ts":"2026-08-26T19:33:31.646Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":50,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
+{"ts":"2026-08-26T19:33:31.936Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":24,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
+{"ts":"2026-08-26T19:33:34.570Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":37,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
+{"ts":"2026-08-26T19:34:21.408Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2400,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
