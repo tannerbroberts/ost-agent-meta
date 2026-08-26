@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The host's error flag alone separates a user refusal from a tool breakage, so the local denial regexes lose nothing]]
 
 **Variation dimension: bought-vs-built. Position taken: adopt the host's judgement for every friction kind, build no local heuristic at all.**
 
