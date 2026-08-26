@@ -26,3 +26,17 @@ Unvalidated — a human to review.
 
 ## History
 - 2026-08-26 body edited — Written before this pass read `src/adapters/transcript.ts`, on the guess that the host's `is_error` flag was going unused. The code says otherwise: `tool_error` and `permission_denied` are already reached only under `block.is_error === true`, so the flag is adopted already and the premise "stop classifying entirely and read that field" described a change that is half made. Left as written, this candidate also collapsed into its sibling — for the retry case specifically, "read the host's flag" and "delete the retry class" are the same edit to the same branch, so the set of three would have carried two positions and looked like three. Rewriting from the repo facts to state the position that survives them (defer the locally-authored heuristics too, not just the repeat inference) and to record the collision rather than paper over it.
+
+## Definition of done
+
+"A user refusal and a tool breakage are told apart without reading the result text"
+
+```
+npx vitest run test/adapters/transcript-denial-structure.test.ts
+```
+
+Four fixtures — the three denial shapes `DENIAL_PATTERNS` currently matches, plus a genuine breakage, all with `is_error: true` — classified by something other than the result text. Expect `permission_denied` for the three and `tool_error` for the control.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+Worth reading before building: this spec is expected to go **red on its assertion and stay red**, because the code's own use of prose regexes is evidence the structured signal is not there. A refutation is the useful outcome — it would retire this candidate cheaply and leave the two siblings, which is exactly what a small fast test is for.

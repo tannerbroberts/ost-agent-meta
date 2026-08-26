@@ -6402,3 +6402,4 @@
 {"ts":"2026-08-26T19:36:38.471Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2528,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a","wrote":["A user refusal and a tool breakage are told apart without reading the result text.md"]}
 {"ts":"2026-08-26T19:36:51.887Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2578,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a","wrote":["Count how many recurring-input artifacts the founder has actually kept current, before asking for another.md"]}
 {"ts":"2026-08-26T19:37:04.400Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1145,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
+{"ts":"2026-08-26T19:37:08.415Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1028,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
