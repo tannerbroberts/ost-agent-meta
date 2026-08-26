@@ -6409,3 +6409,4 @@
 {"ts":"2026-08-26T19:37:55.419Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":92,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
 {"ts":"2026-08-26T19:37:55.588Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":79,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
 {"ts":"2026-08-26T19:38:30.801Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3965,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
+{"ts":"2026-08-26T19:38:32.951Z","tool":"ost_ingest_inbox","ok":true,"ms":9,"surface":"mcp","argBytes":2,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
