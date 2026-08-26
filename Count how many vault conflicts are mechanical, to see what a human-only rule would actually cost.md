@@ -7,6 +7,7 @@ threshold: >-
   At most 5 mechanical conflicts per genuinely contested one, and under 3
   escalations per week.
 instrument: npx vitest run test/git/conflict-mechanicality-census.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ Setting this boundary is a human's decision. A human runs this and records the r
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/git/conflict-mechanicality-census.test.ts` — No test files found, exiting with code 1
+- 2026-08-26 **green** (exit 0) `npx vitest run test/git/conflict-mechanicality-census.test.ts` — Duration  430ms (transform 46ms, setup 0ms, collect 50ms, tests 26ms, environment 0ms, prepare 74ms)
