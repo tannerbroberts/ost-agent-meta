@@ -6355,3 +6355,4 @@
 {"ts":"2026-08-26T18:33:38.180Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":94,"session":"mcp-2ccf4f03-7a02-4d48-b292-5dde8c9991f9"}
 {"ts":"2026-08-26T18:35:08.380Z","tool":"ost_append_to_node","ok":true,"ms":6,"surface":"mcp","argBytes":4341,"session":"mcp-2ccf4f03-7a02-4d48-b292-5dde8c9991f9"}
 {"ts":"2026-08-26T18:35:15.339Z","tool":"ost_annotate","ok":true,"ms":24,"surface":"mcp","argBytes":1743,"session":"mcp-2ccf4f03-7a02-4d48-b292-5dde8c9991f9"}
+{"ts":"2026-08-26T18:36:50.947Z","tool":"ost_edit_node","ok":true,"ms":6,"surface":"mcp","argBytes":23927,"session":"mcp-2ccf4f03-7a02-4d48-b292-5dde8c9991f9"}
