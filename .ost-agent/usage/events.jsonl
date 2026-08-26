@@ -6413,3 +6413,4 @@
 {"ts":"2026-08-26T19:38:34.442Z","tool":"ost_next_work","ok":true,"ms":139,"surface":"mcp","argBytes":2,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
 {"ts":"2026-08-26T19:39:00.655Z","tool":"ost_edit_node","ok":true,"ms":1,"surface":"mcp","argBytes":3589,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
 {"ts":"2026-08-26T19:39:12.108Z","tool":"ost_edit_node","ok":true,"ms":0,"surface":"mcp","argBytes":3051,"session":"mcp-1d19ecef-d339-4eaf-9868-e17b5b60800a"}
+{"ts":"2026-08-26T23:40:13.816Z","tool":"ost_ingest_inbox","ok":true,"ms":32,"surface":"mcp","argBytes":2,"session":"mcp-b994d448-d187-4f94-bce5-207b67dbface"}
