@@ -5,6 +5,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count how many recurring-input artifacts the founder has actually kept current, before asking for another]]
 
 **The belief, stated so it could be false:** the founder edits the manifest when the loop's procedure changes, on roughly the same day, and keeps doing so for as long as the channel matters.
 
