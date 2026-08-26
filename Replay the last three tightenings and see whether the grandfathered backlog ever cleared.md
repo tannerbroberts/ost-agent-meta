@@ -7,6 +7,7 @@ threshold: >-
   At least 60% of the would-be-grandfathered nodes were brought into compliance
   within a month.
 instrument: npx vitest run test/ost/grandfathered-backlog-replay.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that a grandfathered backlog eventually gets cleared rather th
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/grandfathered-backlog-replay.test.ts` — No test files found, exiting with code 1
+- 2026-08-26 **green** (exit 0) `npx vitest run test/ost/grandfathered-backlog-replay.test.ts` — Duration  728ms (transform 238ms, setup 0ms, collect 341ms, tests 11ms, environment 0ms, prepare 63ms)
