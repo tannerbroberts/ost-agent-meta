@@ -8,6 +8,7 @@ authorship: machine
 #Opportunity #unvalidated #evidence/observed
 [[Drop the retry class entirely and count only events carrying a refusal or an error]]
 [[A human-edited manifest of loop-prescribed call sequences the harvester suppresses]]
+[[Take the host's own error flag as the definition of friction instead of authoring one here]]
 
 **The need (operator's voice):** "The friction channel is how the product learns what hurts. Today's record contains two events, and both of them are my agent making the second call the maintenance loop mandates. I want the friction that happened *to* the run separated from the procedure I wrote for it, because right now my most reliably recurring signal is my own instructions."
 
