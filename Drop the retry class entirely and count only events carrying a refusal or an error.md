@@ -21,3 +21,17 @@ The bet is that `retry` was never a primary observation in the first place. It i
 **What would make this the wrong pick.** If most `retry` events in the existing corpus do sit next to a real error and are carrying recovery-cost signal, deleting the class throws away the majority to remove a minority. That is a countable question over the records already captured, and it should be counted before this candidate is chosen over its siblings.
 
 Unvalidated — a human to review.
+
+## Definition of done
+
+"A repeated no-argument call with no error files nothing, while a repeat whose result is an error still files"
+
+```
+npx vitest run test/adapters/transcript-retry-inference.test.ts
+```
+
+Two cases in that spec, against `extractFriction` in `src/adapters/transcript.ts`: a repeat of `mcp__ost-agent__ost_next_work` with `input` `{}` and no `is_error` result anywhere must yield no `retry` event and no friction at all; the same repeat with an `is_error: true` result on the first call must still yield at least one `tool_error`. The second case is the positive control — without it, deleting the whole function would go green.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption, and a second link from here would put the same title in two places in the graph.
+
+A green here is feasibility only. It says the edit is surgical on two fixtures; it does not say the stored corpus resembles them, and it does not say anyone wants a quieter channel.
