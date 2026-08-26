@@ -4,6 +4,7 @@ source: >-
   INBOX:friction/2026-08-01-friction-wall-clock-budget-test-flaked-a-second-time-2280.md
 created: '2026-08-02'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[My performance gate is an absolute number, so a busy machine alone can fail it]]
@@ -39,11 +40,6 @@ The pair matters more than either filing alone. A single flake is noise a reason
 
 Evidence class stays `assertion` for this node overall: the trace observes the agent's own run, not an outside user's.
 
-## History
-- 2026-08-05 unlinked "Budget against a same-run baseline instead of against the clock" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked "Assert on work units instead of milliseconds" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
-- 2026-08-05 unlinked "Re-run once and report the disagreement rather than the first result" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
-
 ## Observed corroboration — 2026-08-05 sweep
 
 Two machine-recorded session traces show this failure in its pure form, and neither needed a person to notice it:
@@ -55,10 +51,15 @@ This is observed behavior from the agent's own sessions rather than an outside r
 
 ## Corroboration — a transient upstream 503 read the same as a real failure (unattended sweep, 2026-08-17)
 
-`TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` recorded three consecutive Bash calls returning `Exit code 1 … HTTP 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists. (https://api.github.com/graphql)`. Each surfaced as a plain exit-code-1 tool_error, indistinguishable in shape from a call that failed because the request itself was wrong — the same confusion this node names, this time at the network layer rather than the process-signal layer the prior corroboration recorded.
+`TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` recorded three consecutive Bash calls returning `Exit code 1 … HTTP 503: No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists. (https://api.github.com/graphql)`. Each surfaced as a plain exit-code-1 tool_error, indistinguishable in shape from a call that failed because the request itself was wrong — the same confusion this node names, this time at the network layer rather than the process-signal layer the prior corroboration recorded. Three consecutive 503s inside one session is also the clearest available case for retry-and-confirm over first-result-wins, since the failure was transient by construction.
 
-_Source: `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability.
+_Source: `TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability._
 
-## Additional observed instance
+## Issues
+- 2026-08-26 Unattended sweep: this node carried the 09ec7cd2 503 observation under two separate headings — the 2026-08-17 corroboration section and a shorter "Additional observed instance" section restating it with no new fact. Folded into the section above. Worth stating because the defect is not cosmetic: section headings are how a reader counts corroboration, and one session appearing as two headings reads as two independent instances. A human who wants the prior wording has it in git.
 
-TRANSCRIPT:09ec7cd2-2b93-4f4a-8942-319456e8ce11 — an unattended firing hit three consecutive "HTTP 503: No server is currently available" errors from api.github.com/graphql within one session, indistinguishable at the time from a real failure in what the run was trying to do.
+## History
+- 2026-08-05 unlinked "Budget against a same-run baseline instead of against the clock" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Assert on work units instead of milliseconds" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
+- 2026-08-05 unlinked "Re-run once and report the disagreement rather than the first result" — re-parented under "One red run is all I get, and nothing in it separates noise from a real break" — this solution answers that need, not the categories beside it
+- 2026-08-26 body edited — The 503 corroboration from TRANSCRIPT:09ec7cd2 was recorded twice — once under "## Corroboration — a transient upstream 503 read the same as a real failure (unattended sweep, 2026-08-17)" and again, with no additional fact, under "## Additional observed instance". Two headings asserting one observation inflates the node's apparent corroboration count: a reader skimming section headings sees two independent instances where there is one session. Folding into the single richer section; nothing is dropped, and the shorter section contributed no claim the longer one lacked. Also closing an unterminated italic marker on that section's Source line, which was swallowing the following heading into the emphasis run.
