@@ -6,6 +6,7 @@ source: >-
   as first operator
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[Two unattended weeks produce few enough pages, and little enough grind, to be worth the spend]]
@@ -26,3 +27,6 @@ So: unblocked, not ready. The honest sequence is heartbeat first, then unattende
 
 ## History
 - 2026-08-05 unlinked "Two unattended weeks - count pages, grind, and money burned" — moved under "Two unattended weeks produce few enough pages, and little enough grind, to be worth the spend" — the belief this test measures now has a node of its own
+
+## Issues
+- 2026-08-26 2026-08-26 unattended sweep, repo sight held: examined for a missing instrument and deliberately left without one — recording the examination because this node carried no prior note and would otherwise be re-read from scratch every firing. The belief beneath it, "Two unattended weeks produce few enough pages, and little enough grind, to be worth the spend", is a longitudinal cost judgement: it needs two weeks of real firings to elapse and then a person to say whether the page count and the money were worth it. Neither half is a spec. Note that the mechanical prerequisites this node names have moved on and are pinned elsewhere — the exit-0 defect is fixed, and the remaining "silence means working" half depends on the heartbeat candidate this node already points at, so an instrument written here would either re-measure a shipped fact or measure the heartbeat's job under a second name. What a human should do: set the lane with `ost-agent lane --set`, since `ost_flag_humans_required` is withheld on the unattended surface. Not a skipped step.
