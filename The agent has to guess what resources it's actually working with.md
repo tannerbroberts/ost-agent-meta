@@ -4,6 +4,7 @@ status: unvalidated
 source: 'human:conversation'
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[The same agent has a different tool surface on every surface I run it on]]
@@ -81,3 +82,6 @@ TRANSCRIPT:1c8a3722-b8a5-4828-b57e-c45b1566cf6d — a Read tool_error, "File doe
 `TRANSCRIPT:0f28d01f-35fa-49f0-b085-89170e306ef8`: a `Bash` call failed with `Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/private/tmp/src/ost/vault.js' imported from /private/tmp/check-queue.mts` — a build-loop monitoring script composed against a module path that does not exist at that location, the same shape as the earlier `e335a680`/`09ec7cd2` symbol- and module-path guesses already on record here, now against the loop's own tooling rather than the product's.
 
 _Source: `TRANSCRIPT:0f28d01f-35fa-49f0-b085-89170e306ef8`, read in full this pass. Observed behavior; grounds usability, not demand. Corroboration only; the node's rung is unchanged._
+
+## Issues
+- 2026-08-26 2026-08-26 (second firing) — a new instance of this need, located in the *instruction text* rather than the tool surface. The unattended pass prompt contradicts itself about outward sensing: one paragraph states "Three read-only senses are now on this surface: `ost_search_web` and `ost_read_web` ... and `ost_read_repo`", and the "Hard rules" paragraph states "This unattended sweep holds no outward-sensing grant on purpose — `ost_search_web` / `ost_read_web` / `ost_read_repo` stay on the attended path". The skill's own "What this surface withholds" list, which is derived mechanically from the automation script, names six withheld tools and `ost_read_repo` is not among them. Resolved this pass by testing it: `ost_read_repo` served `test/` and `src/` on first call. So the hard-rules paragraph is wrong about `ost_read_repo`, and a pass that believed it would decline to read the repository and then report itself blind while holding a working read channel — which is exactly the failure "Every session leaves an evidence record that restates a need the tree already holds" records as the consequence of the within-session grant split, now reproduced in a second medium. The stated reason for the hard rule ("looking things up costs money") does apply to `ost_search_web` / `ost_read_web`, which this pass did not call; a local repo read costs nothing, which is likely why the two paragraphs disagree. For a human: reconciling the prompt against the script-derived withheld list is a one-line fix and would stop each firing rediscovering this by experiment. Grounds usability, not demand; no test was run and no result is recorded.
