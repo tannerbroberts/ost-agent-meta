@@ -106,3 +106,29 @@ The section immediately above cites "454 assumption tests in `needsHumans` again
 **Unchanged by this correction:** that `solutionsMissingInstruments` reads no lane while `testsAwaitingVerification` beside it does; that the two neighbouring queues therefore disagree about whether a human-lane label binds; and that a solution whose tests are all explicitly human-lane is asked for an instrument the write boundary refuses. The defect is sound; only the estimate of how much of the bucket it explains was inflated.
 
 _First-party this pass: `src/knowledge/lanes.ts` and `src/eval/buildable.ts` via `ost_read_repo`, plus a `Grep` census of `^lane:` over the vault's own node files. Grounds feasibility and usability, not demand. No test was run and no result is recorded; the rung is unchanged._
+
+## Narrowing the previous correction — the 404 unlabelled tests are not all human-only work (2026-08-26)
+
+The correction above ends: *"Setting a lane is `ost-agent lane --set` and is human-only by design — the permissive direction is deliberately off every agent surface — so the labelling backlog is not work any sweep can take off the operator."* The clause before the dash is exactly right. The conclusion after it is too wide, and the difference is the size of the backlog.
+
+**Lane labelling has two directions and only one is human-only.**
+
+- **Permissive** — declaring that compute may run a test unattended — is `ost-agent lane --set`, a human's CLI call. There is no agent tool for it and the ruleset says there never will be, because it is the call that hands compute a permit.
+- **Restrictive** — putting a test *beyond* an unattended pass's reach — is `ost_flag_humans_required`, and it is an agent tool. It takes no lane argument precisely so it can only ever move work in the safe direction.
+
+**Why the previous pass could not see this, and it is not carelessness.** `ost_flag_humans_required` is granted by the skill and withheld from *this* surface. Verified first-party this pass in `examples/automation/autonomous-pass.sh`: `OST_TOOLS` lists 16 tools and does not include it, while the skill's `allowed-tools` declares 22; the script derives the difference and hands the pass a "What this surface withholds" note naming `ost_flag_humans_required` among the six. So an unattended firing correctly observes that it cannot label a lane, and the available inference from there — "no sweep can" — is wrong only because the sweep cannot see the surface that is wider than its own. That is this node's own thesis turned on the pass reading it, and it is worth noting that the script's comments describe the identical failure happening once before, when passes rediscovered the withheld set one denied call at a time.
+
+**What it changes.** The 404 unrun tests carrying no lane at all split into two piles that need different actors, and only one of them is the operator's:
+
+- Tests where **a person is irreducibly the measurement** — an interview, an offer, willingness to pay, usability with strangers. An **attended** pass holding the full skill surface can label every one of these with `ost_flag_humans_required`, no operator time required beyond deciding to run the pass. Judging from the sampling on this tree, this is the large majority.
+- Tests where **compute could run it** but nobody has said so. Only these need `ost-agent lane --set`, and only these are irreducibly the operator's.
+
+So the labelling backlog is drainable in one direction by an agent, and the bucket-clearing effect is the same either way: the lane check this node asks for reads `n.lane === CAUTIOUS_LANE`, and a test flagged human-required carries that value however it got there.
+
+**The ask this adds, and it is cheap.** Run one attended pass whose only job is labelling — walk `assumptionWork.needsHumans`, flag the ones a person must answer, and leave the rest for the operator. That converts an unbounded human backlog into a bounded one, and it can happen before any code change to `solutionsMissingInstruments`. If the lane check does land, the two compose: the labelling makes the filter worth having, and the filter makes the labelling pay.
+
+**Unchanged by this narrowing:** everything the previous correction established about the measured split — 50 files carry `^lane:`, all of them `humans-required`; `computeMayRun` fails closed so the 454 is dominated by the unclassified; and a lane-aware filter drains little *today*. The point here is only that "today" is a fact about what has been labelled, not about what can be, and the labelling is not blocked on the operator the way the previous wording says.
+
+**The bound.** This is read off the automation script and the skill's declared tool list, not from running `ost_flag_humans_required` — this surface cannot call it. So it establishes that the tool is granted to the attended surface and withheld here; it does not establish that the tool behaves as its description says when called, nor how many of the 404 would survive an honest look at whether a person is really required. A pass that does the labelling should report both counts.
+
+_First-party this pass: `examples/automation/autonomous-pass.sh` via `ost_read_repo`, plus this firing's own withheld-tools note. Grounds feasibility and usability of the tool surface, not demand. No test was run and no result is recorded; the rung is unchanged._
