@@ -5,6 +5,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A repeated no-argument call with no error files nothing, while a repeat whose result is an error still files]]
 
 **The belief, stated so it could be false:** deleting the `seenCalls` signature branch from `extractFriction` removes the two events the maintenance loop's closing step files on every pass, and removes nothing else that a reader would have wanted — because any repeat that mattered was accompanied by a result the host already flagged `is_error`, and that path is untouched.
 
