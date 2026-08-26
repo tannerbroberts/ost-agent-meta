@@ -132,3 +132,27 @@ So the labelling backlog is drainable in one direction by an agent, and the buck
 **The bound.** This is read off the automation script and the skill's declared tool list, not from running `ost_flag_humans_required` — this surface cannot call it. So it establishes that the tool is granted to the attended surface and withheld here; it does not establish that the tool behaves as its description says when called, nor how many of the 404 would survive an honest look at whether a person is really required. A pass that does the labelling should report both counts.
 
 _First-party this pass: `examples/automation/autonomous-pass.sh` via `ost_read_repo`, plus this firing's own withheld-tools note. Grounds feasibility and usability of the tool surface, not demand. No test was run and no result is recorded; the rung is unchanged._
+
+## A starting work-list for the attended labelling pass this node asks for (2026-08-26, second firing)
+
+The section above ends by asking for "one attended pass whose only job is labelling — walk `assumptionWork.needsHumans`, flag the ones a person must answer." This firing triaged the visible window of `solutionsMissingInstruments` (25 of 62) and can hand that pass a concrete starting list, so it does not re-derive what has now been derived twice. Recorded once here rather than as 25 per-node annotations, because this node's own lineage is a warning about that.
+
+**Already dispositioned in writing by prior passes — do not re-triage.** "Remote push optional and off by default" (2026-08-23: both halves pinned by green specs, named); "Append-only tool surface with no delete or shell tool" (seven passes, 2026-08-04 → -10, consolidated; awaits a human's (a)/(b) call); "Maintain a running per-item task list the next pass reads before reconstructing state itself" (2026-08-17 and 2026-08-22: the artefact is the harness's task list, not in this repo); "Ship the helper with its own runtime rather than borrowing the machine's" (2026-08-23: the mechanical half is already owned by a sibling's harvester).
+
+**Not yet dispositioned, and each resolves to a single human-only belief.** These are the ones an attended pass could flag immediately; the assumption named is the node's own sole child, so flagging its test settles the solution:
+
+| Solution | The one belief left beneath it | Why no exit code reaches it |
+|---|---|---|
+| Short-lived scoped tokens minted at run start, expiring with the run | "A run's credential needs are predictable enough to scope in advance" | Needs a replay of real past runs against scopes nobody wrote down; the counterfactual is not on disk |
+| Axioms elicited at the moment a derivation needs them, one accept-or-reject ask at a time | "Axiom asks arrive rarely enough to be answered instead of batched into ignorance" | An arrival-rate question about one operator's tolerance |
+| A highlight criteria note the founder edits and the loop reads before deciding what to surface | "The founder will actually maintain a highlight criteria note over time" | Whether a person keeps a file current over months |
+| Scheduled ambient passes that page the operator only at hard gates | "Two unattended weeks produce few enough pages, and little enough grind, to be worth the spend" | Elapsed time plus a spend judgement |
+| Name the specific mechanisms a hand process structurally cannot have | "Practitioners recognise their own discipline as something that has failed them" | A framing question about strangers' self-perception |
+| Show the whole write, exactly as it will land, and require a confirm before it does | "A caller shown the exact bytes will sometimes change the write before confirming" | Needs authors previewing writes they were about to make |
+| Ship it as something that grades a hand-built tree rather than replacing the hand | "Checks over a hand-built vault surface findings its owner did not already know" | Needs owners of hand-built vaults and their prior knowledge |
+
+**The finding this sharpens.** Across the 25 visible entries, this firing found **zero** for which an honest red-now instrument exists — the same `mechanical = 0 of 33` result the answered unknown "What is in the 33 queue entries no tool has ever listed" reached over the unlisted tail, now reproduced over a different slice by a different method. Two independent slices of this bucket have now come back with no mechanical work in them, which is the strongest available evidence that the queue's residue is a labelling backlog and not a build backlog.
+
+**The bound.** Visible window only — 25 of 62; the 37 unlisted entries are untriaged here and the `mechanical = 0` claim is not extended to them by this firing. Each row above is read off the node's own prose and its single child assumption, not from running anything. No test was run and no result is recorded; no rung moves.
+
+_Source: this pass's own `ost_read_tree` reads of the nine solution nodes named above. First-party observation of the tree. Grounds usability of the tool surface, not demand._
