@@ -11,7 +11,7 @@ authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
-**Lane: compute-only.**
+**Lane: not this pass's to declare.** The test carries an instrument and could in principle be settled by one command, but granting compute permission to run it is a human's call (`ost-agent lane --set`); this sweep holds no tool that can make it, so the test sits in the needs-a-person lane until someone decides otherwise.
 
 **The assertion contract, so the builder is not handed a blank file.** The subject already exists: `extractFriction`, exported from `src/adapters/transcript.ts` and already exercised by `test/adapters/transcript.test.ts`. The new spec builds two JSONL fixtures by hand and asserts on the returned `FrictionEvent[]`:
 
@@ -23,3 +23,6 @@ authorship: machine
 What keeps this from being a blank reservation is that the assertion above is not speculative. Today's `extractFriction` composes `` `${name}:${input}` `` and pushes a `retry` on the second identical signature with no reference to any result, so case 1 is guaranteed to fail on its assertion the moment it is written, against unmodified code. The builder's job is not "create this file"; it is "write these two cases and make case 1 pass without breaking case 2."
 
 **What a green here does not settle.** It proves the edit is surgical on two hand-built fixtures. It does not prove the corpus resembles the fixtures — whether real sessions contain many meaningful repeats carrying no `is_error` is a census over the stored transcripts, and that is how this assumption most plausibly fails. It settles nothing about desirability: a quieter channel is not thereby one anyone wants, and no exit code reaches that question.
+
+## History
+- 2026-08-26 body edited — Created with a prose line reading "**Lane: compute-only.**", which this pass had no authority to declare and which the sweep immediately contradicted — the test came back under `assumptionWork.needsHumans`, since setting the permissive lane is a human's `ost-agent lane --set` and no agent surface can grant it. A prose lane that disagrees with the `lane:` field is a check violation (lane-conflict) and, worse, tells a reader compute may run this unattended when nothing has said so. Replacing the declaration with an accurate note about who decides. No other claim changed.
