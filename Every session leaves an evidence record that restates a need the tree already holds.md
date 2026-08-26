@@ -3,6 +3,7 @@ type: Opportunity
 source: 'TRANSCRIPT:03a79a59-682a-4528-83c6-4c39d8c658ef'
 created: '2026-08-06'
 evidence: observed
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Let a friction record corroborate an existing opportunity instead of demanding a new node]]
@@ -118,3 +119,33 @@ Passes — there is more than one way to address it: cluster records by signatur
 - 2026-08-17 body edited — 20 consecutive pass-entries (2026-08-06 through 2026-08-17) grew this node to 58KB, each reaching the identical conclusion — map none, queue does not drain — restated in full prose every time. Compressing to the standing finding plus a compact trend log, per the precedent already set on the Outcome node's 2026-08-04 edit ("each restated what the tree already knew structurally... git holds every one"). No claim is dropped; git history holds the full prior text.
 - 2026-08-23 body edited — Seven dated entries — five of them written on 2026-08-22 alone — had grown this node to 27KB arranged chronologically, which made it actively misleading rather than merely long: the body's opening still asserted "there is no tool call that records read-and-judged-redundant... that gap is real product debt", and the entry proving that false (`ost-agent dispose` exists and ships) sat 20KB below it. The 2026-08-21 addendum's "every non-transcript record is mapped, 73 of 73" was likewise left standing above the entry that counted 18 unmapped USAGE records and falsified it. A reader going top-down met two overturned claims before their corrections. Restructured to state current truth first, with a Corrections subsection preserving the full lineage of what was claimed, what falsified it, and how — because which claims were overturned and by what method is itself the most transferable finding on this node. Every shape, corpus count, trend figure, session id, named node, named spec file and stated bound is carried across; today's record (392) is added as a trend row rather than an eighth entry. No claim dropped; git holds the prior text.
 - 2026-08-23 body edited — Following this node's own standing instruction to future sweeps — "add a row to the trend table. Do not add an entry." Today's two new records (`e42ae959…`, `d2c8dbf0…`) both land in known rows 1, 2 and 4, so the row IS the entry and no prose is warranted. Also folding the previous firing's 2026-08-23 Issues bullet into the table as its own row: it was written as an entry only because it recorded a mid-sweep discrepancy (392 → 393) the table could not then express, and leaving it as a bullet violates the rule it was written under. Nothing else is touched — every shape, corpus count, session id, named node, named spec, correction and stated bound is carried across verbatim.
+
+## Correction 3 — the non-transcript unmapped count, measured (2026-08-26)
+
+Correction 1 above closed with a stated bound: *"only the `USAGE_` class was counted, by grep over frontmatter. `INBOX_` and `INBOX_friction_` were not recounted, so '73 of 73' may be wrong by more than 18. The true non-transcript unmapped count is still unmeasured."* It is now measured. This entry is prose rather than a trend row because the node's own rule admits one — it corrects a claim above — and the rule also asks how it was caught, which is answered at the end.
+
+**The count, 2026-08-26.** Non-transcript evidence is **67 records, of which 20 are unmapped, and every one of the 20 is `USAGE`.**
+
+| Class | Records in the sidecar | Mapped (cited as some node's frontmatter `source:`) | Unmapped |
+|---|---|---|---|
+| `INBOX` | 42 | 42 | **0** |
+| `USAGE` | 25 | 5 | **20** |
+| Non-transcript total | 67 | 47 | **20** |
+
+Since `unmappedEvidence` totalled 412 on this sweep, the transcript share is **392**.
+
+**Three things this settles that were open.**
+
+1. **There is no `INBOX_friction_` class to recount.** The friction notes are ordinary `INBOX` ids — `INBOX_2026-07-25-friction-npm-publish-cannot-complete-in-the-unattended-lo` and its neighbours — so the bound's third clause was asking after a class that does not exist. All 42 are mapped.
+2. **The "every non-transcript record is mapped" claim was wrong only about `USAGE`.** Correction 1 was right to falsify it and right about where: the INBOX half of the 2026-08-21 addendum's claim holds exactly as stated, and the USAGE half is the whole of the error. The corrected count is 47 of 67, not 73 of 73 and not the 55/42 alternative the addendum's arithmetic also admitted.
+3. **The mapped `USAGE` set has been frozen since 2026-08-22 while the corpus grew.** The five distinct ids cited by any node are `2026-07-26`, `-08-02`, `-08-03`, `-08-04`, `-08-05` — the same five Correction 1 named four days ago. The corpus went 23 → 25 (`-08-23`, `-08-24` arrived); mapped stayed 5; unmapped went 18 → 20. Nothing has been mapped off this channel in three weeks. The eight node citations resolve to five ids because `USAGE:2026-08-05` alone is cited four times.
+
+**What this does not settle.** Nothing here is a result and no test was run. It is a count of files and frontmatter fields as they stand today, so it grounds the size and shape of the backlog and says nothing about whether the operator wants any of it dismissed. It also does not revisit the transcript half: 392 is derived by subtraction from the sweep's own total, not counted independently, so it inherits whatever that total inherits.
+
+**One thing it sharpens for whoever picks up the queue.** The routing map in the shapes table covers transcript friction. It does not cover `USAGE`, which is the entire non-transcript backlog and is a mechanical daily rollup with no friction shape at all — a `corroborates` filing needs a node to name, and a usage trace corroborates whichever of "A third of my calls go on re-asking what is outstanding", "Two thirds of my calls failed, and each one only told me after I made it", or "Tests get written and instrumented all day, and not one of them has ever been run" its numbers actually move. Those three are the existing homes; picking among them per day is a judgement, not a lookup, which may be why this channel has never drained.
+
+**How it was caught.** By recounting, which is the same method that caught Corrections 1 and 2 and is the only method that has ever caught anything on this node. Concretely: `grep` over `^source: '<CLASS>:` across the vault's `*.md`, then subtracting the sidecar's own self-citations (each `.ost-agent/evidence/<CLASS>_*.md` record carries a `source:` naming itself) to leave node-side citations, then de-duplicating those to distinct ids. The INBOX zero was cross-checked a second way rather than trusted from arithmetic: `unmappedEvidence` is returned in ascending id order — the 25 shown ran `0095203e…` through `1515b876…` strictly ascending, and those uuids are not in timestamp order, so the sort is on the id string. `INBOX:` sorts before `TRANSCRIPT:`, so any unmapped INBOX record would head the list. None did.
+
+**Trend row, folded in here rather than added to the table.** 2026-08-26: **412** (+17 since the 2026-08-23 row's 395). Two records arrived this sweep and both land in known rows — `TRANSCRIPT:4ff810f4…` is a `Bash` exit 143 / "Command timed out after 2m 0s", the machine-busy shape held by "A test that failed because the machine was busy looks exactly like one that failed because I broke something"; `USAGE:2026-08-24` is the daily rollup class counted above. No new shape; no seventh row. The +17 exceeds the +2 this sweep observed, so firings between 2026-08-23 and now captured records without logging a row.
+
+_Source: this pass's own greps over the vault and the `ost_next_work` response that reported 412. First-party observation of files on disk. No test was run and no result is recorded._
