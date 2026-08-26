@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[A caller shown the exact bytes will sometimes change the write before confirming]]
@@ -17,3 +18,6 @@ The bet is that most regretted writes are not judgement failures but composition
 
 ## History
 - 2026-08-05 unlinked "Have five authors preview a write they were about to make and count how many change it" — moved under "A caller shown the exact bytes will sometimes change the write before confirming" — the belief this test measures now has a node of its own
+
+## Issues
+- 2026-08-26 2026-08-26 unattended sweep, repo sight held: examined for a missing instrument and deliberately left without one — recording the examination because this node carried no prior note and would otherwise be re-read from scratch every firing. The single belief beneath it, "A caller shown the exact bytes will sometimes change the write before confirming", is a claim about what a person does when shown a rendering, and its own test asks five authors to preview a write and counts how many change it. No exit code settles that: a spec can prove a preview form *renders* the bytes, which nobody doubts, but not that seeing them changes anyone's mind. The node's own prose already names the sharper version of the risk — if the caller composing the write is the same one confirming it, the confirm is a formality — and that too is answerable only by watching callers. What a human should do: set the lane with `ost-agent lane --set`, since `ost_flag_humans_required` is withheld on the unattended surface and this sweep cannot label it. Not a skipped step.
