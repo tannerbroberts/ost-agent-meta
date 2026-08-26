@@ -3,6 +3,7 @@ type: Opportunity
 source: 'agent-run:autonomous-loop-2026-08-06'
 created: '2026-08-06'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Every work bucket excludes nodes whose own frontmatter already says they are closed]]
@@ -100,3 +101,23 @@ This node says settled work comes back. This pass counted it on one specific que
 **What would settle it:** whether an opportunity with Opportunity children should count as under-served at all. If the answer is no, this queue drops from 26 to 3 and the pass's ideation budget goes to the leaves that actually lack candidates.
 
 _Source: `ost_next_work` output of 2026-08-06 and direct reads of the nine node files named above. Observed behaviour of this product's own sweep. Corroboration only; the node's rung is unchanged._
+
+## A measured census of one bucket, taken this pass (2026-08-26 unattended sweep, repo sight held)
+
+This node argues the case in general. Here is the general case counted, on the largest bucket the sweep reports.
+
+**Method.** `ost_next_work` listed 62 solutions under `solutionsMissingInstruments` (25 shown, the cap). This pass read 10 of the 25 in full — chosen for looking most mechanically instrumentable, so the sample is biased *towards* finding real work — and asked of each whether the missing instrument was an oversight.
+
+**Result: 10 of 10 were correct declines, not omissions.** They sort into three kinds:
+
+- **Six carried a prior pass's recorded reasoning already**, some of it years-of-passes deep: "Remote push optional and off by default" (already shipped and pinned by two green specs, verified first-party by the 2026-08-23 sweep); "Append-only tool surface with no delete or shell tool" (seven passes declined, with a standing ask to a human to choose between two dispositions); "Ship the helper with its own runtime rather than borrowing the machine's" (the mechanical half is owned by a sibling's test, so a second spec would measure one fact under two names); "Maintain a running per-item task list…" (the artefact is the harness's own task list, outside this repository); plus the two axiom candidates.
+- **Two had never been examined and are genuinely people-shaped**, now annotated: "Show the whole write, exactly as it will land, and require a confirm before it does" (does seeing the bytes change a caller's mind) and "Scheduled ambient passes that page the operator only at hard gates" (two weeks must elapse, then a person judges the cost).
+- **Two are positioning candidates whose own prose already names the human test**: "Ship it as something that grades a hand-built tree rather than replacing the hand" needs three hand-built vaults and their owners; "Name the specific mechanisms a hand process structurally cannot have" says outright that "that framing risk is the thing to test, not whether the mechanisms exist."
+
+**What the number means.** On this sample the bucket's yield of real work is 0 of 10, and the two entries that yielded anything yielded an annotation rather than an instrument. Extrapolating the sampled rate, a firing that worked the bucket as a backlog would re-read something close to 62 nodes to produce nothing an instrument. That is not a defect in any of those nodes; every decline was right. It is exactly the cost this node names, with a denominator attached.
+
+**The sharper form of the problem, visible only from inside the bucket.** A decline recorded in prose is invisible to the counter. `solutionsMissingInstruments` asks one question — does a test beneath this solution carry an `instrument:` field — and a node that answers "no, and here is 3KB of first-party reasoning for why no honest instrument exists" is indistinguishable from a node nobody has opened. So the tree's own accumulated judgement is unreadable by the surface that generates the work, and each pass either re-derives it or writes another copy of it. Six of the ten already carry between one and seven such copies.
+
+**What would fix it, and it is not more annotation.** A disposition the counter can read — the evidence side already has the vocabulary (`withheldByDisposition` is a field in the sweep response, empty here) — so that "examined, no honest instrument exists, reason on the node" is a state, not a paragraph. Until then, every pass pays this and the honest thing is to say so in the report rather than churn.
+
+_Method: first-party `ost_read_tree` reads of the ten named nodes this pass, plus `ost_next_work`'s own counts. Nothing executed, no test run, no result recorded. Grounds feasibility and cost; silent on desirability. Rung unchanged at the floor._
