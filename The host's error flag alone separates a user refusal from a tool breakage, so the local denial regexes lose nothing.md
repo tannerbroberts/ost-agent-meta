@@ -5,6 +5,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A user refusal and a tool breakage are told apart without reading the result text]]
 
 **The belief, stated so it could be false:** a transcript record carries enough host-written structure to tell "a person declined this" from "this call broke" without matching `DENIAL_PATTERNS` against the result text — so deleting those regexes costs no distinction the channel currently makes.
 
