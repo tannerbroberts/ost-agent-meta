@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-25-friction-a-pass-that-dies-on-a-driver-error-still-exit
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/runner/pass-exit-code.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ instrument: npx vitest run test/runner/pass-exit-code.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/runner/pass-exit-code.test.ts` — No test files found, exiting with code 1
+- 2026-08-27 **green** (exit 0) `npx vitest run test/runner/pass-exit-code.test.ts` — ✓ the channel a cron reads carries the truth about a pass that errored > a phase that throws exits nonzero, and so does the seal that follows it 3040ms
