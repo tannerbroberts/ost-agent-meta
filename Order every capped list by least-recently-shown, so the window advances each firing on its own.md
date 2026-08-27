@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Displaying an item is a sufficient signal to advance the window, with no disposition state at all]]
 
 **Variation dimension: automated-vs-manual. Position taken: automate the selection completely; leave the disposition entirely manual.**
 
