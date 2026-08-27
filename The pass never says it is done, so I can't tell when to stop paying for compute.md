@@ -15,6 +15,7 @@ evidence: assertion
 [[Work a previous pass settled comes back on the next list, so I pay to re-decide it]]
 [[Work I already finished keeps coming back in the queue, so the pass can never say it is done]]
 [[Near-identical evidence can only be discharged by giving each copy its own node]]
+[[Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25]]
 
 **Customer need (operator's perspective):** "Set-it-and-forget-it means I need to know when forgetting it is still buying me something. Right now it never finishes, and I can't tell the difference between working and idling."
 
