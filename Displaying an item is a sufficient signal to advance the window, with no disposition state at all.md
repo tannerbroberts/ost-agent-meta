@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A second computeNextWork call on an unchanged vault returns capped-list members the first did not]]
 
 **The belief, stated so it could be false.** Sorting by "when was this last shown to a firing" is enough on its own to make a second firing see members the first was not — without anyone deciding what counts as handled, and without any item ever leaving the queue.
 
