@@ -6589,3 +6589,4 @@
 {"ts":"2026-08-27T17:49:35.768Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1161,"session":"mcp-f67af77d-7151-4ad8-aa98-75b9c7ba424d"}
 {"ts":"2026-08-27T17:49:48.602Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":2147,"session":"mcp-f67af77d-7151-4ad8-aa98-75b9c7ba424d","wrote":["A refusal that also records a correction still changes nothing else in the vault.md"]}
 {"ts":"2026-08-27T17:50:06.048Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3077,"session":"mcp-f67af77d-7151-4ad8-aa98-75b9c7ba424d","wrote":["A refused call writes one ledger line, no node file, and no commit.md"]}
+{"ts":"2026-08-27T17:50:11.820Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1066,"session":"mcp-f67af77d-7151-4ad8-aa98-75b9c7ba424d"}

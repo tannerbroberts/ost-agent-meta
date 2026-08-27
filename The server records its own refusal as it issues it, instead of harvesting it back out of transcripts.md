@@ -23,3 +23,15 @@ When an `ost_*` tool refuses a call, it writes the correction itself — at that
 **Its distinctive failure mode.** The ledger fills with the agent's own noise. Sixty refusals in one pass — a session probing a boundary — all get recorded, where the transcript-harvesting route would have folded them by remedy and capped them at 25. Folding still applies, so the cap holds; what changes is that self-inflicted churn is now recorded live rather than filtered by the quiet window. This product already has a node about that shape, "The friction channel fills with my own typos, so the signal I wanted is buried", and this candidate walks straight into it.
 
 Ideated by an unattended pass on 2026-08-27 against the assigned dimension. **Not blind:** all three candidates under this opportunity were composed in one context by one author, because this surface holds no grant to run independent parallel ideators. Discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"A refused call writes one ledger line, no node file, and no commit"
+
+    npx vitest run test/mcp/refusal-side-effect-bounds.test.ts
+
+The bar that command is settling: a refused call adds exactly 1 corrections-ledger line, 0 node files and 0 commits — the last two being the regression half, green today and required to stay green, because the risk this candidate carries is not that recording fails but that it stops a refusal being inert.
+
+The test title is quoted rather than wikilinked on purpose — its one backlink belongs to its parent assumption, "A refusal that also records a correction still changes nothing else in the vault".
+
+**What a green does not buy.** It bounds the side effects of one refused call; it says nothing about ledger volume across a real pass, which is the noise risk this candidate names against itself, and nothing about whether anyone wanted refusals recorded at all.
