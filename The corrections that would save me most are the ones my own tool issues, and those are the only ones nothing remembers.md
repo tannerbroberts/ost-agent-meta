@@ -6,6 +6,7 @@ evidence: observed
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Publish each tool's accepted grammar in its own description, so the refusal is never provoked]]
 
 **The need.** When the harness refuses my call, the next session is told. When *this product's own tools* refuse my call — the tools I use hundreds of times a pass — the next session is told nothing, and pays for the same refusal again. The corrections I most need carried forward are precisely the ones the carrier drops.
 
