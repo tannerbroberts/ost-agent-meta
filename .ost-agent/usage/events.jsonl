@@ -6585,3 +6585,4 @@
 {"ts":"2026-08-27T17:48:50.976Z","tool":"ost_create_node","ok":true,"ms":3,"surface":"mcp","argBytes":3769,"session":"mcp-f67af77d-7151-4ad8-aa98-75b9c7ba424d","wrote":["An unwrapped MCP refusal is extracted as a correction while a non-zero exit still is not.md"]}
 {"ts":"2026-08-27T17:48:58.527Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1064,"session":"mcp-f67af77d-7151-4ad8-aa98-75b9c7ba424d"}
 {"ts":"2026-08-27T17:49:11.844Z","tool":"ost_create_node","ok":true,"ms":0,"surface":"mcp","argBytes":2107,"session":"mcp-f67af77d-7151-4ad8-aa98-75b9c7ba424d","wrote":["A grammar published in a tool description stays in step with the validator that enforces it.md"]}
+{"ts":"2026-08-27T17:49:29.697Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3214,"session":"mcp-f67af77d-7151-4ad8-aa98-75b9c7ba424d","wrote":["A description that disagrees with the grammar its own validator enforces fails the suite.md"]}
