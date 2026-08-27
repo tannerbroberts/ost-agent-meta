@@ -6631,3 +6631,14 @@
 {"ts":"2026-08-27T20:03:53.174Z","tool":"ost_read_tree","ok":true,"ms":274,"surface":"mcp","argBytes":106,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
 {"ts":"2026-08-27T20:04:26.459Z","tool":"ost_read_repo","ok":false,"ms":3,"surface":"mcp","argBytes":26,"err":"\"ost.config.yaml\" does not exist in OST-Agent — OST-Agent exists and contains CHANGELOG.md, CLAUDE.md, CONTRIBUTING.md, docs, examples, LICENSE, ost.vault.yaml, package-lock.json, package.json, README.md, RELEASING.md, scripts, src, test, tsconfig.json, vitest.config.ts; nothing there is close enoug","session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
 {"ts":"2026-08-27T20:05:37.931Z","tool":"ost_edit_node","ok":true,"ms":3,"surface":"mcp","argBytes":14050,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:05:55.535Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:05:57.700Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":28,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:06:02.398Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:06:02.487Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":40,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:06:06.603Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:06:20.748Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":26,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:06:28.837Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:06:28.928Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":23,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:06:30.453Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":31,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:06:48.995Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":70,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:07:20.696Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3237,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}

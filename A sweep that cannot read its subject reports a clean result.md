@@ -2,6 +2,7 @@
 type: Opportunity
 created: '2026-07-27'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #evidence/assertion
 [[Every count states the denominator it was taken over]]
@@ -36,3 +37,23 @@ Why this is the node it belongs on rather than a passing inconvenience: the same
 That is this opportunity's claim, demonstrated on itself: the blindness does not announce itself in the output. Nothing downstream of a written instrument records whether the agent could see the code when it wrote it, so a tree full of invented paths and a tree full of grounded ones read identically.
 
 **For a human:** setting `product.repos` in `ost.config.yaml` to the OST-Agent checkout would unblock instrument-writing across all 64. Until then, treat any instrument in this vault dated 2026-08-05 or earlier as naming a path rather than a mechanism, and re-derive it once the repo is readable.
+
+## A live instance in the sweep's own summary line — observed first-party, 2026-08-27
+
+This node's two Issues entries argue the shape from tool denials. Here is the shape occurring in the product's own output, in a single sentence, with nothing denied and nothing failing.
+
+`ost_next_work` returned, in its `summary`:
+
+> Of the evidence listed above, 0 record(s) are STALE (captured more than **undefined** day(s) ago — this is a mirror of the source system, not a live read) and 393 carry no capture stamp at all, so their age is unknown.
+
+Two separate defects share that clause, and the second is the one this node is about.
+
+**The literal `undefined` is the cosmetic half.** `evidence.staleAfterDays` is unset in this vault's config, and the summary interpolates the absent value straight into the sentence rather than branching on it. The per-record `mirror.note` on the same response handles the same absence correctly — "no `evidence.staleAfterDays` is set, so nothing here calls that too old" — so the honest branch already exists one field over and the summary does not take it.
+
+**The reassuring `0` is the real half.** With no threshold configured, *no record can ever be stale*, so that zero is not a measurement of the corpus — it is a constant, guaranteed to read `0` across 426 records whatever their ages are and whatever the adapters did. It is this node's claim exactly: a count over an empty predicate, printed next to 426 real records, in a sentence whose grammar asserts a comparison was made. An operator reading "0 records are STALE" concludes the mirror is current. Nothing was checked. Compare the adjacent clause in the same sentence, which does it right: "393 carry no capture stamp at all, so their age is unknown" states the gap instead of scoring it as a pass.
+
+**Where it lives.** The summary is composed in `src/mcp/next-work.ts` (the module's own doc-comment names it "the only place that answer is computed"). The correct behaviour is the one the file already applies to `Truncation`, `ScopeAccounting` and `Withheld`, each of which carries a doc-comment saying a number reported without what it was taken over "would read as the whole truth" — the staleness clause is the one count in this response that does not follow that rule.
+
+**Which of this node's children it argues for.** "Every count states the denominator it was taken over" and "A check with an empty subject is a failure, not a pass" — both, and it is the same defect meeting them from two sides: the denominator is unstated *and* the subject is empty. It does not argue for the other five.
+
+_Provenance: first-party observation by the unattended sweep of 2026-08-27 of its own `ost_next_work` response, plus `ost_read_repo` reads of `src/mcp/next-work.ts` and `src/ost/ageing.ts`. Not an ingested record — this session has not ended, so there is no transcript id to cite, and citing one for an unfinished session is the fault flagged elsewhere in this vault. Agent self-observation: it grounds feasibility and usability, not demand. No test was run, no result recorded, and this node's rung is unchanged._
