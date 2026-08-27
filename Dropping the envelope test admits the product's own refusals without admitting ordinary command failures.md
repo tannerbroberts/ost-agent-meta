@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[An unwrapped MCP refusal is extracted as a correction while a non-zero exit still is not]]
 
 **Risk category: feasibility.**
 
