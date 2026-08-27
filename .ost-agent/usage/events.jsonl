@@ -6618,3 +6618,16 @@
 {"ts":"2026-08-27T18:57:59.351Z","tool":"ost_ingest_inbox","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-1706f416-da94-4a8f-83d2-3628a372c077"}
 {"ts":"2026-08-27T18:58:01.040Z","tool":"ost_next_work","ok":true,"ms":205,"surface":"mcp","argBytes":2,"session":"mcp-1706f416-da94-4a8f-83d2-3628a372c077"}
 {"ts":"2026-08-27T20:01:39.766Z","tool":"ost_ingest_inbox","ok":true,"ms":65,"surface":"mcp","argBytes":2,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:01:41.704Z","tool":"ost_next_work","ok":true,"ms":538,"surface":"mcp","argBytes":2,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:02:03.923Z","tool":"ost_read_tree","ok":true,"ms":268,"surface":"mcp","argBytes":101,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:02:04.672Z","tool":"ost_next_work","ok":true,"ms":135,"surface":"mcp","argBytes":62,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:02:26.904Z","tool":"ost_read_tree","ok":true,"ms":256,"surface":"mcp","argBytes":108,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:03:05.578Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:03:11.772Z","tool":"ost_read_tree","ok":true,"ms":241,"surface":"mcp","argBytes":64,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:03:12.291Z","tool":"ost_read_tree","ok":true,"ms":282,"surface":"mcp","argBytes":50,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:03:28.148Z","tool":"ost_next_work","ok":true,"ms":129,"surface":"mcp","argBytes":62,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:03:28.627Z","tool":"ost_next_work","ok":true,"ms":66,"surface":"mcp","argBytes":62,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:03:42.119Z","tool":"ost_read_tree","ok":true,"ms":273,"surface":"mcp","argBytes":72,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:03:53.174Z","tool":"ost_read_tree","ok":true,"ms":274,"surface":"mcp","argBytes":106,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:04:26.459Z","tool":"ost_read_repo","ok":false,"ms":3,"surface":"mcp","argBytes":26,"err":"\"ost.config.yaml\" does not exist in OST-Agent — OST-Agent exists and contains CHANGELOG.md, CLAUDE.md, CONTRIBUTING.md, docs, examples, LICENSE, ost.vault.yaml, package-lock.json, package.json, README.md, RELEASING.md, scripts, src, test, tsconfig.json, vitest.config.ts; nothing there is close enoug","session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
+{"ts":"2026-08-27T20:05:37.931Z","tool":"ost_edit_node","ok":true,"ms":3,"surface":"mcp","argBytes":14050,"session":"mcp-7b845a83-8eb9-476a-aab6-25ce7b959311"}
