@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[An evidence record captured after a page is served still appears on a later page]]
 
 **The belief, stated so it could be false.** The queue that cursor pagination would be applied to is append-ordered under its sort key — an item captured after the cursor was issued sorts after it, and so is still reachable on a later page.
 
