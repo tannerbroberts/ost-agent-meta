@@ -25,3 +25,6 @@ The positive control is the part worth insisting on. A parity check that finds n
 **A note on what this test is an instance of.** The candidate it serves proposes publishing a grammar; this test's own instrument was constrained by that same grammar being unpublished and discovered by refusal. That is not irony worth much, but it is one more first-party sighting of the refusal class the parent opportunity is about, and it happened during the pass that wrote this node.
 
 **What a green does not settle.** Whether publishing the grammar stops the refusal — that depends on a session reading the description before composing, which is a usability question about the reader and needs a separate test. It also covers only grammars statable in advance, so it says nothing about the state-dependent refusals (the humans-required lane) that this candidate admits it cannot reach.
+
+## Instrument Log
+- 2026-08-27 **no-spec** (exit none) `npx vitest run test/mcp/description-grammar-parity.test.ts` — test/mcp/description-grammar-parity.test.ts does not exist — no spec was collected, so nothing was measured
