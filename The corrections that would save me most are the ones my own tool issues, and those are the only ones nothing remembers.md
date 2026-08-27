@@ -8,6 +8,7 @@ authorship: machine
 #Opportunity #unvalidated #evidence/observed
 [[Publish each tool's accepted grammar in its own description, so the refusal is never provoked]]
 [[The server records its own refusal as it issues it, instead of harvesting it back out of transcripts]]
+[[Recognise a refusal by the remedy it names, not by the envelope it arrived in]]
 
 **The need.** When the harness refuses my call, the next session is told. When *this product's own tools* refuse my call — the tools I use hundreds of times a pass — the next session is told nothing, and pays for the same refusal again. The corrections I most need carried forward are precisely the ones the carrier drops.
 
