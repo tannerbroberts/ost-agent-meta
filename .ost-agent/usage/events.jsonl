@@ -6521,3 +6521,4 @@
 {"ts":"2026-08-27T16:32:55.911Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
 {"ts":"2026-08-27T16:32:55.992Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":44,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
 {"ts":"2026-08-27T16:33:52.536Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2789,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793","wrote":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
+{"ts":"2026-08-27T16:34:09.117Z","tool":"ost_create_node","ok":true,"ms":1,"surface":"mcp","argBytes":3024,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793","wrote":["Order every capped list by least-recently-shown, so the window advances each firing on its own.md"]}
