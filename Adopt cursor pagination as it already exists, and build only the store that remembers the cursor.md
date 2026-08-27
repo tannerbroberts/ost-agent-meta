@@ -19,3 +19,13 @@ Every capped list already has a stable ascending sort key and already reports it
 **What it gives up, and it is the sharpest give-up of the three.** A cursor assumes items are appended after the sort key it points at. This queue is not like that: evidence ids are random hex, so an item captured tomorrow can sort anywhere, and roughly half of new arrivals will land *before* the cursor and be skipped permanently. That is strictly worse than today for fresh evidence, which is the evidence most likely to matter. Borrowing the convention means also borrowing its assumption, and this queue violates it. Making it safe requires either a monotonic sort key (capture time, not id) or a periodic cursor reset — and at that point some of the policy is being built here after all, which weakens the candidate's own claim.
 
 Ideated by an unattended pass on 2026-08-27 against the assigned dimension. Not blind: this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author, which is the condition the blind-ideation rule exists to prevent. Read the three as one author's three answers, and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"An evidence record captured after a page is served still appears on a later page"
+
+```
+npx vitest run test/evidence/cursor-skips-late-arrivals.test.ts
+```
+
+Bar: zero of 50 records inserted after the first page is served are unreachable by paging to exhaustion. Read this one expecting it to refute rather than to confirm — the queue's ids are random hex with no time in them, so the expected loss is roughly half, and a refuted verdict removes this candidate from the consideration set rather than sending it back for another attempt.
