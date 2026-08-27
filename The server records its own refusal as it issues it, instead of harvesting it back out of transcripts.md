@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A refusal that also records a correction still changes nothing else in the vault]]
 
 **Variation dimension: automated-vs-manual. Position taken: capture is fully automated at the point of refusal; the decision about what a correction *is* stays where it already is and is not re-litigated.**
 
