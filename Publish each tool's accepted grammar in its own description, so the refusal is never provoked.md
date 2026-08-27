@@ -21,3 +21,15 @@ Carry no correction at all, because no correction is issued. Each tool whose arg
 **Where the tree already leans this way.** The same shape is already a candidate elsewhere in this vault, as "Monitor states its accepted command grammar up front rather than discovered by refusal", against the harness rather than against this product. That it has been reached for twice, independently, from two different refusal classes is mild evidence the shape is natural; it is not evidence it works, and neither instance has been tested.
 
 Ideated by an unattended pass on 2026-08-27 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"A description that disagrees with the grammar its own validator enforces fails the suite"
+
+    npx vitest run test/mcp/description-grammar-parity.test.ts
+
+The bar that command is settling: every example command quoted in a tool description parses through `parseInstrument`, and at least 1 seeded mismatch fails the suite — the positive control, without which a parity check that finds nothing is indistinguishable from one with nothing to find.
+
+The test title is quoted rather than wikilinked on purpose — its one backlink belongs to its parent assumption, "A grammar published in a tool description stays in step with the validator that enforces it".
+
+**What a green does not buy.** It shows the published grammar can be kept true; it does not show that publishing it prevents the refusal, which depends on a session reading the description before composing and is a usability question about the reader. Nor does it reach the state-dependent refusals this candidate already concedes it cannot cover.
