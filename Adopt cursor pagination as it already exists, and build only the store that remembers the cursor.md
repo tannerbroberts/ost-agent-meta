@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[New evidence sorts after the cursor rather than before it, so a paged window never skips an arrival]]
 
 **Variation dimension: bought-vs-built. Position taken: the selection policy is adopted from outside unchanged; the only thing built here is the cursor store.**
 
