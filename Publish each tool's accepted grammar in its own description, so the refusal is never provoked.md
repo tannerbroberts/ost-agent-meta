@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A grammar published in a tool description stays in step with the validator that enforces it]]
 
 **Variation dimension: who-does-the-work. Position taken: nobody — the step is removed.**
 
