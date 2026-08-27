@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Dropping the envelope test admits the product's own refusals without admitting ordinary command failures]]
 
 **Variation dimension: bought-vs-built. Position taken: adopt the discriminator that already exists, unchanged, and build nothing — the change is a deletion.**
 
