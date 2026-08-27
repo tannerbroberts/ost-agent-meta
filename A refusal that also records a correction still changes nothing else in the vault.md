@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A refused call writes one ledger line, no node file, and no commit]]
 
 **Risk category: feasibility.**
 
