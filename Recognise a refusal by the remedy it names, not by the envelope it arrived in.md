@@ -28,3 +28,15 @@ This candidate is to drop that line and let the existing function decide. Nothin
 **Sequencing note.** This is the cheapest of the three to build and the only one that can be evaluated against evidence already on disk — 588 harvested sessions sit in this vault, so the noise question can be answered by re-running the harvester over them with the line removed and counting what appears, before anyone ships anything. If it comes back noisy, the record-at-source sibling is the default, because it gets the same coverage without loosening any filter.
 
 Ideated by an unattended pass on 2026-08-27 against the assigned dimension. **Not blind:** all three candidates under this opportunity were composed in one context by one author, because this surface holds no grant to run independent parallel ideators. Discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"An unwrapped MCP refusal is extracted as a correction while a non-zero exit still is not"
+
+    npx vitest run test/loop/corrections-envelope.test.ts
+
+The bar that command is settling: exactly 1 sighting from the unwrapped-MCP-refusal fixture and 0 from the non-zero-exit fixture, with the `String to replace not found in file.` shape also yielding 0 so the regression the deleted line guarded stays pinned.
+
+The test title is quoted rather than wikilinked on purpose — its one backlink belongs to its parent assumption, "Dropping the envelope test admits the product's own refusals without admitting ordinary command failures".
+
+**What a green does not buy.** It settles the mechanism on two fixtures, not the noise question over this vault's 588 harvested sessions, and nothing about whether anyone wanted the change. Feasibility answered mechanically leaves desirability, viability and usability exactly where they were.
