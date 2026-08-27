@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target]]
 
 **The need, in the operator's voice.** "When I pay for a firing, I want it to look at part of my backlog I haven't paid to look at before. If every pass reads the same twenty-five items, the other four hundred are not a backlog — they are a place things go."
 

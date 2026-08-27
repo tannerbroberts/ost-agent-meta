@@ -6509,3 +6509,15 @@
 {"ts":"2026-08-27T12:59:16.254Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-644903ac-7ccb-43a0-aeec-c3518c0c1686"}
 {"ts":"2026-08-27T12:59:16.333Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-644903ac-7ccb-43a0-aeec-c3518c0c1686"}
 {"ts":"2026-08-27T16:30:20.416Z","tool":"ost_ingest_inbox","ok":true,"ms":22,"surface":"mcp","argBytes":2,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:30:22.042Z","tool":"ost_next_work","ok":true,"ms":196,"surface":"mcp","argBytes":2,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:30:47.961Z","tool":"ost_next_work","ok":true,"ms":80,"surface":"mcp","argBytes":62,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:30:48.675Z","tool":"ost_next_work","ok":true,"ms":11,"surface":"mcp","argBytes":62,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:30:49.422Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:31:00.326Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:31:01.118Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:31:27.013Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":116,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:31:27.197Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":108,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:32:40.231Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":75,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:32:55.911Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:32:55.992Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":44,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793"}
+{"ts":"2026-08-27T16:33:52.536Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":2789,"session":"mcp-8f6bcf10-ecdd-44d1-bb6c-6b260dd4b793","wrote":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
