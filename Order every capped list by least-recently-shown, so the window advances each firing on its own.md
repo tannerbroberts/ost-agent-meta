@@ -19,3 +19,13 @@ Stamp each member of each capped queue with the firing that last displayed it, a
 **Cheapest form.** A `lastShownAt` (or last-firing-id) field in the vault's existing `.ost-agent/` sidecar, written when a list is served, read as the sort key where the ascending title/id sort is applied today in `src/mcp/next-work.ts`. No change to the `shown`/`total`/`hidden` contract, which already reports the denominator correctly; only the selection changes, which is the half the existing honesty fix did not touch.
 
 Ideated by an unattended pass on 2026-08-27 against the assigned dimension. Not blind: this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author, which is the condition the blind-ideation rule exists to prevent. Read the three as one author's three answers, and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"A second computeNextWork call on an unchanged vault returns capped-list members the first did not"
+
+```
+npx vitest run test/mcp/window-advances-per-firing.test.ts
+```
+
+Bar: at least 20 of the 25 members on the second call are absent from the first, stamped per firing rather than per call. The command is a no-spec red — the spec has to be written before it can fail on an assertion — because the instrument grammar rejects a `-t` selector as shell punctuation and so cannot name an assertion inside an existing file. The test node carries that account in full.
