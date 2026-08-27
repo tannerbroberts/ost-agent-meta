@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[An operator who must move the window by hand will actually move it more than once]]
 
 **Variation dimension: who-does-the-work. Position taken: the person, not the agent.**
 
