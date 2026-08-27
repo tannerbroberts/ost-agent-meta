@@ -19,3 +19,9 @@ The vault already has exactly this mechanism for one queue. `discovery.target` i
 **Cheapest form.** One config key, read where `discovery.target` is already read, applied as a filter before the cap rather than after it — so the window selects from the whole set and the cap then trims the window, instead of the cap trimming an unfiltered head. Reported alongside the existing `shown`/`total`/`hidden` so a reader can tell a windowed 25 from a truncated 25.
 
 Ideated by an unattended pass on 2026-08-27 against the assigned dimension. Not blind: this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author, which is the condition the blind-ideation rule exists to prevent. Read the three as one author's three answers, and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"Count how many times the operator amends discovery.target over eight weeks of git history"
+
+No command: this one is humans-required on purpose. The bar is at least 3 distinct operator-authored changes to `discovery.target` over 8 weeks, read out of the vault's own git log — the bet is already running in production and the evidence is already on disk, so this is the cheapest of the three tests to settle and should be settled first. A refuted verdict here retires this candidate for the price of reading a log, before either sibling is built.
