@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 threshold: Both reproduced commands fail promptly rather than prompting or hanging.
 instrument: npx vitest run test/runner/non-interactive-honoured.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ The assumption is that invoked tools honour the convention. The ones that ignore
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/non-interactive-honoured.test.ts` — No test files found, exiting with code 1
+- 2026-08-27 **green** (exit 0) `npx vitest run test/runner/non-interactive-honoured.test.ts` — ✓ the git that hit divergent branches (TRANSCRIPT:06eba571) > fails promptly under the declaration — and the failure is the reconcile refusal, not a prompt 1077ms
