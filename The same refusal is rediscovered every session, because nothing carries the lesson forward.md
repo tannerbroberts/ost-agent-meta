@@ -10,6 +10,7 @@ evidence: observed
 [[Refusals are written back as a standing corrections file every session reads first]]
 [[The second identical failure is answered differently from the first]]
 [[Refusals the tool can prevent become refusals the tool never issues]]
+[[The corrections that would save me most are the ones my own tool issues, and those are the only ones nothing remembers]]
 
 Across many separate captured sessions the agent reached for the same shape — wait a while, then check on something — by writing `sleep 45` followed by a status command. Every time, the call was refused with the same message pointing at the right affordance. Every time, the agent adapted within the session. Every time, the next session started over and made the identical call.
 
