@@ -3,6 +3,7 @@ type: Opportunity
 source: 'INBOX:2026-08-10-founder-theory-goal-acquisition.md'
 created: '2026-08-10'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #founder-theory #needs-customer-interview #unvalidated #evidence/assertion
 
@@ -43,3 +44,13 @@ evidence: assertion
 - 2026-08-22 body edited — Adding this firing's date to the standing-hold sweep list, in exactly the form the node's own 2026-08-21 Issues note asks future sweeps to use instead of a fresh annotation. Also recording once that the 2026-08-22 firings held repo sight, because a later reader could otherwise assume the hold has only ever been respected by passes that had no choice. No prior claim removed or reworded.
 - 2026-08-23 body edited — Recording this firing in the standing-hold sweep list, in exactly the form the node's own 2026-08-21 Issues note asks future sweeps to use instead of appending a fresh annotation. This pass read the hold before acting on the 0-of-3 counter and declined to ideate. Only the sweep count changed (three firings on 2026-08-22 → four); no other claim was reworded, added or removed.
 - 2026-08-23 body edited — Recording this firing in the standing-hold sweep list, in exactly the form the node's own 2026-08-21 Issues note asks future sweeps to use instead of appending a fresh annotation. This pass read the hold before acting on the 0-of-3 counter and declined to ideate. One substantive addition beyond the tally: the log-every-sweep convention has now produced nine entries and a History section longer than the finding it protects, so a human may want to end it — stated once, as a question, rather than left to be re-noticed by every future pass. No prior claim reworded or removed.
+
+## 2026-08-27 — hold respected, and the convention not fed
+
+This unattended firing read the standing hold before acting on the 0-of-3 counter and declined to ideate. That is the tenth consecutive sweep to do so.
+
+**Departing from this node's own logging convention, visibly rather than silently.** The 2026-08-21 Issues note asks each sweep to add a dated line to the sweep list in the body. Doing that requires rewriting the whole 5,700-character body to insert one date, and the node's own 2026-08-23 paragraph already argues the convention has outlived its purpose — nine identical confirmations have shown the hold is respected rather than forgotten, and the `## History` it writes to is longer than the finding it protects. Rewriting five thousand characters to say "and again" is that argument made literal. So this pass recorded its date here, in an appended section, at a fraction of the cost and with the same information content. The sweep list in the body still reads "nine"; the true count is ten, and this section is the difference.
+
+**The question that node asked a human on 2026-08-23 is now one pass older and unanswered.** It was: end the convention and let silence mean respected, so that a future entry here means something changed. A human should answer it — either by striking the convention from the Issues note, or by saying it stands, in which case future passes should keep paying the rewrite. Until then passes will keep improvising, which is worse than either answer.
+
+**Nothing else about this node changed.** No solution was ideated, no counter cleared, no claim reworded. The hold's grounds — the evidence-debt gate on the altitude branch and the 2026-07-25 trust-umbrella hold — were not re-examined by this pass and are not affected by it.
