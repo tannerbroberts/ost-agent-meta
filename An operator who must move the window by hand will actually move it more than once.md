@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count how many times the operator amends discovery.target over eight weeks of git history]]
 
 **The belief, stated so it could be false.** An operator handed a config key that selects which slice of the backlog their firings are shown will amend it repeatedly over the life of a tree, rather than setting it once and leaving it.
 
