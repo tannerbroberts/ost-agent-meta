@@ -4,6 +4,7 @@ source: >-
   INBOX:2026-08-20-build-loop-stuck-every-run-records-the-tool-surface-it-actually-had.md
 created: '2026-08-20'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Target selection skips any solution that an open branch or PR on the product repo already names]]
@@ -23,3 +24,17 @@ evidence: assertion
 **What it costs.** Twelve or more firings across two targets, each a full selection plus a model call, spent confirming that finished work is finished. The rate matters more than the count: with one hourly loop and one finished-but-unmerged PR, every firing until the merge is one of these.
 
 **Provenance and rung.** Source is an automated build note on the inbox channel, which the ladder caps at `assertion` (the tool refused `observed` for it this pass — correctly, since an inbox file is a report of a measurement, not the recording). The transcript records named above are recordings and a human may re-source or promote from them; this node does not claim the rung they would support.
+
+## A third detector, observed 2026-08-28: the collision surfaced as a failed branch create
+
+New evidence captured by this pass's own `ost_ingest_inbox` run, not previously on the tree. `TRANSCRIPT:62625424-f497-4be3-a0c0-7a7b0d3e5cac` (unattended firing, 2026-08-28T07:04Z, 4 friction events) records, as its first event: `tool_error` (Bash), exit code 128, `fatal: a branch named 'wait-primitive-affordance' already exists`.
+
+**Why this is worth a section rather than a tally mark.** Every instance already on this node was detected by a firing *reading* state — the loop found PR #181 already green, or re-found PR #130 open, and reported "already built". Here nothing was read. The firing selected its target, got as far as `git checkout -b`, and learned the work was already claimed only because git refused to make the branch a second time. The branch name is the tell: `wait-primitive-affordance` matches the solution "Monitor accepts a vetted until-loop primitive instead of raw shell polling", which sits in today's `solutionsMissingInstruments` — so the re-selection happened against a target whose prior build never merged, exactly the shape this node describes.
+
+**What it adds to the argument.** The node's litmus test already lists "consult branch/PR state at selection time" as a candidate mechanism. This record is the cheapest possible evidence for that candidate and against the others: the collision was detectable from the product checkout's own local refs, with no forge call, no claim TTL, and no merge. `src/loop/claim.ts`'s 8-hour TTL did not cover it and could not have — the branch outlived the claim. A `git rev-parse --verify` at selection would have cost microseconds and saved the firing.
+
+**What it does not establish.** One record. It does not say how often branch-create collisions happen relative to the PR rediscoveries already counted here, and this pass did not run git or read the product's ref list — the branch's existence is asserted by the recorded exit code, not observed by this pass. It also does not show what the firing did next; the remaining three events in that record are two `File has not been read yet` errors and a retry against `docs/reference/v1-readiness.md`, which belong to a different need.
+
+**Rung unchanged.** The record is a transcript, which is a recording rather than a report, and would support `observed` on a node sourced to it. This node stays at `assertion` because its own source is an inbox build note; a human re-sourcing it to the transcript records named here could raise it.
+
+_First-party to this firing, 2026-08-28: `ost_ingest_inbox` captured the record, and it was read in full via `ost_next_work({evidence})`. Nothing was executed and no result is recorded._
