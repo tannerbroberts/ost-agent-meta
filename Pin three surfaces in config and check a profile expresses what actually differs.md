@@ -6,6 +6,7 @@ threshold: >-
   All three profiles resolve to their real grants, and an argument-level
   restriction is either expressible or raises an explicit unsupported error.
 instrument: npx vitest run test/config/surface-profile.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ instrument: npx vitest run test/config/surface-profile.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/config/surface-profile.test.ts` — No test files found, exiting with code 1
+- 2026-08-28 **green** (exit 0) `npx vitest run test/config/surface-profile.test.ts` — Duration  3.04s (transform 90ms, setup 0ms, collect 146ms, tests 2.55s, environment 0ms, prepare 66ms)
