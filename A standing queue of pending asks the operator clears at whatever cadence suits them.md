@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[An operator will actually visit a queue that never chases them]]
@@ -30,3 +31,23 @@ The spec asserts the two properties that separate this node from what already sh
 
 ## History
 - 2026-08-05 unlinked "Build the queue from asks already outstanding and see whether the operator empties it once" — moved under "An operator will actually visit a queue that never chases them" — the belief this test measures now has a node of its own
+
+## The queue shipped, and the age it was built for is null on every real entry (unattended sweep, 2026-08-28)
+
+Two corrections to the Definition of done above, both from first-party `ost_read_repo` reads this pass.
+
+**The spec named above is no longer red.** `test/ost/pending-ask-queue.test.ts` now exists and is written in full. It asserts exactly the two properties this node claims: an ask filed mid-pass by `flagHumansRequired` survives into a later run with `askedAt` at T0 and `ageDays` of 11, and it carries the clearing command. It also pins the clearing rule (recording a result drops the entry) and the deliberate exclusion (an unlabelled test is triage backlog, not an ask). So the paragraph above beginning "This one is red against today's code" describes a state that has passed; the mechanism shipped. Left in place rather than rewritten, because it is the accurate record of why the spec was written.
+
+**The gap moved rather than closed, and this is the part worth a builder's attention.** In production this pass's `ost_next_work` reports 52 outstanding asks, of which 52 have `askedAt: null`. Every single one. The queue this node argued for is fifty-two entries deep and not one of them has the age the node calls its whole point — which is the "monument to blocked work" this node's own failure-mode paragraph predicted, arriving through a route it did not predict.
+
+The reason, read off the code: `src/ost/pending-asks.ts` admits an entry when the lane says a person is what it waits on OR an ask is on the ledger, but takes `askedAt` from the ledger alone. `src/ost/lanes.ts` files an ask from the lane-*setting* path. A test that is born humans-required — `humansRequired` passed to `ost_create_node` — enters through the lane branch and never touches the ledger. And the surface that creates such tests in volume, the unattended pass, is precisely the one where `ost_flag_humans_required` is withheld: the path that files asks is closed to the actor that generates them.
+
+## Definition of done — dated entries from every filing surface
+
+"A test created humans-required files an ask, so its queue entry has an age from the first pass that sees it"
+
+`npx vitest run test/ost/ask-filed-at-creation.test.ts`
+
+That spec does not exist yet, so today the command fails as `no-spec` and mints no build permit — an honest limit, stated rather than glossed. The assertions it must carry are written out in full on the test node, and they are predicted to fail against `src/ost/pending-asks.ts` as it stands. The pass that specified this could read the repository but not write to it.
+
+_First-party observation of the repository and of this pass's own sweep response. Grounds feasibility, not demand. No test was run and no result is recorded._
