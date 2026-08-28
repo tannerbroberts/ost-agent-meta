@@ -6990,3 +6990,4 @@
 {"ts":"2026-08-28T23:43:11.713Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":50,"session":"mcp-63fb1c4d-e372-4d35-950d-1f7a0207588f"}
 {"ts":"2026-08-28T23:43:13.149Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":37,"session":"mcp-63fb1c4d-e372-4d35-950d-1f7a0207588f"}
 {"ts":"2026-08-28T23:44:38.695Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4413,"session":"mcp-63fb1c4d-e372-4d35-950d-1f7a0207588f","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
+{"ts":"2026-08-28T23:44:52.988Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":2094,"session":"mcp-63fb1c4d-e372-4d35-950d-1f7a0207588f","touched":["A repeated no-argument call with no error files nothing, while a repeat whose result is an error still files.md"]}

@@ -26,3 +26,13 @@ What keeps this from being a blank reservation is that the assertion above is no
 
 ## History
 - 2026-08-26 body edited — Created with a prose line reading "**Lane: compute-only.**", which this pass had no authority to declare and which the sweep immediately contradicted — the test came back under `assumptionWork.needsHumans`, since setting the permissive lane is a human's `ost-agent lane --set` and no agent surface can grant it. A prose lane that disagrees with the `lane:` field is a check violation (lane-conflict) and, worse, tells a reader compute may run this unattended when nothing has said so. Replacing the declaration with an accurate note about who decides. No other claim changed.
+
+## The census this node defers now has a named deterministic generator (2026-08-28)
+
+This node's closing paragraph says a green here would not prove the corpus resembles the fixtures, and names the open question: whether real sessions contain many meaningful repeats carrying no `is_error`. One fact about that census is now established first-party and is recorded here because it changes the expected answer.
+
+There is at least one generator of no-error repeats that fires by construction rather than by chance: the unattended loop's own prescribed opening and closing steps. `ost_ingest_inbox` and `ost_next_work` both take no arguments, so every call of either has the identical signature `{}` under `extractFriction`'s `` `${name}:${JSON.stringify(input)}` ``, and the loop's prompt instructs a pass to call both at step 1 and again at step 5. The second pair trips the repeat detector every time. The 2026-08-28 sweep captured a record consisting of exactly those two events and nothing else — `TRANSCRIPT:6d96802b-a693-425d-97c4-3eb0db903f94` — and the fuller write-up sits on the candidate this test hangs beneath, "A human-edited manifest of loop-prescribed call sequences the harvester suppresses", rather than being restated here.
+
+**What it means for this test specifically.** Fixture case 1 is not a hypothetical shape. It is a transcription of what every well-behaved firing produces, which raises this test's value: the behaviour it pins is the one the corpus exercises most. It does not lower the bar or change either assertion, and it does not settle the census — the share of the 441 unmapped records that are of this kind is still unmeasured, and the share is what decides whether suppression is worth building.
+
+_Source: first-party read of `src/adapters/transcript.ts` via `ost_read_repo`, plus this sweep's own ingest output. No test was run and no result is recorded; the instrument above is still red and still uncleared._
