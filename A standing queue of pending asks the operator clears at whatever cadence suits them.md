@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[An operator will actually visit a queue that never chases them]]
+[[Every ask in the standing queue carries the date it was asked, whichever surface filed it]]
 
 Every ask a run cannot answer itself goes into one durable queue, aged, with the command that would clear it. The operator visits when they choose, works down the list, and each thing they clear releases whatever was behind it. Nothing chases them and nothing is lost.
 
