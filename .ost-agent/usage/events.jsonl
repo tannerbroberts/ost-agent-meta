@@ -6950,3 +6950,14 @@
 {"ts":"2026-08-28T22:35:33.149Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":89,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
 {"ts":"2026-08-28T22:35:40.761Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":92,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
 {"ts":"2026-08-28T22:36:19.462Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2181,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad","touched":["Tests get written and instrumented all day, and not one of them has ever been run.md"]}
+{"ts":"2026-08-28T22:36:19.841Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":79,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:28.077Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:28.153Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":22,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:37.423Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":47,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:38.192Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":69,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:38.640Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":48,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:40.807Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":56,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:40.887Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":35,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:54.182Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":60,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:36:54.268Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":34,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad"}
+{"ts":"2026-08-28T22:37:29.437Z","tool":"ost_append_to_node","ok":true,"ms":3,"surface":"mcp","argBytes":4283,"session":"mcp-63b66d76-aa89-4386-a714-932f0c9cf9ad","touched":["Name the specific mechanisms a hand process structurally cannot have.md"]}
