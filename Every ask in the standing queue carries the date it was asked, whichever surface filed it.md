@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A test created humans-required files an ask, so its queue entry has an age from the first pass that sees it]]
 
 **The belief, stated so it could be false:** every entry that reaches the standing queue carries a real `askedAt`, no matter which surface put it there — a mid-pass flag, a human's CLI classification, or a test created humans-required in the first place.
 
