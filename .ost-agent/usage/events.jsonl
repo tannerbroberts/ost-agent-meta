@@ -6774,3 +6774,4 @@
 {"ts":"2026-08-28T16:08:39.567Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":58,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
 {"ts":"2026-08-28T16:09:25.536Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3992,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def","touched":["The transcript adapter rolls near-identical sessions into one record before storing them.md"]}
 {"ts":"2026-08-28T16:10:10.899Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3531,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def","touched":["The queue groups identical friction shapes into one item with a count.md"]}
+{"ts":"2026-08-28T16:10:34.386Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4299,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def","touched":["The sweep reports which tests already carry an instrument, beside the solutions that lack one.md"]}
