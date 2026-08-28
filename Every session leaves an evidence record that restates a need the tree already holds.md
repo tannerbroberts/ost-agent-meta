@@ -152,3 +152,29 @@ _Source: this pass's own greps over the vault and the `ost_next_work` response t
 - 2026-08-23 body edited — Seven dated entries — five of them written on 2026-08-22 alone — had grown this node to 27KB arranged chronologically, which made it actively misleading rather than merely long: the body's opening still asserted "there is no tool call that records read-and-judged-redundant... that gap is real product debt", and the entry proving that false (`ost-agent dispose` exists and ships) sat 20KB below it. The 2026-08-21 addendum's "every non-transcript record is mapped, 73 of 73" was likewise left standing above the entry that counted 18 unmapped USAGE records and falsified it. A reader going top-down met two overturned claims before their corrections. Restructured to state current truth first, with a Corrections subsection preserving the full lineage of what was claimed, what falsified it, and how — because which claims were overturned and by what method is itself the most transferable finding on this node. Every shape, corpus count, trend figure, session id, named node, named spec file and stated bound is carried across; today's record (392) is added as a trend row rather than an eighth entry. No claim dropped; git holds the prior text.
 - 2026-08-23 body edited — Following this node's own standing instruction to future sweeps — "add a row to the trend table. Do not add an entry." Today's two new records (`e42ae959…`, `d2c8dbf0…`) both land in known rows 1, 2 and 4, so the row IS the entry and no prose is warranted. Also folding the previous firing's 2026-08-23 Issues bullet into the table as its own row: it was written as an entry only because it recorded a mid-sweep discrepancy (392 → 393) the table could not then express, and leaving it as a bullet violates the rule it was written under. Nothing else is touched — every shape, corpus count, session id, named node, named spec, correction and stated bound is carried across verbatim.
 - 2026-08-26 body edited — Following this node's own standing instruction to future sweeps — "add a row to the trend table. Do not add an entry." Today's one new record (`TRANSCRIPT:e8429bbc…`) lands in known rows 2 and 4, so the row IS the entry and no prose is warranted. Also folding the previous firing's "Trend row, folded in here rather than added to the table" paragraph out of Correction 3 and into the table where it belongs: it was written as prose only because that firing was already editing for a different reason, and leaving a trend figure outside the trend log is the exact drift the rule exists to prevent — a reader checking the table would have seen 395 as the latest when 412 was recorded 20KB below. Nothing else is touched: every shape, corpus count, session id, named node, named spec, correction, stated bound and the whole of Correction 3's substance is carried across verbatim.
+
+## 2026-08-28 — corpus census refreshed, and one row has stopped growing
+
+Counted this pass by grepping every `TRANSCRIPT_*.md` in `.ost-agent/evidence/`, using the same search strings as the rows above so the columns are comparable. Denominator: **435** transcript records (was 399 on 2026-08-22).
+
+| Row | Search string(s) | 08-16 | 08-21 | 08-22 | **08-28** |
+|---|---|---|---|---|---|
+| 1 | `File has not been read yet` / `modified since read` / `String to replace not found` | ~189 / ~109 | 289 / 173 | — | **397 / 214** |
+| 2 | `requested permissions to read from` | 56 / 49 | 82 / 69 | 91 / 75 | **115 / 98** |
+| 5 | `Blocked: sleep` | — | 34 / 31 | — | **35 / 32** |
+| — | `permissions to use mcp__` (tool-class denial, tracked on the scoped-for-tools node) | 83 / 28 | 91 / 29 | 91 / 29 | **91 / 29** |
+
+Occurrences / distinct sessions. Row 1's components split as `File has not been read yet` 374 / 206 and the other two strings 23 / 20.
+
+**The rows are no longer moving together, and that is the finding.** Two are flat and two are not:
+
+- **Tool-class denials: 91 / 29, byte-identical across 08-21, 08-22 and 08-28.** Seven days and 36 new transcript records produced *zero* new occurrences. The fix for that row shipped as code (OST-Agent PR #69, which derives the withheld set and names it in the system prompt).
+- **Row 5 is effectively flat too** — one new occurrence and one new session in seven days.
+- **Row 2 is the opposite: 82 → 91 → 115 occurrences and 69 → 75 → 98 sessions**, a 26% rise in the six days since 08-22. It is now the fastest-growing shape in the corpus. The intervention this row received was not code but a config edit — `product.repos` added to `ost.config.yaml` on 2026-08-09, with a comment recording that six consecutive passes had reported repo sight dead.
+- **Row 1 remains the largest shape**, now present in 214 of 435 records — just under half of every session this vault has ever harvested.
+
+**What a reader should take from the contrast, stated once.** The two denial rows had the same symptom and different treatments, and only the one treated in code stopped. That is weak evidence — two rows, no controlled comparison, and the treatments differed in more than code-versus-config — but it is the first time this census has been able to show a row going flat at all, and it points at where the remaining spend is. Rows 1 and 2 together account for the great majority of friction in the corpus and neither has a shipped fix.
+
+**Not acted on here.** Nothing was disposed, no node created, no rung moved. The `ost-agent dispose` backlog described above still stands at zero live dispositions, and this pass had no more ability to drain it than its predecessors — `dispose` is a human's CLI command by design.
+
+*Method note: counts are `rg` occurrence/file counts over the evidence sidecar, not a semantic classification. A record containing a string twice counts twice. This is the same method the earlier rows used.*
