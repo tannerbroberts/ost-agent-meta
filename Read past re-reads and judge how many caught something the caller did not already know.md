@@ -7,6 +7,7 @@ threshold: >-
   Fewer than 10 of the 82 re-reads surfaced a change the caller could not have
   predicted.
 instrument: npx vitest run test/mcp/sweep-version-and-delta.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that the re-reads were not doing real work. Trading correctnes
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/mcp/sweep-version-and-delta.test.ts` — No test files found, exiting with code 1
+- 2026-08-28 **green** (exit 0) `npx vitest run test/mcp/sweep-version-and-delta.test.ts` — Duration  13.25s (transform 1.10s, setup 0ms, collect 1.67s, tests 9.94s, environment 0ms, prepare 182ms)
