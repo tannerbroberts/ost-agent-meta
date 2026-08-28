@@ -3,6 +3,7 @@ type: Opportunity
 source: 'USAGE:2026-08-04'
 created: '2026-08-05'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[A runner that executes instruments and records exit codes only, judging nothing]]
@@ -82,3 +83,18 @@ This node asks why nothing ever runs. This pass hit the mechanism directly, by c
 **The cheapest thing that would test the fix:** take the three instrumented tests named above, run `ost-agent lane --set` on them, and see whether `runnable` becomes 3 and whether an attended session then actually runs them. If it does, the bottleneck is one CLI call per test and the tree can be unblocked in a batch. If it does not, the blockage is somewhere further down and this node's question is still open.
 
 _Source: `ost_next_work` output immediately before and after three `ost_create_node` calls on 2026-08-06, plus direct reads of the created files' frontmatter and of the three existing test nodes named above. Observed behaviour of this product's own sweep. Corroboration only; the node's rung is unchanged._
+
+## Re-measured after three weeks — the queue grew by half, execution is still exactly zero (unattended sweep, 2026-08-28)
+
+The last measurement on this node is 2026-08-06. Twenty-two days on, read first-party off this firing's own `ost_next_work` response and the rollup it was handed:
+
+- **464** assumption tests sit in `needsHumans` — up from 310 on 2026-08-06, and from 272 on 2026-08-05.
+- `runnable: 0`, `awaitingOneCommand: 0`, `blockedOnPermission: 0`. All three are still exactly zero, unchanged across all three measurements.
+- All **37** buckets in the rollup still read `tested 0`.
+- **52** tests now sit on the standing ask queue, and all 52 carry `askedAt: null` — the queue still cannot say how long any of them has waited.
+
+**Deliberately not restating the argument.** The three sections above establish the mechanism, demonstrate it by walking into it, and name the fix; none of that needs saying a fourth time. The single new fact is elapsed time. The cheapest unblock this node identified on 2026-08-05 and repeated on 2026-08-06 — one human session assigning lanes — has now been outstanding for 22 days, while the queue it would clear grew by 154 tests and the executed count stayed at zero. What was a same-week observation is now a three-week one, and the accumulation rate did not slow.
+
+**The open question from 2026-08-06 is still open, and one CLI call would close it.** That section asked whether the blockage is the lane label alone or something further down, and proposed running `ost-agent lane --set` on a few instrumented tests to find out. Nothing has been labelled since. `runnable` moving from 0 to even 1 would separate "a decision nobody has made" from "a second gate downstream" — and until someone makes that call, every future pass re-derives the same ambiguity from the same numbers.
+
+_Source: this firing's own `ost_next_work` response and the `ost-agent rollup` output it was given. First-party observation of the vault's state. No test was run and no result is recorded; this node's rung is unchanged._
