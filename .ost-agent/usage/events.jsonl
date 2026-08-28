@@ -6759,3 +6759,17 @@
 {"ts":"2026-08-28T10:50:23.315Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":22,"session":"mcp-23041528-0681-400e-94fe-d3aa0698c9ca"}
 {"ts":"2026-08-28T10:50:23.395Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-23041528-0681-400e-94fe-d3aa0698c9ca"}
 {"ts":"2026-08-28T15:53:34.643Z","tool":"ost_ingest_inbox","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T15:53:36.434Z","tool":"ost_next_work","ok":true,"ms":151,"surface":"mcp","argBytes":2,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:04:16.163Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:04:16.274Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":101,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:04:25.113Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":108,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:04:25.593Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:04:42.423Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:05:02.353Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:05:11.213Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":100,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:05:11.358Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":50,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:05:18.221Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":93,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:05:18.947Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":103,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:05:19.084Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":64,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:08:39.567Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":58,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def"}
+{"ts":"2026-08-28T16:09:25.536Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3992,"session":"mcp-851eaffd-14c7-444c-927d-69a44e8e8def","touched":["The transcript adapter rolls near-identical sessions into one record before storing them.md"]}
