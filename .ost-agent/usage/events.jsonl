@@ -6878,3 +6878,4 @@
 {"ts":"2026-08-28T20:08:29.940Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":25,"session":"mcp-56185100-532d-42ed-8a89-3735cf6aef44"}
 {"ts":"2026-08-28T20:08:30.221Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-56185100-532d-42ed-8a89-3735cf6aef44"}
 {"ts":"2026-08-28T20:09:24.251Z","tool":"ost_append_to_node","ok":true,"ms":4,"surface":"mcp","argBytes":6696,"session":"mcp-56185100-532d-42ed-8a89-3735cf6aef44","touched":["Work a previous pass settled comes back on the next list, so I pay to re-decide it.md"]}
+{"ts":"2026-08-28T20:09:30.595Z","tool":"ost_ingest_inbox","ok":true,"ms":28,"surface":"mcp","argBytes":2,"session":"mcp-56185100-532d-42ed-8a89-3735cf6aef44"}
