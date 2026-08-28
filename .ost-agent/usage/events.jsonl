@@ -6711,3 +6711,5 @@
 {"ts":"2026-08-28T06:23:04.268Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":112,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
 {"ts":"2026-08-28T06:23:34.887Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3991,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da","touched":["Work my own governance has already gated still shows as outstanding every pass.md"]}
 {"ts":"2026-08-28T06:23:37.322Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
+{"ts":"2026-08-28T06:23:38.990Z","tool":"ost_next_work","ok":true,"ms":134,"surface":"mcp","argBytes":2,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
+{"ts":"2026-08-28T07:56:09.696Z","tool":"ost_ingest_inbox","ok":true,"ms":28,"surface":"mcp","argBytes":2,"session":"mcp-14b7dae7-078e-42a4-b9a0-f6175d0ce6cb"}
