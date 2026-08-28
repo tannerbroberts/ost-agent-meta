@@ -8,6 +8,7 @@ threshold: >-
   At least 90% of tree-derived search arguments in the recorded trace are
   expressible as literal lookups.
 instrument: npx vitest run test/telemetry/search-literality-census.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/observed
 
@@ -26,3 +27,6 @@ Committed before counting, and worth stating plainly: this pass already knows tw
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/search-literality-census.test.ts` — No test files found, exiting with code 1
 - 2026-08-06 **green** (exit 0) `npx vitest run test/telemetry/search-literality-census.test.ts` — Duration  2.67s (transform 40ms, setup 0ms, collect 2.47s, tests 6ms, environment 0ms, prepare 29ms)
+
+## Issues
+- 2026-08-28 2026-08-28 (unattended sweep, repo sight): this test's instrument has RUN AND GONE GREEN, and its finding was never read out. The instrument log records red (exit 1, "No test files found") then green (exit 0, 2.67s) on 2026-08-06, and `ost_read_repo` confirms test/telemetry/search-literality-census.test.ts is present at 21,854 bytes. But no result is recorded against this node's own pre-committed bar — "at least 90% of tree-derived search arguments in the recorded trace are expressible as literal lookups" — so the four cell counts the census computes have never been reported anywhere on the tree. A green exit code says the classifier works; it says nothing about which side of 90% the answer fell on, and the parent solution's build decision turns entirely on that. This is the cheapest outstanding ask in this branch, because the counting is already done and only the read-out is missing: `ost-agent result "Census the recorded searches and split them by whether their argument came from the tree" -v <supported|refuted|inconclusive> -n "<the four cell counts and the tree-derived literal percentage>" -b <you> -u "<what this run left uncovered>"`. Flagged rather than answered: recording a result is a human's call, this pass ran nothing, and the node's own prose warns that the trace records searches that were issued rather than searches that were wanted, which biases the census toward the answer its parent solution prefers.
