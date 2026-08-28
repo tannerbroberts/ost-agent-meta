@@ -6802,3 +6802,4 @@
 {"ts":"2026-08-28T17:05:58.256Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-6d208619-3608-4de6-b75d-37b819389905"}
 {"ts":"2026-08-28T17:06:00.275Z","tool":"ost_next_work","ok":true,"ms":233,"surface":"mcp","argBytes":2,"session":"mcp-6d208619-3608-4de6-b75d-37b819389905"}
 {"ts":"2026-08-28T17:06:16.296Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1132,"session":"mcp-6d208619-3608-4de6-b75d-37b819389905","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
+{"ts":"2026-08-28T18:07:02.175Z","tool":"ost_ingest_inbox","ok":true,"ms":25,"surface":"mcp","argBytes":2,"session":"mcp-525b37a5-dcc3-4cd2-87fe-4434e135a02a"}
