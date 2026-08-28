@@ -121,3 +121,30 @@ This node argues the case in general. Here is the general case counted, on the l
 **What would fix it, and it is not more annotation.** A disposition the counter can read — the evidence side already has the vocabulary (`withheldByDisposition` is a field in the sweep response, empty here) — so that "examined, no honest instrument exists, reason on the node" is a state, not a paragraph. Until then, every pass pays this and the honest thing is to say so in the report rather than churn.
 
 _Method: first-party `ost_read_tree` reads of the ten named nodes this pass, plus `ost_next_work`'s own counts. Nothing executed, no test run, no result recorded. Grounds feasibility and cost; silent on desirability. Rung unchanged at the floor._
+
+## The mechanism this node asks for has shipped — found first-party, 2026-08-28
+
+The 2026-08-26 census above closes by saying what would fix this, and rules out the alternative: *"A disposition the counter can read — so that 'examined, no honest instrument exists, reason on the node' is a state, not a paragraph. Until then, every pass pays this."*
+
+**That state exists in the product now.** `src/knowledge/suppressions.ts` is built, and its own docstring names this node's situation as the motivating case, in this node's own terms: *"Passes keep meeting items they correctly decline… Today the decline leaves nothing behind, so each pass pays the full reading cost to reach the answer the last one reached."*
+
+**What it is, and why the design answers the objection this node would otherwise raise.** A suppression is not a deferral of the node — the node stays live, on disk, in the tree — it suppresses the *demand*, and it expires on a **fact rather than a date**. The condition vocabulary is closed and machine-evaluable against the tree alone, and prose is refused at the write funnel (`parseSuppressionCondition` throws `PROSE_REFUSAL`), on the stated grounds that *"an item suppressed on [a prose condition] is removed from the queue permanently by the writer's own say-so — that is a delete wearing a different name."* Revival is self-clearing: nothing marks a suppression expired, every read re-evaluates, and a damaged ledger line suppresses nothing, so corruption surfaces *more* work rather than less.
+
+**Two of the four condition kinds were written for the exact faces this node enumerates:**
+
+- `status-is` — face 1, the shipped solutions that structurally cannot leave `solutionsMissingInstruments`. The Issues note above counts at least 10.
+- `lane-unlabelled` — face 3, and its docstring says so outright: *"An item declined because the surface lacked the tool to classify it."* That is the pre-existing human-lane tests which `ost_flag_humans_required` is withheld from labelling, described in this node's paragraph 57 as staying in the bucket "permanently".
+
+**The read path is already wired into the sweep.** `suppressedByCondition` is a live field on the `ost_next_work` response — this pass received it, empty — alongside the `withheldByDisposition` field the census paragraph noted was empty. So the counter can already read the state; what is missing is entries.
+
+**What this pass could NOT verify, stated so nobody takes it as confirmed.** Whether `ost-agent suppress` is actually exposed as a CLI command. `src/cli/index.ts` is 148,729 bytes — past the read cap — and this surface has no repository search, so the file could be neither read nor grepped. Two facts point opposite ways and neither settles it: the module's docstring asserts *"the write path ships on the CLI (a human's `ost-agent suppress`), not on any agent tool"*, while `test/cli/` contains `dispose.test.ts` and no `suppress.test.ts`, and `test/knowledge/` has no `suppressions.test.ts` either. A module with a wired read path, no CLI spec and no unit spec is consistent with "shipped and untested", with "half-built", and with "tested somewhere this pass did not look."
+
+**So the actionable line for the operator, in descending order of confidence:**
+
+1. Check whether `ost-agent suppress` runs. One invocation settles it.
+2. If it does, the two counts this node has measured are drainable today without touching a node: the ≥10 `status: shipped` solutions under a `status-is` condition, and the human-lane tests under `lane-unlabelled`. Both revive by themselves if the fact flips.
+3. If it does not, the missing half is small and precisely specified — the module, its vocabulary, its refusals and its disclosure format are all written; only the write command is absent.
+
+**What does not change.** This is still a human's write by design, for the reason the module gives: the abuse it cannot police itself is *"a condition chosen because it will never flip"*, caught only by a person reading `formatSuppressions` over time. No pass can drain its own queue, and this pass did not try to. Recorded here rather than acted on.
+
+_Method: first-party `ost_read_repo` reads of `src/knowledge/suppressions.ts` in full, plus directory listings of `src/cli`, `test/cli` and `test/knowledge`, and a size probe of `src/cli/index.ts`. Nothing executed, no test run, no result recorded. Grounds feasibility; silent on desirability. Rung unchanged at the floor._
