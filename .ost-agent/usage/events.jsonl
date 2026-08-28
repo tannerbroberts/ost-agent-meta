@@ -6703,3 +6703,8 @@
 {"ts":"2026-08-28T06:20:28.316Z","tool":"ost_read_tree","ok":true,"ms":104,"surface":"mcp","argBytes":90,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
 {"ts":"2026-08-28T06:20:36.063Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":89,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
 {"ts":"2026-08-28T06:21:28.105Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3825,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da","touched":["The agent has to guess what resources it's actually working with.md"]}
+{"ts":"2026-08-28T06:21:47.848Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
+{"ts":"2026-08-28T06:21:49.232Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
+{"ts":"2026-08-28T06:21:49.335Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
+{"ts":"2026-08-28T06:21:57.586Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":116,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
+{"ts":"2026-08-28T06:22:28.907Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4510,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
