@@ -7,6 +7,7 @@ threshold: >-
   The reader's risk ranking matches the assigned one, and they name at least one
   foreclosure per route that was also written down.
 instrument: npx vitest run test/ost/routes-with-forecloses.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/routes-with-forecloses.test.ts` — No test files found, exiting with code 1
+- 2026-08-28 **green** (exit 0) `npx vitest run test/ost/routes-with-forecloses.test.ts` — Duration  604ms (transform 186ms, setup 0ms, collect 273ms, tests 28ms, environment 0ms, prepare 60ms)
