@@ -6,6 +6,7 @@ threshold: >-
   For each of the three observed waiting cases, the permitted form is no longer
   to express than the blocked form it replaces.
 instrument: npx vitest run test/loop/wait-primitive-affordance.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,4 @@ instrument: npx vitest run test/loop/wait-primitive-affordance.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/wait-primitive-affordance.test.ts` — No test files found, exiting with code 1
+- 2026-08-28 **green** (exit 0) `npx vitest run test/loop/wait-primitive-affordance.test.ts` — Duration  3.94s (transform 70ms, setup 0ms, collect 77ms, tests 3.50s, environment 0ms, prepare 73ms)
