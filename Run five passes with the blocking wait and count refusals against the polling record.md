@@ -7,6 +7,7 @@ threshold: >-
   Zero blocked-call refusals across the five passes, and wall-clock time no
   worse than the polling baseline.
 instrument: npx vitest run test/loop/blocking-wait-refusal-parity.test.ts
+authorship: machine
 ---
 #AssumptionTest #viability #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ Proposed by the agent; a human runs it and records the outcome.
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/blocking-wait-refusal-parity.test.ts` — No test files found, exiting with code 1
+- 2026-08-28 **green** (exit 0) `npx vitest run test/loop/blocking-wait-refusal-parity.test.ts` — Duration  21.36s (transform 80ms, setup 0ms, collect 87ms, tests 20.26s, environment 0ms, prepare 118ms)
