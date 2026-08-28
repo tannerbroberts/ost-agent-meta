@@ -6742,3 +6742,4 @@
 {"ts":"2026-08-28T08:01:07.599Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":99,"session":"mcp-14b7dae7-078e-42a4-b9a0-f6175d0ce6cb"}
 {"ts":"2026-08-28T08:01:40.519Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":34,"session":"mcp-14b7dae7-078e-42a4-b9a0-f6175d0ce6cb"}
 {"ts":"2026-08-28T08:02:05.784Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":2905,"session":"mcp-14b7dae7-078e-42a4-b9a0-f6175d0ce6cb","touched":["A build that is finished and waiting in an open PR is picked as a target again, because selection reads only the tree.md"]}
+{"ts":"2026-08-28T08:02:35.026Z","tool":"ost_edit_node","ok":true,"ms":2,"surface":"mcp","argBytes":7039,"session":"mcp-14b7dae7-078e-42a4-b9a0-f6175d0ce6cb","touched":["Search node text through a literal-only interface, so no escaping question ever arises.md"]}
