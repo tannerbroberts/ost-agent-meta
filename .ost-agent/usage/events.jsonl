@@ -6710,3 +6710,4 @@
 {"ts":"2026-08-28T06:22:28.907Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4510,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
 {"ts":"2026-08-28T06:23:04.268Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":112,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
 {"ts":"2026-08-28T06:23:34.887Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3991,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da","touched":["Work my own governance has already gated still shows as outstanding every pass.md"]}
+{"ts":"2026-08-28T06:23:37.322Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-93168780-889a-468d-a76a-a5119c4b97da"}
