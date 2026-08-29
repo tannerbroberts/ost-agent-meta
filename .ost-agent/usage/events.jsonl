@@ -7054,3 +7054,29 @@
 {"ts":"2026-08-29T00:57:55.467Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
 {"ts":"2026-08-29T00:57:57.082Z","tool":"ost_next_work","ok":true,"ms":174,"surface":"mcp","argBytes":2,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
 {"ts":"2026-08-29T01:58:57.789Z","tool":"ost_ingest_inbox","ok":true,"ms":26,"surface":"mcp","argBytes":2,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:58:59.196Z","tool":"ost_next_work","ok":true,"ms":191,"surface":"mcp","argBytes":2,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:21.859Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":108,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:22.592Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:32.446Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:34.180Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:34.256Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":14,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:50.067Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":64,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:50.785Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":100,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:50.965Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":50,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:59.277Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":93,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T01:59:59.955Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":103,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:00:00.098Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":100,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:00:26.724Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":119,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:00:26.964Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":37,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:00:46.439Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:00:46.888Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:01:07.275Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":119,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:01:37.894Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:01:37.972Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":30,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:01:41.894Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:01:46.555Z","tool":"ost_read_repo","ok":false,"ms":0,"surface":"mcp","argBytes":32,"err":"\"src/loop/wait-shim.ts\" does not exist in OST-Agent — OST-Agent/src/loop exists and contains authority-contract.ts, block-announcement.ts, cadence.ts, claim.ts, corrections.ts, credentialedSteps.ts, degraded.ts, early-push.ts, environment.ts, exitLaundering.ts, failure-summary.ts, fallback.ts, goal-","session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:01:46.635Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:01:49.352Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":47,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:01:49.418Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":54,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:02:04.620Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":27,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb"}
+{"ts":"2026-08-29T02:02:46.574Z","tool":"ost_create_node","ok":true,"ms":15,"surface":"mcp","argBytes":4224,"session":"mcp-124b0c8d-7094-4d29-a140-eb388469d0fb","wrote":["When a wait gives up, I can't tell whether it was nearly there or never going to happen.md"],"touched":["When a wait gives up, I can't tell whether it was nearly there or never going to happen.md","A test that failed because the machine was busy looks exactly like one that failed because I broke something.md"]}
