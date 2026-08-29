@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The lane labels already stored are enough to split the bucket without inventing a judgement]]
 
 **Variation dimension: automated-vs-manual. Position taken: automate the counting, leave the judgement manual on purpose.**
 
