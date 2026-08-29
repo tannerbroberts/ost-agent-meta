@@ -7346,3 +7346,10 @@
 {"ts":"2026-08-29T20:10:34.005Z","tool":"ost_next_work","ok":true,"ms":269,"surface":"mcp","argBytes":2,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
 {"ts":"2026-08-29T21:12:05.504Z","tool":"ost_ingest_inbox","ok":true,"ms":37,"surface":"mcp","argBytes":2,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
 {"ts":"2026-08-29T21:12:07.979Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
+{"ts":"2026-08-29T21:12:09.354Z","tool":"ost_next_work","ok":true,"ms":261,"surface":"mcp","argBytes":2,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
+{"ts":"2026-08-29T21:12:34.268Z","tool":"ost_read_tree","ok":true,"ms":132,"surface":"mcp","argBytes":108,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
+{"ts":"2026-08-29T21:13:02.532Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
+{"ts":"2026-08-29T21:13:02.636Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
+{"ts":"2026-08-29T21:13:25.493Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":100,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
+{"ts":"2026-08-29T21:13:25.858Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":64,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
+{"ts":"2026-08-29T21:14:24.031Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1812,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
