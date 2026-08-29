@@ -21,3 +21,15 @@ The parking mechanism this need asks for exists and is running. `src/knowledge/d
 **What it does not fix, and this is the same limit the evidence face hit.** `dispose` is a human's CLI command by design, and this vault has zero live dispositions after weeks of the evidence queue being drainable by exactly this route. Wiring a second bucket into a ledger nobody writes to changes the count by nothing. The parent's need is met only if the operator actually files, which is a fact about the operator and not about the code.
 
 ⚠️ Unvalidated, agent-ideated. Grounded in a read of the shipped module this pass performed; no operator has said they would file dispositions against solutions.
+
+## Definition of done
+
+"A closed solution disposition clears the instrument bucket entry and names it under withheldByDisposition"
+
+```
+npx vitest run test/evidence/dispose-solution-instrument-bucket.test.ts
+```
+
+The spec does not exist yet, so this is `no-spec` today rather than assertion-red. `test/evidence/corroborate-disposition.test.ts` is the shipped template for the same contract on the evidence face — copy its shape. Four assertions, listed on the test node: three disposed solutions leave `solutionsMissingInstruments`; all three are named under `withheldByDisposition`; the node files are byte-identical afterwards; and a `reopened` entry puts all three back.
+
+If the build turns out to need more than one `omitDisposed` call site, this candidate has lost the property it was ideated for — adoption rather than construction — and the comparison against its siblings should be re-run rather than the build continued.
