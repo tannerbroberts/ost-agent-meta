@@ -56,3 +56,15 @@ Nothing else. No `tool_error`, no interruption, no denial. The signal-to-noise o
 **Self-demonstrating, and offered as a check.** This pass opened with `ost_ingest_inbox` and `ost_next_work`, both no-argument, and closes by calling both again as step 5 instructs. Its own transcript should therefore be harvested into a record containing the same two `retry` events. Whoever reads this next can confirm the mechanism at no cost by looking for it.
 
 _Source: this pass's own `ost_ingest_inbox` output, the evidence body served by `ost_next_work`, and a first-party read of `src/adapters/transcript.ts` via `ost_read_repo`. Observed behaviour of this product; it grounds usability, not desirability. No test was run and no result is recorded._
+
+## The prediction was checked and held (2026-08-28 sweep)
+
+The 2026-08-28 section above closed by offering its own transcript as a free check: a well-behaved firing should be harvested into a record containing nothing but the loop's own prescribed `retry` events. This pass performed that check at ingest and the prediction held.
+
+`TRANSCRIPT:ec918ca1-7f8d-453c-81f0-2e1e977e87f0`, captured 0d ago, consists of **5 friction events, all `retry`, all with empty arguments**: `ost_ingest_inbox` ×2 and `ost_next_work` ×3. No `tool_error`, no interruption, no denial. Signal-to-noise 0 of 5 — a firing that hit nothing wrong, filing a document titled "Session friction" whose entire contents are the loop obeying its own step 1 and step 5.
+
+This is a second independent instance, from a different session than the one that generated the theory, so the mechanism is now confirmed rather than proposed. It is still not the census: two records is not a share of 445, and the share is what decides whether a manifest is a filter or ceremony. What it does narrow is the shape — the generator produces records that are *entirely* noise rather than noise mixed into real signal, which means a suppression rule that dropped them would remove whole records from the queue rather than merely tidying them.
+
+One contrast worth recording alongside it, because it cuts the other way. The other record this pass captured, `TRANSCRIPT:cf2cef94-0aee-4647-80e0-9d64dbe0e18d`, was 9 events of which 7 were genuine `tool_error`s carrying real findings — and its 2 `retry` events were *also* meaningful, being re-issues of a wait that had just expired. So the repeat inference is not uniformly wrong: a repeat of a command carrying arguments can be exactly the signal worth keeping, and this pass mapped a new opportunity out of one. Any rule built here must suppress the no-argument prescribed pair without taking the argument-carrying repeats with it, which is the distinction the sibling test "A repeated no-argument call with no error files nothing, while a repeat whose result is an error still files" already pins.
+
+_Source: this pass's own `ost_ingest_inbox` output and the two evidence bodies served by `ost_next_work`. Observed behaviour of this product; grounds usability, not desirability. No test was run and no result is recorded._
