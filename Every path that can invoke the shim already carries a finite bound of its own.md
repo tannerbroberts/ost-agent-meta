@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Census every shim invocation path and count how many arrive with a finite bound already set]]
 
 **Risk category: feasibility**, and a refutation retires the parent candidate outright rather than shrinking it.
 
