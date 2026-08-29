@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Conditions that expire are more often genuinely slow than never going to be true]]
 
 **Variation dimension: automated-vs-manual. Position taken: the escalation is automated, the ceiling is deliberately manual.**
 
