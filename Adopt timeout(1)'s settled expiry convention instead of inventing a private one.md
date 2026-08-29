@@ -21,3 +21,17 @@ This problem is old and already has a settled answer in the platform. `timeout(1
 **Sharpest risk:** feasibility, and it is answerable without asking anyone — either the dependency is reachable on the target platform or it is not.
 
 Ideated by an unattended pass on 2026-08-28 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"Probe whether the borrowed expiry utility resolves on the machine the loop runs on"
+
+```
+npx vitest run test/loop/wait-expiry-utility-availability.test.ts
+```
+
+This is the objection the candidate's own body says could kill it, made runnable: `timeout` is GNU coreutils and stock macOS ships it only as `gtimeout` via Homebrew, and the loop fires on a Mac. The probe has to run through the same `execFileSync("sh", …)` path the existing suite uses, not through the test runner's environment — otherwise it measures a developer machine with Homebrew on `PATH` rather than the environment the shim will actually live in.
+
+Answer it before building. A refutation here does not leave a smaller version of this candidate to ship: it degrades to hard-coding 124 by hand, which is adopting the convention without the tool, and the body says that variant should be judged separately rather than silently substituted.
+
+The red is a `no-spec` red — the named file does not exist. `renderWaitShim()` also contains no `timeout` invocation at all today, so the assertion stays red past file creation until the shim actually reaches for the utility.
