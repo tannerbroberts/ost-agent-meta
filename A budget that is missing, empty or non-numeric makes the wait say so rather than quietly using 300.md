@@ -23,3 +23,6 @@ authorship: machine
 **Honest label on the red: `no-spec`, the weak kind.** The named file does not exist, so it fails for a reason not specific to this question. The stronger form — an assertion filter against the existing spec — is not expressible, because instruments are argv-only and quoted `-t` filters are refused. The paragraphs above are what stand in for it.
 
 **What a green run does NOT settle.** Whether the budget can be plumbed from the harness into the wrapper's environment in the first place; that is a question about what a firing's wrapper can see, and this test assumes the export exists in order to probe what happens when it does not. It also says nothing about whether the composer's own number is a good one.
+
+## Instrument Log
+- 2026-08-29 **no-spec** (exit none) `npx vitest run test/loop/wait-budget-inheritance.test.ts` — test/loop/wait-budget-inheritance.test.ts does not exist — no spec was collected, so nothing was measured
