@@ -21,3 +21,13 @@ authorship: machine
 **What would make this the wrong pick.** If the reason `await` was written still holds — that the platform's own waiting forms are refused or unavailable on the unattended surface — then this candidate is not a trade-off, it is a proposal to use something that does not work here, and it should be retired rather than sequenced. That is a fact about the current Monitor grammar, it is cheap to establish, and it should be established before either sibling is costed, because a positive answer here makes both of them unnecessary.
 
 Unvalidated, and ideated by an unattended pass. Not blind — see the note on the sibling candidate "Delete the wait: let harness-tracked work announce its own completion instead of being polled"; all three were composed in one context by one author.
+
+## Definition of done — and it is not a command
+
+"Ask someone with the Monitor tool's implementation open whether a wait that blocks on job exit is accepted where the polling forms are refused"
+
+No command, on purpose: this one is humans-required. The bar is that at least 1 wait form blocking on job exit is confirmed accepted on the unattended surface. The deciding artefact is the Monitor tool's own permission grammar, which lives in the harness rather than in this repository, so no spec under `test/` can produce a verdict and composing candidate commands to see which are refused would only reproduce the discovery-by-violation this tree already records as a defect.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**Sequencing against the siblings:** settle this before either sibling is costed. A `refuted` verdict retires this candidate for the price of one question. A `supported` verdict is stronger still — an accepted exit-blocking wait removes both the fixed cap and the completion-marker guess at once, which is most of what the other two candidates are for.
