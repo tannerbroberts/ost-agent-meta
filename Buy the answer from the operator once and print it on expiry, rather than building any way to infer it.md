@@ -21,3 +21,13 @@ The operator records, once, in the same hand-edited config that already carries 
 **No instrument, and the reason differs from its siblings'.** The other two candidates are unreachable because the helper is not in this repository. This one is unreachable because its load-bearing claim is about whether one person writes and maintains one sentence — a viability question about a human, not about code. Either way there is no spec in this product's `test/` that could go red for it.
 
 Unvalidated. Agent-ideated on 2026-08-29; a human to review.
+
+## Definition of done — and it is not a command
+
+"Ask the operator to write the expiry note now, then check ninety days later whether it is still true"
+
+There is deliberately no instrument. The bar is: the note is still accurate at 90 days with no more than one edit in between. There is nothing to execute — writing the note *is* shipping this candidate in its minimal form, and the only measurement is whether one person's written advice survives ninety days.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**Sequencing:** this is the only one of the three candidates whose test and whose build are the same act, which makes it the natural first move regardless of how the other two are ranked. Its feasibility half needs no test at all — `ost.config.yaml` already carries hand-edited operator fields the tooling reads and never writes, verified with repo sight on 2026-08-29.
