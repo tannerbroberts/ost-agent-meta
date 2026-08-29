@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The rendered wait shim reports whether the watched job is still alive, not only the condition's exit status]]
 
 **Risk category: feasibility.**
 
