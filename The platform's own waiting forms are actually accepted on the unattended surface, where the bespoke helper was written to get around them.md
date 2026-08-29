@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Ask someone with the Monitor tool's implementation open whether a wait that blocks on job exit is accepted where the polling forms are refused]]
 
 **Risk category: feasibility.**
 
