@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Ask the operator whether a firing may add to their personal queue without being asked]]
 
 **Kind: desirability.** The directional-safety argument says this write cannot hurt the tree. It does not say anyone wants it. A pass labelling tests humans-required is a pass adding to the operator's personal queue without being asked — the parent opportunity already reports 53 outstanding asks and 473 tests waiting on a person, so the plausible operator reaction is not gratitude but "stop putting things on my list."
 
