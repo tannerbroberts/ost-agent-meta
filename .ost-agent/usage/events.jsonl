@@ -7219,3 +7219,12 @@
 {"ts":"2026-08-29T15:31:56.599Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-0d6d735f-eb9d-49f7-a4f9-26f640bb010c"}
 {"ts":"2026-08-29T15:31:58.562Z","tool":"ost_next_work","ok":true,"ms":396,"surface":"mcp","argBytes":2,"session":"mcp-0d6d735f-eb9d-49f7-a4f9-26f640bb010c"}
 {"ts":"2026-08-29T16:32:49.308Z","tool":"ost_ingest_inbox","ok":true,"ms":31,"surface":"mcp","argBytes":2,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:32:50.842Z","tool":"ost_next_work","ok":true,"ms":127,"surface":"mcp","argBytes":2,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:33:32.001Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:33:32.365Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:33:38.306Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:33:39.002Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:34:38.543Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":108,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:36:04.142Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:36:04.695Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
+{"ts":"2026-08-29T16:39:52.804Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":1158,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4","touched":["Does the guard catch real laundering without refusing honest commands.md"]}

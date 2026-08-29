@@ -2,6 +2,8 @@
 type: AssumptionTest
 created: '2026-07-27'
 evidence: assertion
+instrument: npx vitest run test/loop/laundering-guard-false-positives.test.ts
+sight: grounded
 ---
 #AssumptionTest #evidence/assertion
 
@@ -20,3 +22,6 @@ evidence: assertion
 **What it cannot tell anyone.** Whether the *fix* people reach for is the right one. Someone told to add `set -o pipefail` might instead drop `loop step` and run the command bare, which satisfies the guard by escaping it. That behaviour is invisible to `runs.jsonl` by construction -- the step simply never appears -- and only a human reading a firing's transcript would catch it.
 
 **Lane: compute-only** (prose, not a label; a human runs `ost-agent lane` to make it one). It reads health records this loop already writes and needs no participant.
+
+## History
+- 2026-08-29 instrument: (none) → npx vitest run test/loop/laundering-guard-false-positives.test.ts [sight: grounded] — Reads the loop's own runs.jsonl across the recorded firings, selects every `loop step` invocation the pipeline guard refused, and asserts this node's two pre-committed edges: at least 1 refusal exists (the node fixes zero refusals as a failure meaning the guard is dead weight in the hot path, not as a pass), and zero of those refusals are false positives — a refused command whose exit code could already report failure. It fails today because nothing in the suite reads runs.jsonl for guard refusals at all. Labelled honestly: test/loop/laundering-guard-false-positives.test.ts does not exist yet, so the first run files as no-spec rather than a true red; once the spec exists it can fail on either edge for a reason specific to this question, because both edges are counts over a corpus already on disk. The node's own prose already declares Lane: compute-only and names runs.jsonl as the artefact, so this gives an existing question a runnable form rather than inventing a new one.
