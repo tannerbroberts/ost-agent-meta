@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[Let the unattended surface record its own humans-required verdict]]
 
 **The need, in the operator's voice:** "The largest number on the report is work my agent is structurally unable to do, and nothing on the report says so."
 
