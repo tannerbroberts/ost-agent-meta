@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A budget that fails to reach the shim announces itself instead of silently reverting to the constant]]
 
 **Variation dimension: automated-vs-manual. Position taken: the propagation is automated; the number itself stays a thing a person writes, in the one place they already write it.**
 
