@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A verdict tool restricted to the humans-required label cannot move any test into a lane compute may run]]
 
 **Variation dimension: who-does-the-work. Position taken: the agent carries it — and only ever in one direction.**
 
