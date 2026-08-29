@@ -7228,3 +7228,4 @@
 {"ts":"2026-08-29T16:36:04.142Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
 {"ts":"2026-08-29T16:36:04.695Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4"}
 {"ts":"2026-08-29T16:39:52.804Z","tool":"ost_set_instrument","ok":true,"ms":2,"surface":"mcp","argBytes":1158,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4","touched":["Does the guard catch real laundering without refusing honest commands.md"]}
+{"ts":"2026-08-29T16:40:37.348Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3333,"session":"mcp-4af7e670-5863-4aca-a006-595e5c60b0a4","touched":["Whether a pass has repo sight is a good enough proxy for whether its instruments are grounded.md"]}
