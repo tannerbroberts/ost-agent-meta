@@ -7,6 +7,7 @@ threshold: >-
   A set of at most 6 state questions covers every captured environment failure,
   and no failure requires a seventh.
 instrument: npx vitest run test/runner/workspace-state-probe-coverage.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,3 +23,4 @@ The assumption is that a *small fixed* set of state questions covers the failure
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/runner/workspace-state-probe-coverage.test.ts` — No test files found, exiting with code 1
+- 2026-08-29 **green** (exit 0) `npx vitest run test/runner/workspace-state-probe-coverage.test.ts` — Duration  1.53s (transform 142ms, setup 0ms, collect 144ms, tests 57ms, environment 0ms, prepare 196ms)
