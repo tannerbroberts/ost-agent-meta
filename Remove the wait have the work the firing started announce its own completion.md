@@ -21,3 +21,15 @@ Concretely, the loop stops backgrounding a suite and polling for its output file
 **Sharpest risk:** feasibility — whether the loop's actual waits are mostly self-started work or mostly foreign state. That is a census over the corpus, and it is cheap.
 
 Ideated by an unattended pass on 2026-08-28 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"Census every blocked wait in the corpus and count how many had a producer the same firing started"
+
+```
+npx vitest run test/loop/wait-producer-census.test.ts
+```
+
+Note the order this candidate is gated in: the census is a **go/no-go on the candidate itself**, not a definition of done for building it. It settles whether the belief beneath this solution — that most waits are on self-started work — holds over all eight recorded sightings. If it comes back refuted, this candidate covers a minority of the catalogued cases and the two siblings are the load-bearing ones. Build the announcement mechanism after that number exists, not before.
+
+The red is a `no-spec` red, and the test node says so: the file does not exist, so it fails today for a reason any question written on that path would produce. The specific work is named there — `WaitingCase` in `src/loop/wait.ts` has no field recording who started the work, and that field is what has to be added before the assertion can even be written.
