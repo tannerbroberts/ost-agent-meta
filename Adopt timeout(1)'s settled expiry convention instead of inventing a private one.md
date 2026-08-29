@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The expiry convention can be bought on the machine the loop actually runs on]]
 
 **Variation dimension: bought-vs-built. Position taken: the expiry semantics are adopted from outside, unchanged; only the polling loop is built here.**
 
