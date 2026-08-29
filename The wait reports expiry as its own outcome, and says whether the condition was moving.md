@@ -23,3 +23,19 @@ Today `renderWaitShim` in `src/loop/wait.ts` ends `exit "$rc"` — the condition
 **Sharpest risk:** feasibility is cheap and the belief worth testing is whether the distinction can be added without breaking what reads the status.
 
 Ideated by an unattended pass on 2026-08-28 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"A never-true condition exits with the reserved expiry status while a condition failing on its own merits keeps its own"
+
+```
+npx vitest run test/loop/wait-expiry-status.test.ts
+```
+
+Two runs, and the second is the one that matters most: a condition that fails fast on its own merits must keep its own status. Without it the test is satisfied by a shim that returns the expiry status for every non-zero outcome — the same two-events-one-number collapse this candidate exists to end, pointed the other way.
+
+The breakage is known in advance rather than discovered in CI: `test/loop/wait-primitive-affordance.test.ts` asserts today that `run(["exit 3", "1", "2"])` returns `3`. That assertion is the old contract and has to be revised deliberately, with the revision recorded.
+
+Scope note: this instrument is agnostic about *which* number is reserved. Whether to borrow 124 from `timeout(1)` or choose a private status is the sibling candidate's argument, and a green here does not settle it.
+
+The red is a `no-spec` red — the named file does not exist, so it fails today for a reason not specific to this question. That is the strongest form available to a pass that may not write code: instruments are argv-only and quoted `-t` name filters against the existing spec file are refused.
