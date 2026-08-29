@@ -7203,3 +7203,5 @@
 {"ts":"2026-08-29T14:51:03.130Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":971,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
 {"ts":"2026-08-29T15:07:43.223Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3794,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
 {"ts":"2026-08-29T15:07:45.765Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T15:07:47.735Z","tool":"ost_next_work","ok":true,"ms":114,"surface":"mcp","argBytes":2,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T15:23:40.590Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-0d6d735f-eb9d-49f7-a4f9-26f640bb010c"}
