@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A published vault carries every source id and none of the evidence bodies]]
 
 **The belief, stated so it could be false.** This candidate's whole claim to being more than content marketing is that the artefact is "unusually legible — a tree with provenance, an evidence ladder, and a public history of what was refused ... a demonstration that cannot be faked by a screenshot." That requires publishing something that still *carries* the provenance. The belief is that such a form exists and is safe to post. It may not.
 
