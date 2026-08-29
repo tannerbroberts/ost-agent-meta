@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Expiry can be given its own exit status without breaking what already reads the shim's status]]
 
 **Variation dimension: automated-vs-manual. Position taken: the classification is automated; the bound stays a number a person chooses.**
 
