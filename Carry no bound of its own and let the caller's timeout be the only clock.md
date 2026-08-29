@@ -21,3 +21,17 @@ Two clocks are running and only one of them was chosen by anybody. The harness a
 **Against its siblings.** It is the cheapest to build, the only one that cannot drift back out of sync, and the only one whose failure mode is a wedged unattended firing rather than a wrong number.
 
 Unvalidated, ideated by an unattended pass on 2026-08-29 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"Census every shim invocation path and count how many arrive with a finite bound already set"
+
+```
+npx vitest run test/loop/wait-caller-bound-census.test.ts
+```
+
+Settle this before building, because a refutation retires the candidate rather than shrinking it. The threshold is zero unbounded paths, not a majority: this candidate deletes the shim's only clock, and one unbounded call site is enough to produce the wedged unattended firing that `DEFAULT_FOR_SECONDS`'s own docstring says the bound exists to prevent. An average cannot rescue a firing that hung overnight.
+
+Both sources matter. The corpus covers tool calls, where a `timeout` field is usually present; `examples/automation/build-pass.sh` puts the shim on `PATH`, and a script invocation runs under no harness clock at all.
+
+The red is a `no-spec` red — the file does not exist. The data is also not being kept: `corpusCommands()` returns `{session, command}` and drops the timeout, and `WaitingCase` has no field for it. Stopping that discard is the first build step.
