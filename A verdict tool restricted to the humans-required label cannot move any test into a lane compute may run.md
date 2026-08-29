@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Every label the humans-required tool can write resolves to a lane compute may not run]]
 
 **Kind: feasibility.** The whole safety argument for putting this verdict on the unattended surface is directional — the tool can only ever shrink what compute may run, so an agent using it costs itself work rather than clearing its own gate. That argument is a claim about code, and it could be false in a way nobody would notice: if the write path can reach any lane whose `computeMayRun` is true, or if an unrecognised label is ever read as runnable, the one-way property is gone and the grant becomes the self-permit it was designed not to be.
 
