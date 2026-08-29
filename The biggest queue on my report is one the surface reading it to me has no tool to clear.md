@@ -52,3 +52,52 @@ This node closed with "A census is cheap and nobody has run one." One is now run
 **Not acted on.** No lane was set, no entry was disposed, and the count will read 65 again next firing. Three of the twelve examined entries were annotated this pass so they are not re-derived a third time; the thirteen title-classified ones were not annotated, because a note asserting a verdict this pass reached without reading the node would be the exact unaudited dismissal the ledger's docstring warns about.
 
 _First-party to this firing: the classification is this pass's own reading of the response and of five node bodies. Observed behaviour of the tool surface; grounds usability, not demand. No test was run, no result recorded, and this node's rung is unchanged._
+
+## The census at 100%, and the bound that said it was impossible (unattended firing, 2026-08-29)
+
+The section above closed with a bound: `ost_next_work` caps `solutionsMissingInstruments` at 25 of 65, so **"the other 40 are not reachable from this surface at all"** and "reading them is a human's move." **That bound is false, and this pass measured the whole set.** It is worth correcting precisely because it was stated as a property of the surface rather than of the tool — the cap is real, but the cap is not the only way to reach the data.
+
+**The method, so it can be checked or disputed.** The vault's node files are on disk and this surface has ordinary filesystem read. Three greps over `*.md` frontmatter and one sequential diff:
+
+- `^type: AssumptionTest` — **477** files.
+- `^instrument:` — **355** files.
+- `^lane: humans-required` — **54** files.
+
+Both file lists come back in the same order, so the second is a subsequence of the first and the diff is mechanical rather than judged. It resolves exactly: 477 − 355 = **122** tests carry no instrument, and 54 + 68 = 122. No tool cap applies, because no tool was asked.
+
+**The result: the bucket is two populations, and one of them is already labelled.**
+
+| | Count | What it is |
+|---|---|---|
+| Tests with an instrument | 355 | Finished, whatever their verdict |
+| No instrument, `lane: humans-required` | **54** | Already labelled. A person is already named as the measurement |
+| No instrument, no lane | **68** | The genuinely unlabelled set |
+| Total tests | 477 | |
+
+**The defect this exposes, verified rather than inferred.** The 54 lane-labelled tests **still populate `solutionsMissingInstruments`**. Checked end-to-end on two entries from the visible 25, following Solution → Assumption → AssumptionTest in full:
+
+- "A human-edited manifest of loop-prescribed call sequences the harvester suppresses" → "The founder will keep a manifest of prescribed call sequences current as the loop's steps change" → "Count how many recurring-input artifacts the founder has actually kept current, before asking for another" — `lane: humans-required`.
+- "An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target" → "An operator who must move the window by hand will actually move it more than once" → "Count how many times the operator amends discovery.target over eight weeks of git history" — `lane: humans-required`.
+
+Two of two. Each solution has exactly one assumption carrying exactly one test, and that test is already labelled. **So the label that exists specifically to take work off compute's reach does not take it off this bucket.** That is not a reporting preference — it is the same fact counted twice, and it is why a pass can read an entry, find it deliberate, label it correctly, and still be handed it again. The evidence channel has already recorded the cost of the loop rediscovering this: `TRANSCRIPT:14f184b4-6ca1-41d3-bf1f-b9e036b2a1a0` holds three consecutive `ost_set_instrument` refusals on one humans-required test, two of them bad-instrument attempts before the lane refusal landed.
+
+**The 68 unlabelled, sampled five and read in full. None was instrumentable, and they split two ways.**
+
+*Already answered — an instrument would be green on arrival and is correctly refusable:*
+
+- "Sweep both vault histories for writes that landed as undefined or empty" — run 2026-07-27, 306 entries classified, threshold not crossed, consequence shipped in v0.18.0 as a tripwire.
+- "Do the shipped sweeps actually find a planted instance" — run 2026-07-27, 12 plants, 12 found, and it **left a permanent spec behind**: `test/eval/planted-instance.test.ts`, shipped v0.20.0.
+- "Test can a full pass be done with no delete or edit tool" — settled by events against its own threshold once `ost_edit_node` / `ost_merge_nodes` / `ost_detach_nodes` shipped. Its own 2026-08-05 note already says a spec written now "could not go red honestly."
+
+*Genuinely humans-required and merely unlabelled — a person is the measurement and no lane says so:*
+
+- "Backdated half-life comparison for staleness flags" — the test requires a human to mark a stale list by hand **before** seeing any setting's output.
+- "Judge the eighteen reopened items — were they genuinely finished" — its own body says why: "Asking compute to grade it would be asking the disputed rule to referee its own dispute."
+
+**What this changes about the parent question.** The node above concluded the bucket is "at least four queues with different owners." The census sharpens that in the direction that matters for a fix: the largest single correction available is not a new mechanism but **subtracting work that is already dispositioned** — 54 entries carry the label today and are reported anyway. A split that honoured the existing lane field would shrink the reported figure without anybody judging anything, and the sibling "The split reports defaulted-parked apart from labelled-parked, rather than folding both into one number" already carries an instrument for exactly that distinction.
+
+**The concrete move for the operator, because it is small and this surface cannot make it.** `ost_flag_humans_required` is withheld here, so the two unlabelled tests named above need `ost-agent lane --set`. That is two commands, and it moves two entries from the unlabelled 68 into the already-labelled 54 where they belong.
+
+**What this does not settle, stated so it is not over-read.** The 68 were classified by reading **five** of them, chosen for sounding mechanically answerable — the same bias the earlier sample declared, and it again found nothing instrumentable. The other 63 are classified by nothing and are not classified here. The 122/54/68 split is a count of frontmatter fields and is exact; the *kinds* underneath the 68 are a five-record sample and are not. No test was run, no result recorded, no lane set, and no rung moved.
+
+_First-party to this firing: three greps over the vault's own files, one sequential diff, and seven node bodies read in full. Observed behaviour of files on disk. `ost_check` is withheld on this surface, so these writes are unverified by the invariant checker by design._
