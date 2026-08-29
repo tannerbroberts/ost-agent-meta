@@ -199,3 +199,18 @@ Occurrences / distinct sessions. Row 1's components split as `File has not been 
 **No new shape. No seventh row.** The six rows above still cover every record read this pass.
 
 **Not acted on.** Nothing was disposed; the backlog still stands at zero live dispositions and `dispose` remains a human's CLI command by design, so this firing had no more ability to drain it than the twenty-odd before it. The unblocking move named in the Issues above is unchanged: one operator, one id, once.
+
+## Trend row — 2026-08-29 (third firing): 453 (+5 since the 448 row)
+
+Kept to a row, per this node's standing instruction. The appending-versus-inserting question the 448 row raised is still open and is **not** restated here; this row follows the same precedent for the same reason, and one unanswered ask is enough.
+
+**The figures.** Unmapped 448 → **453**. Two records arrived during this firing's own ingest and both were read in full; both land in known rows and neither is a new shape.
+
+- `TRANSCRIPT:5c93e6e2-2f20-4fef-b918-e6a5d8ce4b99` — row 2 (`Glob` denied on `/Users/tanner/dev/OST-Agent`) plus row 4 (`retry` ×2 across `ost_ingest_inbox` / `ost_next_work`). Also a **sixth** instance of the within-session grant split: that firing's `Glob` was refused, and this firing's `ost_read_repo` served repo root, `src/`, `test/`, `test/eval/`, `scripts/` and the full text of `test/eval/unfixed-thresholds.test.ts` on first call.
+- `TRANSCRIPT:d848539e-fc27-4be1-840b-ff8c515b2e88` — row 1 (`File has not been read yet`, plus the `retry` of the same `Write`) and a `Tests 3 failed | 9 passed` Bash exit 1, the shape held by "A test that failed because the machine was busy looks exactly like one that failed because I broke something".
+
+**No new shape. No seventh row.** The six rows above still cover every record read this pass.
+
+**One cross-reference, because it bears on row 2 and belongs to the node that owns that census rather than to this one.** Row 2 is described above as "the fastest-growing shape in the corpus", on the strength of its cumulative rise. Re-counted this pass and normalised against a denominator that grew at the same time, that reading does not hold up: 23 of the 36 records added between 08-22 and 08-28 carried a path denial (64%), against 7 of the 42 added since (17%). The cumulative share is essentially flat — 18.8% → 22.5% → 22.0%. The full working, and the correction it forces on the "accelerating" reading, is recorded once on "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time", which owns that series. Noted here in one paragraph so a reader of this table is not left with the superseded reading, and not re-derived.
+
+**Not acted on.** Nothing was disposed. The backlog still stands at zero live dispositions and `dispose` remains a human's CLI command by design, so this firing had no more ability to drain it than its predecessors. The unblocking move named in the Issues above is unchanged: one operator, one id, once.
