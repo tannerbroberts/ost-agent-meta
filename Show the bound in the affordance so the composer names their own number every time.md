@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A bound can be spelled into the affordance in fewer characters than the margin it has to fit inside]]
 
 **Variation dimension: who-does-the-work. Position taken: the person. The composer carries the bound, and the product's job is to stop hiding the place it goes.**
 
