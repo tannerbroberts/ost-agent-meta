@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A vault of notes carrying no type frontmatter reads as totally blind, not as a clean check]]
 
 **The belief, stated so it could be false.** The whole pitch above is "point the tool at the vault they already have and let it run the checks." That presupposes the checks *reach* a vault this tool did not author. If they cannot, the candidate does not merely underperform — it ships a grader that tells every hand-builder their tree is perfect, which is worse for them than no grader at all.
 
