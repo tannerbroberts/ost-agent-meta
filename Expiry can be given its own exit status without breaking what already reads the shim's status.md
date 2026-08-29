@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A never-true condition exits with the reserved expiry status while a condition failing on its own merits keeps its own]]
 
 **Kind: feasibility.**
 
