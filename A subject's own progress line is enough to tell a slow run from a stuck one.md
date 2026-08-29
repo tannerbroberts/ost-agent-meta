@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Replay the recorded expiries and check whether last-line age would have separated the slow runs from the stuck ones]]
 
 **Risk category: feasibility.**
 
