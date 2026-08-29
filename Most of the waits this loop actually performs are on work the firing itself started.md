@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Census every blocked wait in the corpus and count how many had a producer the same firing started]]
 
 **Risk category: feasibility** — specifically, whether the candidate's coverage is large enough to be worth building at all.
 
