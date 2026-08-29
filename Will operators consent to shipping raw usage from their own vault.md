@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/telemetry/export-requires-consent.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #desirability #evidence/assertion
 
@@ -24,3 +25,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/telemetry/export-requires-consent.test.ts` — No test files found, exiting with code 1
+- 2026-08-29 **green** (exit 0) `npx vitest run test/telemetry/export-requires-consent.test.ts` — Duration  592ms (transform 223ms, setup 0ms, collect 356ms, tests 21ms, environment 0ms, prepare 41ms)
