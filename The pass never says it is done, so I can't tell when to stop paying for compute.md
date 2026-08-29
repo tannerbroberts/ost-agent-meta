@@ -17,6 +17,7 @@ authorship: machine
 [[Work I already finished keeps coming back in the queue, so the pass can never say it is done]]
 [[Near-identical evidence can only be discharged by giving each copy its own node]]
 [[Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25]]
+[[The biggest queue on my report is one the surface reading it to me has no tool to clear]]
 
 **Customer need (operator's perspective):** "Set-it-and-forget-it means I need to know when forgetting it is still buying me something. Right now it never finishes, and I can't tell the difference between working and idling."
 
