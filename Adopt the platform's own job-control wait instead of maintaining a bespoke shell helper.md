@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The platform's own waiting forms are actually accepted on the unattended surface, where the bespoke helper was written to get around them]]
 
 **Variation dimension: bought-vs-built. Position taken: adopted from outside, as-is; nothing built here.**
 
