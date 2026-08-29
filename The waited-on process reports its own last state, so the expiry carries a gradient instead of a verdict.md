@@ -21,3 +21,13 @@ The waiter stops trying to infer anything. Instead the long-running command is s
 **Where the mechanism would live is an open question.** The `await` helper is on the session's PATH, supplied by the harness, not in this repository. No spec in this product's `test/` can reach it, so this candidate has no instrument for the same structural reason its neighbours in `solutionsMissingInstruments` do not.
 
 Unvalidated. Agent-ideated on 2026-08-29; a human to review.
+
+## Definition of done — and it is not a command
+
+"Replay the recorded expiries and check whether last-line age would have separated the slow runs from the stuck ones"
+
+There is deliberately no instrument. The bar is: at least 8 of 10 replayed expiries classified correctly by last-line age alone. Settling it needs a person to read past each expiry in their own session history and label what the subject actually did next — ground truth that is not in this repository, against a helper that is not in it either.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**Sequencing:** this is the most expensive of the three candidates, needing a change at every call site that starts a long job. Run the replay before building any of it — it is a paper exercise over sessions that already happened and it can kill the candidate for the price of ten minutes.
