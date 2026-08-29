@@ -21,3 +21,6 @@ authorship: machine
 **Why it fails today, stated honestly.** `test/evidence/dispose-solution-instrument-bucket.test.ts` does not exist, so this run is filed `no-spec` and mints no permit — the same weak red as its siblings this pass, for the same reason: authoring a spec file is outside what this surface can do. The named template file, the four assertions and the exported functions (`appendDisposition`, `omitDisposed`, `computeNextWork`) are what let the builder write an assertion rather than reconstruct the question.
 
 **What a green would NOT settle, and it is the larger half.** That anyone will ever file such a disposition. `dispose` is a human's CLI command by design and this vault holds zero live dispositions while its evidence queue has been drainable by that exact route for weeks. This test proves the wiring; the operator's willingness to use it is untested and untestable here.
+
+## Instrument Log
+- 2026-08-29 **no-spec** (exit none) `npx vitest run test/evidence/dispose-solution-instrument-bucket.test.ts` — test/evidence/dispose-solution-instrument-bucket.test.ts does not exist — no spec was collected, so nothing was measured
