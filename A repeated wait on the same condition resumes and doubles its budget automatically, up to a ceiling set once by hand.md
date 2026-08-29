@@ -25,3 +25,13 @@ What stays manual is the ceiling, because it is the only part that encodes a jud
 **No instrument.** The helper is on the session's PATH and supplied by the harness, not in this repository, so no spec in this product's `test/` can reach it.
 
 Unvalidated. Agent-ideated on 2026-08-29; a human to review.
+
+## Definition of done — and it is not a command
+
+"Count the recorded expiries that later succeeded against those whose condition could never have become true"
+
+There is deliberately no instrument. The bar is: at least 2 of every 3 expiries were genuinely slow rather than never-true. A never-true condition and a slow one produce byte-identical expiry lines, so no exit code can separate them — the classification is the judgement, and the corpus is the operator's own transcripts.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**Sequencing:** run the count before building. This candidate is the only one of the three that can make things actively worse if its direction is wrong, and the corpus needed to check the direction already exists.
