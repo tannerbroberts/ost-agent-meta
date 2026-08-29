@@ -21,3 +21,15 @@ authorship: machine
 **A second reason the split may be unavailable today.** It reads a lane label that most tests do not carry. The sweep already reports 473 tests in `needsHumans` against 0 `runnable`, which is `CAUTIOUS_LANE` doing its job on unlabelled tests rather than 473 considered verdicts — so the two columns would initially read "0 actionable, 65 parked" and overstate how much has been decided. Saying so on the report is part of this candidate, not an objection to it.
 
 ⚠️ Unvalidated, agent-ideated. No operator has said two counts would change how they budget.
+
+## Definition of done
+
+"The split reports defaulted-parked apart from labelled-parked, rather than folding both into one number"
+
+```
+npx vitest run test/mcp/instrument-bucket-split.test.ts
+```
+
+The spec does not exist yet, so this is `no-spec` today rather than assertion-red. The test node names the fixture: three solutions with prose-only tests — one lane `humans-required`, one lane `compute-only`, one with no lane — and asserts three figures come back, with the unlabelled solution landing in defaulted-parked rather than labelled-parked.
+
+Note the title says *two counts* and the definition of done demands *three*. That is not a slip: the assumption beneath this solution is that the stored lane field distinguishes a considered verdict from `CAUTIOUS_LANE` defaulting, and this vault's own 473-needsHumans-against-0-runnable figure says it does not. A two-column build would go green on a two-column spec and reproduce the misreading this solution exists to prevent, so the third figure is the bar.
