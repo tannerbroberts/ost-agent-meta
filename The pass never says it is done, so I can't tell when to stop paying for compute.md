@@ -6,6 +6,7 @@ source: >-
   RUNTIME:tetrix-ost@2328e61
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Work my own governance has already gated still shows as outstanding every pass]]
@@ -92,3 +93,24 @@ The second is that the counter overstates the work. Of the 18 records captured i
 The third is the cost question this node is actually about. Compute spent re-reading self-generated friction that corroborates a need already on the tree buys corroboration, and corroboration has sharply diminishing returns: the sixth recording of `ost_flag_humans_required` being denied changes no decision the first five did not already support.
 
 Provenance: this pass, 2026-08-06, first-party. Not an ingested record — citing an id for a session that has not ended is the fault flagged on four other nodes in this vault this morning.
+
+## A fifth mechanism, on a different bucket: `solutionsMissingInstruments` has a floor it cannot go below (unattended firing, 2026-08-28)
+
+The four mechanisms above all concern `unmappedEvidence`. This one concerns the instruments bucket, and it matters separately because the remedy is different and because that bucket is the one the firing prompt weights most heavily.
+
+**What was measured.** `ost_next_work` reported 64 solutions "whose tests are prose only", capped to 25 shown. This pass read 8 of the 25 in full. **Eight of eight were legitimately un-instrumentable, and seven already carried a prior pass's written reasoning saying so.** They fall into four kinds, none of which a spec can reach:
+
+- *The belief is about a person.* "A highlight criteria note the founder edits…" and "A human-edited manifest of loop-prescribed call sequences…" both rest on whether the founder maintains a recurring-input artifact. "Axioms elicited at the moment a derivation needs them…" rests on whether asks arrive rarely enough to be answered. No exit code settles any of them.
+- *The artifact is not in this repository.* The Monitor candidates and "Auto-read a file before the first write or edit…" are about the harness's own tool surface. No spec in `test/` can reach it — a point "Maintain a running per-item task list…" already records verbatim.
+- *A sibling's test already owns the mechanical half.* "Ship the helper with its own runtime…" says so explicitly and names the sibling's harvester.
+- *An instrument would be a false red.* "Append-only tool surface with no delete or shell tool" is the sharp case: a spec asserting "no delete tool exists" would go red today and a builder could act on it — removing `ost_merge_nodes`, a feature added deliberately. That node records seven passes declining on exactly this reasoning.
+
+**Why the counter cannot drop.** The tool that would move the human-only ones off the list is `ost_flag_humans_required`, and it is withheld from the unattended surface by design. Four of the eight nodes say so in their own prose and name the human's remedy, `ost-agent lane --set`. So a well-behaved unattended pass can neither instrument these nor relabel them: the only two moves that would clear the count are both off this surface. The number is a floor, not a queue.
+
+**Why this is not mechanism #2 restated.** The 2026-07-25 finding was that `underservedOpportunities` re-demands solutions under governance-gated opportunities. Same shape — a counter that cannot read why work is deliberately not being done — but a different bucket with a different fix: that one needs the counter to read a gate recorded *on the node*, this one needs it to read a lane recorded *on the test beneath the solution*, which already exists as a field. `assumptionWork.needsHumans` reported 464 entries this pass, so the lane data is there and populated; the instruments bucket simply does not consult it. That makes this the cheapest of the five to close.
+
+**The honest reading of the number, for whoever consumes the report.** "64 solutions cannot reach a builder" invites the conclusion that 64 pieces of work are waiting. On this sample the truer statement is that some smaller number are waiting and the rest are correctly parked — and nothing in the response distinguishes them, so each firing re-reads nodes to rediscover which is which. This pass spent most of its budget doing exactly that, which is the compute cost this opportunity exists to name.
+
+**What this does not establish.** Eight of sixty-four is a sample, not a census, and it is drawn only from the 25 the cap made visible — the same alphabetical-head problem "Most of my backlog has never been read once…" records beside this node. The 39 hidden entries were not examined and may contain genuine work. A census would settle the share and none was run.
+
+_First-party to this firing: the `ost_next_work` response and eight `ost_read_tree` node reads. Observed behaviour of this product's own surface; it grounds usability, not desirability. No test was run and no result is recorded._
