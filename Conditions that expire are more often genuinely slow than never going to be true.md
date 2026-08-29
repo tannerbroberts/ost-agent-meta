@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count the recorded expiries that later succeeded against those whose condition could never have become true]]
 
 **Risk category: viability.**
 
