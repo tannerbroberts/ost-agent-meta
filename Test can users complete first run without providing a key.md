@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-22-agent-as-driver.md'
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/cli/first-run-without-key.test.ts
+authorship: machine
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -27,3 +28,4 @@ Worth separating before anyone runs it, because the test currently conflates two
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/cli/first-run-without-key.test.ts` — No test files found, exiting with code 1
+- 2026-08-29 **green** (exit 0) `npx vitest run test/cli/first-run-without-key.test.ts` — ost-agent mcp serving /var/folders/ww/d7lzs9px0dd20wp7h1207mrc0000gn/T/ost-keyless-ZeG1Sl/vault over stdio. Tools: ost_read_tree, ost_next_work, ost_create_node, ost_append_to_node, ost_link_nodes, os
