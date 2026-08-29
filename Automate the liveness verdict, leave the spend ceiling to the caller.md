@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Liveness is decidable for the kinds of jobs this loop actually backgrounds, not just for a local child process]]
 
 **Variation dimension: automated-vs-manual. Position taken: the verdict is automated, the budget stays manual.**
 
