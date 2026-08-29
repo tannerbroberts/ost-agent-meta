@@ -7,6 +7,7 @@ threshold: >-
   Keeps at least four of the five records judged to carry a product need, and
   drops at least twenty of the twenty-four judged not to.
 instrument: npx vitest run test/telemetry/friction-surface-rule.test.ts
+authorship: machine
 ---
 #AssumptionTest #feasibility #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ Retrospective, no build required — the records and the judgement both already 
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/friction-surface-rule.test.ts` — No test files found, exiting with code 1
+- 2026-08-29 **green** (exit 0) `npx vitest run test/telemetry/friction-surface-rule.test.ts` — Duration  257ms (transform 34ms, setup 0ms, collect 37ms, tests 4ms, environment 0ms, prepare 26ms)
