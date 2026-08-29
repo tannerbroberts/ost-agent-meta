@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A closed solution-kind disposition takes a solution off the instrument bucket and is disclosed on the response that withheld it]]
 
 **Variation dimension: bought-vs-built. Position taken: adopt what already ships, unchanged, and build nothing new.**
 
