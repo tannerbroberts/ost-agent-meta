@@ -7322,3 +7322,7 @@
 {"ts":"2026-08-29T20:03:58.668Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
 {"ts":"2026-08-29T20:04:56.815Z","tool":"ost_read_tree","ok":true,"ms":94,"surface":"mcp","argBytes":78,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
 {"ts":"2026-08-29T20:05:13.844Z","tool":"ost_create_node","ok":true,"ms":133,"surface":"mcp","argBytes":3507,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea","wrote":["A wait that gave up tells me nothing about whether waiting longer would have worked.md"],"touched":["A wait that gave up tells me nothing about whether waiting longer would have worked.md","I can't leave the process running unattended without worrying.md"]}
+{"ts":"2026-08-29T20:05:18.726Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:05:18.830Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":25,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:05:24.648Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":56,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:06:01.706Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3573,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea","touched":["An unmapped item ages out of the queue into a standing backlog line.md"]}
