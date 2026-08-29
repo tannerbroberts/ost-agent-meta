@@ -6,6 +6,7 @@ evidence: observed
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
+[[The waited-on process reports its own last state, so the expiry carries a gradient instead of a verdict]]
 
 **The need, from the running agent's side:** "My wait gave up. I cannot tell from that whether the thing I was waiting for was one second away or would never finish, so the only move I have is to wait again — and I did, four times, unattended, for nothing."
 
