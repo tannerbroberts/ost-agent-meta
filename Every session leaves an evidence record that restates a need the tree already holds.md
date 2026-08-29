@@ -214,3 +214,16 @@ Kept to a row, per this node's standing instruction. The appending-versus-insert
 **One cross-reference, because it bears on row 2 and belongs to the node that owns that census rather than to this one.** Row 2 is described above as "the fastest-growing shape in the corpus", on the strength of its cumulative rise. Re-counted this pass and normalised against a denominator that grew at the same time, that reading does not hold up: 23 of the 36 records added between 08-22 and 08-28 carried a path denial (64%), against 7 of the 42 added since (17%). The cumulative share is essentially flat — 18.8% → 22.5% → 22.0%. The full working, and the correction it forces on the "accelerating" reading, is recorded once on "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time", which owns that series. Noted here in one paragraph so a reader of this table is not left with the superseded reading, and not re-derived.
 
 **Not acted on.** Nothing was disposed. The backlog still stands at zero live dispositions and `dispose` remains a human's CLI command by design, so this firing had no more ability to drain it than its predecessors. The unblocking move named in the Issues above is unchanged: one operator, one id, once.
+
+## Trend row — 2026-08-29 (fourth firing): 455 (+2 since the 453 row)
+
+Kept to a row, per this node's standing instruction. The appending-versus-inserting question raised on the 448 row is still open and is deliberately **not** restated here; this row follows the same precedent for the same reason.
+
+**The figures.** Unmapped 453 → **455**. Both new records arrived during this firing's own ingest and both were read in full. Both land in known rows; neither is a new shape.
+
+- `TRANSCRIPT:aedce05b-85db-4d8c-b4d1-cd14c4821a37` — row 4, and in its purest form: 2 friction events, both `retry`, both no-argument (`ost_ingest_inbox`, `ost_next_work`). No `tool_error` at all. Signal-to-noise 0 of 2 — a third instance of the well-behaved-firing-manufactures-its-own-record shape recorded on "A human-edited manifest of loop-prescribed call sequences the harvester suppresses".
+- `TRANSCRIPT:c91baa0f-c57b-457b-be78-fe67ace0e1f2` — row 1 (`File has not been read yet` ×3 across Edit and Write, plus the `retry` of the same Edit and Write), and a path guess (`ls: test/cli/first-run-without-key.test.ts: No such file or directory`, homed on "The agent has to guess what resources it's actually working with").
+
+**No new shape. No seventh row.** The six rows above still cover every record read this pass.
+
+**Not acted on.** Nothing was disposed. The backlog still stands at zero live dispositions and `dispose` remains a human's CLI command by design, so this firing had no more ability to drain it than its predecessors. The unblocking move named in the Issues above is unchanged: one operator, one id, once.
