@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 threshold: Fewer than 2 narrowings per month on average.
 instrument: npx vitest run test/security/gate-coverage-human-only.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/security/gate-coverage-human-only.test.ts` — No test files found, exiting with code 1
+- 2026-08-29 **green** (exit 0) `npx vitest run test/security/gate-coverage-human-only.test.ts` — Duration  1.31s (transform 464ms, setup 0ms, collect 745ms, tests 231ms, environment 0ms, prepare 54ms)
