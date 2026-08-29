@@ -23,3 +23,17 @@ It also gives up mid-flight visibility. A polling loop that greps a log can repo
 **What would make this the wrong pick.** If most of what this loop actually waits on is *not* harness-tracked — and the observed session was waiting on a vitest suite writing to `/tmp`, which is exactly that case — then the removed slice is the small one and this candidate is a distraction from the remainder. That is a countable fact about this vault's own firings and nobody has counted it. It is the first thing to check before building anything here.
 
 Unvalidated, and ideated by an unattended pass. Not blind: this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author, which is the condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"Classify every waiting case in the corrections corpus by whether its target was harness-tracked"
+
+```
+npx vitest run test/loop/wait-target-census.test.ts
+```
+
+The bar is at least 50% of classified waiting cases targeting harness-tracked work, pre-committed on the test node before any run. That spec does not exist yet, so the command is currently a `no-spec` red rather than an assertion red — disclosed on the test node along with the corpus to read (`test/fixtures/corrections/<session>*.jsonl`), the two buckets, and the field `WAITING_CASES` is missing. Not finished until the spec exists and fails on its assertion.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**Settle this one first, and be prepared for it to retire this candidate.** The four waiting cases already visible — the observed vitest-suite session plus the three in `src/loop/wait.ts`, whose intents are a `gh` CI poll, a directory listing and a git-status condition — all look self-backgrounded rather than harness-tracked. If the census confirms that, this candidate is a distraction from the remainder and the liveness sibling is the branch's real work. A cheap refutation that redirects the branch is worth more here than a confirmation would be.
