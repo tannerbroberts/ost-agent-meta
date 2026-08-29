@@ -8,6 +8,7 @@ authorship: machine
 #Opportunity #unvalidated #evidence/observed
 [[Remove the wait have the work the firing started announce its own completion]]
 [[The wait reports expiry as its own outcome, and says whether the condition was moving]]
+[[Adopt timeout(1)'s settled expiry convention instead of inventing a private one]]
 
 **The need (operator's voice):** "My unattended run waited, gave up, and told me the same thing it would have told me if the thing I was waiting for were never going to happen. So it waited again. Twenty minutes of a firing I am paying for went into learning nothing."
 
