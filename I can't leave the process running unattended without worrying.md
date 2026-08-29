@@ -20,6 +20,7 @@ evidence: assertion
 [[The build loop re-selects a solution I already marked deferred and re-derives the same disproven result]]
 [[A probe I write outside the repo can't import the repo's modules, and only running it says so]]
 [[A command stops to ask a yes no question and the unattended run has nobody to answer it]]
+[[My bounded wait gives up before the job it is watching finishes, so the run stalls on work that was still healthy]]
 
 **The need (customer's voice):** "If I hand a goal and some compute to an autonomous agent and walk away, I need to come back to a system that is still running and still pointed at the same goal — and if I stop it or it crashes mid-step, I need to be able to start it again without wondering what got half-written."
 

@@ -6999,3 +6999,22 @@
 {"ts":"2026-08-28T23:46:39.704Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-63fb1c4d-e372-4d35-950d-1f7a0207588f"}
 {"ts":"2026-08-28T23:46:42.589Z","tool":"ost_next_work","ok":true,"ms":105,"surface":"mcp","argBytes":78,"session":"mcp-63fb1c4d-e372-4d35-950d-1f7a0207588f"}
 {"ts":"2026-08-29T00:47:35.245Z","tool":"ost_ingest_inbox","ok":true,"ms":27,"surface":"mcp","argBytes":2,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:47:36.751Z","tool":"ost_next_work","ok":true,"ms":191,"surface":"mcp","argBytes":2,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:47:49.332Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":108,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:47:49.493Z","tool":"ost_next_work","ok":true,"ms":83,"surface":"mcp","argBytes":62,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:48:18.679Z","tool":"ost_next_work","ok":true,"ms":80,"surface":"mcp","argBytes":62,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:48:22.091Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:48:22.180Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:48:42.084Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:48:42.161Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:02.401Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":21,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:02.481Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:04.690Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":31,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:10.859Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":100,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:10.997Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":103,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:44.119Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":119,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:44.258Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":75,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:57.277Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":108,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:49:57.415Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":72,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:50:02.065Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":114,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d"}
+{"ts":"2026-08-29T00:50:46.452Z","tool":"ost_create_node","ok":true,"ms":81,"surface":"mcp","argBytes":4313,"session":"mcp-8f8d22eb-c2f9-4381-837f-f8d3fe47785d","wrote":["My bounded wait gives up before the job it is watching finishes, so the run stalls on work that was still healthy.md"],"touched":["My bounded wait gives up before the job it is watching finishes, so the run stalls on work that was still healthy.md","I can't leave the process running unattended without worrying.md"]}
