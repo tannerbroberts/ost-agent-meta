@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Probe whether the borrowed expiry utility resolves on the machine the loop runs on]]
 
 **Kind: feasibility.**
 
