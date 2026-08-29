@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The split reports defaulted-parked apart from labelled-parked, rather than folding both into one number]]
 
 **Kind: feasibility, with a usability failure hiding inside it.** The candidate's appeal is that it adjudicates nothing — it just reads the `lane` field already on each test through `computeMayRun` and reports two numbers instead of one. That is only honest if the field actually distinguishes a considered verdict from an unlabelled default.
 
