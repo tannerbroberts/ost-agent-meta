@@ -7188,3 +7188,12 @@
 {"ts":"2026-08-29T13:34:21.201Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1096,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c","touched":["Let the unattended surface record its own humans-required verdict.md"]}
 {"ts":"2026-08-29T13:34:26.835Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1133,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c","touched":["Report the instrument bucket as two counts, automating the split and not the verdict.md"]}
 {"ts":"2026-08-29T13:34:30.380Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1081,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c","touched":["Point the shipped disposition ledger at the instrument bucket rather than building a second parking mechanism.md"]}
+{"ts":"2026-08-29T13:50:59.119Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":105,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T13:50:59.299Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":100,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T13:51:15.237Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":81,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T13:51:15.419Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":103,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T14:06:38.376Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":97,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T14:06:38.548Z","tool":"ost_read_tree","ok":true,"ms":91,"surface":"mcp","argBytes":77,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T14:07:07.999Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":89,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T14:07:08.168Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":100,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
+{"ts":"2026-08-29T14:07:26.433Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1443,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c","touched":["A highlight criteria note the founder edits and the loop reads before deciding what to surface.md"]}
