@@ -22,6 +22,7 @@ evidence: assertion
 [[A command stops to ask a yes no question and the unattended run has nobody to answer it]]
 [[My bounded wait gives up before the job it is watching finishes, so the run stalls on work that was still healthy]]
 [[The wait stops at its own default while the call I made still had time left]]
+[[A wait that gave up tells me nothing about whether waiting longer would have worked]]
 
 **The need (customer's voice):** "If I hand a goal and some compute to an autonomous agent and walk away, I need to come back to a system that is still running and still pointed at the same goal — and if I stop it or it crashes mid-step, I need to be able to start it again without wondering what got half-written."
 

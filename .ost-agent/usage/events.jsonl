@@ -7305,3 +7305,20 @@
 {"ts":"2026-08-29T19:00:23.062Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-cba00d01-4763-41f3-9d77-cc48df2d8e69"}
 {"ts":"2026-08-29T19:00:24.568Z","tool":"ost_next_work","ok":true,"ms":309,"surface":"mcp","argBytes":2,"session":"mcp-cba00d01-4763-41f3-9d77-cc48df2d8e69"}
 {"ts":"2026-08-29T20:01:27.937Z","tool":"ost_ingest_inbox","ok":true,"ms":34,"surface":"mcp","argBytes":2,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:01:29.566Z","tool":"ost_next_work","ok":true,"ms":232,"surface":"mcp","argBytes":2,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:01:52.245Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":108,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:01:52.550Z","tool":"ost_next_work","ok":true,"ms":85,"surface":"mcp","argBytes":62,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:02:06.050Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:02:18.835Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":2,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:02:55.805Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:02:59.193Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:02:59.298Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":14,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:03:02.757Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":22,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:03:02.858Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":21,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:03:08.029Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:03:48.447Z","tool":"ost_read_tree","ok":true,"ms":141,"surface":"mcp","argBytes":67,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:03:48.686Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":103,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:03:58.430Z","tool":"ost_next_work","ok":true,"ms":142,"surface":"mcp","argBytes":62,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:03:58.668Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:04:56.815Z","tool":"ost_read_tree","ok":true,"ms":94,"surface":"mcp","argBytes":78,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:05:13.844Z","tool":"ost_create_node","ok":true,"ms":133,"surface":"mcp","argBytes":3507,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea","wrote":["A wait that gave up tells me nothing about whether waiting longer would have worked.md"],"touched":["A wait that gave up tells me nothing about whether waiting longer would have worked.md","I can't leave the process running unattended without worrying.md"]}
