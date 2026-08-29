@@ -7197,3 +7197,4 @@
 {"ts":"2026-08-29T14:07:07.999Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":89,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
 {"ts":"2026-08-29T14:07:08.168Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":100,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c"}
 {"ts":"2026-08-29T14:07:26.433Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1443,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c","touched":["A highlight criteria note the founder edits and the loop reads before deciding what to surface.md"]}
+{"ts":"2026-08-29T14:17:03.793Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1641,"session":"mcp-bafee4e8-3acf-4028-906a-5b59a28b083c","touched":["Monitor states its accepted command grammar up front rather than discovered by refusal.md"]}
