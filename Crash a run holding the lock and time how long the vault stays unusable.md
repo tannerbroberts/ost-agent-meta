@@ -7,6 +7,7 @@ threshold: >-
   Recovery within 15 minutes in every scenario, and 0 cases of releasing a live
   lock.
 instrument: npx vitest run test/git/stale-lock-recovery.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that stale locks can be recovered safely. Every recovery polic
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/git/stale-lock-recovery.test.ts` — No test files found, exiting with code 1
+- 2026-08-29 **green** (exit 0) `npx vitest run test/git/stale-lock-recovery.test.ts` — Duration  18.29s (transform 56ms, setup 0ms, collect 59ms, tests 17.88s, environment 0ms, prepare 67ms)
