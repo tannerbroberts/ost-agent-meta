@@ -6,6 +6,7 @@ evidence: observed
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Delete the wait let harness-tracked work announce its own completion instead of being polled]]
 
 **The need (operator's voice, inferred from observed behavior):** "I started a long job in the background and used the waiting primitive I was told to use. It gave up while the job was still perfectly healthy, and what came back told me only that the condition was still false — not whether the thing I was waiting for was running, dead, or nearly done. So the run stalled, and I could not tell that it had."
 
