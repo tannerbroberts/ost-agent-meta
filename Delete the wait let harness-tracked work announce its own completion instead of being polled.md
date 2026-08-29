@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Most of what this loop waits on is work the harness tracks, not shell-backgrounded jobs it started itself]]
 
 **Variation dimension: who-does-the-work. Position taken: nobody — the step is removed.**
 
