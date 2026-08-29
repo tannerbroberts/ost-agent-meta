@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Ask the operator to write the expiry note now, then check ninety days later whether it is still true]]
 
 **Risk category: viability.**
 
