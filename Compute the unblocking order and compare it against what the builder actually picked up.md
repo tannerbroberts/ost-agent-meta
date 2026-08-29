@@ -7,6 +7,7 @@ threshold: >-
   The computed order diverges on at least 2 of 5, and the builder prefers the
   computed choice in at least 1.
 instrument: npx vitest run test/ost/frontier-unblocking-order.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/frontier-unblocking-order.test.ts` — No test files found, exiting with code 1
+- 2026-08-29 **green** (exit 0) `npx vitest run test/ost/frontier-unblocking-order.test.ts` — Duration  2.41s (transform 558ms, setup 0ms, collect 865ms, tests 37ms, environment 0ms, prepare 236ms)
