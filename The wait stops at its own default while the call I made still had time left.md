@@ -7,6 +7,7 @@ authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Show the bound in the affordance so the composer names their own number every time]]
+[[The shim inherits the caller's remaining budget instead of a constant nobody chose]]
 
 **The need, in the composer's voice:** "I told the call how long it had. The helper stopped somewhere else, and never told me the number it was actually using."
 
