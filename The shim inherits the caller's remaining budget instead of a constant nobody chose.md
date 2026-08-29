@@ -21,3 +21,17 @@ The composer already stated their budget: `"timeout": 400000` on the Bash call, 
 **Against its siblings.** It is the only candidate that costs the composer nothing, and the only one that introduces a silent failure mode. Those are the same property seen from two sides: a mechanism that asks nothing of a person is a mechanism no person notices has stopped working.
 
 Unvalidated, ideated by an unattended pass on 2026-08-29 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"A budget that is missing, empty or non-numeric makes the wait say so rather than quietly using 300"
+
+```
+npx vitest run test/loop/wait-budget-inheritance.test.ts
+```
+
+Four environments, and the point is the three that fail: absent, empty and non-numeric must each produce a stderr line naming the bound actually in force. Only the fourth — exported and numeric — is the happy path. Cut any of the three and the cheapest implementation passes, which is `limit=${3:-${AWAIT_LIMIT:-300}}`: correct-looking, silent, and a reproduction of the very defect this candidate exists to fix.
+
+Assert on observed behaviour, not on the rendered source. Grepping the script for a variable name passes on a shim that reads the budget and then ignores it.
+
+The red is a `no-spec` red — the file does not exist. It also stays red past file creation until `renderWaitShim()` reads the environment at all: today it emits `limit=${3:-300}` and consults nothing.
