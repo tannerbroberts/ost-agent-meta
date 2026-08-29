@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Publishing real discovery work brings strangers who try it]]
+[[The vault has a publishable form that carries its provenance without carrying the raw evidence bodies]]
 
 Take the discovery work already being done and do it in public — the vault, the trees, the assumption tests and what they came back with, including the ones that killed an idea. Post it where people who care about product discovery already gather. The artefact is the marketing, and it costs nothing extra because the work is happening anyway.
 
