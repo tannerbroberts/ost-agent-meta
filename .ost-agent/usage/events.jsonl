@@ -7112,3 +7112,11 @@
 {"ts":"2026-08-29T08:00:54.526Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1142,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead","touched":["Remove the wait have the work the firing started announce its own completion.md"]}
 {"ts":"2026-08-29T08:01:00.848Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1284,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead","touched":["Adopt timeout(1)'s settled expiry convention instead of inventing a private one.md"]}
 {"ts":"2026-08-29T08:01:05.845Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1443,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead","touched":["The wait reports expiry as its own outcome, and says whether the condition was moving.md"]}
+{"ts":"2026-08-29T08:01:27.712Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":98,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead"}
+{"ts":"2026-08-29T08:01:27.889Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":100,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead"}
+{"ts":"2026-08-29T08:01:38.316Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":103,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead"}
+{"ts":"2026-08-29T08:01:38.492Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":93,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead"}
+{"ts":"2026-08-29T08:01:50.340Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":64,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead"}
+{"ts":"2026-08-29T08:01:50.969Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead"}
+{"ts":"2026-08-29T08:02:17.641Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead"}
+{"ts":"2026-08-29T08:02:45.913Z","tool":"ost_create_node","ok":true,"ms":15,"surface":"mcp","argBytes":3895,"session":"mcp-f1c87983-b6ed-4dc9-bec0-c84aa1de9ead","wrote":["The wait stops at its own default while the call I made still had time left.md"],"touched":["The wait stops at its own default while the call I made still had time left.md","I can't leave the process running unattended without worrying.md"]}
