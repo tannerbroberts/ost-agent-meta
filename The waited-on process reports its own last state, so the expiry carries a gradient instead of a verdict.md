@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A subject's own progress line is enough to tell a slow run from a stuck one]]
 
 **Variation dimension: who-does-the-work. Position taken: the subject carries it, not the waiter.**
 
