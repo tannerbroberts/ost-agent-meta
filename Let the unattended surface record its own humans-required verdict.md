@@ -22,3 +22,17 @@ Grant `ost_flag_humans_required` to the unattended surface. The parent node reco
 **What it does not fix.** An entry that is parked for a reason *other* than needing people — the mechanism already ships, the deciding artefact lives outside this repo, a human owes it an (a)/(b) decision — has no humans-required verdict to record, and this candidate leaves all of those on the list exactly as they are. On the parent's own sample that is four of seven.
 
 ⚠️ Unvalidated, agent-ideated. No operator has said they want an unattended pass moving work toward people on its own authority.
+
+## Definition of done
+
+"Every label the humans-required tool can write resolves to a lane compute may not run"
+
+```
+npx vitest run test/knowledge/humans-required-is-one-way.test.ts
+```
+
+The spec does not exist yet, so this command is `no-spec` today rather than assertion-red. What it must assert is written out on the test node: drive the write path over an unrecognised lane id, an empty string, `undefined` and a caller passing `compute-only`, and assert `computeMayRun` is false for whatever the node ends up carrying — then enumerate `LANES`, filter to `computeMayRun === true`, and assert the tool refuses each of those by name.
+
+The titles above are quoted rather than linked because a title is wikilinked exactly once in the vault, by its parent.
+
+Feasibility only. The desirability half — whether the operator wants a firing writing to their queue at all — is "Ask the operator whether a firing may add to their personal queue without being asked", and it is humans-required.
