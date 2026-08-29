@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A budget that is missing, empty or non-numeric makes the wait say so rather than quietly using 300]]
 
 **Risk category: feasibility**, and it is the belief that decides whether this candidate is an improvement or a better-hidden version of the same defect.
 
