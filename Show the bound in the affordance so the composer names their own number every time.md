@@ -19,3 +19,17 @@ The bound is already an argument the shim accepts — `await '<condition>' [seco
 **Against its siblings.** It is the only one of the three that adds no mechanism at all — no environment plumbing, no behaviour that differs between contexts, nothing new to keep correct as the harness changes. It is also the only one that makes the composer pay, in the exact currency the module says decides adoption.
 
 Unvalidated, ideated by an unattended pass on 2026-08-29 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
+
+## Definition of done
+
+"Price every spelling of an explicit bound against the margin each recorded waiting case actually has"
+
+```
+npx vitest run test/loop/wait-bound-affordance-cost.test.ts
+```
+
+This is a go/no-go on the candidate, not a build checklist. The suite already pins `expect(margins).toEqual([14, 25, 3])`, and the obvious spelling — two trailing positionals as ` 5 400` — is six characters. It survives two cases and loses `condition` outright. So run this before building: if no spelling fits inside three characters, this candidate cannot be built as written, and the choice becomes whether the expression-cost criterion itself still stands.
+
+The test must price several spellings, not one. A test that tried only the obvious form would report "does not fit" as "cannot be made to fit", which is a stronger claim than the evidence supports.
+
+The red is a `no-spec` red — the file does not exist. `permittedWait()` takes one argument and emits the bare form, so there is no bounded spelling in the module to price yet; that is the first thing to add.
