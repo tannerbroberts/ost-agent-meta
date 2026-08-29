@@ -7326,3 +7326,7 @@
 {"ts":"2026-08-29T20:05:18.830Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":25,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
 {"ts":"2026-08-29T20:05:24.648Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":56,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
 {"ts":"2026-08-29T20:06:01.706Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3573,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea","touched":["An unmapped item ages out of the queue into a standing backlog line.md"]}
+{"ts":"2026-08-29T20:06:02.013Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":79,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:06:15.713Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":93,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:06:16.027Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":100,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea"}
+{"ts":"2026-08-29T20:06:45.808Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":2534,"session":"mcp-3741f928-fe99-4de3-840b-bd32e1c10bea","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
