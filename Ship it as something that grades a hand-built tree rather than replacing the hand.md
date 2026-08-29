@@ -6,6 +6,7 @@ evidence: assertion
 ---
 #Solution #unvalidated #evidence/assertion
 [[Checks over a hand-built vault surface findings its owner did not already know]]
+[[Pointed at a vault it did not author, the checks report they could not read it rather than reporting it clean]]
 
 Concede the generation. Someone who enjoys doing discovery by hand should keep doing it by hand — that is the part they are good at and the part they want. Point the tool at the vault they already have and let it run the checks: what ladders up to nothing, which solutions rest on no tested assumption, which claims sit above the rung their sources earned, which wikilinks are broken.
 
