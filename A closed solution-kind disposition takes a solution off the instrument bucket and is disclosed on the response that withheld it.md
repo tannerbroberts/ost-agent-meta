@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A closed solution disposition clears the instrument bucket entry and names it under withheldByDisposition]]
 
 **Kind: feasibility.** The candidate's entire claim is that nothing needs building — `omitDisposed` already does the filtering and the disclosure in one call, `DISPOSITION_KINDS` already contains `"solution"`, and adoption is a single call site. If the instrument bucket cannot in fact be wired that way in one line — because its items are keyed by something other than the solution title, or because the disclosure channel is per-bucket and the instrument bucket has none — then this is not an adoption at all and its advantage over the siblings evaporates.
 
