@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[An expiry note the operator writes once stays true long enough to be worth trusting]]
 
 **Variation dimension: bought-vs-built. Position taken: nothing is built here; the missing knowledge is bought from the person once and replayed forever.**
 
