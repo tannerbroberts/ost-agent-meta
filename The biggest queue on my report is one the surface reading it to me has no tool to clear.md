@@ -128,3 +128,31 @@ The section above closed by naming its own weakest part: the 68 unlabelled tests
 **Bound on this pass, stated plainly.** Thirteen of sixty-eight are now examined; fifty-five are not. The sampling is still biased toward titles that sound mechanically answerable, which is the bias that should *over*-find instrumentable entries — and it found one in eight, which puts a low ceiling on what a full census would return but not a zero one. This pass also **did not read the product repository**: `ost_read_repo` is withheld from the unattended path and a filesystem listing of the checkout was refused, so every judgement above is from node bodies and frontmatter on disk. No lane was set, no result recorded, and the reported figure will read 65 again next firing.
 
 _First-party to this firing: eight node bodies read in full, three more read and found already instrumented, and its own two greps. Observed behaviour of files on disk; it grounds usability, not demand. `ost_check` is withheld here, so these writes are unverified by the invariant checker by design._
+
+## The compute-only seam, enumerated exactly rather than sampled (unattended firing, 2026-08-29, third firing)
+
+The section above closed on its own weakest point: thirteen of sixty-eight examined, "fifty-five are not", and the sampling biased toward titles that sound answerable. Sampling further would have added another eight-of-sixty-eight anecdote. This pass instead **enumerated the one seam where an instrumentable entry could still be hiding, and found it empty**. No sampling, no titles, no judgement about what sounds mechanical.
+
+**The seam, and why it is the right one to close first.** The single strongest predictor that a test can carry a command is that the test *says so itself*. The one instrumentable entry the previous firing found — "Does the guard catch real laundering without refusing honest commands" — was found exactly that way: its prose already declared compute-only. So the question worth answering exactly is: how many tests declare compute-only in prose and still carry no instrument?
+
+**Method, name-based and reproducible.** Two greps over the vault's own `*.md`, matched on filename rather than on position — the previous section established that positional diffing between these two lists is unsound because the orderings do not correspond, and it is right, so nothing here relies on order.
+
+- prose declaring compute-only (`^\*\*Lane: compute-only`) — **97** files.
+- carrying an instrument (`^instrument:`) — **356** files.
+
+**Result: 93 of the 97 already carry an instrument. Four do not, and all four are accounted for.**
+
+| Test | State |
+|---|---|
+| Sweep both vault histories for writes that landed as undefined or empty | Already answered — run 2026-07-27, examined by an earlier firing today |
+| Do the shipped sweeps actually find a planted instance | Already answered — run 2026-07-27, left `test/eval/planted-instance.test.ts` behind |
+| Does refusing a newline inside a wiki-link catch breaks nothing else catches | Already answered — run, cleared all three bars, verdict never filed |
+| Do named unfixed thresholds actually get fixed | **Newly examined this pass.** Annotated on itself |
+
+**The fourth was never examined before and is not what it looks like.** Its prose reads "Lane: compute-only for the census, humans-required for the fixing" — two lanes in one node, the exact construction the ruleset names by example as forbidden. And the compute half it reserves is not outstanding work: `test/eval/unfixed-thresholds.test.ts` exists and passes, exercising `thresholdKindOf`, `askedOf` and `computeUnfixedThresholds` over all four threshold classifications, with the same 21-of-27 census this vault records stated in its own header. So an instrument there would be green on arrival. What survives is the desirability question alone, and the repair is one `ost-agent lane --set` naming the whole test humans-required. That command is written out on the node.
+
+**What this settles, stated no wider than it goes.** The highest-yield seam in the unlabelled 68 is now closed by enumeration rather than estimated by sample: **zero instrumentable entries remain among tests that declare compute-only.** That does not say the 68 hold nothing — a test could be compute-answerable without saying so, and those are untouched by this method. It does mean the cheap search is finished, and any further yield has to come from reading nodes that give no signal in their own prose, which is a much worse trade than the one-in-eight the previous section measured.
+
+**Correcting a bound this node has carried all day, because it changed what three firings did.** Both sections above state that the pass could not read the product repository — "`ost_read_repo` is withheld from the unattended path". **On this firing it is granted and it answers**, and the repo reads above are what turned the fourth test from a title into a resolved item. The skill's own authoritative withheld list names seven tools and `ost_read_repo` is not among them; the run prompt's hard rule says outward sensing is withheld. The two disagree, the disagreement is already recorded as an open ask on "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time", and the cheap move for any future firing is to spend the one call rather than believe the prose. A pass that believes it is blind writes off the whole backlog for free.
+
+_First-party to this firing: two greps over the vault's files, one name-based set difference, four node bodies and two repository files read in full. Observed behaviour of files on disk; it grounds usability, not demand. No test was run, no result recorded, no lane set, no rung moved. `ost_check` is withheld here, so these writes are unverified by the invariant checker by design._
