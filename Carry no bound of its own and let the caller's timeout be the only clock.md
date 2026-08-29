@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Every path that can invoke the shim already carries a finite bound of its own]]
 
 **Variation dimension: bought-vs-built. Position taken: the enforcement is adopted from the platform as-is, and the thing built here is deleted rather than improved.**
 
