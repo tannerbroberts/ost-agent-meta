@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Price every spelling of an explicit bound against the margin each recorded waiting case actually has]]
 
 **Risk category: feasibility**, in the specific sense this module has made feasibility mean — not "can it be coded" but "can it be written by a composer in a hurry."
 
