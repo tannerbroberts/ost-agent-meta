@@ -9,6 +9,7 @@ threshold: >-
   finding: the scan must run on a cadence, not once, and the solution needs
   re-specifying before it is built.
 instrument: npx vitest run test/loop/prior-art-scan-catches-recorded-collision.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ instrument: npx vitest run test/loop/prior-art-scan-catches-recorded-collision.t
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/loop/prior-art-scan-catches-recorded-collision.test.ts` — No test files found, exiting with code 1
+- 2026-08-29 **green** (exit 0) `npx vitest run test/loop/prior-art-scan-catches-recorded-collision.test.ts` — Duration  8.39s (transform 65ms, setup 0ms, collect 86ms, tests 7.98s, environment 0ms, prepare 61ms)
