@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   At least 16 of the 18 reopened items are judged genuinely finished by a reader
   who is not told which build flagged them.
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ threshold: >-
 **Why a person has to answer it.** "Is there anything left to do here" is the judgement the whole accounting exists to approximate. Asking compute to grade it would be asking the disputed rule to referee its own dispute.
 
 Proposed, not run. Recording a result is a human's `ost-agent result`.
+
+## Issues
+- 2026-08-29 2026-08-29 unattended sweep: this test is humans-required in substance but carries no `lane:` field, so it counts in the 68 unlabelled tests rather than the 54 labelled ones, and its parent solution is reported as missing an instrument every pass. The node already states the reason in its own words — "Asking compute to grade it would be asking the disputed rule to referee its own dispute" — and its threshold requires a reader who is NOT told which build flagged each item, so blindness is the measurement rather than an added precaution. No spec can supply that. Not labelled by this pass because `ost_flag_humans_required` is withheld on the unattended surface; the move is `ost-agent lane --set` and is the operator's. Recorded on the node so the next pass reads it here instead of re-deriving it. Full census context on "The biggest queue on my report is one the surface reading it to me has no tool to clear".
