@@ -7216,3 +7216,4 @@
 {"ts":"2026-08-29T15:31:39.220Z","tool":"ost_append_to_node","ok":true,"ms":3,"surface":"mcp","argBytes":6416,"session":"mcp-0d6d735f-eb9d-49f7-a4f9-26f640bb010c","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
 {"ts":"2026-08-29T15:31:48.141Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"mcp","argBytes":1077,"session":"mcp-0d6d735f-eb9d-49f7-a4f9-26f640bb010c","touched":["Backdated half-life comparison for staleness flags.md"]}
 {"ts":"2026-08-29T15:31:50.966Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1014,"session":"mcp-0d6d735f-eb9d-49f7-a4f9-26f640bb010c","touched":["Judge the eighteen reopened items — were they genuinely finished.md"]}
+{"ts":"2026-08-29T15:31:56.599Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-0d6d735f-eb9d-49f7-a4f9-26f640bb010c"}
