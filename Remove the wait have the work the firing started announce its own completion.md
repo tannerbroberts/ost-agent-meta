@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Most of the waits this loop actually performs are on work the firing itself started]]
 
 **Variation dimension: who-does-the-work. Position taken: nobody — the waiting step is removed rather than reassigned.**
 
