@@ -7,6 +7,7 @@ authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[The bucket gains the lane filter the function two doors down already has]]
+[[Route the humans-required solution into the ask queue instead of dropping it from the instrument queue]]
 
 **The need.** When I decide that a question can only be answered by a person, I want that decision to be recorded as a decision — not to reappear on every future pass as an outstanding failure to write a command. Today the opposite happens: the deliberate answer and the un-done work are indistinguishable in the queue, so every firing pays to re-derive a conclusion the tree already reached, and each one arrives at a node whose prose is arguing with the counter that summoned it.
 
