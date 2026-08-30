@@ -23,3 +23,13 @@ The harvester computes and stores a signature for every friction event as it cap
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author, because this surface holds no grant to run independent parallel ideators. That is the condition blind ideation exists to prevent; discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done — and it is not a command
+
+"Count from git history how many hand-held vault artifacts the operator has amended more than once"
+
+No command: this one is humans-required on purpose. The bar is **at least 2** of the operator's existing hand-held artifacts amended on **2 or more separate days** — upkeep, not one initial setting. A script can list the commits; it cannot decide which files count as a hand-held artifact of this kind, nor whether an edit was the operator's own upkeep or an agent write passing through, and both judgements are the operator's.
+
+Run it before building. It is the cheapest test under this opportunity, its corpus already exists on disk, and a result below the bar retires this candidate for the price of reading a log — handing the opportunity to the two siblings that ask nobody for anything ongoing.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
