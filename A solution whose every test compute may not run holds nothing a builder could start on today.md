@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[An all-cautious solution leaves the instrument bucket while one with a runnable test beside it stays]]
 
 **Risk category: feasibility.**
 
