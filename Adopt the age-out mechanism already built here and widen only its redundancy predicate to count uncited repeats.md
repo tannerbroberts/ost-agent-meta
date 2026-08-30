@@ -23,3 +23,17 @@ Nothing new is designed here. The collapse machinery already exists in this repo
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author, because this surface holds no grant to run independent parallel ideators. Discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"Twenty old records sharing one uncited signature collapse, while the equally old novel singleton stays listed"
+
+```
+npx vitest run test/evidence/uncited-repeat-collapse.test.ts
+```
+
+Pre-committed bar: `>= 20 of 20` uncited repeats collapse, and **zero** novel singletons collapse.
+
+The builder's actual job is one assertion, not one file: `expect(work.agedOutEvidence).toEqual({ count: 20, oldest: OLD })` against a fixture cloned from `test/evidence/age-out-preserves-novel.test.ts` with the `createNode`/`linkNodes` pair removed, so the twenty repeats share a signature no node cites. That assertion returns `{ count: 0, oldest: null }` today. The command names a new file only because the tool's instrument grammar accepts nothing else — see the test node for why the stronger form was refused.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
