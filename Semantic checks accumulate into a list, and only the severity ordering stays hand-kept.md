@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Every semantic check can run safely after an earlier one has already failed]]
 
 **Variation dimension: automated-vs-manual. Position taken: the collection is automated, the severity ordering is deliberately manual.**
 
