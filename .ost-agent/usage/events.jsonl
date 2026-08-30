@@ -7670,3 +7670,5 @@
 {"ts":"2026-08-30T22:48:17.742Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-f6bd510a-55cd-42f3-a613-4eab350d19f2"}
 {"ts":"2026-08-30T22:48:47.654Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":93,"session":"mcp-f6bd510a-55cd-42f3-a613-4eab350d19f2"}
 {"ts":"2026-08-30T22:50:04.944Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3967,"session":"mcp-f6bd510a-55cd-42f3-a613-4eab350d19f2","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
+{"ts":"2026-08-30T22:50:25.632Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-f6bd510a-55cd-42f3-a613-4eab350d19f2"}
+{"ts":"2026-08-30T22:50:47.851Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-f6bd510a-55cd-42f3-a613-4eab350d19f2"}
