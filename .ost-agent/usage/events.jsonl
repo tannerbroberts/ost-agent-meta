@@ -7622,3 +7622,4 @@
 {"ts":"2026-08-30T20:37:13.016Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":59,"session":"mcp-667d7319-c674-491c-9be2-1a8a644eb4a8"}
 {"ts":"2026-08-30T20:37:13.174Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":118,"session":"mcp-667d7319-c674-491c-9be2-1a8a644eb4a8"}
 {"ts":"2026-08-30T20:38:07.605Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":5582,"session":"mcp-667d7319-c674-491c-9be2-1a8a644eb4a8","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
+{"ts":"2026-08-30T20:38:47.204Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3034,"session":"mcp-667d7319-c674-491c-9be2-1a8a644eb4a8","touched":["A run never states which tools it had, so a degraded pass reads like a full one afterwards.md"]}
