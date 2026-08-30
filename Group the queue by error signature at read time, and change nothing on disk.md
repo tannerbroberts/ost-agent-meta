@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A reader shown five signature groups acts on the groups instead of asking for the records behind them]]
 
 **Variation dimension: who-does-the-work. Position taken: the agent, at read time — and nobody edits, stores, or curates anything.**
 
