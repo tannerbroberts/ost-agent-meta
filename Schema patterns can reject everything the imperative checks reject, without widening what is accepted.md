@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Every threshold and instrument the imperative checks reject today is still rejected by the schema patterns]]
 
 **The belief, stated so it could be false:** the threshold and instrument grammars can be expressed as JSON Schema `pattern` constraints that reject every input the current imperative checks reject — no input that is refused today becomes acceptable.
 
