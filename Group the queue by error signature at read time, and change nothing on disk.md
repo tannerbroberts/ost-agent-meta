@@ -23,3 +23,11 @@ authorship: machine
 **Honest note on how this was ideated.** The sweep asked for one blind ideator per dimension. This surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done — and it is not a command
+
+"Show one operator the grouped queue and the record listing, and record which one they act from"
+
+No command: this one is humans-required on purpose. The bar is **at least 3 of 5** sessions in which the operator picks what to work on from the group view without first opening an underlying record. An exit code can prove the groups are emitted; it cannot observe whether anybody trusted them enough to act, and that is the whole belief this candidate rests on.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
