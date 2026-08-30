@@ -71,3 +71,22 @@ The section above counts 6 of 6 and states its own limit honestly: the six were 
 **One thing this pass paid that the section above predicts exactly.** Nine of the ten nodes already carried a dated section from an earlier firing recording the same abstention, several of them saying "Not a skipped step" in so many words. This firing re-derived answers that were already written down, at roughly a thousand tokens a node, because there is no agent-side way to retire a bucket entry — which is the cost this test exists to stop accruing.
 
 _Method: this firing's own `ost_next_work` response plus ten `ost_read_tree` node reads, and `ost_read_repo` reads of `src/mcp/server.ts`, `src/ost/instrument.ts` and `src/ost/lanes.ts`. No test was run, no result is recorded, no instrument was set and no lane labelled. Grounds feasibility and cost only. Rung unchanged at the `assertion` floor._
+
+## 2026-08-30 (later firing) — the log-growth cost this node calls uncounted, counted
+
+Kept short, per this node's convention. The census above is not re-run: this firing sampled five bucket entries and all five were already among the ten, so it has nothing to add there and adds nothing. What it did instead is count the one cost the section above explicitly leaves open — "the log it writes to is a reserved section that grows by one identical line per pass, which is a small cost nobody has counted either."
+
+**The count, from two nodes read in full this pass.**
+
+- "A description that disagrees with the grammar its own validator enforces fails the suite" — created 2026-08-27, its observation log now holds **19 lines**, every one the identical `no-spec` for `test/mcp/description-grammar-parity.test.ts`. Distribution: 1 on 08-27, 8 on 08-28, 8 on 08-29, 2 so far on 08-30.
+- This node — created 2026-08-29, **7 lines**, all identical, same shape.
+
+**The rate, and why it is not small.** Eight firings a day against one permanently-`no-spec` instrument is roughly 2,900 lines a year, at ~230 characters each: about **670KB on a single AssumptionTest node**, none of it carrying information the first line did not. The 19-line node is already the case in miniature — its log is longer than its prose.
+
+**The part that makes this structurally different from the bloat this vault has fixed before.** The Outcome node reached 86KB and was fixed by consolidation, and several nodes in this tree carry dated entries where a pass folded seven near-identical annotations into one standing finding. **Neither repair is available here.** The observation log is a reserved section: no tool may author, rewrite or prune it, by the same rule that stops compute forging or revoking a human's finding. So the one anti-bloat move this vault has repeatedly used is unavailable exactly where the growth is unbounded and the content is provably redundant — and correctly so, because a tool that could prune this log could prune a recorded red.
+
+**Why this sharpens the case for the disposition route specifically.** A disposition parks the bucket entry, which stops the re-read cost the sections above measure. It does not obviously stop the log growth, because the verify pass that appends these lines is a separate route from the sweep that offers the bucket. Whoever builds this should decide deliberately whether a `closed` disposition also suppresses re-verification — if it does not, the cheaper half of the cost is fixed and the unbounded half keeps accruing. That is a design question this node's four assertions do not currently cover, and it is the one worth adding a fifth for.
+
+**Honest limits.** Two nodes, not a census; both are recent, so the rate is extrapolated from four days and assumes firing cadence holds. The 670KB figure is arithmetic on that assumption, not an observation. Nothing here is a measurement of the product's behaviour under load, and no claim is made that any log has yet caused a problem — the cost is projected, and the projection is the finding.
+
+_Method: two `ost_read_tree` node reads and this firing's own sweep response. No test was run, no result recorded, no instrument set, no lane labelled. Grounds feasibility and cost only. Rung unchanged at the `assertion` floor._
