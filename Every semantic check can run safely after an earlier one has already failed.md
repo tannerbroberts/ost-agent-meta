@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A call carrying three semantic defects is refused once, naming all three, with no check throwing]]
 
 **The belief, stated so it could be false:** the semantic checks are independent enough that each can run on input an earlier check already rejected, without throwing on garbage and without depending on a normalisation an earlier check performed.
 
