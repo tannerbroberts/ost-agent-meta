@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-external-review-five-dimension.md'
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/ost/test-prerequisite-edges.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ instrument: npx vitest run test/ost/test-prerequisite-edges.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/test-prerequisite-edges.test.ts` — No test files found, exiting with code 1
+- 2026-08-30 **green** (exit 0) `npx vitest run test/ost/test-prerequisite-edges.test.ts` — Duration  9.59s (transform 434ms, setup 0ms, collect 667ms, tests 8.49s, environment 0ms, prepare 70ms)
