@@ -6,6 +6,7 @@ evidence: observed
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
+[[A validate-only mode the caller can spend one call on before writing]]
 
 When I compose one call that gets three things wrong, I want to be told three things once — not one thing three times. Today I fix the objection I was given, re-issue, and meet the next objection that was knowable before I sent the first call.
 
