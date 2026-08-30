@@ -25,3 +25,17 @@ Add a `validate: true` flag to the mutating tools. When set, the tool runs every
 **Honest note on how this was ideated.** The sweep asks for one blind ideator per dimension. This surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"A validate-only call names every objection the writing call would, and leaves the vault byte-identical"
+
+```
+npx vitest run test/mcp/validate-only-writes-nothing.test.ts
+```
+
+The bar: at least 3 of 3 seeded defects named in one refusal, and exactly 0 files changed. The spec does not exist yet, so the command currently files as `no-spec` rather than as a genuine red — it fails because nobody has written the file, which is the weakest reason a command can fail. The test node carries the four assertions the spec must make and names `test/mcp/tool-input-validation.test.ts` as the working template, so the job is writing assertions rather than reconstructing the question.
+
+**What this command does not settle:** whether any caller would spend a call on the flag. That is this candidate's sharpest risk, it is behavioural, and no exit code reaches it. A green here is feasibility only.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
