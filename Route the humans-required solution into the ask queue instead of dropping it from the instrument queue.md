@@ -10,6 +10,7 @@ killBy: '2026-12-31'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The operator answers an ask that arrives with a clock on it at a rate above zero]]
 
 **Variation dimension: where-it-lives — which queue the item is reported in. Position taken: it moves, and nothing is hidden.**
 
