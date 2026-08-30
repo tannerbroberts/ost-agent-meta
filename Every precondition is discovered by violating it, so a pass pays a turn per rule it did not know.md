@@ -9,6 +9,7 @@ evidence: observed
 [[A preflight manifest states every tool precondition before the pass composes its first call]]
 [[The surface satisfies a precondition it could have satisfied itself]]
 [[Every response that can be refused for size states its size first]]
+[[A call with several defects is refused one defect at a time, so I pay a turn per objection]]
 
 When I hand a run a file to change, it does not fail because the change was wrong. It fails because it did not know it had to read the file first — and the only way it learned that was by trying to write.
 
