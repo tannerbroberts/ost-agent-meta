@@ -5,6 +5,7 @@ source: 'agent:P4_assumptions'
 created: '2026-07-24'
 evidence: assertion
 instrument: npx vitest run test/loop/discovery-budget-reserved.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #desirability #evidence/assertion
 
@@ -26,3 +27,4 @@ Proposed by the agent — a human does the rating; the agent must not rate its o
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/loop/discovery-budget-reserved.test.ts` — npm notice
+- 2026-08-30 **green** (exit 0) `npx vitest run test/loop/discovery-budget-reserved.test.ts` — Duration  9.88s (transform 22ms, setup 0ms, collect 16ms, tests 9.63s, environment 0ms, prepare 43ms)
