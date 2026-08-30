@@ -29,3 +29,15 @@ Add one line to `solutionsMissingInstruments` in `src/eval/buildable.ts`: a Solu
 **Honest note on how this was ideated.** The sweep asks for one blind ideator per dimension. This surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"An all-cautious solution leaves the instrument bucket while one with a runnable test beside it stays"
+
+```
+npx vitest run test/eval/lane-aware-instrument-bucket.test.ts
+```
+
+The bar, pre-committed: 0 solutions carrying a compute-runnable test are dropped, and at least 1 all-cautious solution is. The spec does not exist yet, so this command is red for the weak reason — it names a missing file rather than a failing assertion, and an unattended sweep holds no write grant on the product repository to fix that. The threshold is what a builder acts on until the spec is written.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
