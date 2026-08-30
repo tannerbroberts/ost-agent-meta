@@ -10,6 +10,7 @@ killBy: '2026-10-31'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Whether a lane was set by a human or asserted by an agent is decidable from what the node already records]]
 
 **Variation dimension: bought-vs-built. Position taken: adopted from inside, as-is — the mechanism already exists in this codebase and is copied rather than designed.**
 
