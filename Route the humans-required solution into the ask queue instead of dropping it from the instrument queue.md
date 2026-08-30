@@ -29,3 +29,11 @@ Do not filter the item away. Re-file it. A Solution whose every test is in a lan
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author; this surface holds no grant to run independent parallel ideators. Discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done — and it is not a command
+
+"Count how many routed asks the operator answers in the four weeks after they arrive with an age on them"
+
+No command: this one is humans-required on purpose. The bar is **at least 5 of the routed asks answered within 4 weeks**. An exit code can prove the entries moved queues; it cannot observe whether anybody answered them, and whether they get answered is the entire belief this candidate rests on. The half that decides the verdict is why an unanswered entry went unanswered — mis-filed, too expensive, or no longer interesting — and no artifact on disk carries that reason.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
