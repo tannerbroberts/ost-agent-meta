@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/web/outside-in-candidate-provenance.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #desirability #evidence/assertion
 
@@ -24,3 +25,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/web/outside-in-candidate-provenance.test.ts` — No test files found, exiting with code 1
+- 2026-08-30 **green** (exit 0) `npx vitest run test/web/outside-in-candidate-provenance.test.ts` — Duration  3.34s (transform 1.12s, setup 0ms, collect 1.68s, tests 62ms, environment 0ms, prepare 250ms)
