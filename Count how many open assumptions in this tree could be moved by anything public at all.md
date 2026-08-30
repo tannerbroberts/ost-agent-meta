@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 threshold: 'At least 15 open assumptions yield a specific, searchable question.'
 instrument: npx vitest run test/web/public-movable-assumptions.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ The assumption is that a useful number of open assumptions carry questions publi
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/web/public-movable-assumptions.test.ts` — No test files found, exiting with code 1
+- 2026-08-30 **green** (exit 0) `npx vitest run test/web/public-movable-assumptions.test.ts` — Duration  405ms (transform 41ms, setup 0ms, collect 86ms, tests 12ms, environment 0ms, prepare 58ms)
