@@ -3,6 +3,7 @@ type: Opportunity
 source: 'TRANSCRIPT:5960b7ec-960c-4700-9e0b-2b68c3519e92'
 created: '2026-08-03'
 evidence: observed
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Carry a content hash from read to write and refuse on drift, naming what drifted]]
@@ -82,3 +83,33 @@ _Method: a grep of every `TRANSCRIPT_*.md` record in this vault's evidence folde
 ## Additional observed instance
 
 TRANSCRIPT:0459d729-8ee3-43fc-ae1f-f05928ad84e2 — an unattended firing's Edit failed with "File has been modified since read, either by the user or by a linter," on `docs/reference/v1-readiness.md`, mid-edit of a figure it had just read.
+
+## 2026-08-30 — the 2026-08-06 census re-run over the whole corpus, with a denominator this time, and it reweights this node
+
+The 2026-08-06 section counted 55 read-before-write refusals across 19 sessions and said plainly that the count lacked a denominator. This pass re-ran the same grep over every `TRANSCRIPT_*.md` record the vault holds and also counted what the corpus is made of, so the share can be read rather than guessed.
+
+**The corpus.** 500 transcript records. 1,195 `tool_error` events across 426 of them, and 815 `retry` events across 384 — 2,010 friction events in total. Every figure below is a share of the 1,195 tool errors.
+
+**The refusal this node's 2026-08-06 census counted has grown 7.6× in 24 days.**
+
+| | 2026-08-06 | 2026-08-30 |
+|---|---|---|
+| `File has not been read yet` occurrences | 55 | **416** |
+| Sessions carrying at least one | 19 | **221** |
+
+416 of 1,195 is **34.8% of every tool error this product has ever observed of its own use**, spread across 221 of the 500 records. Nothing else in the corpus is close: read-permission refusals (`requested permissions to read from`) are 130, `No such file or directory` 63, `InputValidationError` 46, Monitor's multi-operation approval refusal 8, and unavailable-tool refusals 8.
+
+**The finding that reweights this node, and it cuts against its own framing.** Edit and Write account for 450 tool errors across 231 records — 37.7% of all of them. Of those 450:
+
+- **416 (92.4%)** are the read-before-write precondition;
+- **21** are `String to replace not found in file` — the drift symptom this node was distilled from;
+- **7** are the explicit `has been modified since read`;
+- the rest are a handful of other shapes.
+
+So the drift case this node holds as its subject is **28 events, 2.3% of the corpus's tool errors**, while the precondition it holds as adjacent is 416. The 2026-08-06 section argued the two must be kept apart because a mechanism that auto-satisfies the precondition would absorb the 55 without touching drift, and might make drift worse by removing the moment a stale read surfaces. That argument is unchanged and still right. What changes is the price of the trade: the precondition is not a formality sitting beside the real problem, it is fifteen times the volume of the real problem, and any candidate under this node that only addresses drift is addressing the smaller half by a wide margin.
+
+**What this does not establish.** The grep counts message text, not cause. It still cannot separate "the session never read the file" from "the session read it and something moved it", which is the same limit the 2026-08-06 section named and the same argument for the drift-detection candidates: the record cannot tell the two apart, so neither can a reader. It also says nothing about severity — 416 cheap retries may cost less in total than 28 misattributed failures that stop a run, and this vault holds no measurement of either cost. Nor is any of this demand evidence: it is the agent's own tool use, so it grounds usability and must not be read as anyone wanting anything.
+
+**One thing a human should weigh from it.** The single largest identified friction signature in this product's entire self-observed history belongs to the harness, not to OST-Agent. The candidate that addresses it, "Auto-read a file before the first write or edit to it in a session, instead of erroring", is recorded elsewhere in this tree as un-instrumentable here because the guard lives in Claude Code. That combination — biggest measured signature, no mechanism on this side — is worth an explicit decision rather than the standing silence it currently gets.
+
+_Method: greps of every `TRANSCRIPT_*.md` in this vault's evidence folder, counted corpus-wide, 2026-08-30. Observed behaviour of this product's own agent, captured mechanically with no narrator. Those records stay listed as unmapped evidence; citing them here does not clear them. No test was run, no result recorded, and this node's rung is unchanged._
