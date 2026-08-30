@@ -27,3 +27,21 @@ authorship: machine
 **What this node does not claim.** It does not say the 68 are all of this kind; that census is uncounted and is named as the open question under the candidates. It does not say `humans-required` is the correct lane for any particular one of them — several of the four opened argue their own case and a reader may disagree. And it says nothing about desirability: this is observed behaviour of the product, read from its own source and its own sweep output, which grounds usability and is not evidence that anybody outside this project wants it fixed.
 
 **Provenance:** first-party read of `src/eval/buildable.ts`, `src/knowledge/lanes.ts` and `test/eval/clearability.test.ts` via `ost_read_repo`, plus this firing's own `ost_next_work` response and four node bodies. Rung `assertion` — a claim from inside the building. No test was run and no result is recorded.
+
+## The defect demonstrated itself within one pass, with a control
+
+Recorded because it is a first-party observation rather than a restatement, and because it arrived with the comparison that makes it discriminating.
+
+This pass created three solutions beneath this opportunity in one sitting, by one author, on the same day. Two carry an assumption test with an `instrument:`; the third carries one created with `humansRequired:`, because whether an operator answers a routed ask cannot be settled by an exit code. The sweep was then re-run.
+
+- `solutionsMissingInstruments` went from **68 to 69**.
+- The two instrumented candidates are absent from the list, correctly.
+- The added entry is "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue" — the candidate written to describe this defect, listed as an instance of it, minutes after being written.
+
+That is the mechanism this node reads off `src/eval/buildable.ts`, observed operating rather than inferred: the lane label was set at creation, the bucket does not read it, and a correctly-decided node joins the queue of things the next pass will be told to fix. The two instrumented siblings are the control — same author, same pass, same parent — so the difference is the lane and not the quality of the writing or the age of the node.
+
+**What this adds beyond the code read, and what it does not.** It rules out the reading that the 68 are simply old nodes written before lanes mattered, which a reader could otherwise have taken from a bucket full of long-standing entries: a node created under the current rules, with a lane set deliberately at creation, lands in the bucket immediately. It does not establish the share of the other 68 that are of this kind — that census is still uncounted and is named as open under the candidates. And it is one increment, not a rate.
+
+**One consequence for whoever picks a candidate.** The filter sibling would have excluded this new node on day one; the routing sibling would have moved it to the ask queue; the audit sibling would have kept it exactly where it is, because its lane was agent-set at creation and no human ratified it. The three candidates therefore disagree about this very node, which is a cheap way to feel the difference between them before building any of them.
+
+_Source: this firing's own `ost_next_work` responses before and after the writes. Observed behaviour of this product; grounds usability, not desirability. No test was run and no result is recorded._
