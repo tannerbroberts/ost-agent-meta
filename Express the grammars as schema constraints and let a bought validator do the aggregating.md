@@ -27,3 +27,19 @@ Two things come free with that, which is the argument for buying rather than bui
 **Honest note on how this was ideated.** The sweep asks for one blind ideator per dimension. This surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"Every threshold and instrument the imperative checks reject today is still rejected by the schema patterns"
+
+```
+npx vitest run test/mcp/schema-pattern-parity.test.ts
+```
+
+The bar: exactly 0 inputs rejected by the imperative check become accepted by the pattern, across at least 12 cases. The spec does not exist yet, so the command files as `no-spec` rather than a genuine red — though of the three tests under this opportunity this is the one that comes closest to a strong red, because both predicates it compares are pure functions and half of the comparison already exists in `src/knowledge/instruments.ts`.
+
+**Run this one first.** It is the only test of the three whose failure would retire its candidate outright: if the grammars cannot be expressed as patterns without widening what is accepted, this candidate is not merely more expensive than its siblings, it is unsafe, and the widening fails silently in the permissive direction.
+
+**What this command does not settle:** message quality, which is this candidate's central trade. Parity of verdicts says nothing about parity of usefulness.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
