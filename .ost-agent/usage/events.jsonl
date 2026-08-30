@@ -7400,3 +7400,4 @@
 {"ts":"2026-08-30T07:03:29.677Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":91,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
 {"ts":"2026-08-30T07:03:30.003Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":120,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
 {"ts":"2026-08-30T07:19:43.350Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4115,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56","touched":["Conditions that expire are more often genuinely slow than never going to be true.md"]}
+{"ts":"2026-08-30T07:36:30.072Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1941,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56","touched":["A background task's own output directory is automatically readable by the Monitor call that started it.md"]}
