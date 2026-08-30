@@ -6,6 +6,7 @@ evidence: observed
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Group the queue by error signature at read time, and change nothing on disk]]
 
 **The need, from the operator's side.** `unmappedEvidence` reports a number — 441, 445, 457, 464 across the last four sweeps — and that number is the only thing an operator has to judge how far behind discovery is. It counts *records*. It does not say how many distinct problems those records describe. An operator reading 464 cannot tell whether that is 464 needs waiting to be distilled or a handful of failures repeating several hundred times, and those two readings call for opposite actions: the first is a staffing problem, the second is a deduplication problem.
 
