@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count how many routed asks the operator answers in the four weeks after they arrive with an age on them]]
 
 **Risk category: viability.**
 
