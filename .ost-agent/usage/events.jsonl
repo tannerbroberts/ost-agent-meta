@@ -7354,3 +7354,4 @@
 {"ts":"2026-08-29T21:13:25.858Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":64,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
 {"ts":"2026-08-29T21:14:24.031Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1812,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
 {"ts":"2026-08-29T21:14:26.071Z","tool":"ost_ingest_inbox","ok":true,"ms":9,"surface":"mcp","argBytes":2,"session":"mcp-57a19fa6-2bd2-4ef2-aaf2-4d736c6f332f"}
+{"ts":"2026-08-30T00:21:09.452Z","tool":"ost_ingest_inbox","ok":true,"ms":39,"surface":"mcp","argBytes":2,"session":"mcp-c962b727-2283-486e-a821-ecc9a44c2a06"}
