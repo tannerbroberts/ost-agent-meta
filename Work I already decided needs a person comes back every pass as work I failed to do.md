@@ -45,3 +45,31 @@ That is the mechanism this node reads off `src/eval/buildable.ts`, observed oper
 **One consequence for whoever picks a candidate.** The filter sibling would have excluded this new node on day one; the routing sibling would have moved it to the ask queue; the audit sibling would have kept it exactly where it is, because its lane was agent-set at creation and no human ratified it. The three candidates therefore disagree about this very node, which is a cheap way to feel the difference between them before building any of them.
 
 _Source: this firing's own `ost_next_work` responses before and after the writes. Observed behaviour of this product; grounds usability, not desirability. No test was run and no result is recorded._
+
+## The census, run over 10 of the 25 visible entries — and it is not a backlog (2026-08-30)
+
+This node has named the census as its open question three times, and the strongest count on record was 4 of 68. This pass opened **10 solutions in full** from the 25 `ost_next_work` showed (of 69 total) and classified each by *why* no instrument belongs on it. **Ten of ten were legitimately not-instrumentable.** Not one was a pass that simply failed to write a command.
+
+**The four kinds, which matter more than the count.**
+
+- **A humans-required belief — 6 of 10.** "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue", "An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target", "Group the queue by error signature at read time, and change nothing on disk", "A human-edited manifest of loop-prescribed call sequences the harvester suppresses", "Name the specific mechanisms a hand process structurally cannot have", "Axioms elicited at the moment a derivation needs them, one accept-or-reject ask at a time". Each rests on whether a person answers, maintains, acts, or is persuaded.
+- **The subject is not in this repository — 2 of 10.** "A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand" is about the harness's `await` helper on the session PATH; "Maintain a running per-item task list the next pass reads before reconstructing state itself" is about the harness's own task list. No spec under `test/` can reach either artifact, however the belief is worded.
+- **Already built; a spec would pass on arrival — 1 of 10.** "Remote push optional and off by default" is pinned green in two places (`test/config/load.test.ts` asserts `cfg.remote.enabled` is false; `test/release/outward-mutation.test.ts` withholds `git_push` from the agent surface with a positive control).
+- **The premise is superseded and needs a human's disposition — 1 of 10.** "Append-only tool surface with no delete or shell tool" describes a surface that no longer exists. A spec asserting "no delete tool" would go red — and that red would invite a builder to *remove* `ost_merge_nodes`, which is worse than no spec.
+
+**The finding that discriminates between this node's own three candidates, and it is new.** Only the first kind is lane-shaped. Two lanes were read directly this pass, and they disagree in the way that decides the question:
+
+- "Count the recorded expiries that later succeeded against those whose condition could never have become true" carries `lane: humans-required` in frontmatter — **set by an agent's `humansRequired:` argument at creation**, not by a human's `ost-agent lane --set`.
+- "Test do operators get value with remote push off" carries `lane: null`, and is a pure desirability test ("Observe ~5 trial operators over their first week"). Nothing labelled it, because the sweep that met it had no tool that could.
+
+So the three candidates fail in three different amounts, and none of them clears the bucket:
+
+- **The lane filter** ("The bucket gains the lane filter the function two doors down already has") clears only the labelled subset. The other-three-kinds solutions carry no lane at all, so they stay exactly where they are.
+- **The lane audit** ("Exclude only on a lane a human set, copying the shipped-status audit rather than trusting the field") clears **approximately none of them**, because every lane found in this sample was agent-set at creation. It is the candidate that best answers the self-certification trap this node names, and on today's data it is also the candidate that does the least.
+- **The routing candidate** moves the labelled subset to `outstandingAsks` and leaves the unlabelled six-of-ten kinds in place.
+
+**The consequence for whoever picks one.** A lane check alone is not sufficient, and this sample says so with numbers rather than by argument. At least three distinct exclusions are needed — the lane, "the subject is outside `product.repos`", and the already-built case that `trustsShippedStatus` half-covers — or the bucket keeps summoning passes to nodes that have already reasoned their way to "no command belongs here." Six of the ten opened *already carried that reasoning in prose written by earlier firings*, which is the re-derivation cost this node exists to name, now measured at 60% of a ten-node sample.
+
+**Limits, stated so this is not over-read.** Ten of the twenty-five shown, of sixty-nine total — the 25 are the unfiltered head ordered by id, not a random sample, which is the defect "An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target" names. The 44 entries past the cap were unreachable from this surface and may contain genuinely instrumentable solutions; nothing here claims otherwise. Ten of ten is a strong signal about the head and not a proof about the tail. Two of the four kinds were established by reading the solution's prose rather than its test's frontmatter, so the lane counts above are exact for the two tests read and inferred for the rest.
+
+_Source: first-party `ost_read_tree` reads of ten Solution nodes, two Assumption nodes and two AssumptionTest nodes, plus `ost_read_repo` on `src/eval/buildable.ts`. Observed behaviour of this product; grounds usability, not desirability. No test was run and no result is recorded._
