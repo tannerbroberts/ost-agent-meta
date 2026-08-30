@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Uncited repeats can be collapsed by frequency alone without the novelty guard letting a one-off through]]
 
 **Variation dimension: bought-vs-built. Position taken: adopt the existing mechanism whole and build only the one predicate it is missing.**
 
