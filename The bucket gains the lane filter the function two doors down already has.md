@@ -10,6 +10,7 @@ killBy: '2026-11-30'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A solution whose every test compute may not run holds nothing a builder could start on today]]
 
 **Variation dimension: who-does-the-work. Position taken: nobody — the step is deleted, not reassigned.**
 
