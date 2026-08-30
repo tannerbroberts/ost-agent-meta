@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The operator keeps a signature-equivalence list current as new failure modes appear]]
 
 **Variation dimension: automated-vs-manual. Position taken: extraction is automated, the equivalence judgement is deliberately manual.**
 
