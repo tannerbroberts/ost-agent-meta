@@ -26,3 +26,6 @@ authorship: machine
 **Why it fails today, stated honestly.** `test/mcp/semantic-problems-accumulate.test.ts` does not exist, so this run files as `no-spec` and mints no permit — the weak red form, forced by the behaviour being unbuilt rather than chosen. The four assertions and the named template are what the instrument contributes beyond a filename.
 
 **What a green would NOT settle.** Whether multi-defect calls are common enough to be worth the per-check rework. Two sessions are on record — `fe8409a0` and `14f184b4` — and no census has been run, so this could be a refactor across every check for a case that rarely fires. It also says nothing about whether the hand-kept severity ranking gets maintained, which is the candidate's other admitted cost and is a question about a person, not an exit code.
+
+## Instrument Log
+- 2026-08-30 **no-spec** (exit none) `npx vitest run test/mcp/semantic-problems-accumulate.test.ts` — test/mcp/semantic-problems-accumulate.test.ts does not exist — no spec was collected, so nothing was measured
