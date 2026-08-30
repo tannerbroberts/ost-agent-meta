@@ -80,3 +80,25 @@ Kept short on purpose: this node is already 10,000 characters and two of its sec
 The self-manufactured friction records have no already-mapped signature to be redundant with, precisely because — as this node argues at length — there is no genuine need underneath them to distil, so no Opportunity ever cites one. **Enabling `evidence.ageOutDays` would therefore leave exactly these records individually listed forever.** The cheapest available mitigation misses this node's failure case by construction, which strengthens rather than weakens the argument for suppressing at harvest time.
 
 **What this does not settle.** Nothing here touches this candidate's sharpest risk — whether the founder keeps the manifest current — which stays where the parent assumption has it. And the claim above is read off the spec's assertions, not from a run: no test was executed and no result is recorded.
+
+## 2026-08-30 — the census this node has called open three times, counted over a 25-record sample
+
+Kept short, per this node's own convention. Only what is new.
+
+**The question.** Three sections above say the share of the queue that is self-manufactured is what decides whether a manifest is a filter or ceremony, and that the share is uncounted. This pass counted it over the 25 records `ost_next_work` showed (of 464 total), using each record's own event tally, and read 4 record bodies in full to check what the `retry` lines actually are.
+
+**The numbers.**
+
+- **Whole-record noise: 3 of 25 (12%).** Records whose entire contents are prescribed no-argument retries — `01e55025` (2 events), `0e24ead9` (2), `0ffc6652` (1). All three read in full; all are `ost_ingest_inbox` and/or `ost_next_work` with `{}` and nothing else.
+- **Records carrying at least one `retry`: 22 of 25 (88%).**
+- **Records carrying at least one genuine `tool_error`: 22 of 25 (88%).**
+- **Event mix across the sample: 61 `tool_error` to 38 `retry` — retries are 38% of all friction events.**
+- **The contamination is line-level, not record-level.** `08f7d98f` is 4 events: two real `tool_error`s (a `Glob` denied the read grant for the product repo, twice) followed by the identical prescribed pair. The generator fires inside otherwise-genuine records, not only in empty ones.
+
+**What this does to the argument, and it cuts against this candidate's headline.** The compounding-cost case built above rests on queue *length* — 441, then 445, then 457, now 464. Suppression fixes ~12% of that. A queue of 464 becomes a queue of ~408, and the operator still cannot page past a cap of 25. **The queue is not long because of self-manufactured records; it is long because 88% of records contain genuine `tool_error`s that no Opportunity has ever been distilled from.** That is discovery debt, not noise, and no suppression rule touches it.
+
+**What suppression would genuinely buy, restated honestly.** Signal-to-noise *within* a record, not queue length. A reader of a mapped record would stop seeing two lines of the loop obeying itself under every real finding. That is a real improvement and a much smaller one than "the backlog grows fastest when nothing is wrong" implies.
+
+**Limits of this count, stated so it is not over-read.** The 25 are the unfiltered head of 464, ordered by id, not a random sample — the very defect the sibling window candidate names. So this is a census of the head, and the head may not represent the tail. 4 of the 22 retry-carrying records were opened; the other 18 are inferred from their event tallies and could contain argument-carrying repeats, which this node already establishes can be genuine signal. No test was run and no result is recorded.
+
+_Source: this pass's own `ost_next_work` sweep response and four evidence bodies served by it. Observed behaviour of this product; grounds usability, not desirability._
