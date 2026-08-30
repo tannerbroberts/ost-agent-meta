@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A lane written by the CLI and one written by an agent's creation argument are told apart from the node alone]]
 
 **Risk category: feasibility.**
 
