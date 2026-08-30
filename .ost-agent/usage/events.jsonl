@@ -7698,3 +7698,5 @@
 {"ts":"2026-08-30T23:57:16.152Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4145,"session":"mcp-a896d016-c20e-476d-9b9d-47110d202c2c","touched":["The file changed after I read it, and the failed edit is how I find out.md"]}
 {"ts":"2026-08-30T23:57:29.112Z","tool":"ost_read_tree","ok":true,"ms":95,"surface":"mcp","argBytes":106,"session":"mcp-a896d016-c20e-476d-9b9d-47110d202c2c"}
 {"ts":"2026-08-30T23:58:55.242Z","tool":"ost_edit_node","ok":true,"ms":3,"surface":"mcp","argBytes":18246,"session":"mcp-a896d016-c20e-476d-9b9d-47110d202c2c","touched":["The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time.md"]}
+{"ts":"2026-08-30T23:58:59.284Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":134,"session":"mcp-a896d016-c20e-476d-9b9d-47110d202c2c"}
+{"ts":"2026-08-30T23:59:29.248Z","tool":"ost_append_to_node","ok":true,"ms":3,"surface":"mcp","argBytes":4035,"session":"mcp-a896d016-c20e-476d-9b9d-47110d202c2c","touched":["The evidence queue counts records, not distinct problems, so I cannot tell whether 464 items is 464 needs or five repeating.md"]}

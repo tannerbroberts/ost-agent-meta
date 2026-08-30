@@ -29,3 +29,33 @@ Five modes across six records. The tail is not visible from this surface, but no
 **What this node does not claim.** It does not say records should be discarded — a repeating failure repeating is itself information, and the count of instances is part of the finding. It says the queue presents that information in the one shape an operator cannot act on. Nor does it propose which of the four routes is right; that is ideation, and none has happened here.
 
 **Provenance and rung.** Six transcript bodies plus the sweep response that listed them, all from this vault's own unattended firings — `observed`, being a mechanical recording of the agent's own usage. It grounds usability, not desirability: it is evidence that the surface is hard to work with, not evidence that anyone outside this project wants it fixed. No test was run and no result is recorded.
+
+## 2026-08-30 — the same question asked of all 500 records instead of six, and the answer holds
+
+The section above answers this node's question on six bodies read from the head of the queue, and says plainly that the tail is not visible from that surface. It is visible by grep. This pass counted every `TRANSCRIPT_*.md` record the vault holds, so the ratio the six-record sample suggested now has a corpus behind it.
+
+**The corpus.** 500 transcript records (474 of them still unmapped). **1,195 `tool_error` events** across 426 records, and **815 `retry` events** across 384 — 2,010 friction events in all.
+
+**Eight signatures account for two-thirds of every tool error in the corpus.** Shares are of the 1,195; the second figure is how many distinct records carry the signature.
+
+| Signature | Events | Share | Records |
+|---|---|---|---|
+| `File has not been read yet` | 416 | 34.8% | 221 |
+| `requested permissions to read from <path>` | 130 | 10.9% | 110 |
+| `requested permissions to use mcp__…` | 91 | 7.6% | 29 |
+| `No such file or directory` | 63 | 5.3% | 55 |
+| `InputValidationError` | 46 | 3.8% | 38 |
+| `String to replace not found in file` | 21 | 1.8% | 17 |
+| `Monitor` refusing a composite command | 8 | 0.7% | 4 |
+| tool exists but is not enabled in this context | 8 | 0.7% | 7 |
+| **these eight together** | **783** | **65.5%** | — |
+
+**What that settles.** The reading this node put as its second option — a handful of failures repeating several hundred times — is the one the corpus supports, and by a wider margin than the six-record sample could show. One signature is a third of everything. Two permission signatures together are another 18.5%, and the withheld-tool one is remarkable for its shape: 91 events across just 29 records, so it is not a common failure but a concentrated one, which is this node's point in miniature — a queue counting records ranks it eighth, a queue counting problems ranks it third.
+
+**The honest limit, stated as a number rather than a caveat.** The eight leave **412 events (34.5%) untriaged**. Nothing here shows that remainder is diverse; it was simply not grepped for, and a longer signature list would very likely absorb more of it. So 65.5% is a floor on the concentration, not an estimate of it, and the direction of the error is known: further counting can only make the queue look more repetitive, never less.
+
+**One figure that bears on the sibling branch rather than this one.** Retries are 815 of the 2,010 friction events — **40.6%** — and the branch on self-manufactured records establishes that the bulk of those are the loop's own prescribed no-argument pair. That is consistent with the 12% whole-record figure recorded there and does not overlap this count, which is confined to `tool_error`.
+
+**What this does not settle, and it is the thing that decides between the four routes.** Signature identity is not problem identity. `No such file or directory` at 63 events is one string covering many unrelated missing files, while `File has not been read yet` at 416 is plausibly one problem — and no grep can tell those apart, because deciding that two errors are the same problem is a judgement. That is exactly the split the candidate "Signatures extracted automatically, the decision that two errors are one problem left to the operator" draws, and this census is evidence for the extraction half being cheap and mechanical, not for the judgement half being automatable.
+
+_Method: greps of every `TRANSCRIPT_*.md` in this vault's evidence folder, counted corpus-wide, 2026-08-30. Observed behaviour of this product's own agent, captured mechanically with no narrator; it grounds usability, not demand. The records counted stay listed as unmapped evidence — counting them does not map them. No test was run, no result recorded, and this node's rung is unchanged._
