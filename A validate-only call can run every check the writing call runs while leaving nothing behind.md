@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A validate-only call names every objection the writing call would, and leaves the vault byte-identical]]
 
 **The belief, stated so it could be false:** the checks a mutating tool runs can be executed in full without any of them producing a side effect, so a `validate: true` call returns the same objections a real call would and leaves no node file, no commit, and no ledger line.
 
