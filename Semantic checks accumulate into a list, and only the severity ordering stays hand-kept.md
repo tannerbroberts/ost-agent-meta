@@ -27,3 +27,19 @@ What stays manual is the **order they print in**, and that is the interesting ha
 **Honest note on how this was ideated.** The sweep asks for one blind ideator per dimension. This surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"A call carrying three semantic defects is refused once, naming all three, with no check throwing"
+
+```
+npx vitest run test/mcp/semantic-problems-accumulate.test.ts
+```
+
+The bar: at least 3 of 3 defects named in a single refusal, and exactly 0 checks throwing on already-rejected input. The spec does not exist yet, so the command files as `no-spec` rather than a genuine red. The test node carries the four assertions and names `test/mcp/tool-input-validation.test.ts` as the template.
+
+**The fourth assertion is the actual work.** Reporting all three defects is the easy part; making every semantic check safe to run after an earlier one has already failed is the per-check rework this candidate's own prose admits to, and it is what the spec's assertion 4 pins.
+
+**What this command does not settle:** whether multi-defect calls are common enough to justify the rework. Two sessions are on record and no census exists. It is also silent on whether the hand-kept severity ranking stays current, which is a question about a person.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
