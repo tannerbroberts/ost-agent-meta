@@ -73,3 +73,27 @@ So the three candidates fail in three different amounts, and none of them clears
 **Limits, stated so this is not over-read.** Ten of the twenty-five shown, of sixty-nine total — the 25 are the unfiltered head ordered by id, not a random sample, which is the defect "An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target" names. The 44 entries past the cap were unreachable from this surface and may contain genuinely instrumentable solutions; nothing here claims otherwise. Ten of ten is a strong signal about the head and not a proof about the tail. Two of the four kinds were established by reading the solution's prose rather than its test's frontmatter, so the lane counts above are exact for the two tests read and inferred for the rest.
 
 _Source: first-party `ost_read_tree` reads of ten Solution nodes, two Assumption nodes and two AssumptionTest nodes, plus `ost_read_repo` on `src/eval/buildable.ts`. Observed behaviour of this product; grounds usability, not desirability. No test was run and no result is recorded._
+
+## The tail this node called unreachable, counted over all 491 tests (2026-08-30)
+
+The census above states its own limit plainly: ten of the twenty-five shown, of sixty-nine, with "the 44 entries past the cap were unreachable from this surface." That limit is now closed — not by paging the bucket, which no tool on this surface can do, but by counting the frontmatter of every AssumptionTest in the vault directly. The numbers below are whole-tree, not a sample, and they bound all three candidates rather than describing the head.
+
+**The counts.**
+
+- **491 AssumptionTest nodes** in the vault.
+- **358 of them carry an `instrument:` field.** So **133 do not** — and only an instrument-less test can put a solution in this bucket.
+- **60 carry `lane: humans-required` in frontmatter.** All 60 are AssumptionTests.
+- **The overlap is exactly zero.** No node in the vault carries both an instrument and the humans-required lane, which is the write boundary holding as documented rather than as claimed.
+- Therefore **73 instrument-less tests carry no explicit lane at all.**
+
+**What that does to the three candidates, in one line each.**
+
+- **The lane filter** can reach at most **60 tests**, and only if each is the sole test beneath a distinct bucket solution — an upper bound, not an estimate, and the true figure is lower wherever two laned tests share a parent. Against a 69-entry bucket that ceiling is close enough to look like a fix and cannot be one, because of the next line.
+- **73 instrument-less tests are invisible to every lane-based candidate.** Nothing labelled them. The 10-of-25 census inferred this from two tests read directly; it holds across the whole tree, and it is the reason a lane check alone was never going to empty the bucket. The routing candidate inherits the same ceiling: it can only route what carries a label.
+- **The lane audit** is bounded by a subset of the 60 — those whose lane a human's `ost-agent lane --set` recorded in History rather than an agent's `humansRequired:` argument at creation. Both lanes read directly by the earlier census were agent-set, so this candidate's reach is somewhere between zero and 60 and is not established by this count.
+
+**Why the 73 is the load-bearing number, and it points somewhere none of the three candidates go.** A test with neither an instrument nor a lane is a question with no runnable form and nobody assigned — it cannot be filtered out honestly, because nothing on it says a person is needed, and it cannot be run, because nothing on it says how. That is the population the ruleset calls debt, and it is larger than the labelled population by a fifth. A fourth candidate is missing from this node: label them, which needs `ost_flag_humans_required` on the unattended surface — a permission decision, not a build, and the operator's alone.
+
+**Limits, stated so this is not over-read.** These are file-level frontmatter counts taken with a read-only grep over the vault's own Markdown, not a walk of the tree, so they say nothing about which solution each test hangs under — the mapping from 60 laned tests to bucket entries is bounded above and not computed. Six files match `^instrument:` without matching as an AssumptionTest within the frontmatter window scanned; they are excluded from the 358, so the instrument-less figure of 133 is an upper bound and the 73 with it. And a count of labels is not a judgement about whether any label is correct — this node has never claimed the 69 are all correctly decided, and this section does not either.
+
+_Method: read-only `Grep` over `*.md` in the vault root, matching frontmatter fields, plus the `ost_next_work` totals for the bucket size. Observed structure of this product's own vault; grounds usability, not desirability. No test was run, no rung moved, and no result is recorded._
