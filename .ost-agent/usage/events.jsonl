@@ -7406,3 +7406,4 @@
 {"ts":"2026-08-30T07:36:42.974Z","tool":"ost_read_tree","ok":true,"ms":98,"surface":"mcp","argBytes":98,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
 {"ts":"2026-08-30T07:47:58.388Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":83,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
 {"ts":"2026-08-30T07:48:28.161Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3188,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56","touched":["I have a tree full of unvalidated nodes and no idea which one to pick up.md"]}
+{"ts":"2026-08-30T07:48:30.497Z","tool":"ost_ingest_inbox","ok":true,"ms":9,"surface":"mcp","argBytes":2,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
