@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Show one operator the grouped queue and the record listing, and record which one they act from]]
 
 **The belief, stated so it could be false.** An operator (or a firing) shown "463 records, 5 distinct signatures" treats that as five pieces of work and acts on them, rather than treating the grouping as a summary to be verified and going back to the individual records anyway.
 
