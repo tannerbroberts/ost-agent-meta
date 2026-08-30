@@ -29,3 +29,17 @@ authorship: machine
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author; this surface holds no grant to run independent parallel ideators. Discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"A lane written by the CLI and one written by an agent's creation argument are told apart from the node alone"
+
+```
+npx vitest run test/ost/human-set-lane-audit.test.ts
+```
+
+The bar, pre-committed: at least 1 human-set lane recognised and 0 agent-set lanes accepted. A single agent-set lane getting through refutes this candidate outright rather than calling for a tighter matcher. Run this one before choosing between the three siblings — it is where this candidate most likely dies, it costs one spec, and a refuted verdict here is the strongest argument for the filter sibling.
+
+The spec does not exist yet, so the command is red for the weak reason; the bound threshold above is what carries a builder across that gap.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
