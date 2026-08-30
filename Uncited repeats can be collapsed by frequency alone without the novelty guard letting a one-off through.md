@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Twenty old records sharing one uncited signature collapse, while the equally old novel singleton stays listed]]
 
 **The belief, stated so it could be false.** Redundancy can be established by a signature repeating inside the evidence store, with no node citing it, and the existing novelty guard still spares an item that occurs once.
 
