@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/security/injection-red-team.test.ts
+authorship: machine
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -22,3 +23,4 @@ _Proposal only — a human runs/reviews this. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/security/injection-red-team.test.ts` — No test files found, exiting with code 1
+- 2026-08-30 **green** (exit 0) `npx vitest run test/security/injection-red-team.test.ts` — ✓ MUTATION — the registration guard fail-closes on a surface that granted the demanded tools 309ms
