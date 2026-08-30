@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Schema patterns can reject everything the imperative checks reject, without widening what is accepted]]
 
 **Variation dimension: bought-vs-built. Position taken: the aggregation is adopted from outside as it is; only the wording adapter is built here.**
 
