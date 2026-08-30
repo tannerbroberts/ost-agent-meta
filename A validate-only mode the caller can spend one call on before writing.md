@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A validate-only call can run every check the writing call runs while leaving nothing behind]]
 
 **Variation dimension: who-does-the-work. Position taken: the agent carries it, by choosing to spend a cheap call it controls.**
 
