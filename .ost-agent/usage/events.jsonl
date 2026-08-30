@@ -7558,3 +7558,4 @@
 {"ts":"2026-08-30T19:08:04.291Z","tool":"ost_read_tree","ok":true,"ms":300,"surface":"mcp","argBytes":99,"session":"mcp-7bfc9975-544b-4d0b-95e2-7e3fd19a252c"}
 {"ts":"2026-08-30T19:08:31.890Z","tool":"ost_read_tree","ok":true,"ms":288,"surface":"mcp","argBytes":116,"session":"mcp-7bfc9975-544b-4d0b-95e2-7e3fd19a252c"}
 {"ts":"2026-08-30T19:09:22.656Z","tool":"ost_append_to_node","ok":true,"ms":3,"surface":"mcp","argBytes":3470,"session":"mcp-7bfc9975-544b-4d0b-95e2-7e3fd19a252c","touched":["A closed solution disposition clears the instrument bucket entry and names it under withheldByDisposition.md"]}
+{"ts":"2026-08-30T19:09:26.591Z","tool":"ost_ingest_inbox","ok":true,"ms":30,"surface":"mcp","argBytes":2,"session":"mcp-7bfc9975-544b-4d0b-95e2-7e3fd19a252c"}
