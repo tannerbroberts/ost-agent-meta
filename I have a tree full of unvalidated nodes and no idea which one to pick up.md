@@ -4,6 +4,7 @@ status: unvalidated
 source: 'RUNTIME:tetrix-ost@2328e61 (2026-07-24 14:37–16:46) — observed second instance'
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #ported-from-ost-agent-vault #evidence/assertion
 [[Show me the whole priority order, and why each item sits where it does]]
@@ -58,3 +59,23 @@ What a human should decide: whether under-served counts are worth clearing at al
 ## Supporting evidence — an operator said it out loud (2026-07-25)
 
 The provenance note above records that "no operator has said this out loud yet; it is inferred from an agent's self-diagnosis." That is no longer true. The founder, in conversation on 2026-07-25: "I want to be able to see a clearly prioritized list from top to bottom. Not just what is the highest leverage — but also, why." Still a founder source (non-external), so the rung is unchanged, but the need is now stated by a human rather than only inferred from vault shape. The statement also sharpened a facet the solutions here did not cover — a complete ordering with legible per-item rationale — captured as the child opportunity "Show me the whole priority order, and why each item sits where it does".
+
+## A second marker with the same defect, and this one was added to discriminate (2026-08-30)
+
+The opening quote on this node is about `unvalidated`: forty nodes all carrying one label, and no way to choose between them. That framing treats the problem as a side effect — `unvalidated` is a *status*, and its being near-universal is a consequence of nothing having been promoted. The authorship field is the same defect in a field whose entire purpose was to tell nodes apart, and it is worth recording because it shows the failure is not incidental to this one status value.
+
+**Read off `ost-agent rollup` this pass**, over 1556 nodes:
+
+- `0` carry human-written prose
+- `164` are labelled machine-only
+- `1392` are unlabelled, having been written before authorship was recorded
+
+The rollup states the consequence in its own words: *every one of those 164 labelled nodes reads the same — a marker true of all of them is not telling a reader which is which.*
+
+**Why this is worse than the `unvalidated` case rather than another example of it.** A status that is universally `unvalidated` is at least *accurate*, and it becomes informative the moment a human promotes something — the mechanism to differentiate exists and simply has not fired. Authorship has no such path from here. It partitions the tree into "machine" and "not yet asked", and the second class is 89% of the tree and shrinks only if someone relabels 1392 nodes by hand. A reader wanting to know which claims a person actually stood behind gets the same answer on every node they check, and will stop checking — which is precisely the "builder would pick by scroll position" behaviour this node already records, arriving through a different field.
+
+**What it implies for the solutions beneath this node, stated as a caution rather than a ranking.** All three children — leverage ranking, prerequisite edges, a standing next-build node — are ordering mechanisms that read node attributes. An attribute that is constant across the corpus cannot contribute to any ordering built on it, so authorship is not available as an input to any of them today, however sensible it looks in a schema. Whoever designs the ordering should check which fields are actually varying before conditioning on them; this tree currently has fewer discriminating fields than its schema suggests.
+
+**Not proposed, and deliberately so.** The obvious repair — backfill authorship across 1392 nodes — is a bulk rewrite of provenance on claims nobody has re-read, which is the sort of thing that makes a field *look* informative without anyone having actually stood behind the nodes it now credits. That is a human's call about their own attribution, not an unattended pass's, and it is not recommended here either way.
+
+_Source: the `ost-agent rollup` output this firing was given, computed from the nodes rather than summarised by anyone. Observed property of this vault's own artifact; grounds usability, not desirability. No test was run, no result is recorded, and this node's rung is unchanged at `assertion`._

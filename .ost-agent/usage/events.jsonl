@@ -7401,3 +7401,8 @@
 {"ts":"2026-08-30T07:03:30.003Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":120,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
 {"ts":"2026-08-30T07:19:43.350Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4115,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56","touched":["Conditions that expire are more often genuinely slow than never going to be true.md"]}
 {"ts":"2026-08-30T07:36:30.072Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1941,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56","touched":["A background task's own output directory is automatically readable by the Monitor call that started it.md"]}
+{"ts":"2026-08-30T07:36:42.124Z","tool":"ost_read_tree","ok":true,"ms":95,"surface":"mcp","argBytes":50,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
+{"ts":"2026-08-30T07:36:42.782Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":79,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
+{"ts":"2026-08-30T07:36:42.974Z","tool":"ost_read_tree","ok":true,"ms":98,"surface":"mcp","argBytes":98,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
+{"ts":"2026-08-30T07:47:58.388Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":83,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56"}
+{"ts":"2026-08-30T07:48:28.161Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3188,"session":"mcp-9651eb92-d1e1-4758-91c9-2b7d22bf9a56","touched":["I have a tree full of unvalidated nodes and no idea which one to pick up.md"]}
