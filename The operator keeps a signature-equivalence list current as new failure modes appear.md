@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Count from git history how many hand-held vault artifacts the operator has amended more than once]]
 
 **The belief, stated so it could be false.** The one person who can judge whether two errors are the same problem will keep doing so, month after month, as new failure modes appear.
 
