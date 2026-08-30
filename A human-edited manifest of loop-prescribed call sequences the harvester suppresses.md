@@ -102,3 +102,12 @@ Kept short, per this node's own convention. Only what is new.
 **Limits of this count, stated so it is not over-read.** The 25 are the unfiltered head of 464, ordered by id, not a random sample — the very defect the sibling window candidate names. So this is a census of the head, and the head may not represent the tail. 4 of the 22 retry-carrying records were opened; the other 18 are inferred from their event tallies and could contain argument-carrying repeats, which this node already establishes can be genuine signal. No test was run and no result is recorded.
 
 _Source: this pass's own `ost_next_work` sweep response and four evidence bodies served by it. Observed behaviour of this product; grounds usability, not desirability._
+
+## 2026-08-30 — one qualification to the count above, from a fifth body read
+
+Two more records were opened after the section above was written, and one of them cuts against it. Recording it here rather than leaving the number to be read as cleaner than it is.
+
+- **Supporting.** `030e5db3` carries 5 `retry` events and every one is the prescribed no-argument pair — `ost_ingest_inbox` ×3, `ost_next_work` ×2. The highest retry count in the sample is entirely the generator. Its 4 `tool_error`s are all permission denials on tools withheld from that firing (`ost_flag_humans_required`, `ost_check`, `ost_status`, and a `Glob` read grant on the product repo).
+- **Qualifying.** `09ec7cd2` carries a `retry` on `Write` with a full argument payload — a genuine repeat of a real write to the build loop's report file, not procedure. So the corpus does contain argument-carrying repeats that must not be suppressed, exactly as this node's own "must-not-suppress" caveat predicts. The claim above should read **5 of 6 sampled retry-sets were prescribed-only**, not 4 of 4 with the rest inferred.
+
+Nothing else about this node changed, and the 12% whole-record figure is unaffected — `09ec7cd2` was already counted on the genuine-signal side.
