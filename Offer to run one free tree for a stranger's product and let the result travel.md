@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[A recipient of a free tree cares enough to show it to someone else]]
@@ -19,3 +20,6 @@ Approaching teams and interpreting what they say is a human's work. No pass may 
 
 ## History
 - 2026-08-05 unlinked "Deliver three free trees and count how many the recipient shows to someone else" — moved under "A recipient of a free tree cares enough to show it to someone else" — the belief this test measures now has a node of its own
+
+## Issues
+- 2026-08-31 2026-08-31 unattended sweep, repo sight held: examined for a missing instrument and deliberately left without one. Recording the examination because this node carried no prior note and would otherwise be re-read from scratch by every firing that meets it in solutionsMissingInstruments. The belief beneath it, "A recipient of a free tree cares enough to show it to someone else", is a market belief about strangers, and the node's own closing line already states it ("Approaching teams and interpreting what they say is a human's work. No pass may do it or record its result"). That self-declaration is in prose only and no queue reads prose, which is why the entry kept returning. What a human should do: set the lane with `ost-agent lane --set`, since ost_flag_humans_required is withheld on the unattended surface. Not a skipped step.
