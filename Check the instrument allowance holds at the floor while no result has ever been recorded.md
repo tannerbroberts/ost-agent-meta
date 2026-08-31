@@ -7,6 +7,7 @@ threshold: >-
   instrument calls are refused with a reason naming the shortage; each recorded
   result raises the allowance in proportion.
 instrument: npx vitest run test/ost/instrument-rationing.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,3 +23,4 @@ instrument: npx vitest run test/ost/instrument-rationing.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/instrument-rationing.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/ost/instrument-rationing.test.ts` — Duration  681ms (transform 245ms, setup 0ms, collect 391ms, tests 60ms, environment 0ms, prepare 39ms)
