@@ -4,6 +4,7 @@ source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
 instrument: npx vitest run test/runner/flake-attribution.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -28,3 +29,4 @@ instrument: npx vitest run test/runner/flake-attribution.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/runner/flake-attribution.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/runner/flake-attribution.test.ts` — Duration  7.24s (transform 96ms, setup 0ms, collect 144ms, tests 6.86s, environment 0ms, prepare 28ms)
