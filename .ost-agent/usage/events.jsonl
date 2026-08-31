@@ -7756,3 +7756,28 @@
 {"ts":"2026-08-31T01:11:11.838Z","tool":"ost_edit_node","ok":true,"ms":1,"surface":"mcp","argBytes":3684,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91","touched":["Head plus the slice at the returned offset reconstructs a redacted over-cap file byte for byte.md"]}
 {"ts":"2026-08-31T01:11:24.180Z","tool":"ost_edit_node","ok":true,"ms":1,"surface":"mcp","argBytes":3579,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91","touched":["Every windowed read names its counting unit, and a limit is honoured in that unit rather than silently reinterpreted.md"]}
 {"ts":"2026-08-31T02:12:17.209Z","tool":"ost_ingest_inbox","ok":true,"ms":25,"surface":"mcp","argBytes":2,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:12:18.912Z","tool":"ost_next_work","ok":true,"ms":139,"surface":"mcp","argBytes":2,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:12:33.937Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:12:42.903Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":108,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:12:51.257Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:12:53.018Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:12:53.102Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":14,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:12:58.123Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":85,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:00.221Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":100,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:24.788Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:25.421Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:26.013Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":22,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:26.100Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:41.285Z","tool":"ost_read_tree","ok":true,"ms":211,"surface":"mcp","argBytes":113,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:41.963Z","tool":"ost_read_tree","ok":true,"ms":224,"surface":"mcp","argBytes":86,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:42.688Z","tool":"ost_read_tree","ok":true,"ms":217,"surface":"mcp","argBytes":100,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:13:43.138Z","tool":"ost_read_tree","ok":true,"ms":207,"surface":"mcp","argBytes":127,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:14:01.388Z","tool":"ost_read_tree","ok":true,"ms":212,"surface":"mcp","argBytes":64,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:14:02.091Z","tool":"ost_read_tree","ok":true,"ms":226,"surface":"mcp","argBytes":93,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:14:02.809Z","tool":"ost_read_tree","ok":true,"ms":210,"surface":"mcp","argBytes":50,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:14:03.278Z","tool":"ost_read_tree","ok":true,"ms":226,"surface":"mcp","argBytes":100,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:14:14.126Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:14:14.458Z","tool":"ost_read_tree","ok":true,"ms":193,"surface":"mcp","argBytes":93,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:14:34.883Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":33,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:14:35.116Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":33,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf"}
+{"ts":"2026-08-31T02:16:27.099Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"mcp","argBytes":4516,"session":"mcp-c27f8241-7d6e-4f93-b0e4-992b9c7237cf","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
