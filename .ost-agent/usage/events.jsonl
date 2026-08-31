@@ -7748,3 +7748,5 @@
 {"ts":"2026-08-31T01:09:17.054Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":1022,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91","touched":["An over-cap read returns the head and the offset that fetches the rest, instead of refusing.md"]}
 {"ts":"2026-08-31T01:09:22.651Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1129,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91","touched":["Adopt the harness's own offset and limit protocol across every reader here, and build only the adapter.md"]}
 {"ts":"2026-08-31T01:09:24.118Z","tool":"ost_ingest_inbox","ok":true,"ms":10,"surface":"mcp","argBytes":2,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
+{"ts":"2026-08-31T01:09:25.515Z","tool":"ost_next_work","ok":true,"ms":195,"surface":"mcp","argBytes":2,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
+{"ts":"2026-08-31T01:10:02.756Z","tool":"ost_edit_node","ok":true,"ms":1,"surface":"mcp","argBytes":3103,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91","touched":["A listing of a directory past the entry cap reports a size for every entry it returns and stats no more than the cap.md"]}
