@@ -7929,3 +7929,4 @@
 {"ts":"2026-08-31T08:55:07.540Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
 {"ts":"2026-08-31T08:55:55.708Z","tool":"ost_append_to_node","ok":true,"ms":4,"surface":"mcp","argBytes":4744,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747","touched":["Work I already finished keeps coming back in the queue, so the pass can never say it is done.md"]}
 {"ts":"2026-08-31T08:56:12.196Z","tool":"ost_annotate","ok":true,"ms":3,"surface":"mcp","argBytes":2213,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747","touched":["Test humans can promote while the agent is blocked from validating.md"]}
+{"ts":"2026-08-31T08:56:22.191Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1422,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747","touched":["Do the shipped sweeps actually find a planted instance.md"]}

@@ -2,6 +2,7 @@
 type: AssumptionTest
 created: '2026-07-27'
 evidence: assertion
+authorship: machine
 ---
 #AssumptionTest #evidence/assertion
 
@@ -65,3 +66,6 @@ working is how a check stops working.
 
 `test/eval/planted-instance.test.ts`, shipped in v0.20.0, with a negative control (a prose
 lane that AGREES with its label must not be reported).
+
+## Issues
+- 2026-08-31 2026-08-31 unattended sweep, repo sight held — recording why this node keeps surfacing as owing an instrument and cannot be given one. Its own Run section closes by naming what the run left behind: `test/eval/planted-instance.test.ts`, shipped in v0.20.0. That file was confirmed present in the repository this pass via `ost_read_repo`. So a command answering this test exists and is GREEN, and the ruleset forbids setting it: an instrument must fail against the repository today, and one that passes on arrival measures nothing. The question was answered — 12 plants, 12 found, threshold not crossed — and the answer is in prose rather than in a `## Results` block, which is the only reason any analysis still counts it outstanding. Note also that this node declares **Lane: compute-only** in its own text while carrying no `lane:` frontmatter field, so the fail-closed lane reader counts it as needing a person while its prose says compute may run it. For a human, either would drain it: `ost-agent result` to record the 12-of-12 verdict, or `ost-agent lane --set` to make the declared lane a field. Neither call is on the unattended surface. Counted as one of four of this shape under "Work I already finished keeps coming back in the queue, so the pass can never say it is done". No instrument was set, no rung moved, nothing re-run.
