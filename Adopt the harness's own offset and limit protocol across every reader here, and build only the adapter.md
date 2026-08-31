@@ -29,3 +29,15 @@ The harness already defines a sizing and pagination contract, and states it in t
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author; this surface holds no grant to run independent parallel ideators. Discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"Every windowed read names its counting unit, and a limit is honoured in that unit rather than silently reinterpreted"
+
+```
+npx vitest run test/product/repo.test.ts
+```
+
+Bar: zero windowed responses omit the `unit` field — asserted on the truncated, untruncated and windowed cases alike, so the field cannot be present only where it is convenient. The title is quoted rather than wikilinked because its one backlink belongs to its parent assumption.
+
+**This command does not settle the candidate, and here it settles the smaller half.** It shows this product can speak the borrowed contract honestly in its own units. It cannot detect the failure this candidate's kill criterion is written against — the harness changing the contract underneath it — which needs a person watching an upstream. That second assumption is named on the parent assumption node and deliberately not written as a node here, because this surface holds no call that could label its lane.
