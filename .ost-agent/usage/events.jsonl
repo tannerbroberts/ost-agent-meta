@@ -7900,3 +7900,4 @@
 {"ts":"2026-08-31T07:45:23.572Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-e6b200a2-0f8e-435a-94b3-34e6ab5721ba"}
 {"ts":"2026-08-31T07:45:49.493Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":28,"session":"mcp-e6b200a2-0f8e-435a-94b3-34e6ab5721ba"}
 {"ts":"2026-08-31T07:46:49.897Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4901,"session":"mcp-e6b200a2-0f8e-435a-94b3-34e6ab5721ba","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
+{"ts":"2026-08-31T07:47:17.555Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":3251,"session":"mcp-e6b200a2-0f8e-435a-94b3-34e6ab5721ba","touched":["My tests carry thresholds nobody ever fixed, so nothing can come out a failure.md"]}
