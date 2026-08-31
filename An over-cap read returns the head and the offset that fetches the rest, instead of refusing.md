@@ -10,6 +10,7 @@ killBy: '2026-11-30'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A truncated read can name the offset that resumes it, and the resumed read returns the remainder with no gap or overlap]]
 
 **Variation dimension: automated-vs-manual. Position taken: the truncation is automated and unconditional; what to do next stays entirely the reader's.**
 
