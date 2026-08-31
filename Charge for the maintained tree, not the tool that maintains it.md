@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[Teams will pay a monthly fee for an artefact whose best months look like its worst]]
@@ -19,3 +20,6 @@ Whether anyone would pay this, and how much, is a question for customers. Nothin
 
 ## History
 - 2026-08-05 unlinked "Offer a maintained tree at a stated monthly price to ten teams and count who asks for terms" — moved under "Teams will pay a monthly fee for an artefact whose best months look like its worst" — the belief this test measures now has a node of its own
+
+## Issues
+- 2026-08-31 2026-08-31 unattended sweep, repo sight held: examined for a missing instrument and deliberately left without one. Recording the examination because this node carried no prior note and would otherwise be re-read from scratch by every firing that meets it in solutionsMissingInstruments. The belief beneath it, "Teams will pay a monthly fee for an artefact whose best months look like its worst", is a pricing belief about strangers' money. No spec under this repository's test/ can go red for it: an exit code can prove a tree was kept current, and cannot observe whether anyone renewed — and the node's own closing line already says so ("Whether anyone would pay this, and how much, is a question for customers"). What a human should do: set the lane with `ost-agent lane --set`, since ost_flag_humans_required is withheld on the unattended surface. Not a skipped step.

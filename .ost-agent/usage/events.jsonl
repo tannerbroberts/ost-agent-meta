@@ -8111,3 +8111,4 @@
 {"ts":"2026-08-31T16:43:23.561Z","tool":"ost_read_tree","ok":true,"ms":91,"surface":"mcp","argBytes":68,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c"}
 {"ts":"2026-08-31T16:43:23.749Z","tool":"ost_read_tree","ok":true,"ms":96,"surface":"mcp","argBytes":49,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c"}
 {"ts":"2026-08-31T16:43:47.456Z","tool":"ost_annotate","ok":true,"ms":4,"surface":"mcp","argBytes":1063,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c","touched":["Concierge design-partner cohort.md"]}
+{"ts":"2026-08-31T16:43:51.018Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":961,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c","touched":["Charge for the maintained tree, not the tool that maintains it.md"]}
