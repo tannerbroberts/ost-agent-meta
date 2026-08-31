@@ -7961,3 +7961,4 @@
 {"ts":"2026-08-31T10:01:51.740Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":28,"session":"mcp-6326b98e-ff50-41c9-a002-b5a8252c9760"}
 {"ts":"2026-08-31T10:02:09.607Z","tool":"ost_read_tree","ok":true,"ms":227,"surface":"mcp","argBytes":78,"session":"mcp-6326b98e-ff50-41c9-a002-b5a8252c9760"}
 {"ts":"2026-08-31T10:02:39.651Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3528,"session":"mcp-6326b98e-ff50-41c9-a002-b5a8252c9760","touched":["An unmapped item ages out of the queue into a standing backlog line.md"]}
+{"ts":"2026-08-31T10:02:51.054Z","tool":"ost_append_to_node","ok":true,"ms":3,"surface":"mcp","argBytes":1390,"session":"mcp-6326b98e-ff50-41c9-a002-b5a8252c9760","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
