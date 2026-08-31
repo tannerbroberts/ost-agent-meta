@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Head plus the slice at the returned offset reconstructs a redacted over-cap file byte for byte]]
 
 **Kind: feasibility.**
 
