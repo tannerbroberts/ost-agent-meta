@@ -8141,3 +8141,4 @@
 {"ts":"2026-08-31T17:49:41.867Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":89,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
 {"ts":"2026-08-31T17:50:44.027Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2622,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
 {"ts":"2026-08-31T17:51:07.424Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":4131,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b","touched":["Two opportunities saying almost the same thing blur every comparison built on them.md"]}
+{"ts":"2026-08-31T17:51:09.453Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
