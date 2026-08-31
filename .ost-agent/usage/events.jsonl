@@ -8182,3 +8182,10 @@
 {"ts":"2026-08-31T20:02:51.856Z","tool":"ost_next_work","ok":true,"ms":101,"surface":"mcp","argBytes":62,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
 {"ts":"2026-08-31T20:02:52.309Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
 {"ts":"2026-08-31T20:05:12.531Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3253,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
+{"ts":"2026-08-31T20:05:22.772Z","tool":"ost_read_tree","ok":true,"ms":200,"surface":"mcp","argBytes":100,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T20:05:23.225Z","tool":"ost_read_tree","ok":true,"ms":225,"surface":"mcp","argBytes":79,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T20:06:29.244Z","tool":"ost_read_tree","ok":true,"ms":110,"surface":"mcp","argBytes":93,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T20:06:39.461Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T20:06:42.878Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T20:06:45.780Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":33,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T20:07:35.937Z","tool":"ost_append_to_node","ok":true,"ms":6,"surface":"mcp","argBytes":5034,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
