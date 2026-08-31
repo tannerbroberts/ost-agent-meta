@@ -29,3 +29,15 @@ A read that exceeds the cap never refuses. It returns the first cap's worth of c
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author; this surface holds no grant to run independent parallel ideators. Discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"Head plus the slice at the returned offset reconstructs a redacted over-cap file byte for byte"
+
+```
+npx vitest run test/product/repo.test.ts
+```
+
+Bar: zero characters dropped and zero repeated across the join. The test node states what the spec must assert, including the fixture requirement that a redaction straddle the cap — that is the assertion carrying the real risk, since the offset indexes redacted text whose length differs from the file's. The title is quoted rather than wikilinked because its one backlink belongs to its parent assumption.
+
+**This command does not settle the candidate.** It settles that resumption is mechanically sound. It says nothing about this candidate's stated main cost — a reader treating a truncated body as whole — and nothing about the harness `Read` that produced this branch's evidence, which is not in this repository.
