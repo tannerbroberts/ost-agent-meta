@@ -7807,3 +7807,17 @@
 {"ts":"2026-08-31T03:22:24.906Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-5e054116-1766-4fc7-97b0-26d7082ca1f7"}
 {"ts":"2026-08-31T03:22:26.346Z","tool":"ost_next_work","ok":true,"ms":122,"surface":"mcp","argBytes":2,"session":"mcp-5e054116-1766-4fc7-97b0-26d7082ca1f7"}
 {"ts":"2026-08-31T04:23:18.167Z","tool":"ost_ingest_inbox","ok":true,"ms":50,"surface":"mcp","argBytes":2,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:23:20.564Z","tool":"ost_next_work","ok":true,"ms":403,"surface":"mcp","argBytes":2,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:23:46.117Z","tool":"ost_read_tree","ok":true,"ms":217,"surface":"mcp","argBytes":108,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:24:19.505Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:24:24.757Z","tool":"ost_read_tree","ok":true,"ms":233,"surface":"mcp","argBytes":113,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:24:50.462Z","tool":"ost_read_tree","ok":true,"ms":189,"surface":"mcp","argBytes":93,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:25:06.357Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":64,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:25:15.320Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:25:25.428Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:25:45.285Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":93,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:25:58.032Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:26:27.095Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":48,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:26:32.054Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":35,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:26:37.331Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":50,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
+{"ts":"2026-08-31T04:27:16.916Z","tool":"ost_set_status","ok":true,"ms":3,"surface":"mcp","argBytes":2386,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa","touched":["Remote push optional and off by default.md"]}

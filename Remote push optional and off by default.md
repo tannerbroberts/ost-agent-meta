@@ -1,6 +1,6 @@
 ---
 type: Solution
-status: unvalidated
+status: shipped
 source: 'INBOX:2026-07-22-safety-requirement.md'
 created: '2026-07-25'
 evidence: assertion
@@ -20,6 +20,7 @@ _Addresses: "Fear the agent could take a destructive, irreversible action". Unva
 ## History
 - 2026-07-24 evidence: (none) → assertion — retro-labeled: sources are founder notes, the agent's own sessions, or model ideation — no external party involved; floor rung per the ladder's own rule
 - 2026-08-05 unlinked "Test do operators get value with remote push off" — moved under "Operators get real value with the vault staying entirely local" — the belief this test measures now has a node of its own
+- 2026-08-31 status: unvalidated → shipped — Both halves of this candidate's mechanism verified first-party this pass via ost_read_repo, reading each spec file in full rather than trusting the 2026-08-23 note that reported them. (1) The default is off: test/config/load.test.ts, in "parses the scaffolded default config and applies defaults", asserts expect(cfg.remote.enabled).toBe(false) with the comment "default: no push" on the line. (2) The agent surface cannot push even when the flag is on: test/release/outward-mutation.test.ts asserts ALLOWED_TOOL_NAMES minus MCP_TOOL_NAMES is exactly ["git_commit", "git_push"], drives every exposed tool with remote.enabled true and gitPush spied requiring zero pushes, and carries a positive control that fires git_push from the unfiltered tool set and asserts the spy records it — so the green is not vacuous. WHY THIS STATUS AND NOT ANOTHER, because three passes have left this node alone. The 2026-08-23 sweep reached the same finding and declined to act, giving as its reason that "promotion is a human's" and naming ost-agent promote. That conflates two different calls. Promotion clears the #unvalidated marker and is a human's, and it is NOT being done here: the marker stays on, so the desirability question beneath this node is still marked open. status: shipped is a claim about whether the code exists, which is precisely what was just read in two spec files. The bucket's own filter was built for this signal — trustsShippedStatus deliberately does not trust the bare field and audits for reasoning recorded in ## History, which is what this note is. NOT deferred, which would mean abandoned and would be false. WHAT REMAINS OPEN AND IS NOT TOUCHED BY THIS: the assumption beneath this node, "Operators get real value with the vault staying entirely local", is a desirability question no spec in test/ can answer; it needs real operators, its test carries lane: null, and ost_flag_humans_required is withheld on this surface, so a human should set the lane with ost-agent lane --set. LIMITS: the specs are reported as existing and asserting what is quoted, read this pass; they were NOT executed, no result is recorded, and no rung was moved. Grounds feasibility only. A human who disagrees that a verified-built mechanism warrants shipped should revert this — git holds it.
 
 ## Already shipped and pinned by passing specs — do not write an instrument here (unattended sweep, 2026-08-23)
 
