@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A listing of a directory past the entry cap reports a size for every entry it returns and stats no more than the cap]]
 
 **Kind: feasibility.**
 
