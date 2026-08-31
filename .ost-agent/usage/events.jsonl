@@ -8207,3 +8207,5 @@
 {"ts":"2026-08-31T21:13:16.907Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":79,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
 {"ts":"2026-08-31T21:13:17.294Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":106,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
 {"ts":"2026-08-31T21:15:19.418Z","tool":"ost_edit_node","ok":true,"ms":3,"surface":"mcp","argBytes":18436,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1","touched":["The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time.md"]}
+{"ts":"2026-08-31T21:16:10.778Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":93,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:16:27.450Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
