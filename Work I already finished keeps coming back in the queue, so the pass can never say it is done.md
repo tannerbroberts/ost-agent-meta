@@ -3,6 +3,7 @@ type: Opportunity
 source: 'agent-run:autonomous-loop-2026-08-06'
 created: '2026-08-06'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Drop shipped solutions from the instrument queue]]
@@ -118,3 +119,27 @@ Copy the line and the queue drops the solutions whose tests were explicitly labe
 **What this does not settle**, unchanged from the entry above: whether the operator wants the queue drained at all. One could argue a humans-required solution should stay visible as *owed evidence* while dropping out of *owed instrument* — which is an argument for splitting the bucket rather than filtering it, and is a design call. This record only fixes where the code is, what the two candidate repairs actually select, and which of them looks safe while being wrong.
 
 _Method: first-party reads of `src/eval/buildable.ts` and `src/knowledge/lanes.ts` in full via `ost_read_repo`; lane counts by `Grep` over the vault's own node files (`^lane:` — 50 matches, all `humans-required`); the two instances confirmed by `ost_read_tree` on the solutions and their tests. Nothing executed and no result recorded. Observed behaviour of this product's own code and stored nodes — grounds feasibility, silent on demand. Rung unchanged._
+
+## 2026-08-31 — the bucket censused whole rather than sampled, and a fourth class of already-finished work
+
+Kept short, per this node's convention. Only what is new.
+
+**Every sighting above rests on the 25 entries `ost_next_work` shows.** This pass counted the whole bucket from the vault's own frontmatter, so the denominator is no longer a sample of the head.
+
+- **494 AssumptionTests in the tree. 367 carry an `instrument:`. 60 carry a `lane:`. 67 carry neither.** Those 67 are the entire population behind the 68 solutions the sweep reports, and they were counted across the whole alphabet — 35 in A–H, 14 in I–R, 18 in S–Z — not off the shown page.
+- The 60 lanes are still **all `humans-required`**, ten more than the 50 this node's 2026-08-21 entry counted. `compute-only`, `one-command` and `pending-permission` remain at zero as fields.
+
+**The fourth class, which no entry here names.** The exclusions this node won are keyed to the SOLUTION's status — `shipped`, `deferred`. This class is keyed to the TEST's answeredness, and nothing reads it: **the question was already run and answered, and the answer lives in prose under a `## Run` heading.** Any honest command for such a test passes on arrival, so the bucket's own rule — red today, green when built — makes it unsatisfiable for exactly the reason this node's opening argument gives, but arrived at from the other end. Four instances, each read in full this pass:
+
+- "Do the shipped sweeps actually find a planted instance" — run 2026-07-27, **12 plants, 12 found, threshold not crossed**, and its own closing line records what it left behind: `test/eval/planted-instance.test.ts`, shipped in v0.20.0. Confirmed present this pass by `ost_read_repo`. An instrument naming it would be green.
+- "Does refusing a newline inside a wiki-link catch breaks nothing else catches" — run 2026-07-26 over 100 commits of both vaults; all three pre-committed bars cleared (soundness 0, catch 3 of 3, novelty 3 of 3). Its solution, "Refuse a wiki-link that contains a newline", is in this sweep's `solutionsAwaitingObservation`.
+- "Sweep both vault histories for writes that landed as undefined or empty" — run 2026-07-27 over 106 commits, 306 entries classified; assumption survived, and v0.18.0 shipped the consequence as a tripwire.
+- "Test humans can promote while the agent is blocked from validating" — not run, but its mechanical half is already covered green: `test/security/self-validation.test.ts` was read in full this pass and asserts both halves of that test's threshold — the agent refused `validated` at the schema, in `run`, and in both status enums; and `promoteNode` clearing the marker while the status stays. Only the usability half — five humans promoting without friction — is left, and it is a person's.
+
+**And a countable instance of the prose-versus-field lane gap this node already flagged.** Three of the four declare **`Lane: compute-only.`** in their own prose, in bold, in the form the ruleset prescribes. None carries a `lane:` field. So the fail-closed reader counts them as needing a person while their text says the opposite, and the one lane compute may run has been written by an author three times and recorded by the field zero times.
+
+**What this changes for a builder.** The lane filter this node argues for — copying `if (n.lane === CAUTIOUS_LANE) continue;` from `testsAwaitingVerification` — drops 60 of the 67. It does not touch these four, because their defect is not an unread label but an unread answer. Draining them needs either the prose-declared lane promoted to a field (a human's `ost-agent lane --set`, or a reader for the bold declaration) or the run recorded as a result (a human's `ost-agent result`). Neither is available to an unattended pass, which is why four passes in a row have read them and left them.
+
+**What this does not settle.** Whether the operator wants the queue drained at all — unchanged, and the caveat above still stands. Nor whether the four runs were correctly reasoned; this pass read their recorded numbers and did not re-run anything.
+
+_Method: `Grep` over the vault's own frontmatter for `^type: AssumptionTest`, `^instrument:` and `^lane:` across three alphabet slices (494 / 367 / 60, reconciling to 67); four test bodies read in full; `test/security/self-validation.test.ts`, `test/ost/mutate.test.ts` and the `test/eval` listing read via `ost_read_repo`. Nothing executed, no rung moved, no instrument set, no status changed. Observed behaviour of this product's own tooling — grounds feasibility, silent on demand._

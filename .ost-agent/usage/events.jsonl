@@ -7904,3 +7904,27 @@
 {"ts":"2026-08-31T07:47:19.904Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-e6b200a2-0f8e-435a-94b3-34e6ab5721ba"}
 {"ts":"2026-08-31T07:47:21.874Z","tool":"ost_next_work","ok":true,"ms":391,"surface":"mcp","argBytes":2,"session":"mcp-e6b200a2-0f8e-435a-94b3-34e6ab5721ba"}
 {"ts":"2026-08-31T08:48:25.318Z","tool":"ost_ingest_inbox","ok":true,"ms":54,"surface":"mcp","argBytes":2,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:48:27.457Z","tool":"ost_next_work","ok":true,"ms":381,"surface":"mcp","argBytes":2,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:48:49.293Z","tool":"ost_next_work","ok":true,"ms":42,"surface":"mcp","argBytes":62,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:48:53.559Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:49:03.619Z","tool":"ost_read_tree","ok":true,"ms":229,"surface":"mcp","argBytes":2,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:49:27.417Z","tool":"ost_next_work","ok":true,"ms":40,"surface":"mcp","argBytes":62,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:49:28.185Z","tool":"ost_next_work","ok":true,"ms":42,"surface":"mcp","argBytes":62,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:49:40.686Z","tool":"ost_read_tree","ok":true,"ms":209,"surface":"mcp","argBytes":108,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:50:03.591Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:50:18.986Z","tool":"ost_read_tree","ok":true,"ms":181,"surface":"mcp","argBytes":86,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:50:19.381Z","tool":"ost_read_tree","ok":true,"ms":204,"surface":"mcp","argBytes":113,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:50:44.759Z","tool":"ost_read_tree","ok":true,"ms":179,"surface":"mcp","argBytes":93,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:50:45.138Z","tool":"ost_read_tree","ok":true,"ms":165,"surface":"mcp","argBytes":100,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:15.925Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":22,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:16.176Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:18.799Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:19.090Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:24.678Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":47,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:24.896Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:26.860Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":34,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:35.884Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:36.107Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":48,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:53:40.093Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":48,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:55:07.540Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747"}
+{"ts":"2026-08-31T08:55:55.708Z","tool":"ost_append_to_node","ok":true,"ms":4,"surface":"mcp","argBytes":4744,"session":"mcp-8f785045-074b-4552-a67a-1306bf2b0747","touched":["Work I already finished keeps coming back in the queue, so the pass can never say it is done.md"]}
