@@ -8016,3 +8016,5 @@
 {"ts":"2026-08-31T12:13:08.006Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-0404ee2f-54b4-4c96-8153-48ab6b8bf874"}
 {"ts":"2026-08-31T12:13:48.526Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4150,"session":"mcp-0404ee2f-54b4-4c96-8153-48ab6b8bf874","touched":["My tests carry thresholds nobody ever fixed, so nothing can come out a failure.md"]}
 {"ts":"2026-08-31T12:13:57.687Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-0404ee2f-54b4-4c96-8153-48ab6b8bf874"}
+{"ts":"2026-08-31T12:13:59.301Z","tool":"ost_next_work","ok":true,"ms":126,"surface":"mcp","argBytes":2,"session":"mcp-0404ee2f-54b4-4c96-8153-48ab6b8bf874"}
+{"ts":"2026-08-31T13:14:50.417Z","tool":"ost_ingest_inbox","ok":true,"ms":102,"surface":"mcp","argBytes":2,"session":"mcp-94edf6e0-fd79-488e-b7e2-5f235105cd08"}
