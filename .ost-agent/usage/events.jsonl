@@ -8040,3 +8040,4 @@
 {"ts":"2026-08-31T13:18:49.795Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":78,"session":"mcp-94edf6e0-fd79-488e-b7e2-5f235105cd08"}
 {"ts":"2026-08-31T13:19:11.336Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-94edf6e0-fd79-488e-b7e2-5f235105cd08"}
 {"ts":"2026-08-31T13:19:30.445Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-94edf6e0-fd79-488e-b7e2-5f235105cd08"}
+{"ts":"2026-08-31T14:22:08.181Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-0f2009d0-83b4-4a96-8ead-fda3832fb5a5"}
