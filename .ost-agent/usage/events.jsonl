@@ -8193,3 +8193,17 @@
 {"ts":"2026-08-31T20:07:52.583Z","tool":"ost_next_work","ok":true,"ms":38,"surface":"mcp","argBytes":62,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
 {"ts":"2026-08-31T20:08:00.576Z","tool":"ost_next_work","ok":true,"ms":309,"surface":"mcp","argBytes":2,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
 {"ts":"2026-08-31T21:10:32.644Z","tool":"ost_ingest_inbox","ok":true,"ms":106,"surface":"mcp","argBytes":2,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:10:34.186Z","tool":"ost_next_work","ok":true,"ms":138,"surface":"mcp","argBytes":2,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:11:29.754Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:11:32.773Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":108,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:11:46.837Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":86,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:11:47.263Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":113,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:12:03.156Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":105,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:12:03.318Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":93,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:12:17.111Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":64,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:12:17.278Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":100,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:12:35.408Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:12:35.826Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:13:16.907Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":79,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:13:17.294Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":106,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
+{"ts":"2026-08-31T21:15:19.418Z","tool":"ost_edit_node","ok":true,"ms":3,"surface":"mcp","argBytes":18436,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1","touched":["The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time.md"]}
