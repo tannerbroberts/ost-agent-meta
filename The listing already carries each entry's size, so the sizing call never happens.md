@@ -11,6 +11,7 @@ killBy: '2026-11-30'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A listing can carry every entry's size without a second call and without unbounded stat cost]]
 
 **Variation dimension: who-does-the-work. Position taken: nobody — the step is removed rather than assigned.**
 
