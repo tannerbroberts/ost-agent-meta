@@ -7,6 +7,7 @@ threshold: >-
   One expiry period exists that fires after every recorded flake was resolved
   and before it was forgotten, with zero firings against an unresolved flake.
 instrument: npx vitest run test/telemetry/quarantine-expiry-period.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ The mechanism is not the risk here — an expiry date is trivial to implement. T
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/quarantine-expiry-period.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/telemetry/quarantine-expiry-period.test.ts` — Duration  276ms (transform 26ms, setup 0ms, collect 23ms, tests 3ms, environment 0ms, prepare 38ms)
