@@ -30,3 +30,15 @@ A reader already calls the listing before it calls the read; that is how it lear
 **Honest note on how this was ideated.** The sweep asks for one blind ideator per dimension. This surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-30; a human to review.
+
+## Definition of done
+
+"A listing of a directory past the entry cap reports a size for every entry it returns and stats no more than the cap"
+
+```
+npx vitest run test/product/repo.test.ts
+```
+
+Bar: zero file entries missing `bytes`, and at most 500 stat calls per listing. The test node states the three assertions the spec must carry; the spec is the deliverable, and the command is only where it goes. The title is quoted rather than wikilinked because its one backlink belongs to its parent assumption.
+
+**This command does not settle the candidate.** It settles that the size can be carried cheaply. Whether a reader shown a size stops issuing over-cap reads is usability, no exit code observes it, and it is the bet this candidate actually rests on.
