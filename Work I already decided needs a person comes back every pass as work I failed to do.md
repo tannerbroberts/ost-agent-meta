@@ -152,3 +152,21 @@ Kept short, per this node's convention. Only what is new — and what is new is 
 **Limits, stated so this is not over-read.** Read off the source, not observed by running anything: `src/eval/buildable.ts`, `src/eval/coverage.ts` and `src/ost/legacy-fallback.ts` were each read in full (`"truncated": false`) via `ost_read_repo`. No spec was executed, no rung moved, no status changed, no instrument set. It does not claim any particular solution in this vault is under-covered — only that if one were, nothing here would say so. And it says nothing about desirability: this is observed structure of the product, which grounds feasibility.
 
 _Source: first-party `ost_read_repo` reads of the three modules named above, plus the whole-tree test counts already recorded on this node. Grounds feasibility, not desirability. No test was run and no result is recorded._
+
+## A fifth kind, and the sampling rule that guaranteed it stayed unexamined (2026-08-31)
+
+Kept short, per this node's convention. Only what is new, and it is a selection effect rather than another count.
+
+**The kind.** The four kinds this node names are humans-required belief, subject-outside-the-repo, already-built, and superseded-premise. Five head entries read in full this pass fit none of them cleanly: "Concierge design-partner cohort", "Charge for the maintained tree, not the tool that maintains it", "Charge nothing for the tool and sell the discovery engagement it produces", "Instrumented public trial with a willingness-to-pay probe", "Continuous story-based interview habit". Their beliefs are about strangers in a market — will a team hand over real evidence, will anyone renew, will anyone pay first, will anyone reply to recruiting. The humans-required kind is a person answering a question *about this product*; this kind has **no artefact inside the building at all**, so it is not that a spec would be dishonest, it is that there is nothing for a spec to point at.
+
+**The selection effect, which is the finding.** All five carried **no examination note of any kind** before this pass, while nearly every other head entry carried one. That is not coincidence. The censuses above state their own sampling rule in their own words — the head was worked "by which titles looked most likely to be repo-answerable", "deliberately biased *towards* finding instrumentable entries". A rule that opens the plausibly-instrumentable first leaves exactly the never-instrumentable unopened, so **the stratum with the most certain and cheapest answer is the one that has been re-derived on every pass.** The re-derivation cost this node exists to name is concentrated where examination costs least.
+
+**Corroborating detail, checkable.** All five are the oldest stratum in the bucket: `source: agent:P3_ideate` or no source at all, with History lines dated 2026-07-24 and 2026-08-05. They have sat in this bucket for roughly five weeks of firings without one of them being opened.
+
+**What follows for the three candidates already here.** Nothing changes about their ranking, but it sharpens the ceiling argument. These five carry no lane and no instrument, so they are in the 73-strong lane-less population the tail census identifies as invisible to every lane-based candidate — and they are the sub-population for which the humans-required label is *least* contestable. If a lane-based filter is built, this is the group whose labels a human could ratify fastest.
+
+**What this pass did about it: annotated all five**, in the convention the siblings already use, so the next firing meets a recorded examination rather than a blank node. No lane was set — that call is withheld here — no instrument was written, no status changed, and no node was created.
+
+**Limits.** Five of the twenty-five shown, of sixty-eight; chosen deliberately as the entries with no prior note, which is the opposite bias from the earlier censuses and is stated so the two are not averaged into a spurious whole-head figure. Nothing here reaches the 43 past the cap. No test was run and no result is recorded.
+
+_Source: first-party `ost_read_tree` reads of the five Solution nodes and their History blocks, plus this firing's own `ost_next_work` response. Observed structure of this product's vault; grounds usability, not desirability._
