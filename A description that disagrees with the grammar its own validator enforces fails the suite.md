@@ -58,3 +58,4 @@ The positive control is the part worth insisting on. A parity check that finds n
 - 2026-08-31 **no-spec** (exit none) `npx vitest run test/mcp/description-grammar-parity.test.ts` — test/mcp/description-grammar-parity.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-31 **no-spec** (exit none) `npx vitest run test/mcp/description-grammar-parity.test.ts` — test/mcp/description-grammar-parity.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-31 **no-spec** (exit none) `npx vitest run test/mcp/description-grammar-parity.test.ts` — test/mcp/description-grammar-parity.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-31 **no-spec** (exit none) `npx vitest run test/mcp/description-grammar-parity.test.ts` — test/mcp/description-grammar-parity.test.ts does not exist — no spec was collected, so nothing was measured
