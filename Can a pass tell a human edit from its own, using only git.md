@@ -5,6 +5,7 @@ source: agent-ideation — reproducible against this vault's git history
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/git/hand-edit-detector.test.ts
+authorship: machine
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -30,3 +31,4 @@ instrument: npx vitest run test/git/hand-edit-detector.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/git/hand-edit-detector.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/git/hand-edit-detector.test.ts` — ✓ a hand edit committed with an `mcp:`-style subject > THE BOUNDARY: a careful forgery is invisible, and fails toward silence rather than a wrong story 907ms
