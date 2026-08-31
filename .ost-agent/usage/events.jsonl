@@ -8190,3 +8190,6 @@
 {"ts":"2026-08-31T20:06:45.780Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":33,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
 {"ts":"2026-08-31T20:07:35.937Z","tool":"ost_append_to_node","ok":true,"ms":6,"surface":"mcp","argBytes":5034,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
 {"ts":"2026-08-31T20:07:49.236Z","tool":"ost_ingest_inbox","ok":true,"ms":37,"surface":"mcp","argBytes":2,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T20:07:52.583Z","tool":"ost_next_work","ok":true,"ms":38,"surface":"mcp","argBytes":62,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T20:08:00.576Z","tool":"ost_next_work","ok":true,"ms":309,"surface":"mcp","argBytes":2,"session":"mcp-fea6c5b4-62dc-4c54-a678-65d49ffe6ec7"}
+{"ts":"2026-08-31T21:10:32.644Z","tool":"ost_ingest_inbox","ok":true,"ms":106,"surface":"mcp","argBytes":2,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
