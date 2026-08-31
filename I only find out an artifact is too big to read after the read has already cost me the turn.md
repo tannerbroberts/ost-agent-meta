@@ -6,6 +6,7 @@ evidence: observed
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
+[[The listing already carries each entry's size, so the sizing call never happens]]
 
 **The need, from the reader's side.** I decide what to read from a name and a listing. Neither carries a size. So the way I learn that a file or a node is larger than one read can take is to issue the read, spend the turn, and receive a refusal instead of the content — after which I still have to go back and ask again with an offset I am guessing at. The cost is paid before the information that would have avoided it arrives.
 
