@@ -9,6 +9,7 @@ threshold: >-
   the ranking is refuted — do not build the graph machinery and do not run the
   operator study beneath it.
 instrument: npx vitest run test/rank/unblock-leverage-distribution.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ instrument: npx vitest run test/rank/unblock-leverage-distribution.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/rank/unblock-leverage-distribution.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/rank/unblock-leverage-distribution.test.ts` — Duration  274ms (transform 21ms, setup 0ms, collect 40ms, tests 4ms, environment 0ms, prepare 36ms)
