@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 threshold: At least 4 of 5 runs are bounded correctly from the history alone.
 instrument: npx vitest run test/loop/run-boundary-from-history.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/loop/run-boundary-from-history.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/loop/run-boundary-from-history.test.ts` — Duration  1.56s (transform 113ms, setup 0ms, collect 152ms, tests 158ms, environment 0ms, prepare 242ms)
