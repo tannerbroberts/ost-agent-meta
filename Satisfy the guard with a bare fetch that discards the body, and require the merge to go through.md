@@ -8,6 +8,7 @@ threshold: >-
   the first assertion is informative, but a guard that also permits the no-fetch
   merge fails the test outright.
 instrument: npx vitest run test/tools/merge-read-guard-bypass.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -33,3 +34,4 @@ Not declared. Mechanical question; the lane is a human's to set with `ost-agent 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/tools/merge-read-guard-bypass.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/tools/merge-read-guard-bypass.test.ts` — Duration  649ms (transform 248ms, setup 0ms, collect 358ms, tests 32ms, environment 0ms, prepare 34ms)
