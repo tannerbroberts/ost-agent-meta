@@ -145,3 +145,22 @@ Four lines, on purpose: this node is already 23,000 characters and the finding b
 The 2026-08-31 section above ends by flagging that `src/ost/ageing.ts` turned out to be replay-only, "so the live age-out path was not verified here and someone should confirm it before turning the knob." A later firing the same day confirmed it and recorded the result on "An unmapped item ages out of the queue into a standing backlog line". The short version: `test/evidence/age-out-preserves-novel.test.ts` drives `computeNextWork` from `src/mcp/next-work.js` — the production sweep entry point — with the knob as its sixth argument, so the age-AND-redundancy rule this node reasons about is the live one and the caveat is discharged.
 
 One thing that node adds which changes the advice here: `src/ost/ageing.ts` implements a *different* rule (N untouched passes, reset by a changed signature), so it cannot be used to preview what `evidence.ageOutDays` would bury. Nothing on this node changed, and its own conclusion is unaffected — the knob still misses the self-manufactured records this candidate is about, because they have no cited signature to be redundant with.
+
+## 2026-08-31 — the census, measured over all 534 records instead of a head of 25
+
+Kept short, per this node's convention. Only what is new.
+
+**Why this is not the 2026-08-30 section again.** That section counted the 25 records `ost_next_work` showed, and named its own limit precisely: "the 25 are the unfiltered head of 464, ordered by id, not a random sample… the head may not represent the tail." This pass had native read access to the vault's own `.ost-agent/evidence/` directory and counted the tail as well. Same question, whole denominator.
+
+**The numbers, over 534 transcript evidence records on disk (mapped and unmapped alike).**
+
+- **Records with no `tool_error` at all — 78 of 534 (14.6%).** Counted from each record's own header parenthetical reading `(retry ×N)` with no `tool_error` term.
+- **Of those 78, exactly 2 carry an argument-bearing retry** (`da806545`, `414d3daa`), so they are genuine repeats rather than procedure.
+- **Whole-record self-manufactured noise: 76 of 534 (14.2%).** Every event a no-argument retry. A spot check of the no-argument retry lines found the tool name is always `ost_ingest_inbox` or `ost_next_work` and never anything else — the pair this loop's own prompt prescribes at step 1 and again at step 5.
+- **Records carrying at least one argument-bearing retry: 197 of 534 (36.9%).**
+
+**What holds, and what is new.** The 12% head-of-25 estimate holds up: 14.2% over the full corpus. So the 2026-08-30 conclusion is unchanged — suppression takes 534 records to ~458 and does not explain why the queue is long. What is new is the second figure, which no prior section has: **the must-not-suppress class is 197 records, over a third of the corpus.** This node already warns that "a stale manifest fails in the dangerous direction" and that any rule "must suppress the no-argument prescribed pair without taking the argument-carrying repeats with it." That caveat now has a denominator against it, and it is a large one — the blast radius of a mis-scoped suppression rule is 37% of the corpus, not a handful of edge cases. Whoever builds this should treat the no-argument condition as load-bearing rather than incidental.
+
+**Limits.** Counts are per-record, not per-event: a record is scored by whether it contains a class of event, so this says nothing about the event mix inside the 197. The retry-only set was identified from header parentheticals rather than by parsing each event list, so a malformed header would be miscounted. The claim that no-argument retries are only ever the prescribed pair rests on a 40-line sample of those lines, not on all of them. And 534 is every transcript record on disk, which is a larger denominator than the 508 unmapped items the sweep reports — the two numbers answer different questions and should not be differenced.
+
+_Method: `Glob` and `Grep` over `.ost-agent/evidence/` in this vault, plus this pass's own `ost_next_work` sweep. Nothing executed against the product repo, no rung moved, no instrument set, no status changed. Observed behaviour of this product's own agent — it grounds usability, not desirability._
