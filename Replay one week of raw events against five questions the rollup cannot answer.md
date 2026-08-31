@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md'
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/telemetry/raw-event-question-coverage.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #desirability #evidence/assertion
 
@@ -24,3 +25,4 @@ Evidence: `INBOX:2026-07-24-founder-theory-purpose-levels-and-telemetry.md`
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/raw-event-question-coverage.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/telemetry/raw-event-question-coverage.test.ts` — Duration  312ms (transform 28ms, setup 0ms, collect 32ms, tests 34ms, environment 0ms, prepare 25ms)
