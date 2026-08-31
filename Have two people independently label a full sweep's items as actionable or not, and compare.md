@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 threshold: The two labellings agree on at least 85% of items.
 instrument: npx vitest run test/loop/stop-condition.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/stop-condition.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/loop/stop-condition.test.ts` — ✓ 3 — a pass that writes while the condition holds fails > authoring structure against an empty sweep seals unhealthy 1467ms
