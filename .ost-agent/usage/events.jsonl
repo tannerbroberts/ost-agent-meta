@@ -8211,3 +8211,20 @@
 {"ts":"2026-08-31T21:16:27.450Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
 {"ts":"2026-08-31T21:16:29.206Z","tool":"ost_next_work","ok":true,"ms":129,"surface":"mcp","argBytes":2,"session":"mcp-df6fb207-9a2b-4552-b74b-0d9829b094b1"}
 {"ts":"2026-08-31T23:33:51.404Z","tool":"ost_ingest_inbox","ok":true,"ms":107,"surface":"mcp","argBytes":2,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:33:53.117Z","tool":"ost_next_work","ok":true,"ms":136,"surface":"mcp","argBytes":2,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:34:28.987Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:34:34.849Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:34:40.698Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:34:50.901Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":108,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:35:27.806Z","tool":"ost_read_repo","ok":false,"ms":0,"surface":"mcp","argBytes":26,"err":"\"src/instruments\" does not exist in OST-Agent — OST-Agent/src exists and contains adapters, cli, compression, config, eval, fs, git, index.ts, knowledge, loop, mcp, ost, processes, product, release, runner, security, telemetry, web; nothing there is close enough to name, so this is not a typo to cor","session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:35:29.484Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:35:35.688Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":113,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:35:35.850Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":100,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:35:47.515Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":93,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:35:47.674Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":105,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:35:58.078Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":93,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:36:32.840Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:36:44.519Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:36:45.240Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:36:50.115Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:37:48.533Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3130,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
