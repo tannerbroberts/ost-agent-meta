@@ -8,6 +8,7 @@ threshold: >-
   must refuse. One path that succeeds fails the test — a gate with one way
   around it is not a gate.
 instrument: npx vitest run test/ost/outcome-signal-gate.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ The interesting cases are not `ost_set_status`, which already lacks `validated`.
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/outcome-signal-gate.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/ost/outcome-signal-gate.test.ts` — Duration  765ms (transform 256ms, setup 0ms, collect 413ms, tests 104ms, environment 0ms, prepare 43ms)
