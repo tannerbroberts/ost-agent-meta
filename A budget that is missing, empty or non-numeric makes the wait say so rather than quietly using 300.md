@@ -38,3 +38,4 @@ authorship: machine
 - 2026-08-30 **no-spec** (exit none) `npx vitest run test/loop/wait-budget-inheritance.test.ts` — test/loop/wait-budget-inheritance.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-30 **no-spec** (exit none) `npx vitest run test/loop/wait-budget-inheritance.test.ts` — test/loop/wait-budget-inheritance.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-08-30 **no-spec** (exit none) `npx vitest run test/loop/wait-budget-inheritance.test.ts` — test/loop/wait-budget-inheritance.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-08-31 **no-spec** (exit none) `npx vitest run test/loop/wait-budget-inheritance.test.ts` — test/loop/wait-budget-inheritance.test.ts does not exist — no spec was collected, so nothing was measured
