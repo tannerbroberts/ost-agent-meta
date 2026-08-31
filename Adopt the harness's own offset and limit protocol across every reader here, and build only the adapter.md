@@ -10,6 +10,7 @@ killBy: '2027-02-28'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A reader can speak the harness's offset and limit contract while counting characters, provided it declares the unit it is counting in]]
 
 **Variation dimension: bought-vs-built. Position taken: the convention is adopted from outside unchanged; only the adapter is built here.**
 
