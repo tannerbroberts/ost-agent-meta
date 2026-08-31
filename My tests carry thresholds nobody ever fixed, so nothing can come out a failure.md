@@ -147,3 +147,24 @@ Kept short. The 2026-08-30 Issues note above establishes, from two refusals it r
 **What this does not establish.** Whether vitest's `-t` on a non-matching title exits non-zero or exits 0 having run nothing was **not** verified — nothing was executed this pass, and that detail decides the whole argument above. If it exits 0 on no matches, a `-t` filter is a way to author a green and route one is dead. That is the one thing to check before acting on this, and it is a spec's worth of work rather than a discussion. Nothing here changes a classifier, a threshold, an instrument or a lane, and this node's rung is unchanged.
 
 _Method: first-party `ost_read_repo` of `src/knowledge/instruments.ts` in full (`"truncated": false`). Read off the source; nothing executed. Grounds feasibility only._
+
+## 2026-08-31 (later firing) — the open question above names the wrong branch as fatal, and the real risk is one line of `instrument.ts`
+
+Kept to the point, per this node's own convention. This corrects the section immediately above, which is this pass's own reason for writing.
+
+**What that section asked for.** It closes: "Whether vitest's `-t` on a non-matching title exits non-zero or exits 0 having run nothing was **not** verified … If it exits 0 on no matches, a `-t` filter is a way to author a green and route one is dead."
+
+**Both halves of that disjunction are wrong, and the source says why.** Read first-party this pass: `src/ost/instrument.ts` in full (truncated after `verifyInstrument`'s filing lines) and `src/knowledge/instruments.ts` in full.
+
+- *The exit-0 branch is not fatal — it is the safe one.* `verifyInstrument` carries an explicit validity rule: a first observation that is green is **refused rather than recorded**, with the message "a test that is green before anything was built cannot fail, so it measures nothing". So if a non-matching `-t` exits 0, the fabricated instrument is rejected at the write boundary. That is the protection you want, not the death of the route.
+- *The exit-non-zero branch is the dangerous one, and nothing currently catches it.* `spawnOnce` classifies in exactly three steps: `exitCode === 0` → `green`; else `collectedNothing(output)` → `no-spec`; else → `red`. And `collectedNothing` is one regex, `/no test files found/i` — a **file-level** message. A `-t` that matches nothing inside a file that *does* exist does not produce that string. So such a run falls through to `red`, `observedRed` goes true, and `permitFrom` clears a build permit on a run that collected nothing.
+
+**Why this matters more than the vitest detail it replaces.** The `no-spec` marker exists because 260 of 266 recorded reds read "No test files found" — this node and `instrument.ts` both argue that case at length. Widening the grammar to admit `-t` without widening `collectedNothing` would **re-create that exact failure at title granularity, with no detector for it**: an agent names an assertion nobody has written, gets a genuine-looking `**red**`, and mints a permit. The 2026-08-30 Issues note above proposes route one as satisfying the module's own admission bar. On this reading it does not yet — not because the verdict stops coming from committed code, but because the vacuous-run detector is keyed to a string that title-filtering never emits.
+
+**The repair is small and nameable, if a human takes route one.** `collectedNothing` must also recognise the runner's no-tests-matched-pattern output, so a `-t` that selects nothing files `no-spec` rather than `red`. That is a one-predicate change in `src/ost/instrument.ts`, and it should land *before* any grammar widening rather than after, because the append-only Instrument Log cannot retract a vacuous red once filed.
+
+**What is still unverified, and it is now a smaller question.** Nothing was executed. Which of the two branches vitest 2.1 actually takes — and the exact wording it emits when `-t` matches nothing — was not observed, and that wording is what the repair has to match. The argument above does not depend on which branch is real: the exit-0 branch is already handled by the green-on-arrival refusal, and the exit-non-zero branch needs the detector either way. What a run would settle is only the regex to write, not whether to write one.
+
+**What this does not touch.** The threshold classifier disagreement, the missing `ost_set_threshold` sibling, and the ask to a human about whether that omission is deliberate all stand unchanged. No instrument was set, no rung moved, no status changed.
+
+_Method: first-party `ost_read_repo` of `src/ost/instrument.ts` and `src/knowledge/instruments.ts` in full, plus `vitest.config.ts` and `package.json` (vitest `^2.1.0`; `passWithNoTests` is not set, so the default applies). Read off the source; nothing executed. Grounds feasibility only._
