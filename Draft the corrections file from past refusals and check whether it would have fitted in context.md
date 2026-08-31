@@ -7,6 +7,7 @@ threshold: >-
   The deduplicated file is under 2,000 characters, or a stated expiry rule
   brings it under.
 instrument: npx vitest run test/knowledge/corrections-file-size.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that the file stays small enough to be read. A corrections fil
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/knowledge/corrections-file-size.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/knowledge/corrections-file-size.test.ts` — Duration  291ms (transform 37ms, setup 0ms, collect 36ms, tests 14ms, environment 0ms, prepare 45ms)
