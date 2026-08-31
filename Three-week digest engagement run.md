@@ -5,6 +5,7 @@ source: 'agent:P4_assumptions'
 created: '2026-07-24'
 evidence: assertion
 instrument: npx vitest run test/adapters/digest-delivery.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #desirability #evidence/assertion
 
@@ -26,3 +27,4 @@ Proposed by the agent — to be run by a human with real stakeholders. No result
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/adapters/digest-delivery.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/adapters/digest-delivery.test.ts` — Duration  1.12s (transform 28ms, setup 0ms, collect 31ms, tests 842ms, environment 0ms, prepare 36ms)
