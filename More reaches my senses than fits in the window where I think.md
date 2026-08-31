@@ -8,6 +8,7 @@ evidence: assertion
 [[A fidelity instrument that scores a bounded form by whether the decision survives it]]
 [[One distillation primitive behind every bounded surface, parameterized by goal and budget]]
 [[A budget sweep that finds where shrinking the window flips the verdict]]
+[[I only find out an artifact is too big to read after the read has already cost me the turn]]
 
 Every channel this agent can read — inboxes, transcripts, traces, repos, the web — emits more than any reasoning window holds, and an agent that reads everything retains nothing. The founder has named this twice: the 2026-07-24 theory ("intelligence is compression; the scarce, compounding capability is long-term collection and arrangement of information so it compounds" — INBOX:2026-07-24-founder-theory-compression, ingested but never cited by any node until now) and the 2026-08-11 vision restatement ("radical, biological-grade information compression... as the human retina distills millions of ambient photons into conscious thought" — INBOX:2026-08-11-founder-vision-restatement).
 
