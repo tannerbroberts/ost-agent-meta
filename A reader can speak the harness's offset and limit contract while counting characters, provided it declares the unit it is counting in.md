@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Every windowed read names its counting unit, and a limit is honoured in that unit rather than silently reinterpreted]]
 
 **Kind: feasibility.**
 
