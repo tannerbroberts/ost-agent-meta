@@ -4,6 +4,7 @@ status: unvalidated
 source: 'agent-run:autonomous-loop-2026-07-26-pass7'
 created: '2026-07-26'
 evidence: assertion
+authorship: machine
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -94,3 +95,6 @@ should be read as cleared against a smaller sample than the node's own table imp
 a check on the agent's own output, for a defect the agent causes, found and run by the
 agent. No external party at any point. It must not be recorded against anything claiming
 otherwise.
+
+## Issues
+- 2026-08-31 2026-08-31 unattended sweep — recording why this node keeps surfacing as owing an instrument and cannot honestly be given one. Its Run section records the test executed on 2026-07-26 over the full history of both vaults (100 commits, ~275 node files per pass) and all three pre-committed bars cleared: soundness 0 false positives, catch 3 of 3 occurrences that reached a commit, novelty 3 of 3 not already reported by the dangling-link check. The solution beneath which this sits, "Refuse a wiki-link that contains a newline", appears in this sweep's `solutionsAwaitingObservation`, i.e. it shipped. Any command asserting the shipped rule therefore passes on arrival, and the ruleset forbids setting an instrument that cannot fail. The node also declares **Lane: compute-only** in its own prose while carrying no `lane:` field, so the fail-closed reader counts it as needing a person while its text says the opposite. For a human, either drains it: `ost-agent result` to record the verdict its own table already states, or `ost-agent lane --set` to make the declared lane a field. Neither is on the unattended surface. The node's own honest caveat still stands and is not cleared by this: the denominator is 3 that reached a commit, not 3 of the 6 occurrences its table lists, and it is evidence about the agent's own output rather than about any operator. Counted as one of four of this shape under "Work I already finished keeps coming back in the queue, so the pass can never say it is done". No instrument set, no rung moved, nothing re-run.
