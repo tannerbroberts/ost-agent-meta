@@ -7,6 +7,7 @@ threshold: >-
   At least 4 of the top 10 classes are judged safe to absorb, covering 30% or
   more of all refusals fired.
 instrument: npx vitest run test/mcp/refusal-absorption-census.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ A human runs this and records the result.
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/refusal-absorption-census.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/mcp/refusal-absorption-census.test.ts` — Duration  658ms (transform 255ms, setup 0ms, collect 371ms, tests 32ms, environment 0ms, prepare 28ms)
