@@ -8,6 +8,7 @@ threshold: >-
   lists them; each is reversible to unmapped; and a dismissal with an empty or
   whitespace reason is refused — 5 of 5 properties.
 instrument: npx vitest run test/ost/evidence-dismissal-audit-trail.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -26,3 +27,4 @@ instrument: npx vitest run test/ost/evidence-dismissal-audit-trail.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/evidence-dismissal-audit-trail.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/ost/evidence-dismissal-audit-trail.test.ts` — Duration  2.04s (transform 193ms, setup 0ms, collect 292ms, tests 1.52s, environment 0ms, prepare 35ms)
