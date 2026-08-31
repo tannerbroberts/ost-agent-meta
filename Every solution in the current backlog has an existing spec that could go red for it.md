@@ -66,3 +66,15 @@ _Method: `ost_read_repo` listings of seventeen directories under `test/` in the 
 **What this does not settle.** The assignment census itself, which is the assumption. Nor anything about the two uncounted alphabet slices beyond the A–H scan noted above. Nor desirability of any kind — this is a count over committed nodes and committed code.
 
 _Method: `Grep` over the vault's own frontmatter for `^type: AssumptionTest`, `^instrument:` and `^lane:` across three alphabet slices (494 / 367 / 60, reconciling to 67); the 18 S–Z entries classified by title with four bodies read in full; `test/security/self-validation.test.ts` and the `test/eval` listing read via `ost_read_repo`. Nothing executed, no rung moved, no instrument set or replaced, no status changed. This node's own `## Instrument Log` records its command green since 2026-08-12 and is untouched._
+
+## 2026-08-31 — one slice fewer uncounted than the section above says
+
+Short correction to my own entry immediately above, which closed by saying "two slices remain uncounted." One of them has since been scanned, so the prediction there now rests on a wider base than it claims.
+
+**I–R, counted the same way:** 122 AssumptionTests, 101 carrying an `instrument:`, 7 carrying a `lane:`, **14 carrying neither**. Classified at title level, with no bodies opened — a weaker method than the S–Z slice, and the reason this is a correction rather than a second census.
+
+The composition matches. The instrument-less 14 are dominated by tests whose measurement is a person and could not be assigned to any spec without misfiling: pitching refusals to ten prospects, a pre-order probe, offering a maintained tree at a monthly price to ten teams, interviewing ten solo builders, publishing six pieces and counting strangers who arrive, queuing forty drafts and timing the operator on each, a blind reader saying which tree they would act on, one re-synthesis pass with human accept-reject. The nearest thing to a spec-shaped entry is a replay analysis over recorded expiry data — and its sibling in the same family already carries an instrument, so even that is not a solution waiting for a spec.
+
+**So the exhaustive count now stands at:** A–H 35, I–R 14, S–Z 18 = 67, with S–Z classified from bodies and I–R from titles. On the two slices classified, the assignable count is zero. A–H remains the one slice not classified at all, and 35 of the 67 sit in it, so the prediction above should still be read as a prediction.
+
+_Method: `Grep` over `[I-R]*.md` for `^type: AssumptionTest` and `^instrument:` (122 / 101), with the lane count derived from the vault-wide total of 60 less the 43 in A–H and 10 in S–Z. Titles only; no bodies read for this slice. Nothing executed, no rung moved, no instrument set or replaced._
