@@ -7,6 +7,7 @@ threshold: >-
   At least 13 of the 32 under-served rows must trace to a recorded decision that
   positions them. Below 7 of 32 kills the candidate.
 instrument: npx vitest run test/ost/recorded-decision-ordering.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ instrument: npx vitest run test/ost/recorded-decision-ordering.test.ts
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/ost/recorded-decision-ordering.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/ost/recorded-decision-ordering.test.ts` — Duration  398ms (transform 104ms, setup 0ms, collect 151ms, tests 11ms, environment 0ms, prepare 28ms)
