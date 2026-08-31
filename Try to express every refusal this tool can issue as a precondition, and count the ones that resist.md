@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 threshold: Fully expressible conditions cover at least 70% of refusals actually fired.
 instrument: npx vitest run test/mcp/refusal-precondition-coverage.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ The assumption is that the conditions are expressible outside the tool. Any that
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/mcp/refusal-precondition-coverage.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/mcp/refusal-precondition-coverage.test.ts` — Duration  688ms (transform 249ms, setup 0ms, collect 403ms, tests 44ms, environment 0ms, prepare 43ms)
