@@ -7728,3 +7728,8 @@
 {"ts":"2026-08-31T01:03:39.019Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":49,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
 {"ts":"2026-08-31T01:03:40.708Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":30,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
 {"ts":"2026-08-31T01:04:35.121Z","tool":"ost_create_node","ok":true,"ms":47,"surface":"mcp","argBytes":4324,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91","wrote":["I only find out an artifact is too big to read after the read has already cost me the turn.md"],"touched":["I only find out an artifact is too big to read after the read has already cost me the turn.md","More reaches my senses than fits in the window where I think.md"]}
+{"ts":"2026-08-31T01:04:50.756Z","tool":"ost_read_tree","ok":true,"ms":243,"surface":"mcp","argBytes":100,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
+{"ts":"2026-08-31T01:05:03.775Z","tool":"ost_read_tree","ok":true,"ms":233,"surface":"mcp","argBytes":93,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
+{"ts":"2026-08-31T01:05:04.270Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
+{"ts":"2026-08-31T01:05:29.248Z","tool":"ost_read_tree","ok":true,"ms":209,"surface":"mcp","argBytes":106,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
+{"ts":"2026-08-31T01:05:38.542Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-4cd302b4-515a-413b-aaec-883ab7682d91"}
