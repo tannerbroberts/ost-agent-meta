@@ -8122,3 +8122,4 @@
 {"ts":"2026-08-31T16:44:43.251Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":941,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c","touched":["Offer to run one free tree for a stranger's product and let the result travel.md"]}
 {"ts":"2026-08-31T16:44:46.770Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":981,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c","touched":["Run both for two weeks on the same evidence and publish what diverged.md"]}
 {"ts":"2026-08-31T16:44:52.111Z","tool":"ost_annotate","ok":true,"ms":1,"surface":"mcp","argBytes":1721,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c","touched":["Monitor accepts a vetted until-loop primitive instead of raw shell polling.md"]}
+{"ts":"2026-08-31T16:45:01.428Z","tool":"ost_ingest_inbox","ok":true,"ms":10,"surface":"mcp","argBytes":2,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c"}
