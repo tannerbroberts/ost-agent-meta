@@ -5,6 +5,7 @@ source: 'INBOX:2026-07-22-runtime-decision.md'
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/release/capability-manifest.test.ts
+authorship: machine
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -22,3 +23,4 @@ _Proposal only — a human runs this with real operators. Unvalidated._
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/release/capability-manifest.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/release/capability-manifest.test.ts` — ✓ a divergent build fails the release rather than shipping > the operator's own command exits non-zero on a manifest that no longer matches 457ms
