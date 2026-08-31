@@ -9,6 +9,7 @@ threshold: >-
   Permits when the section appears in either. A guard that satisfies only one
   direction fails.
 instrument: npx vitest run test/mcp/edit-node-unacknowledged-section-guard.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -31,3 +32,4 @@ First-party observation made during the unattended maintenance pass of 2026-08-0
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/edit-node-unacknowledged-section-guard.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/mcp/edit-node-unacknowledged-section-guard.test.ts` — Duration  701ms (transform 262ms, setup 0ms, collect 421ms, tests 38ms, environment 0ms, prepare 43ms)
