@@ -8082,3 +8082,5 @@
 {"ts":"2026-08-31T15:36:17.649Z","tool":"ost_read_tree","ok":true,"ms":271,"surface":"mcp","argBytes":70,"session":"mcp-3b48fdde-99d1-42e6-b503-27cc9eaf7fbd"}
 {"ts":"2026-08-31T15:36:28.103Z","tool":"ost_read_tree","ok":true,"ms":202,"surface":"mcp","argBytes":75,"session":"mcp-3b48fdde-99d1-42e6-b503-27cc9eaf7fbd"}
 {"ts":"2026-08-31T15:37:39.400Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4595,"session":"mcp-3b48fdde-99d1-42e6-b503-27cc9eaf7fbd","touched":["The agent has to guess what resources it's actually working with.md"]}
+{"ts":"2026-08-31T15:37:45.076Z","tool":"ost_read_tree","ok":true,"ms":137,"surface":"mcp","argBytes":113,"session":"mcp-3b48fdde-99d1-42e6-b503-27cc9eaf7fbd"}
+{"ts":"2026-08-31T15:37:54.898Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-3b48fdde-99d1-42e6-b503-27cc9eaf7fbd"}
