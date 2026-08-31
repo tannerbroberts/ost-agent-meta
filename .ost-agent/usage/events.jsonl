@@ -7969,3 +7969,18 @@
 {"ts":"2026-08-31T10:04:06.827Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-6326b98e-ff50-41c9-a002-b5a8252c9760"}
 {"ts":"2026-08-31T10:04:09.422Z","tool":"ost_next_work","ok":true,"ms":368,"surface":"mcp","argBytes":2,"session":"mcp-6326b98e-ff50-41c9-a002-b5a8252c9760"}
 {"ts":"2026-08-31T11:04:59.490Z","tool":"ost_ingest_inbox","ok":true,"ms":25,"surface":"mcp","argBytes":2,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:05:01.058Z","tool":"ost_next_work","ok":true,"ms":141,"surface":"mcp","argBytes":2,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:05:28.158Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:05:42.551Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:05:44.254Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:05:46.765Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":108,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:06:04.271Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":86,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:06:10.347Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":112,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:06:15.820Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":100,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:06:23.858Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":113,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:06:33.431Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:06:35.022Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:06:57.239Z","tool":"ost_read_tree","ok":true,"ms":226,"surface":"mcp","argBytes":78,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:07:04.786Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":56,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:07:14.206Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056"}
+{"ts":"2026-08-31T11:07:42.716Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3133,"session":"mcp-295b8128-c906-4c35-baee-bc6a96c1d056","touched":["An unmapped item ages out of the queue into a standing backlog line.md"]}
