@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[The engagement can be priced so the fee covers the hours, with the tool doing real work in them]]
@@ -19,3 +20,6 @@ Whether anyone would pay this is a question for customers. Nothing here is valid
 
 ## History
 - 2026-08-05 unlinked "Sell one engagement and record how many hours it actually took against what was charged" — moved under "The engagement can be priced so the fee covers the hours, with the tool doing real work in them" — the belief this test measures now has a node of its own
+
+## Issues
+- 2026-08-31 2026-08-31 unattended sweep, repo sight held: examined for a missing instrument and deliberately left without one. Recording the examination because this node carried no prior note and would otherwise be re-read from scratch by every firing that meets it in solutionsMissingInstruments. The belief beneath it, "The engagement can be priced so the fee covers the hours, with the tool doing real work in them", is a viability belief measured by selling one engagement and counting hours against the fee — the measurement is a founder's timesheet and a customer's payment, neither of which is an artefact in this repository. No spec under test/ can go red for it. What a human should do: set the lane with `ost-agent lane --set`, since ost_flag_humans_required is withheld on the unattended surface. Not a skipped step.
