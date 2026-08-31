@@ -7821,3 +7821,4 @@
 {"ts":"2026-08-31T04:26:32.054Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":35,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
 {"ts":"2026-08-31T04:26:37.331Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":50,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
 {"ts":"2026-08-31T04:27:16.916Z","tool":"ost_set_status","ok":true,"ms":3,"surface":"mcp","argBytes":2386,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa","touched":["Remote push optional and off by default.md"]}
+{"ts":"2026-08-31T04:27:21.322Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
