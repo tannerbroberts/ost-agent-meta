@@ -7805,3 +7805,5 @@
 {"ts":"2026-08-31T03:21:34.995Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":93,"session":"mcp-5e054116-1766-4fc7-97b0-26d7082ca1f7"}
 {"ts":"2026-08-31T03:22:17.097Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":4248,"session":"mcp-5e054116-1766-4fc7-97b0-26d7082ca1f7","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
 {"ts":"2026-08-31T03:22:24.906Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-5e054116-1766-4fc7-97b0-26d7082ca1f7"}
+{"ts":"2026-08-31T03:22:26.346Z","tool":"ost_next_work","ok":true,"ms":122,"surface":"mcp","argBytes":2,"session":"mcp-5e054116-1766-4fc7-97b0-26d7082ca1f7"}
+{"ts":"2026-08-31T04:23:18.167Z","tool":"ost_ingest_inbox","ok":true,"ms":50,"surface":"mcp","argBytes":2,"session":"mcp-3172556e-ccf8-4651-af95-e5cf559e99aa"}
