@@ -7,6 +7,7 @@ threshold: >-
   Files five or fewer records in total, and both the repeated refusal and the
   repeated poll appear as single records carrying their count and span.
 instrument: npx vitest run test/adapters/recurrence-rule-filing.test.ts
+authorship: machine
 ---
 #AssumptionTest #feasibility #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ Retrospective, no build. Proposed by the agent; a human runs it and records the 
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/adapters/recurrence-rule-filing.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/adapters/recurrence-rule-filing.test.ts` — Duration  418ms (transform 40ms, setup 0ms, collect 55ms, tests 106ms, environment 0ms, prepare 35ms)
