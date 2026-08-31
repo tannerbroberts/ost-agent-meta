@@ -9,6 +9,7 @@ threshold: >-
   would go red for the named behaviour without misfiling it. Fewer than 55
   refutes the rule and argues for the escape hatch becoming the default.
 instrument: npx vitest run test/instruments/spec-path-resolution.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -43,3 +44,25 @@ The spec form is the mechanical half — that the tool resolves a path against t
 **What this does not settle.** The census itself. Whether an assignment would misfile a solution — the qualifier doing the real work in the threshold — cannot be judged from a directory listing, only from reading each spec. And nothing about desirability or viability; this is a feasibility measurement over committed code.
 
 _Method: `ost_read_repo` listings of seventeen directories under `test/` in the OST-Agent repository, matched against every `instrument:` field in this vault, 2026-08-10. Read of committed code; no command executed, no result recorded, this node's rung unchanged._
+
+## 2026-08-31 — the census, run from the other end, and it points at refutation
+
+**Still not the census this node asks for, and not a recorded result.** This node's threshold is an *assignment* count: how many backlog solutions can be given an existing spec file whose assertions would go red without misfiling them. That requires reading each candidate spec, and this pass did not do it. What this pass did is measure the population from the other end — how many of the backlog's tests are of a kind a spec could settle **at all** — which bounds the numerator from above and is cheaper than the assignment.
+
+**The denominator, counted whole rather than sampled.** Every prior entry here works from the 25 entries `ost_next_work` shows. Grepping the vault's own frontmatter across the whole alphabet: **494 AssumptionTests, 367 carrying an `instrument:`, 60 carrying a `lane:`, 67 carrying neither.** Those 67 are the entire population behind the 68 solutions now in the bucket — 35 in A–H, 14 in I–R, 18 in S–Z. The threshold's "61" is now 68 and the population it draws from is 67 tests.
+
+**What those 67 are, on the slice counted exhaustively.** All 18 of the S–Z entries were classified by reading titles and, where ambiguous, bodies:
+
+- **16 of 18 are irreducibly about a person** — recruiting supply, selling an engagement, whether operators would accept the agent living in its own vault, whether a digest makes an operator willing to walk away, unprompted-fear interviews, a week of decisions through a docket from a phone. No spec assertion reaches any of them, and assigning one would be the misfiling the threshold's qualifier exists to exclude.
+- **2 of 18 are already answered**, not unassigned — "Sweep both vault histories for writes that landed as undefined or empty" was run on 2026-07-27 (106 commits, 306 entries, threshold survived, v0.18.0 shipped the consequence), and "Test humans can promote while the agent is blocked from validating" has its whole mechanical half asserted by `test/security/self-validation.test.ts`, read in full this pass. For these, an existing spec exists and would be **green**, which fails the threshold's "would go red" clause from the opposite direction to the one this node anticipates.
+- **0 of 18 are a solution waiting for a spec that could go red for it.**
+
+**Why that bears on the bar.** The threshold needs **55 of 61** assignable. On the one slice counted exhaustively, the assignable count is zero out of eighteen. If the other two slices resemble it — and the 2026-08-06 census on "Filter the queue on shipped and count what is still unsatisfiable" found 11 of 11 inspected unassignable for the same two reasons, from a different sample on a different date — then the bar is not merely missed but missed by an order of magnitude, and this node's own conclusion follows: **the escape hatch becomes the default rather than the exception.** Stated as a prediction, not a verdict: two slices remain uncounted, and a title-level classification can be wrong in a way a body read would catch.
+
+**A distinction this node's framing does not yet carry.** It contemplates two outcomes — a solution has an existing home, or it needs a new spec file (the seven non-existent directories the 2026-08-10 entry found). There is a third: a solution whose test **no spec could ever settle**, because the measurement is a person. That class is not a gap in the suite's layout and no amount of writing spec files closes it. On the counted slice it is 16 of 18 — the overwhelming majority — and a census reported as "55 of 61 assignable" would look like a livable rule while quietly having classified interviews as spec-shaped.
+
+**What a builder running the real census should therefore record: three numbers, not one or two.** Assignable to an existing spec; needs a new spec in a directory that does not exist; unsettleable by any spec because a person is the measurement. The 2026-08-10 entry already asks for a fourth (how many assignments share one file), and that stands.
+
+**What this does not settle.** The assignment census itself, which is the assumption. Nor anything about the two uncounted alphabet slices beyond the A–H scan noted above. Nor desirability of any kind — this is a count over committed nodes and committed code.
+
+_Method: `Grep` over the vault's own frontmatter for `^type: AssumptionTest`, `^instrument:` and `^lane:` across three alphabet slices (494 / 367 / 60, reconciling to 67); the 18 S–Z entries classified by title with four bodies read in full; `test/security/self-validation.test.ts` and the `test/eval` listing read via `ost_read_repo`. Nothing executed, no rung moved, no instrument set or replaced, no status changed. This node's own `## Instrument Log` records its command green since 2026-08-12 and is untouched._
