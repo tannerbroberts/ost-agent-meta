@@ -8125,3 +8125,18 @@
 {"ts":"2026-08-31T16:45:01.428Z","tool":"ost_ingest_inbox","ok":true,"ms":10,"surface":"mcp","argBytes":2,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c"}
 {"ts":"2026-08-31T16:45:03.157Z","tool":"ost_next_work","ok":true,"ms":181,"surface":"mcp","argBytes":2,"session":"mcp-3bfb5b78-4aaf-498f-99e9-d6448b291f8c"}
 {"ts":"2026-08-31T17:47:00.707Z","tool":"ost_ingest_inbox","ok":true,"ms":107,"surface":"mcp","argBytes":2,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:47:02.329Z","tool":"ost_next_work","ok":true,"ms":137,"surface":"mcp","argBytes":2,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:47:19.123Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":108,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:47:34.250Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:47:59.170Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":113,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:47:59.338Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":100,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:48:17.559Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":93,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:48:17.720Z","tool":"ost_read_repo","ok":false,"ms":1,"surface":"mcp","argBytes":23,"err":"\"src/friction\" does not exist in OST-Agent — OST-Agent/src exists and contains adapters, cli, compression, config, eval, fs, git, index.ts, knowledge, loop, mcp, ost, processes, product, release, runner, security, telemetry, web; nothing there is close enough to name, so this is not a typo to correc","session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:48:26.462Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":93,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:48:26.627Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:48:43.291Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:48:43.817Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:49:06.139Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:49:06.238Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":105,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:49:41.867Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":89,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b"}
+{"ts":"2026-08-31T17:50:44.027Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":2622,"session":"mcp-8f5063d2-d5da-4a53-b2d1-78656b9c0c5b","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}

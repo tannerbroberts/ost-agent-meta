@@ -170,3 +170,15 @@ Kept short, per this node's convention. Only what is new, and it is a selection 
 **Limits.** Five of the twenty-five shown, of sixty-eight; chosen deliberately as the entries with no prior note, which is the opposite bias from the earlier censuses and is stated so the two are not averaged into a spurious whole-head figure. Nothing here reaches the 43 past the cap. No test was run and no result is recorded.
 
 _Source: first-party `ost_read_tree` reads of the five Solution nodes and their History blocks, plus this firing's own `ost_next_work` response. Observed structure of this product's vault; grounds usability, not desirability._
+
+## The head is now fully examined, which is a stopping condition rather than another census (2026-08-31)
+
+Four lines, per this node's convention. Only what is new, and it is a boundary rather than a count.
+
+**What this pass checked.** The censuses above cover 10 entries (repo-answerable bias), then 5 more (the market kind, chosen for having no prior note), then one tail entry surfaced by an honest drain. This pass read the two entries in the shown 25 that appeared to have escaped both samplings and looked most likely to be repo-answerable — "A highlight criteria note the founder edits and the loop reads before deciding what to surface" and "Borrow the axiom set from a named body of practice and let the human only veto". **Both already carried a dated 2026-08-29 examination note declining an instrument, each with its reasoning stated.** The axiom one goes further and names the trap specifically: `src/knowledge/believability.ts` and the proof-rung machinery *are* in this repository, so an instrument could be written against them — and it would measure the sibling's plumbing under a second name rather than this node's belief about ownership.
+
+**The boundary that follows.** Every one of the 25 entries `ost_next_work` shows now carries a recorded examination with a stated reason for declining. So the head is exhausted: there is no entry left in view for a future pass to examine, and examining is the only honest act this surface has here. That converts the standing question from "how much of the bucket is legitimately not-instrumentable" — which four censuses have answered consistently — into a different and cheaper one: **a firing that meets this bucket should read the notes and stop, not sample again.** The 43 past the cap remain unreachable except at the price the fourth-firing section records, one honest disposition per entry revealed.
+
+**Why this is worth one section and not another census.** It removes the reason to run a fifth. The value of the earlier samples was that the population was uncertain; it no longer is, for the visible part, and a pass that re-derives it is paying exactly the cost this node was created to name. The tail is a separate question and this says nothing about it.
+
+**Limits.** Two node bodies read in full via `ost_read_tree`; the claim that all 25 are annotated rests on those two plus the coverage the sections above record, not on opening all 25 this pass. No status changed, no instrument set, no rung moved, no node created.
