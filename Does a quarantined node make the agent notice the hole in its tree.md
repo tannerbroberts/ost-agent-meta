@@ -5,6 +5,7 @@ source: agent-ideation — reproducible against this vault's current working tre
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/ost/quarantine-unknown-node-type.test.ts
+authorship: machine
 ---
 #AssumptionTest #ported-from-ost-agent-vault #evidence/assertion
 
@@ -26,3 +27,4 @@ instrument: npx vitest run test/ost/quarantine-unknown-node-type.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/quarantine-unknown-node-type.test.ts` — No test files found, exiting with code 1
+- 2026-08-31 **green** (exit 0) `npx vitest run test/ost/quarantine-unknown-node-type.test.ts` — Duration  624ms (transform 236ms, setup 0ms, collect 340ms, tests 43ms, environment 0ms, prepare 29ms)
