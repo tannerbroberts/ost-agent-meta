@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The creation-time humansRequired argument is what put all 62 ageless entries in the queue]]
 
 **Variation dimension: when-it-acts — at what moment the clock starts. Position taken: at write time, at the single door, and nothing retroactive.**
 
