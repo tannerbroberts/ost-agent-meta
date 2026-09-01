@@ -9,6 +9,7 @@ threshold: >-
   misclassification of that kind refutes the assumption and reconciliation loses
   to leasing.
 instrument: npx vitest run test/runner/workspace-reconcile-states.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ instrument: npx vitest run test/runner/workspace-reconcile-states.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/workspace-reconcile-states.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/runner/workspace-reconcile-states.test.ts` — ✓ each state, built for real, gets the verdict the table fixed > an orphaned checkout — the state the observed failure was actually in — is refused 458ms [spec 5309b9b8a3bb]
