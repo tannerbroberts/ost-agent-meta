@@ -8682,3 +8682,26 @@
 {"ts":"2026-09-01T21:08:00.727Z","tool":"ost_ingest_inbox","ok":true,"ms":25,"surface":"mcp","argBytes":2,"session":"mcp-e992acb4-2b98-4307-a77d-4cef1fef70cf"}
 {"ts":"2026-09-01T21:08:02.933Z","tool":"ost_next_work","ok":true,"ms":459,"surface":"mcp","argBytes":2,"session":"mcp-e992acb4-2b98-4307-a77d-4cef1fef70cf"}
 {"ts":"2026-09-01T22:12:41.024Z","tool":"ost_ingest_inbox","ok":true,"ms":359,"surface":"mcp","argBytes":2,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:12:43.552Z","tool":"ost_next_work","ok":true,"ms":501,"surface":"mcp","argBytes":2,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:12.511Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:19.547Z","tool":"ost_read_tree","ok":true,"ms":263,"surface":"mcp","argBytes":108,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:20.078Z","tool":"ost_read_tree","ok":true,"ms":278,"surface":"mcp","argBytes":98,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:39.247Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:39.507Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":24,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:46.315Z","tool":"ost_read_tree","ok":true,"ms":193,"surface":"mcp","argBytes":86,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:47.048Z","tool":"ost_read_tree","ok":true,"ms":252,"surface":"mcp","argBytes":113,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:47.715Z","tool":"ost_read_tree","ok":true,"ms":263,"surface":"mcp","argBytes":100,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:13:48.289Z","tool":"ost_read_tree","ok":true,"ms":258,"surface":"mcp","argBytes":64,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:17:15.101Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:17:15.186Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:17:54.415Z","tool":"ost_read_tree","ok":true,"ms":91,"surface":"mcp","argBytes":82,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:17:54.605Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":77,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:17:55.101Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":87,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:17:55.341Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":88,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:18:53.706Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":61,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:18:54.503Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":96,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:18:54.984Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":99,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:18:55.149Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":93,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:19:13.268Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":98,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:19:41.675Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":114,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:20:08.078Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":4678,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
