@@ -8231,3 +8231,18 @@
 {"ts":"2026-08-31T23:37:50.378Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
 {"ts":"2026-08-31T23:37:51.829Z","tool":"ost_next_work","ok":true,"ms":126,"surface":"mcp","argBytes":2,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
 {"ts":"2026-09-01T00:39:31.021Z","tool":"ost_ingest_inbox","ok":true,"ms":105,"surface":"mcp","argBytes":2,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:39:32.515Z","tool":"ost_next_work","ok":true,"ms":133,"surface":"mcp","argBytes":2,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:39:54.442Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":108,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:40:00.406Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:40:01.767Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:40:12.323Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":113,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:40:38.211Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":93,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:40:49.254Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":64,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:40:56.727Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":79,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:41:19.707Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":31,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:41:35.125Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":61,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:41:48.652Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":71,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:42:09.432Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":92,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:42:32.310Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:42:37.664Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:43:32.121Z","tool":"ost_create_node","ok":true,"ms":34,"surface":"mcp","argBytes":4988,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3","wrote":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md"],"touched":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md","More reaches my senses than fits in the window where I think.md"]}
