@@ -29,3 +29,13 @@ No consolidation mechanism, no split, no compaction. The growth stops at the sou
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author. The ruleset asks for one blind ideator per assigned dimension and this surface has no grant to run them, so discount their apparent distinctness accordingly. The named dimensions were taken from the sweep and each candidate takes a position no sibling takes; that is a weaker guarantee than blindness.
 
 Unvalidated. Agent-ideated 2026-08-31; a human to review.
+
+## Definition of done — and it is not a command
+
+"Score thirty appends written under the rule for whether each changed a decision"
+
+No command: this one is humans-required on purpose. The bar is **no more than 6 of 30 appends are visit-log shaped**. An exit code can count appends; it cannot decide whether a note recorded something a future reader could not otherwise obtain, and that classification is the entire measurement. The reviewer must also not be the agent that wrote them, since the belief under test is whether the writer's own judgement of "decision-changing" can be trusted.
+
+Sequencing against the siblings: this is the cheapest of the three to build and the only one that can fail silently after it ships, by suppressing an observation nobody then knows is missing. So the answer should come before the build. A free comparison arm exists — score thirty appends from before the rule, using the 2026-08-31 trace's 22-appends-to-11-creations baseline.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
