@@ -8659,3 +8659,4 @@
 {"ts":"2026-09-01T19:58:47.455Z","tool":"ost_read_tree","ok":true,"ms":136,"surface":"mcp","argBytes":127,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
 {"ts":"2026-09-01T19:59:39.155Z","tool":"ost_append_to_node","ok":true,"ms":66,"surface":"mcp","argBytes":3697,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c","touched":["A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}
 {"ts":"2026-09-01T19:59:52.234Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T21:02:56.068Z","tool":"ost_ingest_inbox","ok":true,"ms":106,"surface":"mcp","argBytes":2,"session":"mcp-e992acb4-2b98-4307-a77d-4cef1fef70cf"}
