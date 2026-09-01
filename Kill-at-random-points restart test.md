@@ -5,6 +5,7 @@ source: 'agent:P4_assumptions'
 created: '2026-07-24'
 evidence: assertion
 instrument: npx vitest run test/loop/kill-restart-idempotence.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -26,3 +27,4 @@ Proposed by the agent — to be run by a human against a scratch vault. No resul
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/kill-restart-idempotence.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/loop/kill-restart-idempotence.test.ts` — Duration  34.93s (transform 469ms, setup 0ms, collect 693ms, tests 33.10s, environment 0ms, prepare 185ms) [spec ce11f01e61fd]
