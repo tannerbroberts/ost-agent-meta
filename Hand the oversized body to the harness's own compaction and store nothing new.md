@@ -10,6 +10,7 @@ killBy: '2026-12-15'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A compacted body preserves every claim a reader would have acted on in the full one]]
 
 **Variation dimension: bought-vs-built. Position taken: the compression is adopted from outside as it is; only the trigger and the escape hatch are built here.**
 
