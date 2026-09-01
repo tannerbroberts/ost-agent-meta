@@ -4,6 +4,7 @@ source: 'agent-ideation:2026-07-26-tenth-pass'
 created: '2026-07-26'
 evidence: assertion
 instrument: npx vitest run test/knowledge/refuse-when-unclear-suppression.test.ts
+authorship: machine
 ---
 #AssumptionTest #evidence/assertion
 
@@ -24,3 +25,4 @@ instrument: npx vitest run test/knowledge/refuse-when-unclear-suppression.test.t
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/knowledge/refuse-when-unclear-suppression.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/knowledge/refuse-when-unclear-suppression.test.ts` — Duration  539ms (transform 136ms, setup 0ms, collect 208ms, tests 130ms, environment 0ms, prepare 31ms)
