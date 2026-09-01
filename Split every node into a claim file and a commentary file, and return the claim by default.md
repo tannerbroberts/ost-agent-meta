@@ -10,6 +10,7 @@ killBy: '2026-12-15'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Claim and commentary separate mechanically without a reserved section landing in the unread half]]
 
 **Variation dimension: automated-vs-manual. Position taken: the split and the routing are automated; deciding what earns a place in the claim stays manual.**
 
