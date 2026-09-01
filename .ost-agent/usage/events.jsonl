@@ -8635,3 +8635,4 @@
 {"ts":"2026-09-01T18:51:18.900Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":31,"session":"mcp-ceb4df91-ad8b-447e-b969-27f76a535637"}
 {"ts":"2026-09-01T18:51:19.009Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":31,"session":"mcp-ceb4df91-ad8b-447e-b969-27f76a535637"}
 {"ts":"2026-09-01T18:52:18.701Z","tool":"ost_append_to_node","ok":true,"ms":37,"surface":"mcp","argBytes":4655,"session":"mcp-ceb4df91-ad8b-447e-b969-27f76a535637","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
+{"ts":"2026-09-01T18:52:32.400Z","tool":"ost_ingest_inbox","ok":true,"ms":10,"surface":"mcp","argBytes":2,"session":"mcp-ceb4df91-ad8b-447e-b969-27f76a535637"}
