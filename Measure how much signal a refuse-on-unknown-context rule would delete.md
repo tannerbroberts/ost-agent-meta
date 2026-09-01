@@ -7,6 +7,7 @@ threshold: >-
   Fewer than 5 of the last 100 recorded steps would have been refused; and of
   those refused, none is a failure anyone later acted on.
 instrument: npx vitest run test/telemetry/unknown-context-refusal-cost.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/telemetry/unknown-context-refusal-cost.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/telemetry/unknown-context-refusal-cost.test.ts` — 0/5 failing steps would have been refused
