@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 threshold: At least 50% of timed-check runs happen somewhere isolation can be guaranteed.
 instrument: npx vitest run test/release/timed-check-isolation-share.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ The assumption is that enough of the timed checks would still gate somewhere. If
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/release/timed-check-isolation-share.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/release/timed-check-isolation-share.test.ts` — Duration  310ms (transform 25ms, setup 0ms, collect 30ms, tests 71ms, environment 0ms, prepare 31ms) [spec 3563764fdfb9]
