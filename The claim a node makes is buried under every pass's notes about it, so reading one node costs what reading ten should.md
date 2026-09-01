@@ -8,6 +8,7 @@ authorship: machine
 #Opportunity #compression #needs-customer-interview #unvalidated #evidence/assertion
 [[Stop writing the visit log — a pass with nothing decision-changing to say appends nothing]]
 [[Split every node into a claim file and a commentary file, and return the claim by default]]
+[[Hand the oversized body to the harness's own compaction and store nothing new]]
 
 **The need (reader's voice):** "I opened the node to find out what it claims. The claim was in the first paragraph. The other twenty-nine thousand characters were eight passes telling me they had looked at it. I only had budget to open three nodes, and this was one of them."
 
