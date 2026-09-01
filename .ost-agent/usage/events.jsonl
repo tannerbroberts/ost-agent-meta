@@ -8267,3 +8267,5 @@
 {"ts":"2026-09-01T00:48:15.713Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1210,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3","touched":["Stop writing the visit log — a pass with nothing decision-changing to say appends nothing.md"]}
 {"ts":"2026-09-01T00:48:21.462Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1042,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3","touched":["Hand the oversized body to the harness's own compaction and store nothing new.md"]}
 {"ts":"2026-09-01T00:48:23.180Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:48:24.713Z","tool":"ost_next_work","ok":true,"ms":125,"surface":"mcp","argBytes":2,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T01:50:03.169Z","tool":"ost_ingest_inbox","ok":true,"ms":96,"surface":"mcp","argBytes":2,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0"}
