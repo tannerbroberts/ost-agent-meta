@@ -8,6 +8,7 @@ threshold: >-
   declines to rule on the missing-file and broken-environment reds rather than
   accepting them — 4 of 4 classified correctly.
 instrument: npx vitest run test/mcp/instrument-red-now-guard.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -28,3 +29,4 @@ instrument: npx vitest run test/mcp/instrument-red-now-guard.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/instrument-red-now-guard.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/mcp/instrument-red-now-guard.test.ts` — ✓ the guard sorts four planted exit codes — 4 of 4 is the bar > assertion-fails → accepted (a spec was collected and an assertion in it failed — a red about behaviour) 679ms
