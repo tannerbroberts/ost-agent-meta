@@ -9,6 +9,7 @@ threshold: >-
   false positives is the bar, because a diff that flags unchanged nodes is one a
   reader stops reading.
 instrument: npx vitest run test/cli/tree-view-diff-since-last-visit.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ The three change kinds are chosen because they fail differently. A created node 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/cli/tree-view-diff-since-last-visit.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/cli/tree-view-diff-since-last-visit.test.ts` — Duration  11.98s (transform 178ms, setup 0ms, collect 264ms, tests 11.51s, environment 0ms, prepare 30ms)
