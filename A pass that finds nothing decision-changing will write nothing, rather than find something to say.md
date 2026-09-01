@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Score thirty appends written under the rule for whether each changed a decision]]
 
 **The belief, stated so it could be false:** an agent instructed to append only what changes a decision will, on a pass where it finds nothing, produce no append at all — rather than lowering its own bar until whatever it did notice qualifies.
 
