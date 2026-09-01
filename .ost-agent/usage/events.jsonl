@@ -8511,3 +8511,5 @@
 {"ts":"2026-09-01T10:58:47.719Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":4460,"session":"mcp-985b20f8-c019-4858-bbb9-ae0e32d6d69a","touched":["The bucket gains the lane filter the function two doors down already has.md"]}
 {"ts":"2026-09-01T10:59:06.440Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":3556,"session":"mcp-985b20f8-c019-4858-bbb9-ae0e32d6d69a","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
 {"ts":"2026-09-01T10:59:13.505Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-985b20f8-c019-4858-bbb9-ae0e32d6d69a"}
+{"ts":"2026-09-01T10:59:15.007Z","tool":"ost_next_work","ok":true,"ms":130,"surface":"mcp","argBytes":2,"session":"mcp-985b20f8-c019-4858-bbb9-ae0e32d6d69a"}
+{"ts":"2026-09-01T12:00:59.385Z","tool":"ost_ingest_inbox","ok":true,"ms":106,"surface":"mcp","argBytes":2,"session":"mcp-829b9825-a248-465c-b9a6-42a735db6008"}
