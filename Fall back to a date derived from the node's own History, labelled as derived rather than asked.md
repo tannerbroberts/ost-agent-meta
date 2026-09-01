@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A date reconstructed from History is close enough to when someone was actually asked to be worth ordering by]]
 
 **Variation dimension: what-is-given-up — precision versus coverage. Position taken: give up exactness to cover the population that already exists.**
 
