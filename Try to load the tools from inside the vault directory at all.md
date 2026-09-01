@@ -7,6 +7,7 @@ threshold: >-
   A vault opened from an unrelated working directory yields its tools,
   demonstrated once, within one afternoon.
 instrument: npx vitest run test/mcp/vault-declared-tool-load.test.ts
+authorship: machine
 ---
 #AssumptionTest #feasibility #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ An afternoon at most. If it takes longer than that to answer, the answer is effe
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/mcp/vault-declared-tool-load.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/mcp/vault-declared-tool-load.test.ts` — ✓ loading those tools from an unrelated working directory > a declaration naming an artefact that is not on disk fails here, not at launch 368ms [spec 0ce04a81f9d2]
