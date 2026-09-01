@@ -8266,3 +8266,4 @@
 {"ts":"2026-09-01T00:48:09.014Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":994,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3","touched":["Split every node into a claim file and a commentary file, and return the claim by default.md"]}
 {"ts":"2026-09-01T00:48:15.713Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1210,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3","touched":["Stop writing the visit log — a pass with nothing decision-changing to say appends nothing.md"]}
 {"ts":"2026-09-01T00:48:21.462Z","tool":"ost_append_to_node","ok":true,"ms":0,"surface":"mcp","argBytes":1042,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3","touched":["Hand the oversized body to the harness's own compaction and store nothing new.md"]}
+{"ts":"2026-09-01T00:48:23.180Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
