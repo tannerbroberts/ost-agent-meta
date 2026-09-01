@@ -5,6 +5,7 @@ created: '2026-08-03'
 evidence: assertion
 threshold: At least 80% of failed paths fall under 4 or fewer named roots.
 instrument: npx vitest run test/runner/path-root-coverage.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ The assumption is that a handful of named roots covers most of what a run reache
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/runner/path-root-coverage.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/runner/path-root-coverage.test.ts` — Duration  1.75s (transform 37ms, setup 0ms, collect 1.53s, tests 7ms, environment 0ms, prepare 30ms) [spec 204ddf27ae2e]
