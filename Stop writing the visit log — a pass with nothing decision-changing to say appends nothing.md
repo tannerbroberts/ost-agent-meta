@@ -10,6 +10,7 @@ killBy: '2026-11-30'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A pass that finds nothing decision-changing will write nothing, rather than find something to say]]
 
 **Variation dimension: who-does-the-work. Position taken: nobody does it, because the step is removed.**
 
