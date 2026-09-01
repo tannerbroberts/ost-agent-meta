@@ -7,6 +7,7 @@ threshold: >-
   The narrowed rule covers all 4 captured failures, and no scaffold target in
   the record lies inside an existing repository.
 instrument: npx vitest run test/runner/unconditional-scaffold-init.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -26,3 +27,4 @@ The second is that initialising is **safe where it would run**. A `git init` ins
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/runner/unconditional-scaffold-init.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/runner/unconditional-scaffold-init.test.ts` — Duration  237ms (transform 22ms, setup 0ms, collect 29ms, tests 5ms, environment 0ms, prepare 32ms) [spec 95983ddc6808]
