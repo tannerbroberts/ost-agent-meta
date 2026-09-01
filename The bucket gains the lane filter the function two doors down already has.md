@@ -128,3 +128,23 @@ Kept short, per this branch's convention. Only what is new.
 **Limits.** The 67 counts tests, not solutions, so it does not convert directly into bucket entries: several may hang beneath one solution, and some beneath solutions already excluded for other reasons. The composition claim rests on the 21 bare files' frontmatter plus titles for the remainder, with two bodies read in full — not on reading all 67. The frontmatter patterns assume the field order this vault's writer emits, so a file ordered unusually could be miscounted, which would understate the instrumented figure. Nothing was executed, no rung moved, no instrument set, no status changed, no node created.
 
 _Method: `Grep` over this vault's own node frontmatter (five patterns, whole corpus), `ost_read_tree` on eight node bodies, and `ost_read_repo` reads of `test/`, `src/ost/` and `src/ost/red-now.ts`. Observed structure of this vault; it grounds feasibility, not desirability._
+
+## 2026-09-01 (fourth firing) — the 45 unpageable entries are pageable, and the tail reads like the head
+
+Kept short, per this branch's convention. Only what is new.
+
+**The errand this closes.** Every section above ends on the same limit, in the same words: "the 25 are the id-ordered head of 70 and 45 entries were not pageable from this surface." That limit is not a property of the bucket. It is a property of one tool's display cap, and it dissolves for any pass holding ordinary file access to the vault.
+
+**The method, stated so it can be reused rather than rediscovered.** The bucket is ordered by title, not by id — the shown 25 run A through R and end at "Run both for two weeks on the same evidence and publish what diverged". So the 45 hidden entries are titles S through Z, and a glob over the vault reaches them directly. 105 Solution files carry titles in that range, a superset of the 45. A frontmatter census then found **48 AssumptionTest files carrying no `instrument:`, no `lane:` and no `sight:`** — the population a bucket entry's tests must come from.
+
+**What the tail is made of: 0 of 3 sampled entries is un-done work.** Three were read in full, chosen because their titles read as the most mechanizable in the set — a bias toward finding un-done work, so this is the conservative result rather than the flattering one. All three carry a dated 2026-08-31 `## Issues` annotation from a repo-sighted pass, and all three are one shape: **the mechanical half is already built and green**, so an instrument naming it would pass on arrival and the ruleset forbids setting it.
+
+- "Do the shipped sweeps actually find a planted instance" — answered 12 plants, 12 found; `test/eval/planted-instance.test.ts` shipped in v0.20.0 and confirmed present.
+- "Test humans can promote while the agent is blocked from validating" — `test/security/self-validation.test.ts` asserts both halves of the mechanical threshold; what remains is "5 of 5 humans promote without friction", which no exit code observes.
+- "Does refusing a newline inside a wiki-link catch breaks nothing else catches" — run 2026-07-26 over 100 commits of both vaults, all three pre-committed bars cleared; its parent solution is in `solutionsAwaitingObservation`, i.e. shipped.
+
+**What this does to this candidate.** Nothing to its reach estimate, and that is the point — the 62/67 split measured over the whole test corpus already bounded it correctly, and the tail contains no fourth population to revise it. What changes is the standing caveat: a sceptic no longer has 45 unexamined entries to point at. It also confirms the inversion recorded above from the other side, since the uninstrumented tail titles are overwhelmingly the pre-lane commercial and interview branch — pre-order probes, cold-offer tests, recruiting supply, price-splitting asks, blind-reader comparisons.
+
+**Limits.** Three of roughly 45 is a small sample and was selected for mechanizability rather than at random, so it bounds nothing about the other 42 beyond removing the claim that they are unreachable. The 48-file census matches on the frontmatter line immediately preceding the closing delimiter, so a test whose `threshold:` is a folded multi-line block is missed and the true uninstrumented count is 48 or higher — consistent with the 67 counted over the whole corpus by a different method. Nothing was executed, no rung moved, no instrument set, no status changed, no node created.
+
+_Method: `Glob` and `Grep` over this vault's own node files and frontmatter, `Read` on three test bodies, plus this firing's own `ost_next_work` sweep. Observed structure of this vault; it grounds feasibility, not desirability._
