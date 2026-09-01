@@ -9,6 +9,7 @@ threshold: >-
   path improvements travel down and the candidate is killed rather than
   repaired.
 instrument: npx vitest run test/release/registry-propagation-lag.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -29,3 +30,4 @@ instrument: npx vitest run test/release/registry-propagation-lag.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/release/registry-propagation-lag.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/release/registry-propagation-lag.test.ts` — Duration  221ms (transform 15ms, setup 0ms, collect 12ms, tests 3ms, environment 0ms, prepare 29ms) [spec 497a3ac460d6]
