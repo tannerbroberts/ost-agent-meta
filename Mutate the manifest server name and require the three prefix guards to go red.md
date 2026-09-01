@@ -8,6 +8,7 @@ threshold: >-
   manifest field they derive from. Three of three, not a majority — a technique
   that catches two of the three known cases has no claim on the unknown ones.
 instrument: npx vitest run test/guards/mutation-detects-self-derivation.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ instrument: npx vitest run test/guards/mutation-detects-self-derivation.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/guards/mutation-detects-self-derivation.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/guards/mutation-detects-self-derivation.test.ts` — Duration  31.30s (transform 20ms, setup 0ms, collect 19ms, tests 31.07s, environment 0ms, prepare 29ms) [spec 1fc268feec7a]
