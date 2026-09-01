@@ -8705,3 +8705,6 @@
 {"ts":"2026-09-01T22:19:13.268Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":98,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
 {"ts":"2026-09-01T22:19:41.675Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":114,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
 {"ts":"2026-09-01T22:20:08.078Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":4678,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
+{"ts":"2026-09-01T22:20:18.488Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:20:18.695Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
+{"ts":"2026-09-01T22:20:22.824Z","tool":"ost_ingest_inbox","ok":true,"ms":10,"surface":"mcp","argBytes":2,"session":"mcp-2040f82d-2973-43a5-8bed-a70f67bc2025"}
