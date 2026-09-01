@@ -10,6 +10,7 @@ authorship: machine
 #Opportunity #unvalidated #evidence/assertion
 [[Every door that puts a test in a needs-a-person lane files an ask on the way through]]
 [[Fall back to a date derived from the node's own History, labelled as derived rather than asked]]
+[[Order the queue by what answering would unblock, and drop age as the ranking key]]
 
 **Customer need (operator's perspective):** "Sixty-two things are waiting on me. Not one of them tells me how long it has been waiting, so they all look equally urgent, which means they all look equally ignorable. I open the list and close it again."
 
