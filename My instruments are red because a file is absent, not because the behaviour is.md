@@ -3,6 +3,7 @@ type: Opportunity
 source: 'TRANSCRIPT:49d6b2d3-b867-4996-9d9d-8f10dd0871de'
 created: '2026-08-07'
 evidence: observed
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
 [[An instrument records whether the pass that wrote it could see the repository]]
@@ -143,3 +144,23 @@ This is worth separating from the sight argument because it changes what would f
 **What this does not settle.** Whether admitting `-t` is a good idea. The stated reason for the closed form is that "an agent cannot author the outcome — only name the file", and a test-name filter is a string the agent chooses, so widening the grammar re-opens exactly the hole the closed form was built to shut. That trade is a design decision and is not made here. No test was run and this node's rung is unchanged.
 
 _Method: two `ost_set_instrument` calls made during this pass, and their verbatim refusals. First-party observation of the product's own tool boundary; grounds feasibility, not demand._
+
+## 2026-09-01 — the loop's own prompt now instructs every firing to write the form the validator refuses
+
+Kept short, per this branch's convention. Only what is new, and it is about a different artifact than any section above.
+
+**What the 2026-08-21 section established.** The accepted grammar is a bare spec path and nothing else; a test-name filter "cannot be expressed at all", so the strong instrument is unwriteable on this surface even with repo sight. That finding is re-verified current this pass by first-party read rather than by refusal: `INSTRUMENT_FORMS` in `src/knowledge/instruments.ts` holds exactly one entry, whose pattern is `^npx vitest run (?<target>[A-Za-z0-9][A-Za-z0-9._/-]*\.test\.ts)$`, and `SHELL_METACHARACTERS` includes both quote characters. Unchanged in the eleven days since.
+
+**What is new.** The unattended sweep's own firing prompt now holds up that refused string as its worked example of quality, and instructs each pass to prefer it. Its words: "`vitest run test/git/conflict-guard.test.ts -t \"refuses a write whose base hash drifted from the last read\"` against a spec that exists and asserts real behavior is strong — it fails today for a reason specific to this test", set against the bare path, which it calls weak and says "hands a builder nothing but 'create this file.'" Step 4 then directs the firing to write the former.
+
+That instruction is unsatisfiable. The example fails the parse three ways over: the double quotes trip `SHELL_METACHARACTERS`, the `-t` filter matches no form, and both examples omit the leading `npx` the pattern anchors on. So the loop instructs each firing to produce a string its own validator rejects on sight, while calling the only accepted string the weak kind not worth writing.
+
+**Why this is worth recording separately from the grammar finding.** The 2026-08-21 section frames the constraint as a limit a pass discovers at the tool boundary. It is now also a standing instruction to walk into it. The cost is not just the refused call: a refusal is a `tool_error`, the harvester files it, and the record joins `unmappedEvidence` — where it cannot be retired, per the census on "A human-edited manifest of loop-prescribed call sequences the harvester suppresses". So the contradiction manufactures queue debt on the same surface that is being asked to clear it. This pass avoided that only by reading the validator first and declining to make the call, which is not something the instruction suggests.
+
+**The repair is a choice between two artifacts, and it is not made here.** Either the grammar admits a test-name filter — which the 2026-08-21 section already notes re-opens the hole the closed form exists to shut, since a filter string is one the agent chooses — or the firing prompt stops asking for a form the product refuses and says plainly that a bare spec path is the only expressible instrument, with the `threshold:` field carrying the builder's definition of done. The second is free and matches what the 2026-08-09 addendum found evidence for on n=1. Whoever owns the prompt should pick.
+
+**What this does not settle.** Nothing about whether `-t` should be admitted, nothing about the 250-odd absent paths this node counts elsewhere, and nothing about desirability, viability or usability. It is a statement about two artifacts disagreeing, not about whether either is right.
+
+**Limits.** The prompt text quoted above is this firing's own instructions, read as given; a reader wanting to confirm it should check the loop's prompt template rather than take this node's word. No `ost_set_instrument` call was attempted this pass, so the refusal is inferred from a first-party read of the validator rather than observed at the boundary — that is weaker than the 2026-08-21 evidence and is offered as corroboration of it, not as a second measurement.
+
+_Method: `ost_read_repo` reads of `src/knowledge/instruments.ts` and `src/ost/instrument.ts` in full, against this firing's own prompt. Nothing executed, no rung moved, no instrument set, no status changed, no node created._
