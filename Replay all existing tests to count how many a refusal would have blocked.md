@@ -4,6 +4,7 @@ source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
 instrument: npx vitest run test/ost/unfixed-threshold-refusal-census.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -26,3 +27,4 @@ instrument: npx vitest run test/ost/unfixed-threshold-refusal-census.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/unfixed-threshold-refusal-census.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/ost/unfixed-threshold-refusal-census.test.ts` — Duration  464ms (transform 91ms, setup 0ms, collect 144ms, tests 122ms, environment 0ms, prepare 25ms)
