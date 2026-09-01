@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A person reads ten compacted bodies and marks every claim the full body made that the rendering dropped]]
 
 **The belief, stated so it could be false:** a general-purpose compactor, given a node body it knows nothing about, produces a rendering that carries every claim a reader would have acted on — in particular the negations, the retractions and the limits, which are the sentences a summariser is most likely to drop and the most expensive to lose.
 
