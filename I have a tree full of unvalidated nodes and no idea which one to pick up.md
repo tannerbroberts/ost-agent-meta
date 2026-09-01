@@ -10,6 +10,7 @@ authorship: machine
 [[Show me the whole priority order, and why each item sits where it does]]
 [[Nothing names the one node to pick up next, so choosing is work before the work]]
 [[The queue sends me to ideate under a heading that already has thirty solutions under it]]
+[[The work waiting on me has no start date, so I can't tell what has been waiting longest]]
 
 **Customer need (operator's perspective):** "I poured compute into this and came back to forty nodes that all say `unvalidated`. I believe them. I still don't know what to do on Monday morning."
 

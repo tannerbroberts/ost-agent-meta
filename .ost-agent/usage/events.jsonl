@@ -8404,3 +8404,21 @@
 {"ts":"2026-09-01T06:26:09.980Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-351b4322-3736-4937-ae40-418a128ee7cd"}
 {"ts":"2026-09-01T06:26:11.627Z","tool":"ost_next_work","ok":true,"ms":114,"surface":"mcp","argBytes":2,"session":"mcp-351b4322-3736-4937-ae40-418a128ee7cd"}
 {"ts":"2026-09-01T07:27:51.234Z","tool":"ost_ingest_inbox","ok":true,"ms":94,"surface":"mcp","argBytes":2,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:27:53.032Z","tool":"ost_next_work","ok":true,"ms":132,"surface":"mcp","argBytes":2,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:28:13.742Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":108,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:28:21.314Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:28:22.751Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:28:33.993Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:28:36.059Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":113,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:28:52.176Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":93,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:29:05.156Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":100,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:29:17.666Z","tool":"ost_next_work","ok":true,"ms":15,"surface":"mcp","argBytes":62,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:29:20.904Z","tool":"ost_next_work","ok":true,"ms":12,"surface":"mcp","argBytes":62,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:29:27.267Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":34,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:29:32.643Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:29:44.444Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":90,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:29:55.843Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":83,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:30:15.929Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:30:26.962Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:30:57.900Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":27,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5"}
+{"ts":"2026-09-01T07:31:37.112Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":5509,"session":"mcp-7f8392b9-64d4-442d-b24c-3b0c13b9bea5","wrote":["The work waiting on me has no start date, so I can't tell what has been waiting longest.md"],"touched":["The work waiting on me has no start date, so I can't tell what has been waiting longest.md","I have a tree full of unvalidated nodes and no idea which one to pick up.md"]}
