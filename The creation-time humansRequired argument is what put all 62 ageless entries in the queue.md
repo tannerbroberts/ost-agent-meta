@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A test born humans-required at creation is in the queue with a non-null age]]
 
 **Category: feasibility.** Stated so it can be false: *creating a node with `humansRequired:` sets the test's lane without filing an ask, and that is the route by which the current 62 ageless entries entered the queue.*
 
