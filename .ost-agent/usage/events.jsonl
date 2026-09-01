@@ -8229,3 +8229,5 @@
 {"ts":"2026-08-31T23:36:50.115Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
 {"ts":"2026-08-31T23:37:48.533Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":3130,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
 {"ts":"2026-08-31T23:37:50.378Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-08-31T23:37:51.829Z","tool":"ost_next_work","ok":true,"ms":126,"surface":"mcp","argBytes":2,"session":"mcp-4dbadab7-188a-4227-9c0e-6441e5184d56"}
+{"ts":"2026-09-01T00:39:31.021Z","tool":"ost_ingest_inbox","ok":true,"ms":105,"surface":"mcp","argBytes":2,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
