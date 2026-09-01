@@ -8638,3 +8638,23 @@
 {"ts":"2026-09-01T18:52:32.400Z","tool":"ost_ingest_inbox","ok":true,"ms":10,"surface":"mcp","argBytes":2,"session":"mcp-ceb4df91-ad8b-447e-b969-27f76a535637"}
 {"ts":"2026-09-01T18:52:33.956Z","tool":"ost_next_work","ok":true,"ms":141,"surface":"mcp","argBytes":2,"session":"mcp-ceb4df91-ad8b-447e-b969-27f76a535637"}
 {"ts":"2026-09-01T19:54:22.824Z","tool":"ost_ingest_inbox","ok":true,"ms":115,"surface":"mcp","argBytes":2,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:54:24.558Z","tool":"ost_next_work","ok":true,"ms":148,"surface":"mcp","argBytes":2,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:54:50.665Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":108,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:55:00.917Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:55:02.587Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:55:17.195Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":113,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:55:32.808Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":93,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:55:41.346Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:55:52.808Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:55:57.203Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":41,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:56:03.264Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":93,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:56:12.081Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":83,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:56:44.380Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:56:53.250Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":51,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:57:16.657Z","tool":"ost_set_instrument","ok":false,"ms":1,"surface":"mcp","argBytes":1099,"err":"cannot set that instrument on \"An all-cautious solution leaves the instrument bucket while one with a runnable test beside it stays\": \"npx vitest run test/ost/next-work-status-filter.test.ts -t \"a solution whose every test sits in the humans-required lane is absent while a runnable sibling keeps it ","session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:57:19.568Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:57:43.815Z","tool":"ost_read_tree","ok":true,"ms":163,"surface":"mcp","argBytes":89,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:58:05.235Z","tool":"ost_next_work","ok":true,"ms":34,"surface":"mcp","argBytes":62,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:58:09.000Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:58:47.455Z","tool":"ost_read_tree","ok":true,"ms":136,"surface":"mcp","argBytes":127,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c"}
+{"ts":"2026-09-01T19:59:39.155Z","tool":"ost_append_to_node","ok":true,"ms":66,"surface":"mcp","argBytes":3697,"session":"mcp-b0b7b87a-5481-44c0-a85b-2fdccbc3cc2c","touched":["A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}

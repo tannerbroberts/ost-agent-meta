@@ -35,3 +35,19 @@ There is deliberately no instrument. The bar is: at least 2 of every 3 expiries 
 The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
 
 **Sequencing:** run the count before building. This candidate is the only one of the three that can make things actively worse if its direction is wrong, and the corpus needed to check the direction already exists.
+
+## 2026-09-01 — a second instance, and it shows the doubling key would not have engaged
+
+Kept short, per this branch's convention. Only what is new.
+
+**A second independent record of the failure this candidate is built on.** `TRANSCRIPT:e7e72b8f-c632-4900-a9b4-68cfa7bc3b86`, captured at this pass's own ingest (mirrored 0d ago), carries **6 `await: gave up after 300s; the condition still exits 1` expiries and 4 byte-identical re-issues** — against the 5 expiries and 2 re-issues the 2026-08-29 record on the parent shows. Same shape, different session, larger. The subject both times is a test suite that had not finished.
+
+**The new mechanical fact: the caller did try to buy more time, and the knob it reached for does not govern.** Every one of the 4 re-issues carries `"timeout": 600000` in its Bash arguments — the caller had already doubled its tool-level allowance to 600s. The helper expired at 300s regardless, because that cap is the helper's own and the tool-level timeout never binds it. So this is not a session that failed to ask for more time. It asked, through the only knob visible to it, and the request was a silent no-op: the expiry line names 300s and says nothing about the 600s allowance sitting unused above it. That strengthens this candidate's central claim — the waiter holds information the caller does not — and adds a second item to the list of what it withholds.
+
+**And the finding that cuts against this candidate, from the same record.** This node already names an identity problem, but in the direction of over-collapsing: "two different waits on the same condition string in the same session are indistinguishable from one wait retried." Today's record is the opposite failure. The re-issues carry **at least two distinct condition strings** — `await 'grep -q "Test Files" /tmp/full-suite-2.txt'` and the same against `/tmp/full-suite-3.txt`. Keyed by condition string, as this candidate specifies, those are two different keys. Each would start fresh at 300s and the doubling would never engage, even though the session burned roughly half an hour on what is semantically one wait: *has the suite finished yet*. The escalation this node proposes would not have fired on the very record that best demonstrates the need for it.
+
+That is not fatal, and it is worth stating as a design constraint rather than a refutation: whatever key the record is held under has to survive a caller that renames its output file between attempts. Keying on the condition string is the cheapest choice and it is defeated by an incrementing filename, which is an ordinary thing for a caller to do.
+
+**Limits.** Two records is not a rate, and both are this vault's own unattended firings, so this is the agent's usage of its environment rather than any outside operator's. The 6 expiry lines do not carry their own commands — only the 4 retry events do — so "at least two distinct conditions" is a floor read off the retries, and the true spread across the 6 could be wider. The claim that the tool-level `timeout` cannot extend the helper's 300s cap is read off the arguments and the expiry text together, not from the helper's source, which is not in this repository. Nothing was executed, no rung moved, no instrument set, no status changed.
+
+_Source: this pass's own `ost_ingest_inbox` output and the evidence body served by `ost_next_work({evidence})`. Observed behaviour of this agent's own environment — it grounds usability, not desirability, and is not evidence that anyone wants anything._
