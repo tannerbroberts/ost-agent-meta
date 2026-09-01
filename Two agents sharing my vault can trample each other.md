@@ -4,6 +4,7 @@ status: unvalidated
 source: 'INBOX:2026-07-24-friction-two-loops-share-one-git-managed-vault-with-no-wr.md'
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[A merge conflict got committed into a source file, so the next run inherits a repo that cannot build]]
@@ -93,3 +94,11 @@ _Source: `TRANSCRIPT:424486ec-3489-4b53-8e2b-012232d221ab` and `TRANSCRIPT:06eba
 Two things in that sequence are worth keeping. First, the collision announced itself only as a *failed edit* — the same error text a stale read produces when nobody else is involved, which is why the agent needed a second signal (the git state) to tell the two apart at all. Second, the agent could not resolve it alone and spent a clarifying question on it, so a concurrent writer converted an unattended run into a blocked one. That links this opportunity to "The whole loop waits on one human command, and nobody is told it is waiting" without either being a duplicate of the other: this is the cause, that is the cost.
 
 Observed behavior from the agent's own session, so it grounds usability and the collision's existence — not how often two *operators* would collide, which is still unmeasured.
+
+## 2026-08-31 — the vault caveat is discharged for the write-race half (pointer only)
+
+Four lines, because the finding belongs on the child it is about.
+
+The 2026-08-03 corroboration section above closes with: "both concern the source repository rather than a vault; whether that generalises to two agents on one vault is an inference a human should rule on, not a fact these records establish." This firing ingested a record that is the vault — `TRANSCRIPT:745e5409-ef82-4c5c-9b07-2b6f63ec44dc`, in which an `ost_create_node` auto-commit died on `fatal: cannot lock ref 'HEAD'` with two differing hashes named. The full account, including a correction to how the child node words the need, is recorded on "Two runs write the same vault at once and nothing arbitrates between them".
+
+So the caveat is discharged for the write-race child only. The decision-collision child — the 2026-07-26 sighting in this node's own body, which it correctly says no vault lease would have prevented — is untouched by this record and its question stays open. Nothing else on this node changed.

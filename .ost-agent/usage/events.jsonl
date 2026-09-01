@@ -8286,3 +8286,4 @@
 {"ts":"2026-09-01T01:53:14.696Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":61,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0"}
 {"ts":"2026-09-01T01:53:24.670Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":84,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0"}
 {"ts":"2026-09-01T01:54:03.345Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4428,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0","touched":["Two runs write the same vault at once and nothing arbitrates between them.md"]}
+{"ts":"2026-09-01T01:54:18.225Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":1169,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0","touched":["Two agents sharing my vault can trample each other.md"]}
