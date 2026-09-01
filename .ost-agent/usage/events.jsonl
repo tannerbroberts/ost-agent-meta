@@ -8357,3 +8357,4 @@
 {"ts":"2026-09-01T04:10:49.929Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":107,"session":"mcp-cca5d515-ebf7-4817-92e6-911249db2f91"}
 {"ts":"2026-09-01T04:10:50.076Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":98,"session":"mcp-cca5d515-ebf7-4817-92e6-911249db2f91"}
 {"ts":"2026-09-01T04:11:58.908Z","tool":"ost_append_to_node","ok":true,"ms":2,"surface":"mcp","argBytes":4706,"session":"mcp-cca5d515-ebf7-4817-92e6-911249db2f91","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
+{"ts":"2026-09-01T04:12:02.434Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-cca5d515-ebf7-4817-92e6-911249db2f91"}
