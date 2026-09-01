@@ -9,6 +9,7 @@ threshold: >-
   neither fails the test, and so does a mutating response with no `dropped` key
   at all — absent must be distinguishable from none.
 instrument: npx vitest run test/mcp/mutation-response-dropped-sections-recoverable.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -33,3 +34,4 @@ First-party observation made during the unattended maintenance pass of 2026-08-0
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/mcp/mutation-response-dropped-sections-recoverable.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/mcp/mutation-response-dropped-sections-recoverable.test.ts` — Duration  1.04s (transform 251ms, setup 0ms, collect 396ms, tests 426ms, environment 0ms, prepare 25ms) [spec 6fd11fc90ca1]
