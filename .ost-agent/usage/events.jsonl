@@ -8293,3 +8293,4 @@
 {"ts":"2026-09-01T01:55:33.460Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":65,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0"}
 {"ts":"2026-09-01T01:55:33.605Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":87,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0"}
 {"ts":"2026-09-01T01:56:40.690Z","tool":"ost_append_to_node","ok":true,"ms":1,"surface":"mcp","argBytes":5708,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0","touched":["Every solution in the current backlog has an existing spec that could go red for it.md"]}
+{"ts":"2026-09-01T01:56:49.905Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-7f47fe92-44d9-4bc2-bf75-b7f88165f5d0"}
