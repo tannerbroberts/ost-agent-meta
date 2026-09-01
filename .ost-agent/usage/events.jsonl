@@ -8586,3 +8586,4 @@
 {"ts":"2026-09-01T15:27:14.050Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-16a8d3cc-7b34-4c61-867c-6a895f576368"}
 {"ts":"2026-09-01T15:27:48.345Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":98,"session":"mcp-16a8d3cc-7b34-4c61-867c-6a895f576368"}
 {"ts":"2026-09-01T15:28:39.491Z","tool":"ost_append_to_node","ok":true,"ms":21,"surface":"mcp","argBytes":4335,"session":"mcp-16a8d3cc-7b34-4c61-867c-6a895f576368","touched":["Adopt the platform's own job-control wait instead of maintaining a bespoke shell helper.md"]}
+{"ts":"2026-09-01T15:28:55.175Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-16a8d3cc-7b34-4c61-867c-6a895f576368"}
