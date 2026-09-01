@@ -7,6 +7,7 @@ threshold: >-
   The writing version is recoverable for at least 95 of the last 100 vault
   states in git history.
 instrument: npx vitest run test/ost/writing-version-recoverable.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/ost/writing-version-recoverable.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/ost/writing-version-recoverable.test.ts` — Duration  15.98s (transform 61ms, setup 0ms, collect 94ms, tests 15.67s, environment 0ms, prepare 25ms) [spec 1e313249b7ac]
