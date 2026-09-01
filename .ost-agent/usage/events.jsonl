@@ -8246,3 +8246,5 @@
 {"ts":"2026-09-01T00:42:32.310Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
 {"ts":"2026-09-01T00:42:37.664Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
 {"ts":"2026-09-01T00:43:32.121Z","tool":"ost_create_node","ok":true,"ms":34,"surface":"mcp","argBytes":4988,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3","wrote":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md"],"touched":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md","More reaches my senses than fits in the window where I think.md"]}
+{"ts":"2026-09-01T00:43:36.196Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":128,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
+{"ts":"2026-09-01T00:43:42.166Z","tool":"ost_link_nodes","ok":true,"ms":80,"surface":"mcp","argBytes":201,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
