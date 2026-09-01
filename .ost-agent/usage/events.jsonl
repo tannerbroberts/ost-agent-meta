@@ -8250,3 +8250,4 @@
 {"ts":"2026-09-01T00:43:42.166Z","tool":"ost_link_nodes","ok":true,"ms":80,"surface":"mcp","argBytes":201,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
 {"ts":"2026-09-01T00:43:56.274Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":100,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
 {"ts":"2026-09-01T00:44:14.646Z","tool":"ost_annotate","ok":true,"ms":2,"surface":"mcp","argBytes":1449,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3","touched":["Name the specific mechanisms a hand process structurally cannot have.md"]}
+{"ts":"2026-09-01T00:44:16.902Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-66f255a9-8175-416c-b180-5122418123d3"}
