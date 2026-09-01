@@ -29,3 +29,17 @@ The node stops being one document. A claim file holds the need or candidate and 
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author. The ruleset asks for one blind ideator per assigned dimension and this surface has no grant to run them, so discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-31; a human to review.
+
+## Definition of done
+
+"A reserved section written under a dated heading is served in the claim half, not the commentary half"
+
+```
+npx vitest run test/mcp/node-body-claim-split.test.ts
+```
+
+The command is red today because that spec file does not exist yet, which is the weak kind of red — it would fail identically for any question written on that path. The assertions it must carry are written out in full on the test node; the deliverable is the failing spec, not the filename.
+
+What it does not cover: a green proves the three-way split routes claim, commentary and reserved sections correctly. It says nothing about whether a reader given the claim alone reaches the same decision, which is this candidate's own kill criterion and needs a person.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
