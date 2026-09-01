@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A derived age is reported, marked as derived, and spreads the queue across more than a handful of dates]]
 
 **Category: feasibility, with a usability edge.** Stated so it can be false: *the dated `## History` line recording when a test's lane was set is a usable proxy for when the operator first owed an answer, and the resulting order is meaningfully different from the flat one it replaces.*
 
