@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The unblocking score separates the queue instead of collapsing to one value]]
 
 **Category: feasibility.** Stated so it can be false: *the tests on the ask queue differ enough in what they unblock — how many solutions depend on them, whether they are the sole test under their assumption, what declares them a prerequisite — that a leverage score separates them.*
 
