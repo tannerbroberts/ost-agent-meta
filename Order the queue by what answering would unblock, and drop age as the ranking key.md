@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[This tree's structure varies enough for an unblocking score to produce a real ordering]]
 
 **Variation dimension: what-it-measures — which property decides the order. Position taken: not elapsed time at all, but consequence.**
 
