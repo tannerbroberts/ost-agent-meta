@@ -21,3 +21,6 @@ Two assertions, because this belief has two ways of being false and only one of 
 **Why this instrument is red today, stated honestly.** `test/ost/ask-clock-derived-fallback.test.ts` does not exist, so this is a `no-spec` red — it fails identically to any question that could have been written on that path, mints no build permit, and this test is unfinished until the file exists and an assertion in it fails. The instrument surface takes one bare spec-file command and refuses shell punctuation, so a `-t` filter against the existing queue spec was not expressible.
 
 **What this does not settle, and it is the more important half.** Whether the derived dates are *correct*. A spec can prove a number appears and is labelled; only a person comparing derived dates against git history can say whether they reflect when anyone was actually asked. That check is the parent solution's kill criterion and is deliberately not automated here — an exit code that went green would otherwise read as "the dates are right" when all it saw was that dates exist.
+
+## Instrument Log
+- 2026-09-01 **no-spec** (exit none) `npx vitest run test/ost/ask-clock-derived-fallback.test.ts` — test/ost/ask-clock-derived-fallback.test.ts does not exist — no spec was collected, so nothing was measured
