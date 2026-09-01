@@ -8,6 +8,7 @@ threshold: >-
   path-taking calls in the corpus. Below that ratio the guard costs more turns
   than it saves and the solution is refuted in favour of its cheaper sibling.
 instrument: npx vitest run test/friction/path-guess-hit-rate.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,4 @@ instrument: npx vitest run test/friction/path-guess-hit-rate.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/friction/path-guess-hit-rate.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/friction/path-guess-hit-rate.test.ts` — Duration  1.25s (transform 41ms, setup 0ms, collect 1.03s, tests 7ms, environment 0ms, prepare 25ms) [spec 6cdbfed875f4]
