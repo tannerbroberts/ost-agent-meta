@@ -7,6 +7,7 @@ threshold: >-
   At least 60% of recorded steps from the last 30 days classify as
   side-effect-free by a fixed rule, with no case-by-case judgement.
 instrument: npx vitest run test/loop/replayable-step-share.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/loop/replayable-step-share.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/loop/replayable-step-share.test.ts` — Duration  243ms (transform 19ms, setup 0ms, collect 21ms, tests 12ms, environment 0ms, prepare 27ms) [spec 63f9932631a6]
