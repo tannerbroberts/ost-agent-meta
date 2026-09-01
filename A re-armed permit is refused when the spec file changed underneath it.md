@@ -8,6 +8,7 @@ threshold: >-
   contents are unchanged, and refuses to re-arm — leaving the permit un-cleared
   — when the contents differ, even though the command string is byte-identical.
 instrument: npx vitest run test/instruments/permit-rearm.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,4 @@ instrument: npx vitest run test/instruments/permit-rearm.test.ts
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/instruments/permit-rearm.test.ts` — No test files found, exiting with code 1
+- 2026-09-01 **green** (exit 0) `npx vitest run test/instruments/permit-rearm.test.ts` — Duration  10.54s (transform 245ms, setup 0ms, collect 392ms, tests 9.94s, environment 0ms, prepare 29ms) [spec fa10ae79f70e]
