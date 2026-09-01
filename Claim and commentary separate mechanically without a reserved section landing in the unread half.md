@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A reserved section written under a dated heading is served in the claim half, not the commentary half]]
 
 **The belief, stated so it could be false:** a node's body can be split into a claim region and a commentary region by a rule with no judgement in it, and a reserved section — `## Results`, `## Uncovered`, `## Instrument Log` — always lands in the claim region, never in the commentary region a default read does not return.
 
