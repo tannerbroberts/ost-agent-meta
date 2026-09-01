@@ -29,3 +29,13 @@ Build no consolidation mechanism, no split, no append rule. Storage is untouched
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author. The ruleset asks for one blind ideator per assigned dimension and this surface has no grant to run them, so discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-08-31; a human to review.
+
+## Definition of done — and it is not a command
+
+"A person reads ten compacted bodies and marks every claim the full body made that the rendering dropped"
+
+No command: this one is humans-required on purpose. The bar is **zero dropped negations, retractions or stated limits across all ten**. The failure this test exists to catch produces no error and no flag — a compacted body reads fluent and confident whether or not a retraction was dropped — so there is nothing for an exit code to observe. Absence is only visible to a reader who knows what was there.
+
+Cheapest first move: the two nodes named on the parent opportunity, at 30,395 and 8,875 characters, are already identified and both dense with qualifications. Running those two will very likely settle it, in which case the other eight are never needed.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
