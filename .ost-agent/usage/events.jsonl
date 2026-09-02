@@ -9048,3 +9048,5 @@
 {"ts":"2026-09-02T15:22:16.234Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
 {"ts":"2026-09-02T15:23:16.434Z","tool":"ost_annotate","ok":true,"ms":54,"surface":"mcp","argBytes":2075,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c","touched":["Auto-reading a file before write doesn't mask the exact race condition the guard exists to catch.md"]}
 {"ts":"2026-09-02T15:23:18.750Z","tool":"ost_ingest_inbox","ok":true,"ms":30,"surface":"mcp","argBytes":2,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:23:27.502Z","tool":"ost_next_work","ok":true,"ms":299,"surface":"mcp","argBytes":2,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T16:25:19.862Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-5965e28b-0f85-4d62-9b8e-239ec9592d51"}
