@@ -32,3 +32,17 @@ No allow-list, no marker, no per-tool table — all three are things somebody ha
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author. This unattended surface holds no grant to run independent parallel ideators, so the blindness the ruleset asks for was not available and their apparent distinctness should be discounted accordingly.
 
 Unvalidated. Agent-ideated 2026-09-02; a human to review.
+
+## Definition of done
+
+"A clean negative answer and a broken command classify differently from their bodies alone"
+
+```
+npx vitest run test/adapters/friction-negative-answer.test.ts
+```
+
+The bar that command has to clear: all six diagnostic bodies classify as `tool_error` and all six clean-negative bodies as `observation`, with zero crossovers. Both sides are required — a demoter that answers `observation` for everything clears any one-sided bar and destroys the channel.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**And the half no command reaches.** A green proves a rule separates twelve bodies somebody chose. The rate on the real corpus is this candidate's kill condition and needs a person hand-labelling fifty records; whether anyone finds the `observation` kind useful to read is not tested anywhere on this branch.
