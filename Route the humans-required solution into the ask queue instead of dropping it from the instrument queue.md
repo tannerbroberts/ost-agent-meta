@@ -78,3 +78,13 @@ Kept short. One correction to this node's own arithmetic, checked first-party, a
 **Limits.** The 62-equals-62 identity is inferred from two exact counts plus the sweep's own definition of the queue, not from enumerating both lists and matching them title by title; a ledger-only ask with no lane, paired with a lane-labelled test somehow absent from the queue, would preserve the totals and break the identity. The both-queues-at-once claim is verified per file on two solutions, not on all 70. Nothing was executed, no lane set, no rung moved, no instrument set, and this node's humans-required Definition of done stands unchanged.
 
 _Method: this firing's own `ost_next_work` response, one grep over this vault's node frontmatter, and four node bodies read in full. Observed structure of this vault, read first-party; it grounds feasibility, not desirability._
+
+## 2026-09-01 (later firing) — the residue this node treats as an unknown quantity is now composed, and it supports the candidate on correctness
+
+Four lines, per this node's convention. The finding is on the census node and is pointed at rather than restated here.
+
+This node's arithmetic turns on the unlabelled residue: "What would genuinely be added is only the unlabelled residue, which the sibling census on 'The biggest queue on my report is one the surface reading it to me has no tool to clear' measures at 67 tests as of today." That was a size with no composition. This firing enumerated the 67 by name and classified all of them: **46 are people-shaped on their face** (the title names the human act — ask, interview, pitch, sell, publish, show, judge), and of the 21 that are not, **14 have now been examined across passes and every one resolved as already-answered or humans-required in substance**. Zero instrumentable.
+
+**What that does to this candidate, in both directions.** It supports it on correctness — the residue is not work somebody failed to instrument, it is owed answers, so re-filing them as asks states what they actually are rather than relabelling noise. It confirms this node's stated give-up on cost without softening it: routing a residue that is genuinely ~67 asks onto a queue of 62 roughly doubles it, and every one of the 62 still carries no recorded age and no answer. The answering rate remains this candidate's whole open question and nothing here touches it.
+
+_Pointer only. Nothing was executed, no lane set, no instrument set, no rung moved, and this node's humans-required Definition of done stands unchanged._
