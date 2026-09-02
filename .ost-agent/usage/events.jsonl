@@ -9007,3 +9007,5 @@
 {"ts":"2026-09-02T14:08:37.454Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":79,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
 {"ts":"2026-09-02T14:08:37.648Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":105,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
 {"ts":"2026-09-02T14:08:53.822Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
+{"ts":"2026-09-02T14:08:55.508Z","tool":"ost_next_work","ok":true,"ms":236,"surface":"mcp","argBytes":2,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
+{"ts":"2026-09-02T14:09:43.791Z","tool":"ost_create_node","ok":true,"ms":2,"surface":"mcp","argBytes":3387,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c","wrote":["Take the compiled artefact off the run path entirely, so there is no build step to forget.md"],"touched":["Take the compiled artefact off the run path entirely, so there is no build step to forget.md","I changed the source and ran the tool, and a module-not-found is how I learn nothing compiled it.md"]}
