@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Artefact and source timestamps are a reliable enough proxy that ordinary git operations do not produce false refusals]]
 
 **Variation dimension: automated-vs-manual. Position taken: the detection is automated, the repair is left deliberately manual.**
 
