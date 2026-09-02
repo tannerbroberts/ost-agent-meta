@@ -7,6 +7,7 @@ threshold: >-
   The nobody-may-act bucket is empty, or every item in it has a named reason a
   human accepts.
 instrument: npx vitest run test/ost/sweep-actor-partition.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that partitioning produces a share an unattended pass can actu
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/sweep-actor-partition.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/ost/sweep-actor-partition.test.ts` — ✓ the sweep partitions by who may act on it > a `NextWork` field classified nowhere is a build failure, not a silent gap 392ms [spec 796151fb3de3]
