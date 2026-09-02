@@ -27,3 +27,15 @@ Stop shipping a run path that has two representations of the same code. Invoke t
 **Honest note on how this was ideated.** The sweep marked this opportunity `ideation: "blind"` and assigned one dimension per candidate. This surface holds no grant to run independent parallel ideators, so all three candidates here were composed in one context by one author — the exact condition the blind rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-09-02; a human to review.
+
+## Definition of done
+
+"A loader-invoked CLI answers six sequential subcommands within twice the bundled entrypoint's total wall-clock"
+
+```
+npx vitest run test/perf/loader-vs-bundle-cold-start.test.ts
+```
+
+The bar: loader total across `build-check`, `gate`, `buildable`, `verify`, `check` and `debt` no more than 2x the bundle's total, measured in the same run on the same machine, with all six producing identical output under both arms. The 2x is this candidate's own kill criterion, so a failing run retires the candidate rather than starting an argument about what the number meant.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
