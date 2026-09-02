@@ -168,3 +168,27 @@ Kept to the point, per this node's own convention. This corrects the section imm
 **What this does not touch.** The threshold classifier disagreement, the missing `ost_set_threshold` sibling, and the ask to a human about whether that omission is deliberate all stand unchanged. No instrument was set, no rung moved, no status changed.
 
 _Method: first-party `ost_read_repo` of `src/ost/instrument.ts` and `src/knowledge/instruments.ts` in full, plus `vitest.config.ts` and `package.json` (vitest `^2.1.0`; `passWithNoTests` is not set, so the default applies). Read off the source; nothing executed. Grounds feasibility only._
+
+## 2026-09-02 — the "one regex" premise is stale: half the repair this node named has already landed
+
+Kept short, per this node's convention. This corrects the section immediately above it, which is this pass's reason for writing.
+
+**The claim being corrected.** The 2026-08-31 (later firing) section states, as the load-bearing step in its argument: "`collectedNothing` is one regex, `/no test files found/i` — a **file-level** message." It draws from that a repair — "`collectedNothing` must also recognise the runner's no-tests-matched-pattern output" — and advises it "should land *before* any grammar widening."
+
+**What `src/ost/instrument.ts` says today, read first-party this pass.** `collectedNothing` is now two regexes:
+
+```
+return /no test files found/i.test(output) || /no test suite found in file/i.test(output);
+```
+
+and its comment records why the second was added, in terms that name this node's own subject: vitest 2.1.9 says "No test files found" only when the filter matched no file at all, whereas a file that IS collected and holds no case says "No test suite found in file <path>" — and "until this line it was classified `red`, which is the vacuous red this whole distinction exists to refuse." The comment states the second spelling "was found by running the case rather than by reading the runner's source", and points at captured output under `test/fixtures/instrument-red-now/`.
+
+**A second staleness in the same section, worth naming because it changes the shape of the risk.** That section describes the classifier as "exactly three steps: `exitCode === 0` → `green`; else `collectedNothing(output)` → `no-spec`; else → `red`." `classifyRun` now sorts six ways and carries a fourth observation class, `unavailable`, with its own detector (`environmentBroke`) distinguishing a spec that failed to load a *relative* module of this repository — a genuine red, and the commonest honest one in test-first work — from one that failed to load a *bare package specifier*, which is a broken box rather than a verdict about the code.
+
+**What survives, and it is the part that matters.** The conclusion is unchanged and still unverified: neither spelling matches whatever vitest emits when a `-t` filter selects no case inside a file that exists and collects fine, so a title-filtered instrument naming an assertion nobody has written would still fall through to `red` and mint a permit. What changes is the size and the framing of the repair. It is no longer "add a concept the module lacks" — the module already treats *collection-emptiness* rather than *file-absence* as the concept, and has been extended once on exactly this reasoning. It is "add a third spelling to a predicate that has already been widened once, alongside a captured fixture, in the manner the existing comment documents." A builder inherits a worked pattern rather than a design question.
+
+**One thing this pass could not check, stated so nobody reads more into it.** `test/eval/vacuous-red.test.ts` was read in full; its empty-spec case drives a stub runner that emits "No test files found", so that spec exercises the *first* regex only. Whether the second spelling is covered by a case somewhere else — the fixtures directory the comment names is the obvious candidate — was not verified, and this pass makes no claim either way.
+
+**Not acted on.** No instrument was set, no threshold changed, no lane set, no rung moved, no status changed, no node created. The missing `ost_set_threshold` sibling and the open ask about whether that omission is deliberate both stand unchanged, as does the three-readers-of-`thresholdKindOf` disagreement.
+
+_Method: first-party `ost_read_repo` of `src/ost/instrument.ts` (truncated mid-`spawnOnce`, after every function quoted above), `src/eval/buildable.ts` in full, and `test/eval/vacuous-red.test.ts` in full. Read off the source; nothing executed, so the `-t` wording remains the one unobserved fact in the chain. Grounds feasibility only; rung unchanged at the floor._
