@@ -8891,3 +8891,4 @@
 {"ts":"2026-09-02T07:28:41.551Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":888,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301","touched":["The session declares at call time that a negative exit is the answer it wants.md"]}
 {"ts":"2026-09-02T07:28:47.270Z","tool":"ost_append_to_node","ok":true,"ms":20,"surface":"mcp","argBytes":1021,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301","touched":["Demote an errored result to an observation when nothing in it diagnoses the command.md"]}
 {"ts":"2026-09-02T07:28:53.794Z","tool":"ost_append_to_node","ok":true,"ms":20,"surface":"mcp","argBytes":1059,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301","touched":["Adopt each tool's published exit-code contract instead of authoring a notion of failure here.md"]}
+{"ts":"2026-09-02T07:29:07.843Z","tool":"ost_ingest_inbox","ok":true,"ms":11,"surface":"mcp","argBytes":2,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
