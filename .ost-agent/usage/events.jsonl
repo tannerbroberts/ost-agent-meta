@@ -8861,3 +8861,16 @@
 {"ts":"2026-09-02T06:19:26.727Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-79146609-2b0e-4281-8072-e7658a278dd0"}
 {"ts":"2026-09-02T06:19:39.420Z","tool":"ost_next_work","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-79146609-2b0e-4281-8072-e7658a278dd0"}
 {"ts":"2026-09-02T07:21:18.995Z","tool":"ost_ingest_inbox","ok":true,"ms":100,"surface":"mcp","argBytes":2,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:21:20.917Z","tool":"ost_next_work","ok":true,"ms":135,"surface":"mcp","argBytes":2,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:21:38.342Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":108,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:21:47.460Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:22:19.091Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:22:34.152Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:22:37.691Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":113,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:22:52.312Z","tool":"ost_next_work","ok":true,"ms":16,"surface":"mcp","argBytes":62,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:23:03.939Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:23:11.849Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":83,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:23:18.154Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":86,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:23:24.616Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":89,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:23:40.333Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":37,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
+{"ts":"2026-09-02T07:24:44.227Z","tool":"ost_create_node","ok":true,"ms":23,"surface":"mcp","argBytes":6627,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301","wrote":["A command whose non-zero exit was the answer I wanted is filed as something that went wrong.md"],"touched":["A command whose non-zero exit was the answer I wanted is filed as something that went wrong.md","I want my usage to automatically feed into and make the OST-Agent better.md"]}

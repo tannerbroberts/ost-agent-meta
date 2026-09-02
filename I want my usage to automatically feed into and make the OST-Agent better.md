@@ -15,6 +15,7 @@ evidence: assertion
 [[Evidence that only confirms a need I already recorded still arrives as work I have to clear]]
 [[I can't tell real friction from the loop doing exactly what I told it to do]]
 [[The evidence queue counts records, not distinct problems, so I cannot tell whether 464 items is 464 needs or five repeating]]
+[[A command whose non-zero exit was the answer I wanted is filed as something that went wrong]]
 
 **The need (operator's voice):** "There's a distinction between the agent's usage of the OST and its assertions about that usage. Traces and statistics can be tracked mechanically and give credence in a way assertions can't touch. I want my usage to feed the product automatically — reflection on self-generated statistics, not an echo chamber."
 
