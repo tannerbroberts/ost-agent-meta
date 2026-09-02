@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A source newer than the artefact refuses and names the rebuild, while a branch switch that changes no content still runs]]
 
 **Risk category: feasibility.**
 
