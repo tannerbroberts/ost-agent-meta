@@ -8905,3 +8905,4 @@
 {"ts":"2026-09-02T08:32:24.729Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":98,"session":"mcp-d275cb2f-cc7c-4950-8cf6-d7bf84b49841"}
 {"ts":"2026-09-02T08:33:38.696Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1694,"session":"mcp-d275cb2f-cc7c-4950-8cf6-d7bf84b49841","touched":["Settle the known prompts as config and count how many new ones appear in a month.md"]}
 {"ts":"2026-09-02T08:33:43.549Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1537,"session":"mcp-d275cb2f-cc7c-4950-8cf6-d7bf84b49841","touched":["Follow a candidate source list for a month and count items that bear on anything open.md"]}
+{"ts":"2026-09-02T08:33:52.811Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":2256,"session":"mcp-d275cb2f-cc7c-4950-8cf6-d7bf84b49841","touched":["Set up one scheduled export and check every week whether it is still arriving.md"]}
