@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Every CLI invocation in the committed automation reaches the binary through a lifecycle-hooked script, not a bare node call]]
 
 **Risk category: feasibility.**
 
