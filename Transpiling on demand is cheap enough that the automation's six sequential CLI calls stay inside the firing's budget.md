@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A loader-invoked CLI answers six sequential subcommands within twice the bundled entrypoint's total wall-clock]]
 
 **Risk category: feasibility.**
 
