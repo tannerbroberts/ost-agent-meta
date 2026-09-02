@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The invocations that actually crash go through the package manager, so a lifecycle hook is on their path]]
 
 **Variation dimension: bought-vs-built. Position taken: the triggering is adopted from outside as it is; nothing here is built except the script the hook already calls.**
 
