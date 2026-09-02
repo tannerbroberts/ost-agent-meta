@@ -8743,3 +8743,5 @@
 {"ts":"2026-09-02T00:40:00.046Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":4136,"session":"mcp-febfd91f-b8dd-4d72-863c-efa34af2974b","touched":["The pass never says it is done, so I can't tell when to stop paying for compute.md"]}
 {"ts":"2026-09-02T00:40:12.387Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":113,"session":"mcp-febfd91f-b8dd-4d72-863c-efa34af2974b"}
 {"ts":"2026-09-02T00:40:18.736Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-febfd91f-b8dd-4d72-863c-efa34af2974b"}
+{"ts":"2026-09-02T00:40:20.421Z","tool":"ost_next_work","ok":true,"ms":124,"surface":"mcp","argBytes":2,"session":"mcp-febfd91f-b8dd-4d72-863c-efa34af2974b"}
+{"ts":"2026-09-02T01:44:36.760Z","tool":"ost_ingest_inbox","ok":true,"ms":333,"surface":"mcp","argBytes":2,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
