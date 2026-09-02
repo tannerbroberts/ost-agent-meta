@@ -8,6 +8,7 @@ authorship: machine
 #Opportunity #unvalidated #evidence/observed
 [[Take the compiled artefact off the run path entirely, so there is no build step to forget]]
 [[The entrypoint refuses when its artefact is older than the sources it was built from, and names the rebuild]]
+[[Adopt the package manager's own lifecycle hooks so the rebuild is a convention rather than machinery built here]]
 
 **The need.** A firing edits source, then invokes the tool it just edited, and the first thing it learns is `Cannot find module './src/loop/handoff.js'`. The module is not missing — `src/loop/handoff.ts` is right there. What is missing is any step between writing the source and running it that turns one into the other. With nobody watching, the crash is the notification, and it arrives at the point where the firing had already committed to the run.
 
