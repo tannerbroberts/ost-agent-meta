@@ -11,6 +11,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The numeric exit code reaches the harvester at all, rather than being formatted away for a human reader]]
 
 **Variation dimension: bought-vs-built — how much of the judgement is imported. Position taken: the whole discrimination is adopted from outside, and what is built here is only the lookup.**
 
