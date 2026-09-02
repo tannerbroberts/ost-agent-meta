@@ -7,6 +7,7 @@ threshold: >-
   Every source found is watchable directly, or has a proxy costing under an hour
   to build.
 instrument: npx vitest run test/loop/work-source-census.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that every meaningful trigger is observable. A woken loop that
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/loop/work-source-census.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/loop/work-source-census.test.ts` — Duration  526ms (transform 135ms, setup 0ms, collect 203ms, tests 115ms, environment 0ms, prepare 27ms) [spec e44785af21cb]
