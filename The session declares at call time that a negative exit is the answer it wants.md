@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The transcript keeps a channel the caller can mark a command in, and the harvester can still see it]]
 
 **Variation dimension: who-does-the-work — who supplies the intent. Position taken: the calling session, at the moment of the call, and the classifier only reads.**
 
