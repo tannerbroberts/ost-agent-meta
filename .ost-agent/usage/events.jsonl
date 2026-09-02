@@ -8859,3 +8859,5 @@
 {"ts":"2026-09-02T06:18:49.472Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-79146609-2b0e-4281-8072-e7658a278dd0"}
 {"ts":"2026-09-02T06:19:24.167Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":4178,"session":"mcp-79146609-2b0e-4281-8072-e7658a278dd0","touched":["My tests carry thresholds nobody ever fixed, so nothing can come out a failure.md"]}
 {"ts":"2026-09-02T06:19:26.727Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-79146609-2b0e-4281-8072-e7658a278dd0"}
+{"ts":"2026-09-02T06:19:39.420Z","tool":"ost_next_work","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-79146609-2b0e-4281-8072-e7658a278dd0"}
+{"ts":"2026-09-02T07:21:18.995Z","tool":"ost_ingest_inbox","ok":true,"ms":100,"surface":"mcp","argBytes":2,"session":"mcp-5ebc9d29-bdba-4496-9511-ca020f8ff301"}
