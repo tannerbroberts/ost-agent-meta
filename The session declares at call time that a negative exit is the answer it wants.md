@@ -29,3 +29,17 @@ The harvester cannot recover intent after the fact, because by then all it has i
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author. This unattended surface holds no grant to run independent parallel ideators, so the blindness the ruleset asks for was not available and their apparent distinctness should be discounted accordingly.
 
 Unvalidated. Agent-ideated 2026-09-02; a human to review.
+
+## Definition of done
+
+"The harvester carries the caller's declared expectation through to the friction event"
+
+```
+npx vitest run test/adapters/transcript-caller-declaration.test.ts
+```
+
+The bar that command has to clear: zero `tool_error` events emitted for a marked command, and the identical unmarked command still emits one.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**And the half no command reaches.** A green here proves the adapter can read a mark and act on it. Whether any session ever writes the mark is this candidate's real risk, is recorded as its kill condition above, and needs a person reading a month of transcripts. Do not read a passing spec as evidence that this candidate works.
