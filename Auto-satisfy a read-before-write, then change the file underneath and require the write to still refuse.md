@@ -8,6 +8,7 @@ threshold: >-
   caller's own read is still refused. One silent overwrite is a failure — this
   is a zero-tolerance bar, not a rate.
 instrument: npx vitest run test/preflight/auto-satisfy-preserves-staleness-guard.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,4 @@ instrument: npx vitest run test/preflight/auto-satisfy-preserves-staleness-guard
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/preflight/auto-satisfy-preserves-staleness-guard.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/preflight/auto-satisfy-preserves-staleness-guard.test.ts` — Duration  677ms (transform 261ms, setup 0ms, collect 380ms, tests 71ms, environment 0ms, prepare 29ms) [spec 449865fc91b6]
