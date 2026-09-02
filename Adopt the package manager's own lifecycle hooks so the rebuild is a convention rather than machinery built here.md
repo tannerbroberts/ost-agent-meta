@@ -29,3 +29,15 @@ Write no detector and no refusal. Use the lifecycle hooks npm already runs — `
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author; this surface has no grant to run the independent parallel ideators the sweep's `ideation: "blind"` marking asks for. Discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-09-02; a human to review.
+
+## Definition of done
+
+"Every CLI invocation in the committed automation reaches the binary through a lifecycle-hooked script, not a bare node call"
+
+```
+npx vitest run test/automation/cli-invocations-are-hooked.test.ts
+```
+
+The bar: zero bare `node .../ost-agent.mjs` invocations remain across every file in `examples/automation/`, and at least one lifecycle hook is asserted present in `package.json`. It is red today because `build-pass.sh` carries six such invocations and no `npm ci` or `npm run bundle` — the exact condition this candidate's stated give-up is about.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
