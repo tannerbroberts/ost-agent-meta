@@ -6,6 +6,7 @@ threshold: >-
   Every converted criterion returns an identical verdict idle and under
   saturation, and still returns red when the guarded behaviour is regressed.
 instrument: npx vitest run test/gate/operation-budget.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -34,3 +35,4 @@ This instrument was written by a pass with no sight of the repository: `ost_read
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/gate/operation-budget.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/gate/operation-budget.test.ts` — Duration  8.26s (transform 237ms, setup 0ms, collect 350ms, tests 7.68s, environment 0ms, prepare 25ms) [spec 8b741785128e]
