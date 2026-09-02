@@ -6,6 +6,7 @@ threshold: >-
   Every construct the parser rejects appears in the published grammar, and the
   grammar is obtainable without submitting an artifact.
 instrument: npx vitest run test/skill/published-grammar.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,4 @@ instrument: npx vitest run test/skill/published-grammar.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/skill/published-grammar.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/skill/published-grammar.test.ts` — Duration  278ms (transform 43ms, setup 0ms, collect 55ms, tests 12ms, environment 0ms, prepare 31ms) [spec 8ca6d3d36a75]
