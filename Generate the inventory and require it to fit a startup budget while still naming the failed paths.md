@@ -9,6 +9,7 @@ threshold: >-
   not either — an inventory that fits and does not cover, or covers and does not
   fit, refutes the solution as written.
 instrument: npx vitest run test/preflight/workspace-inventory-fits-and-covers.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ instrument: npx vitest run test/preflight/workspace-inventory-fits-and-covers.te
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/preflight/workspace-inventory-fits-and-covers.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/preflight/workspace-inventory-fits-and-covers.test.ts` — Duration  286ms (transform 33ms, setup 0ms, collect 49ms, tests 37ms, environment 0ms, prepare 33ms) [spec d5ce53a51d0a]
