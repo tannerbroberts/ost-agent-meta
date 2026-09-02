@@ -11,6 +11,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[An errored result's body keeps enough text to tell a command's own negative finding from a diagnosis of the command]]
 
 **Variation dimension: automated-vs-manual — which half is mechanised. Position taken: the detection is fully automatic with nothing hand-maintained, and the half left deliberately manual is the verdict.**
 
