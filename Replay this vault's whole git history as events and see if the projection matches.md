@@ -8,6 +8,7 @@ threshold: >-
   the projection of the full log is byte-identical to the current vault. Below
   90%, or any node the projection cannot reproduce, refutes it.
 instrument: npx vitest run test/ost/event-log-projection.test.ts
+authorship: machine
 ---
 #AssumptionTest #human-entered #feasibility #unvalidated #evidence/assertion
 
@@ -32,3 +33,4 @@ _Unvalidated — a human runs this and records the outcome with `ost-agent resul
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/ost/event-log-projection.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/ost/event-log-projection.test.ts` — Duration  416ms (transform 33ms, setup 0ms, collect 94ms, tests 121ms, environment 0ms, prepare 33ms) [spec 98236bcfbc8b]
