@@ -116,3 +116,27 @@ The four mechanisms above all concern `unmappedEvidence`. This one concerns the 
 **What this does not establish.** Eight of sixty-four is a sample, not a census, and it is drawn only from the 25 the cap made visible — the same alphabetical-head problem "Most of my backlog has never been read once…" records beside this node. The 39 hidden entries were not examined and may contain genuine work. A census would settle the share and none was run.
 
 _First-party to this firing: the `ost_next_work` response and eight `ost_read_tree` node reads. Observed behaviour of this product's own surface; it grounds usability, not desirability. No test was run and no result is recorded._
+
+## 2026-09-01 — the compute cost this node names, measured by a machine instead of asserted by a pass
+
+Kept short. One number, from a channel that has never been cited on this node before.
+
+**Why this is not another section of the same.** Every cost claim on this node is a pass's account of its own budget — the 2026-08-28 section closes "This pass spent most of its budget doing exactly that, which is the compute cost this opportunity exists to name," and offers no figure. `USAGE:2026-09-01`, captured at this firing's ingest, is the append-only tool-invocation trace rolled up mechanically: its own header states "Computed, not composed: no agent narrated, selected, or summarized these numbers." It is the first measurement of this node's subject that no agent authored.
+
+**The day, across 21 sessions and 491 MCP calls (489 ok, 2 failed, p50 68ms).**
+
+| | calls | share |
+|---|---|---|
+| Reads — `ost_read_tree` 210, `ost_read_repo` 98, `ost_next_work` 93 | **401** | 81.7% |
+| Ingest — `ost_ingest_inbox` | 42 | 8.6% |
+| Structural writes — `append_to_node` 23, `create_node` 21, `link_nodes` 1, `annotate` 1, `edit_node` 1, `set_instrument` 1 | **48** | 9.8% |
+
+**What that says, and it is the ratio rather than the total.** Twenty-one firings spent four calls reading for every one that changed the tree. `ost_read_tree` alone — re-reading node bodies, which is how a pass rediscovers which parked items are parked on purpose — is 210 of 491, more than reads of the product repository and sweeps combined. Averaged out, a firing costs roughly 23 calls and leaves 2.3 structural writes behind. The 2026-08-28 section infers exactly this shape from one pass's felt experience; the trace puts a denominator under it for a whole day of firings.
+
+**The sharpest single figure is on instruments, the bucket the firing prompt weights most heavily.** Across all 21 sessions, `ost_set_instrument` succeeded **once**, and both of the day's only two failed calls were the other two attempts — one `ost_create_node` and one `ost_set_instrument`, each refused for the same reason, an instrument written with a `-t "…"` filter hitting the shell-punctuation guard. So instrument authoring ran at 1 of 3 attempts for the day, and the two losses were the documented grammar limit rather than anything new. That limit is already established first-party on "My tests carry thresholds nobody ever fixed, so nothing can come out a failure", which reads `src/knowledge/instruments.ts` in full; this adds only that the cost is still being paid, by a second channel, on a day nobody had flagged.
+
+**What this does not establish.** One day, and a day of unattended firings specifically — it is not a rate for attended work. The trace's Surface table reads `mcp: 491`, so harness-side calls (`Read`, `Glob`, `Edit`) are outside it: this is the read/write ratio of the MCP surface, not of everything a pass does, and the true read share is higher rather than lower. It also says nothing about whether the reads were *wasteful* — a read that stops a pass duplicating a node is worth making, and this node's own argument is that many of them are re-derivation rather than that all of them are. Separating those two is the open question, and no artifact on disk currently distinguishes them.
+
+**Not mapped, and that is this node's own first defect.** `USAGE:2026-09-01` corroborates an opportunity that already exists, so there is no honest node to create for it and no affordance to add a second `source:` to this one. It will therefore be reported as unmapped evidence on every future pass — the many-to-one gap the 2026-08-02 section names as the binding one, demonstrated once more by the very record that measures its cost.
+
+_Source: `USAGE:2026-09-01`, read in full via `ost_next_work({evidence})`. Machine-recorded trace of this product's own agent — it grounds usability and the agent-tool loop, not external demand. Nothing executed, no rung moved, no instrument set, no status changed._
