@@ -5,6 +5,7 @@ source: 'agent:P4_assumptions'
 created: '2026-07-24'
 evidence: assertion
 instrument: npx vitest run test/loop/stall-definition-replay.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #feasibility #evidence/assertion
 
@@ -26,3 +27,4 @@ Proposed by the agent — to be run by a human against recorded runs. No results
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/loop/stall-definition-replay.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/loop/stall-definition-replay.test.ts` — Duration  234ms (transform 18ms, setup 0ms, collect 17ms, tests 7ms, environment 0ms, prepare 28ms) [spec 5a0981b93bda]
