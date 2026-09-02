@@ -8,6 +8,7 @@ threshold: >-
   threshold produces an explicit diagnostic entry naming the empty descent, not
   an absent one.
 instrument: npx vitest run test/ost/next-work-leaf-redirect.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ The bar is deliberately about the *diagnostic*, not about the count. It is fine 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/next-work-leaf-redirect.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/ost/next-work-leaf-redirect.test.ts` — Duration  2.52s (transform 200ms, setup 0ms, collect 296ms, tests 2.01s, environment 0ms, prepare 31ms) [spec 6cc31aa4377c]
