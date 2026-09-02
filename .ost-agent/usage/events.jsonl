@@ -9004,3 +9004,6 @@
 {"ts":"2026-09-02T14:07:27.282Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
 {"ts":"2026-09-02T14:07:27.384Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":30,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
 {"ts":"2026-09-02T14:08:15.001Z","tool":"ost_create_node","ok":true,"ms":113,"surface":"mcp","argBytes":4369,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c","wrote":["I changed the source and ran the tool, and a module-not-found is how I learn nothing compiled it.md"],"touched":["I changed the source and ran the tool, and a module-not-found is how I learn nothing compiled it.md","I can't leave the process running unattended without worrying.md"]}
+{"ts":"2026-09-02T14:08:37.454Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":79,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
+{"ts":"2026-09-02T14:08:37.648Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":105,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
+{"ts":"2026-09-02T14:08:53.822Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
