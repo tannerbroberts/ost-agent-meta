@@ -75,3 +75,11 @@ Kept short. This is a small addition to the corpus counts above, not another cen
 **One first-party corroboration this pass can add that a count cannot.** The permission refusal in `82c427bd` was not merely read this firing — it was *reproduced* by this firing, on the same path, in the same shape: a built-in `Glob` at `/Users/tanner/dev/OST-Agent` was refused for want of a grant, while `ost_read_repo` read the identical checkout without complaint, because `product.repos` sanctions it. Recorded on the node that holds that need rather than restated here.
 
 _Method: `ost_ingest_inbox`, two evidence bodies via `ost_next_work({evidence})`, one grep over this vault's stored transcript records, and one reproduction observed in this firing's own tool results. Observed behaviour of this product's own agent; it grounds usability, not demand. The two records stay listed as unmapped — reading them does not map them._
+
+## 2026-09-01 — correction to the pointer in the section immediately above
+
+Three lines. The section above ends "Recorded on the node that holds that need rather than restated here." It was not, and the reason is worth one sentence rather than leaving a reader hunting for a section that does not exist.
+
+The node that holds it — "The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time" — carries a standing instruction to future passes in its own body: *do not append another sighting*, because a `Glob` denial on the product path with `ost_read_repo` answering normally against the same directory is the established default and confirms nothing new; add a census row only when a number moves. This firing's reproduction is that default exactly, its prompt-versus-withheld-list disagreement is already recorded there as confirmed first-party on 2026-09-01, and no number moved. So the sighting was deliberately not filed, and the pointer above should be read as "already established elsewhere", not "written up elsewhere".
+
+_No node changed as a result of this reproduction. Correction recorded during the same 2026-09-01 unattended sweep that made the claim._
