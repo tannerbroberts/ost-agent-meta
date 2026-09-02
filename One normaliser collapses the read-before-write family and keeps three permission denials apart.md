@@ -9,6 +9,7 @@ threshold: >-
   yet` family across differing paths and sessions, and three distinct groups for
   the permission denials naming `ost_check`, `ost_debt` and `ost_read_repo`.
 instrument: npx vitest run test/adapters/friction-signature.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ The fixture strings are taken from the corpus rather than invented, which is the
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/adapters/friction-signature.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/adapters/friction-signature.test.ts` — Duration  265ms (transform 36ms, setup 0ms, collect 40ms, tests 4ms, environment 0ms, prepare 24ms) [spec daa4db2bda62]
