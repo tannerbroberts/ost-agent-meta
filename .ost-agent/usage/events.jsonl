@@ -8973,3 +8973,15 @@
 {"ts":"2026-09-02T11:53:29.978Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-39286ad7-0f4b-4e0b-bb8a-c6477729ac76"}
 {"ts":"2026-09-02T11:53:31.720Z","tool":"ost_next_work","ok":true,"ms":126,"surface":"mcp","argBytes":2,"session":"mcp-39286ad7-0f4b-4e0b-bb8a-c6477729ac76"}
 {"ts":"2026-09-02T12:58:04.063Z","tool":"ost_ingest_inbox","ok":true,"ms":318,"surface":"mcp","argBytes":2,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:58:06.477Z","tool":"ost_next_work","ok":true,"ms":462,"surface":"mcp","argBytes":2,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:58:34.266Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:58:35.894Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:58:38.688Z","tool":"ost_read_tree","ok":true,"ms":243,"surface":"mcp","argBytes":108,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:58:57.796Z","tool":"ost_read_tree","ok":true,"ms":265,"surface":"mcp","argBytes":86,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:59:07.209Z","tool":"ost_read_tree","ok":true,"ms":249,"surface":"mcp","argBytes":113,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:59:16.332Z","tool":"ost_read_tree","ok":true,"ms":248,"surface":"mcp","argBytes":98,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:59:26.586Z","tool":"ost_next_work","ok":true,"ms":51,"surface":"mcp","argBytes":62,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:59:33.045Z","tool":"ost_next_work","ok":true,"ms":48,"surface":"mcp","argBytes":62,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T12:59:36.569Z","tool":"ost_next_work","ok":true,"ms":49,"surface":"mcp","argBytes":62,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T13:00:48.204Z","tool":"ost_read_tree","ok":true,"ms":254,"surface":"mcp","argBytes":134,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T13:02:03.944Z","tool":"ost_append_to_node","ok":true,"ms":70,"surface":"mcp","argBytes":4137,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca","touched":["The evidence queue counts records, not distinct problems, so I cannot tell whether 464 items is 464 needs or five repeating.md"]}

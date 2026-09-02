@@ -99,3 +99,27 @@ Kept short, per this node's convention. Only what is new: every count on this no
 **Limits, stated so this is not over-read.** Two snapshots is not a trend, and the interval is approximate: the 559 figure comes from another firing's prose rather than from a timestamped ledger, and neither reading fixes an hour. Transcript harvesting may lag a session's end, so arrivals in a 24-hour window need not correspond to firings in that window — the lower-bound inference is sound in aggregate and unreliable over one day. Nothing here re-counts composition; the 65.5% signature concentration and the 14.2% whole-record noise figure are untouched and were not re-derived.
 
 _Method: this firing's own stop-condition figure, its `ost_ingest_inbox` output, and one evidence body via `ost_next_work({evidence})`. Observed behaviour of this product's own agent, captured mechanically — it grounds usability, not demand. The record stays listed as unmapped; reading it does not map it. Nothing executed, no rung moved, no instrument set, no status changed, no node created._
+
+## 2026-09-02 (later firing) — the untriaged third is not diverse either, and the arrival rate recorded this morning was three times too low
+
+Kept short, per this node's convention. Two things only, both first-party, both corrections to numbers already on this node rather than a new census.
+
+**1. Three more repeating signatures inside the "untriaged 34.5%".** The 2026-08-30 section names its own honest limit: eight signatures cover 65.5% of tool errors, "the eight leave 412 events (34.5%) untriaged", and "nothing here shows that remainder is diverse; it was simply not grepped for". This firing grepped for three strings that list does not cover, over today's corpus of **602** transcript records:
+
+| Signature not on the eight-row list | Occurrences | Records |
+|---|---|---|
+| `Blocked:` — a guard refusing a Bash or Monitor command | 35 | 32 |
+| `Cannot find module` / `ERR_MODULE_NOT_FOUND` | 27 | 24 |
+| A test suite reporting failures (`Tests N failed`) | 20 | 20 |
+
+The first row matters most as a correction. The eight-row table counts "`Monitor` refusing a composite command" at **8 events across 4 records** — the narrowest reading of that failure. The guard's actual refusal string appears **35 times across 32 records**, so that row was undercounting its own signature roughly four-fold, and the shortfall sits in the untriaged remainder exactly as that section predicted.
+
+**What this settles and what it does not.** It confirms the stated direction of the earlier error — "further counting can only make the queue look more repetitive, never less" — with three named signatures rather than an assurance. It does **not** restate 65.5% as a higher number, and deliberately so: these counts are over 602 records where the 65.5% was computed over 500, and this grep does not separate a string appearing in a `tool_error` body from the same string inside a `retry` payload, which the earlier event counts did. So the three rows are a floor on what the remainder contains, on a different denominator, and are not arithmetic on the old one.
+
+**2. The arrival rate.** The 2026-09-02 section immediately above states "+4 in roughly 24 hours", concludes "the queue is not filling fast", and infers that harvest-side suppression "would save this queue roughly one record a day". That firing read a stop condition of 562 and ingested 1, reaching 563. **This firing, the same calendar day, read a stop condition of 574 and ingested 2, reaching 576.** So the queue moved 562 → 576 — **+14 in one day, of which 11 arrived from sessions that were neither firing.** The rate is about three and a half times the figure recorded this morning, and the "one record a day" saving attributed to suppression is understated by roughly the same factor.
+
+**Which of that morning's claims survive.** Its structural inference stands and is strengthened: arrivals are a lower bound on firings, and 11 unattributed arrivals in a day means more sessions are running than either firing could see. Its conclusion does not — "the queue is not filling fast" rested on a two-point series whose own limits paragraph said "two snapshots is not a trend", and the third point broke it. The drain is still the larger problem: **576 items, 0 retired**, and nothing here changes that.
+
+**One figure re-read on a moved corpus.** Records containing `retry` events and **no** `tool_error` at all: **94 of 602 (15.6%)**, against the 14.2% whole-record noise figure recorded earlier. Same phenomenon, slightly larger share.
+
+_Method: three greps over every `TRANSCRIPT_*.md` in this vault's evidence folder, plus this firing's own stop-condition figure and `ost_ingest_inbox` output. Observed behaviour of this product's own agent, captured mechanically — it grounds usability, not demand. The records counted stay listed as unmapped; counting them does not map them. Nothing executed, no rung moved, no instrument set, no status changed, no node created._
