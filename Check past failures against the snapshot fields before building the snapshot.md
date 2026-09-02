@@ -7,6 +7,7 @@ threshold: >-
   At least 7 of the 10 most recent recorded failures are fully explained by
   working directory, resolved argv, tool versions and git SHA alone.
 instrument: npx vitest run test/telemetry/failure-context-coverage.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/telemetry/failure-context-coverage.test.ts` — filter:  test/telemetry/failure-context-coverage.test.ts
+- 2026-09-02 **green** (exit 0) `npx vitest run test/telemetry/failure-context-coverage.test.ts` — stdout | test/telemetry/failure-context-coverage.test.ts > the current corpus — the ten most recent recorded failures > the count IS the deliverable, and it is printed [spec c7e377a6ed0d]
