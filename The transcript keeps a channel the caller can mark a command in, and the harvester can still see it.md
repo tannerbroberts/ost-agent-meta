@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The harvester carries the caller's declared expectation through to the friction event]]
 
 **Category: feasibility.**
 
