@@ -179,3 +179,28 @@ Kept short, per the convention the sections above follow. This is the same enume
 **Limits.** The four counts are counts of frontmatter fields and are exact; nothing here is a sample. The Δ column compares against figures recorded on this node by another firing and inherits whatever those got wrong — in particular that section itself flags a 355/354 discrepancy on the instrument grep. Membership of the 67 was not enumerated, only its size, and the six named above were verified per file rather than by diff, per the correction the section above establishes. This says nothing about whether the 67 contain a compute-answerable test that does not say so in its prose, which remains the untouched residue.
 
 _First-party to this firing: five greps over this vault's files and thirteen node bodies read in full. Observed behaviour of files on disk; it grounds usability, not demand. No test was run, no result recorded, no lane set, no rung moved. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design._
+
+## 2026-09-01 (later firing) — the 67 enumerated by name, and the unexamined residue is 8 tests rather than 67
+
+Kept short, per this node's convention. The section above closes on exactly one open item — "Membership of the 67 was not enumerated, only its size… This says nothing about whether the 67 contain a compute-answerable test that does not say so in its prose, which remains the untouched residue." This pass enumerated the membership and narrowed that residue.
+
+**The method, which is the part worth reusing.** Earlier sections establish that a positional diff between the AssumptionTest list and the instrument list is unsound (the orderings do not correspond) and that per-file verification is the only method that holds but is slow. There is a third: match the frontmatter block whole, with an allow-list of keys, so a file carrying `instrument:` or `lane:` cannot match at all. One multiline grep, order-independent, no diff and no per-file pass. It returns **exactly 67** — the same figure the section above reached by subtraction, now with names attached.
+
+**Result over the full population, not a sample.** Classifying all 67 by what the title names as the measuring act:
+
+| | Count | Basis |
+|---|---|---|
+| People-shaped on their face | **46** | The title names the human act — ask, interview, pitch, sell, offer, publish, show, hand, judge, "would operators" |
+| Not obviously people-shaped | **21** | Everything else |
+| — of those, already examined and resolved | **12** | Recorded on this node or on the test itself: already-answered, or humans-required in substance |
+| — of those, genuinely unexamined | **9** | Named below |
+
+**The residue, named so nobody re-derives it.** "Apply the escalating message to the five-failure session and check where it would have fired" (its node is `deferred`, so it is retired and the live residue is **8**); "Does a placeholder outcome get replaced, or does it become the tree's real root"; "Replay the three recorded failed runs through the journal-alert rule on paper"; "Settle the known prompts as config and count how many new ones appear in a month"; "Give a cold session only the tree and see whether it can say why the work exists"; "Follow a candidate source list for a month and count items that bear on anything open"; "Set up one scheduled export and check every week whether it is still arriving"; "Count how many of the operator's real experiment sources can push anywhere at all"; "Two unattended weeks - count pages, grind, and money burned".
+
+**And four of those eight are longitudinal on their face** — a month, every week, two weeks, "on paper". So the plausible instrumentable yield left in the 67 is smaller than eight, and the cheap search this node declared closed on 2026-08-29 is now closed by enumeration over the whole set rather than by seam.
+
+**Two examined this pass, both resolved humans-required.** "Install the package on ten stock setups and see whether postinstall ever gets to speak" — needs publish rights and ten real environments; its own body says "A human, or an attended session with publish rights" and names the release-credential dependency. "Replay ten past runs and count how many needed a scope nobody would have predicted" — the measurement is a person judging what they would have granted knowing only the task, and its own limits paragraph asks for a second person to debias it. Neither can take an exit code. That makes it 14 of 21 non-people entries examined across all passes, and still **zero instrumentable**.
+
+**Limits.** The 46/21 split is classification by title, not by body, and it is the weaker half — a title-based read of a marketing candidate is safe and one of an ambiguous candidate is not, which is why the 21 are treated as unresolved rather than dismissed. The 12 already-examined rest on notes recorded by earlier firings on the tests themselves, inherited rather than re-verified here. The enumeration is exact and reproducible; the kinds underneath it are not. Nothing was executed, no lane set, no instrument set, no rung moved, no status changed, and no node created.
+
+_Method: one multiline frontmatter grep over this vault's `*.md`, plus six node bodies and two test bodies read in full, and a first-party `ost_read_repo` read of `src/eval/buildable.ts`. Observed structure of files on disk; it grounds usability, not demand. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design._

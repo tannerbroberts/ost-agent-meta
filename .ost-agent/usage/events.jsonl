@@ -8745,3 +8745,23 @@
 {"ts":"2026-09-02T00:40:18.736Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-febfd91f-b8dd-4d72-863c-efa34af2974b"}
 {"ts":"2026-09-02T00:40:20.421Z","tool":"ost_next_work","ok":true,"ms":124,"surface":"mcp","argBytes":2,"session":"mcp-febfd91f-b8dd-4d72-863c-efa34af2974b"}
 {"ts":"2026-09-02T01:44:36.760Z","tool":"ost_ingest_inbox","ok":true,"ms":333,"surface":"mcp","argBytes":2,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:44:38.956Z","tool":"ost_next_work","ok":true,"ms":531,"surface":"mcp","argBytes":2,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:44:49.889Z","tool":"ost_next_work","ok":true,"ms":42,"surface":"mcp","argBytes":62,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:44:50.358Z","tool":"ost_next_work","ok":true,"ms":51,"surface":"mcp","argBytes":62,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:44:56.559Z","tool":"ost_next_work","ok":true,"ms":45,"surface":"mcp","argBytes":62,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:44:57.219Z","tool":"ost_next_work","ok":true,"ms":55,"surface":"mcp","argBytes":62,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:45:11.264Z","tool":"ost_read_tree","ok":true,"ms":222,"surface":"mcp","argBytes":2,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:45:48.796Z","tool":"ost_read_tree","ok":true,"ms":240,"surface":"mcp","argBytes":108,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:46:12.875Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:46:25.957Z","tool":"ost_read_tree","ok":true,"ms":271,"surface":"mcp","argBytes":98,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:46:30.478Z","tool":"ost_read_tree","ok":true,"ms":246,"surface":"mcp","argBytes":107,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:46:31.048Z","tool":"ost_read_tree","ok":true,"ms":256,"surface":"mcp","argBytes":152,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:46:42.497Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:46:42.759Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":43,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:47:00.899Z","tool":"ost_read_tree","ok":true,"ms":206,"surface":"mcp","argBytes":113,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:47:01.324Z","tool":"ost_read_tree","ok":true,"ms":200,"surface":"mcp","argBytes":100,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:47:18.011Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":93,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:47:18.177Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":105,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:47:30.709Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:50:07.571Z","tool":"ost_read_tree","ok":true,"ms":275,"surface":"mcp","argBytes":98,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
+{"ts":"2026-09-02T01:51:56.719Z","tool":"ost_append_to_node","ok":true,"ms":84,"surface":"mcp","argBytes":4654,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
