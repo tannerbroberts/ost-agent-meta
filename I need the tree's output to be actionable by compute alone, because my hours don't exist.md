@@ -6,6 +6,7 @@ source: >-
   as first operator
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Every run ends blocked on a credential only I hold]]
@@ -138,3 +139,21 @@ Evidence class for this entire section: a census of this vault's own files, take
 - 2026-08-05 unlinked "Scheduled ambient passes that page the operator only at hard gates" — re-parented under "Every piece of work is priced in my minutes, and I have none to spend" — this solution answers that need, not the categories beside it
 - 2026-08-05 unlinked "Leave a permanent test behind instead of a one-off verdict draft" — re-parented under "Every piece of work is priced in my minutes, and I have none to spend" — this solution answers that need, not the categories beside it
 - 2026-08-23 body edited — Six sections and three Issues bullets, written across 2026-08-04, -05 and -06, each independently measured the same finding — that `solutionsMissingInstruments` mixes un-instrumented work with work no command can settle — and restated it at length, growing this node to 40KB. Two of those sections already carry corrections to their own arithmetic, and one corrects the correction. A node whose central finding is stated six times is a node the operator it is addressed to will not read, which defeats the one thing it is for. Folding the six into a single dated census below: every measurement, ratio, date, named test, named spec file and version number is carried across, and the qualitative findings that differ between passes (the three-shape taxonomy, the shipped-behaviour trap, the lane-default trap, the two-lane threshold problem, the title-vs-threshold search key, the three composing mechanisms) are each kept once rather than restated. No claim dropped; git holds the full prior text. The three observed instances, the fifteen-stops record and the mapped evidence are untouched — they record distinct events, not restatements.
+
+## 2026-09-01 — the lane distribution re-measured at n=500, and the prediction this node made in August has come due
+
+Kept short. One row for the census table above, plus the thing that row now implies.
+
+**Departing from this node's own logging convention, visibly rather than silently.** The 2026-08-22 Issues bullet asks future sweeps to "add a row to the census table rather than a new section." Doing that means rewriting a 26,800-character body to insert one line, with a real chance of dropping a claim from a node whose whole recorded history is passes restating each other. This vault has already worked through that trade once, on "The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it", and settled it the same way. So the row is here, at a fraction of the cost and with the same information content. Someone folding it into the table later loses nothing.
+
+**The row.** 2026-09-01 | 500 tests | lane distribution | runnable **0**, awaiting-one-command **0**, blocked-on-permission **0**, needs-humans **500**.
+
+**What is new is the denominator, not the shape.** The 2026-08-05 row recorded the identical degenerate distribution over 264 tests. The corpus has since grown to 500 — up 89% in four weeks — and the distribution has not moved by a single test. Every one of the 500 routes to the scarcest resource in the process. Confirmed against the mechanism this pass rather than inferred: `src/knowledge/lanes.ts` read in full holds exactly one lane with `computeMayRun: true`, `CAUTIOUS_LANE` is `humans-required`, and `computeMayRun` fails closed on a missing or unrecognised lane, so an unlabelled test is indistinguishable from a judged one at the point of use.
+
+**The prediction that has now come due, and this is why the row is worth recording at all.** The census above closes its list of what a human could change with: "Nothing else unblocks the loop's own premise; until then `runnable: []` is guaranteed and the instrument work has no consumer." That was written when 54 tests carried instruments. Today **371 of the 500 carry a runnable command and 239 of those have been observed green** — the mechanical half has been done seven times over since the warning — and the execution count is **0 of 500**. Not one test in this tree carries a result anybody recorded.
+
+So the warning was not merely correct, it is now expensive. The gap it predicted has been filled from the wrong side: four weeks of passes wrote commands into a lane that has no runner, and the readiness figure climbed while the answer figure stayed at zero. A green observation is not a verdict — the rollup separates the two on purpose, and recording a result stays a human's `ost-agent result` — so none of the 239 greens has settled a single assumption. The bottleneck was never the commands. It is the one call that moves a test into `compute-only`, which is a human's alone, and which nobody has made on this vault in its entire history.
+
+**Limits.** The lane distribution is read straight off this firing's own `ost_next_work` response, not from a per-file census, so it inherits whatever that function's sorting does; a test carrying a lane in prose rather than frontmatter counts as unlabelled here, which is also how the product itself counts it. The 371/239/0 figures are the rollup's, computed from the nodes, not re-derived independently. Nothing was executed, no rung moved, no instrument set, no lane set, no status changed, and no node created. This grounds feasibility about this vault's own structure; it is not evidence that anyone wants anything.
+
+_Method: this firing's own sweep response, plus first-party `ost_read_repo` reads of `src/knowledge/lanes.ts` and `src/eval/buildable.ts` in full._
