@@ -7,6 +7,7 @@ threshold: >-
   At least 3 of 5 scopes are expressible without a clause that could be
   satisfied vacuously.
 instrument: npx vitest run test/eval/gate-scope-expressibility.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that a gate's intended coverage can be written down up front. 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/eval/gate-scope-expressibility.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/eval/gate-scope-expressibility.test.ts` — Duration  241ms (transform 24ms, setup 0ms, collect 25ms, tests 4ms, environment 0ms, prepare 26ms) [spec 2ef65a85fdd4]
