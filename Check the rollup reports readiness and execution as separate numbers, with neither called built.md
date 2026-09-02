@@ -7,6 +7,7 @@ threshold: >-
   bucket states its executed count in a position at least as prominent as its
   readiness count.
 instrument: npx vitest run test/ost/rollup-execution-first.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,3 +23,4 @@ instrument: npx vitest run test/ost/rollup-execution-first.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/rollup-execution-first.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/ost/rollup-execution-first.test.ts` — Duration  355ms (transform 100ms, setup 0ms, collect 148ms, tests 4ms, environment 0ms, prepare 27ms) [spec d5a061cce3d4]
