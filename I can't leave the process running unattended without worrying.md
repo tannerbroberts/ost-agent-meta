@@ -23,6 +23,7 @@ evidence: assertion
 [[My bounded wait gives up before the job it is watching finishes, so the run stalls on work that was still healthy]]
 [[The wait stops at its own default while the call I made still had time left]]
 [[A wait that gave up tells me nothing about whether waiting longer would have worked]]
+[[I changed the source and ran the tool, and a module-not-found is how I learn nothing compiled it]]
 
 **The need (customer's voice):** "If I hand a goal and some compute to an autonomous agent and walk away, I need to come back to a system that is still running and still pointed at the same goal — and if I stop it or it crashes mid-step, I need to be able to start it again without wondering what got half-written."
 
