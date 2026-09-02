@@ -4,6 +4,7 @@ status: unvalidated
 source: 'agent-run:autonomous-loop-2026-07-25-pass6'
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #AssumptionTest #unvalidated #potential-harm #evidence/assertion
 
@@ -43,3 +44,15 @@ the cost is real.
 
 ⚠️ Proposed only. Written by the agent that argued against the solution it protects,
 which is a reason to check that the bar is not set where it is easy to clear.
+
+## 2026-09-01 unattended sweep — examined for an instrument, and it cannot take one
+
+Four lines, so no future pass re-derives this. This test was named in the residue of eight genuinely-unexamined tests on "The biggest queue on my report is one the surface reading it to me has no tool to clear". It has now been examined.
+
+**Verdict: not repo-answerable.** The pre-committed threshold is "at least 2 of 3 replace the placeholder *before* running any process that creates nodes". That is three people handed a scaffolded vault and watched; no exit code from this product's own suite can observe it, and an instrument naming a spec file would fail today for a reason that has nothing to do with the question.
+
+**One half of it is compute-readable and is not the deciding half.** The body's own design names it: elapsed git time between a root being created and its mandate first changed by a human, readable across the two existing vaults today with no new instrumentation. That is worth having and it measures the founder's own two vaults, i.e. the population least likely to leave a placeholder standing. It supports the threshold; it cannot settle it.
+
+**One mechanical note for whoever triages.** This node's body says "**Lane: deliberately unset**" and its frontmatter carries no `lane:` field, so it appears in neither `outstandingAsks` nor any humans-required count — it is invisible to both queues while being, in substance, humans-required. That is a labelling decision and this surface holds no `ost_flag_humans_required` grant, so it is left for a human rather than acted on.
+
+_Nothing was executed, no instrument set, no lane set, no rung moved, no status changed. Read first-party from disk during the 2026-09-01 unattended sweep._
