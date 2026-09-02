@@ -7,6 +7,7 @@ threshold: >-
   All three resumed passes take the same next action the original took, with no
   work repeated and no state silently invented.
 instrument: npx vitest run test/loop/pass-resume-fidelity.test.ts
+authorship: machine
 ---
 #AssumptionTest #feasibility #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ Proposed by the agent; a human runs it and records the outcome.
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/pass-resume-fidelity.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/loop/pass-resume-fidelity.test.ts` — Duration  644ms (transform 29ms, setup 0ms, collect 30ms, tests 414ms, environment 0ms, prepare 33ms) [spec 741f87255a66]
