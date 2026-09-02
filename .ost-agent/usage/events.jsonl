@@ -8947,3 +8947,4 @@
 {"ts":"2026-09-02T10:43:35.799Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":82,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
 {"ts":"2026-09-02T10:44:12.174Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":71,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
 {"ts":"2026-09-02T10:44:50.442Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":3501,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80","touched":["More reaches my senses than fits in the window where I think.md"]}
+{"ts":"2026-09-02T10:44:54.161Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
