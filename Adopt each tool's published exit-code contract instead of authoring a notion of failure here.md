@@ -34,3 +34,17 @@ So: read the numeric exit code, look up the invoked tool's published contract in
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author. This unattended surface holds no grant to run independent parallel ideators, so the blindness the ruleset asks for was not available and their apparent distinctness should be discounted accordingly.
 
 Unvalidated. Agent-ideated 2026-09-02; a human to review.
+
+## Definition of done
+
+"A friction event from a Bash result carries the exit code as a number and names the tool that returned it"
+
+```
+npx vitest run test/adapters/friction-exit-code.test.ts
+```
+
+The bar that command has to clear: 5 of 5 well-formed bodies yield the correct number, 2 of 2 malformed yield `null`, and zero bodies yield a wrong number. The `null` requirement is load-bearing — a parser that guesses hands the adopted lookup table a confident wrong row.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+**And the half no command reaches.** This is the first unit of work, not the whole candidate: the lookup table itself is untested by it, and so is the coverage question — how much of the real corpus comes from tools that publish a distinguishing contract — which is this candidate's kill condition and a count over the vault's own records.
