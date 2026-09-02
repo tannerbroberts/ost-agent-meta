@@ -8808,3 +8808,5 @@
 {"ts":"2026-09-02T04:07:00.805Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":99,"session":"mcp-b329a196-1b3b-4f29-ab9e-99ce9cdd0e07"}
 {"ts":"2026-09-02T04:07:51.701Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":3895,"session":"mcp-b329a196-1b3b-4f29-ab9e-99ce9cdd0e07","touched":["I need the tree's output to be actionable by compute alone, because my hours don't exist.md"]}
 {"ts":"2026-09-02T04:07:58.381Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-b329a196-1b3b-4f29-ab9e-99ce9cdd0e07"}
+{"ts":"2026-09-02T04:07:59.868Z","tool":"ost_next_work","ok":true,"ms":124,"surface":"mcp","argBytes":2,"session":"mcp-b329a196-1b3b-4f29-ab9e-99ce9cdd0e07"}
+{"ts":"2026-09-02T05:09:39.522Z","tool":"ost_ingest_inbox","ok":true,"ms":97,"surface":"mcp","argBytes":2,"session":"mcp-5521b604-57a5-414b-b668-fec8d854efc6"}
