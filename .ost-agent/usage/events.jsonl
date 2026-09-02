@@ -9105,3 +9105,4 @@
 {"ts":"2026-09-02T19:54:43.866Z","tool":"ost_read_tree","ok":true,"ms":288,"surface":"mcp","argBytes":100,"session":"mcp-32599044-2f4f-475e-86b7-536e7036959b"}
 {"ts":"2026-09-02T19:54:55.076Z","tool":"ost_read_tree","ok":true,"ms":252,"surface":"mcp","argBytes":98,"session":"mcp-32599044-2f4f-475e-86b7-536e7036959b"}
 {"ts":"2026-09-02T19:55:49.036Z","tool":"ost_append_to_node","ok":true,"ms":75,"surface":"mcp","argBytes":2989,"session":"mcp-32599044-2f4f-475e-86b7-536e7036959b","touched":["A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}
+{"ts":"2026-09-02T19:55:53.438Z","tool":"ost_ingest_inbox","ok":true,"ms":26,"surface":"mcp","argBytes":2,"session":"mcp-32599044-2f4f-475e-86b7-536e7036959b"}
