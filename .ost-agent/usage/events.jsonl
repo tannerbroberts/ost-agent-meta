@@ -8985,3 +8985,5 @@
 {"ts":"2026-09-02T12:59:36.569Z","tool":"ost_next_work","ok":true,"ms":49,"surface":"mcp","argBytes":62,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
 {"ts":"2026-09-02T13:00:48.204Z","tool":"ost_read_tree","ok":true,"ms":254,"surface":"mcp","argBytes":134,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
 {"ts":"2026-09-02T13:02:03.944Z","tool":"ost_append_to_node","ok":true,"ms":70,"surface":"mcp","argBytes":4137,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca","touched":["The evidence queue counts records, not distinct problems, so I cannot tell whether 464 items is 464 needs or five repeating.md"]}
+{"ts":"2026-09-02T13:02:25.703Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":93,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
+{"ts":"2026-09-02T13:03:03.925Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":4144,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
