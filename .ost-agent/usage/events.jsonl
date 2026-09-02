@@ -9160,3 +9160,4 @@
 {"ts":"2026-09-02T23:14:13.638Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":50,"session":"mcp-c698dc45-981c-4b66-af35-c9499471dc61"}
 {"ts":"2026-09-02T23:14:15.295Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":37,"session":"mcp-c698dc45-981c-4b66-af35-c9499471dc61"}
 {"ts":"2026-09-02T23:14:49.950Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":3825,"session":"mcp-c698dc45-981c-4b66-af35-c9499471dc61","touched":["A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}
+{"ts":"2026-09-02T23:15:07.362Z","tool":"ost_append_to_node","ok":true,"ms":40,"surface":"mcp","argBytes":3319,"session":"mcp-c698dc45-981c-4b66-af35-c9499471dc61","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
