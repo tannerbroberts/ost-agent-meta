@@ -7,6 +7,7 @@ threshold: >-
   At least 3 of the 4 captured exit-128 failures occurred in a directory this
   tool created; below that, a manifest cannot be the primary mechanism.
 instrument: npx vitest run test/runner/scaffold-manifest-coverage.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,3 +23,4 @@ The assumption is that the failing workspaces are ones this tool made. A manifes
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/runner/scaffold-manifest-coverage.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/runner/scaffold-manifest-coverage.test.ts` — Duration  249ms (transform 30ms, setup 0ms, collect 33ms, tests 7ms, environment 0ms, prepare 26ms) [spec cc21f9deb331]
