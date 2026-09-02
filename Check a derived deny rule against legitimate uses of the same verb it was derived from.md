@@ -7,6 +7,7 @@ threshold: >-
   rule is attributed to the refusal it came from and reversible by one human
   action.
 instrument: npx vitest run test/security/derived-deny-rule.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -22,3 +23,4 @@ instrument: npx vitest run test/security/derived-deny-rule.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/security/derived-deny-rule.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/security/derived-deny-rule.test.ts` — Duration  257ms (transform 36ms, setup 0ms, collect 40ms, tests 17ms, environment 0ms, prepare 36ms) [spec bfab6446c445]
