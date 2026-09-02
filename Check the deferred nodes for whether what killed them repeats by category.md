@@ -7,6 +7,7 @@ threshold: >-
   At least 15 abandoned solutions exist, and the top 3 causes account for half
   of them.
 instrument: npx vitest run test/ost/deferred-cause-recurrence.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that failure repeats by category — that a vault which has ab
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/ost/deferred-cause-recurrence.test.ts` — No test files found, exiting with code 1
+- 2026-09-02 **green** (exit 0) `npx vitest run test/ost/deferred-cause-recurrence.test.ts` — Duration  358ms (transform 93ms, setup 0ms, collect 137ms, tests 12ms, environment 0ms, prepare 30ms) [spec 1b649d18e939]
