@@ -9057,3 +9057,5 @@
 {"ts":"2026-09-02T16:27:59.147Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-5965e28b-0f85-4d62-9b8e-239ec9592d51"}
 {"ts":"2026-09-02T16:29:12.314Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":106,"session":"mcp-5965e28b-0f85-4d62-9b8e-239ec9592d51"}
 {"ts":"2026-09-02T16:30:40.882Z","tool":"ost_edit_node","ok":true,"ms":24,"surface":"mcp","argBytes":19295,"session":"mcp-5965e28b-0f85-4d62-9b8e-239ec9592d51","touched":["The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time.md"]}
+{"ts":"2026-09-02T16:31:05.416Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-5965e28b-0f85-4d62-9b8e-239ec9592d51"}
+{"ts":"2026-09-02T16:31:36.504Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-5965e28b-0f85-4d62-9b8e-239ec9592d51"}
