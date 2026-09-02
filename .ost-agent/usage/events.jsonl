@@ -9073,3 +9073,16 @@
 {"ts":"2026-09-02T17:35:54.619Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":98,"session":"mcp-3e7a100a-8844-4d52-bb70-9ef063698309"}
 {"ts":"2026-09-02T17:36:21.112Z","tool":"ost_ingest_inbox","ok":true,"ms":10,"surface":"mcp","argBytes":2,"session":"mcp-3e7a100a-8844-4d52-bb70-9ef063698309"}
 {"ts":"2026-09-02T18:41:15.253Z","tool":"ost_ingest_inbox","ok":true,"ms":350,"surface":"mcp","argBytes":2,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:41:17.744Z","tool":"ost_next_work","ok":true,"ms":552,"surface":"mcp","argBytes":2,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:42:07.684Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:42:26.952Z","tool":"ost_read_repo","ok":false,"ms":1,"surface":"mcp","argBytes":26,"err":"\"src/instruments\" does not exist in OST-Agent — OST-Agent/src exists and contains adapters, cli, compression, config, eval, fs, git, index.ts, knowledge, loop, mcp, ost, processes, product, release, runner, security, telemetry, web; nothing there is close enough to name, so this is not a typo to cor","session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:42:28.751Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:42:31.662Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":29,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:42:38.841Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:42:54.252Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":108,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:43:20.314Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":39,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:43:36.524Z","tool":"ost_read_tree","ok":true,"ms":255,"surface":"mcp","argBytes":113,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:43:55.234Z","tool":"ost_next_work","ok":true,"ms":62,"surface":"mcp","argBytes":62,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:43:58.423Z","tool":"ost_next_work","ok":true,"ms":62,"surface":"mcp","argBytes":62,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:45:02.976Z","tool":"ost_next_work","ok":true,"ms":58,"surface":"mcp","argBytes":62,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:47:19.736Z","tool":"ost_append_to_node","ok":true,"ms":74,"surface":"mcp","argBytes":2598,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}

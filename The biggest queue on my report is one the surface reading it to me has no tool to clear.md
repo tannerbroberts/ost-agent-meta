@@ -117,3 +117,20 @@ This node closes with "**For a human to review:** whether a sibling under this c
 **What was not done and why.** No merge — Torres's test passed, and merging two needs with different owners is the failure this check exists to prevent. No rewrite of either body: the sweep reported zero hygiene issues this firing, so the mechanical extent check does not find these two entangled on their cited evidence, and re-writing prose that no measurement calls entangled would be a change made on taste. The line quoted at the top of this section can now be struck by whoever owns it; it is left in place because editing another pass's stated open question is that pass's call, not this one's.
 
 _Method: two greps over this vault's `*.md` — one for this node's inbound wikilink, one for its parent's child edges — plus one node body read in full. Structure of this vault read first-party; it grounds feasibility, not desirability. Nothing executed, no node merged, no edge changed, no rung moved, no status changed._
+
+## 2026-09-02 (later firing) — one more row on the trend, and the flat row now has two owners rather than one
+
+Four lines, per this node's own objection to long appends. Only the counts are new; the census above stands unchanged and was not re-run.
+
+| | 2026-08-29 | 2026-09-01 | 2026-09-02 | Δ (last day) |
+|---|---|---|---|---|
+| Tests total | 477 | 500 | 506 | +6 |
+| Carrying an instrument | 355 | 371 | 377 | +6 |
+| No instrument, `lane: humans-required` | 54 | 62 | 62 | **0** |
+| No instrument, no lane — the unlabelled set | 68 | 67 | 67 | **0** |
+
+**The last row is now flat, not slow.** Over four days the pile has yielded exactly one; over the last day, nothing. And the +6/+6 pairing says where the instrument route's output goes: every test created since 2026-09-01 arrived already carrying a command, so the 377 grew without the 67 shrinking. The instrument route does not touch this pile at all — it is fed by new tests being born instrumented.
+
+**Two owners, not one — and this pass can name both where 2026-09-01 could name neither.** That firing recorded the flat row as "a different problem from the one the taxonomy above diagnoses". With the census closed it resolves into two, and they are the two halves already argued elsewhere on this node: instrumenting cannot drain the pile because the census found zero instrumentable in it, and labelling does not drain it because `ost-agent lane --set` is a human's call and the eight lanes set in the 08-29→09-01 window landed on tests created inside that window rather than on the standing backlog. Neither half is a failure of any firing. The pile is flat because the only two mechanisms that could move it are, respectively, empty and withheld.
+
+**Limits.** The four figures are exact counts of frontmatter fields over this vault's `*.md` (506 files matching `type: AssumptionTest`, 377 matching `instrument:`, 62 matching `lane:`, all 62 enumerated by name and every one people-shaped). The residue is subtraction, and it assumes no file carries both keys — carried from the 2026-09-01 verification that the allow-list grep and subtraction agree, not re-established here. The claim about where the eight lanes landed is inferred from the two Δ columns, not from git blame on those eight files. Nothing was executed, no lane set, no instrument set, no rung moved, no status changed. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
