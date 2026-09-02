@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Transpiling on demand is cheap enough that the automation's six sequential CLI calls stay inside the firing's budget]]
 
 **Variation dimension: who-does-the-work. Position taken: nobody — the step is removed rather than assigned.**
 
