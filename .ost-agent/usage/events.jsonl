@@ -8971,3 +8971,5 @@
 {"ts":"2026-09-02T11:53:07.189Z","tool":"ost_edit_node","ok":true,"ms":28,"surface":"mcp","argBytes":16449,"session":"mcp-39286ad7-0f4b-4e0b-bb8a-c6477729ac76","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
 {"ts":"2026-09-02T11:53:27.682Z","tool":"ost_annotate","ok":true,"ms":20,"surface":"mcp","argBytes":2173,"session":"mcp-39286ad7-0f4b-4e0b-bb8a-c6477729ac76","touched":["Hand-compute unblock counts and see if the operator's pick changes.md"]}
 {"ts":"2026-09-02T11:53:29.978Z","tool":"ost_ingest_inbox","ok":true,"ms":8,"surface":"mcp","argBytes":2,"session":"mcp-39286ad7-0f4b-4e0b-bb8a-c6477729ac76"}
+{"ts":"2026-09-02T11:53:31.720Z","tool":"ost_next_work","ok":true,"ms":126,"surface":"mcp","argBytes":2,"session":"mcp-39286ad7-0f4b-4e0b-bb8a-c6477729ac76"}
+{"ts":"2026-09-02T12:58:04.063Z","tool":"ost_ingest_inbox","ok":true,"ms":318,"surface":"mcp","argBytes":2,"session":"mcp-a35dfb09-f191-4479-8f21-aa8770f8ceca"}
