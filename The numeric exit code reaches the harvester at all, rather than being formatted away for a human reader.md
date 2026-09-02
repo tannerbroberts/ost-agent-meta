@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A friction event from a Bash result carries the exit code as a number and names the tool that returned it]]
 
 **Category: feasibility.**
 
