@@ -8766,3 +8766,4 @@
 {"ts":"2026-09-02T01:50:07.571Z","tool":"ost_read_tree","ok":true,"ms":275,"surface":"mcp","argBytes":98,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
 {"ts":"2026-09-02T01:51:56.719Z","tool":"ost_append_to_node","ok":true,"ms":84,"surface":"mcp","argBytes":4654,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
 {"ts":"2026-09-02T01:52:17.972Z","tool":"ost_append_to_node","ok":true,"ms":72,"surface":"mcp","argBytes":1799,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
+{"ts":"2026-09-02T01:52:20.523Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-a2a536d2-451a-4c79-8795-4083c35673fa"}
