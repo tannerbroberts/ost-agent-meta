@@ -8,6 +8,7 @@ authorship: machine
 #Opportunity #unvalidated #evidence/observed
 [[The session declares at call time that a negative exit is the answer it wants]]
 [[Demote an errored result to an observation when nothing in it diagnoses the command]]
+[[Adopt each tool's published exit-code contract instead of authoring a notion of failure here]]
 
 **The need (operator's voice):** "Half of what my agent does on purpose is ask a question whose answer is 'no' — a grep that finds nothing, an instrument run that comes back red because red is what I sent it to observe. The channel records every one of those as a tool failure. I want the commands that reported a finding separated from the commands that broke, because right now the loop files its own successful measurements as evidence that the product hurts."
 
