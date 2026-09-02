@@ -9124,3 +9124,4 @@
 {"ts":"2026-09-02T21:03:54.027Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":83,"session":"mcp-b25cb20e-d6b0-4427-bfc9-497221bb3413"}
 {"ts":"2026-09-02T21:03:54.210Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-b25cb20e-d6b0-4427-bfc9-497221bb3413"}
 {"ts":"2026-09-02T21:04:10.189Z","tool":"ost_ingest_inbox","ok":true,"ms":22,"surface":"mcp","argBytes":2,"session":"mcp-b25cb20e-d6b0-4427-bfc9-497221bb3413"}
+{"ts":"2026-09-02T22:05:57.495Z","tool":"ost_ingest_inbox","ok":true,"ms":106,"surface":"mcp","argBytes":2,"session":"mcp-97d06842-8d95-4aee-b728-ea86af097ceb"}
