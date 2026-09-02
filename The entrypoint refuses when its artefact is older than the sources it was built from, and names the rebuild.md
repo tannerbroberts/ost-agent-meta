@@ -29,3 +29,15 @@ Before doing anything else, the entrypoint compares the artefact's timestamp aga
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author; this surface has no grant to run the independent parallel ideators the sweep's `ideation: "blind"` marking asks for. Discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-09-02; a human to review.
+
+## Definition of done
+
+"A source newer than the artefact refuses and names the rebuild, while a branch switch that changes no content still runs"
+
+```
+npx vitest run test/cli/stale-artefact-refusal.test.ts
+```
+
+The bar: all four cases — edited source and added source both refuse non-zero naming the rebuild command; an mtime-churning checkout and an edit-then-revert both exit 0 — and zero of the four may invoke the build. Three of four is a fail, because the shape that passes both refusals and only one no-change case is precisely the checker that blocks a firing for nothing.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
