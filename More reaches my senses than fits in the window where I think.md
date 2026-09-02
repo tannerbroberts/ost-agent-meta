@@ -3,6 +3,7 @@ type: Opportunity
 source: 'INBOX:2026-08-11-founder-vision-restatement.md'
 created: '2026-08-11'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #compression #unvalidated #evidence/assertion
 [[A fidelity instrument that scores a bounded form by whether the decision survives it]]
@@ -30,3 +31,17 @@ This node has been argued from founder theory twice and never grounded in a live
 **The distillation this channel actually wants**, named because it is unusually concrete for this node: a friction record is already a structured count (`produced 9 friction events (tool_error ×8, retry ×1)`) plus a handful of error strings. Hundreds of them compress losslessly into a distribution and a set of distinct error classes — which is a genuine instance of `(arbitrary source × window budget × goal) → abstraction`, with a fidelity test available: does a pass reading the distribution reach the same opportunity set as a pass reading all 377? That is testable without anyone's judgement, and this tree does not currently ask it anywhere.
 
 **Not recorded as a result and no rung moved.** These are counts read off one tool response, not a run and not a person's finding. This node's source is an INBOX note, so it stays at the `assertion` floor whatever the transcript channel observed.
+
+## 2026-09-02 — the queue's growth rate and its channel composition, which the 2026-08-22 instance measured size but not shape for
+
+The section above counted the vault's evidence queue at **377** and argued no pass can drain it. Two figures it did not have are now available, and both sharpen the argument rather than repeat it.
+
+**Growth rate.** This firing's `ost_next_work` reports **572** unmapped records. That is +195 in the 11 days since 2026-08-22 — roughly **18 records a day**, arriving from a channel that fires whenever this vault does. `agedOutEvidence` still reports **0**, so the ageing rule the earlier section implied was missing is still missing eleven days later. At this rate the queue passes a thousand inside a month, and the 25-item display cap means the fraction a reader sees falls from 6.6% to 4.4% to under 2.5% while the parenthetical that discloses it stays the same size. The reflex that bounds the response is holding constant against a source that is not.
+
+**Composition, which is the part that changes what the counter means.** Every one of the 25 rows this firing was shown carries `actor: "transcript"`. The listing is ordered ascending by record identity — the shown ids run `0095203e → 132bb394` without a break — and demonstrably *not* by time, since the fetch stamps interleave (2026-08-31, then 2026-09-02, then 2026-08-30, then 2026-09-01 across four consecutive rows). Under that ordering a record from any other channel would have to appear before `Session friction 0095…`: `DEPOSIT:`, `FRICTION:`, `INBOX:` and a dated inbox title all sort ahead of it on either the id or the title. None does. So on this firing's evidence **the entire 572 is one machine channel, and no human-authored record is unmapped** — every deposit, every inbox note, every retrospective the vault holds has already been distilled into a node.
+
+**Why that matters to whoever reads this counter.** A 572-item intake queue reads like a backlog of customer voices nobody has listened to. It is not one. It is this agent's own tool-error log, accumulating at 18/day, against a tree whose human-sourced intake is fully worked. The cost of leaving it non-zero is therefore not a missed need; it is that `done: true` is unreachable and that the one signal capable of announcing a genuinely new human record — a non-empty intake queue — is permanently saturated by machine self-observation and can no longer announce anything. That is this node's own thesis with the sign flipped: the failure is not that the reader retains nothing, it is that the alarm is stuck on.
+
+**Limits, stated because the inference is an inference.** 25 of 572 rows were read; the remaining 547 were not enumerated, and the channel claim rests on the ordering argument above rather than on a full listing. If the sort key is something other than record identity, the claim fails — the only ordering ruled out first-party is time. The growth figure compares two tool responses eleven days apart and assumes no bulk deletion in between. Nothing here is demand evidence: the transcript channel grounds usability only, and this node's source is an inbox note, so its rung is unchanged at `assertion`.
+
+_Method: this firing's own `ost_next_work` response, read first-party; two evidence bodies (`c8ca0a38`, `d50a5874`) read in full. Nothing executed, no rung moved, no node created, no status changed._

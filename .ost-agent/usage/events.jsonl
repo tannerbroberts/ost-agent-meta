@@ -8935,3 +8935,15 @@
 {"ts":"2026-09-02T09:39:56.781Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-ae1e0f7e-93c4-4b73-88af-b42452233847"}
 {"ts":"2026-09-02T09:40:41.278Z","tool":"ost_ingest_inbox","ok":true,"ms":7,"surface":"mcp","argBytes":2,"session":"mcp-ae1e0f7e-93c4-4b73-88af-b42452233847"}
 {"ts":"2026-09-02T10:42:17.096Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:42:18.712Z","tool":"ost_next_work","ok":true,"ms":136,"surface":"mcp","argBytes":2,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:42:46.059Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":108,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:42:52.458Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:42:54.052Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:42:56.702Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":113,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:43:00.750Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":86,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:43:17.187Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":113,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:43:25.411Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:43:27.438Z","tool":"ost_next_work","ok":true,"ms":13,"surface":"mcp","argBytes":62,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:43:35.799Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":82,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:44:12.174Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":71,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80"}
+{"ts":"2026-09-02T10:44:50.442Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":3501,"session":"mcp-42809a4f-eb43-404d-8094-f092f170ff80","touched":["More reaches my senses than fits in the window where I think.md"]}
