@@ -9087,3 +9087,5 @@
 {"ts":"2026-09-02T18:45:02.976Z","tool":"ost_next_work","ok":true,"ms":58,"surface":"mcp","argBytes":62,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
 {"ts":"2026-09-02T18:47:19.736Z","tool":"ost_append_to_node","ok":true,"ms":74,"surface":"mcp","argBytes":2598,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
 {"ts":"2026-09-02T18:47:51.668Z","tool":"ost_ingest_inbox","ok":true,"ms":36,"surface":"mcp","argBytes":2,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T18:48:01.847Z","tool":"ost_next_work","ok":true,"ms":501,"surface":"mcp","argBytes":2,"session":"mcp-d39461fd-296a-4ec5-ae1d-da230ce93de3"}
+{"ts":"2026-09-02T19:52:57.918Z","tool":"ost_ingest_inbox","ok":true,"ms":329,"surface":"mcp","argBytes":2,"session":"mcp-32599044-2f4f-475e-86b7-536e7036959b"}
