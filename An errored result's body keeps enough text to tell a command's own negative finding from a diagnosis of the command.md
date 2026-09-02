@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A clean negative answer and a broken command classify differently from their bodies alone]]
 
 **Category: feasibility.**
 
