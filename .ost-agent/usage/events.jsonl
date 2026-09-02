@@ -8783,3 +8783,4 @@
 {"ts":"2026-09-02T02:57:58.607Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-51e01fd6-1294-4198-b785-57cfc7d332de"}
 {"ts":"2026-09-02T03:00:18.116Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":4598,"session":"mcp-51e01fd6-1294-4198-b785-57cfc7d332de","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
 {"ts":"2026-09-02T03:00:30.461Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1867,"session":"mcp-51e01fd6-1294-4198-b785-57cfc7d332de","touched":["Does a placeholder outcome get replaced, or does it become the tree's real root.md"]}
+{"ts":"2026-09-02T03:00:36.076Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1476,"session":"mcp-51e01fd6-1294-4198-b785-57cfc7d332de","touched":["Count how many of the operator's real experiment sources can push anywhere at all.md"]}
