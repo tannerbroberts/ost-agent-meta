@@ -9023,3 +9023,27 @@
 {"ts":"2026-09-02T14:12:26.069Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
 {"ts":"2026-09-02T14:12:28.168Z","tool":"ost_next_work","ok":true,"ms":239,"surface":"mcp","argBytes":2,"session":"mcp-2289e0c3-64ac-4411-ac73-054a7e16484c"}
 {"ts":"2026-09-02T15:14:20.200Z","tool":"ost_ingest_inbox","ok":true,"ms":104,"surface":"mcp","argBytes":2,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:14:21.947Z","tool":"ost_next_work","ok":true,"ms":145,"surface":"mcp","argBytes":2,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:14:46.410Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":108,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:14:46.943Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:15:01.279Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:15:01.879Z","tool":"ost_next_work","ok":true,"ms":14,"surface":"mcp","argBytes":62,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:15:02.594Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:15:27.424Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":98,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:15:34.201Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":107,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:15:34.401Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":152,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:15:55.760Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:15:55.841Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":113,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:16:15.720Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":98,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:16:40.438Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:16:55.654Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":83,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:17:23.532Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":31,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:21:37.406Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":71,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:21:56.035Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:22:02.963Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:22:03.090Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":40,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:22:08.129Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:22:13.713Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:22:14.176Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":49,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:22:16.234Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":44,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c"}
+{"ts":"2026-09-02T15:23:16.434Z","tool":"ost_annotate","ok":true,"ms":54,"surface":"mcp","argBytes":2075,"session":"mcp-a720647d-9bfd-4a70-9c12-66c664942d6c","touched":["Auto-reading a file before write doesn't mask the exact race condition the guard exists to catch.md"]}
