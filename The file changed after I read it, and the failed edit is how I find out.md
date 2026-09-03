@@ -113,3 +113,24 @@ So the drift case this node holds as its subject is **28 events, 2.3% of the cor
 **One thing a human should weigh from it.** The single largest identified friction signature in this product's entire self-observed history belongs to the harness, not to OST-Agent. The candidate that addresses it, "Auto-read a file before the first write or edit to it in a session, instead of erroring", is recorded elsewhere in this tree as un-instrumentable here because the guard lives in Claude Code. That combination — biggest measured signature, no mechanism on this side — is worth an explicit decision rather than the standing silence it currently gets.
 
 _Method: greps of every `TRANSCRIPT_*.md` in this vault's evidence folder, counted corpus-wide, 2026-08-30. Observed behaviour of this product's own agent, captured mechanically with no narrator. Those records stay listed as unmapped evidence; citing them here does not clear them. No test was run, no result recorded, and this node's rung is unchanged._
+
+## 2026-09-03 — the same grep on a bigger corpus: the 7.6× growth normalises to a flat rate, and that reverses how it should be read
+
+Kept short, per this node's convention: one number moved, and normalising it corrects the reading of the section above rather than adding a new census.
+
+**The series, all three points from the same grep over this vault's evidence folder.**
+
+| | 2026-08-06 | 2026-08-30 | 2026-09-03 |
+|---|---|---|---|
+| `File has not been read yet` occurrences | 55 | 416 | **579** |
+| Records carrying at least one | 19 | 221 | **283** |
+| Transcript records in the corpus | not counted | 500 | **630** |
+| Share of records carrying it | — | 44.2% | **44.9%** |
+
+**The correction.** The 2026-08-30 section headlines "**The refusal this node's 2026-08-06 census counted has grown 7.6× in 24 days**", and the absolute figures support that exactly. Normalised against the corpus they were drawn from, they do not support what the phrasing invites. The share of records carrying the signature moved 44.2% → 44.9% in four days, and events per carrying record moved 1.88 → 2.05. **The signature is not deteriorating. It is a stable structural constant of roughly 45% of every session this product has ever observed of itself**, and the 7.6× was corpus growth wearing the costume of a regression.
+
+**Why the distinction changes the decision rather than just the prose.** A signature accelerating is a regression to chase — find what changed, revert it. A signature pinned at 45% of sessions across a corpus that has grown 26× is a permanent tax: it will not improve on its own, no past change caused it, and the only thing that moves it is the mechanism this node already names. That argues for deciding the harness question the 2026-08-30 section says is owed an "explicit decision rather than the standing silence it currently gets" — and it removes the one reason a reader might defer that decision, namely a hope that the trend was a blip.
+
+**Nothing else on this node changes.** The drift-versus-precondition reweighting stands untouched and is the more important finding: the drift case this node is named for remains the small half. This pass re-measured the precondition family and can now state its split exactly rather than approximately — **579 read-before-write against 32 `String to replace not found`, and zero occurrences of `has been unexpectedly modified` anywhere in the corpus.** 579 + 32 = 611, the whole family, so the ratio is 18:1 and nothing is unaccounted for.
+
+**Limits.** The grep counts message text over the evidence folder as a whole (664 records, 630 of them transcript), not `tool_error` events specifically, so it cannot separate a string appearing in an error body from the same string quoted inside a retry payload — the 2026-08-30 figures were taken the same way, which is what makes the three points comparable, and it is also the shared limit of all three. The 44.2% and 44.9% shares divide a whole-folder occurrence count by a transcript-only record count, so both are slight overestimates by the same small margin and the comparison between them survives it. Still nothing here separates "never read the file" from "read it and it moved", which remains this node's standing limit. Nothing executed, no rung moved, no instrument set, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
