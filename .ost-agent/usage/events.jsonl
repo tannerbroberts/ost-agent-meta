@@ -9387,3 +9387,4 @@
 {"ts":"2026-09-03T13:05:19.250Z","tool":"ost_ingest_inbox","ok":true,"ms":49,"surface":"mcp","argBytes":2,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
 {"ts":"2026-09-03T13:05:29.770Z","tool":"ost_next_work","ok":true,"ms":957,"surface":"mcp","argBytes":2,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
 {"ts":"2026-09-03T13:05:54.873Z","tool":"ost_append_to_node","ok":true,"ms":92,"surface":"mcp","argBytes":2036,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
+{"ts":"2026-09-03T13:06:14.356Z","tool":"ost_append_to_node","ok":true,"ms":129,"surface":"mcp","argBytes":1890,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["I write a valid pattern and the tool rejects it, because it speaks a narrower regex than the one I know.md"]}

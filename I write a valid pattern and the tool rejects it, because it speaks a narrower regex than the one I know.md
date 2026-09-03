@@ -29,3 +29,13 @@ Cited record: `TRANSCRIPT:9c00df65-1c8d-4171-a870-22efc103d834`, captured by thi
 This is the agent's own usage captured mechanically. It grounds usability, not desirability: it says the boundary is discovered expensively, not that anyone outside this building wants it moved.
 
 **Deliberately not ideated under.** This node maps evidence only. The unattended pass that created it set no solutions beneath it, so it will appear in `underservedOpportunities` at 0 of 3 on the next sweep; that is the ordinary state of a newly mapped need, not a defect.
+
+## 2026-09-03 — three candidates ideated, and they were not ideated blind
+
+The node's "Deliberately not ideated under" paragraph above is now spent: an unattended firing on 2026-09-03 ideated the three candidates the sweep asked for, on the dimensions it assigned — `who-does-the-work`, `automated-vs-manual`, `bought-vs-built`.
+
+**They were composed in one context by one author.** This surface holds no grant to run independent parallel ideators, so the blind-ideation rule the method prescribes was not satisfied — the three were written in sequence, each with the previous ones in view, which is the exact condition that rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly. The named dimensions constrain the search; they do not substitute for separate contexts.
+
+**One thing this branch has that most do not.** The dimensions fell out cleanly here because the underlying trade is genuinely three-way — remove the pattern surface, validate it, or document it — and each candidate states what it gives up rather than only what it buys. Whether that makes the set more distinct than an unconstrained one is a person's blind rating of shuffled candidates, and nothing here establishes it.
+
+**Instrument honesty, stated once for the branch.** Only the `automated-vs-manual` candidate carries a runnable command, and that command names a spec file nobody has written — so it is a `no-spec` red and mints no build permit. The other two rest on human-required tests on purpose: one needs a reader to tell an exploratory search from a confirmatory one, the other needs a reader to tell a description gap from an unread description. Neither is a command anybody declined to write.
