@@ -8,6 +8,7 @@ threshold: >-
   `configProblem` and returns in under 2 seconds, while the whole-project `tsc
   --noEmit` it replaces takes longer than 10 seconds on the same machine.
 instrument: npx vitest run test/runner/incremental-typecheck.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ Red today: the spec file does not exist and no per-file check path is implemente
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/runner/incremental-typecheck.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/runner/incremental-typecheck.test.ts` — ✓ the hook entry point > a path outside the TypeScript project is not checked and not an error 675ms [spec 53cae0c32c54]
