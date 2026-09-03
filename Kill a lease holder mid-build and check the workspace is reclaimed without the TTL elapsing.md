@@ -9,6 +9,7 @@ threshold: >-
   a live but slow holder, the workspace is reclaimed zero times. One false
   reclaim of a live holder refutes the assumption outright.
 instrument: npx vitest run test/runner/workspace-lease-liveness.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ instrument: npx vitest run test/runner/workspace-lease-liveness.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/runner/workspace-lease-liveness.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/runner/workspace-lease-liveness.test.ts` — Duration  287ms (transform 25ms, setup 0ms, collect 22ms, tests 19ms, environment 0ms, prepare 36ms) [spec ca96b6dda876]
