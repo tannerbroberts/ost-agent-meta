@@ -9,6 +9,7 @@ threshold: >-
   `instrument` field or an explicit null, and all four capped lists still return
   25 entries each.
 instrument: npx vitest run test/ost/next-work-instrument-visibility.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ The explicit-null half matters: a field that is present only when set cannot be 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/next-work-instrument-visibility.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/ost/next-work-instrument-visibility.test.ts` — Duration  4.34s (transform 198ms, setup 0ms, collect 298ms, tests 3.80s, environment 0ms, prepare 25ms) [spec 92e9495c2f12]
