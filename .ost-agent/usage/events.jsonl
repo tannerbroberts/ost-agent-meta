@@ -9327,3 +9327,5 @@
 {"ts":"2026-09-03T10:38:50.588Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":39,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
 {"ts":"2026-09-03T10:40:12.433Z","tool":"ost_read_tree","ok":true,"ms":96,"surface":"mcp","argBytes":134,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
 {"ts":"2026-09-03T10:40:47.504Z","tool":"ost_append_to_node","ok":true,"ms":35,"surface":"mcp","argBytes":4149,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084","touched":["The evidence queue counts records, not distinct problems, so I cannot tell whether 464 items is 464 needs or five repeating.md"]}
+{"ts":"2026-09-03T10:41:00.106Z","tool":"ost_read_tree","ok":true,"ms":100,"surface":"mcp","argBytes":98,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:41:47.143Z","tool":"ost_append_to_node","ok":true,"ms":33,"surface":"mcp","argBytes":4391,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084","touched":["When a wait gives up, I can't tell whether it was nearly there or never going to happen.md"]}
