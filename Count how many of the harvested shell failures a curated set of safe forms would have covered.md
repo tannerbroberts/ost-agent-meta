@@ -7,6 +7,7 @@ threshold: >-
   The safe forms fully express at least 60% of all commands, and at least 80% of
   the failing ones.
 instrument: npx vitest run test/knowledge/safe-form-coverage.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that a curated set of affordances covers enough real cases. Ca
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/knowledge/safe-form-coverage.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/knowledge/safe-form-coverage.test.ts` — ✓ the census over the committed corpus > the residue is where failure lives: 6.18% against 2.21%, nearly three to one 1596ms [spec e79625029c6f]
