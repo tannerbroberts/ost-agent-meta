@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A person marks fifty real searches expressible or not in the proposed structured form]]
 
 **Risk category: desirability/usability.** Stated so it could be false: it is entirely possible that the median real search is expressible structurally and the searches that *matter* — the ones a caller reaches for when something is wrong and they do not yet know what — are exactly the ones that need raw expressive reach.
 
