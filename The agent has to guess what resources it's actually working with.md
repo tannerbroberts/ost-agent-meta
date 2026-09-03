@@ -122,3 +122,13 @@ Kept short. Only what is new — and what is new is that the 2026-08-28 section'
 **Limits, stated so this is not over-read.** Six evidence bodies read this pass; the five-record count for the denial signature includes two already recorded on this node and is a count over what has been opened, not over the 500-item queue. The claim that `product.repos` was unset on 2026-08-05 and set now rests on the 2026-08-05 Issues entry plus this pass's own successful reads — the config file itself was not read, and no commit was traced, so the date the key changed is bracketed rather than known. Nothing was executed, no rung moved, no node created.
 
 _Source: `ost_next_work({evidence})` bodies for the three transcripts named above, plus this firing's own successful `ost_read_repo` calls and its own prompt text. Observed behaviour of this product's tool surface — it grounds usability and feasibility, not demand. No test was run and no result is recorded._
+
+## 2026-09-03 — sixth instance of the two-channel denial, and the prompt contradiction is now four passes old
+
+Four lines. Pointer, not a restatement — the mechanism is argued in the 2026-08-28 and 2026-08-31 sections above and nothing here revises it.
+
+`TRANSCRIPT:10fdeabc-8b56-4334-aa9c-f9cd4efe3c0c`, captured by this firing's own ingest, carries the pair in a single record and in the revealing order: `Grep` refused `/Users/tanner/ost-agent-meta/src/eval/buildable.ts` with "Path does not exist" (right tool, wrong repo), and the corrected second attempt at `/Users/tanner/dev/OST-Agent/src/eval/buildable.ts` was refused with "Claude requested permissions to read from … but you haven't granted it yet." So the session found the correct path and was then stopped by the grant boundary — the harness channel, still shut, on the same path, now 2026-08-06 through 2026-09-03. That is the sixth record carrying this signature.
+
+**This firing's prompt still carries both contradictory paragraphs verbatim**, and this pass resolved it the same way the last three did: by calling `ost_read_repo`, which served `src/` and `test/` on the first call. That is the fourth consecutive pass to pay a call rediscovering a grant the skill's own withheld list already states correctly. The one-line reconciliation asked for on 2026-08-26, 2026-08-28 and 2026-08-31 has not landed.
+
+_Source: the evidence body named above, read in full via `ost_next_work({evidence})`, plus this firing's own prompt text and its own successful `ost_read_repo` calls. Observed behaviour of the tool surface; grounds usability, not demand. Nothing executed, no rung moved, no node created._
