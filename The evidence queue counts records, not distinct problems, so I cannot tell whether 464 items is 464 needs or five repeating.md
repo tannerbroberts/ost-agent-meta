@@ -123,3 +123,30 @@ The first row matters most as a correction. The eight-row table counts "`Monitor
 **One figure re-read on a moved corpus.** Records containing `retry` events and **no** `tool_error` at all: **94 of 602 (15.6%)**, against the 14.2% whole-record noise figure recorded earlier. Same phenomenon, slightly larger share.
 
 _Method: three greps over every `TRANSCRIPT_*.md` in this vault's evidence folder, plus this firing's own stop-condition figure and `ost_ingest_inbox` output. Observed behaviour of this product's own agent, captured mechanically — it grounds usability, not demand. The records counted stay listed as unmapped; counting them does not map them. Nothing executed, no rung moved, no instrument set, no status changed, no node created._
+
+## 2026-09-03 — the concentration measured in the unit the queue actually counts: 5 signatures, 69% of records
+
+Kept short, per this node's convention. One new number and one extension of the rate series. Both first-party, neither a re-run of an existing census.
+
+**The gap this closes, and it is a unit mismatch rather than a coverage gap.** Every count on this node so far is per-*event* (eight signatures, 65.5% of 1,195 tool errors) or per-*single-signature* (`File has not been read yet`, 221 records). But `unmappedEvidence` does not report events or signatures — it reports **records**, one per session. So the question this node asks in its title — is 609 items 609 needs or a few repeating — is answered by neither figure. It needs the **union across records**: how much of the queue would be absorbed by triaging a handful of signatures together. Nothing had computed that.
+
+**The answer, over today's corpus of 635 transcript records: 436, or 68.7%.** A single grep for five alternated signatures returns 436 distinct records carrying at least one. Triaging five strings would therefore reach **better than two records in three**, and the 199 that remain are the entire population where a genuinely distinct problem could be hiding.
+
+| Signature | Records | Share of 635 |
+|---|---|---|
+| `File has not been read yet` | 285 | 44.9% |
+| `requested permissions to read from` | 143 | 22.5% |
+| `InputValidationError` | 44 | 6.9% |
+| `await: gave up after` | 22 | 3.5% |
+| `exceeds maximum allowed size` | 2 | 0.3% |
+| **union (records carrying ≥1)** | **436** | **68.7%** |
+
+Rows sum to 496 against a union of 436, so 60 records carry two or more of the five — the co-occurrence this node's title implicitly worries about, now with a number.
+
+**One signature here is on no prior list.** `await: gave up after` — the wait helper exhausting its 300s budget — appears in 22 records and is absent from the eight-row table and from the three added on 2026-09-02. It is small, but it is the fourth independent confirmation that the untriaged remainder keeps yielding repeats rather than diversity, and the direction of that error remains the one already recorded: further counting can only make the queue look more repetitive.
+
+**Rate series, third point.** The 2026-09-02 later firing recorded the unmapped queue reaching 576. This firing's stop condition read **607**, and its ingest captured 2, reaching **609** — **+33 in roughly a day, of which this firing supplied 2.** That is close to the +14 that firing measured and far above the +4 the morning firing inferred, so the corrected rate holds and the morning figure remains the outlier. The drain is unchanged and is still the larger fact: **609 items, 0 retired.**
+
+**Limits, stated so this is not over-read.** The union grep matches anywhere in a record body, so a signature quoted inside a `retry` payload counts the same as one in a `tool_error` line — the same hazard the 2026-09-02 section flagged for its three rows, and it inflates these record counts relative to the event-based censuses. The five strings were chosen because they are the largest already-known signatures plus one seen in this firing's own intake, not by sampling the corpus, so 68.7% is a floor on record-level concentration and not an estimate of its ceiling. Signature identity is still not problem identity — the judgement this node already isolates as unautomatable is untouched, and nothing here says the 199 remaining records are diverse, only that they were not matched.
+
+_Method: six `Grep` counts over every `TRANSCRIPT_*.md` in this vault's evidence folder, plus this firing's own stop-condition figure and `ost_ingest_inbox` output. Observed behaviour of this product's own agent, captured mechanically — it grounds usability, not demand. The records counted stay listed as unmapped; counting them does not map them. Nothing executed, no rung moved, no instrument set, no status changed, no node created._

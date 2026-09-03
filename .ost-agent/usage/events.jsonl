@@ -9313,3 +9313,17 @@
 {"ts":"2026-09-03T09:34:14.773Z","tool":"ost_append_to_node","ok":true,"ms":42,"surface":"mcp","argBytes":4911,"session":"mcp-e45d2b51-04ef-46e8-b1ce-312c63faabb8","touched":["My instruments are red because a file is absent, not because the behaviour is.md"]}
 {"ts":"2026-09-03T09:34:19.909Z","tool":"ost_ingest_inbox","ok":true,"ms":21,"surface":"mcp","argBytes":2,"session":"mcp-e45d2b51-04ef-46e8-b1ce-312c63faabb8"}
 {"ts":"2026-09-03T10:36:17.772Z","tool":"ost_ingest_inbox","ok":true,"ms":118,"surface":"mcp","argBytes":2,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:36:19.840Z","tool":"ost_next_work","ok":true,"ms":231,"surface":"mcp","argBytes":2,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:36:37.512Z","tool":"ost_next_work","ok":true,"ms":96,"surface":"mcp","argBytes":62,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:36:39.227Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:37:12.425Z","tool":"ost_next_work","ok":true,"ms":105,"surface":"mcp","argBytes":62,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:37:20.080Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":108,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:37:37.704Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:37:48.766Z","tool":"ost_read_tree","ok":true,"ms":91,"surface":"mcp","argBytes":113,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:37:59.812Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:38:13.151Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":20,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:38:17.513Z","tool":"ost_read_tree","ok":true,"ms":95,"surface":"mcp","argBytes":83,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:38:39.065Z","tool":"ost_read_tree","ok":true,"ms":94,"surface":"mcp","argBytes":111,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:38:50.588Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":39,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:40:12.433Z","tool":"ost_read_tree","ok":true,"ms":96,"surface":"mcp","argBytes":134,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
+{"ts":"2026-09-03T10:40:47.504Z","tool":"ost_append_to_node","ok":true,"ms":35,"surface":"mcp","argBytes":4149,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084","touched":["The evidence queue counts records, not distinct problems, so I cannot tell whether 464 items is 464 needs or five repeating.md"]}
