@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Every construct this engine lacks can be located in a submitted pattern before the pattern is run]]
 
 **Variation dimension: automated-vs-manual. Position: detection fully automated, repair deliberately left manual.** The sibling candidates either remove the pattern surface or hand the caller a document to read; this one keeps the raw pattern and keeps the human decision, automating only the part a machine is strictly better at — enumerating which constructs in a submitted pattern this engine does not implement.
 
