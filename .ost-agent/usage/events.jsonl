@@ -9380,3 +9380,7 @@
 {"ts":"2026-09-03T13:03:35.773Z","tool":"ost_append_to_node","ok":true,"ms":89,"surface":"mcp","argBytes":1769,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["The agent has to guess what resources it's actually working with.md"]}
 {"ts":"2026-09-03T13:03:43.339Z","tool":"ost_append_to_node","ok":true,"ms":50,"surface":"mcp","argBytes":878,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["The search surface takes a declared intent instead of a raw pattern, so there is no dialect to know.md"]}
 {"ts":"2026-09-03T13:03:50.274Z","tool":"ost_append_to_node","ok":true,"ms":163,"surface":"mcp","argBytes":1108,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["Name the engine's published dialect in the tool description and build no validator of our own.md"]}
+{"ts":"2026-09-03T13:04:08.428Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T13:04:16.567Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":32,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T13:04:28.437Z","tool":"ost_read_tree","ok":true,"ms":304,"surface":"mcp","argBytes":114,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T13:05:04.665Z","tool":"ost_append_to_node","ok":true,"ms":73,"surface":"mcp","argBytes":3756,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
