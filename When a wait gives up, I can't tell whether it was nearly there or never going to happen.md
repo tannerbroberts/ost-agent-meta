@@ -62,3 +62,13 @@ Kept short, per this node's convention. Two findings: the rate this node explici
 **Limits.** The 22 counts records containing the expiry string anywhere, so a record quoting it inside a retry payload counts alongside one recording it as a tool error — the same inflation hazard the evidence-census node flags for its own record-level counts. The 13/2/4 split is read off path *shape*, not from harness source, which this surface cannot see; a harness-tracked producer writing somewhere else would be mis-filed. Nothing was executed, no test run, no result recorded, no rung moved — this node already rests on `observed` and a corpus count of its own signature does not move it.
 
 _Method: four `Grep` counts over every `TRANSCRIPT_*.md` in this vault's evidence folder. Observed behaviour of this product's own agent, captured mechanically — it grounds usability, not desirability. The records counted stay listed as unmapped; counting them does not map them._
+
+## Corroboration — two give-ups back to back in one session (unattended sweep, 2026-09-03)
+
+`TRANSCRIPT:fb9ff385-b77f-4210-a84a-b64a8f04be6b` recorded `await: gave up after 300s; the condition still exits 1` **twice within the same session**, alongside two `File has not been read yet` errors from `Edit` and `Write`.
+
+**The one thing here that is not already on this node.** Every instance cited above is a give-up in a different session. This record is two in one, which is the shape this node's claim predicts but had not yet observed: a run that cannot tell "nearly there" from "never going to happen" has no basis for choosing a different budget the second time, so it spends the identical 300s again. The two give-ups are indistinguishable from each other in the record, exactly as each is indistinguishable from a success that needed 301s.
+
+**What it does not establish.** Whether the two waits were on the same condition — the friction record carries the message and not the command, so a repeat of one wait and two unrelated waits look the same here. That distinction is the whole of this node's need, and this record demonstrates the gap rather than closing it.
+
+_Source: `TRANSCRIPT:fb9ff385-b77f-4210-a84a-b64a8f04be6b` — observed behavior, captured mechanically from the agent's own transcript. Grounds usability, not desirability. The two `File has not been read yet` errors in the same record belong to "The file changed after I read it, and the failed edit is how I find out" and are noted here only because they share the session, not because this node claims them._
