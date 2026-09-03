@@ -9269,3 +9269,4 @@
 {"ts":"2026-09-03T07:13:18.753Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-994d287a-e50d-4680-86dd-e681158970f3"}
 {"ts":"2026-09-03T07:13:25.744Z","tool":"ost_read_tree","ok":true,"ms":280,"surface":"mcp","argBytes":108,"session":"mcp-994d287a-e50d-4680-86dd-e681158970f3"}
 {"ts":"2026-09-03T07:17:19.386Z","tool":"ost_append_to_node","ok":true,"ms":66,"surface":"mcp","argBytes":3568,"session":"mcp-994d287a-e50d-4680-86dd-e681158970f3","touched":["The file changed after I read it, and the failed edit is how I find out.md"]}
+{"ts":"2026-09-03T07:17:54.899Z","tool":"ost_ingest_inbox","ok":true,"ms":30,"surface":"mcp","argBytes":2,"session":"mcp-994d287a-e50d-4680-86dd-e681158970f3"}
