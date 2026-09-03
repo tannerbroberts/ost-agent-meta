@@ -9331,3 +9331,18 @@
 {"ts":"2026-09-03T10:41:47.143Z","tool":"ost_append_to_node","ok":true,"ms":33,"surface":"mcp","argBytes":4391,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084","touched":["When a wait gives up, I can't tell whether it was nearly there or never going to happen.md"]}
 {"ts":"2026-09-03T10:41:49.289Z","tool":"ost_ingest_inbox","ok":true,"ms":24,"surface":"mcp","argBytes":2,"session":"mcp-be9d6ac8-500f-4d9f-8604-2ae04c994084"}
 {"ts":"2026-09-03T11:46:58.966Z","tool":"ost_ingest_inbox","ok":true,"ms":402,"surface":"mcp","argBytes":2,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:47:01.568Z","tool":"ost_next_work","ok":true,"ms":702,"surface":"mcp","argBytes":2,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:47:27.413Z","tool":"ost_read_tree","ok":true,"ms":361,"surface":"mcp","argBytes":108,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:47:39.756Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":15,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:47:56.779Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":24,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:47:58.315Z","tool":"ost_read_repo","ok":true,"ms":34,"surface":"mcp","argBytes":24,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:48:00.795Z","tool":"ost_read_tree","ok":true,"ms":175,"surface":"mcp","argBytes":86,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:48:09.603Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":113,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:48:20.200Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:48:30.828Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:48:43.174Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:48:52.793Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":48,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:49:01.021Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":31,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:49:14.998Z","tool":"ost_read_tree","ok":true,"ms":170,"surface":"mcp","argBytes":98,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:49:36.950Z","tool":"ost_read_tree","ok":true,"ms":134,"surface":"mcp","argBytes":83,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
+{"ts":"2026-09-03T11:50:15.329Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":5290,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
