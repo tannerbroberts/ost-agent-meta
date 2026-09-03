@@ -9378,3 +9378,4 @@
 {"ts":"2026-09-03T13:02:39.196Z","tool":"ost_next_work","ok":true,"ms":61,"surface":"mcp","argBytes":62,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
 {"ts":"2026-09-03T13:03:00.956Z","tool":"ost_read_tree","ok":true,"ms":317,"surface":"mcp","argBytes":75,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
 {"ts":"2026-09-03T13:03:35.773Z","tool":"ost_append_to_node","ok":true,"ms":89,"surface":"mcp","argBytes":1769,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["The agent has to guess what resources it's actually working with.md"]}
+{"ts":"2026-09-03T13:03:43.339Z","tool":"ost_append_to_node","ok":true,"ms":50,"surface":"mcp","argBytes":878,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["The search surface takes a declared intent instead of a raw pattern, so there is no dialect to know.md"]}

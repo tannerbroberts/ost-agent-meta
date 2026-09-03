@@ -25,3 +25,11 @@ The caller says what it is looking for in structured terms — a literal string,
 ## Provenance
 
 Ideated by an unattended sweep on 2026-09-03 against the assigned variation dimension `who-does-the-work`. Rests on the parent opportunity's evidence and on nothing else; no customer has asked for this shape.
+
+## Definition of done — and it is not a command
+
+"A person marks fifty real searches expressible or not in the proposed structured form"
+
+No command, on purpose. The bar is **at least 40 of 50 expressible, and at least 15 of the 20 marked exploratory**. A spec can prove a compiler emits the plan it was asked for; it cannot observe whether the question a caller wanted to ask survives the translation, and that is the whole belief this candidate rests on. The exploratory/confirmatory split in particular has no mechanical reading — only someone who can tell "I know what I am looking for" from "I am trying to find out" can produce it.
+
+The test title is quoted rather than wikilinked: its one backlink belongs to its parent assumption.
