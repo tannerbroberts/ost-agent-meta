@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A caller reads a tool's stated dialect before composing against it]]
 
 **Variation dimension: bought-vs-built. Position: the dialect definition is adopted from outside, verbatim; the only thing built here is the pointer to it.** The sibling candidates build something — a structured query compiler, a pattern parser. This one builds nothing that can drift, on the argument that the engine's own maintainers already publish an exact syntax reference and any second description of it is a copy that will disagree with the engine before it disagrees with itself.
 
