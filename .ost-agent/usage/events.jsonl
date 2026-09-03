@@ -9199,3 +9199,19 @@
 {"ts":"2026-09-03T01:32:16.636Z","tool":"ost_append_to_node","ok":true,"ms":102,"surface":"mcp","argBytes":3575,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019","touched":["Hand the oversized body to the harness's own compaction and store nothing new.md"]}
 {"ts":"2026-09-03T01:32:24.696Z","tool":"ost_ingest_inbox","ok":true,"ms":28,"surface":"mcp","argBytes":2,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
 {"ts":"2026-09-03T02:36:22.458Z","tool":"ost_ingest_inbox","ok":true,"ms":293,"surface":"mcp","argBytes":2,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:36:24.735Z","tool":"ost_next_work","ok":true,"ms":454,"surface":"mcp","argBytes":2,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:36:52.721Z","tool":"ost_next_work","ok":true,"ms":138,"surface":"mcp","argBytes":62,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:37:05.988Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:37:18.148Z","tool":"ost_read_tree","ok":true,"ms":246,"surface":"mcp","argBytes":108,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:37:39.587Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:37:39.836Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:37:43.203Z","tool":"ost_read_tree","ok":true,"ms":215,"surface":"mcp","argBytes":113,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:37:58.281Z","tool":"ost_read_tree","ok":true,"ms":209,"surface":"mcp","argBytes":93,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:38:24.088Z","tool":"ost_next_work","ok":true,"ms":151,"surface":"mcp","argBytes":62,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:38:24.453Z","tool":"ost_read_tree","ok":true,"ms":254,"surface":"mcp","argBytes":113,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:38:34.175Z","tool":"ost_read_tree","ok":true,"ms":165,"surface":"mcp","argBytes":64,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:40:13.792Z","tool":"ost_read_tree","ok":true,"ms":240,"surface":"mcp","argBytes":104,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:40:34.984Z","tool":"ost_read_tree","ok":true,"ms":233,"surface":"mcp","argBytes":129,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:41:02.827Z","tool":"ost_read_tree","ok":true,"ms":238,"surface":"mcp","argBytes":88,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:41:32.231Z","tool":"ost_read_tree","ok":true,"ms":196,"surface":"mcp","argBytes":84,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
+{"ts":"2026-09-03T02:42:19.508Z","tool":"ost_append_to_node","ok":true,"ms":55,"surface":"mcp","argBytes":4920,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c","touched":["Two runs write the same vault at once and nothing arbitrates between them.md"]}

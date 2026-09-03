@@ -35,3 +35,29 @@ That is git refusing a ref update because the ref moved between the read and the
 **One adjacent open ask it partly informs.** The standing humans-required test "Ask the operator whether firings on the shared checkout can ever overlap in time" asks whether the scheduler ever lets two firings run at once. This record shows two writers inside one commit window on the vault, which is evidence that the scheduler does permit overlap — but the ask is about the product checkout, not the vault, and they are different repositories. It narrows that question; it does not answer it, and answering it is still the operator's.
 
 _Method: this firing's own `ost_ingest_inbox` output, the evidence body via `ost_next_work({evidence})`, and a grep over `.ost-agent/evidence/` for the signature. Nothing executed, no test run, no result recorded, no rung moved. Observed behaviour of this product's own agent — it grounds usability, not desirability._
+
+## 2026-09-02 — a second instance, from a different git mechanism, and the rate claim above is a floor rather than a measurement
+
+Kept short. One correction to this node's own arithmetic, checked first-party.
+
+**The claim being corrected.** The 2026-08-31 section closes its limits paragraph with: "this signature appears exactly once across all 534 transcript records on disk — checked this pass by grep over the vault's own evidence directory — so it is rare rather than routine on the evidence available." The word doing the work is *signature*. That pass grepped for the string it had just observed — git's ref-lock refusal, `cannot lock ref 'HEAD': is at … but expected …`. A concurrent-writer collision does not have one string.
+
+**The second instance.** `TRANSCRIPT:c76af6ce-fa7e-44dd-b4a2-4ff8d40e25c4`, session timestamped 2026-08-29T21:14:53Z — three days *before* the record the section above calls the first sighting in this corpus. Four friction events; the first is a `tool_error` on `mcp__ost-agent__ost_ingest_inbox`:
+
+`fatal: Unable to create '/Users/tanner/ost-agent-meta/.git/index.lock': File exists. Another git process seems to be running in this repository`
+
+The path names this vault, not the product checkout, so no generalisation step is needed. The two events following it are both retries of the same call.
+
+**Why it is the same need and not a new one.** Both are one writer's auto-commit refused because another writer held the repository. They differ in which lock fired: the index lock is taken at the *start* of a commit and refuses a second writer outright, while the ref lock is checked at the *end* and refuses only if HEAD moved underneath. So the two records catch the same race at opposite ends of the same operation, through two different OST tools — `ost_ingest_inbox` and `ost_create_node`.
+
+**What that does to this node, in three directions.**
+
+- **The count is two, not one, and it is still a floor.** Both instances were found by grepping for a message somebody had already seen. Git has more of these — `index.lock` and ref-lock are two of several — so any count built this way measures the signatures a reader thought to look for. Nobody has yet enumerated the class.
+- **The 2026-08-31 correction to this node's wording holds, and gets stronger.** That section observes the loser's work does *not* disappear silently: the substrate refuses loudly. The index-lock case refuses even earlier and more cheaply — before the commit starts rather than after composing it — which sharpens the same point. There is still no arbitration before the write; there are two substrate refusals of differing lateness.
+- **It bears on the same candidate, and slightly differently.** The 2026-08-31 section argues "Detect drift at write time and refuse, naming what changed since the read" competes against a baseline git already partly provides. The index-lock instance is not drift at all — nothing changed since the read; a second process simply held the lock. That is the case the lock candidate, "One writer at a time, enforced by a lock the second agent waits on rather than ignores", addresses directly and the drift candidate does not: here the right behaviour is to *wait*, not to report what moved. Whoever weighs the three should note the two records point at two different candidates.
+
+**What it does not establish.** Two occurrences across the corpus is not a rate, and this pass did not enumerate git's other contention messages, so it cannot say the true count is not higher. It does not show either firing lost work — both records show a retry after the failure and neither shows the outcome. It says nothing about two *operators* colliding, which is still unmeasured, and nothing about desirability.
+
+**One thing a human may want to change that this pass did not.** This node's rung is `assertion` while its body now rests on two machine-captured records. Its `source` is `tree-restructure:2026-08-05`, not a recording, and the ladder caps the measurement rungs by what the source has earned — so `ost_set_evidence` to `observed` would be refused here on provenance grounds even though the evidence beneath it is observed. That is a labelling question about this node's source field, not a judgement about the evidence, and it is left alone deliberately.
+
+_Method: grep over `.ost-agent/evidence/` in this vault for git contention strings other than the one the prior section searched, plus a first-party read of the record named above. Nothing executed, no test run, no result recorded, no rung moved, no node created. Observed behaviour of this product's own agent — it grounds usability, not desirability. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design._
