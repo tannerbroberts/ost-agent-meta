@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Add the dialect sentence, then count unsupported-construct refusals over the following twenty sessions]]
 
 **Risk category: usability.** Stated so it could be false: descriptions are read once, at the moment the surface is first encountered, and composed against many times afterwards from memory. A sentence naming absent constructs may be read and not retained, or never reached at all in a long description.
 
