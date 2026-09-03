@@ -8,6 +8,7 @@ authorship: machine
 #Opportunity #unvalidated #evidence/observed
 [[The search surface takes a declared intent instead of a raw pattern, so there is no dialect to know]]
 [[The pattern is parsed before it runs, and every unsupported construct in it is named in one refusal]]
+[[Name the engine's published dialect in the tool description and build no validator of our own]]
 
 I write a search the way I know how to write searches, and the tool tells me the construct I used does not exist here.
 
