@@ -9355,3 +9355,10 @@
 {"ts":"2026-09-03T11:51:56.473Z","tool":"ost_ingest_inbox","ok":true,"ms":39,"surface":"mcp","argBytes":2,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
 {"ts":"2026-09-03T11:52:02.380Z","tool":"ost_next_work","ok":true,"ms":747,"surface":"mcp","argBytes":2,"session":"mcp-15c905ce-c119-4284-8594-01b5d2e5adbf"}
 {"ts":"2026-09-03T12:57:12.503Z","tool":"ost_ingest_inbox","ok":true,"ms":374,"surface":"mcp","argBytes":2,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T12:57:15.279Z","tool":"ost_next_work","ok":true,"ms":720,"surface":"mcp","argBytes":2,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T12:57:33.786Z","tool":"ost_read_tree","ok":true,"ms":341,"surface":"mcp","argBytes":114,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T12:57:34.556Z","tool":"ost_read_tree","ok":true,"ms":304,"surface":"mcp","argBytes":108,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T12:58:13.392Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":15,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T12:58:19.472Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":14,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T12:58:19.782Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":21,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf"}
+{"ts":"2026-09-03T12:58:59.941Z","tool":"ost_create_node","ok":true,"ms":338,"surface":"mcp","argBytes":2584,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","wrote":["The search surface takes a declared intent instead of a raw pattern, so there is no dialect to know.md"],"touched":["The search surface takes a declared intent instead of a raw pattern, so there is no dialect to know.md","I write a valid pattern and the tool rejects it, because it speaks a narrower regex than the one I know.md"]}

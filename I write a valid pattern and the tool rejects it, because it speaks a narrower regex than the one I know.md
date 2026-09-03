@@ -6,6 +6,7 @@ evidence: observed
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
+[[The search surface takes a declared intent instead of a raw pattern, so there is no dialect to know]]
 
 I write a search the way I know how to write searches, and the tool tells me the construct I used does not exist here.
 
