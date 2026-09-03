@@ -23,3 +23,15 @@ A pre-flight parse walks the submitted pattern and returns, in a single refusal,
 ## Provenance
 
 Ideated by an unattended sweep on 2026-09-03 against the assigned variation dimension `automated-vs-manual`. Rests on the parent opportunity's evidence — six sessions recording the same one-construct-at-a-time refusal — and on nothing else.
+
+## Definition of done
+
+"A pattern carrying three unsupported constructs is refused once, naming all three, and a fully supported pattern is flagged not at all"
+
+```
+npx vitest run test/guards/pattern-dialect-preflight.test.ts
+```
+
+Named in plain text rather than linked: the test's parent assumption already carries its one wikilink, and a second would make the graph a web.
+
+**Honest limit of this command as it stands.** The spec file does not exist yet, so the command fails today for the reason any unwritten spec fails — it does not yet fail on an assertion specific to this question. It is a definition of done, not evidence. Writing the spec so that its assertions go red against today's code is the first build step, not a formality after it.
