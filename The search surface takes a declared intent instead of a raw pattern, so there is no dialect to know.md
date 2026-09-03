@@ -10,6 +10,7 @@ killBy: '2026-12-01'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The searches callers actually run can be expressed as declared intent without dropping to a raw pattern]]
 
 **Variation dimension: who-does-the-work. Position: nobody — the step is removed.** The other two candidates keep the caller composing a pattern and differ on who explains the boundary; this one deletes the composing step, so no party has to learn or publish a dialect at all.
 
