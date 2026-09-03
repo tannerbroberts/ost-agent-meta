@@ -9198,3 +9198,4 @@
 {"ts":"2026-09-03T01:31:25.113Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":53,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
 {"ts":"2026-09-03T01:32:16.636Z","tool":"ost_append_to_node","ok":true,"ms":102,"surface":"mcp","argBytes":3575,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019","touched":["Hand the oversized body to the harness's own compaction and store nothing new.md"]}
 {"ts":"2026-09-03T01:32:24.696Z","tool":"ost_ingest_inbox","ok":true,"ms":28,"surface":"mcp","argBytes":2,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T02:36:22.458Z","tool":"ost_ingest_inbox","ok":true,"ms":293,"surface":"mcp","argBytes":2,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
