@@ -7,6 +7,7 @@ source: >-
 created: '2026-07-25'
 evidence: assertion
 instrument: npx vitest run test/loop/compute-lane-runner.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -33,3 +34,4 @@ There is also a prerequisite the instrument cannot supply. The runnable set is e
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/loop/compute-lane-runner.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/loop/compute-lane-runner.test.ts` — Duration  457ms (transform 118ms, setup 0ms, collect 177ms, tests 45ms, environment 0ms, prepare 37ms) [spec 9d75e6cfb1d3]
