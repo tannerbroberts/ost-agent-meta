@@ -9181,3 +9181,4 @@
 {"ts":"2026-09-03T00:23:10.339Z","tool":"ost_read_tree","ok":true,"ms":226,"surface":"mcp","argBytes":79,"session":"mcp-fec5ba3a-20d0-4bf4-9993-5dc451235eca"}
 {"ts":"2026-09-03T00:23:10.848Z","tool":"ost_read_tree","ok":true,"ms":265,"surface":"mcp","argBytes":100,"session":"mcp-fec5ba3a-20d0-4bf4-9993-5dc451235eca"}
 {"ts":"2026-09-03T00:23:33.661Z","tool":"ost_ingest_inbox","ok":true,"ms":32,"surface":"mcp","argBytes":2,"session":"mcp-fec5ba3a-20d0-4bf4-9993-5dc451235eca"}
+{"ts":"2026-09-03T01:28:30.404Z","tool":"ost_ingest_inbox","ok":true,"ms":309,"surface":"mcp","argBytes":2,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
