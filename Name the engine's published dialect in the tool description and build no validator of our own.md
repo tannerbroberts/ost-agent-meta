@@ -25,3 +25,13 @@ The tool's description states which engine it is — "patterns are RE2 syntax as
 ## Provenance
 
 Ideated by an unattended sweep on 2026-09-03 against the assigned variation dimension `bought-vs-built`. Rests on the parent opportunity's evidence and on nothing else. The upstream reference was not fetched — this pass did not spend a web lookup to confirm the published syntax page still exists, so that is an open check for whoever picks this up.
+
+## Definition of done — and it is not a command
+
+"Add the dialect sentence, then count unsupported-construct refusals over the following twenty sessions"
+
+No command, on purpose. The bar is **unsupported-construct refusals fall by at least half, and no more than 1 refusal names a construct the sentence already listed**. The counting half could be mechanised off the friction records; the deciding half cannot, because separating "the description had a gap" from "the description went unread" requires reading each surviving refusal against the sentence, and both produce an identical exit code.
+
+Note the asymmetry a reader should not miss: the build here is one sentence, so this candidate is cheap to try and expensive to evaluate — the reverse of its two siblings. That argues for shipping it first and running this test alongside the others rather than before them.
+
+The test title is quoted rather than wikilinked: its one backlink belongs to its parent assumption.
