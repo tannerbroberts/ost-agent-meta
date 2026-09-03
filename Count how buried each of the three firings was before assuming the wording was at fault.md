@@ -8,6 +8,7 @@ threshold: >-
   window; 10 or more for any one of them falsifies the content hypothesis for
   that firing.
 instrument: npx vitest run test/telemetry/gate-signal-density.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -23,3 +24,4 @@ Committing that bar before looking is the whole point. The number is small and a
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/gate-signal-density.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/telemetry/gate-signal-density.test.ts` — Duration  370ms (transform 25ms, setup 0ms, collect 26ms, tests 106ms, environment 0ms, prepare 44ms) [spec c842113fab4c]
