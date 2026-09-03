@@ -9217,3 +9217,4 @@
 {"ts":"2026-09-03T02:42:19.508Z","tool":"ost_append_to_node","ok":true,"ms":55,"surface":"mcp","argBytes":4920,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c","touched":["Two runs write the same vault at once and nothing arbitrates between them.md"]}
 {"ts":"2026-09-03T02:42:28.246Z","tool":"ost_read_tree","ok":true,"ms":233,"surface":"mcp","argBytes":116,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
 {"ts":"2026-09-03T02:43:00.319Z","tool":"ost_append_to_node","ok":true,"ms":64,"surface":"mcp","argBytes":4614,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
+{"ts":"2026-09-03T02:43:07.049Z","tool":"ost_ingest_inbox","ok":true,"ms":25,"surface":"mcp","argBytes":2,"session":"mcp-7be3c884-a435-484d-84c4-c3bcf262745c"}
