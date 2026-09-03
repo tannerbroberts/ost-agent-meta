@@ -168,3 +168,15 @@ The 2026-09-01 census on "Route the humans-required solution into the ask queue 
 **Limits.** One file read in full through `ost_read_repo`; `CAUTIOUS_LANE`'s own definition in `src/knowledge/lanes.js` was not opened, so the identification of that constant with the `humans-required` label rests on the comment and on the field values seen on this vault's nodes, not on the constant's declaration. Nothing was executed, no instrument set, no lane set, no status changed, no rung moved, and no node created. This is an observation about the product's code — it grounds feasibility, not demand.
 
 _Method: `ost_read_repo` on `src/eval/buildable.ts`, read in full. The harness's own file tools refused the same path in this firing ("you haven't granted it yet"), which is the seventh recorded instance of the two-channel grant split logged on "The agent has to guess what resources it's actually working with"._
+
+## 2026-09-03 (same firing) — the defect reproduced as a controlled instance, on nodes created minutes earlier
+
+Three lines. This is the section above, confirmed by accident rather than by argument, and the instance is cleaner than anything the censuses could assemble from history.
+
+This firing created three solutions under "I write a valid pattern and the tool rejects it, because it speaks a narrower regex than the one I know". Two of them carry a single test created with `humansRequired`, which the tool places in the humans-required lane at birth — the label is not a later human correction but the creating call's own declaration, made by the only surface that can make it. The third carries an `instrument:`.
+
+Between the sweep before those writes and the sweep after, `solutionsMissingInstruments` went **70 → 72**, and `outstandingAsks` went **62 → 64**. The same two solutions are in both. So a test can be labelled correctly, at creation, by the mechanism the product provides for exactly that purpose, and its solution still lands in a queue whose stated claim is that nobody has written a command for it — while landing simultaneously in the queue that says a person owes an answer.
+
+**Why this is worth more than the historical counts.** Every earlier census had to establish that the 62 labelled tests were labelled *correctly* before their double-counting meant anything, and did so by reading node bodies. Here the label's provenance is not in question: it was set by the creating call in this firing, and the double count appeared in the very next sweep. The bucket grows by one for every honest humans-required test anyone writes, which is a queue that gets longer the more correctly discovery is done.
+
+_First-party to this firing: two `ost_next_work` responses bracketing six `ost_create_node` calls. Nothing executed, no lane set by hand, no instrument set, no status changed._
