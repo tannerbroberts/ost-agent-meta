@@ -9182,3 +9182,18 @@
 {"ts":"2026-09-03T00:23:10.848Z","tool":"ost_read_tree","ok":true,"ms":265,"surface":"mcp","argBytes":100,"session":"mcp-fec5ba3a-20d0-4bf4-9993-5dc451235eca"}
 {"ts":"2026-09-03T00:23:33.661Z","tool":"ost_ingest_inbox","ok":true,"ms":32,"surface":"mcp","argBytes":2,"session":"mcp-fec5ba3a-20d0-4bf4-9993-5dc451235eca"}
 {"ts":"2026-09-03T01:28:30.404Z","tool":"ost_ingest_inbox","ok":true,"ms":309,"surface":"mcp","argBytes":2,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:28:32.594Z","tool":"ost_next_work","ok":true,"ms":281,"surface":"mcp","argBytes":2,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:29:00.983Z","tool":"ost_read_tree","ok":true,"ms":304,"surface":"mcp","argBytes":108,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:29:09.595Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:29:11.215Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:29:36.535Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:29:38.059Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:29:44.547Z","tool":"ost_read_tree","ok":true,"ms":255,"surface":"mcp","argBytes":113,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:29:57.865Z","tool":"ost_read_tree","ok":true,"ms":270,"surface":"mcp","argBytes":93,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:30:10.094Z","tool":"ost_next_work","ok":true,"ms":217,"surface":"mcp","argBytes":62,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:30:12.734Z","tool":"ost_next_work","ok":true,"ms":60,"surface":"mcp","argBytes":62,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:30:37.283Z","tool":"ost_read_tree","ok":true,"ms":275,"surface":"mcp","argBytes":75,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:31:02.274Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:31:04.338Z","tool":"ost_read_tree","ok":true,"ms":262,"surface":"mcp","argBytes":88,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:31:25.113Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":53,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019"}
+{"ts":"2026-09-03T01:32:16.636Z","tool":"ost_append_to_node","ok":true,"ms":102,"surface":"mcp","argBytes":3575,"session":"mcp-a1e194da-3608-42d3-a3c2-4ab70838e019","touched":["Hand the oversized body to the harness's own compaction and store nothing new.md"]}
