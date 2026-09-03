@@ -7,6 +7,7 @@ threshold: >-
   A candidate costs under 10% of producing the sweep and detects 20 of 20
   changes.
 instrument: npx vitest run test/ost/sweep-version-cost.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that a version can be both cheap and honest. If deriving it co
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/sweep-version-cost.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/ost/sweep-version-cost.test.ts` — Duration  7.44s (transform 695ms, setup 0ms, collect 1.05s, tests 5.98s, environment 0ms, prepare 71ms) [spec ebdb48f27631]
