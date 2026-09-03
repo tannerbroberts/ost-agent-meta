@@ -167,3 +167,4 @@ authorship: machine
 - 2026-09-03 **no-spec** (exit none) `npx vitest run test/loop/claim-merge-release.test.ts` — test/loop/claim-merge-release.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-09-03 **no-spec** (exit none) `npx vitest run test/loop/claim-merge-release.test.ts` — test/loop/claim-merge-release.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-09-03 **no-spec** (exit none) `npx vitest run test/loop/claim-merge-release.test.ts` — test/loop/claim-merge-release.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-09-03 **no-spec** (exit none) `npx vitest run test/loop/claim-merge-release.test.ts` — test/loop/claim-merge-release.test.ts does not exist — no spec was collected, so nothing was measured
