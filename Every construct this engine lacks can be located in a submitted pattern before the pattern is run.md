@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A pattern carrying three unsupported constructs is refused once, naming all three, and a fully supported pattern is flagged not at all]]
 
 **Risk category: feasibility.** Stated so it could be false: a pre-flight parser has to recognise constructs the engine it is protecting does not implement, which means it cannot simply hand the pattern to that engine and watch it fail — it must independently parse a dialect wider than the one it runs on. If the parser's own grammar is narrower than the caller's pattern in some corner, it will either miss a construct (the caller still fails at run time, and now twice) or claim one that is actually supported (a false refusal, which is strictly worse than the status quo).
 
