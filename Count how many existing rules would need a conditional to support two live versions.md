@@ -7,6 +7,7 @@ threshold: >-
   Supporting two versions costs at most 5 conditionals, and the extrapolation to
   a year stays under 20.
 instrument: npx vitest run test/knowledge/versioned-rule-cost.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -25,3 +26,4 @@ The assumption is that versioned rules stay maintainable. Every rule must keep w
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/knowledge/versioned-rule-cost.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/knowledge/versioned-rule-cost.test.ts` — Duration  810ms (transform 236ms, setup 0ms, collect 361ms, tests 14ms, environment 0ms, prepare 54ms) [spec 63391714ca5c]
