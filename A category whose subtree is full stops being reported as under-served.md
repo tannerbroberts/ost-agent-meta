@@ -9,6 +9,7 @@ threshold: >-
   clears the threshold while a majority of its leaves carry zero is still
   reported.
 instrument: npx vitest run test/ost/next-work-rollup-count.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -24,3 +25,4 @@ A run that satisfies the first and fails the second is the interesting outcome, 
 
 ## Instrument Log
 - 2026-08-07 **red** (exit 1) `npx vitest run test/ost/next-work-rollup-count.test.ts` — No test files found, exiting with code 1
+- 2026-09-03 **green** (exit 0) `npx vitest run test/ost/next-work-rollup-count.test.ts` — Duration  3.78s (transform 514ms, setup 0ms, collect 778ms, tests 2.58s, environment 0ms, prepare 68ms) [spec 53b7332fae09]
