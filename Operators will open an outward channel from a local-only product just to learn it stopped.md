@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Ask five operators whether they would emit firing times off-host to be told the loop stopped]]
 
 **Risk category: viability.**
 
