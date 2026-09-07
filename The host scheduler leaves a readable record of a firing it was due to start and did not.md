@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Ask someone with launchd and systemd experience what each retains about a launch that never happened]]
 
 **Risk category: feasibility.**
 
