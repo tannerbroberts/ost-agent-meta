@@ -6,6 +6,7 @@ threshold: >-
   A dialect violation in a partial artifact is reported at its own line, with no
   requirement that the artifact be complete or submittable.
 instrument: npx vitest run test/eval/incremental-parse.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -21,3 +22,4 @@ instrument: npx vitest run test/eval/incremental-parse.test.ts
 
 ## Instrument Log
 - 2026-08-05 **red** (exit 1) `npx vitest run test/eval/incremental-parse.test.ts` — No test files found, exiting with code 1
+- 2026-09-07 **green** (exit 0) `npx vitest run test/eval/incremental-parse.test.ts` — Duration  1.81s (transform 130ms, setup 0ms, collect 142ms, tests 481ms, environment 0ms, prepare 206ms) [spec 6f716749fd1b]
