@@ -11,6 +11,7 @@ killBy: '2026-11-07'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The invocation trace already on disk is a sufficient record to tell a missing firing from a silent one]]
 
 **Variation dimension: automated-vs-manual. Position taken: detection fully automated and nothing new stored; the only manual step left is that a person must eventually read a report.**
 
