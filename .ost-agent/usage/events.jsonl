@@ -9598,3 +9598,6 @@
 {"ts":"2026-09-07T22:17:39.021Z","tool":"ost_annotate","ok":true,"ms":39,"surface":"mcp","argBytes":1242,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1","touched":["A dead-man's-switch outside the host, because an in-host watchdog dies with the host.md"]}
 {"ts":"2026-09-07T22:17:57.803Z","tool":"ost_annotate","ok":true,"ms":47,"surface":"mcp","argBytes":2801,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
 {"ts":"2026-09-07T22:18:01.965Z","tool":"ost_ingest_inbox","ok":true,"ms":42,"surface":"mcp","argBytes":2,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1"}
+{"ts":"2026-09-07T22:18:04.704Z","tool":"ost_next_work","ok":true,"ms":330,"surface":"mcp","argBytes":62,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1"}
+{"ts":"2026-09-07T22:18:12.456Z","tool":"ost_next_work","ok":true,"ms":509,"surface":"mcp","argBytes":2,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1"}
+{"ts":"2026-09-07T23:20:27.616Z","tool":"ost_ingest_inbox","ok":true,"ms":121,"surface":"mcp","argBytes":2,"session":"mcp-4e5c6d77-f6d7-414e-bf4b-b47e4fa07f74"}
