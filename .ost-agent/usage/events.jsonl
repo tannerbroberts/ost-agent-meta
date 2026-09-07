@@ -9406,3 +9406,4 @@
 {"ts":"2026-09-07T14:06:28.817Z","tool":"ost_read_tree","ok":true,"ms":292,"surface":"mcp","argBytes":88,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
 {"ts":"2026-09-07T14:06:46.673Z","tool":"ost_read_tree","ok":true,"ms":301,"surface":"mcp","argBytes":128,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
 {"ts":"2026-09-07T14:07:59.350Z","tool":"ost_append_to_node","ok":true,"ms":101,"surface":"mcp","argBytes":4143,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe","touched":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md"]}
+{"ts":"2026-09-07T14:08:07.111Z","tool":"ost_ingest_inbox","ok":true,"ms":55,"surface":"mcp","argBytes":2,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
