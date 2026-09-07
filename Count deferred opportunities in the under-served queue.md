@@ -9,6 +9,7 @@ threshold: >-
   deferred opportunity with fewer than minSolutionsPerOpportunity direct
   solution children.
 instrument: npx vitest run test/ost/underserved-excludes-deferred.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -33,3 +34,4 @@ instrument: npx vitest run test/ost/underserved-excludes-deferred.test.ts
 
 ## Instrument Log
 - 2026-08-10 **red** (exit 1) `npx vitest run test/ost/underserved-excludes-deferred.test.ts` — No test files found, exiting with code 1
+- 2026-09-07 **green** (exit 0) `npx vitest run test/ost/underserved-excludes-deferred.test.ts` — Duration  2.25s (transform 240ms, setup 0ms, collect 370ms, tests 1.59s, environment 0ms, prepare 43ms) [spec e183a7ffaed4]
