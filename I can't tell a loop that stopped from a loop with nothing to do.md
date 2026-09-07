@@ -8,6 +8,7 @@ authorship: machine
 #Opportunity #unvalidated #evidence/assertion
 [[A dead-man's-switch outside the host, because an in-host watchdog dies with the host]]
 [[The sweep response states when the loop last fired, computed from the trace already on disk]]
+[[Adopt the host scheduler's own run records instead of building a liveness notion here]]
 
 **The need, in the operator's voice:** "My loop is configured to fire every hour. It produced nothing for three days. Every surface I read — the sweep, the rollup, the buckets — looked exactly as it always does, and not one of them told me the thing had stopped."
 
