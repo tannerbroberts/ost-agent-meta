@@ -9474,3 +9474,5 @@
 {"ts":"2026-09-07T17:34:08.929Z","tool":"ost_read_tree","ok":true,"ms":95,"surface":"mcp","argBytes":86,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e"}
 {"ts":"2026-09-07T17:34:37.999Z","tool":"ost_append_to_node","ok":true,"ms":32,"surface":"mcp","argBytes":2176,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e","touched":["The wait stops at its own default while the call I made still had time left.md"]}
 {"ts":"2026-09-07T17:35:03.570Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":4540,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
+{"ts":"2026-09-07T17:35:18.891Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":106,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e"}
+{"ts":"2026-09-07T17:37:24.554Z","tool":"ost_edit_node","ok":true,"ms":32,"surface":"mcp","argBytes":20203,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e","touched":["The unattended run is scoped for tools nobody granted it, and it finds out one denial at a time.md"]}
