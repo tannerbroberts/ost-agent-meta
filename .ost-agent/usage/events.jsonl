@@ -9434,3 +9434,6 @@
 {"ts":"2026-09-07T15:13:52.738Z","tool":"ost_append_to_node","ok":true,"ms":30,"surface":"mcp","argBytes":5143,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
 {"ts":"2026-09-07T15:14:35.196Z","tool":"ost_append_to_node","ok":true,"ms":30,"surface":"mcp","argBytes":4229,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff","touched":["The evidence queue counts records, not distinct problems, so I cannot tell whether 464 items is 464 needs or five repeating.md"]}
 {"ts":"2026-09-07T15:14:43.573Z","tool":"ost_ingest_inbox","ok":true,"ms":44,"surface":"mcp","argBytes":2,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:14:46.329Z","tool":"ost_next_work","ok":true,"ms":150,"surface":"mcp","argBytes":62,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:14:52.948Z","tool":"ost_next_work","ok":true,"ms":218,"surface":"mcp","argBytes":2,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T16:20:11.050Z","tool":"ost_ingest_inbox","ok":true,"ms":251,"surface":"mcp","argBytes":2,"session":"mcp-6e6f3eae-3bef-410e-8287-e5199906b27f"}
