@@ -9410,3 +9410,25 @@
 {"ts":"2026-09-07T14:08:09.709Z","tool":"ost_next_work","ok":true,"ms":275,"surface":"mcp","argBytes":31,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
 {"ts":"2026-09-07T14:08:16.475Z","tool":"ost_next_work","ok":true,"ms":640,"surface":"mcp","argBytes":2,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
 {"ts":"2026-09-07T15:10:23.515Z","tool":"ost_ingest_inbox","ok":true,"ms":121,"surface":"mcp","argBytes":2,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:10:25.139Z","tool":"ost_next_work","ok":true,"ms":242,"surface":"mcp","argBytes":2,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:10:43.158Z","tool":"ost_next_work","ok":true,"ms":101,"surface":"mcp","argBytes":62,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:10:49.087Z","tool":"ost_next_work","ok":true,"ms":97,"surface":"mcp","argBytes":62,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:11:01.484Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":108,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:11:01.673Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":134,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:11:27.749Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:11:29.530Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:11:29.632Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:11:34.348Z","tool":"ost_read_tree","ok":true,"ms":93,"surface":"mcp","argBytes":113,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:11:34.534Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":86,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:11:57.819Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":104,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:12:08.851Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:12:08.970Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:12:15.606Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:12:24.122Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":40,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:12:24.253Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":40,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:12:26.310Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:12:44.755Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:13:04.718Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:13:04.828Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":46,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:13:10.922Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":54,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff"}
+{"ts":"2026-09-07T15:13:52.738Z","tool":"ost_append_to_node","ok":true,"ms":30,"surface":"mcp","argBytes":5143,"session":"mcp-dbb15732-5f85-4fc7-8bf1-756094d09cff","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
