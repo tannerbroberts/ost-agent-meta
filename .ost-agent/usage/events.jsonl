@@ -9516,3 +9516,28 @@
 {"ts":"2026-09-07T18:52:33.571Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-c2f904ff-3561-4915-8e47-e8168f906b25"}
 {"ts":"2026-09-07T18:52:35.274Z","tool":"ost_next_work","ok":true,"ms":258,"surface":"mcp","argBytes":2,"session":"mcp-c2f904ff-3561-4915-8e47-e8168f906b25"}
 {"ts":"2026-09-07T19:54:38.309Z","tool":"ost_ingest_inbox","ok":true,"ms":121,"surface":"mcp","argBytes":2,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:54:40.021Z","tool":"ost_next_work","ok":true,"ms":231,"surface":"mcp","argBytes":2,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:55:23.549Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:55:33.094Z","tool":"ost_read_repo","ok":false,"ms":1,"surface":"mcp","argBytes":26,"err":"\"src/instruments\" does not exist in OST-Agent — OST-Agent/src exists and contains adapters, cli, compression, config, eval, fs, git, index.ts, knowledge, loop, mcp, ost, processes, product, release, runner, security, telemetry, web; nothing there is close enough to name, so this is not a typo to cor","session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:55:33.188Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:55:35.032Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:55:36.809Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":29,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:55:40.131Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:55:45.104Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":39,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:56:17.793Z","tool":"ost_next_work","ok":true,"ms":154,"surface":"mcp","argBytes":62,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:56:18.209Z","tool":"ost_next_work","ok":true,"ms":26,"surface":"mcp","argBytes":62,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:56:30.910Z","tool":"ost_read_tree","ok":true,"ms":110,"surface":"mcp","argBytes":89,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:56:42.600Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":43,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:56:44.029Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":57,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:56:55.677Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":108,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:57:24.965Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":86,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:57:25.133Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":100,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:57:32.380Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":64,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:57:32.706Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":93,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:57:42.888Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:58:12.189Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":103,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:58:12.364Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":105,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:58:25.871Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":93,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:58:50.609Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T19:59:24.958Z","tool":"ost_read_tree","ok":true,"ms":101,"surface":"mcp","argBytes":75,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
+{"ts":"2026-09-07T20:00:08.367Z","tool":"ost_append_to_node","ok":true,"ms":28,"surface":"mcp","argBytes":3348,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38","touched":["My tests carry thresholds nobody ever fixed, so nothing can come out a failure.md"]}
