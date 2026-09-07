@@ -11,6 +11,7 @@ killBy: '2026-12-07'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The host scheduler leaves a readable record of a firing it was due to start and did not]]
 
 **Variation dimension: bought-vs-built. Position taken: adopt the operating system's scheduler as the authority on whether a job ran, and build only a reader.**
 
