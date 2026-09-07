@@ -9595,3 +9595,4 @@
 {"ts":"2026-09-07T22:16:55.908Z","tool":"ost_read_tree","ok":true,"ms":121,"surface":"mcp","argBytes":95,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1"}
 {"ts":"2026-09-07T22:17:12.623Z","tool":"ost_read_tree","ok":true,"ms":161,"surface":"mcp","argBytes":104,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1"}
 {"ts":"2026-09-07T22:17:31.472Z","tool":"ost_annotate","ok":true,"ms":59,"surface":"mcp","argBytes":1542,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1","touched":["Adopt the host scheduler's own run records instead of building a liveness notion here.md"]}
+{"ts":"2026-09-07T22:17:39.021Z","tool":"ost_annotate","ok":true,"ms":39,"surface":"mcp","argBytes":1242,"session":"mcp-0e7a2299-09ba-49eb-b1c3-05a0a62559e1","touched":["A dead-man's-switch outside the host, because an in-host watchdog dies with the host.md"]}
