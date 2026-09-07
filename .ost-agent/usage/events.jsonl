@@ -9389,3 +9389,20 @@
 {"ts":"2026-09-03T13:05:54.873Z","tool":"ost_append_to_node","ok":true,"ms":92,"surface":"mcp","argBytes":2036,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
 {"ts":"2026-09-03T13:06:14.356Z","tool":"ost_append_to_node","ok":true,"ms":129,"surface":"mcp","argBytes":1890,"session":"mcp-9039cfcf-8325-4749-8d01-0f1c14334eaf","touched":["I write a valid pattern and the tool rejects it, because it speaks a narrower regex than the one I know.md"]}
 {"ts":"2026-09-07T14:02:02.604Z","tool":"ost_ingest_inbox","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:02:05.203Z","tool":"ost_next_work","ok":true,"ms":242,"surface":"mcp","argBytes":2,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:02:29.278Z","tool":"ost_next_work","ok":true,"ms":108,"surface":"mcp","argBytes":62,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:02:38.021Z","tool":"ost_next_work","ok":true,"ms":105,"surface":"mcp","argBytes":62,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:02:44.400Z","tool":"ost_next_work","ok":true,"ms":107,"surface":"mcp","argBytes":62,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:02:54.572Z","tool":"ost_next_work","ok":true,"ms":108,"surface":"mcp","argBytes":62,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:02:58.707Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":75,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:03:11.453Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":108,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:03:29.663Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:03:35.902Z","tool":"ost_read_tree","ok":true,"ms":232,"surface":"mcp","argBytes":113,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:04:15.345Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:04:51.742Z","tool":"ost_read_tree","ok":true,"ms":272,"surface":"mcp","argBytes":98,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:05:04.668Z","tool":"ost_read_tree","ok":true,"ms":293,"surface":"mcp","argBytes":83,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:05:21.000Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:06:18.704Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:06:28.817Z","tool":"ost_read_tree","ok":true,"ms":292,"surface":"mcp","argBytes":88,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:06:46.673Z","tool":"ost_read_tree","ok":true,"ms":301,"surface":"mcp","argBytes":128,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe"}
+{"ts":"2026-09-07T14:07:59.350Z","tool":"ost_append_to_node","ok":true,"ms":101,"surface":"mcp","argBytes":4143,"session":"mcp-cea283c0-ab27-4126-9285-f72ecf6e9dbe","touched":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md"]}
