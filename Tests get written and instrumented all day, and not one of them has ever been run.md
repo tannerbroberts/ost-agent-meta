@@ -98,3 +98,28 @@ The last measurement on this node is 2026-08-06. Twenty-two days on, read first-
 **The open question from 2026-08-06 is still open, and one CLI call would close it.** That section asked whether the blockage is the lane label alone or something further down, and proposed running `ost-agent lane --set` on a few instrumented tests to find out. Nothing has been labelled since. `runnable` moving from 0 to even 1 would separate "a decision nobody has made" from "a second gate downstream" — and until someone makes that call, every future pass re-derives the same ambiguity from the same numbers.
 
 _Source: this firing's own `ost_next_work` response and the `ost-agent rollup` output it was given. First-party observation of the vault's state. No test was run and no result is recorded; this node's rung is unchanged._
+
+## Re-measured at 33 days — labelling did happen, 65 times, and every one moved work away from compute (unattended sweep, 2026-09-07)
+
+Four lines, and only what is new. The mechanism is established by the four sections above and is not restated.
+
+**Direct measurement of this vault today**, by the same greps the 2026-08-05 and 2026-08-06 sections used, against this firing's own sweep response:
+
+| | 2026-08-05 | 2026-08-06 | 2026-08-28 | 2026-09-07 |
+| --- | --- | --- | --- | --- |
+| `^instrument: npx` | 200 | 232 | — | **378** |
+| `^lane:` | 1 (empty) | 4 | — | **66** |
+| `needsHumans` | 272 | 310 | 464 | **512** |
+| `runnable` | 0 | 0 | 0 | **0** |
+
+All 37 buckets still read `executed 0`. `awaitingOneCommand` and `blockedOnPermission` are both still empty, which is what pins the next paragraph: with those two lanes at zero, the 66 lane fields on disk are 66 `humans-required` labels and nothing else.
+
+**The new fact, and it retires this node's own standing recommendation.** Three sections above name the same cheapest unblock — "one human session assigning lanes" — on the reasoning that the call "has never been made for any of them". That reasoning no longer holds. The lane field has gone from 1 to 66 in 33 days, so labelling sessions have plainly been happening, at roughly two a day. **Every one of the 65 labels written since went in the restrictive direction.** Not one `compute-only` label exists in this vault, on any of the 378 tests that carry a command. So the picture is not a decision nobody got round to; it is a decision being made steadily and made one way.
+
+**Why that is a different problem than the one this node has been reporting.** "Nobody has labelled" is answered by finding an hour. "Everyone who labels chooses humans-required" is not — it says either that the tests genuinely are all human-bound (in which case 378 instruments are readiness nobody will ever spend, and the honest fix is upstream, at whether passes should be writing them at all), or that the permissive label is harder to reach for than the restrictive one, which is a property of the surface rather than of the tests. The two have opposite fixes and this measurement does not separate them.
+
+**The 2026-08-06 open question is now cheaper to settle than when it was asked**, and it is unchanged otherwise: run `ost-agent lane --set` to `compute-only` on a single instrumented test whose method names no person, and see whether `runnable` becomes 1. One CLI call separates "a decision nobody has made" from "a second gate downstream" — and it now also separates the two readings above, because a label that sticks and produces a runnable entry rules out the surface explanation. Thirty-three days on, `runnable` has never been anything but 0, so nobody has yet made that call.
+
+**Limits.** The counts are frontmatter greps over this vault's `.md` files, so a lane or instrument written into prose rather than frontmatter is not counted, and the 378 is one below the 379 this firing's rollup reports — a discrepancy of one that was not chased and could be a differently-formed command. That all 66 labels are `humans-required` is inferred from the two other needs-a-person lanes reporting empty on this same sweep, not from reading 66 files. Nothing here counts solutions, and nothing was executed: no test was run, no rung moved, no instrument set, no lane set, no status changed. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
+
+_Source: `Grep` over this vault's own node frontmatter (two patterns, whole corpus), this firing's `ost_next_work` response, and the `ost-agent rollup` it was handed. First-party observation of the tree's own state; it grounds usability, not demand._
