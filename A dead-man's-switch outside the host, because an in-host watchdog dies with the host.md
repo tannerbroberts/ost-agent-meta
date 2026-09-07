@@ -11,6 +11,7 @@ killBy: '2026-11-07'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Operators will open an outward channel from a local-only product just to learn it stopped]]
 
 **Variation dimension: who-does-the-work. Position taken: an outside party, because every in-host option shares the host's own failure mode.**
 
