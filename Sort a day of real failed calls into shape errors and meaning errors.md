@@ -4,6 +4,7 @@ source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
 instrument: npx vitest run test/telemetry/failure-shape-vs-meaning.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -30,3 +31,4 @@ instrument: npx vitest run test/telemetry/failure-shape-vs-meaning.test.ts
 
 ## Instrument Log
 - 2026-08-06 **red** (exit 1) `npx vitest run test/telemetry/failure-shape-vs-meaning.test.ts` — filter:  test/telemetry/failure-shape-vs-meaning.test.ts
+- 2026-09-07 **green** (exit 0) `npx vitest run test/telemetry/failure-shape-vs-meaning.test.ts` — stdout | test/telemetry/failure-shape-vs-meaning.test.ts > the failures that actually happened, 2026-07-25 to 2026-07-27 > the verdict does not turn on which denominator a reader prefers [spec 29ee890c7062]
