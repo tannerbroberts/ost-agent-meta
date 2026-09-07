@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A fixture trace with a three-day hole reports a gap, and days carrying events report none]]
 
 **Risk category: feasibility.**
 
