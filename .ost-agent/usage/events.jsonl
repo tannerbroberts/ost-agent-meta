@@ -9626,3 +9626,5 @@
 {"ts":"2026-09-07T23:24:13.468Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-4e5c6d77-f6d7-414e-bf4b-b47e4fa07f74"}
 {"ts":"2026-09-07T23:24:32.643Z","tool":"ost_read_tree","ok":true,"ms":98,"surface":"mcp","argBytes":92,"session":"mcp-4e5c6d77-f6d7-414e-bf4b-b47e4fa07f74"}
 {"ts":"2026-09-07T23:25:36.316Z","tool":"ost_append_to_node","ok":true,"ms":38,"surface":"mcp","argBytes":3836,"session":"mcp-4e5c6d77-f6d7-414e-bf4b-b47e4fa07f74","touched":["Tests get written and instrumented all day, and not one of them has ever been run.md"]}
+{"ts":"2026-09-07T23:26:40.264Z","tool":"ost_next_work","ok":true,"ms":168,"surface":"mcp","argBytes":62,"session":"mcp-4e5c6d77-f6d7-414e-bf4b-b47e4fa07f74"}
+{"ts":"2026-09-07T23:27:00.156Z","tool":"ost_append_to_node","ok":true,"ms":28,"surface":"mcp","argBytes":2117,"session":"mcp-4e5c6d77-f6d7-414e-bf4b-b47e4fa07f74","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
