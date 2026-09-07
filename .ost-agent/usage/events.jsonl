@@ -9473,3 +9473,4 @@
 {"ts":"2026-09-07T17:33:34.687Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":87,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e"}
 {"ts":"2026-09-07T17:34:08.929Z","tool":"ost_read_tree","ok":true,"ms":95,"surface":"mcp","argBytes":86,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e"}
 {"ts":"2026-09-07T17:34:37.999Z","tool":"ost_append_to_node","ok":true,"ms":32,"surface":"mcp","argBytes":2176,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e","touched":["The wait stops at its own default while the call I made still had time left.md"]}
+{"ts":"2026-09-07T17:35:03.570Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":4540,"session":"mcp-96862f28-a5be-4885-8acd-0d6a039a232e","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}

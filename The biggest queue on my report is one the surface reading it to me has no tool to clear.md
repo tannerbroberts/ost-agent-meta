@@ -180,3 +180,26 @@ Between the sweep before those writes and the sweep after, `solutionsMissingInst
 **Why this is worth more than the historical counts.** Every earlier census had to establish that the 62 labelled tests were labelled *correctly* before their double-counting meant anything, and did so by reading node bodies. Here the label's provenance is not in question: it was set by the creating call in this firing, and the double count appeared in the very next sweep. The bucket grows by one for every honest humans-required test anyone writes, which is a queue that gets longer the more correctly discovery is done.
 
 _First-party to this firing: two `ost_next_work` responses bracketing six `ost_create_node` calls. Nothing executed, no lane set by hand, no instrument set, no status changed._
+
+## 2026-09-07 — a third count row, and the trend row this node calls its real finding has gone flat
+
+Short, and it extends this node's own table rather than opening a subject.
+
+**The counts, same method as the two rows above** — one multiline grep per class over this vault's `*.md`, matching the frontmatter block whole against an allow-list of keys, which is the order-independent method this node's own "Three method corrections" section prescribes.
+
+| | 2026-08-29 | 2026-09-01 | 2026-09-07 | Δ (6d) |
+|---|---|---|---|---|
+| Tests total | 477 | 500 | 509 | +9 |
+| Carrying an instrument | 355 | 371 | 378 | +7 |
+| No instrument, `lane: humans-required` | 54 | 62 | 64 | +2 |
+| No instrument, no lane — the unlabelled set | 68 | 67 | **67** | **0** |
+
+**The finding is the last row again, and it is now stronger than when this node stated it.** On 2026-09-01 this node reported the unlabelled pile moving by −1 and read that as "labelling is not stalled, but it is not reaching the standing backlog." Six days and nine new tests later the pile has moved by **zero**. Two lanes were set in the interval and neither came off this list. The claim is no longer an inference from a single small delta — it is a flat row across two consecutive intervals, and the mechanism this node names (the `lane --set` route being exercised on tests created in the same window) is the only reading the three rows jointly support.
+
+**One soundness hole in this node's arithmetic, now closed directly rather than by coincidence.** Every row above is derived by subtraction, which is exact only if no test carries BOTH an instrument and a lane — otherwise a double-counted test inflates two rows and deflates the third by the same amount, and the identity would still close. That was never checked. It is now: a multiline grep for a `lane:` line followed (across an optional `threshold:` block) by an `instrument:` line returns **0 matches across the whole vault**. The three classes are disjoint, so `378 + 64 + 67 = 509` is an exact partition and not an arithmetic coincidence. This corroborates the method; it corrects nothing.
+
+**The remaining classification checked from the opposite direction to the 2026-09-02 check.** That check took the two riskiest *people-shaped* entries and confirmed they were correctly classed. This pass enumerated all 67 by name and read in full the four whose titles are most analysis-shaped — the members most likely to be wrongly classed as non-instrumentable: "Do the shipped sweeps actually find a planted instance", "Test humans can promote while the agent is blocked from validating", "Sweep both vault histories for writes that landed as undefined or empty", and "Does refusing a newline inside a wiki-link catch breaks nothing else catches". **All four are already answered**, each with its run and verdict in prose and a 2026-08-31 note stating why an instrument would pass on arrival and is therefore refused. Each also declares `Lane: compute-only` in its own text while carrying no `lane:` field, so all four are counted as needing a person by a reader their own prose contradicts. These are re-verifications of verdicts earlier firings recorded, not new examinations, and they are reported as such.
+
+**What that does to this node's headline.** Nothing changes it: zero instrumentable stands, now checked from both ends of the classification rather than one. What it adds is that the four re-read entries are not merely non-instrumentable but *already settled*, so their continued presence is the double-count this node's own "The defect" section describes, applied to work that finished weeks ago.
+
+**Limits.** Every count above is a count of frontmatter fields and is exact; the disjointness check is exact. The 67 were enumerated by name but only four were read this pass; the other 63 inherit verdicts and classifications from earlier firings, and the frontmatter predicate remains blind to a resolution recorded in prose, so "unlabelled" is still an upper bound on unexamined work rather than a count of it. `ost_read_repo` was used this pass and confirmed granted, consistent with this node's third method correction. Nothing was executed, no test run, no result recorded, no lane set, no instrument set, no rung moved, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
