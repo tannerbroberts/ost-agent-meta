@@ -25,3 +25,15 @@ authorship: machine
 **Evidence rung: `observed`.** Mechanically captured from this product's own session transcript, and the mechanism half is a first-party read of `src/loop/wait.ts`. It grounds usability, not desirability: it is the agent's own use of the product, not an outside party's demand. No test was run and no result is recorded.
 
 **For a human to review:** whether this belongs as a sibling of the give-up-verdict node or beneath it. This pass judged them siblings on the reasoning above, and placed this node under the category rather than under the sibling so the judgement is visible rather than buried in an edge.
+
+## 2026-09-07 — the same gap observed again, nine days later, wider and costlier
+
+Four lines. A second first-party instance of the mechanism this node already describes, not a new claim.
+
+**What was observed.** Session `920a768c-5335-44d1-8c50-97a23bd46517` (2026-09-07, unattended, nobody watching), captured this firing and read in full: 16 friction events, of which **eight are the identical line** `await: gave up after 300s; the condition still exits 1.` The three `retry` events show the same hand-re-arming this node already records — the composer re-issued the same wait on `/tmp/full-suite.txt` once and on `/tmp/full-suite2.txt` three times, waiting on a `vitest exit=` marker that never appeared.
+
+**The gap is wider than the instance this node was written from.** Every one of those Bash calls carried `"timeout": 600000`. On 2026-08-29 the stated budget was 400s against the helper's 300s constant; here it is 600s against the same 300s. The composer stated a bound twice as long as the one that actually decided the verdict, and was shown neither number. That is the node's claim — "whose number decided the verdict" — reproduced at a larger ratio rather than restated.
+
+**Why this is worth one section and not a new node.** It changes no claim here and proposes no solution. What it adds is that the need is standing rather than a single session's bad luck: two unattended firings, nine days apart, on different suites, each burning roughly half an hour re-arming a wait by hand, with the stated-versus-actual bound diverging further in the later one. The three solutions already hanging beneath this node are untouched and none was ideated or re-ranked by this pass.
+
+**Limits.** One session record, read first-party through `ost_next_work({evidence})`; the 300s figure is this node's own prior read of `src/loop/wait.ts` and was not re-read this pass. It grounds usability, not desirability — the agent's own use of the product, not an outside party's demand. Nothing was executed, no result recorded, no rung moved, no status changed.
