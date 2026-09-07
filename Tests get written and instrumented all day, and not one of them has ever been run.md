@@ -123,3 +123,29 @@ All 37 buckets still read `executed 0`. `awaitingOneCommand` and `blockedOnPermi
 **Limits.** The counts are frontmatter greps over this vault's `.md` files, so a lane or instrument written into prose rather than frontmatter is not counted, and the 378 is one below the 379 this firing's rollup reports — a discrepancy of one that was not chased and could be a differently-formed command. That all 66 labels are `humans-required` is inferred from the two other needs-a-person lanes reporting empty on this same sweep, not from reading 66 files. Nothing here counts solutions, and nothing was executed: no test was run, no rung moved, no instrument set, no lane set, no status changed. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
 
 _Source: `Grep` over this vault's own node frontmatter (two patterns, whole corpus), this firing's `ost_next_work` response, and the `ost-agent rollup` it was handed. First-party observation of the tree's own state; it grounds usability, not demand._
+
+## 2026-09-07 (later firing) — the two readings the section above could not separate, separated
+
+Short, and it only does the one thing: the section above ends by naming two explanations for "66 labels, all restrictive" and says "this measurement does not separate them." This firing measured the quantity that does.
+
+**The counts, all first-party greps over this vault's own `.md` files today.**
+
+| | count |
+| --- | --- |
+| `^lane:` fields | 66 |
+| `^lane: humans-required` | **66** |
+| `^lane: compute-only` | **0** |
+| AssumptionTests declaring `**Lane: compute-only` anywhere | 112 |
+| …of those, declaring it in the node's OWN prose | **105** |
+
+The second row discharges a limit the section above stated about itself: that all 66 are `humans-required` was inferred there from the other two lanes reporting empty, "not from reading 66 files." It is now matched directly, and the inference was right.
+
+**Why 105 is the number that separates the readings.** `src/ost/lanes.ts` was read in full this pass. `readProseLane` looks only at `ownProse` — everything above the first `## ` heading — so the 105 sit in exactly the region the reader scans, and the 7-node gap between 112 and 105 is declarations buried in later sections, which the reader is right to skip. `proseDeclaredLane` reports each one; `runnableByCompute` filters on `computeMayRun(t.lane)` and never consults it, by design.
+
+So the first reading — that the tests genuinely are all human-bound — does not survive. That judgement has been made 105 times, in the sanctioned place, and made the other way. What the tree holds is not an absence of thinking about which tests compute could run; it is 105 completed judgements, none of which was ever ratified into the field that governs anything. The second reading — that the permissive label is simply harder to reach for than the restrictive one — is what the numbers support: 66 restrictive labels written, 0 permissive, against 105 standing declarations waiting on one CLI call each.
+
+**What this changes about this node's own recommendation.** Four sections above name the cheapest unblock as "one human session assigning lanes," which reads as classifying from scratch. It is smaller than that. `ost-agent lanes` already prints these as `proseDeclared`, each with the quoted sentence and a paste-ready `lane … --set`, because that reporting path exists precisely for this gap. The work is ratifying a list the tool already writes, not producing one. And the 2026-08-06 open question — is the blockage the label alone, or a second gate downstream — is still answerable by promoting a single entry off that list and checking whether `runnable` becomes 1.
+
+**Limits.** The 105 is a grep proxy for `ownProse`, matching lines after the `#AssumptionTest` tag line that do not begin with `#`; a declaration inside a fenced block or an unusual body shape would be miscounted, and the direction of that error is not known. A test carrying a `humans-required` field AND a compute-only prose line would be a lane conflict rather than a `proseDeclared` entry, so the ratifiable set is 105 minus any such overlap; this firing's sweep reported zero hygiene issues, which is evidence there are none but is not the `check` run — `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design. Nothing was executed, no lane was set, no rung moved, no instrument set, no status changed.
+
+_Method: `Grep` over this vault's node frontmatter and bodies (five patterns, whole corpus) and `ost_read_repo` of `src/ost/lanes.ts` read in full. Observed structure of this vault and this product's own code; it grounds usability, not demand._
