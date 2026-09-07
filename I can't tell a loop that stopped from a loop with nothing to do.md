@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
+[[A dead-man's-switch outside the host, because an in-host watchdog dies with the host]]
 
 **The need, in the operator's voice:** "My loop is configured to fire every hour. It produced nothing for three days. Every surface I read — the sweep, the rollup, the buckets — looked exactly as it always does, and not one of them told me the thing had stopped."
 
