@@ -7,6 +7,7 @@ threshold: >-
   A rule fixed in advance correctly classifies at least 90% of external write
   events, and produces no more than 3 unnecessary invalidations per session.
 instrument: npx vitest run test/runner/fs-event-classification.test.ts
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -27,3 +28,4 @@ Proposed, not run. Recording a result is a human's `ost-agent result`.
 
 ## Instrument Log
 - 2026-08-04 **red** (exit 1) `npx vitest run test/runner/fs-event-classification.test.ts` — No test files found, exiting with code 1
+- 2026-09-07 **green** (exit 0) `npx vitest run test/runner/fs-event-classification.test.ts` — Duration  394ms (transform 31ms, setup 0ms, collect 35ms, tests 6ms, environment 0ms, prepare 44ms) [spec 58906f2860f7]
