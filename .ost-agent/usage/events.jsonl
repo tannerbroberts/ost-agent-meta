@@ -9542,3 +9542,4 @@
 {"ts":"2026-09-07T19:59:24.958Z","tool":"ost_read_tree","ok":true,"ms":101,"surface":"mcp","argBytes":75,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
 {"ts":"2026-09-07T20:00:08.367Z","tool":"ost_append_to_node","ok":true,"ms":28,"surface":"mcp","argBytes":3348,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38","touched":["My tests carry thresholds nobody ever fixed, so nothing can come out a failure.md"]}
 {"ts":"2026-09-07T20:00:29.220Z","tool":"ost_append_to_node","ok":true,"ms":35,"surface":"mcp","argBytes":3680,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38","touched":["The agent has to guess what resources it's actually working with.md"]}
+{"ts":"2026-09-07T20:00:31.283Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-8dbd53fb-1e4a-4e1a-9a6c-83059094bf38"}
