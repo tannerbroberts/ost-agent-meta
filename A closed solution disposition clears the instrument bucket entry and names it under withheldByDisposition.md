@@ -268,3 +268,28 @@ Kept short, per this node's convention. The census above is not re-run: this fir
 **Honest limits.** Two nodes, not a census; both are recent, so the rate is extrapolated from four days and assumes firing cadence holds. The 670KB figure is arithmetic on that assumption, not an observation. Nothing here is a measurement of the product's behaviour under load, and no claim is made that any log has yet caused a problem — the cost is projected, and the projection is the finding.
 
 _Method: two `ost_read_tree` node reads and this firing's own sweep response. No test was run, no result recorded, no instrument set, no lane labelled. Grounds feasibility and cost only. Rung unchanged at the `assertion` floor._
+
+## 2026-09-07 — the log-growth projection, checked against the tree eight days later
+
+Kept short, per this node's convention. The census above is deliberately NOT re-run: three prior firings established 10 of 10 bucket entries correctly ineligible, the last of them adversarially, and re-deriving that an eleventh time is the exact cost these sections exist to stop. This pass measured the one quantity the 2026-08-30 section called uncounted and left as arithmetic.
+
+**The projection being checked.** That section extrapolated from two nodes over four days: "roughly 2,900 lines a year, at ~230 characters each: about 670KB on a single AssumptionTest node", flagged in its own limits as "arithmetic on that assumption, not an observation."
+
+**Whole-tree count, observed today.** **3,388 `no-spec` observation lines across 36 AssumptionTest nodes.** At the ~230 characters a line the earlier section measured, that is roughly **780KB** of reserved-section text already on disk, none of it carrying information its first line did not, and none of it prunable by any tool in either direction.
+
+**The two nodes it projected from, re-counted.** The spread is the surprise, not the total:
+
+| Node | 2026-08-30 | 2026-09-07 | lines/day |
+|---|---|---|---|
+| This node | 7 | 185 | ~22 |
+| "A description that disagrees with the grammar its own validator enforces fails the suite" | 19 | 68 | ~6 |
+
+So the projected ~8 lines/day/node was close for one node and low by nearly 3× for the other. The per-node rate is not uniform, and nothing in the earlier section predicted that it would vary this much between two instruments that are both permanently `no-spec`. Why they differ was not investigated and is a real open question for whoever builds this: if re-verification frequency is per-instrument rather than per-firing, a disposition that suppresses the bucket without suppressing re-verification helps the slow nodes and barely touches the fast ones.
+
+**The cost compounds rather than recurring flat, which is new.** `solutionsMissingInstruments` stood at 66 on 2026-08-30 and at 68 later that day. This firing it is **74**. Eight more entries in eight days, every one of them un-retireable by any agent surface, while every pass in that window correctly abstained from instrumenting. The earlier sections argue the re-read cost recurs; the measurement is that its base is growing about one entry a day.
+
+**Stated against this node's own interest.** This section lengthens the node it is written on, which is the cost it is measuring. It is here rather than anywhere else because this node is the one that raised the question and asked for the number.
+
+**Limits.** The 3,388 is an observed line count; the 780KB is arithmetic on it using a character-per-line figure taken from an earlier pass rather than re-measured, and line length varies with the spec path. The two per-node rates are the same two nodes the projection used, not a sample of the 36. No claim is made that any log has yet caused a failure — the cost is accumulation, and the accumulation is the finding. Nothing was executed, no result recorded, no instrument set, no lane labelled, no status changed, and no node created.
+
+_Method: `Grep` over this vault's own node files for observation-log lines, plus this firing's own `ost_next_work` response. Observed structure of this vault, read first-party; it grounds cost and feasibility, and is silent on desirability. Rung unchanged at the `assertion` floor._
