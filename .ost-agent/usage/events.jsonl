@@ -9741,3 +9741,4 @@
 {"ts":"2026-09-08T06:06:45.321Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-e86d3441-32e7-4fa3-9b25-9c46b646cdd2"}
 {"ts":"2026-09-08T06:07:05.028Z","tool":"ost_next_work","ok":true,"ms":170,"surface":"mcp","argBytes":62,"session":"mcp-e86d3441-32e7-4fa3-9b25-9c46b646cdd2"}
 {"ts":"2026-09-08T06:07:45.258Z","tool":"ost_append_to_node","ok":true,"ms":54,"surface":"mcp","argBytes":3537,"session":"mcp-e86d3441-32e7-4fa3-9b25-9c46b646cdd2","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
+{"ts":"2026-09-08T06:08:05.776Z","tool":"ost_append_to_node","ok":true,"ms":74,"surface":"mcp","argBytes":3554,"session":"mcp-e86d3441-32e7-4fa3-9b25-9c46b646cdd2","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
