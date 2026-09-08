@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[Ask the operator whether an unattended firing may hold a filesystem read grant on the product repo]]
 
 **Risk category: viability** — specifically the operator's willingness to accept a permission posture, not whether the grant is technically possible.
 
