@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The index adapter answers a symbol query with zero child processes spawned]]
 
 **Risk category: feasibility** — a question about what can be run inside this product's stated constraints, not about what anybody wants.
 
