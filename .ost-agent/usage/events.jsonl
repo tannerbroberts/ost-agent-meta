@@ -9791,3 +9791,5 @@
 {"ts":"2026-09-08T08:25:52.319Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":29,"session":"mcp-31eda321-3b3f-4ea3-b7dc-50414d19d860"}
 {"ts":"2026-09-08T08:27:34.142Z","tool":"ost_append_to_node","ok":true,"ms":30,"surface":"mcp","argBytes":3986,"session":"mcp-31eda321-3b3f-4ea3-b7dc-50414d19d860","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
 {"ts":"2026-09-08T08:27:36.513Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-31eda321-3b3f-4ea3-b7dc-50414d19d860"}
+{"ts":"2026-09-08T08:27:46.919Z","tool":"ost_next_work","ok":true,"ms":387,"surface":"mcp","argBytes":2,"session":"mcp-31eda321-3b3f-4ea3-b7dc-50414d19d860"}
+{"ts":"2026-09-08T09:29:55.344Z","tool":"ost_ingest_inbox","ok":true,"ms":105,"surface":"mcp","argBytes":2,"session":"mcp-fd038c48-dda7-4d88-8708-d811ed9272ba"}
