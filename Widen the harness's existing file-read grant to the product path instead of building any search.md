@@ -27,3 +27,13 @@ The agent already has a search tool. `Grep` and `Glob` are on the firing's surfa
 Ideated by an unattended pass on 2026-09-08 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. A human to review.
+
+## Definition of done — and it is not a command
+
+"Ask the operator whether an unattended firing may hold a filesystem read grant on the product repo"
+
+No command, and deliberately so: this candidate builds nothing, so there is no behaviour for an exit code to predict. The bar is **at least 3 of 3 answered yes** — grant it, leave it open while unattended, and still open thirty days later. A revocation inside the month is a refuted verdict rather than a partial success, because a grant that closes returns the tree to exactly the state it has been in since 2026-08-06.
+
+Run this one before either sibling is built. It is the cheapest test on the branch and it disposes of two larger candidates in whichever direction it lands.
+
+The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
