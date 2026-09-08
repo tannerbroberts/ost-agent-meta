@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A confined search returns nothing from outside the configured repos, the sidecar, or a redacted line]]
 
 **Risk category: feasibility** — a question about this repository's own code, answerable by a spec rather than by asking anybody.
 
