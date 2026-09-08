@@ -9907,3 +9907,25 @@
 {"ts":"2026-09-08T14:08:12.912Z","tool":"ost_ingest_inbox","ok":true,"ms":32,"surface":"mcp","argBytes":2,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c"}
 {"ts":"2026-09-08T14:08:21.720Z","tool":"ost_next_work","ok":true,"ms":390,"surface":"mcp","argBytes":2,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c"}
 {"ts":"2026-09-08T15:11:14.065Z","tool":"ost_ingest_inbox","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:11:16.091Z","tool":"ost_next_work","ok":true,"ms":333,"surface":"mcp","argBytes":2,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:11:46.328Z","tool":"ost_read_tree","ok":true,"ms":100,"surface":"mcp","argBytes":108,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:11:58.997Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:11:59.278Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":98,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:12:05.272Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":107,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:12:05.464Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:12:42.747Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:12:42.878Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:12:42.972Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":22,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:12:47.581Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":86,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:12:48.190Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":100,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:12:48.535Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":93,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:13:06.376Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:13:06.462Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":27,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:13:24.670Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":127,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:13:24.847Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":104,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:13:36.632Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":103,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:13:36.841Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":105,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:13:52.086Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":64,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:13:52.263Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":79,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:14:33.567Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":93,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
+{"ts":"2026-09-08T15:19:23.843Z","tool":"ost_edit_node","ok":true,"ms":37,"surface":"mcp","argBytes":41962,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
