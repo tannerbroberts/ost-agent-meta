@@ -87,3 +87,17 @@ Four lines, per this node's convention, and it adds a data point to the standing
 **Limits.** One record is one record; a single clean arrival is consistent with the generator and also with an unusually quiet firing, and nothing here re-measures the 14.2% corpus figure. The claim that both events are prescribed rests on the two call signatures being argument-less, which is the same condition the standing finding names as what makes them safely suppressible — it is not an independent check of it. Nothing was executed, no rung moved, no instrument set, no status changed, and this node's humans-required Definition of done stands unchanged.
 
 _Method: `ost_ingest_inbox` followed by `ost_next_work({evidence})` on this firing's single new capture. Observed behaviour of this product's own agent; it grounds usability, not desirability._
+
+## 2026-09-08 — sixth consecutive forward check, and this arrival is the already-mapped kind rather than a pure instance
+
+Four lines, per this node's convention. A data point for the standing census, not a new argument.
+
+**This firing's own arrival, scored before anything else was done.** One new record captured, `TRANSCRIPT:1425fc57-e506-4947-a093-4791c5c4d902`, read in full: **4 friction events — `tool_error` ×2, `retry` ×2.** The two retries are the prescribed no-argument pair (`ost_ingest_inbox` `{}`, `ost_next_work` `{}`), which is the generator this node documents. The two errors are `Grep` refused on `/Users/tanner/ost-agent-meta/src` ("Path does not exist" — right tool, wrong repo, the session reaching for the product's source inside the vault's own working directory) and `Glob` refused on `/Users/tanner` for want of a read grant.
+
+**So this arrival is not a pure instance, and that is what it adds.** The eighth entry in the pure list would have been a record carrying only prescribed retries; this one carries two genuine errors alongside them, and both belong to the class the census calls already-mapped: the Grep-wrong-repo-then-grant-denial pair is the identical signature `TRANSCRIPT:10fdeabc` carries as the sixth instance on "The agent has to guess what resources it's actually working with", where it is censused across eight records spanning 2026-08-06 to 2026-09-07. Every signature in this record traced to a node that already holds it. **New needs distilled: zero.**
+
+**That is now six consecutive firings scoring their own arrivals at zero** — 3 arrivals / 12 events (2026-08-31), 2 / 9 (2026-09-03), 1 / 2 (2026-09-07), and 1 / 4 today. Two of the six are pure instances and four are the already-mapped kind, which is the mix the standing census predicts: the queue grows from records whose signature is mapped and never retired, not from unmet needs waiting to be distilled.
+
+**Limits.** One record is one record, and a single arrival is not a rate; nothing here re-measures the 14.2% corpus figure or the 85% already-mapped figure. The tracing was done by matching signatures against node bodies this pass read, so a mapped signature could have been missed — an error running towards understating how much is already held. Nothing was executed, no rung moved, no instrument set, no status changed, no node created, and this node's humans-required Definition of done stands unchanged.
+
+_Method: `ost_ingest_inbox` followed by `ost_next_work({evidence})` on this firing's single new capture, plus two corpus bodies (`0a69f0ff`, `030e5db3`) read the same way. Observed behaviour of this product's own agent; it grounds usability, not desirability._
