@@ -27,3 +27,19 @@ Symbol indexing is a solved problem with several mature answers — a tags file,
 Ideated by an unattended pass on 2026-09-08 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. A human to review.
+
+## Definition of done
+
+"The index adapter answers a symbol query with zero child processes spawned"
+
+```
+npx vitest run test/product/repo-index-adapter.test.ts
+```
+
+The bar: **zero child processes spawned across the adapter's whole query path**, on a fixture repo holding at least one symbol definition and one reference to it, with `spawn` and `execFile` stubbed to throw. One spawn is the whole finding — this repository's CONTRIBUTING.md forbids a tool that shells out, so a subprocess means the adoption was a build wearing an adapter's name.
+
+**Honest note on this command.** The spec does not exist yet — the surface that wrote this node reads the repository but cannot write to it — so it is red today for a missing file, not a failing assertion. Write the spec first; the bound threshold above is what carries the permit until then.
+
+**A refuted verdict here is a working outcome, not a stuck test.** If no library-form index can be found, the spec is unpassable and this candidate retires, which is exactly what a cheap test is for.
+
+A green settles that adoption is possible without a subprocess, and nothing about whether the index is good, stays fresh, or is a dependency worth carrying.
