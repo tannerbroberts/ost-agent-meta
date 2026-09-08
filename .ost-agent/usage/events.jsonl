@@ -9650,3 +9650,4 @@
 {"ts":"2026-09-08T00:33:34.629Z","tool":"ost_next_work","ok":true,"ms":165,"surface":"mcp","argBytes":31,"session":"mcp-5aa38f80-c8e0-46ce-a063-5b97cfa54369"}
 {"ts":"2026-09-08T00:33:40.766Z","tool":"ost_next_work","ok":true,"ms":105,"surface":"mcp","argBytes":62,"session":"mcp-5aa38f80-c8e0-46ce-a063-5b97cfa54369"}
 {"ts":"2026-09-08T00:34:23.789Z","tool":"ost_annotate","ok":true,"ms":32,"surface":"mcp","argBytes":3356,"session":"mcp-5aa38f80-c8e0-46ce-a063-5b97cfa54369","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
+{"ts":"2026-09-08T00:34:27.407Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-5aa38f80-c8e0-46ce-a063-5b97cfa54369"}
