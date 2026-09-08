@@ -9660,3 +9660,4 @@
 {"ts":"2026-09-08T01:37:50.987Z","tool":"ost_read_tree","ok":true,"ms":109,"surface":"mcp","argBytes":108,"session":"mcp-cb04d67d-2e33-4a2e-86f2-b1ef54363222"}
 {"ts":"2026-09-08T01:39:05.183Z","tool":"ost_next_work","ok":true,"ms":162,"surface":"mcp","argBytes":62,"session":"mcp-cb04d67d-2e33-4a2e-86f2-b1ef54363222"}
 {"ts":"2026-09-08T01:40:40.177Z","tool":"ost_append_to_node","ok":true,"ms":33,"surface":"mcp","argBytes":2818,"session":"mcp-cb04d67d-2e33-4a2e-86f2-b1ef54363222","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
+{"ts":"2026-09-08T01:40:42.356Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-cb04d67d-2e33-4a2e-86f2-b1ef54363222"}
