@@ -9973,3 +9973,4 @@
 {"ts":"2026-09-08T17:33:34.097Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-163773a3-e5b6-4917-b4e3-f4bc1d5f4f1f"}
 {"ts":"2026-09-08T17:34:30.839Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":88,"session":"mcp-163773a3-e5b6-4917-b4e3-f4bc1d5f4f1f"}
 {"ts":"2026-09-08T17:35:20.469Z","tool":"ost_append_to_node","ok":true,"ms":33,"surface":"mcp","argBytes":4404,"session":"mcp-163773a3-e5b6-4917-b4e3-f4bc1d5f4f1f","touched":["My instruments are red because a file is absent, not because the behaviour is.md"]}
+{"ts":"2026-09-08T17:35:23.083Z","tool":"ost_ingest_inbox","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-163773a3-e5b6-4917-b4e3-f4bc1d5f4f1f"}
