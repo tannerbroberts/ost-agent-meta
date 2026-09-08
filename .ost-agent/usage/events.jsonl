@@ -9904,3 +9904,4 @@
 {"ts":"2026-09-08T14:07:21.943Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c"}
 {"ts":"2026-09-08T14:07:22.078Z","tool":"ost_read_tree","ok":true,"ms":111,"surface":"mcp","argBytes":83,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c"}
 {"ts":"2026-09-08T14:08:05.122Z","tool":"ost_append_to_node","ok":true,"ms":41,"surface":"mcp","argBytes":3657,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
+{"ts":"2026-09-08T14:08:12.912Z","tool":"ost_ingest_inbox","ok":true,"ms":32,"surface":"mcp","argBytes":2,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c"}
