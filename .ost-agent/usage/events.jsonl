@@ -9718,3 +9718,5 @@
 {"ts":"2026-09-08T05:00:57.410Z","tool":"ost_append_to_node","ok":true,"ms":35,"surface":"mcp","argBytes":4405,"session":"mcp-97113e2d-ad96-4c59-8cd6-7f5c6e5849dc","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
 {"ts":"2026-09-08T05:01:12.516Z","tool":"ost_annotate","ok":true,"ms":62,"surface":"mcp","argBytes":2471,"session":"mcp-97113e2d-ad96-4c59-8cd6-7f5c6e5849dc","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
 {"ts":"2026-09-08T05:01:19.979Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-97113e2d-ad96-4c59-8cd6-7f5c6e5849dc"}
+{"ts":"2026-09-08T05:01:29.283Z","tool":"ost_next_work","ok":true,"ms":336,"surface":"mcp","argBytes":2,"session":"mcp-97113e2d-ad96-4c59-8cd6-7f5c6e5849dc"}
+{"ts":"2026-09-08T06:03:35.628Z","tool":"ost_ingest_inbox","ok":true,"ms":129,"surface":"mcp","argBytes":2,"session":"mcp-e86d3441-32e7-4fa3-9b25-9c46b646cdd2"}
