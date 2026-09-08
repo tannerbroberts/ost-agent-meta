@@ -179,3 +179,4 @@ Two assertions, because this belief has two ways of being false and only one of 
 - 2026-09-08 **no-spec** (exit none) `npx vitest run test/ost/ask-clock-derived-fallback.test.ts` — test/ost/ask-clock-derived-fallback.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-09-08 **no-spec** (exit none) `npx vitest run test/ost/ask-clock-derived-fallback.test.ts` — test/ost/ask-clock-derived-fallback.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-09-08 **no-spec** (exit none) `npx vitest run test/ost/ask-clock-derived-fallback.test.ts` — test/ost/ask-clock-derived-fallback.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-09-08 **no-spec** (exit none) `npx vitest run test/ost/ask-clock-derived-fallback.test.ts` — test/ost/ask-clock-derived-fallback.test.ts does not exist — no spec was collected, so nothing was measured
