@@ -10,6 +10,7 @@ killBy: '2026-11-07'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[The operator will hold a filesystem read grant on the product path open for firings nobody is watching]]
 
 **Variation dimension: who-does-the-work. Position taken: the person, once, and nothing is built here at all.**
 
