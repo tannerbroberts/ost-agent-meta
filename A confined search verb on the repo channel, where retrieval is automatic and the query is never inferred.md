@@ -27,3 +27,17 @@ authorship: machine
 Ideated by an unattended pass on 2026-09-08 against the assigned dimension. **Not blind:** this surface holds no grant to run independent parallel ideators, so all three candidates under this opportunity were composed in one context by one author — the exact condition the blind-ideation rule exists to prevent. Read them as one author's three answers and discount their apparent distinctness accordingly.
 
 Unvalidated. A human to review.
+
+## Definition of done
+
+"A confined search returns nothing from outside the configured repos, the sidecar, or a redacted line"
+
+```
+npx vitest run test/product/repo-search.test.ts
+```
+
+The bar: **zero results from outside `product.repos` across all three escape cases, and zero unredacted secrets in returned lines.** The three cases are a match in a sibling directory outside the configured repo, a match inside the vault's own `.ost-agent/` sidecar, and a matching line containing a secret.
+
+**Honest note on this command, because it changes what a builder should do first.** The spec file does not exist yet — the unattended surface that wrote this node reads the repository but cannot write to it — so the command is presently red for a missing file rather than for a failing assertion, which is the weak kind of red and would read identically under any question. Write `test/product/repo-search.test.ts` to the three assertions above before treating the command as a definition of done. What carries the permit in the meantime is the bound threshold, not the filename.
+
+A green here settles confinement and nothing else: not whether the verb is wanted, not whether the scan fits the sweep's wall-clock budget.
