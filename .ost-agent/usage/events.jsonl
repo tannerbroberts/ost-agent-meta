@@ -9751,3 +9751,24 @@
 {"ts":"2026-09-08T06:10:39.533Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":4585,"session":"mcp-e86d3441-32e7-4fa3-9b25-9c46b646cdd2","touched":["My instruments are red because a file is absent, not because the behaviour is.md"]}
 {"ts":"2026-09-08T06:10:42.238Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-e86d3441-32e7-4fa3-9b25-9c46b646cdd2"}
 {"ts":"2026-09-08T07:12:48.845Z","tool":"ost_ingest_inbox","ok":true,"ms":160,"surface":"mcp","argBytes":2,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:12:50.757Z","tool":"ost_next_work","ok":true,"ms":284,"surface":"mcp","argBytes":2,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:13:33.808Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:13:36.682Z","tool":"ost_read_tree","ok":true,"ms":122,"surface":"mcp","argBytes":108,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:13:57.783Z","tool":"ost_read_tree","ok":true,"ms":107,"surface":"mcp","argBytes":100,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:13:57.980Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":22,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:16.941Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:17.049Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":24,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:17.455Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:17.620Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":27,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:23.873Z","tool":"ost_read_tree","ok":true,"ms":115,"surface":"mcp","argBytes":86,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:24.131Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":93,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:36.211Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:36.325Z","tool":"ost_next_work","ok":true,"ms":154,"surface":"mcp","argBytes":62,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:55.544Z","tool":"ost_read_tree","ok":true,"ms":115,"surface":"mcp","argBytes":104,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:14:55.759Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":127,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:15:07.717Z","tool":"ost_read_tree","ok":true,"ms":98,"surface":"mcp","argBytes":93,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:15:08.047Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:15:25.446Z","tool":"ost_read_tree","ok":true,"ms":105,"surface":"mcp","argBytes":83,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:16:48.716Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":31,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:17:08.004Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":128,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:17:44.626Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":4379,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a","touched":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md"]}
