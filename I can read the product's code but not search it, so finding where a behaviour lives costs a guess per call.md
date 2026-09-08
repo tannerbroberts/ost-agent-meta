@@ -6,6 +6,7 @@ evidence: observed
 authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
+[[Widen the harness's existing file-read grant to the product path instead of building any search]]
 
 **The need:** "I can open any file in the product's source and list any directory, but I cannot ask where something is. So every question of the form *which module does X* becomes a sequence of guessed paths, each costing a call, and a question one `grep -rn` would answer can be unanswerable no matter how many calls I spend."
 
