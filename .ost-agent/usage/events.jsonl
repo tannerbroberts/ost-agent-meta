@@ -9834,3 +9834,5 @@
 {"ts":"2026-09-08T10:40:20.890Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":23,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
 {"ts":"2026-09-08T10:40:22.434Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":37,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
 {"ts":"2026-09-08T10:41:02.798Z","tool":"ost_append_to_node","ok":true,"ms":38,"surface":"mcp","argBytes":3908,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
+{"ts":"2026-09-08T10:41:12.196Z","tool":"ost_next_work","ok":true,"ms":159,"surface":"mcp","argBytes":62,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:41:17.134Z","tool":"ost_ingest_inbox","ok":true,"ms":60,"surface":"mcp","argBytes":2,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
