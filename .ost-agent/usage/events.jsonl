@@ -9849,3 +9849,4 @@
 {"ts":"2026-09-08T11:45:40.303Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-20685c82-67a9-4e8d-b646-6a96de9533a3"}
 {"ts":"2026-09-08T11:46:50.027Z","tool":"ost_next_work","ok":true,"ms":1956,"surface":"mcp","argBytes":62,"session":"mcp-20685c82-67a9-4e8d-b646-6a96de9533a3"}
 {"ts":"2026-09-08T11:48:00.278Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-20685c82-67a9-4e8d-b646-6a96de9533a3"}
+{"ts":"2026-09-08T12:50:04.125Z","tool":"ost_ingest_inbox","ok":true,"ms":108,"surface":"mcp","argBytes":2,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
