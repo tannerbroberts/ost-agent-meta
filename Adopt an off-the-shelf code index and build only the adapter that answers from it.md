@@ -10,6 +10,7 @@ killBy: '2026-12-08'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A code index exists in library form that answers in-process, so adopting one needs no subprocess]]
 
 **Variation dimension: bought-vs-built. Position taken: the index and its query language are adopted from outside exactly as they are; the only thing built here is the adapter that hands a question to it and shapes the answer.**
 
