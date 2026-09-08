@@ -9773,3 +9773,5 @@
 {"ts":"2026-09-08T07:17:08.004Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":128,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
 {"ts":"2026-09-08T07:17:44.626Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":4379,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a","touched":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md"]}
 {"ts":"2026-09-08T07:17:47.925Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T07:17:58.640Z","tool":"ost_next_work","ok":true,"ms":217,"surface":"mcp","argBytes":2,"session":"mcp-68201256-ed66-4731-88d2-3a43879e261a"}
+{"ts":"2026-09-08T08:20:12.863Z","tool":"ost_ingest_inbox","ok":true,"ms":116,"surface":"mcp","argBytes":2,"session":"mcp-31eda321-3b3f-4ea3-b7dc-50414d19d860"}
