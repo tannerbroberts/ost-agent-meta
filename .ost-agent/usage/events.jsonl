@@ -9815,3 +9815,22 @@
 {"ts":"2026-09-08T09:34:37.524Z","tool":"ost_append_to_node","ok":true,"ms":41,"surface":"mcp","argBytes":3271,"session":"mcp-fd038c48-dda7-4d88-8708-d811ed9272ba","touched":["The bucket gains the lane filter the function two doors down already has.md"]}
 {"ts":"2026-09-08T09:34:39.954Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-fd038c48-dda7-4d88-8708-d811ed9272ba"}
 {"ts":"2026-09-08T10:36:51.460Z","tool":"ost_ingest_inbox","ok":true,"ms":110,"surface":"mcp","argBytes":2,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:36:53.175Z","tool":"ost_next_work","ok":true,"ms":260,"surface":"mcp","argBytes":2,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:37:15.344Z","tool":"ost_next_work","ok":true,"ms":163,"surface":"mcp","argBytes":62,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:37:15.631Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":108,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:37:53.044Z","tool":"ost_read_repo","ok":true,"ms":4,"surface":"mcp","argBytes":15,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:38:30.895Z","tool":"ost_read_tree","ok":true,"ms":119,"surface":"mcp","argBytes":100,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:38:31.109Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":86,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:38:38.750Z","tool":"ost_read_tree","ok":true,"ms":132,"surface":"mcp","argBytes":112,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:38:39.019Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":92,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:38:55.479Z","tool":"ost_read_tree","ok":true,"ms":625,"surface":"mcp","argBytes":100,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:38:56.287Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":93,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:39:31.812Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:39:31.904Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":93,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:40:07.799Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:40:11.629Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:40:11.740Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":24,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:40:20.798Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":50,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:40:20.890Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":23,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:40:22.434Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":37,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec"}
+{"ts":"2026-09-08T10:41:02.798Z","tool":"ost_append_to_node","ok":true,"ms":38,"surface":"mcp","argBytes":3908,"session":"mcp-d0276827-39f2-47b2-9098-9a227c5059ec","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
