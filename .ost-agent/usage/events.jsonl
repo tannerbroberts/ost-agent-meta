@@ -9879,3 +9879,7 @@
 {"ts":"2026-09-08T12:57:57.099Z","tool":"ost_append_to_node","ok":true,"ms":22,"surface":"mcp","argBytes":1360,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd","touched":["A confined search verb on the repo channel, where retrieval is automatic and the query is never inferred.md"]}
 {"ts":"2026-09-08T12:58:04.258Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":1327,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd","touched":["Adopt an off-the-shelf code index and build only the adapter that answers from it.md"]}
 {"ts":"2026-09-08T12:58:07.640Z","tool":"ost_ingest_inbox","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:58:09.378Z","tool":"ost_next_work","ok":true,"ms":284,"surface":"mcp","argBytes":2,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:59:09.520Z","tool":"ost_read_tree","ok":true,"ms":93,"surface":"mcp","argBytes":98,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:59:34.158Z","tool":"ost_read_tree","ok":true,"ms":223,"surface":"mcp","argBytes":93,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T13:00:05.773Z","tool":"ost_annotate","ok":true,"ms":38,"surface":"mcp","argBytes":4218,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
