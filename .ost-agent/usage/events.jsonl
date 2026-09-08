@@ -9850,3 +9850,19 @@
 {"ts":"2026-09-08T11:46:50.027Z","tool":"ost_next_work","ok":true,"ms":1956,"surface":"mcp","argBytes":62,"session":"mcp-20685c82-67a9-4e8d-b646-6a96de9533a3"}
 {"ts":"2026-09-08T11:48:00.278Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-20685c82-67a9-4e8d-b646-6a96de9533a3"}
 {"ts":"2026-09-08T12:50:04.125Z","tool":"ost_ingest_inbox","ok":true,"ms":108,"surface":"mcp","argBytes":2,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:50:06.073Z","tool":"ost_next_work","ok":true,"ms":248,"surface":"mcp","argBytes":2,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:50:40.216Z","tool":"ost_read_tree","ok":true,"ms":129,"surface":"mcp","argBytes":108,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:50:48.382Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:50:50.061Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:50:50.199Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":14,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:51:26.088Z","tool":"ost_read_tree","ok":true,"ms":91,"surface":"mcp","argBytes":86,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:51:26.274Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":103,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:51:35.297Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":93,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:51:35.461Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":100,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:52:01.777Z","tool":"ost_next_work","ok":true,"ms":150,"surface":"mcp","argBytes":62,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:52:02.018Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":127,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:52:19.151Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":75,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:53:06.195Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":23,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:53:06.293Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":29,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:53:28.231Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd"}
+{"ts":"2026-09-08T12:54:24.510Z","tool":"ost_create_node","ok":true,"ms":171,"surface":"mcp","argBytes":5177,"session":"mcp-6fdfa5f3-d249-4c39-ae2e-83dbbeea3fcd","wrote":["I can read the product's code but not search it, so finding where a behaviour lives costs a guess per call.md"],"touched":["I can read the product's code but not search it, so finding where a behaviour lives costs a guess per call.md","The agent has to guess what resources it's actually working with.md"]}

@@ -20,6 +20,7 @@ authorship: machine
 [[A string I meant literally is read as syntax, so the command fails instead of searching]]
 [[My instruments are red because a file is absent, not because the behaviour is]]
 [[I write a valid pattern and the tool rejects it, because it speaks a narrower regex than the one I know]]
+[[I can read the product's code but not search it, so finding where a behaviour lives costs a guess per call]]
 
 **The need (customer's voice):** "The OST-Agent shouldn't have to guess what its resources are." (Founder, verbatim, 2026-07-25.) The founder's own examples, kept in their words because each names a different resource class:
 - "If a project is in the middle of a seed round, and has a million dollars it needs to spend intelligently, THAT'S WORTH KNOWING!!!" — capital, and its deployment deadline.
