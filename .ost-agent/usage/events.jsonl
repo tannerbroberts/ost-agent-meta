@@ -9905,3 +9905,5 @@
 {"ts":"2026-09-08T14:07:22.078Z","tool":"ost_read_tree","ok":true,"ms":111,"surface":"mcp","argBytes":83,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c"}
 {"ts":"2026-09-08T14:08:05.122Z","tool":"ost_append_to_node","ok":true,"ms":41,"surface":"mcp","argBytes":3657,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
 {"ts":"2026-09-08T14:08:12.912Z","tool":"ost_ingest_inbox","ok":true,"ms":32,"surface":"mcp","argBytes":2,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c"}
+{"ts":"2026-09-08T14:08:21.720Z","tool":"ost_next_work","ok":true,"ms":390,"surface":"mcp","argBytes":2,"session":"mcp-074383e0-d8c5-4756-9856-0d595e336f3c"}
+{"ts":"2026-09-08T15:11:14.065Z","tool":"ost_ingest_inbox","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-839829b7-315c-499f-b007-b6b079bf6ed2"}
