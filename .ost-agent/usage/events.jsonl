@@ -9952,3 +9952,4 @@
 {"ts":"2026-09-08T16:26:05.155Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":42,"session":"mcp-35eec8e6-6daa-4254-8a55-8b063c3c9dc9"}
 {"ts":"2026-09-08T16:26:21.208Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":93,"session":"mcp-35eec8e6-6daa-4254-8a55-8b063c3c9dc9"}
 {"ts":"2026-09-08T16:27:14.328Z","tool":"ost_append_to_node","ok":true,"ms":51,"surface":"mcp","argBytes":3620,"session":"mcp-35eec8e6-6daa-4254-8a55-8b063c3c9dc9","touched":["The evidence queue counts records, not distinct problems, so I cannot tell whether 464 items is 464 needs or five repeating.md"]}
+{"ts":"2026-09-08T16:27:24.616Z","tool":"ost_ingest_inbox","ok":true,"ms":24,"surface":"mcp","argBytes":2,"session":"mcp-35eec8e6-6daa-4254-8a55-8b063c3c9dc9"}
