@@ -10040,3 +10040,4 @@
 {"ts":"2026-09-08T21:01:43.372Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-813e0137-afe1-4307-8449-126b36b7c206"}
 {"ts":"2026-09-08T21:01:45.731Z","tool":"ost_read_repo","ok":true,"ms":7,"surface":"mcp","argBytes":39,"session":"mcp-813e0137-afe1-4307-8449-126b36b7c206"}
 {"ts":"2026-09-08T21:02:32.772Z","tool":"ost_ingest_inbox","ok":true,"ms":43,"surface":"mcp","argBytes":2,"session":"mcp-813e0137-afe1-4307-8449-126b36b7c206"}
+{"ts":"2026-09-08T22:05:01.986Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-899ed54f-6517-4d54-83d5-a009ca756360"}
