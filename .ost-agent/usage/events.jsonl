@@ -9663,3 +9663,19 @@
 {"ts":"2026-09-08T01:40:42.356Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-cb04d67d-2e33-4a2e-86f2-b1ef54363222"}
 {"ts":"2026-09-08T01:40:51.855Z","tool":"ost_next_work","ok":true,"ms":285,"surface":"mcp","argBytes":2,"session":"mcp-cb04d67d-2e33-4a2e-86f2-b1ef54363222"}
 {"ts":"2026-09-08T02:43:09.192Z","tool":"ost_ingest_inbox","ok":true,"ms":197,"surface":"mcp","argBytes":2,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:43:10.911Z","tool":"ost_next_work","ok":true,"ms":278,"surface":"mcp","argBytes":2,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:43:36.630Z","tool":"ost_read_tree","ok":true,"ms":94,"surface":"mcp","argBytes":108,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:43:49.897Z","tool":"ost_next_work","ok":true,"ms":237,"surface":"mcp","argBytes":62,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:44:06.846Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:44:33.188Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":64,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:44:33.358Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":100,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:44:43.121Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":86,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:44:43.280Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":104,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:45:01.464Z","tool":"ost_read_tree","ok":true,"ms":131,"surface":"mcp","argBytes":103,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:45:01.698Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":95,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:45:17.899Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":30,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:45:18.003Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":127,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:45:39.153Z","tool":"ost_next_work","ok":true,"ms":157,"surface":"mcp","argBytes":62,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:45:39.448Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:46:01.279Z","tool":"ost_read_tree","ok":true,"ms":100,"surface":"mcp","argBytes":84,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7"}
+{"ts":"2026-09-08T02:46:30.608Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":2956,"session":"mcp-09074428-25ac-4fe0-92b9-1d4dcaf339f7","touched":["A scheduled run finds out its tools are missing only after it has started.md"]}
