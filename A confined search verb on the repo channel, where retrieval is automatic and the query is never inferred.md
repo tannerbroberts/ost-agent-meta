@@ -10,6 +10,7 @@ killBy: '2026-12-08'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A search verb can be confined to the configured repos as tightly as the existing read is]]
 
 **Variation dimension: automated-vs-manual. Position taken: the retrieval is automated; the query stays entirely the caller's and is never inferred, expanded, or guessed at.**
 
