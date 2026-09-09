@@ -10093,3 +10093,10 @@
 {"ts":"2026-09-09T00:24:21.844Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":127,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c"}
 {"ts":"2026-09-09T00:24:50.167Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":66,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c"}
 {"ts":"2026-09-09T00:25:20.183Z","tool":"ost_append_to_node","ok":true,"ms":53,"surface":"mcp","argBytes":3136,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c","touched":["A third of my calls go on re-asking what is outstanding.md"]}
+{"ts":"2026-09-09T00:25:29.878Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":97,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c"}
+{"ts":"2026-09-09T00:25:46.698Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":30,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c"}
+{"ts":"2026-09-09T00:25:48.185Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":49,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c"}
+{"ts":"2026-09-09T00:26:00.728Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":52,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c"}
+{"ts":"2026-09-09T00:26:02.677Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c"}
+{"ts":"2026-09-09T00:26:15.298Z","tool":"ost_read_tree","ok":true,"ms":117,"surface":"mcp","argBytes":99,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c"}
+{"ts":"2026-09-09T00:26:56.287Z","tool":"ost_append_to_node","ok":true,"ms":35,"surface":"mcp","argBytes":5138,"session":"mcp-29d48d1b-19e2-4757-a280-df85043bc50c","touched":["A description that disagrees with the grammar its own validator enforces fails the suite.md"]}
