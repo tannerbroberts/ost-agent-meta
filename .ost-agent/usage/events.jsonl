@@ -10159,3 +10159,5 @@
 {"ts":"2026-09-09T03:44:19.863Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":93,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
 {"ts":"2026-09-09T03:45:26.559Z","tool":"ost_read_tree","ok":true,"ms":98,"surface":"mcp","argBytes":125,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
 {"ts":"2026-09-09T03:46:49.384Z","tool":"ost_append_to_node","ok":true,"ms":99,"surface":"mcp","argBytes":3437,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2","touched":["Asked at the moment the reasoning is still in their head, a collaborator will deposit it — and come back unasked.md"]}
+{"ts":"2026-09-09T03:46:53.981Z","tool":"ost_next_work","ok":true,"ms":163,"surface":"mcp","argBytes":62,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:47:00.199Z","tool":"ost_ingest_inbox","ok":true,"ms":24,"surface":"mcp","argBytes":2,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
