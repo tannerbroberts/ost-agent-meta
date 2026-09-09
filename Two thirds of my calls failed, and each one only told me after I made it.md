@@ -4,6 +4,7 @@ status: unvalidated
 source: 'USAGE:2026-07-26'
 created: '2026-08-02'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Publish the preconditions of every call so they can be checked before it is made]]
@@ -122,3 +123,20 @@ _Source: `TRANSCRIPT:0f28d01f-35fa-49f0-b085-89170e306ef8`, read in full this pa
 **The harness-issued half of this need, recounted.** The 2026-08-10 entry above counted the malformed-call class at "roughly ten sessions". Counted over the whole evidence store this pass: the `Read` "could not be parsed as JSON" refusal alone is now **24 occurrences across 19 sessions** (three of them in one session, `TRANSCRIPT:1329bda4-c23b-427a-aeab-9536c1d87cf9`, 2026-08-19), and `ScheduleWakeup` refusing "`prompt` is required when `stop` is not true" appears in 3 sessions. Still the same event this node names — a call composed under a constraint that was communicated only by the refusal — and still entirely outside what this product can publish preconditions for.
 
 _Machine-recorded trace plus a text count over `.ost-agent/evidence/`; no narrator. Grounds usability. Rung unchanged (USAGE: provenance is capped at assertion — see the Issues entry of 2026-08-02)._
+
+## Two instances where the mechanism is corruption, not ignorance (unattended sweep, 2026-09-09)
+
+The 2026-08-10 disposition above folded the `No such tool available` class into this node's need, on the reasoning that such a call "was composed under a constraint that existed the whole time and was communicated only by the refusal". Two records in the corpus do not fit that reading, and they are worth separating because they change which of this node's candidate solutions could possibly help.
+
+- `TRANSCRIPT:1d62c716-4c49-40ec-84fe-2c849012d3f2` (2026-08-11 14:50) — called `mcp__ost-antml:parameter-agent__ost_read_tree`
+- `TRANSCRIPT:eb79e44d-cc05-4ef4-b492-53d50d2c51a5` (2026-08-11 16:58) — called `mcp__ost-antml:parameter-agent__ost_next_work`
+
+The correct name in both cases is `mcp__ost-agent__…`. The emitted name has the caller's own invocation markup spliced into the middle of the identifier, at the same seam both times (`-agent` becoming `-antml:parameter-agent`) — two separate sessions, two different tools, one shared corruption point. The caller was not ignorant of the surface: both tools were on it, and both sessions go on to call `mcp__ost-agent__ost_next_work` and `mcp__ost-agent__ost_ingest_inbox` under their correct names in the retry events immediately following. The name was known and a mangled copy of it was emitted.
+
+**Why this matters for choosing among the solutions below.** Nothing that publishes what exists can address this, because the caller already had what such a mechanism would publish. "Publish the preconditions of every call so they can be checked before it is made" and "A cheap validating call the caller may make before committing to the real one" would both have been fully satisfied here and both would still have failed — the corrupted identifier is well-formed enough to submit and only the registry can reject it. "The refusal states the value that would have worked, not just the one that did not" is the only one of the three that reaches it: a refusal naming the near-match closes a corrupted identifier in one turn instead of leaving the caller to re-derive a name it already had. These two records are therefore the sharpest evidence this node holds for discriminating *between* its own candidates, which is worth more than a count of two suggests — most of the corroboration above supports the need without separating the options under it.
+
+**What it does not establish.** Two records, no denominator: the transcript channel captures friction rather than totals, so nothing here supports a rate, and both fall on a single day. Whether markup contamination reaches identifiers often enough to justify a mechanism is unanswered, and it is the question to ask before acting on this.
+
+**Left for a human, deliberately.** The 2026-08-10 ruling invited this re-reading in its own closing line — that if the class were read as a distinct need, the right shape would be an opportunity about composing calls without schemas in hand. This pass did not create it. These two records refine which sibling wins beneath this node rather than establishing a need this node does not already state, and re-opening a recorded disposition on an unattended pass's own authority is the re-architecture the standing rules reserve for a person.
+
+_Provenance: two friction records read in full from the transcript adapter; machine-captured, no narrator. Observed behaviour of this product's own agent — grounds usability, not demand. Corroboration only; the node's rung is unchanged. Unvalidated._
