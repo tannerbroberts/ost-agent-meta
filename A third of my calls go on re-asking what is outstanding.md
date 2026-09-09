@@ -3,6 +3,7 @@ type: Opportunity
 source: 'USAGE:2026-08-02'
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[The sweep returns a version, and re-asking an unchanged tree costs nothing]]
@@ -116,3 +117,29 @@ So the queue is not a backlog of unread evidence. It is a backlog of *already-re
 **For a human:** the repair named on 2026-08-17 — match citations in prose, or let a node record which evidence ids it has incorporated — is unchanged, and now has a size. A cheaper partial: age-out or a novelty diff would restore a readable queue without touching the detector.
 
 _Measured from this pass's own `ost_next_work` response. Observed behaviour of the tool, not an outside report; rung unchanged at the floor for the reason this node already records._
+
+## Corroboration — orienting is now 92% of the day, and a third channel has joined it (2026-09-08 unattended sweep)
+
+`USAGE:2026-09-08`, captured at this pass's own ingest — 451 calls across 21 sessions, 448 ok, 3 failed, p50 83ms:
+
+| Tool | Calls | Share |
+| --- | --- | --- |
+| ost_read_tree | 165 | 37% |
+| **ost_read_repo** | **139** | **31%** |
+| ost_next_work | 69 | 15% |
+| ost_ingest_inbox | 43 | 10% |
+| ost_append_to_node | 19 | 4% |
+| ost_create_node | 10 | 2% |
+| ost_annotate | 4 | <1% |
+| ost_set_instrument | 1 | <1% |
+| ost_edit_node | 1 | <1% |
+
+**What is new is not the sweep re-ask rate.** `ost_next_work` is 15% today, at the bottom of the 13%–34% band this node's own corroborations already record, so on the metric in the title this is an unremarkable day. The new fact is what the rest of the budget went on: **`ost_read_repo` at 139 calls, 31% of the day.** The highest share any prior trace on this node records for it is 4% (`USAGE:2026-08-18`, 21 of 580). It is now the second-largest tool of the day and it is being called roughly five times per write performed.
+
+**The number that reframes the node.** Total writes — create, append, annotate, set-instrument, edit — are **30 of 451, 6.7%**. Orienting calls (read_tree + read_repo + next_work + ingest) are **416 of 451, 92%**. The 2026-08-18 section above observed the re-asking cost "partly migrating" from the sweep to per-node body reads; this trace shows it migrating a second time, into the repository. The title's "a third" is now an understatement of the general problem by a wide margin, and no single tool in the table is responsible for it.
+
+**Why the repo channel is a distinct cost, not more of the same.** Two of the day's three failed calls are `ost_read_repo` on paths that do not exist (`src/instruments`, `src/ost/verify.ts`), each answered with a directory listing of what is actually there. That is not stale context being refreshed — it is the caller not knowing the layout and finding out by guessing, which is the need already mapped as "The agent has to guess what resources it's actually working with". So the same 92% covers two different failures wearing one number: re-asking a question already answered, and asking a question that was never answerable from what the surface had shown.
+
+**What this does not claim.** The trace records what was called, not why, and this node already states that limit. A read-heavy day is what a census or verification pass looks like when it is doing its job well, and several sections on this very node were produced by exactly that kind of pass. The ratio is not waste by itself; what it establishes is that the write-to-orient ratio has moved by an order of magnitude since 2026-08-03 (76% creates) and that nothing on the tree currently prices repo reads.
+
+_Measured from this pass's own `ost_ingest_inbox` and the body served by `ost_next_work({evidence})`. Rung unchanged at the floor, for the reason this node already records under "On the rung this node carries"._
