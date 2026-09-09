@@ -10147,3 +10147,15 @@
 {"ts":"2026-09-09T02:40:06.916Z","tool":"ost_ingest_inbox","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-bd65fbc8-8f6a-43ee-a2fc-1c71b64c2cef"}
 {"ts":"2026-09-09T02:40:16.610Z","tool":"ost_next_work","ok":true,"ms":299,"surface":"mcp","argBytes":2,"session":"mcp-bd65fbc8-8f6a-43ee-a2fc-1c71b64c2cef"}
 {"ts":"2026-09-09T03:42:23.884Z","tool":"ost_ingest_inbox","ok":true,"ms":114,"surface":"mcp","argBytes":2,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:42:25.441Z","tool":"ost_next_work","ok":true,"ms":157,"surface":"mcp","argBytes":2,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:42:43.071Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":108,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:43:22.293Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:43:24.219Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:43:39.509Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":86,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:43:49.084Z","tool":"ost_read_tree","ok":true,"ms":110,"surface":"mcp","argBytes":100,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:43:56.832Z","tool":"ost_read_tree","ok":true,"ms":146,"surface":"mcp","argBytes":104,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:44:05.206Z","tool":"ost_read_tree","ok":true,"ms":101,"surface":"mcp","argBytes":103,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:44:08.674Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":105,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:44:19.863Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":93,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:45:26.559Z","tool":"ost_read_tree","ok":true,"ms":98,"surface":"mcp","argBytes":125,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
+{"ts":"2026-09-09T03:46:49.384Z","tool":"ost_append_to_node","ok":true,"ms":99,"surface":"mcp","argBytes":3437,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2","touched":["Asked at the moment the reasoning is still in their head, a collaborator will deposit it — and come back unasked.md"]}
