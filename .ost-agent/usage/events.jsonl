@@ -10288,3 +10288,5 @@
 {"ts":"2026-09-09T11:40:12.494Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":80,"session":"mcp-28103a9d-1a88-4dea-87a6-7cf39ac6e1f2"}
 {"ts":"2026-09-09T11:41:07.729Z","tool":"ost_append_to_node","ok":true,"ms":34,"surface":"mcp","argBytes":3674,"session":"mcp-28103a9d-1a88-4dea-87a6-7cf39ac6e1f2","touched":["Two thirds of my calls failed, and each one only told me after I made it.md"]}
 {"ts":"2026-09-09T11:41:26.979Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-28103a9d-1a88-4dea-87a6-7cf39ac6e1f2"}
+{"ts":"2026-09-09T11:41:38.538Z","tool":"ost_next_work","ok":true,"ms":262,"surface":"mcp","argBytes":2,"session":"mcp-28103a9d-1a88-4dea-87a6-7cf39ac6e1f2"}
+{"ts":"2026-09-09T12:44:02.879Z","tool":"ost_ingest_inbox","ok":true,"ms":118,"surface":"mcp","argBytes":2,"session":"mcp-14301e70-454b-4139-8af3-9542bd4296e6"}
