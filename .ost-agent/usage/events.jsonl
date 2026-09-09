@@ -10308,3 +10308,4 @@
 {"ts":"2026-09-09T12:47:07.678Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":52,"session":"mcp-14301e70-454b-4139-8af3-9542bd4296e6"}
 {"ts":"2026-09-09T12:47:34.805Z","tool":"ost_read_tree","ok":true,"ms":100,"surface":"mcp","argBytes":78,"session":"mcp-14301e70-454b-4139-8af3-9542bd4296e6"}
 {"ts":"2026-09-09T12:48:25.913Z","tool":"ost_append_to_node","ok":true,"ms":39,"surface":"mcp","argBytes":7228,"session":"mcp-14301e70-454b-4139-8af3-9542bd4296e6","touched":["A disposition record every bucket consults before it lists anything.md"]}
+{"ts":"2026-09-09T12:48:50.227Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":4077,"session":"mcp-14301e70-454b-4139-8af3-9542bd4296e6","touched":["The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it.md"]}
