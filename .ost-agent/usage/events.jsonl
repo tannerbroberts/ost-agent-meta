@@ -10390,3 +10390,16 @@
 {"ts":"2026-09-09T16:17:59.482Z","tool":"ost_ingest_inbox","ok":true,"ms":66,"surface":"mcp","argBytes":2,"session":"mcp-eaea996c-1e25-4002-807f-d6cc09b1dea8"}
 {"ts":"2026-09-09T16:18:15.710Z","tool":"ost_next_work","ok":true,"ms":1400,"surface":"mcp","argBytes":2,"session":"mcp-eaea996c-1e25-4002-807f-d6cc09b1dea8"}
 {"ts":"2026-09-09T17:22:42.296Z","tool":"ost_ingest_inbox","ok":true,"ms":189,"surface":"mcp","argBytes":2,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:22:48.971Z","tool":"ost_next_work","ok":true,"ms":536,"surface":"mcp","argBytes":2,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:23:24.192Z","tool":"ost_read_repo","ok":true,"ms":6,"surface":"mcp","argBytes":15,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:23:32.327Z","tool":"ost_next_work","ok":true,"ms":416,"surface":"mcp","argBytes":62,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:23:40.680Z","tool":"ost_next_work","ok":true,"ms":240,"surface":"mcp","argBytes":62,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:23:52.462Z","tool":"ost_read_tree","ok":true,"ms":293,"surface":"mcp","argBytes":108,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:24:30.660Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":22,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:24:33.026Z","tool":"ost_read_tree","ok":true,"ms":164,"surface":"mcp","argBytes":100,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:25:11.401Z","tool":"ost_read_repo","ok":true,"ms":7,"surface":"mcp","argBytes":18,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:25:31.430Z","tool":"ost_read_tree","ok":true,"ms":264,"surface":"mcp","argBytes":86,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:25:44.028Z","tool":"ost_read_tree","ok":true,"ms":270,"surface":"mcp","argBytes":103,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:25:58.535Z","tool":"ost_read_tree","ok":true,"ms":527,"surface":"mcp","argBytes":127,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:26:23.661Z","tool":"ost_read_tree","ok":true,"ms":248,"surface":"mcp","argBytes":93,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0"}
+{"ts":"2026-09-09T17:27:20.394Z","tool":"ost_append_to_node","ok":true,"ms":87,"surface":"mcp","argBytes":4724,"session":"mcp-02ac5d91-8c8e-4e20-815c-a57c4fcc73d0","touched":["A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}
