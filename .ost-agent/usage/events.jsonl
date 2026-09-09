@@ -10125,3 +10125,4 @@
 {"ts":"2026-09-09T01:32:28.358Z","tool":"ost_read_tree","ok":true,"ms":124,"surface":"mcp","argBytes":93,"session":"mcp-0521234c-63f3-401e-befe-3bf5bc6b47c6"}
 {"ts":"2026-09-09T01:33:11.032Z","tool":"ost_next_work","ok":true,"ms":176,"surface":"mcp","argBytes":62,"session":"mcp-0521234c-63f3-401e-befe-3bf5bc6b47c6"}
 {"ts":"2026-09-09T01:33:29.352Z","tool":"ost_ingest_inbox","ok":true,"ms":22,"surface":"mcp","argBytes":2,"session":"mcp-0521234c-63f3-401e-befe-3bf5bc6b47c6"}
+{"ts":"2026-09-09T02:35:52.228Z","tool":"ost_ingest_inbox","ok":true,"ms":123,"surface":"mcp","argBytes":2,"session":"mcp-bd65fbc8-8f6a-43ee-a2fc-1c71b64c2cef"}
