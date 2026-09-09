@@ -10450,3 +10450,4 @@
 {"ts":"2026-09-09T20:47:47.480Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":127,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
 {"ts":"2026-09-09T20:48:34.795Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
 {"ts":"2026-09-09T20:51:12.553Z","tool":"ost_ingest_inbox","ok":true,"ms":21,"surface":"mcp","argBytes":2,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T21:53:18.539Z","tool":"ost_ingest_inbox","ok":true,"ms":128,"surface":"mcp","argBytes":2,"session":"mcp-bbe3c202-c2d5-46fe-8ab7-cfb370c3d0ed"}
