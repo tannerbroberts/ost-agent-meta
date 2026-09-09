@@ -10441,3 +10441,12 @@
 {"ts":"2026-09-09T19:43:32.424Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":5568,"session":"mcp-bf569a79-c8c7-4624-98d2-2e77b2a349dc","touched":["A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}
 {"ts":"2026-09-09T19:44:04.384Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-bf569a79-c8c7-4624-98d2-2e77b2a349dc"}
 {"ts":"2026-09-09T20:46:11.178Z","tool":"ost_ingest_inbox","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:46:12.781Z","tool":"ost_next_work","ok":true,"ms":247,"surface":"mcp","argBytes":2,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:46:57.408Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:47:03.109Z","tool":"ost_next_work","ok":true,"ms":168,"surface":"mcp","argBytes":62,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:47:13.713Z","tool":"ost_next_work","ok":true,"ms":113,"surface":"mcp","argBytes":62,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:47:23.597Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":75,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:47:35.723Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":108,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:47:47.480Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":127,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:48:34.795Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
+{"ts":"2026-09-09T20:51:12.553Z","tool":"ost_ingest_inbox","ok":true,"ms":21,"surface":"mcp","argBytes":2,"session":"mcp-be1e377e-613d-4f22-9a04-9759adf0b46f"}
