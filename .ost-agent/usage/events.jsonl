@@ -10145,3 +10145,5 @@
 {"ts":"2026-09-09T02:39:40.536Z","tool":"ost_append_to_node","ok":true,"ms":30,"surface":"mcp","argBytes":5862,"session":"mcp-bd65fbc8-8f6a-43ee-a2fc-1c71b64c2cef","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
 {"ts":"2026-09-09T02:39:55.685Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":2241,"session":"mcp-bd65fbc8-8f6a-43ee-a2fc-1c71b64c2cef","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
 {"ts":"2026-09-09T02:40:06.916Z","tool":"ost_ingest_inbox","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-bd65fbc8-8f6a-43ee-a2fc-1c71b64c2cef"}
+{"ts":"2026-09-09T02:40:16.610Z","tool":"ost_next_work","ok":true,"ms":299,"surface":"mcp","argBytes":2,"session":"mcp-bd65fbc8-8f6a-43ee-a2fc-1c71b64c2cef"}
+{"ts":"2026-09-09T03:42:23.884Z","tool":"ost_ingest_inbox","ok":true,"ms":114,"surface":"mcp","argBytes":2,"session":"mcp-1f02295c-691d-45bd-a714-2e003f55e8d2"}
