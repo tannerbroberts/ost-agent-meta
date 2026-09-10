@@ -10492,3 +10492,4 @@
 {"ts":"2026-09-10T01:19:34.221Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
 {"ts":"2026-09-10T01:20:59.356Z","tool":"ost_next_work","ok":true,"ms":118,"surface":"mcp","argBytes":62,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
 {"ts":"2026-09-10T01:22:31.442Z","tool":"ost_ingest_inbox","ok":true,"ms":27,"surface":"mcp","argBytes":2,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
+{"ts":"2026-09-10T02:25:02.744Z","tool":"ost_ingest_inbox","ok":true,"ms":190,"surface":"mcp","argBytes":2,"session":"mcp-819174a7-63f4-44a2-a6ae-07bc6a46785c"}
