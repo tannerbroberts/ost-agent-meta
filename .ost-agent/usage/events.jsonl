@@ -10510,3 +10510,4 @@
 {"ts":"2026-09-10T02:27:55.164Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-819174a7-63f4-44a2-a6ae-07bc6a46785c"}
 {"ts":"2026-09-10T02:27:56.912Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":83,"session":"mcp-819174a7-63f4-44a2-a6ae-07bc6a46785c"}
 {"ts":"2026-09-10T02:29:34.540Z","tool":"ost_ingest_inbox","ok":true,"ms":147,"surface":"mcp","argBytes":2,"session":"mcp-819174a7-63f4-44a2-a6ae-07bc6a46785c"}
+{"ts":"2026-09-10T03:31:56.257Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-49ce2b8f-959f-4b90-a3ca-2992a8a39aad"}
