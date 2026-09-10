@@ -10779,3 +10779,4 @@
 {"ts":"2026-09-10T14:29:58.603Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":93,"session":"mcp-fa04774f-092f-46a8-b0f4-fa5f7830a2ab"}
 {"ts":"2026-09-10T14:29:58.962Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":64,"session":"mcp-fa04774f-092f-46a8-b0f4-fa5f7830a2ab"}
 {"ts":"2026-09-10T14:30:08.215Z","tool":"ost_ingest_inbox","ok":true,"ms":24,"surface":"mcp","argBytes":2,"session":"mcp-fa04774f-092f-46a8-b0f4-fa5f7830a2ab"}
+{"ts":"2026-09-10T15:33:33.112Z","tool":"ost_ingest_inbox","ok":true,"ms":386,"surface":"mcp","argBytes":2,"session":"mcp-9ce0ea99-8c18-4209-baac-32d9a4330925"}
