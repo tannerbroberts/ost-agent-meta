@@ -10480,3 +10480,8 @@
 {"ts":"2026-09-09T23:06:43.317Z","tool":"ost_append_to_node","ok":true,"ms":37,"surface":"mcp","argBytes":3923,"session":"mcp-deb9275a-d6d1-4749-bb0b-9c5bed6d908f","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
 {"ts":"2026-09-09T23:06:48.528Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-deb9275a-d6d1-4749-bb0b-9c5bed6d908f"}
 {"ts":"2026-09-10T00:08:48.946Z","tool":"ost_ingest_inbox","ok":true,"ms":117,"surface":"mcp","argBytes":2,"session":"mcp-0b0f69a2-0463-4ada-b340-ad1909eea21a"}
+{"ts":"2026-09-10T00:08:50.492Z","tool":"ost_next_work","ok":true,"ms":244,"surface":"mcp","argBytes":2,"session":"mcp-0b0f69a2-0463-4ada-b340-ad1909eea21a"}
+{"ts":"2026-09-10T00:09:07.343Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":108,"session":"mcp-0b0f69a2-0463-4ada-b340-ad1909eea21a"}
+{"ts":"2026-09-10T00:10:10.703Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-0b0f69a2-0463-4ada-b340-ad1909eea21a"}
+{"ts":"2026-09-10T00:14:22.785Z","tool":"ost_next_work","ok":true,"ms":179,"surface":"mcp","argBytes":31,"session":"mcp-0b0f69a2-0463-4ada-b340-ad1909eea21a"}
+{"ts":"2026-09-10T00:16:12.159Z","tool":"ost_append_to_node","ok":true,"ms":36,"surface":"mcp","argBytes":2932,"session":"mcp-0b0f69a2-0463-4ada-b340-ad1909eea21a","touched":["Two thirds of my calls failed, and each one only told me after I made it.md"]}
