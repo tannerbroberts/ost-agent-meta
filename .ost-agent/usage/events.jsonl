@@ -10565,3 +10565,4 @@
 {"ts":"2026-09-10T05:54:38.942Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":93,"session":"mcp-90e5c11b-6cd9-4286-9855-a9eeb40d6675"}
 {"ts":"2026-09-10T05:55:15.025Z","tool":"ost_next_work","ok":true,"ms":110,"surface":"mcp","argBytes":62,"session":"mcp-90e5c11b-6cd9-4286-9855-a9eeb40d6675"}
 {"ts":"2026-09-10T05:56:07.448Z","tool":"ost_append_to_node","ok":true,"ms":36,"surface":"mcp","argBytes":5436,"session":"mcp-90e5c11b-6cd9-4286-9855-a9eeb40d6675","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
+{"ts":"2026-09-10T05:56:43.008Z","tool":"ost_append_to_node","ok":true,"ms":34,"surface":"mcp","argBytes":5138,"session":"mcp-90e5c11b-6cd9-4286-9855-a9eeb40d6675","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
