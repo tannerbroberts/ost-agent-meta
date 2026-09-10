@@ -10716,3 +10716,4 @@
 {"ts":"2026-09-10T12:21:31.607Z","tool":"ost_read_tree","ok":true,"ms":686,"surface":"mcp","argBytes":88,"session":"mcp-c6d3ab61-470e-41ae-8786-68796c6b6b64"}
 {"ts":"2026-09-10T12:21:32.625Z","tool":"ost_read_tree","ok":true,"ms":193,"surface":"mcp","argBytes":96,"session":"mcp-c6d3ab61-470e-41ae-8786-68796c6b6b64"}
 {"ts":"2026-09-10T12:21:56.864Z","tool":"ost_append_to_node","ok":true,"ms":37,"surface":"mcp","argBytes":1642,"session":"mcp-c6d3ab61-470e-41ae-8786-68796c6b6b64","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
+{"ts":"2026-09-10T12:21:57.334Z","tool":"ost_ingest_inbox","ok":true,"ms":26,"surface":"mcp","argBytes":2,"session":"mcp-c6d3ab61-470e-41ae-8786-68796c6b6b64"}
