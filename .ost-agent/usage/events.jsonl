@@ -10487,3 +10487,8 @@
 {"ts":"2026-09-10T00:16:12.159Z","tool":"ost_append_to_node","ok":true,"ms":36,"surface":"mcp","argBytes":2932,"session":"mcp-0b0f69a2-0463-4ada-b340-ad1909eea21a","touched":["Two thirds of my calls failed, and each one only told me after I made it.md"]}
 {"ts":"2026-09-10T00:16:14.468Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-0b0f69a2-0463-4ada-b340-ad1909eea21a"}
 {"ts":"2026-09-10T01:18:46.500Z","tool":"ost_ingest_inbox","ok":true,"ms":141,"surface":"mcp","argBytes":2,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
+{"ts":"2026-09-10T01:18:48.386Z","tool":"ost_next_work","ok":true,"ms":290,"surface":"mcp","argBytes":2,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
+{"ts":"2026-09-10T01:19:17.962Z","tool":"ost_read_tree","ok":true,"ms":170,"surface":"mcp","argBytes":108,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
+{"ts":"2026-09-10T01:19:34.221Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
+{"ts":"2026-09-10T01:20:59.356Z","tool":"ost_next_work","ok":true,"ms":118,"surface":"mcp","argBytes":62,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
+{"ts":"2026-09-10T01:22:31.442Z","tool":"ost_ingest_inbox","ok":true,"ms":27,"surface":"mcp","argBytes":2,"session":"mcp-43f46c85-ba2f-453b-8e23-c1cac3523112"}
