@@ -227,3 +227,13 @@ Kept to a row, per this node's standing instruction. The appending-versus-insert
 **No new shape. No seventh row.** The six rows above still cover every record read this pass.
 
 **Not acted on.** Nothing was disposed. The backlog still stands at zero live dispositions and `dispose` remains a human's CLI command by design, so this firing had no more ability to drain it than its predecessors. The unblocking move named in the Issues above is unchanged: one operator, one id, once.
+
+## Trend row — 2026-09-10: 679 (+224 since the 455 row of 2026-08-29)
+
+One row, per this node's standing instruction. The append-versus-insert question raised on the 448 row is still open and is not restated.
+
+**The figures.** Unmapped 455 → **679** over twelve days, with no row logged in between. So the firings from 2026-08-30 to 2026-09-09 captured records without adding a trend figure. Their forward checks went to the census on "A human-edited manifest of loop-prescribed call sequences the harvester suppresses", which reports fifteen consecutive checks at zero new needs. This firing's own ingest captured **0** new records, so the whole +224 arrived before this pass.
+
+**Three bodies read in full this pass, all in known rows:** `TRANSCRIPT:0a69f0ff…` (row 1 ×2, four `await` 300s expiries held by "A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand", and argument-bearing retries); `TRANSCRIPT:030e5db3…` (dated 2026-08-05, so old and not a recurrence: tool-class `permissions to use mcp__` denials plus the row-4 prescribed retries); `TRANSCRIPT:073a51de…` (a `Glob` `InputValidationError`, from the malformed-call class closed 2026-08-10, plus one prescribed retry). No new shape. No seventh row.
+
+**Not acted on.** `withheldByDisposition` is `[]` on this sweep, so live dispositions are still zero. The unblocking move is unchanged: one operator runs `ost-agent dispose` on one id, once. Nothing was created, executed or re-ranked.
