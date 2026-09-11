@@ -11028,3 +11028,4 @@
 {"ts":"2026-09-11T02:27:50.767Z","tool":"ost_read_tree","ok":true,"ms":111,"surface":"mcp","argBytes":103,"session":"mcp-ba494eaf-3467-4ebc-a4e3-3923137911a0"}
 {"ts":"2026-09-11T02:27:51.226Z","tool":"ost_read_tree","ok":true,"ms":195,"surface":"mcp","argBytes":113,"session":"mcp-ba494eaf-3467-4ebc-a4e3-3923137911a0"}
 {"ts":"2026-09-11T02:28:04.112Z","tool":"ost_ingest_inbox","ok":true,"ms":21,"surface":"mcp","argBytes":2,"session":"mcp-ba494eaf-3467-4ebc-a4e3-3923137911a0"}
+{"ts":"2026-09-11T03:31:20.731Z","tool":"ost_ingest_inbox","ok":true,"ms":155,"surface":"mcp","argBytes":2,"session":"mcp-46ac0bc3-d25f-46e7-a79a-8e02314f693c"}
