@@ -11207,3 +11207,4 @@
 {"ts":"2026-09-11T09:59:12.341Z","tool":"ost_read_tree","ok":true,"ms":111,"surface":"mcp","argBytes":99,"session":"mcp-e53bf462-844c-4ad9-bccf-930e569ce475"}
 {"ts":"2026-09-11T09:59:12.591Z","tool":"ost_read_tree","ok":true,"ms":102,"surface":"mcp","argBytes":97,"session":"mcp-e53bf462-844c-4ad9-bccf-930e569ce475"}
 {"ts":"2026-09-11T09:59:46.758Z","tool":"ost_annotate","ok":true,"ms":44,"surface":"mcp","argBytes":2012,"session":"mcp-e53bf462-844c-4ad9-bccf-930e569ce475","touched":["The second identical failure is answered differently from the first.md"]}
+{"ts":"2026-09-11T09:59:50.545Z","tool":"ost_annotate","ok":true,"ms":24,"surface":"mcp","argBytes":852,"session":"mcp-e53bf462-844c-4ad9-bccf-930e569ce475","touched":["Group the harvested tool errors by hand and see whether one rule reproduces the grouping.md"]}
