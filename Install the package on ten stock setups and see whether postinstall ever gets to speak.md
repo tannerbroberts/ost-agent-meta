@@ -3,6 +3,7 @@ type: AssumptionTest
 source: 'agent-ideated:2026-08-02-maintenance-pass'
 created: '2026-08-02'
 evidence: assertion
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -19,3 +20,6 @@ evidence: assertion
 **Explicitly out of scope.** Whether a stranger gets to a working vault — that is "Does a first-run branch actually get a stranger to a working vault", it needs a person, and it stays blocked on the release credential. This test asks only whether the channel can carry a wizard, and needs no stranger at all.
 
 **Who runs it.** A human, or an attended session with publish rights. Note the dependency the node already carries: publishing anything is blocked on "Every run ends blocked on a credential only I hold".
+
+## Issues
+- 2026-09-11 2026-09-11 unattended sweep: examined for an instrument and left without one. The test needs a throwaway package published to a registry and installed across ten real environments (npm/pnpm/yarn, CI, Docker, ignore-scripts). A spec in this repository's own suite cannot reproduce those, and publishing is blocked on the release credential the node already names. It is not humans-required in the sense of needing a stranger. It is attended-only: it needs someone with publish rights and the environments. Recorded so the next pass does not re-derive this. No lane or instrument set.
