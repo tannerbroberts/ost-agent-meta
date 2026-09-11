@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[Two failures being the same class is decidable by a rule that matches hand grouping]]
@@ -17,3 +18,6 @@ The change is entirely in the framing. A message that reads as a fact about one 
 
 ## History
 - 2026-08-05 unlinked "Group the harvested tool errors by hand and see whether one rule reproduces the grouping" — moved under "Two failures being the same class is decidable by a rule that matches hand grouping" — the belief this test measures now has a node of its own
+
+## Issues
+- 2026-09-11 2026-09-11 unattended sweep, repo sight held. First examination recorded on this node, which surfaces in solutionsMissingInstruments. Three findings for a human. (1) PLACEMENT: this hangs under "The same refusal is rediscovered every session, because nothing carries the lesson forward", but its own prose says it "carries nothing forward: a fresh session starts its tally at zero" — it is the in-session contrast candidate, not an answer to the cross-session need. (2) NEAR-DUPLICATE ACROSS BRANCHES: "The tally is kept and the second occurrence is met with the count, not the correction", under "I repeat one shell mistake five times in a session, because the first failure never said it was a class", makes the same claim (in-session class tally; second occurrence leads with the repeat and quotes the first correction). The only thing this node adds is that a third occurrence becomes a refusal to proceed on that route. Not merged: a merge repoints this node's inbound edge onto the survivor, which already has a parent, so it would create a second parent (single-parent rule). Which branch it belongs to is a restructuring call for a human, not an unattended pass. Suggested repair: merge into the sibling, folding the third-occurrence refusal in as the contribution, and remove the edge from the cross-session opportunity. (3) NO INSTRUMENT, deliberately: its only test, "Group the harvested tool errors by hand and see whether one rule reproduces the grouping", is measured against a person's hand grouping, so the labels are the measurement. The mechanical half (does a counter group a replayed session's repeats and fire by the second) is already instrumented on the sibling as `npx vitest run test/loop/repeat-class-escalation.test.ts`. Setting that same command here would give this node a second definition of done for the same spec. Nothing executed, no instrument set, no status or rung changed.
