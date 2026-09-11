@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   Under 10% of nodes need redaction, and a stated rule decides the class without
   per-node judgement.
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -20,3 +21,6 @@ The assumption is that a discovery vault can share the code's access control. Di
 **What it will not cover.** These vaults are about the author's own product and contain no third-party interview material. A vault serving a real customer-facing product would have far more to consider, and this is the mildest possible case.
 
 A human runs this and records the result.
+
+## Issues
+- 2026-09-11 2026-09-11 unattended sweep: humans-required in substance and unlabelled. The measurement is a person judging which nodes would be inappropriate for a repository the whole engineering team can read. That is a judgement about other people's words, which the node itself flags as the ethical dimension. A secret or path scanner could only count the mechanical subset, and it would under-report exactly the class the test is about (named customers, pricing conversations). No instrument set. The fix is `ost-agent lane --set`, because `ost_flag_humans_required` is withheld on this surface.
