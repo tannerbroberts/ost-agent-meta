@@ -11547,3 +11547,4 @@
 {"ts":"2026-09-12T03:48:22.029Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":36,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
 {"ts":"2026-09-12T03:49:17.213Z","tool":"ost_append_to_node","ok":true,"ms":36,"surface":"mcp","argBytes":3993,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
 {"ts":"2026-09-12T03:49:20.162Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T04:54:14.800Z","tool":"ost_ingest_inbox","ok":true,"ms":253,"surface":"mcp","argBytes":2,"session":"mcp-71159b28-e89d-462a-a621-a519eef2e6b7"}
