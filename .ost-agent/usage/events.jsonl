@@ -11464,3 +11464,20 @@
 {"ts":"2026-09-11T23:13:03.404Z","tool":"ost_read_tree","ok":true,"ms":148,"surface":"mcp","argBytes":96,"session":"mcp-70e34451-6df6-4dbf-adb9-9530209e56dc"}
 {"ts":"2026-09-11T23:13:06.409Z","tool":"ost_ingest_inbox","ok":true,"ms":256,"surface":"mcp","argBytes":2,"session":"mcp-70e34451-6df6-4dbf-adb9-9530209e56dc"}
 {"ts":"2026-09-12T00:16:43.097Z","tool":"ost_ingest_inbox","ok":true,"ms":191,"surface":"mcp","argBytes":2,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:16:45.024Z","tool":"ost_next_work","ok":true,"ms":400,"surface":"mcp","argBytes":2,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:17:13.629Z","tool":"ost_read_tree","ok":true,"ms":324,"surface":"mcp","argBytes":108,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:17:40.234Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":15,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:18:10.352Z","tool":"ost_read_tree","ok":true,"ms":261,"surface":"mcp","argBytes":86,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:18:24.653Z","tool":"ost_read_tree","ok":true,"ms":222,"surface":"mcp","argBytes":100,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:18:38.367Z","tool":"ost_read_tree","ok":true,"ms":120,"surface":"mcp","argBytes":64,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:18:53.765Z","tool":"ost_read_tree","ok":true,"ms":122,"surface":"mcp","argBytes":103,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:18:58.221Z","tool":"ost_read_tree","ok":true,"ms":155,"surface":"mcp","argBytes":104,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:19:19.811Z","tool":"ost_next_work","ok":true,"ms":227,"surface":"mcp","argBytes":62,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:19:38.283Z","tool":"ost_read_tree","ok":true,"ms":245,"surface":"mcp","argBytes":75,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:20:02.939Z","tool":"ost_read_tree","ok":true,"ms":165,"surface":"mcp","argBytes":93,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:20:26.366Z","tool":"ost_read_tree","ok":true,"ms":308,"surface":"mcp","argBytes":93,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:20:37.040Z","tool":"ost_read_tree","ok":true,"ms":267,"surface":"mcp","argBytes":83,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:20:53.342Z","tool":"ost_read_repo","ok":true,"ms":4,"surface":"mcp","argBytes":20,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:21:22.171Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":45,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:21:26.619Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":32,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
+{"ts":"2026-09-12T00:22:26.628Z","tool":"ost_append_to_node","ok":true,"ms":121,"surface":"mcp","argBytes":5175,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09","touched":["The bucket gains the lane filter the function two doors down already has.md"]}
