@@ -11527,3 +11527,22 @@
 {"ts":"2026-09-12T02:41:39.757Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":79,"session":"mcp-4a55fea1-a37f-471d-aacf-e69562f98316"}
 {"ts":"2026-09-12T02:41:48.585Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-4a55fea1-a37f-471d-aacf-e69562f98316"}
 {"ts":"2026-09-12T03:43:51.828Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:43:54.124Z","tool":"ost_next_work","ok":true,"ms":264,"surface":"mcp","argBytes":2,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:44:24.559Z","tool":"ost_read_tree","ok":true,"ms":107,"surface":"mcp","argBytes":108,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:44:36.180Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:44:38.411Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:44:49.579Z","tool":"ost_read_tree","ok":true,"ms":94,"surface":"mcp","argBytes":64,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:44:55.310Z","tool":"ost_read_tree","ok":true,"ms":94,"surface":"mcp","argBytes":86,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:45:02.319Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":93,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:45:19.938Z","tool":"ost_next_work","ok":true,"ms":166,"surface":"mcp","argBytes":62,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:45:24.395Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":100,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:45:39.772Z","tool":"ost_read_tree","ok":true,"ms":102,"surface":"mcp","argBytes":103,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:45:44.930Z","tool":"ost_read_tree","ok":true,"ms":93,"surface":"mcp","argBytes":127,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:46:09.713Z","tool":"ost_read_tree","ok":true,"ms":103,"surface":"mcp","argBytes":104,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:46:29.915Z","tool":"ost_read_tree","ok":true,"ms":104,"surface":"mcp","argBytes":93,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:48:04.233Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:48:10.344Z","tool":"ost_read_repo","ok":false,"ms":3,"surface":"mcp","argBytes":23,"err":"\"src/evidence\" does not exist in OST-Agent — OST-Agent/src exists and contains adapters, cli, compression, config, eval, fs, git, index.ts, knowledge, loop, mcp, ost, processes, product, release, runner, security, telemetry, web; nothing there is close enough to name, so this is not a typo to correc","session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:48:14.921Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:48:19.822Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":49,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:48:22.029Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":36,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe"}
+{"ts":"2026-09-12T03:49:17.213Z","tool":"ost_append_to_node","ok":true,"ms":36,"surface":"mcp","argBytes":3993,"session":"mcp-3a09669c-0881-4967-abf9-b082b29b2dfe","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
