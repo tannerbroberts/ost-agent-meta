@@ -11524,3 +11524,5 @@
 {"ts":"2026-09-12T02:39:56.352Z","tool":"ost_next_work","ok":true,"ms":188,"surface":"mcp","argBytes":62,"session":"mcp-4a55fea1-a37f-471d-aacf-e69562f98316"}
 {"ts":"2026-09-12T02:40:35.681Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-4a55fea1-a37f-471d-aacf-e69562f98316"}
 {"ts":"2026-09-12T02:41:25.484Z","tool":"ost_append_to_node","ok":true,"ms":40,"surface":"mcp","argBytes":3727,"session":"mcp-4a55fea1-a37f-471d-aacf-e69562f98316","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
+{"ts":"2026-09-12T02:41:39.757Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":79,"session":"mcp-4a55fea1-a37f-471d-aacf-e69562f98316"}
+{"ts":"2026-09-12T02:41:48.585Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-4a55fea1-a37f-471d-aacf-e69562f98316"}
