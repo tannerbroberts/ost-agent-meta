@@ -11483,3 +11483,27 @@
 {"ts":"2026-09-12T00:22:26.628Z","tool":"ost_append_to_node","ok":true,"ms":121,"surface":"mcp","argBytes":5175,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09","touched":["The bucket gains the lane filter the function two doors down already has.md"]}
 {"ts":"2026-09-12T00:22:33.947Z","tool":"ost_ingest_inbox","ok":true,"ms":26,"surface":"mcp","argBytes":2,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
 {"ts":"2026-09-12T01:26:35.773Z","tool":"ost_ingest_inbox","ok":true,"ms":541,"surface":"mcp","argBytes":2,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:26:38.440Z","tool":"ost_next_work","ok":true,"ms":1025,"surface":"mcp","argBytes":2,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:27:30.309Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":15,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:27:32.858Z","tool":"ost_read_tree","ok":true,"ms":225,"surface":"mcp","argBytes":108,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:27:46.304Z","tool":"ost_read_tree","ok":true,"ms":258,"surface":"mcp","argBytes":98,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:27:52.356Z","tool":"ost_read_tree","ok":true,"ms":814,"surface":"mcp","argBytes":152,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:28:01.023Z","tool":"ost_read_tree","ok":true,"ms":566,"surface":"mcp","argBytes":107,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:28:30.446Z","tool":"ost_read_repo","ok":true,"ms":4,"surface":"mcp","argBytes":24,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:28:32.164Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":20,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:28:34.707Z","tool":"ost_read_tree","ok":true,"ms":326,"surface":"mcp","argBytes":86,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:28:46.045Z","tool":"ost_read_tree","ok":true,"ms":103,"surface":"mcp","argBytes":112,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:28:55.323Z","tool":"ost_read_tree","ok":true,"ms":297,"surface":"mcp","argBytes":100,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:29:13.333Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:29:15.547Z","tool":"ost_read_tree","ok":true,"ms":138,"surface":"mcp","argBytes":104,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:29:34.733Z","tool":"ost_read_tree","ok":true,"ms":106,"surface":"mcp","argBytes":105,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:30:01.989Z","tool":"ost_read_tree","ok":true,"ms":111,"surface":"mcp","argBytes":103,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:30:10.034Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":127,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:30:37.955Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":83,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:31:10.837Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:31:15.972Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":57,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:31:17.852Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":44,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:31:30.251Z","tool":"ost_read_tree","ok":true,"ms":265,"surface":"mcp","argBytes":111,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:31:42.771Z","tool":"ost_next_work","ok":true,"ms":211,"surface":"mcp","argBytes":62,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:32:02.600Z","tool":"ost_read_tree","ok":true,"ms":182,"surface":"mcp","argBytes":93,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c"}
+{"ts":"2026-09-12T01:34:36.032Z","tool":"ost_append_to_node","ok":true,"ms":43,"surface":"mcp","argBytes":9346,"session":"mcp-5dd85ee0-4bd1-4f51-86b5-ce34199fbe2c","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}

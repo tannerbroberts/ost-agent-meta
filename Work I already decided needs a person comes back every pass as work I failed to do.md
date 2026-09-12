@@ -213,3 +213,91 @@ Four lines, per this branch's convention. The stopping condition above was read 
 **Limits.** The counts are file-level frontmatter over the vault's Markdown, not a walk of the tree, so they still do not map tests onto bucket entries and the label-to-entry mapping is still bounded above rather than computed. The six-set depends on this vault's field order holding (`evidence`, `lane?`, `threshold?`, `instrument?`, `authorship`) — verified against two files read in full, not against all 515, so a file written with a different ordering would be missed in the direction of understating the six. Tests carrying neither a lane, an instrument, nor a threshold were not enumerated individually; 61 is a subtraction. The `confirmPermit` behaviour is read off source, not observed: nothing was run. Two days apart is not a trend and nothing here re-opens the draining question. Nothing was executed, no rung moved, no instrument set, no lane set, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
 
 _Method: read-only `Grep` over `*.md` in this vault (`^type: AssumptionTest`, `^instrument: `, `^lane: humans-required`, plus two multiline frontmatter-shape matches), two node files read whole with `Read`, and a first-party `ost_read_repo` read of `src/eval/buildable.ts`. Observed structure of this vault and of the product's code; grounds feasibility, never desirability._
+
+## 2026-09-11 — the 67 enumerated by name for the first time, and it is not 67 lane calls
+
+Four lines, per this branch's convention. This adds no argument and no census. It closes an errand three sections on this branch's candidates state in nearly the same words: the 2026-09-01 (third firing) note sized the human's job at "67 `ost-agent lane --set` calls, not 8", and the 2026-09-08 (later firing) note could name only eleven members, closing with "the other 56 … were not individually matched against a prior list, because no prior list names them." There is now a list.
+
+**The arithmetic, first-party this pass.** 515 files carry `type: AssumptionTest`; 381 carry an `instrument:`; 67 carry `lane:`; 381 + 67 + 67 = 515, and the third 67 is the residue. It reconciles exactly with this firing's own rollup ("381 of 515 name a runnable command"), which is an independent computation, so the enumeration below is the residue rather than a same-sized set.
+
+**The 67, by title.**
+
+1. Install the package on ten stock setups and see whether postinstall ever gets to speak
+2. Check what would actually have to be redacted before a vault could live in a shared repo
+3. Group the harvested tool errors by hand and see whether one rule reproduces the grouping
+4. Hand-compute unblock counts and see if the operator's pick changes
+5. Two unattended weeks - count pages, grind, and money burned
+6. Set up one scheduled export and check every week whether it is still arriving
+7. Follow a candidate source list for a month and count items that bear on anything open
+8. Settle the known prompts as config and count how many new ones appear in a month
+9. Give a cold session only the tree and see whether it can say why the work exists
+10. Replay the three recorded failed runs through the journal-alert rule on paper
+11. Count how many of the operator's real experiment sources can push anywhere at all
+12. Does a placeholder outcome get replaced, or does it become the tree's real root
+13. Sweep both vault histories for writes that landed as undefined or empty
+14. Does refusing a newline inside a wiki-link catch breaks nothing else catches
+15. Do the shipped sweeps actually find a planted instance
+16. Test humans can promote while the agent is blocked from validating
+17. Do named unfixed thresholds actually get fixed
+18. Judge the eighteen reopened items — were they genuinely finished
+19. Backdated half-life comparison for staleness flags
+20. Apply the escalating message to the five-failure session and check where it would have fired
+21. Pitch the refusals to ten prospects and count who treats them as a feature
+22. Pre-order probe - will anyone pay before the map proves itself
+23. Two-week recruiting test for interview supply
+24. Cold-offer test - will outside teams hand over real discovery work
+25. Sell one engagement and record how many hours it actually took against what was charged
+26. Offer a maintained tree at a stated monthly price to ten teams and count who asks for terms
+27. Five-minute orientation task on a static mock
+28. Test can a full pass be done with no delete or edit tool
+29. Test can teams define a real-world outcome signal for the gate
+30. Ask ten practitioners whether their own discipline has ever failed them, before naming any mechanism
+31. Ask ten PMs to recount the last time they were asked how they knew, and what they showed
+32. Ask ten buyers what happened the last time a tool they relied on shut down
+33. Ask ten buyers to split a test's price between designing it and running it
+34. Do two practitioners place the same opportunity under the same sub-outcome
+35. Does a route view change which work a builder picks up first
+36. Show the operator ten forks already taken and count the reversals and the minutes
+37. Show readers a degraded run report and see whether they notice
+38. Does the side-by-side change what a reviewer does about a threshold
+39. Ask five prospective operators whether they would let their vault report outward
+40. Deliver three free trees and count how many the recipient shows to someone else
+41. Publish six pieces over six weeks and count strangers who arrive and try it
+42. Rewrite the shortest helper against the bundled runtime and compare length and readability
+43. Have authors nominate a riskiest assumption and check it against what they were already testing
+44. Withhold the agent's answer on ten forks and measure how often the operator diverges
+45. Queue forty drafts for approval and record how long the operator spends on each
+46. Interview ten solo builders about the last decision they made with nobody to check it
+47. Run the checks over three hand-built vaults and count findings the owner did not already know
+48. Have a second person run the hand arm, so the comparison is not built by its own author
+49. Run one small corpus through both and have a blind reader say which tree they would act on
+50. Replay ten past runs and count how many needed a scope nobody would have predicted
+51. Have five authors preview a write they were about to make and count how many change it
+52. Hand-label the gated rows and check whether a detector agrees
+53. Count how much post-handoff work in past sessions would have survived a failing check
+54. Would an operator accept the agent living inside the vault it maintains
+55. Hand a reader five run records and ask which passes did their job
+56. Does showing the whole sentence change what a reader does with a paste-ready command
+57. Does a forced uncovered field change what a second reader believes
+58. Time one real week of decisions through the docket from a phone
+59. Five-second status glance test after a failed run
+60. Diff three past sessions' claims against their traces by hand
+61. Would operators accept unattended self-modification
+62. Unprompted-fear interviews about leaving it running
+63. Test does the weekly digest make operators willing to walk away
+64. Test do operators get value with remote push off
+65. One re-synthesis pass with human accept-reject
+66. Hand-distil three past sessions
+67. Can a builder work from the map without ideating
+
+**The correction to the sizing, which is the part that changes what a human does.** These are not 67 lane calls. They are at least three dispositions, and two of them are not a lane:
+
+- **One is already retired.** #20, "Apply the escalating message to the five-failure session and check where it would have fired", carries `status: deferred` — this firing's own sweep names it under `retiredFromDuplicateScan`. Setting a lane on a retired test labels work nobody is going to do.
+- **Four are already answered and want `ost-agent result`, not a lane.** #13, #14, #15 and #16 are the four the 2026-09-07 check on "The bucket gains the lane filter the function two doors down already has" found to have shipped mechanical halves — `test/eval/planted-instance.test.ts`, `test/security/self-validation.test.ts`, and a 2026-07-26 run over 100 commits of both vaults. A lane on those records the wrong fact: the question is settled and the verdict is unrecorded.
+- **The remaining 62 read as lane calls**, and they are the pre-lane commercial and interview branch the earlier censuses predicted — pitching, pricing, recruiting, willingness to pay, blind readers, hand-labelling, and judgement-over-records replays.
+
+**Why this belongs on the need rather than on a candidate.** All three candidates beneath this node are sized against this population — the lane filter reaches it or does not, the ask queue routes it or does not, the audit trusts its labels or does not — and none of them can be weighed against a number whose members nobody has seen. It also bounds the cheap move the branch has been recommending since 2026-09-01 without ever being able to hand anyone the list: it is 62 calls, not 67, and two of the five differences are not clerical.
+
+**Limits.** This is a frontmatter enumeration, not a reading: no body was opened this pass, so "reads as a lane call" is a judgement from titles and from the earlier censuses, and any of the 62 could turn out to have a runnable form nobody thought of — which is the direction that would flatter the lane filter and should be checked before 62 labels are set. The match requires the vault writer's field vocabulary, so a test whose frontmatter carries a field outside `status/source/created/evidence/threshold/sight/authorship/tags/confidence/updated/retired` is missed, and that error understates the residue. The 381/67/67 split is three exact counts that sum to the independently computed total, which is a strong cross-check on the cardinality and says nothing about whether any individual row is correctly classified. Nothing was executed, no rung moved, no instrument set, no lane set, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
+
+_Method: one multiline `Grep` over this vault's own `*.md` frontmatter matching AssumptionTest blocks that carry neither `instrument:` nor `lane:`, plus this firing's own `ost_next_work` response and rollup for the cross-check and the deferred status._
