@@ -11481,3 +11481,4 @@
 {"ts":"2026-09-12T00:21:22.171Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":45,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
 {"ts":"2026-09-12T00:21:26.619Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":32,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
 {"ts":"2026-09-12T00:22:26.628Z","tool":"ost_append_to_node","ok":true,"ms":121,"surface":"mcp","argBytes":5175,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09","touched":["The bucket gains the lane filter the function two doors down already has.md"]}
+{"ts":"2026-09-12T00:22:33.947Z","tool":"ost_ingest_inbox","ok":true,"ms":26,"surface":"mcp","argBytes":2,"session":"mcp-a46bf5f0-0e86-4156-a834-c2b16a9d8b09"}
