@@ -114,3 +114,4 @@ authorship: machine
 - 2026-09-12 **no-spec** (exit none) `npx vitest run test/product/repo-search.test.ts` — test/product/repo-search.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-09-12 **no-spec** (exit none) `npx vitest run test/product/repo-search.test.ts` — test/product/repo-search.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-09-12 **no-spec** (exit none) `npx vitest run test/product/repo-search.test.ts` — test/product/repo-search.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-09-12 **no-spec** (exit none) `npx vitest run test/product/repo-search.test.ts` — test/product/repo-search.test.ts does not exist — no spec was collected, so nothing was measured
