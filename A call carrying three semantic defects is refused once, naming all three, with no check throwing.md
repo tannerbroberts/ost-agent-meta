@@ -346,3 +346,4 @@ authorship: machine
 - 2026-09-13 **no-spec** (exit none) `npx vitest run test/mcp/semantic-problems-accumulate.test.ts` — test/mcp/semantic-problems-accumulate.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-09-13 **no-spec** (exit none) `npx vitest run test/mcp/semantic-problems-accumulate.test.ts` — test/mcp/semantic-problems-accumulate.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-09-13 **no-spec** (exit none) `npx vitest run test/mcp/semantic-problems-accumulate.test.ts` — test/mcp/semantic-problems-accumulate.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-09-14 **no-spec** (exit none) `npx vitest run test/mcp/semantic-problems-accumulate.test.ts` — test/mcp/semantic-problems-accumulate.test.ts does not exist — no spec was collected, so nothing was measured
