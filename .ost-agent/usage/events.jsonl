@@ -11973,3 +11973,16 @@
 {"ts":"2026-09-15T01:19:33.629Z","tool":"ost_read_tree","ok":true,"ms":116,"surface":"mcp","argBytes":127,"session":"mcp-02731084-64ad-43fc-b448-bc1e0b8a3740"}
 {"ts":"2026-09-15T01:19:33.935Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":103,"session":"mcp-02731084-64ad-43fc-b448-bc1e0b8a3740"}
 {"ts":"2026-09-15T02:21:51.633Z","tool":"ost_ingest_inbox","ok":true,"ms":116,"surface":"mcp","argBytes":2,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:21:53.330Z","tool":"ost_next_work","ok":true,"ms":283,"surface":"mcp","argBytes":2,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:02.441Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":108,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:04.070Z","tool":"ost_next_work","ok":true,"ms":120,"surface":"mcp","argBytes":62,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:05.309Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:11.576Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:14.653Z","tool":"ost_read_tree","ok":true,"ms":93,"surface":"mcp","argBytes":94,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:27.720Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":86,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:28.233Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":100,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:28.851Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":93,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:29.151Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":64,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:37.870Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":104,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:38.277Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":88,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4"}
+{"ts":"2026-09-15T02:22:52.772Z","tool":"ost_append_to_node","ok":true,"ms":40,"surface":"mcp","argBytes":690,"session":"mcp-2065aa60-5abd-4529-b881-568c82f345f4","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}

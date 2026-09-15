@@ -237,3 +237,7 @@ One row, per this node's standing instruction. The append-versus-insert question
 **Three bodies read in full this pass, all in known rows:** `TRANSCRIPT:0a69f0ff…` (row 1 ×2, four `await` 300s expiries held by "A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand", and argument-bearing retries); `TRANSCRIPT:030e5db3…` (dated 2026-08-05, so old and not a recurrence: tool-class `permissions to use mcp__` denials plus the row-4 prescribed retries); `TRANSCRIPT:073a51de…` (a `Glob` `InputValidationError`, from the malformed-call class closed 2026-08-10, plus one prescribed retry). No new shape. No seventh row.
 
 **Not acted on.** `withheldByDisposition` is `[]` on this sweep, so live dispositions are still zero. The unblocking move is unchanged: one operator runs `ost-agent dispose` on one id, once. Nothing was created, executed or re-ranked.
+
+## Trend row — 2026-09-14: 711 (+32 since the 679 row of 2026-09-10)
+
+One row, per this node's standing instruction. This firing's own ingest captured **0** new records, so the +32 arrived between firings. Two bodies were re-read (`030e5db3…`, `0a69f0ff…`), both already scored on the 679 row; no new shape, no seventh row. `withheldByDisposition` is still `[]`, so the unblocking move is unchanged: one operator runs `ost-agent dispose` on one id, once. Nothing created, executed or re-ranked; `ost_check` is withheld on this surface, so this write is unverified by design.
