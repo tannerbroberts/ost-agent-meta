@@ -241,3 +241,7 @@ One row, per this node's standing instruction. The append-versus-insert question
 ## Trend row — 2026-09-14: 711 (+32 since the 679 row of 2026-09-10)
 
 One row, per this node's standing instruction. This firing's own ingest captured **0** new records, so the +32 arrived between firings. Two bodies were re-read (`030e5db3…`, `0a69f0ff…`), both already scored on the 679 row; no new shape, no seventh row. `withheldByDisposition` is still `[]`, so the unblocking move is unchanged: one operator runs `ost-agent dispose` on one id, once. Nothing created, executed or re-ranked; `ost_check` is withheld on this surface, so this write is unverified by design.
+
+## Trend row — 2026-09-15: 712 (+1 since the 711 row of 2026-09-14)
+
+One row, per this node's standing instruction. This firing's ingest captured **0** new records. Four bodies were read (`0095203e…`, `030e5db3…`, `0a69f0ff…`, `01e55025…`). All fall in rows already on this node: row 1 (read-before-write), row 2 and tool-class denials, row 4 (prescribed retries), and `await` 300s expiries. No new shape and no seventh row. `withheldByDisposition` is still `[]`, so the unblocking move has not changed: one operator runs `ost-agent dispose` on one id, once. Nothing was created, executed or re-ranked. `ost_check` is not available on this surface, so this write has not been checked.
