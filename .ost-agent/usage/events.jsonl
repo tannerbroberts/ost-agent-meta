@@ -12249,3 +12249,25 @@
 {"ts":"2026-09-15T23:33:53.874Z","tool":"ost_ingest_inbox","ok":true,"ms":23,"surface":"mcp","argBytes":2,"session":"mcp-e802c293-ee92-4b54-846e-21ee8ef52a98"}
 {"ts":"2026-09-15T23:33:55.530Z","tool":"ost_next_work","ok":true,"ms":463,"surface":"mcp","argBytes":2,"session":"mcp-e802c293-ee92-4b54-846e-21ee8ef52a98"}
 {"ts":"2026-09-16T00:36:05.794Z","tool":"ost_ingest_inbox","ok":true,"ms":136,"surface":"mcp","argBytes":2,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:36:08.218Z","tool":"ost_next_work","ok":true,"ms":263,"surface":"mcp","argBytes":2,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:36:41.742Z","tool":"ost_next_work","ok":true,"ms":201,"surface":"mcp","argBytes":62,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:36:42.045Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":108,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:37:11.228Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:37:39.196Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":22,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:37:39.301Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:37:47.239Z","tool":"ost_read_tree","ok":true,"ms":103,"surface":"mcp","argBytes":100,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:37:47.455Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":86,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:05.066Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":93,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:05.240Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":103,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:22.788Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:22.894Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:27.689Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:38.248Z","tool":"ost_read_repo","ok":true,"ms":4,"surface":"mcp","argBytes":20,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:38.361Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:40.712Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:38:45.085Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":48,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:39:06.031Z","tool":"ost_read_tree","ok":true,"ms":95,"surface":"mcp","argBytes":93,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:39:10.596Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":83,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:39:20.516Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":39,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:40:03.893Z","tool":"ost_read_tree","ok":true,"ms":95,"surface":"mcp","argBytes":111,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39"}
+{"ts":"2026-09-16T00:40:57.389Z","tool":"ost_append_to_node","ok":true,"ms":36,"surface":"mcp","argBytes":3977,"session":"mcp-126f8e44-9fa5-49dc-a413-c452314d1e39","touched":["An all-cautious solution leaves the instrument bucket while one with a runnable test beside it stays.md"]}
