@@ -12397,3 +12397,4 @@
 {"ts":"2026-09-16T08:37:19.366Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":93,"session":"mcp-afa2158c-67f9-4260-a2fb-b8a015b2efe4"}
 {"ts":"2026-09-16T08:37:39.207Z","tool":"ost_next_work","ok":true,"ms":166,"surface":"mcp","argBytes":62,"session":"mcp-afa2158c-67f9-4260-a2fb-b8a015b2efe4"}
 {"ts":"2026-09-16T08:39:18.205Z","tool":"ost_append_to_node","ok":true,"ms":30,"surface":"mcp","argBytes":4698,"session":"mcp-afa2158c-67f9-4260-a2fb-b8a015b2efe4","touched":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md"]}
+{"ts":"2026-09-16T08:39:24.435Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-afa2158c-67f9-4260-a2fb-b8a015b2efe4"}
