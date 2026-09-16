@@ -12549,3 +12549,4 @@
 {"ts":"2026-09-16T21:21:29.586Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":19,"session":"mcp-2781febb-8d2d-453e-b885-797101f76d7e"}
 {"ts":"2026-09-16T21:21:36.035Z","tool":"ost_next_work","ok":true,"ms":661,"surface":"mcp","argBytes":62,"session":"mcp-2781febb-8d2d-453e-b885-797101f76d7e"}
 {"ts":"2026-09-16T21:22:02.831Z","tool":"ost_annotate","ok":true,"ms":432,"surface":"mcp","argBytes":1197,"session":"mcp-2781febb-8d2d-453e-b885-797101f76d7e","touched":["Group the queue by error signature at read time, and change nothing on disk.md"]}
+{"ts":"2026-09-16T22:25:18.921Z","tool":"ost_ingest_inbox","ok":true,"ms":436,"surface":"mcp","argBytes":2,"session":"mcp-b549aae1-e124-4374-a631-751e1f44d60b"}
