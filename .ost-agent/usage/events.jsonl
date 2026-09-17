@@ -12832,3 +12832,4 @@
 {"ts":"2026-09-17T20:46:56.988Z","tool":"ost_read_tree","ok":true,"ms":128,"surface":"mcp","argBytes":127,"session":"mcp-42d2f5e6-696c-4017-91d7-26899a25884f"}
 {"ts":"2026-09-17T20:47:51.867Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":27,"session":"mcp-42d2f5e6-696c-4017-91d7-26899a25884f"}
 {"ts":"2026-09-17T20:48:13.120Z","tool":"ost_ingest_inbox","ok":true,"ms":30,"surface":"mcp","argBytes":2,"session":"mcp-42d2f5e6-696c-4017-91d7-26899a25884f"}
+{"ts":"2026-09-17T21:52:57.826Z","tool":"ost_ingest_inbox","ok":true,"ms":349,"surface":"mcp","argBytes":2,"session":"mcp-030d7004-a8dd-43d3-980b-32e2cafebc3d"}
