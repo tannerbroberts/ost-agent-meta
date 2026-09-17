@@ -245,3 +245,7 @@ One row, per this node's standing instruction. This firing's own ingest captured
 ## Trend row — 2026-09-15: 712 (+1 since the 711 row of 2026-09-14)
 
 One row, per this node's standing instruction. This firing's ingest captured **0** new records. Four bodies were read (`0095203e…`, `030e5db3…`, `0a69f0ff…`, `01e55025…`). All fall in rows already on this node: row 1 (read-before-write), row 2 and tool-class denials, row 4 (prescribed retries), and `await` 300s expiries. No new shape and no seventh row. `withheldByDisposition` is still `[]`, so the unblocking move has not changed: one operator runs `ost-agent dispose` on one id, once. Nothing was created, executed or re-ranked. `ost_check` is not available on this surface, so this write has not been checked.
+
+## Trend row — 2026-09-17: 727 (+15 since the 712 row of 2026-09-15)
+
+One row, per this node's standing instruction. This firing's ingest captured **0** new records, so the +15 arrived between firings. Two bodies were re-read (`030e5db3…`, `0a69f0ff…`), both already scored on earlier rows. No new shape and no seventh row. `withheldByDisposition` is still `[]`, so the move that would unblock this is unchanged: one operator runs `ost-agent dispose` on one id, once. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write has not been checked.
