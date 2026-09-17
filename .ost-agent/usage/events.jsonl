@@ -12580,3 +12580,4 @@
 {"ts":"2026-09-17T00:34:12.582Z","tool":"ost_next_work","ok":true,"ms":139,"surface":"mcp","argBytes":31,"session":"mcp-d465cf1b-78c9-437c-9a73-eeecd753b02c"}
 {"ts":"2026-09-17T00:34:20.771Z","tool":"ost_append_to_node","ok":true,"ms":49,"surface":"mcp","argBytes":797,"session":"mcp-d465cf1b-78c9-437c-9a73-eeecd753b02c","touched":["The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should.md"]}
 {"ts":"2026-09-17T00:34:23.546Z","tool":"ost_ingest_inbox","ok":true,"ms":25,"surface":"mcp","argBytes":2,"session":"mcp-d465cf1b-78c9-437c-9a73-eeecd753b02c"}
+{"ts":"2026-09-17T01:36:23.828Z","tool":"ost_ingest_inbox","ok":true,"ms":122,"surface":"mcp","argBytes":2,"session":"mcp-355a7d60-72b2-4a40-b518-80bacf64d839"}
