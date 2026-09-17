@@ -12715,3 +12715,4 @@
 {"ts":"2026-09-17T11:02:45.773Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":127,"session":"mcp-a5e05263-1223-46de-9090-6f73019e6503"}
 {"ts":"2026-09-17T11:02:57.606Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":103,"session":"mcp-a5e05263-1223-46de-9090-6f73019e6503"}
 {"ts":"2026-09-17T11:03:01.435Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-a5e05263-1223-46de-9090-6f73019e6503"}
+{"ts":"2026-09-17T12:05:05.344Z","tool":"ost_ingest_inbox","ok":true,"ms":130,"surface":"mcp","argBytes":2,"session":"mcp-417f9b78-f3cb-47a2-99ee-0164fcca87ea"}
