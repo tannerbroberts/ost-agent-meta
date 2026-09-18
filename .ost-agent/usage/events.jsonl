@@ -12886,3 +12886,4 @@
 {"ts":"2026-09-18T00:14:52.112Z","tool":"ost_read_tree","ok":true,"ms":143,"surface":"mcp","argBytes":127,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
 {"ts":"2026-09-18T00:15:14.656Z","tool":"ost_read_tree","ok":true,"ms":117,"surface":"mcp","argBytes":66,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
 {"ts":"2026-09-18T00:15:46.277Z","tool":"ost_append_to_node","ok":true,"ms":53,"surface":"mcp","argBytes":3673,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31","touched":["A third of my calls go on re-asking what is outstanding.md"]}
+{"ts":"2026-09-18T00:16:14.155Z","tool":"ost_annotate","ok":true,"ms":104,"surface":"mcp","argBytes":3532,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31","touched":["A flag I already judged false comes back every pass, because the clear is keyed to wording nothing told me to repeat.md"]}
