@@ -12873,3 +12873,16 @@
 {"ts":"2026-09-17T23:09:20.913Z","tool":"ost_ingest_inbox","ok":true,"ms":30,"surface":"mcp","argBytes":2,"session":"mcp-c7782875-025c-42ab-b5b6-088bc654c2e6"}
 {"ts":"2026-09-17T23:09:35.197Z","tool":"ost_next_work","ok":true,"ms":518,"surface":"mcp","argBytes":2,"session":"mcp-c7782875-025c-42ab-b5b6-088bc654c2e6"}
 {"ts":"2026-09-18T00:11:48.658Z","tool":"ost_ingest_inbox","ok":true,"ms":488,"surface":"mcp","argBytes":2,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:11:52.308Z","tool":"ost_next_work","ok":true,"ms":1389,"surface":"mcp","argBytes":2,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:12:26.829Z","tool":"ost_read_tree","ok":true,"ms":391,"surface":"mcp","argBytes":108,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:12:41.428Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":15,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:13:17.647Z","tool":"ost_read_tree","ok":true,"ms":340,"surface":"mcp","argBytes":100,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:13:40.929Z","tool":"ost_read_tree","ok":true,"ms":138,"surface":"mcp","argBytes":86,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:13:46.485Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":103,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:13:52.564Z","tool":"ost_read_tree","ok":true,"ms":102,"surface":"mcp","argBytes":64,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:14:08.814Z","tool":"ost_read_tree","ok":true,"ms":808,"surface":"mcp","argBytes":100,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:14:27.599Z","tool":"ost_next_work","ok":true,"ms":833,"surface":"mcp","argBytes":62,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:14:34.354Z","tool":"ost_next_work","ok":true,"ms":171,"surface":"mcp","argBytes":31,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:14:52.112Z","tool":"ost_read_tree","ok":true,"ms":143,"surface":"mcp","argBytes":127,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:15:14.656Z","tool":"ost_read_tree","ok":true,"ms":117,"surface":"mcp","argBytes":66,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31"}
+{"ts":"2026-09-18T00:15:46.277Z","tool":"ost_append_to_node","ok":true,"ms":53,"surface":"mcp","argBytes":3673,"session":"mcp-7fe0ff9e-0990-415a-b834-5f94ce5e1d31","touched":["A third of my calls go on re-asking what is outstanding.md"]}

@@ -143,3 +143,28 @@ _Measured from this pass's own `ost_next_work` response. Observed behaviour of t
 **What this does not claim.** The trace records what was called, not why, and this node already states that limit. A read-heavy day is what a census or verification pass looks like when it is doing its job well, and several sections on this very node were produced by exactly that kind of pass. The ratio is not waste by itself; what it establishes is that the write-to-orient ratio has moved by an order of magnitude since 2026-08-03 (76% creates) and that nothing on the tree currently prices repo reads.
 
 _Measured from this pass's own `ost_ingest_inbox` and the body served by `ost_next_work({evidence})`. Rung unchanged at the floor, for the reason this node already records under "On the rung this node carries"._
+
+## Corroboration — writes are now 1.6% of the day, and 22 firings produced five (2026-09-17 unattended sweep)
+
+`USAGE:2026-09-17`, captured at this pass's own ingest — 305 calls across 22 sessions, 303 ok, 2 failed, p50 99ms, max 11108ms:
+
+| Tool | Calls | Share |
+| --- | --- | --- |
+| ost_read_tree | 138 | 45% |
+| ost_next_work | 78 | 26% |
+| ost_read_repo | 52 | 17% |
+| ost_ingest_inbox | 32 | 10% |
+| ost_append_to_node | 3 | 1% |
+| ost_annotate | 2 | <1% |
+
+**The number.** Writes are **5 of 305, 1.6%**. Orienting calls are **300 of 305, 98.4%**. The section above recorded 2026-09-08 at 30 writes and 6.7%, and called the title's "a third" an understatement; nine days later the write share has fallen by a further factor of four. Across **22 sessions the loop performed five writes** — 0.23 per firing — so the median firing on this day wrote nothing at all.
+
+**What is absent is more informative than what is present.** `ost_create_node` is **zero** and `ost_set_instrument` is **zero**. Those are the two tools that clear the buckets the sweep actually reports: 737 unmapped evidence, 1 under-served opportunity, 75 solutions whose tests are prose only. A full day of firings touched neither. `ost_read_tree` at 45% is what replaced them — per-node body reads, the cost the 2026-08-18 section first noticed migrating out of the sweep, now the largest share of the day by a wide margin.
+
+**Why this pass believes the reads are not waste, which cuts against reading the ratio as failure.** This firing reproduced the shape from the inside. It opened six entries from `solutionsMissingInstruments` and every one declared, in its own prose, that the single test beneath it is humans-required on purpose — and five of the six already carried a dated note from a prior pass saying exactly that. The reads were correct, the verdicts were correct, and they were correct last time too. The budget goes on re-deriving conclusions the tree already holds, because the surface that reports the work does not read the place those conclusions were written. That is the same mechanism this node's 2026-08-21 section measured on the evidence queue — already-read items the detector cannot see have been read — appearing in a second bucket.
+
+**One repeat worth naming.** Both failed calls of the day are `ost_read_repo` on the same non-existent path, `src/instruments`, twice. The 2026-09-08 section above already records `src/instruments` as a failed guess on that day. The identical wrong path was guessed again nine days later, and the intervening correction — a directory listing naming what is actually in `src/` — survived only as long as the session that received it. That is "The same blocked call comes back next session, because a correction only lives as long as the session it was given in", observed rather than predicted, and it is the second time this exact string has been the answer.
+
+**What this does not claim.** Unchanged from this node's standing limit: the trace records what was called, not why, and a read-heavy day is what a census pass looks like when it is doing its job. This section was itself produced by such a pass. What the trace establishes is the ratio and its trend, not a verdict on any individual call.
+
+_Measured from this pass's own `ost_ingest_inbox` and the body served by `ost_next_work({evidence})`. Rung unchanged at the floor, for the reason this node records under "On the rung this node carries". `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design._
