@@ -46,3 +46,7 @@ Kept short. One new distinction, observed first-party by this firing rather than
 **Why it bears on the solutions already hanging here.** The three candidates beneath this node all assume the binary case — the tools are there or they are not. "Declare the tool surface a pass requires and abort in the first second if it is absent" would not fire here, because nothing required was absent. Whoever picks that candidate up should decide whether its declaration names capabilities (repo sight) or tool names (`Glob`), because those two readings behave differently on exactly these two records. No node created and no candidate ideated — this is a note for the human weighing them.
 
 **Limits.** Two records, both this vault's own unattended firings plus this one: observed behaviour of the agent using its own harness, which grounds usability and is not evidence that anyone wants this built. The claim that `ost_read_repo` and `Glob` are substitutable is true for the read this pass actually needed (a directory listing and file bodies under `product.repos`) and is not a general equivalence. Nothing was executed, no rung moved, no status changed.
+
+## Corroboration 2026-09-19 — TRANSCRIPT:b6784800-98b1-4dd9-b423-87f39c777240
+
+An unattended firing tried to `Glob` the product repository (`/Users/tanner/dev/OST-Agent`) and was denied because the read permission had not been granted, which it only found out by making the call. Same actor as this node's other transcript sources (the agent's own sessions), so this adds a recurrence, not an independent voice. Rung unchanged.
