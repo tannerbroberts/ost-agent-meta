@@ -13186,3 +13186,12 @@
 {"ts":"2026-09-19T04:49:55.635Z","tool":"ost_append_to_node","ok":true,"ms":41,"surface":"mcp","argBytes":639,"session":"mcp-42fc68c0-7993-4c11-a2af-b35f62dca03d","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
 {"ts":"2026-09-19T04:49:58.690Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-42fc68c0-7993-4c11-a2af-b35f62dca03d"}
 {"ts":"2026-09-19T05:52:19.138Z","tool":"ost_ingest_inbox","ok":true,"ms":139,"surface":"mcp","argBytes":2,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T05:52:20.722Z","tool":"ost_next_work","ok":true,"ms":525,"surface":"mcp","argBytes":2,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T05:52:28.974Z","tool":"ost_read_tree","ok":true,"ms":124,"surface":"mcp","argBytes":108,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T05:52:36.753Z","tool":"ost_read_tree","ok":true,"ms":136,"surface":"mcp","argBytes":86,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T05:52:37.060Z","tool":"ost_read_tree","ok":true,"ms":96,"surface":"mcp","argBytes":100,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T05:52:37.256Z","tool":"ost_read_tree","ok":true,"ms":105,"surface":"mcp","argBytes":104,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T05:52:41.832Z","tool":"ost_next_work","ok":true,"ms":319,"surface":"mcp","argBytes":62,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T05:52:49.907Z","tool":"ost_next_work","ok":true,"ms":180,"surface":"mcp","argBytes":62,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T05:52:50.244Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-6827e93a-8786-4fe6-ba5a-1ea203e55330"}
+{"ts":"2026-09-19T06:55:06.934Z","tool":"ost_ingest_inbox","ok":true,"ms":158,"surface":"mcp","argBytes":2,"session":"mcp-87ffbf02-38c1-45cf-afbb-1649e15807db"}
