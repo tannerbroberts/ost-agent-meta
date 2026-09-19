@@ -13355,3 +13355,4 @@
 {"ts":"2026-09-19T22:49:33.109Z","tool":"ost_read_tree","ok":true,"ms":291,"surface":"mcp","argBytes":93,"session":"mcp-ab4342c2-c06f-4eae-88c8-df47cd290c8c"}
 {"ts":"2026-09-19T22:50:29.764Z","tool":"ost_next_work","ok":true,"ms":132,"surface":"mcp","argBytes":62,"session":"mcp-ab4342c2-c06f-4eae-88c8-df47cd290c8c"}
 {"ts":"2026-09-19T22:51:21.877Z","tool":"ost_append_to_node","ok":true,"ms":66,"surface":"mcp","argBytes":4932,"session":"mcp-ab4342c2-c06f-4eae-88c8-df47cd290c8c","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
+{"ts":"2026-09-19T22:51:29.116Z","tool":"ost_ingest_inbox","ok":true,"ms":27,"surface":"mcp","argBytes":2,"session":"mcp-ab4342c2-c06f-4eae-88c8-df47cd290c8c"}
