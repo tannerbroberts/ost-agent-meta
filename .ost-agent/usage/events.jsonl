@@ -13154,3 +13154,4 @@
 {"ts":"2026-09-19T02:42:53.603Z","tool":"ost_read_tree","ok":true,"ms":110,"surface":"mcp","argBytes":88,"session":"mcp-7e9ea03d-83a6-45b0-b390-d08e11dcc0e4"}
 {"ts":"2026-09-19T02:42:53.810Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":64,"session":"mcp-7e9ea03d-83a6-45b0-b390-d08e11dcc0e4"}
 {"ts":"2026-09-19T02:43:00.830Z","tool":"ost_append_to_node","ok":true,"ms":246,"surface":"mcp","argBytes":695,"session":"mcp-7e9ea03d-83a6-45b0-b390-d08e11dcc0e4","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
+{"ts":"2026-09-19T02:43:03.540Z","tool":"ost_ingest_inbox","ok":true,"ms":79,"surface":"mcp","argBytes":2,"session":"mcp-7e9ea03d-83a6-45b0-b390-d08e11dcc0e4"}
