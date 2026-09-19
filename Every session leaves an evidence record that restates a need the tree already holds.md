@@ -269,3 +269,7 @@ One row, per this node's standing instruction. This firing's ingest captured **1
 ## Trend row — 2026-09-19 (third firing): 748 (+1 since the 747 row)
 
 One row, per this node's standing instruction. This firing's ingest captured **1** record: `TRANSCRIPT:b78523b4…` (mirrored 0d ago), one no-argument `retry` of `ost_ingest_inbox` and no `tool_error`. That is row 4, a loop-prescribed call. No new shape, no seventh row. `withheldByDisposition` is still `[]`, so the unblocking move is unchanged: one operator runs `ost-agent dispose` on one id, once. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design.
+
+## Trend row — 2026-09-19 (fourth firing): 749 (+1 since the 748 row)
+
+One row, per this node's standing instruction. This firing's ingest captured **1** record: `TRANSCRIPT:a52988a2…` (mirrored 0d ago), one no-argument `retry` of `ost_ingest_inbox` and no `tool_error` — row 4, a loop-prescribed call. One older body re-read (`0a69f0ff…`), already scored. No new shape, no seventh row. `withheldByDisposition` is still `[]`; the unblocking move is unchanged: one operator runs `ost-agent dispose` on one id, once. Nothing created, executed or re-ranked; `ost_check` is withheld on this surface, so this write is unverified by design.
