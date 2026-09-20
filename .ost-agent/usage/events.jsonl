@@ -13375,3 +13375,4 @@
 {"ts":"2026-09-20T00:02:34.128Z","tool":"ost_read_tree","ok":true,"ms":399,"surface":"mcp","argBytes":64,"session":"mcp-881add08-6723-48bc-b7d1-9bf7eb19bd44"}
 {"ts":"2026-09-20T00:02:46.646Z","tool":"ost_read_tree","ok":true,"ms":168,"surface":"mcp","argBytes":116,"session":"mcp-881add08-6723-48bc-b7d1-9bf7eb19bd44"}
 {"ts":"2026-09-20T00:03:54.905Z","tool":"ost_append_to_node","ok":true,"ms":243,"surface":"mcp","argBytes":6582,"session":"mcp-881add08-6723-48bc-b7d1-9bf7eb19bd44","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
+{"ts":"2026-09-20T00:08:14.166Z","tool":"ost_append_to_node","ok":true,"ms":59,"surface":"mcp","argBytes":6034,"session":"mcp-881add08-6723-48bc-b7d1-9bf7eb19bd44","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
