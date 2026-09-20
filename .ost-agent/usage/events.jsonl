@@ -13708,3 +13708,4 @@
 {"ts":"2026-09-20T21:41:59.395Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":20,"session":"mcp-a7d4dd54-a2d2-40bc-ad22-220e4c551740"}
 {"ts":"2026-09-20T21:43:18.467Z","tool":"ost_read_tree","ok":true,"ms":370,"surface":"mcp","argBytes":100,"session":"mcp-a7d4dd54-a2d2-40bc-ad22-220e4c551740"}
 {"ts":"2026-09-20T21:43:31.772Z","tool":"ost_ingest_inbox","ok":true,"ms":36,"surface":"mcp","argBytes":2,"session":"mcp-a7d4dd54-a2d2-40bc-ad22-220e4c551740"}
+{"ts":"2026-09-20T22:50:43.253Z","tool":"ost_ingest_inbox","ok":true,"ms":1882,"surface":"mcp","argBytes":2,"session":"mcp-c193d61e-82eb-49d2-9732-d1f96ce87918"}
