@@ -13680,3 +13680,4 @@
 {"ts":"2026-09-20T19:25:26.545Z","tool":"ost_read_tree","ok":true,"ms":187,"surface":"mcp","argBytes":127,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
 {"ts":"2026-09-20T19:26:52.608Z","tool":"ost_read_tree","ok":true,"ms":106,"surface":"mcp","argBytes":93,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
 {"ts":"2026-09-20T19:27:18.262Z","tool":"ost_annotate","ok":true,"ms":62,"surface":"mcp","argBytes":3942,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422","touched":["A flag I already judged false comes back every pass, because the clear is keyed to wording nothing told me to repeat.md"]}
+{"ts":"2026-09-20T19:27:20.483Z","tool":"ost_ingest_inbox","ok":true,"ms":51,"surface":"mcp","argBytes":2,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
