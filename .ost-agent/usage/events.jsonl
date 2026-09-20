@@ -13626,3 +13626,5 @@
 {"ts":"2026-09-20T15:56:58.850Z","tool":"ost_append_to_node","ok":true,"ms":38,"surface":"mcp","argBytes":2936,"session":"mcp-f3922730-fedc-42b1-8270-90f154a2bf10","touched":["A human-edited manifest of loop-prescribed call sequences the harvester suppresses.md"]}
 {"ts":"2026-09-20T15:57:15.859Z","tool":"ost_annotate","ok":true,"ms":47,"surface":"mcp","argBytes":2225,"session":"mcp-f3922730-fedc-42b1-8270-90f154a2bf10","touched":["Sessions update the task list as they go, not only at a clean end a backgrounded session never reaches.md"]}
 {"ts":"2026-09-20T15:57:17.856Z","tool":"ost_ingest_inbox","ok":true,"ms":42,"surface":"mcp","argBytes":2,"session":"mcp-f3922730-fedc-42b1-8270-90f154a2bf10"}
+{"ts":"2026-09-20T15:57:27.955Z","tool":"ost_next_work","ok":true,"ms":456,"surface":"mcp","argBytes":2,"session":"mcp-f3922730-fedc-42b1-8270-90f154a2bf10"}
+{"ts":"2026-09-20T17:00:37.090Z","tool":"ost_ingest_inbox","ok":true,"ms":167,"surface":"mcp","argBytes":2,"session":"mcp-acaa648a-eb49-4ea8-8b02-01492cfbfc31"}
