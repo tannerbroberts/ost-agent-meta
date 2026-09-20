@@ -4,6 +4,7 @@ status: unvalidated
 source: 'INBOX:2026-07-25-friction-passes-8-through-13-produced-zero-structure-whil.md'
 created: '2026-08-02'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Publish a stop condition the loop can evaluate, and make idling the honest default]]
@@ -44,3 +45,31 @@ The remaining seventeen appear in `ost-agent rollup` as buckets with populated s
 **For a human — the candidate fix, stated so it can be argued with.** Exclude from the under-served count any Opportunity that has Opportunity children, or count a category node's solutions transitively over its subtree. Under either rule all 25 drop out, and the bucket becomes a claim about leaf needs, which is the only place a solution belongs anyway. Whether a category node should ever carry a cross-cutting solution of its own is the question that decides between the two, and it is a design call, not a sweep's.
 
 _Observed by the 2026-08-05 unattended sweep, from the tool's own output and the vault's own History lines. Grounds usability, not demand._
+
+## 2026-09-19 — the idle branch is now the steady state, measured across 68 sessions
+
+Short, and new: this is not a restatement of the 2026-08-05 section, which is about the *invent-work* branch arriving through a counter. This is the *idle* branch, measured mechanically for the first time.
+
+**What was read.** Three consecutive `USAGE_*` records — 2026-09-16, -18, -19 — read directly off `.ost-agent/evidence/` rather than through the sweep. They are machine-recorded rollups of the append-only tool-invocation trace, and the file states the provenance: "Computed, not composed: no agent narrated, selected, or summarized these numbers."
+
+**The measurement.**
+
+| Day | Calls | Sessions | Writes |
+| --- | --- | --- | --- |
+| 2026-09-16 | 319 | 22 | 9 |
+| 2026-09-18 | 250 | 23 | 2 |
+| 2026-09-19 | 242 | 23 | 10 |
+
+811 calls across 68 sessions produced 21 writes. Every one was `ost_append_to_node` or `ost_annotate`. Across all three days there is **not a single** `ost_create_node`, `ost_link_nodes`, `ost_set_instrument`, `ost_set_status` or `ost_merge_nodes` call. The remaining 790 calls are `ost_read_tree` (400), `ost_next_work` (217), `ost_ingest_inbox` (88) and `ost_read_repo` (85).
+
+**Why this is this node's evidence, precisely.** This node's claim is that a loop with no honest stopping condition either idles or invents work. The 2026-08-05 section caught the inventing branch. This is the other one, and it is no longer a six-pass episode — it is the settled operating mode, two months on, at roughly 22 sessions a day. The original friction note behind this node reported six consecutive passes producing no structure; the trace now shows sixty-eight.
+
+**The part that makes idling more expensive than it sounds, which is the genuinely new claim.** Idling is supposed to be the cheap honest outcome. It is not cheap here, because a pass that finds nothing to do still writes — and the only write verb it has left is append-onto-existing. So each idle pass makes the nodes it read longer without making the tree larger or more decided. That is the interaction between this node and "The claim a node makes is buried under every pass's notes about it, so reading one node costs what reading ten should"; both halves are already on the tree, and what is new is that they now feed each other. The 400 `ost_read_tree` calls against 21 appends is that loop running: reading costs more each day, and the cheapest available contribution is to add to the cost.
+
+**Why no pass saw this until now.** `unmappedEvidence` is id-ordered and `USAGE:` sorts after `TRANSCRIPT:`, so with 733 of 758 rows behind the cap the entire usage channel sits in a tail no firing can page into. The channel has grown from 31 records to 47 since it was last examined on 2026-09-01; these three are among the 16 that arrived with nobody able to look at them. That is the same cap defect recorded on "An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target", reached independently here.
+
+**What this does NOT do.** It does not decrement the unmapped count. This node cannot be made to cite a `USAGE:` record — `source` is set at creation and no tool on this surface rewrites it — so these three records stay in the queue as untouched, which is the defect "I map evidence the way the method says — onto an existing node — and the queue counts it as untouched" already names. The rung was deliberately left at `assertion` and not promoted: the node's `source` still points at the inbox note alone, and promoting on evidence the frontmatter does not name would be talking the node up the ladder.
+
+**Limits.** Three days of 47 records, chosen as the most recent, not sampled at random — the other 13 unexamined days were not read and could differ. Call counts are the trace's own totals for the whole vault, so they mix unattended sweeps with any attended session on those days; the trace does not separate them, and a reader should not assume all 68 sessions were unattended firings. "Writes" counts write-verb invocations, not nodes changed. Nothing was executed, no rung moved, no instrument set, no status changed, no node created.
+
+_Method: `Glob` and `Read` over this vault's own `.ost-agent/evidence/`. Machine-recorded trace of this agent's own tool use; it grounds usability and the agent-tool loop, not external demand._
