@@ -13528,3 +13528,4 @@
 {"ts":"2026-09-20T09:03:55.175Z","tool":"ost_next_work","ok":true,"ms":290,"surface":"mcp","argBytes":62,"session":"mcp-dc45a91c-5a69-457d-966f-bb6b500ab16d"}
 {"ts":"2026-09-20T09:04:08.648Z","tool":"ost_read_tree","ok":true,"ms":121,"surface":"mcp","argBytes":84,"session":"mcp-dc45a91c-5a69-457d-966f-bb6b500ab16d"}
 {"ts":"2026-09-20T09:04:53.412Z","tool":"ost_append_to_node","ok":true,"ms":34,"surface":"mcp","argBytes":4573,"session":"mcp-dc45a91c-5a69-457d-966f-bb6b500ab16d","touched":["A scheduled run finds out its tools are missing only after it has started.md"]}
+{"ts":"2026-09-20T09:05:00.516Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-dc45a91c-5a69-457d-966f-bb6b500ab16d"}
