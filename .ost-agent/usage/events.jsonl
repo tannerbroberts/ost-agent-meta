@@ -13377,3 +13377,5 @@
 {"ts":"2026-09-20T00:03:54.905Z","tool":"ost_append_to_node","ok":true,"ms":243,"surface":"mcp","argBytes":6582,"session":"mcp-881add08-6723-48bc-b7d1-9bf7eb19bd44","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
 {"ts":"2026-09-20T00:08:14.166Z","tool":"ost_append_to_node","ok":true,"ms":59,"surface":"mcp","argBytes":6034,"session":"mcp-881add08-6723-48bc-b7d1-9bf7eb19bd44","touched":["Work I already decided needs a person comes back every pass as work I failed to do.md"]}
 {"ts":"2026-09-20T00:08:23.125Z","tool":"ost_ingest_inbox","ok":true,"ms":47,"surface":"mcp","argBytes":2,"session":"mcp-881add08-6723-48bc-b7d1-9bf7eb19bd44"}
+{"ts":"2026-09-20T00:08:24.987Z","tool":"ost_next_work","ok":true,"ms":796,"surface":"mcp","argBytes":2,"session":"mcp-881add08-6723-48bc-b7d1-9bf7eb19bd44"}
+{"ts":"2026-09-20T00:56:31.633Z","tool":"ost_ingest_inbox","ok":true,"ms":150,"surface":"mcp","argBytes":2,"session":"mcp-881688f8-6476-4e7c-af75-c22f14811c76"}
