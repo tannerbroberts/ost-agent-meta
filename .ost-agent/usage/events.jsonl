@@ -13643,3 +13643,5 @@
 {"ts":"2026-09-20T17:05:38.127Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":27,"session":"mcp-acaa648a-eb49-4ea8-8b02-01492cfbfc31"}
 {"ts":"2026-09-20T17:06:11.337Z","tool":"ost_read_tree","ok":true,"ms":153,"surface":"mcp","argBytes":98,"session":"mcp-acaa648a-eb49-4ea8-8b02-01492cfbfc31"}
 {"ts":"2026-09-20T17:07:06.152Z","tool":"ost_append_to_node","ok":true,"ms":81,"surface":"mcp","argBytes":6564,"session":"mcp-acaa648a-eb49-4ea8-8b02-01492cfbfc31","touched":["A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}
+{"ts":"2026-09-20T17:07:34.715Z","tool":"ost_read_tree","ok":true,"ms":431,"surface":"mcp","argBytes":114,"session":"mcp-acaa648a-eb49-4ea8-8b02-01492cfbfc31"}
+{"ts":"2026-09-20T17:07:59.501Z","tool":"ost_append_to_node","ok":true,"ms":68,"surface":"mcp","argBytes":4472,"session":"mcp-acaa648a-eb49-4ea8-8b02-01492cfbfc31","touched":["The waited-on process reports its own last state, so the expiry carries a gradient instead of a verdict.md"]}
