@@ -13664,3 +13664,19 @@
 {"ts":"2026-09-20T18:14:09.208Z","tool":"ost_read_tree","ok":true,"ms":247,"surface":"mcp","argBytes":116,"session":"mcp-fffbdc3c-642c-4f4b-94a2-2fa2a15515b6"}
 {"ts":"2026-09-20T18:17:45.152Z","tool":"ost_next_work","ok":true,"ms":210,"surface":"mcp","argBytes":62,"session":"mcp-fffbdc3c-642c-4f4b-94a2-2fa2a15515b6"}
 {"ts":"2026-09-20T19:22:36.199Z","tool":"ost_ingest_inbox","ok":true,"ms":178,"surface":"mcp","argBytes":2,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:22:37.922Z","tool":"ost_next_work","ok":true,"ms":581,"surface":"mcp","argBytes":2,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:23:22.732Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:23:23.925Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:23:46.318Z","tool":"ost_next_work","ok":true,"ms":179,"surface":"mcp","argBytes":62,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:23:50.549Z","tool":"ost_next_work","ok":true,"ms":59,"surface":"mcp","argBytes":62,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:23:56.774Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:24:01.270Z","tool":"ost_read_tree","ok":true,"ms":120,"surface":"mcp","argBytes":108,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:24:08.980Z","tool":"ost_read_tree","ok":true,"ms":116,"surface":"mcp","argBytes":86,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:24:13.785Z","tool":"ost_read_tree","ok":true,"ms":123,"surface":"mcp","argBytes":100,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:24:35.595Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":24,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:24:36.992Z","tool":"ost_read_repo","ok":true,"ms":17,"surface":"mcp","argBytes":20,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:24:41.982Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":127,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:24:56.928Z","tool":"ost_read_tree","ok":true,"ms":159,"surface":"mcp","argBytes":64,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:25:26.545Z","tool":"ost_read_tree","ok":true,"ms":187,"surface":"mcp","argBytes":127,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:26:52.608Z","tool":"ost_read_tree","ok":true,"ms":106,"surface":"mcp","argBytes":93,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422"}
+{"ts":"2026-09-20T19:27:18.262Z","tool":"ost_annotate","ok":true,"ms":62,"surface":"mcp","argBytes":3942,"session":"mcp-64bfb351-54bb-4e72-ab03-4b3df6946422","touched":["A flag I already judged false comes back every pass, because the clear is keyed to wording nothing told me to repeat.md"]}
