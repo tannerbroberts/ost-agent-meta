@@ -13551,3 +13551,14 @@
 {"ts":"2026-09-20T10:13:21.680Z","tool":"ost_append_to_node","ok":true,"ms":64,"surface":"mcp","argBytes":4873,"session":"mcp-3a89e36b-a581-4df7-9fb5-22d63ce1554c","touched":["The bucket gains the lane filter the function two doors down already has.md"]}
 {"ts":"2026-09-20T10:13:27.395Z","tool":"ost_ingest_inbox","ok":true,"ms":29,"surface":"mcp","argBytes":2,"session":"mcp-3a89e36b-a581-4df7-9fb5-22d63ce1554c"}
 {"ts":"2026-09-20T11:16:09.570Z","tool":"ost_ingest_inbox","ok":true,"ms":156,"surface":"mcp","argBytes":2,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:16:11.078Z","tool":"ost_next_work","ok":true,"ms":297,"surface":"mcp","argBytes":2,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:17:03.287Z","tool":"ost_read_repo","ok":true,"ms":39,"surface":"mcp","argBytes":15,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:17:14.377Z","tool":"ost_read_tree","ok":true,"ms":187,"surface":"mcp","argBytes":108,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:17:28.395Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:17:47.093Z","tool":"ost_read_tree","ok":true,"ms":136,"surface":"mcp","argBytes":86,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:17:55.481Z","tool":"ost_read_tree","ok":true,"ms":150,"surface":"mcp","argBytes":100,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:19:15.798Z","tool":"ost_next_work","ok":true,"ms":542,"surface":"mcp","argBytes":62,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:19:34.441Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:19:54.063Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":44,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:19:55.455Z","tool":"ost_read_repo","ok":true,"ms":3,"surface":"mcp","argBytes":31,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e"}
+{"ts":"2026-09-20T11:20:56.772Z","tool":"ost_append_to_node","ok":true,"ms":38,"surface":"mcp","argBytes":3866,"session":"mcp-94c5e340-a9c9-4d2f-b8cb-04a5c474335e","touched":["An operator-set evidence window in ost.config.yaml, amended by hand like discovery.target.md"]}
