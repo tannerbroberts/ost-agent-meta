@@ -31,3 +31,15 @@ There is deliberately no instrument. The bar is: the note is still accurate at 9
 The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
 
 **Sequencing:** this is the only one of the three candidates whose test and whose build are the same act, which makes it the natural first move regardless of how the other two are ranked. Its feasibility half needs no test at all — `ost.config.yaml` already carries hand-edited operator fields the tooling reads and never writes, verified with repo sight on 2026-08-29.
+
+## 2026-09-20 — this node's own reason stands; the premise it states about its siblings does not
+
+Three lines. Nothing here bears on whether this candidate is right.
+
+**The sentence being corrected.** This node states: "**No instrument, and the reason differs from its siblings'.** The other two candidates are unreachable because the helper is not in this repository." The second clause is false. Read first-party this pass via `ost_read_repo`, `src/loop/wait.ts` authors the `await` helper in full — `renderWaitShim()` emits the entire POSIX `sh` script, `ost-agent wait-shim` prints it, and `examples/automation/build-pass.sh` installs it onto `PATH` — and `test/loop/wait-primitive-affordance.test.ts` installs and executes it, asserting its exit statuses and its `gave up after` stderr line. Both sibling candidates are corrected on their own nodes this pass.
+
+**What survives untouched, which is this node's actual argument.** Its own reason for having no instrument is unaffected and remains sound: the load-bearing claim here is whether one person writes and maintains one sentence, which is a viability question about a human and not about code. No exit code reaches it, and no spec in this repository could. The contrast the sentence was drawing is what fails — the siblings are not unreachable, so this node is not the only one of the three whose bar needs a person; it is the only one whose bar needs a person *for that reason*.
+
+**Limits.** Source read, not run; nothing executed, no result recorded. Whether the siblings' feasibility halves are worth instrumenting is argued on those nodes, not here. No rung moved, no instrument set, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
+
+_Method: first-party `ost_read_repo` full reads of `src/loop/wait.ts` and `test/loop/wait-primitive-affordance.test.ts`._
