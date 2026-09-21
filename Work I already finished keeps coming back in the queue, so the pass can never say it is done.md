@@ -143,3 +143,27 @@ Kept short, per this node's convention. Only what is new.
 **What this does not settle.** Whether the operator wants the queue drained at all — unchanged, and the caveat above still stands. Nor whether the four runs were correctly reasoned; this pass read their recorded numbers and did not re-run anything.
 
 _Method: `Grep` over the vault's own frontmatter for `^type: AssumptionTest`, `^instrument:` and `^lane:` across three alphabet slices (494 / 367 / 60, reconciling to 67); four test bodies read in full; `test/security/self-validation.test.ts`, `test/ost/mutate.test.ts` and the `test/eval` listing read via `ost_read_repo`. Nothing executed, no rung moved, no instrument set, no status changed. Observed behaviour of this product's own tooling — grounds feasibility, silent on demand._
+
+## 2026-09-20 — the census repeated 20 days on: the unlabelled class is flat, the bucket grew anyway, and the repair has not shipped
+
+Four lines, per this node's convention. Only what is new: the 2026-08-31 entry counted this population once, and a single count cannot say whether it is draining. This is the second count, by the same method, so the deltas are the finding.
+
+**The same three numbers, 2026-08-31 → 2026-09-20.**
+
+| | 08-31 | 09-20 | Δ |
+|---|---|---|---|
+| AssumptionTests in tree | 494 | 515 | +21 |
+| carry an `instrument:` | 367 | 381 | +14 |
+| carry a `lane:` | 60 | 67 | +7 |
+| carry **neither** | 67 | **67** | **0** |
+| solutions in `solutionsMissingInstruments` | 68 | **75** | **+7** |
+
+**The gap that opened is the point.** The 08-31 entry could say "those 67 are the entire population behind the 68 solutions the sweep reports" — near enough 1:1. That no longer holds: 67 unlabelled tests now sit behind 75 solutions. Twenty-one new tests arrived and every one of them was given either an instrument or a lane, so the unlabelled class did not grow — yet the bucket did, by seven. The seven cannot be unlabelled tests, because there are no new unlabelled tests. The only population left that this bucket counts and the code does not filter is solutions whose tests carry a lane, which is precisely the class the repair below targets. **The bucket is now growing through the hole, not merely failing to drain into it**, and that is a change of direction from every entry above.
+
+**The repair still has not shipped, checked first-party this pass.** `test/eval/lane-aware-instrument-bucket.test.ts` — the instrument on "An all-cautious solution leaves the instrument bucket while one with a runnable test beside it stays" — is absent from a full listing of `test/eval` (29 files, none of that name). `testsAwaitingVerification` still opens with `if (n.lane === CAUTIOUS_LANE) continue;`, re-read in full this pass. So the one-line asymmetry this node located on 2026-08-21 is intact 30 days later, and the spec that would redden for it was written 21 days ago and never created.
+
+**And the third lane is still unused after 30 days.** All 67 lanes in the vault are `humans-required`; `compute-only`, `one-command` and `pending-permission` remain at **zero** occurrences as fields, re-counted this pass. The 2026-08-21 entry predicted this is why `assumptionWork.runnable` reads 0 on every sweep; it read 0 again today, with 515 tests in the tree.
+
+**Limits, and one of them matters.** The absence of the lane check inside `solutionsMissingInstruments` itself is **carried from the 2026-08-21 read, not re-confirmed today**: `src/eval/buildable.ts` is now 23,611 bytes and `ost_read_repo` truncates at roughly 20,000 characters — the cut lands in that function's own docstring, so the body is unreachable from this surface. What was re-confirmed is the sibling function's line and the missing spec file. The 67/381/67 split is computed from vault frontmatter and assumes no node carries both an instrument and a lane; spot checks found none, but it was not verified across all 515. Nothing was executed, no rung moved, no instrument set, no status changed, no node created.
+
+_Method: `Grep` over this vault's own frontmatter (`^type: AssumptionTest` 515, `^instrument:` 381, `^lane: humans-required` 67, the three permissive lanes 0); `ost_read_repo` full read of `src/eval/buildable.ts` (truncated) and a listing of `test/eval`; bucket total from this pass's own `ost_next_work`. Observed behaviour of this product's own code and stored nodes — grounds feasibility, silent on demand._
