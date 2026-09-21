@@ -13743,3 +13743,4 @@
 {"ts":"2026-09-21T00:00:03.953Z","tool":"ost_read_repo","ok":true,"ms":34,"surface":"mcp","argBytes":32,"session":"mcp-cce59894-8aaf-4928-a448-cf56d5e0e1f0"}
 {"ts":"2026-09-21T00:00:23.520Z","tool":"ost_read_repo","ok":true,"ms":6,"surface":"mcp","argBytes":20,"session":"mcp-cce59894-8aaf-4928-a448-cf56d5e0e1f0"}
 {"ts":"2026-09-21T00:01:09.403Z","tool":"ost_append_to_node","ok":true,"ms":89,"surface":"mcp","argBytes":3766,"session":"mcp-cce59894-8aaf-4928-a448-cf56d5e0e1f0","touched":["Work I already finished keeps coming back in the queue, so the pass can never say it is done.md"]}
+{"ts":"2026-09-21T00:01:19.031Z","tool":"ost_ingest_inbox","ok":true,"ms":29,"surface":"mcp","argBytes":2,"session":"mcp-cce59894-8aaf-4928-a448-cf56d5e0e1f0"}
