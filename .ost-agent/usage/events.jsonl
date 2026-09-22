@@ -14005,3 +14005,13 @@
 {"ts":"2026-09-22T03:53:21.769Z","tool":"ost_next_work","ok":true,"ms":37,"surface":"mcp","argBytes":62,"session":"mcp-f0b71f21-9040-4489-807c-c73dbad42eaa"}
 {"ts":"2026-09-22T03:53:29.082Z","tool":"ost_read_tree","ok":true,"ms":163,"surface":"mcp","argBytes":93,"session":"mcp-f0b71f21-9040-4489-807c-c73dbad42eaa"}
 {"ts":"2026-09-22T04:56:01.800Z","tool":"ost_ingest_inbox","ok":true,"ms":170,"surface":"mcp","argBytes":2,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:03.812Z","tool":"ost_next_work","ok":true,"ms":392,"surface":"mcp","argBytes":2,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:13.576Z","tool":"ost_read_tree","ok":true,"ms":236,"surface":"mcp","argBytes":108,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:13.921Z","tool":"ost_next_work","ok":true,"ms":198,"surface":"mcp","argBytes":62,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:20.046Z","tool":"ost_read_tree","ok":true,"ms":129,"surface":"mcp","argBytes":84,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:26.575Z","tool":"ost_read_tree","ok":true,"ms":139,"surface":"mcp","argBytes":86,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:26.861Z","tool":"ost_read_tree","ok":true,"ms":93,"surface":"mcp","argBytes":100,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:34.580Z","tool":"ost_read_tree","ok":true,"ms":127,"surface":"mcp","argBytes":127,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:40.510Z","tool":"ost_next_work","ok":true,"ms":938,"surface":"mcp","argBytes":62,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T04:56:41.808Z","tool":"ost_next_work","ok":true,"ms":36,"surface":"mcp","argBytes":62,"session":"mcp-2977f3dc-69e1-4fde-9448-391f02ce7c82"}
+{"ts":"2026-09-22T05:59:30.874Z","tool":"ost_ingest_inbox","ok":true,"ms":171,"surface":"mcp","argBytes":2,"session":"mcp-c0b6f066-42f9-42ef-aa03-23759504baba"}
