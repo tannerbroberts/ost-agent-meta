@@ -14185,3 +14185,11 @@
 {"ts":"2026-09-22T23:03:49.082Z","tool":"ost_read_tree","ok":true,"ms":159,"surface":"mcp","argBytes":98,"session":"mcp-9fea2aa7-eea2-4344-809a-2806a954e00b"}
 {"ts":"2026-09-22T23:03:49.370Z","tool":"ost_read_tree","ok":true,"ms":146,"surface":"mcp","argBytes":42,"session":"mcp-9fea2aa7-eea2-4344-809a-2806a954e00b"}
 {"ts":"2026-09-23T00:07:27.135Z","tool":"ost_ingest_inbox","ok":true,"ms":342,"surface":"mcp","argBytes":2,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c"}
+{"ts":"2026-09-23T00:07:29.571Z","tool":"ost_next_work","ok":true,"ms":562,"surface":"mcp","argBytes":2,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c"}
+{"ts":"2026-09-23T00:07:39.424Z","tool":"ost_read_tree","ok":true,"ms":135,"surface":"mcp","argBytes":108,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c"}
+{"ts":"2026-09-23T00:07:44.594Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":86,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c"}
+{"ts":"2026-09-23T00:07:45.000Z","tool":"ost_read_tree","ok":true,"ms":133,"surface":"mcp","argBytes":100,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c"}
+{"ts":"2026-09-23T00:07:51.407Z","tool":"ost_read_tree","ok":true,"ms":152,"surface":"mcp","argBytes":64,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c"}
+{"ts":"2026-09-23T00:07:55.931Z","tool":"ost_next_work","ok":true,"ms":765,"surface":"mcp","argBytes":62,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c"}
+{"ts":"2026-09-23T00:07:56.829Z","tool":"ost_next_work","ok":true,"ms":23,"surface":"mcp","argBytes":31,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c"}
+{"ts":"2026-09-23T00:08:06.480Z","tool":"ost_annotate","ok":true,"ms":58,"surface":"mcp","argBytes":982,"session":"mcp-ab7784c2-a777-4563-ac1c-013db8706c7c","touched":["A third of my calls go on re-asking what is outstanding.md"]}
