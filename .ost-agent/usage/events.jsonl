@@ -14428,3 +14428,8 @@
 {"ts":"2026-09-23T23:36:04.471Z","tool":"ost_read_tree","ok":true,"ms":221,"surface":"mcp","argBytes":100,"session":"mcp-208b048e-7960-41b7-9f94-7af5b6a1a265"}
 {"ts":"2026-09-23T23:36:10.407Z","tool":"ost_read_tree","ok":true,"ms":154,"surface":"mcp","argBytes":64,"session":"mcp-208b048e-7960-41b7-9f94-7af5b6a1a265"}
 {"ts":"2026-09-24T00:38:58.443Z","tool":"ost_ingest_inbox","ok":true,"ms":134,"surface":"mcp","argBytes":2,"session":"mcp-7995de7e-d601-425d-9a31-350246e542aa"}
+{"ts":"2026-09-24T00:39:00.152Z","tool":"ost_next_work","ok":true,"ms":425,"surface":"mcp","argBytes":2,"session":"mcp-7995de7e-d601-425d-9a31-350246e542aa"}
+{"ts":"2026-09-24T00:39:12.577Z","tool":"ost_read_tree","ok":true,"ms":152,"surface":"mcp","argBytes":108,"session":"mcp-7995de7e-d601-425d-9a31-350246e542aa"}
+{"ts":"2026-09-24T00:39:23.162Z","tool":"ost_read_tree","ok":true,"ms":140,"surface":"mcp","argBytes":86,"session":"mcp-7995de7e-d601-425d-9a31-350246e542aa"}
+{"ts":"2026-09-24T00:39:27.106Z","tool":"ost_next_work","ok":true,"ms":396,"surface":"mcp","argBytes":62,"session":"mcp-7995de7e-d601-425d-9a31-350246e542aa"}
+{"ts":"2026-09-24T01:42:09.581Z","tool":"ost_ingest_inbox","ok":true,"ms":128,"surface":"mcp","argBytes":2,"session":"mcp-b18e04e5-58b1-4805-bf31-4a450f9dbf3f"}
