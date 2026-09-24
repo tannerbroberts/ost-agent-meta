@@ -14547,3 +14547,7 @@
 {"ts":"2026-09-24T12:17:49.947Z","tool":"ost_next_work","ok":true,"ms":202,"surface":"mcp","argBytes":62,"session":"mcp-37fe2a9a-c117-48c1-8cff-f31c6765934a"}
 {"ts":"2026-09-24T12:17:50.278Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-37fe2a9a-c117-48c1-8cff-f31c6765934a"}
 {"ts":"2026-09-24T13:31:52.536Z","tool":"ost_ingest_inbox","ok":true,"ms":11803,"surface":"cli-fallback","argBytes":2}
+{"ts":"2026-09-24T13:32:13.971Z","tool":"ost_check","ok":true,"ms":17076,"surface":"cli-fallback","argBytes":2}
+{"ts":"2026-09-24T13:32:31.058Z","tool":"ost_status","ok":true,"ms":15005,"surface":"cli-fallback","argBytes":2}
+{"ts":"2026-09-24T13:32:46.092Z","tool":"ost_debt","ok":true,"ms":11282,"surface":"cli-fallback","argBytes":2}
+{"ts":"2026-09-24T14:30:15.833Z","tool":"ost_ingest_inbox","ok":true,"ms":816,"surface":"mcp","argBytes":2,"session":"mcp-2185d151-b255-4a58-9729-464d6ae4770d"}
