@@ -14681,3 +14681,4 @@
 {"ts":"2026-09-25T02:40:34.619Z","tool":"ost_read_tree","ok":true,"ms":153,"surface":"mcp","argBytes":100,"session":"mcp-ca32b139-29ba-4a0e-bbc9-867364dce172"}
 {"ts":"2026-09-25T02:40:39.310Z","tool":"ost_next_work","ok":true,"ms":1105,"surface":"mcp","argBytes":62,"session":"mcp-ca32b139-29ba-4a0e-bbc9-867364dce172"}
 {"ts":"2026-09-25T02:40:47.804Z","tool":"ost_ingest_inbox","ok":true,"ms":37,"surface":"mcp","argBytes":2,"session":"mcp-ca32b139-29ba-4a0e-bbc9-867364dce172"}
+{"ts":"2026-09-25T04:01:42.528Z","tool":"ost_ingest_inbox","ok":true,"ms":198,"surface":"mcp","argBytes":2,"session":"mcp-bb5cd8a3-6252-4bb5-88f9-e02a79eb945d"}
