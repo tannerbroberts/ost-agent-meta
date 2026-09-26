@@ -14889,3 +14889,13 @@
 {"ts":"2026-09-26T12:12:50.959Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-013b1a0e-6a1e-438e-b526-7209a719ee07"}
 {"ts":"2026-09-26T12:12:56.552Z","tool":"ost_ingest_inbox","ok":true,"ms":35,"surface":"mcp","argBytes":2,"session":"mcp-013b1a0e-6a1e-438e-b526-7209a719ee07"}
 {"ts":"2026-09-26T13:15:55.390Z","tool":"ost_ingest_inbox","ok":true,"ms":155,"surface":"mcp","argBytes":2,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:15:57.078Z","tool":"ost_next_work","ok":true,"ms":492,"surface":"mcp","argBytes":2,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:16:05.754Z","tool":"ost_read_tree","ok":true,"ms":156,"surface":"mcp","argBytes":108,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:16:06.041Z","tool":"ost_read_tree","ok":true,"ms":116,"surface":"mcp","argBytes":116,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:16:11.400Z","tool":"ost_next_work","ok":true,"ms":403,"surface":"mcp","argBytes":62,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:16:11.979Z","tool":"ost_read_tree","ok":true,"ms":109,"surface":"mcp","argBytes":98,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:16:12.255Z","tool":"ost_read_tree","ok":true,"ms":107,"surface":"mcp","argBytes":86,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:16:18.342Z","tool":"ost_read_tree","ok":true,"ms":245,"surface":"mcp","argBytes":100,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:16:18.723Z","tool":"ost_read_tree","ok":true,"ms":125,"surface":"mcp","argBytes":93,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T13:16:25.181Z","tool":"ost_read_tree","ok":true,"ms":210,"surface":"mcp","argBytes":127,"session":"mcp-bb83fa98-54bb-427a-94e7-6a9e8907d14c"}
+{"ts":"2026-09-26T14:19:18.959Z","tool":"ost_ingest_inbox","ok":true,"ms":215,"surface":"mcp","argBytes":2,"session":"mcp-adbb923d-7ce7-484a-8608-24d93944c905"}
