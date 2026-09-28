@@ -15258,3 +15258,15 @@
 {"ts":"2026-09-28T03:22:36.655Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":103,"session":"mcp-fb863c08-2165-47bd-9359-9dbb00dfdf1b"}
 {"ts":"2026-09-28T03:22:37.005Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":105,"session":"mcp-fb863c08-2165-47bd-9359-9dbb00dfdf1b"}
 {"ts":"2026-09-28T04:24:13.687Z","tool":"ost_ingest_inbox","ok":true,"ms":109,"surface":"mcp","argBytes":2,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:15.305Z","tool":"ost_next_work","ok":true,"ms":153,"surface":"mcp","argBytes":2,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:21.603Z","tool":"ost_next_work","ok":true,"ms":23,"surface":"mcp","argBytes":62,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:22.122Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:26.722Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":101,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:33.737Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":108,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:33.905Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:40.593Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":86,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:41.041Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":100,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:41.516Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":93,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:41.931Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:24:49.938Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":127,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704"}
+{"ts":"2026-09-28T04:25:06.713Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":1387,"session":"mcp-36644af6-f25a-440c-b00b-b2fe7c1c6704","touched":["A run never states which tools it had, so a degraded pass reads like a full one afterwards.md"]}
