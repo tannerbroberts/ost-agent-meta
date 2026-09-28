@@ -15384,3 +15384,4 @@
 {"ts":"2026-09-28T13:45:50.633Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":77,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
 {"ts":"2026-09-28T13:46:00.905Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":116,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
 {"ts":"2026-09-28T13:46:20.613Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":4050,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
+{"ts":"2026-09-28T13:46:22.807Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
