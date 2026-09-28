@@ -15361,3 +15361,26 @@
 {"ts":"2026-09-28T12:42:36.730Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":64,"session":"mcp-8b611c47-946b-4809-bdd8-b2ad557a137b"}
 {"ts":"2026-09-28T12:42:37.030Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":103,"session":"mcp-8b611c47-946b-4809-bdd8-b2ad557a137b"}
 {"ts":"2026-09-28T13:44:24.200Z","tool":"ost_ingest_inbox","ok":true,"ms":113,"surface":"mcp","argBytes":2,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:24.736Z","tool":"ost_next_work","ok":true,"ms":159,"surface":"mcp","argBytes":2,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:33.131Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:33.248Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:33.588Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:37.719Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:48.742Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":116,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:53.503Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:54.227Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:54.694Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:55.320Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:55.616Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:56.066Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:44:59.663Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":108,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:45:10.575Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":86,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:45:11.079Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":100,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:45:11.428Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":104,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:45:25.195Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":64,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:45:25.364Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":98,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:45:25.570Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":103,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:45:50.340Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":65,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:45:50.633Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":77,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:46:00.905Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":116,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac"}
+{"ts":"2026-09-28T13:46:20.613Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":4050,"session":"mcp-eb2a1b94-e4dc-47b3-9115-03916b18c1ac","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}

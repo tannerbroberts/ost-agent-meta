@@ -112,3 +112,32 @@ Monotonic in both columns across 23 days: the bucket grew 63 → 70 → 75 and t
 **Limits.** Three points is a direction, not a rate: the intervals are uneven (7 days, then 16) and nothing here fits one. The instrument bucket's 63 → 70 → 75 arrivals are inferred from totals, never enumerated, so which entries pushed the cut is unknown. Seven of 25 were opened in full; the verdict on the other 18 is read off their titles and is the weakest claim in this section. The proportional-recession argument assumes ids are uniform over the hex space and arrivals independent of it, which is true of harness-minted session ids and was not tested. Every count is this pass's own `ost_next_work` response compared against counts this node already records — the agent reporting on the surface that grades it, checkable by re-running the sweep and reading the first and last member of each capped list. Nothing was executed, no result recorded, no rung moved, no instrument set, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
 
 _Method: this firing's own `ost_next_work` response, plus full `ost_read_tree` reads of seven solutions from the visible instrument window and `ost_read_repo` listings of `test/` and `test/eval/`. Observed behaviour of this product's own surface; it grounds usability, not demand._
+
+## 2026-09-28: one grep lists the whole hidden instrument tail, and it held nothing an unattended pass could instrument
+
+This is short on purpose. It closes the gap this node keeps restating, that the solutions hidden in `solutionsMissingInstruments` "remain entirely unexamined by anyone". It also adds a fourth point to the recession series.
+
+**The technique, which reaches the tail without the sweep.** This multiline `Grep` over the vault's node files lists every AssumptionTest whose frontmatter has no `instrument:` line, head and tail alike, in one call:
+
+`\A---\ntype: AssumptionTest\n(?:[^i\n][^\n]*\n)*---\n`
+
+It works because `instrument` is the only frontmatter key that starts with `i`. The engine has no look-ahead, so a character class stands in for one. Today it returned **134 files**, which matches the rollup's 515 − 381 exactly. The bucket's 75 solutions are the parents of those 134 tests. So a pass can see every prose-only test for the price of one call, not 25 at a time, and no ordering or cursor has to be built first.
+
+**What the 134 hold.** I sorted them by title and opened three in full: "Do the shipped sweeps actually find a planted instance", "Test humans can promote while the agent is blocked from validating", and "Show one operator the grouped queue and the record listing, and record which one they act from".
+- Most are about what a person does: questions to the operator or to someone who can read the harness source, interviews, pricing and offer probes, blind ratings, and "count from git history" checks against the vault. None of those can be answered by a spec in `product.repos`.
+- The two that looked like repository questions both carry an earlier note, dated 2026-08-31, that the spec answering them already exists and passes: `test/eval/planted-instance.test.ts` and `test/security/self-validation.test.ts`. A passing spec cannot be an instrument, because an instrument must fail today.
+
+So the hidden tail looks like the visible head: tests that need a lane set by a human, or a result recorded by one, and not tests missing a command. This pass set no instruments, and it was not stopped by the list cap.
+
+**The recession series, fourth point.**
+
+| date | `solutionsMissingInstruments` | last visible title | `unmappedEvidence` |
+|---|---|---|---|
+| 2026-09-19 | 25 of 75 | "Name the specific mechanisms a hand process structurally cannot have" | 25 of 755, runs to `0e592fcc` |
+| 2026-09-28 | **25 of 75** | **same** | **25 of 807, runs to `0e24ead9`** |
+
+The instrument list stopped receding because it stopped growing: no solution was added in nine days. The 2026-09-19 section predicted that "Name the engine's published dialect in the tool description and build no validator of our own" would drop out of view. That has **not happened yet**, for that reason and not because the stranding argument was wrong. The evidence list is still receding (755 → 807 records, and the boundary moved back from `0e59…` to `0e24…`), which matches the proportional-recession correction in the section above.
+
+**Limits.** The 134 were sorted by title, and only three were read in full. The claim that none can be instrumented from the repository rests on their titles plus earlier notes, not on reading all 134. The regex assumes no other frontmatter key starts with `i`, and a future key could break it. It would then undercount, meaning some tests would quietly go missing from the list. Nothing was executed, no instrument set, no rung moved, no status changed, and no node created. `ost_check` is withheld on this surface, so this write has not been checked by the invariant checker.
+
+_Method: one multiline `Grep` over this vault's node frontmatter, full reads of three tests with `ost_read_tree`, and this pass's own `ost_next_work` response. This observes the product's own surface and grounds usability, not demand._
