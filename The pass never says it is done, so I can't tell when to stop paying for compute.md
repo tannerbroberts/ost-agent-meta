@@ -140,3 +140,34 @@ Kept short. One number, from a channel that has never been cited on this node be
 **Not mapped, and that is this node's own first defect.** `USAGE:2026-09-01` corroborates an opportunity that already exists, so there is no honest node to create for it and no affordance to add a second `source:` to this one. It will therefore be reported as unmapped evidence on every future pass — the many-to-one gap the 2026-08-02 section names as the binding one, demonstrated once more by the very record that measures its cost.
 
 _Source: `USAGE:2026-09-01`, read in full via `ost_next_work({evidence})`. Machine-recorded trace of this product's own agent — it grounds usability and the agent-tool loop, not external demand. Nothing executed, no rung moved, no instrument set, no status changed._
+
+## 2026-09-28: the write share fell from 9.8% to under half a percent, and the stop condition still says "go"
+
+This is the 2026-09-01 measurement taken again from the same channel, four weeks later. It uses the same method so the two can be compared.
+
+| | 2026-09-01 | 2026-09-27 | 2026-09-28 |
+|---|---|---|---|
+| Sessions | 21 | 22 | 23 |
+| MCP calls | 491 | 210 | 261 |
+| Structural writes | 48 (9.8%) | **0** | **2** (`append_to_node`) |
+| `read_tree` + `next_work` + `read_repo` | 401 | 188 | 234 |
+
+**What changed.** On 2026-09-01 the loop was expensive, but it still built structure: about 2.3 writes per firing. Over the last two days, 45 firings made 471 calls and left 2 writes. The spend per firing fell by about half, so the loop has learned to read less. The tree gained almost nothing from those firings.
+
+**Why that matters to this node in particular.** The loop's own stop condition reported `go: 810 unmappedEvidence, 1 underservedOpportunities, 75 solutionsMissingInstruments` to this firing. All three are sections this node already records as unclearable from this surface:
+- the evidence is transcript/usage records that corroborate existing needs, and nothing can add a second `source:`;
+- the one under-served opportunity is under a recorded human hold;
+- the instrument bucket is the floor from the 2026-08-28 section, and the relabel tool is withheld.
+
+So the loop keeps being told to fire, it now correctly does almost nothing, and nothing converts "almost nothing, correctly" into `stop`. That is this node's complaint about paying for compute, measured directly: 45 paid firings over two days, and the only signal that they were idle is a count of writes that nobody reads.
+
+**What would close it, for a human.** Any one of these would let `loop stop` read `stop`:
+- `ost-agent dispose` on the held opportunity;
+- `ost-agent lane --set` on the humans-required tests in the instrument bucket;
+- a many-to-one evidence mapping.
+
+None of these can be done on this surface.
+
+**Limits.** This covers two days, and they may not be typical. The trace covers MCP calls only, so harness reads (`Read`, `Glob`, `Grep`) are not counted and the true read share is higher. Session count is used as a stand-in for firing count. Nothing was executed, no rung moved and no status changed. `ost_check` is withheld here, so this write has not been checked against the invariants, by design.
+
+_Source: `USAGE:2026-09-27` and `USAGE:2026-09-28`, both read in full from the vault's evidence store. They are a machine-recorded trace and ground usability, not demand._
