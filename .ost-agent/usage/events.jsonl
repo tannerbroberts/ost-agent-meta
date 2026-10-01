@@ -16048,3 +16048,4 @@
 {"ts":"2026-10-01T05:12:00.172Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-31fbf0b4-a289-4e57-9eb9-b8ab2f55411f"}
 {"ts":"2026-10-01T05:12:03.555Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":86,"session":"mcp-31fbf0b4-a289-4e57-9eb9-b8ab2f55411f"}
 {"ts":"2026-10-01T05:12:07.164Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-31fbf0b4-a289-4e57-9eb9-b8ab2f55411f"}
+{"ts":"2026-10-01T06:13:48.545Z","tool":"ost_ingest_inbox","ok":true,"ms":124,"surface":"mcp","argBytes":2,"session":"mcp-833724f2-b683-4a99-b79b-63c9371cfa34"}
