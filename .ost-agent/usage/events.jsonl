@@ -16001,3 +16001,4 @@
 {"ts":"2026-10-01T01:02:25.856Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":31,"session":"mcp-ca9dab7b-b526-42c8-ab85-3e3ca80f094c"}
 {"ts":"2026-10-01T01:02:43.329Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1149,"session":"mcp-ca9dab7b-b526-42c8-ab85-3e3ca80f094c","touched":["A third of my calls go on re-asking what is outstanding.md"]}
 {"ts":"2026-10-01T01:02:45.079Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-ca9dab7b-b526-42c8-ab85-3e3ca80f094c"}
+{"ts":"2026-10-01T02:04:27.300Z","tool":"ost_ingest_inbox","ok":true,"ms":124,"surface":"mcp","argBytes":2,"session":"mcp-87730a46-4bc9-4377-9f2d-e47ef7c75cf2"}
