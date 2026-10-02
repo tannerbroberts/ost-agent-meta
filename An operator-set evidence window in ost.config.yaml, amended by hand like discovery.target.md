@@ -7,6 +7,7 @@ authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[An operator who must move the window by hand will actually move it more than once]]
+[[An operator-declared evidence window can be applied before the list cap, at the seam discovery.target already uses]]
 
 **Variation dimension: who-does-the-work. Position taken: the person, not the agent.**
 
