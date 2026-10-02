@@ -35,3 +35,10 @@ The test title is quoted rather than wikilinked on purpose: its one backlink bel
 
 ## Issues
 - 2026-09-16 2026-09-16 unattended sweep (with repo sight): checked this for a missing instrument and left it without one on purpose. Its only test, "Show one operator the grouped queue and the record listing, and record which one they act from", is marked humans-required in this node's own prose. The bar is whether an operator acts from the groups, and an exit code can't observe that. A spec in the repo could check the other half, that `ost_next_work` returns groups at all. That part isn't built: this pass's sweep output has no signature grouping, and neither test/mcp/next-work.test.ts nor test/friction/ has a spec for it. So any command written today would fail only because no spec file exists (`no-spec`) and would give a builder nothing. What would move this node: a human sets the lane with `ost-agent lane --set` (`ost_flag_humans_required` isn't available on this surface). Or an attended session writes a failing assertion in test/mcp/next-work.test.ts that expects signature groups next to shown/total/hidden, adds it as a feasibility assumption, and names it as that assumption's instrument.
+
+## Definition of done — the feasibility half (2026-10-01)
+
+"next_work emits unmapped friction grouped by signature, collapsing records that differ only in volatile fields"
+`npx vitest run test/mcp/next-work-signature-groups.test.ts`
+
+This red is `no-spec`: the instrument tool refuses `-t` filters, so naming a new spec file is the only legal form. The test node spells out the assertion the spec has to make, using the fixture pattern from `test/mcp/next-work.test.ts`. Write that spec first and see it fail on the missing grouping field before building anything. This covers only whether groups can be computed. The humans-required definition of done above, whether an operator acts from them, is still open.
