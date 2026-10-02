@@ -141,3 +141,11 @@ Four lines, per this branch's convention. This is deliberately **not** a sixth o
 **Limits.** Both files were read, not run; nothing was executed and no result is recorded. That no caller used the third positional argument is read off the retry arguments recorded in this node's own earlier sections, not from a fresh scan of the corpus, and a caller who did use it would leave a retry this pass did not look for. The `build-pass.sh` installation is established from the spec's assertions about that script rather than from reading the script, so it rests on that spec passing. Whether the stateless reading holds for the shipped shim as installed is inferred from the renderer being the only source of it, which the spec's `the shim needs nothing but sh` case supports but does not prove. No rung moved, no instrument set, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
 
 _Method: first-party `ost_read_repo` full reads of `src/loop/wait.ts` and `test/loop/wait-primitive-affordance.test.ts`, plus a listing of `test/loop/`. Observed structure of the product's own code and spec suite; it grounds feasibility, not desirability._
+
+## Definition of done — feasibility half (2026-10-01)
+
+"A second wait on the same condition reports the seconds the first spent and runs to a doubled bound"
+
+    npx vitest run test/loop/wait-escalation.test.ts
+
+This is the half of the bar a command can settle: the shim remembers what it already spent and doubles from there. The spec does not exist yet, so today the command fails as `no-spec`, and that tells a builder nothing beyond "write this file". The four assertions to write are listed on the test node, and the one that should go red against today's stateless `renderWaitShim()` is the doubled bound on the second identical invocation. The humans-required bar above, about slow versus never-true expiries, is unchanged and still decides whether this should be built at all. The test title is quoted rather than linked because its one backlink belongs to its parent assumption.
