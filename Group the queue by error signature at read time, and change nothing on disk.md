@@ -7,6 +7,7 @@ authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[A reader shown five signature groups acts on the groups instead of asking for the records behind them]]
+[[The sweep can derive an error signature from each friction record without reading anything but the record]]
 
 **Variation dimension: who-does-the-work. Position taken: the agent, at read time — and nobody edits, stores, or curates anything.**
 

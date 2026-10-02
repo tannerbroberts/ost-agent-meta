@@ -16221,3 +16221,12 @@
 {"ts":"2026-10-01T23:54:02.902Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-b059c31b-0169-4110-80e4-6dc6c24587d8"}
 {"ts":"2026-10-01T23:54:03.534Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-b059c31b-0169-4110-80e4-6dc6c24587d8"}
 {"ts":"2026-10-02T00:55:50.639Z","tool":"ost_ingest_inbox","ok":true,"ms":123,"surface":"mcp","argBytes":2,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:55:52.030Z","tool":"ost_next_work","ok":true,"ms":173,"surface":"mcp","argBytes":2,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:56:00.950Z","tool":"ost_read_tree","ok":true,"ms":91,"surface":"mcp","argBytes":108,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:56:01.375Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:56:07.247Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":84,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:56:11.236Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":98,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:56:11.415Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":15,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:56:17.196Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":86,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:56:24.286Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be"}
+{"ts":"2026-10-02T00:56:32.953Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":1481,"session":"mcp-cb8fcfef-862c-4dc1-a1ed-d6c051c880be","wrote":["The sweep can derive an error signature from each friction record without reading anything but the record.md"],"touched":["The sweep can derive an error signature from each friction record without reading anything but the record.md","Group the queue by error signature at read time, and change nothing on disk.md"]}
