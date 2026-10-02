@@ -16263,3 +16263,24 @@
 {"ts":"2026-10-02T03:02:41.531Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-133efe17-ce6c-4a3c-9477-1ee282c492bd"}
 {"ts":"2026-10-02T03:02:41.991Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-133efe17-ce6c-4a3c-9477-1ee282c492bd"}
 {"ts":"2026-10-02T04:04:26.001Z","tool":"ost_ingest_inbox","ok":true,"ms":115,"surface":"mcp","argBytes":2,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:27.507Z","tool":"ost_next_work","ok":true,"ms":171,"surface":"mcp","argBytes":2,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:35.446Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":108,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:35.770Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:36.274Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:42.868Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:45.360Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":116,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:51.489Z","tool":"ost_next_work","ok":true,"ms":23,"surface":"mcp","argBytes":62,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:52.101Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:52.615Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:53.137Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:59.476Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":113,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:04:59.882Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":93,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:05.340Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":114,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:05.671Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:12.996Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":113,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:16.203Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":127,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:34.455Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:34.830Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":91,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:40.289Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":98,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:42.905Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":27,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:05:54.714Z","tool":"ost_create_node","ok":true,"ms":4,"surface":"mcp","argBytes":2273,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2","wrote":["The wait helper can remember time already spent on a condition across separate invocations.md"],"touched":["The wait helper can remember time already spent on a condition across separate invocations.md","A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}
