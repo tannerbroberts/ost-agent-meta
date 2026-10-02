@@ -23,3 +23,6 @@ The fixture follows `test/mcp/next-work.test.ts` and `test/mcp/scoped-next-work.
 **What this does not settle.** A green run shows the window can be built at that seam without touching `done`. It doesn't show that an operator will ever move the window. That is the sibling assumption, answered from eight weeks of git history, and it is still the cheaper and more decisive test for this candidate.
 
 Unvalidated. Agent-proposed 2026-10-01; nobody has run it.
+
+## Instrument Log
+- 2026-10-02 **no-spec** (exit none) `npx vitest run test/mcp/next-work-evidence-window.test.ts` — test/mcp/next-work-evidence-window.test.ts does not exist — no spec was collected, so nothing was measured
