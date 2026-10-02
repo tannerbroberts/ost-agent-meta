@@ -254,3 +254,19 @@ Four lines, per this node's own objection to long appends. No re-census: the 202
 **Limits.** The four flat figures are this firing's `ost-agent rollup` and `ost_next_work` values against the 2026-09-19 row read off this node, not an independent recount, so they inherit whatever those computations count and the interval is approximate at its ends — the trace is dated 2026-09-20 and this firing's own fresh capture carries a 2026-09-21T02:14Z stamp. The 375 calls are all-surface for the day and are not attributed to discovery firings specifically; some belong to other work against this vault, so "22 firings" is the trace's session count and not a verified count of discovery passes. That the day's writes landed nowhere near this bucket is inferred from the flat figures, not from tracing the 25 writes individually. Nothing was executed, no test run, no result recorded, no lane set, no instrument set, no rung moved, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
 
 _Method: this firing's own `ost_next_work` response and pasted `ost-agent rollup`, `ost_next_work({evidence})` reads of `USAGE:2026-09-20` and one fresh transcript record, `ost_read_repo` full reads of `test/mcp/next-work.test.ts` and `test/ost/instrument-rationing.test.ts`, and four `ost_read_tree` body reads. Observed structure of this vault and the product's suite, read first-party; it grounds feasibility, not desirability._
+
+## 2026-10-02 — one row: the bucket went down for the first time, and the unlabelled pile still did not move
+
+| | 2026-09-19 | **2026-10-02** | Δ (13d) |
+|---|---|---|---|
+| Tests total | 515 | 519 | +4 |
+| Carrying an instrument | 381 | 384 | +3 |
+| No instrument, `lane: humans-required` | 67 | 68 | +1 |
+| No instrument, no lane | 67 | **67** | **0** |
+| `solutionsMissingInstruments` | 75 | **72** | **−3** |
+
+`384 + 68 + 67 = 519` closes, so the partition still holds. The unlabelled count is an exact multiline grep this pass (frontmatter with `type: AssumptionTest` and neither `instrument:` nor `lane:`), not a subtraction. It returned the same 67 titles that earlier censuses listed.
+
+**What's new.** The bucket fell by 3 while the instrumented count rose by 3. This is the first downward move this table has recorded, and it fits instruments landing on bucket entries somewhere other than this surface. I didn't trace the three individually. The unlabelled row has now been flat for four intervals over 31 days.
+
+**Why this firing set no instruments.** I re-read two of the 67 ("Replay the three recorded failed runs through the journal-alert rule on paper", "Backdated half-life comparison for staleness flags"). Both already carry a dated verdict that turns down an instrument, for the reasons the 2026-09-07 argument gives. I found nothing that census missed. Nothing was executed, no lane or instrument set, no rung moved, no node created. `ost_check` is withheld on this surface, so this write is unverified by design.

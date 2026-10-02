@@ -16472,3 +16472,10 @@
 {"ts":"2026-10-02T17:42:42.342Z","tool":"ost_read_tree","ok":true,"ms":102,"surface":"mcp","argBytes":94,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be"}
 {"ts":"2026-10-02T17:42:45.907Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be"}
 {"ts":"2026-10-02T17:42:54.635Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":830,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
+{"ts":"2026-10-02T17:42:55.156Z","tool":"ost_read_tree","ok":true,"ms":99,"surface":"mcp","argBytes":113,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be"}
+{"ts":"2026-10-02T17:43:00.021Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be"}
+{"ts":"2026-10-02T17:43:37.740Z","tool":"ost_read_tree","ok":true,"ms":96,"surface":"mcp","argBytes":65,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be"}
+{"ts":"2026-10-02T17:43:37.954Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":70,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be"}
+{"ts":"2026-10-02T17:43:47.854Z","tool":"ost_read_tree","ok":true,"ms":100,"surface":"mcp","argBytes":88,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be"}
+{"ts":"2026-10-02T17:43:48.159Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":61,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be"}
+{"ts":"2026-10-02T17:44:07.441Z","tool":"ost_append_to_node","ok":true,"ms":33,"surface":"mcp","argBytes":1668,"session":"mcp-ebb71c04-19ac-4152-b233-3d3f27ec02be","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
