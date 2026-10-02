@@ -16288,3 +16288,5 @@
 {"ts":"2026-10-02T04:06:10.160Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":110,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
 {"ts":"2026-10-02T04:06:15.677Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":1040,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2","touched":["A repeated wait on the same condition resumes and doubles its budget automatically, up to a ceiling set once by hand.md"]}
 {"ts":"2026-10-02T04:06:21.194Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T04:06:23.020Z","tool":"ost_next_work","ok":true,"ms":151,"surface":"mcp","argBytes":2,"session":"mcp-d95552c1-10f9-457f-8957-8d28705d7ff2"}
+{"ts":"2026-10-02T05:08:04.404Z","tool":"ost_ingest_inbox","ok":true,"ms":117,"surface":"mcp","argBytes":2,"session":"mcp-b56e8253-ad6e-40f9-b7ac-2ea9f55bafe8"}
