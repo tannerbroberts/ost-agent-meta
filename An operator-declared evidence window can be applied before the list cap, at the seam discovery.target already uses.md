@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A configured evidence window selects from the whole unmapped set and reports the windowed and full totals apart]]
 
 **Kind: feasibility.**
 
