@@ -4,6 +4,7 @@ status: unvalidated
 source: 'TRANSCRIPT:5e5c119d-e5e8-4dbd-ab7c-c4bfc1247a18'
 created: '2026-08-06'
 evidence: observed
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Never let a malformed search be counted as an empty result]]
@@ -33,3 +34,9 @@ This is the agent's own usage captured mechanically. It grounds usability, not d
 `TRANSCRIPT:022e473f-670e-4455-ac06-6a7cfc60ba60` recorded `ls: -d: No such file or directory` — a flag-shaped literal read as a flag. `TRANSCRIPT:054b78fc-df16-44ff-b394-760b30f34cb3` recorded `rg: error parsing glob '{Import': unclosed alternate group; missing '}'` — the same brace-in-a-title failure already documented above, on a different node title. Both are the pattern this node names: a literal intended as data, read as an operator by the interpreter it was handed to.
 
 _Source: `TRANSCRIPT:022e473f-670e-4455-ac06-6a7cfc60ba60`, `TRANSCRIPT:054b78fc-df16-44ff-b394-760b30f34cb3` — observed behavior, captured mechanically from the agent's own transcripts. Grounds usability, not desirability.
+
+## Corroboration — still recurring six weeks on (unattended sweep, 2026-10-02)
+
+`TRANSCRIPT:1791743b-4df4-48eb-b002-0d28083eaf66`, captured this morning, holds one event, and it is this node's exact failure: `rg: error parsing glob '{A': unclosed alternate group; missing '}'`. That makes at least four brace-in-glob refusals on record (`8a9777ad`, `6e66c934`, `054b78fc`, and this one), and this one is dated 2026-10-02, against a first record in mid-August. So the brace case has not stopped happening: none of the three solutions beneath this node has shipped in a form that reaches the Grep glob argument. The record says nothing about which of the three would have stopped it.
+
+_Source: `TRANSCRIPT:1791743b-4df4-48eb-b002-0d28083eaf66`. This is observed behaviour, captured mechanically, and it grounds usability, not desirability. It does not drain `unmappedEvidence`, because that predicate reads only a node's frontmatter `source:` (see "I map evidence the way the method says — onto an existing node — and the queue counts it as untouched"). Minting a duplicate opportunity to clear it would be the wrong trade._
