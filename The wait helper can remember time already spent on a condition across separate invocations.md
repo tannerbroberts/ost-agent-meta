@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A second wait on the same condition reports the seconds the first spent and runs to a doubled bound]]
 
 **Risk category: feasibility.**
 
