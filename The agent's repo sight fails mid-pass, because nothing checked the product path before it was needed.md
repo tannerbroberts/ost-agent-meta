@@ -137,3 +137,20 @@ Step 2 of "Why no agent surface can author a strong red here at all" reasons fro
 Net: nothing about this node's conclusion or its planning advice changes. Do not budget for `solutionsMissingInstruments` on the strength of writing bound thresholds either.
 
 _First-party `ost_read_repo` of `src/eval/buildable.ts` and `src/ost/instrument.ts`. Read, not executed. Rung unchanged._
+
+## Permission channel, re-counted 2026-10-02 (the column the count table asks for)
+
+Appended rather than spliced into the table above, because inserting one column means rewriting 21KB of prose to change four cells. Same measure, same corpus definition (every transcript record in the evidence store), taken by this unattended sweep with Grep over the vault:
+
+| Measure | 2026-08-23 | **2026-10-02** |
+|---|---|---|
+| Records carrying "requested permissions to read from" | 84 | **249** |
+| Total occurrences | 101 | **275** |
+| Transcript records in the corpus | 423 | **844** |
+| Share of records affected | 20% | **30%** |
+
+**The rate rose, it did not decay.** Of the 421 records captured since 2026-08-23, 165 carry the denial — **39%**, roughly double the earlier share. Nothing about the permission route was repaired in the interval, and the newest record, `TRANSCRIPT:d57de3ae-68fa-4df2-8cce-c86a599496f8` (captured today), is a Grep denied on `/Users/tanner/dev/OST-Agent/src`.
+
+**Which tool is denied, first time broken out:** Glob 199 occurrences (187 records), Grep 71 (66), Read 4 (4). The channel a pass reaches for first — pattern search over the checkout — is the one that fails; `ost_read_repo` (the config route) answered normally again this pass.
+
+**Limit of the measure:** a record carrying the string says a pass *reached for* the checkout and was refused; it does not say the pass was harmed, and passes that never tried are not counted. It is a floor on attempts, not a rate of damage. No test was run, no result recorded, rung unchanged.
