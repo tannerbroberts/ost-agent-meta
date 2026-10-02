@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[next_work emits unmapped friction grouped by signature, collapsing records that differ only in volatile fields]]
 
 **Kind: feasibility.**
 
