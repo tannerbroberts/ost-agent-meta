@@ -66,3 +66,9 @@ Kept short, per this branch's convention. This is not a fourth recurrence line a
 **The cost this pass paid, recorded because it is the cycle this vault already knows.** The `Glob` denial is a `tool_error`, the harvester files it, and the record joins `unmappedEvidence`, where it cannot be retired. This firing therefore manufactured one more queue record by following its own instructions — it is an instance of that cycle, not an observer of it.
 
 **Limits.** The prompt text is this firing's own instructions read as given; a reader wanting to confirm it should check the loop's prompt template and the skill generator rather than take this node's word. The grant claim is first-party and observed — the calls succeeded — but "granted on this surface" is established for `ost_read_repo` only; the other two outward senses were never attempted, so whether they are also mis-declared is unknown. One firing, this vault's own unattended run: observed behaviour of the agent using its own harness, grounding usability, not demand. Nothing was executed, no rung moved, no instrument set, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
+
+## Corroboration 2026-10-02 — an unattended firing hits four withheld tools one call at a time
+
+In session `030e5db3`, an unattended firing called Glob on the product repo, then `ost_flag_humans_required`, `ost_check` and `ost_status`. Each one was refused with a permission error, one call at a time, and the session retried `ost_ingest_inbox` and `ost_next_work` five times in between. That is four refusals from tools the firing could have been told about before it started. It is the same need this node already records, so no new node was created. This is the agent's own observed usage: it supports usability, not demand.
+
+_Source:_ TRANSCRIPT:030e5db3-9414-441f-9221-b4a984c11825

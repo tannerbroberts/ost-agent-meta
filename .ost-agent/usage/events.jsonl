@@ -16404,3 +16404,14 @@
 {"ts":"2026-10-02T12:27:57.677Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-05d61bd2-8b52-4471-85fc-36bce6a5ed8e"}
 {"ts":"2026-10-02T12:27:58.011Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-05d61bd2-8b52-4471-85fc-36bce6a5ed8e"}
 {"ts":"2026-10-02T13:29:56.892Z","tool":"ost_ingest_inbox","ok":true,"ms":123,"surface":"mcp","argBytes":2,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:29:58.351Z","tool":"ost_next_work","ok":true,"ms":171,"surface":"mcp","argBytes":2,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:09.988Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":108,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:10.244Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":80,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:14.781Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:15.316Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:15.678Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:20.549Z","tool":"ost_read_tree","ok":true,"ms":97,"surface":"mcp","argBytes":116,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:28.274Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:31.326Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":41,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:33.250Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":28,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091"}
+{"ts":"2026-10-02T13:30:40.355Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":790,"session":"mcp-3d90903f-4c4a-4627-8c68-73cf23156091","touched":["A scheduled run finds out its tools are missing only after it has started.md"]}
