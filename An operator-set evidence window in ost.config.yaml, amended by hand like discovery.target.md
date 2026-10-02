@@ -128,3 +128,10 @@ Four lines, per this branch's convention. This deliberately does **not** re-reco
 **Limits.** This pass did not locate the line number and cannot; the settling command in the Issues note, `grep -n "day(s) ago" src/mcp/next-work.ts`, is unchanged and still the fastest route for anyone holding a shell. The ~20,000-character figure is measured off this firing's own response, not a documented cap, and a release could change it. "Nothing else on the import list is a formatting helper" is read off module paths and the contents already established on this tree, not off reading each of them. The defect is still live as of this firing — one clause, not a reproduction, because the Issues note is right that repeating it costs a call and adds nothing. Nothing was executed, no rung moved, no instrument set, no status changed, no node created, and this candidate's humans-required Definition of done stands unchanged. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
 
 _Method: first-party `ost_read_repo` probe, full-read attempt, and directory listing of `src/mcp/`. Observed structure of the product's own code; it grounds feasibility, not desirability._
+
+## Definition of done — the feasibility half (2026-10-01)
+
+"A configured evidence window selects from the whole unmapped set and reports the windowed and full totals apart"
+`npx vitest run test/mcp/next-work-evidence-window.test.ts`
+
+This red is `no-spec`: the spec file doesn't exist yet, and the test node describes the assertion it has to make. It covers whether the window can be built without moving `done`. The humans-required definition of done above, whether the operator ever amends the window, is unchanged and should still be settled first.
