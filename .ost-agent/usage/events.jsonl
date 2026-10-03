@@ -16794,3 +16794,7 @@
 {"ts":"2026-10-03T17:57:21.989Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-2d76923b-1526-4ab4-920b-7b2dcb5d9f9c"}
 {"ts":"2026-10-03T17:57:22.505Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-2d76923b-1526-4ab4-920b-7b2dcb5d9f9c"}
 {"ts":"2026-10-03T18:59:09.596Z","tool":"ost_ingest_inbox","ok":true,"ms":126,"surface":"mcp","argBytes":2,"session":"mcp-9470a4ef-8a51-43a0-8e77-d0bec6f2c2b0"}
+{"ts":"2026-10-03T18:59:10.998Z","tool":"ost_next_work","ok":true,"ms":172,"surface":"mcp","argBytes":2,"session":"mcp-9470a4ef-8a51-43a0-8e77-d0bec6f2c2b0"}
+{"ts":"2026-10-03T18:59:21.382Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-9470a4ef-8a51-43a0-8e77-d0bec6f2c2b0"}
+{"ts":"2026-10-03T18:59:24.474Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":98,"session":"mcp-9470a4ef-8a51-43a0-8e77-d0bec6f2c2b0"}
+{"ts":"2026-10-03T18:59:31.669Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1027,"session":"mcp-9470a4ef-8a51-43a0-8e77-d0bec6f2c2b0","touched":["A string I meant literally is read as syntax, so the command fails instead of searching.md"]}
