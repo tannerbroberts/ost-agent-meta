@@ -16775,3 +16775,4 @@
 {"ts":"2026-10-03T16:53:17.896Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":93,"session":"mcp-21dbcc4b-8333-44aa-ad43-dcb207f194b4"}
 {"ts":"2026-10-03T16:53:31.429Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":104,"session":"mcp-21dbcc4b-8333-44aa-ad43-dcb207f194b4"}
 {"ts":"2026-10-03T16:53:45.912Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-21dbcc4b-8333-44aa-ad43-dcb207f194b4"}
+{"ts":"2026-10-03T17:55:49.533Z","tool":"ost_ingest_inbox","ok":true,"ms":124,"surface":"mcp","argBytes":2,"session":"mcp-2d76923b-1526-4ab4-920b-7b2dcb5d9f9c"}
