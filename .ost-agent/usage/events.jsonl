@@ -17100,3 +17100,4 @@
 {"ts":"2026-10-04T19:07:37.975Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":113,"session":"mcp-85f97036-98a8-4392-a881-0c2361c7d0b8"}
 {"ts":"2026-10-04T19:07:38.389Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":113,"session":"mcp-85f97036-98a8-4392-a881-0c2361c7d0b8"}
 {"ts":"2026-10-04T19:08:19.282Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-85f97036-98a8-4392-a881-0c2361c7d0b8"}
+{"ts":"2026-10-04T20:10:03.639Z","tool":"ost_ingest_inbox","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-f606ca6a-78c3-497c-acaa-96f4bbc11d0c"}
