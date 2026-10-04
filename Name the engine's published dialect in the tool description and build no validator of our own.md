@@ -58,3 +58,9 @@ The verdict, which this node's own Definition of done already states: humans-req
 What would move it: a human sets the lane with `ost-agent lane --set`, since `ost_flag_humans_required` is withheld on the unattended surface. Note for whoever does: the 2026-09-09 section above widens the bar — refusals should be counted per rejected input (pattern, glob, file type), not in aggregate, or a halving driven entirely by the regex clause will read as the whole sentence working.
 
 Nothing else changed — no instrument set, no status changed, no rung moved, no node created. `ost_check` is withheld here, so this write is unverified by the invariant checker by design.
+
+## 2026-10-04 — a second glob-brace refusal, in a different session
+
+The 2026-09-09 section rested its scope correction on one record and said so ("One record, one refusal, one session"). Here is a second: `TRANSCRIPT:09834cbb-e5a0-4559-9f83-2959a2b2ddcb` (2026-09-28, unattended) holds `rg: error parsing glob '{A': unclosed alternate group`, which is the same construct (brace alternation in the **glob** argument) composed independently about three weeks later. That makes two sessions, so the miss is not a one-off. It is still too few to give a rate. If the one-sentence form ships covering only the regex dialect, this is the refusal it would let through.
+
+_Method: one evidence body read via `ost_next_work({evidence})`. Observed behaviour of this agent's own surface; it grounds usability, not desirability. Nothing executed, no instrument set, no rung moved. `ost_check` is withheld on this surface, so this write has not been verified by the invariant checker._
