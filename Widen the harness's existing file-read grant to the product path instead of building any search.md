@@ -37,3 +37,9 @@ No command, and deliberately so: this candidate builds nothing, so there is no b
 Run this one before either sibling is built. It is the cheapest test on the branch and it disposes of two larger candidates in whichever direction it lands.
 
 The test title is quoted rather than wikilinked on purpose: its one backlink belongs to its parent assumption.
+
+## 2026-10-04 — the denial this candidate removes is still being paid, four weeks after its ask was written
+
+`TRANSCRIPT:624aa2b6-7293-41cd-b47d-fb0b8a026eba` (captured 2026-10-04) shows the same signature: `Grep` refused on `/Users/tanner/dev/OST-Agent/src` for want of a read grant. The 2026-10-04 firing that mapped it hit the same thing first-hand. A native `Grep` on `src/eval/buildable.ts` was refused, and `ost_read_repo` then served that file, truncated at 23,611 bytes, before the part the pass needed. So the cost is now more than a wasted call. The confined tool cannot serve the file in full, and the unconfined tool is not granted. This candidate's ask, "Ask the operator whether an unattended firing may hold a filesystem read grant on the product repo", has been open since 2026-09-08 with no recorded answer.
+
+_Observed in this firing's own session. It grounds usability, not desirability. Nothing was executed, and no lane, instrument, rung or status was changed._

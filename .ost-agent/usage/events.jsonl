@@ -17075,3 +17075,14 @@
 {"ts":"2026-10-04T17:01:05.133Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-ab942aeb-8251-4c58-ade8-376427735b31"}
 {"ts":"2026-10-04T17:01:12.811Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-ab942aeb-8251-4c58-ade8-376427735b31"}
 {"ts":"2026-10-04T18:02:53.728Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:02:55.190Z","tool":"ost_next_work","ok":true,"ms":170,"surface":"mcp","argBytes":2,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:03:09.837Z","tool":"ost_read_tree","ok":true,"ms":92,"surface":"mcp","argBytes":108,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:03:10.260Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:03:31.019Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":113,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:03:31.243Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":93,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:03:40.762Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:03:46.847Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:04:14.178Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":83,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:04:19.700Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:04:28.725Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":106,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
+{"ts":"2026-10-04T18:04:38.086Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":1109,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff","touched":["Widen the harness's existing file-read grant to the product path instead of building any search.md"]}
