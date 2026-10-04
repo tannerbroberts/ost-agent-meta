@@ -46,3 +46,9 @@ _Source: `TRANSCRIPT:1791743b-4df4-48eb-b002-0d28083eaf66`. This is observed beh
 `TRANSCRIPT:57d649c8-c2a9-4495-95f2-13e1aba3a9a0`, captured 2026-10-03, holds one event: the Grep tool's glob argument refused `{A` with `unclosed alternate group; missing '}'`. That is the same text as `1791743b` (2026-10-02). Two unattended firings on consecutive days hit the same refusal on the same title prefix. That suggests one recurring call shape in the sweep's own prompt-following, not five unrelated accidents. It also says the fix has to reach the Grep **glob** argument specifically: the pattern argument is not where these failed.
 
 _Source: `TRANSCRIPT:57d649c8-c2a9-4495-95f2-13e1aba3a9a0`. This is observed behaviour, captured mechanically, and grounds usability, not desirability. It does not drain `unmappedEvidence` (frontmatter `source:` only); not minted as a new node on purpose._
+
+## Corroboration — a sixth brace-in-glob refusal, on a different title prefix (unattended sweep, 2026-10-04)
+
+`TRANSCRIPT:13caf7b3-2d91-4712-8977-e9fd6462380a`, captured 2026-10-04, holds a Grep `tool_error`: `rg: error parsing glob '{Install': unclosed alternate group; missing '}'`. Same failure, same argument (the **glob**, not the pattern), third consecutive day. This one weakens the 2026-10-03 reading, though. That reading guessed the cause was one recurring call shape on the `{A` prefix. `{Install` is a different title prefix, so the trigger is general: any brace-led literal handed to the glob argument fails. It is not one prompt quirk.
+
+_Source: `TRANSCRIPT:13caf7b3-2d91-4712-8977-e9fd6462380a` — observed behaviour, captured mechanically; grounds usability, not desirability. Not minted as a new node on purpose; it stays in `unmappedEvidence` because that predicate reads frontmatter `source:` only._

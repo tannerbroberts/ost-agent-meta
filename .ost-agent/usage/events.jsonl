@@ -16923,3 +16923,9 @@
 {"ts":"2026-10-04T05:28:14.382Z","tool":"ost_annotate","ok":true,"ms":25,"surface":"mcp","argBytes":866,"session":"mcp-adf094f2-63b4-4bad-af7d-454d9c70ec1d","touched":["Count how much post-handoff work in past sessions would have survived a failing check.md"]}
 {"ts":"2026-10-04T05:28:16.097Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-adf094f2-63b4-4bad-af7d-454d9c70ec1d"}
 {"ts":"2026-10-04T06:29:54.855Z","tool":"ost_ingest_inbox","ok":true,"ms":115,"surface":"mcp","argBytes":2,"session":"mcp-dda29a9e-7156-4526-9f7c-dc5bd4fda53f"}
+{"ts":"2026-10-04T06:29:56.243Z","tool":"ost_next_work","ok":true,"ms":168,"surface":"mcp","argBytes":2,"session":"mcp-dda29a9e-7156-4526-9f7c-dc5bd4fda53f"}
+{"ts":"2026-10-04T06:30:08.987Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":108,"session":"mcp-dda29a9e-7156-4526-9f7c-dc5bd4fda53f"}
+{"ts":"2026-10-04T06:30:09.398Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-dda29a9e-7156-4526-9f7c-dc5bd4fda53f"}
+{"ts":"2026-10-04T06:30:14.586Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":116,"session":"mcp-dda29a9e-7156-4526-9f7c-dc5bd4fda53f"}
+{"ts":"2026-10-04T06:30:14.879Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":98,"session":"mcp-dda29a9e-7156-4526-9f7c-dc5bd4fda53f"}
+{"ts":"2026-10-04T06:30:21.634Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1037,"session":"mcp-dda29a9e-7156-4526-9f7c-dc5bd4fda53f","touched":["A string I meant literally is read as syntax, so the command fails instead of searching.md"]}
