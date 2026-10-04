@@ -59,3 +59,11 @@ Three consequences follow directly, and they are facts about the code rather tha
 This raises the node's grounding from "one record read in full" to "the record plus the rule that produced it", and it is what makes the litmus candidates below concrete rather than speculative. It does not raise the evidence rung: reading the source confirms the mechanism, not that anyone outside this project cares.
 
 _Source: this pass's own `ost_read_repo` read of `src/adapters/transcript.ts`. First-party observation of the repository. No test was run and no result is recorded — the code is reported as read, not as executed._
+
+## Still recurring, unchanged, on three consecutive days (unattended sweep, 2026-10-04)
+
+`TRANSCRIPT:01943433-eda3-4c8a-b589-a925e506defa` (2026-10-02), `TRANSCRIPT:0915a003-c2e7-4a66-82d5-3e58bcae8ce9` (2026-10-03) and `TRANSCRIPT:81625a9b-10a3-4a63-8fad-e4537233f063` (2026-10-04, captured by this firing) each contain exactly one event and nothing else: **retry** (`mcp__ost-agent__ost_ingest_inbox`): `{}`. These are three whole session records, five weeks after this node was filed, and each one is the `${name}:${input}` signature rule described above firing on a prescribed repeat. So as of today none of the three solutions beneath this node has reached the harvester. Each record also cost a reader 477 characters to decline.
+
+This firing skipped its own closing re-call of `ost_next_work` on purpose. Its writes were one append, which drains nothing (`unmappedEvidence` reads frontmatter `source:` only), so the re-call would have told it nothing and produced a fourth record of this kind.
+
+_Source: the three transcript records above. This is observed behaviour, captured mechanically, and it grounds usability, not desirability. No node was minted on purpose, so the three stay in `unmappedEvidence`._

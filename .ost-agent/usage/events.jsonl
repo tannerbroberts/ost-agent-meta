@@ -16983,3 +16983,16 @@
 {"ts":"2026-10-04T09:40:31.932Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1511,"session":"mcp-006df824-ee4e-4d0f-a6a6-f28ff290c5bc","touched":["A string I meant literally is read as syntax, so the command fails instead of searching.md"]}
 {"ts":"2026-10-04T09:40:36.006Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-006df824-ee4e-4d0f-a6a6-f28ff290c5bc"}
 {"ts":"2026-10-04T10:42:17.042Z","tool":"ost_ingest_inbox","ok":true,"ms":117,"surface":"mcp","argBytes":2,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:18.481Z","tool":"ost_next_work","ok":true,"ms":168,"surface":"mcp","argBytes":2,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:33.614Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":98,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:38.320Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":108,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:43.278Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":98,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:43.493Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":42,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:49.241Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":113,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:49.503Z","tool":"ost_read_tree","ok":true,"ms":85,"surface":"mcp","argBytes":93,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:49.928Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":105,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:55.243Z","tool":"ost_next_work","ok":true,"ms":26,"surface":"mcp","argBytes":62,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:56.185Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:42:56.863Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:43:03.566Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":86,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b"}
+{"ts":"2026-10-04T10:43:15.716Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":1319,"session":"mcp-3b8b5c92-344f-4514-9ec6-66b801852b8b","touched":["I can't tell real friction from the loop doing exactly what I told it to do.md"]}
