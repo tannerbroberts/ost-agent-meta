@@ -17149,3 +17149,22 @@
 {"ts":"2026-10-04T22:16:52.097Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1030,"session":"mcp-1783c0f2-234f-4cff-adb3-1efdc1323b44","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
 {"ts":"2026-10-04T22:16:53.529Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-1783c0f2-234f-4cff-adb3-1efdc1323b44"}
 {"ts":"2026-10-04T23:18:35.365Z","tool":"ost_ingest_inbox","ok":true,"ms":121,"surface":"mcp","argBytes":2,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:18:36.756Z","tool":"ost_next_work","ok":true,"ms":171,"surface":"mcp","argBytes":2,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:18:45.456Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:18:45.991Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:18:46.434Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:18:58.243Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:01.856Z","tool":"ost_read_repo","ok":false,"ms":1,"surface":"mcp","argBytes":19,"err":"\"src/core\" does not exist in OST-Agent — OST-Agent/src exists and contains adapters, cli, compression, config, eval, fs, git, index.ts, knowledge, loop, mcp, ost, processes, product, release, runner, security, telemetry, web; nothing there is close enough to name, so this is not a typo to correct","session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:03.357Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:05.602Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":40,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:07.252Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":27,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:16.684Z","tool":"ost_read_tree","ok":true,"ms":89,"surface":"mcp","argBytes":116,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:21.538Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:25.331Z","tool":"ost_read_tree","ok":true,"ms":91,"surface":"mcp","argBytes":108,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:38.524Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":113,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:44.441Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:46.085Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:19:52.828Z","tool":"ost_read_tree","ok":true,"ms":86,"surface":"mcp","argBytes":113,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:20:04.118Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":96,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:20:04.389Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":95,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-04T23:20:08.754Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
