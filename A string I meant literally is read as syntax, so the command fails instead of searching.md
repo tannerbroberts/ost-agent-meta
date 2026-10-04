@@ -52,3 +52,11 @@ _Source: `TRANSCRIPT:57d649c8-c2a9-4495-95f2-13e1aba3a9a0`. This is observed beh
 `TRANSCRIPT:13caf7b3-2d91-4712-8977-e9fd6462380a`, captured 2026-10-04, holds a Grep `tool_error`: `rg: error parsing glob '{Install': unclosed alternate group; missing '}'`. Same failure, same argument (the **glob**, not the pattern), third consecutive day. This one weakens the 2026-10-03 reading, though. That reading guessed the cause was one recurring call shape on the `{A` prefix. `{Install` is a different title prefix, so the trigger is general: any brace-led literal handed to the glob argument fails. It is not one prompt quirk.
 
 _Source: `TRANSCRIPT:13caf7b3-2d91-4712-8977-e9fd6462380a` — observed behaviour, captured mechanically; grounds usability, not desirability. Not minted as a new node on purpose; it stays in `unmappedEvidence` because that predicate reads frontmatter `source:` only._
+
+## Corroboration — the pattern argument fails too, not only the glob (unattended sweep, 2026-10-04, later firing)
+
+`TRANSCRIPT:afc3f52c-a9fb-4771-abf1-7cd6f94dae05`, captured 2026-10-04, holds two Grep `tool_error`s. One is the seventh brace-in-glob refusal (`'{Replay': unclosed alternate group`), on a fourth title prefix. The other is new and corrects a claim above. Ripgrep rejected the **pattern** with `look-around, including look-ahead and look-behind, is not supported`. The 2026-10-03 section says "the pattern argument is not where these failed". As of this record that is no longer true.
+
+The two failures have different causes. A brace in a glob is a literal being read as an operator, which is this node's original case. Look-around is an operator the caller meant, written for a regex dialect the engine does not speak. So the fix has to cover both arguments, and quoting alone does not cover the second. Only the solution that says which dialect the engine accepts (see "Name the engine's published dialect in the tool description and build no validator of our own", filed under a different opportunity) addresses the look-around case.
+
+_Source: `TRANSCRIPT:afc3f52c-a9fb-4771-abf1-7cd6f94dae05`. This is observed behaviour, captured mechanically, and it grounds usability, not desirability. It was not minted as a new node, on purpose, so it stays in `unmappedEvidence`._
