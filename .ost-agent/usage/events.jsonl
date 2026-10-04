@@ -17086,3 +17086,4 @@
 {"ts":"2026-10-04T18:04:19.700Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
 {"ts":"2026-10-04T18:04:28.725Z","tool":"ost_read_tree","ok":true,"ms":90,"surface":"mcp","argBytes":106,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
 {"ts":"2026-10-04T18:04:38.086Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":1109,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff","touched":["Widen the harness's existing file-read grant to the product path instead of building any search.md"]}
+{"ts":"2026-10-04T18:04:38.535Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-bbc8e59f-223b-4021-a1c2-de9aa6d7cfff"}
