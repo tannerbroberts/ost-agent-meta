@@ -17183,3 +17183,4 @@
 {"ts":"2026-10-05T00:22:28.706Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":31,"session":"mcp-ba4e69a8-53cf-4163-b9da-2073c3b1d6d0"}
 {"ts":"2026-10-05T00:22:37.572Z","tool":"ost_read_tree","ok":true,"ms":91,"surface":"mcp","argBytes":90,"session":"mcp-ba4e69a8-53cf-4163-b9da-2073c3b1d6d0"}
 {"ts":"2026-10-05T00:22:48.680Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1353,"session":"mcp-ba4e69a8-53cf-4163-b9da-2073c3b1d6d0","touched":["The pass never says it is done, so I can't tell when to stop paying for compute.md"]}
+{"ts":"2026-10-05T00:22:50.388Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-ba4e69a8-53cf-4163-b9da-2073c3b1d6d0"}
