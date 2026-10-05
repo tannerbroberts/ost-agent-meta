@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[Whether an item is actionable is decidable mechanically, not case by case]]
@@ -27,3 +28,23 @@ Green means: the rule exists as data rather than prose, an empty sweep makes it 
 
 ## History
 - 2026-08-05 unlinked "Have two people independently label a full sweep's items as actionable or not, and compare" — moved under "Whether an item is actionable is decidable mechanically, not case by case" — the belief this test measures now has a node of its own
+
+## 2026-10-05 — built, and on this vault it can never hold: all three of its live terms are ones the tree already records as unreachable from the surface it governs
+
+This candidate's own "what would make this the wrong pick" is that "actionable" might not be mechanically decidable. The build answered a narrower question than that, and the gap is now measurable.
+
+**What was read.** `src/loop/stop-condition.ts` (first 28KB of 28,677 bytes, through `ost_read_repo`). Its own docstring states the design: "Today they are exactly the five lists `ost_next_work` already computes `done` from, and the parity test pins that. The condition is therefore not a new predicate over the tree." Its rule for declaring a field not-actionable is stated on `solutionsAwaitingObservation`: "work no granted tool can reach is not work this loop may fire itself to do."
+
+**This firing's verdict was `go` on three terms, and each one fails that same rule on this vault**, by findings already on the tree rather than by anything argued here:
+
+- `unmappedEvidence` (889): drains only when a record becomes some node's frontmatter `source:`, so the only way to clear a record that restates a known need is to mint a duplicate node. That is "I map evidence the way the method says — onto an existing node — and the queue counts it as untouched". This pass read six of the records (four transcript, two usage) and all six restate needs the tree already holds.
+- `underservedOpportunities` (1): the only entry is "The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it", which carries a recorded human hold against unattended ideation. That node's 2026-09-09 section names the remedy as `ost-agent dispose`, which is a human's.
+- `solutionsMissingInstruments` (72): a full-page census on "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue" found 25 of 25 shown entries non-instrumentable. That node's 2026-09-07 section found `src/eval/buildable.ts` consults no lane, and the one call that would relabel them (`ost_flag_humans_required`) is withheld from this surface.
+
+**So the condition cannot change state.** It holds only when all five terms are zero, and on this vault three of them are pinned above zero by causes no unattended firing can touch. The usage records for 2026-10-03 and 2026-10-04 are consistent with that: 23 sessions and 306 calls, then 23 sessions and 318 calls, with 1 and 7 writes, every write an append or an annotate. The idle-breach check (`idleBreach`) still does its half, keeping firings from inventing structure. The half this candidate promised, a loop that "stops, reports that it stopped because there was nothing it could do, and costs nothing until something changes", is not reached on this vault.
+
+**Where the defect actually lives.** It is not in this module, which evaluates faithfully. It is that "actionable" was taken to mean "a `done` term" rather than "a term some tool on the governing surface can decrement." A builder has two separable repairs. The first is per-term: fix each of the three upstream predicates, which each have their own node. The second is structural: make the parity test assert, per term, that at least one tool on `/ost-pass`'s grant list can reduce its count. Under that assertion a withheld relabel tool would show up in the classification itself instead of in sixty-eight sessions of usage trace. Which repair to pick is a design call and not this pass's.
+
+**Limits.** The file truncated near `observeStopCondition`, so the code that wires it into `loop start` / `loop stop` was not read. The three unreachability claims rest on the cited nodes' own first-party reads, not on fresh reads of `next-work.ts` (74KB) or `buildable.ts` this pass. Usage-trace call counts are whole-vault and mix attended with unattended sessions. Nothing was executed, no rung moved, no instrument set, no status changed, no node created. The two-labeller test beneath this candidate is untouched and is still the only thing that can say whether the terms agree with people.
+
+_Method: one `ost_read_repo` file read, one directory listing and one size probe, plus six evidence bodies read through `ost_next_work`. A first-party read of the product's source; it grounds feasibility, not desirability._
