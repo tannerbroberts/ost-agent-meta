@@ -17168,3 +17168,4 @@
 {"ts":"2026-10-04T23:20:04.118Z","tool":"ost_read_tree","ok":true,"ms":87,"surface":"mcp","argBytes":96,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
 {"ts":"2026-10-04T23:20:04.389Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":95,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
 {"ts":"2026-10-04T23:20:08.754Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-32f2f806-a54d-4a14-a1df-2574f709a2dd"}
+{"ts":"2026-10-05T00:21:52.481Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-ba4e69a8-53cf-4163-b9da-2073c3b1d6d0"}
