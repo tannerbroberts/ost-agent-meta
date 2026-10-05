@@ -17305,3 +17305,5 @@
 {"ts":"2026-10-05T08:46:54.796Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":89,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
 {"ts":"2026-10-05T08:46:55.001Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":83,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
 {"ts":"2026-10-05T08:47:00.814Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
+{"ts":"2026-10-05T08:47:04.669Z","tool":"ost_next_work","ok":true,"ms":153,"surface":"mcp","argBytes":2,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
+{"ts":"2026-10-05T09:48:46.195Z","tool":"ost_ingest_inbox","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-63178344-6c12-4713-a80d-73bd2cb6f451"}
