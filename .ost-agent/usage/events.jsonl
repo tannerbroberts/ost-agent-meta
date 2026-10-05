@@ -17300,3 +17300,8 @@
 {"ts":"2026-10-05T08:46:36.483Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":58,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
 {"ts":"2026-10-05T08:46:38.311Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
 {"ts":"2026-10-05T08:46:49.337Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":2369,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee","touched":["State timing gates as work completed rather than wall-clock, so a busy machine cannot fail one.md"]}
+{"ts":"2026-10-05T08:46:53.783Z","tool":"ost_read_tree","ok":true,"ms":88,"surface":"mcp","argBytes":86,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
+{"ts":"2026-10-05T08:46:54.290Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":88,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
+{"ts":"2026-10-05T08:46:54.796Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":89,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
+{"ts":"2026-10-05T08:46:55.001Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":83,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
+{"ts":"2026-10-05T08:47:00.814Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-2ce1f557-f5cc-4095-a601-1f8855a7abee"}
