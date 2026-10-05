@@ -17199,3 +17199,4 @@
 {"ts":"2026-10-05T01:25:33.811Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":95,"session":"mcp-44a67ad9-f82f-40e0-932f-b1b1bd779a12"}
 {"ts":"2026-10-05T01:25:34.166Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":96,"session":"mcp-44a67ad9-f82f-40e0-932f-b1b1bd779a12"}
 {"ts":"2026-10-05T01:25:38.220Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-44a67ad9-f82f-40e0-932f-b1b1bd779a12"}
+{"ts":"2026-10-05T02:27:19.538Z","tool":"ost_ingest_inbox","ok":true,"ms":117,"surface":"mcp","argBytes":2,"session":"mcp-5a9b8ef6-9794-43e2-b4ba-8fd108576b20"}
