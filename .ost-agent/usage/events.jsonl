@@ -17759,3 +17759,4 @@
 {"ts":"2026-10-06T16:16:31.368Z","tool":"ost_read_tree","ok":true,"ms":59,"surface":"mcp","argBytes":113,"session":"mcp-70e5b1cf-ce25-4371-8e40-791da62a111c"}
 {"ts":"2026-10-06T16:16:38.165Z","tool":"ost_read_tree","ok":true,"ms":58,"surface":"mcp","argBytes":2,"session":"mcp-70e5b1cf-ce25-4371-8e40-791da62a111c"}
 {"ts":"2026-10-06T16:16:49.869Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-70e5b1cf-ce25-4371-8e40-791da62a111c"}
+{"ts":"2026-10-06T17:18:27.929Z","tool":"ost_ingest_inbox","ok":true,"ms":83,"surface":"mcp","argBytes":2,"session":"mcp-deeee49f-c9bb-4302-8189-ca46dc4f60b9"}
