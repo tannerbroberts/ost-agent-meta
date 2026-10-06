@@ -17639,3 +17639,18 @@
 {"ts":"2026-10-06T07:51:54.015Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":844,"session":"mcp-5ca9c4bc-10b2-4053-bff0-57e5beef11de","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
 {"ts":"2026-10-06T07:51:57.097Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-5ca9c4bc-10b2-4053-bff0-57e5beef11de"}
 {"ts":"2026-10-06T08:53:38.790Z","tool":"ost_ingest_inbox","ok":true,"ms":90,"surface":"mcp","argBytes":2,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:53:40.368Z","tool":"ost_next_work","ok":true,"ms":137,"surface":"mcp","argBytes":2,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:53:47.042Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":108,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:53:47.359Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":80,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:53:53.063Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:53:53.192Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:54:15.832Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":93,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:54:16.127Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:54:40.137Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":18,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:54:40.277Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:54:44.099Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:55:13.758Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:55:24.174Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":111,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:55:28.182Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":52,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:55:30.148Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
+{"ts":"2026-10-06T08:55:48.671Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1855,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4","touched":["The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed.md"]}

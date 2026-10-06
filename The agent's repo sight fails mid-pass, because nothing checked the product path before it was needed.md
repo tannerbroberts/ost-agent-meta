@@ -154,3 +154,20 @@ Appended rather than spliced into the table above, because inserting one column 
 **Which tool is denied, first time broken out:** Glob 199 occurrences (187 records), Grep 71 (66), Read 4 (4). The channel a pass reaches for first — pattern search over the checkout — is the one that fails; `ost_read_repo` (the config route) answered normally again this pass.
 
 **Limit of the measure:** a record carrying the string says a pass *reached for* the checkout and was refused; it does not say the pass was harmed, and passes that never tried are not counted. It is a floor on attempts, not a rate of damage. No test was run, no result recorded, rung unchanged.
+
+## Permission channel, re-counted 2026-10-06
+
+Same measure and corpus definition as the 2026-10-02 column, taken by this unattended sweep with Grep over `.ost-agent/evidence/TRANSCRIPT_*.md`:
+
+| Measure | 2026-08-23 | 2026-10-02 | **2026-10-06** |
+|---|---|---|---|
+| Records carrying "requested permissions to read from" | 84 | 249 | **272** |
+| Total occurrences | 101 | 275 | **298** |
+| Transcript records in the corpus | 423 | 844 | **905** |
+| Share of records affected | 20% | 30% | **30%** |
+
+**Of the 61 records captured since 2026-10-02, 23 carry the denial (38%)**, the same rate as the 39% measured for the previous interval. Nothing about the permission route changed. The newest record, `TRANSCRIPT:9b96422c-2087-41ce-b6df-d2ba49943d13` (captured this pass), is a Grep refused on `/Users/tanner/dev/OST-Agent/src/eval/buildable.ts`. This sweep then reproduced it on its own first attempt: a Grep for `solutionsMissingInstruments` in that same file was refused with the same message, while `ost_read_repo` returned the file (truncated) in the same sitting. That is the two-channel split this node describes, seen again in one pass.
+
+**Also re-checked first-party this pass:** `INSTRUMENT_FORMS` in `src/knowledge/instruments.ts` still holds exactly one anchored form (`npx vitest run <path>.test.ts`, nothing allowed after it). So the closed argument above still holds unchanged, and the `solutionsMissingInstruments` bucket (72 this pass) still cannot be drained honestly from an agent surface.
+
+_Grep count over the vault's evidence store, plus first-party `ost_read_repo` of `src/knowledge/instruments.ts`. A floor on attempts, not a rate of harm. No test run, no result recorded, rung unchanged._
