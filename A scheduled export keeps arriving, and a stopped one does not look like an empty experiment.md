@@ -8,5 +8,6 @@ evidence: assertion
 ---
 #Assumption #unvalidated #evidence/assertion
 [[Set up one scheduled export and check every week whether it is still arriving]]
+[[A drop folder that stopped receiving files is reported overdue, not as zero new]]
 
 This relocates the fragility rather than removing it. An export that silently stops — expired link, renamed sheet, a source that just stops sending — looks exactly like an experiment that produced no results, and the vault cannot tell them apart. That is worse than a human forgetting, because nobody is waiting.
