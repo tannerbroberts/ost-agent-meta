@@ -17884,3 +17884,11 @@
 {"ts":"2026-10-06T23:37:22.263Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":38,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
 {"ts":"2026-10-06T23:37:47.461Z","tool":"ost_create_node","ok":true,"ms":78,"surface":"mcp","argBytes":3613,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61","wrote":["A drop folder that stopped receiving files is reported overdue, not as zero new.md"],"touched":["A drop folder that stopped receiving files is reported overdue, not as zero new.md","A scheduled export keeps arriving, and a stopped one does not look like an empty experiment.md"]}
 {"ts":"2026-10-06T23:37:53.575Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1292,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61","touched":["The source writes a standing export to a watched folder, so carrying becomes a scheduled job.md"]}
+{"ts":"2026-10-06T23:37:56.605Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":88,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:37:56.985Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":81,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:00.426Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":109,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:02.570Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":101,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:02.956Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":107,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:05.526Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":113,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:07.340Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":91,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:14.387Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1155,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61","touched":["A deep-dive firing that spends its whole budget thinking about one branch, and clears no buckets.md"]}
