@@ -17690,3 +17690,4 @@
 {"ts":"2026-10-06T12:05:09.651Z","tool":"ost_next_work","ok":true,"ms":23,"surface":"mcp","argBytes":62,"session":"mcp-2e4be9ab-f6f7-4f8e-a4e9-4730afa651d6"}
 {"ts":"2026-10-06T12:05:09.758Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-2e4be9ab-f6f7-4f8e-a4e9-4730afa651d6"}
 {"ts":"2026-10-06T12:05:12.429Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-2e4be9ab-f6f7-4f8e-a4e9-4730afa651d6"}
+{"ts":"2026-10-06T13:06:50.720Z","tool":"ost_ingest_inbox","ok":true,"ms":86,"surface":"mcp","argBytes":2,"session":"mcp-50c75185-ce44-4b4d-8f98-9ac48c9b939d"}
