@@ -17654,3 +17654,4 @@
 {"ts":"2026-10-06T08:55:28.182Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":52,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
 {"ts":"2026-10-06T08:55:30.148Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
 {"ts":"2026-10-06T08:55:48.671Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1855,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4","touched":["The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed.md"]}
+{"ts":"2026-10-06T08:55:52.374Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-974d09a7-2f28-4ea5-8db7-7a457c63f3f4"}
