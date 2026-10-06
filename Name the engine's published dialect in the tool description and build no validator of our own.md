@@ -64,3 +64,22 @@ Nothing else changed — no instrument set, no status changed, no rung moved, no
 The 2026-09-09 section rested its scope correction on one record and said so ("One record, one refusal, one session"). Here is a second: `TRANSCRIPT:09834cbb-e5a0-4559-9f83-2959a2b2ddcb` (2026-09-28, unattended) holds `rg: error parsing glob '{A': unclosed alternate group`, which is the same construct (brace alternation in the **glob** argument) composed independently about three weeks later. That makes two sessions, so the miss is not a one-off. It is still too few to give a rate. If the one-sentence form ships covering only the regex dialect, this is the refusal it would let through.
 
 _Method: one evidence body read via `ost_next_work({evidence})`. Observed behaviour of this agent's own surface; it grounds usability, not desirability. Nothing executed, no instrument set, no rung moved. `ost_check` is withheld on this surface, so this write has not been verified by the invariant checker._
+
+## 2026-10-06 — the glob refusals are not the engine's dialect: the wrapper splits on whitespace, and a reference page would have called the input valid
+
+A third session with the same refusal arrived this firing: `TRANSCRIPT:7c1e84c1-8247-43f3-9de0-2a1f880b2b53` (2026-10-06, unattended) has two of them, `'{A'` and `'*{evidence'`. With three independent sessions it is clearly not a one-off. What is new is that this firing reproduced the refusal directly instead of reading about it, and the cause turned out not to be the one this node's 2026-09-09 section assumed.
+
+**What was run, first-party, against this vault's `.ost-agent/` directory with the harness's own `Grep` tool:**
+- glob `*.{jsonl,md}`: **searched**, and it found the evidence file. Brace alternation is accepted.
+- glob `*.{jsonl}`: **searched**, and it returned no files (a correct empty answer, not a refusal).
+- glob `*{evidence, x}*`: **refused**, with `rg: error parsing glob '*{evidence': unclosed alternate group`. That is the same error text as the harvested record.
+
+**What that shows.** Ripgrep parses brace groups fine. The fragment it rejects is exactly the input cut at the first space, so the `Grep` wrapper splits its `glob` argument on whitespace before it reaches ripgrep. Each half then reaches ripgrep as its own malformed glob. The construct the caller wrote is the one ripgrep's published glob syntax permits. The input broke on the way to ripgrep.
+
+**What this costs this candidate.** The bought half was "the enumeration of what the dialect does and does not contain, maintained by people who change the engine". For this class of refusal, that enumeration would answer *valid*. A caller who read the upstream reference carefully would compose `{evidence, x}` and still be refused. So the 2026-09-09 correction ("one clause per rejectable input, and the pointer is at least two URLs") does not go far enough. Upstream documentation cannot describe a constraint the wrapper adds, so the sentence this candidate needs would have to be *built here*: something like "the glob argument is split on whitespace; do not put spaces inside a brace group". That undercuts the bought-vs-built position the candidate was ideated to occupy. The constraint is also owned by the harness (Claude Code's `Grep` tool), not by this product, so this product's tool descriptions are not where the sentence would live.
+
+**What it does not change.** Whether callers read a stated dialect before composing is still the open belief, and nothing here bears on it. The regex-pattern half of the original evidence (look-around, backreferences) is a genuine engine-dialect limit and is unaffected. The humans-required Definition of done stands. Its per-input counting should now also separate *engine* refusals from *wrapper* refusals, because only the first can be fixed by pointing at the engine.
+
+**Limits.** Three probes in one session, against one directory. "Splits on whitespace" is the simplest reading consistent with the fragment the error printed. Other separators were not tested, and the harness source was not read. Nothing was recorded as a result, no instrument was set, and no rung moved. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
+
+_Method: one evidence body read via `ost_next_work({evidence})`, plus three `Grep` calls by this firing that reproduced the refusal. This is observed behaviour of this agent's own surface. It grounds feasibility and usability, not desirability._
