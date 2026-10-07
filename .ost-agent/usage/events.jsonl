@@ -18088,3 +18088,5 @@
 {"ts":"2026-10-07T18:21:00.464Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":3455,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b","touched":["A corrections ledger in the workspace that every session reads before it composes.md"]}
 {"ts":"2026-10-07T18:21:22.792Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":689,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b","touched":["A corrections ledger in the workspace that every session reads before it composes.md"]}
 {"ts":"2026-10-07T18:21:26.518Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:21:26.845Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T19:23:12.539Z","tool":"ost_ingest_inbox","ok":true,"ms":90,"surface":"mcp","argBytes":2,"session":"mcp-e3e01aea-1155-4749-af4a-84daebde0606"}
