@@ -17893,3 +17893,10 @@
 {"ts":"2026-10-06T23:38:07.340Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":91,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
 {"ts":"2026-10-06T23:38:14.387Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1155,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61","touched":["A deep-dive firing that spends its whole budget thinking about one branch, and clears no buckets.md"]}
 {"ts":"2026-10-06T23:38:19.936Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:21.978Z","tool":"ost_next_work","ok":true,"ms":129,"surface":"mcp","argBytes":2,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:27.396Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":128,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:30.747Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":100,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:31.119Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":102,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:38.405Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":81,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-06T23:38:40.803Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":98,"session":"mcp-12699cc4-ba73-415d-8565-81b3dee5ce61"}
+{"ts":"2026-10-07T00:40:26.259Z","tool":"ost_ingest_inbox","ok":true,"ms":92,"surface":"mcp","argBytes":2,"session":"mcp-2ee60c42-04c9-4642-b441-b25c86ff117f"}
