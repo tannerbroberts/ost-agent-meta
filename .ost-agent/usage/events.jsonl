@@ -18072,3 +18072,17 @@
 {"ts":"2026-10-07T17:17:21.009Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-37d529de-90fd-47de-93b1-ac5d842a58f6"}
 {"ts":"2026-10-07T17:17:26.959Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-37d529de-90fd-47de-93b1-ac5d842a58f6"}
 {"ts":"2026-10-07T18:19:09.414Z","tool":"ost_ingest_inbox","ok":true,"ms":88,"surface":"mcp","argBytes":2,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:19:10.947Z","tool":"ost_next_work","ok":true,"ms":139,"surface":"mcp","argBytes":2,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:19:23.806Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":108,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:19:23.941Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:19:31.590Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":113,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:19:31.726Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":104,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:19:36.427Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:19:41.310Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:19:43.632Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:20:22.745Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":128,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:20:25.461Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":92,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:20:28.005Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":19,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:20:29.909Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":34,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:20:38.434Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":111,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b"}
+{"ts":"2026-10-07T18:21:00.464Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":3455,"session":"mcp-6392edf8-d9c1-4e56-819b-0be25afd556b","touched":["A corrections ledger in the workspace that every session reads before it composes.md"]}
