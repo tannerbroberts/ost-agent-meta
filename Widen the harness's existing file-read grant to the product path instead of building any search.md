@@ -51,3 +51,5 @@ The 2026-10-04 section rests on one record. Here is a count. Of the 23 transcrip
 The ask "Ask the operator whether an unattended firing may hold a filesystem read grant on the product repo" still has no recorded answer. A narrower alternative it does not mention: raising `ost_read_repo`'s cap enough to serve that one 23.6KB file would remove most of these refusals without widening any grant. That is the operator's call, and this pass proposes nothing beyond naming it.
 
 _Method: one `Grep` over this vault's evidence mirror, restricted to records with a 2026-10-05..08 fetch stamp. The sample is 23 of the 59 such records, chosen by filename rather than at random. Observed behaviour of this agent's own surface; it grounds usability, not desirability. Nothing executed, no lane, instrument, rung or status changed._
+
+_Correction to the section above, same pass: the total is **11 of 23** (ten `Grep` plus one `Glob`), so the broad refusal shows up in about half the sampled firings, not one in ten. "Roughly one firing in five" applies only to the five aimed at `src/eval/buildable.ts`._
