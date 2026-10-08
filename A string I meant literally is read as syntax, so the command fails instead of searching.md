@@ -60,3 +60,9 @@ _Source: `TRANSCRIPT:13caf7b3-2d91-4712-8977-e9fd6462380a` — observed behaviou
 The two failures have different causes. A brace in a glob is a literal being read as an operator, which is this node's original case. Look-around is an operator the caller meant, written for a regex dialect the engine does not speak. So the fix has to cover both arguments, and quoting alone does not cover the second. Only the solution that says which dialect the engine accepts (see "Name the engine's published dialect in the tool description and build no validator of our own", filed under a different opportunity) addresses the look-around case.
 
 _Source: `TRANSCRIPT:afc3f52c-a9fb-4771-abf1-7cd6f94dae05`. This is observed behaviour, captured mechanically, and it grounds usability, not desirability. It was not minted as a new node, on purpose, so it stays in `unmappedEvidence`._
+
+## Corroboration — an eighth brace-in-glob refusal, fifth title prefix (unattended sweep, 2026-10-08)
+
+`TRANSCRIPT:76f39716-3458-4a3e-ad8c-c746989ef18d`, captured 2026-10-08, holds one Grep `tool_error`: `rg: error parsing glob '{The': unclosed alternate group; missing '}'`. It is the same argument (the glob) on a fifth title prefix (`{The`), four days after the last one. That fits the 2026-10-04 reading that the trigger is general and not tied to one prompt quirk. Nothing new beyond the count: the failure is still happening, and nothing beneath this node has reached the Grep glob argument yet.
+
+_Source: `TRANSCRIPT:76f39716-3458-4a3e-ad8c-c746989ef18d`. Observed behaviour, captured mechanically; it grounds usability, not desirability. Not minted as a new node, so it stays in `unmappedEvidence` (frontmatter `source:` only)._
