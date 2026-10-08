@@ -18345,3 +18345,4 @@
 {"ts":"2026-10-08T11:05:26.375Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":96,"session":"mcp-23475200-4a1a-4516-aad6-64e9d7d8aa76"}
 {"ts":"2026-10-08T11:05:31.016Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":98,"session":"mcp-23475200-4a1a-4516-aad6-64e9d7d8aa76"}
 {"ts":"2026-10-08T11:05:44.089Z","tool":"ost_ingest_inbox","ok":true,"ms":11,"surface":"mcp","argBytes":2,"session":"mcp-23475200-4a1a-4516-aad6-64e9d7d8aa76"}
+{"ts":"2026-10-08T12:07:26.000Z","tool":"ost_ingest_inbox","ok":true,"ms":85,"surface":"mcp","argBytes":2,"session":"mcp-01e2b238-b47e-4079-b48b-32b69c4ce72e"}
