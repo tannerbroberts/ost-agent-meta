@@ -18779,3 +18779,5 @@
 {"ts":"2026-10-09T22:51:37.343Z","tool":"ost_next_work","ok":true,"ms":17,"surface":"mcp","argBytes":62,"session":"mcp-9fc73d4f-0651-4677-8c8d-c2aa4ab7637a"}
 {"ts":"2026-10-09T22:51:41.374Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":128,"session":"mcp-9fc73d4f-0651-4677-8c8d-c2aa4ab7637a"}
 {"ts":"2026-10-09T22:51:53.570Z","tool":"ost_append_to_node","ok":true,"ms":30,"surface":"mcp","argBytes":2380,"session":"mcp-9fc73d4f-0651-4677-8c8d-c2aa4ab7637a","touched":["The same blocked call comes back next session, because a correction only lives as long as the session it was given in.md"]}
+{"ts":"2026-10-09T22:51:58.126Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":113,"session":"mcp-9fc73d4f-0651-4677-8c8d-c2aa4ab7637a"}
+{"ts":"2026-10-09T22:52:07.267Z","tool":"ost_ingest_inbox","ok":true,"ms":11,"surface":"mcp","argBytes":2,"session":"mcp-9fc73d4f-0651-4677-8c8d-c2aa4ab7637a"}
