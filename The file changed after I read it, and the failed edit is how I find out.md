@@ -146,3 +146,22 @@ Short. One pattern from a small sample, stated with its limit.
 **Limits.** n=3 of 4 from one unsorted page of records, so this is not a share of the corpus. A grep for `last-report.txt` across the evidence folder would give the real share, and this surface has no grep. The loop script is not under `product.repos`, since `scripts/` in the product repo holds no build-loop file, so whether the loop prescribes this Write was not checked. Nothing was executed, no rung moved, no instrument set, no node created. `ost_check` is withheld on this surface, so this write has not been verified by the invariant checker.
 
 _Method: four evidence bodies read via `ost_next_work({evidence})` and one `ost_read_repo` listing of `scripts/`. This is observed behaviour of this product's own agent. It grounds usability, not desirability._
+
+## 2026-10-09 — the corpus-wide count the 2026-10-08 section asked for: the loop's own report write is in 110 records
+
+Short. The 2026-10-08 section ended with an open limit: "A grep for `last-report.txt` across the evidence folder would give the real share, and this surface has no grep." This firing could grep, so here is that count.
+
+| | count |
+|---|---|
+| Transcript records in the evidence folder | **949** |
+| Records carrying `File has not been read yet` | **293** (600 occurrences) |
+| Records carrying a **retried Write** to `~/.local/state/ost-build-loop/last-report.txt` | **110** |
+| Records mentioning `last-report.txt` at all | 112 (116 occurrences) |
+
+**What it shows.** A retried Write to the build loop's own end-of-run report appears in 110 records. That is about 37% of the 293 records carrying the read-before-write refusal. This is the n=3 pattern from the 2026-10-08 section, counted across the whole corpus, and it holds. A large part of this node's biggest adjacent signature looks like one fixed write the loop repeats, not stale reads. That part has a fix on this project's side (a shell redirect, or a Read before the Write), separate from the harness guard and from the drift case this node is named for.
+
+**A second correction, to the 2026-09-03 section.** That section called the refusal "a stable structural constant of roughly 45% of every session". With the same grep, the share is now 293 of 949 = **30.9%**, down from 44.9% at 630 records. So the rate is not constant. Whether it fell because of a change in the loop or because of how the newer records are made, this pass did not determine.
+
+**Limits.** These are co-occurrence counts by message text. A `retry (Write) … last-report.txt` line usually follows a refusal, but the grep does not check that the two are paired in the same record, so 110 is the count of records holding the retry, not a proven count of refusals it caused. The loop script that tells the agent to write this file is not under `product.repos`, so the prescription was not read. Nothing was executed, no rung moved, no instrument set, no node created. `ost_check` is withheld on this surface, so this write has not been verified by the invariant checker.
+
+_Method: three Grep counts and one Glob over `.ost-agent/evidence/TRANSCRIPT_*.md` in this vault. This is observed behaviour of this product's own agent, captured mechanically. It grounds usability, not desirability. These records stay listed as unmapped evidence, because citing them here does not clear them._
