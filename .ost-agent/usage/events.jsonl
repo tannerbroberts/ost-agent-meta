@@ -18680,3 +18680,4 @@
 {"ts":"2026-10-09T14:25:57.300Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":32,"session":"mcp-8a307916-fc73-4387-9f4d-03d5755dcfbc"}
 {"ts":"2026-10-09T14:26:04.928Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":104,"session":"mcp-8a307916-fc73-4387-9f4d-03d5755dcfbc"}
 {"ts":"2026-10-09T14:26:10.965Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-8a307916-fc73-4387-9f4d-03d5755dcfbc"}
+{"ts":"2026-10-09T15:27:58.650Z","tool":"ost_ingest_inbox","ok":true,"ms":95,"surface":"mcp","argBytes":2,"session":"mcp-12fc4ba5-d5eb-4234-a476-a3f3436961de"}
