@@ -270,3 +270,19 @@ _Method: this firing's own `ost_next_work` response and pasted `ost-agent rollup
 **What's new.** The bucket fell by 3 while the instrumented count rose by 3. This is the first downward move this table has recorded, and it fits instruments landing on bucket entries somewhere other than this surface. I didn't trace the three individually. The unlabelled row has now been flat for four intervals over 31 days.
 
 **Why this firing set no instruments.** I re-read two of the 67 ("Replay the three recorded failed runs through the journal-alert rule on paper", "Backdated half-life comparison for staleness flags"). Both already carry a dated verdict that turns down an instrument, for the reasons the 2026-09-07 argument gives. I found nothing that census missed. Nothing was executed, no lane or instrument set, no rung moved, no node created. `ost_check` is withheld on this surface, so this write is unverified by design.
+
+## 2026-10-09 — one row: the bucket drains by one off this surface, and the unlabelled pile is flat for a fifth interval
+
+| | 2026-10-02 | **2026-10-09** | Δ (7d) |
+|---|---|---|---|
+| Tests total | 519 | 520 | +1 |
+| Carrying an instrument | 384 | 385 | +1 |
+| No instrument, `lane: humans-required` | 68 | 68 | 0 |
+| No instrument, no lane | 67 | **67** | **0** |
+| `solutionsMissingInstruments` | 72 | **71** | **−1** |
+
+`385 + 68 + 67 = 520`. The instrumented count comes from the rollup pasted into this firing. The unlabelled count is the same exact multiline grep as before: frontmatter with `type: AssumptionTest` and neither `instrument:` nor `lane:`. It returned the same 67 titles.
+
+**New this firing: the unannotated part of the residue is now classified.** 40 of the 67 already carry a dated verdict from an earlier pass (`## Issues`, `lane --set` or `humans-required` in the body). I classified the other 27 by the measuring act their titles name. All 27 are people-shaped or judged by hand: interviews, offers, readers, operators, blind raters, "by hand" or "on paper". None is a spec over the product's code. That fits the 2026-09-02 census, and it adds coverage, not a correction.
+
+_Nothing executed. No lane, instrument, rung or status set. No node created. `ost_check` is withheld on this surface, so this write is unverified by design._
