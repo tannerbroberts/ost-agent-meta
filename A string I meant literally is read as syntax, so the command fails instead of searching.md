@@ -72,3 +72,9 @@ _Source: `TRANSCRIPT:76f39716-3458-4a3e-ad8c-c746989ef18d`. Observed behaviour, 
 `TRANSCRIPT:97aa894f-ebea-4b65-af2f-6a8329d0f1fe`, captured 2026-10-10, holds one Grep `tool_error`: `rg: error parsing glob '{Score': unclosed alternate group`. Same argument (the glob), a sixth title prefix. Count only; nothing beneath this node has reached the Grep glob argument as of this date.
 
 _Source: `TRANSCRIPT:97aa894f-ebea-4b65-af2f-6a8329d0f1fe`. This is observed behaviour, captured mechanically. Not minted as a new node, so it stays in `unmappedEvidence`._
+
+## Corroboration — a tenth brace-in-glob refusal, same day as the ninth (unattended sweep, 2026-10-10, later firing)
+
+`TRANSCRIPT:b72bcc0d-9c59-4056-b3c2-f24cf633571e`, captured 2026-10-10: one Grep `tool_error`, `rg: error parsing glob '{A': unclosed alternate group`. The argument is the glob again, and the `{A` prefix has been seen before. Two refusals on one date. Count only.
+
+_Source: `TRANSCRIPT:b72bcc0d-9c59-4056-b3c2-f24cf633571e`. Observed behaviour, captured mechanically. Not minted as a new node, so it stays in `unmappedEvidence`._
