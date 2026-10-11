@@ -130,3 +130,15 @@ The 2026-09-03 section on this node ends with its own sharpest limit: "This surf
 **The spec site, for whoever builds it.** `test/eval/` already holds specs against this module — `clearability.test.ts`, `permit-staleness.test.ts`, `vacuous-red.test.ts`. An assertion that a solution whose every test carries the cautious lane is absent from `solutionsMissingInstruments` would be an added assertion in an existing suite, so it would fail on the assertion rather than on a missing file: a strong red, not a `no-spec`. Honest limit: `clearability.test.ts` is 33,252 bytes and would truncate on this surface, so it was not read, and which of these files is the right home is a judgement this pass did not make.
 
 _Method: two `ost_read_repo` file reads (`src/ost/sweep.ts`, `src/eval/buildable.ts`) and three directory listings, plus this firing's own `ost_next_work` response. First-party read of the product's source; it grounds feasibility, not desirability. Nothing was executed, no instrument set, no lane set, no status changed, no rung moved, no node created._
+
+## 2026-10-11 — the one-line lane exclusion named on 2026-09-07 has not landed, 34 days on
+
+Kept short. This only follows up the 2026-09-07 section and adds no new argument.
+
+**Observed on this firing's own sweep.** This node is still listed in `solutionsMissingInstruments`, which now holds 71 entries, up from 69 on 2026-08-30. Its only test, "Count how many routed asks the operator answers in the four weeks after they arrive with an age on them", reads `lane: humans-required` and has no instrument in frontmatter, read first-party this pass. So the bucket still counts a solution whose every test a human put beyond compute's reach. That is the behaviour the 2026-09-07 section traced to a missing branch.
+
+**What changed in the source, and what could not be re-checked.** `src/eval/buildable.ts` is now 23,611 bytes, up from 20,070 on 2026-09-07. The read truncates exactly at the doc comment that opens `solutionsMissingInstruments`, so this pass could not re-read the function body. The claim that the lane branch is absent therefore rests on behaviour, not on the code. Behaviour is the stronger evidence for "not fixed", and it says nothing about *why*. The visible part of the file still applies `CAUTIOUS_LANE` in `testsAwaitingVerification` and nowhere else.
+
+**Why this matters beyond this node.** It is the main reason this bucket does not drain on the unattended surface. This firing re-read the visible page of 25 entries and again found none that a spec could honestly answer: each is harness-owned or humans-required, and most carry an earlier "examined and deliberately left without an instrument" note. This surface holds no `ost_flag_humans_required`, so the only exits are a human's `ost-agent lane --set` per test or the code repair.
+
+_Method: one `ost_next_work` sweep, two `ost_read_tree` node reads, one `ost_read_repo` probe and one truncated file read. Nothing was executed, and no instrument, lane, rung or status changed. `ost_check` is withheld on this surface, so this write has not been verified by the invariant checker._
