@@ -19241,3 +19241,4 @@
 {"ts":"2026-10-11T09:09:14.457Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-32192faf-1b5d-4f33-8c52-f22bba4c725e"}
 {"ts":"2026-10-11T09:09:23.162Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":2,"session":"mcp-32192faf-1b5d-4f33-8c52-f22bba4c725e"}
 {"ts":"2026-10-11T09:10:08.257Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-32192faf-1b5d-4f33-8c52-f22bba4c725e"}
+{"ts":"2026-10-11T10:11:53.579Z","tool":"ost_ingest_inbox","ok":true,"ms":93,"surface":"mcp","argBytes":2,"session":"mcp-5653f4f5-e55b-444a-809d-d06966e9a143"}
