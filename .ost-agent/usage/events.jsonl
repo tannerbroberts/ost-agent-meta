@@ -19383,3 +19383,13 @@
 {"ts":"2026-10-11T19:39:43.190Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":93,"session":"mcp-b0645e84-6a31-4971-a251-3a7d0b1d5264"}
 {"ts":"2026-10-11T19:39:54.050Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":104,"session":"mcp-b0645e84-6a31-4971-a251-3a7d0b1d5264"}
 {"ts":"2026-10-11T20:41:51.430Z","tool":"ost_ingest_inbox","ok":true,"ms":89,"surface":"mcp","argBytes":2,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:41:52.832Z","tool":"ost_next_work","ok":true,"ms":144,"surface":"mcp","argBytes":2,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:42:00.379Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":108,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:42:11.255Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":98,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:42:15.537Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":113,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:42:22.647Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:42:23.465Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:42:24.019Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:42:30.951Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":116,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:43:23.219Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":86,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
+{"ts":"2026-10-11T20:43:48.407Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":2455,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239","touched":["I can't tell real friction from the loop doing exactly what I told it to do.md"]}

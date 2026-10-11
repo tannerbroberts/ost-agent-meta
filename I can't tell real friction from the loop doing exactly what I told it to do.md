@@ -67,3 +67,17 @@ _Source: this pass's own `ost_read_repo` read of `src/adapters/transcript.ts`. F
 This firing skipped its own closing re-call of `ost_next_work` on purpose. Its writes were one append, which drains nothing (`unmappedEvidence` reads frontmatter `source:` only), so the re-call would have told it nothing and produced a fourth record of this kind.
 
 _Source: the three transcript records above. This is observed behaviour, captured mechanically, and it grounds usability, not desirability. No node was minted on purpose, so the three stay in `unmappedEvidence`._
+
+## How much of the evidence store this class is (unattended sweep, 2026-10-11)
+
+The 2026-10-04 section counted three records. This is the whole store, counted with grep over `.ost-agent/evidence/` in the vault.
+
+- **240 transcript records contain only retries and nothing else.** 159 read `produced 1 friction events (retry ×1)` and 81 read `produced 2 friction events (retry ×2)`. Not one of them has a `tool_error` or a refusal.
+- **550 records contain at least one `retry` of `mcp__ost-agent__ost_ingest_inbox` or `mcp__ost-agent__ost_next_work` with `{}` arguments**, 946 such events in total. Those are the two no-argument calls that step 5 of the maintenance loop prescribes. For comparison, 775 records contain any `retry` at all.
+- **It is still being produced every hour.** Today's firings at 15:28, 16:31, 17:34 and 18:37 UTC (`TRANSCRIPT:8bc05a24-…`, `TRANSCRIPT:7e86d61f-…`, `TRANSCRIPT:681bbf2b-…`, `TRANSCRIPT:6e598e45-…`) each filed a record whose only event, or only non-permission event, is **retry** (`mcp__ost-agent__ost_ingest_inbox`): `{}`.
+
+**What this does to the 995 in `unmappedEvidence`.** About a quarter of the transcript records hold no event except a prescribed repeat. They can only leave the queue if a pass mints a node for each one, which is the duplication this node already argues against. So one of the three solutions beneath it has to reach the harvester before the evidence count can mean "distinct problems".
+
+**Limits.** The grep covered every file in the evidence store, including records already cited as some node's `source:`. This surface cannot split those from the unmapped ones, so 240 is a count over the store, not over the 995. The single-retry figure assumes the retried tool is the prescribed one. That held for every record read in full this pass (5 of 5) and was not checked for the rest. The 550 figure needs no such assumption, because the pattern names the tool.
+
+_Source: grep counts over this vault's own evidence files, plus four records read in full. These are mechanical recordings of the agent's own sessions. They ground usability, not desirability. Nothing was executed, no rung moved, and no node was minted, so all four records stay in `unmappedEvidence` on purpose. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker._
