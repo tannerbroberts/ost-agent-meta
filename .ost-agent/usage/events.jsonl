@@ -19394,3 +19394,15 @@
 {"ts":"2026-10-11T20:43:23.219Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":86,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239"}
 {"ts":"2026-10-11T20:43:48.407Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":2455,"session":"mcp-eee3875a-2dc9-4c15-850d-7d9bd5ef9239","touched":["I can't tell real friction from the loop doing exactly what I told it to do.md"]}
 {"ts":"2026-10-11T21:45:33.710Z","tool":"ost_ingest_inbox","ok":true,"ms":92,"surface":"mcp","argBytes":2,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:45:35.057Z","tool":"ost_next_work","ok":true,"ms":145,"surface":"mcp","argBytes":2,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:45:49.528Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":108,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:45:50.175Z","tool":"ost_next_work","ok":true,"ms":27,"surface":"mcp","argBytes":62,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:45:50.582Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":86,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:46:06.830Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":113,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:46:07.027Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":64,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:46:17.123Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":2,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:46:49.532Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":137,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:46:49.959Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":143,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:47:02.163Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":77,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T21:47:02.343Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":65,"session":"mcp-09353d44-6656-4d2e-b6a7-e7147b27db7c"}
+{"ts":"2026-10-11T22:49:11.024Z","tool":"ost_ingest_inbox","ok":true,"ms":91,"surface":"mcp","argBytes":2,"session":"mcp-59d48309-96d4-4d98-b35f-e4b8ffa11334"}
