@@ -19152,3 +19152,5 @@
 {"ts":"2026-10-11T02:52:28.660Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-5aa7f248-fe59-446b-9522-36fe8d43266f"}
 {"ts":"2026-10-11T02:52:36.401Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":98,"session":"mcp-5aa7f248-fe59-446b-9522-36fe8d43266f"}
 {"ts":"2026-10-11T02:52:44.202Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":821,"session":"mcp-5aa7f248-fe59-446b-9522-36fe8d43266f","touched":["A string I meant literally is read as syntax, so the command fails instead of searching.md"]}
+{"ts":"2026-10-11T02:52:47.647Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-5aa7f248-fe59-446b-9522-36fe8d43266f"}
+{"ts":"2026-10-11T02:52:53.007Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-5aa7f248-fe59-446b-9522-36fe8d43266f"}
