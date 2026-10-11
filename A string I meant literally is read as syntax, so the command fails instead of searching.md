@@ -78,3 +78,9 @@ _Source: `TRANSCRIPT:97aa894f-ebea-4b65-af2f-6a8329d0f1fe`. This is observed beh
 `TRANSCRIPT:b72bcc0d-9c59-4056-b3c2-f24cf633571e`, captured 2026-10-10: one Grep `tool_error`, `rg: error parsing glob '{A': unclosed alternate group`. The argument is the glob again, and the `{A` prefix has been seen before. Two refusals on one date. Count only.
 
 _Source: `TRANSCRIPT:b72bcc0d-9c59-4056-b3c2-f24cf633571e`. Observed behaviour, captured mechanically. Not minted as a new node, so it stays in `unmappedEvidence`._
+
+## Corroboration — an eleventh brace-in-glob refusal, seventh title prefix (unattended sweep, 2026-10-10, later firing)
+
+`TRANSCRIPT:19fd29b3-16c8-46d7-9f71-7f8c756a1d17`, captured 2026-10-11T01:50Z, holds a Grep `tool_error`: `rg: error parsing glob '{Sweep': unclosed alternate group`. The argument is the glob again, on a seventh prefix (`{Sweep`). That is the third refusal in roughly a day. Count only. Future passes could stop appending count-only lines here: the rate is now established, and the node gains nothing from a twelfth.
+
+_Source: `TRANSCRIPT:19fd29b3-16c8-46d7-9f71-7f8c756a1d17`. Observed behaviour, captured mechanically. Not minted as a new node, so it stays in `unmappedEvidence`._
