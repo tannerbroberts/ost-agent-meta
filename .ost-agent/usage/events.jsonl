@@ -19604,3 +19604,4 @@
 {"ts":"2026-10-12T11:25:59.214Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":65,"session":"mcp-773d4529-d7f2-46b5-b2e6-8e69deb7ce43"}
 {"ts":"2026-10-12T11:25:59.440Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":77,"session":"mcp-773d4529-d7f2-46b5-b2e6-8e69deb7ce43"}
 {"ts":"2026-10-12T11:26:08.030Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-773d4529-d7f2-46b5-b2e6-8e69deb7ce43"}
+{"ts":"2026-10-12T12:27:56.422Z","tool":"ost_ingest_inbox","ok":true,"ms":91,"surface":"mcp","argBytes":2,"session":"mcp-805fd518-2991-48cd-bceb-b33e114184fd"}
