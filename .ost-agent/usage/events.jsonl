@@ -19541,3 +19541,4 @@
 {"ts":"2026-10-12T07:14:06.388Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-1073ed87-9d63-4e53-875c-f586d4ba52dc"}
 {"ts":"2026-10-12T07:14:06.816Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":116,"session":"mcp-1073ed87-9d63-4e53-875c-f586d4ba52dc"}
 {"ts":"2026-10-12T07:14:20.652Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-1073ed87-9d63-4e53-875c-f586d4ba52dc"}
+{"ts":"2026-10-12T08:16:03.550Z","tool":"ost_ingest_inbox","ok":true,"ms":91,"surface":"mcp","argBytes":2,"session":"mcp-c7125c90-07cd-4fd6-946b-910ab5087425"}
