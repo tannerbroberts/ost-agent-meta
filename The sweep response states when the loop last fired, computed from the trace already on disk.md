@@ -28,3 +28,15 @@ authorship: machine
 **Honest note on how this was ideated.** All three candidates under this opportunity were composed in one context by one author; this surface holds no grant to run independent parallel ideators. Discount their apparent distinctness accordingly.
 
 Unvalidated. Agent-ideated 2026-09-07; a human to review.
+
+## Definition of done
+
+"A fixture trace with a three-day hole reports a gap, and days carrying events report none"
+
+`npx vitest run test/mcp/liveness-line.test.ts`
+
+Bar, copied from that test's own threshold field: a gap is reported for all 3 seeded dark days and for 0 of the seeded active days. That includes the single-invocation day the parent assumption names as the way this goes wrong.
+
+**What kind of red this is.** It is weak. On 2026-10-11 the spec does not exist (`ost_read_repo` probe: `test/mcp/` holds `next-work.test.ts` but no `liveness-line.test.ts`). So the command is `no-spec` today and would be just as red under any question written on that filename. The builder's first job is to write the spec so that it fails on the threshold above. Only after that is the test red for a reason specific to it. The module to change is `src/mcp/next-work.ts`.
+
+Added because the instrument was set on the test on 2026-09-07 but never carried up to the solution, and a builder reads the solution, not the layer beneath it. The test title is quoted rather than wikilinked because its one backlink belongs to its parent assumption.

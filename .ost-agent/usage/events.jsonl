@@ -19451,3 +19451,37 @@
 {"ts":"2026-10-12T00:57:51.628Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1049,"session":"mcp-0a745902-ba1d-48d8-aaa3-a4e6842f7022","touched":["A third of my calls go on re-asking what is outstanding.md"]}
 {"ts":"2026-10-12T00:57:54.271Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-0a745902-ba1d-48d8-aaa3-a4e6842f7022"}
 {"ts":"2026-10-12T01:59:37.406Z","tool":"ost_ingest_inbox","ok":true,"ms":90,"surface":"mcp","argBytes":2,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T01:59:38.823Z","tool":"ost_next_work","ok":true,"ms":145,"surface":"mcp","argBytes":2,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T01:59:45.983Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T01:59:46.595Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T01:59:46.976Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":108,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T01:59:55.082Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":98,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T01:59:55.397Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":98,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:00.419Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:01.236Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:01.776Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:04.823Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:05.333Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":97,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:05.636Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":104,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:10.262Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":93,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:10.773Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":113,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:11.143Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":105,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:16.874Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":2,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:51.191Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":102,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:51.622Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":112,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:54.071Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":113,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:00:57.637Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":100,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:03.386Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:05.130Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:06.608Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:08.667Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":39,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:13.209Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":29,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:23.968Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":82,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:24.396Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":137,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:26.731Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":130,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:27.159Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":118,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:30.634Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":143,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:30.962Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":18,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:31.197Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":19,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:37.273Z","tool":"ost_read_repo","ok":false,"ms":1,"surface":"mcp","argBytes":54,"err":"\"test/mcp/liveness-line.test.ts\" does not exist in OST-Agent — OST-Agent/test/mcp exists and contains analysis-tools.test.ts, attribution.test.ts, b12-ingest-to-rank.test.ts, bootstrap-one-question.test.ts, bootstrap.test.ts, broken-config.test.ts, channel-degradation.test.ts, commit.test.ts, edit-n","session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86"}
+{"ts":"2026-10-12T02:01:43.126Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1264,"session":"mcp-0ae92605-9dc4-4c8b-b65b-8cd12109fb86","touched":["The sweep response states when the loop last fired, computed from the trace already on disk.md"]}
