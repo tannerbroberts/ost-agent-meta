@@ -19912,3 +19912,4 @@
 {"ts":"2026-10-13T12:33:52.672Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":96,"session":"mcp-ecd7f617-1314-4dfa-a7ff-f09afdd9bab8"}
 {"ts":"2026-10-13T12:33:52.995Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":113,"session":"mcp-ecd7f617-1314-4dfa-a7ff-f09afdd9bab8"}
 {"ts":"2026-10-13T12:33:56.714Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-ecd7f617-1314-4dfa-a7ff-f09afdd9bab8"}
+{"ts":"2026-10-13T13:35:43.100Z","tool":"ost_ingest_inbox","ok":true,"ms":91,"surface":"mcp","argBytes":2,"session":"mcp-89f2ca87-4a57-4c01-a921-3f326d4deff8"}
