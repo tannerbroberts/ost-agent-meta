@@ -3,6 +3,7 @@ type: Opportunity
 source: 'agent-run:2026-08-22-unattended-sweep'
 created: '2026-08-22'
 evidence: assertion
+authorship: machine
 ---
 #Opportunity #unvalidated #evidence/assertion
 [[Count a source citation in a node's prose as a mapping, wherever in the body it appears]]
@@ -51,3 +52,21 @@ Yes, and the candidates disagree about what a mapping *is*: count a prose citati
 - **Whether an operator wants this queue to drain is unasked.** One could argue every record should stay visible until a human has seen it, and that a growing count is the honest signal. That is the design question and this node does not settle it.
 
 ⚠️ Unvalidated. Distilled by an unattended pass from its own tool output; no human has confirmed that a draining evidence queue is what they want. First-party observation of this product's own tooling — it grounds feasibility and usability, not demand. No command executed, no result recorded; rung at the `assertion` floor.
+
+## 2026-10-13 — the count this node opens on is now 1017, nearly triple
+
+A short note with a measurement. No new argument.
+
+**The figure.** This firing's `ost_next_work` reports **1017** unmapped evidence items. This node opened at 363 on 2026-08-22. The stop condition the unattended loop pasted above this firing lists the same 1017 as the largest of its three `go` reasons.
+
+**What was sampled, and what it showed.** Five records were read in full: `TRANSCRIPT:3541b3ed-…` (captured this firing), `030e5db3-…`, `00032886-…`, `0095203e-…` and `08e10880-…`. All five repeat shapes the tree already holds:
+- withheld-tool and repo-read denials, under "A scheduled run finds out its tools are missing only after it has started";
+- a brace in a Grep glob read as an alternation group, under "A string I meant literally is read as syntax, so the command fails instead of searching";
+- Write/Edit refused because the file had not been read, under "The file changed after I read it, and the failed edit is how I find out";
+- a Monitor command refused for containing command substitution, under the Monitor-grammar solutions.
+
+None of the five held a need the tree does not already carry. `030e5db3` is still listed as unmapped even though "A scheduled run finds out its tools are missing only after it has started" has cited it under a `_Source:_` line since 2026-10-02. That is the predicate this node describes, seen again.
+
+**What this firing did about it: nothing to the queue, on purpose.** It created no node per record. It also appended no fresh corroboration to the sibling nodes, which already carry several recurrence lines each, so one more would add length and no information. The three candidates under this node are where the count gets fixed, and choosing one is the operator's call.
+
+**Limits.** 5 of 1017 records were read. They were the head of an alphabetical listing, not a random sample, so this is no rate over the whole set. All five come from this vault's own unattended sessions: they show how the agent uses the product, not what anyone wants. No `ost_check` on this surface, so this write is unverified by design.
