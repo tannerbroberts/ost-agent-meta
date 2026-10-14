@@ -20252,3 +20252,4 @@
 {"ts":"2026-10-14T14:45:34.328Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":2,"session":"mcp-dc97c823-a394-4363-8340-42a5f609a1c5"}
 {"ts":"2026-10-14T14:45:50.354Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":20,"session":"mcp-dc97c823-a394-4363-8340-42a5f609a1c5"}
 {"ts":"2026-10-14T14:45:52.783Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-dc97c823-a394-4363-8340-42a5f609a1c5"}
+{"ts":"2026-10-14T15:47:41.698Z","tool":"ost_ingest_inbox","ok":true,"ms":96,"surface":"mcp","argBytes":2,"session":"mcp-9f3722f1-3613-4f63-9a61-d56d3d46b778"}
