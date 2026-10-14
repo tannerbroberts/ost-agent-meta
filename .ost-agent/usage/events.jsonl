@@ -20280,3 +20280,4 @@
 {"ts":"2026-10-14T16:52:10.140Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":103,"session":"mcp-b495ad7c-ef1f-4d1c-854f-1a5d75bd5b67"}
 {"ts":"2026-10-14T16:52:21.049Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":128,"session":"mcp-b495ad7c-ef1f-4d1c-854f-1a5d75bd5b67"}
 {"ts":"2026-10-14T16:52:29.058Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-b495ad7c-ef1f-4d1c-854f-1a5d75bd5b67"}
+{"ts":"2026-10-14T17:54:16.393Z","tool":"ost_ingest_inbox","ok":true,"ms":95,"surface":"mcp","argBytes":2,"session":"mcp-83f73949-a665-4974-bac0-89254b26f055"}
