@@ -20332,3 +20332,4 @@
 {"ts":"2026-10-14T21:03:24.623Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":93,"session":"mcp-99b716d1-dec7-43d4-8345-5b67084b1d47"}
 {"ts":"2026-10-14T21:03:25.048Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":104,"session":"mcp-99b716d1-dec7-43d4-8345-5b67084b1d47"}
 {"ts":"2026-10-14T21:03:34.704Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-99b716d1-dec7-43d4-8345-5b67084b1d47"}
+{"ts":"2026-10-14T22:05:26.123Z","tool":"ost_ingest_inbox","ok":true,"ms":94,"surface":"mcp","argBytes":2,"session":"mcp-1ad1ea94-d45b-4024-978a-db0288ddbea1"}
