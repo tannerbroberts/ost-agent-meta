@@ -20147,3 +20147,4 @@
 {"ts":"2026-10-14T05:21:51.214Z","tool":"ost_read_repo","ok":false,"ms":2,"surface":"mcp","argBytes":70,"err":"\"test/eval/lane-aware-instrument-bucket.test.ts\" does not exist in OST-Agent — OST-Agent/test/eval exists and contains adversarial-critic-invariants.test.ts, assumption-layer.test.ts, attention.test.ts, blind-ideator-isolation.test.ts, calibration-ratio-stability.test.ts, canary-parallel-run.test.ts","session":"mcp-f8d2951d-ea5a-482c-a031-a63c9edf107e"}
 {"ts":"2026-10-14T05:21:54.284Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":83,"session":"mcp-f8d2951d-ea5a-482c-a031-a63c9edf107e"}
 {"ts":"2026-10-14T05:22:04.177Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-f8d2951d-ea5a-482c-a031-a63c9edf107e"}
+{"ts":"2026-10-14T06:23:49.090Z","tool":"ost_ingest_inbox","ok":true,"ms":91,"surface":"mcp","argBytes":2,"session":"mcp-33ec7a8a-e9f1-45c5-8cd2-a978509d1668"}
