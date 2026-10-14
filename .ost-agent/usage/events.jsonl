@@ -20126,3 +20126,4 @@
 {"ts":"2026-10-14T04:17:45.902Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":65,"session":"mcp-badf2a8a-3793-4646-8aef-ea1175131b03"}
 {"ts":"2026-10-14T04:17:46.199Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":88,"session":"mcp-badf2a8a-3793-4646-8aef-ea1175131b03"}
 {"ts":"2026-10-14T04:17:54.800Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-badf2a8a-3793-4646-8aef-ea1175131b03"}
+{"ts":"2026-10-14T05:19:39.761Z","tool":"ost_ingest_inbox","ok":true,"ms":91,"surface":"mcp","argBytes":2,"session":"mcp-f8d2951d-ea5a-482c-a031-a63c9edf107e"}
