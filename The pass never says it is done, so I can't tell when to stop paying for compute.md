@@ -185,3 +185,17 @@ _Source: `USAGE:2026-09-27` and `USAGE:2026-09-28`, both read in full from the v
 The pattern from the 2026-09-28 section still holds. The loop runs about 23 paid firings a day. Those firings create nothing, and the stop condition still says `go` on three buckets this surface cannot clear. The evidence bucket grew by 68 in six days, and nearly all of those records are the firings' own friction transcripts. The instrument bucket fell by 3. Nothing on this surface explains that drop, so treat it as unexplained. None of the three remedies the 2026-09-28 section listed (`dispose`, `lane --set`, many-to-one mapping) has been applied.
 
 _Source: `USAGE:2026-10-04`, read in full via `ost_next_work({evidence})`. Machine-recorded and MCP-only, so harness reads are not counted. Nothing was executed and no rung moved. `ost_check` is withheld on this surface, so this write has not been checked against the invariants._
+
+## 2026-10-13: one more row, nine days later
+
+| | 2026-10-04 | 2026-10-13 |
+|---|---|---|
+| Sessions | 23 | 23 |
+| MCP calls | 318 | 297 (0 failed) |
+| Structural writes | 7 | **1** (`append_to_node`) |
+| Nodes created | 0 | 0 |
+| Stop condition | `go`: 878 evidence, 1 under-served, 72 instruments | `go`: 1027 evidence, 1 under-served, 71 instruments |
+
+The evidence bucket grew by 149 in nine days, about 16 a day. That is roughly one record per paid firing, which fits the 2026-08-06 treadmill reading. `src/eval/buildable.ts` is still 23,611 bytes, the same size as on 2026-10-11, so the one-line lane exclusion that "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue" traced on 2026-09-07 has not landed. None of the three remedies in the 2026-09-28 section (`dispose`, `lane --set`, many-to-one mapping) has been applied. The day's 296 reads produced one write.
+
+_Source: `USAGE:2026-10-13`, read in full via `ost_next_work({evidence})`, plus one `ost_read_repo` size probe. The trace is machine-recorded and MCP-only. Nothing was executed and no rung moved. `ost_check` is withheld on this surface, so this write has not been checked against the invariants._

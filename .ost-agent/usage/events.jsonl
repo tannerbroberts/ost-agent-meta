@@ -20053,3 +20053,17 @@
 {"ts":"2026-10-13T23:02:41.972Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":83,"session":"mcp-c4591bfb-220f-4967-841b-ee7586288c47"}
 {"ts":"2026-10-13T23:02:47.761Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-c4591bfb-220f-4967-841b-ee7586288c47"}
 {"ts":"2026-10-14T00:04:32.359Z","tool":"ost_ingest_inbox","ok":true,"ms":93,"surface":"mcp","argBytes":2,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:33.605Z","tool":"ost_next_work","ok":true,"ms":139,"surface":"mcp","argBytes":2,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:39.926Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":108,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:40.119Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":80,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:45.153Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":98,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:45.551Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":71,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:49.347Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":113,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:49.686Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":104,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:54.021Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:58.149Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":98,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:04:58.540Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":116,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:05:02.516Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:05:05.285Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":31,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:05:11.724Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":90,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2"}
+{"ts":"2026-10-14T00:05:22.266Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1337,"session":"mcp-59678ab4-d4d1-4c23-8aa8-1a4c34de8df2","touched":["The pass never says it is done, so I can't tell when to stop paying for compute.md"]}
