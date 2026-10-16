@@ -20838,3 +20838,4 @@
 {"ts":"2026-10-16T11:52:51.766Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":108,"session":"mcp-42005ad9-5ffb-408c-b17a-7bb2189ae5a5"}
 {"ts":"2026-10-16T11:53:00.182Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":113,"session":"mcp-42005ad9-5ffb-408c-b17a-7bb2189ae5a5"}
 {"ts":"2026-10-16T11:53:10.170Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-42005ad9-5ffb-408c-b17a-7bb2189ae5a5"}
+{"ts":"2026-10-16T12:54:59.181Z","tool":"ost_ingest_inbox","ok":true,"ms":90,"surface":"mcp","argBytes":2,"session":"mcp-a8ce4127-4500-476b-b31c-07dfe25e7dbe"}
