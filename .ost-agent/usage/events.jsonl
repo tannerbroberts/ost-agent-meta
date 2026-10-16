@@ -20980,3 +20980,4 @@
 {"ts":"2026-10-16T21:21:46.931Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":113,"session":"mcp-12bde07d-c380-4708-a1cd-515945cedb03"}
 {"ts":"2026-10-16T21:21:47.274Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":104,"session":"mcp-12bde07d-c380-4708-a1cd-515945cedb03"}
 {"ts":"2026-10-16T21:23:03.220Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-12bde07d-c380-4708-a1cd-515945cedb03"}
+{"ts":"2026-10-16T22:24:53.782Z","tool":"ost_ingest_inbox","ok":true,"ms":96,"surface":"mcp","argBytes":2,"session":"mcp-471175dc-cbdc-4ab7-8b37-29e65d4b69f7"}
