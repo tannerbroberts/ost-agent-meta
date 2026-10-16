@@ -4,6 +4,7 @@ status: unvalidated
 source: 'INBOX:2026-07-25-friction-a-pass-that-dies-on-a-driver-error-still-exits-0.md'
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[Putting the failure first makes a human see it in a glance]]
@@ -26,3 +27,6 @@ evidence: assertion
 
 ## History
 - 2026-08-05 unlinked "Five-second status glance test after a failed run" — moved under "Putting the failure first makes a human see it in a glance" — the belief this test measures now has a node of its own
+
+## Issues
+- 2026-10-16 2026-10-16 unattended sweep, repo sight held: examined for a missing instrument and deliberately left without one. Recording it because this node sorts past the 25-entry cap on `solutionsMissingInstruments`, so no earlier sweep was shown it, and it had no note. Its one test, "Five-second status glance test after a failed run", shows the operator two outputs for five seconds each and asks what state the system is in. A person's glance is the measurement, so this is humans-required in substance even though its frontmatter carries no `lane:`. A spec could only prove that `status` prints the failure line first, and the node's own Built section already says that shipped in v0.5.0. So the spec would be green the day it was written and would measure nothing. One fact for whoever settles its status: the node is not `shipped`, and I suggest it should not be marked so. Its digest half is still unbuilt. A first-party listing of `src/ost/` and `src/loop/` this pass found no digest module. What a human should do: `ost-agent lane "Five-second status glance test after a failed run" --set humans-required` (`ost_flag_humans_required` is withheld on this surface). Nothing executed, no instrument, status or rung changed. `ost_check` is withheld here, so this write is unverified by design.
