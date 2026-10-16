@@ -70,3 +70,20 @@ None of the five held a need the tree does not already carry. `030e5db3` is stil
 **What this firing did about it: nothing to the queue, on purpose.** It created no node per record. It also appended no fresh corroboration to the sibling nodes, which already carry several recurrence lines each, so one more would add length and no information. The three candidates under this node are where the count gets fixed, and choosing one is the operator's call.
 
 **Limits.** 5 of 1017 records were read. They were the head of an alphabetical listing, not a random sample, so this is no rate over the whole set. All five come from this vault's own unattended sessions: they show how the agent uses the product, not what anyone wants. No `ost_check` on this surface, so this write is unverified by design.
+
+## 2026-10-16 — the tail of the queue looks like its head
+
+The 2026-10-13 section stated a limit: its five records "were the head of an alphabetical listing, not a random sample". This firing read six from the **other end** of the ordering. It got their ids from the evidence filenames and read each body through `ost_next_work({evidence})`: `ffb9eb47-…`, `fffde2fc-…`, `ffcee3f3-…`, `fe8409a0-…`, `fd10c391-…`, `f0f8fb56-…`. They are dated 2026-08-22 to 2026-10-15. It also read the one record this firing's ingest captured, `adedd3cc-…`.
+
+**Result: 7 of 7 repeat shapes the tree already holds, and none holds a new need.** Here is what they contained:
+- the prescribed `ost_ingest_inbox` / `ost_next_work` re-call, scored as `retry`;
+- repo-path permission denials on Glob and Grep;
+- a `read_repo` probe of a path that does not exist;
+- `create_node` refusing a bar-less threshold and a malformed instrument;
+- `append_to_node` refusing the reserved `## History` heading.
+
+`adedd3cc` is 11 `retry` events. They are re-reads of the same head-of-queue evidence ids and the same held-opportunity body that this firing also read, so each firing re-derives the previous one's verdicts.
+
+**What this does to the 10-13 limit.** The queue now has a sample from both ends that agrees. So it is more likely that the 1074 are mostly records of needs the tree already holds, and less likely that this is an artefact of always reading the head. It is still 12 of 1074, chosen by position rather than at random, so it does not give a rate.
+
+_Method: seven `ost_next_work({evidence})` reads plus one filename Glob. This is observed behaviour of this agent's own surface. It grounds usability, not desirability. No node was created, no rung moved, and nothing was executed. `ost_check` is withheld here, so this write is unverified by design._
