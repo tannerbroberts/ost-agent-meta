@@ -20919,3 +20919,4 @@
 {"ts":"2026-10-16T16:06:47.941Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":29,"session":"mcp-80113c0f-6ece-42a1-be0a-dd313d850d8c"}
 {"ts":"2026-10-16T16:06:53.924Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":113,"session":"mcp-80113c0f-6ece-42a1-be0a-dd313d850d8c"}
 {"ts":"2026-10-16T16:07:03.133Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-80113c0f-6ece-42a1-be0a-dd313d850d8c"}
+{"ts":"2026-10-16T17:08:52.934Z","tool":"ost_ingest_inbox","ok":true,"ms":93,"surface":"mcp","argBytes":2,"session":"mcp-c90c7522-0b1e-42d6-b677-433d942ae66f"}
