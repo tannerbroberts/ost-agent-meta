@@ -21162,3 +21162,4 @@
 {"ts":"2026-10-17T13:39:18.878Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-23504b30-b13e-4bcf-b46a-8284123b6e50"}
 {"ts":"2026-10-17T13:39:32.861Z","tool":"ost_append_to_node","ok":true,"ms":22,"surface":"mcp","argBytes":1898,"session":"mcp-23504b30-b13e-4bcf-b46a-8284123b6e50","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
 {"ts":"2026-10-17T13:39:36.198Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-23504b30-b13e-4bcf-b46a-8284123b6e50"}
+{"ts":"2026-10-17T14:43:46.031Z","tool":"ost_ingest_inbox","ok":true,"ms":82,"surface":"mcp","argBytes":2,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
