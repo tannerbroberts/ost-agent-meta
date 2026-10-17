@@ -21190,3 +21190,4 @@
 {"ts":"2026-10-17T15:58:58.630Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":113,"session":"mcp-7466a4e8-2a79-4a28-a4ad-c7906a7b54a1"}
 {"ts":"2026-10-17T15:59:04.340Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":104,"session":"mcp-7466a4e8-2a79-4a28-a4ad-c7906a7b54a1"}
 {"ts":"2026-10-17T15:59:09.494Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-7466a4e8-2a79-4a28-a4ad-c7906a7b54a1"}
+{"ts":"2026-10-17T17:01:12.048Z","tool":"ost_ingest_inbox","ok":true,"ms":80,"surface":"mcp","argBytes":2,"session":"mcp-d0f64d93-2f0b-4055-92d8-a42e2e3bfb1b"}
