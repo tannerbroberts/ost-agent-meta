@@ -23,3 +23,10 @@ Every `tool_use` block already carries an id the host and the API assign: `toolu
 **Honest note on how this was ideated.** All three candidates under this opportunity were written in one context by one author, one after another. This surface cannot run independent blind ideators, so discount their apparent distinctness. This one and the entry-type filter both fix the code at read time, and they differ mainly in what each trusts about the host.
 
 Unvalidated. Agent-ideated 2026-10-17; for a human to review.
+
+## Definition of done
+
+"One tool_use id written on two lines files no retry, while two ids with one signature still file one"
+`npx vitest run test/adapters/transcript-call-identity.test.ts`
+
+The spec does not exist yet, so its red today is `no-spec`. The builder writes the three fixtures that test names, with explicit distinct ids, then makes fixtures 1 and 3 pass. The existing "reports a repeated identical tool call as a retry" test in `test/adapters/transcript.test.ts` has to be given two distinct ids at the same time, or it fails for a reason unrelated to this fix.
