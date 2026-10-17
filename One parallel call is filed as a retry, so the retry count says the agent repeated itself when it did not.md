@@ -60,3 +60,15 @@ The parent's 2026-10-11 census counts 775 evidence records containing any retry 
 **What this adds to the limits above.** The mechanism is now confirmed in three sessions, not two. In those three, every parallel batch (8 of 8) was copied and none of the single calls (0 of 4) were. That is still three files, not a rate. In this session the cause accounts for 100% of the filed friction. So a firing that batches every independent read, as its system prompt tells it to, can come out showing a dozen "struggles" while it struggled with nothing.
 
 _Source: TRANSCRIPT:b4b069c8-9034-412e-89bd-ed374d22e72b, plus a Grep of the session's raw `.jsonl`. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand._
+
+## 2026-10-17 (later firing) — the `is_error` limit above, checked: blobs carry results, and none so far carries an error
+
+The **Limits** paragraph says: "I did not check whether a blob can also carry `tool_result` blocks with `is_error: true`, which would double-count `tool_error` the same way." I checked it with a Grep over every `.jsonl` session file in this vault's project directory.
+
+- **Blobs do carry results.** 13 session files have `api-request-blob` lines that contain a `"tool_result"` block, 59 lines in all.
+- **None of those blob lines contains `"is_error":true`.** That held across the whole directory, with 0 matches.
+- **Errors and result-carrying blobs do appear in the same sessions.** Three of the 13 files (`70f6e650-…`, `186b60bd-…`, `30bc9037-…`) also hold an `is_error:true` result. In `70f6e650-…` the one error result (line 209, `toolu_0163Ezyv1ZiJTjBhGXDjsscZ`) appears on exactly two lines: the call and its result. No blob copied it.
+
+**What this means for the solutions beneath.** So far the double-count is limited to `retry`. The "copied `tool_result` with `is_error: true`" risk that "Take the host's tool_use id as the identity of a call, and build no notion of a repeated call here" lists as a give-up has not been seen in practice. A builder should still key the error path on `tool_use_id`, because nothing guarantees the host keeps errors out of blobs.
+
+**Limits.** This was a literal string match, so a blob that stored an error as escaped JSON or with different spacing would be missed. The `"id":"toolu_` and `"tool_result"` matches show that blobs are not escaped in the files checked. The check covers one project directory, and only up to today. I did not read how `extractFriction` decides `tool_error`, so whether it keys on `is_error` at all is unverified. Nothing was executed and no rung moved. `ost_check` is withheld on this surface, so this write is unverified by design.
