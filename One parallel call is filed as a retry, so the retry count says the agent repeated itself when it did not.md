@@ -7,6 +7,7 @@ authorship: machine
 ---
 #Opportunity #unvalidated #evidence/observed
 [[Scan only the entries that are conversation turns, so the host's request copies never reach the retry check]]
+[[Mark each retry with whether its call id was new, and leave the decision to discount it with the reader]]
 
 **The need (operator's voice):** "When a session record says the agent retried a call eight times, I read that as eight times it hit something and had to try again. If it actually made each of those calls once, the record is telling me the agent struggled where it did not, and I will go looking for a problem that is not there."
 
