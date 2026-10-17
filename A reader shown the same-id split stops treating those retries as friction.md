@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[The operator reads ten split records and marks which same-id retries they would still have chased]]
 
 **Risk category: usability.**
 
