@@ -87,3 +87,13 @@ The 2026-10-13 section stated a limit: its five records "were the head of an alp
 **What this does to the 10-13 limit.** The queue now has a sample from both ends that agrees. So it is more likely that the 1074 are mostly records of needs the tree already holds, and less likely that this is an artefact of always reading the head. It is still 12 of 1074, chosen by position rather than at random, so it does not give a rate.
 
 _Method: seven `ost_next_work({evidence})` reads plus one filename Glob. This is observed behaviour of this agent's own surface. It grounds usability, not desirability. No node was created, no rung moved, and nothing was executed. `ost_check` is withheld here, so this write is unverified by design._
+
+## 2026-10-17 — the middle of the queue looks like both ends
+
+The 2026-10-16 section sampled the head and tail and noted the sample was still "chosen by position rather than at random". This firing read four records from the **middle** of the ordering, `5e5c119d-…`, `6e66c934-…`, `7c6f8edf-…` and `8a9777ad-…` (dated 2026-07-25 to 2026-08-06), plus `02912d97-…`, the one record this firing's ingest captured.
+
+**Result: 5 of 5 repeat shapes the tree already holds, and none holds a new need.** Edit refused on an unread file; permission denials on withheld tools (`ost_flag_humans_required` four times in one session, `ost_check`, WebFetch) and on the product-repo path; a brace in a Grep glob; zsh `no matches found`; a rung-ceiling refusal on `create_node`; an unexpected `limit` parameter on Glob; and the prescribed `ingest`/`next_work` re-call filed as `retry`. `02912d97` is three `retry` events, each re-reading an evidence id (`030e5db3`, `08e10880`, `9e4847e5`) that earlier firings had already read and reported on this node.
+
+**What this adds.** The queue has now been sampled at the head, the tail and the middle, 17 records in all, and every one repeats a need the tree already holds. That is still not a random sample and gives no rate. But "it is an artefact of where passes read" is now a weak explanation. The 1088 look like records of needs already on the tree, which the predicate this node describes cannot count as mapped.
+
+_Method: five `ost_next_work({evidence})` reads and one filename Glob. This is observed behaviour of this agent's own surface. It grounds usability, not desirability. No node was created, no rung moved, and nothing was executed. `ost_check` is withheld here, so this write is unverified by design._
