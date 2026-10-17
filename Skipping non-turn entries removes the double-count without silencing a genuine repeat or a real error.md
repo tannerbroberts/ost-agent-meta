@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A request-blob copy of a call files no retry, while two real turns with one signature still file one]]
 
 **Risk category: feasibility.**
 
