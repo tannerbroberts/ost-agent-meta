@@ -21204,3 +21204,4 @@
 {"ts":"2026-10-17T17:03:02.896Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":65,"session":"mcp-d0f64d93-2f0b-4055-92d8-a42e2e3bfb1b"}
 {"ts":"2026-10-17T17:03:15.253Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":88,"session":"mcp-d0f64d93-2f0b-4055-92d8-a42e2e3bfb1b"}
 {"ts":"2026-10-17T17:03:51.012Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":2106,"session":"mcp-d0f64d93-2f0b-4055-92d8-a42e2e3bfb1b","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
+{"ts":"2026-10-17T17:03:55.867Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-d0f64d93-2f0b-4055-92d8-a42e2e3bfb1b"}
