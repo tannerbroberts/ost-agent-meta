@@ -72,3 +72,15 @@ The **Limits** paragraph says: "I did not check whether a blob can also carry `t
 **What this means for the solutions beneath.** So far the double-count is limited to `retry`. The "copied `tool_result` with `is_error: true`" risk that "Take the host's tool_use id as the identity of a call, and build no notion of a repeated call here" lists as a give-up has not been seen in practice. A builder should still key the error path on `tool_use_id`, because nothing guarantees the host keeps errors out of blobs.
 
 **Limits.** This was a literal string match, so a blob that stored an error as escaped JSON or with different spacing would be missed. The `"id":"toolu_` and `"tool_result"` matches show that blobs are not escaped in the files checked. The check covers one project directory, and only up to today. I did not read how `extractFriction` decides `tool_error`, so whether it keys on `is_error` at all is unverified. Nothing was executed and no rung moved. `ost_check` is withheld on this surface, so this write is unverified by design.
+
+## 2026-10-17 (later firing) — a fourth session: 11 of 12 retries are blob copies, and the twelfth is the parent's cause
+
+`TRANSCRIPT:e14468da-f53b-4327-8b9f-71e87fd40532` was the unattended firing that wrote the `is_error` section above. It was filed as **12 friction events, retry ×12, nothing else**. I grepped its raw `.jsonl` for every `"id":"toolu_…"`.
+
+- **11 of the 12 are this node's cause.** The session made five parallel batches, and every one was copied into a following `"type":"api-request-blob"` entry: lines 64/66→69, 74/76→81, 126/128/130→135, 152/154→157, 175/177→180. That is 11 ids, each on exactly two lines, matching the 11 argument-carrying retries (two `ost_next_work` with `evidence`, seven `ost_read_tree`, two `Grep`).
+- **The twelfth is the parent's cause, not this one.** The `ost_ingest_inbox` retry is two real calls with two different ids (`toolu_01AAWP…` on line 31, `toolu_01FzvW…` on line 205): the start-of-pass ingest and the confirm-before-report ingest the loop prescribes. So both causes show up in one session, and they can be counted apart.
+- **No single call was copied.** The session made 18 single calls, and none of their ids appears twice.
+
+**Running tally across the four sessions checked.** 13 of 13 parallel batches were copied, and 0 of 22 single calls were. That is still four files from one host version, not a rate. But a session that batches every independent read now reliably produces retry counts this cause has inflated.
+
+_Source: TRANSCRIPT:e14468da-f53b-4327-8b9f-71e87fd40532, plus a Grep of that session's raw `.jsonl` for tool_use ids and entry types. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand. `ost_check` is withheld on this surface, so this write is unverified by design._
