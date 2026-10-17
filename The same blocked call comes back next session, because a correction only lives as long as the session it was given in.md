@@ -29,3 +29,23 @@ Sessions with that refusal, read in full this firing: `030e5db3` (Glob on `…/O
 **What this adds to the node.** A ledger that someone fills in has the same blind spot one level up. It carries the corrections it was given and has no entry for a refusal that never named an alternative. A permission denial says only "not granted". It never says "use `ost_read_repo`". So nothing in it could be turned into a ledger entry, even though it recurs as often as the refusals the ledger does record. That bears on the three candidates below. One that records only refusals which already name their permitted form would not have caught this one.
 
 _Method: four evidence bodies read via `ost_next_work({evidence})`, plus this firing's own refused call. Observed behaviour of this agent's surface. It grounds usability, not desirability. These records stay in `unmappedEvidence` because only a `source:` field drains that queue (see "I map evidence the way the method says — onto an existing node — and the queue counts it as untouched"). Nothing was executed, no rung moved, and no instrument was set. `ost_check` is withheld on this surface, so this write has not been verified by the invariant checker._
+
+## 2026-10-17: one wrong repo path, guessed fresh in ten separate sessions
+
+A count over the whole transcript corpus, read first-party with a grep over `.ost-agent/evidence/TRANSCRIPT_*.md` for `ost_read_repo` refusals of the form `"<path>" does not exist in OST-Agent`.
+
+**The count.** There are 27 such refusals across 26 sessions. Three paths account for 17 of them:
+
+| Guessed path | Sessions that guessed it |
+|---|---|
+| `src/instruments` | 10 |
+| `src/evidence` | 5 |
+| `src/ost/verify.ts` | 2 |
+
+Ten other paths were guessed once each.
+
+**Why this belongs on this node.** Every one of those refusals returned the same correction: a listing of what `src/` actually contains. The correction worked inside the session that got it. Nine later sessions still made the identical guess, because nothing carried the correction over. This is the clearest single-path example of this need that the corpus holds, and it measures what an earlier note on "A third of my calls go on re-asking what is outstanding" could only report as "twice".
+
+**What the guess is made of, and it is checkable.** `test/` in the product repo has `instruments/`, `evidence/` and `friction/` directories. `src/` has none of them; the code lives under `src/ost/` (`instrument.ts`), `src/knowledge/` and `src/adapters/`. So 16 of the 27 misses (`src/instruments` ×10, `src/evidence` ×5, `src/friction` ×1) are a `test/` directory name guessed under `src/`. The vault's vocabulary matches the test layout but not the source layout, and the agent guesses from the vocabulary. A fix that only remembers corrections would stop the repeats. A fix that names the source layout up front would stop the first guess as well. Those are different candidates, and this count cannot rank them.
+
+**Limits.** These are string matches, not a classification by meaning. Only refusals the harvester captured are counted, so sessions from before the repo grant are absent. Nothing here shows the misses cost much: each one is a single turn answered with a useful listing. This is observed structure from the agent's own sessions. It grounds usability, not desirability. Nothing was executed, and no rung, lane or instrument was changed.
