@@ -286,3 +286,21 @@ _Method: this firing's own `ost_next_work` response and pasted `ost-agent rollup
 **New this firing: the unannotated part of the residue is now classified.** 40 of the 67 already carry a dated verdict from an earlier pass (`## Issues`, `lane --set` or `humans-required` in the body). I classified the other 27 by the measuring act their titles name. All 27 are people-shaped or judged by hand: interviews, offers, readers, operators, blind raters, "by hand" or "on paper". None is a spec over the product's code. That fits the 2026-09-02 census, and it adds coverage, not a correction.
 
 _Nothing executed. No lane, instrument, rung or status set. No node created. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## 2026-10-17 — one row: the bucket's one new entry is a labelled test, and the unlabelled pile is flat for a sixth interval
+
+| | 2026-10-09 | **2026-10-17** | Δ (8d) |
+|---|---|---|---|
+| Tests total | 520 | 523 | +3 |
+| Carrying an instrument | 385 | 387 | +2 |
+| No instrument, `lane: humans-required` | 68 | 69 | +1 |
+| No instrument, no lane | 67 | **67** | **0** |
+| `solutionsMissingInstruments` | 71 | **72** | **+1** |
+
+`387 + 69 + 67 = 523`. The instrumented count comes from the rollup pasted into this firing. The other two rows are exact greps over this vault's `*.md` taken this pass: `^lane: ` returned 69 files, and the multiline frontmatter match (`type: AssumptionTest` with neither `instrument:` nor `lane:`) returned 67, the same titles as before.
+
+**The +1 is the double-count, seen once more.** The new lane-labelled test is "The operator reads ten split records and marks which same-id retries they would still have chased". Its solution, "Mark each retry with whether its call id was new, and leave the decision to discount it with the reader", was written on 2026-10-17 with a humans-required Definition of done, and it now sits in the instrument bucket. Its own body predicted that. One labelled test came in and one bucket entry came in, which is what the missing lane branch predicts. I didn't re-read `src/eval/buildable.ts` to confirm the branch is still absent.
+
+**The 47 entries this surface can't page to are not new ground.** The sweep caps the bucket at 25 and lists it alphabetically, so the hidden entries are the titles after "Route…". Their instrument-less tests are all in the two greps above. I re-read one ("Replay the three recorded failed runs through the journal-alert rule on paper"), and it already carries the dated verdict this table's 2026-10-02 row cited.
+
+_Nothing executed. No lane, instrument, rung or status set. No node created. `ost_check` is withheld on this surface, so this write is unverified by design._
