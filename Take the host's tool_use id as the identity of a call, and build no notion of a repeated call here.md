@@ -10,6 +10,7 @@ killBy: '2027-04-17'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Keying on the call id removes the double-count and still files a repeat made under a new id]]
 
 **Variation dimension: bought-vs-built. Position taken: adopt the host's own call identifier unchanged, and build nothing that guesses which lines are real.**
 
