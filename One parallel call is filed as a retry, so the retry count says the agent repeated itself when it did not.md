@@ -52,3 +52,11 @@ The parent's 2026-10-11 census counts 775 evidence records containing any retry 
 
 ## History
 - 2026-10-17 body edited — The first version said the duplicate copy of each call sat on "one combined line" of the parallel batch. Reading the entry types showed something else: each second copy is inside a host-written `"type":"api-request-blob"` entry, and `extractFriction` reads any entry type. That changes which fixes are available, so the mechanism and litmus sections are corrected here rather than left wrong under a later append.
+
+## 2026-10-17 (later firing) — a third session, 12 of 12
+
+`TRANSCRIPT:b4b069c8-9034-412e-89bd-ed374d22e72b` was the unattended firing that wrote two of this node's solutions. It was filed as **12 friction events, retry ×12, nothing else**. I grepped the raw session file for each `tool_use` id. **All 12 ids appear on exactly two lines.** The second copy is always in a `"type":"api-request-blob"` entry: lines 52/54→60, 74/76/78→83, 90/92/94→97, 104/106→111, 118/120→124. That makes five parallel batches, and every one was copied. The session also made two single calls (lines 36 and 66). Blob entries follow both of them (lines 39 and 71), but neither blob holds the call's id, so neither was double-counted.
+
+**What this adds to the limits above.** The mechanism is now confirmed in three sessions, not two. In those three, every parallel batch (8 of 8) was copied and none of the single calls (0 of 4) were. That is still three files, not a rate. In this session the cause accounts for 100% of the filed friction. So a firing that batches every independent read, as its system prompt tells it to, can come out showing a dozen "struggles" while it struggled with nothing.
+
+_Source: TRANSCRIPT:b4b069c8-9034-412e-89bd-ed374d22e72b, plus a Grep of the session's raw `.jsonl`. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand._
