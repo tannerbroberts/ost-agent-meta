@@ -6,6 +6,7 @@ evidence: assertion
 threshold: >-
   A mechanical detector must agree with the hand labelling on at least 26 of the
   32 under-served rows. Agreement below 24 of 32 kills the candidate.
+authorship: machine
 ---
 #AssumptionTest #unvalidated #evidence/assertion
 
@@ -18,3 +19,6 @@ threshold: >-
 **Why this one first:** it is the cheapest disconfirmer of the three candidates. It needs no build, no operator and no external party, it runs entirely against committed state, and a refuted result would tell the tree to stop ideating factor-table variants before any of them is built.
 
 **What it deliberately does not cover:** whether the factor values, once correct, change anyone's mind about the order. That is the value question, and this test is deliberately silent on it.
+
+## Issues
+- 2026-10-17 2026-10-17 unattended sweep: checked for a missing instrument and left without one on purpose. Two reasons. (1) The measurement is a hand labelling made before the detector's output is seen. If compute produced the labels it would be the graded party grading itself, so a person must write them. Once someone commits those labels as a fixture, the detector-agreement half becomes one spec, and that is the point to set an instrument. (2) The subject has changed: the test was written against "all 32 currently under-served opportunities", and today's sweep lists 1. Its 26-of-32 bar cannot be applied as written, so the human who labels must also say which rows count. Nothing executed, no instrument set, no rung moved.
