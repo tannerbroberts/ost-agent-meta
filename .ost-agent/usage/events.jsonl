@@ -21206,3 +21206,13 @@
 {"ts":"2026-10-17T17:03:51.012Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":2106,"session":"mcp-d0f64d93-2f0b-4055-92d8-a42e2e3bfb1b","touched":["The biggest queue on my report is one the surface reading it to me has no tool to clear.md"]}
 {"ts":"2026-10-17T17:03:55.867Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-d0f64d93-2f0b-4055-92d8-a42e2e3bfb1b"}
 {"ts":"2026-10-17T18:06:15.180Z","tool":"ost_ingest_inbox","ok":true,"ms":100,"surface":"mcp","argBytes":2,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:16.536Z","tool":"ost_next_work","ok":true,"ms":145,"surface":"mcp","argBytes":2,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:27.377Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":108,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:27.760Z","tool":"ost_next_work","ok":true,"ms":23,"surface":"mcp","argBytes":62,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:32.943Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":116,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:33.310Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":115,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:40.984Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":114,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:41.488Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":93,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:41.913Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":113,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:06:51.500Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":113,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
+{"ts":"2026-10-17T18:07:04.496Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-cbe3b1c0-c8df-49c0-ad0a-680a7f1e5b5f"}
