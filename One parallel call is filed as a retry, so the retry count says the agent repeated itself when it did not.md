@@ -84,3 +84,15 @@ The **Limits** paragraph says: "I did not check whether a blob can also carry `t
 **Running tally across the four sessions checked.** 13 of 13 parallel batches were copied, and 0 of 22 single calls were. That is still four files from one host version, not a rate. But a session that batches every independent read now reliably produces retry counts this cause has inflated.
 
 _Source: TRANSCRIPT:e14468da-f53b-4327-8b9f-71e87fd40532, plus a Grep of that session's raw `.jsonl` for tool_use ids and entry types. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## 2026-10-17 (later firing) — a fifth session, and the first parallel batch that was not copied
+
+`TRANSCRIPT:8dfe02f3-d3bd-466a-a391-e511057bfad8` was the firing that wrote the fourth-session section above. It was filed as **8 friction events, retry ×8**. I grepped its raw `.jsonl` for every `"id":"toolu_…"` and every tool `"name"`.
+
+- **6 of the 8 are this node's cause.** Three parallel batches were copied into a following blob line: Grep 76/78→81, Grep 86/88→91, `ost_read_tree` 104/106→110. That covers the four Grep retries and the two `ost_read_tree` retries in the record.
+- **2 of the 8 are the parent's cause.** `ost_ingest_inbox` (lines 31, 132) and `ost_next_work` (lines 36, 138) were each called twice with different ids. These are the start-of-pass and confirm-before-report calls the loop prescribes.
+- **New: one parallel batch was not copied.** Lines 54, 55 and 56 hold one `ost_read_tree` and two `ost_next_work` calls with an `evidence` argument. All three ids appear only once. In the four earlier sessions, each call in a batch sat on its own line with a result line in between, for example 76/78 with the result on 77. Here the three calls sit on consecutive lines. I did not find out why the host skipped this one. The difference in layout is all I observed.
+
+**Running tally, corrected.** Across five sessions, 16 of 17 parallel batches were copied and 0 of about 32 single calls were. So the "13 of 13" above should no longer be read as "every parallel batch is copied". The copying is common, but not guaranteed. That matters to "Scan only the entries that are conversation turns, so the host's request copies never reach the retry check": a fix that assumes a copy always exists would be wrong. It does not matter to keying on the `tool_use` id, because that fix holds either way.
+
+_Source: TRANSCRIPT:8dfe02f3-d3bd-466a-a391-e511057bfad8, plus a Grep of that session's raw `.jsonl`. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand. `ost_check` is withheld on this surface, so this write is unverified by design._
