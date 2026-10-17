@@ -21163,3 +21163,17 @@
 {"ts":"2026-10-17T13:39:32.861Z","tool":"ost_append_to_node","ok":true,"ms":22,"surface":"mcp","argBytes":1898,"session":"mcp-23504b30-b13e-4bcf-b46a-8284123b6e50","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
 {"ts":"2026-10-17T13:39:36.198Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-23504b30-b13e-4bcf-b46a-8284123b6e50"}
 {"ts":"2026-10-17T14:43:46.031Z","tool":"ost_ingest_inbox","ok":true,"ms":82,"surface":"mcp","argBytes":2,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:43:46.524Z","tool":"ost_next_work","ok":true,"ms":131,"surface":"mcp","argBytes":2,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:43:56.671Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":108,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:43:57.059Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":116,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:44:01.672Z","tool":"ost_next_work","ok":true,"ms":19,"surface":"mcp","argBytes":62,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:44:07.542Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":114,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:44:08.039Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":104,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:44:08.267Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":113,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:44:46.239Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":70,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:44:46.543Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":65,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:45:05.025Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":88,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:45:05.331Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":61,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:45:27.242Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":101,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:45:27.625Z","tool":"ost_read_tree","ok":true,"ms":60,"surface":"mcp","argBytes":72,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38"}
+{"ts":"2026-10-17T14:45:37.239Z","tool":"ost_annotate","ok":true,"ms":23,"surface":"mcp","argBytes":775,"session":"mcp-5d746066-f7df-4bb3-9068-56086a47af38","touched":["Rewrite the shortest helper against the bundled runtime and compare length and readability.md"]}
