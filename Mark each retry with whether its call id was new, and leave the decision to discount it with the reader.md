@@ -10,6 +10,7 @@ killBy: '2027-04-17'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[A reader shown the same-id split stops treating those retries as friction]]
 
 **Variation dimension: automated-vs-manual. Position taken: the detecting stays automated, and the judgement is deliberately left manual.**
 
