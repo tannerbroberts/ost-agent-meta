@@ -11,6 +11,7 @@ killBy: '2027-04-17'
 authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
+[[Skipping non-turn entries removes the double-count without silencing a genuine repeat or a real error]]
 
 **Variation dimension: who-does-the-work. Position taken: the harvester does all of it, at read time, and nobody downstream has to discount anything.**
 
