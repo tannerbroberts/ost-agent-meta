@@ -21118,3 +21118,7 @@
 {"ts":"2026-10-17T10:27:52.884Z","tool":"ost_next_work","ok":true,"ms":18,"surface":"mcp","argBytes":62,"session":"mcp-312913b6-1b63-421d-b617-838f353c48af"}
 {"ts":"2026-10-17T10:28:03.479Z","tool":"ost_read_tree","ok":true,"ms":62,"surface":"mcp","argBytes":115,"session":"mcp-312913b6-1b63-421d-b617-838f353c48af"}
 {"ts":"2026-10-17T10:28:31.194Z","tool":"ost_append_to_node","ok":true,"ms":21,"surface":"mcp","argBytes":1954,"session":"mcp-312913b6-1b63-421d-b617-838f353c48af","touched":["One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not.md"]}
+{"ts":"2026-10-17T10:28:38.140Z","tool":"ost_read_tree","ok":true,"ms":63,"surface":"mcp","argBytes":114,"session":"mcp-312913b6-1b63-421d-b617-838f353c48af"}
+{"ts":"2026-10-17T10:28:38.389Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":113,"session":"mcp-312913b6-1b63-421d-b617-838f353c48af"}
+{"ts":"2026-10-17T10:28:54.901Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":116,"session":"mcp-312913b6-1b63-421d-b617-838f353c48af"}
+{"ts":"2026-10-17T10:29:06.305Z","tool":"ost_ingest_inbox","ok":true,"ms":11,"surface":"mcp","argBytes":2,"session":"mcp-312913b6-1b63-421d-b617-838f353c48af"}
