@@ -28,3 +28,10 @@ authorship: machine
 **Honest note on how this was ideated.** All three candidates under this opportunity were written in one context by one author, one after another. This surface cannot run independent blind ideators, so discount their apparent distinctness.
 
 Unvalidated. Agent-ideated 2026-10-17; for a human to review.
+
+## Definition of done
+
+"A request-blob copy of a call files no retry, while two real turns with one signature still file one"
+`npx vitest run test/adapters/transcript-entry-types.test.ts`
+
+The spec does not exist yet, so its red today is `no-spec`. The builder's first job is to write the three fixtures that test names, then make fixture 1 pass without breaking the two controls.
