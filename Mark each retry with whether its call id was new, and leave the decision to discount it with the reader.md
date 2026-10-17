@@ -25,3 +25,11 @@ The harvester keeps filing every retry it files today. What it adds is one fact 
 **Honest note on how this was ideated.** All three candidates under this opportunity were written in one context by one author, one after another. This surface cannot run independent blind ideators, so discount their apparent distinctness.
 
 Unvalidated. Agent-ideated 2026-10-17; for a human to review.
+
+## Definition of done — and it is not a command
+
+"The operator reads ten split records and marks which same-id retries they would still have chased"
+
+No command: this test is humans-required on purpose. The bar is **no more than 1 of 10 records with a same-id retry the operator would still have chased**. A spec could prove the label is printed. It cannot observe whether anyone acts on it, and that is the only belief this candidate rests on that its siblings do not.
+
+Expect this solution to appear in `solutionsMissingInstruments` anyway. That bucket does not yet read the lane, as recorded on "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue".
