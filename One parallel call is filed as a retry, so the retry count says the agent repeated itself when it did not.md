@@ -110,3 +110,15 @@ _Source: TRANSCRIPT:8dfe02f3-d3bd-466a-a391-e511057bfad8, plus a Grep of that se
 **Running tally:** 20 of 21 parallel batches copied, 0 of about 39 single calls, across six sessions from one host version. That is not a rate. It also changes nothing about the fixes: keying on `tool_use` id holds whether or not a copy exists.
 
 _Source: TRANSCRIPT:41381be0-b96c-4c70-8641-344edf4423f7, plus three Greps of that session's raw `.jsonl`. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## 2026-10-17 (later firing): a seventh session, 9 of 10
+
+`TRANSCRIPT:39147a6a-d42c-4e02-b1b0-d302893ca7e0` was filed as **10 friction events, retry ×10**. I grepped its raw `.jsonl` for the `tool_use` ids of the four tools named in the record.
+
+- **9 of the 10 are this node's cause.** It made four parallel batches, and all four were copied into a following `api-request-blob` line: 52/54→58, 66/68→73, 88/90→93, 107/109/111→114. That is 9 ids, each on exactly two lines.
+- **The tenth is the parent's cause.** `ost_ingest_inbox` sits on lines 31 and 127 with two different ids: the start-of-pass call and the confirm call that the loop prescribes.
+- **No single call was copied.** Lines 36, 80 and 101 each hold an id that appears only once.
+
+**Running tally:** across seven sessions from one host version, 24 of 25 parallel batches were copied and 0 of about 44 single calls were. Nothing new about the mechanism. I'm recording it so the evidence counts as mapped. Later sessions that only repeat this pattern might be better counted in a single line than given a section each, and that call is for a human to make.
+
+_Source: TRANSCRIPT:39147a6a-d42c-4e02-b1b0-d302893ca7e0, plus two Greps of that session's raw `.jsonl`. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand. `ost_check` is withheld on this surface, so this write is unverified by design._
