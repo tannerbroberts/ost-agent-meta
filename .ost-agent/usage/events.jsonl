@@ -21273,3 +21273,14 @@
 {"ts":"2026-10-17T22:21:19.734Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":2359,"session":"mcp-c376263a-c33a-4ae5-a582-d72f865dbf69","touched":["The same blocked call comes back next session, because a correction only lives as long as the session it was given in.md"]}
 {"ts":"2026-10-17T22:21:22.498Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-c376263a-c33a-4ae5-a582-d72f865dbf69"}
 {"ts":"2026-10-17T23:23:13.018Z","tool":"ost_ingest_inbox","ok":true,"ms":95,"surface":"mcp","argBytes":2,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:23:13.544Z","tool":"ost_next_work","ok":true,"ms":141,"surface":"mcp","argBytes":2,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:23:23.367Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":108,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:23:23.849Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:23:43.905Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":14,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:23:56.522Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":114,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:23:56.697Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":113,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:23:57.099Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":104,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:24:07.365Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":32,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:24:14.567Z","tool":"ost_next_work","ok":true,"ms":29,"surface":"mcp","argBytes":62,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-17T23:24:15.146Z","tool":"ost_next_work","ok":true,"ms":23,"surface":"mcp","argBytes":62,"session":"mcp-e62ad4ab-53d2-434c-84f5-d114e3202803"}
+{"ts":"2026-10-18T00:26:13.519Z","tool":"ost_ingest_inbox","ok":true,"ms":95,"surface":"mcp","argBytes":2,"session":"mcp-e61cdaed-302b-4045-b0c1-2fa7c95ee0a9"}
