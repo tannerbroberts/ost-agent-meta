@@ -96,3 +96,17 @@ _Source: TRANSCRIPT:e14468da-f53b-4327-8b9f-71e87fd40532, plus a Grep of that se
 **Running tally, corrected.** Across five sessions, 16 of 17 parallel batches were copied and 0 of about 32 single calls were. So the "13 of 13" above should no longer be read as "every parallel batch is copied". The copying is common, but not guaranteed. That matters to "Scan only the entries that are conversation turns, so the host's request copies never reach the retry check": a fix that assumes a copy always exists would be wrong. It does not matter to keying on the `tool_use` id, because that fix holds either way.
 
 _Source: TRANSCRIPT:8dfe02f3-d3bd-466a-a391-e511057bfad8, plus a Grep of that session's raw `.jsonl`. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## 2026-10-17 (later firing) — a sixth session: 12 of 13 are blob copies, and adjacent calls were copied too
+
+`TRANSCRIPT:41381be0-b96c-4c70-8641-344edf4423f7` was the unattended firing just before this one. It was filed as **13 friction events, retry ×13**. I grepped its raw `.jsonl` for every `"id":"toolu_…"`, every `api-request-blob` line and the ingest/ToolSearch call names.
+
+- **12 of the 13 are this node's cause.** The session made four parallel batches, and every one was copied into a following blob line: 51/52/55→59, 75/77/79/81→84, 91/93→98, 105/107/108→113. That is 12 ids, each on exactly two lines.
+- **The thirteenth is the parent's cause.** `ost_ingest_inbox` sits on lines 31 and 129 with two different ids. These are the start-of-pass and confirm-before-report calls the loop prescribes.
+- **No single call was copied.** Lines 20, 31, 36, 43, 67, 121 and 129 each hold one id, and none of those ids appears twice.
+
+**What this does to the fifth session's open question.** That section found one uncopied batch whose three calls sat on consecutive lines (54/55/56), and offered layout as the only difference it observed. Here two copied batches also contain adjacent calls (51/52 and 107/108). So "adjacent calls are not copied" does not hold as a rule. The one uncopied batch is still unexplained, and it is still the only one.
+
+**Running tally:** 20 of 21 parallel batches copied, 0 of about 39 single calls, across six sessions from one host version. That is not a rate. It also changes nothing about the fixes: keying on `tool_use` id holds whether or not a copy exists.
+
+_Source: TRANSCRIPT:41381be0-b96c-4c70-8641-344edf4423f7, plus three Greps of that session's raw `.jsonl`. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand. `ost_check` is withheld on this surface, so this write is unverified by design._
