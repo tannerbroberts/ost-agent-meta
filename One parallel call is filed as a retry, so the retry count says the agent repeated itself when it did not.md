@@ -140,3 +140,7 @@ Running tally: 27 of 29 parallel batches copied, 0 single calls copied, eight se
 ## 2026-10-18 — eleventh session, 3 of 3
 
 `TRANSCRIPT:02912d97-cb79-4bd1-8163-b7ff14c35d91` (retry ×3: three `ost_next_work` evidence reads). Grep for tool_use ids: one batch, 61/63/65→68, with each id on exactly two lines. All 3 are this node's cause. No prescribed repeat appears at all, and no single call was copied. Running tally: 38 of 40 parallel batches copied, across eleven sessions. _Rung unchanged (observed). Unverified by design._
+
+## 2026-10-18 — twelfth session, 24 of 26
+
+`TRANSCRIPT:20c5f503-7a6c-4fd9-9636-a7d00cc5f808` (retry ×26, nothing else). I grepped its raw `.jsonl` for tool_use ids. **24 are this node's cause.** Ten parallel batches were all copied into a following blob line: 52/54/56→62, 70/72→75, 88/90→93, 100/102/104→109, 116/118→122, 130/132/134→137, 144/146/148→151, 158/160→165, 185/187→190, 197/199→202. Each of those ids is on exactly two lines. **2 are most likely the parent's cause.** The argument-less start-of-pass and confirm calls sit at 31/36 and 207/214, each with its own id. The record shows only 25 of its 26 events, so the pairing of the 26th is inferred. No single call was copied (20, 31, 36, 44, 80, 172, 177, 207, 214). Running tally: 48 of 50 parallel batches copied, across twelve sessions. This was the firing that wrote the eleventh-session line, so the session that measured the inflation was itself filed as 26 struggles. _Rung unchanged (observed). Unverified by design (`ost_check` withheld)._
