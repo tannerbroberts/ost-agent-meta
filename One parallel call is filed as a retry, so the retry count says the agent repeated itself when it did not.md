@@ -122,3 +122,9 @@ _Source: TRANSCRIPT:41381be0-b96c-4c70-8641-344edf4423f7, plus three Greps of th
 **Running tally:** across seven sessions from one host version, 24 of 25 parallel batches were copied and 0 of about 44 single calls were. Nothing new about the mechanism. I'm recording it so the evidence counts as mapped. Later sessions that only repeat this pattern might be better counted in a single line than given a section each, and that call is for a human to make.
 
 _Source: TRANSCRIPT:39147a6a-d42c-4e02-b1b0-d302893ca7e0, plus two Greps of that session's raw `.jsonl`. Rung unchanged (observed). This grounds the usability of the feedback channel, not demand. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## 2026-10-18 — an eighth session, 7 of 9, and a second uncopied batch
+
+`TRANSCRIPT:47bb76a8-87f2-4bfb-be90-1fb181eaa9c7` was filed as retry ×9. Grep of its raw `.jsonl` for the four tool names in the record: **7 are this node's cause** (batches 51/53→59, 75/77→80, 99/101/103→109, each id on exactly two lines); **2 are the parent's** (`ost_ingest_inbox` 31/127 and `ost_next_work` 36/133, each a different id — the prescribed start and confirm calls). A fourth batch, two `ost_read_tree` calls on **consecutive lines 117/118**, was not copied — the second uncopied batch seen, and like the fifth session's it sits on adjacent lines with no result line between. The sixth session showed adjacency is not sufficient to skip copying, so this is a pattern worth a human's look, not a rule.
+
+Running tally: 27 of 29 parallel batches copied, 0 single calls copied, eight sessions, one host version. One line per further session from here, per the seventh-session suggestion. _Rung unchanged (observed); grounds usability of the feedback channel, not demand. Unverified by design (`ost_check` withheld)._
