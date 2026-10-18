@@ -132,3 +132,7 @@ Running tally: 27 of 29 parallel batches copied, 0 single calls copied, eight se
 ## 2026-10-18 — ninth session, 17 of 18
 
 `TRANSCRIPT:cb7091af-7d93-496d-872a-8ffb96724258` (retry ×18, tool_error ×1). Grep of its raw `.jsonl` for tool_use ids: **17 are this node's cause**, in four copied batches: 54/56→62, Grep 154/156/158→161, 125/127/129/131→134, and an eight-call `ost_next_work` batch 168–182→187. Each id is on exactly two lines. **1 is the parent's** (`ost_ingest_inbox` 31/206, two ids). Running tally: 31 of 33 parallel batches copied, nine sessions. The eight-wide batch is the largest seen so far, and one firing that batched eight evidence reads was filed as eight struggles. _Rung unchanged (observed). Unverified by design (`ost_check` withheld)._
+
+## 2026-10-18 — tenth session, 14 of 16
+
+`TRANSCRIPT:694f9f09-0b00-4162-94ad-441f7d733deb` (retry ×16, nothing else). I grepped its raw `.jsonl` for tool_use ids. **14 are this node's cause.** Six parallel batches were all copied into a following blob line: 51/53→59, 75/77→80, 113/115→120, 127/129/131/133→136, 143/145→148, 155/157→161. Each of those ids is on exactly two lines. **2 are the parent's cause.** The argument-less `ost_ingest_inbox` and `ost_next_work` each have a start-of-pass id (lines 31 and 36) and a confirm id later (lines 169 and 175). No single call was copied. Running tally: 37 of 39 parallel batches copied, across ten sessions. _Rung unchanged (observed). Unverified by design (`ost_check` withheld)._
