@@ -21367,3 +21367,20 @@
 {"ts":"2026-10-18T05:43:42.394Z","tool":"ost_next_work","ok":true,"ms":26,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
 {"ts":"2026-10-18T05:43:48.688Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":115,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
 {"ts":"2026-10-18T05:44:03.473Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1245,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388","touched":["One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not.md"]}
+{"ts":"2026-10-18T05:44:07.976Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":114,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:44:16.109Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":104,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:44:23.154Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":64,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:44:30.353Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":113,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:44:38.842Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:44:39.457Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:44:40.269Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:44:40.977Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:09.183Z","tool":"ost_next_work","ok":true,"ms":27,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:09.929Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:10.725Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:11.621Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:12.425Z","tool":"ost_next_work","ok":true,"ms":23,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:13.248Z","tool":"ost_next_work","ok":true,"ms":23,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:14.280Z","tool":"ost_next_work","ok":true,"ms":21,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:14.829Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388"}
+{"ts":"2026-10-18T05:45:36.348Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1686,"session":"mcp-a4f14f76-57ec-4ace-a2b6-ec1e59ba8388","touched":["Name the engine's published dialect in the tool description and build no validator of our own.md"]}

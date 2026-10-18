@@ -83,3 +83,11 @@ A third session with the same refusal arrived this firing: `TRANSCRIPT:7c1e84c1-
 **Limits.** Three probes in one session, against one directory. "Splits on whitespace" is the simplest reading consistent with the fragment the error printed. Other separators were not tested, and the harness source was not read. Nothing was recorded as a result, no instrument was set, and no rung moved. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
 
 _Method: one evidence body read via `ost_next_work({evidence})`, plus three `Grep` calls by this firing that reproduced the refusal. This is observed behaviour of this agent's own surface. It grounds feasibility and usability, not desirability._
+
+## 2026-10-18 — the same spaced brace group: the harness's Glob tool accepts it and its Grep tool's glob argument refuses it
+
+This firing reproduced the refusal by accident and got a contrast the 2026-10-06 probes did not have. Glob, called with the pattern `**/{A string I meant literally*,A scheduled run finds out*,…}.md` (a brace group with spaces inside it), **matched all four files**. Grep, called a moment later with the same kind of glob, `{A string I meant literally*,…}.md`, **was refused** with `rg: error parsing glob '{A': unclosed alternate group`. Same session, same syntax, two of the harness's tools: one parses the input whole and one cuts it at the first space.
+
+**What it adds.** The 2026-10-06 section put the cause in the Grep wrapper's handling of its `glob` argument, not in ripgrep's dialect, and this result agrees with that. Glob-pattern syntax as such is not the problem, because a sibling tool on the same harness takes it. So the sentence a caller needs is specific to one argument of one tool ("Grep's `glob` is split on whitespace"), and upstream documentation cannot supply it. A caller who learned brace syntax from the Glob tool would carry it to Grep and be refused. That moves this candidate further from its bought-vs-built position.
+
+**Limits.** One pair of calls. The Glob tool may not be backed by ripgrep at all, so this shows the two tools differ but does not say how either is implemented. Nothing executed beyond those two calls, no rung moved, no instrument set. Unverified by design (`ost_check` withheld).
