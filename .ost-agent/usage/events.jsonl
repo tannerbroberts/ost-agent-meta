@@ -21305,3 +21305,4 @@
 {"ts":"2026-10-18T00:27:35.735Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":118,"session":"mcp-e61cdaed-302b-4045-b0c1-2fa7c95ee0a9"}
 {"ts":"2026-10-18T00:27:36.066Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":109,"session":"mcp-e61cdaed-302b-4045-b0c1-2fa7c95ee0a9"}
 {"ts":"2026-10-18T00:28:12.754Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-e61cdaed-302b-4045-b0c1-2fa7c95ee0a9"}
+{"ts":"2026-10-18T01:30:08.954Z","tool":"ost_ingest_inbox","ok":true,"ms":92,"surface":"mcp","argBytes":2,"session":"mcp-75b472b1-2fb6-472a-9c7b-f155a08c7837"}
