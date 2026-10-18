@@ -21425,3 +21425,4 @@
 {"ts":"2026-10-18T07:52:37.980Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":52,"session":"mcp-93d8ed1a-fe51-4619-a12f-f51086afa447"}
 {"ts":"2026-10-18T07:52:42.870Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":39,"session":"mcp-93d8ed1a-fe51-4619-a12f-f51086afa447"}
 {"ts":"2026-10-18T07:53:01.422Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1780,"session":"mcp-93d8ed1a-fe51-4619-a12f-f51086afa447","touched":["The agent's repo sight fails mid-pass, because nothing checked the product path before it was needed.md"]}
+{"ts":"2026-10-18T07:53:03.491Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":580,"session":"mcp-93d8ed1a-fe51-4619-a12f-f51086afa447","touched":["One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not.md"]}

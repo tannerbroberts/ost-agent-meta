@@ -136,3 +136,7 @@ Running tally: 27 of 29 parallel batches copied, 0 single calls copied, eight se
 ## 2026-10-18 — tenth session, 14 of 16
 
 `TRANSCRIPT:694f9f09-0b00-4162-94ad-441f7d733deb` (retry ×16, nothing else). I grepped its raw `.jsonl` for tool_use ids. **14 are this node's cause.** Six parallel batches were all copied into a following blob line: 51/53→59, 75/77→80, 113/115→120, 127/129/131/133→136, 143/145→148, 155/157→161. Each of those ids is on exactly two lines. **2 are the parent's cause.** The argument-less `ost_ingest_inbox` and `ost_next_work` each have a start-of-pass id (lines 31 and 36) and a confirm id later (lines 169 and 175). No single call was copied. Running tally: 37 of 39 parallel batches copied, across ten sessions. _Rung unchanged (observed). Unverified by design (`ost_check` withheld)._
+
+## 2026-10-18 — eleventh session, 3 of 3
+
+`TRANSCRIPT:02912d97-cb79-4bd1-8163-b7ff14c35d91` (retry ×3: three `ost_next_work` evidence reads). Grep for tool_use ids: one batch, 61/63/65→68, with each id on exactly two lines. All 3 are this node's cause. No prescribed repeat appears at all, and no single call was copied. Running tally: 38 of 40 parallel batches copied, across eleven sessions. _Rung unchanged (observed). Unverified by design._
