@@ -21450,3 +21450,5 @@
 {"ts":"2026-10-18T08:57:07.398Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":116,"session":"mcp-10914169-f12f-469c-b547-fe54df7277e5"}
 {"ts":"2026-10-18T08:57:22.092Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":1776,"session":"mcp-10914169-f12f-469c-b547-fe54df7277e5","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
 {"ts":"2026-10-18T08:57:25.163Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-10914169-f12f-469c-b547-fe54df7277e5"}
+{"ts":"2026-10-18T08:57:27.623Z","tool":"ost_next_work","ok":true,"ms":125,"surface":"mcp","argBytes":2,"session":"mcp-10914169-f12f-469c-b547-fe54df7277e5"}
+{"ts":"2026-10-18T09:59:26.178Z","tool":"ost_ingest_inbox","ok":true,"ms":92,"surface":"mcp","argBytes":2,"session":"mcp-fda4021e-dc4d-4da3-ae45-602072226351"}
