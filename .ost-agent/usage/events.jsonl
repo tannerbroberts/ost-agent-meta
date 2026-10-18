@@ -21638,3 +21638,4 @@
 {"ts":"2026-10-18T21:35:31.408Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":100,"session":"mcp-e3cf0f99-6384-463e-bffa-c82e9f563701"}
 {"ts":"2026-10-18T21:35:31.683Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":79,"session":"mcp-e3cf0f99-6384-463e-bffa-c82e9f563701"}
 {"ts":"2026-10-18T21:36:29.134Z","tool":"ost_append_to_node","ok":true,"ms":28,"surface":"mcp","argBytes":2527,"session":"mcp-e3cf0f99-6384-463e-bffa-c82e9f563701","touched":["A string I meant literally is read as syntax, so the command fails instead of searching.md"]}
+{"ts":"2026-10-18T21:36:31.937Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-e3cf0f99-6384-463e-bffa-c82e9f563701"}
