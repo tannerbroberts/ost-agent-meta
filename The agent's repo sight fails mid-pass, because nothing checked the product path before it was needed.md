@@ -171,3 +171,20 @@ Same measure and corpus definition as the 2026-10-02 column, taken by this unatt
 **Also re-checked first-party this pass:** `INSTRUMENT_FORMS` in `src/knowledge/instruments.ts` still holds exactly one anchored form (`npx vitest run <path>.test.ts`, nothing allowed after it). So the closed argument above still holds unchanged, and the `solutionsMissingInstruments` bucket (72 this pass) still cannot be drained honestly from an agent surface.
 
 _Grep count over the vault's evidence store, plus first-party `ost_read_repo` of `src/knowledge/instruments.ts`. A floor on attempts, not a rate of harm. No test run, no result recorded, rung unchanged._
+
+## Permission channel, re-counted 2026-10-18
+
+Same measure and corpus as the earlier columns: Grep and Glob over `.ost-agent/evidence/TRANSCRIPT_*.md`, run by this unattended sweep.
+
+| Measure | 2026-08-23 | 2026-10-02 | 2026-10-06 | **2026-10-18** |
+|---|---|---|---|---|
+| Records carrying "requested permissions to read from" | 84 | 249 | 272 | **330** |
+| Total occurrences | 101 | 275 | 298 | **356** |
+| Transcript records in the corpus | 423 | 844 | 905 | **1094** |
+| Share of records affected | 20% | 30% | 30% | **30%** |
+
+**58 of the 189 records captured since 2026-10-06 carry the denial, which is 31%.** That is down from about 38% in each of the two previous intervals. It is still roughly one firing in three, and nothing on the permission route was repaired. The record that prompted this count is `TRANSCRIPT:0018a4eb-130a-471b-a2f7-dfbe98378fbd` (2026-10-14). It holds a single event: a Grep refused on `/Users/tanner/dev/OST-Agent/src/eval/buildable.ts`. That is the same file and the same refusal as the newest record in the 2026-10-06 column.
+
+**Re-checked first-party this pass:** `src/knowledge/instruments.ts` (5,728 bytes, read untruncated through `ost_read_repo`) still has exactly one entry in `INSTRUMENT_FORMS`, the anchored `npx vitest run <path>.test.ts`. So the closed argument above still holds, and the 72-entry `solutionsMissingInstruments` bucket still cannot be drained honestly from an agent surface.
+
+_This is a floor on attempts, not a rate of harm. No test was run, no result was recorded, and the rung is unchanged. `ost_check` is withheld on this surface, so this write is unverified by design._
