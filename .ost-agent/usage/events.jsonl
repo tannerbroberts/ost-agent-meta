@@ -21505,3 +21505,4 @@
 {"ts":"2026-10-18T11:04:50.400Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":65,"session":"mcp-4798e441-3010-420c-be5b-0b154aae47cb"}
 {"ts":"2026-10-18T11:04:50.704Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":77,"session":"mcp-4798e441-3010-420c-be5b-0b154aae47cb"}
 {"ts":"2026-10-18T11:05:01.556Z","tool":"ost_annotate","ok":true,"ms":26,"surface":"mcp","argBytes":1338,"session":"mcp-4798e441-3010-420c-be5b-0b154aae47cb","touched":["One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not.md"]}
+{"ts":"2026-10-18T11:05:03.614Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-4798e441-3010-420c-be5b-0b154aae47cb"}
