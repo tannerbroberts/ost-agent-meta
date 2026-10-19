@@ -21936,3 +21936,4 @@
 {"ts":"2026-10-19T19:45:26.460Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":116,"session":"mcp-eddb803b-8b02-4aa2-95dd-d6806d8ca549"}
 {"ts":"2026-10-19T19:45:38.953Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":113,"session":"mcp-eddb803b-8b02-4aa2-95dd-d6806d8ca549"}
 {"ts":"2026-10-19T19:45:43.171Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-eddb803b-8b02-4aa2-95dd-d6806d8ca549"}
+{"ts":"2026-10-19T20:47:37.587Z","tool":"ost_ingest_inbox","ok":true,"ms":96,"surface":"mcp","argBytes":2,"session":"mcp-2100eec8-4964-4e28-adb2-7648290cdffe"}
