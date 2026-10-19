@@ -141,3 +141,20 @@ The instrument list stopped receding because it stopped growing: no solution was
 **Limits.** The 134 were sorted by title, and only three were read in full. The claim that none can be instrumented from the repository rests on their titles plus earlier notes, not on reading all 134. The regex assumes no other frontmatter key starts with `i`, and a future key could break it. It would then undercount, meaning some tests would quietly go missing from the list. Nothing was executed, no instrument set, no rung moved, no status changed, and no node created. `ost_check` is withheld on this surface, so this write has not been checked by the invariant checker.
 
 _Method: one multiline `Grep` over this vault's node frontmatter, full reads of three tests with `ost_read_tree`, and this pass's own `ost_next_work` response. This observes the product's own surface and grounds usability, not demand._
+
+## 2026-10-19 — the treadmill counted from the evidence corpus itself: 38 sessions opened the same head-of-list record
+
+Kept short. Earlier sections argue that a frozen head pins every firing's attention to the same items. Until now that claim came from comparing the boundary on two dates. This section counts it directly.
+
+**Method.** The transcript harvester files a repeated call as a `retry` event and writes its arguments verbatim. That makes "which firings opened this exact item" something you can grep across all 1,134 records. Two greps over `.ost-agent/evidence/`:
+
+- `ost_next_work): {"evidence":"TRANSCRIPT:030e5db3` — **38 sessions** opened this one record in full. It sits sixth in the shown `unmappedEvidence` window, and it has never been mapped.
+- `ost_read_tree): {"node":"The agent can decompose my goal` — **36 sessions** re-read the held, under-served opportunity. Each did so before declining to ideate under its standing hold.
+
+The newest instance is `TRANSCRIPT:4d83403d-38a8-42e0-9757-7d960bbf67f7`, the firing one hour before this one. It read that same evidence record, that held node, and the same three visible instrument-bucket solutions this firing was about to open. This firing repeated the sequence before it had read that record.
+
+**Why these are floors, not rates.** A call reaches the corpus only when the harvester classifies it as friction. A first read in a session that made no second identical call leaves no trace, so the true number of sessions spent on these two items is at least 38 and 36. Some of the 36 may be parallel calls rather than true re-reads (see "One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not"). That would inflate the per-session repeat counts but not the session counts, because each match comes from a distinct file.
+
+**What it adds.** The cost of the frozen window can now be measured, not just argued. Any proposed fix can be judged by whether this count stops rising.
+
+_Method: two `Grep` counts over this vault's evidence files, one evidence body read via `ost_next_work({evidence})`. Observed behaviour of this product's own agent; grounds usability, not demand. Nothing executed, no rung moved, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design._

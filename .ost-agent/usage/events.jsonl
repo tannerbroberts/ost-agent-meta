@@ -21863,3 +21863,14 @@
 {"ts":"2026-10-19T12:23:58.930Z","tool":"ost_read_tree","ok":true,"ms":61,"surface":"mcp","argBytes":105,"session":"mcp-1098342e-85ef-47c1-8664-341e50ff3980"}
 {"ts":"2026-10-19T12:25:03.670Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":65,"session":"mcp-1098342e-85ef-47c1-8664-341e50ff3980"}
 {"ts":"2026-10-19T13:27:05.896Z","tool":"ost_ingest_inbox","ok":true,"ms":88,"surface":"mcp","argBytes":2,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:07.886Z","tool":"ost_next_work","ok":true,"ms":140,"surface":"mcp","argBytes":2,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:14.389Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":108,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:14.771Z","tool":"ost_next_work","ok":true,"ms":20,"surface":"mcp","argBytes":62,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:21.380Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":98,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:21.993Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":114,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:22.125Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:29.510Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":113,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:29.702Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":15,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:34.340Z","tool":"ost_next_work","ok":true,"ms":22,"surface":"mcp","argBytes":62,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:27:40.904Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":116,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c"}
+{"ts":"2026-10-19T13:28:02.771Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":2506,"session":"mcp-0f414ad1-b377-4888-a680-927f329c9b9c","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
