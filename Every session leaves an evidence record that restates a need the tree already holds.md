@@ -321,3 +321,18 @@ One row, per this node's standing instruction. This firing's ingest captured **1
 ## Trend row — 2026-10-08: 934 (+29 since the 905 row of 2026-10-06)
 
 One row, per this node's standing instruction. This firing's ingest captured **1** record, `TRANSCRIPT:180c684f…` (mirrored 0d ago), read in full: a single row 2 `Grep` denial on `/Users/tanner/dev/OST-Agent/src/eval/buildable.ts`. In this firing, `ost_read_repo` served that same file (23,611 bytes, truncated at the cap) on its first call. That is the within-session grant split again, this time on the identical path, across consecutive firings. This firing also made one stray built-in `Grep` call, which was denied, so the next ingest will carry one more row 2 instance that this pass caused itself. One older body was re-read (`0a69f0ff…`) and was already scored. No new shape, no seventh row. No `INBOX:` id heads the unmapped list, so no hand-dropped note is waiting. `withheldByDisposition` is still `[]`, so the unblocking move is unchanged: one operator runs `ost-agent dispose` on one id, once. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design.
+
+## Trend row — 2026-10-18: 1122 (+188 since the 934 row of 2026-10-08)
+
+One row, per this node's standing instruction. This firing captured **1** transcript record, `TRANSCRIPT:cff6b9be…`, and read it in full. It holds 8 `retry` events, and every one is a parallel `ost_read_tree`/`ost_next_work`/`ost_read_repo` call from the previous firing, which is row 4 and is already homed on "One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not". It also captured `USAGE:2026-10-18`: 387 calls, 13 writes (3.4%).
+
+**A whole-corpus check by grep this time, not a sample.** The sidecar holds **1916** `tool_error` events across **781** transcript files. **1731** of them (90%) match a single regex built from the known shapes: rows 1, 2 and 5, plus `exceeds maximum`, `Exit code`, `no product repos`, `No such tool`, `InputValidationError`. This firing listed the 185 that do not match, and they fall into shapes the tree already homes:
+- `ost_*` refusals: rung ceilings, `ost_read_repo` wrong-path guesses (`src/instruments` alone about 10 times), title/id misses, git `index.lock`/`cannot lock ref` contention.
+- `ScheduleWakeup` missing `prompt` (about 16).
+- Monitor compound-command and path blocks.
+- `Path does not exist` on Grep/Glob.
+- Mangled tool names.
+
+No seventh row. One self-caused instance to expect on the next ingest: this firing's first residue grep used a look-ahead, and ripgrep's default engine refused it. That belongs on "Name the engine's published dialect in the tool description and build no validator of our own".
+
+_Method: Grep counts over `.ost-agent/evidence/TRANSCRIPT_*.md` and two full evidence bodies served by `ost_next_work`. The 185-residue classification is from 80-character excerpts, not full bodies. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
