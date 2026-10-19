@@ -142,3 +142,15 @@ Kept short. This only follows up the 2026-09-07 section and adds no new argument
 **Why this matters beyond this node.** It is the main reason this bucket does not drain on the unattended surface. This firing re-read the visible page of 25 entries and again found none that a spec could honestly answer: each is harness-owned or humans-required, and most carry an earlier "examined and deliberately left without an instrument" note. This surface holds no `ost_flag_humans_required`, so the only exits are a human's `ost-agent lane --set` per test or the code repair.
 
 _Method: one `ost_next_work` sweep, two `ost_read_tree` node reads, one `ost_read_repo` probe and one truncated file read. Nothing was executed, and no instrument, lane, rung or status changed. `ost_check` is withheld on this surface, so this write has not been verified by the invariant checker._
+
+## 2026-10-19 — since 2026-09-01 the bucket has grown only through tests labelled correctly
+
+Kept short. This adds one count and no new argument.
+
+**The count.** A frontmatter grep over this vault finds **523** AssumptionTests. **387** carry `instrument:` and **69** carry `lane:`. **67** carry neither. The 2026-09-01 census on this node measured that unlabelled, uninstrumented residue at 67 tests and enumerated it. It is still 67. None of the 67 was created after 2026-08 (a second grep keyed on `created: '2026-09|10'` matched none of them), so it is a fixed legacy stock. It is the same set that census classified, and no new test has joined it. The tool-boundary rule that refuses a test naming neither an instrument nor a humans-required reason is holding.
+
+**So the growth comes from the other side.** Lane-labelled tests went from 62 (2026-09-01) to 69, and `solutionsMissingInstruments` went from 69 (2026-08-30) to 72. Every entry the bucket has gained since the residue froze sits on a lane-labelled test. One example, checked per file: "Mark each retry with whether its call id was new, and leave the decision to discount it with the reader" was ideated on 2026-10-17. Its only test was created that same day as `lane: humans-required` with no instrument, and the solution is on this firing's shown page of the bucket.
+
+**What that means.** The bucket now grows only when a pass does the right thing, which is labelling a human-owed test at birth. The 2026-09-07 section traced this to the missing lane branch in `src/eval/buildable.ts`, and the evidence that the branch is still missing is behavioural (the 2026-10-11 read truncated before the function). This count does not re-read the source either.
+
+_Method: four Grep calls over this vault's node frontmatter and this firing's own `ost_next_work` response. Observed structure of this vault, read first-party. It grounds feasibility, not desirability. No instrument, lane, rung or status changed, and no node was created. `ost_check` is withheld on this surface, so this write is unverified by design._
