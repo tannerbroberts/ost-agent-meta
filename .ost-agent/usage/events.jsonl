@@ -22054,3 +22054,4 @@
 {"ts":"2026-10-20T07:17:56.598Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":95,"session":"mcp-28514bb3-7269-43f4-902b-eba187e0c9ff"}
 {"ts":"2026-10-20T07:17:56.987Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":113,"session":"mcp-28514bb3-7269-43f4-902b-eba187e0c9ff"}
 {"ts":"2026-10-20T07:18:09.345Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-28514bb3-7269-43f4-902b-eba187e0c9ff"}
+{"ts":"2026-10-20T08:20:03.662Z","tool":"ost_ingest_inbox","ok":true,"ms":94,"surface":"mcp","argBytes":2,"session":"mcp-eef1a7d6-07cc-43e4-865f-47f5e2dcc85c"}
