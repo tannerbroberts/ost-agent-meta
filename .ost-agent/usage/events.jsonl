@@ -22014,3 +22014,4 @@
 {"ts":"2026-10-20T03:06:32.767Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":113,"session":"mcp-c4c80fae-2a41-4c1f-86cf-1bbef51d0e2b"}
 {"ts":"2026-10-20T03:06:59.144Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":83,"session":"mcp-c4c80fae-2a41-4c1f-86cf-1bbef51d0e2b"}
 {"ts":"2026-10-20T03:07:16.848Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-c4c80fae-2a41-4c1f-86cf-1bbef51d0e2b"}
+{"ts":"2026-10-20T04:09:11.209Z","tool":"ost_ingest_inbox","ok":true,"ms":95,"surface":"mcp","argBytes":2,"session":"mcp-13fac557-764d-4600-8e3a-b382651532dd"}
