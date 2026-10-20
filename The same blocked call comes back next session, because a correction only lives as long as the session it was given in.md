@@ -49,3 +49,15 @@ Ten other paths were guessed once each.
 **What the guess is made of, and it is checkable.** `test/` in the product repo has `instruments/`, `evidence/` and `friction/` directories. `src/` has none of them; the code lives under `src/ost/` (`instrument.ts`), `src/knowledge/` and `src/adapters/`. So 16 of the 27 misses (`src/instruments` ×10, `src/evidence` ×5, `src/friction` ×1) are a `test/` directory name guessed under `src/`. The vault's vocabulary matches the test layout but not the source layout, and the agent guesses from the vocabulary. A fix that only remembers corrections would stop the repeats. A fix that names the source layout up front would stop the first guess as well. Those are different candidates, and this count cannot rank them.
 
 **Limits.** These are string matches, not a classification by meaning. Only refusals the harvester captured are counted, so sessions from before the repo grant are absent. Nothing here shows the misses cost much: each one is a single turn answered with a useful listing. This is observed structure from the agent's own sessions. It grounds usability, not desirability. Nothing was executed, and no rung, lane or instrument was changed.
+
+## 2026-10-20: the gap from 2026-10-09 is still open, and the refusal happened twice more on the same file
+
+Kept short. This is a follow-up count and adds no new argument.
+
+The corrections ledger in this firing's prompt still carries only two entries: sleep-polling and "Bash is not enabled". It still has no entry for the harness Grep/Glob denial on the product repo's path. Since the 2026-10-09 section, the identical call has been refused at least twice more, both on the same target:
+- `TRANSCRIPT:0018a4eb-…` (2026-10-14): a Grep on `/Users/tanner/dev/OST-Agent/src/eval/buildable.ts`, refused with "Claude requested permissions to read from … but you haven't granted it yet."
+- This firing (2026-10-20): the same Grep on the same file. I wanted to check whether the lane branch in `solutionsMissingInstruments` has landed, because `ost_read_repo` truncates that 23,611-byte file before the function. The call was refused the same way, with the ledger in the prompt. I found the 10-14 record only afterwards.
+
+**What this adds.** The repeat has a stable cause, so it is not random. When `ost_read_repo` truncates a file, the natural next move is a harness Grep on the same path, and that move is always denied. A ledger entry would stop the repeat. Naming the truncation limit next to an alternative that does work would stop the first reach as well. Today no permitted tool searches a file beyond the read cap.
+
+_Method: one evidence body read via `ost_next_work({evidence})`, plus this firing's own refused call. This is observed behaviour of this agent's surface. It grounds usability, not desirability. Nothing was executed, and no rung, lane or instrument changed. `ost_check` is withheld here, so this write is unverified by design._
