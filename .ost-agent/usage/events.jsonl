@@ -22000,3 +22000,4 @@
 {"ts":"2026-10-20T02:03:32.287Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":98,"session":"mcp-65575051-6279-48b8-9446-96b2b5378599"}
 {"ts":"2026-10-20T02:03:38.893Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":93,"session":"mcp-65575051-6279-48b8-9446-96b2b5378599"}
 {"ts":"2026-10-20T02:03:43.124Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-65575051-6279-48b8-9446-96b2b5378599"}
+{"ts":"2026-10-20T03:05:36.957Z","tool":"ost_ingest_inbox","ok":true,"ms":93,"surface":"mcp","argBytes":2,"session":"mcp-c4c80fae-2a41-4c1f-86cf-1bbef51d0e2b"}
