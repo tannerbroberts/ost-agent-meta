@@ -22385,3 +22385,4 @@
 {"ts":"2026-10-21T11:07:29.616Z","tool":"ost_read_tree","ok":true,"ms":64,"surface":"mcp","argBytes":95,"session":"mcp-a83d2bef-af1a-446c-b2b7-bd63557b6fb5"}
 {"ts":"2026-10-21T11:07:38.849Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":116,"session":"mcp-a83d2bef-af1a-446c-b2b7-bd63557b6fb5"}
 {"ts":"2026-10-21T11:07:44.900Z","tool":"ost_ingest_inbox","ok":true,"ms":13,"surface":"mcp","argBytes":2,"session":"mcp-a83d2bef-af1a-446c-b2b7-bd63557b6fb5"}
+{"ts":"2026-10-21T12:09:44.838Z","tool":"ost_ingest_inbox","ok":true,"ms":92,"surface":"mcp","argBytes":2,"session":"mcp-5072fff8-edc9-4cac-ae75-fa876e4d1c63"}
