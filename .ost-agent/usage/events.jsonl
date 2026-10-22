@@ -22672,3 +22672,4 @@
 {"ts":"2026-10-22T13:21:22.174Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":113,"session":"mcp-49ea1af2-782e-48ca-8db2-a677ddf8d953"}
 {"ts":"2026-10-22T13:21:28.227Z","tool":"ost_next_work","ok":true,"ms":44,"surface":"mcp","argBytes":62,"session":"mcp-49ea1af2-782e-48ca-8db2-a677ddf8d953"}
 {"ts":"2026-10-22T13:21:50.423Z","tool":"ost_ingest_inbox","ok":true,"ms":20,"surface":"mcp","argBytes":2,"session":"mcp-49ea1af2-782e-48ca-8db2-a677ddf8d953"}
+{"ts":"2026-10-22T14:23:46.426Z","tool":"ost_ingest_inbox","ok":true,"ms":96,"surface":"mcp","argBytes":2,"session":"mcp-c762081c-b773-49f2-a5fc-d5a518e0b4a8"}
