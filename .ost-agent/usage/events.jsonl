@@ -22767,3 +22767,10 @@
 {"ts":"2026-10-22T21:47:12.110Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":96,"session":"mcp-5db269a0-0107-4fe6-8d47-bee7bb0ba31c"}
 {"ts":"2026-10-22T21:47:12.498Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":113,"session":"mcp-5db269a0-0107-4fe6-8d47-bee7bb0ba31c"}
 {"ts":"2026-10-22T22:50:00.526Z","tool":"ost_ingest_inbox","ok":true,"ms":100,"surface":"mcp","argBytes":2,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718"}
+{"ts":"2026-10-22T22:50:02.647Z","tool":"ost_next_work","ok":true,"ms":168,"surface":"mcp","argBytes":2,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718"}
+{"ts":"2026-10-22T22:50:16.474Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":108,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718"}
+{"ts":"2026-10-22T22:50:16.731Z","tool":"ost_read_tree","ok":true,"ms":82,"surface":"mcp","argBytes":116,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718"}
+{"ts":"2026-10-22T22:50:23.482Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":114,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718"}
+{"ts":"2026-10-22T22:50:28.759Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":113,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718"}
+{"ts":"2026-10-22T22:50:36.209Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718"}
+{"ts":"2026-10-22T22:50:56.030Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":1180,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
