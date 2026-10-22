@@ -22776,3 +22776,15 @@
 {"ts":"2026-10-22T22:50:56.030Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":1180,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
 {"ts":"2026-10-22T22:50:56.429Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-5cba7171-a511-430c-921f-1003032c2718"}
 {"ts":"2026-10-22T23:53:27.655Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:53:29.894Z","tool":"ost_next_work","ok":true,"ms":164,"surface":"mcp","argBytes":2,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:53:45.991Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:53:49.825Z","tool":"ost_next_work","ok":true,"ms":27,"surface":"mcp","argBytes":62,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:53:50.490Z","tool":"ost_next_work","ok":true,"ms":29,"surface":"mcp","argBytes":62,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:53:50.905Z","tool":"ost_next_work","ok":true,"ms":27,"surface":"mcp","argBytes":62,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:53:55.726Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":116,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:53:56.072Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":108,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:54:07.283Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":114,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:54:07.460Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":113,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:54:19.523Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":98,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:54:25.548Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
+{"ts":"2026-10-22T23:54:28.908Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-0c62f9ee-082e-4913-910e-731e91d0aa24"}
