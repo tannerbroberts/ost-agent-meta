@@ -22649,3 +22649,4 @@
 {"ts":"2026-10-22T11:15:24.723Z","tool":"ost_append_to_node","ok":true,"ms":22,"surface":"mcp","argBytes":1611,"session":"mcp-a1dc870d-6442-4ab3-ac70-238bda89b564","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
 {"ts":"2026-10-22T11:15:31.981Z","tool":"ost_next_work","ok":true,"ms":26,"surface":"mcp","argBytes":62,"session":"mcp-a1dc870d-6442-4ab3-ac70-238bda89b564"}
 {"ts":"2026-10-22T11:15:37.795Z","tool":"ost_ingest_inbox","ok":true,"ms":12,"surface":"mcp","argBytes":2,"session":"mcp-a1dc870d-6442-4ab3-ac70-238bda89b564"}
+{"ts":"2026-10-22T12:17:25.226Z","tool":"ost_ingest_inbox","ok":true,"ms":91,"surface":"mcp","argBytes":2,"session":"mcp-0a75b6c8-bbf4-4e71-903e-a51cad1405aa"}
