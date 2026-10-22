@@ -158,3 +158,16 @@ The newest instance is `TRANSCRIPT:4d83403d-38a8-42e0-9757-7d960bbf67f7`, the fi
 **What it adds.** The cost of the frozen window can now be measured, not just argued. Any proposed fix can be judged by whether this count stops rising.
 
 _Method: two `Grep` counts over this vault's evidence files, one evidence body read via `ost_next_work({evidence})`. Observed behaviour of this product's own agent; grounds usability, not demand. Nothing executed, no rung moved, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design._
+
+## 2026-10-22: the 2026-10-19 count, taken again three days later. It is still rising.
+
+The 2026-10-19 section proposed a metric: "Any proposed fix can be judged by whether this count stops rising." Here it is again, using the same two greps over `.ost-agent/evidence/`:
+
+| grep | 2026-10-19 | 2026-10-22 |
+|---|---|---|
+| `ost_read_tree): {"node":"The agent can decompose my goal` | 36 sessions | **79 sessions** |
+| `ost_next_work): {"evidence":"TRANSCRIPT:030e5db3` | 38 sessions | **58 sessions** |
+
+`030e5db3` has since dropped out of the shown window, because the evidence head receded to `004a28b8`. The head record that replaced it is already in **44** session files. The newest instance, `TRANSCRIPT:5bbc2701-3c44-4be8-a931-82000187a218`, was captured by this firing's own ingest. It shows the previous firing opening the held opportunity, then `004a28b8`, then the same four instrument-bucket solutions. This firing then opened the same nodes in the same order before it had read that record. The treadmill is now one step per firing.
+
+**Limits.** Neither count is a rate. A session reaches the corpus only when the harvester files something as friction, so late harvesting of older sessions could account for part of the 3-day jump. These numbers rule out "the count stopped rising". They do not show how fast it rises. Nothing executed, no rung moved, no node created. `ost_check` is withheld on this surface, so this write is unverified by design.
