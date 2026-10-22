@@ -199,3 +199,19 @@ _Source: `USAGE:2026-10-04`, read in full via `ost_next_work({evidence})`. Machi
 The evidence bucket grew by 149 in nine days, about 16 a day. That is roughly one record per paid firing, which fits the 2026-08-06 treadmill reading. `src/eval/buildable.ts` is still 23,611 bytes, the same size as on 2026-10-11, so the one-line lane exclusion that "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue" traced on 2026-09-07 has not landed. None of the three remedies in the 2026-09-28 section (`dispose`, `lane --set`, many-to-one mapping) has been applied. The day's 296 reads produced one write.
 
 _Source: `USAGE:2026-10-13`, read in full via `ost_next_work({evidence})`, plus one `ost_read_repo` size probe. The trace is machine-recorded and MCP-only. Nothing was executed and no rung moved. `ost_check` is withheld on this surface, so this write has not been checked against the invariants._
+
+## 2026-10-21: one more row, eight days later
+
+| | 2026-10-13 | 2026-10-21 |
+|---|---|---|
+| Sessions | 23 | 23 |
+| MCP calls | 297 (0 failed) | 252 (0 failed) |
+| Structural writes | 1 (`append_to_node`) | **0** (`read_tree` 133, `next_work` 74, `ingest_inbox` 34, `read_repo` 11) |
+| Nodes created | 0 | 0 |
+| Stop condition | `go`: 1027 evidence, 1 under-served, 71 instruments | `go`: 1189 evidence, 1 under-served, 72 instruments |
+
+This is the first full day in the series with no structural write at all. Every one of the 252 calls was a read or an ingest. The evidence bucket grew by 162 in eight days, about 20 a day, so it is still growing at roughly one record per paid firing. `src/eval/buildable.ts` is still 23,611 bytes, the same size as on 2026-10-11, so the lane exclusion has probably still not landed. That reading is only behavioural, since a size probe cannot show the function body. None of the three remedies from the 2026-09-28 section (`dispose`, `lane --set`, many-to-one mapping) has been applied.
+
+The friction record from the day's last session, `TRANSCRIPT:e0107c65-…`, is four `retry` events. Each one re-reads a node or evidence id that the previous firing had also read, so the evidence this loop adds each day is largely the loop reading itself.
+
+_Source: `USAGE:2026-10-21` and `TRANSCRIPT:e0107c65-d184-4c03-8711-767957195e6c`, both read in full via `ost_next_work({evidence})`, plus one `ost_read_repo` size probe. Machine-recorded and MCP-only, so harness reads are not counted. Nothing was executed and no rung moved. `ost_check` is withheld on this surface, so this write is unverified by design._
