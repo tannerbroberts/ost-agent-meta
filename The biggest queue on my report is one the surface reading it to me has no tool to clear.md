@@ -304,3 +304,17 @@ _Nothing executed. No lane, instrument, rung or status set. No node created. `os
 **The 47 entries this surface can't page to are not new ground.** The sweep caps the bucket at 25 and lists it alphabetically, so the hidden entries are the titles after "Route…". Their instrument-less tests are all in the two greps above. I re-read one ("Replay the three recorded failed runs through the journal-alert rule on paper"), and it already carries the dated verdict this table's 2026-10-02 row cited.
 
 _Nothing executed. No lane, instrument, rung or status set. No node created. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## 2026-10-22 — one row: thirteen days on, the unlabelled pile is still 67
+
+| | 2026-10-09 | **2026-10-22** | Δ (13d) |
+|---|---|---|---|
+| Tests total | 520 | 523 | +3 |
+| Carrying an instrument | 385 | 387 | +2 |
+| No instrument, `lane: humans-required` | 68 | 69 | +1 |
+| No instrument, no lane | 67 | **67** | **0** |
+| `solutionsMissingInstruments` | 72 | 72 | 0 |
+
+The interval is flat again, which makes six in a row for the unlabelled pile. This firing's multiline Grep over `*.md` frontmatter found 67 tests with no `instrument:` and no `lane:`. 26 of them never mention an unattended examination. Every one of the 26 has a person as its measurement: an interview, a blind reader, an operator's decision log, or wall-clock weeks. The one exception is "Replay ten past runs and count how many needed a scope nobody would have predicted", and its measurement is a person's judgement of what would have been granted. None can honestly take an instrument. The 2026-09-02 verdict (residue zero) still holds. Only a person's `ost-agent lane --set` drains this pile, one test at a time.
+
+_Method: three frontmatter Greps over the vault plus four full reads. No instrument set, no lane set, nothing executed. `ost_check` is withheld here, so this write is unverified by design._
