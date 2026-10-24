@@ -23172,3 +23172,4 @@
 {"ts":"2026-10-24T12:59:23.191Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":42,"session":"mcp-11aa3766-7a34-4653-a082-cb922aa97406"}
 {"ts":"2026-10-24T12:59:28.711Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":114,"session":"mcp-11aa3766-7a34-4653-a082-cb922aa97406"}
 {"ts":"2026-10-24T12:59:35.442Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-11aa3766-7a34-4653-a082-cb922aa97406"}
+{"ts":"2026-10-24T14:02:11.234Z","tool":"ost_ingest_inbox","ok":true,"ms":99,"surface":"mcp","argBytes":2,"session":"mcp-0783dad9-a897-4f23-bdaf-2e411b4b3ae8"}
