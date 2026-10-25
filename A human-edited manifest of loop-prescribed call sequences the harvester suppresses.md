@@ -7,6 +7,7 @@ authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[The founder will keep a manifest of prescribed call sequences current as the loop's steps change]]
+[[The harvester can suppress every listed no-argument repeat however often it recurs, without touching argument-carrying repeats]]
 
 **Variation dimension: automated-vs-manual. Position taken: the matching is automated, the definition of "procedure" is deliberately left manual.**
 
