@@ -145,3 +145,11 @@ The mix is what the standing census predicts: pure instances and already-mapped 
 **Why that bears on the census's open question rather than answering it.** The census asks for a firing that wants to *search the product repo* and gets there without a denial, and records that the 2026-09-20 fourth firing came closest but avoided the denial by searching a different repository. This firing is a third shape again, and it is not the missing observation either: it avoided the denial by having no route to want, which tests nothing about whether the want-to-search reading is right. What it does add is a boundary the arm did not have — the denial class is minted by firings that hold `ost_read_repo` and reach past its listing-and-reading limit, and a firing holding nothing does not reach at all. That is consistent with the capability-gap-narrowed-to-search reading and is not independent support for it, since it is again this product's own agent observing itself. The census's instruction to stop that line of self-observation stands and nothing is added to it here.
 
 Whoever consolidates next should fold this bullet into the tally above.
+
+## Definition of done — the builder's half (added 2026-10-25)
+
+"A manifest-listed no-argument call repeated three times files nothing, an argued repeat still files, and an unmatched entry is reported"
+
+`npx vitest run test/adapters/transcript-prescribed-manifest.test.ts`
+
+The section near the top stays right that the belief this candidate stands on is the founder's upkeep, and that test is still humans-required. This adds the half a spec can settle. It turns this node's standing finding into assertions: count-independence across iterations, argued repeats left alone, and stale entries made visible. Today's red is `no-spec`, the weak kind, so the spec has to be written before the red counts. The test node gives the fixture. Green says suppression is buildable, not that the list will stay current.
