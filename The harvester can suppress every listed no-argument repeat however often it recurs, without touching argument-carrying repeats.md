@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[A manifest-listed no-argument call repeated three times files nothing, an argued repeat still files, and an unmatched entry is reported]]
 
 **Risk category: feasibility.**
 
