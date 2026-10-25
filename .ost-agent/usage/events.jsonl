@@ -23526,3 +23526,15 @@
 {"ts":"2026-10-25T20:33:24.550Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1089,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
 {"ts":"2026-10-25T20:33:26.947Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
 {"ts":"2026-10-25T21:35:28.918Z","tool":"ost_ingest_inbox","ok":true,"ms":101,"surface":"mcp","argBytes":2,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:35:31.946Z","tool":"ost_next_work","ok":true,"ms":156,"surface":"mcp","argBytes":2,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:35:43.857Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":108,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:35:44.224Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":116,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:35:54.015Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:36:01.265Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":114,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:36:14.541Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":24,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:36:14.686Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":84,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:36:22.226Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":50,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:36:22.738Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":56,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:36:29.818Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":37,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:36:45.576Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":43,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840"}
+{"ts":"2026-10-25T21:37:02.991Z","tool":"ost_create_node","ok":true,"ms":6,"surface":"mcp","argBytes":2442,"session":"mcp-bd526aae-37bf-4ef2-917b-8bdb9f9f6840","wrote":["The harvester can tell a retry that reuses a seen call id from a genuinely new call.md"],"touched":["The harvester can tell a retry that reuses a seen call id from a genuinely new call.md","Mark each retry with whether its call id was new, and leave the decision to discount it with the reader.md"]}

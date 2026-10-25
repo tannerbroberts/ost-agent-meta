@@ -11,6 +11,7 @@ authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[A reader shown the same-id split stops treating those retries as friction]]
+[[The harvester can tell a retry that reuses a seen call id from a genuinely new call]]
 
 **Variation dimension: automated-vs-manual. Position taken: the detecting stays automated, and the judgement is deliberately left manual.**
 
