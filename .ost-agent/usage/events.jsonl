@@ -23510,3 +23510,17 @@
 {"ts":"2026-10-25T19:29:51.642Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":93,"session":"mcp-82fc1882-1f1c-49e4-985c-8dd00182f8c6"}
 {"ts":"2026-10-25T19:30:05.333Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-82fc1882-1f1c-49e4-985c-8dd00182f8c6"}
 {"ts":"2026-10-25T20:32:04.127Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:05.473Z","tool":"ost_next_work","ok":true,"ms":151,"surface":"mcp","argBytes":2,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:16.210Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":108,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:16.839Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:17.232Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:25.124Z","tool":"ost_next_work","ok":true,"ms":27,"surface":"mcp","argBytes":62,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:25.732Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:26.168Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:33.152Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":114,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:57.435Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":65,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:57.987Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":82,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:32:58.157Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":77,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:33:09.798Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":64,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:33:16.484Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":116,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf"}
+{"ts":"2026-10-25T20:33:24.550Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1089,"session":"mcp-52eeeba0-cd34-4e27-917e-17474e3960cf","touched":["Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25.md"]}
