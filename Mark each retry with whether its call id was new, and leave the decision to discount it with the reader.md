@@ -34,3 +34,11 @@ Unvalidated. Agent-ideated 2026-10-17; for a human to review.
 No command: this test is humans-required on purpose. The bar is **no more than 1 of 10 records with a same-id retry the operator would still have chased**. A spec could prove the label is printed. It cannot observe whether anyone acts on it, and that is the only belief this candidate rests on that its siblings do not.
 
 Expect this solution to appear in `solutionsMissingInstruments` anyway. That bucket does not yet read the lane, as recorded on "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue".
+
+## Definition of done — the builder's half (added 2026-10-25)
+
+"extractFriction labels a same-id repeat apart from a new call and the record splits the retry count"
+
+`npx vitest run test/adapters/transcript-retry-id-reuse.test.ts`
+
+The section above stays right that the reader half needs a person. This adds the half a spec can settle: whether the harvester can compute the split at all. Today it cannot, because `extractFriction` decides a retry on `name:input` and never reads `block.id` for it. Today's red is `no-spec`, the weak kind: the spec file has to be written before it is a real red. The test node states the three-call fixture and the summary-line assertion it should hold. Green means the label is buildable. It says nothing about whether a reader acts on it.
