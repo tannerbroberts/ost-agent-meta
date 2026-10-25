@@ -6,6 +6,7 @@ evidence: assertion
 authorship: machine
 ---
 #Assumption #unvalidated #evidence/assertion
+[[extractFriction labels a same-id repeat apart from a new call and the record splits the retry count]]
 
 **Risk category: feasibility.**
 
