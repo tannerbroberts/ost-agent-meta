@@ -23791,3 +23791,13 @@
 {"ts":"2026-10-26T19:43:33.657Z","tool":"ost_read_repo","ok":true,"ms":2,"surface":"mcp","argBytes":2,"session":"mcp-1d8039ad-4465-4a53-916a-fb5891367e71"}
 {"ts":"2026-10-26T19:43:42.505Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":116,"session":"mcp-1d8039ad-4465-4a53-916a-fb5891367e71"}
 {"ts":"2026-10-26T20:45:58.975Z","tool":"ost_ingest_inbox","ok":true,"ms":102,"surface":"mcp","argBytes":2,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:00.830Z","tool":"ost_next_work","ok":true,"ms":159,"surface":"mcp","argBytes":2,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:20.285Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":108,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:20.431Z","tool":"ost_next_work","ok":true,"ms":30,"surface":"mcp","argBytes":62,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:26.079Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":94,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:37.527Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:37.813Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":113,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:46.517Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":104,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:46.946Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":113,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T20:46:51.003Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-76de2542-1abe-437f-888d-3a0525bd7742"}
+{"ts":"2026-10-26T21:48:52.812Z","tool":"ost_ingest_inbox","ok":true,"ms":102,"surface":"mcp","argBytes":2,"session":"mcp-32467d41-f14a-4baf-9314-6f564c06a265"}
