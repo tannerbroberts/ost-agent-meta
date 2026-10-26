@@ -241,3 +241,13 @@ Kept short, per this branch's convention. One fact, and it corrects the section 
 **Limits.** n=1 in the favourable direction, and it is this pass reporting on its own reasoning — the least independent evidence available for a claim about what a pass would do, and the same weakness the section it corrects names about itself. A pass that reads the branch first still spends the reads; the route is cheaper than a refusal, not free. Nothing was executed, no instrument was set, no rung moved, no status changed, no node created. `ost_check` is withheld on this surface, so this write is unverified by the invariant checker by design.
 
 _Method: `ost_read_repo` reads of `src/knowledge/instruments.ts` and `src/ost/red-now.ts` in full, plus `ost_read_tree` reads of five nodes in the instruments bucket and its owning branch. First-party read of committed code and of this vault's own nodes; grounds feasibility, not demand._
+
+## 2026-10-26 — the prompt-versus-validator contradiction is still live, 55 days after it was recorded
+
+Short follow-up to the 2026-09-01 section. No new argument.
+
+**Observed.** `USAGE:2026-10-25` (machine-recorded, 284 calls, 3 failed) shows that two of its three failures were the exact pair this node recorded on 2026-08-21. An `ost_create_node` call carried `npx vitest run test/adapters/transcript.test.ts -t "splits the retry count by whether the call id was already seen"`, and the validator refused it for shell punctuation. The retry used `-t splits.the.retry.count...`, and it was refused as not an instrument form. The firing prompt pasted above this sweep today still holds the quoted `-t` string as its worked example of a strong instrument. So the instruction that walks a pass into this refusal had not been changed as of 2026-10-26, and passes are still following it.
+
+**For a human.** The cheap repair is to the prompt, not the product: drop the `-t` example, or say plainly that the accepted grammar is a bare spec path. The question this node left open on 2026-08-21, whether to admit a test-name filter at all, is unchanged and is still a design call.
+
+_Method: one `ost_next_work({evidence})` read of `USAGE:2026-10-25` and this firing's own prompt. Observed behaviour of this agent's own surface. It grounds usability, not desirability. Nothing executed, no instrument set, no rung moved. `ost_check` is withheld here, so this write is unverified by design._

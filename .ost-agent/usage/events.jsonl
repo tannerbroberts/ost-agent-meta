@@ -23607,3 +23607,13 @@
 {"ts":"2026-10-26T01:53:18.203Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":104,"session":"mcp-9799cd6c-341c-4c9d-bc0b-fea9edf24371"}
 {"ts":"2026-10-26T01:53:27.663Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":113,"session":"mcp-9799cd6c-341c-4c9d-bc0b-fea9edf24371"}
 {"ts":"2026-10-26T02:55:33.450Z","tool":"ost_ingest_inbox","ok":true,"ms":104,"surface":"mcp","argBytes":2,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:55:34.844Z","tool":"ost_next_work","ok":true,"ms":158,"surface":"mcp","argBytes":2,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:55:48.341Z","tool":"ost_next_work","ok":true,"ms":25,"surface":"mcp","argBytes":62,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:55:49.059Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:55:49.420Z","tool":"ost_next_work","ok":true,"ms":24,"surface":"mcp","argBytes":62,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:55:54.768Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":108,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:56:00.328Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":113,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:56:00.622Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":104,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:56:06.724Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":116,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:56:19.353Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":31,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4"}
+{"ts":"2026-10-26T02:56:44.498Z","tool":"ost_append_to_node","ok":true,"ms":28,"surface":"mcp","argBytes":1595,"session":"mcp-d9fea982-e4ba-467e-b21b-15b8c1ca6be4","touched":["My instruments are red because a file is absent, not because the behaviour is.md"]}
