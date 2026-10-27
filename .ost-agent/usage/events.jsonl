@@ -23940,3 +23940,4 @@
 {"ts":"2026-10-27T10:23:33.244Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":115,"session":"mcp-8b2815ab-4d6f-4f32-b6c6-b3858079dd23"}
 {"ts":"2026-10-27T10:23:38.190Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":104,"session":"mcp-8b2815ab-4d6f-4f32-b6c6-b3858079dd23"}
 {"ts":"2026-10-27T10:23:57.399Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-8b2815ab-4d6f-4f32-b6c6-b3858079dd23"}
+{"ts":"2026-10-27T11:26:02.724Z","tool":"ost_ingest_inbox","ok":true,"ms":98,"surface":"mcp","argBytes":2,"session":"mcp-e5944b43-34f8-4e83-9763-41d07c0f098a"}
