@@ -24003,3 +24003,4 @@
 {"ts":"2026-10-27T17:42:22.150Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":113,"session":"mcp-12c8717e-b382-44fd-bafb-c2f9a3043cbc"}
 {"ts":"2026-10-27T17:42:22.472Z","tool":"ost_read_tree","ok":true,"ms":66,"surface":"mcp","argBytes":104,"session":"mcp-12c8717e-b382-44fd-bafb-c2f9a3043cbc"}
 {"ts":"2026-10-27T17:42:46.069Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-12c8717e-b382-44fd-bafb-c2f9a3043cbc"}
+{"ts":"2026-10-27T18:44:43.841Z","tool":"ost_ingest_inbox","ok":true,"ms":98,"surface":"mcp","argBytes":2,"session":"mcp-477f3002-93d4-4afe-a208-b41cff068a19"}
