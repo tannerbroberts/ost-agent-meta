@@ -24145,3 +24145,4 @@
 {"ts":"2026-10-28T09:23:27.728Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-6048c9d3-758d-4940-ba93-03190620e658"}
 {"ts":"2026-10-28T09:23:28.447Z","tool":"ost_next_work","ok":true,"ms":26,"surface":"mcp","argBytes":62,"session":"mcp-6048c9d3-758d-4940-ba93-03190620e658"}
 {"ts":"2026-10-28T09:23:37.526Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-6048c9d3-758d-4940-ba93-03190620e658"}
+{"ts":"2026-10-28T10:25:40.288Z","tool":"ost_ingest_inbox","ok":true,"ms":96,"surface":"mcp","argBytes":2,"session":"mcp-eec78e69-d7de-47f9-80b5-c46b54d06743"}
