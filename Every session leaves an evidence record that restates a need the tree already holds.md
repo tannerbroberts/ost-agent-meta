@@ -348,3 +348,15 @@ One row, per this node's standing instruction. This firing's ingest captured **1
 ## Trend row — 2026-10-25: 1283 (+159 since the 1124 row of 2026-10-18)
 
 One row, per this node's standing instruction. No row was written for seven days, so this one carries a rate: about 23 records a day. This firing's ingest captured **1** record, `TRANSCRIPT:cb8a02c1…`, read in full, along with three recent head-of-queue records (`004a28b8…`, `0728b250…`, `05bf8557…`, dated 2026-10-19 to 10-25). All four are the same loop seen before. Each firing re-reads the same held opportunity, the same "Route the humans-required solution…" body and the same head-of-queue evidence ids. The harvester files those distinct-argument reads as `retry`, which is the shape held by "One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not". The rest are a ripgrep look-around rejection and a Grep denial on the product's `src/`. That is row 2 again. No new shape and no seventh row. This firing re-read three ids, and the next ingest will file those reads too. `withheldByDisposition` is still `[]`. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design.
+
+## 2026-10-29 — three more records mapped here, none carrying a new need
+
+Read in full on this unattended firing, and mapped onto this node instead of being turned into new opportunities:
+
+- `TRANSCRIPT:c5f5692b-9dea-418f-b00c-cd947a66d1b0` (captured this firing): 6 retries, every one a re-read of a node or evidence record that earlier firings had already read. These include the held opportunity "The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it", the evidence record `004a28b8`, and "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue".
+- `TRANSCRIPT:004a28b8-1cfe-4c31-9b90-8d942b6880d5`: 11 retries of the same kind, plus one ripgrep look-around refusal. That refusal is already held by "A string I meant literally is read as syntax, so the command fails instead of searching".
+- `TRANSCRIPT:05bf8557-4e5b-41d6-ae06-aebdd11dcb40`: 7 retries of the same kind, plus one permission refusal on the product repo's `src/`. That refusal is already held by "A scheduled run finds out its tools are missing only after it has started".
+
+**The pattern across all three.** Consecutive firings re-read the same small set of long nodes before acting: the held opportunity at 11k characters and the routing solution at 28k. Each record then arrives here as fresh evidence of the cost. This firing paid it again. Nothing in these three records names a need the tree lacks, so no opportunity was created.
+
+_Method: three `ost_next_work({evidence})` reads and two `ost_read_tree` node reads. These are observed records of the agent's own usage and ground usability, not desirability. The other 1,356 unmapped records were not read. `ost_check` is withheld on this surface, so this write is unverified by design._
