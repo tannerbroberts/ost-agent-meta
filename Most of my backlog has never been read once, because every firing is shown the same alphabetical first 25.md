@@ -195,3 +195,11 @@ This record is the previous firing, with 12 retries in the usual order: the held
 ## 2026-10-28: mapping `TRANSCRIPT:938ba1fe-4233-4027-8e54-9d8c225289df`. No new count.
 
 This record is the previous firing (2026-10-28T15:42Z), with 12 retries: the held opportunity and its parent, "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue", "Append-only tool surface with no delete or shell tool", "Auto-read a file before the first write or edit to it in a session, instead of erroring", then evidence `004a28b8`, `05bf8557`, `00f85094`. This firing opened the held opportunity, `004a28b8`, Route, Append-only, `030e5db3` and `05bf8557` before it read the record, and found the same dated declines on each. It is still one step per firing. Nothing was executed, no rung moved and no node was created. This write is unverified, because `ost_check` is withheld on this surface by design.
+
+## 2026-10-29: mapping `TRANSCRIPT:56c422fc-bc7f-444b-a424-a37dac86325c`. No new count.
+
+This record is the previous firing. It has 9 retries: "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue", "Append-only tool surface with no delete or shell tool", evidence `004a28b8`, `05bf8557` and `00f85094`, three Globs and the ingest. Before reading it, this firing opened the held opportunity, Route and `004a28b8`, and found the same dated declines. It is still one step per firing.
+
+**A question for a human, asked once.** Since 2026-10-22 this node has gained six "mapping … No new count" sections, and each says only "and again". Its own 2026-10-22 section already rules out "the count stopped rising", so further entries add length to a 37KB body and no information. That is the same pattern the held opportunity's 2026-08-23 note asked a human to end. Consider letting future firings map these records without writing here, and keep this node for counts that change.
+
+_Nothing was executed, no rung moved and no node was created. This write is unverified, because `ost_check` is withheld on this surface by design._
