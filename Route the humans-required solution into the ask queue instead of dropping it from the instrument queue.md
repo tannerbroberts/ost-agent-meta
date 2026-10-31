@@ -154,3 +154,15 @@ Kept short. This adds one count and no new argument.
 **What that means.** The bucket now grows only when a pass does the right thing, which is labelling a human-owed test at birth. The 2026-09-07 section traced this to the missing lane branch in `src/eval/buildable.ts`, and the evidence that the branch is still missing is behavioural (the 2026-10-11 read truncated before the function). This count does not re-read the source either.
 
 _Method: four Grep calls over this vault's node frontmatter and this firing's own `ost_next_work` response. Observed structure of this vault, read first-party. It grounds feasibility, not desirability. No instrument, lane, rung or status changed, and no node was created. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## 2026-10-31 — the repair still has not landed, and firings keep paying to re-check it
+
+Short note. It adds one fact and suggests a cheaper way to check.
+
+**Still not landed.** `ost_read_repo` probe: `src/eval/buildable.ts` is **23,611 bytes**, the same size as on 2026-10-11. The bucket's behaviour agrees: this node is still listed in `solutionsMissingInstruments` (70 entries), and its only test is still `lane: humans-required`.
+
+**The cost that is new.** In the last three days, four separate unattended sessions tried to `Grep` that same file directly and were refused on repo permission: `TRANSCRIPT:43631d97-…`, `565ec343-…`, `185b7809-…` and `2930883e-…`, each with the same line "Claude requested permissions to read from …/src/eval/buildable.ts". A fifth, `f1ac5926-…`, tried to read `test/eval/lane-aware-instrument-bucket.test.ts`, which does not exist. So firings are re-asking one settled question ("has the one-line lane exclusion landed?") through a tool they do not hold, at least once a day.
+
+**Cheaper check for the next firing.** Run `ost_read_repo` with `probe: true` on `src/eval/buildable.ts`, and check whether this node is still in the bucket. If the size is unchanged and the node is still listed, nothing has moved, and the full file does not need reading (it truncates before the function anyway). The only things that clear this bucket from outside are still the code repair or a human's `ost-agent lane --set`.
+
+_Method: one `ost_read_repo` probe, two Greps over this vault's evidence files, and this firing's `ost_next_work`. Observed behaviour of this agent's own surface; it grounds usability, not desirability. Nothing executed, no instrument, lane, rung or status changed. `ost_check` is withheld here, so this write is unverified by design._
