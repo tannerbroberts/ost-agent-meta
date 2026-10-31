@@ -1422,3 +1422,4 @@ Zero crossovers in either direction. The two-sided threshold is the point: a dem
 - 2026-10-31 **no-spec** (exit none) `npx vitest run test/adapters/friction-negative-answer.test.ts` — test/adapters/friction-negative-answer.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-10-31 **no-spec** (exit none) `npx vitest run test/adapters/friction-negative-answer.test.ts` — test/adapters/friction-negative-answer.test.ts does not exist — no spec was collected, so nothing was measured
 - 2026-10-31 **no-spec** (exit none) `npx vitest run test/adapters/friction-negative-answer.test.ts` — test/adapters/friction-negative-answer.test.ts does not exist — no spec was collected, so nothing was measured
+- 2026-10-31 **no-spec** (exit none) `npx vitest run test/adapters/friction-negative-answer.test.ts` — test/adapters/friction-negative-answer.test.ts does not exist — no spec was collected, so nothing was measured
