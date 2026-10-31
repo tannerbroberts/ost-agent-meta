@@ -73,3 +73,20 @@ Short, and new: this is not a restatement of the 2026-08-05 section, which is ab
 **Limits.** Three days of 47 records, chosen as the most recent, not sampled at random — the other 13 unexamined days were not read and could differ. Call counts are the trace's own totals for the whole vault, so they mix unattended sweeps with any attended session on those days; the trace does not separate them, and a reader should not assume all 68 sessions were unattended firings. "Writes" counts write-verb invocations, not nodes changed. Nothing was executed, no rung moved, no instrument set, no status changed, no node created.
 
 _Method: `Glob` and `Read` over this vault's own `.ost-agent/evidence/`. Machine-recorded trace of this agent's own tool use; it grounds usability and the agent-tool loop, not external demand._
+
+## 2026-10-30 — the idle branch has gone fully silent: 23 sessions, zero writes
+
+One new data point, to update the 2026-09-19 table. Nothing else here is new.
+
+`USAGE:2026-10-30` is the machine-recorded rollup, computed rather than narrated. It shows **214 calls across 23 sessions, all reads**: `ost_read_tree` 97, `ost_next_work` 75, `ost_ingest_inbox` 34, `ost_read_repo` 8. Not one write verb was called, not even `ost_append_to_node`.
+
+**Why it matters for this node's claim.** The 2026-09-19 section said idling is not cheap because "a pass that finds nothing to do still writes — and the only write verb it has left is append". Today that no longer holds: the passes now idle without writing anything. So the cost is now only the reads, about 9 calls a session. Every pass pays it again and leaves nothing behind for the next pass to skip. The loop's own stop condition for this firing still said `go`. It counted three buckets: 1397 unmapped evidence rows, 70 solutions missing instruments, and 1 under-served opportunity. Every one of them is unclearable from the unattended surface for a reason already recorded on the tree:
+- the opportunity is under a standing hold;
+- the instrument bucket is harness-owned or human-owed, and the lane branch is missing in `src/eval/buildable.ts`;
+- the evidence rows restate needs the tree already holds, and nothing on this surface can mark them mapped.
+
+That makes it a `go` that no firing can act on. This is the "distinguish blocked from outstanding" fix this node named on day one, still unbuilt.
+
+**Limits.** This covers one day. The trace mixes attended and unattended sessions. This write is itself the day's only write so far, so after this firing the trace for 2026-10-31 will not read zero. Nothing was executed, and no rung, status or instrument moved. `ost_check` is withheld on this surface, so this write is unverified by design.
+
+_Source: `USAGE:2026-10-30`, read through `ost_next_work({evidence})`. It is the agent's own tool use: it grounds usability, not demand._
