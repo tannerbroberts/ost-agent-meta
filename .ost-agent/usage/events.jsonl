@@ -25040,3 +25040,4 @@
 {"ts":"2026-11-01T07:54:35.202Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":104,"session":"mcp-389c7dd7-09a6-4063-b15d-771a2e1e43b1"}
 {"ts":"2026-11-01T07:54:35.531Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":113,"session":"mcp-389c7dd7-09a6-4063-b15d-771a2e1e43b1"}
 {"ts":"2026-11-01T07:54:41.716Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-389c7dd7-09a6-4063-b15d-771a2e1e43b1"}
+{"ts":"2026-11-01T08:56:41.928Z","tool":"ost_ingest_inbox","ok":true,"ms":98,"surface":"mcp","argBytes":2,"session":"mcp-d368e926-cbf1-4289-9203-5db350097b55"}
