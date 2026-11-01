@@ -24971,3 +24971,4 @@
 {"ts":"2026-11-01T00:34:34.350Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":66,"session":"mcp-36d5de84-dec9-40d0-898c-cdbf746657eb"}
 {"ts":"2026-11-01T00:34:41.913Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-36d5de84-dec9-40d0-898c-cdbf746657eb"}
 {"ts":"2026-11-01T00:34:50.089Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1107,"session":"mcp-36d5de84-dec9-40d0-898c-cdbf746657eb","touched":["A third of my calls go on re-asking what is outstanding.md"]}
+{"ts":"2026-11-01T00:34:53.700Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-36d5de84-dec9-40d0-898c-cdbf746657eb"}
