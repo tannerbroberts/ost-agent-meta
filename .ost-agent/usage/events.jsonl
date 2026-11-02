@@ -25263,3 +25263,15 @@
 {"ts":"2026-11-02T06:55:50.955Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-4750b712-80c7-4b31-9dc3-c80b9f36cc7d"}
 {"ts":"2026-11-02T06:55:55.103Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":116,"session":"mcp-4750b712-80c7-4b31-9dc3-c80b9f36cc7d"}
 {"ts":"2026-11-02T07:58:00.244Z","tool":"ost_ingest_inbox","ok":true,"ms":94,"surface":"mcp","argBytes":2,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:01.710Z","tool":"ost_next_work","ok":true,"ms":160,"surface":"mcp","argBytes":2,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:10.571Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":108,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:17.082Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":113,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:17.585Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":113,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:17.835Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":104,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:23.236Z","tool":"ost_next_work","ok":true,"ms":32,"surface":"mcp","argBytes":62,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:24.012Z","tool":"ost_next_work","ok":true,"ms":28,"surface":"mcp","argBytes":62,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:29.195Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":116,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:35.794Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:36.524Z","tool":"ost_next_work","ok":true,"ms":26,"surface":"mcp","argBytes":62,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T07:58:37.223Z","tool":"ost_next_work","ok":true,"ms":26,"surface":"mcp","argBytes":62,"session":"mcp-002325b5-58be-4308-bc5f-f0e06a288e6c"}
+{"ts":"2026-11-02T09:00:52.630Z","tool":"ost_ingest_inbox","ok":true,"ms":99,"surface":"mcp","argBytes":2,"session":"mcp-8b8e6536-c535-4c83-885f-bc5aa320287b"}
