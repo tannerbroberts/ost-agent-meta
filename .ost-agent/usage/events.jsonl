@@ -25495,3 +25495,4 @@
 {"ts":"2026-11-03T07:02:14.041Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":116,"session":"mcp-f45590d2-9062-48fc-bfa6-4c43287dea7e"}
 {"ts":"2026-11-03T07:02:22.362Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":104,"session":"mcp-f45590d2-9062-48fc-bfa6-4c43287dea7e"}
 {"ts":"2026-11-03T07:02:30.058Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-f45590d2-9062-48fc-bfa6-4c43287dea7e"}
+{"ts":"2026-11-03T08:04:31.336Z","tool":"ost_ingest_inbox","ok":true,"ms":102,"surface":"mcp","argBytes":2,"session":"mcp-a921c7e3-30f9-4987-a922-b7fdb6d08c85"}
