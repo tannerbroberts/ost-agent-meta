@@ -1,8 +1,8 @@
 {
-  "cursor": "2026-11-01",
+  "cursor": "2026-11-02",
   "firstFetchedAt": "2026-08-02T13:22:20.571Z",
-  "lastFetchedAt": "2026-11-02T23:40:58.600Z",
-  "lastItemAt": "2026-11-02T00:38:33.298Z",
-  "lastItemId": "USAGE:2026-11-01",
-  "itemsDelivered": 90
+  "lastFetchedAt": "2026-11-03T00:43:02.337Z",
+  "lastItemAt": "2026-11-03T00:43:02.337Z",
+  "lastItemId": "USAGE:2026-11-02",
+  "itemsDelivered": 91
 }
