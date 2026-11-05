@@ -25978,3 +25978,4 @@
 {"ts":"2026-11-05T10:29:17.110Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":116,"session":"mcp-72b177a0-28c2-4bcf-bdda-0ba4d3018dda"}
 {"ts":"2026-11-05T10:29:28.153Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":113,"session":"mcp-72b177a0-28c2-4bcf-bdda-0ba4d3018dda"}
 {"ts":"2026-11-05T10:29:33.012Z","tool":"ost_ingest_inbox","ok":true,"ms":14,"surface":"mcp","argBytes":2,"session":"mcp-72b177a0-28c2-4bcf-bdda-0ba4d3018dda"}
+{"ts":"2026-11-05T11:31:34.423Z","tool":"ost_ingest_inbox","ok":true,"ms":102,"surface":"mcp","argBytes":2,"session":"mcp-5f06d637-b1cf-41af-a0dc-e252cabc6f2d"}
