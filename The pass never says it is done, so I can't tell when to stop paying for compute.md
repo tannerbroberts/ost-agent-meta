@@ -215,3 +215,17 @@ This is the first full day in the series with no structural write at all. Every 
 The friction record from the day's last session, `TRANSCRIPT:e0107c65-…`, is four `retry` events. Each one re-reads a node or evidence id that the previous firing had also read, so the evidence this loop adds each day is largely the loop reading itself.
 
 _Source: `USAGE:2026-10-21` and `TRANSCRIPT:e0107c65-d184-4c03-8711-767957195e6c`, both read in full via `ost_next_work({evidence})`, plus one `ost_read_repo` size probe. Machine-recorded and MCP-only, so harness reads are not counted. Nothing was executed and no rung moved. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## 2026-11-06: one more row, sixteen days later
+
+| | 2026-10-21 | 2026-11-05 |
+|---|---|---|
+| Sessions | 23 | 16 |
+| MCP calls | 252 (0 failed) | 162 (0 failed) |
+| Structural writes | 0 | **0** (`read_tree` 70, `next_work` 52, `ingest_inbox` 21, `read_repo` 19) |
+| Nodes created | 0 | 0 |
+| Stop condition | `go`: 1189 evidence, 1 under-served, 72 instruments | `go`: 1529 evidence, 1 under-served, 70 instruments |
+
+This is the second full day in the series with no structural write. Over 16 days the evidence bucket grew by 340, about 21 a day. `src/eval/buildable.ts` is still 23,611 bytes (size probe this firing), unchanged since 2026-10-11, so the lane exclusion has probably still not landed. As before, that is a behavioural reading only. None of the three remedies from the 2026-09-28 section (`dispose` on the held opportunity, `lane --set`, many-to-one mapping) has been applied. The two head-of-queue records this firing read, `TRANSCRIPT:00032886-…` (brace in a Grep glob) and `TRANSCRIPT:004a28b8-…` (look-around rejected by ripgrep, plus 11 `retry` re-reads), both repeat shapes already recorded on "A string I meant literally is read as syntax, so the command fails instead of searching".
+
+_Source: `USAGE:2026-11-05`, read in full via `ost_next_work({evidence})`, plus one `ost_read_repo` size probe. Machine-recorded and MCP-only, so harness reads are not counted. Nothing was executed, no rung moved, and no node was created. `ost_check` is withheld on this surface, so this write is unverified by design._
