@@ -26050,3 +26050,6 @@
 {"ts":"2026-11-06T15:24:07.777Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":90,"session":"mcp-6953a2b5-2a65-4808-96f6-f49d788a0466"}
 {"ts":"2026-11-06T15:24:24.412Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1650,"session":"mcp-6953a2b5-2a65-4808-96f6-f49d788a0466","touched":["The pass never says it is done, so I can't tell when to stop paying for compute.md"]}
 {"ts":"2026-11-06T15:24:24.771Z","tool":"ost_ingest_inbox","ok":true,"ms":19,"surface":"mcp","argBytes":2,"session":"mcp-6953a2b5-2a65-4808-96f6-f49d788a0466"}
+{"ts":"2026-11-06T15:24:26.397Z","tool":"ost_next_work","ok":true,"ms":28,"surface":"mcp","argBytes":62,"session":"mcp-6953a2b5-2a65-4808-96f6-f49d788a0466"}
+{"ts":"2026-11-06T15:24:29.404Z","tool":"ost_next_work","ok":true,"ms":144,"surface":"mcp","argBytes":2,"session":"mcp-6953a2b5-2a65-4808-96f6-f49d788a0466"}
+{"ts":"2026-11-06T16:26:41.797Z","tool":"ost_ingest_inbox","ok":true,"ms":114,"surface":"mcp","argBytes":2,"session":"mcp-99a53b0d-78ff-4843-bacd-08f03479d1b3"}
