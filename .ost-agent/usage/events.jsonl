@@ -26302,3 +26302,10 @@
 {"ts":"2026-11-07T16:35:06.856Z","tool":"ost_read_repo","ok":false,"ms":2,"surface":"mcp","argBytes":70,"err":"\"test/eval/lane-aware-instrument-bucket.test.ts\" does not exist in OST-Agent — OST-Agent/test/eval exists and contains adversarial-critic-invariants.test.ts, assumption-layer.test.ts, attention.test.ts, blind-ideator-isolation.test.ts, calibration-ratio-stability.test.ts, canary-parallel-run.test.ts","session":"mcp-19e31eb0-1d5f-444e-ab59-7a057ca511f5"}
 {"ts":"2026-11-07T16:35:11.592Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-19e31eb0-1d5f-444e-ab59-7a057ca511f5"}
 {"ts":"2026-11-07T17:37:14.961Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-2ae85211-7d97-4e1d-aeec-88d95fa8b62c"}
+{"ts":"2026-11-07T17:37:16.488Z","tool":"ost_next_work","ok":true,"ms":171,"surface":"mcp","argBytes":2,"session":"mcp-2ae85211-7d97-4e1d-aeec-88d95fa8b62c"}
+{"ts":"2026-11-07T17:37:25.073Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":108,"session":"mcp-2ae85211-7d97-4e1d-aeec-88d95fa8b62c"}
+{"ts":"2026-11-07T17:37:31.088Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":113,"session":"mcp-2ae85211-7d97-4e1d-aeec-88d95fa8b62c"}
+{"ts":"2026-11-07T17:37:31.233Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":2,"session":"mcp-2ae85211-7d97-4e1d-aeec-88d95fa8b62c"}
+{"ts":"2026-11-07T17:37:35.952Z","tool":"ost_next_work","ok":true,"ms":39,"surface":"mcp","argBytes":62,"session":"mcp-2ae85211-7d97-4e1d-aeec-88d95fa8b62c"}
+{"ts":"2026-11-07T17:37:39.548Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":116,"session":"mcp-2ae85211-7d97-4e1d-aeec-88d95fa8b62c"}
+{"ts":"2026-11-07T18:39:49.361Z","tool":"ost_ingest_inbox","ok":true,"ms":99,"surface":"mcp","argBytes":2,"session":"mcp-90614d14-c94f-46f6-9a94-3eb020a1d3f2"}
