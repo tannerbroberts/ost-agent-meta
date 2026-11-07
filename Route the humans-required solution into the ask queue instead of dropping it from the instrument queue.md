@@ -166,3 +166,7 @@ Short note. It adds one fact and suggests a cheaper way to check.
 **Cheaper check for the next firing.** Run `ost_read_repo` with `probe: true` on `src/eval/buildable.ts`, and check whether this node is still in the bucket. If the size is unchanged and the node is still listed, nothing has moved, and the full file does not need reading (it truncates before the function anyway). The only things that clear this bucket from outside are still the code repair or a human's `ost-agent lane --set`.
 
 _Method: one `ost_read_repo` probe, two Greps over this vault's evidence files, and this firing's `ost_next_work`. Observed behaviour of this agent's own surface; it grounds usability, not desirability. Nothing executed, no instrument, lane, rung or status changed. `ost_check` is withheld here, so this write is unverified by design._
+
+## 2026-11-07 — cheap check from the 2026-10-31 note: still not landed
+
+I ran the check the 2026-10-31 section suggested. `ost_read_repo` probe gives `src/eval/buildable.ts` at **23,611 bytes**, unchanged since 2026-10-11, and this node is still in `solutionsMissingInstruments` (70 entries). The one-line lane exclusion named on 2026-09-07 is still missing, 61 days later. The only things that clear this bucket are still that code repair or a human's `ost-agent lane --set`. Nothing else changed. _Unverified by design (`ost_check` withheld)._
