@@ -26500,3 +26500,4 @@
 {"ts":"2026-11-08T14:34:07.059Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":113,"session":"mcp-07594c48-3ca8-4d5c-b883-693a9ed4c71d"}
 {"ts":"2026-11-08T14:34:12.500Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-07594c48-3ca8-4d5c-b883-693a9ed4c71d"}
 {"ts":"2026-11-08T14:34:17.247Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-07594c48-3ca8-4d5c-b883-693a9ed4c71d"}
+{"ts":"2026-11-08T15:36:21.200Z","tool":"ost_ingest_inbox","ok":true,"ms":101,"surface":"mcp","argBytes":2,"session":"mcp-f99214a5-aed6-4a4f-9c5e-1475e78921db"}
