@@ -26720,3 +26720,4 @@
 {"ts":"2026-11-09T14:38:48.241Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
 {"ts":"2026-11-09T14:39:01.665Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":2151,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
 {"ts":"2026-11-09T14:39:05.480Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T15:41:12.139Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
