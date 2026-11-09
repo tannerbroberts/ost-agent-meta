@@ -26710,3 +26710,12 @@
 {"ts":"2026-11-09T13:36:05.828Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-de65c371-a827-4ab6-bb3a-e273d0887892"}
 {"ts":"2026-11-09T13:36:12.657Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-de65c371-a827-4ab6-bb3a-e273d0887892"}
 {"ts":"2026-11-09T14:38:17.893Z","tool":"ost_ingest_inbox","ok":true,"ms":106,"surface":"mcp","argBytes":2,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:38:19.170Z","tool":"ost_next_work","ok":true,"ms":173,"surface":"mcp","argBytes":2,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:38:26.453Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":108,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:38:27.054Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":62,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:38:32.063Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":116,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:38:36.779Z","tool":"ost_next_work","ok":true,"ms":38,"surface":"mcp","argBytes":62,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:38:37.053Z","tool":"ost_read_tree","ok":true,"ms":71,"surface":"mcp","argBytes":104,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:38:41.728Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":113,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:38:48.241Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
+{"ts":"2026-11-09T14:39:01.665Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":2151,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}

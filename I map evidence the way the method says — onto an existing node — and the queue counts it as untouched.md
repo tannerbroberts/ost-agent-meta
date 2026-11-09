@@ -105,3 +105,15 @@ Earlier sections showed the predicate one record at a time. This section counts 
 **A second thing the same Grep showed.** The head-of-queue ids also turn up *inside later friction records*, for example `08e10880-…` in about a dozen other `TRANSCRIPT_*.md` evidence files. Each firing reads the head of the queue with `ost_next_work({evidence})`, and the harvester files those reads as `retry` events that name the ids. So reading the head creates new records that cite it. This firing re-read four records (`030e5db3`, `08e10880`, `00032886`, `0095203e`) that the 2026-10-13 section had already read and reported, before it noticed the overlap.
 
 **Limits.** This is a literal substring match on an 8+4-character id prefix, one page of the queue, read at one moment. "Cited" means named in the prose, not judged correctly mapped. _Observed behaviour of this agent's own surface. It grounds usability, not desirability. No node created, nothing executed. Unverified by design (`ost_check` withheld)._
+
+## 2026-11-09 — 1600 now, and the queue grows faster than any firing reads it
+
+Short note: one measurement, no new argument.
+
+**The count.** This firing's `ost_next_work` reports **1600** unmapped records. The 2026-10-13 section reported 1017. That is about 580 more in 27 days, roughly 21 a day. The `actor` field on every listed record is `transcript`, and this firing's ingest captured exactly one: `TRANSCRIPT:0eea79f3-…`, the previous firing's own session. So the queue grows by about one record per firing. Because nothing on this surface can drain it, a firing that reads even one record cannot keep up with the records firings create.
+
+**The one new record is that loop seen directly.** `0eea79f3` contains 7 `retry` events. Five of them are reads of the same four subjects this firing also read before seeing it: the held opportunity "The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it", the solution "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue", and the evidence records `030e5db3-…` and `004a28b8-…`. Each firing pays to re-derive the last firing's verdicts from these bodies, and the harvester then files that work as new evidence.
+
+**Checked and unchanged this firing.** An `ost_read_repo` probe shows `src/eval/buildable.ts` at 23,611 bytes, the same size as on 2026-10-11. So the lane-exclusion repair recorded on the Route solution has still not landed, and the 70-entry instrument bucket is still in the state that solution's 2026-11-07 note describes. Nothing about that was re-annotated there.
+
+_Method: this firing's `ost_ingest_inbox` and `ost_next_work`, one `ost_next_work({evidence})` read, and one repo probe. This is observed behaviour of this agent's own surface. It grounds usability, not desirability. No node was created, nothing was executed, and no rung, lane, instrument or status changed. `ost_check` is withheld here, so this write is unverified by design._
