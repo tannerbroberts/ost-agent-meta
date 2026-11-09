@@ -26721,3 +26721,12 @@
 {"ts":"2026-11-09T14:39:01.665Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":2151,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
 {"ts":"2026-11-09T14:39:05.480Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-375d7f8b-361f-49cc-84bc-15b48af79f52"}
 {"ts":"2026-11-09T15:41:12.139Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T15:41:13.458Z","tool":"ost_next_work","ok":true,"ms":174,"surface":"mcp","argBytes":2,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T15:41:25.995Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":108,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T15:41:26.440Z","tool":"ost_next_work","ok":true,"ms":32,"surface":"mcp","argBytes":62,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T15:41:32.558Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":113,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T15:41:32.854Z","tool":"ost_read_tree","ok":true,"ms":70,"surface":"mcp","argBytes":104,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T15:41:42.707Z","tool":"ost_next_work","ok":true,"ms":39,"surface":"mcp","argBytes":62,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T15:41:43.476Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T15:41:48.735Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":116,"session":"mcp-2e118cbd-d653-4db9-b073-b491531fc0d0"}
+{"ts":"2026-11-09T16:43:58.296Z","tool":"ost_ingest_inbox","ok":true,"ms":104,"surface":"mcp","argBytes":2,"session":"mcp-b56be285-f974-4660-ace1-22584de40f9d"}
