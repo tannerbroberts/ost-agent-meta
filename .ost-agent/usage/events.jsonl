@@ -26861,3 +26861,4 @@
 {"ts":"2026-11-10T04:13:36.265Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":98,"session":"mcp-904de71e-7025-4697-9fd5-e07db7b144e9"}
 {"ts":"2026-11-10T04:13:49.088Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-904de71e-7025-4697-9fd5-e07db7b144e9"}
 {"ts":"2026-11-10T04:14:46.851Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":2129,"session":"mcp-904de71e-7025-4697-9fd5-e07db7b144e9","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
+{"ts":"2026-11-10T04:15:00.853Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":381,"session":"mcp-904de71e-7025-4697-9fd5-e07db7b144e9","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
