@@ -117,3 +117,15 @@ Short note: one measurement, no new argument.
 **Checked and unchanged this firing.** An `ost_read_repo` probe shows `src/eval/buildable.ts` at 23,611 bytes, the same size as on 2026-10-11. So the lane-exclusion repair recorded on the Route solution has still not landed, and the 70-entry instrument bucket is still in the state that solution's 2026-11-07 note describes. Nothing about that was re-annotated there.
 
 _Method: this firing's `ost_ingest_inbox` and `ost_next_work`, one `ost_next_work({evidence})` read, and one repo probe. This is observed behaviour of this agent's own surface. It grounds usability, not desirability. No node was created, nothing was executed, and no rung, lane, instrument or status changed. `ost_check` is withheld here, so this write is unverified by design._
+
+## 2026-11-09 (later firing) — the queue by channel: every human-carried record is mapped, and the last one arrived on 2026-08-20
+
+Earlier sections sampled the queue by position. This one splits it by channel, which no earlier section did.
+
+**The count.** `ost_next_work` reports **1614** unmapped records. A Glob of the evidence folder finds 63 `INBOX_*` files (human-carried notes and filed friction). A Grep of node frontmatter finds every one of those 63 ids as the `source:` of at least one node. Seven of them were missed by the first grep because a long id is folded onto a second line (`source: >-`); a multiline grep found all seven. The sweep's listing agrees: it is alphabetical by id and opens at `TRANSCRIPT:0003…`, and any unmapped `INBOX:` id would sort ahead of that.
+
+**So the unmapped queue holds no human-carried evidence at all.** It is this vault's own session transcripts. A reader who sees 1614 and fears that notes they dropped in are going unread can set that fear down: none are.
+
+**The second fact the same Glob shows.** The newest `INBOX_*` evidence file is dated **2026-08-20**, 81 days ago. Every ingest since then that this firing can see captured from the transcript or usage channels only. The tree has had no new outside or operator-written input for 81 days, while the queue grew by about 1250 records of the agent watching itself.
+
+**Limits.** `USAGE_*` records were not checked one by one; they sort after `TRANSCRIPT:` so the listing's head says nothing about them. "Mapped" here means named as a node's `source:`, not judged well mapped. File dates are read from filenames. _Method: three Globs, three Greps over this vault, six `ost_next_work({evidence})` reads (all six repeated shapes already on the tree). Observed structure of this vault; it grounds usability, not desirability. No node created, nothing executed, no rung, lane, instrument or status changed. `ost_check` is withheld on this surface, so this write is unverified by design._
