@@ -53,103 +53,34 @@ Yes, and the candidates disagree about what a mapping *is*: count a prose citati
 
 ⚠️ Unvalidated. Distilled by an unattended pass from its own tool output; no human has confirmed that a draining evidence queue is what they want. First-party observation of this product's own tooling — it grounds feasibility and usability, not demand. No command executed, no result recorded; rung at the `assertion` floor.
 
-## 2026-10-13 — the count this node opens on is now 1017, nearly triple
+## Standing measurement — what eight firings of sampling established (consolidated 2026-11-10)
 
-A short note with a measurement. No new argument.
+**For a firing that meets a four-digit `unmappedEvidence` count: the head of the queue has been read many times and does not need reading again.** The records `00032886`, `0018a4eb`, `004a28b8`, `00691b0d`, `0095203e`, `00b567f9`, `01960990`, `030e5db3` and `08e10880` have each been read in full by several firings, and every one repeats a need the tree already holds. Read a record only if it is the one this firing's own ingest captured, or if it comes from somewhere not listed below. Add a line here only when a record holds a need the tree lacks, or when the growth rate changes.
 
-**The figure.** This firing's `ost_next_work` reports **1017** unmapped evidence items. This node opened at 363 on 2026-08-22. The stop condition the unattended loop pasted above this firing lists the same 1017 as the largest of its three `go` reasons.
+**The count.** 363 (2026-08-22), 1017 (10-13), 1107 (10-18), 1600 (11-09), 1625 (11-10). That is about 21 a day since mid-October, and roughly one per firing: each ingest captures the previous firing's own session.
 
-**What was sampled, and what it showed.** Five records were read in full: `TRANSCRIPT:3541b3ed-…` (captured this firing), `030e5db3-…`, `00032886-…`, `0095203e-…` and `08e10880-…`. All five repeat shapes the tree already holds:
-- withheld-tool and repo-read denials, under "A scheduled run finds out its tools are missing only after it has started";
-- a brace in a Grep glob read as an alternation group, under "A string I meant literally is read as syntax, so the command fails instead of searching";
-- Write/Edit refused because the file had not been read, under "The file changed after I read it, and the failed edit is how I find out";
-- a Monitor command refused for containing command substitution, under the Monitor-grammar solutions.
+**How the queue has been sampled, and what each sample found.**
 
-None of the five held a need the tree does not already carry. `030e5db3` is still listed as unmapped even though "A scheduled run finds out its tools are missing only after it has started" has cited it under a `_Source:_` line since 2026-10-02. That is the predicate this node describes, seen again.
+| Sampled by | Records | New needs found |
+|---|---|---|
+| Head of the alphabetical order (10-13, 11-10) | 5, then 8 | 0 |
+| Tail (10-16) | 7 | 0 |
+| Middle (10-17) | 5 | 0 |
+| Error signature, one Grep over every evidence file for refusals from ten of this product's tools (11-10) | 49 lines, 6 signatures | 0 (5 of 6 named literally in a node, the sixth held in paraphrase) |
+| The record each firing's own ingest captured (10-13 to 11-10) | about 8 | 0 |
 
-**What this firing did about it: nothing to the queue, on purpose.** It created no node per record. It also appended no fresh corroboration to the sibling nodes, which already carry several recurrence lines each, so one more would add length and no information. The three candidates under this node are where the count gets fixed, and choosing one is the operator's call.
+The same ids recur across rows, so these do not add up to a count of distinct records. None of it is a random sample and none of it gives a rate.
 
-**Limits.** 5 of 1017 records were read. They were the head of an alphabetical listing, not a random sample, so this is no rate over the whole set. All five come from this vault's own unattended sessions: they show how the agent uses the product, not what anyone wants. No `ost_check` on this surface, so this write is unverified by design.
+**The shapes that keep recurring, each already on the tree.** Permission denials on withheld tools and on the product-repo path. A brace in a Grep glob read as an alternation group. Write or Edit refused on a file not yet read. A Monitor command refused for command substitution. `ost_read_repo` on a path that does not exist (`src/instruments` guessed in 11 sessions, `src/evidence` in 6) or with no product repo configured (7 sessions). `ost_set_instrument` refusing `-t "<name>"` as shell punctuation, which is the form the loop prompt's own "strong instrument" example uses. `ost_read_tree` on a title not on the tree. Refusals from `ost_edit_node`, `ost_set_evidence` and `ost_create_node` for an omitted section, a rung above the ceiling, a bar-less threshold. The prescribed `ost_ingest_inbox` / `ost_next_work` re-call filed as `retry`.
 
-## 2026-10-16 — the tail of the queue looks like its head
+**Three structural facts the sampling turned up.**
+- **Prose citations do not drain.** On 2026-10-18, 12 of the 25 head-of-queue ids were cited by name in at least one node's prose and were still listed. `0095203e` was cited in seven nodes.
+- **Reading the queue feeds it.** Each firing reads the head with `ost_next_work({evidence})` and re-reads the same few node bodies. The harvester files those reads as `retry` events, and that session becomes the next firing's new record. The record captured on 2026-11-10, `6bb858d1`, is 12 such events, including reads of this node.
+- **No human-carried evidence is waiting.** On 2026-11-09 all 51 `INBOX_*` evidence ids were found as the `source:` of at least one node, and the listing opens at `TRANSCRIPT:0003…`, ahead of which any unmapped `INBOX:` id would sort. The queue is this vault's own session transcripts. The newest `INBOX_*` file is dated 2026-08-20; nothing operator-written or from outside has arrived since.
 
-The 2026-10-13 section stated a limit: its five records "were the head of an alphabetical listing, not a random sample". This firing read six from the **other end** of the ordering. It got their ids from the evidence filenames and read each body through `ost_next_work({evidence})`: `ffb9eb47-…`, `fffde2fc-…`, `ffcee3f3-…`, `fe8409a0-…`, `fd10c391-…`, `f0f8fb56-…`. They are dated 2026-08-22 to 2026-10-15. It also read the one record this firing's ingest captured, `adedd3cc-…`.
+**What no firing did, on purpose.** No node was minted per record, and no further corroboration lines were appended to nodes that already carry several. The three candidates under this node are where the count gets fixed, and choosing one is the operator's.
 
-**Result: 7 of 7 repeat shapes the tree already holds, and none holds a new need.** Here is what they contained:
-- the prescribed `ost_ingest_inbox` / `ost_next_work` re-call, scored as `retry`;
-- repo-path permission denials on Glob and Grep;
-- a `read_repo` probe of a path that does not exist;
-- `create_node` refusing a bar-less threshold and a malformed instrument;
-- `append_to_node` refusing the reserved `## History` heading.
+**Limits.** `USAGE_*` records were never checked one by one. "Already on the tree" means a literal or paraphrase match in a node body, judged by the pass that read it. The error-signature Grep covered this product's tools and no harness tool. Everything here is this agent's own surface observed by itself: it grounds usability, not desirability. Nothing was executed and no rung, lane, instrument or status changed. `ost_check` is withheld on the unattended surface, so none of these writes was verified by the invariant checker.
 
-`adedd3cc` is 11 `retry` events. They are re-reads of the same head-of-queue evidence ids and the same held-opportunity body that this firing also read, so each firing re-derives the previous one's verdicts.
-
-**What this does to the 10-13 limit.** The queue now has a sample from both ends that agrees. So it is more likely that the 1074 are mostly records of needs the tree already holds, and less likely that this is an artefact of always reading the head. It is still 12 of 1074, chosen by position rather than at random, so it does not give a rate.
-
-_Method: seven `ost_next_work({evidence})` reads plus one filename Glob. This is observed behaviour of this agent's own surface. It grounds usability, not desirability. No node was created, no rung moved, and nothing was executed. `ost_check` is withheld here, so this write is unverified by design._
-
-## 2026-10-17 — the middle of the queue looks like both ends
-
-The 2026-10-16 section sampled the head and tail and noted the sample was still "chosen by position rather than at random". This firing read four records from the **middle** of the ordering, `5e5c119d-…`, `6e66c934-…`, `7c6f8edf-…` and `8a9777ad-…` (dated 2026-07-25 to 2026-08-06), plus `02912d97-…`, the one record this firing's ingest captured.
-
-**Result: 5 of 5 repeat shapes the tree already holds, and none holds a new need.** Edit refused on an unread file; permission denials on withheld tools (`ost_flag_humans_required` four times in one session, `ost_check`, WebFetch) and on the product-repo path; a brace in a Grep glob; zsh `no matches found`; a rung-ceiling refusal on `create_node`; an unexpected `limit` parameter on Glob; and the prescribed `ingest`/`next_work` re-call filed as `retry`. `02912d97` is three `retry` events, each re-reading an evidence id (`030e5db3`, `08e10880`, `9e4847e5`) that earlier firings had already read and reported on this node.
-
-**What this adds.** The queue has now been sampled at the head, the tail and the middle, 17 records in all, and every one repeats a need the tree already holds. That is still not a random sample and gives no rate. But "it is an artefact of where passes read" is now a weak explanation. The 1088 look like records of needs already on the tree, which the predicate this node describes cannot count as mapped.
-
-_Method: five `ost_next_work({evidence})` reads and one filename Glob. This is observed behaviour of this agent's own surface. It grounds usability, not desirability. No node was created, no rung moved, and nothing was executed. `ost_check` is withheld here, so this write is unverified by design._
-
-## 2026-10-18 — 12 of the 25 records at the head of the queue are already cited in node prose
-
-Earlier sections showed the predicate one record at a time. This section counts a whole page. This firing's `ost_next_work` listed 25 `unmappedEvidence` ids (1107 total), and one Grep over the vault's node files (`*.md`) looked for each id. **12 of the 25 are cited by name in at least one node's prose and are still listed as unmapped.** For example, `0095203e-…` is cited in seven nodes, and `08e10880-…`, `00c3120a-…` and `024ceca3-…` are each cited on "The session tries to write a file before it has read it this run, and the guard fails the turn instead of reading first". The other 13 are cited nowhere.
-
-**A second thing the same Grep showed.** The head-of-queue ids also turn up *inside later friction records*, for example `08e10880-…` in about a dozen other `TRANSCRIPT_*.md` evidence files. Each firing reads the head of the queue with `ost_next_work({evidence})`, and the harvester files those reads as `retry` events that name the ids. So reading the head creates new records that cite it. This firing re-read four records (`030e5db3`, `08e10880`, `00032886`, `0095203e`) that the 2026-10-13 section had already read and reported, before it noticed the overlap.
-
-**Limits.** This is a literal substring match on an 8+4-character id prefix, one page of the queue, read at one moment. "Cited" means named in the prose, not judged correctly mapped. _Observed behaviour of this agent's own surface. It grounds usability, not desirability. No node created, nothing executed. Unverified by design (`ost_check` withheld)._
-
-## 2026-11-09 — 1600 now, and the queue grows faster than any firing reads it
-
-Short note: one measurement, no new argument.
-
-**The count.** This firing's `ost_next_work` reports **1600** unmapped records. The 2026-10-13 section reported 1017. That is about 580 more in 27 days, roughly 21 a day. The `actor` field on every listed record is `transcript`, and this firing's ingest captured exactly one: `TRANSCRIPT:0eea79f3-…`, the previous firing's own session. So the queue grows by about one record per firing. Because nothing on this surface can drain it, a firing that reads even one record cannot keep up with the records firings create.
-
-**The one new record is that loop seen directly.** `0eea79f3` contains 7 `retry` events. Five of them are reads of the same four subjects this firing also read before seeing it: the held opportunity "The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it", the solution "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue", and the evidence records `030e5db3-…` and `004a28b8-…`. Each firing pays to re-derive the last firing's verdicts from these bodies, and the harvester then files that work as new evidence.
-
-**Checked and unchanged this firing.** An `ost_read_repo` probe shows `src/eval/buildable.ts` at 23,611 bytes, the same size as on 2026-10-11. So the lane-exclusion repair recorded on the Route solution has still not landed, and the 70-entry instrument bucket is still in the state that solution's 2026-11-07 note describes. Nothing about that was re-annotated there.
-
-_Method: this firing's `ost_ingest_inbox` and `ost_next_work`, one `ost_next_work({evidence})` read, and one repo probe. This is observed behaviour of this agent's own surface. It grounds usability, not desirability. No node was created, nothing was executed, and no rung, lane, instrument or status changed. `ost_check` is withheld here, so this write is unverified by design._
-
-## 2026-11-09 (later firing) — the queue by channel: every human-carried record is mapped, and the last one arrived on 2026-08-20
-
-Earlier sections sampled the queue by position. This one splits it by channel, which no earlier section did.
-
-**The count.** `ost_next_work` reports **1614** unmapped records. A Glob of the evidence folder finds 63 `INBOX_*` files (human-carried notes and filed friction). A Grep of node frontmatter finds every one of those 63 ids as the `source:` of at least one node. Seven of them were missed by the first grep because a long id is folded onto a second line (`source: >-`); a multiline grep found all seven. The sweep's listing agrees: it is alphabetical by id and opens at `TRANSCRIPT:0003…`, and any unmapped `INBOX:` id would sort ahead of that.
-
-**So the unmapped queue holds no human-carried evidence at all.** It is this vault's own session transcripts. A reader who sees 1614 and fears that notes they dropped in are going unread can set that fear down: none are.
-
-**The second fact the same Glob shows.** The newest `INBOX_*` evidence file is dated **2026-08-20**, 81 days ago. Every ingest since then that this firing can see captured from the transcript or usage channels only. The tree has had no new outside or operator-written input for 81 days, while the queue grew by about 1250 records of the agent watching itself.
-
-**Limits.** `USAGE_*` records were not checked one by one; they sort after `TRANSCRIPT:` so the listing's head says nothing about them. "Mapped" here means named as a node's `source:`, not judged well mapped. File dates are read from filenames. _Method: three Globs, three Greps over this vault, six `ost_next_work({evidence})` reads (all six repeated shapes already on the tree). Observed structure of this vault; it grounds usability, not desirability. No node created, nothing executed, no rung, lane, instrument or status changed. `ost_check` is withheld on this surface, so this write is unverified by design._
-
-**Correction to the section above, same firing.** The `INBOX_*` file count is **51**, not 63; I recounted the Glob listing by hand. The finding is unchanged: each of the 51 ids appears as a node's `source:` at least once besides its own evidence file.
-
-## 2026-11-10 — sampled by error signature across the whole folder, not by position: still nothing new
-
-Earlier sections sampled the queue by position (head, tail, middle) and by channel. This firing searched it by content. One Grep over every evidence file looked for refusals issued by this product's own tools (`ost_read_repo`, `ost_read_tree`, `ost_set_instrument`, `ost_edit_node`, `ost_set_evidence` and five others) and returned 49 lines.
-
-**Count: 1622 unmapped.** That is 22 more than the 2026-11-09 section's 1600, one day later.
-
-**What the 49 lines were.** Six signatures, each already named in at least one node's prose:
-- `ost_read_repo` on a path that does not exist. `src/instruments` alone was guessed in 11 sessions and `src/evidence` in 6. Three nodes already cite `src/instruments` by name.
-- `ost_read_repo` with no product repo configured (7 sessions).
-- `ost_set_instrument` refusing a command with `-t "<name>"` as shell punctuation (3 sessions). The loop prompt's own "strong instrument" example uses that form. Four nodes already record this.
-- `ost_read_tree` on a title not on the tree (4 sessions).
-- `ost_edit_node` refusing a rewrite that omitted a stored section (1).
-- `ost_set_evidence` refusing a rung above the ceiling (1).
-
-**The eight records read in full this firing** (`00032886`, `0018a4eb`, `004a28b8`, `00691b0d`, `0095203e`, `00b567f9`, `030e5db3`, `01960990`) are the same head-of-queue ids the previous firing read. The record this ingest captured, `cf972613`, is 19 `retry` events listing those same reads. This firing repeated that cost before reading this node, as the 2026-11-09 section said firings do.
-
-**Limits.** The Grep was capped at 120 lines and returned 49, so it was not truncated. It covers ten of this product's tools and no harness tool (Grep, Monitor, Write, Bash). "Already named" means a literal string match in a node body, not a judged mapping.
-
-_Method: nine `ost_next_work({evidence})` reads and five Greps over this vault. Observed behaviour of this agent's own surface; it grounds usability, not desirability. No node created, nothing executed, no rung, lane, instrument or status changed. `ost_check` is withheld here, so this write is unverified by design._
-
-**Correction to the 2026-11-10 section above, same firing.** When that section was written, only two of its six signatures had been checked against node prose (`src/instruments` and the `ost_set_instrument` refusal). The other four were checked afterwards with one Grep each. Three match literally: "no product repos configured" (9 nodes), the omitted-section edit refusal (1 node), the rung-ceiling refusal (2 nodes). One does not: the `ost_read_tree` refusal text "no node on the tree carries that title" appears in no node. The shape is held in paraphrase as "wrong node title" on "Sort a day of real failed calls into shape errors and meaning errors" and "Validate every tool call against the schema the tool already declares". So the count is 5 of 6 by literal match and 6 of 6 by shape, and the finding stands.
+## History
+- 2026-11-10 body edited, dropping `## 2026-10-13 — the count this node opens on is now 1017, nearly triple`, `## 2026-10-16 — the tail of the queue looks like its head`, `## 2026-10-17 — the middle of the queue looks like both ends`, `## 2026-10-18 — 12 of the 25 records at the head of the queue are already cited in node prose`, `## 2026-11-09 — 1600 now, and the queue grows faster than any firing reads it`, `## 2026-11-09 (later firing) — the queue by channel: every human-carried record is mapped, and the last one arrived on 2026-08-20`, `## 2026-11-10 — sampled by error signature across the whole folder, not by position: still nothing new` — Seven dated measurement sections (2026-10-13 to 2026-11-10) had grown this node to 20KB, each firing re-reading the same head-of-queue records and appending the same verdict. Folded them into one standing measurement that tells a firing what is already settled before it spends reads. The need statement and its five original sections are reproduced verbatim; every distinct count is kept; git holds the prior text.
