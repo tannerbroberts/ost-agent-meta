@@ -131,3 +131,23 @@ Earlier sections sampled the queue by position. This one splits it by channel, w
 **Limits.** `USAGE_*` records were not checked one by one; they sort after `TRANSCRIPT:` so the listing's head says nothing about them. "Mapped" here means named as a node's `source:`, not judged well mapped. File dates are read from filenames. _Method: three Globs, three Greps over this vault, six `ost_next_work({evidence})` reads (all six repeated shapes already on the tree). Observed structure of this vault; it grounds usability, not desirability. No node created, nothing executed, no rung, lane, instrument or status changed. `ost_check` is withheld on this surface, so this write is unverified by design._
 
 **Correction to the section above, same firing.** The `INBOX_*` file count is **51**, not 63; I recounted the Glob listing by hand. The finding is unchanged: each of the 51 ids appears as a node's `source:` at least once besides its own evidence file.
+
+## 2026-11-10 — sampled by error signature across the whole folder, not by position: still nothing new
+
+Earlier sections sampled the queue by position (head, tail, middle) and by channel. This firing searched it by content. One Grep over every evidence file looked for refusals issued by this product's own tools (`ost_read_repo`, `ost_read_tree`, `ost_set_instrument`, `ost_edit_node`, `ost_set_evidence` and five others) and returned 49 lines.
+
+**Count: 1622 unmapped.** That is 22 more than the 2026-11-09 section's 1600, one day later.
+
+**What the 49 lines were.** Six signatures, each already named in at least one node's prose:
+- `ost_read_repo` on a path that does not exist. `src/instruments` alone was guessed in 11 sessions and `src/evidence` in 6. Three nodes already cite `src/instruments` by name.
+- `ost_read_repo` with no product repo configured (7 sessions).
+- `ost_set_instrument` refusing a command with `-t "<name>"` as shell punctuation (3 sessions). The loop prompt's own "strong instrument" example uses that form. Four nodes already record this.
+- `ost_read_tree` on a title not on the tree (4 sessions).
+- `ost_edit_node` refusing a rewrite that omitted a stored section (1).
+- `ost_set_evidence` refusing a rung above the ceiling (1).
+
+**The eight records read in full this firing** (`00032886`, `0018a4eb`, `004a28b8`, `00691b0d`, `0095203e`, `00b567f9`, `030e5db3`, `01960990`) are the same head-of-queue ids the previous firing read. The record this ingest captured, `cf972613`, is 19 `retry` events listing those same reads. This firing repeated that cost before reading this node, as the 2026-11-09 section said firings do.
+
+**Limits.** The Grep was capped at 120 lines and returned 49, so it was not truncated. It covers ten of this product's tools and no harness tool (Grep, Monitor, Write, Bash). "Already named" means a literal string match in a node body, not a judged mapping.
+
+_Method: nine `ost_next_work({evidence})` reads and five Greps over this vault. Observed behaviour of this agent's own surface; it grounds usability, not desirability. No node created, nothing executed, no rung, lane, instrument or status changed. `ost_check` is withheld here, so this write is unverified by design._
