@@ -27315,3 +27315,17 @@
 {"ts":"2026-11-11T13:43:26.415Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-5a4f14a5-b6f8-4fee-a402-767ed01cf6c3"}
 {"ts":"2026-11-11T13:43:26.815Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-5a4f14a5-b6f8-4fee-a402-767ed01cf6c3"}
 {"ts":"2026-11-11T14:45:47.675Z","tool":"ost_ingest_inbox","ok":true,"ms":114,"surface":"mcp","argBytes":2,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:45:49.146Z","tool":"ost_next_work","ok":true,"ms":181,"surface":"mcp","argBytes":2,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:00.946Z","tool":"ost_next_work","ok":true,"ms":39,"surface":"mcp","argBytes":62,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:01.585Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:02.216Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":62,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:02.794Z","tool":"ost_next_work","ok":true,"ms":36,"surface":"mcp","argBytes":62,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:03.428Z","tool":"ost_next_work","ok":true,"ms":34,"surface":"mcp","argBytes":62,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:03.792Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":108,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:07.891Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":116,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:08.226Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":98,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:12.305Z","tool":"ost_next_work","ok":true,"ms":41,"surface":"mcp","argBytes":62,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:12.880Z","tool":"ost_read_tree","ok":true,"ms":83,"surface":"mcp","argBytes":113,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:13.225Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":103,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:46:27.060Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9"}
+{"ts":"2026-11-11T14:47:06.799Z","tool":"ost_append_to_node","ok":true,"ms":30,"surface":"mcp","argBytes":2073,"session":"mcp-1c403fc0-4384-463e-b539-fa577dbb7db9","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
