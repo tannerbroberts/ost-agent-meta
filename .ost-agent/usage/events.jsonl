@@ -27733,3 +27733,4 @@
 {"ts":"2026-11-12T19:06:07.371Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":27,"session":"mcp-02261779-8adb-4732-9452-1f374015c13a"}
 {"ts":"2026-11-12T19:06:14.501Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":1472,"session":"mcp-02261779-8adb-4732-9452-1f374015c13a","touched":["Ship a starter vault whose outcome is a placeholder the human must replace.md"]}
 {"ts":"2026-11-12T19:06:18.715Z","tool":"ost_append_to_node","ok":true,"ms":29,"surface":"mcp","argBytes":1470,"session":"mcp-02261779-8adb-4732-9452-1f374015c13a","touched":["Nested sub-outcomes between the distant goal and the opportunity space.md"]}
+{"ts":"2026-11-12T19:06:22.750Z","tool":"ost_append_to_node","ok":true,"ms":24,"surface":"mcp","argBytes":1335,"session":"mcp-02261779-8adb-4732-9452-1f374015c13a","touched":["A budget sweep that finds where shrinking the window flips the verdict.md"]}
