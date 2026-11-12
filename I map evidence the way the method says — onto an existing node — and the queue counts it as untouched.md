@@ -84,3 +84,17 @@ The same ids recur across rows, so these do not add up to a count of distinct re
 
 ## History
 - 2026-11-10 body edited, dropping `## 2026-10-13 — the count this node opens on is now 1017, nearly triple`, `## 2026-10-16 — the tail of the queue looks like its head`, `## 2026-10-17 — the middle of the queue looks like both ends`, `## 2026-10-18 — 12 of the 25 records at the head of the queue are already cited in node prose`, `## 2026-11-09 — 1600 now, and the queue grows faster than any firing reads it`, `## 2026-11-09 (later firing) — the queue by channel: every human-carried record is mapped, and the last one arrived on 2026-08-20`, `## 2026-11-10 — sampled by error signature across the whole folder, not by position: still nothing new` — Seven dated measurement sections (2026-10-13 to 2026-11-10) had grown this node to 20KB, each firing re-reading the same head-of-queue records and appending the same verdict. Folded them into one standing measurement that tells a firing what is already settled before it spends reads. The need statement and its five original sections are reproduced verbatim; every distinct count is kept; git holds the prior text.
+
+## 2026-11-11 — the growth rate changed, and one usage record says what a day of firings spends
+
+Added under this node's own rule (a line only when the growth rate changes or a record holds something new).
+
+**The count.** 1658 at this firing, up from 1625 on 2026-11-10. That is 33 in about a day against the roughly 21 a day recorded above.
+
+**Why, read from a record no firing had opened before.** `USAGE:2026-11-11` is the first `USAGE_*` record read in full from this surface (the Limits above say none had been). It is a machine rollup, no narrator: 23 sessions, 311 tool calls, 0 failed. By tool: `ost_next_work` 158, `ost_read_tree` 99, `ost_read_repo` 30, `ost_ingest_inbox` 23, `ost_append_to_node` 1. So 310 of 311 calls were reads, and 23 firings produced one write between them. Each of those sessions is also one new transcript record, which is the rate above.
+
+**What that adds.** The loop's stop condition said `go` for this firing on three counts: unmapped evidence, one under-served opportunity, and 70 solutions missing instruments. Each is recorded on its own node as not clearable from the unattended surface (this node; the standing hold on "The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it"; the standing finding on "Route the humans-required solution into the ask queue instead of dropping it from the instrument queue", whose cheap check read 23,611 bytes again today). So the loop is firing about 23 times a day on counters that no firing can move, and the firings' own reads are most of what the queue then grows by.
+
+**This firing.** Its ingest captured `TRANSCRIPT:8def40d1-1dc3-4d89-89d8-a919f0972cd7`: 12 events, all filed `retry`, all reads of node bodies and head-of-queue records. No need the tree lacks. No node was minted for it or for the usage record.
+
+**Limits.** One usage record, one day. 23 sessions is the trace's count of sessions that called this server, not a count of loop firings read from the scheduler. "Cannot move" rests on the three nodes' recorded findings, re-checked today only by the byte probe and by reading the hold. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` is withheld on this surface).
