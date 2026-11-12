@@ -75,3 +75,20 @@ Point 1 above leaves 7 of the 67 unlabelled, uninstrumented tests unexamined. Th
 So no unlabelled test is left that a pass has not looked at and that a title suggests the repository could answer. What clears this bucket is unchanged from point 6: the lane branch in `src/eval/buildable.ts` (probed today, still 23,611 bytes) or a human's `ost-agent lane --set` / `ost-agent result` per test.
 
 **Limits.** "Annotated" was measured as "has a `## ` heading", not by reading all 47; a section could be about something other than instrumentability. The 20 were judged by title only. The 45 solutions beyond the shown page of `solutionsMissingInstruments` are still unpaged from this surface. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
+
+## 2026-11-12 — the "45 beyond the shown page" limit is closed as to identity, and sampled as to content
+
+Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node is still listed, so points 1–7 stand.
+
+**The unpaged 45 can be named without paging.** The shown page is alphabetical and ends at "Run the same evidence through both and publish the diff as the pitch". One multiline Grep over the vault for Solution files whose body nowhere contains a vitest command (pattern: frontmatter opening `type: Solution`, then a body with no occurrence of the word, anchored start to end of file) returns 86 files. Restricted to titles sorting after the shown page (initial S–W, plus the one lowercase "npm setup wizard…") it returns 47. One of those is `status: shipped` ("The uncovered statement printed next to what the test asked for"), leaving 46 against a reported 45 hidden. So the hidden page is, to within one, the S–W Solutions with no command in their body. The other 14 of the 86 sort before the page boundary and are not in the shown 25; they were not examined.
+
+**Of the 46, nine already carry an examination note** (matched on "left without one", "it is not a command", "No command, on purpose"). **Five more were read in full this firing**, chosen because their titles sound mechanical:
+- "The run's report leads with what it was refused, so a denied night cannot read as a quiet one" — its Definition of done is a two-week operator count, stated as humans-required.
+- "The instrument-writing step declares repo sight required and skips itself rather than inventing paths" — a blind rating of ten instruments, bar 8 of 10, and its own body says not to build before that runs.
+- "Staleness decay that surfaces nodes for refresh" — its test needs a human's blind stale list first (noted on the test 2026-08-29).
+- "Supervisor heartbeat consumes run journals and alerts on error" — its test's rule shipped in v0.5.0, so a spec would be green on arrival (noted on the test 2026-08-05). What is owed is a recorded result.
+- "Tag every write a session makes with its session id, so the next pass can diff an unfinished session directly from git history" — one assumption has no test at all (noted 2026-08-17: no data source).
+
+None of the five can take a red instrument that is red about its own question. That is 14 of 46 with a verdict on record and 32 judged by nothing but their title.
+
+**Limits.** The 86 is "no vitest command in the body", which is a proxy for bucket membership; it over-counts by at least the one shipped node and the off-by-one is unexplained. The 32 were not read. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
