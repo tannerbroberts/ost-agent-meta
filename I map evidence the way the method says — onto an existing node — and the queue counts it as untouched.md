@@ -98,3 +98,15 @@ Added under this node's own rule (a line only when the growth rate changes or a 
 **This firing.** Its ingest captured `TRANSCRIPT:8def40d1-1dc3-4d89-89d8-a919f0972cd7`: 12 events, all filed `retry`, all reads of node bodies and head-of-queue records. No need the tree lacks. No node was minted for it or for the usage record.
 
 **Limits.** One usage record, one day. 23 sessions is the trace's count of sessions that called this server, not a count of loop firings read from the scheduler. "Cannot move" rests on the three nodes' recorded findings, re-checked today only by the byte probe and by reading the hold. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` is withheld on this surface).
+
+## 2026-11-12 — the growth rate fell back, and the standing "do not re-read the head" rule did not reach this firing in time
+
+Added under this node's own rule (a line only when the growth rate changes).
+
+**The count.** 1667 after this firing's ingest, against 1658 recorded on 2026-11-11. That is 9 in about a day, down from 33 the day before and below the roughly 21 a day of October. The cause was not read: no `USAGE_*` record was opened this firing, so whether the loop fired less often or sessions were simply not harvested is unknown.
+
+**This firing's captured record.** `TRANSCRIPT:d850eff5-2428-4355-a5e0-a17fde52d44f`: 35 events (33 `retry`, 2 `tool_error`), the largest single record noted on this node. Both errors are the brace-in-a-Grep-glob refusal (`'{A': unclosed alternate group`) already held by "A string I meant literally is read as syntax, so the command fails instead of searching". The retries are reads of head-of-queue records and of the same few node bodies. No need the tree lacks; no node minted.
+
+**One observation about this node's own instruction.** The standing measurement above says the head of the queue need not be read again. This firing read four head records (`00032886`, `004a28b8`, `0316ae5c`, `030e5db3`) in full before it opened this node, because nothing in the sweep response points here first. The instruction is correct and is stored one read too late to save the reads it is about. That is the same gap recorded on 2026-11-01 under "Maintain a running per-item task list the next pass reads before reconstructing state itself".
+
+**Limits.** One day's difference between two counts taken at unrecorded times of day. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` is withheld on this surface).

@@ -27557,3 +27557,15 @@
 {"ts":"2026-11-12T08:35:00.608Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":1892,"session":"mcp-5299f63d-c308-49b9-ae3a-bb04d1b1c84f","touched":["A string I meant literally is read as syntax, so the command fails instead of searching.md"]}
 {"ts":"2026-11-12T08:35:01.071Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-5299f63d-c308-49b9-ae3a-bb04d1b1c84f"}
 {"ts":"2026-11-12T09:37:07.927Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:09.561Z","tool":"ost_next_work","ok":true,"ms":174,"surface":"mcp","argBytes":2,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:21.142Z","tool":"ost_read_tree","ok":true,"ms":77,"surface":"mcp","argBytes":108,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:21.772Z","tool":"ost_next_work","ok":true,"ms":42,"surface":"mcp","argBytes":62,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:22.408Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:23.030Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":62,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:23.672Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":62,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:24.073Z","tool":"ost_next_work","ok":true,"ms":34,"surface":"mcp","argBytes":62,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:31.522Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":116,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:32.065Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":113,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:32.641Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":103,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:40.254Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
+{"ts":"2026-11-12T09:37:49.219Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":1945,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
