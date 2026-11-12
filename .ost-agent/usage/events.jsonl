@@ -27771,3 +27771,4 @@
 {"ts":"2026-11-12T21:12:50.755Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":70,"session":"mcp-7b5fa76d-400f-43e1-b85a-6f8c232c3f9b"}
 {"ts":"2026-11-12T21:12:51.086Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":94,"session":"mcp-7b5fa76d-400f-43e1-b85a-6f8c232c3f9b"}
 {"ts":"2026-11-12T21:13:01.724Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":2487,"session":"mcp-7b5fa76d-400f-43e1-b85a-6f8c232c3f9b","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
+{"ts":"2026-11-12T21:13:02.106Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-7b5fa76d-400f-43e1-b85a-6f8c232c3f9b"}
