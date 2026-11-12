@@ -4,6 +4,7 @@ status: unvalidated
 source: 'agent-run:autonomous-loop-2026-07-25-pass6'
 created: '2026-07-25'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[A loudly-marked placeholder outcome gets replaced rather than becoming the tree's real root]]
@@ -45,3 +46,17 @@ because a consideration set of one is not a consideration set.
 
 ## History
 - 2026-08-05 unlinked "Does a placeholder outcome get replaced, or does it become the tree's real root" — moved under "A loudly-marked placeholder outcome gets replaced rather than becoming the tree's real root" — the belief this test measures now has a node of its own
+
+## Definition of done
+
+"Every node written under a placeholder root is identified after the outcome is replaced"
+
+`npx vitest run test/ost/placeholder-provenance.test.ts`
+
+**What the spec has to assert (from the test's own threshold).** In one constructed vault, on one calendar day: 5 nodes written under a placeholder root, `set-outcome`, 5 more written afterwards. At least 5 of 5 placeholder-era nodes identified, 0 of 5 later nodes misidentified.
+
+**State of the command on 2026-11-12.** The spec file does not exist in the product repository (probed this firing; `test/ost/` holds no file of that name). So a run today files as `no-spec`, which is not a red about this question. The builder's first deliverable is the spec failing on the two-sided count, not the file.
+
+**What a green does not settle, and it is most of this candidate.** It covers one of two assumptions. The other, "A loudly-marked placeholder outcome gets replaced rather than becoming the tree's real root", is a person's question about behaviour, and this node's own sequencing note says not to build before that test runs. A green here makes a placeholder's damage auditable. It does not say a placeholder root is acceptable.
+
+The test title is quoted, not linked: its one backlink belongs to its parent assumption. Added by the 2026-11-12 unattended sweep; nothing was executed.
