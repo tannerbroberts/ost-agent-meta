@@ -109,3 +109,22 @@ The S–W Grep from the section above was re-run with the frontmatter anchored (
 None can take an instrument that is red about its own question. No instrument was set.
 
 **Limits.** The 26 remaining were not read. "Green on arrival" for the validated guard is from the tool's own schema on this surface, not from a spec read in the repository. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
+
+## 2026-11-12 (third firing) — six more of the hidden page read: 26 of 46 now carry a verdict, 20 are judged by title only
+
+Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node is still listed, so points 1–7 stand.
+
+Six S–W solutions with no command and no examination note were read in full, with the one assumption beneath whichever sounded most mechanical:
+
+- "Ship the helper with its own runtime rather than borrowing the machine's" — already examined on 2026-08-23 in its own Issues note (the phrase-match Grep missed it). Its remaining belief is whether the operator would still edit a rewritten helper.
+- "The vault carries the agent it runs, upgraded by an ordinary git pull" — rests on whether an operator accepts the agent living inside the vault. A person's acceptance.
+- "The vault lives inside the repository it maps, so there is nothing to point at" — rests on a redaction judgement about what could sit in a shared repository.
+- "Split the cartographer loop from the builder loop" — rests on whether a builder can work from the map without ideating, observed over real builds.
+- "Versioned reclassification that moves a node while keeping every prior self readable" — the only one whose title suggested a spec. Its assumption, "A reader can find a node's prior classification from the node itself, without opening git", is stated as usability and its test is a timed cold reader. A spec could show the History line is written; it could not show a reader finds it.
+- "The source pushes to a receiving endpoint that writes straight into the inbox" — rests on a count of the operator's own experiment sources, which are not on disk.
+
+None can take an instrument that is red about its own question. No instrument was set.
+
+**The 20 still judged by title only**, so the next firing does not re-derive the list: "Ship a starter vault whose outcome is a placeholder the human must replace", "The ship step merges its own green, mergeable PR instead of leaving it for a human", "Warn before the write attempt on an unread file, rather than reject after it", "Skip the read-before-write guard for files the session itself just created", "Weave corrected misconceptions into the map as legibly closed roads", "Unattended feasibility tests the agent runs against its own environment", "npm setup wizard that scaffolds the vault first and asks for a key last", "Weekly what-changed-and-why digest", "Weekly ten-minute docket - every pending decision arrives prepared as one yes or no", the three "The buyer is …" candidates, "The agent proposes and never files, so every node enters the tree through the operator's hand", "The agent asks the operator to make the calls it could have made itself", "Take the fork, state the assumption, and price the reversal", "Subscribe to a short list of sources and let arrivals wake the tree", "State the decision the run is about to take and invite correction, instead of enumerating choices". That is 17 named; the other 3 of the 20 were not re-identified this firing. Two of the 17 name a harness guard that is not in this repository (the unread-file pair).
+
+**Limits.** Verdicts rest on the solution body and, for one, its assumption; the tests beneath were not opened. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
