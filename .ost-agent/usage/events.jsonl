@@ -27674,3 +27674,5 @@
 {"ts":"2026-11-12T16:58:48.825Z","tool":"ost_annotate","ok":true,"ms":27,"surface":"mcp","argBytes":931,"session":"mcp-056e46bd-eb8d-406a-b8eb-13be620e0d25","touched":["Take up independent work while a check is outstanding.md"]}
 {"ts":"2026-11-12T16:58:51.193Z","tool":"ost_annotate","ok":true,"ms":22,"surface":"mcp","argBytes":847,"session":"mcp-056e46bd-eb8d-406a-b8eb-13be620e0d25","touched":["Short-lived scoped tokens minted at run start, expiring with the run.md"]}
 {"ts":"2026-11-12T16:58:53.706Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-056e46bd-eb8d-406a-b8eb-13be620e0d25"}
+{"ts":"2026-11-12T16:58:54.060Z","tool":"ost_next_work","ok":true,"ms":147,"surface":"mcp","argBytes":2,"session":"mcp-056e46bd-eb8d-406a-b8eb-13be620e0d25"}
+{"ts":"2026-11-12T18:01:03.884Z","tool":"ost_ingest_inbox","ok":true,"ms":106,"surface":"mcp","argBytes":2,"session":"mcp-8f407872-776d-4e82-9ce7-8a6cef69dfec"}
