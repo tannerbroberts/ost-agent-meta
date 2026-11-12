@@ -27450,3 +27450,14 @@
 {"ts":"2026-11-12T00:10:53.520Z","tool":"ost_next_work","ok":true,"ms":40,"surface":"mcp","argBytes":31,"session":"mcp-915bd776-06cc-45df-a34d-5a2c57fcf4b2"}
 {"ts":"2026-11-12T00:11:11.571Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":2409,"session":"mcp-915bd776-06cc-45df-a34d-5a2c57fcf4b2","touched":["I map evidence the way the method says — onto an existing node — and the queue counts it as untouched.md"]}
 {"ts":"2026-11-12T01:13:19.666Z","tool":"ost_ingest_inbox","ok":true,"ms":105,"surface":"mcp","argBytes":2,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:20.987Z","tool":"ost_next_work","ok":true,"ms":175,"surface":"mcp","argBytes":2,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:33.230Z","tool":"ost_next_work","ok":true,"ms":34,"surface":"mcp","argBytes":62,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:33.866Z","tool":"ost_next_work","ok":true,"ms":34,"surface":"mcp","argBytes":62,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:34.629Z","tool":"ost_next_work","ok":true,"ms":34,"surface":"mcp","argBytes":62,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:35.141Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:35.860Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":108,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:36.144Z","tool":"ost_read_tree","ok":true,"ms":72,"surface":"mcp","argBytes":116,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:39.817Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:40.232Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":113,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T01:13:43.275Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-a2bb2418-137a-4193-94eb-0cdb8277a80c"}
+{"ts":"2026-11-12T02:15:51.065Z","tool":"ost_ingest_inbox","ok":true,"ms":102,"surface":"mcp","argBytes":2,"session":"mcp-d8773871-e0df-4bb5-b403-1ca06c3de1b5"}
