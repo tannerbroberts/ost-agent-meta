@@ -27754,3 +27754,4 @@
 {"ts":"2026-11-12T20:09:40.446Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":94,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
 {"ts":"2026-11-12T20:09:40.582Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":115,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
 {"ts":"2026-11-12T20:09:45.815Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":958,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8","touched":["A proof lane where derivations from declared axioms count as evidence.md"]}
+{"ts":"2026-11-12T20:09:48.207Z","tool":"ost_append_to_node","ok":true,"ms":20,"surface":"mcp","argBytes":1008,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8","touched":["A standing axiom register the human curates, which every derivation must cite.md"]}
