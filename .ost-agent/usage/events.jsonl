@@ -27738,3 +27738,19 @@
 {"ts":"2026-11-12T19:06:41.112Z","tool":"ost_append_to_node","ok":true,"ms":28,"surface":"mcp","argBytes":2729,"session":"mcp-02261779-8adb-4732-9452-1f374015c13a","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
 {"ts":"2026-11-12T19:06:44.138Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-02261779-8adb-4732-9452-1f374015c13a"}
 {"ts":"2026-11-12T20:08:54.307Z","tool":"ost_ingest_inbox","ok":true,"ms":96,"surface":"mcp","argBytes":2,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:08:54.871Z","tool":"ost_next_work","ok":true,"ms":169,"surface":"mcp","argBytes":2,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:07.093Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":108,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:08.046Z","tool":"ost_next_work","ok":true,"ms":32,"surface":"mcp","argBytes":62,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:08.150Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:08.628Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:11.126Z","tool":"ost_next_work","ok":true,"ms":30,"surface":"mcp","argBytes":62,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:11.237Z","tool":"ost_next_work","ok":true,"ms":30,"surface":"mcp","argBytes":62,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:17.487Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":116,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:32.637Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:35.232Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":80,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:35.516Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":88,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:38.075Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":110,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:38.412Z","tool":"ost_read_tree","ok":true,"ms":67,"surface":"mcp","argBytes":140,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:40.446Z","tool":"ost_read_tree","ok":true,"ms":65,"surface":"mcp","argBytes":94,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:40.582Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":115,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
+{"ts":"2026-11-12T20:09:45.815Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":958,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8","touched":["A proof lane where derivations from declared axioms count as evidence.md"]}
