@@ -27556,3 +27556,4 @@
 {"ts":"2026-11-12T08:34:28.098Z","tool":"ost_next_work","ok":true,"ms":32,"surface":"mcp","argBytes":62,"session":"mcp-5299f63d-c308-49b9-ae3a-bb04d1b1c84f"}
 {"ts":"2026-11-12T08:35:00.608Z","tool":"ost_append_to_node","ok":true,"ms":26,"surface":"mcp","argBytes":1892,"session":"mcp-5299f63d-c308-49b9-ae3a-bb04d1b1c84f","touched":["A string I meant literally is read as syntax, so the command fails instead of searching.md"]}
 {"ts":"2026-11-12T08:35:01.071Z","tool":"ost_ingest_inbox","ok":true,"ms":15,"surface":"mcp","argBytes":2,"session":"mcp-5299f63d-c308-49b9-ae3a-bb04d1b1c84f"}
+{"ts":"2026-11-12T09:37:07.927Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-148c1cf7-3aba-4f76-b32b-e8aae15a4e8c"}
