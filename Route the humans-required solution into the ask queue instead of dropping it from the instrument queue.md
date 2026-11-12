@@ -92,3 +92,20 @@ Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node 
 None of the five can take a red instrument that is red about its own question. That is 14 of 46 with a verdict on record and 32 judged by nothing but their title.
 
 **Limits.** The 86 is "no vitest command in the body", which is a proxy for bucket membership; it over-counts by at least the one shipped node and the off-by-one is unexplained. The 32 were not read. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
+
+## 2026-11-12 (later firing) — six more of the hidden page read: 20 of 46 now carry a verdict, 26 are judged by title only
+
+Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node is still listed, so points 1–7 stand.
+
+The S–W Grep from the section above was re-run with the frontmatter anchored (`type: Solution` on line 2, no vitest command anywhere in the file) and returns the same 46 files. Six that no pass had examined were read in full, chosen because their titles sound mechanical:
+
+- "Surface a rolling friction trend across the last N firings, not per-run" — its one belief is whether operators would go and look at a trend unprompted. A person's habit.
+- "The solution names its own riskiest assumption, and the gate checks that one was tested" — its belief is whether authors nominate honestly, and its own body says to test that before building the gate.
+- "Trace-vs-narrative reconciler that files disagreements as friction" — its belief is how often narrative and trace disagree materially, measured by a hand diff of three past sessions.
+- "Tool layer forbids the agent from setting validated" — already the product's behaviour (`validated` is not a value `ost_set_status` accepts), so a spec would be green on arrival. What is owed is a recorded result.
+- "The builder files a structured disconfirmation that the loop carries into the tree beside the red" — its Definition of done already says no command: an operator judges the first five.
+- "Up-rank or down-rank whole classes of opportunities in one recorded act" — its belief is whether class ranking matches how the founder triages.
+
+None can take an instrument that is red about its own question. No instrument was set.
+
+**Limits.** The 26 remaining were not read. "Green on arrival" for the validated guard is from the tool's own schema on this surface, not from a spec read in the repository. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
