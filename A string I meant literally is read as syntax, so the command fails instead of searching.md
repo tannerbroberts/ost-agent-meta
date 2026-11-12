@@ -94,3 +94,15 @@ That fits every fragment recorded on this node. `{Charge`, `*{threshold`, `{Impo
 **Why it matters to the three solutions here.** A quoter that escapes braces would turn the alternation into a literal, which is not what the caller wanted, and it might still be split on the spaces. A literal-only search interface sidesteps the problem, but only by taking away the batching the caller was attempting. Neither one reaches the actual cause, a whitespace split in one argument of a tool the harness owns. For this half of the evidence, the need is closer to "the tool's own argument handling contradicts the syntax it advertises" than to "my literal was read as syntax". A human should decide whether to re-cut the node or keep both halves under one need.
 
 _Source: `TRANSCRIPT:8c1a0c35-bcc5-42e7-9928-63467db91a9b`, plus the first-party probes recorded on the sibling solution named above. Observed behaviour of this agent's own surface. It grounds usability, not desirability. Nothing was executed this firing and no rung moved. Unverified by design (`ost_check` withheld)._
+
+## 2026-11-12 — a whole-store count, replacing the one-at-a-time tally above
+
+The sections above count brace-in-glob refusals as each firing happens to meet one ("a ninth", "a tenth", "an eleventh"). This firing counted the evidence store instead.
+
+**The count.** A literal search for the refusal text `unclosed alternate group` across `.ost-agent/evidence/` matches 74 events in 68 distinct session records. The earlier tally of eleven was a count of the times a pass noticed, not of the times it happened.
+
+**It happened again while counting.** This firing's first Grep passed a brace list of node-title prefixes as `glob` and was refused with the same message (`error parsing glob '{A'`). The same brace list passed to Glob in the same turn worked. So the two tools on one surface disagree about the same string — consistent with the 2026-10-18 correction above that the wrapper, not the caller, cuts the glob.
+
+**The correction never reached this firing.** The loop pasted a "corrections already issued in this workspace" block above this firing's prompt. It held two entries, both about Bash. This refusal, present in 68 session records, was not among them. That is a reading of one prompt, not of the mechanism that builds the block; why it was absent is not something this surface can see.
+
+**Limits.** Counted by text match, not by reading each record, so a record that quotes the message rather than reporting it would be over-counted (records are capped at 25 events, so some may be under-counted too). Sessions are this vault's own unattended firings — usability evidence about the agent's tool loop, not outside demand. No rung, status, lane or instrument changed; `ost_check` is withheld on this surface, so this write is unverified by design.
