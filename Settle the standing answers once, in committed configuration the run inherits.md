@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[The prompts a run meets are a stable set, so settling them once mostly ends them]]
@@ -18,3 +19,17 @@ The evidence supports this strongly: a divergent-branch reconcile policy and a f
 
 ## History
 - 2026-08-05 unlinked "Settle the known prompts as config and count how many new ones appear in a month" — moved under "The prompts a run meets are a stable set, so settling them once mostly ends them" — the belief this test measures now has a node of its own
+
+## Definition of done
+
+"Three committed standing answers survive config load and are readable by the run"
+
+`npx vitest run test/config/standing-answers.test.ts`
+
+The spec asserts that three standing answers (divergent-branch reconcile, file overwrite, editor) written into `ost.config.yaml` are present on the object `loadConfig` returns. Today 0 of 3 are, because `ConfigSchema` declares no key for them and undeclared keys are stripped.
+
+**The spec file is not written yet** (probed 2026-11-12: `test/config/` holds nine specs, none of this name), so a run today is `no-spec`, not a red about this question. The first job for a builder is the failing spec with the read-back assertion; the schema key comes second.
+
+**What green would not settle.** Only that the answers reach the run. Whether the run honours them when a tool prompts, and whether pre-answering is the right trade, are untouched. The second belief beneath this solution, "The prompts a run meets are a stable set, so settling them once mostly ends them", has a month-long count as its test and is a person's to run.
+
+The test title is quoted, not linked: its one backlink belongs to its parent assumption. Appended by an unattended sweep; unverified by design (`ost_check` is withheld on that surface).
