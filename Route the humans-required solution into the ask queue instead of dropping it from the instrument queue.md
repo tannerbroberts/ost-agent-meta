@@ -141,3 +141,13 @@ Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node 
 **Six of the title-only list now have a verdict.** "npm setup wizard that scaffolds the vault first and asks for a key last" (ten stock installs, a person's), "The ship step merges its own green, mergeable PR instead of leaving it for a human" (already states humans-required), "Weekly what-changed-and-why digest" (willingness to walk away), "Unattended feasibility tests the agent runs against its own environment" (the operator's pre-authorization), "Subscribe to a short list of sources and let arrivals wake the tree" (a month of following sources), and the starter vault above (not in the bucket). None can take an instrument that is red about its own question. That is 32 of 46 with a verdict and 14 judged by title only.
 
 **Limits.** The A–R half of the proxy returned 38 files; only the 7 outside the shown page and outside `solutionsAwaitingObservation` were followed, and 2 of those ("A standing axiom register the human curates, which every derivation must cite", "A proof lane where derivations from declared axioms count as evidence") were not opened. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
+
+## 2026-11-12 (fifth firing) — the two unopened A–R solutions from the fourth firing's Limits are closed
+
+Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node is still listed, so points 1–7 stand. `solutionsMissingInstruments` is still 70.
+
+"A proof lane where derivations from declared axioms count as evidence" and "A standing axiom register the human curates, which every derivation must cite" were opened, each followed solution, assumption, test. Neither is in the bucket. Each has one mechanical assumption whose test already carries a command (`test/evidence/proof-lane-rung.test.ts`, `test/evidence/axiom-citation-index.test.ts`) and one desirability assumption that is a person's. Both were owed the definition of done and each got a `## Definition of done` this firing, quoting its test and command. Both tests say in their own prose that the spec file is absent, so both are `no-spec` today; that was not re-probed.
+
+That makes six solutions paid this way. Still open from earlier sections: 14 S–W solutions judged by title only.
+
+**Limits.** No instrument was set this firing, so none can be weak or strong. Nothing was executed, and no lane, rung or status changed. Unverified by design (`ost_check` withheld).

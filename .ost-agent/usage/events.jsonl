@@ -27755,3 +27755,4 @@
 {"ts":"2026-11-12T20:09:40.582Z","tool":"ost_read_tree","ok":true,"ms":68,"surface":"mcp","argBytes":115,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8"}
 {"ts":"2026-11-12T20:09:45.815Z","tool":"ost_append_to_node","ok":true,"ms":23,"surface":"mcp","argBytes":958,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8","touched":["A proof lane where derivations from declared axioms count as evidence.md"]}
 {"ts":"2026-11-12T20:09:48.207Z","tool":"ost_append_to_node","ok":true,"ms":20,"surface":"mcp","argBytes":1008,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8","touched":["A standing axiom register the human curates, which every derivation must cite.md"]}
+{"ts":"2026-11-12T20:09:56.380Z","tool":"ost_append_to_node","ok":true,"ms":21,"surface":"mcp","argBytes":1397,"session":"mcp-0ba03baa-9eea-413b-ba50-a9e3cf31b7f8","touched":["Route the humans-required solution into the ask queue instead of dropping it from the instrument queue.md"]}
