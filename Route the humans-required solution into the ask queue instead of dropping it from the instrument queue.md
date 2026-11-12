@@ -167,3 +167,21 @@ None can take an instrument that is red about its own question. No instrument wa
 **The 11 still judged by title only**, so the next firing does not re-derive the list: "Warn before the write attempt on an unread file, rather than reject after it" and "Skip the read-before-write guard for files the session itself just created" (both name a harness guard that is not in this repository), the three "The buyer is …" candidates, "The agent proposes and never files, so every node enters the tree through the operator's hand", "The agent asks the operator to make the calls it could have made itself", "State the decision the run is about to take and invite correction, instead of enumerating choices", and the 3 the third firing did not re-identify. By title, every named one is a person's call or outside `product.repos`.
 
 **Limits.** Verdicts rest on each solution's body and its assumption's title; the assumptions and the tests beneath them were not opened. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
+
+## 2026-11-12 (seventh firing) — three more title-only solutions read: 38 of 46 carry a verdict, 8 are judged by title only
+
+Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node is still listed, so points 1–7 stand. `solutionsMissingInstruments` is still 70.
+
+Read in full, each with the title of its one assumption:
+
+- "The agent proposes and never files, so every node enters the tree through the operator's hand" — rests on "An operator facing a queue of drafts keeps reading them rather than approving in bulk". A person's reading behaviour, timed over forty drafts.
+- "The agent asks the operator to make the calls it could have made itself" — rests on "An operator consents to being asked, and finds the questions worth their time". Consent and frequency are the human's by the node's own words.
+- "State the decision the run is about to take and invite correction, instead of enumerating choices" — rests on "Operators will let a stated default stand while they are away, for a class of decision they can name". Five operators asked.
+
+None can take an instrument that is red about its own question. No instrument was set.
+
+**The 8 still judged by title only:** the two unread-file guard candidates (a harness guard outside `product.repos`), the three "The buyer is …" candidates, and the 3 the third firing did not re-identify.
+
+**A suggestion for the next firing, not a finding.** Seven firings today have each appended a section here and each re-read this 27KB body to do it. The five named remainders are settled by their titles as far as this surface can settle them. Unless the probe changes or the bucket count moves, a firing that reads the opening "cheap check" and stops, writing nothing, loses nothing.
+
+**Limits.** Verdicts rest on each solution's body and its assumption's title; the tests beneath were not opened. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
