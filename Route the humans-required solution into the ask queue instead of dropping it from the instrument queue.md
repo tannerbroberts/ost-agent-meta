@@ -151,3 +151,19 @@ Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node 
 That makes six solutions paid this way. Still open from earlier sections: 14 S–W solutions judged by title only.
 
 **Limits.** No instrument was set this firing, so none can be weak or strong. Nothing was executed, and no lane, rung or status changed. Unverified by design (`ost_check` withheld).
+
+## 2026-11-12 (sixth firing) — three more of the title-only S–W solutions read: 35 of 46 now carry a verdict, 11 are judged by title only
+
+Cheap check first: `src/eval/buildable.ts` probes at 23,611 bytes and this node is still listed, so points 1–7 stand. `solutionsMissingInstruments` is still 70.
+
+Three solutions from the third firing's title-only list were read in full, each with the title of the one assumption beneath it:
+
+- "Weave corrected misconceptions into the map as legibly closed roads" — the only one whose title suggested a spec. Its one belief, "A visibly closed road stops the next pass from re-proposing the misconception", is about what later passes do when they meet the marking. A spec could show the marking is written; it could not show a pass heeds it. That is observed over real passes.
+- "Take the fork, state the assumption, and price the reversal" — its one belief, "Decisions taken on a stated assumption are mostly accepted, and the review is short enough to happen", is the operator's acceptance and the operator's minutes.
+- "Weekly ten-minute docket - every pending decision arrives prepared as one yes or no" — its one belief is a timed week of the operator's real decisions, from a phone.
+
+None can take an instrument that is red about its own question. No instrument was set.
+
+**The 11 still judged by title only**, so the next firing does not re-derive the list: "Warn before the write attempt on an unread file, rather than reject after it" and "Skip the read-before-write guard for files the session itself just created" (both name a harness guard that is not in this repository), the three "The buyer is …" candidates, "The agent proposes and never files, so every node enters the tree through the operator's hand", "The agent asks the operator to make the calls it could have made itself", "State the decision the run is about to take and invite correction, instead of enumerating choices", and the 3 the third firing did not re-identify. By title, every named one is a person's call or outside `product.repos`.
+
+**Limits.** Verdicts rest on each solution's body and its assumption's title; the assumptions and the tests beneath them were not opened. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` withheld).
