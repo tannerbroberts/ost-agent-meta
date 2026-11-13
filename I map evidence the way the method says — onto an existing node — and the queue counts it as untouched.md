@@ -110,3 +110,15 @@ Added under this node's own rule (a line only when the growth rate changes).
 **One observation about this node's own instruction.** The standing measurement above says the head of the queue need not be read again. This firing read four head records (`00032886`, `004a28b8`, `0316ae5c`, `030e5db3`) in full before it opened this node, because nothing in the sweep response points here first. The instruction is correct and is stored one read too late to save the reads it is about. That is the same gap recorded on 2026-11-01 under "Maintain a running per-item task list the next pass reads before reconstructing state itself".
 
 **Limits.** One day's difference between two counts taken at unrecorded times of day. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` is withheld on this surface).
+
+## 2026-11-13 — the rate is back near 29 a day, so the 9 on 2026-11-12 was the odd day
+
+Added under this node's own rule (a line only when the growth rate changes).
+
+**The count.** 1696 after this firing's ingest, against 1667 on 2026-11-12. That is 29 in about a day. The series now reads 33, 9, 29 a day, so the dip was one day and the queue is growing at roughly the 2026-11-11 rate again. The cause was not read; no `USAGE_*` record was opened.
+
+**This firing's captured record.** `TRANSCRIPT:292db0a5-177c-47bb-95c8-93363bafd61e`: 12 events, all `retry`, all reads of head-of-queue records and of this node, the standing hold, and the instrument-bucket finding. No need the tree lacks; no node minted.
+
+**The "one read too late" gap from 2026-11-12 repeated.** This firing read four head records (`02326b78`, `00032886`, `030e5db3`, `004a28b8`) before it opened this node. All four repeat needs already held.
+
+**Limits.** Two counts taken at unrecorded times of day. Nothing was executed, and no instrument, lane, rung or status changed. Unverified by design (`ost_check` is withheld on this surface).
