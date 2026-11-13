@@ -27967,3 +27967,13 @@
 {"ts":"2026-11-13T12:54:36.826Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-24a929b0-5bc2-41a5-99ea-0bf34141f19a"}
 {"ts":"2026-11-13T12:54:37.408Z","tool":"ost_next_work","ok":true,"ms":35,"surface":"mcp","argBytes":62,"session":"mcp-24a929b0-5bc2-41a5-99ea-0bf34141f19a"}
 {"ts":"2026-11-13T13:56:44.697Z","tool":"ost_ingest_inbox","ok":true,"ms":104,"surface":"mcp","argBytes":2,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:56:45.932Z","tool":"ost_next_work","ok":true,"ms":175,"surface":"mcp","argBytes":2,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:56:58.214Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":108,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:56:58.884Z","tool":"ost_next_work","ok":true,"ms":41,"surface":"mcp","argBytes":62,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:56:59.364Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:57:00.006Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":62,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:57:00.633Z","tool":"ost_next_work","ok":true,"ms":31,"surface":"mcp","argBytes":62,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:57:00.739Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":2,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:57:14.032Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T13:57:14.601Z","tool":"ost_next_work","ok":true,"ms":33,"surface":"mcp","argBytes":62,"session":"mcp-7639e2e1-aefc-4438-ab4d-dfa64c6805c3"}
+{"ts":"2026-11-13T14:59:21.717Z","tool":"ost_ingest_inbox","ok":true,"ms":103,"surface":"mcp","argBytes":2,"session":"mcp-4d0db5c1-78c3-4996-9abc-b6b77e4b6776"}
