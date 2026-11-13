@@ -3,6 +3,7 @@ type: Solution
 source: 'TRANSCRIPT:0459d729-8ee3-43fc-ae1f-f05928ad84e2'
 created: '2026-08-18'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[Auto-reading a file before write doesn't mask the exact race condition the guard exists to catch]]
@@ -14,6 +15,7 @@ When Write or Edit targets a file the session has not read yet this run, have th
 
 ## Issues
 - 2026-08-17 Assumption surfaced ("Auto-reading a file before write doesn't mask the exact race condition the guard exists to catch") but its test is not created: this is a feasibility question the repository can answer (how the current guard is implemented and where the race window actually is), and this unattended sweep holds no `ost_read_repo` grant. Needs an attended pass with repo sight to write the spec-file instrument.
+- 2026-11-13 2026-11-12 unattended sweep, repo sight held: instrument verdict stated in one line, because the 2026-08-22 section answers the feasibility question but never says whether an instrument follows. It does not: no honest instrument exists in this repository, since the guard that would change is the harness's Write/Edit precondition and no spec under `test/` can go red against code that lives elsewhere; a spec against `src/git/read-write-hash-guard.ts` would already pass, which measures nothing. The remaining questions are a harness-owner ask and an operator-preference ask, both a person's. What a human should do: set the lane with `ost-agent lane --set` (`ost_flag_humans_required` is withheld here). No instrument set.
 
 ## Blocker discharged, and partly misrouted — repo sight held (2026-08-22 unattended sweep)
 

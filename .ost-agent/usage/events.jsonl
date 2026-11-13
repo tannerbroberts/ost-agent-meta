@@ -27859,3 +27859,4 @@
 {"ts":"2026-11-13T04:31:59.170Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":98,"session":"mcp-5a01a2f1-e0cc-4fa7-96bf-4fb5db508f7b"}
 {"ts":"2026-11-13T04:31:59.393Z","tool":"ost_read_tree","ok":true,"ms":69,"surface":"mcp","argBytes":79,"session":"mcp-5a01a2f1-e0cc-4fa7-96bf-4fb5db508f7b"}
 {"ts":"2026-11-13T04:32:12.315Z","tool":"ost_annotate","ok":true,"ms":27,"surface":"mcp","argBytes":861,"session":"mcp-5a01a2f1-e0cc-4fa7-96bf-4fb5db508f7b","touched":["Run the same evidence through both and publish the diff as the pitch.md"]}
+{"ts":"2026-11-13T04:32:15.370Z","tool":"ost_annotate","ok":true,"ms":23,"surface":"mcp","argBytes":834,"session":"mcp-5a01a2f1-e0cc-4fa7-96bf-4fb5db508f7b","touched":["Auto-read a file before the first write or edit to it in a session, instead of erroring.md"]}
