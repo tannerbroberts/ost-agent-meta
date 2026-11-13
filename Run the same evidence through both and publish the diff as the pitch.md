@@ -3,6 +3,7 @@ type: Solution
 status: unvalidated
 created: '2026-08-03'
 evidence: assertion
+authorship: machine
 ---
 #Solution #unvalidated #evidence/assertion
 [[A blind reader given both trees picks this one to act on]]
@@ -19,3 +20,6 @@ This describes a comparison a human would run and publish. No pass may run it or
 
 ## History
 - 2026-08-05 unlinked "Run one small corpus through both and have a blind reader say which tree they would act on" — moved under "A blind reader given both trees picks this one to act on" — the belief this test measures now has a node of its own
+
+## Issues
+- 2026-11-13 2026-11-12 unattended sweep, repo sight held: examined for a missing instrument and deliberately left without one. The only belief beneath it, "A blind reader given both trees picks this one to act on", is desirability, and its test — "Run one small corpus through both and have a blind reader say which tree they would act on" — has a blind human reader's choice as its measurement, plus competitor tools no spec in this repository can invoke. No exit code encodes which tree a stranger would act on. What a human should do: set the lane with `ost-agent lane --set`, since `ost_flag_humans_required` is withheld on the unattended surface. Recorded once so later firings meeting this node in `solutionsMissingInstruments` need not re-read it; not a skipped step.
