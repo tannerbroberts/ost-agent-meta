@@ -28250,3 +28250,4 @@
 {"ts":"2026-11-14T15:00:25.067Z","tool":"ost_read_tree","ok":true,"ms":75,"surface":"mcp","argBytes":113,"session":"mcp-2cb7ef9a-b860-46f6-b19a-0b46e0384baf"}
 {"ts":"2026-11-14T15:00:28.234Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-2cb7ef9a-b860-46f6-b19a-0b46e0384baf"}
 {"ts":"2026-11-14T15:00:28.315Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-2cb7ef9a-b860-46f6-b19a-0b46e0384baf"}
+{"ts":"2026-11-14T16:02:41.057Z","tool":"ost_ingest_inbox","ok":true,"ms":104,"surface":"mcp","argBytes":2,"session":"mcp-eddd6d98-f7d1-4d39-8653-646da6dff52f"}
