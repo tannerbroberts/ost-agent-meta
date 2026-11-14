@@ -28290,3 +28290,4 @@
 {"ts":"2026-11-14T18:08:31.827Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":113,"session":"mcp-bfd39e04-12ef-47a1-b8ec-7a717e41e6cc"}
 {"ts":"2026-11-14T18:08:33.492Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-bfd39e04-12ef-47a1-b8ec-7a717e41e6cc"}
 {"ts":"2026-11-14T18:08:33.577Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-bfd39e04-12ef-47a1-b8ec-7a717e41e6cc"}
+{"ts":"2026-11-14T19:10:46.446Z","tool":"ost_ingest_inbox","ok":true,"ms":115,"surface":"mcp","argBytes":2,"session":"mcp-f006ae0b-b21e-49ae-818e-bf26a8d73676"}
