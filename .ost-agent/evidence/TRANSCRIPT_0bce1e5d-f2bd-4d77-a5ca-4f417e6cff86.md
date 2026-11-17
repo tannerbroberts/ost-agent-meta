@@ -1,0 +1,27 @@
+---
+id: 'TRANSCRIPT:0bce1e5d-f2bd-4d77-a5ca-4f417e6cff86'
+source: 'TRANSCRIPT:0bce1e5d-f2bd-4d77-a5ca-4f417e6cff86'
+title: Session friction 0bce1e5d-f2bd-4d77-a5ca-4f417e6cff86
+timestamp: '2026-11-17T19:18:40.507Z'
+actor: transcript
+fetchedAt: '2026-11-17T20:20:41.557Z'
+---
+Session `0bce1e5d-f2bd-4d77-a5ca-4f417e6cff86` (this vault's own unattended firings — nobody was watching) produced 13 friction events (retry ×13).
+
+Evidence class: **observed behavior** — the agent's own usage of this product, captured mechanically from its session transcript. It is not outside-user demand data: it grounds usability, not desirability, and must not be counted as external evidence of want.
+
+All events shown.
+
+- **retry** (mcp__ost-agent__ost_read_tree): {"node":"The agent can decompose my goal but cannot acquire and test its own guesses about how to reach it"}
+- **retry** (mcp__ost-agent__ost_next_work): {"evidence":"TRANSCRIPT:00032886-ef7e-40c2-bdd9-cea9a257b46f"}
+- **retry** (mcp__ost-agent__ost_next_work): {"evidence":"TRANSCRIPT:0018a4eb-130a-471b-a2f7-dfbe98378fbd"}
+- **retry** (mcp__ost-agent__ost_next_work): {"evidence":"TRANSCRIPT:004a28b8-1cfe-4c31-9b90-8d942b6880d5"}
+- **retry** (mcp__ost-agent__ost_next_work): {"evidence":"TRANSCRIPT:00691b0d-a032-4b24-a86b-6b2aaf64aeb7"}
+- **retry** (mcp__ost-agent__ost_next_work): {"evidence":"TRANSCRIPT:01570f57-805f-4028-9938-132a3be514ca"}
+- **retry** (mcp__ost-agent__ost_next_work): {"evidence":"TRANSCRIPT:030e5db3-9414-441f-9221-b4a984c11825"}
+- **retry** (mcp__ost-agent__ost_read_tree): {"node":"I map evidence the way the method says — onto an existing node — and the queue counts it as untouched"}
+- **retry** (mcp__ost-agent__ost_read_tree): {"node":"Route the humans-required solution into the ask queue instead of dropping it from the instrument queue"}
+- **retry** (mcp__ost-agent__ost_read_tree): {"node":"Maintain a running per-item task list the next pass reads before reconstructing state itself"}
+- **retry** (mcp__ost-agent__ost_read_tree): {"node":"Append-only tool surface with no delete or shell tool"}
+- **retry** (mcp__ost-agent__ost_read_repo): {"path":"src/eval/buildable.ts","probe":true}
+- **retry** (mcp__ost-agent__ost_next_work): {"evidence":"TRANSCRIPT:310aca21-df8a-40b2-8c99-65804bad9fbf"}
