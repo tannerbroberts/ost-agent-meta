@@ -29878,3 +29878,4 @@
 {"ts":"2026-11-20T17:23:45.193Z","tool":"ost_append_to_node","ok":true,"ms":25,"surface":"mcp","argBytes":1965,"session":"mcp-e2a7fd55-968c-4597-8075-dadc7414aaff","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
 {"ts":"2026-11-20T17:23:52.585Z","tool":"ost_annotate","ok":true,"ms":26,"surface":"mcp","argBytes":666,"session":"mcp-e2a7fd55-968c-4597-8075-dadc7414aaff","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
 {"ts":"2026-11-20T17:23:53.006Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-e2a7fd55-968c-4597-8075-dadc7414aaff"}
+{"ts":"2026-11-20T18:26:12.811Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-84c74461-01fa-4118-a873-f65a3d0c1dbf"}
