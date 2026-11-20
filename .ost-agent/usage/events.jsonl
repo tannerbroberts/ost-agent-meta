@@ -29788,3 +29788,13 @@
 {"ts":"2026-11-20T10:04:29.288Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":116,"session":"mcp-7018bfcd-bb81-431e-917d-5a483cb7946f"}
 {"ts":"2026-11-20T10:04:31.577Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-7018bfcd-bb81-431e-917d-5a483cb7946f"}
 {"ts":"2026-11-20T11:06:43.685Z","tool":"ost_ingest_inbox","ok":true,"ms":119,"surface":"mcp","argBytes":2,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:06:45.392Z","tool":"ost_next_work","ok":true,"ms":181,"surface":"mcp","argBytes":2,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:06:58.697Z","tool":"ost_next_work","ok":true,"ms":46,"surface":"mcp","argBytes":62,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:06:59.378Z","tool":"ost_next_work","ok":true,"ms":47,"surface":"mcp","argBytes":62,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:06:59.956Z","tool":"ost_next_work","ok":true,"ms":45,"surface":"mcp","argBytes":62,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:07:00.641Z","tool":"ost_next_work","ok":true,"ms":45,"surface":"mcp","argBytes":62,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:07:01.174Z","tool":"ost_read_tree","ok":true,"ms":81,"surface":"mcp","argBytes":108,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:07:01.500Z","tool":"ost_read_tree","ok":true,"ms":73,"surface":"mcp","argBytes":116,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:07:04.992Z","tool":"ost_read_tree","ok":true,"ms":84,"surface":"mcp","argBytes":113,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T11:07:06.721Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-9fe2f338-6831-4669-a29e-9f9b07d64c90"}
+{"ts":"2026-11-20T12:09:20.053Z","tool":"ost_ingest_inbox","ok":true,"ms":115,"surface":"mcp","argBytes":2,"session":"mcp-31ba40d5-68e4-4d50-b360-ef46c03e16ba"}
