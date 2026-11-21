@@ -30080,3 +30080,4 @@
 {"ts":"2026-11-21T11:10:27.053Z","tool":"ost_next_work","ok":true,"ms":47,"surface":"mcp","argBytes":62,"session":"mcp-9dbcef3a-baac-46c8-8105-986a5477aeaa"}
 {"ts":"2026-11-21T11:10:38.704Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":2336,"session":"mcp-9dbcef3a-baac-46c8-8105-986a5477aeaa","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
 {"ts":"2026-11-21T11:10:39.117Z","tool":"ost_ingest_inbox","ok":true,"ms":16,"surface":"mcp","argBytes":2,"session":"mcp-9dbcef3a-baac-46c8-8105-986a5477aeaa"}
+{"ts":"2026-11-21T12:12:55.158Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-992b312e-122d-4776-ab35-6f4fd4f89988"}
