@@ -30113,3 +30113,4 @@
 {"ts":"2026-11-21T14:19:02.859Z","tool":"ost_read_tree","ok":true,"ms":80,"surface":"mcp","argBytes":103,"session":"mcp-df32158b-7185-42d1-b8fb-349d5b000988"}
 {"ts":"2026-11-21T14:19:14.166Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-df32158b-7185-42d1-b8fb-349d5b000988"}
 {"ts":"2026-11-21T14:19:24.475Z","tool":"ost_append_to_node","ok":true,"ms":27,"surface":"mcp","argBytes":2075,"session":"mcp-df32158b-7185-42d1-b8fb-349d5b000988","touched":["Every session leaves an evidence record that restates a need the tree already holds.md"]}
+{"ts":"2026-11-21T15:21:40.399Z","tool":"ost_ingest_inbox","ok":true,"ms":120,"surface":"mcp","argBytes":2,"session":"mcp-a2af7e05-4233-49e9-82c6-74842124d48b"}
