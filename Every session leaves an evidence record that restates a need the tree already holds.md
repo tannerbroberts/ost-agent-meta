@@ -398,3 +398,13 @@ One row, per this node's standing instruction. This firing's ingest captured **1
 `src/eval/buildable.ts` still probes at 23,611 bytes and `solutionsMissingInstruments` is still 70, so nothing was written on the routing solution. `withheldByDisposition` is still `[]`. The 1,859 records behind the page stay unreachable from this surface.
 
 _Method: four `ost_next_work({evidence})` reads (one new, three repeats), two `ost_read_tree` node reads, one `ost_read_repo` probe. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## Trend row — 2026-11-21 (third firing): 1886 (+2 since the 1884 row), and the shown page stayed closed
+
+One row, per this node's standing instruction. This firing's ingest captured **1** record, `TRANSCRIPT:a2180250-b849-4f87-980a-09c9922d889d`, read in full: 14 events, all `retry`, every one an argued re-read — the held opportunity, the routing solution, the `src/eval/buildable.ts` probe, seven head-of-queue evidence ids and line-range reads of two long node files. Held by "One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not". No new shape, no seventh row, no opportunity created.
+
+**The advice was missed again, for the reason the previous row gives.** This firing re-read three shown-page records (`00032886…`, `004a28b8…`, `030e5db3…`), the held opportunity, the routing solution and "Maintain a running per-item task list the next pass reads before reconstructing state itself" in its first batch, about 45,000 characters, before reaching this node's tail. Each said what earlier rows say it says. The other 22 shown records were not re-read. Three consecutive firings today have now paid this; advice that lives at the bottom of the node a firing opens last does not get read first.
+
+`src/eval/buildable.ts` still probes at 23,611 bytes and `solutionsMissingInstruments` is still 70, so nothing was written on the routing solution. `withheldByDisposition` is still `[]`. The standing ideation hold was read and respected. The 1,861 records behind the page stay unreachable from this surface.
+
+_Method: four `ost_next_work({evidence})` reads (one new, three repeats), three `ost_read_tree` node reads, one `ost_read_repo` probe, two Greps and one tail read of this file. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
