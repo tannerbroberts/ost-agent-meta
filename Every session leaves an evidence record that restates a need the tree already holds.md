@@ -478,3 +478,13 @@ One row, per this node's standing instruction. This firing's ingest captured **1
 `src/eval/buildable.ts` still probes at 23,611 bytes and `solutionsMissingInstruments` is still 70, so nothing was written on the routing solution. `withheldByDisposition` is still `[]`. The standing ideation hold was read and respected.
 
 _Method: fifteen `ost_next_work({evidence})` reads, six `ost_read_tree` node reads, one `ost_read_repo` probe. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## Trend row — 2026-11-21 (eleventh firing): 1895 (+1 since the 1894 row), and the shown page stayed closed
+
+One row, per this node's standing instruction, kept short. This firing's ingest captured **1** record, `TRANSCRIPT:aa32ca2c-73c6-48b5-8623-aae37fe08b94`, read in full: 24 events, all `retry`, every one an argued read by the tenth firing (fifteen evidence ids, the held opportunity, this node, four bucket solutions, a Grep and Read of a persisted tool result, the loop's bare `ost_ingest_inbox`). Held by "One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not". No new shape, no seventh row in the shapes table, no opportunity created.
+
+**Missed an eleventh time today, same cause.** This firing re-read four shown-page records (`00032886…`, `004a28b8…`, `02326b78…`, `030e5db3…`) and the held opportunity in its first batch, before reaching this tail. Each said what earlier rows say it says. The diagnosis is unchanged: the advice has to sit in the loop's prompt, which is the operator's to edit.
+
+`src/eval/buildable.ts` still probes at 23,611 bytes and `solutionsMissingInstruments` is still 70, so nothing was written on the routing solution. `withheldByDisposition` is still `[]`. The standing ideation hold was read and respected, and no section was added to that node.
+
+_Method: five `ost_next_work({evidence})` reads (one new, four repeats), one `ost_read_tree` node read, one `ost_read_repo` listing and one probe, Grep/Read of two node files' tails. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
