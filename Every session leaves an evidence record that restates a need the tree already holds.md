@@ -373,3 +373,18 @@ One row, per this node's standing instruction. This firing's ingest captured **1
 **For the next firing, so it does not pay this again.** Of the 25 records the sweep shows (alphabetical, unchanged since at least 2026-10-25), 16 have now been read in full across today's two firings and all 16 are known shapes. The nine not read are `0095203e…`, `00c3120a…`, `015d5a7e…`, `01943433…`, `01e55025…`, `021bdd98…`, `022e473f…`, `024ceca3…`, `026cb2bb…`, `02912d97…` less whichever of those the earlier row's ten covered (it named `0095203e…`). Re-reading the 16 buys nothing, and each re-read is itself filed as a `retry` by the next ingest. The 1,840 records behind the page stay unreachable from this surface; that is "Most of my backlog has never been read once, because every firing is shown the same alphabetical first 25".
 
 `withheldByDisposition` is still `[]`. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design.
+
+## Trend row — 2026-11-21: 1883 (+18 since the 1865 row of 2026-11-20), and the shown page is closed at 25 of 25
+
+One row, per this node's standing instruction. This firing's ingest captured **1** record, `TRANSCRIPT:98b89486…`: nine argued re-reads filed as `retry`, the same head-of-queue ids and the same two long nodes as every recent firing.
+
+**The nine head-of-queue records the 2026-11-20 row left unread are now read in full, so all 25 shown records carry a verdict and none names a need the tree lacks.**
+- `00c3120a…`, `024ceca3…`: `Write` on an unread file (row 1).
+- `015d5a7e…`: a Grep denied a read of `/dev/null`, a permission refusal held by "A scheduled run finds out its tools are missing only after it has started"; plus bare `ost_ingest_inbox` / `ost_next_work` repeats.
+- `022e473f…`: `ls: -d: No such file or directory`, a flag read as a path. Held by "A string I meant literally is read as syntax, so the command fails instead of searching" as the nearest shape; it is an argument-order slip and not a quoting one, so that fit is approximate.
+- `01943433…`, `01e55025…`: only the loop's own repeated no-argument `ost_ingest_inbox` / `ost_next_work` calls, filed as `retry`.
+- `021bdd98…`, `026cb2bb…`, `02912d97…`: argued re-reads filed as `retry`, held by "One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not".
+
+**For the next firing.** The shown page has not changed since at least 2026-10-25 and is now exhausted: reading any of its 25 again buys nothing and is itself filed as a `retry` by the next ingest. The only unread record a firing can reach is the one its own ingest captures. The 1,858 behind the page stay unreachable from this surface. `withheldByDisposition` is still `[]`.
+
+_Method: ten `ost_next_work({evidence})` reads this firing (the new record plus the nine), and five re-reads of records earlier rows had already covered, which this firing paid before reading the 2026-11-20 row. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
