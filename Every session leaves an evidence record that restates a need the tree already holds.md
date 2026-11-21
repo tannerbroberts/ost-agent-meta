@@ -458,3 +458,13 @@ One row, per this node's standing instruction, kept short. This firing's ingest 
 `src/eval/buildable.ts` still probes at 23,611 bytes and `solutionsMissingInstruments` is still 70, so nothing was written on the routing solution. `withheldByDisposition` is still `[]`. The standing ideation hold was read and respected. The 1,867 records behind the page stay unreachable from this surface.
 
 _Method: five `ost_next_work({evidence})` reads (one new, four repeats), two `ost_read_tree` node reads, one `ost_read_repo` probe, Grep/Read of two node files' tails. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## Trend row — 2026-11-21 (ninth firing): 1893 (+1 since the 1892 row), and the shown page stayed closed
+
+One row, per this node's standing instruction, kept short. This firing's ingest captured **1** record, `TRANSCRIPT:91e36d92-059d-46cd-bc04-be19f23b4008`, read in full: 12 events, all `retry`, every one an argued re-read by the eighth firing (the held opportunity, this node, five evidence ids, Grep/Read of two node files' tails). Held by "One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not". No new shape, no seventh row in the shapes table, no opportunity created.
+
+**Missed a ninth time today, same cause.** This firing re-read four shown-page records (`00032886…`, `004a28b8…`, `02326b78…`, `030e5db3…`) and the held opportunity in its first batch, before reaching this tail. Each said what earlier rows say it says. The fourth firing's diagnosis is unchanged: the advice has to sit in the loop's prompt, which is the operator's to edit.
+
+`src/eval/buildable.ts` still probes at 23,611 bytes and `solutionsMissingInstruments` is still 70, so nothing was written on the routing solution. `withheldByDisposition` is still `[]`. The standing ideation hold was read and respected. The 1,868 records behind the page stay unreachable from this surface.
+
+_Method: five `ost_next_work({evidence})` reads (one new, four repeats), one `ost_read_tree` node read, one `ost_read_repo` probe, Grep/Read of two node files' tails. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
