@@ -30022,3 +30022,4 @@
 {"ts":"2026-11-21T05:56:40.301Z","tool":"ost_read_tree","ok":true,"ms":79,"surface":"mcp","argBytes":116,"session":"mcp-379902a5-8a1a-44b2-a57a-2d38307e490e"}
 {"ts":"2026-11-21T05:56:42.076Z","tool":"ost_read_repo","ok":true,"ms":0,"surface":"mcp","argBytes":45,"session":"mcp-379902a5-8a1a-44b2-a57a-2d38307e490e"}
 {"ts":"2026-11-21T05:56:42.172Z","tool":"ost_ingest_inbox","ok":true,"ms":17,"surface":"mcp","argBytes":2,"session":"mcp-379902a5-8a1a-44b2-a57a-2d38307e490e"}
+{"ts":"2026-11-21T06:58:55.311Z","tool":"ost_ingest_inbox","ok":true,"ms":112,"surface":"mcp","argBytes":2,"session":"mcp-af31e972-db43-4a76-bb4b-0fa5e0c1eb59"}
