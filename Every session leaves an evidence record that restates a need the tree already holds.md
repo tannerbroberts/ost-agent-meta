@@ -468,3 +468,13 @@ One row, per this node's standing instruction, kept short. This firing's ingest 
 `src/eval/buildable.ts` still probes at 23,611 bytes and `solutionsMissingInstruments` is still 70, so nothing was written on the routing solution. `withheldByDisposition` is still `[]`. The standing ideation hold was read and respected. The 1,868 records behind the page stay unreachable from this surface.
 
 _Method: five `ost_next_work({evidence})` reads (one new, four repeats), one `ost_read_tree` node read, one `ost_read_repo` probe, Grep/Read of two node files' tails. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
+
+## Trend row — 2026-11-21 (tenth firing): 1894 (+1 since the 1893 row), and the shown page stayed closed
+
+One row, per this node's standing instruction. This firing's ingest captured **1** record, `TRANSCRIPT:33929cff-6e25-414a-a038-cb8632299a4e`, read in full: 13 events, all `retry`, every one an argued re-read by the ninth firing. Held by "One parallel call is filed as a retry, so the retry count says the agent repeated itself when it did not". No new shape, no seventh row in the shapes table, no opportunity created.
+
+**Missed a tenth time today, same cause, and at higher cost.** This firing read fifteen shown-page records, the held opportunity, this node and three bucket solutions before reaching this tail. Every one said what earlier rows say it says. The diagnosis is unchanged: the advice has to sit in the loop's prompt, which is the operator's to edit.
+
+`src/eval/buildable.ts` still probes at 23,611 bytes and `solutionsMissingInstruments` is still 70, so nothing was written on the routing solution. `withheldByDisposition` is still `[]`. The standing ideation hold was read and respected.
+
+_Method: fifteen `ost_next_work({evidence})` reads, six `ost_read_tree` node reads, one `ost_read_repo` probe. Observed records of the agent's own usage; they ground usability, not desirability. Nothing was created, executed or re-ranked. `ost_check` is withheld on this surface, so this write is unverified by design._
