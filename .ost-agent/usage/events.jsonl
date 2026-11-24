@@ -30892,3 +30892,4 @@
 {"ts":"2026-11-24T09:19:32.931Z","tool":"ost_read_tree","ok":true,"ms":76,"surface":"mcp","argBytes":116,"session":"mcp-6a9203eb-5252-4686-85e5-82e01a4a9111"}
 {"ts":"2026-11-24T09:19:38.519Z","tool":"ost_read_repo","ok":true,"ms":1,"surface":"mcp","argBytes":45,"session":"mcp-6a9203eb-5252-4686-85e5-82e01a4a9111"}
 {"ts":"2026-11-24T09:19:38.608Z","tool":"ost_ingest_inbox","ok":true,"ms":18,"surface":"mcp","argBytes":2,"session":"mcp-6a9203eb-5252-4686-85e5-82e01a4a9111"}
+{"ts":"2026-11-24T10:21:55.487Z","tool":"ost_ingest_inbox","ok":true,"ms":121,"surface":"mcp","argBytes":2,"session":"mcp-b4632b91-eaa8-4519-8dc8-6aee628dccd3"}
