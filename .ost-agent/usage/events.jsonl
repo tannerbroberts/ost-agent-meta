@@ -31134,3 +31134,4 @@
 {"ts":"2026-11-25T05:12:59.769Z","tool":"ost_read_tree","ok":true,"ms":78,"surface":"mcp","argBytes":61,"session":"mcp-aae0440e-b29d-4ac6-865a-8119839db0f2"}
 {"ts":"2026-11-25T05:13:00.120Z","tool":"ost_read_tree","ok":true,"ms":74,"surface":"mcp","argBytes":106,"session":"mcp-aae0440e-b29d-4ac6-865a-8119839db0f2"}
 {"ts":"2026-11-25T05:13:12.441Z","tool":"ost_annotate","ok":true,"ms":25,"surface":"mcp","argBytes":941,"session":"mcp-aae0440e-b29d-4ac6-865a-8119839db0f2","touched":["Surface a rolling friction trend across the last N firings, not per-run.md"]}
+{"ts":"2026-11-25T05:13:15.216Z","tool":"ost_annotate","ok":true,"ms":22,"surface":"mcp","argBytes":1015,"session":"mcp-aae0440e-b29d-4ac6-865a-8119839db0f2","touched":["The solution names its own riskiest assumption, and the gate checks that one was tested.md"]}
